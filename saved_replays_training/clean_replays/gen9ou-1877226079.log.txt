@@ -1,0 +1,110 @@
+|poke|p1|Dragapult, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Volcarona, F|
+|poke|p1|Moltres-Galar|
+|poke|p1|Garchomp, F|
+|poke|p1|Sneasler, F|
+|poke|p2|Dragalge, F|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Walking Wake|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|start
+|switch|p1a: dragon pult!|Dragapult, F|100/100
+|switch|p2a: Almost Home|Baxcalibur, M|100/100
+|turn|1
+|
+|switch|p2a: Anymore|Goodra-Hisui, F|100/100
+|move|p1a: dragon pult!|Reflect|p1a: dragon pult!
+|-sidestart|p1: IncandescentCandle|Reflect
+|
+|turn|2
+|
+|switch|p2a: Phantom Embrace|Dragapult, M|100/100
+|move|p1a: dragon pult!|Curse|p2a: Phantom Embrace
+|-start|p2a: Phantom Embrace|Curse|[of] p1a: dragon pult!
+|-damage|p1a: dragon pult!|50/100
+|
+|-damage|p2a: Phantom Embrace|76/100|[from] Curse
+|turn|3
+|
+|move|p2a: Phantom Embrace|Dragon Darts|p1a: dragon pult!
+|-supereffective|p1a: dragon pult!
+|-crit|p1a: dragon pult!
+|-damage|p1a: dragon pult!|0 fnt
+|faint|p1a: dragon pult!
+|
+|-damage|p2a: Phantom Embrace|51/100|[from] Curse
+|
+|switch|p1a: The Shield|Zamazenta|100/100
+|-ability|p1a: The Shield|Dauntless Shield|boost
+|-boost|p1a: The Shield|def|1
+|turn|4
+|
+|switch|p2a: Under|Garchomp, M, shiny|100/100
+|move|p1a: The Shield|Substitute|p1a: The Shield
+|-start|p1a: The Shield|Substitute
+|-damage|p1a: The Shield|75/100
+|
+|-heal|p1a: The Shield|82/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: The Shield|Iron Defense|p1a: The Shield
+|-boost|p1a: The Shield|def|2
+|move|p2a: Under|Dragon Tail|p1a: The Shield
+|-activate|p1a: The Shield|move: Substitute|[damage]
+|
+|-heal|p1a: The Shield|88/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: The Shield|Iron Defense|p1a: The Shield
+|-boost|p1a: The Shield|def|2
+|move|p2a: Under|Dragon Tail|p1a: The Shield
+|-activate|p1a: The Shield|move: Substitute|[damage]
+|
+|-heal|p1a: The Shield|94/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: The Shield|Iron Defense|p1a: The Shield
+|-boost|p1a: The Shield|def|1
+|move|p2a: Under|Earthquake|p1a: The Shield
+|-activate|p1a: The Shield|move: Substitute|[damage]
+|
+|-heal|p1a: The Shield|99/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: The Shield|Body Press|p2a: Under
+|-damage|p2a: Under|0 fnt
+|-damage|p1a: The Shield|88/100|[from] ability: Rough Skin|[of] p2a: Under
+|-damage|p1a: The Shield|71/100|[from] item: Rocky Helmet|[of] p2a: Under
+|faint|p2a: Under
+|
+|-heal|p1a: The Shield|78/100|[from] item: Leftovers
+|-sideend|p1: IncandescentCandle|Reflect
+|
+|switch|p2a: Drive Slow <3|Dragalge, F, shiny|100/100
+|turn|9
+|
+|move|p1a: The Shield|Body Press|p2a: Drive Slow <3
+|-resisted|p2a: Drive Slow <3
+|-damage|p2a: Drive Slow <3|2/100
+|move|p2a: Drive Slow <3|Sludge Bomb|p1a: The Shield
+|-end|p1a: The Shield|Substitute
+|
+|-heal|p1a: The Shield|84/100|[from] item: Leftovers
+|-heal|p2a: Drive Slow <3|8/100|[from] item: Black Sludge
+|turn|10
+|
+|move|p1a: The Shield|Body Press|p2a: Drive Slow <3
+|-resisted|p2a: Drive Slow <3
+|-damage|p2a: Drive Slow <3|0 fnt
+|faint|p2a: Drive Slow <3
+|
+|-heal|p1a: The Shield|90/100|[from] item: Leftovers
+|-message|Astro Rifk forfeited.
+|
+|win|IncandescentCandle
+|l|☆Astro Rifk

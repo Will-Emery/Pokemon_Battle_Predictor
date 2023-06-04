@@ -1,0 +1,265 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ursaluna, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: NEDARB|Samurott-Hisui, F, shiny|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|move|p2a: Samurott|Sacred Sword|p1a: NEDARB
+|-supereffective|p1a: NEDARB
+|-damage|p1a: NEDARB|3/100
+|move|p1a: NEDARB|Sacred Sword|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|2
+|
+|switch|p1a: COLD HART BABY|Clodsire, M|100/100
+|move|p2a: Dragapult|U-turn|p1a: COLD HART BABY
+|-resisted|p1a: COLD HART BABY
+|-damage|p1a: COLD HART BABY|91/100
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] U-turn
+|
+|-heal|p1a: COLD HART BABY|97/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|switch|p1a: HORSE HEAD|Tauros-Paldea-Aqua, M|100/100
+|-ability|p1a: HORSE HEAD|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|move|p2a: Ursaluna|Earthquake|p1a: HORSE HEAD
+|-damage|p1a: HORSE HEAD|58/100
+|
+|-heal|p1a: HORSE HEAD|64/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: HORSE HEAD|Raging Bull|p2a: Enamorus
+|-damage|p2a: Enamorus|50/100
+|-start|p1a: HORSE HEAD|Attract|[from] ability: Cute Charm|[of] p2a: Enamorus
+|
+|-heal|p1a: HORSE HEAD|71/100|[from] item: Leftovers
+|turn|5
+|
+|-activate|p1a: HORSE HEAD|move: Attract|[of] p2a: Enamorus
+|cant|p1a: HORSE HEAD|Attract
+|move|p2a: Enamorus|Earth Power|p1a: HORSE HEAD
+|-damage|p1a: HORSE HEAD|12/100
+|
+|-heal|p1a: HORSE HEAD|18/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-end|p1a: HORSE HEAD|Attract|[silent]
+|move|p1a: HORSE HEAD|Raging Bull|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|78/100
+|
+|-heal|p1a: HORSE HEAD|25/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: HORSE HEAD|Protect|p1a: HORSE HEAD
+|-singleturn|p1a: HORSE HEAD|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: HORSE HEAD
+|-activate|p1a: HORSE HEAD|move: Protect
+|
+|-heal|p1a: HORSE HEAD|31/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: COLD HART BABY|Clodsire, M|97/100
+|move|p2a: Dragapult|Shadow Ball|p1a: COLD HART BABY
+|-damage|p1a: COLD HART BABY|79/100
+|-unboost|p1a: COLD HART BABY|spd|1
+|
+|-heal|p1a: COLD HART BABY|85/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Ursaluna|Ursaluna, F|94/100 brn
+|move|p1a: COLD HART BABY|Stealth Rock|p2a: Ursaluna
+|-sidestart|p2: Paradox N|move: Stealth Rock
+|
+|-heal|p1a: COLD HART BABY|92/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|turn|10
+|
+|switch|p1a: HORSE HEAD|Tauros-Paldea-Aqua, M|31/100
+|-ability|p1a: HORSE HEAD|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|move|p2a: Ursaluna|Earthquake|p1a: HORSE HEAD
+|-damage|p1a: HORSE HEAD|0 fnt
+|faint|p1a: HORSE HEAD
+|
+|-damage|p2a: Ursaluna|82/100 brn|[from] brn
+|
+|switch|p1a: NEDARB|Samurott-Hisui, F, shiny|3/100
+|turn|11
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p2a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: NEDARB|Aqua Cutter|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|50/100
+|
+|turn|12
+|
+|switch|p1a: COLD HART BABY|Clodsire, M|92/100
+|move|p2a: Zamazenta|Crunch|p1a: COLD HART BABY
+|-damage|p1a: COLD HART BABY|68/100
+|
+|-heal|p1a: COLD HART BABY|74/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Ursaluna|Ursaluna, F|82/100 brn
+|-damage|p2a: Ursaluna|76/100 brn|[from] Stealth Rock
+|move|p1a: COLD HART BABY|Recover|p1a: COLD HART BABY
+|-heal|p1a: COLD HART BABY|100/100
+|
+|-damage|p2a: Ursaluna|70/100 brn|[from] brn
+|turn|14
+|
+|switch|p1a: NEDARB|Samurott-Hisui, F, shiny|3/100
+|move|p2a: Ursaluna|Earthquake|p1a: NEDARB
+|-damage|p1a: NEDARB|0 fnt
+|faint|p1a: NEDARB
+|
+|-damage|p2a: Ursaluna|64/100 brn|[from] brn
+|
+|switch|p1a: LIL PEEP|Sneasler, M|100/100
+|turn|15
+|
+|switch|p2a: Dragapult|Dragapult, F|78/100
+|-damage|p2a: Dragapult|65/100|[from] Stealth Rock
+|move|p1a: LIL PEEP|Close Combat|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|turn|16
+|
+|move|p2a: Dragapult|U-turn|p1a: LIL PEEP
+|-resisted|p1a: LIL PEEP
+|-damage|p1a: LIL PEEP|94/100
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: LIL PEEP|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|-unboost|p1a: LIL PEEP|def|1
+|-unboost|p1a: LIL PEEP|spd|1
+|
+|turn|17
+|
+|switch|p1a: WICCA PHASE|Dragapult, M|100/100
+|move|p2a: Slowking|Surf|p1a: WICCA PHASE
+|-resisted|p1a: WICCA PHASE
+|-damage|p1a: WICCA PHASE|80/100
+|
+|turn|18
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|50/100
+|-damage|p2a: Zamazenta|47/100|[from] Stealth Rock
+|move|p1a: WICCA PHASE|U-turn|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|44/100
+|
+|switch|p1a: LIL TRACY|Gholdengo|100/100|[from] U-turn
+|
+|turn|19
+|
+|move|p1a: LIL TRACY|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|8/100
+|move|p2a: Zamazenta|Crunch|p1a: LIL TRACY
+|-supereffective|p1a: LIL TRACY
+|-damage|p1a: LIL TRACY|54/100
+|
+|turn|20
+|
+|switch|p1a: LIL PEEP|Sneasler, M|94/100
+|switch|p2a: Ursaluna|Ursaluna, F|64/100 brn
+|-damage|p2a: Ursaluna|58/100 brn|[from] Stealth Rock
+|
+|-damage|p2a: Ursaluna|52/100 brn|[from] brn
+|turn|21
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|8/100
+|-damage|p2a: Zamazenta|5/100|[from] Stealth Rock
+|move|p1a: LIL PEEP|Dire Claw|p2a: Zamazenta
+|-immune|p2a: Zamazenta
+|
+|turn|22
+|
+|switch|p1a: COLD HART BABY|Clodsire, M|100/100
+|move|p2a: Zamazenta|Behemoth Bash|p1a: COLD HART BABY
+|-damage|p1a: COLD HART BABY|54/100
+|
+|-heal|p1a: COLD HART BABY|60/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Zamazenta|Behemoth Bash|p1a: COLD HART BABY
+|-damage|p1a: COLD HART BABY|15/100
+|move|p1a: COLD HART BABY|Earthquake|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: COLD HART BABY|22/100|[from] item: Leftovers
+|
+|switch|p2a: Enamorus|Enamorus, F|50/100
+|-damage|p2a: Enamorus|25/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Enamorus|Earth Power|p1a: COLD HART BABY
+|-supereffective|p1a: COLD HART BABY
+|-damage|p1a: COLD HART BABY|0 fnt
+|faint|p1a: COLD HART BABY
+|
+|
+|switch|p1a: WICCA PHASE|Dragapult, M|80/100
+|turn|25
+|
+|move|p1a: WICCA PHASE|Shadow Ball|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|65/100
+|-damage|p2a: Dragapult|53/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: WICCA PHASE
+|-supereffective|p1a: WICCA PHASE
+|-damage|p1a: WICCA PHASE|0 fnt
+|faint|p1a: WICCA PHASE
+|
+|
+|switch|p1a: LIL TRACY|Gholdengo|54/100
+|turn|27
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: LIL TRACY
+|-supereffective|p1a: LIL TRACY
+|-damage|p1a: LIL TRACY|0 fnt
+|faint|p1a: LIL TRACY
+|
+|-message|Frank Lopez forfeited.
+|
+|win|Paradox N
+|l|☆Frank Lopez

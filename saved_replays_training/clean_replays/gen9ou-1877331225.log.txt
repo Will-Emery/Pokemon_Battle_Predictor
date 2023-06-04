@@ -1,0 +1,65 @@
+|poke|p1|Corviknight, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, F|
+|poke|p1|Zapdos|
+|poke|p1|Amoonguss, F|
+|poke|p1|Electrode-Hisui|
+|poke|p2|Pelipper, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Kilowattrel, F|
+|poke|p2|Goodra, M|
+|poke|p2|Scizor, M|
+|teampreview
+|
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Kilowattrel|Kilowattrel, F|100/100
+|-terastallize|p1a: Electrode|Ice
+|move|p1a: Electrode|Tera Blast|p2a: Kilowattrel
+|-supereffective|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Landorus|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|87/100
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100|[from] U-turn
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|-terastallize|p2a: Scizor|Steel
+|move|p2a: Scizor|Bullet Punch|p1a: Amoonguss
+|-damage|p1a: Amoonguss|6/100
+|-damage|p2a: Scizor|70/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|move|p1a: Amoonguss|Spore|p2a: Scizor
+|-status|p2a: Scizor|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|-message|tulipa plays forfeited.
+|
+|win|NoParadox
+|l|☆tulipa plays

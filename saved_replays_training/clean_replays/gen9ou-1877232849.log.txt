@@ -1,0 +1,176 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Jolteon, F|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Scizor, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Slither Wing|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Azumarill, M|
+|poke|p2|Heatran, M|
+|teampreview
+|
+|start
+|switch|p1a: Wipe|Pelipper, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Wipe
+|turn|1
+|
+|-terastallize|p2a: Heatran|Bug
+|move|p1a: Wipe|Hydro Pump|p2a: Heatran|[miss]
+|-miss|p1a: Wipe|p2a: Heatran
+|move|p2a: Heatran|Dragon Pulse|p1a: Wipe
+|-damage|p1a: Wipe|43/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: Wipe|Hydro Pump|p2a: Heatran
+|-damage|p2a: Heatran|41/100
+|move|p2a: Heatran|Dragon Pulse|p1a: Wipe
+|-damage|p1a: Wipe|0 fnt
+|faint|p1a: Wipe
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|48/100|[from] item: Leftovers
+|
+|switch|p1a: Rapper|Typhlosion-Hisui, F|100/100
+|turn|3
+|
+|move|p1a: Rapper|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|15/100
+|-unboost|p2a: Heatran|spd|1
+|move|p2a: Heatran|Earth Power|p1a: Rapper
+|-supereffective|p1a: Rapper
+|-damage|p1a: Rapper|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|21/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Rapper|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|5
+|
+|move|p1a: Rapper|Shadow Ball|p2a: Urshifu
+|-damage|p2a: Urshifu|41/100
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|
+|-weather|none
+|-heal|p2a: Urshifu|47/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Rapper|Shadow Ball|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|7
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Rapper
+|-supereffective|p1a: Rapper
+|-damage|p1a: Rapper|0 fnt
+|faint|p1a: Rapper
+|
+|
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|turn|8
+|
+|-terastallize|p1a: Slither Wing|Ground
+|move|p2a: Azumarill|Aqua Jet|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|19/100
+|move|p1a: Slither Wing|Will-O-Wisp|p2a: Azumarill
+|-status|p2a: Azumarill|brn
+|
+|-heal|p1a: Slither Wing|25/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|94/100 brn|[from] brn
+|turn|9
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|-damage|p2a: Azumarill|88/100 brn|[from] brn
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|10
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|89/100
+|-damage|p1a: Scizor|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Skeledirge|95/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Scizor|U-turn|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|87/100
+|-damage|p1a: Scizor|81/100|[from] item: Life Orb
+|
+|switch|p1a: Asia Size|Jolteon, F|100/100|[from] U-turn
+|move|p2a: Skeledirge|Earth Power|p1a: Asia Size
+|-supereffective|p1a: Asia Size
+|-damage|p1a: Asia Size|41/100
+|
+|-heal|p2a: Skeledirge|93/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Asia Size|Fake Tears|p2a: Skeledirge
+|-unboost|p2a: Skeledirge|spd|2
+|move|p2a: Skeledirge|Earth Power|p1a: Asia Size
+|-supereffective|p1a: Asia Size
+|-damage|p1a: Asia Size|0 fnt
+|faint|p1a: Asia Size
+|
+|-heal|p2a: Skeledirge|99/100|[from] item: Leftovers
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|turn|13
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Goodra|Hydro Pump|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|59/100
+|
+|turn|14
+|
+|move|p2a: Chien-Pao|Brick Break|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|4/100
+|move|p1a: Goodra|Heavy Slam|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Goodra|atk|1
+|turn|15
+|
+|move|p2a: Landorus|U-turn|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|switch|p2a: Skeledirge|Skeledirge, M|99/100|[from] U-turn
+|
+|-heal|p2a: Skeledirge|100/100|[from] item: Leftovers
+|-message|Hdjd2Saucy forfeited.
+|
+|win|Chachapwq
+|l|☆Hdjd2Saucy

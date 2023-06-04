@@ -1,0 +1,237 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Skeledirge, F|
+|poke|p1|Breloom, F|
+|poke|p1|Magearna|
+|poke|p1|Azelf|
+|poke|p2|Heatran, F|
+|poke|p2|Tauros-Paldea-Blaze, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Volcanion|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|51/100
+|move|p1a: Magearna|Reflect|p1a: Magearna
+|-sidestart|p1: puissance du feu|Reflect
+|
+|turn|2
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Magearna
+|-sidestart|p1: puissance du feu|move: Stealth Rock
+|move|p1a: Magearna|Pain Split|p2a: Garchomp
+|-sethp|p2a: Garchomp|72/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Magearna|83/100|[from] move: Pain Split
+|
+|turn|3
+|
+|move|p2a: Garchomp|Spikes|p1a: Magearna
+|-sidestart|p1: puissance du feu|Spikes
+|move|p1a: Magearna|Ice Beam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|4
+|
+|move|p2a: Heatran|Lava Plume|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|19/100
+|-status|p1a: Magearna|brn
+|move|p1a: Magearna|Light Screen|p1a: Magearna
+|-sidestart|p1: puissance du feu|move: Light Screen
+|
+|-damage|p1a: Magearna|13/100 brn|[from] brn
+|turn|5
+|
+|move|p2a: Heatran|Lava Plume|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: No..|Indeedee, M|100/100
+|-damage|p1a: No..|88/100|[from] Stealth Rock
+|-damage|p1a: No..|76/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: No..
+|turn|6
+|
+|move|p2a: Heatran|Lava Plume|p1a: No..
+|-damage|p1a: No..|48/100
+|move|p1a: No..|Encore|p2a: Heatran
+|-start|p2a: Heatran|Encore
+|
+|turn|7
+|
+|move|p2a: Heatran|Lava Plume|p1a: No..
+|-damage|p1a: No..|20/100
+|move|p1a: No..|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|73/100
+|
+|turn|8
+|
+|move|p2a: Heatran|Lava Plume|p1a: No..
+|-damage|p1a: No..|0 fnt
+|faint|p1a: No..
+|
+|-sideend|p1: puissance du feu|Reflect
+|
+|switch|p1a: Ok|Sneasler, M|100/100
+|-damage|p1a: Ok|94/100|[from] Stealth Rock
+|-damage|p1a: Ok|82/100|[from] Spikes
+|-enditem|p1a: Ok|Psychic Seed
+|-boost|p1a: Ok|spd|1|[from] item: Psychic Seed
+|turn|9
+|
+|switch|p2a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Ok|atk|1
+|move|p1a: Ok|Swords Dance|p1a: Ok
+|-boost|p1a: Ok|atk|2
+|
+|turn|10
+|
+|-terastallize|p2a: Tauros|Fire
+|move|p1a: Ok|Dire Claw|p2a: Tauros
+|-damage|p2a: Tauros|38/100
+|-status|p2a: Tauros|slp
+|cant|p2a: Tauros|slp
+|
+|-heal|p2a: Tauros|44/100 slp|[from] item: Leftovers
+|turn|11
+|n|!The Worst (69)|theworst69
+|
+|switch|p2a: Heatran|Heatran, F|73/100
+|move|p1a: Ok|Dire Claw|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-sideend|p1: puissance du feu|move: Light Screen
+|turn|12
+|
+|switch|p2a: Tauros|Tauros-Paldea-Blaze, M, tera:Fire|44/100 slp
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Ok|atk|1
+|move|p1a: Ok|Close Combat|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-unboost|p1a: Ok|def|1
+|-unboost|p1a: Ok|spd|1
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|13
+|
+|move|p1a: Ok|Dire Claw|p2a: Volcanion
+|-damage|p2a: Volcanion|67/100
+|-status|p2a: Volcanion|par
+|cant|p2a: Volcanion|par
+|
+|-fieldend|move: Psychic Terrain
+|turn|14
+|
+|move|p1a: Ok|Swords Dance|p1a: Ok
+|-boost|p1a: Ok|atk|2
+|cant|p2a: Volcanion|par
+|
+|turn|15
+|
+|move|p1a: Ok|Close Combat|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|-unboost|p1a: Ok|def|1
+|-unboost|p1a: Ok|spd|1
+|faint|p2a: Volcanion
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|16
+|
+|switch|p1a: Sku|Skeledirge, F|100/100
+|move|p2a: Chien-Pao|Ice Shard|p1a: Sku
+|-resisted|p1a: Sku
+|-damage|p1a: Sku|88/100
+|
+|turn|17
+|
+|switch|p2a: Heatran|Heatran, F|73/100
+|switch|p1a: Ok|Sneasler, M|82/100
+|-damage|p1a: Ok|76/100|[from] Stealth Rock
+|-damage|p1a: Ok|63/100|[from] Spikes
+|
+|turn|18
+|
+|move|p2a: Heatran|Lava Plume|p1a: Ok
+|-damage|p1a: Ok|16/100
+|move|p1a: Ok|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Ok|def|1
+|-unboost|p1a: Ok|spd|1
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|19
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Ok
+|-resisted|p1a: Ok
+|-damage|p1a: Ok|0 fnt
+|faint|p1a: Ok
+|
+|
+|switch|p1a: Sku|Skeledirge, F|88/100
+|turn|20
+|
+|-terastallize|p1a: Sku|Fairy
+|move|p2a: Chien-Pao|Crunch|p1a: Sku
+|-resisted|p1a: Sku
+|-damage|p1a: Sku|65/100
+|move|p1a: Sku|Will-O-Wisp|p2a: Chien-Pao
+|-status|p2a: Chien-Pao|brn
+|
+|-damage|p2a: Chien-Pao|95/100 brn|[from] brn
+|turn|21
+|
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|move|p1a: Sku|Slack Off|p1a: Sku
+|-heal|p1a: Sku|100/100
+|
+|turn|22
+|
+|move|p2a: Meowscarada|Flower Trick|p1a: Sku
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p1a: Sku
+|-damage|p1a: Sku|66/100
+|move|p1a: Sku|Will-O-Wisp|p2a: Meowscarada
+|-status|p2a: Meowscarada|brn
+|
+|-damage|p2a: Meowscarada|94/100 brn|[from] brn
+|turn|23
+|
+|move|p2a: Meowscarada|Flower Trick|p1a: Sku
+|-crit|p1a: Sku
+|-damage|p1a: Sku|49/100
+|move|p1a: Sku|Slack Off|p1a: Sku
+|-heal|p1a: Sku|99/100
+|
+|-damage|p2a: Meowscarada|88/100 brn|[from] brn
+|turn|24
+|-message|The Worst (69) forfeited.
+|
+|win|puissance du feu
+|l|!The Worst (69)

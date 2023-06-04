@@ -1,0 +1,98 @@
+|poke|p1|Magearna|
+|poke|p1|Volcarona, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Lycanroc-Dusk, M|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Hands|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Samurott
+|-sidestart|p1: X-Scizor|move: Stealth Rock
+|move|p1a: Samurott|Taunt|p2a: Garchomp
+|-start|p2a: Garchomp|move: Taunt
+|
+|turn|2
+|
+|move|p2a: Garchomp|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|10/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Samurott|Ceaseless Edge|p2a: Garchomp
+|-damage|p2a: Garchomp|43/100
+|-sidestart|p2: MikazukiRex|Spikes
+|-damage|p1a: Samurott|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-damage|p1a: Sneasler|94/100|[from] Stealth Rock
+|-item|p1a: Sneasler|Air Balloon
+|turn|3
+|
+|switch|p2a: Iron Hands|Iron Hands, shiny|100/100
+|-damage|p2a: Iron Hands|88/100|[from] Spikes
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|turn|4
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Iron Hands|Ice Punch|p1a: Sneasler
+|-damage|p1a: Sneasler|54/100
+|-enditem|p1a: Sneasler|Air Balloon
+|
+|turn|5
+COMMANDS: /report, /msg, /reply, /logout, /challenge, /search, /rating, /whois, /user, /join, /leave, /userauth, /roomauth
+BATTLE ROOM COMMANDS: /savereplay, /hideroom, /inviteonly, /invite, /timer, /forfeit
+OPTION COMMANDS: /nick, /avatar, /ignore, /status, /away, /busy, /back, /timestamps, /highlight, /showjoins, /hidejoins, /blockchallenges, /blockpms
+INFORMATIONAL/RESOURCE COMMANDS: /groups, /faq, /rules, /intro, /formatshelp, /othermetas, /analysis, /punishments, /calc, /git, /cap, /roomhelp, /roomfaq (replace / with ! to broadcast. Broadcasting requires: + % @ # &)
+DATA COMMANDS: /data, /dexsearch, /movesearch, /itemsearch, /learn, /statcalc, /effectiveness, /weakness, /coverage, /randommove, /randompokemon (replace / with ! to broadcast. Broadcasting requires: + % @ # &)
+For an overview of room commands, use /roomhelp
+For details of a specific command, use something like: /help data
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|
+|switch|p2a: Dragonite|Dragonite, F, shiny|100/100
+|turn|6
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Dragonite
+|-damage|p2a: Dragonite|20/100
+|-status|p2a: Dragonite|slp
+|cant|p2a: Dragonite|slp
+|
+|turn|7
+|
+|cant|p2a: Dragonite|slp
+|move|p1a: Sneasler|Dire Claw|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|88/100|[from] Spikes
+|turn|8
+|
+|-terastallize|p2a: Gholdengo|Water
+|move|p1a: Sneasler|Acrobatics|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-message|MikazukiRex forfeited.
+|
+|win|X-Scizor
+|l|☆MikazukiRex

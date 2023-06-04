@@ -1,0 +1,602 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Avalugg-Hisui, F|
+|poke|p2|Magearna|
+|poke|p2|Gholdengo|
+|poke|p2|Garganacl, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: X-23|Sneasler, F|100/100
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|1
+|
+|move|p1a: X-23|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|47/100
+|move|p2a: Volcarona|Will-O-Wisp|p1a: X-23
+|-status|p1a: X-23|brn
+|
+|-damage|p1a: X-23|95/100 brn|[from] brn
+|turn|2
+|
+|move|p1a: X-23|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|21/100
+|-status|p2a: Volcarona|par
+|move|p2a: Volcarona|Morning Sun|p2a: Volcarona
+|-heal|p2a: Volcarona|71/100 par
+|
+|-damage|p1a: X-23|89/100 brn|[from] brn
+|turn|3
+|
+|switch|p1a: Kodiak|Ursaluna, M|100/100
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|
+|-status|p1a: Kodiak|brn|[from] item: Flame Orb
+|turn|4
+|
+|-terastallize|p2a: Garganacl|Water
+|move|p1a: Kodiak|Headlong Rush|p2a: Garganacl
+|-damage|p2a: Garganacl|41/100
+|-unboost|p1a: Kodiak|def|1
+|-unboost|p1a: Kodiak|spd|1
+|move|p2a: Garganacl|Salt Cure|p1a: Kodiak
+|-resisted|p1a: Kodiak
+|-damage|p1a: Kodiak|93/100 brn
+|-start|p1a: Kodiak|Salt Cure
+|
+|-heal|p2a: Garganacl|47/100|[from] item: Leftovers
+|-damage|p1a: Kodiak|87/100 brn|[from] brn
+|-damage|p1a: Kodiak|75/100 brn|[from] Salt Cure
+|turn|5
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Kodiak|Facade|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-damage|p1a: Kodiak|69/100 brn|[from] brn
+|-damage|p1a: Kodiak|56/100 brn|[from] Salt Cure
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kodiak|atk|1
+|switch|p1a: Mudbud|Clodsire, F|100/100
+|
+|turn|7
+|
+|switch|p1a: Berga|Avalugg-Hisui, F, shiny|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Berga
+|-sidestart|p1: Adastran|move: Stealth Rock
+|
+|turn|8
+|
+|-terastallize|p1a: Berga|Flying
+|move|p2a: Landorus|U-turn|p1a: Berga
+|-resisted|p1a: Berga
+|-damage|p1a: Berga|96/100
+|-damage|p2a: Landorus|84/100|[from] item: Rocky Helmet|[of] p1a: Berga
+|
+|switch|p2a: Garganacl|Garganacl, F, tera:Water|47/100|[from] U-turn
+|move|p1a: Berga|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: ianlazerbeem|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|53/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Berga|Rapid Spin|p2a: Garganacl
+|-damage|p2a: Garganacl|46/100
+|-boost|p1a: Berga|spe|1
+|-sideend|p1: Adastran|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Berga
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|96/100
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Kodiak|Ursaluna, M|56/100 brn
+|move|p2a: Garganacl|Salt Cure|p1a: Kodiak
+|-resisted|p1a: Kodiak
+|-damage|p1a: Kodiak|51/100 brn
+|-start|p1a: Kodiak|Salt Cure
+|
+|-damage|p1a: Kodiak|45/100 brn|[from] brn
+|-damage|p1a: Kodiak|33/100 brn|[from] Salt Cure
+|turn|11
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Kodiak|Drain Punch|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-damage|p1a: Kodiak|27/100 brn|[from] brn
+|-damage|p1a: Kodiak|14/100 brn|[from] Salt Cure
+|turn|12
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Kodiak|Drain Punch|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-damage|p1a: Kodiak|8/100 brn|[from] brn
+|-damage|p1a: Kodiak|0 fnt|[from] Salt Cure
+|faint|p1a: Kodiak
+|
+|switch|p1a: Mudbud|Clodsire, F|100/100
+|turn|13
+|
+|switch|p1a: X-23|Sneasler, F|89/100 brn
+|move|p2a: Gholdengo|Hex|p1a: X-23
+|-damage|p1a: X-23|0 fnt
+|faint|p1a: X-23
+|
+|
+|switch|p1a: Mudbud|Clodsire, F|100/100
+|turn|14
+|
+|move|p1a: Mudbud|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|-damage|p1a: Mudbud|91/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Mudbud|Clodsire, F|100/100
+|move|p2a: Magearna|Spikes|p1a: Mudbud
+|-sidestart|p1: Adastran|Spikes
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Garganacl|Garganacl, F, tera:Water|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|move|p1a: Mudbud|Earthquake|p2a: Garganacl
+|-damage|p2a: Garganacl|73/100
+|
+|-heal|p2a: Garganacl|79/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Hisoka|Meowscarada, M|100/100
+|-damage|p1a: Hisoka|88/100|[from] Spikes
+|move|p2a: Garganacl|Salt Cure|p1a: Hisoka
+|-damage|p1a: Hisoka|65/100
+|-start|p1a: Hisoka|Salt Cure
+|
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|-damage|p1a: Hisoka|52/100|[from] Salt Cure
+|turn|18
+|
+|switch|p2a: Volcarona|Volcarona, M|71/100 par
+|move|p1a: Hisoka|U-turn|p2a: Volcarona
+|-start|p1a: Hisoka|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|43/100 par
+|
+|switch|p1a: Hisoka|Meowscarada, M|91/100|[from] U-turn
+|-damage|p1a: Hisoka|78/100|[from] Spikes
+|
+|turn|19
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|move|p1a: Hisoka|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|51/100
+|-unboost|p2a: Magearna|spd|1
+|-damage|p1a: Hisoka|68/100|[from] item: Life Orb
+|
+|-heal|p2a: Magearna|57/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Hisoka|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-damage|p1a: Hisoka|58/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|84/100
+|-damage|p2a: Landorus|72/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hisoka|atk|1
+|turn|21
+|
+|switch|p1a: Berga|Avalugg-Hisui, F, shiny, tera:Flying|96/100
+|move|p2a: Landorus|Earthquake|p1a: Berga
+|-immune|p1a: Berga
+|
+|turn|22
+|
+|move|p2a: Landorus|U-turn|p1a: Berga
+|-resisted|p1a: Berga
+|-damage|p1a: Berga|91/100
+|-damage|p2a: Landorus|55/100|[from] item: Rocky Helmet|[of] p1a: Berga
+|
+|switch|p2a: Garganacl|Garganacl, F, tera:Water|86/100|[from] U-turn
+|-damage|p2a: Garganacl|73/100|[from] Stealth Rock
+|move|p1a: Berga|Rapid Spin|p2a: Garganacl
+|-damage|p2a: Garganacl|66/100
+|-boost|p1a: Berga|spe|1
+|-sideend|p1: Adastran|Spikes|[from] move: Rapid Spin|[of] p1a: Berga
+|
+|-heal|p2a: Garganacl|72/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Berga|Ice Fang|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|60/100
+|move|p2a: Garganacl|Salt Cure|p1a: Berga
+|-supereffective|p1a: Berga
+|-damage|p1a: Berga|80/100
+|-start|p1a: Berga|Salt Cure
+|
+|-heal|p2a: Garganacl|67/100|[from] item: Leftovers
+|-damage|p1a: Berga|68/100|[from] Salt Cure
+|turn|24
+|
+|switch|p1a: Hisoka|Meowscarada, M|52/100
+|move|p2a: Garganacl|Salt Cure|p1a: Hisoka
+|-damage|p1a: Hisoka|31/100
+|-start|p1a: Hisoka|Salt Cure
+|
+|-heal|p2a: Garganacl|73/100|[from] item: Leftovers
+|-damage|p1a: Hisoka|18/100|[from] Salt Cure
+|turn|25
+|
+|switch|p2a: Volcarona|Volcarona, M|43/100 par
+|move|p1a: Hisoka|Flower Trick|p2a: Volcarona
+|-start|p1a: Hisoka|typechange|Grass|[from] ability: Protean
+|-resisted|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|21/100 par
+|
+|-damage|p1a: Hisoka|6/100|[from] Salt Cure
+|turn|26
+|
+|switch|p1a: Mudbud|Clodsire, F|100/100
+|move|p2a: Volcarona|Morning Sun|p2a: Volcarona
+|-heal|p2a: Volcarona|71/100 par
+|
+|turn|27
+|
+|move|p2a: Volcarona|Will-O-Wisp|p1a: Mudbud
+|-status|p1a: Mudbud|brn
+|move|p1a: Mudbud|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|57/100 par
+|
+|-damage|p1a: Mudbud|94/100 brn|[from] brn
+|turn|28
+|
+|move|p2a: Volcarona|Morning Sun|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|move|p1a: Mudbud|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|86/100 par
+|
+|-heal|p1a: Mudbud|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|94/100 brn|[from] brn
+|turn|29
+|
+|switch|p2a: Landorus|Landorus-Therian, M|55/100
+|-damage|p2a: Landorus|43/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mudbud|atk|1
+|move|p1a: Mudbud|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p1a: Mudbud|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|94/100 brn|[from] brn
+|turn|30
+|
+|move|p2a: Landorus|U-turn|p1a: Mudbud
+|-resisted|p1a: Mudbud
+|-damage|p1a: Mudbud|83/100 brn
+|
+|switch|p2a: Garganacl|Garganacl, F, tera:Water|73/100|[from] U-turn
+|-damage|p2a: Garganacl|60/100|[from] Stealth Rock
+|move|p1a: Mudbud|Toxic|p2a: Garganacl
+|-immune|p2a: Garganacl|[from] ability: Purifying Salt
+|
+|-heal|p2a: Garganacl|67/100|[from] item: Leftovers
+|-heal|p1a: Mudbud|89/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|83/100 brn|[from] brn
+|turn|31
+|
+|move|p2a: Garganacl|Salt Cure|p1a: Mudbud
+|-resisted|p1a: Mudbud
+|-damage|p1a: Mudbud|75/100 brn
+|-start|p1a: Mudbud|Salt Cure
+|move|p1a: Mudbud|Earthquake|p2a: Garganacl
+|-damage|p2a: Garganacl|61/100
+|
+|-heal|p2a: Garganacl|68/100|[from] item: Leftovers
+|-heal|p1a: Mudbud|81/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|75/100 brn|[from] brn
+|-damage|p1a: Mudbud|63/100 brn|[from] Salt Cure
+|turn|32
+|
+|move|p1a: Mudbud|Protect|p1a: Mudbud
+|-singleturn|p1a: Mudbud|Protect
+|move|p2a: Garganacl|Earthquake|p1a: Mudbud
+|-activate|p1a: Mudbud|move: Protect
+|
+|-heal|p2a: Garganacl|74/100|[from] item: Leftovers
+|-heal|p1a: Mudbud|69/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|63/100 brn|[from] brn
+|-damage|p1a: Mudbud|50/100 brn|[from] Salt Cure
+|turn|33
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|move|p1a: Mudbud|Recover|p1a: Mudbud
+|-heal|p1a: Mudbud|100/100 brn
+|
+|-damage|p1a: Mudbud|94/100 brn|[from] brn
+|-damage|p1a: Mudbud|82/100 brn|[from] Salt Cure
+|turn|34
+|
+|switch|p1a: Berga|Avalugg-Hisui, F, shiny, tera:Flying|68/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Berga
+|-crit|p1a: Berga
+|-damage|p1a: Berga|57/100
+|-damage|p2a: Urshifu|78/100|[from] item: Rocky Helmet|[of] p1a: Berga
+|-crit|p1a: Berga
+|-damage|p1a: Berga|43/100
+|-damage|p2a: Urshifu|61/100|[from] item: Rocky Helmet|[of] p1a: Berga
+|-crit|p1a: Berga
+|-damage|p1a: Berga|30/100
+|-damage|p2a: Urshifu|45/100|[from] item: Rocky Helmet|[of] p1a: Berga
+|-hitcount|p1a: Berga|3
+|
+|turn|35
+|
+|switch|p2a: Landorus|Landorus-Therian, M|43/100
+|-damage|p2a: Landorus|31/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Berga|atk|1
+|move|p1a: Berga|Recover|p1a: Berga
+|-heal|p1a: Berga|80/100
+|
+|turn|36
+|
+|move|p2a: Landorus|Taunt|p1a: Berga
+|-start|p1a: Berga|move: Taunt
+|move|p1a: Berga|Ice Fang|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Berga|63/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Volcarona|Volcarona, M|86/100 par
+|turn|37
+|
+|switch|p1a: Mudbud|Clodsire, F|82/100 brn
+|cant|p2a: Volcarona|par
+|
+|-heal|p1a: Mudbud|88/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|82/100 brn|[from] brn
+|turn|38
+|
+|switch|p2a: Garganacl|Garganacl, F, tera:Water|74/100
+|-damage|p2a: Garganacl|61/100|[from] Stealth Rock
+|move|p1a: Mudbud|Earthquake|p2a: Garganacl
+|-damage|p2a: Garganacl|54/100
+|
+|-heal|p2a: Garganacl|60/100|[from] item: Leftovers
+|-heal|p1a: Mudbud|88/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|82/100 brn|[from] brn
+|turn|39
+|
+|move|p2a: Garganacl|Salt Cure|p1a: Mudbud
+|-resisted|p1a: Mudbud
+|-damage|p1a: Mudbud|75/100 brn
+|-start|p1a: Mudbud|Salt Cure
+|move|p1a: Mudbud|Earthquake|p2a: Garganacl
+|-damage|p2a: Garganacl|52/100
+|
+|-heal|p2a: Garganacl|59/100|[from] item: Leftovers
+|-heal|p1a: Mudbud|81/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|75/100 brn|[from] brn
+|-damage|p1a: Mudbud|63/100 brn|[from] Salt Cure
+|turn|40
+|
+|move|p1a: Mudbud|Protect|p1a: Mudbud
+|-singleturn|p1a: Mudbud|Protect
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: Mudbud|69/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|63/100 brn|[from] brn
+|-damage|p1a: Mudbud|50/100 brn|[from] Salt Cure
+|turn|41
+|
+|switch|p1a: Berga|Avalugg-Hisui, F, shiny, tera:Flying|63/100
+|move|p2a: Garganacl|Earthquake|p1a: Berga
+|-immune|p1a: Berga
+|
+|turn|42
+|
+|move|p1a: Berga|Ice Fang|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|89/100
+|move|p2a: Garganacl|Salt Cure|p1a: Berga
+|-supereffective|p1a: Berga
+|-damage|p1a: Berga|51/100
+|-start|p1a: Berga|Salt Cure
+|
+|-heal|p2a: Garganacl|96/100|[from] item: Leftovers
+|-damage|p1a: Berga|39/100|[from] Salt Cure
+|turn|43
+|
+|move|p1a: Berga|Recover|p1a: Berga
+|-heal|p1a: Berga|89/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Berga|76/100|[from] Salt Cure
+|turn|44
+|
+|switch|p1a: Mudbud|Clodsire, F|50/100 brn
+|move|p2a: Garganacl|Salt Cure|p1a: Mudbud
+|-resisted|p1a: Mudbud
+|-damage|p1a: Mudbud|42/100 brn
+|-start|p1a: Mudbud|Salt Cure
+|
+|-heal|p1a: Mudbud|48/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|42/100 brn|[from] brn
+|-damage|p1a: Mudbud|30/100 brn|[from] Salt Cure
+|turn|45
+|
+|move|p1a: Mudbud|Recover|p1a: Mudbud
+|-heal|p1a: Mudbud|80/100 brn
+|move|p2a: Garganacl|Earthquake|p1a: Mudbud
+|-supereffective|p1a: Mudbud
+|-damage|p1a: Mudbud|32/100 brn
+|
+|-heal|p1a: Mudbud|38/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|32/100 brn|[from] brn
+|-damage|p1a: Mudbud|19/100 brn|[from] Salt Cure
+|turn|46
+|
+|move|p1a: Mudbud|Protect|p1a: Mudbud
+|-singleturn|p1a: Mudbud|Protect
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Mudbud|25/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|19/100 brn|[from] brn
+|-damage|p1a: Mudbud|7/100 brn|[from] Salt Cure
+|turn|47
+|
+|move|p1a: Mudbud|Recover|p1a: Mudbud
+|-heal|p1a: Mudbud|57/100 brn
+|move|p2a: Garganacl|Earthquake|p1a: Mudbud
+|-supereffective|p1a: Mudbud
+|-damage|p1a: Mudbud|3/100 brn
+|
+|-heal|p1a: Mudbud|9/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudbud|3/100 brn|[from] brn
+|-damage|p1a: Mudbud|0 fnt|[from] Salt Cure
+|faint|p1a: Mudbud
+|
+|switch|p1a: Hisoka|Meowscarada, M|6/100
+|turn|48
+|
+|switch|p2a: Volcarona|Volcarona, M|86/100 par
+|move|p1a: Hisoka|Flower Trick|p2a: Volcarona
+|-start|p1a: Hisoka|typechange|Grass|[from] ability: Protean
+|-resisted|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|67/100 par
+|
+|turn|49
+|
+|switch|p1a: Berga|Avalugg-Hisui, F, shiny, tera:Flying|76/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|50
+|
+|move|p2a: Volcarona|Will-O-Wisp|p1a: Berga
+|-status|p1a: Berga|brn
+|move|p1a: Berga|Ice Fang|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|55/100 par
+|
+|-damage|p1a: Berga|70/100 brn|[from] brn
+|turn|51
+|
+|move|p2a: Volcarona|Morning Sun|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|move|p1a: Berga|Ice Fang|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|89/100 par
+|
+|-damage|p1a: Berga|64/100 brn|[from] brn
+|turn|52
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Berga|Ice Fang|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|77/100 par
+|
+|-damage|p1a: Berga|58/100 brn|[from] brn
+|turn|53
+|
+|cant|p2a: Volcarona|par
+|move|p1a: Berga|Ice Fang|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|66/100 par
+|
+|-damage|p1a: Berga|52/100 brn|[from] brn
+|turn|54
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Berga|Ice Fang|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|54/100 par
+|
+|-damage|p1a: Berga|46/100 brn|[from] brn
+|turn|55
+|
+|switch|p1a: Hisoka|Meowscarada, M|6/100
+|move|p2a: Volcarona|Morning Sun|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|
+|turn|56
+|
+|move|p1a: Hisoka|Knock Off|p2a: Volcarona
+|-start|p1a: Hisoka|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Volcarona|22/100 par
+|-enditem|p2a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Hisoka
+|move|p2a: Volcarona|Fiery Dance|p1a: Hisoka
+|-damage|p1a: Hisoka|0 fnt
+|faint|p1a: Hisoka
+|
+|
+|switch|p1a: Berga|Avalugg-Hisui, F, shiny|58/100
+|-start|p1a: Berga|typechange|Flying|[silent]
+|turn|57
+|
+|move|p2a: Volcarona|Morning Sun|p2a: Volcarona
+|-heal|p2a: Volcarona|72/100 par
+|move|p1a: Berga|Hyper Voice|p2a: Volcarona
+|-damage|p2a: Volcarona|52/100 par
+|-damage|p1a: Berga|48/100|[from] item: Life Orb
+|
+|turn|58
+|
+|move|p2a: Volcarona|Morning Sun|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|move|p1a: Berga|Hyper Voice|p2a: Volcarona
+|-damage|p2a: Volcarona|81/100 par
+|-damage|p1a: Berga|38/100|[from] item: Life Orb
+|
+|turn|59
+|-message|Adastran forfeited.
+|
+|win|ianlazerbeem
+|l|☆Adastran

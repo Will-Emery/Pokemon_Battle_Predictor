@@ -1,0 +1,110 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Baxcalibur, F|
+|poke|p1|Moltres-Galar|
+|poke|p2|Cloyster, M|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Volcarona, F|
+|poke|p2|Iron Treads|
+|poke|p2|Electrode-Hisui|
+|teampreview
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: judbud|move: Light Screen
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|77/100
+|
+|turn|2
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: judbud|Reflect
+|move|p1a: Indeedee|Encore|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|Encore
+|
+|turn|3
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|
+|turn|4
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|5
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|6
+|
+|move|p1a: Sneasler|Close Combat|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|7
+|
+|-terastallize|p2a: Cloyster|Ground
+|move|p1a: Sneasler|Close Combat|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Cloyster
+|
+|
+|switch|p2a: Polteageist|Polteageist-Antique|100/100
+|turn|8
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Polteageist
+|-damage|p2a: Polteageist|28/100
+|move|p2a: Polteageist|Shadow Ball|p1a: Sneasler
+|-damage|p1a: Sneasler|3/100
+|
+|-sideend|p2: judbud|move: Light Screen
+|-fieldend|move: Psychic Terrain
+|turn|9
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-sideend|p2: judbud|Reflect
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|10
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|-message|judbud forfeited.
+|
+|win|boy_poochie
+|l|☆judbud

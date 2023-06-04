@@ -1,0 +1,254 @@
+|poke|p1|Garchomp, M|
+|poke|p1|Moltres|
+|poke|p1|Magnezone|
+|poke|p1|Diancie|
+|poke|p1|Azelf|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Volcanion|
+|poke|p2|Great Tusk|
+|poke|p2|Zamazenta-*|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Ursaluna, F|
+|teampreview
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-terastallize|p1a: Azelf|Normal
+|move|p1a: Azelf|Explosion|p2a: Samurott
+|-enditem|p1a: Azelf|Normal Gem|[from] gem
+|-damage|p2a: Samurott|0 fnt
+|faint|p1a: Azelf
+|faint|p2a: Samurott
+|
+|
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|2
+|
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Great Tusk|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|turn|3
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Moltres|Hurricane|p2a: Volcanion|[miss]
+|-miss|p1a: Moltres|p2a: Volcanion
+|
+|turn|4
+|
+|move|p1a: Moltres|U-turn|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|94/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p2a: Volcanion|Steam Eruption|p1a: Slowking
+|-damage|p1a: Slowking|71/100
+|
+|turn|5
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Slowking|Future Sight|p2a: Ursaluna
+|-start|p1a: Slowking|move: Future Sight
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|6
+|
+|switch|p1a: Diancie|Diancie|100/100
+|move|p2a: Ursaluna|Facade|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|54/100
+|
+|-heal|p1a: Diancie|60/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|turn|7
+|
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Ursaluna|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-end|p2a: Ursaluna|move: Future Sight
+|-damage|p2a: Ursaluna|29/100 brn
+|-damage|p2a: Ursaluna|23/100 brn|[from] brn
+|turn|8
+|
+|switch|p2a: Volcanion|Volcanion|94/100
+|move|p1a: Moltres|Hurricane|p2a: Volcanion
+|-damage|p2a: Volcanion|58/100
+|
+|turn|9
+|
+|move|p1a: Moltres|U-turn|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|52/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p2a: Volcanion|Steam Eruption|p1a: Slowking
+|-damage|p1a: Slowking|74/100
+|
+|turn|10
+|
+|move|p2a: Volcanion|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|move|p1a: Slowking|Future Sight|p2a: Volcanion
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|11
+|
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Volcanion|Earth Power|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|turn|12
+|
+|switch|p1a: Slowking|Slowking-Galar, F|76/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Slowking
+|-damage|p1a: Slowking|48/100
+|-status|p1a: Slowking|brn
+|
+|-end|p2a: Volcanion|move: Future Sight
+|-damage|p2a: Volcanion|4/100
+|-damage|p1a: Slowking|42/100 brn|[from] brn
+|turn|13
+|
+|move|p2a: Volcanion|Steam Eruption|p1a: Slowking
+|-damage|p1a: Slowking|16/100 brn
+|move|p1a: Slowking|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-damage|p1a: Slowking|10/100 brn|[from] brn
+|
+|switch|p2a: Ursaluna|Ursaluna, F|23/100 brn
+|turn|14
+|
+|move|p2a: Ursaluna|Facade|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-damage|p2a: Ursaluna|16/100 brn|[from] brn
+|
+|switch|p1a: Moltres|Moltres|100/100
+|turn|15
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Moltres|Flamethrower|p2a: Great Tusk
+|-damage|p2a: Great Tusk|61/100
+|
+|-heal|p2a: Great Tusk|67/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|82/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Moltres|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|turn|17
+|
+|move|p1a: Moltres|Flamethrower|p2a: Enamorus
+|-damage|p2a: Enamorus|64/100
+|move|p2a: Enamorus|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|40/100
+|-unboost|p1a: Moltres|spa|1
+|
+|turn|18
+|
+|move|p1a: Moltres|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|61/100
+|
+|switch|p1a: Diancie|Diancie|60/100|[from] U-turn
+|move|p2a: Enamorus|Moonblast|p1a: Diancie
+|-damage|p1a: Diancie|7/100
+|
+|-heal|p1a: Diancie|13/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Diancie|Diamond Storm|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|97/100
+|
+|-heal|p1a: Diancie|20/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Moltres|Moltres|40/100
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|72/100
+|
+|turn|21
+|
+|move|p2a: Zamazenta|Body Press|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|21/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|72/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|turn|22
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Moltres|Flamethrower|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|turn|23
+|
+|-terastallize|p2a: Zamazenta|Fighting
+|move|p2a: Zamazenta|Body Press|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|31/100
+|move|p1a: Moltres|Hurricane|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|25/100
+|
+|turn|24
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Zamazenta|13/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|
+|switch|p1a: Moltres|Moltres|31/100
+|turn|25
+|
+|move|p2a: Zamazenta|Body Press|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|26
+|
+|move|p2a: Zamazenta|Body Press|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-message|Finny the Shark forfeited.
+|
+|win|NoivernBlast
+|l|☆Finny the Shark

@@ -1,0 +1,238 @@
+|poke|p1|Glimmora, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Roaring Moon|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Roaring Moon|
+|poke|p2|Heatran, M|
+|poke|p2|Ting-Lu|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p1a: Glimmora|Focus Sash|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|turn|1
+|
+|move|p2a: Typhlosion|Eruption|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|52/100
+|move|p1a: Glimmora|Stealth Rock|p2a: Typhlosion
+|-sidestart|p2: TheRandomEnma|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Glimmora|Earth Power|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|turn|3
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Heatran|Earth Power|p1a: Great Tusk
+|-damage|p1a: Great Tusk|52/100
+|
+|turn|4
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p1a: Great Tusk|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|49/100
+|-enditem|p2a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-damage|p2a: Roaring Moon|88/100|[from] Stealth Rock
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|6
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Glimmora|Glimmora, M|52/100
+|move|p2a: Roaring Moon|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: TheRandomEnma|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|7
+|
+|-terastallize|p1a: Kingambit|Fire
+|move|p2a: Roaring Moon|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|8
+|
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, M|88/100
+|-damage|p2a: Heatran|76/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Gholdengo|Make It Rain|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|61/100
+|-unboost|p1a: Gholdengo|spa|1
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|-activate|p1a: Roaring Moon|ability: Protosynthesis
+|-start|p1a: Roaring Moon|protosynthesisatk
+|move|p2a: Heatran|Flamethrower|p1a: Roaring Moon
+|-resisted|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|move|p1a: Roaring Moon|Dragon Dance|p1a: Roaring Moon
+|-boost|p1a: Roaring Moon|atk|1
+|-boost|p1a: Roaring Moon|spe|1
+|move|p2a: Heatran|Flash Cannon|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|11
+|
+|move|p1a: Roaring Moon|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-weather|none
+|-end|p1a: Roaring Moon|Protosynthesis
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisatk
+|
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-status|p2a: Ting-Lu|psn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|12
+|
+|move|p1a: Roaring Moon|Acrobatics|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|55/100 psn
+|move|p2a: Ting-Lu|Whirlwind|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|drag|p1a: Iron Valiant|Iron Valiant|100/100
+|
+|-heal|p2a: Ting-Lu|61/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|49/100 psn|[from] psn
+|turn|13
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-damage|p2a: Typhlosion|76/100|[from] Stealth Rock
+|-status|p2a: Typhlosion|psn
+|-item|p1a: Iron Valiant|Choice Specs|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|turn|14
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Roaring Moon|Roaring Moon|23/100
+|move|p2a: Typhlosion|Eruption|p1a: Roaring Moon
+|-resisted|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|-damage|p2a: Typhlosion|64/100 psn|[from] psn
+|
+|switch|p1a: Great Tusk|Great Tusk|52/100
+|turn|15
+|
+|move|p2a: Typhlosion|Eruption|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Typhlosion|51/100 psn|[from] psn
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|16
+|
+|move|p2a: Typhlosion|Eruption|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|32/100
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|
+|switch|p2a: Roaring Moon|Roaring Moon|88/100
+|-damage|p2a: Roaring Moon|76/100|[from] Stealth Rock
+|-status|p2a: Roaring Moon|psn
+|turn|17
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Roaring Moon|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Air Balloon
+|faint|p1a: Gholdengo
+|
+|-damage|p2a: Roaring Moon|64/100 psn|[from] psn
+|
+|switch|p1a: Iron Valiant|Iron Valiant|32/100
+|turn|18
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|-damage|p2a: Lilligant|94/100|[from] Stealth Rock
+|-status|p2a: Lilligant|psn
+|turn|19
+|
+|-terastallize|p2a: Lilligant|Grass
+|move|p1a: Iron Valiant|Moonblast|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|win|Sr.Haruno
+|l|☆TheRandomEnma

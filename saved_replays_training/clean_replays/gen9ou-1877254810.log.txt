@@ -1,0 +1,248 @@
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Scream Tail|
+|poke|p1|Great Tusk|
+|poke|p1|Skeledirge, F|
+|poke|p1|Meloetta|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Heatran, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|1
+|
+|-terastallize|p2a: Urshifu|Water
+|move|p2a: Urshifu|Surging Strikes|p1a: Scream Tail
+|-crit|p1a: Scream Tail
+|-damage|p1a: Scream Tail|70/100
+|-crit|p1a: Scream Tail
+|-damage|p1a: Scream Tail|35/100
+|-crit|p1a: Scream Tail
+|-damage|p1a: Scream Tail|4/100
+|-hitcount|p1a: Scream Tail|3
+|move|p1a: Scream Tail|Psychic|p2a: Urshifu
+|-damage|p2a: Urshifu|67/100
+|
+|-heal|p1a: Scream Tail|10/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Scream Tail
+|-crit|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|-hitcount|p1: Scream Tail|1
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|3
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|88/100
+|-resisted|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|76/100
+|-resisted|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|64/100
+|-hitcount|p1a: Urshifu|3
+|move|p1a: Urshifu|Body Press|p2a: Urshifu
+|-damage|p2a: Urshifu|26/100
+|
+|-heal|p1a: Urshifu|70/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|58/100
+|-resisted|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|45/100
+|-resisted|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|33/100
+|-hitcount|p1a: Urshifu|3
+|move|p1a: Urshifu|Body Press|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-heal|p1a: Urshifu|39/100|[from] item: Leftovers
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|5
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|83/100
+|-unboost|p1a: Skeledirge|spa|1
+|
+|turn|6
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Skeledirge|Earth Power|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|turn|7
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|move|p2a: Rotom|Thunder Wave|p1a: Meloetta
+|-status|p1a: Meloetta|par
+|
+|turn|8
+|
+|move|p2a: Rotom|Volt Switch|p1a: Meloetta
+|-damage|p1a: Meloetta|89/100 par
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|cant|p1a: Meloetta|par
+|
+|turn|9
+|
+|move|p2a: Iron Valiant|Knock Off|p1a: Meloetta
+|-supereffective|p1a: Meloetta
+|-damage|p1a: Meloetta|31/100 par
+|-enditem|p1a: Meloetta|Assault Vest|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Meloetta|Psyshock|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|10
+|
+|cant|p1a: Meloetta|par
+|move|p2a: Slowking|Sludge Bomb|p1a: Meloetta
+|-damage|p1a: Meloetta|8/100 par
+|
+|turn|11
+|
+|move|p1a: Meloetta|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|66/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|12
+
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|13
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Skeledirge|Skeledirge, F|83/100
+|move|p2a: Rotom|Hydro Pump|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|30/100
+|
+|turn|14
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|turn|15
+|
+|-terastallize|p1a: Enamorus|Fairy
+|move|p2a: Rotom|Thunder Wave|p1a: Enamorus
+|-status|p1a: Enamorus|par
+|move|p1a: Enamorus|Moonblast|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|16
+|
+|move|p2a: Heatran|Magma Storm|p1a: Enamorus
+|-damage|p1a: Enamorus|46/100 par
+|-activate|p1a: Enamorus|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Enamorus|Moonblast|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|77/100
+|-unboost|p2a: Heatran|spa|1
+|
+|-heal|p2a: Heatran|83/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|34/100 par|[from] move: Magma Storm|[partiallytrapped]
+|turn|17
+|
+|move|p2a: Heatran|Magma Storm|p1a: Enamorus|[miss]
+|-miss|p2a: Heatran|p1a: Enamorus
+|move|p1a: Enamorus|Moonblast|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|61/100
+|-unboost|p2a: Heatran|spa|1
+|
+|-heal|p2a: Heatran|67/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|21/100 par|[from] move: Magma Storm|[partiallytrapped]
+|turn|18
+|
+|move|p2a: Heatran|Magma Storm|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-heal|p2a: Heatran|73/100|[from] item: Leftovers
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|39/100
+|turn|19
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|move|p1a: Urshifu|Surging Strikes|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|61/100
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|20/100
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-hitcount|p2: Landorus|3
+|
+|-heal|p1a: Urshifu|45/100|[from] item: Leftovers
+|
+|switch|p2a: Heatran|Heatran, M|73/100
+|turn|20
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|44/100
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|15/100
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-hitcount|p2: Heatran|3
+|
+|win|bao zhilan
+|l|☆Vampere151

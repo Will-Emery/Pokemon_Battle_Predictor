@@ -1,0 +1,248 @@
+|poke|p1|Magearna|
+|poke|p1|Great Tusk|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Zamazenta-*|
+|poke|p1|Dragapult, M|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, F|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, F|
+|poke|p2|Slowking, F|
+|poke|p2|Ceruledge, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|92/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-heal|p1a: Great Tusk|98/100|[from] item: Leftovers
+|turn|2
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p1a: Great Tusk|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|84/100
+|-enditem|p2a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Great Tusk|Earthquake|p2a: Walking Wake
+|-damage|p2a: Walking Wake|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Walking Wake|Hydro Steam|p1a: Gholdengo
+|-damage|p1a: Gholdengo|9/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|25/100
+|move|p1a: Samurott|Razor Shell|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|39/100
+|-unboost|p2a: Walking Wake|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p1a: Samurott|Sucker Punch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|8
+|
+|switch|p1a: Gholdengo|Gholdengo|9/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|9
+|
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|j| Kyurem
+|
+|switch|p2a: Torkoal|Torkoal, F|84/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|10
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|11
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Heatran|Fire Blast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|12
+|
+|move|p2a: Heatran|Fire Blast|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|13
+|
+|move|p2a: Heatran|Fire Blast|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|25/100
+|turn|14
+|
+|move|p1a: Samurott|Sucker Punch|p2a: Heatran
+|-damage|p2a: Heatran|68/100
+|move|p2a: Heatran|Fire Blast|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|none
+|
+|switch|p1a: Dragapult|Dragapult, M, tera:Ghost|100/100
+|turn|15
+|
+|switch|p2a: Slowking|Slowking, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|13/100
+|-enditem|p2a: Slowking|Eject Button
+|
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|
+|turn|16
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|turn|17
+|
+|move|p2a: Ceruledge|Bitter Blade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|54/100
+|move|p1a: Great Tusk|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|-heal|p1a: Great Tusk|60/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Ceruledge|Bitter Blade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|16/100
+|-heal|p2a: Ceruledge|34/100|[from] drain|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-heal|p1a: Great Tusk|22/100|[from] item: Leftovers
+|
+|switch|p2a: Slowking|Slowking, F|46/100
+|turn|19
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Slowking
+|-sidestart|p2: Dar’Sakar|move: Stealth Rock
+|move|p2a: Slowking|Future Sight|p1a: Great Tusk
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Great Tusk|28/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|6/100
+|move|p2a: Slowking|Ice Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Dragapult|Dragapult, M, tera:Ghost|100/100
+|turn|21
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-end|p1a: Dragapult|move: Future Sight
+|-damage|p1a: Dragapult|41/100
+|
+|switch|p2a: Heatran|Heatran, F|68/100
+|-damage|p2a: Heatran|55/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|win|ayyk_47

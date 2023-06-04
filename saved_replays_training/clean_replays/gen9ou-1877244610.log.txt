@@ -1,0 +1,234 @@
+|poke|p1|Glimmora, F|
+|poke|p1|Baxcalibur, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Frosmoth, F|
+|poke|p1|Espeon, M|
+|poke|p1|Scizor, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Great Tusk|
+|poke|p2|Roaring Moon|
+|poke|p2|Urshifu-*, M|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|1
+|
+|move|p1a: Glimmora|Mortal Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|97/100
+|-status|p2a: Dragonite|psn
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-damage|p2a: Dragonite|85/100 psn|[from] psn
+|turn|2
+|
+|move|p2a: Dragonite|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Tomasu Dejuru|move: Toxic Spikes
+|move|p1a: Glimmora|Sludge Wave|p2a: Dragonite
+|-damage|p2a: Dragonite|31/100 psn
+|
+|-damage|p2a: Dragonite|18/100 psn|[from] psn
+|turn|3
+|
+|move|p2a: Dragonite|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Tomasu Dejuru|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Dragonite|6/100 psn|[from] psn
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|4
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|77/100
+|move|p1a: Scizor|Bullet Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-heal|p1a: Scizor|83/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-status|p2a: Great Tusk|tox
+|turn|5
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|75/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Tomasu Dejuru|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p1a: Scizor|81/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|94/100 tox|[from] psn
+|turn|6
+|
+|move|p2a: Great Tusk|Headlong Rush|p1a: Scizor
+|-damage|p1a: Scizor|16/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p2a: Great Tusk|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Scizor|22/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|88/100 tox|[from] psn
+|turn|7
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Scizor|28/100|[from] item: Leftovers
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|8
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|52/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|10/100
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-hitcount|p1: Scizor|2
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|-terastallize|p2a: Urshifu|Water
+|move|p1a: Iron Valiant|Moonblast|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|10
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|11
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|turn|12
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|21/100
+|move|p1a: Baxcalibur|Earthquake|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|15/100
+|
+|turn|13
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|14
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|46/100
+|move|p2a: Rillaboom|Drain Punch|p1a: Baxcalibur
+|-supereffective|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|-heal|p2a: Rillaboom|57/100|[from] drain|[of] p1a: Baxcalibur
+|faint|p1a: Baxcalibur
+|
+|-heal|p2a: Rillaboom|63/100|[from] Grassy Terrain
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|15
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Rillaboom
+|-damage|p2a: Rillaboom|22/100
+|move|p2a: Rillaboom|Drum Beating|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|33/100
+|-unboost|p1a: Iron Valiant|spe|1
+|
+|-heal|p2a: Rillaboom|28/100|[from] Grassy Terrain
+|-heal|p1a: Iron Valiant|39/100|[from] Grassy Terrain
+|turn|16
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|move|p2a: Rillaboom|Drum Beating|p1a: Frosmoth
+|-resisted|p1a: Frosmoth
+|-damage|p1a: Frosmoth|52/100
+|
+|-heal|p2a: Rillaboom|34/100|[from] Grassy Terrain
+|-heal|p1a: Frosmoth|58/100|[from] Grassy Terrain
+|turn|17
+|
+|move|p2a: Rillaboom|Drum Beating|p1a: Frosmoth
+|-resisted|p1a: Frosmoth
+|-damage|p1a: Frosmoth|9/100
+|move|p1a: Frosmoth|Ice Beam|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Frosmoth|15/100|[from] Grassy Terrain
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|18
+|
+|move|p2a: Roaring Moon|Dragon Dance|p2a: Roaring Moon
+|-boost|p2a: Roaring Moon|atk|1
+|-boost|p2a: Roaring Moon|spe|1
+|move|p1a: Frosmoth|Ice Beam|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|8/100
+|
+|-heal|p2a: Roaring Moon|14/100|[from] Grassy Terrain
+|-heal|p1a: Frosmoth|21/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|turn|19
+|
+|move|p2a: Roaring Moon|Crunch|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|-message|poildebrique forfeited.
+|
+|win|Tomasu Dejuru
+|l|☆poildebrique

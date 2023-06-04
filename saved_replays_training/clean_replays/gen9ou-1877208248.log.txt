@@ -1,0 +1,346 @@
+|poke|p1|Krookodile, M|
+|poke|p1|Quaquaval, M|
+|poke|p1|Zoroark, F|
+|poke|p1|Bronzong|
+|poke|p1|Whiscash, F|
+|poke|p1|Appletun, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Whiscash|Whiscash, F|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Whiscash
+|-damage|p1a: Whiscash|34/100
+|-unboost|p2a: Magearna|spa|2
+|move|p1a: Whiscash|Earth Power|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|57/100
+|-unboost|p2a: Magearna|spd|1
+|
+|-heal|p1a: Whiscash|41/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Whiscash|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: Jop mash jab 24/7|move: Stealth Rock
+|
+|-heal|p1a: Whiscash|47/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Zapdos|Hurricane|p1a: Whiscash|[miss]
+|-miss|p2a: Zapdos|p1a: Whiscash
+|move|p1a: Whiscash|Spikes|p2a: Zapdos
+|-sidestart|p2: Jop mash jab 24/7|Spikes
+|
+|-heal|p1a: Whiscash|53/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|80/100
+|
+|turn|5
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Bronzong
+|-damage|p1a: Bronzong|53/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-damage|p2a: Great Tusk|85/100|[from] Spikes
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|turn|6
+|
+|move|p1a: Bronzong|Zen Headbutt|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|39/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|47/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|23/100|[from] item: Rocky Helmet|[of] p1a: Bronzong
+|-sideend|p2: Jop mash jab 24/7|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: Jop mash jab 24/7|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|turn|7
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Bronzong|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|turn|8
+|
+|switch|p1a: Appletun|Appletun, F|100/100
+|move|p2a: Zapdos|Heat Wave|p1a: Appletun
+|-damage|p1a: Appletun|73/100
+|
+|turn|9
+|
+|move|p1a: Appletun|Leech Seed|p2a: Zapdos
+|-start|p2a: Zapdos|move: Leech Seed
+|move|p2a: Zapdos|Volt Switch|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|65/100
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100|[from] Volt Switch
+|
+|-fieldend|move: Trick Room
+|turn|10
+|
+|-terastallize|p1a: Appletun|Water
+|move|p1a: Appletun|Sucker Punch|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|57/100
+|move|p2a: Typhlosion|Eruption|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|35/100
+|
+|turn|11
+|
+|switch|p2a: Magearna|Magearna|57/100
+|move|p1a: Appletun|Leech Seed|p2a: Magearna
+|-start|p2a: Magearna|move: Leech Seed
+|
+|-damage|p2a: Magearna|45/100|[from] Leech Seed|[of] p1a: Appletun
+|-heal|p1a: Appletun|46/100|[silent]
+|turn|12
+|
+|move|p2a: Magearna|Volt Switch|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|7/100
+|-activate|p1a: Appletun|ability: Ripen
+|-enditem|p1a: Appletun|Aguav Berry|[eat]
+|-heal|p1a: Appletun|73/100|[from] item: Aguav Berry
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] Volt Switch
+|move|p1a: Appletun|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|93/100
+|
+|turn|13
+|
+|switch|p1a: Whiscash|Whiscash, F|53/100
+|move|p2a: Zapdos|Volt Switch|p1a: Whiscash
+|-immune|p1a: Whiscash
+|
+|-heal|p1a: Whiscash|59/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Whiscash|Stealth Rock|p2a: Urshifu
+|-sidestart|p2: Jop mash jab 24/7|move: Stealth Rock
+|
+|-heal|p1a: Whiscash|65/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Appletun|Appletun, F, tera:Water|73/100
+|move|p2a: Urshifu|Close Combat|p1a: Appletun
+|-damage|p1a: Appletun|30/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|turn|16
+|
+|move|p2a: Urshifu|Close Combat|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Appletun
+|
+|
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|turn|17
+|
+|switch|p2a: Zapdos|Zapdos|93/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Zapdos
+|-damage|p2a: Zapdos|62/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|turn|18
+|
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|move|p2a: Zapdos|Volt Switch|p1a: Krookodile
+|-immune|p1a: Krookodile
+|
+|turn|19
+|
+|switch|p2a: Great Tusk|Great Tusk|23/100
+|-damage|p2a: Great Tusk|20/100|[from] Stealth Rock
+|move|p1a: Krookodile|Gunk Shot|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|7/100
+|
+|turn|20
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Krookodile
+|-damage|p1a: Krookodile|84/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Jop mash jab 24/7|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Krookodile|Crunch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|57/100
+|turn|21
+|
+|move|p1a: Krookodile|Endure|p1a: Krookodile
+|-singleturn|p1a: Krookodile|move: Endure
+|move|p2a: Typhlosion|Flamethrower|p1a: Krookodile
+|-activate|p1a: Krookodile|move: Endure
+|-damage|p1a: Krookodile|1/100
+|-enditem|p1a: Krookodile|Salac Berry|[eat]
+|-boost|p1a: Krookodile|spe|1|[from] item: Salac Berry
+|
+|turn|22
+|
+|switch|p2a: Zapdos|Zapdos|62/100
+|move|p1a: Krookodile|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|turn|23
+|
+|move|p1a: Krookodile|Gunk Shot|p2a: Zapdos
+|-damage|p2a: Zapdos|17/100
+|move|p2a: Zapdos|Heat Wave|p1a: Krookodile
+|-crit|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|turn|24
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|79/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|turn|25
+|
+|move|p2a: Urshifu|Close Combat|p1a: Quaquaval
+|-damage|p1a: Quaquaval|24/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|move|p1a: Quaquaval|Brave Bird|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|-damage|p1a: Quaquaval|0 fnt|[from] Recoil
+|faint|p1a: Quaquaval
+|
+|
+|switch|p2a: Zapdos|Zapdos|17/100
+|switch|p1a: Bronzong|Bronzong|100/100
+|turn|26
+|
+|move|p1a: Bronzong|Flamethrower|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Magearna|Magearna|45/100
+|turn|27
+|
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Bronzong|Flamethrower|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|33/100
+|move|p2a: Magearna|Pain Split|p1a: Bronzong
+|-sethp|p1a: Bronzong|73/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Magearna|53/100|[from] move: Pain Split
+|
+|turn|28
+|
+|move|p1a: Bronzong|Dark Pulse|p2a: Magearna
+|-damage|p2a: Magearna|22/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|replace|p1a: Zoroark|Zoroark, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Whiscash|Whiscash, F|65/100
+|turn|29
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Whiscash
+|-damage|p1a: Whiscash|23/100
+|-unboost|p2a: Magearna|spa|2
+|move|p1a: Whiscash|Earth Power|p2a: Magearna
+|-damage|p2a: Magearna|2/100
+|
+|-heal|p1a: Whiscash|29/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Whiscash|[miss]
+|-miss|p2a: Magearna|p1a: Whiscash
+|move|p1a: Whiscash|Stealth Rock|p2a: Magearna
+|-sidestart|p2: Jop mash jab 24/7|move: Stealth Rock
+|
+|-heal|p1a: Whiscash|35/100|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Whiscash
+|-crit|p1a: Whiscash
+|-damage|p1a: Whiscash|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Whiscash
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Bronzong|Bronzong|47/100
+|turn|32
+|
+|move|p2a: Magearna|Pain Split|p1a: Bronzong
+|-sethp|p1a: Bronzong|24/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Magearna|23/100|[from] move: Pain Split
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|turn|33
+|
+|move|p1a: Bronzong|Zen Headbutt|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Bronzong|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|33/100
+|move|p2a: Dragapult|Hex|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|win|Jop mash jab 24/7
+|l|☆Bleez145

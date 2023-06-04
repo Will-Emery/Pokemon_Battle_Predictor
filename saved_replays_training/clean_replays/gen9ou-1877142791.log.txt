@@ -1,0 +1,167 @@
+|poke|p1|Heatran, M|
+|poke|p1|Great Tusk|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Great Tusk|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Sneasler, F|
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|1
+|
+|move|p2a: Sneasler|Fake Out|p1a: Grimmsnarl
+|-enditem|p2a: Sneasler|Normal Gem|[from] gem
+|-damage|p1a: Grimmsnarl|75/100
+|cant|p1a: Grimmsnarl|flinch
+|
+|turn|2
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Raylongroad1|Reflect
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|turn|3
+|
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Sneasler
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2a: Sneasler|spa|1
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Parting Shot
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|turn|4
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|86/100
+|-damage|p2a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|5
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|turn|6
+|
+|move|p2a: Enamorus|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|83/100
+|-unboost|p1a: Heatran|spa|1
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Magma Storm|p2a: Enamorus
+|-damage|p2a: Enamorus|73/100
+|-activate|p2a: Enamorus|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Enamorus|61/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|7
+|
+|move|p2a: Enamorus|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Enamorus|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|75/100
+|turn|8
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Raylongroad1|move: Light Screen
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|turn|9
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|-sideend|p1: Raylongroad1|Reflect
+|turn|10
+|
+|-terastallize|p1a: Urshifu|Water
+|move|p2a: Enamorus|Moonblast|p1a: Urshifu
+|-damage|p1a: Urshifu|4/100
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|turn|11
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-damage|p1a: Urshifu|0 fnt|[from] item: Life Orb
+|faint|p1a: Urshifu
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|75/100
+|turn|12
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|47/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|20/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-hitcount|p1: Grimmsnarl|3
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|13
+|
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|48/100
+|move|p2a: Urshifu|Close Combat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|34/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|turn|14
+|
+|move|p1a: Zamazenta|Crunch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|27/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|17/100
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-hitcount|p1: Zamazenta|2
+|
+|-message|Raylongroad1 forfeited.
+|
+|win|poiutghjkl
+|l|☆Raylongroad1

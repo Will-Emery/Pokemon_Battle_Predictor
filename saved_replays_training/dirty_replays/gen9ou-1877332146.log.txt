@@ -1,0 +1,300 @@
+|j|☆koraidon better
+|j|☆YoungEsq
+|t:|1685844248
+|gametype|singles
+|player|p1|koraidon better|101|1117
+|player|p2|YoungEsq|102|1023
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zarude|
+|poke|p1|Moltres|
+|poke|p2|Cinderace, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Iron Moth|
+|poke|p2|Rotom-Heat|
+|poke|p2|Skeledirge, M|
+|poke|p2|Scovillain, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YoungEsq)
+|
+|t:|1685844255
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1685844274
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p2a: Torkoal|Yawn|p1a: Arcanine
+|-start|p1a: Arcanine|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685844281
+|move|p1a: Arcanine|Head Smash|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|21/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Arcanine
+|-sidestart|p1: koraidon better|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Arcanine|move: Yawn|[silent]
+|-status|p1a: Arcanine|slp
+|upkeep
+|turn|3
+|
+|t:|1685844298
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|cant|p1a: Arcanine|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685844304
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-damage|p1a: Torkoal|75/100|[from] Stealth Rock
+|move|p2a: Cinderace|High Jump Kick|p1a: Torkoal
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Torkoal|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685844313
+|move|p2a: Cinderace|High Jump Kick|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685844317
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|turn|6
+|
+|t:|1685844328
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Rotom
+|-sidestart|p2: YoungEsq|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685844337
+|move|p2a: Rotom|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|move|p1a: Landorus|Taunt|p2a: Rotom
+|-start|p2a: Rotom|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Landorus|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685844358
+|switch|p2a: Skeledirge|Skeledirge, M, shiny|100/100
+|-damage|p2a: Skeledirge|76/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|73/100
+|
+|t:|1685844361
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100 slp|[from] U-turn
+|-damage|p1a: Arcanine|76/100 slp|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Skeledirge|80/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685844371
+|-curestatus|p1a: Arcanine|slp|[msg]
+|move|p1a: Arcanine|Head Smash|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|upkeep
+|
+|t:|1685844376
+|switch|p2a: Torkoal|Torkoal, F|21/100
+|-damage|p2a: Torkoal|0 fnt|[from] Stealth Rock
+|faint|p2a: Torkoal
+|
+|t:|1685844387
+|switch|p2a: Scovillain|Scovillain, F|100/100
+|-damage|p2a: Scovillain|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1685844397
+|move|p1a: Arcanine|Head Smash|p2a: Scovillain
+|-supereffective|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|
+|upkeep
+|
+|t:|1685844405
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|turn|11
+|
+|t:|1685844408
+|move|p1a: Arcanine|Head Smash|p2a: Cinderace|[miss]
+|-miss|p1a: Arcanine|p2a: Cinderace
+|move|p2a: Cinderace|High Jump Kick|p1a: Arcanine
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1685844411
+|switch|p1a: Landorus|Landorus-Therian, M|94/100 brn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|turn|12
+|
+|t:|1685844422
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|-damage|p2a: Rotom|75/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|69/100
+|
+|t:|1685844426
+|switch|p1a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1685844431
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1685844443
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|14
+|
+|t:|1685844451
+|-terastallize|p2a: Iron Moth|Fairy
+|move|p1a: Walking Wake|Hydro Steam|p2a: Iron Moth
+|-damage|p2a: Iron Moth|20/100
+|move|p2a: Iron Moth|Discharge|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|4/100
+|-status|p1a: Walking Wake|par
+|
+|upkeep
+|turn|15
+|
+|t:|1685844462
+|move|p2a: Iron Moth|Discharge|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685844470
+|switch|p1a: Zarude|Zarude|100/100
+|-damage|p1a: Zarude|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1685844478
+|move|p2a: Iron Moth|Sludge Wave|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|faint|p1a: Zarude
+|
+|upkeep
+|
+|t:|1685844480
+|switch|p1a: Landorus|Landorus-Therian, M|94/100 brn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Moth|atk|1
+|turn|17
+|
+|t:|1685844487
+|move|p2a: Iron Moth|Sludge Wave|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|66/100 brn
+|move|p1a: Landorus|Earthquake|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-damage|p1a: Landorus|60/100 brn|[from] brn
+|upkeep
+|
+|t:|1685844493
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|turn|18
+|
+|t:|1685844504
+|move|p2a: Cinderace|High Jump Kick|p1a: Landorus
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|28/100 brn
+|move|p1a: Landorus|Earthquake|p2a: Cinderace
+|-damage|p2a: Cinderace|61/100
+|
+|-damage|p1a: Landorus|22/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1685844516
+|move|p2a: Cinderace|High Jump Kick|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1685844518
+|switch|p1a: Moltres|Moltres, shiny|100/100
+|-damage|p1a: Moltres|51/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1685844526
+|move|p1a: Moltres|Flamethrower|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|koraidon better
+|raw|koraidon better's rating: 1117 → 1135(+18 for winning)
+|raw|YoungEsq's rating: 1023 → 1013(-10 for losing)

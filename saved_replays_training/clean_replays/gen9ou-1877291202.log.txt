@@ -1,0 +1,342 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Overqwil, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Great Tusk|
+|poke|p1|Zapdos|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Ditto|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Quaquaval, M|
+|poke|p2|Azumarill, M|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Zapdos|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|95/100
+|
+|switch|p2a: Quaquaval|Quaquaval, M, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p1a: Great Tusk|Great Tusk|95/100
+|move|p2a: Landorus|Stone Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|89/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: TheCuriousShuckle|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Zapdos|Discharge|p1a: Zapdos
+|-damage|p1a: Zapdos|67/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Zapdos|Discharge|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|83/100
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Zapdos|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|77/100
+|move|p2a: Zapdos|Discharge|p1a: Zapdos
+|-damage|p1a: Zapdos|52/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Zapdos|Discharge|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|85/100
+|
+|-weather|none
+|turn|9
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|47/100
+|
+|switch|p1a: Great Tusk|Great Tusk|89/100|[from] Volt Switch
+|move|p2a: Zapdos|Heat Wave|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|-status|p1a: Great Tusk|brn
+|
+|-damage|p1a: Great Tusk|39/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zapdos
+|-immune|p2a: Zapdos
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|97/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-damage|p1a: Great Tusk|33/100 brn|[from] brn
+|turn|11
+|
+|move|p1a: Great Tusk|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|86/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-enditem|p1a: Great Tusk|Eject Pack
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Zapdos|Heat Wave|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|90/100
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|switch|p1a: Zapdos|Zapdos|85/100
+|move|p2a: Zapdos|Discharge|p1a: Zapdos
+|-damage|p1a: Zapdos|53/100
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Zapdos|Discharge|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|85/100
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|55/100
+|
+|switch|p1a: Overqwil|Overqwil, F|100/100|[from] Volt Switch
+|move|p2a: Zapdos|Discharge|p1a: Overqwil
+|-damage|p1a: Overqwil|52/100
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|move|p1a: Overqwil|Crunch|p2a: Zapdos
+|-damage|p2a: Zapdos|23/100
+|-status|p1a: Overqwil|par|[from] ability: Static|[of] p2a: Zapdos
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|73/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|j| ziggaman101
+|
+|cant|p1a: Overqwil|par
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p1a: Overqwil|Poison Jab|p2a: Zapdos
+|-damage|p2a: Zapdos|70/100
+|move|p2a: Zapdos|Discharge|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|turn|18
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|move|p1a: Basculegion|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|32/100
+|
+|-weather|none
+|-heal|p2a: Great Tusk|38/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Basculegion|[from] ability: Imposter
+|turn|20
+|
+|switch|p1a: Pelipper|Pelipper, F|90/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Ditto|Shadow Ball|p1a: Pelipper
+|-damage|p1a: Pelipper|23/100
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|switch|p1a: Great Tusk|Great Tusk|33/100 brn
+|move|p2a: Ditto|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|22
+|
+|switch|p2a: Zapdos|Zapdos, shiny|70/100
+|move|p1a: Meowscarada|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|24/100
+|-enditem|p2a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|-terastallize|p2a: Zapdos|Fairy
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|74/100
+|
+|-weather|RainDance|[upkeep]
+|turn|24
+|
+|switch|p2a: Azumarill|Azumarill, M, shiny|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|move|p1a: Basculegion|Hydro Pump|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|60/100
+|
+|-weather|RainDance|[upkeep]
+|turn|25
+|
+|switch|p1a: Zapdos|Zapdos|85/100
+|move|p2a: Azumarill|Play Rough|p1a: Zapdos|[miss]
+|-miss|p2a: Azumarill|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|turn|26
+|
+|move|p1a: Zapdos|Hurricane|p2a: Azumarill
+|-damage|p2a: Azumarill|32/100
+|move|p2a: Azumarill|Liquidation|p1a: Zapdos
+|-damage|p1a: Zapdos|30/100
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Zapdos
+|-damage|p1a: Zapdos|5/100
+|move|p1a: Zapdos|Volt Switch|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100|[from] Volt Switch
+|
+|-weather|none
+|
+|switch|p2a: Ditto|Ditto, shiny|88/100
+|-damage|p2a: Ditto|76/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Meowscarada|[from] ability: Imposter
+|turn|28
+|
+|switch|p1a: Pelipper|Pelipper, F|23/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Ditto|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|13/100
+|
+|switch|p2a: Quaquaval|Quaquaval, M, shiny|100/100|[from] U-turn
+|-damage|p2a: Quaquaval|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quaquaval|100/100|[from] item: Leftovers
+|turn|29
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|71/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|30
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Quaquaval
+|-damage|p2a: Quaquaval|62/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|38/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quaquaval|68/100|[from] item: Leftovers
+|turn|31
+|
+|switch|p1a: Zapdos|Zapdos|5/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Zapdos
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quaquaval|74/100|[from] item: Leftovers
+|
+|switch|p1a: Basculegion|Basculegion-F, F|38/100
+|turn|32
+|
+|move|p2a: Quaquaval|Aqua Step|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Basculegion
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Quaquaval|80/100|[from] item: Leftovers
+|-message|trapsef forfeited.
+|
+|win|TheCuriousShuckle
+|l|☆trapsef
+|l| ziggaman101

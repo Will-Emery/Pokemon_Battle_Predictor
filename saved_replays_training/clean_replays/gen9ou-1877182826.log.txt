@@ -1,0 +1,54 @@
+|poke|p1|Articuno-Galar|
+|poke|p1|Zamazenta-*|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Volcanion|
+|poke|p1|Avalugg-Hisui, F|
+|poke|p1|Braviary-Hisui, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|start
+|switch|p1a: Bread Baker|Volcanion|100/100
+|switch|p2a: I am stuck|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p1a: OU Pretender|Zamazenta-Crowned|100/100
+|-ability|p1a: OU Pretender|Dauntless Shield|boost
+|-boost|p1a: OU Pretender|def|1
+|move|p2a: I am stuck|Volt Switch|p1a: OU Pretender
+|-damage|p1a: OU Pretender|83/100
+|
+|switch|p2a: Sunburst|Volcarona, F|100/100|[from] Volt Switch
+|
+|turn|2
+|
+|switch|p1a: Bread Baker|Volcanion|100/100
+|move|p2a: Sunburst|Fiery Dance|p1a: Bread Baker
+|-resisted|p1a: Bread Baker
+|-damage|p1a: Bread Baker|95/100
+|-boost|p2a: Sunburst|spa|1
+|
+|turn|3
+|
+|switch|p2a: Mav's Eater|Garganacl, M|100/100
+|move|p1a: Bread Baker|Steam Eruption|p2a: Mav's Eater
+|-supereffective|p2a: Mav's Eater
+|-damage|p2a: Mav's Eater|22/100
+|
+|-heal|p2a: Mav's Eater|28/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Bread Baker|Steam Eruption|p2a: Mav's Eater
+|-supereffective|p2a: Mav's Eater
+|-damage|p2a: Mav's Eater|0 fnt
+|faint|p2a: Mav's Eater
+|
+|-message|TheBlazingFist forfeited.
+|
+|win|tremenon
+|l|☆TheBlazingFist

@@ -1,0 +1,383 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Great Tusk|
+|poke|p1|Corviknight, F|
+|poke|p1|Heatran, F|
+|poke|p1|Magearna|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Diancie|
+|poke|p2|Iron Treads|
+|poke|p2|Dragapult, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|turn|1
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|2
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|76/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Magma Storm|p2a: Landorus|[miss]
+|-miss|p1a: Heatran|p2a: Landorus
+|
+|-heal|p1a: Heatran|88/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: raven|Corviknight, F, shiny|100/100
+|-ability|p1a: raven|Pressure
+|move|p2a: Landorus|U-turn|p1a: raven
+|-resisted|p1a: raven
+|-damage|p1a: raven|96/100
+|-damage|p2a: Landorus|84/100|[from] item: Rocky Helmet|[of] p1a: raven
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, M|100/100|[from] U-turn
+|
+|turn|5
+|
+|move|p2a: Decidueye|Triple Arrows|p1a: raven
+|-damage|p1a: raven|72/100
+|-unboost|p1a: raven|def|1
+|cant|p1a: raven|flinch
+|
+|turn|6
+|
+|move|p2a: Decidueye|Triple Arrows|p1a: raven
+|-damage|p1a: raven|36/100
+|cant|p1a: raven|flinch
+|
+|turn|7
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Decidueye|Triple Arrows|p1a: Magearna
+|-damage|p1a: Magearna|76/100
+|-unboost|p1a: Magearna|def|1
+|
+|-heal|p1a: Magearna|82/100|[from] item: Leftovers
+|turn|8
+|
+|-terastallize|p2a: Decidueye|Fire
+|move|p2a: Decidueye|Triple Arrows|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|22/100
+|-unboost|p1a: Magearna|def|1
+|move|p1a: Magearna|Draining Kiss|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|90/100
+|-heal|p1a: Magearna|30/100|[from] drain|[of] p2a: Decidueye
+|
+|-heal|p1a: Magearna|36/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Decidueye|Triple Arrows|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|10
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Samurott|Aqua Cutter|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|53/100
+|
+|turn|11
+|
+|switch|p1a: Heatran|Heatran, F|88/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|56/100
+|
+|-heal|p1a: Heatran|62/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|-activate|p2a: Slowking|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|68/100|[from] item: Leftovers
+|-damage|p2a: Slowking|64/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|13
+|
+|move|p1a: Heatran|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|33/100
+|move|p2a: Slowking|Thunder Wave|p1a: Heatran
+|-status|p1a: Heatran|par
+|
+|-heal|p1a: Heatran|75/100 par|[from] item: Leftovers
+|-damage|p2a: Slowking|20/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|14
+|
+|cant|p1a: Heatran|par
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, M, tera:Fire|90/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Heatran|81/100 par|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Decidueye|Triple Arrows|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Heatran|87/100 par|[from] item: Leftovers
+|turn|16
+|
+|-terastallize|p1a: Heatran|Bug
+|move|p2a: Decidueye|Triple Arrows|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|60/100 par
+|-unboost|p1a: Heatran|def|1
+|move|p1a: Heatran|Earth Power|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|42/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Heatran|67/100 par|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Decidueye|Roost|p2a: Decidueye
+|-heal|p2a: Decidueye|92/100
+|move|p1a: Heatran|Earth Power|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|47/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Heatran|73/100 par|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: raven|Corviknight, F, shiny|36/100
+|-ability|p1a: raven|Pressure
+|move|p2a: Decidueye|Roost|p2a: Decidueye
+|-heal|p2a: Decidueye|97/100
+|
+|-weather|none
+|turn|19
+|
+|move|p2a: Decidueye|Triple Arrows|p1a: raven
+|-crit|p1a: raven
+|-damage|p1a: raven|0 fnt
+|faint|p1a: raven
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|20
+|
+|switch|p2a: Slowking|Slowking-Galar, F|54/100
+|move|p1a: Samurott|Aqua Jet|p2a: Slowking
+|-damage|p2a: Slowking|25/100
+|
+|turn|21
+|
+|switch|p2a: Dragapult|Dragapult, M|53/100
+|move|p1a: Samurott|Aqua Jet|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|33/100
+|
+|turn|22
+|
+|switch|p1a: Heatran|Heatran, F, tera:Bug|73/100 par
+|move|p2a: Dragapult|Draco Meteor|p1a: Heatran
+|-damage|p1a: Heatran|18/100 par
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: Heatran|24/100 par|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|24
+|
+|switch|p2a: Slowking|Slowking-Galar, F|58/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|turn|25
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Slowking|Thunder Wave||[still]
+|-fail|p2a: Slowking
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Slowking|Future Sight|p1a: Dragapult
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|74/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|45/100
+|move|p2a: Iron Treads|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-end|p1a: Dragapult|move: Future Sight
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|4/100
+|-heal|p1a: Dragapult|10/100|[from] item: Leftovers
+|-heal|p2a: Iron Treads|51/100|[from] item: Leftovers
+|turn|29
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Iron Treads|Ice Spinner|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|84/100
+|
+|-heal|p2a: Iron Treads|57/100|[from] item: Leftovers
+|turn|30
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|91/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-sidestart|p2: reallybadatoldgens|Spikes
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|33/100
+|-damage|p2a: Dragapult|20/100|[from] Spikes
+|turn|31
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|10/100
+|turn|32
+|
+|switch|p2a: Iron Treads|Iron Treads|57/100
+|-damage|p2a: Iron Treads|45/100|[from] Spikes
+|move|p1a: Dragapult|Dragon Darts|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|35/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|24/100
+|
+|-heal|p1a: Dragapult|16/100|[from] item: Leftovers
+|-heal|p2a: Iron Treads|30/100|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|19/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|8/100
+|move|p2a: Iron Treads|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Iron Treads|14/100|[from] item: Leftovers
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|84/100
+|turn|34
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|84/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|turn|35
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, M, tera:Fire|97/100
+|-damage|p2a: Decidueye|84/100|[from] Spikes
+|move|p1a: Samurott|Aqua Jet|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-crit|p2a: Decidueye
+|-damage|p2a: Decidueye|8/100
+|
+|turn|36
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|84/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|turn|37
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|52/100
+|move|p2a: Landorus|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|10/100
+|
+|turn|38
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|20/100
+|move|p2a: Landorus|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|win|reallybadatoldgens
+|l|☆Ye olde doggo

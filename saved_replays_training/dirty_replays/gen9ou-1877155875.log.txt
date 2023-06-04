@@ -1,0 +1,166 @@
+|j|☆erduashi
+|j|☆Hank Hill Stan
+|t:|1685821464
+|gametype|singles
+|player|p1|erduashi|raihan|1606
+|player|p2|Hank Hill Stan|169|1554
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Blissey, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Magearna|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Glastrier|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1685821475
+|start
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1685821480
+|move|p1a: Blissey|Trick|p2a: Slowking
+|-activate|p1a: Blissey|move: Trick|[of] p2a: Slowking
+|-item|p2a: Slowking|Choice Scarf|[from] move: Trick
+|-item|p1a: Blissey|Shuca Berry|[from] move: Trick
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|upkeep
+|turn|2
+|
+|t:|1685821488
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100
+|move|p1a: Blissey|Trick|p2a: Ursaluna
+|-activate|p1a: Blissey|move: Trick|[of] p2a: Ursaluna
+|-item|p2a: Ursaluna|Shuca Berry|[from] move: Trick
+|-item|p1a: Blissey|Flame Orb|[from] move: Trick
+|
+|-status|p1a: Blissey|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1685821499
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|move|p2a: Ursaluna|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|4
+|
+|t:|1685821511
+|switch|p2a: Glastrier|Glastrier|100/100
+|move|p1a: Landorus|Substitute|p1a: Landorus
+|-start|p1a: Landorus|Substitute
+|-damage|p1a: Landorus|76/100
+|
+|-heal|p1a: Landorus|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685821514
+|move|p2a: Glastrier|Icicle Crash|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-end|p1a: Landorus|Substitute
+|move|p1a: Landorus|Earthquake|p2a: Glastrier
+|-damage|p2a: Glastrier|62/100
+|
+|-heal|p1a: Landorus|88/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1685821521
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p2a: Glastrier|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|move|p2a: Glastrier|Icicle Crash|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|65/100
+|
+|upkeep
+|turn|7
+|
+|t:|1685821531
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100
+|move|p1a: Typhlosion|Flamethrower|p2a: Ursaluna
+|-damage|p2a: Ursaluna|41/100
+|
+|upkeep
+|turn|8
+|
+|t:|1685821540
+|move|p1a: Typhlosion|Flamethrower|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1685821544
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|9
+|
+|t:|1685821569
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|upkeep
+|turn|10
+|
+|t:|1685821575
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Hydreigon|Stealth Rock|p2a: Magearna
+|-sidestart|p2: Hank Hill Stan|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1685821578
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Magearna|Focus Blast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|74/100
+|
+|-status|p1a: Blissey|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|t:|1685821587
+|switch|p2a: Glastrier|Glastrier|62/100
+|move|p1a: Blissey|Trick|p2a: Glastrier
+|-activate|p1a: Blissey|move: Trick|[of] p2a: Glastrier
+|-item|p2a: Glastrier|Flame Orb|[from] move: Trick
+|-item|p1a: Blissey|Heavy-Duty Boots|[from] move: Trick
+|
+|-damage|p1a: Blissey|68/100 brn|[from] brn
+|-status|p2a: Glastrier|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|-message|Hank Hill Stan forfeited.
+|
+|win|erduashi
+|raw|erduashi's rating: 1606 → 1623(+17 for winning)
+|raw|Hank Hill Stan's rating: 1554 → 1537(-17 for losing)
+|l|☆Hank Hill Stan

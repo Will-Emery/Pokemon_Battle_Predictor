@@ -1,0 +1,263 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Magearna|
+|poke|p1|Dragonite, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Scream Tail|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Electrode-Hisui|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|1
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Magearna
+|-damage|p1a: Magearna|36/100
+|-damage|p2a: Basculegion|81/100|[from] Recoil
+|move|p1a: Magearna|Fleur Cannon|p2a: Basculegion
+|-damage|p2a: Basculegion|14/100
+|-unboost|p1a: Magearna|spa|2
+|-enditem|p1a: Magearna|Eject Pack
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|
+|turn|2
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Dragonite|Earthquake|p2a: Ursaluna
+|-damage|p2a: Ursaluna|79/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|-terastallize|p1a: Dragonite|Ghost
+|move|p1a: Dragonite|Hurricane|p2a: Ursaluna
+|-damage|p2a: Ursaluna|50/100 brn
+|-start|p2a: Ursaluna|confusion
+|-activate|p2a: Ursaluna|confusion
+|-damage|p2a: Ursaluna|38/100 brn|[from] confusion
+|
+|-damage|p2a: Ursaluna|32/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Dragonite|Hurricane|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|5
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Dragonite|[miss]
+|-miss|p2a: Kleavor|p1a: Dragonite
+|move|p1a: Dragonite|Thunder Wave|p2a: Kleavor
+|-status|p2a: Kleavor|par
+|
+|turn|6
+|
+|move|p1a: Dragonite|Earthquake|p2a: Kleavor
+|-damage|p2a: Kleavor|63/100 par
+|cant|p2a: Kleavor|par
+|
+|turn|7
+|
+|move|p1a: Dragonite|Earthquake|p2a: Kleavor
+|-damage|p2a: Kleavor|22/100 par
+|cant|p2a: Kleavor|par
+|
+|turn|8
+|
+|move|p1a: Dragonite|Earthquake|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|
+|switch|p2a: Basculegion|Basculegion, M|14/100
+|turn|9
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|move|p1a: Dragonite|Earthquake|p2: Basculegion|[notarget]
+|-fail|p1a: Dragonite
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|10
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Arcanine|Head Smash|p1a: Corviknight
+|-damage|p1a: Corviknight|35/100
+|-damage|p2a: Arcanine|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|move|p2a: Arcanine|Head Smash|p1a: Landorus
+|-damage|p1a: Landorus|18/100
+|
+|turn|12
+|
+|move|p1a: Landorus|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, F|35/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Sneasler|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-damage|p2a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|18/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|turn|14
+|
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Sneasler|Acrobatics|p1a: Scream Tail
+|-damage|p1a: Scream Tail|78/100
+|
+|turn|15
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|30/100
+|move|p1a: Scream Tail|Thunder Wave|p2a: Sneasler|[miss]
+|-miss|p1a: Scream Tail|p2a: Sneasler
+|
+|turn|16
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|18/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|move|p2a: Sneasler|Dire Claw|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|5/100
+|-status|p1a: Landorus|slp
+|
+|turn|17
+|
+|switch|p1a: Scream Tail|Scream Tail|30/100
+|move|p2a: Sneasler|U-turn|p1a: Scream Tail
+|-damage|p1a: Scream Tail|19/100
+|
+|switch|p2a: Electrode|Electrode-Hisui, shiny|100/100|[from] U-turn
+|
+|turn|18
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Dragonite|Dragonite, M, tera:Ghost|50/100
+|move|p2a: Electrode|Discharge|p1a: Dragonite
+|-damage|p1a: Dragonite|28/100
+|
+|turn|19
+|
+|move|p2a: Electrode|Discharge|p1a: Dragonite
+|-damage|p1a: Dragonite|7/100
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|57/100
+|
+|turn|20
+|
+|move|p2a: Electrode|Leech Seed|p1a: Dragonite
+|-start|p1a: Dragonite|move: Leech Seed
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|
+|-damage|p1a: Dragonite|88/100|[from] Leech Seed|[of] p2a: Electrode
+|turn|21
+|
+|switch|p1a: Scream Tail|Scream Tail|19/100
+|move|p2a: Electrode|Discharge|p1a: Scream Tail
+|-damage|p1a: Scream Tail|3/100
+|
+|turn|22
+|
+|move|p2a: Electrode|Volt Switch|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|
+|switch|p2a: Sneasler|Sneasler, M|84/100|[from] Volt Switch
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|5/100 slp
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|turn|23
+|
+|switch|p1a: Dragonite|Dragonite, M, tera:Ghost|88/100
+|move|p2a: Sneasler|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|68/100
+|
+|switch|p2a: Electrode|Electrode-Hisui, shiny|100/100|[from] U-turn
+|
+|turn|24
+|
+|move|p2a: Electrode|Leech Seed|p1a: Dragonite
+|-start|p1a: Dragonite|move: Leech Seed
+|move|p1a: Dragonite|Earthquake|p2a: Electrode
+|-damage|p2a: Electrode|44/100
+|
+|-heal|p2a: Electrode|50/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|56/100|[from] Leech Seed|[of] p2a: Electrode
+|-heal|p2a: Electrode|69/100|[silent]
+|turn|25
+|
+|move|p2a: Electrode|Chloroblast|p1a: Dragonite
+|-damage|p1a: Dragonite|17/100
+|-damage|p2a: Electrode|19/100|[from] chloroblast
+|move|p1a: Dragonite|Earthquake|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|84/100
+|turn|26
+|
+|switch|p1a: Landorus|Landorus-Therian, M|5/100 slp
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-terastallize|p2a: Sneasler|Flying
+|move|p2a: Sneasler|Acrobatics|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|27
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|win|1145141919810aaaa
+|l|☆EmperadorSRN

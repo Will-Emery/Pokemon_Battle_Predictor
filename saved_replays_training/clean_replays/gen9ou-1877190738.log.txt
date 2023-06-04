@@ -1,0 +1,107 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Abomasnow, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Magearna|
+|poke|p1|Skeledirge, F|
+|poke|p1|Iron Treads|
+|poke|p2|Sneasler, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Magearna|
+|poke|p2|Skeledirge, M|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|start
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|28/100
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: erduashi|move: Aurora Veil
+|
+|-weather|Snow|[upkeep]
+|turn|2
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|3
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Skeledirge|Torch Song|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|73/100
+|-boost|p2a: Skeledirge|spa|1
+|-enditem|p1a: Magearna|Weakness Policy
+|-boost|p1a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Magearna|spa|2|[from] item: Weakness Policy
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p1a: Magearna|Stored Power|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|17/100
+|move|p2a: Skeledirge|Torch Song|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|33/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-weather|none
+|turn|6
+|
+|move|p1a: Magearna|Stored Power|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|7
+|
+|-terastallize|p1a: Magearna|Fairy
+|move|p1a: Magearna|Draining Kiss|p2a: Dondozo
+|-damage|p2a: Dondozo|63/100
+|-heal|p1a: Magearna|72/100|[from] drain|[of] p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Magearna
+|-damage|p1a: Magearna|60/100
+|
+|-heal|p2a: Dondozo|69/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|9/100
+|-heal|p1a: Magearna|100/100|[from] drain|[of] p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Magearna
+|-damage|p1a: Magearna|88/100
+|-unboost|p1a: Magearna|def|1
+|
+|-heal|p2a: Dondozo|15/100|[from] item: Leftovers
+|-sideend|p1: erduashi|move: Aurora Veil
+|turn|9
+|-message|Cellthadon forfeited.
+|
+|win|erduashi
+|l|☆Cellthadon

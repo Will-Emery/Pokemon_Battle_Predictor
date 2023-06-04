@@ -1,0 +1,343 @@
+|poke|p1|Glimmora, M|
+|poke|p1|Dragonite, F|
+|poke|p1|Quaquaval, F|
+|poke|p1|Gholdengo|
+|poke|p1|Garganacl, M|
+|poke|p1|Zamazenta-*|
+|poke|p2|Skeledirge, M|
+|poke|p2|Magearna|
+|poke|p2|Volcarona, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|
+|turn|2
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Glimmora|Stealth Rock|p2a: Magearna
+|-sidestart|p2: yuugbjugcvcrjop|move: Stealth Rock
+|
+|turn|3
+|
+|move|p1a: Glimmora|Spikes|p2a: Magearna
+|-sidestart|p2: yuugbjugcvcrjop|Spikes
+|move|p2a: Magearna|Volt Switch|p1a: Glimmora
+|-damage|p1a: Glimmora|62/100
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] Volt Switch
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|-damage|p2a: Garganacl|76/100|[from] Spikes
+|
+|-heal|p1a: Glimmora|68/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|82/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Glimmora|Memento|p2a: Garganacl
+|-unboost|p2a: Garganacl|atk|2
+|-unboost|p2a: Garganacl|spa|2
+|faint|p1a: Glimmora
+|move|p2a: Garganacl|Salt Cure|p1: Glimmora|[notarget]
+|-fail|p2a: Garganacl
+|
+|-heal|p2a: Garganacl|88/100|[from] item: Leftovers
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|turn|5
+|
+|move|p1a: Zamazenta|Body Press|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|43/100
+|move|p2a: Garganacl|Salt Cure|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|99/100
+|-start|p1a: Zamazenta|Salt Cure
+|
+|-heal|p2a: Garganacl|49/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|75/100|[from] Salt Cure
+|turn|6
+|
+|move|p1a: Zamazenta|Body Press|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Zamazenta|50/100|[from] Salt Cure
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|7
+|
+|move|p1a: Zamazenta|Body Press|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|65/100
+|-status|p1a: Zamazenta|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-damage|p1a: Zamazenta|44/100 brn|[from] brn
+|-damage|p1a: Zamazenta|19/100 brn|[from] Salt Cure
+|turn|8
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Zamazenta|Body Press|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|46/100
+|
+|-damage|p1a: Zamazenta|12/100 brn|[from] brn
+|-damage|p1a: Zamazenta|0 fnt|[from] Salt Cure
+|faint|p1a: Zamazenta
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|9
+|
+|-terastallize|p2a: Volcarona|Ground
+|move|p2a: Volcarona|Hurricane|p1a: Dragonite
+|-damage|p1a: Dragonite|63/100
+|-start|p1a: Dragonite|confusion
+|-activate|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|turn|10
+|
+|-activate|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Extreme Speed|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|11
+|
+|-activate|p1a: Dragonite|confusion
+|-damage|p1a: Dragonite|38/100|[from] confusion
+|move|p2a: Skeledirge|Yawn|p1a: Dragonite
+|-start|p1a: Dragonite|move: Yawn|[of] p2a: Skeledirge
+|
+|turn|12
+|
+|-end|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Thunder Punch|p2a: Skeledirge
+|-damage|p2a: Skeledirge|81/100
+|move|p2a: Skeledirge|Torch Song|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|24/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-end|p1a: Dragonite|move: Yawn|[silent]
+|-status|p1a: Dragonite|slp
+|turn|13
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|85/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|turn|14
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|65/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Garganacl|Salt Cure|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|65/100
+|-start|p2a: Skeledirge|Salt Cure
+|
+|-damage|p2a: Skeledirge|52/100|[from] Salt Cure
+|turn|15
+|
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-damage|p2a: Skeledirge|88/100|[from] Salt Cure
+|turn|16
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|75/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Garganacl|Stone Edge|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|45/100
+|
+|-damage|p2a: Skeledirge|33/100|[from] Salt Cure
+|turn|17
+|
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|83/100
+|move|p1a: Garganacl|Stone Edge|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|45/100
+|
+|-damage|p2a: Skeledirge|32/100|[from] Salt Cure
+|turn|18
+|
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|82/100
+|move|p1a: Garganacl|Stone Edge|p2a: Skeledirge|[miss]
+|-miss|p1a: Garganacl|p2a: Skeledirge
+|
+|-damage|p2a: Skeledirge|70/100|[from] Salt Cure
+|turn|19
+|
+|move|p2a: Skeledirge|Shadow Ball|p1a: Garganacl
+|-damage|p1a: Garganacl|42/100
+|-unboost|p1a: Garganacl|spd|1
+|move|p1a: Garganacl|Stone Edge|p2a: Skeledirge|[miss]
+|-miss|p1a: Garganacl|p2a: Skeledirge
+|
+|-damage|p2a: Skeledirge|57/100|[from] Salt Cure
+|turn|20
+|
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|92/100
+|
+|-damage|p2a: Skeledirge|88/100|[from] Salt Cure
+|turn|21
+|
+|move|p2a: Skeledirge|Shadow Ball|p1a: Garganacl
+|-damage|p1a: Garganacl|62/100
+|move|p1a: Garganacl|Stone Edge|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|50/100
+|
+|-damage|p2a: Skeledirge|37/100|[from] Salt Cure
+|turn|22
+|
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|87/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-damage|p2a: Skeledirge|75/100|[from] Salt Cure
+|turn|23
+|
+|move|p2a: Skeledirge|Shadow Ball|p1a: Garganacl
+|-damage|p1a: Garganacl|70/100
+|move|p1a: Garganacl|Stone Edge|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|31/100
+|
+|-damage|p2a: Skeledirge|19/100|[from] Salt Cure
+|turn|24
+|
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|69/100
+|move|p1a: Garganacl|Salt Cure|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|51/100
+|
+|-damage|p2a: Skeledirge|39/100|[from] Salt Cure
+|turn|25
+|
+|move|p2a: Skeledirge|Shadow Ball|p1a: Garganacl
+|-damage|p1a: Garganacl|37/100
+|move|p1a: Garganacl|Stone Edge|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|-damage|p2a: Magearna|82/100|[from] Spikes
+|turn|26
+|
+|move|p2a: Magearna|Flash Cannon|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|27
+|
+|move|p1a: Gholdengo|Substitute|p1a: Gholdengo
+|-start|p1a: Gholdengo|Substitute
+|-damage|p1a: Gholdengo|76/100
+|move|p2a: Magearna|Volt Switch|p1a: Gholdengo
+|-end|p1a: Gholdengo|Substitute
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100|[from] Volt Switch
+|
+|-heal|p1a: Gholdengo|82/100|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Dragonite|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|10/100
+|move|p1a: Gholdengo|Substitute|p1a: Gholdengo
+|-fail|p1a: Gholdengo|move: Substitute|[weak]
+|
+|-heal|p1a: Gholdengo|16/100|[from] item: Leftovers
+|turn|29
+|
+|switch|p1a: Dragonite|Dragonite, F|24/100 slp
+|move|p2a: Dragonite|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|turn|30
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|turn|31
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|16/100
+|turn|32
+|
+|move|p2a: Dragonite|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|33
+|
+|move|p2a: Dragonite|Earthquake|p1a: Quaquaval
+|-damage|p1a: Quaquaval|28/100
+|move|p1a: Quaquaval|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|44/100
+|
+|turn|34
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|win|yuugbjugcvcrjop

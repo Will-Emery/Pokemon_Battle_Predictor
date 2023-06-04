@@ -1,0 +1,438 @@
+|j|☆robupoke
+|j|☆TheDarkMages
+|t:|1685828427
+|gametype|singles
+|player|p1|robupoke|2|
+|player|p2|TheDarkMages|steven|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Talonflame, M|
+|poke|p1|Great Tusk|
+|poke|p1|Magnezone|
+|poke|p1|Dondozo, F|
+|poke|p1|Clodsire, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, F|
+|poke|p2|Great Tusk|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Sandy Shocks|
+|teampreview
+|
+|t:|1685828449
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|t:|1685828456
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|69/100
+|-status|p2a: Great Tusk|brn|[from] ability: Flame Body|[of] p1a: Talonflame
+|-enditem|p1a: Talonflame|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1685828469
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Talonflame|Flamethrower|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685828478
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Torkoal|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: robupoke|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685828491
+|switch|p2a: vogal|Clodsire, F|100/100
+|move|p1a: Talonflame|Defog|p2a: vogal
+|-unboost|p2a: vogal|evasion|1
+|-sideend|p1: robupoke|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685828500
+|move|p1a: Talonflame|Will-O-Wisp|p2a: vogal
+|-status|p2a: vogal|brn
+|move|p2a: vogal|Earthquake|p1a: Talonflame
+|-immune|p1a: Talonflame
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: vogal|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1685828510
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: vogal|Toxic|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: vogal|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: vogal|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685828519
+|switch|p2a: Great Tusk|Great Tusk|94/100 brn
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Clodsire|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: TheDarkMages|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685828530
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685828540
+|move|p1a: Talonflame|Flamethrower|p2a: Great Tusk
+|-damage|p2a: Great Tusk|40/100 brn
+|move|p2a: Great Tusk|Rapid Spin|p1a: Talonflame
+|-damage|p1a: Talonflame|76/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: TheDarkMages|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|none
+|-end|p2a: Great Tusk|Protosynthesis
+|-heal|p2a: Great Tusk|46/100 brn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|40/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685828552
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Talonflame|Flamethrower|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|94/100
+|
+|upkeep
+|turn|11
+|
+|t:|1685828559
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Walking Wake|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|75/100
+|
+|-heal|p1a: Clodsire|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685828571
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: vogal|Clodsire, F|94/100 brn
+|move|p1a: Clodsire|Stealth Rock|p2a: vogal
+|-sidestart|p2: TheDarkMages|move: Stealth Rock
+|
+|-heal|p1a: Clodsire|87/100|[from] item: Leftovers
+|-heal|p2a: vogal|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: vogal|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1685828581
+|move|p2a: vogal|Spikes|p1a: Clodsire
+|-sidestart|p1: robupoke|Spikes
+|move|p1a: Clodsire|Earthquake|p2a: vogal
+|-supereffective|p2a: vogal
+|-damage|p2a: vogal|39/100 brn
+|
+|-heal|p1a: Clodsire|93/100|[from] item: Leftovers
+|-heal|p2a: vogal|45/100 brn|[from] item: Black Sludge
+|-damage|p2a: vogal|39/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1685828592
+|switch|p2a: Great Tusk|Great Tusk|40/100 brn
+|-damage|p2a: Great Tusk|37/100 brn|[from] Stealth Rock
+|move|p1a: Clodsire|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|18/100 brn
+|
+|-heal|p2a: Great Tusk|24/100 brn|[from] item: Leftovers
+|-heal|p1a: Clodsire|99/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|18/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1685828603
+|switch|p1a: Talonflame|Talonflame, M|76/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Talonflame
+|-damage|p1a: Talonflame|68/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: TheDarkMages|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|24/100 brn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|18/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1685828614
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|77/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Talonflame|Defog|p2a: Torkoal
+|-unboost|p2a: Torkoal|evasion|1
+|-sideend|p1: robupoke|Spikes|[from] move: Defog|[of] p1a: Talonflame
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1685828624
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Torkoal|Yawn|p1a: Talonflame
+|-start|p1a: Talonflame|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1685828633
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|switch|p2a: Walking Wake|Walking Wake|94/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1685828644
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Clodsire|Clodsire, M|99/100
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Clodsire
+|-damage|p1a: Clodsire|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|73/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685828652
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Lilligant
+|-sidestart|p2: TheDarkMages|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|79/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685828661
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-damage|p2a: Sandy Shocks|94/100|[from] Stealth Rock
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis
+|-start|p2a: Sandy Shocks|protosynthesisspa
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1685828721
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Sandy Shocks|Earth Power|p1a: Dondozo
+|-damage|p1a: Dondozo|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1685828737
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|94/100
+|-damage|p2a: Walking Wake|81/100|[from] Stealth Rock
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Dondozo|Wave Crash|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-crit|p2a: Walking Wake
+|-damage|p2a: Walking Wake|74/100
+|-damage|p1a: Dondozo|43/100|[from] Recoil
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|turn|24
+|
+|t:|1685828749
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: vogal|Clodsire, F|39/100 brn
+|-damage|p2a: vogal|32/100 brn|[from] Stealth Rock
+|switch|p1a: Clodsire|Clodsire, M|79/100
+|
+|-heal|p1a: Clodsire|85/100|[from] item: Leftovers
+|-heal|p2a: vogal|39/100 brn|[from] item: Black Sludge
+|-damage|p2a: vogal|32/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1685828761
+|switch|p2a: Torkoal|Torkoal, F|77/100
+|-damage|p2a: Torkoal|52/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Clodsire|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|91/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1685828772
+|move|p1a: Clodsire|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685828778
+|switch|p2a: Sandy Shocks|Sandy Shocks|94/100
+|-damage|p2a: Sandy Shocks|88/100|[from] Stealth Rock
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis
+|-start|p2a: Sandy Shocks|protosynthesisspa
+|turn|27
+|
+|t:|1685828786
+|-terastallize|p2a: Sandy Shocks|Ice
+|-terastallize|p1a: Clodsire|Dark
+|move|p2a: Sandy Shocks|Tera Blast|p1a: Clodsire
+|-damage|p1a: Clodsire|71/100
+|move|p1a: Clodsire|Earthquake|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|77/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1685828798
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|-damage|p2a: Lilligant|94/100|[from] Stealth Rock
+|move|p1a: Clodsire|Earthquake|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Lilligant|82/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|83/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1685828809
+|switch|p2a: Walking Wake|Walking Wake|74/100
+|-damage|p2a: Walking Wake|61/100|[from] Stealth Rock
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1685828820
+|switch|p1a: Clodsire|Clodsire, M, tera:Dark|83/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Clodsire
+|-damage|p1a: Clodsire|27/100
+|-unboost|p2a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|33/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1685828831
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1685828840
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|18/100 brn
+|-damage|p2a: Great Tusk|15/100 brn|[from] Stealth Rock
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-weather|none
+|-end|p2a: Great Tusk|Protosynthesis
+|-heal|p2a: Great Tusk|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|15/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1685828854
+|move|p1a: Magearna|Draining Kiss|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|-message|TheDarkMages forfeited.
+|
+|win|robupoke
+|c|☆TheDarkMages|gg
+|l|☆TheDarkMages

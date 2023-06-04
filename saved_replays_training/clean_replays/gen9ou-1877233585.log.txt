@@ -1,0 +1,104 @@
+|poke|p1|Garganacl, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Great Tusk|
+|poke|p1|Volcarona, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Garchomp, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|poke|p2|Heatran, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: V8 = smol pp|Garchomp, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: V8 = smol pp|atk|1
+|move|p1a: V8 = smol pp|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|turn|2
+|
+|move|p1a: V8 = smol pp|Swords Dance|p1a: V8 = smol pp
+|-boost|p1a: V8 = smol pp|atk|2
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|turn|3
+|
+|move|p1a: V8 = smol pp|Dragon Claw|p2a: Landorus
+|-damage|p2a: Landorus|26/100
+|move|p2a: Landorus|Earthquake|p1a: V8 = smol pp
+|-damage|p1a: V8 = smol pp|0 fnt
+|faint|p1a: V8 = smol pp
+|-damage|p2a: Landorus|16/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Ugly Bugly|Volcarona, M|100/100
+|turn|4
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Ugly Bugly|Fiery Dance|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|turn|5
+|
+|switch|p1a: VTEC|Toxapex, M|100/100
+|move|p2a: Heatran|Magma Storm|p1a: VTEC
+|-resisted|p1a: VTEC
+|-damage|p1a: VTEC|72/100
+|-activate|p1a: VTEC|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: VTEC|78/100|[from] item: Leftovers
+|-damage|p1a: VTEC|66/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|6
+|
+|move|p2a: Heatran|Earth Power|p1a: VTEC
+|-supereffective|p1a: VTEC
+|-damage|p1a: VTEC|21/100
+|move|p1a: VTEC|Recover|p1a: VTEC
+|-heal|p1a: VTEC|71/100
+|
+|-heal|p1a: VTEC|77/100|[from] item: Leftovers
+|-damage|p1a: VTEC|65/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|7
+|
+|move|p2a: Heatran|Earth Power|p1a: VTEC
+|-supereffective|p1a: VTEC
+|-damage|p1a: VTEC|25/100
+|-unboost|p1a: VTEC|spd|1
+|move|p1a: VTEC|Toxic Spikes|p2a: Heatran
+|-sidestart|p2: JavierTheFox|move: Toxic Spikes
+|
+|-heal|p1a: VTEC|31/100|[from] item: Leftovers
+|-damage|p1a: VTEC|19/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|8
+|
+|move|p2a: Heatran|Earth Power|p1a: VTEC
+|-supereffective|p1a: VTEC
+|-damage|p1a: VTEC|0 fnt
+|faint|p1a: VTEC
+|
+|
+|switch|p1a: Whopper Wednesday|Great Tusk|100/100
+|turn|9
+|
+|-terastallize|p2a: Heatran|Grass
+|move|p1a: Whopper Wednesday|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|68/100
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Whopper Wednesday
+|move|p2a: Heatran|Tera Blast|p1a: Whopper Wednesday
+|-supereffective|p1a: Whopper Wednesday
+|-damage|p1a: Whopper Wednesday|0 fnt
+|faint|p1a: Whopper Wednesday
+|-end|p1a: Whopper Wednesday|Protosynthesis|[silent]
+|
+|-message|nasty civic lost due to inactivity.
+|
+|win|JavierTheFox

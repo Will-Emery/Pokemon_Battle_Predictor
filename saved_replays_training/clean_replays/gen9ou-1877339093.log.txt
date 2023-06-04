@@ -1,0 +1,113 @@
+|poke|p1|Muk-Alola, M|
+|poke|p1|Chesnaught, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Skeledirge, M|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Cresselia, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Ursaluna, F|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cresselia|atk|1
+|turn|1
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|95/100
+|
+|switch|p1a: Muk|Muk-Alola, M|100/100|[from] U-turn
+|
+|-heal|p2a: Enamorus|100/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Muk|Poison Jab|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Muk|94/100|[from] Sandstorm
+|turn|3
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Muk
+|-sidestart|p1: JudgeScrub|move: Stealth Rock
+|move|p1a: Muk|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|3/100
+|-heal|p1a: Muk|100/100|[from] drain|[of] p2a: Tyranitar
+|-status|p2a: Tyranitar|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Muk|94/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|0 fnt|[from] psn
+|faint|p2a: Tyranitar
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|4
+|
+|move|p1a: Muk|Knock Off|p2a: Ursaluna
+|-damage|p2a: Ursaluna|65/100
+|-status|p2a: Ursaluna|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|-enditem|p2a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: Muk
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Muk|88/100|[from] Sandstorm
+|-damage|p2a: Ursaluna|53/100 psn|[from] psn
+|turn|5
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Muk|Drain Punch|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|91/100
+|-heal|p1a: Muk|93/100|[from] drain|[of] p2a: Cresselia
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cresselia|85/100|[from] Sandstorm
+|-damage|p1a: Muk|87/100|[from] Sandstorm
+|turn|6
+|
+|-terastallize|p2a: Cresselia|Dark
+|move|p2a: Cresselia|Substitute|p2a: Cresselia
+|-start|p2a: Cresselia|Substitute
+|-damage|p2a: Cresselia|60/100
+|move|p1a: Muk|Knock Off|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-activate|p2a: Cresselia|move: Substitute|[damage]
+|
+|-weather|none
+|turn|7
+|
+|move|p2a: Cresselia|Future Sight|p1a: Muk
+|-start|p2a: Cresselia|move: Future Sight
+|move|p1a: Muk|Drain Punch|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-end|p2a: Cresselia|Substitute
+|-heal|p1a: Muk|92/100|[from] drain|[of] p2a: Cresselia
+|
+|turn|8
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Muk|Drain Punch|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|41/100
+|-heal|p1a: Muk|100/100|[from] drain|[of] p2a: Samurott
+|-status|p2a: Samurott|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|
+|-damage|p2a: Samurott|28/100 psn|[from] psn
+|turn|9
+|-message|Apine forfeited.
+|
+|win|JudgeScrub
+|l|☆Apine

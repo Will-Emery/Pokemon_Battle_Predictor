@@ -1,0 +1,288 @@
+|poke|p1|Magearna|
+|poke|p1|Zamazenta-*|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Magearna|
+|poke|p2|Azumarill, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|switch|p2a: the meltzer|Garganacl, M|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: the meltzer|Salt Cure|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|98/100
+|-start|p1a: Zamazenta|Salt Cure
+|
+|-heal|p1a: Zamazenta|100/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|88/100|[from] Salt Cure
+|turn|2
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Zamazenta|76/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Zamazenta|59/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Zamazenta|65/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|53/100|[from] Salt Cure
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|3
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Zamazenta|Body Press|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p1a: Zamazenta|59/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|47/100|[from] Salt Cure
+|turn|4
+|
+|move|p1a: Zamazenta|Body Press|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Zamazenta
+|-status|p1a: Zamazenta|brn
+|
+|-heal|p1a: Zamazenta|53/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|12/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|47/100 brn|[from] brn
+|-damage|p1a: Zamazenta|34/100 brn|[from] Salt Cure
+|turn|5
+|
+|move|p1a: Zamazenta|Body Press|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Zamazenta|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Zamazenta|34/100 brn|[from] brn
+|-damage|p1a: Zamazenta|22/100 brn|[from] Salt Cure
+|
+|switch|p2a: the meltzer|Garganacl, M|100/100
+|turn|6
+|
+|move|p2a: the meltzer|Protect|p2a: the meltzer
+|-singleturn|p2a: the meltzer|Protect
+|move|p1a: Zamazenta|Body Press|p2a: the meltzer
+|-activate|p2a: the meltzer|move: Protect
+|
+|-heal|p1a: Zamazenta|28/100 brn|[from] item: Leftovers
+|-damage|p1a: Zamazenta|22/100 brn|[from] brn
+|-damage|p1a: Zamazenta|10/100 brn|[from] Salt Cure
+|turn|7
+|
+|-terastallize|p2a: the meltzer|Fairy
+|move|p1a: Zamazenta|Body Press|p2a: the meltzer
+|-resisted|p2a: the meltzer
+|-damage|p2a: the meltzer|88/100
+|move|p2a: the meltzer|Recover|p2a: the meltzer
+|-heal|p2a: the meltzer|100/100
+|
+|-heal|p1a: Zamazenta|16/100 brn|[from] item: Leftovers
+|-damage|p1a: Zamazenta|10/100 brn|[from] brn
+|-damage|p1a: Zamazenta|0 fnt|[from] Salt Cure
+|faint|p1a: Zamazenta
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|8
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|54/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|turn|9
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|move|p2a: Urshifu|Surging Strikes|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|67/100
+|-damage|p2a: Urshifu|37/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|32/100
+|-damage|p2a: Urshifu|21/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Urshifu|4/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|-hitcount|p1: Landorus|3
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|10
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Gholdengo
+|-damage|p1a: Gholdengo|86/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|11
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Azumarill
+|-damage|p2a: Azumarill|39/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Azumarill|Liquidation|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|12
+|
+|move|p1a: Enamorus|Moonblast|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|
+|switch|p2a: the meltzer|Garganacl, M, tera:Fairy|100/100
+|turn|13
+|
+|move|p1a: Enamorus|Moonblast|p2a: the meltzer
+|-damage|p2a: the meltzer|72/100
+|move|p2a: the meltzer|Salt Cure|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|57/100
+|-start|p1a: Enamorus|Salt Cure
+|
+|-heal|p2a: the meltzer|78/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|44/100|[from] Salt Cure
+|turn|14
+|
+|move|p2a: the meltzer|Protect|p2a: the meltzer
+|-singleturn|p2a: the meltzer|Protect
+|move|p1a: Enamorus|Superpower|p2a: the meltzer
+|-activate|p2a: the meltzer|move: Protect
+|
+|-heal|p2a: the meltzer|84/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|32/100|[from] Salt Cure
+|turn|15
+|
+|switch|p2a: fatherless|Magearna|100/100
+|move|p1a: Enamorus|Superpower|p2a: fatherless
+|-damage|p2a: fatherless|64/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|
+|-damage|p1a: Enamorus|20/100|[from] Salt Cure
+|turn|16
+|
+|move|p2a: fatherless|Volt Switch|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-ability|p2a: fatherless|Soul-Heart|boost
+|-boost|p2a: fatherless|spa|1
+|
+|switch|p2a: the meltzer|Garganacl, M, tera:Fairy|84/100|[from] Volt Switch
+|
+|-heal|p2a: the meltzer|90/100|[from] item: Leftovers
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|17
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: the meltzer|Salt Cure|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|95/100
+|-start|p1a: Magearna|Salt Cure
+|
+|-heal|p2a: the meltzer|96/100|[from] item: Leftovers
+|-damage|p1a: Magearna|70/100|[from] Salt Cure
+|turn|18
+|
+|move|p1a: Magearna|Draining Kiss|p2a: the meltzer
+|-damage|p2a: the meltzer|81/100
+|-heal|p1a: Magearna|83/100|[from] drain|[of] p2a: the meltzer
+|move|p2a: the meltzer|Body Press|p1a: Magearna
+|-damage|p1a: Magearna|64/100
+|
+|-heal|p2a: the meltzer|87/100|[from] item: Leftovers
+|-damage|p1a: Magearna|39/100|[from] Salt Cure
+|turn|19
+|
+|move|p1a: Magearna|Draining Kiss|p2a: the meltzer
+|-damage|p2a: the meltzer|73/100
+|-heal|p1a: Magearna|51/100|[from] drain|[of] p2a: the meltzer
+|move|p2a: the meltzer|Body Press|p1a: Magearna
+|-damage|p1a: Magearna|34/100
+|
+|-heal|p2a: the meltzer|79/100|[from] item: Leftovers
+|-damage|p1a: Magearna|9/100|[from] Salt Cure
+|turn|20
+|
+|move|p2a: the meltzer|Protect|p2a: the meltzer
+|-singleturn|p2a: the meltzer|Protect
+|move|p1a: Magearna|Draining Kiss|p2a: the meltzer
+|-activate|p2a: the meltzer|move: Protect
+|
+|-heal|p2a: the meltzer|85/100|[from] item: Leftovers
+|-damage|p1a: Magearna|0 fnt|[from] Salt Cure
+|faint|p1a: Magearna
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|21
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: the meltzer
+|-damage|p2a: the meltzer|52/100
+|move|p2a: the meltzer|Salt Cure|p1a: Samurott
+|-damage|p1a: Samurott|84/100
+|-start|p1a: Samurott|Salt Cure
+|
+|-heal|p2a: the meltzer|58/100|[from] item: Leftovers
+|-damage|p1a: Samurott|59/100|[from] Salt Cure
+|turn|22
+|
+|move|p2a: the meltzer|Protect|p2a: the meltzer
+|-singleturn|p2a: the meltzer|Protect
+|move|p1a: Samurott|Aqua Cutter|p2a: the meltzer
+|-activate|p2a: the meltzer|move: Protect
+|
+|-heal|p2a: the meltzer|64/100|[from] item: Leftovers
+|-damage|p1a: Samurott|34/100|[from] Salt Cure
+|turn|23
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: the meltzer
+|-damage|p2a: the meltzer|35/100
+|move|p2a: the meltzer|Recover|p2a: the meltzer
+|-heal|p2a: the meltzer|85/100
+|
+|-heal|p2a: the meltzer|91/100|[from] item: Leftovers
+|-damage|p1a: Samurott|9/100|[from] Salt Cure
+|turn|24
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: the meltzer
+|-damage|p2a: the meltzer|60/100
+|move|p2a: the meltzer|Body Press|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|win|GerrytheHeeHo

@@ -1,0 +1,199 @@
+|j|☆Papoiaa
+|j|☆ReddPlayer07
+|t:|1685841601
+|gametype|singles
+|player|p1|Papoiaa|hilbert-wonderlauncher|1033
+|player|p2|ReddPlayer07|nate|1111
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Quaquaval, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Uxie|
+|poke|p2|Ursaluna, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1685841608
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1685841616
+|move|p1a: Uxie|Yawn|p2a: Hatterene
+|move|p2a: Hatterene|Yawn|p1a: Uxie|[from]ability: Magic Bounce
+|-start|p1a: Uxie|move: Yawn|[of] p2a: Hatterene
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1685841626
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Uxie|Light Screen|p1a: Uxie
+|-sidestart|p1: Papoiaa|move: Light Screen
+|
+|-end|p1a: Uxie|move: Yawn|[silent]
+|-status|p1a: Uxie|slp
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1685841636
+|move|p2a: Ursaluna|Facade|p1a: Uxie
+|-damage|p1a: Uxie|6/100 slp
+|cant|p1a: Uxie|slp
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685841643
+|move|p2a: Ursaluna|Facade|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1685841652
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|turn|5
+|
+|t:|1685841657
+|move|p1a: Clodsire|Toxic Spikes|p2a: Ursaluna
+|-sidestart|p2: ReddPlayer07|move: Toxic Spikes
+|move|p2a: Ursaluna|Earthquake|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-enditem|p1a: Clodsire|Focus Sash
+|-damage|p1a: Clodsire|1/100
+|
+|-damage|p2a: Ursaluna|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1685841667
+|move|p2a: Ursaluna|Facade|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-damage|p2a: Ursaluna|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1685841678
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|turn|7
+|
+|t:|1685841685
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-status|p2a: Hatterene|psn
+|move|p1a: Quaquaval|Bulk Up|p1a: Quaquaval
+|-boost|p1a: Quaquaval|atk|1
+|-boost|p1a: Quaquaval|def|1
+|
+|-damage|p2a: Hatterene|88/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685841693
+|move|p1a: Quaquaval|Aqua Step|p2a: Hatterene
+|-damage|p2a: Hatterene|8/100 psn
+|-boost|p1a: Quaquaval|spe|1
+|-damage|p1a: Quaquaval|91/100|[from] item: Life Orb
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-damage|p2a: Hatterene|0 fnt|[from] psn
+|faint|p2a: Hatterene
+|upkeep
+|
+|t:|1685841700
+|switch|p2a: Ursaluna|Ursaluna, M|76/100 brn
+|turn|9
+|
+|t:|1685841706
+|move|p2a: Ursaluna|Facade|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|-damage|p2a: Ursaluna|70/100 brn|[from] brn
+|-sideend|p1: Papoiaa|move: Light Screen
+|upkeep
+|
+|t:|1685841725
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|10
+|
+|t:|1685841733
+|move|p2a: Ursaluna|Facade|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|-damage|p2a: Ursaluna|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1685841740
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|turn|11
+|
+|t:|1685841746
+|move|p2a: Ursaluna|Crunch|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|14/100
+|move|p1a: Skeledirge|Hex|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|
+|-heal|p1a: Skeledirge|20/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|58/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1685841754
+|move|p2a: Ursaluna|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-damage|p2a: Ursaluna|52/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685841761
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|13
+|
+|t:|1685841766
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Ursaluna|Earthquake|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|win|ReddPlayer07
+|raw|Papoiaa's rating: 1033 → 1022(-11 for losing)
+|raw|ReddPlayer07's rating: 1129 → 1147(+18 for winning)
+|c|☆ReddPlayer07|Gg
+|c|☆Papoiaa|gg
+|l|☆Papoiaa

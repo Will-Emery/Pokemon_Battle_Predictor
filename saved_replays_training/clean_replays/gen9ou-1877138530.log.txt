@@ -1,0 +1,164 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Decidueye-Hisui, M|
+|poke|p1|Meloetta|
+|poke|p2|Oinkologne, M|
+|poke|p2|Magneton|
+|poke|p2|Appletun, F|
+|poke|p2|Squawkabilly, F|
+|poke|p2|Muk, F|
+|poke|p2|Tsareena, F|
+|teampreview
+|
+|start
+|switch|p1a: Seed Bomb|Electrode-Hisui|100/100
+|switch|p2a: Oinkologne|Oinkologne, M|100/100
+|turn|1
+|
+|move|p1a: Seed Bomb|Reflect|p1a: Seed Bomb
+|-sidestart|p1: BagelsRWarm|Reflect
+|move|p2a: Oinkologne|Double-Edge|p1a: Seed Bomb
+|-damage|p1a: Seed Bomb|19/100
+|-damage|p2a: Oinkologne|84/100|[from] Recoil
+|
+|turn|2
+|
+|switch|p2a: Muk|Muk, F|100/100
+|move|p1a: Seed Bomb|Giga Drain|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|87/100
+|-heal|p1a: Seed Bomb|29/100|[from] drain|[of] p2a: Muk
+|-heal|p1a: Seed Bomb|32/100|[from] item: Shell Bell|[of] p2a: Muk
+|
+|turn|3
+|
+|move|p1a: Seed Bomb|Thunderbolt|p2a: Muk
+|-damage|p2a: Muk|55/100
+|-status|p2a: Muk|par
+|-heal|p1a: Seed Bomb|37/100|[from] item: Shell Bell|[of] p2a: Muk
+|move|p2a: Muk|Brick Break|p1a: Seed Bomb
+|-sideend|p1: BagelsRWarm|Reflect
+|-damage|p1a: Seed Bomb|0 fnt
+|-damage|p2a: Muk|30/100 par|[from] ability: Aftermath|[of] p1a: Seed Bomb
+|faint|p1a: Seed Bomb
+|
+|
+|switch|p1a: Serene Singer|Meloetta|100/100
+|turn|4
+|
+|switch|p2a: Oinkologne|Oinkologne, M|84/100
+|move|p1a: Serene Singer|Psychic|p2a: Oinkologne
+|-damage|p2a: Oinkologne|44/100
+|-unboost|p2a: Oinkologne|spd|1
+|
+|turn|5
+|
+|move|p1a: Serene Singer|Psychic|p2a: Oinkologne
+|-damage|p2a: Oinkologne|0 fnt
+|faint|p2a: Oinkologne
+|
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|6
+|
+|move|p2a: Tsareena|U-turn|p1a: Serene Singer
+|-supereffective|p1a: Serene Singer
+|-damage|p1a: Serene Singer|43/100
+|-enditem|p1a: Serene Singer|Weakness Policy
+|-boost|p1a: Serene Singer|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Serene Singer|spa|2|[from] item: Weakness Policy
+|
+|switch|p2a: Muk|Muk, F|30/100 par|[from] U-turn
+|move|p1a: Serene Singer|Relic Song|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|-formechange|p1a: Serene Singer|Meloetta-Pirouette|[msg]
+|
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|7
+|
+|move|p2a: Tsareena|Power Whip|p1a: Serene Singer
+|-damage|p1a: Serene Singer|0 fnt
+|faint|p1a: Serene Singer
+|
+|
+|switch|p1a: 2n🥛FX:The Pokémon|Sneasler, F|100/100
+|-item|p1a: 2n🥛FX:The Pokémon|Air Balloon
+|turn|8
+|
+|switch|p2a: Squawkabilly|Squawkabilly, F|100/100
+|move|p1a: 2n🥛FX:The Pokémon|Hone Claws|p1a: 2n🥛FX:The Pokémon
+|-boost|p1a: 2n🥛FX:The Pokémon|atk|1
+|-boost|p1a: 2n🥛FX:The Pokémon|accuracy|1
+|
+|turn|9
+|
+|move|p1a: 2n🥛FX:The Pokémon|Dire Claw|p2a: Squawkabilly
+|-damage|p2a: Squawkabilly|0 fnt
+|faint|p2a: Squawkabilly
+|
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|turn|10
+|
+|-terastallize|p2a: Appletun|Fire
+|move|p1a: 2n🥛FX:The Pokémon|Dire Claw|p2a: Appletun
+|-damage|p2a: Appletun|42/100
+|move|p2a: Appletun|Draco Meteor|p1a: 2n🥛FX:The Pokémon
+|-damage|p1a: 2n🥛FX:The Pokémon|0 fnt
+|-unboost|p2a: Appletun|spa|2
+|-enditem|p1a: 2n🥛FX:The Pokémon|Air Balloon
+|faint|p1a: 2n🥛FX:The Pokémon
+|
+|
+|switch|p1a: Happy Lad|Basculegion, M, shiny|100/100
+|turn|11
+|
+|move|p1a: Happy Lad|Agility|p1a: Happy Lad
+|-boost|p1a: Happy Lad|spe|2
+|move|p2a: Appletun|Draco Meteor|p1a: Happy Lad
+|-crit|p1a: Happy Lad
+|-damage|p1a: Happy Lad|0 fnt
+|-unboost|p2a: Appletun|spa|2
+|faint|p1a: Happy Lad
+|
+|
+|switch|p1a: I Rocq|Arcanine-Hisui, M|100/100
+|turn|12
+|
+|move|p1a: I Rocq|Agility|p1a: I Rocq
+|-boost|p1a: I Rocq|spe|2
+|move|p2a: Appletun|Draco Meteor|p1a: I Rocq
+|-damage|p1a: I Rocq|64/100
+|-unboost|p2a: Appletun|spa|2
+|
+|turn|13
+|
+|move|p1a: I Rocq|Head Smash|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|
+|switch|p2a: Magneton|Magneton|100/100
+|turn|14
+|
+|move|p1a: I Rocq|Flare Blitz|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|15
+|
+|move|p1a: I Rocq|Flare Blitz|p2a: Tsareena
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|win|BagelsRWarm
+|l|☆yydklr

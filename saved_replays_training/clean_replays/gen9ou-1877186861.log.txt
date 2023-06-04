@@ -1,0 +1,140 @@
+|poke|p1|Urshifu-*, F|
+|poke|p1|Iron Treads|
+|poke|p1|Zamazenta-*|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Heatran, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: FNAF looking ahh|Sneasler, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: FNAF looking ahh|atk|1
+|turn|1
+|
+|move|p2a: FNAF looking ahh|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|91/100
+|-damage|p2a: FNAF looking ahh|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|switch|p2a: Fellow|Thundurus-Therian, M|100/100|[from] U-turn
+|move|p1a: Landorus|Stealth Rock|p2a: Fellow
+|-sidestart|p2: sampl_txt|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Pretty Good Tusk|Great Tusk|100/100
+|-damage|p2a: Pretty Good Tusk|98/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Pretty Good Tusk
+|-resisted|p2a: Pretty Good Tusk
+|-damage|p2a: Pretty Good Tusk|92/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|-heal|p2a: Pretty Good Tusk|98/100|[from] item: Leftovers
+|turn|3
+|
+|-end|p2a: Pretty Good Tusk|Protosynthesis|[silent]
+|switch|p2a: Little Stall™️|Slowking-Galar, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Little Stall™️
+|-damage|p2a: Little Stall™️|73/100
+|
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|91/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Little Stall™️|atk|1
+|move|p2a: Little Stall™️|Future Sight|p1a: Landorus
+|-start|p2a: Little Stall™️|move: Future Sight
+|
+|turn|5
+|
+|switch|p2a: Fellow|Thundurus-Therian, M|100/100
+|-damage|p2a: Fellow|76/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Fellow
+|-resisted|p2a: Fellow
+|-damage|p2a: Fellow|56/100
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100|[from] U-turn
+|
+|-heal|p2a: Fellow|62/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: One Way|Heatran, M, shiny|100/100
+|-damage|p2a: One Way|88/100|[from] Stealth Rock
+|
+|-end|p1a: Rotom|move: Future Sight
+|-damage|p1a: Rotom|43/100
+|-heal|p2a: One Way|94/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: One Way|Protect|p2a: One Way
+|-singleturn|p2a: One Way|Protect
+|move|p1a: Rotom|Volt Switch|p2a: One Way
+|-activate|p2a: One Way|move: Protect
+|
+|-heal|p2a: One Way|100/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Little Stall™️|Slowking-Galar, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Little Stall™️
+|-damage|p2a: Little Stall™️|81/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|91/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Little Stall™️|atk|1
+|
+|turn|9
+|
+|move|p1a: Landorus|Earthquake|p2a: Little Stall™️
+|-supereffective|p2a: Little Stall™️
+|-damage|p2a: Little Stall™️|0 fnt
+|faint|p2a: Little Stall™️
+|
+|
+|switch|p2a: Pretty Good Tusk|Great Tusk|98/100
+|-damage|p2a: Pretty Good Tusk|95/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Pretty Good Tusk|Rapid Spin|p1a: Volcarona
+|-damage|p1a: Volcarona|84/100
+|-boost|p2a: Pretty Good Tusk|spe|1
+|-status|p2a: Pretty Good Tusk|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|-sideend|p2: sampl_txt|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Pretty Good Tusk
+|
+|-heal|p2a: Pretty Good Tusk|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Pretty Good Tusk|94/100 brn|[from] brn
+|turn|11
+|
+|-end|p2a: Pretty Good Tusk|Protosynthesis|[silent]
+|switch|p2a: One Way|Heatran, M, shiny|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|91/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: One Way|atk|1
+|
+|turn|12
+|
+|move|p2a: One Way|Protect|p2a: One Way
+|-singleturn|p2a: One Way|Protect
+|move|p1a: Landorus|Stealth Rock|p2a: One Way
+|-sidestart|p2: sampl_txt|move: Stealth Rock
+|
+|turn|13
+|
+|-terastallize|p2a: One Way|Grass
+|move|p1a: Landorus|U-turn|p2a: One Way
+|-supereffective|p2a: One Way
+|-damage|p2a: One Way|59/100
+|-message|sampl_txt forfeited.
+|
+|win|taksd
+|l|☆sampl_txt

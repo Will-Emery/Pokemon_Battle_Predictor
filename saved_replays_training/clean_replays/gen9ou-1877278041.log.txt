@@ -1,0 +1,345 @@
+|poke|p1|Wigglytuff, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Lycanroc-Dusk, M|
+|poke|p1|Hoopa|
+|poke|p1|Quagsire, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Wigglytuff|Wigglytuff, M, shiny|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|51/100
+|-sidestart|p1: Viftg|move: Stealth Rock
+|move|p1a: Wigglytuff|Stealth Rock|p2a: Kleavor
+|-sidestart|p2: Chronicles_Art|move: Stealth Rock
+|
+|-heal|p1a: Wigglytuff|58/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Kleavor|U-turn|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|32/100
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] U-turn
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|move|p1a: Wigglytuff|Wish|p1a: Wigglytuff
+|
+|-heal|p2a: Samurott|94/100|[from] item: Leftovers
+|-heal|p1a: Wigglytuff|38/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Samurott|Taunt|p1a: Wigglytuff
+|-start|p1a: Wigglytuff|move: Taunt
+|move|p1a: Wigglytuff|Draining Kiss|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|48/100
+|-heal|p1a: Wigglytuff|62/100|[from] drain|[of] p2a: Samurott
+|
+|-heal|p1a: Wigglytuff|100/100|[from] move: Wish|[wisher] Wigglytuff
+|-heal|p2a: Samurott|54/100|[from] item: Leftovers
+|turn|4
+|
+|-terastallize|p2a: Samurott|Poison
+|move|p2a: Samurott|Ceaseless Edge|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|79/100
+|-sidestart|p1: Viftg|Spikes
+|move|p1a: Wigglytuff|Draining Kiss|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|43/100
+|-heal|p1a: Wigglytuff|85/100|[from] drain|[of] p2a: Samurott
+|
+|-heal|p2a: Samurott|49/100|[from] item: Leftovers
+|-heal|p1a: Wigglytuff|91/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|71/100
+|-sidestart|p1: Viftg|Spikes
+|move|p1a: Wigglytuff|Draining Kiss|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|38/100
+|-heal|p1a: Wigglytuff|77/100|[from] drain|[of] p2a: Samurott
+|
+|-heal|p2a: Samurott|44/100|[from] item: Leftovers
+|-heal|p1a: Wigglytuff|83/100|[from] item: Leftovers
+|-end|p1a: Wigglytuff|move: Taunt
+|turn|6
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Wigglytuff
+|-resisted|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|64/100
+|-sidestart|p1: Viftg|Spikes
+|move|p1a: Wigglytuff|Draining Kiss|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|33/100
+|-heal|p1a: Wigglytuff|70/100|[from] drain|[of] p2a: Samurott
+|
+|-heal|p2a: Samurott|39/100|[from] item: Leftovers
+|-heal|p1a: Wigglytuff|76/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Samurott|Sacred Sword|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|37/100
+|move|p1a: Wigglytuff|Nasty Plot|p1a: Wigglytuff
+|-boost|p1a: Wigglytuff|spa|2
+|
+|-heal|p2a: Samurott|45/100|[from] item: Leftovers
+|-heal|p1a: Wigglytuff|43/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Samurott|Aqua Cutter|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|
+|-heal|p2a: Samurott|51/100|[from] item: Leftovers
+|
+|switch|p1a: Quagsire|Quagsire, F, shiny|100/100
+|-damage|p1a: Quagsire|94/100|[from] Stealth Rock
+|-damage|p1a: Quagsire|70/100|[from] Spikes
+|turn|9
+|
+|move|p2a: Samurott|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|move|p1a: Quagsire|Earthquake|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-heal|p1a: Quagsire|76/100|[from] item: Leftovers
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|turn|10
+|
+|switch|p1a: Mimikyu|Mimikyu, F, shiny|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|-damage|p1a: Mimikyu|63/100|[from] Spikes
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-heal|p1a: Mimikyu|69/100|[from] item: Leftovers
+|turn|11
+|
+|-terastallize|p1a: Mimikyu|Ghost
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|42/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|69/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F, shiny, tera:Ghost
+|-damage|p1a: Mimikyu|57/100|[from] pokemon: Mimikyu-Busted
+|
+|-heal|p1a: Mimikyu|63/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-heal|p1a: Mimikyu|69/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|move|p1a: Mimikyu|Bulk Up|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|1
+|-boost|p1a: Mimikyu|def|1
+|move|p2a: Great Tusk|Knock Off|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|-enditem|p1a: Mimikyu|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Mimikyu
+|
+|
+|switch|p1a: Hoopa|Hoopa|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|-damage|p1a: Hoopa|63/100|[from] Spikes
+|turn|14
+|
+|move|p1a: Hoopa|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|33/100
+|move|p2a: Great Tusk|Knock Off|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-enditem|p1a: Hoopa|Choice Scarf|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Hoopa
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|-damage|p1a: Lilligant|94/100|[from] Stealth Rock
+|-damage|p1a: Lilligant|70/100|[from] Spikes
+|turn|15
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Great Tusk|[miss]
+|-miss|p1a: Lilligant|p2a: Great Tusk
+|move|p2a: Great Tusk|Rapid Spin|p1a: Lilligant
+|-damage|p1a: Lilligant|43/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Chronicles_Art|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p1a: Lilligant|49/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|21/100
+|-enditem|p1a: Lilligant|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Lilligant|Sleep Powder|p2a: Great Tusk
+|-status|p2a: Great Tusk|slp|[from] move: Sleep Powder
+|
+|turn|17
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|turn|18
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|19
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Hatterene
+|-damage|p2a: Hatterene|51/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-heal|p2a: Hatterene|57/100|[from] item: Leftovers
+|
+|switch|p1a: Lycanroc|Lycanroc-Dusk, M, shiny|100/100
+|-damage|p1a: Lycanroc|88/100|[from] Stealth Rock
+|-damage|p1a: Lycanroc|63/100|[from] Spikes
+|turn|20
+|
+|move|p1a: Lycanroc|Sucker Punch|p2a: Hatterene
+|-damage|p2a: Hatterene|22/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Lycanroc
+|-crit|p1a: Lycanroc
+|-damage|p1a: Lycanroc|12/100
+|-heal|p2a: Hatterene|57/100|[from] drain|[of] p1a: Lycanroc
+|
+|-heal|p2a: Hatterene|63/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Lycanroc|Sucker Punch||[still]
+|-fail|p1a: Lycanroc
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|69/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Lycanroc|Sucker Punch||[still]
+|-fail|p1a: Lycanroc
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|75/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Lycanroc|Sucker Punch||[still]
+|-fail|p1a: Lycanroc
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|81/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Lycanroc|Sucker Punch||[still]
+|-fail|p1a: Lycanroc
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|87/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Lycanroc|Sucker Punch||[still]
+|-fail|p1a: Lycanroc
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|93/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Lycanroc|Sucker Punch||[still]
+|-fail|p1a: Lycanroc
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|99/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Lycanroc|Sucker Punch||[still]
+|-fail|p1a: Lycanroc
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|0
+|-boost|p2a: Hatterene|spd|0
+|
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|turn|28
+|
+|-activate|p1a: Lycanroc|move: Struggle
+|move|p1a: Lycanroc|Struggle|p2a: Hatterene
+|-damage|p2a: Hatterene|76/100
+|-damage|p1a: Lycanroc|0 fnt|[from] recoil
+|faint|p1a: Lycanroc
+|move|p2a: Hatterene|Draining Kiss|p1: Lycanroc|[notarget]
+|-fail|p2a: Hatterene
+|
+|-heal|p2a: Hatterene|82/100|[from] item: Leftovers
+|
+|switch|p1a: Quagsire|Quagsire, F, shiny|76/100
+|-damage|p1a: Quagsire|70/100|[from] Stealth Rock
+|-damage|p1a: Quagsire|45/100|[from] Spikes
+|turn|29
+|
+|move|p1a: Quagsire|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|50/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Quagsire
+|-damage|p1a: Quagsire|16/100
+|-heal|p2a: Hatterene|76/100|[from] drain|[of] p1a: Quagsire
+|
+|-heal|p1a: Quagsire|23/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|82/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Quagsire|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|44/100
+|move|p2a: Hatterene|Psyshock|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|win|Chronicles_Art
+|l|☆Viftg

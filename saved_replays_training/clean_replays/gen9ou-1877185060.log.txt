@@ -1,0 +1,186 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Mew|
+|poke|p1|Great Tusk|
+|poke|p1|Baxcalibur, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Roaring Moon|
+|poke|p2|Kingambit, F|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Thundurus, M|
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Thundurus|Thundurus, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Thundurus|Taunt|p1a: Mew
+|-start|p1a: Mew|move: Taunt
+|move|p1a: Mew|Ice Beam|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|30/100
+|
+|turn|2
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Mew
+|-damage|p1a: Mew|65/100
+|
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100|[from] Volt Switch
+|move|p1a: Mew|Ice Beam|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|81/100
+|-status|p2a: Samurott|frz
+|
+|turn|3
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|cant|p2a: Samurott|frz
+|
+|turn|4
+|
+|cant|p2a: Samurott|frz
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|turn|5
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: Samurott|frz
+|
+|turn|6
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: Samurott|frz
+|
+|turn|7
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: Samurott|frz
+|
+|turn|8
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: Samurott|frz
+|
+|turn|9
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: Samurott|frz
+|
+|turn|10
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Thundurus|Thundurus, M, shiny|30/100
+|turn|11
+|
+|move|p2a: Thundurus|Thunder Wave|p1a: Lilligant
+|-status|p1a: Lilligant|par
+|move|p1a: Lilligant|Sleep Powder|p2a: Thundurus
+|-status|p2a: Thundurus|slp|[from] move: Sleep Powder
+|
+|turn|12
+|
+|cant|p2a: Thundurus|slp
+|cant|p1a: Lilligant|par
+|
+|turn|13
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|
+|switch|p2a: Roaring Moon|Roaring Moon, shiny|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|14
+|
+|-terastallize|p2a: Roaring Moon|Flying
+|move|p1a: Lilligant|Close Combat|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|turn|15
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|16
+|
+|move|p1a: Lilligant|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|17
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Great Tusk|[miss]
+|-miss|p1a: Lilligant|p2a: Great Tusk
+|move|p2a: Great Tusk|Close Combat|p1a: Lilligant
+|-damage|p1a: Lilligant|65/100 par
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|turn|18
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Great Tusk|[miss]
+|-miss|p1a: Lilligant|p2a: Great Tusk
+|move|p2a: Great Tusk|Knock Off|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|57/100 par
+|-enditem|p1a: Lilligant|Wide Lens|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|19
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|win|Magicor
+|l|☆Papielisse

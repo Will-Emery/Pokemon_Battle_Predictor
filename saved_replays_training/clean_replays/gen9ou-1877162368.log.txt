@@ -1,0 +1,293 @@
+|poke|p1|Great Tusk|
+|poke|p1|Sneasler, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Amoonguss, M|
+|poke|p2|Magearna|
+|poke|p2|Gholdengo|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Rott la Rott|Samurott-Hisui, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|move|p1a: Rott la Rott|Ceaseless Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|68/100
+|-sidestart|p2: Owany|Spikes
+|-damage|p1a: Rott la Rott|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Rott la Rott|74/100|[from] item: Life Orb
+|move|p2a: Corviknight|U-turn|p1a: Rott la Rott
+|-supereffective|p1a: Rott la Rott
+|-damage|p1a: Rott la Rott|37/100
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|-damage|p2a: Magearna|88/100|[from] Spikes
+|
+|-heal|p2a: Magearna|94/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Order Up!|Gholdengo|100/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|99/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|88/100|[from] Spikes
+|move|p1a: Order Up!|Trick|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|turn|4
+|
+|switch|p1a: Rott la Rott|Samurott-Hisui, F|37/100
+|move|p2a: Gholdengo|Trick|p1a: Rott la Rott
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Rott la Rott
+|-item|p1a: Rott la Rott|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Life Orb|[from] move: Trick
+|
+|turn|5
+|
+|switch|p1a: Good boy|Arcanine-Hisui, M|100/100
+|switch|p2a: Corviknight|Corviknight, M|68/100
+|-ability|p2a: Corviknight|Pressure
+|
+|turn|6
+|
+|switch|p1a: Kandy Muse|Amoonguss, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|
+|-heal|p2a: Great Tusk|94/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|88/100
+|-damage|p2a: Gholdengo|76/100|[from] Spikes
+|move|p1a: Kandy Muse|Spore|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|turn|8
+|
+|switch|p1a: Rott la Rott|Samurott-Hisui, F|37/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Rott la Rott
+|-resisted|p1a: Rott la Rott
+|-damage|p1a: Rott la Rott|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Rott la Rott
+|-damage|p2a: Gholdengo|66/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Eureka|Great Tusk|100/100
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, M|68/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Eureka|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Owany|move: Stealth Rock
+|
+|turn|10
+|
+|-end|p1a: Eureka|Protosynthesis|[silent]
+|switch|p1a: Order Up!|Gholdengo|100/100
+|move|p2a: Corviknight|U-turn|p1a: Order Up!
+|-resisted|p1a: Order Up!
+|-damage|p1a: Order Up!|97/100
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100|[from] U-turn
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-damage|p2a: Kingambit|82/100|[from] Stealth Rock
+|
+|-heal|p2a: Kingambit|88/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Eureka|Great Tusk|100/100
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Gholdengo|Gholdengo|66/100
+|-damage|p2a: Gholdengo|54/100|[from] Spikes
+|-damage|p2a: Gholdengo|47/100|[from] Stealth Rock
+|
+|turn|12
+|
+|move|p1a: Eureka|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Eureka|def|1
+|-unboost|p1a: Eureka|spd|1
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|94/100
+|-damage|p2a: Great Tusk|82/100|[from] Spikes
+|-damage|p2a: Great Tusk|79/100|[from] Stealth Rock
+|turn|13
+|
+|-end|p1a: Eureka|Protosynthesis|[silent]
+|switch|p1a: Kandy Muse|Amoonguss, M|100/100
+|move|p2a: Great Tusk|Earthquake|p1a: Kandy Muse
+|-damage|p1a: Kandy Muse|66/100
+|-enditem|p1a: Kandy Muse|Red Card|[of] p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|drag|p2a: Magearna|Magearna|99/100
+|-damage|p2a: Magearna|88/100|[from] Spikes
+|-damage|p2a: Magearna|82/100|[from] Stealth Rock
+|
+|-heal|p2a: Magearna|88/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, M|68/100
+|-damage|p2a: Corviknight|56/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kandy Muse|Spore|p2a: Corviknight
+|-status|p2a: Corviknight|slp|[from] move: Spore
+|
+|turn|15
+|
+|switch|p2a: Kingambit|Kingambit, F|88/100
+|-damage|p2a: Kingambit|76/100|[from] Spikes
+|-damage|p2a: Kingambit|69/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|switch|p1a: Good boy|Arcanine-Hisui, M|100/100
+|
+|-heal|p2a: Kingambit|76/100|[from] item: Leftovers
+|turn|16
+|
+|-terastallize|p2a: Kingambit|Fire
+|move|p1a: Good boy|Flare Blitz|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|41/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|47/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Good boy|Flare Blitz|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|13/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Good boy
+|-damage|p1a: Good boy|0 fnt
+|faint|p1a: Good boy
+|
+|-heal|p2a: Kingambit|19/100|[from] item: Leftovers
+|
+|switch|p1a: Eureka|Great Tusk|100/100
+|turn|18
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Eureka
+|-resisted|p1a: Eureka
+|-damage|p1a: Eureka|65/100
+|move|p1a: Eureka|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Eureka|def|1
+|-unboost|p1a: Eureka|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Eureka|71/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk|79/100
+|-damage|p2a: Great Tusk|66/100|[from] Spikes
+|-damage|p2a: Great Tusk|63/100|[from] Stealth Rock
+|turn|19
+|
+|-end|p1a: Eureka|Protosynthesis|[silent]
+|switch|p1a: Kandy Muse|Amoonguss, M|99/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Kandy Muse
+|-damage|p1a: Kandy Muse|87/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Owany|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: Owany|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|70/100|[from] item: Leftovers
+|turn|20
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|switch|p1a: Eureka|Great Tusk|71/100
+|
+|-heal|p1a: Eureka|78/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Eureka|Headlong Rush|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-unboost|p1a: Eureka|def|1
+|-unboost|p1a: Eureka|spd|1
+|faint|p2a: Slowking
+|
+|-heal|p1a: Eureka|84/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk|70/100
+|turn|22
+|
+|-end|p1a: Eureka|Protosynthesis|[silent]
+|switch|p1a: Kandy Muse|Amoonguss, M|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Kandy Muse
+|-sidestart|p1: yaboiAshK.|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|76/100|[from] item: Leftovers
+|turn|23
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|88/100
+|move|p1a: Kandy Muse|Giga Drain|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|78/100
+|
+|-heal|p2a: Magearna|84/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p1a: Order Up!|Gholdengo|97/100
+|-damage|p1a: Order Up!|91/100|[from] Stealth Rock
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|90/100|[from] item: Leftovers
+|turn|25
+|
+|switch|p2a: Great Tusk|Great Tusk|76/100
+|move|p1a: Order Up!|Make It Rain|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Order Up!|spa|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Magearna|Magearna|90/100
+|turn|26
+|
+|switch|p1a: Eureka|Great Tusk|84/100
+|-damage|p1a: Eureka|81/100|[from] Stealth Rock
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p1a: Eureka|87/100|[from] item: Leftovers
+|-heal|p2a: Magearna|96/100|[from] item: Leftovers
+|turn|27
+|
+|-terastallize|p1a: Eureka|Ground
+|move|p1a: Eureka|Headlong Rush|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Eureka|def|1
+|-unboost|p1a: Eureka|spd|1
+|faint|p2a: Magearna
+|
+|-heal|p1a: Eureka|93/100|[from] item: Leftovers
+|-message|Owany forfeited.
+|
+|win|yaboiAshK.
+|l|☆Owany

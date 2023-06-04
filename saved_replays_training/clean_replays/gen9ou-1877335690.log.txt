@@ -1,0 +1,180 @@
+|poke|p1|Dragapult, F|
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Mew|
+|poke|p2|Dragapult, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Defog Pls|Mew, shiny|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Defog Pls
+|-supereffective|p2a: Defog Pls
+|-damage|p2a: Defog Pls|17/100
+|move|p2a: Defog Pls|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: evil carlton|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Ban Pls|Ursaluna, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Ban Pls
+|-immune|p2a: Ban Pls
+|
+|-status|p2a: Ban Pls|brn|[from] item: Flame Orb
+|turn|3
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|97/100|[from] Stealth Rock
+|move|p2a: Ban Pls|Facade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|40/100
+|-damage|p2a: Ban Pls|84/100 brn|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-damage|p2a: Ban Pls|78/100 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Poltergeist Pls|Dragapult, M|100/100
+|move|p1a: Great Tusk|Close Combat|p2a: Poltergeist Pls
+|-immune|p2a: Poltergeist Pls
+|
+|turn|5
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|move|p2a: Poltergeist Pls|Reflect|p2a: Poltergeist Pls
+|-sidestart|p2: Red LTTM|Reflect
+|
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Poltergeist Pls|Light Screen|p2a: Poltergeist Pls
+|-sidestart|p2: Red LTTM|move: Light Screen
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|7
+|
+|move|p2a: Poltergeist Pls|Curse|p1a: Kingambit
+|-start|p1a: Kingambit|Curse|[of] p2a: Poltergeist Pls
+|-damage|p2a: Poltergeist Pls|50/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Poltergeist Pls
+|-supereffective|p2a: Poltergeist Pls
+|-damage|p2a: Poltergeist Pls|0 fnt
+|faint|p2a: Poltergeist Pls
+|
+|-damage|p1a: Kingambit|76/100|[from] Curse
+|
+|switch|p2a: Ban Pls|Ursaluna, F|78/100 brn
+|turn|8
+|
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Great Tusk|Great Tusk|40/100
+|-damage|p1a: Great Tusk|37/100|[from] Stealth Rock
+|move|p2a: Ban Pls|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Ban Pls|72/100 brn|[from] brn
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|turn|9
+|
+|-terastallize|p2a: Ban Pls|Water
+|move|p1a: Urshifu|Surging Strikes|p2a: Ban Pls
+|-resisted|p2a: Ban Pls
+|-crit|p2a: Ban Pls
+|-damage|p2a: Ban Pls|61/100 brn
+|-resisted|p2a: Ban Pls
+|-crit|p2a: Ban Pls
+|-damage|p2a: Ban Pls|50/100 brn
+|-resisted|p2a: Ban Pls
+|-crit|p2a: Ban Pls
+|-damage|p2a: Ban Pls|40/100 brn
+|-hitcount|p2a: Ban Pls|3
+|move|p2a: Ban Pls|Facade|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-damage|p2a: Ban Pls|34/100 brn|[from] brn
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Defog Pls|Mew, shiny|17/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Defog Pls
+|-supereffective|p2a: Defog Pls
+|-damage|p2a: Defog Pls|0 fnt
+|faint|p2a: Defog Pls
+|
+|
+|switch|p2a: Spikes Pls|Samurott-Hisui, M|100/100
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Spikes Pls|Ceaseless Edge|p1a: Rotom
+|-damage|p1a: Rotom|45/100
+|-sidestart|p1: evil carlton|Spikes
+|-damage|p2a: Spikes Pls|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Rotom|51/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Spikes Pls|Ceaseless Edge|p1a: Rotom
+|-damage|p1a: Rotom|7/100
+|-sidestart|p1: evil carlton|Spikes
+|-damage|p2a: Spikes Pls|81/100|[from] item: Life Orb
+|move|p1a: Rotom|Thunder Wave|p2a: Spikes Pls
+|-status|p2a: Spikes Pls|par
+|
+|-heal|p1a: Rotom|13/100|[from] item: Leftovers
+|-sideend|p2: Red LTTM|Reflect
+|turn|13
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Spikes Pls|Sucker Punch||[still]
+|-fail|p2a: Spikes Pls
+|
+|-heal|p1a: Rotom|19/100|[from] item: Leftovers
+|-sideend|p2: Red LTTM|move: Light Screen
+|turn|14
+|
+|move|p1a: Rotom|Protect||[still]
+|-fail|p1a: Rotom
+|move|p2a: Spikes Pls|Ceaseless Edge|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-sidestart|p1: evil carlton|Spikes
+|faint|p1a: Rotom
+|-damage|p2a: Spikes Pls|71/100 par|[from] item: Life Orb
+|
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-damage|p1a: Heatran|63/100|[from] Spikes
+|turn|15
+|
+|move|p1a: Heatran|Magma Storm|p2a: Spikes Pls|[miss]
+|-miss|p1a: Heatran|p2a: Spikes Pls
+|move|p2a: Spikes Pls|Aqua Cutter|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-damage|p2a: Spikes Pls|61/100 par|[from] item: Life Orb
+|
+|-message|evil carlton forfeited.
+|
+|win|Red LTTM
+|l|☆evil carlton

@@ -1,0 +1,199 @@
+|j|☆erduashi
+|j|☆zupe
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685829462
+|gametype|singles
+|player|p1|erduashi|raihan|
+|player|p2|zupe|mina-lgpe|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|First Blood Rule: The first team to have a Pokémon faint loses.
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Abomasnow, M|
+|poke|p1|Magearna|
+|poke|p1|Skeledirge, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Mew|
+|poke|p2|Hippowdon, M|
+|poke|p2|Dugtrio-Alola, F|
+|poke|p2|Gastrodon-East, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Gholdengo|
+|poke|p2|Lycanroc, M|
+|teampreview
+|inactive|zupe also wants the timer to be on.
+|
+|t:|1685829484
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mew|atk|1
+|turn|1
+|
+|t:|1685829488
+|move|p2a: Landorus|Nasty Plot|p2a: Landorus
+|-boost|p2a: Landorus|spa|2
+|move|p1a: Mew|Fire Spin|p2a: Landorus
+|-damage|p2a: Landorus|90/100
+|-activate|p2a: Landorus|move: Fire Spin|[of] p1a: Mew
+|
+|-heal|p2a: Landorus|95/100|[from] item: Leftovers
+|-damage|p2a: Landorus|83/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1685829492
+|move|p2a: Landorus|Sandsear Storm|p1a: Mew
+|-damage|p1a: Mew|25/100
+|move|p1a: Mew|Transform|p2a: Landorus
+|-transform|p1a: Mew|p2a: Landorus
+|-ability|p1a: Mew|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|
+|-heal|p2a: Landorus|89/100|[from] item: Leftovers
+|-damage|p2a: Landorus|77/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1685829502
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Landorus|Substitute|p2a: Landorus
+|-start|p2a: Landorus|Substitute
+|-end|p2a: Landorus|Fire Spin|[partiallytrapped]|[silent]
+|-damage|p2a: Landorus|52/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Landorus|58/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685829509
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Landorus|Focus Blast|p1a: Skeledirge
+|-immune|p1a: Skeledirge
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Landorus|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685829513
+|-terastallize|p1a: Skeledirge|Fairy
+|move|p2a: Landorus|Sandsear Storm|p1a: Skeledirge
+|-damage|p1a: Skeledirge|69/100
+|move|p1a: Skeledirge|Torch Song|p2a: Landorus
+|-damage|p2a: Landorus|22/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Landorus|28/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685829521
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Hippowdon
+|-status|p2a: Hippowdon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skeledirge|63/100|[from] Sandstorm
+|-damage|p2a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685829523
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Hippowdon|Roar|p1a: Abomasnow
+|drag|p1a: Mew|Mew|25/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Hippowdon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685829527
+|move|p1a: Mew|Rest|p1a: Mew
+|-status|p1a: Mew|slp|[from] move: Rest
+|-heal|p1a: Mew|100/100 slp|[silent]
+|-enditem|p1a: Mew|Chesto Berry|[eat]
+|-curestatus|p1a: Mew|slp|[msg]
+|move|p2a: Hippowdon|Earthquake|p1a: Mew
+|-damage|p1a: Mew|90/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Hippowdon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685829530
+|move|p1a: Mew|Fire Spin|p2a: Hippowdon|[miss]
+|-miss|p1a: Mew|p2a: Hippowdon
+|move|p2a: Hippowdon|Stealth Rock|p1a: Mew
+|-sidestart|p1: erduashi|move: Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Hippowdon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685829535
+|switch|p2a: Landorus|Landorus-Therian, M|28/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mew|atk|1
+|move|p1a: Mew|Fire Spin|p2a: Landorus
+|-damage|p2a: Landorus|18/100
+|-activate|p2a: Landorus|move: Fire Spin|[of] p1a: Mew
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Landorus|24/100|[from] item: Leftovers
+|-damage|p2a: Landorus|12/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1685829539
+|move|p2a: Landorus|Sandsear Storm|p1a: Mew
+|-damage|p1a: Mew|52/100
+|move|p1a: Mew|Imprison|p1a: Mew
+|-start|p1a: Mew|move: Imprison
+|
+|-weather|none
+|-heal|p2a: Landorus|18/100|[from] item: Leftovers
+|-damage|p2a: Landorus|6/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1685829546
+|move|p2a: Landorus|Sandsear Storm|p1a: Mew|[miss]
+|-miss|p2a: Landorus|p1a: Mew
+|move|p1a: Mew|Transform|p2a: Landorus
+|-transform|p1a: Mew|p2a: Landorus
+|-ability|p1a: Mew|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|
+|-heal|p2a: Landorus|12/100|[from] item: Leftovers
+|-damage|p2a: Landorus|0 fnt|[from] move: Fire Spin|[partiallytrapped]
+|faint|p2a: Landorus
+|
+|win|erduashi
+|upkeep
+|n|☆erduashi|erduashi
+|n|☆zupe|zupe
+|l|☆zupe

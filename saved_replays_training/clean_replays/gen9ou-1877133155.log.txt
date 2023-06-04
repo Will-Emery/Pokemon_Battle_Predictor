@@ -1,0 +1,168 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Treads|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Pikachu-Kalos, M|
+|poke|p2|Greninja, F|
+|poke|p2|Talonflame, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Goodra, M|
+|poke|p2|Noivern, M|
+|teampreview
+|
+|start
+|switch|p1a: cloud|Thundurus-Therian, M|100/100
+|switch|p2a: Pikachu|Pikachu-Kalos, M|100/100
+|turn|1
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|move|p1a: cloud|Focus Blast|p2a: Goodra
+|-damage|p2a: Goodra|81/100
+|
+|turn|2
+|
+|move|p1a: cloud|Nasty Plot|p1a: cloud
+|-boost|p1a: cloud|spa|2
+|move|p2a: Goodra|Blizzard|p1a: cloud
+|-supereffective|p1a: cloud
+|-damage|p1a: cloud|1/100
+|
+|turn|3
+|
+|-terastallize|p1a: cloud|Ice
+|move|p1a: cloud|Tera Blast|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|1/100
+|move|p2a: Goodra|Flamethrower|p1a: cloud
+|-supereffective|p1a: cloud
+|-damage|p1a: cloud|0 fnt
+|faint|p1a: cloud
+|
+|
+|switch|p1a: snake|Enamorus, F|100/100
+|turn|4
+|
+|move|p1a: snake|Moonblast|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Greninja|Greninja, F|100/100
+|turn|5
+|
+|move|p1a: snake|Moonblast|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|turn|6
+|
+|switch|p1a: cave|Toxapex, F|100/100
+|move|p2a: Talonflame|Flare Blitz|p1a: cave
+|-resisted|p1a: cave
+|-damage|p1a: cave|88/100
+|-damage|p2a: Talonflame|96/100|[from] Recoil
+|
+|-heal|p1a: cave|94/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Talonflame|U-turn|p1a: cave
+|-resisted|p1a: cave
+|-damage|p1a: cave|89/100
+|
+|switch|p2a: Pikachu|Pikachu-Kalos, M|100/100|[from] U-turn
+|move|p1a: cave|Toxic|p2a: Pikachu
+|-status|p2a: Pikachu|tox
+|
+|-heal|p1a: cave|95/100|[from] item: Leftovers
+|-damage|p2a: Pikachu|94/100 tox|[from] psn
+|turn|8
+|
+|move|p2a: Pikachu|Grass Knot|p1a: cave
+|-damage|p1a: cave|81/100
+|move|p1a: cave|Toxic Spikes|p2a: Pikachu
+|-sidestart|p2: DenizAcar|move: Toxic Spikes
+|
+|-heal|p1a: cave|88/100|[from] item: Leftovers
+|-damage|p2a: Pikachu|82/100 tox|[from] psn
+|turn|9
+|
+|move|p2a: Pikachu|Thunder|p1a: cave
+|-supereffective|p1a: cave
+|-damage|p1a: cave|0 fnt
+|faint|p1a: cave
+|
+|-damage|p2a: Pikachu|64/100 tox|[from] psn
+|
+|switch|p1a: sashimi|Iron Treads|100/100
+|turn|10
+|
+|move|p1a: sashimi|Stealth Rock|p2a: Pikachu
+|-sidestart|p2: DenizAcar|move: Stealth Rock
+|move|p2a: Pikachu|Grass Knot|p1a: sashimi
+|-damage|p1a: sashimi|45/100
+|
+|-damage|p2a: Pikachu|39/100 tox|[from] psn
+|turn|11
+|
+|move|p1a: sashimi|Knock Off|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|-enditem|p2a: Pikachu|Light Ball|[from] move: Knock Off|[of] p1a: sashimi
+|faint|p2a: Pikachu
+|
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-ability|p2a: Hawlucha|Mold Breaker
+|turn|12
+|
+|move|p2a: Hawlucha|Flying Press|p1a: sashimi
+|-damage|p1a: sashimi|14/100
+|move|p1a: sashimi|Knock Off|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|83/100
+|-enditem|p2a: Hawlucha|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: sashimi
+|
+|turn|13
+|
+|move|p2a: Hawlucha|Flying Press|p1a: sashimi
+|-damage|p1a: sashimi|0 fnt
+|faint|p1a: sashimi
+|-end|p1a: sashimi|Quark Drive|[silent]
+|
+|
+|switch|p1a: bear|Chien-Pao|100/100
+|-ability|p1a: bear|Sword of Ruin
+|turn|14
+|
+|switch|p2a: Talonflame|Talonflame, F|96/100
+|move|p1a: bear|Ice Spinner|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|15
+|
+|move|p1a: bear|Ice Spinner|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|
+|switch|p2a: Hawlucha|Hawlucha, M|83/100
+|-damage|p2a: Hawlucha|71/100|[from] Stealth Rock
+|-ability|p2a: Hawlucha|Mold Breaker
+|turn|16
+|
+|-terastallize|p2a: Hawlucha|Fighting
+|move|p1a: bear|Ice Spinner|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|win|DK Rex
+|l|☆DenizAcar

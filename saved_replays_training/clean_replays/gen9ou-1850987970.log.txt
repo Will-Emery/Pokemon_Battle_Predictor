@@ -1,0 +1,180 @@
+|poke|p1|Slowking, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Cyclizar, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, F|
+|poke|p2|Skeledirge, F|
+|teampreview
+|j| aeaeee
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Toxapex|[miss]
+|-miss|p1a: Dragapult|p2a: Toxapex
+|
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Toxapex|Toxic Spikes|p1a: Corviknight
+|-sidestart|p1: Hana Macchia|move: Toxic Spikes
+|
+|turn|3
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Corviknight|Defog|p2a: Dragapult
+|-unboost|p2a: Dragapult|evasion|1
+|-sideend|p1: Hana Macchia|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
+|
+|turn|4
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Skeledirge
+|-immune|p1a: Skeledirge
+|
+|turn|5
+|
+|move|p2a: Dragapult|Hex|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|45/100
+|move|p1a: Skeledirge|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|26/100
+|
+|-heal|p2a: Dragapult|32/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|
+|-heal|p2a: Dragapult|38/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|turn|7
+|j| pokeman808
+|
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|switch|p1a: Slowking|Slowking, M|100/100
+|
+|turn|8
+|
+|move|p2a: Cyclizar|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|56/100
+|-enditem|p1a: Slowking|Assault Vest|[from] move: Knock Off|[of] p2a: Cyclizar
+|move|p1a: Slowking|Ice Beam|p2a: Cyclizar
+|-supereffective|p2a: Cyclizar
+|-damage|p2a: Cyclizar|45/100
+|
+|turn|9
+|
+|-terastallize|p2a: Cyclizar|Fairy
+|move|p2a: Cyclizar|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|21/100
+|-unboost|p2a: Cyclizar|spa|2
+|move|p1a: Slowking|Psychic|p2a: Cyclizar
+|-damage|p2a: Cyclizar|2/100
+|
+|turn|10
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Cyclizar|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|95/100
+|-enditem|p1a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p2a: Cyclizar
+|
+|turn|11
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|94/100
+|-damage|p1a: Great Tusk|79/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-enditem|p2a: Great Tusk|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|12
+|j| HYper
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: i'm an architect|move: Stealth Rock
+|move|p2a: Great Tusk|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: Hana Macchia|move: Stealth Rock
+|
+|turn|13
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Rapid Spin|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|turn|14
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|57/100
+|
+|-heal|p2a: Toxapex|63/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Dragapult
+|-sidestart|p1: Hana Macchia|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|37/100|[from] item: Leftovers
+|turn|16
+|
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|17
+|j| ryrt
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|26/100
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|42/100
+|-damage|p2a: Corviknight|14/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|20/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|38/100
+|-damage|p2a: Dragapult|26/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-message|i'm an architect forfeited.
+|
+|win|Hana Macchia
+|l|☆i'm an architect
+|l| HYper

@@ -1,0 +1,577 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Walking Wake|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Magearna|
+|poke|p2|Gholdengo|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Kleavor, M|
+|poke|p2|Moltres-Galar|
+|poke|p2|Basculegion, M|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kleavor|atk|1
+|turn|1
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Kleavor
+|-sidestart|p2: datjay24|move: Stealth Rock
+|move|p2a: Kleavor|Stone Axe|p1a: Landorus|[miss]
+|-miss|p2a: Kleavor|p1a: Landorus
+|
+|turn|2
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|-damage|p2a: Decidueye|94/100|[from] Stealth Rock
+|move|p1a: Landorus|Stone Edge|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|74/100
+|
+|-heal|p2a: Decidueye|80/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Landorus|U-turn|p2a: Decidueye
+|-damage|p2a: Decidueye|52/100
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100|[from] U-turn
+|move|p2a: Decidueye|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p2: datjay24|Stealth Rock|[from] move: Defog|[of] p2a: Decidueye
+|
+|-heal|p2a: Decidueye|58/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Decidueye|Bulk Up|p2a: Decidueye
+|-boost|p2a: Decidueye|atk|1
+|-boost|p2a: Decidueye|def|1
+|move|p1a: Toxapex|Toxic Spikes|p2a: Decidueye
+|-sidestart|p2: datjay24|move: Toxic Spikes
+|
+|-heal|p2a: Decidueye|64/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Decidueye|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p2: datjay24|Toxic Spikes|[from] move: Defog|[of] p2a: Decidueye
+|move|p1a: Toxapex|Chilling Water|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|59/100
+|-unboost|p2a: Decidueye|atk|1
+|
+|-heal|p2a: Decidueye|65/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Decidueye|Leaf Blade|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|35/100
+|
+|-heal|p2a: Decidueye|71/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|8
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Arcanine|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|89/100
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|
+|-heal|p1a: Toxapex|95/100|[from] item: Black Sludge
+|turn|9
+|
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Moltres
+|-sidestart|p2: datjay24|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|turn|10
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Toxapex
+|-damage|p1a: Toxapex|70/100
+|move|p1a: Toxapex|Chilling Water|p2a: Moltres
+|-damage|p2a: Moltres|92/100
+|-unboost|p2a: Moltres|atk|1
+|
+|-heal|p2a: Moltres|98/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|76/100|[from] item: Black Sludge
+|turn|11
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100
+|move|p1a: Toxapex|Stockpile|p1a: Toxapex
+|-start|p1a: Toxapex|stockpile1
+|-boost|p1a: Toxapex|def|1
+|-boost|p1a: Toxapex|spd|1
+|
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|50/100|[from] item: Black Sludge
+|turn|12
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Toxapex
+|-damage|p1a: Toxapex|27/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|77/100
+|
+|-heal|p1a: Toxapex|84/100|[from] item: Black Sludge
+|turn|13
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Toxapex
+|-damage|p1a: Toxapex|62/100
+|move|p1a: Toxapex|Stockpile|p1a: Toxapex
+|-start|p1a: Toxapex|stockpile2
+|-boost|p1a: Toxapex|def|1
+|-boost|p1a: Toxapex|spd|1
+|
+|-heal|p1a: Toxapex|68/100|[from] item: Black Sludge
+|turn|14
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100
+|move|p1a: Toxapex|Stockpile|p1a: Toxapex
+|-start|p1a: Toxapex|stockpile3
+|-boost|p1a: Toxapex|def|1
+|-boost|p1a: Toxapex|spd|1
+|
+|-heal|p1a: Toxapex|57/100|[from] item: Black Sludge
+|turn|15
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|93/100
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|turn|16
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Toxapex
+|-damage|p1a: Toxapex|86/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Moltres
+|-sidestart|p2: datjay24|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|92/100|[from] item: Black Sludge
+|turn|17
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Toxapex
+|-damage|p1a: Toxapex|78/100
+|move|p1a: Toxapex|Chilling Water|p2a: Moltres
+|-damage|p2a: Moltres|90/100
+|-unboost|p2a: Moltres|atk|1
+|
+|-heal|p2a: Moltres|96/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|84/100|[from] item: Black Sludge
+|turn|18
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100
+|move|p1a: Toxapex|Chilling Water|p2a: Moltres
+|-damage|p2a: Moltres|87/100
+|-unboost|p2a: Moltres|atk|1
+|
+|-heal|p2a: Moltres|93/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|49/100|[from] item: Black Sludge
+|turn|19
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|39/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|89/100
+|
+|-heal|p2a: Moltres|99/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|95/100|[from] item: Black Sludge
+|turn|20
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|85/100
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|91/100|[from] item: Black Sludge
+|turn|21
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|81/100
+|move|p1a: Toxapex|Chilling Water|p2a: Moltres
+|-damage|p2a: Moltres|91/100
+|-unboost|p2a: Moltres|atk|1
+|
+|-heal|p2a: Moltres|97/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|87/100|[from] item: Black Sludge
+|turn|22
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|move|p1a: Toxapex|Chilling Water|p2a: Moltres
+|-damage|p2a: Moltres|88/100
+|-unboost|p2a: Moltres|atk|1
+|
+|-heal|p2a: Moltres|94/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|81/100|[from] item: Black Sludge
+|turn|23
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p2a: Moltres|99/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|75/100|[from] item: Black Sludge
+|turn|24
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|64/100
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p2a: Moltres|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|70/100|[from] item: Black Sludge
+|turn|25
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|59/100
+|move|p1a: Toxapex|Toxic Spikes||[still]
+|-fail|p1a: Toxapex
+|
+|-heal|p1a: Toxapex|65/100|[from] item: Black Sludge
+|turn|26
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Toxapex|Toxic Spikes||[still]
+|-fail|p1a: Toxapex
+|
+|-heal|p1a: Toxapex|72/100|[from] item: Black Sludge
+|turn|27
+|
+|move|p2a: Gholdengo|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|49/100
+|move|p1a: Toxapex|Chilling Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|92/100
+|-unboost|p2a: Gholdengo|atk|1
+|
+|-heal|p1a: Toxapex|55/100|[from] item: Black Sludge
+|turn|28
+|
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|-status|p2a: Kleavor|tox
+|move|p1a: Toxapex|Chilling Water|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|70/100 tox
+|-unboost|p2a: Kleavor|atk|1
+|
+|-heal|p1a: Toxapex|62/100|[from] item: Black Sludge
+|-damage|p2a: Kleavor|64/100 tox|[from] psn
+|turn|29
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100
+|-sidestart|p1: 123jackson|move: Stealth Rock
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-damage|p2a: Kleavor|52/100 tox|[from] psn
+|turn|30
+|
+|move|p2a: Kleavor|Night Slash|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|move|p1a: Toxapex|Chilling Water|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|17/100 tox
+|-unboost|p2a: Kleavor|atk|1
+|
+|-heal|p1a: Toxapex|72/100|[from] item: Black Sludge
+|-damage|p2a: Kleavor|0 fnt|[from] psn
+|faint|p2a: Kleavor
+|
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|turn|31
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|move|p1a: Toxapex|Chilling Water|p2a: Moltres
+|-damage|p2a: Moltres|90/100
+|-unboost|p2a: Moltres|atk|1
+|
+|-heal|p2a: Moltres|96/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|turn|32
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100
+|move|p1a: Toxapex|Chilling Water|p2a: Moltres
+|-damage|p2a: Moltres|87/100
+|-unboost|p2a: Moltres|atk|1
+|
+|-heal|p2a: Moltres|93/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|63/100|[from] item: Black Sludge
+|turn|33
+|
+|move|p2a: Moltres|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|53/100
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p2a: Moltres|99/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|59/100|[from] item: Black Sludge
+|turn|34
+|
+|switch|p2a: Gholdengo|Gholdengo|92/100
+|move|p1a: Toxapex|Chilling Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|83/100
+|-unboost|p2a: Gholdengo|atk|1
+|
+|-heal|p1a: Toxapex|65/100|[from] item: Black Sludge
+|turn|35
+|
+|move|p2a: Gholdengo|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|44/100
+|move|p1a: Toxapex|Chilling Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|75/100
+|-unboost|p2a: Gholdengo|atk|1
+|
+|-heal|p1a: Toxapex|50/100|[from] item: Black Sludge
+|turn|36
+|
+|move|p2a: Gholdengo|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|81/100
+|
+|-heal|p1a: Toxapex|87/100|[from] item: Black Sludge
+|turn|37
+|
+|move|p2a: Gholdengo|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|64/100
+|move|p1a: Toxapex|Chilling Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|67/100
+|-unboost|p2a: Gholdengo|atk|1
+|
+|-heal|p1a: Toxapex|70/100|[from] item: Black Sludge
+|turn|38
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|move|p2a: Gholdengo|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|turn|39
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Gholdengo
+|-sidestart|p2: datjay24|move: Stealth Rock
+|move|p2a: Gholdengo|Shadow Ball|p1a: Landorus
+|-damage|p1a: Landorus|47/100
+|
+|turn|40
+|
+|switch|p2a: Moltres|Moltres-Galar|99/100
+|-damage|p2a: Moltres|74/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Moltres
+|-immune|p2a: Moltres
+|
+|-heal|p2a: Moltres|81/100|[from] item: Leftovers
+|turn|41
+|
+|move|p1a: Landorus|U-turn|p2a: Moltres
+|-damage|p2a: Moltres|48/100
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100|[from] U-turn
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: Moltres|Fiery Wrath|p1a: Ursaluna
+|-damage|p1a: Ursaluna|44/100
+|
+|-heal|p2a: Moltres|55/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|42
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Moltres|61/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|35/100
+|-damage|p1a: Chien-Pao|10/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|43
+|
+|move|p2a: Moltres|Sucker Punch|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|-heal|p2a: Moltres|67/100|[from] item: Leftovers
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|turn|44
+|
+|-terastallize|p2a: Moltres|Fairy
+|move|p2a: Moltres|Fiery Wrath|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|71/100
+|-enditem|p1a: Magearna|Red Card|[of] p2a: Moltres
+|drag|p2a: Gholdengo|Gholdengo|67/100
+|-damage|p2a: Gholdengo|61/100|[from] Stealth Rock
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|turn|45
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-status|p2a: Arcanine|tox
+|-damage|p2a: Arcanine|76/100 tox|[from] Stealth Rock
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-damage|p2a: Arcanine|70/100 tox|[from] psn
+|turn|46
+|
+|-terastallize|p1a: Magearna|Psychic
+|move|p2a: Arcanine|Flare Blitz|p1a: Magearna
+|-damage|p1a: Magearna|22/100
+|move|p1a: Magearna|Draining Kiss|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|35/100 tox
+|-heal|p1a: Magearna|45/100|[from] drain|[of] p2a: Arcanine
+|
+|-damage|p2a: Arcanine|23/100 tox|[from] psn
+|turn|47
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Magearna
+|-damage|p1a: Magearna|1/100
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|-damage|p2a: Arcanine|5/100 tox|[from] psn
+|turn|48
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-damage|p2a: Arcanine|0 fnt|[from] psn
+|faint|p2a: Arcanine
+|
+|switch|p2a: Moltres|Moltres-Galar, tera:Fairy|67/100
+|switch|p1a: Landorus|Landorus-Therian, M|47/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Moltres|atk|1
+|-status|p2a: Moltres|tox
+|-damage|p2a: Moltres|55/100 tox|[from] Stealth Rock
+|turn|49
+|
+|move|p2a: Moltres|Protect|p2a: Moltres
+|-singleturn|p2a: Moltres|Protect
+|move|p1a: Landorus|Earthquake|p2a: Moltres
+|-activate|p2a: Moltres|move: Protect
+|
+|-heal|p2a: Moltres|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Moltres|55/100 tox|[from] psn
+|turn|50
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Moltres|Fiery Wrath|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100
+|
+|-heal|p2a: Moltres|61/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|63/100|[from] item: Black Sludge
+|-damage|p2a: Moltres|48/100 tox|[from] psn
+|turn|51
+|
+|switch|p2a: Gholdengo|Gholdengo|61/100
+|-damage|p2a: Gholdengo|55/100|[from] Stealth Rock
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|turn|52
+|
+|move|p2a: Gholdengo|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|47/100
+|move|p1a: Toxapex|Chilling Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|47/100
+|-unboost|p2a: Gholdengo|atk|1
+|
+|-heal|p1a: Toxapex|53/100|[from] item: Black Sludge
+|turn|53
+|
+|move|p2a: Gholdengo|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|47/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|turn|54
+|
+|move|p1a: Landorus|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|-status|p2a: Basculegion|tox
+|-damage|p2a: Basculegion|88/100 tox|[from] Stealth Rock
+|turn|55
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-damage|p2a: Basculegion|82/100 tox|[from] psn
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|turn|56
+|
+|move|p1a: Walking Wake|Draco Meteor|p2a: Basculegion
+|-damage|p2a: Basculegion|37/100 tox
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Basculegion|Shadow Ball|p1a: Walking Wake
+|-damage|p1a: Walking Wake|46/100
+|
+|-damage|p2a: Basculegion|25/100 tox|[from] psn
+|turn|57
+|
+|move|p1a: Walking Wake|Draco Meteor|p2a: Basculegion|[miss]
+|-miss|p1a: Walking Wake|p2a: Basculegion
+|move|p2a: Basculegion|Shadow Ball|p1a: Walking Wake
+|-damage|p1a: Walking Wake|6/100
+|
+|-damage|p2a: Basculegion|7/100 tox|[from] psn
+|turn|58
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|win|datjay24
+|l|☆123jackson
+|player|p2|datjay24|266

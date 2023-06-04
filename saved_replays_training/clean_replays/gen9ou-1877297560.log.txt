@@ -1,0 +1,208 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Enamorus, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Greninja, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Iron Treads|
+|poke|p2|Basculegion, M|
+|poke|p2|Great Tusk|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Thundurus, M|
+|poke|p2|Volcarona, M|
+|teampreview
+|
+|start
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|turn|1
+|
+|move|p2a: Thundurus|Thunder Wave|p1a: Greninja
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Greninja
+|move|p1a: Greninja|Ice Beam|p2a: Thundurus
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|2
+|
+|move|p1a: Greninja|Toxic Spikes|p2a: Corviknight
+|-sidestart|p2: Sencopion|move: Toxic Spikes
+|move|p2a: Corviknight|Body Press|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|17/100
+|
+|turn|3
+|
+|move|p1a: Greninja|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|move|p2a: Corviknight|Brave Bird|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|-damage|p2a: Corviknight|60/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|66/100|[from] item: Leftovers
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Corviknight|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|98/100
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|-status|p2a: Basculegion|psn
+|
+|-damage|p2a: Basculegion|88/100 psn|[from] psn
+|turn|5
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Basculegion|Psychic Fangs|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|84/100
+|
+|-damage|p2a: Basculegion|76/100 psn|[from] psn
+|turn|6
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|1
+|
+|turn|7
+|
+|move|p1a: Zamazenta|Body Press|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-status|p1a: Zamazenta|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|faint|p2a: Volcarona
+|
+|-damage|p1a: Zamazenta|78/100 brn|[from] brn
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|8
+|
+|-terastallize|p2a: Goodra|Fairy
+|move|p1a: Zamazenta|Body Press|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|66/100
+|move|p2a: Goodra|Draco Meteor|p1a: Zamazenta
+|-damage|p1a: Zamazenta|16/100 brn
+|-unboost|p2a: Goodra|spa|2
+|
+|-damage|p1a: Zamazenta|10/100 brn|[from] brn
+|turn|9
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Goodra|Earthquake|p1a: Enamorus
+|-immune|p1a: Enamorus
+|
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, M|66/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Enamorus|Healing Wish|p1a: Enamorus
+|faint|p1a: Enamorus
+|
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|11
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|43/100
+|-sidestart|p2: Sencopion|Spikes
+|move|p2a: Corviknight|Body Press|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|28/100
+|
+|-heal|p2a: Corviknight|49/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Samurott|Razor Shell|p2a: Corviknight
+|-damage|p2a: Corviknight|14/100
+|-unboost|p2a: Corviknight|def|1
+|move|p2a: Corviknight|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|switch|p2a: Basculegion|Basculegion, M|76/100 psn|[from] U-turn
+|-damage|p2a: Basculegion|63/100 psn|[from] Spikes
+|
+|-damage|p2a: Basculegion|51/100 psn|[from] psn
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|13
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Basculegion|19/100 psn|[from] Recoil
+|
+|-damage|p2a: Basculegion|7/100 psn|[from] psn
+|
+|switch|p1a: Zamazenta|Zamazenta|10/100 brn
+|-heal|p1a: Zamazenta|100/100|[from] move: Healing Wish
+|turn|14
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Basculegion|Wave Crash|p1a: Zamazenta
+|-damage|p1a: Zamazenta|67/100
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Goodra|Goodra-Hisui, F, tera:Fairy|66/100
+|-status|p2a: Goodra|psn
+|-damage|p2a: Goodra|53/100 psn|[from] Spikes
+|turn|15
+|
+|-terastallize|p1a: Zamazenta|Fairy
+|move|p1a: Zamazenta|Body Press|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|22/100 psn
+|move|p2a: Goodra|Draco Meteor|p1a: Zamazenta
+|-immune|p1a: Zamazenta
+|
+|-damage|p2a: Goodra|10/100 psn|[from] psn
+|turn|16
+|
+|move|p1a: Zamazenta|Body Press|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|17
+|
+|move|p1a: Zamazenta|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Corviknight|Corviknight, M|14/100
+|-ability|p2a: Corviknight|Pressure
+|turn|18
+|
+|move|p1a: Zamazenta|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|win|ThatBoiSteven
+|l|☆ThatBoiSteven

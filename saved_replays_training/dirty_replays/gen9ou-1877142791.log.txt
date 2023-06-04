@@ -1,0 +1,223 @@
+|j|☆Raylongroad1
+|j|☆poiutghjkl
+|t:|1685819969
+|gametype|singles
+|player|p1|Raylongroad1|169|1286
+|player|p2|poiutghjkl|lance|1206
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Heatran, M|
+|poke|p1|Great Tusk|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Great Tusk|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Sneasler, F|
+|teampreview
+|
+|t:|1685819977
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|1
+|
+|t:|1685819980
+|move|p2a: Sneasler|Fake Out|p1a: Grimmsnarl
+|-enditem|p2a: Sneasler|Normal Gem|[from] gem
+|-damage|p1a: Grimmsnarl|75/100
+|cant|p1a: Grimmsnarl|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1685819984
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Raylongroad1|Reflect
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1685819990
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Sneasler
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2a: Sneasler|spa|1
+|
+|t:|1685819992
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Parting Shot
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1685820000
+|move|p2a: Sneasler|Dire Claw|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|86/100
+|-damage|p2a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Sneasler
+|
+|upkeep
+|
+|t:|1685820009
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|5
+|
+|t:|1685820013
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1685820019
+|move|p2a: Enamorus|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|83/100
+|-unboost|p1a: Heatran|spa|1
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Magma Storm|p2a: Enamorus
+|-damage|p2a: Enamorus|73/100
+|-activate|p2a: Enamorus|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Enamorus|61/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1685820038
+|move|p2a: Enamorus|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Enamorus|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1685820046
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|75/100
+|turn|8
+|
+|t:|1685820054
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Raylongroad1|move: Light Screen
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1685820061
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|-sideend|p1: Raylongroad1|Reflect
+|upkeep
+|turn|10
+|
+|t:|1685820069
+|-terastallize|p1a: Urshifu|Water
+|move|p2a: Enamorus|Moonblast|p1a: Urshifu
+|-damage|p1a: Urshifu|4/100
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|upkeep
+|turn|11
+|
+|t:|1685820078
+|move|p1a: Urshifu|Aqua Jet|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-damage|p1a: Urshifu|0 fnt|[from] item: Life Orb
+|faint|p1a: Urshifu
+|
+|upkeep
+|
+|t:|1685820101
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|75/100
+|turn|12
+|
+|t:|1685820108
+|move|p2a: Urshifu|Surging Strikes|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|47/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|20/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-hitcount|p1: Grimmsnarl|3
+|
+|upkeep
+|
+|t:|1685820114
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|13
+|
+|t:|1685820122
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|48/100
+|move|p2a: Urshifu|Close Combat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|34/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1685820147
+|move|p1a: Zamazenta|Crunch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|27/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|17/100
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-hitcount|p1: Zamazenta|2
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raylongroad1)
+|-message|Raylongroad1 forfeited.
+|
+|win|poiutghjkl
+|raw|Raylongroad1's rating: 1286 → 1255(-31 for losing)
+|raw|poiutghjkl's rating: 1206 → 1237(+31 for winning)
+|l|☆Raylongroad1

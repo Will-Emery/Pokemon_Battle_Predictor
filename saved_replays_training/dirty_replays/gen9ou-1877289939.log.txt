@@ -1,0 +1,425 @@
+|j|☆TrainerCyan1
+|j|☆Gabo29
+|t:|1685838666
+|gametype|singles
+|player|p1|TrainerCyan1|silver|1178
+|player|p2|Gabo29|ingo|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clodsire, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Magnezone|
+|poke|p1|Heatran, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Skeledirge, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Azelf|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gabo29)
+|
+|t:|1685838671
+|start
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|turn|1
+|
+|t:|1685838676
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|move|p1a: Clodsire|Stealth Rock|p2a: Braviary
+|-sidestart|p2: Gabo29|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685838684
+|move|p2a: Braviary|Defog|p1a: Clodsire
+|-unboost|p1a: Clodsire|evasion|1
+|-sideend|p2: Gabo29|Stealth Rock|[from] move: Defog|[of] p2a: Braviary
+|move|p1a: Clodsire|Toxic|p2a: Braviary
+|-status|p2a: Braviary|tox
+|
+|-damage|p2a: Braviary|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1685838687
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Braviary|Esper Wing|p1a: Tyranitar
+|-immune|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Braviary|88/100 tox|[from] Sandstorm
+|-damage|p2a: Braviary|76/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685838694
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Samurott|[miss]
+|-miss|p1a: Tyranitar|p2a: Samurott
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Samurott|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1685838701
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Samurott|88/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1685838707
+|move|p2a: Samurott|Ceaseless Edge|p1a: Clodsire
+|-damage|p1a: Clodsire|10/100
+|-sidestart|p1: TrainerCyan1|Spikes
+|move|p1a: Clodsire|Earthquake|p2a: Samurott
+|-damage|p2a: Samurott|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Samurott|44/100|[from] Sandstorm
+|-heal|p1a: Clodsire|16/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685838717
+|move|p2a: Samurott|Ceaseless Edge|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|-sidestart|p1: TrainerCyan1|Spikes
+|faint|p1a: Clodsire
+|
+|-weather|none
+|upkeep
+|
+|t:|1685838732
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|-damage|p1a: Glimmora|84/100|[from] Spikes
+|turn|8
+|
+|t:|1685838752
+|move|p2a: Samurott|Aqua Jet|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Gabo29|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1685838759
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|9
+|
+|t:|1685838763
+|move|p2a: Samurott|Aqua Cutter|p1a: Corviknight
+|-damage|p1a: Corviknight|46/100
+|move|p1a: Corviknight|Brave Bird|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-damage|p1a: Corviknight|34/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1685838783
+|switch|p2a: Braviary|Braviary-Hisui, M|76/100 tox
+|turn|10
+|
+|t:|1685838791
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|84/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p2a: Braviary|70/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685838796
+|move|p2a: Braviary|Air Slash|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|33/100
+|move|p1a: Corviknight|Brave Bird|p2a: Braviary
+|-damage|p2a: Braviary|31/100 tox
+|-damage|p1a: Corviknight|20/100|[from] Recoil
+|
+|-damage|p2a: Braviary|19/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685838820
+|move|p2a: Braviary|Defog|p1a: Corviknight
+|-unboost|p1a: Corviknight|evasion|1
+|-sideend|p1: TrainerCyan1|Spikes|[from] move: Defog|[of] p2a: Braviary
+|-sideend|p2: Gabo29|Toxic Spikes|[from] move: Defog|[of] p2a: Braviary
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|70/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p2a: Braviary|0 fnt|[from] psn
+|faint|p2a: Braviary
+|upkeep
+|
+|t:|1685838837
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|13
+|
+|t:|1685838841
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Corviknight|Brave Bird|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-enditem|p2a: Lilligant|Focus Sash
+|-damage|p2a: Lilligant|1/100
+|-damage|p1a: Corviknight|47/100|[from] Recoil
+|
+|upkeep
+|turn|14
+|
+|t:|1685838848
+|move|p2a: Lilligant|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|2/100
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|-damage|p2a: Lilligant|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p2a: Lilligant
+|move|p1a: Corviknight|U-turn|p2: Lilligant|[notarget]
+|-fail|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1685838856
+|switch|p2a: Azelf|Azelf|100/100
+|turn|15
+|
+|t:|1685838879
+|move|p2a: Azelf|Mystical Power|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-boost|p2a: Azelf|spa|1
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1685838883
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|16
+|
+|t:|1685838890
+|-terastallize|p2a: Azelf|Fairy
+|move|p2a: Azelf|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|3/100
+|move|p1a: Tyranitar|Crunch|p2a: Azelf
+|-resisted|p2a: Azelf
+|-damage|p2a: Azelf|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|40/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1685838901
+|move|p2a: Azelf|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|34/100|[from] Sandstorm
+|upkeep
+|
+|t:|1685838906
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|18
+|
+|t:|1685838909
+|move|p2a: Azelf|Flamethrower|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|28/100|[from] Sandstorm
+|upkeep
+|
+|t:|1685838911
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|19
+|
+|t:|1685838916
+|move|p2a: Azelf|Mystical Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|83/100
+|-boost|p2a: Azelf|spa|1
+|move|p1a: Heatran|Earth Power|p2a: Azelf
+|-immune|p2a: Azelf|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azelf|21/100|[from] Sandstorm
+|-heal|p1a: Heatran|89/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685838924
+|move|p2a: Azelf|Mystical Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|65/100
+|-boost|p2a: Azelf|spa|1
+|move|p1a: Heatran|Earth Power|p2a: Azelf
+|-immune|p2a: Azelf|[from] ability: Levitate
+|
+|-weather|none
+|-heal|p1a: Heatran|71/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685838934
+|move|p2a: Azelf|Mystical Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|45/100
+|-boost|p2a: Azelf|spa|1
+|move|p1a: Heatran|Magma Storm|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|-heal|p1a: Heatran|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685838941
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|22
+|
+|t:|1685838948
+|-terastallize|p1a: Heatran|Grass
+|move|p2a: Cresselia|Thunder Wave|p1a: Heatran
+|-status|p1a: Heatran|par
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia
+|-damage|p2a: Cresselia|80/100
+|-activate|p2a: Cresselia|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Cresselia|86/100|[from] item: Leftovers
+|-heal|p1a: Heatran|57/100 par|[from] item: Leftovers
+|-damage|p2a: Cresselia|74/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|t:|1685838958
+|move|p2a: Cresselia|Psychic|p1a: Heatran
+|-damage|p1a: Heatran|42/100 par
+|move|p1a: Heatran|Taunt|p2a: Cresselia
+|-start|p2a: Cresselia|move: Taunt
+|
+|-heal|p2a: Cresselia|80/100|[from] item: Leftovers
+|-heal|p1a: Heatran|48/100 par|[from] item: Leftovers
+|-damage|p2a: Cresselia|68/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|24
+|
+|t:|1685838965
+|move|p2a: Cresselia|Psychic|p1a: Heatran
+|-damage|p1a: Heatran|33/100 par
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia|[miss]
+|-miss|p1a: Heatran|p2a: Cresselia
+|
+|-heal|p2a: Cresselia|74/100|[from] item: Leftovers
+|-heal|p1a: Heatran|39/100 par|[from] item: Leftovers
+|-damage|p2a: Cresselia|61/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1685838969
+|move|p2a: Cresselia|Psychic|p1a: Heatran
+|-damage|p1a: Heatran|24/100 par
+|cant|p1a: Heatran|par
+|
+|-heal|p2a: Cresselia|67/100|[from] item: Leftovers
+|-heal|p1a: Heatran|31/100 par|[from] item: Leftovers
+|-damage|p2a: Cresselia|55/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|t:|1685838971
+|move|p2a: Cresselia|Psychic|p1a: Heatran
+|-damage|p1a: Heatran|16/100 par
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia|[miss]
+|-miss|p1a: Heatran|p2a: Cresselia
+|
+|-heal|p2a: Cresselia|61/100|[from] item: Leftovers
+|-heal|p1a: Heatran|22/100 par|[from] item: Leftovers
+|-end|p2a: Cresselia|Magma Storm|[partiallytrapped]
+|-end|p2a: Cresselia|move: Taunt
+|upkeep
+|turn|27
+|
+|t:|1685838974
+|move|p2a: Cresselia|Lunar Blessing|p2a: Cresselia
+|-heal|p2a: Cresselia|86/100
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia|[miss]
+|-miss|p1a: Heatran|p2a: Cresselia
+|
+|-heal|p2a: Cresselia|92/100|[from] item: Leftovers
+|-heal|p1a: Heatran|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1685838980
+|move|p2a: Cresselia|Psychic|p1a: Heatran
+|-damage|p1a: Heatran|12/100 par
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia|[miss]
+|-miss|p1a: Heatran|p2a: Cresselia
+|
+|-heal|p2a: Cresselia|98/100|[from] item: Leftovers
+|-heal|p1a: Heatran|19/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1685838983
+|move|p2a: Cresselia|Psychic|p1a: Heatran
+|-damage|p1a: Heatran|2/100 par
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia
+|-damage|p2a: Cresselia|77/100
+|-activate|p2a: Cresselia|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Cresselia|83/100|[from] item: Leftovers
+|-heal|p1a: Heatran|8/100 par|[from] item: Leftovers
+|-damage|p2a: Cresselia|71/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|30
+|
+|t:|1685838988
+|move|p2a: Cresselia|Psychic|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|Gabo29
+|raw|TrainerCyan1's rating: 1178 → 1147(-31 for losing)
+|raw|Gabo29's rating: 1094 → 1126(+32 for winning)
+|l|☆Gabo29

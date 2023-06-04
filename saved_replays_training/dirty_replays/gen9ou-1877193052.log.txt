@@ -1,0 +1,277 @@
+|j|☆Lenny331
+|j|☆Green Costume
+|t:|1685825719
+|gametype|singles
+|player|p1|Lenny331|teamrocket|1180
+|player|p2|Green Costume|pokemaniac|1275
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Chien-Pao|
+|poke|p1|Zamazenta-*|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Magearna|
+|poke|p1|Ursaluna, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Pawmot, M|
+|poke|p2|Abomasnow, F|
+|poke|p2|Avalugg-Hisui, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Magearna|
+|teampreview
+|c|☆Green Costume|hf
+|c|☆Lenny331|hf
+|
+|t:|1685825737
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|turn|1
+|
+|t:|1685825749
+|move|p1a: Dragapult|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1685825756
+|switch|p2a: Dream Lord|Pawmot, M|100/100
+|turn|2
+|
+|t:|1685825775
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Dream Lord|Revival Blessing|p2a: Dream Lord
+|
+|t:|1685825778
+|-heal|p2: Landorus|50/100|[from] move: Revival Blessing
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1685825799
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1685825810
+|move|p1a: Basculegion|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1685825817
+|switch|p2a: Abomasnow|Abomasnow, F, shiny|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|5
+|
+|t:|1685825823
+|move|p1a: Basculegion|Shadow Ball|p2a: Abomasnow
+|-damage|p2a: Abomasnow|40/100
+|-unboost|p2a: Abomasnow|spd|1
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: Green Costume|move: Aurora Veil
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685825841
+|switch|p2a: Dream Lord|Pawmot, M|100/100
+|move|p1a: Basculegion|Shadow Ball|p2a: Dream Lord
+|-damage|p2a: Dream Lord|44/100
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685825862
+|-terastallize|p1a: Basculegion|Ground
+|move|p2a: Dream Lord|Rest|p2a: Dream Lord
+|-status|p2a: Dream Lord|slp|[from] move: Rest
+|-heal|p2a: Dream Lord|100/100 slp|[silent]
+|move|p1a: Basculegion|Shadow Ball|p2a: Dream Lord
+|-damage|p2a: Dream Lord|60/100 slp
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|8
+|j| billygoatcheese
+|
+|t:|1685825870
+|cant|p2a: Dream Lord|slp
+|move|p2a: Dream Lord|Sleep Talk|p2a: Dream Lord
+|move|p2a: Dream Lord|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dream Lord
+|move|p1a: Basculegion|Shadow Ball|p2a: Dream Lord
+|-damage|p2a: Dream Lord|17/100 slp
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1685825895
+|cant|p2a: Dream Lord|slp
+|move|p2a: Dream Lord|Sleep Talk|p2a: Dream Lord
+|move|p2a: Dream Lord|Revival Blessing|p2a: Dream Lord|[from]move: Sleep Talk
+|l| billygoatcheese
+|
+|t:|1685825899
+|-heal|p2: Slowking|50/100|[from] move: Revival Blessing
+|move|p1a: Basculegion|Shadow Ball|p2a: Dream Lord
+|-damage|p2a: Dream Lord|0 fnt
+|faint|p2a: Dream Lord
+|
+|-weather|none
+|upkeep
+|
+|t:|1685825906
+|switch|p2a: Magearna|Magearna|100/100
+|turn|10
+|j| Champ.Braeden
+|
+|t:|1685825920
+|move|p1a: Basculegion|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|71/100
+|-unboost|p2a: Magearna|spd|1
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685825930
+|move|p1a: Basculegion|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|49/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685825938
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Basculegion|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|37/100
+|
+|-heal|p2a: Magearna|43/100|[from] item: Leftovers
+|-sideend|p2: Green Costume|move: Aurora Veil
+|upkeep
+|turn|13
+|j| Dec17
+|
+|t:|1685825946
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Basculegion|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|15/100
+|
+|-heal|p2a: Magearna|21/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685825954
+|move|p2a: Magearna|Draining Kiss|p1a: Basculegion
+|-damage|p1a: Basculegion|30/100
+|-heal|p2a: Magearna|88/100|[from] drain|[of] p1a: Basculegion
+|move|p1a: Basculegion|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|58/100
+|
+|-heal|p2a: Magearna|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685825962
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Basculegion|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|42/100
+|
+|-heal|p2a: Magearna|48/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685825978
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Basculegion|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|31/100
+|
+|-heal|p2a: Magearna|38/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|j| Willis_Hescock
+|
+|t:|1685826008
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Basculegion|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|18/100
+|
+|-heal|p2a: Magearna|24/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|j| MangoTech
+|
+|t:|1685826015
+|move|p2a: Magearna|Draining Kiss|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-heal|p2a: Magearna|51/100|[from] drain|[of] p1a: Basculegion
+|faint|p1a: Basculegion
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685826029
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|19
+|
+|t:|1685826043
+|move|p2a: Magearna|Stored Power|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Magearna|63/100|[from] item: Leftovers
+|upkeep
+|-message|Lenny331 forfeited.
+|
+|win|Green Costume
+|raw|Lenny331's rating: 1180 → 1162(-18 for losing)
+|raw|Green Costume's rating: 1275 → 1293(+18 for winning)
+|l|☆Lenny331
+|l| Dec17
+|l| Willis_Hescock
+|c|☆Green Costume|gg

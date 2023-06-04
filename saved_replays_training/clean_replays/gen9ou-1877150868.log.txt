@@ -1,0 +1,50 @@
+|poke|p1|Arboliva, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Quaquaval, M|
+|poke|p1|Bellibolt, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Orthworm, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Magearna|
+|poke|p2|Hatterene, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Glastrier|
+|teampreview
+|
+|start
+|switch|p1a: Amorbis|Orthworm, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Amorbis|Coil|p1a: Amorbis
+|-boost|p1a: Amorbis|atk|1
+|-boost|p1a: Amorbis|def|1
+|-boost|p1a: Amorbis|accuracy|1
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|2
+|
+|move|p2a: Magearna|Volt Switch|p1a: Amorbis
+|-damage|p1a: Amorbis|56/100
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] Volt Switch
+|move|p1a: Amorbis|Stealth Rock|p2a: Slowking
+|-sidestart|p2: abcdefghian|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Slowking|Psychic|p1a: Amorbis
+|-resisted|p1a: Amorbis
+|-damage|p1a: Amorbis|20/100
+|move|p1a: Amorbis|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-message|abcdefghian forfeited.
+|
+|win|Navi987
+|l|☆abcdefghian

@@ -1,0 +1,321 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|poke|p2|Zamazenta-*|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Metro|Rillaboom, M|100/100
+|switch|p2a: Gorgeous|Magearna|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Metro
+|turn|1
+|
+|switch|p1a: 7500 On A YSL Hatt|Hatterene, F|100/100
+|move|p2a: Gorgeous|Fleur Cannon|p1a: 7500 On A YSL Hatt|[miss]
+|-miss|p2a: Gorgeous|p1a: 7500 On A YSL Hatt
+|
+|turn|2
+|
+|move|p2a: Gorgeous|Fleur Cannon|p1a: 7500 On A YSL Hatt
+|-damage|p1a: 7500 On A YSL Hatt|0 fnt
+|-unboost|p2a: Gorgeous|spa|2
+|faint|p1a: 7500 On A YSL Hatt
+|-ability|p2a: Gorgeous|Soul-Heart|boost
+|-boost|p2a: Gorgeous|spa|1
+|
+|
+|switch|p1a: Peruvian Coke|Ursaluna, M|100/100
+|turn|3
+|
+|-terastallize|p2a: Gorgeous|Flying
+|move|p1a: Peruvian Coke|Trailblaze|p2a: Gorgeous
+|-resisted|p2a: Gorgeous
+|-damage|p2a: Gorgeous|90/100
+|-boost|p1a: Peruvian Coke|spe|1
+|move|p2a: Gorgeous|Fleur Cannon|p1a: Peruvian Coke
+|-damage|p1a: Peruvian Coke|18/100
+|-unboost|p2a: Gorgeous|spa|2
+|
+|-heal|p1a: Peruvian Coke|24/100|[from] Grassy Terrain
+|-heal|p1a: Peruvian Coke|31/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Peruvian Coke|Ice Punch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|60/100
+|-damage|p1a: Peruvian Coke|14/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-status|p1a: Peruvian Coke|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|-heal|p1a: Peruvian Coke|20/100 par|[from] Grassy Terrain
+|-heal|p1a: Peruvian Coke|27/100 par|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Peruvian Coke
+|-damage|p1a: Peruvian Coke|0 fnt
+|faint|p1a: Peruvian Coke
+|
+|
+|switch|p1a: Big Dirge|Skeledirge, F|100/100
+|turn|6
+|
+|switch|p1a: Hercules No Thug|Sneasler, M|100/100
+|-enditem|p1a: Hercules No Thug|Grassy Seed
+|-boost|p1a: Hercules No Thug|def|1|[from] item: Grassy Seed
+|move|p2a: Zapdos|Thunder Wave|p1a: Hercules No Thug
+|-status|p1a: Hercules No Thug|par
+|
+|turn|7
+|
+|cant|p1a: Hercules No Thug|par
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|8
+|
+|move|p1a: Hercules No Thug|Dire Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|67/100
+|-damage|p1a: Hercules No Thug|84/100 par|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|move|p2a: Zapdos|Volt Switch|p1a: Hercules No Thug
+|-damage|p1a: Hercules No Thug|44/100 par
+|
+|switch|p2a: Tuskie|Great Tusk|100/100|[from] Volt Switch
+|
+|-heal|p1a: Hercules No Thug|50/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|turn|9
+|
+|move|p2a: Tuskie|Close Combat|p1a: Hercules No Thug
+|-resisted|p1a: Hercules No Thug
+|-damage|p1a: Hercules No Thug|15/100 par
+|-unboost|p2a: Tuskie|def|1
+|-unboost|p2a: Tuskie|spd|1
+|move|p1a: Hercules No Thug|Dire Claw|p2a: Tuskie
+|-resisted|p2a: Tuskie
+|-damage|p2a: Tuskie|75/100
+|
+|turn|10
+|
+|move|p2a: Tuskie|Close Combat|p1a: Hercules No Thug
+|-resisted|p1a: Hercules No Thug
+|-damage|p1a: Hercules No Thug|0 fnt
+|-unboost|p2a: Tuskie|def|1
+|-unboost|p2a: Tuskie|spd|1
+|faint|p1a: Hercules No Thug
+|
+|
+|switch|p1a: Big Bastard|Zamazenta|100/100
+|-ability|p1a: Big Bastard|Dauntless Shield|boost
+|-boost|p1a: Big Bastard|def|1
+|turn|11
+|
+|-end|p2a: Tuskie|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|67/100
+|move|p1a: Big Bastard|Iron Defense|p1a: Big Bastard
+|-boost|p1a: Big Bastard|def|2
+|
+|turn|12
+|
+|move|p1a: Big Bastard|Substitute|p1a: Big Bastard
+|-start|p1a: Big Bastard|Substitute
+|-damage|p1a: Big Bastard|76/100
+|move|p2a: Zapdos|Thunder Wave||[still]
+|-fail|p2a: Zapdos
+|
+|-heal|p1a: Big Bastard|82/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Big Bastard|Iron Defense|p1a: Big Bastard
+|-boost|p1a: Big Bastard|def|2
+|move|p2a: Zapdos|Heat Wave|p1a: Big Bastard
+|-end|p1a: Big Bastard|Substitute
+|
+|-heal|p1a: Big Bastard|88/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Big Bastard|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|22/100
+|-damage|p1a: Big Bastard|71/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-status|p1a: Big Bastard|par|[from] ability: Static|[of] p2a: Zapdos
+|move|p2a: Zapdos|Heat Wave|p1a: Big Bastard|[miss]
+|-miss|p2a: Zapdos|p1a: Big Bastard
+|
+|-heal|p1a: Big Bastard|77/100 par|[from] item: Leftovers
+|turn|15
+|j| Cairde鲸KSADI_
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|72/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Big Bastard|Body Press|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-damage|p1a: Big Bastard|61/100 par|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|-heal|p1a: Big Bastard|67/100 par|[from] item: Leftovers
+|
+|switch|p2a: Nice Kitty|Chien-Pao|100/100
+|-ability|p2a: Nice Kitty|Sword of Ruin
+|turn|16
+|
+|-terastallize|p1a: Big Bastard|Ghost
+|move|p2a: Nice Kitty|Sacred Sword|p1a: Big Bastard
+|-immune|p1a: Big Bastard
+|cant|p1a: Big Bastard|par
+|
+|-heal|p1a: Big Bastard|73/100 par|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Nice Kitty|Icicle Crash|p1a: Big Bastard
+|-damage|p1a: Big Bastard|56/100 par
+|-damage|p2a: Nice Kitty|91/100|[from] item: Life Orb
+|move|p1a: Big Bastard|Substitute|p1a: Big Bastard
+|-start|p1a: Big Bastard|Substitute
+|-damage|p1a: Big Bastard|31/100 par
+|
+|-heal|p1a: Big Bastard|37/100 par|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Nice Kitty|Icicle Crash|p1a: Big Bastard
+|-activate|p1a: Big Bastard|move: Substitute|[damage]
+|-damage|p2a: Nice Kitty|81/100|[from] item: Life Orb
+|move|p1a: Big Bastard|Body Press|p2a: Nice Kitty
+|-supereffective|p2a: Nice Kitty
+|-damage|p2a: Nice Kitty|0 fnt
+|faint|p2a: Nice Kitty
+|
+|-heal|p1a: Big Bastard|44/100 par|[from] item: Leftovers
+|
+|switch|p2a: Leonard|Zamazenta-Crowned|100/100
+|-ability|p2a: Leonard|Dauntless Shield|boost
+|-boost|p2a: Leonard|def|1
+|turn|19
+|
+|move|p2a: Leonard|Behemoth Bash|p1a: Big Bastard
+|-end|p1a: Big Bastard|Substitute
+|move|p1a: Big Bastard|Body Press|p2a: Leonard
+|-supereffective|p2a: Leonard
+|-damage|p2a: Leonard|0 fnt
+|faint|p2a: Leonard
+|
+|-heal|p1a: Big Bastard|50/100 par|[from] item: Leftovers
+|
+|switch|p2a: Gorgeous|Magearna, tera:Flying|90/100
+|turn|20
+|
+|switch|p1a: Big Dirge|Skeledirge, F|100/100
+|move|p2a: Gorgeous|Fleur Cannon|p1a: Big Dirge
+|-resisted|p1a: Big Dirge
+|-damage|p1a: Big Dirge|60/100
+|-unboost|p2a: Gorgeous|spa|2
+|
+|turn|21
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Big Dirge|Slack Off|p1a: Big Dirge
+|-heal|p1a: Big Dirge|100/100
+|
+|turn|22
+|
+|switch|p1a: Metro|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Metro
+|move|p2a: Heatran|Stealth Rock|p1a: Metro
+|-sidestart|p1: kd458|move: Stealth Rock
+|
+|turn|23
+|
+|switch|p2a: Gorgeous|Magearna, tera:Flying|90/100
+|move|p1a: Metro|Low Kick|p2a: Gorgeous
+|-resisted|p2a: Gorgeous
+|-damage|p2a: Gorgeous|77/100
+|
+|turn|24
+|
+|move|p1a: Metro|Knock Off|p2a: Gorgeous
+|-damage|p2a: Gorgeous|48/100
+|-enditem|p2a: Gorgeous|Choice Specs|[from] move: Knock Off|[of] p1a: Metro
+|move|p2a: Gorgeous|Volt Switch|p1a: Metro
+|-resisted|p1a: Metro
+|-damage|p1a: Metro|87/100
+|
+|switch|p2a: Heatran|Heatran, F|100/100|[from] Volt Switch
+|
+|-heal|p1a: Metro|93/100|[from] Grassy Terrain
+|turn|25
+|
+|move|p1a: Metro|Low Kick|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|22/100
+|move|p2a: Heatran|Magma Storm|p1a: Metro|[miss]
+|-miss|p2a: Heatran|p1a: Metro
+|
+|-heal|p1a: Metro|99/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|28/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|34/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p2a: Tuskie|Great Tusk|75/100
+|move|p1a: Metro|Low Kick|p2a: Tuskie
+|-damage|p2a: Tuskie|44/100
+|
+|-heal|p2a: Tuskie|51/100|[from] Grassy Terrain
+|-heal|p1a: Metro|100/100|[from] Grassy Terrain
+|turn|27
+|
+|move|p2a: Tuskie|Ice Spinner|p1a: Metro
+|-supereffective|p1a: Metro
+|-damage|p1a: Metro|44/100
+|-fieldend|move: Grassy Terrain
+|move|p1a: Metro|Wood Hammer|p2a: Tuskie
+|-supereffective|p2a: Tuskie
+|-damage|p2a: Tuskie|0 fnt
+|faint|p2a: Tuskie
+|-end|p2a: Tuskie|Protosynthesis|[silent]
+|-damage|p1a: Metro|29/100|[from] Recoil
+|
+|
+|switch|p2a: Gorgeous|Magearna, tera:Flying|48/100
+|turn|28
+|
+|move|p1a: Metro|U-turn|p2a: Gorgeous
+|-resisted|p2a: Gorgeous
+|-damage|p2a: Gorgeous|37/100
+|
+|switch|p1a: Big Dirge|Skeledirge, F|100/100|[from] U-turn
+|move|p2a: Gorgeous|Flash Cannon|p1a: Big Dirge
+|-resisted|p1a: Big Dirge
+|-damage|p1a: Big Dirge|84/100
+|
+|turn|29
+|j| BVRZUM
+|
+|switch|p1a: Metro|Rillaboom, M|29/100
+|-damage|p1a: Metro|16/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Metro
+|switch|p2a: Heatran|Heatran, F|34/100
+|
+|-heal|p1a: Metro|23/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|40/100|[from] Grassy Terrain
+|-heal|p2a: Heatran|47/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Metro|Low Kick|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Metro|29/100|[from] Grassy Terrain
+|-message|Joker33 forfeited.
+|
+|win|kd458
+|l|☆Joker33

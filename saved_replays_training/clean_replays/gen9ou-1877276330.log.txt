@@ -1,0 +1,409 @@
+|poke|p1|Toxapex, M|
+|poke|p1|Great Tusk|
+|poke|p1|Chien-Pao|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Gholdengo|
+|poke|p2|Magearna-Original|
+|poke|p2|Rotom-Wash|
+|poke|p2|Iron Moth|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ursaluna, M|
+|teampreview
+|j| KalliDalt
+|
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Gizmo|Rotom-Wash, shiny|100/100
+|turn|1
+|
+|switch|p2a: Mothra|Iron Moth, shiny|100/100
+|-enditem|p2a: Mothra|Booster Energy
+|-activate|p2a: Mothra|ability: Quark Drive|[fromitem]
+|-start|p2a: Mothra|quarkdrivespa
+|move|p1a: Electrode|Taunt|p2a: Mothra
+|-start|p2a: Mothra|move: Taunt
+|
+|turn|2
+|
+|move|p1a: Electrode|Volt Switch|p2a: Mothra
+|-damage|p2a: Mothra|64/100
+|-damage|p1a: Electrode|91/100|[from] item: Life Orb
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Mothra|atk|1
+|move|p2a: Mothra|Fiery Dance|p1a: Landorus
+|-damage|p1a: Landorus|23/100
+|
+|turn|3
+|
+|move|p1a: Landorus|Earthquake|p2a: Mothra
+|-supereffective|p2a: Mothra
+|-damage|p2a: Mothra|0 fnt
+|faint|p2a: Mothra
+|-end|p2a: Mothra|Quark Drive|[silent]
+|
+|
+|switch|p2a: Teddy|Ursaluna, M, shiny|100/100
+|turn|4
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Teddy|Fire Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|82/100
+|-status|p1a: Great Tusk|brn
+|
+|-damage|p1a: Great Tusk|75/100 brn|[from] brn
+|-status|p2a: Teddy|brn|[from] item: Flame Orb
+|turn|5
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Teddy
+|-damage|p2a: Teddy|94/100 brn
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Teddy|Facade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Teddy|88/100 brn|[from] brn
+|
+|switch|p1a: Electrode|Electrode-Hisui|91/100
+|turn|6
+|
+|-terastallize|p2a: Teddy|Fire
+|move|p1a: Electrode|Chloroblast|p2a: Teddy
+|-resisted|p2a: Teddy
+|-crit|p2a: Teddy
+|-damage|p2a: Teddy|42/100 brn
+|-damage|p1a: Electrode|41/100|[from] chloroblast
+|-damage|p1a: Electrode|31/100|[from] item: Life Orb
+|move|p2a: Teddy|Fire Punch|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|-damage|p2a: Teddy|35/100 brn|[from] brn
+|
+|switch|p1a: Landorus|Landorus-Therian, M|23/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Teddy|atk|1
+|turn|7
+|
+|switch|p2a: Gizmo|Rotom-Wash, shiny|100/100
+|move|p1a: Landorus|Crunch|p2a: Gizmo
+|-damage|p2a: Gizmo|77/100
+|
+|-heal|p2a: Gizmo|83/100|[from] item: Leftovers
+|turn|8
+|l| KalliDalt
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Gizmo|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|
+|-heal|p2a: Gizmo|89/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|turn|9
+|
+|move|p2a: Gizmo|Protect|p2a: Gizmo
+|-singleturn|p2a: Gizmo|Protect
+|move|p1a: Toxapex|Poison Jab|p2a: Gizmo
+|-activate|p2a: Gizmo|move: Protect
+|
+|-heal|p2a: Gizmo|95/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|turn|10
+|
+|move|p2a: Gizmo|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100 brn
+|
+|switch|p2a: Muñeca|Magearna-Original|100/100|[from] Volt Switch
+|move|p1a: Toxapex|Poison Jab|p2a: Muñeca
+|-immune|p2a: Muñeca
+|
+|-damage|p1a: Toxapex|51/100 brn|[from] brn
+|turn|11
+|
+|switch|p2a: Goldie Locks|Gholdengo|100/100
+|-item|p2a: Goldie Locks|Air Balloon
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|
+|turn|12
+|
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Goldie Locks
+|-resisted|p2a: Goldie Locks
+|-damage|p2a: Goldie Locks|82/100
+|-enditem|p2a: Goldie Locks|Air Balloon
+|move|p2a: Goldie Locks|Nasty Plot|p2a: Goldie Locks
+|-boost|p2a: Goldie Locks|spa|2
+|
+|turn|13
+|
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Goldie Locks
+|-resisted|p2a: Goldie Locks
+|-damage|p2a: Goldie Locks|65/100
+|move|p2a: Goldie Locks|Make It Rain|p1a: Tornadus
+|-damage|p1a: Tornadus|2/100
+|-unboost|p2a: Goldie Locks|spa|1
+|
+|turn|14
+|
+|move|p1a: Tornadus|U-turn|p2a: Goldie Locks
+|-resisted|p2a: Goldie Locks
+|-damage|p2a: Goldie Locks|62/100
+|
+|switch|p1a: Toxapex|Toxapex, M|84/100 brn|[from] U-turn
+|move|p2a: Goldie Locks|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|21/100 brn
+|
+|-damage|p1a: Toxapex|15/100 brn|[from] brn
+|turn|15
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Goldie Locks|Nasty Plot|p2a: Goldie Locks
+|-boost|p2a: Goldie Locks|spa|2
+|
+|turn|16
+|
+|switch|p2a: Muñeca|Magearna-Original|100/100
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Crunch|p2a: Muñeca
+|-resisted|p2a: Muñeca
+|-damage|p2a: Muñeca|50/100
+|
+|-heal|p2a: Muñeca|56/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|36/100
+|move|p2a: Muñeca|Trick Room|p2a: Muñeca
+|-fieldstart|move: Trick Room|[of] p2a: Muñeca
+|
+|-heal|p2a: Muñeca|62/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Muñeca|Flash Cannon|p1a: Tornadus
+|-damage|p1a: Tornadus|1/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Muñeca
+|-resisted|p2a: Muñeca
+|-damage|p2a: Muñeca|45/100
+|-unboost|p2a: Muñeca|spe|1
+|
+|-heal|p2a: Muñeca|51/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: Toxapex|Toxapex, M|48/100 brn
+|move|p2a: Muñeca|Flash Cannon|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|34/100 brn
+|
+|-heal|p2a: Muñeca|57/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|28/100 brn|[from] brn
+|turn|20
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|34/100
+|move|p2a: Muñeca|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|14/100
+|-unboost|p1a: Tornadus|spd|1
+|
+|-heal|p2a: Muñeca|63/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p1a: Toxapex|Toxapex, M|62/100 brn
+|move|p2a: Muñeca|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100 brn
+|
+|-heal|p2a: Muñeca|69/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|37/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|22
+|
+|move|p1a: Toxapex|Liquidation|p2a: Muñeca
+|-damage|p2a: Muñeca|58/100
+|-unboost|p2a: Muñeca|def|1
+|move|p2a: Muñeca|Trick Room|p2a: Muñeca
+|-fieldstart|move: Trick Room|[of] p2a: Muñeca
+|
+|-heal|p2a: Muñeca|64/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|31/100 brn|[from] brn
+|turn|23
+|
+|move|p2a: Muñeca|Fleur Cannon|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|9/100 brn
+|-unboost|p2a: Muñeca|spa|2
+|move|p1a: Toxapex|Liquidation|p2a: Muñeca
+|-damage|p2a: Muñeca|43/100
+|
+|-heal|p2a: Muñeca|49/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|3/100 brn|[from] brn
+|turn|24
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|47/100
+|move|p2a: Muñeca|Flash Cannon|p1a: Tornadus
+|-damage|p1a: Tornadus|30/100
+|
+|-heal|p2a: Muñeca|55/100|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: Muñeca|Fleur Cannon|p1a: Tornadus
+|-damage|p1a: Tornadus|3/100
+|-unboost|p2a: Muñeca|spa|2
+|move|p1a: Tornadus|U-turn|p2a: Muñeca
+|-resisted|p2a: Muñeca
+|-damage|p2a: Muñeca|51/100
+|
+|switch|p1a: Toxapex|Toxapex, M|36/100 brn|[from] U-turn
+|
+|-heal|p2a: Muñeca|57/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|30/100 brn|[from] brn
+|turn|26
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|36/100
+|move|p2a: Muñeca|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|28/100
+|
+|-heal|p2a: Muñeca|63/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|27
+|
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Muñeca
+|-resisted|p2a: Muñeca
+|-damage|p2a: Muñeca|47/100
+|move|p2a: Muñeca|Trick Room|p2a: Muñeca
+|-fieldstart|move: Trick Room|[of] p2a: Muñeca
+|
+|-heal|p2a: Muñeca|53/100|[from] item: Leftovers
+|turn|28
+|
+|switch|p2a: Teddy|Ursaluna, M, shiny, tera:Fire|35/100 brn
+|move|p1a: Tornadus|U-turn|p2a: Teddy
+|-resisted|p2a: Teddy
+|-damage|p2a: Teddy|31/100 brn
+|
+|switch|p1a: Landorus|Landorus-Therian, M|23/100|[from] U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Teddy|atk|1
+|
+|-damage|p2a: Teddy|24/100 brn|[from] brn
+|turn|29
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|61/100
+|move|p2a: Teddy|Facade|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-damage|p2a: Teddy|18/100 brn|[from] brn
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|30
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Teddy
+|-resisted|p2a: Teddy
+|-damage|p2a: Teddy|2/100 brn
+|move|p2a: Teddy|Swords Dance|p2a: Teddy
+|-boost|p2a: Teddy|atk|2
+|
+|-damage|p2a: Teddy|0 fnt|[from] brn
+|faint|p2a: Teddy
+|
+|switch|p2a: Muñeca|Magearna-Original|53/100
+|turn|31
+|
+|switch|p1a: Toxapex|Toxapex, M|63/100 brn
+|move|p2a: Muñeca|Fleur Cannon|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100 brn
+|-unboost|p2a: Muñeca|spa|2
+|
+|-heal|p2a: Muñeca|59/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|37/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|32
+|
+|switch|p1a: Landorus|Landorus-Therian, M|23/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Muñeca|atk|1
+|move|p2a: Muñeca|Trick Room|p2a: Muñeca
+|-fieldstart|move: Trick Room|[of] p2a: Muñeca
+|
+|-heal|p2a: Muñeca|65/100|[from] item: Leftovers
+|turn|33
+|
+|switch|p2a: Goldie Locks|Gholdengo|62/100
+|switch|p1a: Toxapex|Toxapex, M|70/100 brn
+|
+|-damage|p1a: Toxapex|64/100 brn|[from] brn
+|turn|34
+|
+|move|p1a: Toxapex|Liquidation|p2a: Goldie Locks
+|-damage|p2a: Goldie Locks|47/100
+|move|p2a: Goldie Locks|Nasty Plot|p2a: Goldie Locks
+|-boost|p2a: Goldie Locks|spa|2
+|
+|-damage|p1a: Toxapex|58/100 brn|[from] brn
+|turn|35
+|
+|move|p1a: Toxapex|Liquidation|p2a: Goldie Locks
+|-damage|p2a: Goldie Locks|33/100
+|move|p2a: Goldie Locks|Nasty Plot|p2a: Goldie Locks
+|-boost|p2a: Goldie Locks|spa|2
+|
+|-damage|p1a: Toxapex|52/100 brn|[from] brn
+|turn|36
+|
+|move|p1a: Toxapex|Liquidation|p2a: Goldie Locks
+|-damage|p2a: Goldie Locks|18/100
+|move|p2a: Goldie Locks|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|37
+|
+|switch|p2a: Roscoe|Zamazenta-Crowned|100/100
+|-ability|p2a: Roscoe|Dauntless Shield|boost
+|-boost|p2a: Roscoe|def|1
+|move|p1a: Chien-Pao|Crunch|p2a: Roscoe
+|-resisted|p2a: Roscoe
+|-damage|p2a: Roscoe|70/100
+|
+|turn|38
+|
+|switch|p1a: Landorus|Landorus-Therian, M|23/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Roscoe|atk|1
+|move|p2a: Roscoe|Iron Defense|p2a: Roscoe
+|-boost|p2a: Roscoe|def|2
+|
+|turn|39
+|
+|move|p1a: Landorus|Earthquake|p2a: Roscoe
+|-supereffective|p2a: Roscoe
+|-damage|p2a: Roscoe|33/100
+|move|p2a: Roscoe|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|40
+|
+|move|p2a: Roscoe|Body Press|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-crit|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|win|superiax
+|l|☆Saito Keith

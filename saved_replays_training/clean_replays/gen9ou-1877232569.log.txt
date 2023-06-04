@@ -1,0 +1,192 @@
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Quagsire, F|
+|poke|p1|Iron Moth|
+|poke|p1|Noivern, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Magneton|
+|poke|p2|Donphan, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Frosmoth, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Beyblade|Donphan, M|100/100
+|turn|1
+|j| halfdivine
+|
+|move|p1a: Kleavor|Close Combat|p2a: Beyblade
+|-damage|p2a: Beyblade|73/100
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|-enditem|p1a: Kleavor|Eject Pack
+|-damage|p1a: Kleavor|84/100|[from] item: Rocky Helmet|[of] p2a: Beyblade
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Beyblade|Stealth Rock|p1a: Iron Moth
+|-sidestart|p1: Shammoo Shaman|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Cat|Sylveon, F, shiny|100/100
+|move|p1a: Iron Moth|Energy Ball|p2a: Cat
+|-damage|p2a: Cat|85/100
+|
+|-heal|p2a: Cat|91/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Cat
+|-damage|p2a: Cat|71/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Cat|Wish|p2a: Cat
+|
+|-heal|p2a: Cat|77/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Ligma|Sneasler, M|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ligma
+|-damage|p2a: Ligma|15/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|-heal|p2a: Ligma|80/100|[from] move: Wish|[wisher] Cat
+|turn|5
+|
+|-terastallize|p1a: Iron Moth|Fairy
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ligma
+|-damage|p2a: Ligma|0 fnt
+|faint|p2a: Ligma
+|
+|
+|switch|p2a: Please not Chinese|Arcanine-Hisui, M, shiny|100/100
+|turn|6
+|
+|-terastallize|p2a: Please not Chinese|Fire
+|move|p1a: Iron Moth|Energy Ball|p2a: Please not Chinese
+|-resisted|p2a: Please not Chinese
+|-damage|p2a: Please not Chinese|63/100
+|-unboost|p2a: Please not Chinese|spd|1
+|move|p2a: Please not Chinese|Flare Blitz|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|-item|p2a: Please not Chinese|Choice Band|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|7
+|
+|switch|p2a: Weird|Frosmoth, F|100/100
+|move|p1a: Noivern|Boomburst|p2a: Weird
+|-damage|p2a: Weird|87/100
+|
+|turn|8
+|
+|move|p1a: Noivern|U-turn|p2a: Weird
+|-damage|p2a: Weird|65/100
+|
+|switch|p1a: Kleavor|Kleavor, F|84/100|[from] U-turn
+|-damage|p1a: Kleavor|59/100|[from] Stealth Rock
+|move|p2a: Weird|Ice Beam|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Magneton|Magneton|100/100
+|-damage|p1a: Magneton|95/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Cat|Sylveon, F, shiny|77/100
+|move|p1a: Magneton|Thunder Wave|p2a: Cat
+|-status|p2a: Cat|par
+|
+|-heal|p2a: Cat|83/100 par|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Magneton|Flash Cannon|p2a: Cat
+|-supereffective|p2a: Cat
+|-damage|p2a: Cat|37/100 par
+|cant|p2a: Cat|par
+|
+|-heal|p2a: Cat|43/100 par|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Magneton|Flash Cannon|p2a: Cat
+|-supereffective|p2a: Cat
+|-damage|p2a: Cat|0 fnt
+|faint|p2a: Cat
+|
+|
+|switch|p2a: Please not Chinese|Arcanine-Hisui, M, shiny, tera:Fire|63/100
+|turn|12
+|
+|move|p2a: Please not Chinese|Flare Blitz|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|-damage|p1a: Quagsire|94/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Bruxish at home|Enamorus, F|100/100
+|move|p1a: Quagsire|Earthquake|p2a: Bruxish at home
+|-immune|p2a: Bruxish at home
+|
+|-heal|p1a: Quagsire|100/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Bruxish at home|Grass Knot|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Beyblade|Donphan, M|73/100
+|move|p1a: Slowking|Future Sight|p2a: Beyblade
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|16
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|-item|p2a: Beyblade|Rocky Helmet|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|move|p2a: Beyblade|Ice Spinner|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Beyblade|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|1/100
+|move|p1a: Slowking|Ice Beam|p2a: Beyblade
+|-supereffective|p2a: Beyblade
+|-damage|p2a: Beyblade|0 fnt
+|faint|p2a: Beyblade
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|
+|switch|p2a: Please not Chinese|Arcanine-Hisui, M, shiny, tera:Fire|63/100
+|turn|18
+|
+|move|p2a: Please not Chinese|Flare Blitz|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|win|Britzler
+|l|☆Shammoo Shaman
+|l| halfdivine

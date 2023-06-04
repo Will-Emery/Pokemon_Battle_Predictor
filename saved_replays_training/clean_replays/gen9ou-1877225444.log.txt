@@ -1,0 +1,165 @@
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Quagsire, F|
+|poke|p1|Iron Moth|
+|poke|p1|Noivern, M|
+|poke|p1|Kleavor, M|
+|poke|p1|Magneton|
+|poke|p2|Donphan, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Frosmoth, F|
+|teampreview
+|j| halfdivine
+|
+|start
+|switch|p1a: Noivern|Noivern, M|100/100
+|switch|p2a: Beyblade|Donphan, M|100/100
+|-item|p2a: Beyblade|Rocky Helmet|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|1
+|j| EeveeKnight15
+|
+|move|p1a: Noivern|Boomburst|p2a: Beyblade
+|-damage|p2a: Beyblade|49/100
+|move|p2a: Beyblade|Ice Spinner|p1a: Noivern
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|turn|2
+|
+|move|p1a: Kleavor|Close Combat|p2a: Beyblade
+|-damage|p2a: Beyblade|19/100
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|-enditem|p1a: Kleavor|Eject Pack
+|-damage|p1a: Kleavor|84/100|[from] item: Rocky Helmet|[of] p2a: Beyblade
+|
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|move|p2a: Beyblade|Stealth Rock|p1a: Quagsire
+|-sidestart|p1: Shammoo Shaman|move: Stealth Rock
+|
+|turn|3
+|
+|switch|p2a: Weird|Frosmoth, F|100/100
+|move|p1a: Quagsire|Stealth Rock|p2a: Weird
+|-sidestart|p2: Britzler|move: Stealth Rock
+|
+|turn|4
+|
+|move|p2a: Weird|Giga Drain|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|
+|switch|p1a: Kleavor|Kleavor, M|84/100
+|-damage|p1a: Kleavor|59/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p2a: Ligma|Sneasler, M|100/100
+|-damage|p2a: Ligma|95/100|[from] Stealth Rock
+|move|p1a: Kleavor|U-turn|p2a: Ligma
+|-resisted|p2a: Ligma
+|-damage|p2a: Ligma|79/100
+|
+|switch|p1a: Magneton|Magneton|100/100|[from] U-turn
+|-damage|p1a: Magneton|95/100|[from] Stealth Rock
+|
+|turn|6
+|
+|-terastallize|p1a: Magneton|Flying
+|move|p2a: Ligma|Close Combat|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|60/100
+|-unboost|p2a: Ligma|def|1
+|-unboost|p2a: Ligma|spd|1
+|-damage|p2a: Ligma|69/100|[from] item: Life Orb
+|move|p1a: Magneton|Thunder Wave|p2a: Ligma
+|-status|p2a: Ligma|par
+|
+|turn|7
+|
+|move|p2a: Ligma|Dire Claw|p1a: Magneton
+|-damage|p1a: Magneton|19/100
+|-damage|p2a: Ligma|59/100 par|[from] item: Life Orb
+|move|p1a: Magneton|Flash Cannon|p2a: Ligma
+|-damage|p2a: Ligma|0 fnt
+|faint|p2a: Ligma
+|
+|
+|switch|p2a: Cat|Sylveon, F, shiny|100/100
+|-damage|p2a: Cat|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Magneton|Steel Beam|p2a: Cat
+|-supereffective|p2a: Cat
+|-damage|p2a: Cat|7/100
+|-damage|p1a: Magneton|0 fnt|[from] steelbeam
+|faint|p1a: Magneton
+|move|p2a: Cat|Hyper Voice|p1: Magneton|[notarget]
+|-fail|p2a: Cat
+|
+|-heal|p2a: Cat|13/100|[from] item: Leftovers
+|
+|switch|p1a: Kleavor|Kleavor, M|59/100
+|-damage|p1a: Kleavor|34/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Cat|Quick Attack|p1a: Kleavor
+|-damage|p1a: Kleavor|20/100
+|move|p1a: Kleavor|Acrobatics|p2a: Cat
+|-damage|p2a: Cat|0 fnt
+|faint|p2a: Cat
+|
+|
+|switch|p2a: Please not Chinese|Arcanine-Hisui, M, shiny|100/100
+|-damage|p2a: Please not Chinese|76/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Please not Chinese|Head Smash|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Please not Chinese|Head Smash|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Iron Moth|Energy Ball|p2a: Please not Chinese
+|-damage|p2a: Please not Chinese|15/100
+|move|p2a: Please not Chinese|Head Smash|p1a: Iron Moth|[miss]
+|-miss|p2a: Please not Chinese|p1a: Iron Moth
+|
+|turn|13
+|
+|move|p1a: Iron Moth|Energy Ball|p2a: Please not Chinese
+|-damage|p2a: Please not Chinese|0 fnt
+|faint|p2a: Please not Chinese
+|
+|
+|switch|p2a: Bruxish at home|Enamorus, F|100/100
+|-damage|p2a: Bruxish at home|76/100|[from] Stealth Rock
+|turn|14
+|
+|-terastallize|p2a: Bruxish at home|Ground
+|move|p2a: Bruxish at home|Earth Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|win|Britzler

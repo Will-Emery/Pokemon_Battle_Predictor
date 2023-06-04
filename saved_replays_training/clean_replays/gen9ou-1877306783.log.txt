@@ -1,0 +1,251 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Armarouge, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p1|Great Tusk|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|
+|turn|2
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Slowking|Future Sight|p1a: Ursaluna
+|-start|p2a: Slowking|move: Future Sight
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|move|p1a: Ursaluna|Facade|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|4
+|
+|move|p2a: Slowking|Flamethrower|p1a: Ursaluna
+|-damage|p1a: Ursaluna|73/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-end|p1a: Ursaluna|move: Future Sight
+|-damage|p1a: Ursaluna|32/100 brn
+|-damage|p1a: Ursaluna|26/100 brn|[from] brn
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Ursaluna|[miss]
+|-miss|p2a: Cinderace|p1a: Ursaluna
+|move|p1a: Ursaluna|Drain Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|38/100
+|-heal|p1a: Ursaluna|47/100 brn|[from] drain|[of] p2a: Cinderace
+|
+|-damage|p1a: Ursaluna|41/100 brn|[from] brn
+|turn|6
+|
+|switch|p1a: Armarouge|Armarouge, F|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Armarouge|[miss]
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Armarouge
+|-damage|p2a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|7
+|
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-terastallize|p1a: Armarouge|Bug
+|move|p1a: Armarouge|Armor Cannon|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|54/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|-enditem|p1a: Armarouge|Eject Pack
+|
+|switch|p1a: Magearna|Magearna|100/100
+|
+|-heal|p2a: Dragapult|60/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Magearna
+|-immune|p1a: Magearna
+|move|p1a: Magearna|Fleur Cannon|p2a: Dragapult|[miss]
+|-miss|p1a: Magearna|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|66/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|10
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|72/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Kingambit
+|-damage|p2a: Kingambit|33/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p2a: Kingambit|39/100|[from] item: Leftovers
+|-heal|p1a: Magearna|78/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Magearna|Fleur Cannon|p2a: Kingambit
+|-damage|p2a: Kingambit|2/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p2a: Kingambit|8/100|[from] item: Leftovers
+|-heal|p1a: Magearna|84/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Kingambit|Iron Head|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-heal|p2a: Kingambit|14/100|[from] item: Leftovers
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|13
+|j|%a1012
+|n|‽Mackallien|mackallien
+|l|%a1012
+|
+|move|p1a: Sneasler|Fake Out|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|9/100
+|cant|p2a: Kingambit|flinch
+|
+|-heal|p2a: Kingambit|15/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|14
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|10/100
+|move|p1a: Sneasler|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|15
+|
+|move|p1a: Sneasler|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|93/100
+|-status|p2a: Great Tusk|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100|[from] U-turn
+|move|p2a: Great Tusk|Knock Off|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|62/100
+|-enditem|p1a: Cresselia|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|99/100 psn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|87/100 psn|[from] psn
+|turn|16
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Cresselia
+|-immune|p1a: Cresselia|[from] ability: Levitate
+|move|p1a: Cresselia|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|47/100 psn
+|-unboost|p2a: Great Tusk|spa|1
+|
+|-heal|p2a: Great Tusk|54/100 psn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|41/100 psn|[from] psn
+|turn|17
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Cresselia
+|-immune|p1a: Cresselia|[from] ability: Levitate
+|move|p1a: Cresselia|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|66/100
+|turn|18
+|
+|-terastallize|p2a: Dragapult|Fairy
+|move|p2a: Dragapult|Hex|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|35/100
+|move|p1a: Cresselia|Moonblast|p2a: Dragapult
+|-damage|p2a: Dragapult|40/100
+|
+|-heal|p2a: Dragapult|46/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Cresselia
+|-damage|p1a: Cresselia|20/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Cresselia
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|-heal|p2a: Dragapult|52/100|[from] item: Leftovers
+|
+|switch|p1a: Sneasler|Sneasler, M|10/100
+|turn|20
+|
+|move|p1a: Sneasler|Fake Out|p2a: Dragapult
+|-damage|p2a: Dragapult|33/100
+|cant|p2a: Dragapult|flinch
+|
+|-heal|p2a: Dragapult|39/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-heal|p2a: Dragapult|45/100|[from] item: Leftovers
+|
+|switch|p1a: Armarouge|Armarouge, F, tera:Bug|100/100
+|turn|22
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Armarouge
+|-start|p1a: Armarouge|ability: Flash Fire
+|move|p1a: Armarouge|Armor Cannon|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Dragapult
+|
+|win|unhinges

@@ -1,0 +1,227 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Great Tusk|
+|poke|p1|Corviknight, F|
+|poke|p1|Heatran, F|
+|poke|p1|Magearna|
+|poke|p2|Basculegion, M|
+|poke|p2|Great Tusk|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Thundurus, M|
+|poke|p2|Volcarona, M|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|turn|1
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|1/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|move|p1a: Samurott|Aqua Cutter|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Thundurus|Grass Knot|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|88/100
+|
+|-heal|p1a: Magearna|94/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Thundurus|Thunder Wave|p1a: Magearna
+|-status|p1a: Magearna|par
+|cant|p1a: Magearna|par
+|
+|-heal|p1a: Magearna|99/100 par|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|68/100 par
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100|[from] Volt Switch
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|74/100 par|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|6
+|
+|-terastallize|p2a: Volcarona|Ground
+|move|p2a: Volcarona|Tera Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|1/100
+|turn|7
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|18/100
+|move|p2a: Volcarona|Giga Drain|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Volcarona|18/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|8
+|
+|move|p2a: Volcarona|Tera Blast|p1a: Dragapult
+|-damage|p1a: Dragapult|6/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-heal|p1a: Dragapult|12/100|[from] item: Leftovers
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|9
+|
+|switch|p1a: raven|Corviknight, F, shiny|100/100
+|-ability|p1a: raven|Pressure
+|move|p2a: Corviknight|U-turn|p1a: raven
+|-resisted|p1a: raven
+|-damage|p1a: raven|98/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: raven
+|
+|switch|p2a: Thundurus|Thundurus, M|100/100|[from] U-turn
+|
+|turn|10
+|
+|switch|p1a: Magearna|Magearna|74/100 par
+|move|p2a: Thundurus|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|42/100 par
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] Volt Switch
+|
+|-heal|p1a: Magearna|48/100 par|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: raven|Corviknight, F, shiny|98/100
+|-ability|p1a: raven|Pressure
+|move|p2a: Basculegion|Wave Crash|p1a: raven
+|-damage|p1a: raven|41/100
+|-damage|p2a: Basculegion|84/100|[from] item: Rocky Helmet|[of] p1a: raven
+|-damage|p2a: Basculegion|64/100|[from] Recoil
+|
+|turn|12
+|
+|move|p2a: Basculegion|Wave Crash|p1a: raven
+|-damage|p1a: raven|0 fnt
+|-damage|p2a: Basculegion|48/100|[from] item: Rocky Helmet|[of] p1a: raven
+|faint|p1a: raven
+|-damage|p2a: Basculegion|34/100|[from] Recoil
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|12/100
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, F|84/100
+|-ability|p2a: Corviknight|Pressure
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Tera Blast|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|
+|-heal|p1a: Dragapult|18/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Magearna|Magearna|48/100 par
+|move|p2a: Corviknight|Brave Bird|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|37/100 par
+|-damage|p2a: Corviknight|53/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|59/100|[from] item: Leftovers
+|-heal|p1a: Magearna|43/100 par|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Corviknight|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|41/100 par
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100|[from] U-turn
+|move|p1a: Magearna|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|96/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|turn|16
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Goodra
+|-sidestart|p2: Sencopion|move: Stealth Rock
+|move|p2a: Goodra|Draco Meteor|p1a: Great Tusk
+|-damage|p1a: Great Tusk|7/100
+|-unboost|p2a: Goodra|spa|2
+|
+|-heal|p1a: Great Tusk|13/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Corviknight|Corviknight, F|59/100
+|-damage|p2a: Corviknight|47/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p1a: Great Tusk|20/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|53/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|34/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Corviknight|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|14/100
+|
+|switch|p2a: Thundurus|Thundurus, M|100/100|[from] U-turn
+|
+|-heal|p1a: Great Tusk|20/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Thundurus|Grass Knot|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Dragapult|Dragapult, M, tera:Ghost|18/100
+|turn|20
+|
+|move|p2a: Thundurus|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|move|p1a: Dragapult|Tera Blast|p2a: Thundurus
+|-damage|p2a: Thundurus|16/100
+|
+|-heal|p1a: Dragapult|24/100 par|[from] item: Leftovers
+|turn|21
+|-message|Ye olde doggo forfeited.
+|
+|win|Sencopion
+|l|☆Ye olde doggo

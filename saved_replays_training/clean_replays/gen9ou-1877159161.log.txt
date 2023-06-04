@@ -1,0 +1,179 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Meloetta|
+|poke|p1|Muk-Alola, F|
+|poke|p2|Skeledirge, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Gholdengo|
+|poke|p2|Volcarona, F|
+|poke|p2|Slowbro, F|
+|poke|p2|Ceruledge, M|
+|teampreview
+|
+|start
+|switch|p1a: Seed Bomb|Electrode-Hisui|100/100
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|turn|1
+|
+|move|p1a: Seed Bomb|Discharge|p2a: Skeledirge
+|-damage|p2a: Skeledirge|70/100
+|move|p2a: Skeledirge|Torch Song|p1a: Seed Bomb
+|-supereffective|p1a: Seed Bomb
+|-damage|p1a: Seed Bomb|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Seed Bomb
+|
+|-heal|p2a: Skeledirge|76/100|[from] item: Leftovers
+|
+|switch|p1a: Happy Lad|Basculegion, M, shiny|100/100
+|turn|2
+|
+|move|p2a: Skeledirge|Protect|p2a: Skeledirge
+|-singleturn|p2a: Skeledirge|Protect
+|move|p1a: Happy Lad|Phantom Force||[still]
+|-prepare|p1a: Happy Lad|Phantom Force
+|
+|-heal|p2a: Skeledirge|82/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Happy Lad|Phantom Force|p2a: Skeledirge|[from]lockedmove
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|4
+|
+|-terastallize|p1a: Happy Lad|Water
+|move|p1a: Happy Lad|Agility|p1a: Happy Lad
+|-boost|p1a: Happy Lad|spe|2
+|move|p2a: Gholdengo|Make It Rain|p1a: Happy Lad
+|-resisted|p1a: Happy Lad
+|-damage|p1a: Happy Lad|69/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|turn|5
+|
+|move|p1a: Happy Lad|Phantom Force||[still]
+|-prepare|p1a: Happy Lad|Phantom Force
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|6
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Happy Lad|Phantom Force|p2a: Clodsire|[from]lockedmove
+|-damage|p2a: Clodsire|54/100
+|
+|turn|7
+|
+|move|p1a: Happy Lad|Phantom Force||[still]
+|-prepare|p1a: Happy Lad|Phantom Force
+|move|p2a: Clodsire|Spikes|p1a: Happy Lad
+|-sidestart|p1: BagelsRWarm|Spikes
+|
+|turn|8
+|
+|move|p1a: Happy Lad|Phantom Force|p2a: Clodsire|[from]lockedmove
+|-damage|p2a: Clodsire|9/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Happy Lad
+|-sidestart|p1: BagelsRWarm|move: Stealth Rock
+|
+|turn|9
+|
+|move|p1a: Happy Lad|Facade|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|10
+|
+|move|p1a: Happy Lad|Phantom Force||[still]
+|-prepare|p1a: Happy Lad|Phantom Force
+|move|p2a: Gholdengo|Shadow Ball|p1a: Happy Lad|[miss]
+|-miss|p2a: Gholdengo|p1a: Happy Lad
+|
+|turn|11
+|
+|move|p1a: Happy Lad|Phantom Force|p2a: Gholdengo|[from]lockedmove
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|6/100
+|-enditem|p2a: Gholdengo|Red Card|[of] p1a: Happy Lad
+|drag|p1a: 2n🥛FX:The Pokémon|Sneasler, F|100/100
+|-damage|p1a: 2n🥛FX:The Pokémon|95/100|[from] Stealth Rock
+|-item|p1a: 2n🥛FX:The Pokémon|Air Balloon
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|12
+|
+|move|p1a: 2n🥛FX:The Pokémon|Night Slash|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|13
+|
+|move|p1a: 2n🥛FX:The Pokémon|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|53/100
+|-status|p2a: Volcarona|psn|[from] ability: Poison Touch|[of] p1a: 2n🥛FX:The Pokémon
+|move|p2a: Volcarona|Light Screen|p2a: Volcarona
+|-sidestart|p2: BluetheWooper|move: Light Screen
+|
+|-damage|p2a: Volcarona|41/100 psn|[from] psn
+|turn|14
+|
+|move|p1a: 2n🥛FX:The Pokémon|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|100/100
+|turn|15
+|
+|move|p1a: 2n🥛FX:The Pokémon|Night Slash|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-crit|p2a: Ceruledge
+|-damage|p2a: Ceruledge|10/100
+|-status|p2a: Ceruledge|psn|[from] ability: Poison Touch|[of] p1a: 2n🥛FX:The Pokémon
+|move|p2a: Ceruledge|Confuse Ray|p1a: 2n🥛FX:The Pokémon
+|-start|p1a: 2n🥛FX:The Pokémon|confusion
+|
+|-damage|p2a: Ceruledge|0 fnt|[from] psn
+|faint|p2a: Ceruledge
+|
+|switch|p2a: Slowbro|Slowbro, F, shiny|100/100
+|turn|16
+|
+|-activate|p1a: 2n🥛FX:The Pokémon|confusion
+|-damage|p1a: 2n🥛FX:The Pokémon|70/100|[from] confusion
+|move|p2a: Slowbro|Belly Drum|p2a: Slowbro
+|-damage|p2a: Slowbro|50/100
+|-setboost|p2a: Slowbro|atk|6|[from] move: Belly Drum
+|
+|-heal|p2a: Slowbro|57/100|[from] item: Leftovers
+|turn|17
+|
+|-activate|p1a: 2n🥛FX:The Pokémon|confusion
+|move|p1a: 2n🥛FX:The Pokémon|Night Slash|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|21/100
+|move|p2a: Slowbro|Nasty Plot|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|2
+|
+|-heal|p2a: Slowbro|27/100|[from] item: Leftovers
+|-sideend|p2: BluetheWooper|move: Light Screen
+|turn|18
+|
+|-activate|p1a: 2n🥛FX:The Pokémon|confusion
+|move|p1a: 2n🥛FX:The Pokémon|Dire Claw|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|win|BagelsRWarm

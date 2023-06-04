@@ -1,0 +1,399 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Treads|
+|poke|p1|Volcarona, M|
+|poke|p2|Magearna|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Iron Treads
+|-status|p1a: Iron Treads|brn
+|move|p1a: Iron Treads|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: Copyninja101|move: Stealth Rock
+|
+|-damage|p1a: Iron Treads|94/100 brn|[from] brn
+|turn|2
+|
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: Copyninja101|Reflect
+|move|p1a: Iron Treads|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|90/100
+|-start|p1a: Iron Treads|Disable|Iron Head|[from] ability: Cursed Body|[of] p2a: Dragapult
+|
+|-damage|p1a: Iron Treads|88/100 brn|[from] brn
+|turn|3
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: Copyninja101|move: Light Screen
+|move|p1a: Iron Treads|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|76/100
+|
+|-damage|p1a: Iron Treads|82/100 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Earthquake|p2a: Ursaluna
+|-damage|p2a: Ursaluna|85/100
+|
+|-damage|p1a: Iron Treads|76/100 brn|[from] brn
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|5
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Ursaluna
+|-damage|p2a: Ursaluna|76/100 brn
+|move|p2a: Ursaluna|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-damage|p2a: Ursaluna|70/100 brn|[from] brn
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Chien-Pao|atk|1
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|31/100
+|
+|turn|7
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Landorus|[miss]
+|-miss|p1a: Chien-Pao|p2a: Landorus
+|move|p2a: Landorus|Stealth Rock|p1a: Chien-Pao
+|-sidestart|p1: Lau2152|move: Stealth Rock
+|
+|turn|8
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|-sideend|p2: Copyninja101|Reflect
+|turn|10
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|6/100
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Magearna
+|-damage|p2a: Magearna|44/100
+|
+|-heal|p2a: Magearna|50/100|[from] item: Leftovers
+|-sideend|p2: Copyninja101|move: Light Screen
+|turn|11
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-heal|p2a: Magearna|54/100|[from] drain|[of] p1a: Chien-Pao
+|faint|p1a: Chien-Pao
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|60/100|[from] item: Leftovers
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|12
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Indeedee
+|-damage|p1a: Indeedee|26/100
+|-heal|p2a: Magearna|98/100|[from] drain|[of] p1a: Indeedee
+|move|p1a: Indeedee|Encore|p2a: Magearna
+|-start|p2a: Magearna|Encore
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|move|p2a: Magearna|Draining Kiss|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|76/100
+|
+|-heal|p1a: Magearna|82/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|64/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|70/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Draining Kiss|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|59/100
+|
+|-heal|p1a: Magearna|65/100|[from] item: Leftovers
+|-end|p2a: Magearna|Encore
+|turn|16
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|71/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|77/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|83/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Stored Power|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|45/100
+|
+|-heal|p1a: Magearna|51/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|turn|20
+|
+|move|p2a: Magearna|Stored Power|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|19/100
+|move|p1a: Magearna|Stored Power|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|37/100
+|
+|-heal|p2a: Magearna|44/100|[from] item: Leftovers
+|-heal|p1a: Magearna|25/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Magearna|Stored Power|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|50/100|[from] item: Leftovers
+|
+|switch|p1a: Indeedee|Indeedee, M|26/100
+|-damage|p1a: Indeedee|14/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|22
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-heal|p2a: Magearna|58/100|[from] drain|[of] p1a: Indeedee
+|faint|p1a: Indeedee
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|64/100|[from] item: Leftovers
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|23
+|
+|move|p1a: Sneasler|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|turn|24
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|75/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|25
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|26
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|42/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|27
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, F|70/100 brn
+|-damage|p2a: Ursaluna|64/100 brn|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|29
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-fieldend|move: Psychic Terrain
+|turn|30
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|31
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|32
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|33
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|34
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|0
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|35
+|
+|-terastallize|p1a: Volcarona|Psychic
+|move|p1a: Volcarona|Psychic|p2a: Volcarona
+|-damage|p2a: Volcarona|53/100
+|move|p2a: Volcarona|Flamethrower|p1a: Volcarona
+|-damage|p1a: Volcarona|50/100
+|
+|turn|36
+|
+|move|p1a: Volcarona|Psychic|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|76/100
+|-damage|p2a: Dragapult|64/100|[from] Stealth Rock
+|turn|37
+|
+|move|p1a: Volcarona|Psychic|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|Lau2152
+|l|☆Copyninja101

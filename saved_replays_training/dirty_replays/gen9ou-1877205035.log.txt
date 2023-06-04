@@ -1,0 +1,334 @@
+|j|☆Cheds#64
+|j|☆Flameblitz
+|t:|1685827102
+|gametype|singles
+|player|p1|Cheds#64|1|1143
+|player|p2|Flameblitz|102|1055
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Roaring Moon|
+|poke|p1|Great Tusk|
+|poke|p1|Volcarona, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Chien-Pao|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cheds#64)
+|
+|t:|1685827115
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1685827123
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Wave Crash|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|54/100
+|-damage|p2a: Basculegion|87/100|[from] Recoil
+|move|p1a: Torkoal|Stealth Rock|p2a: Basculegion
+|-sidestart|p2: Flameblitz|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685827134
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Basculegion|Wave Crash|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|89/100
+|-damage|p2a: Basculegion|83/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685827145
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Walking Wake|Draco Meteor|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|40/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Corviknight|46/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685827159
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Volcarona
+|-unboost|p1a: Volcarona|evasion|1
+|-sideend|p2: Flameblitz|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Corviknight|52/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685827169
+|move|p1a: Volcarona|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685827177
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|6
+|
+|t:|1685827181
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Pelipper|Surf|p1a: Hatterene
+|-damage|p1a: Hatterene|39/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1685827187
+|switch|p1a: Torkoal|Torkoal, F|54/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685827195
+|switch|p1a: Walking Wake|Walking Wake|89/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Pelipper|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|81/100
+|
+|t:|1685827206
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1685827215
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|17/100
+|-damage|p2a: Chien-Pao|91/100|[from] item: Life Orb
+|move|p1a: Walking Wake|Flamethrower|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685827223
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|9
+|
+|t:|1685827235
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|39/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|28/100
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|18/100
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|7/100
+|-hitcount|p1a: Hatterene|3
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1685827247
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685827254
+|switch|p1a: Walking Wake|Walking Wake|17/100
+|-heal|p1a: Walking Wake|100/100|[from] move: Healing Wish
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|11
+|
+|t:|1685827261
+|move|p1a: Walking Wake|Draco Meteor|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Urshifu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685827283
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Walking Wake|Protosynthesis
+|turn|12
+|
+|t:|1685827289
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|55/100
+|-start|p1a: Roaring Moon|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1685827297
+|-activate|p1a: Roaring Moon|confusion
+|-damage|p1a: Roaring Moon|33/100|[from] confusion
+|move|p2a: Pelipper|Hurricane|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685827306
+|switch|p1a: Torkoal|Torkoal, F|54/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|14
+|
+|t:|1685827314
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Pelipper|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|92/100
+|
+|t:|1685827320
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1685827329
+|move|p1a: Walking Wake|Draco Meteor|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Thundurus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685827335
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Walking Wake|Protosynthesis
+|turn|16
+|
+|t:|1685827342
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685827351
+|switch|p1a: Torkoal|Torkoal, F|54/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|17
+|
+|t:|1685827357
+|switch|p1a: Walking Wake|Walking Wake|92/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Pelipper|Hurricane|p1a: Walking Wake
+|-damage|p1a: Walking Wake|30/100
+|-start|p1a: Walking Wake|confusion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1685827368
+|-activate|p1a: Walking Wake|confusion
+|-damage|p1a: Walking Wake|23/100|[from] confusion
+|move|p2a: Pelipper|Hurricane|p1a: Walking Wake|[miss]
+|-miss|p2a: Pelipper|p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1685827376
+|-end|p1a: Walking Wake|confusion
+|move|p1a: Walking Wake|Draco Meteor|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Pelipper
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685827380
+|switch|p2a: Basculegion|Basculegion, M, tera:Water|83/100
+|turn|20
+|
+|t:|1685827388
+|move|p1a: Walking Wake|Draco Meteor|p2a: Basculegion
+|-damage|p2a: Basculegion|26/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Basculegion|Wave Crash|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|11/100
+|-damage|p2a: Basculegion|23/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1685827398
+|move|p1a: Walking Wake|Draco Meteor|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Basculegion
+|
+|win|Cheds#64
+|raw|Cheds#64's rating: 1143 → 1162(+19 for winning)
+|raw|Flameblitz's rating: 1055 → 1041(-14 for losing)
+|l|☆Flameblitz
+|l|☆Cheds#64
+|j|☆Cheds#64
+|player|p1|Cheds#64|1

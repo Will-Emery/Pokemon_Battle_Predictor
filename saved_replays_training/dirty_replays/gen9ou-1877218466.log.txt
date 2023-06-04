@@ -1,0 +1,171 @@
+|j|☆Bamgan
+|j|☆WT_Neptune
+|t:|1685828670
+|gametype|singles
+|player|p1|Bamgan|giovanni|1105
+|player|p2|WT_Neptune|misty|1001
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Kleavor, M|
+|poke|p2|Walking Wake|
+|poke|p2|Rotom-Wash|
+|poke|p2|Greninja, M|
+|poke|p2|Slowking, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Cloyster, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bamgan)
+|
+|t:|1685828684
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|1
+|
+|t:|1685828702
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|move|p2a: Greninja|U-turn|p1a: Sneasler
+|-start|p2a: Greninja|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|89/100
+|
+|t:|1685828711
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1685828720
+|move|p1a: Sneasler|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|23/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|move|p2a: Rotom|Volt Switch|p1a: Sneasler
+|-damage|p1a: Sneasler|45/100
+|
+|t:|1685828729
+|switch|p2a: Greninja|Greninja, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1685828740
+|move|p2a: Greninja|Shadow Sneak|p1a: Sneasler
+|-start|p2a: Greninja|typechange|Ghost|[from] ability: Protean
+|-damage|p1a: Sneasler|17/100
+|move|p1a: Sneasler|Close Combat|p2a: Greninja
+|-immune|p2a: Greninja
+|
+|upkeep
+|turn|4
+|
+|t:|1685828757
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Greninja|Shadow Sneak|p1a: Samurott
+|-resisted|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|83/100
+|
+|upkeep
+|turn|5
+|
+|t:|1685828767
+|switch|p2a: Rotom|Rotom-Wash|23/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-sidestart|p2: WT_Neptune|Spikes
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1685828776
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Spikes
+|turn|6
+|
+|t:|1685828785
+|switch|p1a: Sneasler|Sneasler, F|17/100
+|move|p2a: Greninja|Shadow Sneak|p1a: Sneasler
+|-start|p2a: Greninja|typechange|Ghost|[from] ability: Protean
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|upkeep
+|
+|t:|1685828805
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|turn|7
+|
+|t:|1685828815
+|move|p2a: Greninja|Shadow Sneak|p1a: Kleavor
+|-damage|p1a: Kleavor|81/100
+|move|p1a: Kleavor|Agility|p1a: Kleavor
+|-boost|p1a: Kleavor|spe|2
+|
+|upkeep
+|turn|8
+|
+|t:|1685828823
+|switch|p2a: Slowqueen|Slowking, F, shiny|100/100
+|-damage|p2a: Slowqueen|88/100|[from] Spikes
+|move|p1a: Kleavor|Swords Dance|p1a: Kleavor
+|-boost|p1a: Kleavor|atk|2
+|
+|upkeep
+|turn|9
+|
+|t:|1685828833
+|move|p1a: Kleavor|Fury Cutter|p2a: Slowqueen|[miss]
+|-miss|p1a: Kleavor|p2a: Slowqueen
+|move|p2a: Slowqueen|Reflect|p2a: Slowqueen
+|-sidestart|p2: WT_Neptune|Reflect
+|
+|upkeep
+|turn|10
+|
+|t:|1685828839
+|-terastallize|p1a: Kleavor|Bug
+|move|p1a: Kleavor|Fury Cutter|p2a: Slowqueen
+|-supereffective|p2a: Slowqueen
+|-crit|p2a: Slowqueen
+|-damage|p2a: Slowqueen|0 fnt
+|faint|p2a: Slowqueen
+|
+|upkeep
+|
+|t:|1685828846
+|switch|p2a: Greninja|Greninja, M|88/100
+|-damage|p2a: Greninja|76/100|[from] Spikes
+|turn|11
+|
+|t:|1685828858
+|-terastallize|p2a: Greninja|Ice
+|move|p1a: Kleavor|Fury Cutter|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|-message|WT_Neptune forfeited.
+|
+|win|Bamgan
+|raw|Bamgan's rating: 1105 → 1123(+18 for winning)
+|raw|WT_Neptune's rating: 1001 → 1000(-1 for losing)
+|l|☆WT_Neptune

@@ -1,0 +1,200 @@
+|poke|p1|Hatterene, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Magearna|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Great Tusk|
+|poke|p1|Basculegion-F, F|
+|poke|p2|Cacturne, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Talonflame, F|
+|poke|p2|Diancie|
+|poke|p2|Medicham, M|
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|turn|1
+|
+|move|p2a: Diancie|Diamond Storm|p1a: Hatterene
+|-damage|p1a: Hatterene|70/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|turn|2
+|
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Diancie|Flash Cannon|p1: Hatterene|[notarget]
+|-fail|p2a: Diancie
+|
+|j| Ymiao【渺】
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|turn|3
+|
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|move|p1a: Basculegion|Surf|p2a: Cacturne
+|-immune|p2a: Cacturne|[from] ability: Water Absorb
+|
+|turn|4
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Cacturne|Spikes|p1a: Magearna
+|-sidestart|p1: False Swipeing点老师|Spikes
+|
+|turn|5
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Basculegion
+|-damage|p2a: Basculegion|61/100
+|-unboost|p1a: Magearna|spa|2
+|-enditem|p1a: Magearna|Eject Pack
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|
+|-fieldend|move: Trick Room
+|turn|6
+|
+|move|p2a: Basculegion|Liquidation|p1a: Cresselia
+|-damage|p1a: Cresselia|71/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|7
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|-damage|p1a: Basculegion|88/100|[from] Spikes
+|switch|p2a: Diancie|Diancie|100/100
+|
+|turn|8
+|
+|move|p2a: Diancie|Diamond Storm|p1a: Basculegion
+|-damage|p1a: Basculegion|48/100
+|move|p1a: Basculegion|Ice Beam|p2a: Diancie
+|-damage|p2a: Diancie|65/100
+|-status|p2a: Diancie|frz
+|
+|-heal|p2a: Diancie|71/100 frz|[from] item: Leftovers
+|turn|9
+|
+|cant|p2a: Diancie|frz
+|move|p1a: Basculegion|Ice Beam|p2a: Diancie
+|-damage|p2a: Diancie|35/100 frz
+|
+|-heal|p2a: Diancie|41/100 frz|[from] item: Leftovers
+|turn|10
+|
+|cant|p2a: Diancie|frz
+|move|p1a: Basculegion|Ice Beam|p2a: Diancie
+|-damage|p2a: Diancie|6/100 frz
+|
+|-heal|p2a: Diancie|13/100 frz|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|11
+|
+|move|p1a: Basculegion|Ice Beam|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|12
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|17/100
+|
+|turn|13
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p1a: Hoopa|88/100|[from] Spikes
+|turn|14
+|
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|-terastallize|p1a: Hoopa|Dark
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-damage|p2a: Cacturne|5/100
+|-unboost|p1a: Hoopa|def|1
+|
+|-heal|p2a: Cacturne|11/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|88/100|[from] Spikes
+|move|p2a: Cacturne|Sucker Punch||[still]
+|-fail|p2a: Cacturne
+|
+|-heal|p2a: Cacturne|17/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Cacturne|Spikes|p1a: Magearna
+|-sidestart|p1: False Swipeing点老师|Spikes
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-heal|p2a: Cacturne|23/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Cacturne
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Basculegion|Basculegion, M|61/100
+|turn|18
+|
+|switch|p1a: Basculegion|Basculegion-F, F|48/100
+|-heal|p1a: Basculegion|100/100|[from] move: Healing Wish
+|-damage|p1a: Basculegion|84/100|[from] Spikes
+|move|p2a: Basculegion|Liquidation|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|53/100
+|
+|turn|19
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|turn|20
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Dragapult|Dragapult, F, tera:Ghost|100/100
+|turn|21
+|
+|move|p2a: Dragapult|U-turn|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|44/100
+|
+|switch|p2a: Medicham|Medicham, M|100/100|[from] U-turn
+|move|p1a: Basculegion|Shadow Ball|p2a: Medicham
+|-supereffective|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|-message|Genexys forfeited.
+|
+|win|False Swipeing点老师
+|l|☆Genexys

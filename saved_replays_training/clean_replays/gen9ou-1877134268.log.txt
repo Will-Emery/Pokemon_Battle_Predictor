@@ -1,0 +1,83 @@
+|poke|p1|Blissey, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Glastrier|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Slowking|[miss]
+|-miss|p1a: Tyranitar|p2a: Slowking
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|94/100|[from] Sandstorm
+|-heal|p2a: Slowking|100/100|[from] item: Black Sludge
+|turn|2
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Greater Rune Bear|Ursaluna, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-status|p2a: Greater Rune Bear|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p2a: Greater Rune Bear|Swords Dance|p2a: Greater Rune Bear
+|-boost|p2a: Greater Rune Bear|atk|2
+|move|p1a: Dragapult|Thunder Wave|p2a: Greater Rune Bear
+|-immune|p2a: Greater Rune Bear
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Greater Rune Bear|94/100 brn|[from] brn
+|turn|4
+|
+|move|p2a: Greater Rune Bear|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Greater Rune Bear|88/100 brn|[from] brn
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|5
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Greater Rune Bear|Earthquake|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Greater Rune Bear|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|6
+|
+|move|p1a: Toxapex|Liquidation|p2a: Greater Rune Bear
+|-supereffective|p2a: Greater Rune Bear
+|-damage|p2a: Greater Rune Bear|55/100 brn
+|move|p2a: Greater Rune Bear|Thunder Punch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|none
+|-damage|p2a: Greater Rune Bear|49/100 brn|[from] brn
+|-message|JeSuSTaKeThEfLiP forfeited.
+|
+|win|Chungo The Great
+|l|☆JeSuSTaKeThEfLiP

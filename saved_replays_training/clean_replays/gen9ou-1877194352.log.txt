@@ -1,0 +1,175 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Magearna|
+|poke|p1|Glimmora, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Overqwil, F|
+|poke|p2|Clodsire, M|
+|teampreview
+|
+|start
+|switch|p1a: 5'7 I'm Messi girl|Glimmora, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p1a: 5'7 I'm Messi girl|Power Gem|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|2
+|
+|move|p1a: 5'7 I'm Messi girl|Stealth Rock|p2a: Samurott
+|-sidestart|p2: MismagiusPropagand|move: Stealth Rock
+|move|p2a: Samurott|Ceaseless Edge|p1a: 5'7 I'm Messi girl
+|-damage|p1a: 5'7 I'm Messi girl|32/100
+|-sidestart|p1: jay9ne|Spikes
+|-activate|p1a: 5'7 I'm Messi girl|ability: Toxic Debris
+|-sidestart|p2: MismagiusPropagand|move: Toxic Spikes
+|-damage|p2a: Samurott|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Samurott|Aqua Jet|p1a: 5'7 I'm Messi girl
+|-supereffective|p1a: 5'7 I'm Messi girl
+|-damage|p1a: 5'7 I'm Messi girl|0 fnt
+|-activate|p1a: 5'7 I'm Messi girl|ability: Toxic Debris
+|-sidestart|p2: MismagiusPropagand|move: Toxic Spikes
+|faint|p1a: 5'7 I'm Messi girl
+|-damage|p2a: Samurott|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Big Protein|Sneasler, M|100/100
+|-item|p1a: Big Protein|Air Balloon
+|turn|4
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Big Protein
+|-damage|p1a: Big Protein|46/100
+|-enditem|p1a: Big Protein|Air Balloon
+|-damage|p2a: Samurott|71/100|[from] item: Life Orb
+|move|p1a: Big Protein|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Big Protein|def|1
+|-unboost|p1a: Big Protein|spd|1
+|faint|p2a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|-damage|p2a: Overqwil|88/100|[from] Stealth Rock
+|-sideend|p2: MismagiusPropagand|move: Toxic Spikes|[of] p2a: Overqwil
+|turn|5
+|
+|move|p1a: Big Protein|Close Combat|p2a: Overqwil
+|-damage|p2a: Overqwil|22/100
+|-unboost|p1a: Big Protein|def|1
+|-unboost|p1a: Big Protein|spd|1
+|move|p2a: Overqwil|Destiny Bond|p2a: Overqwil
+|-singlemove|p2a: Overqwil|Destiny Bond
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Big Protein|Swords Dance|p1a: Big Protein
+|-boost|p1a: Big Protein|atk|2
+|move|p2a: Overqwil|Crunch|p1a: Big Protein
+|-resisted|p1a: Big Protein
+|-damage|p1a: Big Protein|0 fnt
+|faint|p1a: Big Protein
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: High Profile|Moltres-Galar|100/100
+|turn|7
+|
+|move|p2a: Overqwil|Taunt|p1a: High Profile
+|-start|p1a: High Profile|move: Taunt
+|cant|p1a: High Profile|move: Taunt|Agility
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p2a: Overqwil|Destiny Bond|p2a: Overqwil
+|-singlemove|p2a: Overqwil|Destiny Bond
+|move|p1a: High Profile|Hurricane|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|-activate|p2a: Overqwil|move: Destiny Bond
+|faint|p1a: High Profile
+|
+|-weather|none
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|switch|p1a: Princess Shoes|Magearna|100/100
+|-damage|p1a: Princess Shoes|88/100|[from] Spikes
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Is that a Foreign?|Dragonite, F|100/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Is that a Foreign?
+|-sidestart|p1: jay9ne|move: Stealth Rock
+|
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Is that a Foreign?|Encore|p2a: Clodsire
+|-start|p2a: Clodsire|Encore
+|move|p2a: Clodsire|Stealth Rock||[still]
+|-fail|p2a: Clodsire
+|
+|turn|11
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|move|p1a: Is that a Foreign?|Dragon Dance|p1a: Is that a Foreign?
+|-boost|p1a: Is that a Foreign?|atk|1
+|-boost|p1a: Is that a Foreign?|spe|1
+|
+|turn|12
+|
+|-terastallize|p1a: Is that a Foreign?|Fire
+|move|p1a: Is that a Foreign?|Fire Punch|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Is that a Foreign?|Dragon Dance|p1a: Is that a Foreign?
+|-boost|p1a: Is that a Foreign?|atk|1
+|-boost|p1a: Is that a Foreign?|spe|1
+|move|p2a: Clodsire|Earthquake|p1a: Is that a Foreign?
+|-supereffective|p1a: Is that a Foreign?
+|-damage|p1a: Is that a Foreign?|72/100
+|
+|-heal|p1a: Is that a Foreign?|79/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Is that a Foreign?|Dragon Claw|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-heal|p1a: Is that a Foreign?|85/100|[from] item: Leftovers
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|turn|15
+|-message|MismagiusPropagand forfeited.
+|
+|win|jay9ne
+|l|☆MismagiusPropagand

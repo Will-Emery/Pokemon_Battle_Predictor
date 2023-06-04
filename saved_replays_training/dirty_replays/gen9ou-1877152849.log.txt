@@ -1,0 +1,351 @@
+|j|☆Trail_BL
+|j|☆Undemi31
+|t:|1685821118
+|gametype|singles
+|player|p1|Trail_BL|unknown|1100
+|player|p2|Undemi31|102|1140
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Great Tusk|
+|poke|p1|Slowking, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Amoonguss, F|
+|poke|p1|Dondozo, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Sneasler, F|
+|poke|p2|Hoopa|
+|poke|p2|Volcanion|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Undemi31)
+|
+|t:|1685821156
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|turn|1
+|
+|t:|1685821168
+|move|p1a: Cinderace|U-turn|p2a: Landorus
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|88/100
+|
+|t:|1685821176
+|switch|p1a: Amoonguss|Amoonguss, F|100/100|[from] U-turn
+|move|p2a: Landorus|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|59/100
+|
+|upkeep
+|turn|2
+|
+|t:|1685821185
+|move|p2a: Landorus|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: Trail_BL|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Landorus
+|-status|p2a: Landorus|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|t:|1685821198
+|switch|p2a: Volcanion|Volcanion|100/100
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685821208
+|move|p1a: Great Tusk|Rapid Spin|p2a: Volcanion
+|-damage|p2a: Volcanion|82/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Trail_BL|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Volcanion|Steam Eruption|p1a: Great Tusk|[miss]
+|-miss|p2a: Volcanion|p1a: Great Tusk
+|
+|upkeep
+|turn|5
+|
+|t:|1685821216
+|move|p1a: Great Tusk|Headlong Rush|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Volcanion
+|
+|upkeep
+|
+|t:|1685821235
+|switch|p2a: Landorus|Landorus-Therian, M|88/100 slp
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|turn|6
+|
+|t:|1685821244
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|switch|p2a: Hoopa|Hoopa|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1685821258
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1685821263
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|8
+|
+|t:|1685821273
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|66/100
+|
+|upkeep
+|turn|9
+|
+|t:|1685821283
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Slowking|Future Sight|p2a: Goodra
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|10
+|
+|t:|1685821291
+|move|p2a: Goodra|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|37/100
+|-unboost|p2a: Goodra|spa|2
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|t:|1685821318
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1685821325
+|switch|p2a: Landorus|Landorus-Therian, M|88/100 slp
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Close Combat|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|61/100 slp
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Landorus|move: Future Sight
+|-damage|p2a: Landorus|8/100 slp
+|upkeep
+|turn|12
+|
+|t:|1685821337
+|cant|p2a: Landorus|slp
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Landorus
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685821353
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|13
+|inactive|Trail_BL has 120 seconds left.
+|
+|t:|1685821397
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Sneasler
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685821406
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|turn|14
+|inactive|Trail_BL has 120 seconds left.
+|
+|t:|1685821431
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|59/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Zamazenta|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|17/100
+|
+|-weather|none
+|-heal|p1a: Great Tusk|23/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685821443
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|92/100
+|move|p2a: Zamazenta|Body Press|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|62/100
+|-damage|p2a: Zamazenta|42/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|upkeep
+|turn|16
+|
+|t:|1685821453
+|move|p2a: Zamazenta|Rest|p2a: Zamazenta
+|-status|p2a: Zamazenta|slp|[from] move: Rest
+|-heal|p2a: Zamazenta|100/100 slp|[silent]
+|move|p1a: Amoonguss|Spore|p2a: Zamazenta
+|-fail|p2a: Zamazenta|slp
+|
+|upkeep
+|turn|17
+|
+|t:|1685821464
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|cant|p2a: Zamazenta|slp
+|move|p2a: Zamazenta|Sleep Talk|p2a: Zamazenta
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Dondozo|[from]move: Sleep Talk
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|92/100
+|
+|-heal|p1a: Dondozo|98/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Trail_BL has 120 seconds left.
+|
+|t:|1685821479
+|cant|p2a: Zamazenta|slp
+|move|p2a: Zamazenta|Sleep Talk|p2a: Zamazenta
+|move|p2a: Zamazenta|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Zamazenta
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685821492
+|-curestatus|p2a: Zamazenta|slp|[msg]
+|move|p2a: Zamazenta|Body Press|p1a: Dondozo
+|-damage|p1a: Dondozo|87/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685821505
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685821515
+|move|p2a: Goodra|Draco Meteor|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|28/100
+|-unboost|p2a: Goodra|spa|2
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|34/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685821526
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Goodra|Draco Meteor|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|40/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685821534
+|move|p2a: Goodra|Draco Meteor|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1685821552
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|24
+|
+|t:|1685821557
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|41/100
+|
+|upkeep
+|turn|25
+|
+|t:|1685821565
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1685821570
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|turn|26
+|-message|Undemi31 forfeited.
+|
+|win|Trail_BL
+|raw|Trail_BL's rating: 1100 → 1128(+28 for winning)
+|raw|Undemi31's rating: 1140 → 1112(-28 for losing)
+|l|☆Undemi31

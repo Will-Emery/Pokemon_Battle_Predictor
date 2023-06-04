@@ -1,0 +1,158 @@
+|poke|p1|Roaring Moon|
+|poke|p1|Azumarill, M|
+|poke|p1|Arboliva, M|
+|poke|p1|Jolteon, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Rotom-Fan|
+|poke|p2|Eiscue, F|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Abomasnow, M|
+|poke|p2|Vaporeon, M|
+|poke|p2|Frosmoth, M|
+|teampreview
+|
+|start
+|switch|p1a: Clodsire|Clodsire, M, shiny|100/100
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: TrainerCyan1|move: Aurora Veil
+|move|p1a: Clodsire|Toxic|p2a: Abomasnow
+|-status|p2a: Abomasnow|tox
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Abomasnow|94/100 tox|[from] psn
+|turn|2
+|
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Rotom|Volt Switch|p2a: Frosmoth
+|-damage|p2a: Frosmoth|96/100
+|
+|switch|p1a: Clodsire|Clodsire, M, shiny|100/100|[from] Volt Switch
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Clodsire|Toxic|p2a: Frosmoth
+|-status|p2a: Frosmoth|tox
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Frosmoth|89/100 tox|[from] psn
+|turn|5
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|move|p2a: Frosmoth|Blizzard|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|34/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Azumarill|40/100|[from] item: Leftovers
+|-damage|p2a: Frosmoth|77/100 tox|[from] psn
+|-sideend|p2: TrainerCyan1|move: Aurora Veil
+|turn|6
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Frosmoth
+|-damage|p2a: Frosmoth|45/100 tox
+|move|p2a: Frosmoth|Tera Blast|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Frosmoth|27/100 tox|[from] psn
+|
+|switch|p1a: Clodsire|Clodsire, M, shiny|100/100
+|turn|7
+|
+|move|p1a: Clodsire|Protect|p1a: Clodsire
+|-singleturn|p1a: Clodsire|Protect
+|move|p2a: Frosmoth|Blizzard|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Frosmoth|3/100 tox|[from] psn
+|turn|8
+|
+|switch|p1a: Roaring Moon|Roaring Moon, shiny|100/100
+|move|p2a: Frosmoth|Blizzard|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|-weather|none
+|-damage|p2a: Frosmoth|0 fnt|[from] psn
+|faint|p2a: Frosmoth
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|switch|p2a: Abomasnow|Abomasnow, M|94/100 tox
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|9
+|
+|move|p1a: Rotom|Air Slash|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|44/100 tox
+|move|p2a: Abomasnow|Blizzard|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|4/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Rotom|10/100|[from] item: Leftovers
+|-damage|p2a: Abomasnow|38/100 tox|[from] psn
+|turn|10
+|
+|move|p1a: Rotom|Air Slash|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Rotom|16/100|[from] item: Leftovers
+|
+|switch|p2a: Baxcalibur|Baxcalibur, F|100/100
+|turn|11
+|
+|move|p2a: Baxcalibur|Swords Dance|p2a: Baxcalibur
+|-boost|p2a: Baxcalibur|atk|2
+|move|p1a: Rotom|Volt Switch|p2a: Baxcalibur
+|-resisted|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|88/100
+|
+|switch|p1a: Arboliva|Arboliva, M|100/100|[from] Volt Switch
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Baxcalibur|94/100|[from] ability: Ice Body
+|turn|12
+|
+|-terastallize|p1a: Arboliva|Fairy
+|move|p2a: Baxcalibur|Icicle Spear|p1a: Arboliva
+|-damage|p1a: Arboliva|66/100
+|-damage|p1a: Arboliva|36/100
+|-enditem|p1a: Arboliva|Sitrus Berry|[eat]
+|-heal|p1a: Arboliva|61/100|[from] item: Sitrus Berry
+|-damage|p1a: Arboliva|31/100
+|-damage|p1a: Arboliva|0 fnt
+|faint|p1a: Arboliva
+|-hitcount|p1: Arboliva|4
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Baxcalibur|99/100|[from] ability: Ice Body
+|-message|glooches forfeited.
+|
+|win|TrainerCyan1
+|l|☆glooches

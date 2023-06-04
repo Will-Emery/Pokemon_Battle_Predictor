@@ -1,0 +1,271 @@
+|poke|p1|Articuno|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Garchomp, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Magearna|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Pawmot, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|start
+|switch|p1a: Articuno|Articuno|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-ability|p1a: Articuno|Pressure
+|turn|1
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Y0Z0RA|move: Light Screen
+|move|p1a: Articuno|Ice Beam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|80/100
+|
+|turn|2
+|
+|switch|p1a: Samurai Warrior|Kingambit, F|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Y0Z0RA|Reflect
+|
+|turn|3
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Samurai Warrior|Swords Dance|p1a: Samurai Warrior
+|-boost|p1a: Samurai Warrior|atk|2
+|
+|turn|4
+|
+|-terastallize|p1a: Samurai Warrior|Flying
+|move|p2a: Great Tusk|Knock Off|p1a: Samurai Warrior
+|-damage|p1a: Samurai Warrior|82/100
+|-enditem|p1a: Samurai Warrior|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Samurai Warrior|Swords Dance|p1a: Samurai Warrior
+|-boost|p1a: Samurai Warrior|atk|2
+|
+|turn|5
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pawmot|Pawmot, F|100/100
+|move|p1a: Samurai Warrior|Swords Dance|p1a: Samurai Warrior
+|-boost|p1a: Samurai Warrior|atk|2
+|
+|turn|6
+|
+|move|p1a: Samurai Warrior|Sucker Punch|p2a: Pawmot
+|-resisted|p2a: Pawmot
+|-crit|p2a: Pawmot
+|-damage|p2a: Pawmot|0 fnt
+|faint|p2a: Pawmot
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|7
+|
+|move|p1a: Samurai Warrior|Sucker Punch|p2a: Rotom
+|-damage|p2a: Rotom|40/100
+|move|p2a: Rotom|Volt Switch|p1a: Samurai Warrior
+|-supereffective|p1a: Samurai Warrior
+|-damage|p1a: Samurai Warrior|33/100
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] Volt Switch
+|
+|turn|8
+|
+|-terastallize|p2a: Magearna|Fairy
+|move|p2a: Magearna|Draining Kiss|p1a: Samurai Warrior
+|-damage|p1a: Samurai Warrior|0 fnt
+|faint|p1a: Samurai Warrior
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Samurai Warrior|fallenundefined|[silent]
+|
+|-sideend|p2: Y0Z0RA|move: Light Screen
+|
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|turn|9
+|
+|move|p1a: Articuno|Ice Beam|p2a: Magearna
+|-damage|p2a: Magearna|41/100
+|-status|p2a: Magearna|frz
+|cant|p2a: Magearna|frz
+|
+|-sideend|p2: Y0Z0RA|Reflect
+|turn|10
+|
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p1a: Articuno|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|68/100
+|
+|turn|11
+|
+|switch|p1a: Poison Duck|Toxapex, F|100/100
+|move|p2a: Slowking|Future Sight|p1a: Poison Duck
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|12
+|
+|move|p1a: Poison Duck|Pounce|p2a: Slowking
+|-damage|p2a: Slowking|56/100
+|-unboost|p2a: Slowking|spe|1
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|80/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|13
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Y0Z0RA|Reflect
+|move|p1a: Poison Duck|Poison Jab|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|46/100
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Poison Duck|move: Future Sight
+|-supereffective|p1a: Poison Duck
+|-damage|p1a: Poison Duck|53/100
+|turn|14
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Y0Z0RA|move: Light Screen
+|move|p1a: Poison Duck|Poison Jab|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|7/100
+|-status|p2a: Grimmsnarl|psn
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Grimmsnarl|0 fnt|[from] psn
+|faint|p2a: Grimmsnarl
+|
+|switch|p2a: Magearna|Magearna, tera:Fairy|41/100 frz
+|turn|15
+|
+|cant|p2a: Magearna|frz
+|move|p1a: Poison Duck|Poison Jab|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|16
+|
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|move|p2a: Great Tusk|Knock Off|p1a: Articuno
+|-damage|p1a: Articuno|79/100
+|-enditem|p1a: Articuno|Choice Specs|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|none
+|turn|17
+|
+|move|p1a: Articuno|Ice Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|55/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Articuno
+|-sidestart|p1: Felckon|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|61/100|[from] item: Leftovers
+|turn|18
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|90/100
+|move|p1a: Articuno|Hurricane|p2a: Slowking
+|-damage|p2a: Slowking|76/100
+|
+|turn|19
+|
+|switch|p1a: Ground Taco|Great Tusk|100/100
+|-damage|p1a: Ground Taco|97/100|[from] Stealth Rock
+|move|p2a: Slowking|Future Sight|p1a: Ground Taco
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Ground Taco|100/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Ground Taco|Rapid Spin|p2a: Slowking
+|-damage|p2a: Slowking|69/100
+|-boost|p1a: Ground Taco|spe|1
+|-sideend|p1: Felckon|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Ground Taco
+|move|p2a: Slowking|Sludge Bomb|p1a: Ground Taco
+|-resisted|p1a: Ground Taco
+|-damage|p1a: Ground Taco|83/100
+|
+|-heal|p1a: Ground Taco|89/100|[from] item: Leftovers
+|-sideend|p2: Y0Z0RA|Reflect
+|turn|21
+|
+|-end|p1a: Ground Taco|Protosynthesis|[silent]
+|switch|p1a: Poison Duck|Toxapex, F|86/100
+|switch|p2a: Rotom|Rotom-Wash|40/100
+|
+|-end|p1a: Poison Duck|move: Future Sight
+|-supereffective|p1a: Poison Duck
+|-damage|p1a: Poison Duck|34/100
+|-heal|p2a: Rotom|46/100|[from] item: Leftovers
+|-sideend|p2: Y0Z0RA|move: Light Screen
+|turn|22
+|
+|switch|p1a: Parkchomp|Garchomp, M|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Parkchomp
+|-damage|p1a: Parkchomp|54/100
+|
+|-heal|p2a: Rotom|52/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p2a: Great Tusk|Great Tusk|61/100
+|move|p1a: Parkchomp|Outrage|p2a: Great Tusk
+|-damage|p2a: Great Tusk|27/100
+|
+|-heal|p2a: Great Tusk|33/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Parkchomp|Outrage|p2a: Great Tusk|[from]lockedmove
+|-damage|p2a: Great Tusk|2/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Parkchomp
+|-sidestart|p1: Felckon|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|8/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Parkchomp|Outrage|p2a: Great Tusk|[from]lockedmove
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-start|p1a: Parkchomp|confusion|[fatigue]
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|52/100
+|turn|26
+|
+|-activate|p1a: Parkchomp|confusion
+|move|p1a: Parkchomp|Outrage|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
+|turn|27
+|
+|-activate|p1a: Parkchomp|confusion
+|move|p1a: Parkchomp|Outrage|p2a: Slowking|[from]lockedmove
+|-damage|p2a: Slowking|27/100
+|move|p2a: Slowking|Future Sight|p1a: Parkchomp
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|28
+|
+|-end|p1a: Parkchomp|confusion
+|move|p1a: Parkchomp|Outrage|p2a: Slowking|[from]lockedmove
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-start|p1a: Parkchomp|confusion|[fatigue]
+|
+|win|Felckon
+|l|☆Y0Z0RA

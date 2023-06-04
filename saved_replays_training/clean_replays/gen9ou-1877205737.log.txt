@@ -1,0 +1,141 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Great Tusk|
+|poke|p1|Sneasler, M|
+|poke|p1|Magearna|
+|poke|p1|Enamorus, F|
+|poke|p2|Amoonguss, F|
+|poke|p2|Heatran, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Volcanion|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Gabe Vincent|Arcanine-Hisui, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|turn|1
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Gabe Vincent|Flare Blitz|p2a: Great Tusk
+|-damage|p2a: Great Tusk|40/100
+|-status|p2a: Great Tusk|brn
+|
+|-heal|p2a: Great Tusk|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|40/100 brn|[from] brn
+|turn|2
+|
+|switch|p1a: Bam Adebayo|Great Tusk|100/100
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, F|100/100
+|
+|turn|3
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Bam Adebayo|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|71/100
+|
+|turn|4
+|
+|-end|p1a: Bam Adebayo|Protosynthesis|[silent]
+|switch|p1a: Caleb Martin|Azumarill, F|100/100
+|move|p2a: Amoonguss|Spore|p1a: Caleb Martin
+|-status|p1a: Caleb Martin|slp|[from] move: Spore
+|
+|turn|5
+|
+|switch|p1a: Gabe Vincent|Arcanine-Hisui, M|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|
+|turn|6
+|
+|-terastallize|p2a: Volcanion|Ground
+|move|p1a: Gabe Vincent|Head Smash|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|47/100
+|move|p2a: Volcanion|Earth Power|p1a: Gabe Vincent
+|-supereffective|p1a: Gabe Vincent
+|-damage|p1a: Gabe Vincent|0 fnt
+|faint|p1a: Gabe Vincent
+|
+|-heal|p2a: Volcanion|53/100|[from] item: Leftovers
+|
+|switch|p1a: Erik Spoelstra|Enamorus, F|100/100
+|turn|7
+|
+|move|p1a: Erik Spoelstra|Moonblast|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|turn|8
+|
+|switch|p1a: Jimmy Butler|Magearna|100/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Jimmy Butler
+|-immune|p1a: Jimmy Butler
+|
+|turn|9
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Jimmy Butler|Shift Gear|p1a: Jimmy Butler
+|-boost|p1a: Jimmy Butler|spe|2
+|-boost|p1a: Jimmy Butler|atk|1
+|
+|turn|10
+|
+|switch|p1a: Bam Adebayo|Great Tusk|100/100
+|move|p2a: Heatran|Taunt|p1a: Bam Adebayo
+|-start|p1a: Bam Adebayo|move: Taunt
+|
+|turn|11
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Bam Adebayo|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|24/100
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Bam Adebayo
+|
+|turn|12
+|
+|-end|p1a: Bam Adebayo|Protosynthesis|[silent]
+|switch|p1a: Jimmy Butler|Magearna|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Jimmy Butler
+|-status|p1a: Jimmy Butler|brn
+|
+|-damage|p1a: Jimmy Butler|94/100 brn|[from] brn
+|turn|13
+|
+|move|p2a: Dragapult|U-turn|p1a: Jimmy Butler
+|-resisted|p1a: Jimmy Butler
+|-damage|p1a: Jimmy Butler|91/100 brn
+|
+|switch|p2a: Heatran|Heatran, F|100/100|[from] U-turn
+|move|p1a: Jimmy Butler|Shift Gear|p1a: Jimmy Butler
+|-boost|p1a: Jimmy Butler|spe|2
+|-boost|p1a: Jimmy Butler|atk|1
+|
+|-heal|p1a: Jimmy Butler|97/100 brn|[from] item: Leftovers
+|-damage|p1a: Jimmy Butler|91/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Jimmy Butler|Calm Mind|p1a: Jimmy Butler
+|-boost|p1a: Jimmy Butler|spa|1
+|-boost|p1a: Jimmy Butler|spd|1
+|move|p2a: Heatran|Will-O-Wisp|p1a: Jimmy Butler
+|-fail|p1a: Jimmy Butler|brn
+|
+|-heal|p1a: Jimmy Butler|97/100 brn|[from] item: Leftovers
+|-damage|p1a: Jimmy Butler|91/100 brn|[from] brn
+|turn|15
+|
+|switch|p1a: Bam Adebayo|Great Tusk|100/100
+|move|p2a: Heatran|Taunt|p1a: Bam Adebayo
+|-start|p1a: Bam Adebayo|move: Taunt
+|
+|turn|16
+|-message|AAAAAAAAA8 forfeited.
+|
+|win|davis test
+|l|☆AAAAAAAAA8

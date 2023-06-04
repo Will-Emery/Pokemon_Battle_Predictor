@@ -1,0 +1,295 @@
+|poke|p1|Toxapex, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Brute Bonnet|
+|poke|p1|Dragapult, M|
+|poke|p1|Quaquaval, M|
+|poke|p2|Pyroar, F|
+|poke|p2|Walking Wake|
+|poke|p2|Espeon, F|
+|poke|p2|Whiscash, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Ditto|
+|teampreview
+|
+|start
+|switch|p1a: Brittney|Toxapex, F|100/100
+|switch|p2a: Firestar|Pyroar, F|100/100
+|-ability|p2a: Firestar|Unnerve
+|turn|1
+|
+|move|p2a: Firestar|Sunny Day|p2a: Firestar
+|-weather|SunnyDay
+|move|p1a: Brittney|Toxic Spikes|p2a: Firestar
+|-sidestart|p2: v3la-nova|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p2a: Firestar|Flamethrower|p1a: Brittney
+|-resisted|p1a: Brittney
+|-damage|p1a: Brittney|82/100
+|move|p1a: Brittney|Toxic Spikes|p2a: Firestar
+|-sidestart|p2: v3la-nova|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brittney|88/100|[from] item: Black Sludge
+|turn|3
+|
+|switch|p2a: Gumball|Walking Wake|100/100
+|-status|p2a: Gumball|tox
+|-activate|p2a: Gumball|ability: Protosynthesis
+|-start|p2a: Gumball|protosynthesisspa
+|move|p1a: Brittney|Surf|p2a: Gumball
+|-resisted|p2a: Gumball
+|-damage|p2a: Gumball|97/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Brittney|94/100|[from] item: Black Sludge
+|-damage|p2a: Gumball|91/100 tox|[from] psn
+|turn|4
+|
+|switch|p1a: Herobrine|Garganacl, F|100/100
+|move|p2a: Gumball|Hydro Steam|p1a: Herobrine
+|-supereffective|p1a: Herobrine
+|-damage|p1a: Herobrine|0 fnt
+|faint|p1a: Herobrine
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Gumball|79/100 tox|[from] psn
+|
+|switch|p1a: Lockheed SR-71|Dragapult, M|100/100
+|turn|5
+|
+|move|p1a: Lockheed SR-71|U-turn|p2a: Gumball
+|-damage|p2a: Gumball|57/100 tox
+|
+|switch|p1a: Rambo|Brute Bonnet|100/100|[from] U-turn
+|-activate|p1a: Rambo|ability: Protosynthesis
+|-start|p1a: Rambo|protosynthesisatk
+|move|p2a: Gumball|Hydro Steam|p1a: Rambo
+|-resisted|p1a: Rambo
+|-damage|p1a: Rambo|62/100
+|
+|-weather|none
+|-end|p2a: Gumball|Protosynthesis
+|-end|p1a: Rambo|Protosynthesis
+|-damage|p2a: Gumball|38/100 tox|[from] psn
+|-enditem|p2a: Gumball|Booster Energy
+|-activate|p2a: Gumball|ability: Protosynthesis|[fromitem]
+|-start|p2a: Gumball|protosynthesisspa
+|turn|6
+|
+|-end|p2a: Gumball|Protosynthesis|[silent]
+|switch|p2a: Firestar|Pyroar, F|100/100
+|-ability|p2a: Firestar|Unnerve
+|move|p1a: Rambo|Bullet Seed|p2a: Firestar
+|-resisted|p2a: Firestar
+|-damage|p2a: Firestar|91/100
+|-resisted|p2a: Firestar
+|-damage|p2a: Firestar|83/100
+|-resisted|p2a: Firestar
+|-damage|p2a: Firestar|74/100
+|-resisted|p2a: Firestar
+|-damage|p2a: Firestar|65/100
+|-hitcount|p2a: Firestar|4
+|
+|turn|7
+|
+|move|p2a: Firestar|Flamethrower|p1a: Rambo
+|-supereffective|p1a: Rambo
+|-damage|p1a: Rambo|0 fnt
+|faint|p1a: Rambo
+|-end|p1a: Rambo|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Cuban Pete|Quaquaval, M|100/100
+|turn|8
+|
+|move|p2a: Firestar|Flamethrower|p1a: Cuban Pete
+|-resisted|p1a: Cuban Pete
+|-damage|p1a: Cuban Pete|80/100
+|move|p1a: Cuban Pete|Aqua Step|p2a: Firestar
+|-supereffective|p2a: Firestar
+|-damage|p2a: Firestar|0 fnt
+|-boost|p1a: Cuban Pete|spe|1
+|faint|p2a: Firestar
+|-ability|p1a: Cuban Pete|Moxie|boost
+|-boost|p1a: Cuban Pete|atk|1
+|
+|-heal|p1a: Cuban Pete|86/100|[from] item: Leftovers
+|
+|switch|p2a: Gumball|Walking Wake|38/100 tox
+|turn|9
+|
+|move|p1a: Cuban Pete|Close Combat|p2a: Gumball
+|-damage|p2a: Gumball|0 fnt
+|-unboost|p1a: Cuban Pete|def|1
+|-unboost|p1a: Cuban Pete|spd|1
+|faint|p2a: Gumball
+|-end|p2a: Gumball|Protosynthesis|[silent]
+|-ability|p1a: Cuban Pete|Moxie|boost
+|-boost|p1a: Cuban Pete|atk|1
+|
+|-heal|p1a: Cuban Pete|92/100|[from] item: Leftovers
+|
+|switch|p2a: Chesire|Espeon, F|100/100
+|-status|p2a: Chesire|tox
+|turn|10
+|
+|move|p1a: Cuban Pete|Aqua Step|p2a: Chesire
+|-damage|p2a: Chesire|0 fnt
+|-boost|p1a: Cuban Pete|spe|1
+|faint|p2a: Chesire
+|-ability|p1a: Cuban Pete|Moxie|boost
+|-boost|p1a: Cuban Pete|atk|1
+|
+|-heal|p1a: Cuban Pete|98/100|[from] item: Leftovers
+|
+|switch|p2a: Big|Ditto|100/100
+|-status|p2a: Big|tox
+|-transform|p2a: Big|p1a: Cuban Pete|[from] ability: Imposter
+|turn|11
+|
+|move|p2a: Big|Aqua Step|p1a: Cuban Pete
+|-resisted|p1a: Cuban Pete
+|-damage|p1a: Cuban Pete|0 fnt
+|-boost|p2a: Big|spe|1
+|faint|p1a: Cuban Pete
+|-ability|p2a: Big|Moxie|boost
+|-boost|p2a: Big|atk|1
+|-damage|p2a: Big|91/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Big|85/100 tox|[from] psn
+|
+|switch|p1a: Brittney|Toxapex, F|100/100
+|turn|12
+|
+|-terastallize|p2a: Big|Steel
+|move|p2a: Big|Aqua Step|p1a: Brittney
+|-resisted|p1a: Brittney
+|-damage|p1a: Brittney|51/100
+|-boost|p2a: Big|spe|1
+|-damage|p2a: Big|75/100 tox|[from] item: Life Orb
+|move|p1a: Brittney|Haze|p1a: Brittney
+|-clearallboost
+|
+|-heal|p1a: Brittney|58/100|[from] item: Black Sludge
+|-damage|p2a: Big|63/100 tox|[from] psn
+|turn|13
+|
+|move|p2a: Big|Aqua Step|p1a: Brittney
+|-resisted|p1a: Brittney
+|-damage|p1a: Brittney|41/100
+|-boost|p2a: Big|spe|1
+|-damage|p2a: Big|53/100 tox|[from] item: Life Orb
+|move|p1a: Brittney|Surf|p2a: Big
+|-damage|p2a: Big|24/100 tox
+|
+|-heal|p1a: Brittney|47/100|[from] item: Black Sludge
+|-damage|p2a: Big|6/100 tox|[from] psn
+|turn|14
+|
+|move|p2a: Big|Roost|p2a: Big
+|-heal|p2a: Big|56/100 tox
+|move|p1a: Brittney|Recover|p1a: Brittney
+|-heal|p1a: Brittney|97/100
+|
+|-heal|p1a: Brittney|100/100|[from] item: Black Sludge
+|-damage|p2a: Big|32/100 tox|[from] psn
+|turn|15
+|
+|move|p2a: Big|Roost|p2a: Big
+|-heal|p2a: Big|82/100 tox
+|move|p1a: Brittney|Surf|p2a: Big
+|-damage|p2a: Big|54/100 tox
+|
+|-damage|p2a: Big|24/100 tox|[from] psn
+|turn|16
+|
+|move|p2a: Big|Close Combat|p1a: Brittney
+|-resisted|p1a: Brittney
+|-damage|p1a: Brittney|76/100
+|-unboost|p2a: Big|def|1
+|-unboost|p2a: Big|spd|1
+|-damage|p2a: Big|15/100 tox|[from] item: Life Orb
+|move|p1a: Brittney|Surf|p2a: Big
+|-damage|p2a: Big|0 fnt
+|faint|p2a: Big
+|
+|-heal|p1a: Brittney|82/100|[from] item: Black Sludge
+|
+|switch|p2a: Mercat|Whiscash, F|100/100
+|-status|p2a: Mercat|tox
+|turn|17
+|
+|move|p2a: Mercat|Stealth Rock|p1a: Brittney
+|-sidestart|p1: Abyssaljaguar|move: Stealth Rock
+|move|p1a: Brittney|Surf|p2a: Mercat
+|-damage|p2a: Mercat|81/100 tox
+|
+|-heal|p1a: Brittney|88/100|[from] item: Black Sludge
+|-damage|p2a: Mercat|75/100 tox|[from] psn
+|turn|18
+|
+|move|p2a: Mercat|Stone Edge|p1a: Brittney
+|-crit|p1a: Brittney
+|-damage|p1a: Brittney|64/100
+|move|p1a: Brittney|Surf|p2a: Mercat
+|-damage|p2a: Mercat|57/100 tox
+|
+|-heal|p1a: Brittney|71/100|[from] item: Black Sludge
+|-damage|p2a: Mercat|44/100 tox|[from] psn
+|turn|19
+|
+|move|p2a: Mercat|Stone Edge|p1a: Brittney|[miss]
+|-miss|p2a: Mercat|p1a: Brittney
+|move|p1a: Brittney|Surf|p2a: Mercat
+|-damage|p2a: Mercat|23/100 tox
+|
+|-heal|p1a: Brittney|77/100|[from] item: Black Sludge
+|-damage|p2a: Mercat|5/100 tox|[from] psn
+|turn|20
+|
+|move|p2a: Mercat|Earthquake|p1a: Brittney
+|-supereffective|p1a: Brittney
+|-damage|p1a: Brittney|22/100
+|move|p1a: Brittney|Recover|p1a: Brittney
+|-heal|p1a: Brittney|72/100
+|
+|-heal|p1a: Brittney|78/100|[from] item: Black Sludge
+|-damage|p2a: Mercat|0 fnt|[from] psn
+|faint|p2a: Mercat
+|
+|switch|p2a: Puss in Boots|Meowscarada, M|100/100
+|-status|p2a: Puss in Boots|tox
+|turn|21
+|
+|-terastallize|p1a: Brittney|Fairy
+|move|p2a: Puss in Boots|Knock Off|p1a: Brittney
+|-start|p2a: Puss in Boots|typechange|Dark|[from] ability: Protean
+|-resisted|p1a: Brittney
+|-damage|p1a: Brittney|64/100
+|-enditem|p1a: Brittney|Black Sludge|[from] move: Knock Off|[of] p2a: Puss in Boots
+|move|p1a: Brittney|Surf|p2a: Puss in Boots
+|-damage|p2a: Puss in Boots|70/100 tox
+|
+|-damage|p2a: Puss in Boots|64/100 tox|[from] psn
+|turn|22
+|
+|switch|p1a: Pelle|Cinderace, F|100/100
+|move|p2a: Puss in Boots|Play Rough|p1a: Pelle
+|-resisted|p1a: Pelle
+|-damage|p1a: Pelle|81/100
+|
+|-damage|p2a: Puss in Boots|52/100 tox|[from] psn
+|turn|23
+|
+|move|p2a: Puss in Boots|Knock Off|p1a: Pelle
+|-damage|p1a: Pelle|20/100
+|-enditem|p1a: Pelle|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Puss in Boots
+|move|p1a: Pelle|Pyro Ball|p2a: Puss in Boots
+|-damage|p2a: Puss in Boots|0 fnt
+|faint|p2a: Puss in Boots
+|
+|win|Abyssaljaguar

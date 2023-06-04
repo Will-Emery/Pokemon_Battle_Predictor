@@ -1,0 +1,279 @@
+|poke|p1|Dragapult, M|
+|poke|p1|Magearna|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Volcarona, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Magearna|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Great Tusk|
+|poke|p2|Basculegion-F, F|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|j| spidercookie
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: Winterchillz|move: Light Screen
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|turn|2
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: Winterchillz|Reflect
+|
+|turn|3
+|j| Paradox N
+|l| Paradox N
+|
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-unboost|p2a: Hoopa|def|1
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|4
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Magearna|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|73/100
+|
+|turn|5
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|75/100
+|-unboost|p1a: Magearna|spa|1
+|-enditem|p1a: Magearna|Weakness Policy
+|-boost|p1a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Magearna|spa|2|[from] item: Weakness Policy
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-fieldend|move: Trick Room
+|turn|6
+|
+|move|p1a: Magearna|Stored Power|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|34/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|turn|7
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|52/100
+|-unboost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|7/100
+|-heal|p1a: Magearna|74/100|[from] drain|[of] p2a: Hatterene
+|
+|turn|8
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|49/100
+|-unboost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-sideend|p1: Winterchillz|move: Light Screen
+|turn|9
+|
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-sideend|p1: Winterchillz|Reflect
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|10
+|
+|-terastallize|p2a: Hoopa|Dark
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Hoopa|def|1
+|faint|p1a: Magearna
+|
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|11
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|turn|12
+|
+|move|p1a: Zamazenta|Crunch|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|51/100
+|move|p2a: Basculegion|Hydro Pump|p1a: Zamazenta
+|-damage|p1a: Zamazenta|19/100
+|
+|turn|13
+|
+|move|p1a: Zamazenta|Crunch|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|3/100
+|move|p2a: Basculegion|Hydro Pump|p1a: Zamazenta|[miss]
+|-miss|p2a: Basculegion|p1a: Zamazenta
+|
+|turn|14
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Zamazenta|Crunch|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|80/100
+|
+|turn|15
+|
+|move|p1a: Zamazenta|Heavy Slam|p2a: Cresselia
+|-damage|p2a: Cresselia|56/100
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|turn|16
+|
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Zamazenta|Body Press|p2: Cresselia|[notarget]
+|-fail|p1a: Zamazenta
+|
+|
+|switch|p2a: Basculegion|Basculegion-F, F|3/100
+|-heal|p2a: Basculegion|100/100|[from] move: Healing Wish
+|-heal|p2a: Basculegion|100/100|[from] move: Lunar Dance
+|turn|17
+|
+|move|p2a: Basculegion|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|18
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Great Tusk
+|-damage|p2a: Great Tusk|71/100
+|
+|turn|19
+|
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Volcarona
+|-damage|p1a: Volcarona|58/100
+|-enditem|p1a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-fieldend|move: Trick Room
+|turn|20
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Great Tusk|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|21
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|turn|22
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|23
+|
+|move|p1a: Lilligant|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|19/100
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|24
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Magearna|Fleur Cannon|p1a: Kingambit
+|-damage|p1a: Kingambit|41/100
+|-unboost|p2a: Magearna|spa|2
+|-enditem|p2a: Magearna|Eject Pack
+|
+|switch|p2a: Hoopa|Hoopa-Unbound, tera:Dark|100/100
+|
+|-heal|p1a: Kingambit|47/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Kingambit|Iron Head|p2a: Hoopa
+|-damage|p2a: Hoopa|5/100
+|move|p2a: Hoopa|Drain Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: Hoopa|31/100|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|26
+|
+|move|p2a: Hoopa|Drain Punch|p1a: Lilligant
+|-damage|p1a: Lilligant|26/100
+|-heal|p2a: Hoopa|60/100|[from] drain|[of] p1a: Lilligant
+|move|p1a: Lilligant|Leaf Blade|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|
+|switch|p2a: Magearna|Magearna|19/100
+|turn|27
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-crit|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Lilligant
+|
+|win|False Swipeing点老师
+|l|‽Winterchillz

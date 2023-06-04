@@ -1,0 +1,290 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Ursaluna, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Chien-Pao|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Magearna|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Baxcalibur, F|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cresselia|atk|1
+|turn|1
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Cresselia
+|-sidestart|p2: slingus|move: Stealth Rock
+|move|p2a: Cresselia|Reflect|p2a: Cresselia
+|-sidestart|p2: slingus|Reflect
+|
+|turn|2
+|
+|move|p1a: Landorus|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|57/100
+|
+|switch|p1a: Shield Boi|Zamazenta|100/100|[from] U-turn
+|-ability|p1a: Shield Boi|Dauntless Shield|boost
+|-boost|p1a: Shield Boi|def|1
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|turn|3
+|
+|switch|p1a: Masaru|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p1a: BEAR|Ursaluna, M|100/100
+|-terastallize|p2a: Enamorus|Water
+|move|p2a: Enamorus|Substitute|p2a: Enamorus
+|-start|p2a: Enamorus|Substitute
+|-damage|p2a: Enamorus|51/100
+|
+|-heal|p2a: Enamorus|57/100|[from] item: Leftovers
+|-status|p1a: BEAR|brn|[from] item: Flame Orb
+|turn|5
+|
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|move|p1a: BEAR|Facade|p2a: Enamorus
+|-end|p2a: Enamorus|Substitute
+|
+|-heal|p2a: Enamorus|63/100|[from] item: Leftovers
+|-damage|p1a: BEAR|94/100 brn|[from] brn
+|turn|6
+|
+|move|p2a: Enamorus|Draining Kiss|p1a: BEAR
+|-damage|p1a: BEAR|64/100 brn
+|-heal|p2a: Enamorus|94/100|[from] drain|[of] p1a: BEAR
+|move|p1a: BEAR|Facade|p2a: Enamorus
+|-damage|p2a: Enamorus|49/100
+|
+|-heal|p2a: Enamorus|55/100|[from] item: Leftovers
+|-damage|p1a: BEAR|58/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|7
+|
+|move|p1a: BEAR|Facade|p2a: Enamorus
+|-damage|p2a: Enamorus|11/100
+|move|p2a: Enamorus|Draining Kiss|p1a: BEAR
+|-damage|p1a: BEAR|28/100 brn
+|-heal|p2a: Enamorus|43/100|[from] drain|[of] p1a: BEAR
+|
+|-heal|p2a: Enamorus|49/100|[from] item: Leftovers
+|-damage|p1a: BEAR|22/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: BEAR|Facade|p2a: Enamorus
+|-damage|p2a: Enamorus|3/100
+|move|p2a: Enamorus|Draining Kiss|p1a: BEAR
+|-damage|p1a: BEAR|0 fnt
+|-heal|p2a: Enamorus|25/100|[from] drain|[of] p1a: BEAR
+|faint|p1a: BEAR
+|
+|-heal|p2a: Enamorus|31/100|[from] item: Leftovers
+|-sideend|p2: slingus|Reflect
+|
+|switch|p1a: Not Eleki.|Thundurus-Therian, M|100/100
+|turn|9
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Not Eleki.|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|69/100
+|
+|turn|10
+|
+|move|p1a: Not Eleki.|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|11
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Baxcalibur|Baxcalibur, F|100/100|[from] Chilly Reception
+|-damage|p2a: Baxcalibur|76/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|45/100
+|
+|-weather|Snow|[upkeep]
+|turn|12
+|
+|move|p2a: Baxcalibur|Glaive Rush|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+|faint|p1a: Landorus
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Deffo Ubers|Chien-Pao|100/100
+|-ability|p1a: Deffo Ubers|Sword of Ruin
+|turn|13
+|
+|move|p1a: Deffo Ubers|Sucker Punch|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F, tera:Water|31/100
+|-heal|p2a: Enamorus|100/100|[from] move: Lunar Dance
+|-damage|p2a: Enamorus|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Masaru|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Enamorus|Draining Kiss|p1a: Masaru
+|-supereffective|p1a: Masaru
+|-damage|p1a: Masaru|37/100
+|-heal|p2a: Enamorus|100/100|[from] drain|[of] p1a: Masaru
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|turn|15
+|
+|move|p1a: Masaru|Close Combat|p2a: Enamorus
+|-damage|p2a: Enamorus|55/100
+|-unboost|p1a: Masaru|def|1
+|-unboost|p1a: Masaru|spd|1
+|move|p2a: Enamorus|Draining Kiss|p1a: Masaru
+|-supereffective|p1a: Masaru
+|-damage|p1a: Masaru|0 fnt
+|-heal|p2a: Enamorus|82/100|[from] drain|[of] p1a: Masaru
+|faint|p1a: Masaru
+|
+|-weather|none
+|-heal|p2a: Enamorus|89/100|[from] item: Leftovers
+|
+|switch|p1a: Not Eleki.|Thundurus-Therian, M|100/100
+|turn|16
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|move|p1a: Not Eleki.|Thunderbolt|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|17
+|
+|switch|p2a: Slowking|Slowking-Galar, F|78/100
+|move|p1a: Not Eleki.|Grass Knot|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|68/100
+|
+|turn|18
+|
+|move|p1a: Not Eleki.|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|44/100
+|
+|switch|p1a: Shield Boi|Zamazenta|100/100|[from] Volt Switch
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|19
+|
+|move|p2a: Slowking|Psychic|p1a: Shield Boi
+|-supereffective|p1a: Shield Boi
+|-damage|p1a: Shield Boi|32/100
+|move|p1a: Shield Boi|Iron Defense|p1a: Shield Boi
+|-boost|p1a: Shield Boi|def|2
+|
+|-heal|p1a: Shield Boi|38/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Slowking|Flamethrower|p1a: Shield Boi
+|-damage|p1a: Shield Boi|16/100
+|move|p1a: Shield Boi|Crunch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-heal|p1a: Shield Boi|23/100|[from] item: Leftovers
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F, tera:Water|89/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Enamorus|Draining Kiss|p1a: Shield Boi
+|-supereffective|p1a: Shield Boi
+|-damage|p1a: Shield Boi|0 fnt
+|-heal|p2a: Enamorus|92/100|[from] drain|[of] p1a: Shield Boi
+|faint|p1a: Shield Boi
+|
+|-heal|p2a: Enamorus|98/100|[from] item: Leftovers
+|
+|switch|p1a: Not Eleki.|Thundurus-Therian, M|100/100
+|turn|22
+|
+|move|p2a: Enamorus|Mystical Fire|p1a: Not Eleki.
+|-damage|p1a: Not Eleki.|68/100
+|-unboost|p1a: Not Eleki.|spa|1
+|move|p1a: Not Eleki.|Thunderbolt|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|38/100
+|
+|-heal|p2a: Enamorus|44/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|23
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|move|p1a: Not Eleki.|Volt Switch|p2a: Magearna
+|-damage|p2a: Magearna|71/100
+|
+|switch|p1a: Deffo Ubers|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p1a: Deffo Ubers|Sword of Ruin
+|
+|turn|24
+|
+|move|p1a: Deffo Ubers|Sacred Sword|p2a: Magearna
+|-damage|p2a: Magearna|40/100
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|25
+|
+|move|p1a: Deffo Ubers|Sucker Punch|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|15/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Deffo Ubers
+|-supereffective|p1a: Deffo Ubers
+|-damage|p1a: Deffo Ubers|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|-enditem|p2a: Magearna|Eject Pack
+|faint|p1a: Deffo Ubers
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|switch|p2a: Ursaluna|Ursaluna, F|94/100 brn
+|-damage|p2a: Ursaluna|88/100 brn|[from] Stealth Rock
+|
+|-damage|p2a: Ursaluna|82/100 brn|[from] brn
+|
+|switch|p1a: Not Eleki.|Thundurus-Therian, M|68/100
+|turn|26
+|
+|move|p2a: Ursaluna|Facade|p1a: Not Eleki.
+|-damage|p1a: Not Eleki.|0 fnt
+|faint|p1a: Not Eleki.
+|
+|win|slingus

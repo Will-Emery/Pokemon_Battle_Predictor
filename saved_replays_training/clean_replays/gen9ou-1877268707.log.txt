@@ -1,0 +1,251 @@
+|poke|p1|Pincurchin, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Toxapex, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Leaves|
+|poke|p1|Iron Moth|
+|poke|p2|Ursaluna, F|
+|poke|p2|Magearna|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Glastrier|
+|teampreview
+|
+|start
+|switch|p1a: Pincurchin|Pincurchin, M, shiny|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|switch|p1a: Iron Leaves|Iron Leaves|100/100
+|-activate|p1a: Iron Leaves|ability: Quark Drive
+|-start|p1a: Iron Leaves|quarkdrivespe
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|2
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Glastrier|Glastrier|100/100|[from] Chilly Reception
+|move|p1a: Iron Leaves|Psyblade|p2a: Glastrier
+|-crit|p2a: Glastrier
+|-damage|p2a: Glastrier|38/100
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|l|☆shineskopes
+|player|p1|
+|j|☆shineskopes
+|player|p1|shineskopes|swimmer
+|
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: Glastrier|Icicle Crash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|-damage|p2a: Glastrier|29/100|[from] item: Life Orb
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Toxapex|81/100|[from] item: Black Sludge
+|turn|4
+|
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|14/100
+|-damage|p2a: Glastrier|19/100|[from] item: Life Orb
+|move|p1a: Toxapex|Toxic|p2a: Glastrier
+|-status|p2a: Glastrier|tox
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Toxapex|21/100|[from] item: Black Sludge
+|-damage|p2a: Glastrier|12/100 tox|[from] psn
+|turn|5
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Toxapex|27/100|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|turn|6
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|none
+|-heal|p1a: Toxapex|33/100|[from] item: Black Sludge
+|turn|7
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Yogibear|Ursaluna, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-status|p2a: Yogibear|brn|[from] item: Flame Orb
+|turn|8
+|
+|-terastallize|p2a: Yogibear|Normal
+|move|p1a: Ting-Lu|Body Press|p2a: Yogibear
+|-supereffective|p2a: Yogibear
+|-damage|p2a: Yogibear|56/100 brn
+|move|p2a: Yogibear|Facade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|28/100
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Yogibear|49/100 brn|[from] brn
+|turn|9
+|
+|move|p1a: Ting-Lu|Body Press|p2a: Yogibear
+|-supereffective|p2a: Yogibear
+|-damage|p2a: Yogibear|11/100 brn
+|move|p2a: Yogibear|Facade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Yogibear|4/100 brn|[from] brn
+|
+|switch|p1a: Pincurchin|Pincurchin, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|10
+|
+|move|p1a: Pincurchin|Sucker Punch|p2a: Yogibear
+|-damage|p2a: Yogibear|0 fnt
+|faint|p2a: Yogibear
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|11
+|
+|move|p1a: Pincurchin|Memento|p2a: Magearna
+|-unboost|p2a: Magearna|atk|2
+|-unboost|p2a: Magearna|spa|2
+|-enditem|p2a: Magearna|Eject Pack
+|faint|p1a: Pincurchin
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|
+|-weather|none
+|
+|switch|p1a: Iron Leaves|Iron Leaves|100/100
+|-activate|p1a: Iron Leaves|ability: Quark Drive
+|-start|p1a: Iron Leaves|quarkdrivespe
+|turn|12
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Iron Leaves|Psyblade|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|64/100
+|
+|turn|13
+|
+|move|p1a: Iron Leaves|Psyblade|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|25/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|29/100
+|-unboost|p2a: Magearna|spa|2
+|
+|turn|14
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Iron Leaves|Psyblade|p2a: Samurott
+|-immune|p2a: Samurott
+|
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Leaves|Quark Drive
+|turn|15
+|
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|switch|p1a: Toxapex|Toxapex, F, shiny|66/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|33/100
+|-sidestart|p1: shineskopes|Spikes
+|
+|-heal|p1a: Toxapex|39/100|[from] item: Black Sludge
+|turn|16
+|
+|switch|p2a: Magearna|Magearna|25/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|89/100
+|
+|-heal|p1a: Toxapex|95/100|[from] item: Black Sludge
+|turn|17
+|
+|move|p2a: Magearna|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|59/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|move|p1a: Toxapex|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|44/100
+|
+|-heal|p2a: Great Tusk|50/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|65/100|[from] item: Black Sludge
+|turn|18
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: shineskopes|move: Stealth Rock
+|move|p1a: Toxapex|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Toxapex|72/100|[from] item: Black Sludge
+|
+|switch|p2a: Glastrier|Glastrier|12/100 tox
+|turn|19
+|
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|-damage|p2a: Glastrier|2/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Toxapex|49/100|[from] item: Black Sludge
+|-damage|p2a: Glastrier|0 fnt|[from] psn
+|faint|p2a: Glastrier
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|20
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Samurott|Knock Off|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Samurott|psn
+|
+|-heal|p1a: Toxapex|55/100|[from] item: Black Sludge
+|-damage|p2a: Samurott|88/100 psn|[from] psn
+|turn|21
+|
+|move|p2a: Samurott|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|22/100
+|-enditem|p1a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p2a: Samurott
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|72/100
+|
+|-damage|p2a: Samurott|76/100 psn|[from] psn
+|turn|22
+|-message|CaptainVice forfeited.
+|
+|win|shineskopes
+|l|☆CaptainVice

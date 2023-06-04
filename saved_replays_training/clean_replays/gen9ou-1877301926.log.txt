@@ -1,0 +1,136 @@
+|poke|p1|Haunter, F|
+|poke|p1|Gholdengo|
+|poke|p1|Meowscarada, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Hariyama, F|
+|teampreview
+|j|*Lady Monita
+|
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Hariyama|Hariyama, F|100/100
+|turn|1
+|j| DIMU179
+|
+|move|p1a: Gholdengo|Tera Blast|p2a: Hariyama
+|-damage|p2a: Hariyama|57/100
+|move|p2a: Hariyama|Headlong Rush|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Hariyama|def|1
+|-unboost|p2a: Hariyama|spd|1
+|faint|p1a: Gholdengo
+|
+|-status|p2a: Hariyama|brn|[from] item: Flame Orb
+|
+|switch|p1a: Haunter|Haunter, F|100/100
+|turn|2
+|
+|move|p2a: Hariyama|Bullet Punch|p1a: Haunter
+|-damage|p1a: Haunter|57/100
+|move|p1a: Haunter|Hex|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|3
+|
+|move|p1a: Haunter|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Haunter|Hex|p2a: Corviknight
+|-damage|p2a: Corviknight|48/100 brn
+|move|p2a: Corviknight|Brave Bird|p1a: Haunter
+|-damage|p1a: Haunter|4/100
+|-damage|p2a: Corviknight|38/100 brn|[from] Recoil
+|
+|-heal|p2a: Corviknight|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|38/100 brn|[from] brn
+|turn|5
+|j| Leafeontc
+|
+|move|p1a: Haunter|Hex|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|6
+|
+|move|p1a: Haunter|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|move|p2a: Toxapex|Liquidation|p1a: Haunter
+|-crit|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|7
+|
+|-terastallize|p2a: Toxapex|Poison
+|move|p1a: Meowscarada|Knock Off|p2a: Toxapex
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Toxapex|62/100 brn
+|-enditem|p2a: Toxapex|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|-damage|p1a: Meowscarada|91/100|[from] item: Life Orb
+|move|p2a: Toxapex|Toxic|p1a: Meowscarada
+|-status|p1a: Meowscarada|tox
+|
+|-damage|p1a: Meowscarada|84/100 tox|[from] psn
+|-damage|p2a: Toxapex|55/100 brn|[from] brn
+|turn|8
+|
+|-terastallize|p1a: Meowscarada|Grass
+|move|p1a: Meowscarada|Flower Trick|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100 brn
+|-damage|p1a: Meowscarada|75/100 tox|[from] item: Life Orb
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|85/100 brn
+|
+|-damage|p1a: Meowscarada|62/100 tox|[from] psn
+|-damage|p2a: Toxapex|79/100 brn|[from] brn
+|turn|9
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Meowscarada|Knock Off|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Meowscarada|44/100 tox|[from] psn
+|-damage|p2a: Toxapex|73/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100 brn
+|-damage|p1a: Meowscarada|34/100 tox|[from] item: Life Orb
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100 brn
+|
+|-damage|p1a: Meowscarada|9/100 tox|[from] psn
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|turn|11
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100 brn
+|-damage|p1a: Meowscarada|0 fnt|[from] item: Life Orb
+|faint|p1a: Meowscarada
+|
+|win|Icey Warzone
+|n|☆tert_14|tert14
+|n|☆Icey Warzone|iceywarzone
+|n|*Lady Monita|ladymonita
+|n| DIMU179|dimu179
+|n| Leafeontc|leafeontc

@@ -1,0 +1,245 @@
+|j|☆BlobfishNugget21
+|j|☆G-Recike
+|t:|1685821295
+|gametype|singles
+|player|p1|BlobfishNugget21|palmer|1415
+|player|p2|G-Recike|colress|1454
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Overqwil, M|
+|poke|p1|Great Tusk|
+|poke|p1|Slowking, F|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos|
+|poke|p2|Pelipper, M|
+|poke|p2|Ditto|
+|poke|p2|Breloom, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Overqwil, F|
+|teampreview
+|
+|t:|1685821311
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Gholdengo|[from] ability: Imposter
+|-item|p1a: Gholdengo|Air Balloon
+|turn|1
+|
+|t:|1685821322
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|-ability|p1a: Overqwil|Intimidate|boost
+|-unboost|p2a: Ditto|atk|1
+|move|p2a: Ditto|Shadow Ball|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|78/100
+|
+|-heal|p1a: Overqwil|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685821331
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Overqwil|Spikes|p2a: Pelipper
+|-sidestart|p2: G-Recike|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Overqwil|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685821339
+|move|p1a: Overqwil|Taunt|p2a: Pelipper
+|-start|p2a: Pelipper|move: Taunt
+|move|p2a: Pelipper|U-turn|p1a: Overqwil
+|-damage|p1a: Overqwil|83/100
+|
+|t:|1685821344
+|switch|p2a: Ditto|Ditto|100/100|[from] U-turn
+|-damage|p2a: Ditto|88/100|[from] Spikes
+|-transform|p2a: Ditto|p1a: Overqwil|[from] ability: Imposter
+|-ability|p2a: Ditto|Intimidate|boost
+|-unboost|p1a: Overqwil|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Overqwil|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685821353
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Ditto|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685821361
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|78/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685821370
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Slowking
+|-damage|p1a: Slowking|80/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685821375
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|63/100
+|
+|t:|1685821377
+|switch|p2a: Overqwil|Overqwil, F|100/100|[from] U-turn
+|-damage|p2a: Overqwil|88/100|[from] Spikes
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|t:|1685821386
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Overqwil|94/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1685821393
+|switch|p2a: Pelipper|Pelipper, M|78/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Great Tusk|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: G-Recike|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1685821400
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking, F|96/100
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|78/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BlobfishNugget21)
+|
+|t:|1685821454
+|switch|p2a: Breloom|Breloom, M|100/100|[from] U-turn
+|-damage|p2a: Breloom|88/100|[from] Spikes
+|-damage|p2a: Breloom|82/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1685821462
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1685821472
+|move|p2a: Breloom|Spore|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Spore
+|cant|p1a: Zapdos|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1685821479
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|-curestatus|p1a: Zapdos|slp|[msg]
+|move|p1a: Zapdos|Heat Wave|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|15/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1685821486
+|move|p2a: Breloom|Spore|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Spore
+|cant|p1a: Zapdos|slp
+|
+|upkeep
+|turn|14
+|
+|t:|1685821490
+|move|p2a: Breloom|Bullet Seed|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|72/100 slp
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|42/100 slp
+|-hitcount|p1a: Zapdos|2
+|cant|p1a: Zapdos|slp
+|
+|upkeep
+|turn|15
+|
+|t:|1685821497
+|move|p2a: Breloom|Bullet Seed|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|12/100 slp
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|2
+|
+|upkeep
+|
+|t:|1685821503
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|16
+|
+|t:|1685821506
+|move|p1a: Gholdengo|Shadow Ball|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|t:|1685821509
+|switch|p2a: Ditto|Ditto|88/100
+|-damage|p2a: Ditto|76/100|[from] Spikes
+|-damage|p2a: Ditto|63/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Gholdengo|[from] ability: Imposter
+|turn|17
+|-message|G-Recike forfeited.
+|
+|win|BlobfishNugget21
+|raw|BlobfishNugget21's rating: 1415 → 1437(+22 for winning)
+|raw|G-Recike's rating: 1454 → 1432(-22 for losing)
+|l|☆G-Recike

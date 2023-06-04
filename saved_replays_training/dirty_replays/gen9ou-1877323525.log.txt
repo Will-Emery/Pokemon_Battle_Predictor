@@ -1,0 +1,255 @@
+|j|☆asterdmiguelito
+|j|☆distracktorkill
+|t:|1685843105
+|gametype|singles
+|player|p1|asterdmiguelito|hilbert|
+|player|p2|distracktorkill|avery|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Walking Wake|
+|poke|p1|Kleavor, F|
+|poke|p1|Garganacl, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Walking Wake|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by asterdmiguelito)
+|
+|t:|1685843117
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|t:|1685843141
+|move|p1a: Kleavor|Stone Axe|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-sidestart|p2: distracktorkill|move: Stealth Rock
+|faint|p2a: Kleavor
+|
+|upkeep
+|
+|t:|1685843156
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|-damage|p2a: Meowscarada|88/100|[from] Stealth Rock
+|turn|2
+|
+|t:|1685843169
+|move|p1a: Kleavor|Stone Axe|p2a: Meowscarada
+|-damage|p2a: Meowscarada|4/100
+|move|p2a: Meowscarada|U-turn|p1a: Kleavor
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Kleavor|38/100
+|
+|t:|1685843188
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100|[from] U-turn
+|-damage|p2a: Arcanine|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1685843193
+|move|p2a: Arcanine|Flare Blitz|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|upkeep
+|
+|t:|1685843210
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|turn|4
+|
+|t:|1685843226
+|switch|p2a: Meowscarada|Meowscarada, M|4/100
+|-damage|p2a: Meowscarada|0 fnt|[from] Stealth Rock
+|faint|p2a: Meowscarada
+|-terastallize|p1a: Garganacl|Ghost
+|move|p1a: Garganacl|Salt Cure|p2: Meowscarada|[notarget]
+|-fail|p1a: Garganacl
+|
+|upkeep
+|
+|t:|1685843245
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|5
+|
+|t:|1685843256
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|move|p2a: Torkoal|Lava Plume|p1a: Garganacl
+|-damage|p1a: Garganacl|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Garganacl|69/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685843258
+|move|p1a: Garganacl|Salt Cure|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|52/100
+|-start|p2a: Torkoal|Salt Cure
+|move|p2a: Torkoal|Lava Plume|p1a: Garganacl
+|-damage|p1a: Garganacl|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Garganacl|41/100|[from] item: Leftovers
+|-damage|p2a: Torkoal|40/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1685843265
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|91/100
+|move|p2a: Torkoal|Lava Plume|p1a: Garganacl
+|-damage|p1a: Garganacl|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Garganacl|58/100|[from] item: Leftovers
+|-damage|p2a: Torkoal|28/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1685843278
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Torkoal|Clear Smog|p1a: Walking Wake
+|-damage|p1a: Walking Wake|83/100
+|-clearboost|p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|16/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1685843286
+|move|p1a: Walking Wake|Hydro Steam|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-damage|p1a: Walking Wake|73/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685843290
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Stealth Rock
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|10
+|inactive|asterdmiguelito has 270 seconds left.
+|
+|t:|1685843340
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Substitute|p2a: Walking Wake
+|-start|p2a: Walking Wake|Substitute
+|-damage|p2a: Walking Wake|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Walking Wake|70/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685843348
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Walking Wake
+|-activate|p2a: Walking Wake|move: Substitute|[damage]
+|move|p2a: Walking Wake|Hydro Steam|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Walking Wake|76/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685843357
+|switch|p1a: Garganacl|Garganacl, M, tera:Ghost|58/100
+|turn|12
+|
+|t:|1685843363
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|-heal|p2a: Walking Wake|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685843366
+|switch|p1a: Garganacl|Garganacl, M, tera:Ghost|58/100
+|turn|13
+|
+|t:|1685843369
+|move|p2a: Walking Wake|Hydro Steam|p1a: Garganacl
+|-damage|p1a: Garganacl|15/100
+|move|p1a: Garganacl|Salt Cure|p2a: Walking Wake
+|-end|p2a: Walking Wake|Substitute
+|
+|-heal|p2a: Walking Wake|88/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|22/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685843373
+|move|p2a: Walking Wake|Hydro Steam|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-heal|p2a: Walking Wake|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685843376
+|switch|p1a: Walking Wake|Walking Wake|73/100
+|turn|15
+|
+|t:|1685843381
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-heal|p2a: Walking Wake|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685843389
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p2a: Walking Wake|Leftovers|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|turn|16
+|
+|t:|1685843397
+|move|p1a: Typhlosion|Shadow Ball|p2a: Walking Wake
+|-damage|p2a: Walking Wake|53/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|win|distracktorkill
+|l|☆asterdmiguelito

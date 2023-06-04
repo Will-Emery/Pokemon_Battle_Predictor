@@ -1,0 +1,389 @@
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, M|
+|poke|p1|Iron Moth|
+|poke|p1|Corviknight, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Garganacl, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Volcarona, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Meowscarada|Knock Off|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Meowscarada|Knock Off|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|49/100
+|-damage|p2a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-enditem|p1a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p2a: Meowscarada
+|
+|turn|3
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|99/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Dondozo|Wave Crash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|82/100
+|-damage|p2a: Dondozo|97/100|[from] Recoil
+|
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|71/100
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100|[from] Volt Switch
+|
+|turn|6
+|
+|move|p2a: Dragapult|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|86/100
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|move|p1a: Garganacl|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: ctannn|move: Stealth Rock
+|
+|-heal|p1a: Garganacl|92/100|[from] item: Leftovers
+|turn|7
+|j| Team GoGarchompers
+|
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|94/100
+|-start|p2a: Garganacl|Salt Cure
+|
+|-heal|p1a: Garganacl|98/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|88/100|[from] Salt Cure
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|97/100
+|-start|p1a: Great Tusk|Salt Cure
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|88/100|[from] Salt Cure
+|-damage|p2a: Garganacl|82/100|[from] Salt Cure
+|turn|9
+|
+|switch|p2a: Dondozo|Dondozo, M|97/100
+|-damage|p2a: Dondozo|84/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|67/100
+|-damage|p1a: Great Tusk|71/100|[from] item: Rocky Helmet|[of] p2a: Dondozo
+|-enditem|p2a: Dondozo|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|78/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|65/100|[from] Salt Cure
+|turn|10
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Wash|88/100
+|switch|p2a: Garganacl|Garganacl, F|82/100
+|-damage|p2a: Garganacl|70/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|95/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|76/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Rotom|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|59/100
+|
+|switch|p1a: Garganacl|Garganacl, M|98/100|[from] Volt Switch
+|move|p2a: Garganacl|Salt Cure|p1a: Garganacl
+|-damage|p1a: Garganacl|89/100
+|-start|p1a: Garganacl|Salt Cure
+|
+|-heal|p2a: Garganacl|66/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|95/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|82/100|[from] Salt Cure
+|turn|12
+|
+|move|p2a: Garganacl|Block|p1a: Garganacl
+|-activate|p1a: Garganacl|trapped
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|56/100
+|-start|p2a: Garganacl|Salt Cure
+|
+|-heal|p2a: Garganacl|62/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|89/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|50/100|[from] Salt Cure
+|-damage|p1a: Garganacl|76/100|[from] Salt Cure
+|turn|13
+|
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|44/100
+|
+|-heal|p1a: Garganacl|82/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|50/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|70/100|[from] Salt Cure
+|-damage|p2a: Garganacl|37/100|[from] Salt Cure
+|turn|14
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|31/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|81/100
+|
+|-heal|p1a: Garganacl|76/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|87/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|64/100|[from] Salt Cure
+|-damage|p2a: Garganacl|75/100|[from] Salt Cure
+|turn|15
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|69/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Garganacl|70/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|75/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|58/100|[from] Salt Cure
+|-damage|p2a: Garganacl|63/100|[from] Salt Cure
+|turn|16
+|j| Dinotea
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|58/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Garganacl|64/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|64/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|51/100|[from] Salt Cure
+|-damage|p2a: Garganacl|51/100|[from] Salt Cure
+|turn|17
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|48/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Garganacl|58/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|54/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|45/100|[from] Salt Cure
+|-damage|p2a: Garganacl|41/100|[from] Salt Cure
+|turn|18
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|38/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Garganacl|51/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|44/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|39/100|[from] Salt Cure
+|-damage|p2a: Garganacl|32/100|[from] Salt Cure
+|turn|19
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|29/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|79/100
+|
+|-heal|p1a: Garganacl|45/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|33/100|[from] Salt Cure
+|-damage|p2a: Garganacl|73/100|[from] Salt Cure
+|turn|20
+|j| ozzymas21
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|70/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Garganacl|39/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|76/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|27/100|[from] Salt Cure
+|-damage|p2a: Garganacl|64/100|[from] Salt Cure
+|turn|21
+|
+|-terastallize|p2a: Garganacl|Ghost
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|62/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: Garganacl|33/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|21/100|[from] Salt Cure
+|-damage|p2a: Garganacl|88/100|[from] Salt Cure
+|turn|22
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|86/100
+|move|p2a: Garganacl|Salt Cure|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-heal|p2a: Garganacl|92/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|79/100|[from] Salt Cure
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|23
+|l| Team GoGarchompers
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|43/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragapult
+|-damage|p1a: Dragapult|22/100
+|-start|p1a: Dragapult|Salt Cure
+|
+|-heal|p2a: Garganacl|50/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|10/100|[from] Salt Cure
+|-damage|p2a: Garganacl|37/100|[from] Salt Cure
+|turn|24
+|j| Ryuu_Usagi
+|
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Shadow Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Dragapult|0 fnt|[from] Salt Cure
+|faint|p1a: Dragapult
+|l| Ryuu_Usagi
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Dragapult|Dragapult, F|71/100
+|turn|25
+|j| Ryuu_Usagi
+|
+|move|p2a: Dragapult|U-turn|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|91/100
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Iron Moth|Psychic|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|26
+|
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Dragapult|Dragapult, F|71/100
+|move|p1a: Iron Moth|Fire Blast|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|23/100
+|
+|turn|27
+|l| Dinotea
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Corviknight|Corviknight, F|99/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragapult|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|97/100
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100|[from] U-turn
+|
+|turn|28
+|
+|switch|p1a: Iron Moth|Iron Moth|91/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|29
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Iron Moth|Fire Blast|p2a: Volcarona
+|-damage|p2a: Volcarona|74/100
+|
+|turn|30
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Iron Moth|Fire Blast|p2a: Volcarona|[miss]
+|-miss|p1a: Iron Moth|p2a: Volcarona
+|
+|turn|31
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Iron Moth|Fire Blast|p2a: Volcarona
+|-damage|p2a: Volcarona|56/100
+|
+|turn|32
+|
+|move|p2a: Volcarona|Flamethrower|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|26/100
+|move|p1a: Iron Moth|Fire Blast|p2a: Volcarona
+|-damage|p2a: Volcarona|37/100
+|
+|turn|33
+|j| HE'S A LAKER
+|
+|move|p2a: Volcarona|Flamethrower|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|l|☆Lef deppard
+|player|p1|
+|l| Ryuu_Usagi
+|-message|Lef deppard lost due to inactivity.
+|
+|win|ctannn
+|l| HE'S A LAKER

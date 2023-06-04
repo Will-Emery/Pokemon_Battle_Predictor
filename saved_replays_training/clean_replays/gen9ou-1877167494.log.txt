@@ -1,0 +1,151 @@
+|poke|p1|Great Tusk|
+|poke|p1|Baxcalibur, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Magearna|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Chien-Pao|
+|poke|p2|Meowscarada, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: #RealDragonWarrior|Chien-Pao|100/100
+|switch|p2a: Seam|Meowscarada, F, shiny|100/100
+|-ability|p1a: #RealDragonWarrior|Sword of Ruin
+|turn|1
+|
+|move|p1a: #RealDragonWarrior|Sacred Sword|p2a: Seam
+|-supereffective|p2a: Seam
+|-enditem|p2a: Seam|Focus Sash
+|-damage|p2a: Seam|1/100
+|move|p2a: Seam|Play Rough|p1a: #RealDragonWarrior
+|-start|p2a: Seam|typechange|Fairy|[from] ability: Protean
+|-supereffective|p1a: #RealDragonWarrior
+|-damage|p1a: #RealDragonWarrior|0 fnt
+|faint|p1a: #RealDragonWarrior
+|
+|
+|switch|p1a: Elite Milk|Magearna|100/100
+|turn|2
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Elite Milk|Shift Gear|p1a: Elite Milk
+|-boost|p1a: Elite Milk|spe|2
+|-boost|p1a: Elite Milk|atk|1
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p1a: Elite Milk|Calm Mind|p1a: Elite Milk
+|-boost|p1a: Elite Milk|spa|1
+|-boost|p1a: Elite Milk|spd|1
+|move|p2a: Ursaluna|Headlong Rush|p1a: Elite Milk
+|-supereffective|p1a: Elite Milk
+|-damage|p1a: Elite Milk|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Elite Milk
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p1a: Baxshots|Baxcalibur, M|100/100
+|turn|4
+|
+|switch|p2a: Friesa|Gholdengo|100/100
+|move|p1a: Baxshots|Dragon Dance|p1a: Baxshots
+|-boost|p1a: Baxshots|atk|1
+|-boost|p1a: Baxshots|spe|1
+|
+|turn|5
+|
+|move|p1a: Baxshots|Earthquake|p2a: Friesa
+|-supereffective|p2a: Friesa
+|-damage|p2a: Friesa|0 fnt
+|faint|p2a: Friesa
+|
+|
+|switch|p2a: Tablos|Kingambit, M|100/100
+|-activate|p2a: Tablos|ability: Supreme Overlord
+|-start|p2a: Tablos|fallen1|[silent]
+|turn|6
+|
+|-terastallize|p1a: Baxshots|Fairy
+|move|p2a: Tablos|Sucker Punch|p1a: Baxshots
+|-resisted|p1a: Baxshots
+|-damage|p1a: Baxshots|79/100
+|move|p1a: Baxshots|Icicle Spear|p2a: Tablos
+|-resisted|p2a: Tablos
+|-damage|p2a: Tablos|92/100
+|-resisted|p2a: Tablos
+|-damage|p2a: Tablos|84/100
+|-resisted|p2a: Tablos
+|-damage|p2a: Tablos|76/100
+|-resisted|p2a: Tablos
+|-damage|p2a: Tablos|68/100
+|-hitcount|p2a: Tablos|4
+|
+|turn|7
+|
+|move|p1a: Baxshots|Earthquake|p2a: Tablos
+|-supereffective|p2a: Tablos
+|-damage|p2a: Tablos|0 fnt
+|faint|p2a: Tablos
+|-end|p2a: Tablos|fallen1|[silent]
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|8
+|
+|-terastallize|p2a: Samurott|Water
+|move|p2a: Samurott|Aqua Cutter|p1a: Baxshots
+|-damage|p1a: Baxshots|20/100
+|move|p1a: Baxshots|Glaive Rush|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-singlemove|p1a: Baxshots|Glaive Rush|[silent]
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|9
+|
+|move|p1a: Baxshots|Icicle Spear|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|28/100
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-hitcount|p2: Enamorus|2
+|
+|
+|switch|p2a: Seam|Meowscarada, F, shiny|1/100
+|turn|10
+|
+|move|p2a: Seam|Sucker Punch|p1a: Baxshots
+|-start|p2a: Seam|typechange|Dark|[from] ability: Protean
+|-resisted|p1a: Baxshots
+|-damage|p1a: Baxshots|4/100
+|move|p1a: Baxshots|Icicle Spear|p2a: Seam
+|-damage|p2a: Seam|0 fnt
+|faint|p2a: Seam
+|-hitcount|p2: Seam|1
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, F|94/100 brn
+|turn|11
+|
+|move|p1a: Baxshots|Icicle Spear|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|60/100 brn
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|27/100 brn
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-hitcount|p2: Ursaluna|3
+|
+|win|babywaffles
+|l|☆redagus2002

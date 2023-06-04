@@ -1,0 +1,207 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Great Tusk|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Great Tusk|
+|poke|p2|Rotom-Wash|
+|poke|p2|Sylveon, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|83/100
+|-enditem|p2a: Dragonite|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|2
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|turn|3
+|
+|move|p2a: Dragonite|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|4/100
+|move|p1a: Magearna|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|10/100|[from] item: Leftovers
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|4
+|
+|move|p2a: Hydreigon|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|5
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|move|p1a: Zamazenta|Play Rough|p2a: Sylveon
+|-damage|p2a: Sylveon|61/100
+|
+|-heal|p2a: Sylveon|67/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|7
+|
+|move|p2a: Hydreigon|Flamethrower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|54/100
+|move|p1a: Zamazenta|Play Rough|p2a: Hydreigon|[miss]
+|-miss|p1a: Zamazenta|p2a: Hydreigon
+|
+|turn|8
+|
+|move|p2a: Hydreigon|Flamethrower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|4/100
+|move|p1a: Zamazenta|Play Rough|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|move|p2a: Iron Valiant|Psyshock|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|43/100
+|move|p1a: Great Tusk|Knock Off|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|93/100
+|
+|-heal|p1a: Great Tusk|50/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Iron Valiant|Psyshock|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|13/100
+|move|p1a: Great Tusk|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|29/100
+|
+|-heal|p1a: Great Tusk|20/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Iron Valiant|Psyshock|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|13
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Urshifu|91/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|14
+|
+|move|p1a: Urshifu|Trailblaze|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|42/100
+|-boost|p1a: Urshifu|spe|1
+|-enditem|p2a: Rotom|Sitrus Berry|[eat]
+|-heal|p2a: Rotom|67/100|[from] item: Sitrus Berry
+|-damage|p1a: Urshifu|81/100|[from] item: Life Orb
+|move|p2a: Rotom|Will-O-Wisp|p1a: Urshifu
+|-status|p1a: Urshifu|brn
+|
+|-damage|p1a: Urshifu|74/100 brn|[from] brn
+|turn|15
+|
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|move|p2a: Rotom|Volt Switch|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|16
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|67/100
+|turn|17
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p2a: Rotom|Thunder|p1a: Arcanine
+|-damage|p1a: Arcanine|39/100
+|-status|p1a: Arcanine|par
+|
+|turn|18
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|19
+|
+|-terastallize|p2a: Rotom|Electric
+|move|p1a: Dragapult|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Rotom
+|
+|win|santiagofakemon
+|l|☆ominem_rogi

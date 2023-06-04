@@ -1,0 +1,129 @@
+|poke|p1|Meloetta|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Glimmora, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Treads|
+|poke|p2|Skeledirge, F|
+|poke|p2|Zapdos|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F, shiny|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Samurott
+|-damage|p1a: Samurott|24/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M, shiny
+|-end|p1a: Zoroark|Illusion
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] Volt Switch
+|move|p1a: Zoroark|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|65/100
+|
+|-heal|p2a: Magearna|71/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Zoroark|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|30/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Zoroark
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|36/100|[from] item: Leftovers
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|3
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|turn|4
+|
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Iron Treads|Earthquake|p1a: Magearna
+|-damage|p1a: Magearna|64/100
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|-heal|p1a: Magearna|70/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Magearna
+|-damage|p1a: Magearna|52/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|58/100|[from] item: Leftovers
+|turn|6
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|64/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Magearna
+|-status|p1a: Magearna|brn
+|move|p1a: Magearna|Stored Power|p2a: Skeledirge
+|-damage|p2a: Skeledirge|26/100
+|
+|-heal|p2a: Skeledirge|33/100|[from] item: Leftovers
+|-heal|p1a: Magearna|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|64/100 brn|[from] brn
+|turn|8
+|
+|move|p2a: Skeledirge|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|41/100 brn
+|move|p1a: Magearna|Stored Power|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|41/100 brn|[from] brn
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|9
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Magearna
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|27/100 brn
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|15/100 brn
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|1/100 brn
+|-hitcount|p1a: Magearna|3
+|move|p1a: Magearna|Draining Kiss|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|-heal|p1a: Magearna|71/100 brn|[from] drain|[of] p2a: Urshifu
+|faint|p2a: Urshifu
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|71/100 brn|[from] brn
+|-message|Aegeldir forfeited.
+|
+|win|Envymetta_TTV
+|l|☆Aegeldir

@@ -1,0 +1,73 @@
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Mew|
+|poke|p2|Breloom, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|1
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Decidueye
+|-sidestart|p2: TRGRboltz|move: Stealth Rock
+|move|p2a: Decidueye|Leaf Blade|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|37/100
+|
+|turn|2
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Decidueye|Leaf Blade|p1a: Toxapex
+|-damage|p1a: Toxapex|64/100
+|
+|-heal|p1a: Toxapex|70/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Decidueye|Triple Arrows|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|53/100
+|move|p1a: Toxapex|Toxic|p2a: Decidueye
+|-status|p2a: Decidueye|tox
+|
+|-heal|p1a: Toxapex|60/100|[from] item: Leftovers
+|-damage|p2a: Decidueye|94/100 tox|[from] psn
+|turn|4
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|move|p1a: Toxapex|Infestation|p2a: Breloom
+|-damage|p2a: Breloom|88/100
+|-activate|p2a: Breloom|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|66/100|[from] item: Leftovers
+|-damage|p2a: Breloom|76/100|[from] move: Infestation|[partiallytrapped]
+|turn|5
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Breloom|Spore|p1a: Amoonguss
+|-immune|p1a: Amoonguss
+|
+|-end|p2a: Breloom|Infestation|[partiallytrapped]|[silent]
+|turn|6
+|
+|move|p2a: Breloom|Rock Tomb|p1a: Amoonguss|[miss]
+|-miss|p2a: Breloom|p1a: Amoonguss
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|win|erduashi
+|n|☆erduashi|erduashi
+|n|☆TRGRboltz|trgrboltz
+|l|☆TRGRboltz

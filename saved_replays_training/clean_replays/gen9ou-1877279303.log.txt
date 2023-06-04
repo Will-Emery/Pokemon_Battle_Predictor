@@ -1,0 +1,337 @@
+|poke|p1|Enamorus, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Spidops, M|
+|poke|p1|Houndstone, M|
+|poke|p1|Great Tusk|
+|poke|p2|Pawmot, M|
+|poke|p2|Abomasnow, F|
+|poke|p2|Avalugg-Hisui, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Magearna|
+|teampreview
+|j| An¤nym¤u5
+
+|
+|start
+|switch|p1a: Spidops|Spidops, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Spidops|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Stone Edge|p1a: Spidops
+|-supereffective|p1a: Spidops
+|-damage|p1a: Spidops|34/100
+|move|p1a: Spidops|Sticky Web|p2a: Landorus
+|-sidestart|p2: Green Costume|move: Sticky Web
+|
+|turn|2
+|
+|move|p2a: Landorus|Stone Edge|p1a: Spidops|[miss]
+|-miss|p2a: Landorus|p1a: Spidops
+|move|p1a: Spidops|Spikes|p2a: Landorus
+|-sidestart|p2: Green Costume|Spikes
+|
+|turn|3
+|
+|move|p2a: Landorus|Stone Edge|p1a: Spidops
+|-supereffective|p1a: Spidops
+|-damage|p1a: Spidops|0 fnt
+|faint|p1a: Spidops
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|4
+|
+|move|p2a: Landorus|Stone Edge|p1a: Great Tusk|[miss]
+|-miss|p2a: Landorus|p1a: Great Tusk
+|move|p1a: Great Tusk|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|turn|5
+|
+|move|p2a: Landorus|Stone Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|94/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|84/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-heal|p1a: Great Tusk|99/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Landorus|Stone Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|93/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|68/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-heal|p1a: Great Tusk|99/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Landorus|Stone Edge|p1a: Great Tusk|[miss]
+|-miss|p2a: Landorus|p1a: Great Tusk
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|51/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Abomasnow|Abomasnow, F, shiny|100/100
+|-activate|p2a: Abomasnow|move: Sticky Web
+|-unboost|p2a: Abomasnow|spe|1
+|-damage|p2a: Abomasnow|88/100|[from] Spikes
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Great Tusk|Rapid Spin|p2a: Abomasnow
+|-damage|p2a: Abomasnow|78/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-weather|Snow|[upkeep]
+|turn|9
+|
+|switch|p2a: Landorus|Landorus-Therian, M|51/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Knock Off|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-enditem|p2a: Landorus|Choice Scarf|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Landorus
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, M, shiny|100/100
+|-activate|p2a: Avalugg|move: Sticky Web
+|-unboost|p2a: Avalugg|spe|1
+|-damage|p2a: Avalugg|88/100|[from] Spikes
+|turn|10
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Houndstone|Houndstone, M|100/100
+|-terastallize|p2a: Avalugg|Fighting
+|move|p2a: Avalugg|Rapid Spin|p1a: Houndstone
+|-immune|p1a: Houndstone
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Avalugg|94/100|[from] ability: Ice Body
+|turn|11
+|
+|move|p1a: Houndstone|Will-O-Wisp|p2a: Avalugg
+|-status|p2a: Avalugg|brn
+|move|p2a: Avalugg|Ice Spinner|p1a: Houndstone
+|-damage|p1a: Houndstone|94/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Avalugg|99/100 brn|[from] ability: Ice Body
+|-heal|p1a: Houndstone|99/100|[from] item: Leftovers
+|-damage|p2a: Avalugg|94/100 brn|[from] brn
+|turn|12
+|
+|switch|p2a: Abomasnow|Abomasnow, F, shiny|78/100
+|-activate|p2a: Abomasnow|move: Sticky Web
+|-unboost|p2a: Abomasnow|spe|1
+|-damage|p2a: Abomasnow|65/100|[from] Spikes
+|move|p1a: Houndstone|Night Shade|p2a: Abomasnow
+|-damage|p2a: Abomasnow|37/100
+|
+|-weather|none
+|-heal|p1a: Houndstone|100/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Houndstone|Body Press|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|
+|switch|p2a: Dream Lord|Pawmot, M|100/100
+|-activate|p2a: Dream Lord|move: Sticky Web
+|-unboost|p2a: Dream Lord|spe|1
+|-damage|p2a: Dream Lord|88/100|[from] Spikes
+|turn|14
+|
+|move|p2a: Dream Lord|Revival Blessing|p2a: Dream Lord
+|
+|-heal|p2: Landorus|50/100|[from] move: Revival Blessing
+|move|p1a: Houndstone|Will-O-Wisp|p2a: Dream Lord
+|-status|p2a: Dream Lord|brn
+|
+|-damage|p2a: Dream Lord|82/100 brn|[from] brn
+|turn|15
+|
+|move|p2a: Dream Lord|Rest|p2a: Dream Lord
+|-status|p2a: Dream Lord|slp|[from] move: Rest
+|-heal|p2a: Dream Lord|100/100 slp|[silent]
+|move|p1a: Houndstone|Night Shade|p2a: Dream Lord
+|-damage|p2a: Dream Lord|65/100 slp
+|
+|turn|16
+|
+|cant|p2a: Dream Lord|slp
+|move|p2a: Dream Lord|Sleep Talk|p2a: Dream Lord
+|move|p2a: Dream Lord|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dream Lord
+|move|p1a: Houndstone|Night Shade|p2a: Dream Lord
+|-damage|p2a: Dream Lord|29/100 slp
+|
+|turn|17
+|
+|cant|p2a: Dream Lord|slp
+|move|p2a: Dream Lord|Sleep Talk|p2a: Dream Lord
+|move|p2a: Dream Lord|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dream Lord
+|move|p1a: Houndstone|Night Shade|p2a: Dream Lord
+|-damage|p2a: Dream Lord|0 fnt
+|faint|p2a: Dream Lord
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|50/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Houndstone|atk|1
+|turn|18
+|
+|move|p2a: Landorus|Earthquake|p1a: Houndstone
+|-damage|p1a: Houndstone|59/100
+|move|p1a: Houndstone|Will-O-Wisp|p2a: Landorus
+|-status|p2a: Landorus|brn
+|
+|-heal|p1a: Houndstone|65/100|[from] item: Leftovers
+|-damage|p2a: Landorus|44/100 brn|[from] brn
+|turn|19
+|
+|move|p1a: Houndstone|Protect|p1a: Houndstone
+|-singleturn|p1a: Houndstone|Protect
+|move|p2a: Landorus|Stealth Rock|p1a: Houndstone
+|-sidestart|p1: BobJonesy|move: Stealth Rock
+|
+|-heal|p1a: Houndstone|71/100|[from] item: Leftovers
+|-damage|p2a: Landorus|38/100 brn|[from] brn
+|turn|20
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|95/100
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, M, shiny, tera:Fighting|94/100 brn|[from] U-turn
+|-activate|p2a: Avalugg|move: Sticky Web
+|-unboost|p2a: Avalugg|spe|1
+|-damage|p2a: Avalugg|82/100 brn|[from] Spikes
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|-damage|p2a: Avalugg|76/100 brn|[from] brn
+|turn|21
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Avalugg
+|-damage|p2a: Avalugg|69/100 brn
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: BobJonesy|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Avalugg|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|97/100
+|-boost|p2a: Avalugg|spe|1
+|-sideend|p2: Green Costume|Spikes|[from] move: Rapid Spin|[of] p2a: Avalugg
+|-sideend|p2: Green Costume|Sticky Web|[from] move: Rapid Spin|[of] p2a: Avalugg
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|-damage|p2a: Avalugg|63/100 brn|[from] brn
+|turn|22
+|
+|switch|p2a: Landorus|Landorus-Therian, M|38/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|24/100 brn
+|
+|-damage|p2a: Landorus|18/100 brn|[from] brn
+|turn|23
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, M, shiny, tera:Fighting|63/100 brn
+|move|p1a: Great Tusk|Stealth Rock|p2a: Avalugg
+|-sidestart|p2: Green Costume|move: Stealth Rock
+|
+|-damage|p2a: Avalugg|57/100 brn|[from] brn
+|turn|24
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Avalugg
+|-resisted|p2a: Avalugg
+|-damage|p2a: Avalugg|52/100 brn
+|-enditem|p2a: Avalugg|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Avalugg|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|97/100
+|-boost|p2a: Avalugg|spe|1
+|-sideend|p2: Green Costume|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Avalugg
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|-damage|p2a: Avalugg|46/100 brn|[from] brn
+|turn|25
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Houndstone|Houndstone, M|71/100
+|switch|p2a: Landorus|Landorus-Therian, M|18/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Houndstone|atk|1
+|
+|-heal|p1a: Houndstone|77/100|[from] item: Leftovers
+|-damage|p2a: Landorus|12/100 brn|[from] brn
+|turn|26
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: BobJonesy|move: Stealth Rock
+|
+|-damage|p2a: Landorus|6/100 brn|[from] brn
+|turn|27
+|
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|97/100
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, M, shiny, tera:Fighting|46/100 brn|[from] U-turn
+|move|p1a: Great Tusk|Rapid Spin|p2a: Avalugg
+|-damage|p2a: Avalugg|40/100 brn
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: BobJonesy|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|-damage|p2a: Avalugg|34/100 brn|[from] brn
+|turn|28
+|
+|switch|p2a: Landorus|Landorus-Therian, M|6/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Green Costume|move: Stealth Rock
+|
+|-damage|p2a: Landorus|0 fnt|[from] brn
+|faint|p2a: Landorus
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|29
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p2a: Magearna|Leftovers|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Typhlosion|Eruption|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-message|Green Costume forfeited.
+|
+|win|BobJonesy
+|l|☆Green Costume

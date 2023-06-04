@@ -1,0 +1,261 @@
+|poke|p1|Glimmora, F|
+|poke|p1|Talonflame, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Scream Tail|
+|poke|p1|Rotom-Heat|
+|poke|p2|Corviknight, M|
+|poke|p2|Moltres-Galar|
+|poke|p2|Maushold|
+|poke|p2|Primeape, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Electrode-Hisui|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Honorary Prankster|Electrode-Hisui, shiny|100/100
+|turn|1
+|j| Britzler
+|j| Shammoo Shaman
+|
+|move|p1a: Glimmora|Power Gem|p2a: Honorary Prankster
+|-damage|p2a: Honorary Prankster|45/100
+|move|p2a: Honorary Prankster|Thunder Wave|p1a: Glimmora
+|-status|p1a: Glimmora|par
+|
+|turn|2
+|
+|move|p2a: Honorary Prankster|Volt Switch|p1a: Glimmora
+|-damage|p1a: Glimmora|65/100 par
+|
+|switch|p2a: Nac's Cellmate|Primeape, M, shiny|100/100|[from] Volt Switch
+|move|p1a: Glimmora|Power Gem|p2a: Nac's Cellmate
+|-resisted|p2a: Nac's Cellmate
+|-damage|p2a: Nac's Cellmate|82/100
+|
+|turn|3
+|j| EeveeKnight15
+|
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Nac's Cellmate|Bulk Up|p2a: Nac's Cellmate
+|-boost|p2a: Nac's Cellmate|atk|1
+|-boost|p2a: Nac's Cellmate|def|1
+|
+|turn|4
+|
+|move|p1a: Scream Tail|Thunder Wave|p2a: Nac's Cellmate
+|-status|p2a: Nac's Cellmate|par
+|move|p2a: Nac's Cellmate|Bulk Up|p2a: Nac's Cellmate
+|-boost|p2a: Nac's Cellmate|atk|1
+|-boost|p2a: Nac's Cellmate|def|1
+|
+|turn|5
+|
+|-terastallize|p2a: Nac's Cellmate|Poison
+|move|p1a: Scream Tail|Dazzling Gleam|p2a: Nac's Cellmate
+|-resisted|p2a: Nac's Cellmate
+|-damage|p2a: Nac's Cellmate|73/100 par
+|cant|p2a: Nac's Cellmate|par
+|
+|turn|6
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|cant|p2a: Nac's Cellmate|par
+|
+|turn|7
+|
+|move|p1a: Rotom|Overheat|p2a: Nac's Cellmate
+|-damage|p2a: Nac's Cellmate|22/100 par
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Nac's Cellmate|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|25/100
+|-heal|p2a: Nac's Cellmate|50/100 par|[from] drain|[of] p1a: Rotom
+|
+|turn|8
+|
+|move|p1a: Rotom|Overheat|p2a: Nac's Cellmate
+|-damage|p2a: Nac's Cellmate|25/100 par
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Nac's Cellmate|Rest|p2a: Nac's Cellmate
+|-status|p2a: Nac's Cellmate|slp|[from] move: Rest
+|-heal|p2a: Nac's Cellmate|100/100 slp|[silent]
+|
+|turn|9
+|
+|move|p1a: Rotom|Volt Switch|p2a: Nac's Cellmate
+|-damage|p2a: Nac's Cellmate|92/100 slp
+|
+|switch|p1a: Glimmora|Glimmora, F|65/100 par|[from] Volt Switch
+|cant|p2a: Nac's Cellmate|slp
+|
+|turn|10
+|
+|switch|p2a: Cooked Well Done|Moltres-Galar|100/100
+|move|p1a: Glimmora|Earth Power|p2a: Cooked Well Done
+|-immune|p2a: Cooked Well Done
+|
+|turn|11
+|
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Cooked Well Done|Agility|p2a: Cooked Well Done
+|-boost|p2a: Cooked Well Done|spe|2
+|
+|turn|12
+|
+|move|p2a: Cooked Well Done|Fiery Wrath|p1a: Scream Tail
+|-damage|p1a: Scream Tail|75/100
+|move|p1a: Scream Tail|Thunder Wave|p2a: Cooked Well Done
+|-status|p2a: Cooked Well Done|par
+|
+|-heal|p1a: Scream Tail|81/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Scream Tail|Dazzling Gleam|p2a: Cooked Well Done
+|-supereffective|p2a: Cooked Well Done
+|-damage|p2a: Cooked Well Done|72/100 par
+|-enditem|p2a: Cooked Well Done|Weakness Policy
+|-boost|p2a: Cooked Well Done|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Cooked Well Done|spa|2|[from] item: Weakness Policy
+|move|p2a: Cooked Well Done|Agility|p2a: Cooked Well Done
+|-boost|p2a: Cooked Well Done|spe|2
+|
+|-heal|p1a: Scream Tail|88/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|move|p2a: Cooked Well Done|Fiery Wrath|p1a: Scream Tail
+|-damage|p1a: Scream Tail|30/100
+|
+|-heal|p1a: Scream Tail|36/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Scream Tail|Dazzling Gleam|p2a: Cooked Well Done
+|-supereffective|p2a: Cooked Well Done
+|-damage|p2a: Cooked Well Done|44/100 par
+|-ability|p2a: Cooked Well Done|Berserk|boost
+|-boost|p2a: Cooked Well Done|spa|1
+|move|p2a: Cooked Well Done|Agility|p2a: Cooked Well Done
+|-boost|p2a: Cooked Well Done|spe|2
+|
+|-heal|p1a: Scream Tail|86/100|[from] move: Wish|[wisher] Scream Tail
+|-heal|p1a: Scream Tail|92/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Cooked Well Done|Fiery Wrath|p1a: Scream Tail
+|-damage|p1a: Scream Tail|31/100
+|cant|p1a: Scream Tail|flinch
+|
+|-heal|p1a: Scream Tail|38/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Cooked Well Done|Fiery Wrath|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Rotom|Rotom-Heat|25/100
+|turn|18
+|
+|move|p2a: Cooked Well Done|Fiery Wrath|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|
+|switch|p1a: Glimmora|Glimmora, F|65/100 par
+|turn|19
+|
+|move|p2a: Cooked Well Done|Fiery Wrath|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|turn|20
+|
+|move|p2a: Cooked Well Done|Fiery Wrath|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|21
+|
+|move|p2a: Cooked Well Done|Fiery Wrath|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|47/100
+|move|p1a: Kingambit|Iron Head|p2a: Cooked Well Done
+|-damage|p2a: Cooked Well Done|0 fnt
+|faint|p2a: Cooked Well Done
+|
+|
+|switch|p2a: Slay Child Support|Dragapult, F, shiny|100/100
+|turn|22
+|
+|move|p2a: Slay Child Support|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Slay Child Support
+|-supereffective|p2a: Slay Child Support
+|-damage|p2a: Slay Child Support|29/100
+|
+|-heal|p2a: Slay Child Support|35/100|[from] item: Leftovers
+|-damage|p1a: Kingambit|41/100 brn|[from] brn
+|turn|23
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Slay Child Support|Substitute|p2a: Slay Child Support
+|-start|p2a: Slay Child Support|Substitute
+|-damage|p2a: Slay Child Support|11/100
+|
+|-heal|p2a: Slay Child Support|17/100|[from] item: Leftovers
+|-damage|p1a: Kingambit|35/100 brn|[from] brn
+|turn|24
+|
+|move|p2a: Slay Child Support|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|-heal|p2a: Slay Child Support|23/100|[from] item: Leftovers
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|25
+|
+|-terastallize|p1a: Meowscarada|Ghost
+|move|p2a: Slay Child Support|Will-O-Wisp|p1a: Meowscarada
+|-status|p1a: Meowscarada|brn
+|move|p1a: Meowscarada|Knock Off|p2a: Slay Child Support
+|-supereffective|p2a: Slay Child Support
+|-end|p2a: Slay Child Support|Substitute
+|
+|-heal|p2a: Slay Child Support|29/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|94/100 brn|[from] brn
+|turn|26
+|
+|move|p2a: Slay Child Support|Substitute|p2a: Slay Child Support
+|-start|p2a: Slay Child Support|Substitute
+|-damage|p2a: Slay Child Support|4/100
+|move|p1a: Meowscarada|Knock Off|p2a: Slay Child Support
+|-supereffective|p2a: Slay Child Support
+|-end|p2a: Slay Child Support|Substitute
+|
+|-heal|p2a: Slay Child Support|10/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|88/100 brn|[from] brn
+|turn|27
+|
+|move|p2a: Slay Child Support|Hex|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|win|Laprasrules12
+|l| Shammoo Shaman
+|l| EeveeKnight15
+|l|☆halfdivine
+|l| Britzler

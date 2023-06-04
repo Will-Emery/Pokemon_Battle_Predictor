@@ -100,7 +100,9 @@ def get_additional_info(pokemon_name):
 
     #remove duplicate moves
     possible_moves = list(dict.fromkeys(possible_moves))
+    #put the moves in alphabetical order
     possible_moves.sort()
+    #put them back into a list without duplicates
     possible_moves = list(dict.fromkeys(possible_moves))
 
     return [weight, abilities, possible_moves]
@@ -212,13 +214,7 @@ def get_abilities(pokemon_name, soup):
     return[ability1, ability2, abilityHA]
 
 
-def write_to_file(text, filename):
-    """This function will write the text to the file"""
-    with open(filename, "w") as file:
-        file.write(text)
-
 if __name__ == "__main__":
     df = scrape_pokemon_data()
     df = add_additional_info(df)
     df.to_csv("pokemon.csv", index=False)
-    # get_additional_info("Iron Valiant")

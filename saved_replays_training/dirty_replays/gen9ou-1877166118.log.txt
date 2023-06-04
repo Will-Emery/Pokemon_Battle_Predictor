@@ -1,0 +1,129 @@
+|j|☆MortalFr
+|j|☆Joey.tgrd
+|t:|1685822640
+|gametype|singles
+|player|p1|MortalFr|norman|1161
+|player|p2|Joey.tgrd|170|1058
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sneasler, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Treads|
+|poke|p1|Zapdos-Galar|
+|poke|p2|Scizor, F|
+|poke|p2|Breloom, M|
+|poke|p2|Amoonguss, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragonite, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MortalFr)
+|
+|t:|1685822648
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|t:|1685822656
+|move|p1a: Iron Treads|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: MortalFr|move: Toxic Spikes
+|move|p2a: Glimmora|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: MortalFr|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685822661
+|move|p1a: Iron Treads|Rapid Spin|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-boost|p1a: Iron Treads|spe|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: MortalFr|move: Toxic Spikes
+|-sideend|p1: MortalFr|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: MortalFr|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1685822676
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|3
+|
+|t:|1685822684
+|move|p2a: Breloom|Mach Punch|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|12/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Breloom
+|-sidestart|p2: Joey.tgrd|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1685822703
+|move|p2a: Breloom|Mach Punch|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685822706
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|5
+|
+|t:|1685822719
+|move|p2a: Breloom|Mach Punch|p1a: Indeedee
+|-activate|p1a: Indeedee|move: Psychic Terrain
+|move|p1a: Indeedee|Encore|p2a: Breloom
+|-start|p2a: Breloom|Encore
+|
+|upkeep
+|turn|6
+|inactive|Joey.tgrd has 120 seconds left.
+|
+|t:|1685822750
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Indeedee|Psychic|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|54/100
+|
+|upkeep
+|turn|7
+|
+|t:|1685822758
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p2a: Scizor|Bullet Punch|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Psychic Terrain
+|
+|upkeep
+|turn|8
+|-message|Joey.tgrd forfeited.
+|
+|win|MortalFr
+|raw|MortalFr's rating: 1161 → 1179(+18 for winning)
+|raw|Joey.tgrd's rating: 1058 → 1045(-13 for losing)
+|l|☆Joey.tgrd

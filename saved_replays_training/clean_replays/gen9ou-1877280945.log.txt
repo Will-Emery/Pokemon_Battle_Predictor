@@ -1,0 +1,258 @@
+|poke|p1|Maushold|
+|poke|p1|Sneasler, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Pls Para|Zapdos|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: haha uu funny|move: Light Screen
+|move|p1a: Pls Para|Volt Switch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|90/100
+|
+|switch|p1a: Mr. Craw|Samurott-Hisui, M|100/100|[from] Volt Switch
+|
+|turn|2
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Mr. Craw
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Mr. Craw
+|move|p1a: Mr. Craw|Knock Off|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|79/100
+|-enditem|p2a: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p1a: Mr. Craw
+|
+|turn|3
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: haha uu funny|Reflect
+|move|p1a: Mr. Craw|Ceaseless Edge|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|74/100
+|-sidestart|p2: haha uu funny|Spikes
+|
+|turn|4
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|88/100|[from] Spikes
+|move|p1a: Mr. Craw|Ceaseless Edge|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|80/100
+|-sidestart|p2: haha uu funny|Spikes
+|
+|turn|5
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Mr. Craw
+|-supereffective|p1a: Mr. Craw
+|-damage|p1a: Mr. Craw|27/100
+|-unboost|p2a: Magearna|spa|2
+|move|p1a: Mr. Craw|Knock Off|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|71/100
+|-enditem|p2a: Magearna|Choice Scarf|[from] move: Knock Off|[of] p1a: Mr. Craw
+|
+|turn|6
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Mr. Craw|[miss]
+|-miss|p2a: Magearna|p1a: Mr. Craw
+|move|p1a: Mr. Craw|Ceaseless Edge|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|63/100
+|-sidestart|p2: haha uu funny|Spikes
+|
+|turn|7
+|
+|move|p2a: Magearna|Thunderbolt|p1a: Mr. Craw
+|-supereffective|p1a: Mr. Craw
+|-damage|p1a: Mr. Craw|9/100
+|move|p1a: Mr. Craw|Razor Shell|p2a: Magearna
+|-damage|p2a: Magearna|42/100
+|-unboost|p2a: Magearna|def|1
+|
+|-sideend|p2: haha uu funny|Reflect
+|turn|8
+|
+|switch|p1a: Chomper|Garchomp, M|100/100
+|move|p2a: Magearna|Thunderbolt|p1a: Chomper
+|-immune|p1a: Chomper
+|
+|-sideend|p2: haha uu funny|move: Light Screen
+|turn|9
+|
+|move|p1a: Chomper|Fire Blast|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-damage|p1a: Chomper|91/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Spikes
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|10
+|
+|switch|p1a: Mr. Craw|Samurott-Hisui, M|9/100
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Mr. Craw
+|-resisted|p1a: Mr. Craw
+|-damage|p1a: Mr. Craw|0 fnt
+|faint|p1a: Mr. Craw
+|-damage|p2a: Chien-Pao|66/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Cheap|Sneasler, M|100/100
+|turn|11
+|
+|move|p1a: Cheap|Fake Out|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|46/100
+|-status|p2a: Chien-Pao|psn|[from] ability: Poison Touch|[of] p1a: Cheap
+|cant|p2a: Chien-Pao|flinch
+|
+|-damage|p2a: Chien-Pao|34/100 psn|[from] psn
+|turn|12
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Cheap
+|-damage|p1a: Cheap|0 fnt
+|faint|p1a: Cheap
+|-damage|p2a: Chien-Pao|24/100 psn|[from] item: Life Orb
+|
+|-damage|p2a: Chien-Pao|11/100 psn|[from] psn
+|
+|switch|p1a: String Cheese|Gholdengo|100/100
+|-item|p1a: String Cheese|Air Balloon
+|turn|13
+|
+|-terastallize|p1a: String Cheese|Fairy
+|move|p2a: Chien-Pao|Crunch|p1a: String Cheese
+|-resisted|p1a: String Cheese
+|-damage|p1a: String Cheese|74/100
+|-enditem|p1a: String Cheese|Air Balloon
+|-damage|p2a: Chien-Pao|1/100 psn|[from] item: Life Orb
+|move|p1a: String Cheese|Recover|p1a: String Cheese
+|-heal|p1a: String Cheese|100/100
+|
+|-damage|p2a: Chien-Pao|0 fnt|[from] psn
+|faint|p2a: Chien-Pao
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-damage|p2a: Sneasler|76/100|[from] Spikes
+|turn|14
+|
+|move|p2a: Sneasler|Dire Claw|p1a: String Cheese
+|-supereffective|p1a: String Cheese
+|-damage|p1a: String Cheese|0 fnt
+|faint|p1a: String Cheese
+|
+|
+|switch|p1a: Chomper|Garchomp, M|91/100
+|turn|15
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Chomper
+|-resisted|p1a: Chomper
+|-damage|p1a: Chomper|60/100
+|-damage|p2a: Sneasler|63/100|[from] ability: Rough Skin|[of] p1a: Chomper
+|move|p1a: Chomper|Stealth Rock|p2a: Sneasler
+|-sidestart|p2: haha uu funny|move: Stealth Rock
+|
+|turn|16
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Chomper
+|-resisted|p1a: Chomper
+|-crit|p1a: Chomper
+|-damage|p1a: Chomper|10/100
+|-status|p1a: Chomper|par
+|-damage|p2a: Sneasler|51/100|[from] ability: Rough Skin|[of] p1a: Chomper
+|cant|p1a: Chomper|par
+|
+|turn|17
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Chomper
+|-resisted|p1a: Chomper
+|-damage|p1a: Chomper|0 fnt
+|-damage|p2a: Sneasler|39/100|[from] ability: Rough Skin|[of] p1a: Chomper
+|faint|p1a: Chomper
+|
+|
+|switch|p1a: Pls Para|Zapdos|100/100
+|turn|18
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Pls Para
+|-damage|p1a: Pls Para|50/100
+|move|p1a: Pls Para|Volt Switch|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|switch|p1a: Mice X Family|Maushold|100/100|[from] Volt Switch
+|
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|74/100
+|-damage|p2a: Grimmsnarl|49/100|[from] Spikes
+|-damage|p2a: Grimmsnarl|36/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Mice X Family|[miss]
+|-miss|p2a: Grimmsnarl|p1a: Mice X Family
+|move|p1a: Mice X Family|Encore|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|Encore
+|
+|turn|20
+|
+|switch|p1a: Pls Para|Zapdos|50/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|
+|turn|21
+|
+|move|p2a: Thundurus|Discharge|p1a: Pls Para
+|-damage|p1a: Pls Para|0 fnt
+|faint|p1a: Pls Para
+|-damage|p2a: Thundurus|66/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Mice X Family|Maushold|100/100
+|turn|22
+|
+|move|p1a: Mice X Family|Population Bomb|p2a: Thundurus
+|-damage|p2a: Thundurus|49/100
+|-damage|p2a: Thundurus|31/100
+|-damage|p2a: Thundurus|13/100
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|-hitcount|p2: Thundurus|4
+|
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|36/100
+|-damage|p2a: Grimmsnarl|11/100|[from] Spikes
+|-damage|p2a: Grimmsnarl|0 fnt|[from] Stealth Rock
+|faint|p2a: Grimmsnarl
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|-damage|p2a: Ursaluna|75/100|[from] Spikes
+|-damage|p2a: Ursaluna|69/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Mice X Family|Population Bomb|p2a: Ursaluna
+|-damage|p2a: Ursaluna|62/100
+|-damage|p2a: Ursaluna|54/100
+|-damage|p2a: Ursaluna|45/100
+|-damage|p2a: Ursaluna|37/100
+|-damage|p2a: Ursaluna|29/100
+|-damage|p2a: Ursaluna|22/100
+|-damage|p2a: Ursaluna|13/100
+|-damage|p2a: Ursaluna|5/100
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-hitcount|p2: Ursaluna|9
+|
+|win|Spirit Bomb 777

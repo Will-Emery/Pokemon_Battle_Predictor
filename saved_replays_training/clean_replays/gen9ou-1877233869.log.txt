@@ -1,0 +1,749 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Ditto|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Blissey, F|
+|poke|p1|Sylveon, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Houndstone, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Walking Wake|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|teampreview
+|j| Lonsol
+|
+|start
+|switch|p1a: Beeg Feesh|Dondozo, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Beeg Feesh|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beeg Feesh|94/100|[from] Sandstorm
+|-damage|p2a: Toxapex|87/100|[from] Sandstorm
+|-heal|p1a: Beeg Feesh|100/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|93/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Dittttttto|Ditto, shiny|100/100
+|-transform|p1a: Dittttttto|p2a: Toxapex|[from] ability: Imposter
+|move|p2a: Toxapex|Toxic|p1a: Dittttttto
+|-immune|p1a: Dittttttto
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dittttttto|94/100|[from] Sandstorm
+|-damage|p2a: Toxapex|87/100|[from] Sandstorm
+|-heal|p2a: Toxapex|93/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Left Testicle|Electrode-Hisui|100/100
+|move|p2a: Toxapex|Liquidation|p1a: Left Testicle
+|-resisted|p1a: Left Testicle
+|-damage|p1a: Left Testicle|82/100
+|-unboost|p1a: Left Testicle|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Left Testicle|76/100|[from] Sandstorm
+|-damage|p2a: Toxapex|87/100|[from] Sandstorm
+|-heal|p2a: Toxapex|93/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Left Testicle|Volt Switch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|76/100
+|-damage|p1a: Left Testicle|66/100|[from] item: Life Orb
+|
+|switch|p1a: Right testicle|Blissey, F|100/100|[from] Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Walking Wake|70/100|[from] Sandstorm
+|-damage|p1a: Right testicle|94/100|[from] Sandstorm
+|-heal|p1a: Right testicle|100/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Right testicle|Ice Beam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|94/100
+|
+|-weather|none
+|-heal|p2a: Toxapex|99/100|[from] item: Leftovers
+|turn|6
+|
+|-terastallize|p1a: Right testicle|Steel
+|move|p1a: Right testicle|Calm Mind|p1a: Right testicle
+|-boost|p1a: Right testicle|spa|1
+|-boost|p1a: Right testicle|spd|1
+|move|p2a: Toxapex|Liquidation|p1a: Right testicle
+|-damage|p1a: Right testicle|83/100
+|
+|-heal|p1a: Right testicle|89/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Right testicle|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100
+|move|p2a: Toxapex|Liquidation|p1a: Right testicle
+|-damage|p1a: Right testicle|72/100
+|
+|-heal|p1a: Right testicle|78/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|68/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Right testicle|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|91/100|[from] item: Leftovers
+|-heal|p1a: Right testicle|85/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Beeg Feesh|Dondozo, M|100/100
+|move|p2a: Tyranitar|Earthquake|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beeg Feesh|77/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|97/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|83/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Beeg Feesh|Yawn|p2a: Toxapex
+|-start|p2a: Toxapex|move: Yawn|[of] p1a: Beeg Feesh
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-damage|p1a: Beeg Feesh|77/100|[from] Sandstorm
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|83/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Actually OP|Lilligant-Hisui, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Actually OP|94/100|[from] Sandstorm
+|turn|12
+|
+|move|p1a: Actually OP|Victory Dance|p1a: Actually OP
+|-boost|p1a: Actually OP|atk|1
+|-boost|p1a: Actually OP|def|1
+|-boost|p1a: Actually OP|spe|1
+|move|p2a: Corviknight|Brave Bird|p1a: Actually OP
+|-supereffective|p1a: Actually OP
+|-damage|p1a: Actually OP|0 fnt
+|faint|p1a: Actually OP
+|-damage|p2a: Corviknight|79/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2a: Corviknight|85/100|[from] item: Leftovers
+|
+|switch|p1a: Beeg Feesh|Dondozo, M|83/100
+|turn|13
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Beeg Feesh|Curse|p1a: Beeg Feesh
+|-unboost|p1a: Beeg Feesh|spe|1
+|-boost|p1a: Beeg Feesh|atk|1
+|-boost|p1a: Beeg Feesh|def|1
+|
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|90/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Beeg Feesh|Curse|p1a: Beeg Feesh
+|-unboost|p1a: Beeg Feesh|spe|1
+|-boost|p1a: Beeg Feesh|atk|1
+|-boost|p1a: Beeg Feesh|def|1
+|
+|-heal|p1a: Beeg Feesh|96/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Right testicle|Blissey, F, tera:Steel|85/100
+|move|p2a: Toxapex|Toxic|p1a: Right testicle
+|-immune|p1a: Right testicle
+|
+|-heal|p1a: Right testicle|91/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Tyranitar|Tyranitar, F|97/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Right testicle|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|92/100|[from] item: Leftovers
+|-heal|p1a: Right testicle|97/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Beeg Feesh|Dondozo, M|96/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beeg Feesh|60/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|98/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|67/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Beeg Feesh|Yawn|p2a: Toxapex
+|-start|p2a: Toxapex|move: Yawn|[of] p1a: Beeg Feesh
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beeg Feesh|60/100|[from] Sandstorm
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-heal|p1a: Beeg Feesh|67/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Corviknight|Corviknight, M|91/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Left Testicle|Electrode-Hisui|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Left Testicle|60/100|[from] Sandstorm
+|-heal|p2a: Corviknight|97/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p2a: Walking Wake|Walking Wake|70/100
+|move|p1a: Left Testicle|Volt Switch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|42/100
+|-damage|p1a: Left Testicle|50/100|[from] item: Life Orb
+|
+|switch|p1a: 41%|Sylveon, M|100/100|[from] Volt Switch
+|
+|-weather|none
+|turn|21
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: 41%|Calm Mind|p1a: 41%
+|-boost|p1a: 41%|spa|1
+|-boost|p1a: 41%|spd|1
+|
+|turn|22
+|
+|move|p1a: 41%|Psyshock|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100
+|move|p2a: Toxapex|Toxic|p1a: 41%
+|-status|p1a: 41%|tox
+|-enditem|p1a: 41%|Lum Berry|[eat]
+|-curestatus|p1a: 41%|tox|[msg]
+|
+|-heal|p2a: Toxapex|68/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: 41%|Psyshock|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|30/100
+|move|p2a: Toxapex|Toxic|p1a: 41%
+|-status|p1a: 41%|tox
+|
+|-heal|p2a: Toxapex|37/100|[from] item: Leftovers
+|-damage|p1a: 41%|94/100 tox|[from] psn
+|turn|24
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: 41%|Moonblast|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|43/100|[from] item: Leftovers
+|-damage|p1a: 41%|82/100 tox|[from] psn
+|turn|25
+|
+|switch|p1a: Left Testicle|Electrode-Hisui|50/100
+|switch|p2a: Corviknight|Corviknight, M|97/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p2a: Tyranitar|Tyranitar, F|98/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Left Testicle|Thunder|p2a: Tyranitar|[miss]
+|-miss|p1a: Left Testicle|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Left Testicle|44/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Left Testicle|Chloroblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|89/100
+|-damage|p1a: Left Testicle|0 fnt|[from] chloroblast
+|faint|p1a: Left Testicle
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|95/100|[from] item: Leftovers
+|
+|switch|p1a: Beeg Feesh|Dondozo, M|67/100
+|turn|28
+|
+|switch|p2a: Toxapex|Toxapex, M|76/100
+|move|p1a: Beeg Feesh|Yawn|p2a: Toxapex
+|-start|p2a: Toxapex|move: Yawn|[of] p1a: Beeg Feesh
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|70/100|[from] Sandstorm
+|-damage|p1a: Beeg Feesh|60/100|[from] Sandstorm
+|-heal|p1a: Beeg Feesh|67/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|76/100|[from] item: Leftovers
+|turn|29
+|
+|switch|p2a: Corviknight|Corviknight, M|95/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Beeg Feesh|Curse|p1a: Beeg Feesh
+|-unboost|p1a: Beeg Feesh|spe|1
+|-boost|p1a: Beeg Feesh|atk|1
+|-boost|p1a: Beeg Feesh|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beeg Feesh|60/100|[from] Sandstorm
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|67/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Beeg Feesh|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|88/100
+|
+|-weather|none
+|-heal|p2a: Toxapex|95/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|73/100|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Toxapex|Toxic|p1a: Beeg Feesh
+|-status|p1a: Beeg Feesh|tox
+|move|p1a: Beeg Feesh|Yawn|p2a: Toxapex
+|-start|p2a: Toxapex|move: Yawn|[of] p1a: Beeg Feesh
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|79/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|73/100 tox|[from] psn
+|turn|32
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Right testicle|Blissey, F, tera:Steel|97/100
+|
+|-heal|p1a: Right testicle|100/100|[from] item: Leftovers
+|turn|33
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Dittttttto|Ditto, shiny|100/100
+|-transform|p1a: Dittttttto|p2a: Tyranitar|[from] ability: Imposter
+|
+|-weather|Sandstorm|[upkeep]
+|turn|34
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dittttttto|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|turn|35
+|
+|move|p1a: Dittttttto|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|turn|36
+|
+|switch|p1a: Beeg Feesh|Dondozo, M|73/100 tox
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beeg Feesh|67/100 tox|[from] Sandstorm
+|-heal|p1a: Beeg Feesh|73/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|67/100 tox|[from] psn
+|turn|37
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Beeg Feesh
+|-crit|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|41/100 tox
+|-damage|p2a: Corviknight|90/100|[from] Recoil
+|move|p1a: Beeg Feesh|Yawn|p2a: Corviknight
+|-start|p2a: Corviknight|move: Yawn|[of] p1a: Beeg Feesh
+|
+|-weather|none
+|-heal|p2a: Corviknight|96/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|48/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|35/100 tox|[from] psn
+|turn|38
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Beeg Feesh|Yawn||[still]
+|-fail|p1a: Beeg Feesh
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|41/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|23/100 tox|[from] psn
+|-end|p2a: Corviknight|move: Yawn|[silent]
+|-status|p2a: Corviknight|slp
+|turn|39
+|
+|switch|p1a: Right testicle|Blissey, F, tera:Steel|100/100
+|cant|p2a: Corviknight|slp
+|
+|turn|40
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Right testicle|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|95/100|[from] item: Leftovers
+|turn|41
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Right testicle
+|-supereffective|p1a: Right testicle
+|-damage|p1a: Right testicle|37/100
+|move|p1a: Right testicle|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|-status|p2a: Tyranitar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|90/100 frz|[from] item: Leftovers
+|-heal|p1a: Right testicle|44/100|[from] item: Leftovers
+|turn|42
+|
+|cant|p2a: Tyranitar|frz
+|move|p1a: Right testicle|Soft-Boiled|p1a: Right testicle
+|-heal|p1a: Right testicle|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|96/100 frz|[from] item: Leftovers
+|-heal|p1a: Right testicle|99/100|[from] item: Leftovers
+|turn|43
+|
+|switch|p1a: Dittttttto|Ditto, shiny|100/100
+|-transform|p1a: Dittttttto|p2a: Tyranitar|[from] ability: Imposter
+|cant|p2a: Tyranitar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100 frz|[from] item: Leftovers
+|turn|44
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100 slp
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dittttttto|Stone Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|48/100 slp
+|
+|-weather|none
+|-heal|p2a: Corviknight|55/100 slp|[from] item: Leftovers
+|turn|45
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Dittttttto|Stone Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Leftovers
+|turn|46
+|
+|move|p1a: Dittttttto|Stone Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|40/100
+|move|p2a: Toxapex|Toxic|p1a: Dittttttto
+|-status|p1a: Dittttttto|tox
+|
+|-heal|p2a: Toxapex|47/100|[from] item: Leftovers
+|-damage|p1a: Dittttttto|94/100 tox|[from] psn
+|turn|47
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Dittttttto|Stone Edge|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|53/100|[from] item: Leftovers
+|-damage|p1a: Dittttttto|82/100 tox|[from] psn
+|turn|48
+|
+|switch|p1a: 41%|Sylveon, M|82/100 tox
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: 41%|76/100 tox|[from] psn
+|turn|49
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100 frz
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: 41%|Wish|p1a: 41%
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 41%|70/100 tox|[from] Sandstorm
+|-damage|p1a: 41%|58/100 tox|[from] psn
+|turn|50
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|switch|p1a: Beeg Feesh|Dondozo, M|23/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Beeg Feesh|17/100 tox|[from] Sandstorm
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-heal|p1a: Beeg Feesh|56/100 tox|[from] move: Wish|[wisher] 41%
+|-heal|p1a: Beeg Feesh|62/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|56/100 tox|[from] psn
+|turn|51
+|j| imbleach
+|
+|move|p2a: Toxapex|Liquidation|p1a: Beeg Feesh
+|-resisted|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|51/100 tox
+|move|p1a: Beeg Feesh|Yawn|p2a: Toxapex
+|-start|p2a: Toxapex|move: Yawn|[of] p1a: Beeg Feesh
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-damage|p1a: Beeg Feesh|45/100 tox|[from] Sandstorm
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|39/100 tox|[from] psn
+|turn|52
+|
+|switch|p1a: 41%|Sylveon, M|58/100 tox
+|move|p2a: Toxapex|Liquidation|p1a: 41%
+|-damage|p1a: 41%|41/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 41%|35/100 tox|[from] Sandstorm
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-damage|p1a: 41%|29/100 tox|[from] psn
+|-end|p2a: Toxapex|move: Yawn|[silent]
+|-message|Sleep Clause Mod activated.
+|-hint|Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time
+|turn|53
+|
+|move|p1a: 41%|Wish|p1a: 41%
+|move|p2a: Toxapex|Liquidation|p1a: 41%
+|-damage|p1a: 41%|13/100 tox
+|
+|-weather|none
+|-damage|p1a: 41%|0 fnt|[from] psn
+|faint|p1a: 41%
+|j| Derpcannon
+|
+|switch|p1a: Beeg Feesh|Dondozo, M|39/100 tox
+|turn|54
+|
+|move|p1a: Beeg Feesh|Curse|p1a: Beeg Feesh
+|-unboost|p1a: Beeg Feesh|spe|1
+|-boost|p1a: Beeg Feesh|atk|1
+|-boost|p1a: Beeg Feesh|def|1
+|move|p2a: Toxapex|Liquidation|p1a: Beeg Feesh
+|-resisted|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|35/100 tox
+|
+|-heal|p1a: Beeg Feesh|74/100 tox|[from] move: Wish|[wisher] 41%
+|-heal|p1a: Beeg Feesh|81/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|74/100 tox|[from] psn
+|turn|55
+|
+|move|p2a: Toxapex|Liquidation|p1a: Beeg Feesh
+|-resisted|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|71/100 tox
+|move|p1a: Beeg Feesh|Curse|p1a: Beeg Feesh
+|-unboost|p1a: Beeg Feesh|spe|1
+|-boost|p1a: Beeg Feesh|atk|1
+|-boost|p1a: Beeg Feesh|def|1
+|
+|-heal|p1a: Beeg Feesh|77/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|65/100 tox|[from] psn
+|turn|56
+|
+|move|p2a: Toxapex|Liquidation|p1a: Beeg Feesh
+|-resisted|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|63/100 tox
+|move|p1a: Beeg Feesh|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|69/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|50/100 tox|[from] psn
+|turn|57
+|
+|move|p2a: Toxapex|Liquidation|p1a: Beeg Feesh
+|-resisted|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|48/100 tox
+|move|p1a: Beeg Feesh|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|71/100
+|
+|-heal|p2a: Toxapex|77/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|54/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|30/100 tox|[from] psn
+|turn|58
+|
+|move|p2a: Toxapex|Liquidation|p1a: Beeg Feesh
+|-resisted|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|27/100 tox
+|move|p1a: Beeg Feesh|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|
+|-heal|p2a: Toxapex|67/100|[from] item: Leftovers
+|-heal|p1a: Beeg Feesh|33/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|2/100 tox|[from] psn
+|turn|59
+|
+|switch|p1a: Right testicle|Blissey, F, tera:Steel|99/100
+|move|p2a: Toxapex|Liquidation|p1a: Right testicle
+|-damage|p1a: Right testicle|82/100
+|
+|-heal|p1a: Right testicle|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|73/100|[from] item: Leftovers
+|turn|60
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100 frz
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Right testicle|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100 frz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|95/100 frz|[from] item: Leftovers
+|-heal|p1a: Right testicle|94/100|[from] item: Leftovers
+|turn|61
+|
+|cant|p2a: Tyranitar|frz
+|move|p1a: Right testicle|Calm Mind|p1a: Right testicle
+|-boost|p1a: Right testicle|spa|1
+|-boost|p1a: Right testicle|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100 frz|[from] item: Leftovers
+|-heal|p1a: Right testicle|100/100|[from] item: Leftovers
+|turn|62
+|
+|switch|p1a: Dittttttto|Ditto, shiny|82/100 tox
+|-transform|p1a: Dittttttto|p2a: Tyranitar|[from] ability: Imposter
+|cant|p2a: Tyranitar|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dittttttto|76/100 tox|[from] psn
+|turn|63
+|
+|switch|p2a: Corviknight|Corviknight, M|55/100 slp
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dittttttto|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|61/100 slp|[from] item: Leftovers
+|-damage|p1a: Dittttttto|64/100 tox|[from] psn
+|turn|64
+|
+|switch|p1a: Beeg Feesh|Dondozo, M|2/100 tox
+|-curestatus|p2a: Corviknight|slp|[msg]
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|none
+|-heal|p1a: Beeg Feesh|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Beeg Feesh|2/100 tox|[from] psn
+|turn|65
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|0 fnt
+|faint|p1a: Beeg Feesh
+|-damage|p2a: Corviknight|99/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|
+|switch|p1a: Right testicle|Blissey, F, tera:Steel|100/100
+|turn|66
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100 frz
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Right testicle|Soft-Boiled||[still]
+|-fail|p1a: Right testicle|heal
+|
+|-weather|Sandstorm|[upkeep]
+|turn|67
+|
+|cant|p2a: Tyranitar|frz
+|move|p1a: Right testicle|Calm Mind|p1a: Right testicle
+|-boost|p1a: Right testicle|spa|1
+|-boost|p1a: Right testicle|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|turn|68
+|
+|cant|p2a: Tyranitar|frz
+|move|p1a: Right testicle|Calm Mind|p1a: Right testicle
+|-boost|p1a: Right testicle|spa|1
+|-boost|p1a: Right testicle|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|turn|69
+|
+|-curestatus|p2a: Tyranitar|frz|[msg]
+|move|p2a: Tyranitar|Earthquake|p1a: Right testicle
+|-supereffective|p1a: Right testicle
+|-damage|p1a: Right testicle|28/100
+|move|p1a: Right testicle|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|84/100|[from] item: Leftovers
+|-heal|p1a: Right testicle|34/100|[from] item: Leftovers
+|turn|70
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Right testicle
+|-supereffective|p1a: Right testicle
+|-damage|p1a: Right testicle|0 fnt
+|faint|p1a: Right testicle
+|
+|-weather|none
+|-heal|p2a: Tyranitar|90/100|[from] item: Leftovers
+|
+|switch|p1a: Dittttttto|Ditto, shiny|64/100 tox
+|-transform|p1a: Dittttttto|p2a: Tyranitar|[from] ability: Imposter
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Dittttttto
+|turn|71
+|
+|move|p1a: Dittttttto|Stone Edge|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|9/100
+|move|p2a: Tyranitar|Earthquake|p1a: Dittttttto
+|-supereffective|p1a: Dittttttto
+|-damage|p1a: Dittttttto|0 fnt
+|faint|p1a: Dittttttto
+|
+|win|DeltaDracorex
+|l| imbleach
+|l|☆John Kentucky

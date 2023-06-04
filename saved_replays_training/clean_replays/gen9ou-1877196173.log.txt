@@ -1,0 +1,287 @@
+|poke|p1|Zapdos|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Magearna|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Iron Treads|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Mrs.Hat|Hatterene, F|100/100
+|turn|1
+|
+|move|p1a: Zapdos|Heat Wave|p2a: Mrs.Hat
+|-damage|p2a: Mrs.Hat|72/100
+|-enditem|p2a: Mrs.Hat|Eject Button
+|
+|switch|p2a: Enamorus Men|Enamorus, F|100/100
+|
+|turn|2
+|
+|-terastallize|p2a: Enamorus Men|Fairy
+|move|p2a: Enamorus Men|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|8/100
+|move|p1a: Zapdos|Volt Switch|p2a: Enamorus Men
+|-damage|p2a: Enamorus Men|53/100
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from] Volt Switch
+|
+|turn|3
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|57/100
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|35/100
+|-hitcount|p2a: Slowking|3
+|
+|turn|4
+|
+|switch|p2a: Muhammad Ali|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Muhammad Ali
+|-resisted|p2a: Muhammad Ali
+|-crit|p2a: Muhammad Ali
+|-damage|p2a: Muhammad Ali|92/100
+|-resisted|p2a: Muhammad Ali
+|-crit|p2a: Muhammad Ali
+|-damage|p2a: Muhammad Ali|82/100
+|-resisted|p2a: Muhammad Ali
+|-crit|p2a: Muhammad Ali
+|-damage|p2a: Muhammad Ali|73/100
+|-hitcount|p2a: Muhammad Ali|3
+|
+|turn|5
+|
+|switch|p1a: Zapdos|Zapdos|8/100
+|move|p2a: Muhammad Ali|Close Combat|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-unboost|p2a: Muhammad Ali|def|1
+|-unboost|p2a: Muhammad Ali|spd|1
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|6
+|
+|move|p2a: Muhammad Ali|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|36/100
+|-unboost|p2a: Muhammad Ali|def|1
+|-unboost|p2a: Muhammad Ali|spd|1
+|move|p1a: Magearna|Spikes|p2a: Muhammad Ali
+|-sidestart|p2: Dinotea|Spikes
+|
+|turn|7
+|
+|switch|p2a: Mrs.Hat|Hatterene, F|72/100
+|-damage|p2a: Mrs.Hat|60/100|[from] Spikes
+|move|p1a: Magearna|Spikes|p2a: Mrs.Hat
+|move|p2a: Mrs.Hat|Spikes|p1a: Magearna|[from]ability: Magic Bounce
+|-sidestart|p1: PLAYB0I R0BBIE B|Spikes
+|
+|turn|8
+|
+|move|p1a: Magearna|Volt Switch|p2a: Mrs.Hat
+|-damage|p2a: Mrs.Hat|38/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|-damage|p1a: Great Tusk|88/100|[from] Spikes
+|move|p2a: Mrs.Hat|Nuzzle|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|turn|9
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Mrs.Hat
+|-damage|p2a: Mrs.Hat|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Mrs.Hat
+|
+|
+|switch|p2a: ZamaGwappa|Zamazenta|100/100
+|-damage|p2a: ZamaGwappa|88/100|[from] Spikes
+|-ability|p2a: ZamaGwappa|Dauntless Shield|boost
+|-boost|p2a: ZamaGwappa|def|1
+|turn|10
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: ZamaGwappa
+|-damage|p2a: ZamaGwappa|78/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: PLAYB0I R0BBIE B|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: ZamaGwappa|Ice Fang|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|25/100
+|
+|turn|11
+|
+|switch|p2a: Slowking|Slowking-Galar, F|68/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Slowking
+|-sidestart|p2: Dinotea|move: Stealth Rock
+|
+|turn|12
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Muhammad Ali|Urshifu-Rapid-Strike, F|73/100
+|-damage|p2a: Muhammad Ali|60/100|[from] Spikes
+|-damage|p2a: Muhammad Ali|54/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Muhammad Ali|Aqua Jet|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|14
+|
+|move|p2a: Muhammad Ali|Aqua Jet|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|61/100
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Muhammad Ali
+|-damage|p2a: Muhammad Ali|0 fnt
+|faint|p2a: Muhammad Ali
+|
+|
+|switch|p2a: ZamaGwappa|Zamazenta|78/100
+|-damage|p2a: ZamaGwappa|66/100|[from] Spikes
+|-damage|p2a: ZamaGwappa|60/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Magearna|Magearna|36/100
+|move|p2a: ZamaGwappa|Crunch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|24/100
+|
+|turn|16
+|
+|switch|p2a: Fairy Abuser|Iron Treads|100/100
+|-damage|p2a: Fairy Abuser|88/100|[from] Spikes
+|-damage|p2a: Fairy Abuser|85/100|[from] Stealth Rock
+|move|p1a: Magearna|Fleur Cannon|p2a: Fairy Abuser
+|-resisted|p2a: Fairy Abuser
+|-damage|p2a: Fairy Abuser|45/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p2a: Fairy Abuser|52/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Fairy Abuser|Knock Off|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|15/100
+|-enditem|p1a: Magearna|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Fairy Abuser
+|move|p1a: Magearna|Spikes|p2a: Fairy Abuser
+|-sidestart|p2: Dinotea|Spikes
+|
+|-heal|p2a: Fairy Abuser|58/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Fairy Abuser|Rapid Spin|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|10/100
+|-boost|p2a: Fairy Abuser|spe|1
+|-sideend|p2: Dinotea|Spikes|[from] move: Rapid Spin|[of] p2a: Fairy Abuser
+|-sideend|p2: Dinotea|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Fairy Abuser
+|move|p1a: Magearna|Fleur Cannon|p2a: Fairy Abuser|[miss]
+|-miss|p1a: Magearna|p2a: Fairy Abuser
+|
+|-heal|p2a: Fairy Abuser|64/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Fairy Abuser|Rapid Spin|p1a: Urshifu
+|-damage|p1a: Urshifu|89/100
+|-boost|p2a: Fairy Abuser|spe|1
+|
+|-heal|p2a: Fairy Abuser|70/100|[from] item: Leftovers
+|turn|20
+|
+|-terastallize|p1a: Urshifu|Water
+|move|p2a: Fairy Abuser|Knock Off|p1a: Urshifu
+|-damage|p1a: Urshifu|63/100
+|-enditem|p1a: Urshifu|Choice Scarf|[from] move: Knock Off|[of] p2a: Fairy Abuser
+|move|p1a: Urshifu|Surging Strikes|p2a: Fairy Abuser
+|-supereffective|p2a: Fairy Abuser
+|-crit|p2a: Fairy Abuser
+|-damage|p2a: Fairy Abuser|28/100
+|-supereffective|p2a: Fairy Abuser
+|-crit|p2a: Fairy Abuser
+|-damage|p2a: Fairy Abuser|0 fnt
+|faint|p2a: Fairy Abuser
+|-end|p2a: Fairy Abuser|Quark Drive|[silent]
+|-hitcount|p2: Fairy Abuser|2
+|
+|
+|switch|p2a: Enamorus Men|Enamorus, F, tera:Fairy|53/100
+|turn|21
+|
+|move|p2a: Enamorus Men|Moonblast|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|61/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|22
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Enamorus Men
+|-resisted|p2a: Enamorus Men
+|-damage|p2a: Enamorus Men|0 fnt
+|faint|p2a: Enamorus Men
+|
+|
+|switch|p2a: ZamaGwappa|Zamazenta|60/100
+|turn|23
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: ZamaGwappa|Ice Fang|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|5/100
+|
+|-heal|p1a: Dragapult|11/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: ZamaGwappa
+|-status|p2a: ZamaGwappa|brn
+|move|p2a: ZamaGwappa|Ice Fang|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: ZamaGwappa|54/100 brn|[from] brn
+|
+|switch|p1a: Magearna|Magearna|10/100
+|turn|25
+|
+|move|p2a: ZamaGwappa|Ice Fang|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|4/100
+|move|p1a: Magearna|Fleur Cannon|p2a: ZamaGwappa
+|-supereffective|p2a: ZamaGwappa
+|-damage|p2a: ZamaGwappa|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: ZamaGwappa
+|
+|win|PLAYB0I R0BBIE B
+|l|☆Dinotea

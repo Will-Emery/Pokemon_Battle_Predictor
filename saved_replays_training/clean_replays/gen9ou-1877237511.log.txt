@@ -1,0 +1,100 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Magearna|
+|poke|p1|Kingambit, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Magearna|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Dunkin|Hoopa-Unbound|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dunkin|atk|1
+|-enditem|p1a: Dunkin|Eject Pack
+|
+|switch|p1a: Iron Maiden|Magearna|100/100
+|turn|1
+|
+|move|p2a: Landorus|Substitute|p2a: Landorus
+|-start|p2a: Landorus|Substitute
+|-damage|p2a: Landorus|76/100
+|move|p1a: Iron Maiden|Trick Room|p1a: Iron Maiden
+|-fieldstart|move: Trick Room|[of] p1a: Iron Maiden
+|
+|-heal|p2a: Landorus|82/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Iron Maiden|Fleur Cannon|p2a: Landorus
+|-end|p2a: Landorus|Substitute
+|-unboost|p1a: Iron Maiden|spa|2
+|-enditem|p1a: Iron Maiden|Eject Pack
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|
+|-heal|p2a: Landorus|88/100|[from] item: Leftovers
+|turn|3
+|
+|-terastallize|p2a: Landorus|Flying
+|move|p1a: Basculegion|Wave Crash|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-damage|p1a: Basculegion|76/100|[from] Recoil
+|-damage|p1a: Basculegion|66/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|4
+|
+|move|p1a: Basculegion|Psychic Fangs|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|20/100
+|-damage|p1a: Basculegion|56/100|[from] item: Life Orb
+|move|p2a: Urshifu|Trailblaze|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|11/100
+|-boost|p2a: Urshifu|spe|1
+|
+|turn|5
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Basculegion|Aqua Jet|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|46/100
+|-damage|p1a: Basculegion|1/100|[from] item: Life Orb
+|
+|-heal|p2a: Iron Treads|53/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|6
+|
+|move|p1a: Basculegion|Aqua Jet|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Basculegion|0 fnt|[from] item: Life Orb
+|faint|p1a: Basculegion
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|switch|p1a: Iron Maiden|Magearna|100/100
+|turn|7
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Iron Maiden
+|-supereffective|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|0 fnt
+|faint|p1a: Iron Maiden
+|
+|-message|Direhands forfeited.
+|
+|win|Owany
+|l|☆Direhands

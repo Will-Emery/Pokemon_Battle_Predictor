@@ -1,0 +1,164 @@
+|poke|p1|Armarouge, F|
+|poke|p1|Baxcalibur, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Iron Valiant|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Zoroark-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Maushold|Maushold-Four|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|1
+|
+|-terastallize|p1a: Maushold|Normal
+|move|p1a: Maushold|Population Bomb|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|95/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Noob 719371|move: Toxic Spikes
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|89/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Noob 719371|move: Toxic Spikes
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|84/100
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|78/100
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|72/100
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|65/100
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|59/100
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|53/100
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|48/100
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|42/100
+|-hitcount|p2a: Glimmora|10
+|move|p2a: Glimmora|Stealth Rock|p1a: Maushold
+|-sidestart|p1: Noob 719371|move: Stealth Rock
+|
+|-heal|p2a: Glimmora|48/100|[from] item: Black Sludge
+|turn|2
+|
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Maushold|Bite|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|-damage|p1a: Maushold|88/100|[from] Spiky Shield|[of] p2a: Glimmora
+|
+|-heal|p2a: Glimmora|54/100|[from] item: Black Sludge
+|turn|3
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Maushold|Bite|p2a: Torkoal
+|-damage|p2a: Torkoal|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: Noob 719371|Toxic Spikes
+|-sideend|p1: Noob 719371|Stealth Rock
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|move|p2a: Torkoal|Yawn|p1a: Maushold
+|-start|p1a: Maushold|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Maushold|move: Yawn|[silent]
+|-status|p1a: Maushold|slp
+|turn|6
+|
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|cant|p1a: Maushold|slp
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p2a: Lilligant|Axe Kick|p1a: Maushold
+|-supereffective|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Armarouge|Armarouge, F|100/100
+|turn|8
+|
+|-terastallize|p2a: Lilligant|Rock
+|move|p2a: Lilligant|Tera Blast|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|turn|9
+|
+|move|p2a: Lilligant|Tera Blast|p1a: Baxcalibur
+|-supereffective|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdriveatk
+|turn|10
+|
+|move|p2a: Lilligant|Solar Blade||[still]
+|-prepare|p2a: Lilligant|Solar Blade
+|-anim|p2a: Lilligant|Solar Blade|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|turn|11
+|
+|move|p2a: Lilligant|Tera Blast|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|12
+|
+|move|p2a: Lilligant|Axe Kick|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|Bulbagal

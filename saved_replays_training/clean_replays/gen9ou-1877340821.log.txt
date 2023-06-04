@@ -1,0 +1,246 @@
+|poke|p1|Magearna|
+|poke|p1|Sneasler, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Volcarona, M|
+|poke|p1|Ursaluna, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Magearna|
+|poke|p2|Corviknight, M|
+|poke|p2|Great Tusk|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: KrosFace|move: Light Screen
+|move|p2a: Magearna|Fleur Cannon|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Dragapult
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|2
+|
+|switch|p2a: Skeledirge|Skeledirge, M, shiny|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|3
+|j| amane_0852
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|-terastallize|p1a: Volcarona|Water
+|move|p1a: Volcarona|Tera Blast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|75/100
+|
+|-heal|p2a: Rotom|81/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|9/100
+|move|p2a: Rotom|Thunder Wave|p1a: Volcarona
+|-status|p1a: Volcarona|par
+|
+|-heal|p2a: Rotom|15/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|cant|p1a: Volcarona|par
+|
+|-heal|p2a: Rotom|21/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Skeledirge|Skeledirge, M, shiny|100/100
+|move|p1a: Volcarona|Giga Drain|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|90/100
+|
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|21/100
+|move|p1a: Volcarona|Tera Blast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Chien-Pao|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|
+|-damage|p2a: Chien-Pao|95/100 brn|[from] brn
+|-sideend|p1: KrosFace|move: Light Screen
+|j| DittoTang
+|j| way hubris
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|9
+|j| Tamashii Komete
+|l| DittoTang
+|
+|switch|p2a: Magearna|Magearna|100/100
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ursaluna|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|11
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|turn|12
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|turn|13
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|turn|14
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Corviknight|Body Press|p1a: Zamazenta
+|-damage|p1a: Zamazenta|80/100
+|
+|-heal|p1a: Zamazenta|86/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Zamazenta|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100
+|-damage|p1a: Zamazenta|69/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Body Press|p1a: Zamazenta
+|-damage|p1a: Zamazenta|49/100
+|
+|-heal|p1a: Zamazenta|55/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|30/100
+|move|p2a: Corviknight|Body Press|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|-heal|p1a: Zamazenta|36/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Zamazenta|Body Press|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Zamazenta|20/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Zamazenta|26/100|[from] item: Leftovers
+|
+|switch|p2a: Skeledirge|Skeledirge, M, shiny|90/100
+|turn|18
+|
+|move|p1a: Zamazenta|Crunch|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|51/100
+|move|p2a: Skeledirge|Torch Song|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F|94/100 brn
+|turn|19
+|
+|switch|p2a: Chien-Pao|Chien-Pao|95/100 brn
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Ursaluna|Earthquake|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|20
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-item|p1a: Sneasler|Air Balloon
+|move|p2a: Great Tusk|Earthquake|p1a: Sneasler
+|-immune|p1a: Sneasler
+|
+|turn|21
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Great Tusk|Stealth Rock|p1a: Sneasler
+|-sidestart|p1: KrosFace|move: Stealth Rock
+|
+|turn|22
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Skeledirge|Skeledirge, M, shiny|51/100
+|move|p1a: Sneasler|Dire Claw|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|33/100
+|-status|p2a: Skeledirge|slp
+|
+|turn|23
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Skeledirge
+|-damage|p2a: Skeledirge|15/100 slp
+|cant|p2a: Skeledirge|slp
+|
+|turn|24
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|25
+|
+|move|p1a: Sneasler|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Magearna
+|
+|-message|v1nc77 forfeited.
+|
+|win|KrosFace
+|l|☆v1nc77
+|l| amane_0852
+|l|☆KrosFace

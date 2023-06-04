@@ -71,9 +71,9 @@ def scrape_attack_data():
             print("------------------")
 
             #now add the scraped data to the dataframe
-            attack_df = attack_df._append({'Name': name, 'Type': type, 'Damage Type': move_type, 
-                                           'Power': power, 'Accuracy': accuracy, 'PP': pp, 
-                                           'Description': description, 'TM': tm, 'Notes': notes}, 
+            attack_df = attack_df._append({'Name': str(name), 'Type': str(type), 'Damage Type': str(move_type), 
+                                           'Power': float(power), 'Accuracy': float(accuracy), 'PP': float(pp), 
+                                           'Description': str(description), 'TM': tm, 'Notes': notes}, 
                                            ignore_index=True)
     return attack_df
 

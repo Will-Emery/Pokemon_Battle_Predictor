@@ -1,0 +1,107 @@
+|j|☆erduashi
+|j|☆TRGRboltz
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685829770
+|gametype|singles
+|player|p1|erduashi|raihan|
+|player|p2|TRGRboltz|blackbelt-gen4dp|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|First Blood Rule: The first team to have a Pokémon faint loses.
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Mew|
+|poke|p2|Breloom, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|inactive|TRGRboltz also wants the timer to be on.
+|
+|t:|1685829780
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|1
+|
+|t:|1685829788
+|move|p1a: Great Tusk|Stealth Rock|p2a: Decidueye
+|-sidestart|p2: TRGRboltz|move: Stealth Rock
+|move|p2a: Decidueye|Leaf Blade|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|37/100
+|
+|upkeep
+|turn|2
+|
+|t:|1685829797
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Decidueye|Leaf Blade|p1a: Toxapex
+|-damage|p1a: Toxapex|64/100
+|
+|-heal|p1a: Toxapex|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685829808
+|move|p2a: Decidueye|Triple Arrows|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|53/100
+|move|p1a: Toxapex|Toxic|p2a: Decidueye
+|-status|p2a: Decidueye|tox
+|
+|-heal|p1a: Toxapex|60/100|[from] item: Leftovers
+|-damage|p2a: Decidueye|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685829821
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|move|p1a: Toxapex|Infestation|p2a: Breloom
+|-damage|p2a: Breloom|88/100
+|-activate|p2a: Breloom|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|66/100|[from] item: Leftovers
+|-damage|p2a: Breloom|76/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1685829824
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Breloom|Spore|p1a: Amoonguss
+|-immune|p1a: Amoonguss
+|
+|-end|p2a: Breloom|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|6
+|
+|t:|1685829833
+|move|p2a: Breloom|Rock Tomb|p1a: Amoonguss|[miss]
+|-miss|p2a: Breloom|p1a: Amoonguss
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|win|erduashi
+|n|☆erduashi|erduashi
+|n|☆TRGRboltz|trgrboltz
+|l|☆TRGRboltz

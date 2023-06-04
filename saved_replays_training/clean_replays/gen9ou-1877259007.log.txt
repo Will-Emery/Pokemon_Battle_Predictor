@@ -1,0 +1,208 @@
+|poke|p1|Iron Hands|
+|poke|p1|Rotom-Wash|
+|poke|p1|Bronzong|
+|poke|p1|Bombirdier, M|
+|poke|p1|Palossand, F|
+|poke|p1|Appletun, F|
+|poke|p2|Gengar, F|
+|poke|p2|Lucario, F|
+|poke|p2|Espeon, F|
+|poke|p2|Charizard, F|
+|poke|p2|Zoroark, M|
+|poke|p2|Tauros-Paldea-Aqua, M|
+|teampreview
+|j| Flare1498
+|j| VeVii
+|j| SICKSICKBOY
+|
+|start
+|switch|p1a: Avramass|Iron Hands|100/100
+|switch|p2a: Back Foot Drive|Espeon, F|100/100
+|turn|1
+|
+|move|p1a: Avramass|Fake Out|p2a: Back Foot Drive
+|-damage|p2a: Back Foot Drive|66/100
+|replace|p2a: Cover Drive|Zoroark, M
+|-end|p2a: Cover Drive|Illusion
+|cant|p2a: Cover Drive|flinch
+|
+|turn|2
+|
+|move|p2a: Cover Drive|U-turn|p1a: Avramass
+|-resisted|p1a: Avramass
+|-damage|p1a: Avramass|95/100
+|
+|switch|p2a: Straight Drive|Tauros-Paldea-Aqua, M|100/100|[from] U-turn
+|-ability|p2a: Straight Drive|Intimidate|boost
+|-unboost|p1a: Avramass|atk|1
+|move|p1a: Avramass|Volt Switch|p2a: Straight Drive
+|-supereffective|p2a: Straight Drive
+|-damage|p2a: Straight Drive|76/100
+|
+|-end|p1a: Avramass|Quark Drive|[silent]
+|switch|p1a: Sprite Jet|Bombirdier, M|100/100|[from] Volt Switch
+|
+|turn|3
+|
+|move|p1a: Sprite Jet|Brave Bird|p2a: Straight Drive
+|-supereffective|p2a: Straight Drive
+|-damage|p2a: Straight Drive|0 fnt
+|faint|p2a: Straight Drive
+|-damage|p1a: Sprite Jet|77/100|[from] Recoil
+|
+|j| Bugsileus
+|
+|switch|p2a: On Drive|Lucario, F|100/100
+|turn|4
+|
+|switch|p1a: Baronne de Floor|Palossand, F|100/100
+|move|p2a: On Drive|Aura Sphere|p1a: Baronne de Floor
+|-immune|p1a: Baronne de Floor
+|
+|turn|5
+|
+|move|p2a: On Drive|Dark Pulse|p1a: Baronne de Floor
+|-supereffective|p1a: Baronne de Floor
+|-damage|p1a: Baronne de Floor|39/100
+|move|p1a: Baronne de Floor|Shadow Ball|p2a: On Drive
+|-damage|p2a: On Drive|34/100
+|
+|turn|6
+|
+|switch|p1a: Sprite Jet|Bombirdier, M|77/100
+|move|p2a: On Drive|Dark Pulse|p1a: Sprite Jet
+|-resisted|p1a: Sprite Jet
+|-damage|p1a: Sprite Jet|61/100
+|
+|turn|7
+|l| VeVii
+|
+|move|p2a: On Drive|Extreme Speed|p1a: Sprite Jet
+|-damage|p1a: Sprite Jet|35/100
+|move|p1a: Sprite Jet|Brave Bird|p2a: On Drive
+|-damage|p2a: On Drive|0 fnt
+|faint|p2a: On Drive
+|-damage|p1a: Sprite Jet|25/100|[from] Recoil
+|
+|
+|switch|p2a: Sweep|Charizard, F|100/100
+|turn|8
+|
+|switch|p1a: Sprite Blue|Rotom-Wash|100/100
+|-terastallize|p2a: Sweep|Steel
+|move|p2a: Sweep|Dragon Dance|p2a: Sweep
+|-boost|p2a: Sweep|atk|1
+|-boost|p2a: Sweep|spe|1
+|
+|turn|9
+|j| johngalt149
+|
+|move|p2a: Sweep|Dragon Dance|p2a: Sweep
+|-boost|p2a: Sweep|atk|1
+|-boost|p2a: Sweep|spe|1
+|move|p1a: Sprite Blue|Hydro Pump|p2a: Sweep
+|-damage|p2a: Sweep|35/100
+|
+|turn|10
+|
+|move|p2a: Sweep|Dragon Claw|p1a: Sprite Blue
+|-damage|p1a: Sprite Blue|48/100
+|move|p1a: Sprite Blue|Hydro Pump|p2a: Sweep
+|-damage|p2a: Sweep|0 fnt
+|faint|p2a: Sweep
+|
+|
+|switch|p2a: Back Foot Drive|Espeon, F|100/100
+|turn|11
+|
+|move|p1a: Sprite Blue|Hydro Pump|p2a: Back Foot Drive
+|-damage|p2a: Back Foot Drive|45/100
+|move|p2a: Back Foot Drive|Calm Mind|p2a: Back Foot Drive
+|-boost|p2a: Back Foot Drive|spa|1
+|-boost|p2a: Back Foot Drive|spd|1
+|
+|turn|12
+|
+|switch|p1a: Psy END Summoner|Bronzong|100/100
+|move|p2a: Back Foot Drive|Shadow Ball|p1a: Psy END Summoner
+|-supereffective|p1a: Psy END Summoner
+|-damage|p1a: Psy END Summoner|38/100
+|
+|turn|13
+|
+|move|p2a: Back Foot Drive|Trick Room|p2a: Back Foot Drive
+|-fieldstart|move: Trick Room|[of] p2a: Back Foot Drive
+|move|p1a: Psy END Summoner|Trick Room|p1a: Psy END Summoner
+|-fieldend|move: Trick Room
+|
+|turn|14
+|
+|move|p2a: Back Foot Drive|Shadow Ball|p1a: Psy END Summoner
+|-supereffective|p1a: Psy END Summoner
+|-damage|p1a: Psy END Summoner|0 fnt
+|faint|p1a: Psy END Summoner
+|
+|
+|switch|p1a: Avramass|Iron Hands|95/100
+|turn|15
+|
+|move|p1a: Avramass|Fake Out|p2a: Back Foot Drive
+|-damage|p2a: Back Foot Drive|18/100
+|-damage|p1a: Avramass|79/100|[from] item: Rocky Helmet|[of] p2a: Back Foot Drive
+|cant|p2a: Back Foot Drive|flinch
+|
+|turn|16
+|
+|-terastallize|p1a: Avramass|Steel
+|move|p2a: Back Foot Drive|Dazzling Gleam|p1a: Avramass
+|-resisted|p1a: Avramass
+|-damage|p1a: Avramass|66/100
+|move|p1a: Avramass|Drain Punch|p2a: Back Foot Drive
+|-resisted|p2a: Back Foot Drive
+|-damage|p2a: Back Foot Drive|0 fnt
+|-heal|p1a: Avramass|73/100|[from] drain|[of] p2a: Back Foot Drive
+|-damage|p1a: Avramass|56/100|[from] item: Rocky Helmet|[of] p2a: Back Foot Drive
+|faint|p2a: Back Foot Drive
+|
+|
+|switch|p2a: Off Drive|Gengar, F|66/100
+|turn|17
+|
+|move|p2a: Off Drive|Night Daze|p1a: Avramass
+|-damage|p1a: Avramass|34/100
+|-unboost|p1a: Avramass|accuracy|1
+|move|p1a: Avramass|Thunder Punch|p2a: Off Drive
+|-damage|p2a: Off Drive|0 fnt
+|replace|p2a: Cover Drive|Zoroark, M
+|-end|p2a: Cover Drive|Illusion
+|faint|p2a: Cover Drive
+|
+|
+|switch|p2a: Off Drive|Gengar, F|100/100
+|turn|18
+|
+|move|p2a: Off Drive|Shadow Ball|p1a: Avramass
+|-damage|p1a: Avramass|14/100
+|move|p1a: Avramass|Thunder Punch|p2a: Off Drive
+|-damage|p2a: Off Drive|4/100
+|
+|turn|19
+|
+|move|p2a: Off Drive|Shadow Ball|p1a: Avramass
+|-damage|p1a: Avramass|0 fnt
+|faint|p1a: Avramass
+|-end|p1a: Avramass|Quark Drive|[silent]
+|
+|
+|switch|p1a: Sprite Jet|Bombirdier, M|25/100
+|turn|20
+|
+|move|p1a: Sprite Jet|Knock Off|p2a: Off Drive
+|-supereffective|p2a: Off Drive
+|-damage|p2a: Off Drive|0 fnt
+|-start|p1a: Sprite Jet|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Off Drive
+|-enditem|p2a: Off Drive|Focus Sash|[from] move: Knock Off|[of] p1a: Sprite Jet
+|faint|p2a: Off Drive
+|
+|win|Glitchtastic
+|l|☆RedSF71

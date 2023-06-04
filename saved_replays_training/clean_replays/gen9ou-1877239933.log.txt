@@ -1,0 +1,175 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Ditto|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Blissey, F|
+|poke|p1|Sylveon, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Polteageist|
+|poke|p2|Hawlucha, F|
+|teampreview
+|j| imbleach
+|j| Lonsol
+|
+|start
+|switch|p1a: Left Testicle|Electrode-Hisui|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|move|p1a: Left Testicle|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|move|p2a: Indeedee|Psychic|p1a: Left Testicle
+|-damage|p1a: Left Testicle|38/100
+|
+|turn|2
+|
+|move|p1a: Left Testicle|Volt Switch|p2a: Indeedee
+|-damage|p2a: Indeedee|66/100
+|-damage|p1a: Left Testicle|28/100|[from] item: Life Orb
+|
+|switch|p1a: Right testicle|Blissey, F|100/100|[from] Volt Switch
+|move|p2a: Indeedee|Psychic|p1a: Right testicle
+|-damage|p1a: Right testicle|85/100
+|
+|-heal|p1a: Right testicle|91/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1|[from] item: Psychic Seed
+|move|p1a: Right testicle|Thunderbolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|64/100
+|-status|p2a: Hawlucha|par
+|
+|-heal|p1a: Right testicle|97/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Beeg Feesh|Dondozo, M|100/100
+|move|p2a: Hawlucha|Close Combat|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|75/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|
+|-heal|p1a: Beeg Feesh|81/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Beeg Feesh|Curse|p1a: Beeg Feesh
+|-unboost|p1a: Beeg Feesh|spe|1
+|-boost|p1a: Beeg Feesh|atk|1
+|-boost|p1a: Beeg Feesh|def|1
+|
+|-heal|p1a: Beeg Feesh|88/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|71/100
+|move|p1a: Beeg Feesh|Curse|p1a: Beeg Feesh
+|-unboost|p1a: Beeg Feesh|spe|1
+|-boost|p1a: Beeg Feesh|atk|1
+|-boost|p1a: Beeg Feesh|def|1
+|
+|-heal|p1a: Beeg Feesh|77/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Beeg Feesh|Liquidation|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-heal|p1a: Beeg Feesh|83/100|[from] item: Leftovers
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|move|p2a: Hatterene|Nuzzle|p1a: Beeg Feesh
+|-supereffective|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|81/100
+|-status|p1a: Beeg Feesh|par
+|cant|p1a: Beeg Feesh|par
+|
+|-heal|p1a: Beeg Feesh|87/100 par|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|turn|9
+|
+|switch|p2a: Indeedee|Indeedee, M|66/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Beeg Feesh|Liquidation|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-heal|p1a: Beeg Feesh|94/100 par|[from] item: Leftovers
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|10
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Beeg Feesh|Liquidation|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|
+|-heal|p1a: Beeg Feesh|99/100 par|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Polteageist|Stored Power|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|30/100 par
+|move|p1a: Beeg Feesh|Liquidation|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Beeg Feesh|36/100 par|[from] item: Leftovers
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|12
+|
+|move|p2a: Cinderace|Zen Headbutt|p1a: Beeg Feesh
+|-start|p2a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-damage|p1a: Beeg Feesh|24/100 par
+|move|p1a: Beeg Feesh|Liquidation|p2a: Cinderace
+|-damage|p2a: Cinderace|18/100
+|
+|-heal|p1a: Beeg Feesh|30/100 par|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p1a: Beeg Feesh|Liquidation|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-heal|p1a: Beeg Feesh|36/100 par|[from] item: Leftovers
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|14
+|
+|move|p2a: Hatterene|Psyshock|p1a: Beeg Feesh
+|-damage|p1a: Beeg Feesh|26/100 par
+|move|p1a: Beeg Feesh|Liquidation|p2a: Hatterene
+|-damage|p2a: Hatterene|56/100
+|-unboost|p2a: Hatterene|def|1
+|-enditem|p2a: Hatterene|Eject Button
+|
+|switch|p2a: Cinderace|Cinderace, M|18/100
+|
+|-heal|p1a: Beeg Feesh|33/100 par|[from] item: Leftovers
+|turn|15
+|-message|ZayAltuni forfeited.
+|
+|win|John Kentucky
+|l|☆ZayAltuni

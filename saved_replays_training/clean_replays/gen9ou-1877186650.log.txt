@@ -1,0 +1,195 @@
+|poke|p1|Basculegion, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Clodsire, F|
+|poke|p1|Meowscarada, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Corviknight, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Muk-Alola, M|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: I move first|Meowscarada, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: I move first|U-turn|p2a: Magearna
+|-start|p1a: I move first|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|94/100
+|
+|switch|p1a: God|Clodsire, F|100/100|[from] U-turn
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: God|Yawn|p2a: Magearna
+|-start|p2a: Magearna|move: Yawn|[of] p1a: God
+|
+|turn|3
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: God|Stealth Rock|p2a: Magearna
+|-sidestart|p2: Robinet04|move: Stealth Rock
+|
+|-end|p2a: Magearna|move: Yawn|[silent]
+|-status|p2a: Magearna|slp
+|turn|4
+|
+|cant|p2a: Magearna|slp
+|move|p1a: God|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|56/100 slp
+|
+|-heal|p2a: Magearna|62/100 slp|[from] item: Leftovers
+|turn|5
+|
+|cant|p2a: Magearna|slp
+|move|p1a: God|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|13/100 slp
+|
+|-heal|p2a: Magearna|19/100 slp|[from] item: Leftovers
+|turn|6
+|
+|cant|p2a: Magearna|slp
+|move|p1a: God|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|7
+|
+|switch|p1a: Ghost face killah|Gholdengo|100/100
+|-item|p1a: Ghost face killah|Air Balloon
+|move|p2a: Corviknight|Defog|p1a: Ghost face killah
+|-immune|p1a: Ghost face killah|[from] ability: Good as Gold
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Ghost face killah|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Muk|Muk-Alola, M|100/100
+|-damage|p2a: Muk|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Ghost face killah|Make It Rain|p2a: Muk
+|-damage|p2a: Muk|47/100
+|-unboost|p1a: Ghost face killah|spa|1
+|move|p2a: Muk|Knock Off|p1a: Ghost face killah
+|-supereffective|p1a: Ghost face killah
+|-damage|p1a: Ghost face killah|0 fnt
+|-enditem|p1a: Ghost face killah|Air Balloon
+|faint|p1a: Ghost face killah
+|
+|
+|switch|p1a: Dumbo|Great Tusk|100/100
+|turn|10
+|
+|move|p1a: Dumbo|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Dumbo
+|-sidestart|p1: Arde Showdown|move: Stealth Rock
+|move|p1a: Dumbo|Ice Spinner|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|2/100
+|-damage|p1a: Dumbo|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Dumbo|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|turn|12
+|
+|move|p2a: Garchomp|Spikes|p1a: Dumbo
+|-sidestart|p1: Arde Showdown|Spikes
+|move|p1a: Dumbo|Rapid Spin|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-boost|p1a: Dumbo|spe|1
+|-damage|p1a: Dumbo|59/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Dumbo|43/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|-sideend|p1: Arde Showdown|Spikes|[from] move: Rapid Spin|[of] p1a: Dumbo
+|-sideend|p1: Arde Showdown|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dumbo
+|faint|p2a: Garchomp
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|13
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Dumbo
+|-supereffective|p1a: Dumbo
+|-damage|p1a: Dumbo|9/100
+|move|p1a: Dumbo|Close Combat|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-unboost|p1a: Dumbo|def|1
+|-unboost|p1a: Dumbo|spd|1
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|14
+|
+|-terastallize|p2a: Volcarona|Grass
+|move|p1a: Dumbo|Earthquake|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|63/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|15
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Dumbo
+|-supereffective|p1a: Dumbo
+|-damage|p1a: Dumbo|0 fnt
+|-heal|p2a: Volcarona|68/100|[from] drain|[of] p1a: Dumbo
+|faint|p1a: Dumbo
+|-end|p1a: Dumbo|Protosynthesis|[silent]
+|
+|
+|switch|p1a: I move first|Meowscarada, M|100/100
+|turn|16
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: I move first
+|-supereffective|p1a: I move first
+|-enditem|p1a: I move first|Focus Sash
+|-damage|p1a: I move first|1/100
+|move|p1a: I move first|U-turn|p2a: Volcarona
+|-start|p1a: I move first|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|win|Arde Showdown
+|l|☆Robinet04

@@ -1,0 +1,531 @@
+|j|☆BlackTalonPDX1
+|j|☆leAndrei133
+|t:|1685827356
+|gametype|singles
+|player|p1|BlackTalonPDX1|veteran|1363
+|player|p2|leAndrei133|ghetsis|1358
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Rillaboom, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Scizor, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Rillaboom, F|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BlackTalonPDX1)
+|
+|t:|1685827370
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1685827376
+|move|p1a: Rillaboom|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|84/100
+|
+|t:|1685827380
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p2a: Scizor|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|91/100
+|
+|t:|1685827387
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Great Tusk|97/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685827403
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|97/100
+|-damage|p2a: Pelipper|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|t:|1685827410
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1685827419
+|move|p2a: Iron Valiant|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100
+|move|p1a: Toxapex|Infestation|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|99/100
+|-activate|p2a: Iron Valiant|move: Infestation|[of] p1a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Valiant|100/100|[from] Grassy Terrain
+|-heal|p1a: Toxapex|71/100|[from] Grassy Terrain
+|-damage|p2a: Iron Valiant|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1685827427
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Valiant|94/100|[from] Grassy Terrain
+|-damage|p2a: Iron Valiant|82/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1685827430
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-weather|none
+|-heal|p2a: Iron Valiant|88/100|[from] Grassy Terrain
+|-damage|p2a: Iron Valiant|76/100|[from] move: Infestation|[partiallytrapped]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1685827435
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Iron Valiant|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Iron Valiant|63/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1685827440
+|move|p2a: Iron Valiant|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|move|p1a: Toxapex|Infestation|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|62/100
+|
+|-damage|p2a: Iron Valiant|50/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1685827447
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-end|p2a: Iron Valiant|Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1685827452
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Iron Valiant|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|upkeep
+|turn|10
+|
+|t:|1685827457
+|move|p2a: Iron Valiant|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|11
+|
+|t:|1685827462
+|move|p2a: Iron Valiant|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|4/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|54/100
+|
+|upkeep
+|turn|12
+|
+|t:|1685827466
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1685827471
+|move|p2a: Iron Valiant|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|48/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|14
+|
+|t:|1685827476
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Toxapex|Infestation|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|49/100
+|-activate|p2a: Iron Valiant|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Iron Valiant|36/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1685827481
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Iron Valiant|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Iron Valiant|24/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1685827490
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Iron Valiant|Psychic|p1a: Chien-Pao
+|-immune|p1a: Chien-Pao
+|
+|-end|p2a: Iron Valiant|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|17
+|
+|t:|1685827496
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Rillaboom
+|-damage|p1a: Rillaboom|25/100
+|
+|-heal|p2a: Iron Valiant|30/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|31/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1685827510
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Iron Valiant|Psychic|p1a: Chien-Pao
+|-immune|p1a: Chien-Pao
+|
+|-heal|p2a: Iron Valiant|36/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1685827516
+|move|p1a: Chien-Pao|Ice Shard|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685827521
+|switch|p2a: Pelipper|Pelipper, F|84/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|20
+|
+|t:|1685827526
+|switch|p1a: Toxapex|Toxapex, F|81/100
+|move|p2a: Pelipper|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|55/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1685827540
+|switch|p2a: Scizor|Scizor, M|84/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scizor|90/100|[from] Grassy Terrain
+|-heal|p2a: Scizor|96/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1685827548
+|move|p2a: Scizor|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|87/100
+|-damage|p2a: Scizor|79/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|t:|1685827560
+|switch|p2a: Pelipper|Pelipper, F|84/100|[from] U-turn
+|move|p1a: Toxapex|Infestation|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|82/100
+|-activate|p2a: Pelipper|move: Infestation|[of] p1a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|70/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|t:|1685827568
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Pelipper|U-turn|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Pelipper|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|57/100 psn|[from] psn
+|-damage|p2a: Pelipper|45/100 psn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|24
+|
+|t:|1685827576
+|move|p2a: Pelipper|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|83/100
+|-damage|p2a: Pelipper|29/100 psn|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|t:|1685827584
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|move|p1a: Toxapex|Infestation|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|98/100
+|-activate|p2a: Basculegion|move: Infestation|[of] p1a: Toxapex
+|
+|-weather|none
+|-damage|p2a: Basculegion|86/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1685827592
+|-terastallize|p2a: Basculegion|Ghost
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Basculegion|Tera Blast|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Basculegion|73/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|t:|1685827603
+|move|p2a: Basculegion|Tera Blast|p1a: Toxapex
+|-damage|p1a: Toxapex|19/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|69/100
+|
+|-damage|p2a: Basculegion|61/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|t:|1685827611
+|switch|p2a: Pelipper|Pelipper, F|29/100 psn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|16/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1685827614
+|move|p1a: Chien-Pao|Ice Shard|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685827617
+|switch|p2a: Basculegion|Basculegion, M, tera:Ghost|61/100
+|turn|29
+|
+|t:|1685827625
+|move|p1a: Chien-Pao|Ice Shard|p2a: Basculegion
+|-damage|p2a: Basculegion|9/100
+|move|p2a: Basculegion|Tera Blast|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1685827627
+|move|p1a: Chien-Pao|Ice Shard|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685827631
+|switch|p2a: Scizor|Scizor, M|79/100
+|turn|31
+|
+|t:|1685827634
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100
+|
+|-weather|none
+|-heal|p1a: Great Tusk|91/100|[from] item: Leftovers
+|-heal|p2a: Scizor|85/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1685827640
+|move|p1a: Great Tusk|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|60/100
+|-enditem|p2a: Scizor|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Scizor|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|82/100
+|
+|t:|1685827644
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-heal|p1a: Great Tusk|88/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|94/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1685827673
+|move|p2a: Rillaboom|Trailblaze|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|63/100
+|-boost|p2a: Rillaboom|spe|1
+|move|p1a: Great Tusk|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|69/100
+|-enditem|p2a: Rillaboom|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p2a: Rillaboom|75/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|69/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|75/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1685827684
+|move|p2a: Rillaboom|Trailblaze|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|44/100
+|-boost|p2a: Rillaboom|spe|1
+|move|p1a: Great Tusk|Close Combat|p2a: Rillaboom
+|-damage|p2a: Rillaboom|13/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: Rillaboom|19/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|50/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|56/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|BlackTalonPDX1 has 120 seconds left.
+|
+|t:|1685827707
+|move|p2a: Rillaboom|Drum Beating|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Rillaboom|25/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685827710
+|switch|p1a: Chien-Pao|Chien-Pao|46/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|36
+|
+|t:|1685827720
+|switch|p2a: Scizor|Scizor, M|60/100
+|move|p1a: Chien-Pao|Ice Shard|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|42/100
+|
+|-heal|p1a: Chien-Pao|52/100|[from] Grassy Terrain
+|-heal|p2a: Scizor|48/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|37
+|
+|t:|1685827726
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Scizor|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|87/100
+|-damage|p2a: Scizor|32/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|t:|1685827731
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|
+|upkeep
+|turn|38
+|
+|t:|1685827740
+|move|p2a: Gholdengo|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|54/100
+|-damage|p2a: Gholdengo|91/100|[from] item: Life Orb
+|move|p1a: Toxapex|Infestation|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|90/100
+|-activate|p2a: Gholdengo|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Gholdengo|78/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|39
+|-message|leAndrei133 forfeited.
+|
+|win|BlackTalonPDX1
+|raw|BlackTalonPDX1's rating: 1363 → 1383(+20 for winning)
+|raw|leAndrei133's rating: 1358 → 1338(-20 for losing)
+|l|☆leAndrei133

@@ -1,0 +1,232 @@
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Zapdos|
+|poke|p2|Breloom, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Articuno|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Hoopa|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|1
+|
+|move|p1a: Sneasler|Fake Out|p2a: Articuno
+|-damage|p2a: Articuno|81/100
+|-status|p2a: Articuno|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|-damage|p1a: Sneasler|91/100|[from] item: Life Orb
+|cant|p2a: Articuno|flinch
+|
+|-heal|p2a: Articuno|88/100 psn|[from] item: Leftovers
+|-damage|p2a: Articuno|75/100 psn|[from] psn
+|turn|2
+|
+|move|p1a: Sneasler|U-turn|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|59/100 psn
+|-damage|p1a: Sneasler|81/100|[from] item: Life Orb
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|move|p2a: Articuno|Tailwind|p2a: Articuno
+|-sidestart|p2: 0variez|move: Tailwind
+|
+|-heal|p2a: Articuno|65/100 psn|[from] item: Leftovers
+|-damage|p2a: Articuno|53/100 psn|[from] psn
+|turn|3
+|
+|move|p2a: Articuno|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|88/100
+|-damage|p2a: Articuno|36/100 psn|[from] item: Rocky Helmet|[of] p1a: Slowking
+|
+|switch|p2a: Samurottski|Samurott-Hisui, M|100/100|[from] U-turn
+|move|p1a: Slowking|Future Sight|p2a: Samurottski
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|4
+|
+|move|p2a: Samurottski|Swords Dance|p2a: Samurottski
+|-boost|p2a: Samurottski|atk|2
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Zapdos|Zapdos|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p2a: Samurottski|Ceaseless Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|28/100
+|-sidestart|p1: lyx321|Spikes
+|move|p1a: Zapdos|Volt Switch|p2a: Samurottski
+|-supereffective|p2a: Samurottski
+|-damage|p2a: Samurottski|9/100
+|
+|switch|p1a: Sneasler|Sneasler, F|81/100|[from] Volt Switch
+|-damage|p1a: Sneasler|68/100|[from] Spikes
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Samurottski|move: Future Sight
+|-immune|p2a: Samurottski
+|-sideend|p2: 0variez|move: Tailwind
+|turn|6
+|
+|switch|p2a: Articuno|Articuno|36/100 psn
+|-ability|p2a: Articuno|Pressure
+|move|p1a: Sneasler|U-turn|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|25/100 psn
+|-damage|p1a: Sneasler|58/100|[from] item: Life Orb
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-damage|p1a: Chien-Pao|88/100|[from] Spikes
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Articuno|31/100 psn|[from] item: Leftovers
+|-damage|p2a: Articuno|19/100 psn|[from] psn
+|turn|7
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|-damage|p1a: Chien-Pao|78/100|[from] item: Life Orb
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Breloom.TTV|Breloom, M, shiny|100/100
+|turn|8
+|
+|-terastallize|p2a: Breloom.TTV|Water
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Breloom.TTV
+|-resisted|p2a: Breloom.TTV
+|-damage|p2a: Breloom.TTV|45/100
+|-damage|p1a: Chien-Pao|68/100|[from] item: Life Orb
+|move|p2a: Breloom.TTV|Bulk Up|p2a: Breloom.TTV
+|-boost|p2a: Breloom.TTV|atk|1
+|-boost|p2a: Breloom.TTV|def|1
+|
+|-weather|none
+|turn|9
+|
+|move|p2a: Breloom.TTV|Mach Punch|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|turn|10
+|
+|move|p2a: Breloom.TTV|Bullet Seed|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|73/100
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|56/100
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|41/100
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|24/100
+|-hitcount|p1a: Slowking|4
+|move|p1a: Slowking|Sludge Bomb|p2a: Breloom.TTV
+|-damage|p2a: Breloom.TTV|0 fnt
+|faint|p2a: Breloom.TTV
+|
+|
+|switch|p2a: Samurottski|Samurott-Hisui, M|9/100
+|turn|11
+|
+|move|p2a: Samurottski|Ceaseless Edge|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-sidestart|p1: lyx321|Spikes
+|-damage|p2a: Samurottski|0 fnt|[from] item: Rocky Helmet|[of] p1a: Slowking
+|faint|p1a: Slowking
+|faint|p2a: Samurottski
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|switch|p1a: Zapdos|Zapdos|28/100
+|turn|12
+|
+|move|p2a: Iron Treads|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: lyx321|move: Stealth Rock
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|78/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|turn|13
+|
+|move|p2a: Iron Treads|Rapid Spin|p1a: Zapdos
+|-damage|p1a: Zapdos|67/100
+|-boost|p2a: Iron Treads|spe|1
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|24/100
+|
+|-heal|p2a: Iron Treads|30/100|[from] item: Leftovers
+|turn|14
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Cupcake|Arcanine-Hisui, M|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Cupcake
+|-resisted|p2a: Cupcake
+|-damage|p2a: Cupcake|93/100
+|
+|turn|15
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|84/100|[from] Spikes
+|-damage|p1a: Magearna|78/100|[from] Stealth Rock
+|move|p2a: Cupcake|Flare Blitz|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-damage|p2a: Cupcake|83/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|84/100|[from] Spikes
+|-damage|p1a: Glimmora|72/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Cupcake|Head Smash|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: 0variez|move: Toxic Spikes
+|faint|p1a: Glimmora
+|-damage|p2a: Cupcake|73/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|58/100
+|-damage|p1a: Sneasler|42/100|[from] Spikes
+|-damage|p1a: Sneasler|36/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Sneasler|Fake Out|p2a: Cupcake
+|-resisted|p2a: Cupcake
+|-damage|p2a: Cupcake|62/100
+|-status|p2a: Cupcake|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|-damage|p1a: Sneasler|26/100|[from] item: Life Orb
+|cant|p2a: Cupcake|flinch
+|
+|-damage|p2a: Cupcake|50/100 psn|[from] psn
+|turn|18
+|
+|move|p2a: Cupcake|Extreme Speed|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-damage|p2a: Cupcake|40/100 psn|[from] item: Life Orb
+|
+|-damage|p2a: Cupcake|27/100 psn|[from] psn
+|-message|lyx321 forfeited.
+|
+|win|0variez
+|l|☆lyx321

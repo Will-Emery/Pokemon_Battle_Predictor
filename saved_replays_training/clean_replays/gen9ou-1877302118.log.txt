@@ -1,0 +1,184 @@
+|poke|p1|Pawmot, F|
+|poke|p1|Abomasnow, F|
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Magearna|
+|poke|p2|Ursaluna, M|
+|poke|p2|Iron Treads|
+|poke|p2|Uxie|
+|poke|p2|Chien-Pao|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|turn|1
+|
+|move|p1a: Landorus|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-enditem|p2a: Iron Treads|Focus Sash
+|-damage|p2a: Iron Treads|1/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Green Costume|move: Stealth Rock
+|
+|turn|2
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Uxie|Uxie|100/100
+|move|p1a: Landorus|Earthquake|p2a: Uxie
+|-immune|p2a: Uxie|[from] ability: Levitate
+|
+|turn|3
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, M, shiny|100/100
+|-damage|p1a: Avalugg|76/100|[from] Stealth Rock
+|move|p2a: Uxie|Reflect|p2a: Uxie
+|-sidestart|p2: Breloom James|Reflect
+|
+|turn|4
+|
+|switch|p2a: Iron Treads|Iron Treads|1/100
+|move|p1a: Avalugg|Rapid Spin|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-boost|p1a: Avalugg|spe|1
+|-sideend|p1: Green Costume|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|5
+|
+|switch|p1a: Abomasnow|Abomasnow, F, shiny|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|move|p1a: Abomasnow|Leech Seed|p2a: Magearna
+|-start|p2a: Magearna|move: Leech Seed
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Magearna|88/100|[from] Leech Seed|[of] p1a: Abomasnow
+|turn|7
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: Green Costume|move: Aurora Veil
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|94/100|[from] item: Leftovers
+|-damage|p2a: Magearna|82/100|[from] Leech Seed|[of] p1a: Abomasnow
+|turn|8
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|88/100|[from] item: Leftovers
+|-damage|p2a: Magearna|75/100|[from] Leech Seed|[of] p1a: Magearna
+|turn|9
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-weather|none
+|-heal|p2a: Magearna|82/100|[from] item: Leftovers
+|-damage|p2a: Magearna|69/100|[from] Leech Seed|[of] p1a: Magearna
+|turn|10
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|75/100|[from] item: Leftovers
+|-damage|p2a: Magearna|63/100|[from] Leech Seed|[of] p1a: Magearna
+|-sideend|p2: Breloom James|Reflect
+|turn|11
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|69/100|[from] item: Leftovers
+|-damage|p2a: Magearna|57/100|[from] Leech Seed|[of] p1a: Magearna
+|turn|12
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Stored Power|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|76/100
+|
+|-heal|p1a: Magearna|82/100|[from] item: Leftovers
+|-heal|p2a: Magearna|63/100|[from] item: Leftovers
+|-damage|p2a: Magearna|50/100|[from] Leech Seed|[of] p1a: Magearna
+|-heal|p1a: Magearna|97/100|[silent]
+|turn|13
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|-heal|p2a: Magearna|56/100|[from] item: Leftovers
+|-damage|p2a: Magearna|44/100|[from] Leech Seed|[of] p1a: Magearna
+|turn|14
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|0
+|-boost|p2a: Magearna|spd|0
+|
+|-heal|p2a: Magearna|50/100|[from] item: Leftovers
+|-damage|p2a: Magearna|38/100|[from] Leech Seed|[of] p1a: Magearna
+|-sideend|p1: Green Costume|move: Aurora Veil
+|turn|15
+|
+|move|p1a: Magearna|Stored Power|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|12/100
+|move|p2a: Magearna|Draining Kiss|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|88/100
+|-heal|p2a: Magearna|19/100|[from] drain|[of] p1a: Magearna
+|
+|-heal|p1a: Magearna|95/100|[from] item: Leftovers
+|-heal|p2a: Magearna|25/100|[from] item: Leftovers
+|-damage|p2a: Magearna|13/100|[from] Leech Seed|[of] p1a: Magearna
+|-heal|p1a: Magearna|100/100|[silent]
+|turn|16
+|-message|Breloom James forfeited.
+|
+|win|Green Costume
+|l|☆Breloom James

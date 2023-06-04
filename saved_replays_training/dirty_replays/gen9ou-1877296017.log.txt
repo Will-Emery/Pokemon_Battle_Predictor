@@ -1,0 +1,399 @@
+|j|☆ianlazerbeem
+|j|☆ElzB#
+|t:|1685839454
+|gametype|singles
+|player|p1|ianlazerbeem|266|1368
+|player|p2|ElzB#|1|1359
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Gholdengo|
+|poke|p1|Garganacl, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Magearna|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Glastrier|
+|poke|p2|Iron Hands|
+|poke|p2|Rabsca, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ElzB#)
+|
+|t:|1685839494
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1685839503
+|-terastallize|p2a: Hatterene|Water
+|move|p1a: Magearna|Volt Switch|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|51/100
+|
+|t:|1685839531
+|switch|p1a: Garganacl|Garganacl, F|100/100|[from] Volt Switch
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1685839540
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Cresselia
+|-damage|p2a: Cresselia|93/100
+|-start|p2a: Cresselia|Salt Cure
+|
+|-heal|p2a: Cresselia|99/100|[from] item: Leftovers
+|-damage|p2a: Cresselia|87/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1685839558
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|
+|upkeep
+|turn|4
+|
+|t:|1685839570
+|move|p2a: Iron Hands|Wild Charge|p1a: Gholdengo
+|-damage|p1a: Gholdengo|52/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|-damage|p2a: Iron Hands|91/100|[from] Recoil
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1685839585
+|move|p2a: Iron Hands|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685839592
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Hands|atk|1
+|turn|6
+|
+|t:|1685839599
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Cresselia|Cresselia, F|87/100
+|move|p1a: Landorus|Stealth Rock|p2a: Cresselia
+|-sidestart|p2: ElzB#|move: Stealth Rock
+|
+|-heal|p2a: Cresselia|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685839607
+|move|p1a: Landorus|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|69/100
+|
+|t:|1685839610
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from] U-turn
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-heal|p2a: Cresselia|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685839625
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Magearna
+|-status|p2a: Magearna|brn
+|
+|-damage|p2a: Magearna|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685839642
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Magearna|Trick|p1a: Garganacl
+|-activate|p2a: Magearna|move: Trick|[of] p1a: Garganacl
+|-item|p1a: Garganacl|Choice Scarf|[from] move: Trick
+|-item|p2a: Magearna|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Magearna|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Magearna|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685839653
+|switch|p2a: Iron Hands|Iron Hands|91/100
+|-damage|p2a: Iron Hands|85/100|[from] Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|81/100
+|-start|p2a: Iron Hands|Salt Cure
+|
+|-damage|p2a: Iron Hands|69/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1685839664
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Hands|atk|1
+|move|p2a: Iron Hands|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|42/100
+|-damage|p2a: Iron Hands|52/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-damage|p2a: Iron Hands|40/100|[from] Salt Cure
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1685839679
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Cresselia|Cresselia, F|75/100
+|-damage|p2a: Cresselia|63/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|39/100
+|
+|t:|1685839685
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from] U-turn
+|
+|-heal|p2a: Cresselia|45/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685839694
+|move|p1a: Volcarona|Fiery Dance|p2a: Cresselia
+|-damage|p2a: Cresselia|22/100
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-heal|p2a: Cresselia|28/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685839703
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Volcarona|Fiery Dance|p2: Cresselia|[notarget]
+|-fail|p1a: Volcarona
+|
+|upkeep
+|
+|t:|1685839731
+|switch|p2a: Hatterene|Hatterene, F, tera:Water|51/100
+|-heal|p2a: Hatterene|100/100|[from] move: Lunar Dance
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1685839747
+|switch|p1a: Landorus|Landorus-Therian, M|42/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Landorus
+|-damage|p1a: Landorus|10/100
+|-unboost|p1a: Landorus|spa|1
+|
+|upkeep
+|turn|16
+|
+|t:|1685839759
+|move|p2a: Hatterene|Draining Kiss|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-heal|p2a: Hatterene|97/100|[from] drain|[of] p1a: Landorus
+|-damage|p2a: Hatterene|80/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1685839767
+|switch|p1a: Magearna|Magearna|100/100
+|turn|17
+|
+|t:|1685839775
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|54/100
+|-unboost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Fleur Cannon|p2a: Hatterene
+|-damage|p2a: Hatterene|35/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p1a: Magearna|60/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|18
+|
+|t:|1685839786
+|move|p1a: Magearna|Volt Switch|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|15/100
+|
+|t:|1685839791
+|switch|p1a: Garganacl|Garganacl, F|100/100|[from] Volt Switch
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|19
+|
+|t:|1685839799
+|move|p2a: Hatterene|Psyshock|p1a: Garganacl
+|-damage|p1a: Garganacl|75/100
+|move|p1a: Garganacl|Salt Cure|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1685839804
+|switch|p2a: Iron Hands|Iron Hands|40/100
+|-damage|p2a: Iron Hands|34/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1685839812
+|-terastallize|p1a: Garganacl|Water
+|move|p2a: Iron Hands|Earthquake|p1a: Garganacl
+|-damage|p1a: Garganacl|53/100
+|move|p1a: Garganacl|Salt Cure|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|30/100
+|-start|p2a: Iron Hands|Salt Cure
+|
+|-damage|p2a: Iron Hands|18/100|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1685839832
+|switch|p1a: Magearna|Magearna|60/100
+|move|p2a: Iron Hands|Wild Charge|p1a: Magearna
+|-damage|p1a: Magearna|18/100
+|-damage|p2a: Iron Hands|10/100|[from] Recoil
+|
+|-heal|p1a: Magearna|24/100|[from] item: Leftovers
+|-damage|p2a: Iron Hands|0 fnt|[from] Salt Cure
+|faint|p2a: Iron Hands
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|upkeep
+|
+|t:|1685839838
+|switch|p2a: Magearna|Magearna|88/100 brn
+|-damage|p2a: Magearna|82/100 brn|[from] Stealth Rock
+|turn|22
+|
+|t:|1685839848
+|move|p2a: Magearna|Flash Cannon|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Magearna|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685839858
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|23
+|
+|t:|1685839862
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|-heal|p2a: Magearna|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Magearna|82/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1685839873
+|switch|p2a: Glastrier|Glastrier|100/100
+|-damage|p2a: Glastrier|76/100|[from] Stealth Rock
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|25
+|
+|t:|1685839883
+|move|p2a: Glastrier|Icicle Crash|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|58/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Glastrier
+|
+|upkeep
+|
+|t:|1685839887
+|switch|p2a: Rabsca|Rabsca, F|100/100
+|turn|26
+|
+|t:|1685839895
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|
+|t:|1685839921
+|-heal|p2: Hatterene|50/100|[from] move: Revival Blessing
+|move|p1a: Volcarona|Fiery Dance|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|faint|p2a: Rabsca
+|
+|upkeep
+|
+|t:|1685839924
+|switch|p2a: Hatterene|Hatterene, F|50/100
+|-damage|p2a: Hatterene|38/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1685839933
+|move|p2a: Hatterene|Psyshock|p1a: Volcarona
+|-damage|p1a: Volcarona|4/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Hatterene
+|
+|-fieldend|move: Trick Room
+|upkeep
+|-message|ElzB# forfeited.
+|
+|win|ianlazerbeem
+|raw|ianlazerbeem's rating: 1368 → 1387(+19 for winning)
+|raw|ElzB#'s rating: 1359 → 1340(-19 for losing)
+|l|☆ElzB#

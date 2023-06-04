@@ -1,0 +1,1454 @@
+|poke|p1|Clodsire, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Talonflame, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Blissey, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Volcarona, F|
+|teampreview
+|j| Izuyu
+|j| LowLadderBreaker
+|j| Kahill21
+|j| xkl666
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|75/100
+|move|p1a: Toxapex|Toxic||[still]
+|-fail|p1a: Toxapex
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|turn|2
+|j| mubfu
+|l| Kahill21
+|
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Dragapult|Thunder Wave|p1a: Talonflame
+|-status|p1a: Talonflame|par
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|turn|3
+|l| mubfu
+|
+|move|p2a: Dragapult|Hex|p1a: Talonflame
+|-damage|p1a: Talonflame|48/100 par
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|98/100 par
+|-singleturn|p1a: Talonflame|move: Roost
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|
+|turn|5
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: Highv0ltag3|move: Stealth Rock
+|
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Alomomola|Whirlpool|p2a: Gholdengo
+|-damage|p2a: Gholdengo|95/100
+|-activate|p2a: Gholdengo|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Gholdengo|83/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|7
+|j| mubfu
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|turn|8
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|turn|9
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|turn|10
+|
+|switch|p1a: Talonflame|Talonflame, F|98/100 par
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|turn|11
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Rotom|Trick|p1a: Toxapex
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Toxapex
+|-item|p1a: Toxapex|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Heavy-Duty Boots|[from] move: Trick
+|
+|turn|12
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|50/100
+|
+|switch|p2a: Gholdengo|Gholdengo|83/100|[from] Volt Switch
+|move|p1a: Toxapex|Infestation|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|82/100
+|-activate|p2a: Gholdengo|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Gholdengo|70/100|[from] move: Infestation|[partiallytrapped]
+|turn|13
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-end|p2a: Gholdengo|Infestation|[partiallytrapped]|[silent]
+|turn|14
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Blissey|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: Avic|move: Stealth Rock
+|
+|turn|15
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Toxapex|Toxapex, M|84/100
+|-damage|p1a: Toxapex|71/100|[from] Stealth Rock
+|
+|turn|16
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|92/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|turn|17
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|49/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|turn|18
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|70/100
+|-damage|p2a: Gholdengo|63/100|[from] Stealth Rock
+|switch|p1a: Talonflame|Talonflame, F|98/100 par
+|
+|turn|19
+|
+|switch|p1a: Blissey|Blissey, F|92/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|turn|20
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Blissey|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|35/100
+|
+|turn|21
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|85/100
+|move|p1a: Blissey|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|56/100
+|
+|turn|22
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Blissey|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|27/100
+|
+|turn|23
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|77/100
+|
+|turn|24
+|
+|switch|p2a: Great Tusk|Great Tusk|98/100
+|-damage|p2a: Great Tusk|95/100|[from] Stealth Rock
+|move|p1a: Clodsire|Toxic|p2a: Great Tusk
+|-status|p2a: Great Tusk|tox
+|
+|-damage|p2a: Great Tusk|88/100 tox|[from] psn
+|turn|25
+|
+|switch|p1a: Alomomola|Alomomola, M|82/100
+|move|p2a: Great Tusk|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|30/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-damage|p2a: Great Tusk|76/100 tox|[from] psn
+|turn|26
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|
+|turn|27
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|33/100
+|
+|switch|p2a: Gholdengo|Gholdengo|77/100|[from] Volt Switch
+|-damage|p2a: Gholdengo|71/100|[from] Stealth Rock
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|83/100
+|
+|turn|28
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Blissey|Blissey, F|92/100
+|
+|turn|29
+|
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] Volt Switch
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|move|p1a: Blissey|Shadow Ball|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|87/100
+|-unboost|p2a: Kingambit|spd|1
+|
+|-heal|p2a: Kingambit|93/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p1a: Talonflame|Talonflame, F|98/100 par
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|turn|31
+|
+|switch|p1a: Blissey|Blissey, F|83/100
+|move|p2a: Rotom|Hydro Pump|p1a: Blissey
+|-damage|p1a: Blissey|69/100
+|
+|turn|32
+|j| PkmTrianerJohn
+|
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|60/100
+|
+|switch|p2a: Kingambit|Kingambit, M|93/100|[from] Volt Switch
+|-damage|p2a: Kingambit|87/100|[from] Stealth Rock
+|move|p1a: Blissey|Shadow Ball|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|80/100
+|
+|-heal|p2a: Kingambit|86/100|[from] item: Leftovers
+|turn|33
+|l| mubfu
+|
+|switch|p1a: Talonflame|Talonflame, F|98/100 par
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|turn|34
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|turn|35
+|
+|switch|p2a: Great Tusk|Great Tusk|76/100 tox
+|-damage|p2a: Great Tusk|73/100 tox|[from] Stealth Rock
+|switch|p1a: Blissey|Blissey, F|60/100
+|
+|-damage|p2a: Great Tusk|67/100 tox|[from] psn
+|turn|36
+|j| kdyg5650
+|
+|switch|p1a: Talonflame|Talonflame, F|98/100 par
+|move|p2a: Great Tusk|Close Combat|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|53/100 par
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-damage|p2a: Great Tusk|54/100 tox|[from] psn
+|turn|37
+|
+|move|p2a: Great Tusk|Close Combat|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|4/100 par
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|54/100 par
+|-singleturn|p1a: Talonflame|move: Roost
+|
+|-damage|p2a: Great Tusk|36/100 tox|[from] psn
+|turn|38
+|
+|move|p2a: Great Tusk|Close Combat|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|3/100 par
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|cant|p1a: Talonflame|par
+|
+|-damage|p2a: Great Tusk|11/100 tox|[from] psn
+|turn|39
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|
+|turn|40
+|l| PkmTrianerJohn
+|j| khilonglang
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|38/100
+|
+|switch|p2a: Kingambit|Kingambit, M|86/100|[from] Volt Switch
+|-damage|p2a: Kingambit|80/100|[from] Stealth Rock
+|move|p1a: Toxapex|Toxic|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|86/100|[from] item: Leftovers
+|turn|41
+|
+|switch|p1a: Alomomola|Alomomola, M|63/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-damage|p1a: Alomomola|37/100
+|
+|-heal|p2a: Kingambit|93/100|[from] item: Leftovers
+|turn|42
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-damage|p1a: Alomomola|10/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|turn|43
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|60/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|44
+|
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|turn|45
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|89/100
+|
+|-heal|p1a: Dondozo|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|46
+|j| Snowdat
+|
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Gholdengo|Gholdengo|71/100
+|-damage|p2a: Gholdengo|65/100|[from] Stealth Rock
+|move|p1a: Dondozo|Liquidation|p2a: Gholdengo
+|-damage|p2a: Gholdengo|36/100
+|
+|turn|47
+|
+|switch|p1a: Blissey|Blissey, F|60/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|86/100
+|
+|turn|48
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|turn|49
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: Blissey
+|-damage|p1a: Blissey|62/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Blissey|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|56/100
+|
+|turn|50
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|51
+|
+|switch|p1a: Alomomola|Alomomola, M|93/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-damage|p1a: Alomomola|64/100
+|
+|turn|52
+|
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|
+|turn|53
+|j| termite nest
+|j| t-yeu
+|
+|switch|p1a: Blissey|Blissey, F|62/100
+|move|p2a: Rotom|Hydro Pump|p1a: Blissey
+|-damage|p1a: Blissey|48/100
+|
+|turn|54
+|j| DukeStarr
+|
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|40/100
+|
+|switch|p2a: Great Tusk|Great Tusk|11/100 tox|[from] Volt Switch
+|-damage|p2a: Great Tusk|8/100 tox|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|90/100
+|
+|-damage|p2a: Great Tusk|2/100 tox|[from] psn
+|turn|55
+|
+|switch|p1a: Alomomola|Alomomola, M|98/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Alomomola
+|-damage|p1a: Alomomola|43/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-damage|p2a: Great Tusk|0 fnt|[from] psn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|56
+|
+|switch|p1a: Blissey|Blissey, F|90/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|57
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|58
+|
+|move|p2a: Volcarona|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|75/100
+|move|p1a: Clodsire|Toxic|p2a: Volcarona
+|-status|p2a: Volcarona|tox
+|
+|-damage|p2a: Volcarona|94/100 tox|[from] psn
+|turn|59
+|
+|switch|p1a: Blissey|Blissey, F|90/100
+|move|p2a: Volcarona|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|64/100
+|
+|-damage|p2a: Volcarona|82/100 tox|[from] psn
+|turn|60
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-damage|p2a: Volcarona|63/100 tox|[from] psn
+|turn|61
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|-heal|p2a: Volcarona|85/100 tox|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|55/100 tox
+|-status|p1a: Blissey|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-damage|p2a: Volcarona|30/100 tox|[from] psn
+|-damage|p1a: Blissey|74/100 brn|[from] brn
+|turn|62
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|56/100 brn
+|-heal|p2a: Volcarona|49/100 tox|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 brn
+|
+|-damage|p2a: Volcarona|17/100 tox|[from] psn
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|turn|63
+|
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Talonflame|Talonflame, F|3/100 par
+|move|p2a: Volcarona|Flamethrower|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-damage|p2a: Volcarona|0 fnt|[from] psn
+|faint|p2a: Volcarona
+|
+|switch|p1a: Alomomola|Alomomola, M|77/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|64
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Rotom|Thunder Wave|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|turn|65
+|
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|86/100
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] Volt Switch
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|66
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|turn|67
+|
+|move|p2a: Kingambit|Iron Head|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|70/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|turn|68
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|88/100
+|
+|-heal|p1a: Dondozo|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|69
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Dragapult|Dragapult, M|94/100
+|-damage|p2a: Dragapult|81/100|[from] Stealth Rock
+|move|p1a: Dondozo|Liquidation|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|62/100
+|
+|-heal|p2a: Dragapult|68/100|[from] item: Leftovers
+|turn|70
+|j| pokemonclh
+|
+|switch|p1a: Clodsire|Clodsire, F|75/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Clodsire
+|-status|p1a: Clodsire|brn
+|
+|-heal|p2a: Dragapult|74/100|[from] item: Leftovers
+|-damage|p1a: Clodsire|68/100 brn|[from] brn
+|turn|71
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|switch|p1a: Blissey|Blissey, F|86/100
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|72
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|turn|73
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-damage|p1a: Alomomola|42/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|turn|74
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|
+|turn|75
+|
+|switch|p1a: Blissey|Blissey, F|86/100
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|77/100
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] Volt Switch
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|76
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|turn|77
+|
+|switch|p1a: Blissey|Blissey, F|77/100
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|68/100
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] Volt Switch
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|78
+|
+|switch|p1a: Alomomola|Alomomola, M|75/100
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|turn|79
+|
+|switch|p1a: Blissey|Blissey, F|68/100
+|move|p2a: Rotom|Hydro Pump|p1a: Blissey
+|-damage|p1a: Blissey|53/100
+|
+|turn|80
+|
+|move|p2a: Rotom|Thunder Wave|p1a: Blissey
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 par
+|
+|turn|81
+|
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Clodsire|Clodsire, F|68/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|-damage|p1a: Clodsire|62/100 brn|[from] brn
+|turn|82
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Clodsire|[miss]
+|-miss|p2a: Rotom|p1a: Clodsire
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100 brn
+|
+|-damage|p1a: Clodsire|94/100 brn|[from] brn
+|turn|83
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|84
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|turn|85
+|j| notslimbutshady
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|81/100
+|cant|p1a: Dondozo|flinch
+|
+|turn|86
+|l| kdyg5650
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Dragapult|Dragapult, M|74/100
+|-damage|p2a: Dragapult|61/100|[from] Stealth Rock
+|move|p1a: Dondozo|Liquidation|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|42/100
+|
+|-heal|p2a: Dragapult|48/100|[from] item: Leftovers
+|turn|87
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|
+|-heal|p2a: Dragapult|54/100|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|turn|88
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Blissey|Shadow Ball|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|87/100
+|
+|-heal|p2a: Kingambit|93/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 brn|[from] brn
+|turn|89
+|l| notslimbutshady
+|
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|turn|90
+|l| xkl666
+|
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|91
+|j| pptickler
+|
+|switch|p1a: Dondozo|Dondozo, F|81/100
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|69/100
+|
+|-heal|p1a: Dondozo|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|92
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|89/100
+|move|p1a: Dondozo|Liquidation|p2a: Kingambit
+|-damage|p2a: Kingambit|80/100
+|
+|-heal|p2a: Kingambit|86/100|[from] item: Leftovers
+|turn|93
+|j| ooppai66
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Dondozo|Body Press|p2a: Rotom
+|-damage|p2a: Rotom|62/100
+|
+|turn|94
+|
+|switch|p1a: Clodsire|Clodsire, F|94/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|-damage|p1a: Clodsire|88/100 brn|[from] brn
+|turn|95
+|l| pptickler
+|
+|switch|p2a: Gholdengo|Gholdengo|56/100
+|-damage|p2a: Gholdengo|50/100|[from] Stealth Rock
+|switch|p1a: Toxapex|Toxapex, M|71/100
+|-damage|p1a: Toxapex|59/100|[from] Stealth Rock
+|
+|turn|96
+|
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|97
+|
+|switch|p1a: Clodsire|Clodsire, F|88/100 brn
+|-terastallize|p2a: Gholdengo|Water
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-damage|p1a: Clodsire|82/100 brn|[from] brn
+|turn|98
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Clodsire|Haze|p1a: Clodsire
+|-clearallboost
+|
+|-damage|p1a: Clodsire|75/100 brn|[from] brn
+|turn|99
+|
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|100
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Blissey|Seismic Toss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|23/100
+|
+|turn|101
+|
+|switch|p1a: Clodsire|Clodsire, F|75/100 brn
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|73/100
+|
+|-damage|p1a: Clodsire|69/100 brn|[from] brn
+|turn|102
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|47/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|97/100 brn
+|
+|-damage|p1a: Clodsire|91/100 brn|[from] brn
+|turn|103
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|66/100 brn
+|-unboost|p1a: Clodsire|spd|1
+|move|p1a: Clodsire|Haze|p1a: Clodsire
+|-clearallboost
+|
+|-damage|p1a: Clodsire|60/100 brn|[from] brn
+|turn|104
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Clodsire|Earthquake|p2a: Gholdengo
+|-damage|p2a: Gholdengo|60/100
+|
+|-damage|p1a: Clodsire|54/100 brn|[from] brn
+|turn|105
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|31/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|81/100 brn
+|
+|-damage|p1a: Clodsire|75/100 brn|[from] brn
+|turn|106
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|53/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100 brn
+|
+|-damage|p1a: Clodsire|94/100 brn|[from] brn
+|turn|107
+|
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|108
+|
+|switch|p1a: Clodsire|Clodsire, F|94/100 brn
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|69/100 brn
+|
+|-damage|p1a: Clodsire|63/100 brn|[from] brn
+|turn|109
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|41/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|91/100 brn
+|
+|-damage|p1a: Clodsire|84/100 brn|[from] brn
+|turn|110
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|60/100 brn
+|move|p1a: Clodsire|Haze|p1a: Clodsire
+|-clearallboost
+|
+|-damage|p1a: Clodsire|54/100 brn|[from] brn
+|turn|111
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100 brn
+|
+|-damage|p1a: Clodsire|94/100 brn|[from] brn
+|turn|112
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Clodsire|Haze|p1a: Clodsire
+|-clearallboost
+|
+|-damage|p1a: Clodsire|88/100 brn|[from] brn
+|turn|113
+|
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|114
+|j| sean amoah
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Blissey|Seismic Toss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|33/100
+|
+|turn|115
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|7/100
+|
+|turn|116
+|l| ooppai66
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|57/100
+|move|p1a: Blissey|Seismic Toss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|30/100
+|
+|turn|117
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: Blissey
+|-damage|p1a: Blissey|29/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Blissey|Seismic Toss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|4/100
+|
+|turn|118
+|l| sean amoah
+|j| Tokantolov
+|
+|switch|p1a: Clodsire|Clodsire, F|88/100 brn
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|54/100
+|
+|-damage|p1a: Clodsire|82/100 brn|[from] brn
+|turn|119
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|58/100 brn
+|move|p1a: Clodsire|Haze|p1a: Clodsire
+|-clearallboost
+|
+|-damage|p1a: Clodsire|52/100 brn|[from] brn
+|turn|120
+|
+|switch|p1a: Blissey|Blissey, F|29/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|121
+|
+|switch|p1a: Toxapex|Toxapex, M|92/100
+|-damage|p1a: Toxapex|79/100|[from] Stealth Rock
+|move|p2a: Gholdengo|Make It Rain|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|turn|122
+|
+|switch|p1a: Blissey|Blissey, F|29/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|turn|123
+|j| Golem Rising
+|j| Jontrendline
+|
+|switch|p1a: Toxapex|Toxapex, M|62/100
+|-damage|p1a: Toxapex|50/100|[from] Stealth Rock
+|move|p2a: Gholdengo|Make It Rain|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|13/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|turn|124
+|j| Tvcticalx
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|125
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|126
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|127
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Blissey|Blissey, F|29/100
+|turn|128
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|79/100
+|
+|turn|129
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Blissey|Seismic Toss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|27/100
+|
+|turn|130
+|
+|switch|p1a: Clodsire|Clodsire, F|52/100 brn
+|move|p2a: Gholdengo|Make It Rain|p1a: Clodsire
+|-damage|p1a: Clodsire|15/100 brn
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-damage|p1a: Clodsire|8/100 brn|[from] brn
+|turn|131
+|
+|switch|p1a: Blissey|Blissey, F|79/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|turn|132
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: Blissey
+|-damage|p1a: Blissey|33/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Blissey|Seismic Toss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|1/100
+|
+|turn|133
+|l| Tvcticalx
+|j| newbie1232
+|
+|switch|p1a: Clodsire|Clodsire, F|8/100 brn
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|51/100
+|
+|-damage|p1a: Clodsire|2/100 brn|[from] brn
+|turn|134
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Dondozo|Dondozo, F|89/100
+|turn|135
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Dondozo
+|-damage|p1a: Dondozo|47/100
+|move|p1a: Dondozo|Body Press|p2a: Gholdengo
+|-damage|p2a: Gholdengo|26/100
+|
+|turn|136
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Dondozo
+|-damage|p1a: Dondozo|7/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|turn|137
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|turn|138
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Dondozo
+|-damage|p1a: Dondozo|58/100 slp
+|-unboost|p1a: Dondozo|spd|1
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Body Press|p2a: Gholdengo|[from]move: Sleep Talk
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|62/100
+|turn|139
+|
+|switch|p1a: Blissey|Blissey, F|33/100
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|24/100
+|l| pokemonclh
+|
+|switch|p2a: Kingambit|Kingambit, M|86/100|[from] Volt Switch
+|-damage|p2a: Kingambit|80/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|
+|-heal|p2a: Kingambit|86/100|[from] item: Leftovers
+|turn|140
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|93/100|[from] item: Leftovers
+|turn|141
+|j| Ran Kob
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-damage|p1a: Alomomola|34/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|turn|142
+|
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Rotom|Rotom-Wash|62/100
+|switch|p1a: Dondozo|Dondozo, F|58/100 slp
+|
+|-heal|p1a: Dondozo|100/100 slp|[from] move: Wish|[wisher] Alomomola
+|turn|143
+|
+|-terastallize|p1a: Dondozo|Dark
+|move|p2a: Rotom|Volt Switch|p1a: Dondozo
+|-damage|p1a: Dondozo|70/100 slp
+|
+|switch|p2a: Dragapult|Dragapult, M|54/100|[from] Volt Switch
+|-damage|p2a: Dragapult|41/100|[from] Stealth Rock
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Liquidation|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|23/100
+|
+|-heal|p2a: Dragapult|29/100|[from] item: Leftovers
+|turn|144
+|
+|move|p2a: Dragapult|Thunder Wave|p1a: Dondozo
+|-status|p1a: Dondozo|par
+|cant|p1a: Dondozo|par
+|
+|-heal|p2a: Dragapult|35/100|[from] item: Leftovers
+|turn|145
+|
+|switch|p2a: Kingambit|Kingambit, M|99/100
+|-damage|p2a: Kingambit|93/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|turn|146
+|
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Rotom|Rotom-Wash|62/100
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Body Press|p2a: Rotom|[from]move: Sleep Talk
+|-damage|p2a: Rotom|26/100
+|
+|turn|147
+|
+|switch|p1a: Alomomola|Alomomola, M|67/100
+|move|p2a: Rotom|Hydro Pump|p1a: Alomomola|[miss]
+|-miss|p2a: Rotom|p1a: Alomomola
+|
+|turn|148
+|j| pokemonclh
+|
+|move|p2a: Rotom|Thunder Wave|p1a: Alomomola
+|-status|p1a: Alomomola|par
+|cant|p1a: Alomomola|par
+|
+|turn|149
+|
+|move|p2a: Rotom|Volt Switch|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|j| Tvcticalx
+|
+|switch|p2a: Kingambit|Kingambit, M|99/100|[from] Volt Switch
+|-damage|p2a: Kingambit|93/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|
+|switch|p1a: Dondozo|Dondozo, F, tera:Dark|100/100 slp
+|turn|150
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-damage|p1a: Dondozo|73/100 slp
+|cant|p1a: Dondozo|slp
+|cant|p1a: Dondozo|flinch
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|151
+|
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Dragapult|Dragapult, M|35/100
+|-damage|p2a: Dragapult|23/100|[from] Stealth Rock
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Body Press|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|29/100|[from] item: Leftovers
+|turn|152
+|j| Berger30
+|l| Berger30
+|
+|move|p2a: Dragapult|Thunder Wave|p1a: Dondozo
+|-status|p1a: Dondozo|par
+|move|p1a: Dondozo|Liquidation|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|10/100
+|
+|-heal|p2a: Dragapult|16/100|[from] item: Leftovers
+|turn|153
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|switch|p1a: Blissey|Blissey, F|24/100
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|154
+|
+|move|p1a: Blissey|Seismic Toss|p2a: Kingambit
+|-damage|p2a: Kingambit|76/100
+|move|p2a: Kingambit|Iron Head|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-heal|p2a: Kingambit|82/100|[from] item: Leftovers
+|
+|switch|p1a: Dondozo|Dondozo, F, tera:Dark|73/100 par
+|turn|155
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|29/100 par
+|cant|p1a: Dondozo|flinch
+|
+|-heal|p2a: Kingambit|88/100|[from] item: Leftovers
+|turn|156
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-damage|p1a: Dondozo|2/100 par
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-heal|p2a: Kingambit|94/100|[from] item: Leftovers
+|turn|157
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-damage|p1a: Dondozo|73/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|158
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-damage|p1a: Dondozo|45/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Body Press|p2a: Kingambit|[from]move: Sleep Talk
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|23/100
+|
+|-heal|p2a: Kingambit|29/100|[from] item: Leftovers
+|turn|159
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-damage|p1a: Dondozo|19/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-heal|p2a: Kingambit|36/100|[from] item: Leftovers
+|turn|160
+|
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Dragapult|Dragapult, M|16/100
+|-damage|p2a: Dragapult|4/100|[from] Stealth Rock
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Dragapult|[from]move: Sleep Talk
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|26/100
+|turn|161
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Dondozo|[miss]
+|-miss|p2a: Rotom|p1a: Dondozo
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Rotom|[from]move: Sleep Talk
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|6/100
+|
+|turn|162
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Dondozo
+|-damage|p1a: Dondozo|51/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Body Press|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|36/100
+|-damage|p2a: Kingambit|29/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|163
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|3/100
+|move|p1a: Dondozo|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|Highv0ltag3
+|l| Jontrendline
+|l| termite nest
+|l| Izuyu
+|l| Golem Rising
+||Ladder isn't responding, score probably updated but might not have (Request timeout).
+|l| DukeStarr
+|j| sufys12
+|j| Jado23
+|j| kekaed24
+|j| TheStrange0ne375
+|j| yomaalt
+|l| LowLadderBreaker
+|j| TheNumberJay
+|j| MAVERICK SHOOTERS
+|j| Holiday
+|j| IExistYouDont
+|j| chessguru101
+|j| ElitemagikarpTaken
+|l| Snowdat
+|l| yomaalt
+|l| Holiday
+|l|☆Avic
+|j|☆Avic
+|player|p2|Avic|schoolkid-gen4dp
+|j| skarmbliss69
+|l| ElitemagikarpTaken
+|l| kekaed24
+|l| Jado23
+|j| BadTerror
+|l| sufys12
+|j| LowLadderBreaker
+|l| LowLadderBreaker
+|l| Tvcticalx
+|l| chessguru101
+|l|☆Avic
+|player|p2|
+|l| TheStrange0ne375
+|j| IsaidIsayRightFoot
+|l| IsaidIsayRightFoot
+|j|☆Avic
+|player|p2|Avic|schoolkid-gen4dp
+|l|☆Avic
+|player|p2|
+|l| khilonglang
+|l| BadTerror
+|l| MAVERICK SHOOTERS
+|j| virgin to rank 1
+|l| pokemonclh
+|l| Tokantolov
+|l| IExistYouDont
+|l| newbie1232
+|j|+Srn
+|l|+Srn
+|l| skarmbliss69
+|j| sufy512
+|l| sufy512
+|j| Flammetta
+|l| Flammetta
+|l| virgin to rank 1
+|j| virgin to rank 1

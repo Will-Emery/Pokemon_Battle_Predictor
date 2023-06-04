@@ -1,0 +1,398 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Zapdos|
+|poke|p1|Heatran, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p2|Glastrier|
+|poke|p2|Magearna|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Meowscarada|Trick|p2a: Magearna
+|-start|p1a: Meowscarada|typechange|Psychic|[from] ability: Protean
+|-activate|p1a: Meowscarada|move: Trick|[of] p2a: Magearna
+|-item|p2a: Magearna|Choice Scarf|[from] move: Trick
+|-item|p1a: Meowscarada|Eject Pack|[from] move: Trick
+|move|p2a: Magearna|Fleur Cannon|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Meowscarada
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|2
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia
+|-damage|p2a: Cresselia|71/100
+|-activate|p2a: Cresselia|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Cresselia|59/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|3
+|
+|move|p1a: Heatran|Taunt|p2a: Cresselia
+|-start|p2a: Cresselia|move: Taunt
+|-enditem|p2a: Cresselia|Mental Herb
+|-end|p2a: Cresselia|move: Taunt
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-damage|p2a: Cresselia|47/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|4
+|
+|move|p1a: Heatran|Taunt|p2a: Cresselia
+|-start|p2a: Cresselia|move: Taunt
+|cant|p2a: Cresselia|move: Taunt|Lunar Dance
+|
+|-damage|p2a: Cresselia|34/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|5
+|
+|move|p1a: Heatran|Stealth Rock|p2a: Cresselia
+|-sidestart|p2: dankiel|move: Stealth Rock
+|move|p2a: Cresselia|Tera Blast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Cresselia|22/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|6
+|
+|move|p1a: Heatran|Stealth Rock||[still]
+|-fail|p1a: Heatran
+|move|p2a: Cresselia|Tera Blast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|95/100
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-end|p2a: Cresselia|Magma Storm|[partiallytrapped]
+|-end|p2a: Cresselia|move: Taunt
+|turn|7
+|
+|move|p1a: Heatran|Taunt|p2a: Cresselia
+|-start|p2a: Cresselia|move: Taunt
+|cant|p2a: Cresselia|move: Taunt|Lunar Dance
+|
+|-fieldend|move: Trick Room
+|turn|8
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Magearna|[miss]
+|-miss|p1a: Heatran|p2a: Magearna
+|
+|turn|9
+|
+|move|p1a: Heatran|Magma Storm|p2a: Magearna|[miss]
+|-miss|p1a: Heatran|p2a: Magearna
+|move|p2a: Magearna|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|44/100
+|
+|-heal|p1a: Heatran|50/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Slowking|[miss]
+|-miss|p1a: Heatran|p2a: Slowking
+|
+|-heal|p1a: Heatran|56/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Heatran|Taunt|p2a: Slowking
+|-start|p2a: Slowking|move: Taunt
+|cant|p2a: Slowking|move: Taunt|Trick Room
+|
+|-heal|p1a: Heatran|62/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Cresselia|Cresselia, F|22/100
+|-damage|p2a: Cresselia|10/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|-heal|p1a: Heatran|68/100|[from] item: Leftovers
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|14
+|
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1a: Walking Wake|Hydro Steam|p2a: Ursaluna
+|-damage|p2a: Ursaluna|43/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-damage|p2a: Ursaluna|37/100 brn|[from] brn
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|15
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Sneasler|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|70/100
+|
+|switch|p1a: Heatran|Heatran, F|68/100|[from] U-turn
+|
+|-heal|p1a: Heatran|75/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Heatran|Magma Storm|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|13/100
+|-activate|p2a: Kingambit|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|81/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|20/100|[from] item: Leftovers
+|-damage|p2a: Kingambit|7/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|17
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Heatran
+|-damage|p1a: Heatran|36/100
+|move|p1a: Heatran|Earth Power|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Heatran|42/100|[from] item: Leftovers
+|
+|switch|p2a: Glastrier|Glastrier|100/100
+|turn|18
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|turn|19
+|
+|switch|p2a: Magearna|Magearna|94/100
+|-damage|p2a: Magearna|88/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Magearna
+|-damage|p2a: Magearna|58/100
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100|[from] Volt Switch
+|
+|turn|20
+|
+|move|p1a: Sneasler|Fake Out|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|52/100
+|cant|p2a: Magearna|flinch
+|
+|turn|21
+|
+|move|p1a: Sneasler|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|3/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|22
+|
+|move|p1a: Sneasler|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Sneasler
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldend|move: Trick Room
+|
+|turn|23
+|
+|move|p1a: Sneasler|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|switch|p1a: Heatran|Heatran, F|42/100|[from] U-turn
+|
+|-heal|p1a: Heatran|49/100|[from] item: Leftovers
+|
+|switch|p2a: Glastrier|Glastrier|100/100
+|turn|24
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|move|p2a: Glastrier|Icicle Crash|p1a: Sneasler
+|-damage|p1a: Sneasler|8/100
+|
+|turn|25
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Sneasler|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|76/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|
+|turn|26
+|
+|move|p1a: Sneasler|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|27
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Ursaluna|Ursaluna, F, tera:Normal|37/100 brn|[from] Chilly Reception
+|-damage|p2a: Ursaluna|24/100 brn|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|switch|p1a: Sneasler|Sneasler, F|8/100|[from] Volt Switch
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Glastrier|Glastrier|100/100
+|turn|28
+|
+|move|p1a: Sneasler|Fake Out|p2a: Glastrier
+|-damage|p2a: Glastrier|94/100
+|cant|p2a: Glastrier|flinch
+|
+|-weather|Snow|[upkeep]
+|turn|29
+|
+|switch|p1a: Heatran|Heatran, F|49/100
+|move|p2a: Glastrier|Icicle Crash|p1a: Heatran|[miss]
+|-miss|p2a: Glastrier|p1a: Heatran
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Heatran|55/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|31
+|
+|switch|p2a: Slowking|Slowking-Galar, M|93/100
+|-damage|p2a: Slowking|80/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|55/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|-weather|none
+|turn|32
+|
+|-terastallize|p1a: Great Tusk|Ground
+|move|p1a: Great Tusk|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-enditem|p2a: Slowking|Shuca Berry|[eat]
+|-enditem|p2a: Slowking|Shuca Berry|[weaken]
+|-damage|p2a: Slowking|13/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|33
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Glastrier|Glastrier|94/100|[from] Chilly Reception
+|move|p1a: Great Tusk|Body Press|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|55/100
+|
+|-weather|Snow|[upkeep]
+|turn|34
+|
+|move|p2a: Glastrier|Icicle Crash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|cant|p1a: Great Tusk|flinch
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Great Tusk|51/100|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Glastrier|Icicle Crash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, F|8/100
+|turn|36
+|
+|switch|p2a: Slowking|Slowking-Galar, M|47/100
+|-damage|p2a: Slowking|34/100|[from] Stealth Rock
+|move|p1a: Sneasler|Fake Out|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|18/100
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|turn|37
+|
+|move|p1a: Sneasler|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|none
+|
+|switch|p2a: Glastrier|Glastrier|55/100
+|turn|38
+|
+|move|p1a: Zapdos|Heat Wave|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|10/100
+|move|p2a: Glastrier|Icicle Crash|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|12/100
+|
+|turn|39
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|
+|win|length times width
+|l|☆dankiel
