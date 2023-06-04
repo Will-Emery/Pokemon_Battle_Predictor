@@ -61,10 +61,10 @@ def clean_replay(replay_file_contents):
     clear_poke_index = replay_lines.index("|clearpoke")
     replay_lines = replay_lines[clear_poke_index + 1:]
 
-    #remove anly lines that start with '|c|', '|t:|', '|upkeep', '|inactive', or '|raw'
+    #remove anly lines that start with '|c|', '|t:|', '|l|', or '|j| '|upkeep', '|inactive', '|raw'
     #'|c' is for chat, '|t' is for time, '|upkeep' is for the upkeep phase, and '|inactive' is for the inactive timer
     #these lines are not needed
-    replay_lines = [line for line in replay_lines if not line.startswith("|c|") and not line.startswith("|t:|") and not line.startswith("|upkeep") and not line.startswith("|inactive") and not line.startswith("|raw")]
+    replay_lines = [line for line in replay_lines if not line.startswith("|c|") and not line.startswith("|t:|") and not line.startswith("|upkeep") and not line.startswith("|inactive") and not line.startswith("|raw") and not line.startswith("|l|") and not line.startswith("|j|")]
 
     for line in replay_lines:
         #replace any instances of the player names with 'p1' or 'p2'
