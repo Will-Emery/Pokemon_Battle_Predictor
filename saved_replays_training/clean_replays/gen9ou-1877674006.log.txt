@@ -32,7 +32,7 @@
 |-end|p2a: Great Tusk|Protosynthesis|[silent]
 |switch|p2a: Kingambit|Kingambit, F|100/100
 |move|p1a: Oatmeal|Reflect|p1a: Oatmeal
-|-sidestart|p1: RoyalSketchbook|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|3
 |
@@ -46,13 +46,13 @@
 |-end|p2a: Kingambit|fallenundefined|[silent]
 |switch|p2a: Garchomp|Garchomp, M|100/100
 |move|p1a: Oatmeal|Light Screen|p1a: Oatmeal
-|-sidestart|p1: RoyalSketchbook|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|5
 |
 |switch|p1a: Senic|Sneasler, M|100/100
 |move|p2a: Garchomp|Spikes|p1a: Senic
-|-sidestart|p1: RoyalSketchbook|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|6
 |
@@ -96,7 +96,7 @@
 |faint|p1a: Rayleigh
 |-hitcount|p1: Rayleigh|1
 |
-|-sideend|p1: RoyalSketchbook|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p1a: Lambda|Goodra-Hisui, M|100/100
 |-damage|p1a: Lambda|88/100|[from] Spikes
@@ -109,12 +109,12 @@
 |turn|11
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Lambda
-|-sidestart|p1: RoyalSketchbook|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Lambda|Dragon Claw|p2a: Great Tusk
 |-damage|p2a: Great Tusk|80/100
 |
 |-heal|p2a: Great Tusk|87/100|[from] item: Leftovers
-|-sideend|p1: RoyalSketchbook|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|12
 |
 |move|p2a: Great Tusk|Knock Off|p1a: Lambda
@@ -247,4 +247,4 @@
 |-damage|p2a: Zapdos|0 fnt
 |faint|p2a: Zapdos
 |
-|win|RoyalSketchbook
+|win|p1

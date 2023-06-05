@@ -111,9 +111,9 @@
 |turn|9
 |
 |move|p1a: Great Tusk|Stealth Rock|p2a: Mammoth Graveyard
-|-sidestart|p2: LaxativeCement|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Mammoth Graveyard|Stealth Rock|p1a: Great Tusk
-|-sidestart|p1: notafatcat|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Great Tusk|96/100|[from] item: Leftovers
@@ -137,7 +137,7 @@
 |move|p2a: Mammoth Graveyard|Rapid Spin|p1a: Great Tusk
 |-damage|p1a: Great Tusk|81/100
 |-boost|p2a: Mammoth Graveyard|spe|1
-|-sideend|p2: LaxativeCement|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mammoth Graveyard
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mammoth Graveyard
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Great Tusk|88/100|[from] item: Leftovers
@@ -146,7 +146,7 @@
 |-end|p2a: Mammoth Graveyard|Protosynthesis|[silent]
 |switch|p2a: Chris Bosh|Charizard, F|76/100
 |move|p1a: Great Tusk|Stealth Rock|p2a: Chris Bosh
-|-sidestart|p2: LaxativeCement|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|none
 |-end|p1a: Great Tusk|Protosynthesis
@@ -160,7 +160,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Chris Bosh
 |-damage|p2a: Chris Bosh|56/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: notafatcat|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |-heal|p1a: Great Tusk|54/100|[from] item: Leftovers
 |turn|14
@@ -311,7 +311,7 @@
 |-resisted|p1a: Magearna
 |-damage|p1a: Magearna|98/100
 |-boost|p2a: PACKWATCH|spe|1
-|-sideend|p2: LaxativeCement|Stealth Rock|[from] move: Rapid Spin|[of] p2a: PACKWATCH
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: PACKWATCH
 |
 |-weather|Snow|[upkeep]
 |-heal|p1a: Magearna|100/100|[from] item: Leftovers
@@ -352,4 +352,4 @@
 |-damage|p1a: Magearna|0 fnt
 |faint|p1a: Magearna
 |
-|win|LaxativeCement
+|win|p2

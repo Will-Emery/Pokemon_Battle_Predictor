@@ -26,7 +26,7 @@
 |-unboost|p2a: Kleavor|def|1
 |-unboost|p2a: Kleavor|spd|1
 |-activate|p1a: 5'7 I'm Messi girl|ability: Toxic Debris
-|-sidestart|p2: Miracle95|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |turn|2
 |
@@ -41,12 +41,12 @@
 |turn|3
 |
 |move|p1a: 5'7 I'm Messi girl|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: Miracle95|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Great Tusk|Earthquake|p1a: 5'7 I'm Messi girl
 |-supereffective|p1a: 5'7 I'm Messi girl
 |-damage|p1a: 5'7 I'm Messi girl|0 fnt
 |-activate|p1a: 5'7 I'm Messi girl|ability: Toxic Debris
-|-sidestart|p2: Miracle95|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: 5'7 I'm Messi girl
 |
 |-damage|p2a: Great Tusk|88/100 psn|[from] psn
@@ -55,7 +55,7 @@
 |turn|4
 |
 |move|p1a: Flog Gnaw|Reflect|p1a: Flog Gnaw
-|-sidestart|p1: jay9ne|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Great Tusk|Knock Off|p1a: Flog Gnaw
 |-supereffective|p1a: Flog Gnaw
 |-damage|p1a: Flog Gnaw|60/100
@@ -66,10 +66,10 @@
 |
 |-end|p2a: Great Tusk|Protosynthesis|[silent]
 |switch|p2a: Sneasler|Sneasler, M, shiny|100/100
-|-sideend|p2: Miracle95|move: Toxic Spikes|[of] p2a: Sneasler
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Sneasler
 |-damage|p2a: Sneasler|95/100|[from] Stealth Rock
 |move|p1a: Flog Gnaw|Light Screen|p1a: Flog Gnaw
-|-sidestart|p1: jay9ne|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|6
 |
@@ -94,10 +94,10 @@
 |
 |switch|p1a: High Profile|Moltres-Galar|100/100
 |move|p2a: Great Tusk|Stealth Rock|p1a: High Profile
-|-sidestart|p1: jay9ne|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-damage|p2a: Great Tusk|48/100 psn|[from] psn
-|-sideend|p1: jay9ne|Reflect
+|-sideend|p1: p1|Reflect
 |turn|9
 |
 |move|p1a: High Profile|Agility|p1a: High Profile
@@ -105,10 +105,10 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: High Profile
 |-damage|p1a: High Profile|76/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: Miracle95|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-damage|p2a: Great Tusk|35/100 psn|[from] psn
-|-sideend|p1: jay9ne|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|10
 |
 |move|p1a: High Profile|Nasty Plot|p1a: High Profile
@@ -239,6 +239,6 @@
 |
 |-heal|p1a: Is that a Foreign?|93/100|[from] item: Leftovers
 |turn|22
-|-message|Miracle95 forfeited.
+|-message|p2 forfeited.
 |
-|win|jay9ne
+|win|p1

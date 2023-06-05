@@ -19,9 +19,9 @@
 |turn|1
 |
 |move|p2a: Glimmora|Stealth Rock|p1a: Ting-Lu
-|-sidestart|p1: IC1|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Ting-Lu|Stealth Rock|p2a: Glimmora
-|-sidestart|p2: Nyapoti|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
@@ -29,13 +29,13 @@
 |-resisted|p1a: Ting-Lu
 |-damage|p1a: Ting-Lu|99/100
 |-status|p1a: Ting-Lu|psn
-|-sideend|p2: Nyapoti|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|-sideend|p2: p2|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
 |move|p1a: Ting-Lu|Earthquake|p2a: Glimmora
 |-supereffective|p2a: Glimmora
 |-enditem|p2a: Glimmora|Focus Sash
 |-damage|p2a: Glimmora|1/100
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: IC1|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-heal|p1a: Ting-Lu|100/100 psn|[from] item: Leftovers
 |-damage|p1a: Ting-Lu|88/100 psn|[from] psn
@@ -64,7 +64,7 @@
 |move|p2a: Zapdos|Heat Wave|p1a: Ting-Lu
 |-damage|p1a: Ting-Lu|65/100 psn
 |move|p1a: Ting-Lu|Stealth Rock|p2a: Zapdos
-|-sidestart|p2: Nyapoti|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Ting-Lu|72/100 psn|[from] item: Leftovers
 |-damage|p1a: Ting-Lu|59/100 psn|[from] psn
@@ -168,7 +168,7 @@
 |
 |switch|p2a: Glimmora|Glimmora, F|1/100
 |-damage|p2a: Glimmora|0 fnt|[from] Stealth Rock
-|-sideend|p2: Nyapoti|move: Toxic Spikes|[of] p2a: Glimmora
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Glimmora
 |faint|p2a: Glimmora
 |move|p1a: Rotom|Protect||[still]
 |-fail|p1a: Rotom
@@ -245,4 +245,4 @@
 |-damage|p2a: Zapdos|0 fnt
 |faint|p2a: Zapdos
 |
-|win|IC1
+|win|p1

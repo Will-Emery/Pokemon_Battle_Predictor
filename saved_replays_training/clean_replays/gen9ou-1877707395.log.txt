@@ -20,14 +20,14 @@
 |move|p1a: Sobble|Aqua Jet|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|87/100
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: StoneGrove|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|2
 |
 |move|p1a: Sobble|Protect|p1a: Sobble
 |-singleturn|p1a: Sobble|Protect
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: StoneGrove|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|3
 |
@@ -81,7 +81,7 @@
 |-unboost|p1a: Perrserker|def|1
 |-unboost|p1a: Perrserker|spd|1
 |
-|-sideend|p2: StoneGrove|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|9
 |
 |move|p2a: Zamazenta|Body Press|p1a: Perrserker
@@ -89,7 +89,7 @@
 |-damage|p1a: Perrserker|0 fnt
 |faint|p1a: Perrserker
 |
-|-sideend|p2: StoneGrove|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p1a: Sobble|Sobble, M|100/100
 |turn|10
@@ -197,4 +197,4 @@
 |-damage|p1a: Arcanine|0 fnt
 |faint|p1a: Arcanine
 |
-|win|StoneGrove
+|win|p2

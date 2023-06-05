@@ -60,7 +60,7 @@
 |turn|4
 |
 |move|p2a: Kilowattrel|Tailwind|p2a: Kilowattrel
-|-sidestart|p2: Drammock|move: Tailwind
+|-sidestart|p2: p2|move: Tailwind
 |-start|p2a: Kilowattrel|Charge|Tailwind|[from] ability: Wind Power
 |move|p1a: Great Tusk|Knock Off|p2a: Kilowattrel
 |-damage|p2a: Kilowattrel|49/100
@@ -96,13 +96,13 @@
 |-unboost|p1a: Great Tusk|spd|1
 |-damage|p1a: Great Tusk|2/100 psn|[from] item: Rocky Helmet|[of] p2a: Glimmora
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: Lionsrneat|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-weather|SunnyDay|[upkeep]
 |-damage|p1a: Great Tusk|0 fnt|[from] psn
 |faint|p1a: Great Tusk
 |-end|p1a: Great Tusk|Protosynthesis|[silent]
-|-sideend|p2: Drammock|move: Tailwind
+|-sideend|p2: p2|move: Tailwind
 |
 |switch|p1a: Tornadus|Tornadus-Therian, M|100/100
 |turn|8
@@ -139,7 +139,7 @@
 |-status|p1a: Torkoal|psn
 |-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
 |move|p2a: Kilowattrel|Tailwind|p2a: Kilowattrel
-|-sidestart|p2: Drammock|move: Tailwind
+|-sidestart|p2: p2|move: Tailwind
 |-start|p2a: Kilowattrel|Charge|Tailwind|[from] ability: Wind Power
 |
 |-weather|SunnyDay|[upkeep]
@@ -180,7 +180,7 @@
 |-fail|p2a: Garchomp
 |
 |-weather|SunnyDay|[upkeep]
-|-sideend|p2: Drammock|move: Tailwind
+|-sideend|p2: p2|move: Tailwind
 |
 |switch|p1a: Walking Wake|Walking Wake|100/100
 |-status|p1a: Walking Wake|psn
@@ -263,4 +263,4 @@
 |faint|p2a: Volcarona
 |-damage|p1a: Lilligant|43/100 psn|[from] item: Life Orb
 |
-|win|Lionsrneat
+|win|p1

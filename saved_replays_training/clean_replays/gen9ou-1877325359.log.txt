@@ -22,7 +22,7 @@
 |-damage|p1a: AHHHHHHHHHHHH|41/100
 |-status|p1a: AHHHHHHHHHHHH|psn
 |move|p1a: AHHHHHHHHHHHH|Light Screen|p1a: AHHHHHHHHHHHH
-|-sidestart|p1: Ptok|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-heal|p1a: AHHHHHHHHHHHH|47/100 psn|[from] item: Leftovers
 |-damage|p1a: AHHHHHHHHHHHH|35/100 psn|[from] psn
@@ -59,14 +59,14 @@
 |turn|5
 |
 |move|p2a: The Rock|Reflect|p2a: The Rock
-|-sidestart|p2: Raptors4TheChip|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: The Dead Sea|Body Press|p2a: The Rock
 |-damage|p2a: The Rock|53/100
 |-damage|p1a: The Dead Sea|82/100|[from] item: Rocky Helmet|[of] p2a: The Rock
 |
 |-heal|p1a: The Dead Sea|89/100|[from] item: Leftovers
 |-damage|p2a: The Rock|29/100|[from] Salt Cure
-|-sideend|p1: Ptok|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|6
 |
 |switch|p2a: Randy Savage|Toxtricity, F|100/100
@@ -102,11 +102,11 @@
 |move|p1a: The Dead Sea|Recover|p1a: The Dead Sea
 |-heal|p1a: The Dead Sea|100/100
 |
-|-sideend|p2: Raptors4TheChip|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |move|p2a: The Rock|Reflect|p2a: The Rock
-|-sidestart|p2: Raptors4TheChip|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: The Dead Sea|Salt Cure|p2a: The Rock
 |-resisted|p2a: The Rock
 |-damage|p2a: The Rock|25/100
@@ -161,7 +161,7 @@
 |-damage|p2a: Randy Savage|21/100
 |
 |-heal|p1a: The Dead Sea|58/100|[from] item: Leftovers
-|-sideend|p2: Raptors4TheChip|Reflect
+|-sideend|p2: p2|Reflect
 |turn|15
 |
 |move|p2a: Randy Savage|Overdrive|p1a: The Dead Sea
@@ -262,7 +262,7 @@
 |turn|23
 |
 |move|p1a: AHHHHHHHHHHHH|Reflect|p1a: AHHHHHHHHHHHH
-|-sidestart|p1: Ptok|Reflect
+|-sidestart|p1: p1|Reflect
 |cant|p2a: The Undertaker|par
 |
 |-heal|p1a: AHHHHHHHHHHHH|29/100 psn|[from] item: Leftovers
@@ -321,7 +321,7 @@
 |-boost|p2a: John Cena|atk|1
 |-boost|p2a: John Cena|spe|1
 |
-|-sideend|p1: Ptok|Reflect
+|-sideend|p1: p1|Reflect
 |turn|28
 |
 |move|p1a: Last Dance (T)|Population Bomb|p2a: John Cena
@@ -334,4 +334,4 @@
 |faint|p2a: John Cena
 |-hitcount|p2: John Cena|6
 |
-|win|Ptok
+|win|p1

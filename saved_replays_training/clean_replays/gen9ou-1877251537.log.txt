@@ -20,15 +20,15 @@
 |
 |switch|p2a: Skull Kid|Clodsire, M|100/100
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: Knowledgini|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-weather|RainDance|[upkeep]
 |turn|2
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: Knowledgini|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Skull Kid|Spikes|p1a: Dragapult
-|-sidestart|p1: Knowledgini|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |turn|3
@@ -37,7 +37,7 @@
 |-start|p2a: Skull Kid|Curse|[of] p1a: Dragapult
 |-damage|p1a: Dragapult|50/100
 |move|p2a: Skull Kid|Spikes|p1a: Dragapult
-|-sidestart|p1: Knowledgini|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |-damage|p2a: Skull Kid|75/100|[from] Curse
@@ -50,7 +50,7 @@
 |switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
 |-damage|p1a: Great Tusk|84/100|[from] Spikes
 |move|p2a: Skull Kid|Spikes|p1a: Great Tusk
-|-sidestart|p1: Knowledgini|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Great Tusk|90/100|[from] item: Leftovers
@@ -95,7 +95,7 @@
 |faint|p1a: Ursaluna
 |
 |-weather|none
-|-sideend|p1: Knowledgini|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p1a: Magearna|Magearna|100/100
 |-damage|p1a: Magearna|76/100|[from] Spikes
@@ -107,7 +107,7 @@
 |-boost|p1a: Magearna|atk|1
 |
 |-heal|p2a: Skull Kid|53/100|[from] item: Black Sludge
-|-sideend|p1: Knowledgini|Reflect
+|-sideend|p1: p1|Reflect
 |turn|10
 |
 |move|p1a: Magearna|Iron Defense|p1a: Magearna
@@ -182,6 +182,6 @@
 |-boost|p1a: Magearna|spa|1
 |
 |-weather|RainDance|[upkeep]
-|-message|first time raining forfeited.
+|-message|p2 forfeited.
 |
-|win|Knowledgini
+|win|p1

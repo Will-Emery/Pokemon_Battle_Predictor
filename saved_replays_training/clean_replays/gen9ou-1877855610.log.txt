@@ -19,7 +19,7 @@
 |
 |move|p1a: Samurott|Ceaseless Edge|p2a: Rotom
 |-damage|p2a: Rotom|46/100
-|-sidestart|p2: Treantomologist|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Rotom|Thunderbolt|p1a: Samurott
 |-supereffective|p1a: Samurott
 |-enditem|p1a: Samurott|Focus Sash
@@ -32,7 +32,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Magearna
 |-resisted|p2a: Magearna
 |-damage|p2a: Magearna|70/100
-|-sidestart|p2: Treantomologist|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Magearna|76/100|[from] item: Leftovers
 |turn|3
@@ -63,9 +63,9 @@
 |turn|5
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Dragapult
-|-sidestart|p1: cabforpitt|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: cabforpitt|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|6
 |
@@ -81,7 +81,7 @@
 |-damage|p2a: Chien-Pao|84/100|[from] Spikes
 |-ability|p2a: Chien-Pao|Sword of Ruin
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: cabforpitt|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|7
 |
@@ -144,7 +144,7 @@
 |move|p2a: Cresselia|Trick Room|p2a: Cresselia
 |-fieldstart|move: Trick Room|[of] p2a: Cresselia
 |
-|-sideend|p1: cabforpitt|Reflect
+|-sideend|p1: p1|Reflect
 |turn|13
 |
 |move|p2a: Cresselia|Psychic|p1a: Zamazenta
@@ -153,7 +153,7 @@
 |-resisted|p2a: Cresselia
 |-damage|p2a: Cresselia|32/100
 |
-|-sideend|p1: cabforpitt|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|14
 |
 |move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
@@ -208,5 +208,5 @@
 |-boost|p1a: Volcarona|spa|1
 |faint|p2a: Magearna
 |
-|win|cabforpitt
-|player|p2|Treantomologist|guitarist
+|win|p1
+|player|p2|p2|guitarist

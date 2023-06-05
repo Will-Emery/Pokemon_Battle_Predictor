@@ -17,7 +17,7 @@
 |switch|p2a: Ursaluna|Ursaluna, F|100/100
 |turn|1
 |player|p1|
-|player|p1|The Gallade Man|wally
+|player|p1|p1|wally
 |
 |switch|p1a: Rillaboom|Rillaboom, M|100/100
 |-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
@@ -94,7 +94,7 @@
 |turn|8
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: godpartikle|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Magearna|Volt Switch|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|95/100
@@ -108,7 +108,7 @@
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|20/100
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: godpartikle|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-heal|p2a: Dragapult|26/100|[from] Grassy Terrain
 |turn|10
@@ -142,7 +142,7 @@
 |
 |turn|13
 |player|p1|
-|player|p1|The Gallade Man|wally
+|player|p1|p1|wally
 |
 |switch|p2a: Zamazenta|Zamazenta|100/100
 |switch|p1a: Cinderace|Cinderace, M|100/100
@@ -164,7 +164,7 @@
 |-damage|p2a: Zamazenta|76/100
 |
 |-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
-|-sideend|p1: The Gallade Man|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|16
 |
 |switch|p2a: Dragapult|Dragapult, F|32/100
@@ -173,7 +173,7 @@
 |-damage|p2a: Dragapult|0 fnt
 |faint|p2a: Dragapult
 |
-|-sideend|p1: The Gallade Man|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: Sneasler|Sneasler, M|100/100
 |-item|p2a: Sneasler|Air Balloon
@@ -289,4 +289,4 @@
 |-damage|p2a: Volcarona|0 fnt
 |faint|p2a: Volcarona
 |
-|win|The Gallade Man
+|win|p1

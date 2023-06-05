@@ -45,22 +45,22 @@
 |
 |switch|p2a: Great Tusk|Great Tusk|100/100
 |move|p1a: Ting-Lu|Spikes|p2a: Great Tusk
-|-sidestart|p2: gunk in ma troat|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|4
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Ting-Lu
-|-sidestart|p1: williamcostiganjr|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Ting-Lu|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: gunk in ma troat|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|5
 |
 |move|p2a: Great Tusk|Rapid Spin|p1a: Ting-Lu
 |-damage|p1a: Ting-Lu|93/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: gunk in ma troat|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
-|-sideend|p2: gunk in ma troat|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |-enditem|p1a: Ting-Lu|Red Card|[of] p2a: Great Tusk
 |-end|p2a: Great Tusk|Protosynthesis|[silent]
 |drag|p2a: Iron Valiant|Iron Valiant|100/100
@@ -68,7 +68,7 @@
 |-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
 |-start|p2a: Iron Valiant|quarkdrivespe
 |move|p1a: Ting-Lu|Spikes|p2a: Iron Valiant
-|-sidestart|p2: gunk in ma troat|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|6
 |
@@ -118,7 +118,7 @@
 |turn|10
 |
 |move|p1a: Ting-Lu|Spikes|p2a: Ting-Lu
-|-sidestart|p2: gunk in ma troat|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Ting-Lu|Earthquake|p1a: Ting-Lu
 |-supereffective|p1a: Ting-Lu
 |-damage|p1a: Ting-Lu|4/100
@@ -127,7 +127,7 @@
 |turn|11
 |
 |move|p1a: Ting-Lu|Stealth Rock|p2a: Ting-Lu
-|-sidestart|p2: gunk in ma troat|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Ting-Lu|Earthquake|p1a: Ting-Lu
 |-supereffective|p1a: Ting-Lu
 |-damage|p1a: Ting-Lu|0 fnt
@@ -288,4 +288,4 @@
 |-unboost|p1a: Gholdengo|spa|1
 |faint|p2a: Gholdengo
 |
-|win|williamcostiganjr
+|win|p1

@@ -18,13 +18,13 @@
 |turn|1
 |
 |move|p1a: Glimmora|Stealth Rock|p2a: Goodra
-|-sidestart|p2: igneo3000|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Goodra|Earthquake|p1a: Glimmora
 |-supereffective|p1a: Glimmora
 |-enditem|p1a: Glimmora|Focus Sash
 |-damage|p1a: Glimmora|1/100
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: igneo3000|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |turn|2
 |
@@ -35,7 +35,7 @@
 |-supereffective|p1a: Glimmora
 |-damage|p1a: Glimmora|0 fnt
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: igneo3000|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Glimmora
 |
 |
@@ -43,7 +43,7 @@
 |turn|3
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: Seem22|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Goodra|Iron Head|p1a: Grimmsnarl
 |-supereffective|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|67/100
@@ -52,7 +52,7 @@
 |
 |switch|p2a: Drifblim|Drifblim, M|100/100
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: Seem22|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|5
 |
@@ -63,10 +63,10 @@
 |switch|p1a: Magearna|Magearna|100/100|[from] Parting Shot
 |move|p2a: Drifblim|Defog|p1a: Magearna
 |-unboost|p1a: Magearna|evasion|1
-|-sideend|p1: Seem22|Reflect
-|-sideend|p1: Seem22|move: Light Screen
-|-sideend|p2: igneo3000|Toxic Spikes|[from] move: Defog|[of] p2a: Drifblim
-|-sideend|p2: igneo3000|Stealth Rock|[from] move: Defog|[of] p2a: Drifblim
+|-sideend|p1: p1|Reflect
+|-sideend|p1: p1|move: Light Screen
+|-sideend|p2: p2|Toxic Spikes|[from] move: Defog|[of] p2a: Drifblim
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Drifblim
 |
 |turn|6
 |
@@ -85,7 +85,7 @@
 |turn|8
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: Seem22|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Diancie|Diamond Storm|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|24/100 brn
 |-boost|p2a: Diancie|def|2
@@ -94,7 +94,7 @@
 |turn|9
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: Seem22|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Diancie|Diamond Storm|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|0 fnt
 |-boost|p2a: Diancie|def|2
@@ -158,7 +158,7 @@
 |move|p2a: Diancie|Play Rough|p1a: Lilligant
 |-damage|p1a: Lilligant|49/100
 |
-|-sideend|p1: Seem22|Reflect
+|-sideend|p1: p1|Reflect
 |turn|16
 |
 |move|p1a: Lilligant|Leaf Blade|p2a: Diancie
@@ -167,8 +167,8 @@
 |-damage|p2a: Diancie|0 fnt
 |faint|p2a: Diancie
 |
-|-sideend|p1: Seem22|move: Light Screen
-|n|!Seem22|seem22
+|-sideend|p1: p1|move: Light Screen
+|n|!p1|seem22
 |
 |switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
 |turn|17
@@ -190,6 +190,6 @@
 |-damage|p2a: Braviary|0 fnt
 |faint|p2a: Braviary
 |
-|-message|igneo3000 forfeited.
+|-message|p2 forfeited.
 |
-|win|Seem22
+|win|p1

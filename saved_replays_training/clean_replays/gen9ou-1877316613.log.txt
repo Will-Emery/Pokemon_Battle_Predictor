@@ -49,7 +49,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Basculegion
 |-supereffective|p1a: Basculegion
 |-damage|p1a: Basculegion|0 fnt
-|-sidestart|p1: KingdomPlebs|Spikes
+|-sidestart|p1: p1|Spikes
 |faint|p1a: Basculegion
 |
 |
@@ -61,7 +61,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Walking Wake
 |-damage|p2a: Walking Wake|85/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: KingdomPlebs|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |-heal|p1a: Great Tusk|94/100|[from] item: Leftovers
 |turn|6
@@ -94,7 +94,7 @@
 |-start|p1a: Hydreigon|Substitute
 |-damage|p1a: Hydreigon|76/100
 |move|p2a: Great Tusk|Stealth Rock|p1a: Hydreigon
-|-sidestart|p1: KingdomPlebs|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p1a: Hydreigon|82/100|[from] item: Leftovers
 |-heal|p2a: Great Tusk|33/100|[from] item: Leftovers
@@ -157,7 +157,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Torkoal
 |-damage|p2a: Torkoal|27/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: KingdomPlebs|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Torkoal|Will-O-Wisp|p1a: Great Tusk|[miss]
 |-miss|p2a: Torkoal|p1a: Great Tusk
 |
@@ -298,4 +298,4 @@
 |faint|p2a: Walking Wake
 |-end|p2a: Walking Wake|Protosynthesis|[silent]
 |
-|win|KingdomPlebs
+|win|p1

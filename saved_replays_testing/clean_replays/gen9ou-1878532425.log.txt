@@ -1,0 +1,84 @@
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Heatran, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kleavor, M|
+|poke|p2|Azumarill, M|
+|poke|p2|Skeledirge, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Sneasler, M|
+|poke|p2|Great Tusk|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Femboy III|Azumarill, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|move|p2a: Femboy III|Belly Drum|p2a: Femboy III
+|-damage|p2a: Femboy III|50/100
+|-setboost|p2a: Femboy III|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Femboy III|Sitrus Berry|[eat]
+|-heal|p2a: Femboy III|75/100|[from] item: Sitrus Berry
+|
+|turn|2
+|
+|move|p2a: Femboy III|Aqua Jet|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Femboy III|atk|1
+|turn|3
+|
+|move|p2a: Femboy III|Aqua Jet|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|4
+|
+|move|p2a: Femboy III|Aqua Jet|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|5
+|
+|move|p1a: Urshifu|Thunder Punch|p2a: Femboy III
+|-supereffective|p2a: Femboy III
+|-damage|p2a: Femboy III|20/100
+|move|p2a: Femboy III|Trailblaze|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-boost|p2a: Femboy III|spe|1
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|move|p2a: Femboy III|Aqua Jet|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|7
+|
+|move|p2a: Femboy III|Aqua Jet|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|

@@ -23,7 +23,7 @@
 |turn|1
 |
 |move|p2a: Iron Treads|Stealth Rock|p1a: Landorus
-|-sidestart|p1: Ctannn|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Landorus|Earthquake|p2a: Iron Treads
 |-supereffective|p2a: Iron Treads
 |-damage|p2a: Iron Treads|8/100
@@ -75,7 +75,7 @@
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|78/100
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Sawkuro|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|7
 |
@@ -83,7 +83,7 @@
 |-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
 |-item|p1a: Gholdengo|Air Balloon
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Sawkuro|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|8
 |
@@ -116,7 +116,7 @@
 |
 |move|p1a: Samurott|Ceaseless Edge|p2a: Volcarona
 |-damage|p2a: Volcarona|35/100 par
-|-sidestart|p2: Sawkuro|Spikes
+|-sidestart|p2: p2|Spikes
 |-status|p1a: Samurott|brn|[from] ability: Flame Body|[of] p2a: Volcarona
 |move|p2a: Volcarona|Bug Buzz|p1a: Samurott
 |-supereffective|p1a: Samurott
@@ -134,7 +134,7 @@
 |-resisted|p1a: Iron Moth
 |-damage|p1a: Iron Moth|64/100
 |
-|-sideend|p2: Sawkuro|Reflect
+|-sideend|p2: p2|Reflect
 |turn|14
 |
 |move|p1a: Iron Moth|Fiery Dance|p2a: Volcarona
@@ -142,14 +142,14 @@
 |-boost|p1a: Iron Moth|spa|1
 |faint|p2a: Volcarona
 |
-|-sideend|p2: Sawkuro|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p2a: Dragapult|Dragapult, M|78/100
 |-damage|p2a: Dragapult|65/100|[from] Spikes
 |turn|15
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Sawkuro|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Iron Moth|Dazzling Gleam|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|14/100
@@ -233,7 +233,7 @@
 |-activate|p2a: Zamazenta|move: Substitute|[damage]
 |
 |-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
-|-sideend|p2: Sawkuro|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|23
 |
 |move|p2a: Zamazenta|Crunch|p1a: Gholdengo
@@ -280,4 +280,4 @@
 |-damage|p1a: Chien-Pao|0 fnt
 |faint|p1a: Chien-Pao
 |
-|win|Sawkuro
+|win|p2

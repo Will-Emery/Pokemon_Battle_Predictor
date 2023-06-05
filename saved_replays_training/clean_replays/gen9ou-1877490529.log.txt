@@ -20,7 +20,7 @@
 |switch|p1a: Arboliva|Arboliva, F|100/100
 |move|p2a: Edgelord|Ceaseless Edge|p1a: Arboliva
 |-damage|p1a: Arboliva|51/100
-|-sidestart|p1: Alexagide|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|2
 |
@@ -28,7 +28,7 @@
 |move|p2a: Edgelord|Ceaseless Edge|p1a: Arboliva
 |-resisted|p1a: Arboliva
 |-damage|p1a: Arboliva|27/100
-|-sidestart|p1: Alexagide|Spikes
+|-sidestart|p1: p1|Spikes
 |-enditem|p1a: Arboliva|Sitrus Berry|[eat]
 |-heal|p1a: Arboliva|51/100|[from] item: Sitrus Berry
 |move|p1a: Arboliva|Giga Drain|p2a: Edgelord
@@ -96,7 +96,7 @@
 |turn|8
 |
 |move|p2a: Drop A|Light Screen|p2a: Drop A
-|-sidestart|p2: Allradarmons|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Indeedee|Dazzling Gleam|p2a: Drop A
 |-supereffective|p2a: Drop A
 |-damage|p2a: Drop A|79/100
@@ -104,7 +104,7 @@
 |turn|9
 |
 |move|p2a: Drop A|Reflect|p2a: Drop A
-|-sidestart|p2: Allradarmons|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Indeedee|Encore|p2a: Drop A
 |-start|p2a: Drop A|Encore
 |
@@ -162,7 +162,7 @@
 |-damage|p1a: Armarouge|0 fnt
 |faint|p1a: Armarouge
 |
-|-sideend|p2: Allradarmons|move: Light Screen
-|-message|Alexagide forfeited.
+|-sideend|p2: p2|move: Light Screen
+|-message|p1 forfeited.
 |
-|win|Allradarmons
+|win|p2

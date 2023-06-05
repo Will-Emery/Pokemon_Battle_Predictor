@@ -51,9 +51,9 @@
 |move|p1a: Kleavor|Stone Axe|p2a: Ting-Lu
 |-resisted|p2a: Ting-Lu
 |-damage|p2a: Ting-Lu|86/100
-|-sidestart|p2: PedroGreg|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Ting-Lu|Stealth Rock|p1a: Kleavor
-|-sidestart|p1: Nayotake|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Ting-Lu|92/100|[from] item: Leftovers
 |turn|5
@@ -228,8 +228,8 @@
 |-damage|p1a: Meowscarada|29/100|[from] Stealth Rock
 |move|p2a: Corviknight|Defog|p1a: Meowscarada
 |-unboost|p1a: Meowscarada|evasion|1
-|-sideend|p1: Nayotake|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: PedroGreg|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |-damage|p2a: Corviknight|24/100 tox|[from] psn
 |turn|24
@@ -309,7 +309,7 @@
 |switch|p2a: Ting-Lu|Ting-Lu|34/100|[from] U-turn
 |-ability|p2a: Ting-Lu|Vessel of Ruin
 |move|p1a: Clodsire|Spikes|p2a: Ting-Lu
-|-sidestart|p2: PedroGreg|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Ting-Lu|41/100|[from] item: Leftovers
 |-heal|p1a: Clodsire|64/100|[from] item: Leftovers
@@ -382,9 +382,9 @@
 |faint|p2a: Iron Valiant
 |-end|p2a: Iron Valiant|Quark Drive|[silent]
 |
-|win|Nayotake
-|n|☆Nayotake|nayotake
-|n|☆PedroGreg|pedrogreg
+|win|p1
+|n|☆p1|nayotake
+|n|☆p2|pedrogreg
 |n| Always Close|alwaysclose
 |n| PokeChess|pokechess
 |n| E63593|e63593

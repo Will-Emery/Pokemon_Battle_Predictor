@@ -21,12 +21,12 @@
 |-ability|p1a: Lando|Intimidate|boost
 |-unboost|p2a: Dragapult|atk|1
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: sneets|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|2
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: sneets|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Lando|Taunt|p2a: Dragapult
 |-start|p2a: Dragapult|move: Taunt
 |
@@ -55,7 +55,7 @@
 |
 |switch|p1a: Akainu|Heatran, M|100/100|[from] U-turn
 |move|p2a: Enamorus|Tailwind|p2a: Enamorus
-|-sidestart|p2: sneets|move: Tailwind
+|-sidestart|p2: p2|move: Tailwind
 |
 |-heal|p2a: Enamorus|100/100|[from] item: Leftovers
 |turn|6
@@ -84,8 +84,8 @@
 |-damage|p2a: Enamorus|93/100
 |
 |-heal|p2a: Enamorus|99/100|[from] item: Leftovers
-|-sideend|p2: sneets|move: Light Screen
-|-sideend|p2: sneets|move: Tailwind
+|-sideend|p2: p2|move: Light Screen
+|-sideend|p2: p2|move: Tailwind
 |turn|9
 |
 |move|p2a: Enamorus|Calm Mind|p2a: Enamorus
@@ -100,7 +100,7 @@
 |-end|p2a: Enamorus|move: Future Sight
 |-damage|p2a: Enamorus|83/100
 |-heal|p2a: Enamorus|89/100|[from] item: Leftovers
-|-sideend|p2: sneets|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |-terastallize|p1a: Bruce Lee|Water
@@ -202,12 +202,12 @@
 |move|p1a: King of the hill|Sucker Punch||[still]
 |-fail|p1a: King of the hill
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: sneets|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|18
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: sneets|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: King of the hill|Kowtow Cleave|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|0 fnt
@@ -248,6 +248,6 @@
 |-damage|p2a: Magearna|0 fnt
 |faint|p2a: Magearna
 |
-|-message|sneets forfeited.
+|-message|p2 forfeited.
 |
-|win|Lemousine
+|win|p1

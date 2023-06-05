@@ -20,7 +20,7 @@
 |turn|1
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: IM BACK BOYS
-|-sidestart|p1: fuub|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: IM BACK BOYS|Taunt|p2a: Great Tusk
 |-start|p2a: Great Tusk|move: Taunt
 |
@@ -31,14 +31,14 @@
 |-damage|p2a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p1a: IM BACK BOYS
 |-enditem|p1a: IM BACK BOYS|Rocky Helmet|[from] move: Knock Off|[of] p2a: Great Tusk
 |move|p1a: IM BACK BOYS|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: DarkCosmicLand|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|3
 |
 |move|p2a: Great Tusk|Rapid Spin|p1a: IM BACK BOYS
 |-damage|p1a: IM BACK BOYS|74/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: DarkCosmicLand|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |move|p1a: IM BACK BOYS|U-turn|p2a: Great Tusk
 |-resisted|p2a: Great Tusk
 |-damage|p2a: Great Tusk|75/100
@@ -139,7 +139,7 @@
 |
 |cant|p2a: Roaring Moon|par
 |move|p1a: IM BACK BOYS|Stealth Rock|p2a: Roaring Moon
-|-sidestart|p2: DarkCosmicLand|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|13
 |
@@ -191,7 +191,7 @@
 |-terastallize|p1a: NoPainNoGain|Fairy
 |move|p1a: NoPainNoGain|Ceaseless Edge|p2a: Rotom
 |-damage|p2a: Rotom|31/100
-|-sidestart|p2: DarkCosmicLand|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Rotom|Volt Switch|p1a: NoPainNoGain
 |-damage|p1a: NoPainNoGain|73/100
 |
@@ -289,6 +289,6 @@
 |-damage|p1a: NoPainNoGain|0 fnt
 |faint|p1a: NoPainNoGain
 |
-|win|DarkCosmicLand
-|n|☆fuub|fuub
-|n|☆DarkCosmicLand|darkcosmicland
+|win|p2
+|n|☆p1|p1
+|n|☆p2|darkcosmicland

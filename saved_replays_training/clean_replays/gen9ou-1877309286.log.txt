@@ -19,13 +19,13 @@
 |
 |switch|p1a: Great Tusk|Great Tusk, shiny|100/100
 |move|p2a: Garchomp|Spikes|p1a: Great Tusk
-|-sidestart|p1: Kishon234|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|2
 |
 |switch|p2a: Basculegion|Basculegion-F, F, shiny|100/100
 |move|p1a: Great Tusk|Stealth Rock|p2a: Basculegion
-|-sidestart|p2: donkkut|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|3
 |
@@ -142,7 +142,7 @@
 |switch|p2a: Meowscarada|Meowscarada, F|76/100
 |-damage|p2a: Meowscarada|64/100|[from] Stealth Rock
 |move|p1a: Garchomp|Spikes|p2a: Meowscarada
-|-sidestart|p2: donkkut|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|14
 |
@@ -232,8 +232,8 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Zapdos
 |-damage|p1a: Zapdos|49/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: donkkut|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
-|-sideend|p2: donkkut|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-heal|p2a: Great Tusk|62/100|[from] item: Leftovers
 |turn|22
@@ -407,4 +407,4 @@
 |faint|p1a: Kingambit
 |-end|p1a: Kingambit|fallen5|[silent]
 |
-|win|donkkut
+|win|p2

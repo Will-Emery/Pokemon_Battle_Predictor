@@ -25,14 +25,14 @@
 |-unboost|p1a: MAGNETUDE|spd|1
 |-enditem|p1a: MAGNETUDE|Eject Pack
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: Eternal Spirit|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-end|p1a: MAGNETUDE|Protosynthesis|[silent]
 |switch|p1a: PROMINENCE|Iron Moth|100/100
 |-enditem|p1a: PROMINENCE|Booster Energy
 |-activate|p1a: PROMINENCE|ability: Quark Drive|[fromitem]
 |-start|p1a: PROMINENCE|quarkdrivespa
-|-sideend|p1: Eternal Spirit|move: Toxic Spikes|[of] p1a: PROMINENCE
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: PROMINENCE
 |move|p2a: Glimmora|Energy Ball|p1a: PROMINENCE
 |-resisted|p1a: PROMINENCE
 |-damage|p1a: PROMINENCE|92/100
@@ -297,4 +297,4 @@
 |faint|p1a: MAGNETUDE
 |-end|p1a: MAGNETUDE|Protosynthesis|[silent]
 |
-|win|1 True Lycan
+|win|p2

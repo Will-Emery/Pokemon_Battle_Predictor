@@ -29,7 +29,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Tauros
 |-resisted|p1a: Tauros
 |-damage|p1a: Tauros|84/100
-|-sidestart|p1: The Worst (69)|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Tauros|90/100|[from] item: Leftovers
 |turn|3
@@ -39,7 +39,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Tauros
 |-resisted|p1a: Tauros
 |-damage|p1a: Tauros|76/100
-|-sidestart|p1: The Worst (69)|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Tauros|83/100|[from] item: Leftovers
 |turn|4
@@ -49,7 +49,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Tauros
 |-resisted|p1a: Tauros
 |-damage|p1a: Tauros|68/100
-|-sidestart|p1: The Worst (69)|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Tauros|74/100|[from] item: Leftovers
 |turn|5
@@ -107,12 +107,12 @@
 |switch|p1a: Volcanion|Volcanion|100/100
 |-damage|p1a: Volcanion|76/100|[from] Spikes
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Fr3ya|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|10
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Fr3ya|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Volcanion|Steam Eruption|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|84/100
@@ -161,7 +161,7 @@
 |move|p2a: Zamazenta|Body Press|p1a: Garchomp
 |-immune|p1a: Garchomp
 |move|p1a: Garchomp|Stealth Rock|p2a: Zamazenta
-|-sidestart|p2: Fr3ya|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|15
 |
@@ -183,21 +183,21 @@
 |-damage|p2a: Dragapult|52/100 brn
 |
 |-damage|p2a: Dragapult|46/100 brn|[from] brn
-|-sideend|p2: Fr3ya|Reflect
+|-sideend|p2: p2|Reflect
 |turn|17
 |
 |switch|p1a: Chien-Pao|Chien-Pao|100/100
 |-damage|p1a: Chien-Pao|76/100|[from] Spikes
 |-ability|p1a: Chien-Pao|Sword of Ruin
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Fr3ya|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-damage|p2a: Dragapult|40/100 brn|[from] brn
-|-sideend|p2: Fr3ya|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|18
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Fr3ya|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Chien-Pao|Crunch|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|0 fnt
@@ -223,6 +223,6 @@
 |-damage|p1a: Heatran|0 fnt
 |faint|p1a: Heatran
 |
-|-message|The Worst (69) forfeited.
+|-message|p1 forfeited.
 |
-|win|Fr3ya
+|win|p2

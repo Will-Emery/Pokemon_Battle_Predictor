@@ -45,7 +45,7 @@
 |switch|p1a: Clodsire|Clodsire, F|100/100
 |move|p2a: Samurott|Ceaseless Edge|p1a: Clodsire
 |-damage|p1a: Clodsire|54/100
-|-sidestart|p1: Arde Showdown|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Clodsire|60/100|[from] item: Black Sludge
 |turn|4
@@ -55,7 +55,7 @@
 |-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
 |move|p2a: Samurott|Ceaseless Edge|p1a: Torkoal
 |-damage|p1a: Torkoal|56/100
-|-sidestart|p1: Arde Showdown|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|SunnyDay|[upkeep]
 |turn|5
@@ -66,7 +66,7 @@
 |move|p1a: Torkoal|Rapid Spin|p2a: Samurott
 |-damage|p2a: Samurott|89/100
 |-boost|p1a: Torkoal|spe|1
-|-sideend|p1: Arde Showdown|Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
 |
 |-weather|SunnyDay|[upkeep]
 |turn|6
@@ -76,7 +76,7 @@
 |-start|p1a: Walking Wake|protosynthesisspe
 |move|p2a: Samurott|Ceaseless Edge|p1a: Walking Wake
 |-damage|p1a: Walking Wake|55/100
-|-sidestart|p1: Arde Showdown|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|SunnyDay|[upkeep]
 |turn|7
@@ -86,7 +86,7 @@
 |-unboost|p1a: Walking Wake|spa|2
 |move|p2a: Samurott|Ceaseless Edge|p1a: Walking Wake
 |-damage|p1a: Walking Wake|8/100
-|-sidestart|p1: Arde Showdown|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|SunnyDay|[upkeep]
 |turn|8
@@ -166,6 +166,6 @@
 |faint|p2a: Ursaluna
 |
 |-weather|SunnyDay|[upkeep]
-|-message|jdyal forfeited.
+|-message|p2 forfeited.
 |
-|win|Arde Showdown
+|win|p1

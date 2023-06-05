@@ -1,0 +1,241 @@
+|poke|p1|Pawmot, M|
+|poke|p1|Floatzel, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Toedscruel, F|
+|poke|p2|Mew|
+|poke|p2|Maushold|
+|poke|p2|Mabosstiff, M|
+|poke|p2|Moltres-Galar|
+|poke|p2|Mismagius, F|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Maushold|Maushold|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: Maushold|Bite|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|15/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p2a: Mabosstiff|Mabosstiff, M|100/100
+|move|p1a: Basculegion|Liquidation|p2a: Mabosstiff
+|-enditem|p2a: Mabosstiff|Focus Sash
+|-damage|p2a: Mabosstiff|1/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Basculegion|Liquidation|p2a: Mabosstiff
+|-damage|p2a: Mabosstiff|0 fnt
+|faint|p2a: Mabosstiff
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|4
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Meowscarada|U-turn|p1a: Thundurus
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|76/100
+|
+|switch|p2a: Maushold|Maushold|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Toedscruel|Toedscruel, F|100/100
+|move|p2a: Maushold|Bite|p1a: Toedscruel
+|-damage|p1a: Toedscruel|71/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Maushold|Population Bomb|p1a: Toedscruel|[miss]
+|-miss|p2a: Maushold|p1a: Toedscruel
+|move|p1a: Toedscruel|Spore|p2a: Maushold
+|-status|p2a: Maushold|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|cant|p2a: Maushold|slp
+|move|p1a: Toedscruel|Leaf Storm|p2a: Maushold
+|-damage|p2a: Maushold|44/100 slp
+|-unboost|p1a: Toedscruel|spa|2
+|-enditem|p1a: Toedscruel|Eject Pack
+|
+|switch|p1a: Basculegion|Basculegion, M|15/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|move|p1a: Basculegion|Liquidation|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|27/100
+|
+|-weather|none
+|turn|9
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Meowscarada|U-turn|p1a: Pelipper
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|89/100
+|
+|switch|p2a: Mismagius|Mismagius, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|move|p2a: Mismagius|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M|15/100
+|turn|11
+|
+|move|p1a: Basculegion|Liquidation|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Meowscarada|Meowscarada, F|27/100
+|turn|12
+|
+|move|p2a: Meowscarada|U-turn|p1a: Basculegion
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|switch|p2a: Mew|Mew|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Floatzel|Floatzel, M|100/100
+|turn|13
+|
+|move|p1a: Floatzel|Liquidation|p2a: Mew
+|-damage|p2a: Mew|27/100
+|move|p2a: Mew|Thunder Wave|p1a: Floatzel
+|-status|p1a: Floatzel|par
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p2a: Maushold|Maushold|44/100 slp
+|move|p1a: Floatzel|Liquidation|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Mew|Mew|27/100
+|turn|15
+|
+|cant|p1a: Floatzel|par
+|move|p2a: Mew|Transform|p1a: Floatzel
+|-transform|p2a: Mew|p1a: Floatzel
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p2a: Mew|Wave Crash|p1a: Floatzel
+|-resisted|p1a: Floatzel
+|-damage|p1a: Floatzel|17/100 par
+|-damage|p2a: Mew|5/100|[from] Recoil
+|move|p1a: Floatzel|Liquidation|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|none
+|
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|turn|17
+|
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|move|p1a: Floatzel|Liquidation|p2a: Moltres
+|-damage|p2a: Moltres|32/100
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|
+|turn|18
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Floatzel
+|-damage|p1a: Floatzel|0 fnt
+|faint|p1a: Floatzel
+|
+|
+|switch|p1a: Pawmot|Pawmot, M|100/100
+|turn|19
+|
+|move|p1a: Pawmot|Fake Out|p2a: Moltres
+|-damage|p2a: Moltres|21/100
+|cant|p2a: Moltres|flinch
+|
+|turn|20
+|
+|move|p2a: Moltres|Hurricane|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|76/100
+|turn|21
+|
+|-terastallize|p2a: Moltres|Dark
+|-terastallize|p1a: Thundurus|Flying
+|move|p2a: Moltres|Fiery Wrath|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Toedscruel|Toedscruel, F|71/100
+|turn|22
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Toedscruel
+|-damage|p1a: Toedscruel|25/100
+|move|p1a: Toedscruel|Spore|p2a: Moltres
+|-status|p2a: Moltres|slp|[from] move: Spore
+|
+|turn|23
+|
+|cant|p2a: Moltres|slp
+|move|p1a: Toedscruel|Rapid Spin|p2a: Moltres
+|-damage|p2a: Moltres|12/100 slp
+|-boost|p1a: Toedscruel|spe|1
+|
+|turn|24
+|
+|cant|p2a: Moltres|slp
+|move|p1a: Toedscruel|Rapid Spin|p2a: Moltres
+|-damage|p2a: Moltres|4/100 slp
+|-boost|p1a: Toedscruel|spe|1
+|
+|turn|25
+|
+|-curestatus|p2a: Moltres|slp|[msg]
+|move|p2a: Moltres|Fiery Wrath|p1a: Toedscruel
+|-damage|p1a: Toedscruel|0 fnt
+|faint|p1a: Toedscruel
+|

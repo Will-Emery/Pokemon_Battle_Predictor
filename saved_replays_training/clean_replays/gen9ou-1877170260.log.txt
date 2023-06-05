@@ -48,7 +48,7 @@
 |-damage|p2a: Ting-Lu|92/100
 |-enditem|p2a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
 |move|p2a: Ting-Lu|Spikes|p1a: Great Tusk
-|-sidestart|p1: PartyRockaholic|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-end|p2a: Ting-Lu|move: Future Sight
 |-immune|p2a: Ting-Lu
@@ -56,7 +56,7 @@
 |
 |switch|p2a: Houndstone|Houndstone, F|99/100
 |move|p1a: Great Tusk|Stealth Rock|p2a: Houndstone
-|-sidestart|p2: testertester123|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Houndstone|100/100|[from] item: Leftovers
 |turn|6
@@ -91,7 +91,7 @@
 |switch|p1a: Corviknight|Corviknight, M|100/100
 |-ability|p1a: Corviknight|Pressure
 |move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
-|-sidestart|p1: PartyRockaholic|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|10
 |
@@ -115,8 +115,8 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Ting-Lu
 |-damage|p2a: Ting-Lu|62/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: PartyRockaholic|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
-|-sideend|p1: PartyRockaholic|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Ting-Lu|Ruination|p1a: Great Tusk
 |-damage|p1a: Great Tusk|38/100
 |
@@ -126,7 +126,7 @@
 |-end|p1a: Great Tusk|Protosynthesis|[silent]
 |switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
 |move|p2a: Ting-Lu|Spikes|p1a: Urshifu
-|-sidestart|p1: PartyRockaholic|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|13
 |
@@ -172,7 +172,7 @@
 |turn|17
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
-|-sidestart|p1: PartyRockaholic|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Corviknight|U-turn|p2a: Great Tusk
 |-resisted|p2a: Great Tusk
 |-damage|p2a: Great Tusk|75/100
@@ -283,9 +283,9 @@
 |
 |move|p1a: Corviknight|Defog|p2a: Houndstone
 |-unboost|p2a: Houndstone|evasion|1
-|-sideend|p2: testertester123|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
-|-sideend|p1: PartyRockaholic|Spikes|[from] move: Defog|[of] p1a: Corviknight
-|-sideend|p1: PartyRockaholic|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Spikes|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |move|p2a: Houndstone|Roar|p1a: Corviknight
 |drag|p1a: Slowking|Slowking-Galar, M|97/100 brn
 |
@@ -429,4 +429,4 @@
 |-damage|p1a: Slowking|0 fnt
 |faint|p1a: Slowking
 |
-|win|testertester123
+|win|p2

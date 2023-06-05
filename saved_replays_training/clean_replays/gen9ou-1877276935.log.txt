@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p2a: Asta|Reflect|p2a: Asta
-|-sidestart|p2: Hippopotomi|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Great Tusk|Knock Off|p2a: Asta
 |-resisted|p2a: Asta
 |-damage|p2a: Asta|96/100
@@ -34,7 +34,7 @@
 |turn|3
 |
 |move|p2a: Asta|Light Screen|p2a: Asta
-|-sidestart|p2: Hippopotomi|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Braviary|Heat Wave|p2a: Asta
 |-damage|p2a: Asta|77/100
 |
@@ -72,7 +72,7 @@
 |move|p1a: Great Tusk|Earthquake|p2a: Meat
 |-damage|p2a: Meat|57/100
 |
-|-sideend|p2: Hippopotomi|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|8
 |
 |-terastallize|p2a: Meat|Bug
@@ -83,7 +83,7 @@
 |-resisted|p2a: Meat
 |-damage|p2a: Meat|44/100
 |
-|-sideend|p2: Hippopotomi|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |move|p2a: Meat|Fury Cutter|p1a: Great Tusk
@@ -109,7 +109,7 @@
 |turn|11
 |
 |move|p2a: Asta|Light Screen|p2a: Asta
-|-sidestart|p2: Hippopotomi|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Enamorus|Calm Mind|p1a: Enamorus
 |-boost|p1a: Enamorus|spa|1
 |-boost|p1a: Enamorus|spd|1
@@ -153,7 +153,7 @@
 |-damage|p2a: Lando Bando|76/100
 |-unboost|p2a: Lando Bando|spa|1
 |
-|-sideend|p2: Hippopotomi|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|16
 |
 |move|p2a: Lando Bando|Calm Mind|p2a: Lando Bando
@@ -197,7 +197,7 @@
 |turn|20
 |
 |move|p2a: Asta|Light Screen|p2a: Asta
-|-sidestart|p2: Hippopotomi|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Braviary|Hurricane|p2a: Asta|[miss]
 |-miss|p1a: Braviary|p2a: Asta
 |
@@ -231,18 +231,18 @@
 |-start|p1a: Magearna|move: Taunt
 |cant|p1a: Magearna|move: Taunt|Shift Gear
 |
-|-sideend|p2: Hippopotomi|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|25
 |
 |switch|p1a: Braviary|Braviary-Hisui, M|49/100
 |move|p2a: Asta|Light Screen|p2a: Asta
-|-sidestart|p2: Hippopotomi|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|26
 |
 |switch|p1a: Magearna|Magearna|100/100
 |move|p2a: Asta|Reflect|p2a: Asta
-|-sidestart|p2: Hippopotomi|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|27
 |
@@ -267,7 +267,7 @@
 |-unboost|p2a: Smoker|spa|2
 |faint|p1a: Braviary
 |
-|-sideend|p2: Hippopotomi|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Magearna|Magearna|100/100
 |turn|30
@@ -281,7 +281,7 @@
 |-boost|p1a: Magearna|atk|1
 |
 |-heal|p1a: Magearna|12/100|[from] item: Leftovers
-|-sideend|p2: Hippopotomi|Reflect
+|-sideend|p2: p2|Reflect
 |turn|31
 |
 |move|p1a: Magearna|Stored Power|p2a: Smoker
@@ -330,7 +330,7 @@
 |turn|36
 |
 |move|p2a: Asta|Reflect|p2a: Asta
-|-sidestart|p2: Hippopotomi|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Chien-Pao|Sacred Sword|p2a: Asta
 |-damage|p2a: Asta|43/100
 |
@@ -338,7 +338,7 @@
 |
 |switch|p1a: Dondozo|Dondozo, M|100/100 slp
 |move|p2a: Asta|Light Screen|p2a: Asta
-|-sidestart|p2: Hippopotomi|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|38
 |
@@ -349,8 +349,8 @@
 |turn|39
 |
 |move|p1a: Chien-Pao|Psychic Fangs|p2a: shiest
-|-sideend|p2: Hippopotomi|Reflect
-|-sideend|p2: Hippopotomi|move: Light Screen
+|-sideend|p2: p2|Reflect
+|-sideend|p2: p2|move: Light Screen
 |-resisted|p2a: shiest
 |-damage|p2a: shiest|76/100
 |move|p2a: shiest|Aura Sphere|p1a: Chien-Pao
@@ -360,6 +360,6 @@
 |-ability|p2a: shiest|Soul-Heart|boost
 |-boost|p2a: shiest|spa|1
 |
-|-message|bigtest2020 forfeited.
+|-message|p1 forfeited.
 |
-|win|Hippopotomi
+|win|p2

@@ -21,7 +21,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Hisoka
 |-resisted|p2a: Hisoka
 |-damage|p2a: Hisoka|60/100
-|-sidestart|p2: Adastran|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|2
 |
@@ -33,7 +33,7 @@
 |-damage|p1a: Samurott|1/100
 |move|p1a: Samurott|Ceaseless Edge|p2a: Hisoka
 |-damage|p2a: Hisoka|0 fnt
-|-sidestart|p2: Adastran|Spikes
+|-sidestart|p2: p2|Spikes
 |faint|p2a: Hisoka
 |
 |
@@ -43,7 +43,7 @@
 |
 |move|p1a: Samurott|Ceaseless Edge|p2a: Berga
 |-damage|p2a: Berga|61/100
-|-sidestart|p2: Adastran|Spikes
+|-sidestart|p2: p2|Spikes
 |-damage|p1a: Samurott|0 fnt|[from] item: Rocky Helmet|[of] p2a: Berga
 |faint|p1a: Samurott
 |move|p2a: Berga|Rapid Spin|p1: Samurott|[notarget]
@@ -142,7 +142,7 @@
 |-damage|p1a: Sneasler|55/100
 |-boost|p2a: Berga|spe|1
 |-enditem|p1a: Sneasler|Air Balloon
-|-sideend|p2: Adastran|Spikes|[from] move: Rapid Spin|[of] p2a: Berga
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Berga
 |
 |turn|13
 |
@@ -171,13 +171,13 @@
 |move|p2a: Mudbud|Protect|p2a: Mudbud
 |-singleturn|p2a: Mudbud|Protect
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: Scarabaeinae|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |-heal|p2a: Mudbud|66/100|[from] item: Black Sludge
 |turn|16
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: Scarabaeinae|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Mudbud|Toxic|p1a: Dragapult
 |-status|p1a: Dragapult|tox
 |
@@ -247,7 +247,7 @@
 |faint|p1a: Magearna
 |
 |-heal|p2a: Mudbud|50/100|[from] item: Black Sludge
-|-sideend|p1: Scarabaeinae|Reflect
-|-message|Scarabaeinae forfeited.
+|-sideend|p1: p1|Reflect
+|-message|p1 forfeited.
 |
-|win|Adastran
+|win|p2

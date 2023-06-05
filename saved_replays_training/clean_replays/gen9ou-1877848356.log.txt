@@ -38,7 +38,7 @@
 |turn|3
 |
 |move|p2a: Glimmora|Spikes|p1a: Quaquaval
-|-sidestart|p1: usernameinserted|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Quaquaval|Bulk Up|p1a: Quaquaval
 |-boost|p1a: Quaquaval|atk|1
 |-boost|p1a: Quaquaval|def|1
@@ -48,7 +48,7 @@
 |turn|4
 |
 |move|p2a: Glimmora|Spikes|p1a: Quaquaval
-|-sidestart|p1: usernameinserted|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Quaquaval|Bulk Up|p1a: Quaquaval
 |-boost|p1a: Quaquaval|atk|1
 |-boost|p1a: Quaquaval|def|1
@@ -58,7 +58,7 @@
 |turn|5
 |
 |move|p2a: Glimmora|Spikes|p1a: Quaquaval
-|-sidestart|p1: usernameinserted|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Quaquaval|Bulk Up|p1a: Quaquaval
 |-boost|p1a: Quaquaval|atk|1
 |-boost|p1a: Quaquaval|def|1
@@ -85,9 +85,9 @@
 |-damage|p2a: Glimmora|93/100
 |-boost|p1a: Iron Treads|spe|1
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: usernameinserted|move: Toxic Spikes
-|-sideend|p1: usernameinserted|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
-|-sideend|p1: usernameinserted|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sidestart|p1: p1|move: Toxic Spikes
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Iron Treads|44/100|[from] item: Leftovers
@@ -97,7 +97,7 @@
 |-supereffective|p2a: Glimmora
 |-damage|p2a: Glimmora|0 fnt
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: usernameinserted|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |faint|p2a: Glimmora
 |
 |-weather|none
@@ -120,7 +120,7 @@
 |-resisted|p2a: Klefki
 |-damage|p2a: Klefki|95/100
 |-boost|p1a: Iron Treads|spe|1
-|-sideend|p1: usernameinserted|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Iron Treads|63/100|[from] item: Leftovers
@@ -130,7 +130,7 @@
 |-activate|p2a: Great Tusk|ability: Protosynthesis
 |-start|p2a: Great Tusk|protosynthesisdef
 |move|p1a: Iron Treads|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: Mandiusr|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Iron Treads|69/100|[from] item: Leftovers
@@ -141,7 +141,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Amoonguss
 |-damage|p1a: Amoonguss|85/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: Mandiusr|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |-damage|p2a: Great Tusk|91/100|[from] item: Life Orb
 |
 |-weather|SunnyDay|[upkeep]
@@ -327,4 +327,4 @@
 |-damage|p2a: Lilligant|0 fnt|[from] item: Life Orb
 |faint|p2a: Lilligant
 |
-|win|Mandiusr
+|win|p2

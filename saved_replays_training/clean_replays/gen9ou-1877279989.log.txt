@@ -25,7 +25,7 @@
 |
 |switch|p1a: Clodsire|Clodsire, F|100/100
 |move|p2a: Clodsire|Stealth Rock|p1a: Clodsire
-|-sidestart|p1: Ayudame1|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|3
 |
@@ -53,7 +53,7 @@
 |switch|p2a: Zapdos|Zapdos|100/100
 |move|p1a: Corviknight|Defog|p2a: Zapdos
 |-unboost|p2a: Zapdos|evasion|1
-|-sideend|p1: Ayudame1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |
 |turn|6
 |
@@ -75,7 +75,7 @@
 |turn|8
 |
 |move|p2a: Clodsire|Stealth Rock|p1a: Clodsire
-|-sidestart|p1: Ayudame1|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Clodsire|Recover|p1a: Clodsire
 |-heal|p1a: Clodsire|100/100
 |
@@ -351,7 +351,7 @@
 |switch|p2a: Magearna|Magearna|100/100|[from] Volt Switch
 |move|p1a: Corviknight|Defog|p2a: Magearna
 |-unboost|p2a: Magearna|evasion|1
-|-sideend|p1: Ayudame1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |
 |turn|36
 |
@@ -561,5 +561,5 @@
 |faint|p1a: Zapdos
 |-hitcount|p1: Zapdos|2
 |
-|win|Kenneli
-|player|p2|Kenneli|lady
+|win|p2
+|player|p2|p2|lady

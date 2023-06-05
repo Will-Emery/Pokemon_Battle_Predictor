@@ -22,14 +22,14 @@
 |move|p2a: Slow|Silk Trap|p2a: Slow
 |-singleturn|p2a: Slow|Protect
 |move|p1a: Zamazenta|Reflect|p1a: Zamazenta
-|-sidestart|p1: Crocwidgloc|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|2
 |
 |move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
-|-sidestart|p1: Crocwidgloc|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Slow|Sticky Web|p1a: Zamazenta
-|-sidestart|p1: Crocwidgloc|move: Sticky Web
+|-sidestart|p1: p1|move: Sticky Web
 |
 |turn|3
 |
@@ -87,7 +87,7 @@
 |move|p2a: Slow|Taunt|p1a: Roaring Moon
 |-start|p1a: Roaring Moon|move: Taunt
 |
-|-sideend|p1: Crocwidgloc|Reflect
+|-sideend|p1: p1|Reflect
 |turn|9
 |
 |move|p2a: Slow|Silk Trap|p2a: Slow
@@ -95,7 +95,7 @@
 |move|p1a: Roaring Moon|Earthquake|p2a: Slow
 |-activate|p2a: Slow|move: Protect
 |
-|-sideend|p1: Crocwidgloc|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|10
 |
 |move|p1a: Roaring Moon|Acrobatics|p2a: Slow
@@ -171,7 +171,7 @@
 |-damage|p1a: Corviknight|23/100
 |move|p1a: Corviknight|Defog|p2a: Chien-Pao
 |-unboost|p2a: Chien-Pao|evasion|1
-|-sideend|p1: Crocwidgloc|Sticky Web|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Sticky Web|[from] move: Defog|[of] p1a: Corviknight
 |
 |-heal|p1a: Corviknight|30/100|[from] item: Leftovers
 |turn|19
@@ -209,14 +209,14 @@
 |turn|23
 |
 |move|p1a: Zamazenta|Reflect|p1a: Zamazenta
-|-sidestart|p1: Crocwidgloc|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Chien-Pao|Icicle Crash|p1a: Zamazenta
 |-damage|p1a: Zamazenta|79/100
 |
 |turn|24
 |
 |move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
-|-sidestart|p1: Crocwidgloc|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Chien-Pao|Icicle Crash|p1a: Zamazenta
 |-damage|p1a: Zamazenta|58/100
 |
@@ -251,6 +251,6 @@
 |
 |-damage|p1a: Ursaluna|19/100 brn|[from] brn
 |turn|28
-|-message|Crocwidgloc forfeited.
+|-message|p1 forfeited.
 |
-|win|NonolandoscarfNOOO
+|win|p2

@@ -21,20 +21,20 @@
 |turn|1
 |
 |move|p2a: Iron Treads|Stealth Rock|p1a: Samurott
-|-sidestart|p1: SchwuchtelSchlepp|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Samurott|Ceaseless Edge|p2a: Iron Treads
 |-damage|p2a: Iron Treads|59/100
-|-sidestart|p2: Arcaniner52|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|2
 |
 |move|p2a: Iron Treads|Rapid Spin|p1a: Samurott
 |-damage|p1a: Samurott|78/100
 |-boost|p2a: Iron Treads|spe|1
-|-sideend|p2: Arcaniner52|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
 |move|p1a: Samurott|Ceaseless Edge|p2a: Iron Treads
 |-damage|p2a: Iron Treads|17/100
-|-sidestart|p2: Arcaniner52|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|3
 |
@@ -63,7 +63,7 @@
 |turn|5
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: SchwuchtelSchlepp|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Eelektross|Volt Switch|p1a: Dragapult
 |-resisted|p1a: Dragapult
 |-damage|p1a: Dragapult|78/100
@@ -75,7 +75,7 @@
 |turn|6
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: SchwuchtelSchlepp|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
 |-boost|p2a: Ceruledge|atk|2
 |
@@ -139,7 +139,7 @@
 |faint|p2a: Roaring Moon
 |-end|p2a: Roaring Moon|Protosynthesis|[silent]
 |
-|-sideend|p1: SchwuchtelSchlepp|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Espeon|Espeon, M|100/100
 |-damage|p2a: Espeon|88/100|[from] Spikes
@@ -150,7 +150,7 @@
 |-damage|p2a: Espeon|0 fnt
 |faint|p2a: Espeon
 |
-|-sideend|p1: SchwuchtelSchlepp|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: Greninja|Greninja, M, shiny|100/100
 |-damage|p2a: Greninja|88/100|[from] Spikes
@@ -161,4 +161,4 @@
 |-damage|p2a: Greninja|0 fnt
 |faint|p2a: Greninja
 |
-|win|SchwuchtelSchlepp
+|win|p1

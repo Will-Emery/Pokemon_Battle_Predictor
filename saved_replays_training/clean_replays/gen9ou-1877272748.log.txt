@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p2a: Arboliva|Reflect|p2a: Arboliva
-|-sidestart|p2: Lenanzi|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Clodsire|Toxic|p2a: Arboliva
 |-status|p2a: Arboliva|tox
 |
@@ -26,9 +26,9 @@
 |turn|2
 |
 |move|p2a: Arboliva|Light Screen|p2a: Arboliva
-|-sidestart|p2: Lenanzi|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Clodsire|Stealth Rock|p2a: Arboliva
-|-sidestart|p2: Lenanzi|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-damage|p2a: Arboliva|82/100 tox|[from] psn
 |turn|3
@@ -59,7 +59,7 @@
 |-boost|p1a: Hatterene|spd|1
 |
 |-heal|p1a: Hatterene|75/100|[from] item: Leftovers
-|-sideend|p2: Lenanzi|Reflect
+|-sideend|p2: p2|Reflect
 |turn|6
 |
 |move|p2a: Maria Joana|Flower Trick|p1a: Hatterene
@@ -71,7 +71,7 @@
 |-heal|p1a: Hatterene|52/100|[from] drain|[of] p2a: Maria Joana
 |
 |-heal|p1a: Hatterene|58/100|[from] item: Leftovers
-|-sideend|p2: Lenanzi|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|7
 |
 |-terastallize|p1a: Hatterene|Fire
@@ -120,7 +120,7 @@
 |
 |move|p1a: Samurott|Ceaseless Edge|p2a: yany
 |-damage|p2a: yany|0 fnt
-|-sidestart|p2: Lenanzi|Spikes
+|-sidestart|p2: p2|Spikes
 |faint|p2a: yany
 |
 |
@@ -365,4 +365,4 @@
 |faint|p1a: Great Tusk
 |-end|p1a: Great Tusk|Protosynthesis|[silent]
 |
-|win|Lenanzi
+|win|p2

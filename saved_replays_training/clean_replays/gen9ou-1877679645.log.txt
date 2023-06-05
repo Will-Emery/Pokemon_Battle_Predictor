@@ -21,7 +21,7 @@
 |turn|1
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Torkoal
-|-sidestart|p1: SbobCheesestring|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Torkoal|Yawn|p2a: Great Tusk
 |-start|p2a: Great Tusk|move: Yawn|[of] p1a: Torkoal
 |
@@ -33,7 +33,7 @@
 |move|p1a: Torkoal|Rapid Spin|p2a: Volcanion
 |-damage|p2a: Volcanion|93/100
 |-boost|p1a: Torkoal|spe|1
-|-sideend|p1: SbobCheesestring|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
 |
 |-weather|SunnyDay|[upkeep]
 |turn|3
@@ -125,7 +125,7 @@
 |-activate|p2a: Great Tusk|ability: Protosynthesis
 |-start|p2a: Great Tusk|protosynthesisdef
 |move|p1a: Torkoal|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: RobinUrElo|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|14
@@ -133,7 +133,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Torkoal
 |-damage|p1a: Torkoal|92/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: RobinUrElo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |move|p1a: Torkoal|Yawn|p2a: Great Tusk
 |-start|p2a: Great Tusk|move: Yawn|[of] p1a: Torkoal
 |
@@ -174,7 +174,7 @@
 |-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
 |-end|p2a: Great Tusk|Protosynthesis
 |move|p2a: Great Tusk|Stealth Rock|p1a: Pelipper
-|-sidestart|p1: SbobCheesestring|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |turn|19
@@ -404,4 +404,4 @@
 |-unboost|p2a: Tauros|spd|1
 |faint|p1a: Walking Fake
 |
-|win|RobinUrElo
+|win|p2

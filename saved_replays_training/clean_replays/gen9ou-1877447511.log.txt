@@ -171,7 +171,7 @@
 |turn|15
 |
 |move|p1a: Landorus|Stealth Rock|p2a: Pelipper
-|-sidestart|p2: Icicle220|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Pelipper|Chilling Water|p1a: Landorus
 |-supereffective|p1a: Landorus
 |-damage|p1a: Landorus|66/100
@@ -215,7 +215,7 @@
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Landorus
 |-damage|p1a: Landorus|56/100
-|-sidestart|p1: Fokuna|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Landorus|U-turn|p2a: Samurott
 |-supereffective|p2a: Samurott
 |-damage|p2a: Samurott|0 fnt
@@ -356,25 +356,25 @@
 |-damage|p1a: Forretress|65/100|[from] Spikes
 |move|p2a: Samurott|Ceaseless Edge|p1a: Forretress
 |-damage|p1a: Forretress|39/100
-|-sidestart|p1: Fokuna|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Forretress|45/100|[from] item: Leftovers
 |turn|32
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Forretress
 |-damage|p1a: Forretress|21/100
-|-sidestart|p1: Fokuna|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Forretress|Rapid Spin|p2a: Samurott
 |-damage|p2a: Samurott|24/100
 |-boost|p1a: Forretress|spe|1
-|-sideend|p1: Fokuna|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
 |
 |-heal|p1a: Forretress|27/100|[from] item: Leftovers
 |turn|33
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Forretress
 |-damage|p1a: Forretress|2/100
-|-sidestart|p1: Fokuna|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Forretress|Volt Switch|p2a: Samurott
 |-supereffective|p2a: Samurott
 |-damage|p2a: Samurott|0 fnt
@@ -449,6 +449,6 @@
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Rotom|44/100|[from] item: Leftovers
-|-message|Icicle220 forfeited.
+|-message|p2 forfeited.
 |
-|win|Fokuna
+|win|p1

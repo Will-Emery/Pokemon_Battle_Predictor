@@ -32,20 +32,20 @@
 |
 |switch|p2a: Garchomp|Garchomp, M|100/100
 |move|p1a: Landorus|Stealth Rock|p2a: Garchomp
-|-sidestart|p2: purple pastels|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|Snow|[upkeep]
 |turn|3
 |
 |switch|p1a: Abomasnow|Abomasnow, M, shiny|100/100
 |move|p2a: Garchomp|Stealth Rock|p1a: Abomasnow
-|-sidestart|p1: Green Costume|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|Snow|[upkeep]
 |turn|4
 |
 |move|p2a: Garchomp|Spikes|p1a: Abomasnow
-|-sidestart|p1: Green Costume|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Abomasnow|Blizzard|p2a: Garchomp
 |-supereffective|p2a: Garchomp
 |-damage|p2a: Garchomp|0 fnt
@@ -61,7 +61,7 @@
 |-boost|p2a: Magearna|spa|1
 |-boost|p2a: Magearna|spd|1
 |move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
-|-sidestart|p1: Green Costume|move: Aurora Veil
+|-sidestart|p1: p1|move: Aurora Veil
 |
 |-weather|none
 |-heal|p2a: Magearna|100/100|[from] item: Leftovers
@@ -95,8 +95,8 @@
 |move|p1a: Avalugg|Rapid Spin|p2a: Magearna
 |-damage|p2a: Magearna|86/100
 |-boost|p1a: Avalugg|spe|1
-|-sideend|p1: Green Costume|Spikes|[from] move: Rapid Spin|[of] p1a: Avalugg
-|-sideend|p1: Green Costume|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Avalugg
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
 |
 |-heal|p2a: Magearna|92/100|[from] item: Leftovers
 |-damage|p2a: Magearna|80/100|[from] Leech Seed|[of] p1a: Avalugg
@@ -151,7 +151,7 @@
 |-heal|p1a: Magearna|74/100|[from] item: Leftovers
 |-damage|p2a: Magearna|67/100|[from] Leech Seed|[of] p1a: Magearna
 |-heal|p1a: Magearna|86/100|[silent]
-|-sideend|p1: Green Costume|move: Aurora Veil
+|-sideend|p1: p1|move: Aurora Veil
 |turn|13
 |
 |move|p2a: Magearna|Stored Power|p1a: Magearna
@@ -258,9 +258,9 @@
 |turn|22
 |
 |move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
-|-sidestart|p1: Green Costume|move: Aurora Veil
+|-sidestart|p1: p1|move: Aurora Veil
 |move|p2a: Arboliva|Reflect|p2a: Arboliva
-|-sidestart|p2: purple pastels|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-weather|Snow|[upkeep]
 |turn|23
@@ -315,7 +315,7 @@
 |
 |-heal|p1a: Magearna|51/100|[from] Grassy Terrain
 |-heal|p1a: Magearna|58/100|[from] item: Leftovers
-|-sideend|p2: purple pastels|Reflect
+|-sideend|p2: p2|Reflect
 |turn|27
 |
 |move|p2a: Enamorus|Superpower|p1a: Magearna
@@ -341,6 +341,6 @@
 |
 |-heal|p1a: Magearna|48/100|[from] item: Leftovers
 |turn|29
-|-message|purple pastels forfeited.
+|-message|p2 forfeited.
 |
-|win|Green Costume
+|win|p1

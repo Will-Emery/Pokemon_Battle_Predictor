@@ -165,14 +165,14 @@
 |
 |switch|p1a: Great Tusk|Great Tusk|100/100
 |move|p2a: Tyranitar|Stealth Rock|p1a: Great Tusk
-|-sidestart|p1: WelcomeBackHOME|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|Sandstorm|[upkeep]
 |-heal|p2a: Tyranitar|85/100|[from] item: Leftovers
 |turn|14
 |
 |move|p1a: Great Tusk|Stealth Rock|p2a: Tyranitar
-|-sidestart|p2: Mister_ttar|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Tyranitar|Ice Beam|p1a: Great Tusk
 |-supereffective|p1a: Great Tusk
 |-damage|p1a: Great Tusk|51/100
@@ -189,7 +189,7 @@
 |-resisted|p2a: Corviknight
 |-damage|p2a: Corviknight|70/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: WelcomeBackHOME|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |-weather|Sandstorm|[upkeep]
 |-heal|p1a: Great Tusk|63/100|[from] item: Leftovers
@@ -200,7 +200,7 @@
 |switch|p1a: Garganacl|Garganacl, M|100/100
 |move|p2a: Corviknight|Defog|p1a: Garganacl
 |-unboost|p1a: Garganacl|evasion|1
-|-sideend|p2: Mister_ttar|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |-weather|none
 |-heal|p2a: Corviknight|83/100|[from] item: Leftovers
@@ -499,6 +499,6 @@
 |faint|p2a: Iron Treads
 |-end|p2a: Iron Treads|Quark Drive|[silent]
 |
-|-message|Mister_ttar forfeited.
+|-message|p2 forfeited.
 |
-|win|WelcomeBackHOME
+|win|p1

@@ -20,13 +20,13 @@
 |move|p1a: Brioche|Protect|p1a: Brioche
 |-singleturn|p1a: Brioche|Protect
 |move|p2a: Bianeon|Reflect|p2a: Bianeon
-|-sidestart|p2: Michunium|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|2
 |
 |switch|p1a: Artillery|Armarouge, F|100/100
 |move|p2a: Bianeon|Light Screen|p2a: Bianeon
-|-sidestart|p2: Michunium|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|3
 |
@@ -85,7 +85,7 @@
 |-heal|p2a: El Diego|100/100|[from] Grassy Terrain
 |-heal|p1a: Brioche|30/100 psn|[from] Grassy Terrain
 |-damage|p1a: Brioche|17/100 psn|[from] psn
-|-sideend|p2: Michunium|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |move|p2a: El Diego|Protect|p2a: El Diego
@@ -96,7 +96,7 @@
 |-damage|p1a: Brioche|11/100 psn|[from] psn
 |-end|p2a: El Diego|move: Yawn|[silent]
 |-status|p2a: El Diego|slp
-|-sideend|p2: Michunium|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|10
 |
 |switch|p1a: Artillery|Armarouge, F|62/100
@@ -119,7 +119,7 @@
 |turn|12
 |
 |move|p2a: Bianeon|Reflect|p2a: Bianeon
-|-sidestart|p2: Michunium|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Artillery|Dark Pulse|p2a: Bianeon
 |-supereffective|p2a: Bianeon
 |-damage|p2a: Bianeon|0 fnt
@@ -151,7 +151,7 @@
 |move|p2a: Luna Luna Luna|Facade|p1a: Orb Weaver
 |-damage|p1a: Orb Weaver|21/100
 |move|p1a: Orb Weaver|Sticky Web|p2a: Luna Luna Luna
-|-sidestart|p2: Michunium|move: Sticky Web
+|-sidestart|p2: p2|move: Sticky Web
 |
 |-damage|p2a: Luna Luna Luna|38/100 brn|[from] brn
 |turn|16
@@ -195,7 +195,7 @@
 |-damage|p2a: Katy|70/100
 |cant|p2a: Katy|flinch
 |
-|-sideend|p2: Michunium|Reflect
+|-sideend|p2: p2|Reflect
 |turn|20
 |
 |-end|p1a: Autobot|Quark Drive|[silent]
@@ -277,4 +277,4 @@
 |-damage|p1a: Artillery|0 fnt
 |faint|p1a: Artillery
 |
-|win|Michunium
+|win|p2

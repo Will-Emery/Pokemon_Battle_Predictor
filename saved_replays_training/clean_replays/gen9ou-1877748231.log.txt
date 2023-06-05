@@ -37,7 +37,7 @@
 |move|p1a: 55th Street|Volt Switch|p2a: Great Tusk
 |-immune|p2a: Great Tusk
 |move|p2a: Great Tusk|Stealth Rock|p1a: 55th Street
-|-sidestart|p1: BenGayOintment|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Great Tusk|57/100|[from] item: Leftovers
 |turn|4
@@ -85,7 +85,7 @@
 |
 |switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
 |move|p1a: CMAC|Stealth Rock|p2a: Iron Valiant
-|-sidestart|p2: AlexisPC|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: CMAC|82/100|[from] item: Leftovers
 |turn|9
@@ -107,8 +107,8 @@
 |
 |move|p2a: Corviknight|Defog|p1a: CMAC
 |-fail|p1a: CMAC|unboost|[from] ability: Clear Body|[of] p1a: CMAC
-|-sideend|p1: BenGayOintment|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: AlexisPC|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: CMAC|Diamond Storm|p2a: Corviknight
 |-damage|p2a: Corviknight|41/100
 |-boost|p1a: CMAC|def|2
@@ -123,7 +123,7 @@
 |
 |switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
 |move|p1a: CMAC|Stealth Rock|p2a: Slowking
-|-sidestart|p2: AlexisPC|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: CMAC|70/100|[from] item: Leftovers
 |turn|12
@@ -230,6 +230,6 @@
 |
 |-weather|Snow|[upkeep]
 |-heal|p1a: CMAC|76/100|[from] item: Leftovers
-|-message|AlexisPC forfeited.
+|-message|p2 forfeited.
 |
-|win|BenGayOintment
+|win|p1

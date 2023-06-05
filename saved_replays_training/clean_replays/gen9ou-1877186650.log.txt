@@ -42,7 +42,7 @@
 |-boost|p2a: Magearna|spa|1
 |-boost|p2a: Magearna|spd|1
 |move|p1a: God|Stealth Rock|p2a: Magearna
-|-sidestart|p2: Robinet04|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-end|p2a: Magearna|move: Yawn|[silent]
 |-status|p2a: Magearna|slp
@@ -119,7 +119,7 @@
 |turn|11
 |
 |move|p2a: Garchomp|Stealth Rock|p1a: Dumbo
-|-sidestart|p1: Arde Showdown|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Dumbo|Ice Spinner|p2a: Garchomp
 |-supereffective|p2a: Garchomp
 |-damage|p2a: Garchomp|2/100
@@ -129,14 +129,14 @@
 |turn|12
 |
 |move|p2a: Garchomp|Spikes|p1a: Dumbo
-|-sidestart|p1: Arde Showdown|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Dumbo|Rapid Spin|p2a: Garchomp
 |-damage|p2a: Garchomp|0 fnt
 |-boost|p1a: Dumbo|spe|1
 |-damage|p1a: Dumbo|59/100|[from] ability: Rough Skin|[of] p2a: Garchomp
 |-damage|p1a: Dumbo|43/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
-|-sideend|p1: Arde Showdown|Spikes|[from] move: Rapid Spin|[of] p1a: Dumbo
-|-sideend|p1: Arde Showdown|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dumbo
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Dumbo
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dumbo
 |faint|p2a: Garchomp
 |
 |
@@ -191,4 +191,4 @@
 |-damage|p2a: Volcarona|0 fnt
 |faint|p2a: Volcarona
 |
-|win|Arde Showdown
+|win|p1

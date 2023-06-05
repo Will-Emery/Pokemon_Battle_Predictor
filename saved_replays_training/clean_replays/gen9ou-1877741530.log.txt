@@ -22,7 +22,7 @@
 |move|p1a: Tornadus|Nasty Plot|p1a: Tornadus
 |-boost|p1a: Tornadus|spa|2
 |move|p2a: Landorus|Stealth Rock|p1a: Tornadus
-|-sidestart|p1: Delibird Heart|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|2
 |
@@ -90,7 +90,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Toxapex
 |-damage|p2a: Toxapex|92/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: Delibird Heart|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Toxapex|Toxic|p1a: Great Tusk
 |-status|p1a: Great Tusk|tox
 |
@@ -98,7 +98,7 @@
 |turn|10
 |
 |move|p1a: Great Tusk|Stealth Rock|p2a: Toxapex
-|-sidestart|p2: venatic|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Toxapex|Infestation|p1a: Great Tusk
 |-resisted|p1a: Great Tusk
 |-damage|p1a: Great Tusk|92/100 tox
@@ -148,7 +148,7 @@
 |switch|p2a: Chien-Pao|Chien-Pao|100/100
 |-ability|p2a: Chien-Pao|Sword of Ruin
 |move|p1a: Clodsire|Spikes|p2a: Chien-Pao
-|-sidestart|p2: venatic|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|15
 |
@@ -411,4 +411,4 @@
 |-damage|p2a: Zamazenta|0 fnt
 |faint|p2a: Zamazenta
 |
-|win|Delibird Heart
+|win|p1

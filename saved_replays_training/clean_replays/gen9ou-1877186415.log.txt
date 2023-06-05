@@ -22,7 +22,7 @@
 |turn|1
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
-|-sidestart|p1: salpicadura|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Corviknight|Brave Bird|p2a: Great Tusk
 |-supereffective|p2a: Great Tusk
 |-damage|p2a: Great Tusk|51/100
@@ -52,15 +52,15 @@
 |switch|p1a: Clodsire|Clodsire, F|100/100
 |-damage|p1a: Clodsire|94/100|[from] Stealth Rock
 |move|p2a: Magearna|Spikes|p1a: Clodsire
-|-sidestart|p1: salpicadura|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Clodsire|100/100|[from] item: Black Sludge
 |turn|5
 |
 |move|p2a: Magearna|Spikes|p1a: Clodsire
-|-sidestart|p1: salpicadura|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Clodsire|Stealth Rock|p2a: Magearna
-|-sidestart|p2: PLAYB0I R0BBIE B|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|6
 |
@@ -137,7 +137,7 @@
 |move|p1a: Kingambit|Sucker Punch||[still]
 |-fail|p1a: Kingambit
 |move|p2a: Magearna|Spikes|p1a: Kingambit
-|-sidestart|p1: salpicadura|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|15
 |
@@ -238,16 +238,16 @@
 |move|p2a: Dragapult|Dragon Darts|p1a: Glimmora
 |-damage|p1a: Glimmora|41/100
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: PLAYB0I R0BBIE B|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |-anim|p2a: Dragapult|Dragon Darts|p1a: Glimmora
 |-damage|p1a: Glimmora|19/100
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: PLAYB0I R0BBIE B|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |move|p1a: Glimmora|Mortal Spin|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-activate|p2a: Dragapult|move: Substitute|[damage]
-|-sideend|p1: salpicadura|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
-|-sideend|p1: salpicadura|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-sideend|p1: p1|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-sideend|p1: p1|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
 |
 |-heal|p2a: Dragapult|87/100|[from] item: Leftovers
 |turn|24
@@ -321,4 +321,4 @@
 |-damage|p1a: Clodsire|0 fnt
 |faint|p1a: Clodsire
 |
-|win|PLAYB0I R0BBIE B
+|win|p2

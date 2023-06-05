@@ -35,7 +35,7 @@
 |move|p1a: Garganacl|Block|p2a: Spaghetti Memory
 |-activate|p2a: Spaghetti Memory|trapped
 |move|p2a: Spaghetti Memory|Spikes|p1a: Garganacl
-|-sidestart|p1: ctannn|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Garganacl|100/100|[from] item: Leftovers
@@ -47,7 +47,7 @@
 |-boost|p1a: Garganacl|atk|1
 |-boost|p1a: Garganacl|def|1
 |move|p2a: Spaghetti Memory|Spikes|p1a: Garganacl
-|-sidestart|p1: ctannn|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |-damage|p2a: Spaghetti Memory|54/100|[from] Salt Cure
@@ -58,7 +58,7 @@
 |-boost|p1a: Garganacl|atk|1
 |-boost|p1a: Garganacl|def|1
 |move|p2a: Spaghetti Memory|Spikes|p1a: Garganacl
-|-sidestart|p1: ctannn|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |-damage|p2a: Spaghetti Memory|42/100|[from] Salt Cure
@@ -300,7 +300,7 @@
 |-damage|p2a: BandedSkewda|82/100 brn|[from] ability: Rough Skin|[of] p1a: Garchomp
 |-damage|p2a: BandedSkewda|65/100 brn|[from] item: Rocky Helmet|[of] p1a: Garchomp
 |move|p1a: Garchomp|Stealth Rock|p2a: BandedSkewda
-|-sidestart|p2: OUDJ UU to Suspect|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |-damage|p2a: BandedSkewda|59/100 brn|[from] brn
@@ -312,7 +312,7 @@
 |-damage|p2a: BandedSkewda|47/100 brn|[from] ability: Rough Skin|[of] p1a: Garchomp
 |-damage|p2a: BandedSkewda|30/100 brn|[from] item: Rocky Helmet|[of] p1a: Garchomp
 |move|p1a: Garchomp|Spikes|p2a: BandedSkewda
-|-sidestart|p2: OUDJ UU to Suspect|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-weather|RainDance|[upkeep]
 |-damage|p2a: BandedSkewda|24/100 brn|[from] brn
@@ -347,6 +347,6 @@
 |-enditem|p2a: The Goat|Sitrus Berry|[eat]
 |-heal|p2a: The Goat|62/100|[from] item: Sitrus Berry
 |turn|33
-|-message|OUDJ UU to Suspect forfeited.
+|-message|p2 forfeited.
 |
-|win|ctannn
+|win|p1

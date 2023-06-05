@@ -20,7 +20,7 @@
 |switch|p2a: Arboliva|Arboliva, M|100/100
 |move|p1a: Samurott|Ceaseless Edge|p2a: Arboliva
 |-damage|p2a: Arboliva|55/100
-|-sidestart|p2: The Gallade Man|Spikes
+|-sidestart|p2: p2|Spikes
 |-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
 |
 |-heal|p2a: Arboliva|61/100|[from] Grassy Terrain
@@ -50,7 +50,7 @@
 |move|p2a: Gallade|Swords Dance|p2a: Gallade
 |-boost|p2a: Gallade|atk|2
 |move|p1a: Landorus|Stealth Rock|p2a: Gallade
-|-sidestart|p2: The Gallade Man|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Gallade|84/100|[from] Grassy Terrain
 |turn|5
@@ -93,7 +93,7 @@
 |-ability|p2a: Corviknight|Pressure
 |move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight
 |-damage|p2a: Corviknight|63/100
-|-sidestart|p2: The Gallade Man|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Corviknight|69/100|[from] item: Leftovers
 |turn|10
@@ -101,8 +101,8 @@
 |switch|p1a: Iron Hands|Iron Hands|100/100
 |move|p2a: Corviknight|Defog|p1a: Iron Hands
 |-unboost|p1a: Iron Hands|evasion|1
-|-sideend|p2: The Gallade Man|Spikes|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: The Gallade Man|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |-heal|p2a: Corviknight|75/100|[from] item: Leftovers
 |turn|11
@@ -259,7 +259,7 @@
 |-ability|p2a: Corviknight|Pressure
 |move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight
 |-damage|p2a: Corviknight|75/100
-|-sidestart|p2: The Gallade Man|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|29
 |
@@ -330,4 +330,4 @@
 |faint|p1a: Samurott
 |-damage|p2a: Corviknight|37/100|[from] Recoil
 |
-|win|The Gallade Man
+|win|p2

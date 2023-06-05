@@ -78,7 +78,7 @@
 |turn|8
 |
 |move|p1a: Toxapex|Toxic Spikes|p2a: Goodra
-|-sidestart|p2: Kalen80|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |-curestatus|p2a: Goodra|slp|[msg]
 |move|p2a: Goodra|Dragon Claw|p1a: Toxapex
 |-damage|p1a: Toxapex|67/100
@@ -179,14 +179,14 @@
 |move|p1a: Blissey|Seismic Toss|p2a: Clodsire
 |-damage|p2a: Clodsire|51/100
 |move|p2a: Clodsire|Stealth Rock|p1a: Blissey
-|-sidestart|p1: fdvbdfeydfg|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|19
 |
 |move|p1a: Blissey|Seismic Toss|p2a: Clodsire
 |-damage|p2a: Clodsire|26/100
 |move|p2a: Clodsire|Toxic Spikes|p1a: Blissey
-|-sidestart|p1: fdvbdfeydfg|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |turn|20
 |
@@ -198,7 +198,7 @@
 |turn|21
 |
 |switch|p2a: Clodsire|Clodsire, F|26/100
-|-sideend|p2: Kalen80|move: Toxic Spikes|[of] p2a: Clodsire
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Clodsire
 |move|p1a: Blissey|Soft-Boiled|p1a: Blissey
 |-heal|p1a: Blissey|100/100
 |
@@ -207,7 +207,7 @@
 |move|p1a: Blissey|Seismic Toss|p2a: Clodsire
 |-damage|p2a: Clodsire|1/100
 |move|p2a: Clodsire|Toxic Spikes|p1a: Blissey
-|-sidestart|p1: fdvbdfeydfg|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |turn|23
 |
@@ -254,7 +254,7 @@
 |
 |switch|p1a: Toxapex|Toxapex, M|90/100
 |-damage|p1a: Toxapex|78/100|[from] Stealth Rock
-|-sideend|p1: fdvbdfeydfg|move: Toxic Spikes|[of] p1a: Toxapex
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Toxapex
 |move|p2a: Orthworm|Iron Tail|p1a: Toxapex
 |-resisted|p1a: Toxapex
 |-damage|p1a: Toxapex|53/100
@@ -291,7 +291,7 @@
 |-resisted|p2a: Orthworm
 |-damage|p2a: Orthworm|50/100
 |-boost|p1a: Avalugg|spe|1
-|-sideend|p1: fdvbdfeydfg|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
 |
 |-heal|p1a: Avalugg|48/100|[from] item: Leftovers
 |turn|32
@@ -366,7 +366,7 @@
 |turn|40
 |
 |move|p2a: Clodsire|Toxic Spikes|p1a: Blissey
-|-sidestart|p1: fdvbdfeydfg|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |move|p1a: Blissey|Shadow Ball|p2a: Clodsire
 |-damage|p2a: Clodsire|0 fnt
 |faint|p2a: Clodsire
@@ -510,6 +510,6 @@
 |
 |-damage|p1a: Ditto|50/100 psn|[from] psn
 |turn|55
-|-message|fdvbdfeydfg forfeited.
+|-message|p1 forfeited.
 |
-|win|Kalen80
+|win|p2

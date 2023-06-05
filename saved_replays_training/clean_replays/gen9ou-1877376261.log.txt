@@ -26,7 +26,7 @@
 |switch|p2a: Braviary|Braviary-Hisui, M|100/100
 |-curestatus|p1a: Clyde|slp|[msg]
 |move|p1a: Clyde|Stealth Rock|p2a: Braviary
-|-sidestart|p2: Mona_PT|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|3
 |
@@ -143,7 +143,7 @@
 |-heal|p1a: Rain rain go away|69/100
 |-singleturn|p1a: Rain rain go away|move: Roost
 |move|p2a: Toxapex|Toxic Spikes|p1a: Rain rain go away
-|-sidestart|p1: some NPC i guess|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-weather|RainDance|[upkeep]
 |-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
@@ -152,7 +152,7 @@
 |move|p1a: Rain rain go away|Hurricane|p2a: Toxapex
 |-damage|p2a: Toxapex|69/100
 |move|p2a: Toxapex|Toxic Spikes|p1a: Rain rain go away
-|-sidestart|p1: some NPC i guess|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-weather|RainDance|[upkeep]
 |-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
@@ -170,7 +170,7 @@
 |turn|17
 |
 |switch|p1a: Clyde|Clodsire, F, shiny|93/100 slp
-|-sideend|p1: some NPC i guess|move: Toxic Spikes|[of] p1a: Clyde
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Clyde
 |move|p2a: Toxapex|Chilling Water|p1a: Clyde
 |-supereffective|p1a: Clyde
 |-damage|p1a: Clyde|76/100 slp
@@ -904,7 +904,7 @@
 |
 |switch|p1a: Basculegion|Basculegion, M, shiny|64/100
 |move|p2a: Toxapex|Toxic Spikes|p1a: Basculegion
-|-sidestart|p1: some NPC i guess|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-weather|RainDance|[upkeep]
 |-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
@@ -914,7 +914,7 @@
 |-supereffective|p2a: Toxapex
 |-damage|p2a: Toxapex|43/100
 |move|p2a: Toxapex|Toxic Spikes|p1a: Basculegion
-|-sidestart|p1: some NPC i guess|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-weather|RainDance|[upkeep]
 |-heal|p2a: Toxapex|49/100|[from] item: Black Sludge
@@ -937,7 +937,7 @@
 |switch|p1a: Clyde|Clodsire, F, shiny, tera:Water|21/100
 |-status|p1a: Clyde|tox
 |move|p2a: Ting-Lu|Stealth Rock|p1a: Clyde
-|-sidestart|p1: some NPC i guess|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |-heal|p2a: Ting-Lu|94/100|[from] item: Leftovers
@@ -946,7 +946,7 @@
 |turn|101
 |
 |move|p2a: Ting-Lu|Spikes|p1a: Clyde
-|-sidestart|p1: some NPC i guess|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Clyde|Toxic|p2a: Ting-Lu
 |-status|p2a: Ting-Lu|tox
 |
@@ -958,7 +958,7 @@
 |turn|102
 |
 |move|p2a: Ting-Lu|Spikes|p1a: Clyde
-|-sidestart|p1: some NPC i guess|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Clyde|Stealth Rock||[still]
 |-fail|p1a: Clyde
 |
@@ -1013,9 +1013,9 @@
 |move|p1a: bro|Rapid Spin|p2a: Ting-Lu
 |-damage|p2a: Ting-Lu|46/100 tox
 |-boost|p1a: bro|spe|1
-|-sideend|p1: some NPC i guess|Spikes|[from] move: Rapid Spin|[of] p1a: bro
-|-sideend|p1: some NPC i guess|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: bro
-|-sideend|p1: some NPC i guess|Stealth Rock|[from] move: Rapid Spin|[of] p1a: bro
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: bro
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: bro
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: bro
 |-activate|p2a: Ting-Lu|confusion
 |-damage|p2a: Ting-Lu|41/100 tox|[from] confusion
 |
@@ -1079,7 +1079,7 @@
 |move|p1a: Basculegion|Facade|p2a: Ting-Lu
 |-damage|p2a: Ting-Lu|5/100 tox
 |move|p2a: Ting-Lu|Spikes|p1a: Basculegion
-|-sidestart|p1: some NPC i guess|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|none
 |-heal|p2a: Ting-Lu|11/100 tox|[from] item: Leftovers
@@ -1090,4 +1090,4 @@
 |-damage|p2a: Ting-Lu|0 fnt
 |faint|p2a: Ting-Lu
 |
-|win|some NPC i guess
+|win|p1

@@ -18,16 +18,16 @@
 |turn|1
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Jixel|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Magearna|Spikes|p2a: Grimmsnarl
-|-sidestart|p2: Jixel|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|2
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Jixel|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Magearna|Spikes|p2a: Grimmsnarl
-|-sidestart|p2: Jixel|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|3
 |
@@ -83,10 +83,10 @@
 |-sethp|p1a: Magearna|84/100|[from] move: Pain Split
 |move|p2a: Corviknight|Defog|p1a: Magearna
 |-unboost|p1a: Magearna|evasion|1
-|-sideend|p2: Jixel|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Corviknight
 |
 |-heal|p2a: Corviknight|83/100|[from] item: Leftovers
-|-sideend|p2: Jixel|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|9
 |
 |move|p1a: Magearna|Volt Switch|p2a: Corviknight
@@ -102,7 +102,7 @@
 |-ability|p2a: Landorus|Intimidate|boost
 |-unboost|p1a: Zapdos|atk|1
 |
-|-sideend|p2: Jixel|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |move|p2a: Landorus|Substitute|p2a: Landorus
@@ -179,7 +179,7 @@
 |turn|17
 |
 |move|p1a: Great Tusk|Stealth Rock|p2a: Landorus
-|-sidestart|p2: Jixel|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Landorus|Earthquake|p1a: Great Tusk
 |-damage|p1a: Great Tusk|65/100
 |
@@ -324,7 +324,7 @@
 |
 |switch|p1a: Magearna|Magearna|84/100
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Jixel|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|31
 |
@@ -401,12 +401,12 @@
 |move|p1a: Typhlosion|Eruption|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|47/100
 |
-|-sideend|p2: Jixel|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|38
 |
 |switch|p1a: Magearna|Magearna|84/100
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Jixel|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|39
 |
@@ -437,4 +437,4 @@
 |-damage|p2a: Grimmsnarl|0 fnt
 |faint|p2a: Grimmsnarl
 |
-|win|Prime573
+|win|p1

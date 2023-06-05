@@ -1,0 +1,505 @@
+|poke|p1|Espeon, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Salamence, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Gholdengo|
+|poke|p2|Mimikyu, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Goodra-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|turn|1
+|
+|move|p1a: Toxapex|Surf|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|75/100
+|move|p2a: Clodsire|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100
+|
+|-heal|p2a: Clodsire|82/100|[from] item: Black Sludge
+|turn|2
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Yawn|p1a: Salamence
+|-start|p1a: Salamence|move: Yawn|[of] p2a: Clodsire
+|
+|-heal|p2a: Clodsire|88/100|[from] item: Black Sludge
+|turn|3
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|
+|turn|4
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Espeon|Substitute|p1a: Espeon
+|-start|p1a: Espeon|Substitute
+|-damage|p1a: Espeon|76/100
+|
+|-heal|p1a: Espeon|82/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-end|p1a: Espeon|Substitute
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|-heal|p1a: Espeon|88/100|[from] item: Leftovers
+|turn|6
+|
+|-terastallize|p1a: Espeon|Fairy
+|move|p2a: Mimikyu|Play Rough|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|-damage|p2a: Mimikyu|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Mimikyu|atk|1
+|turn|7
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|turn|8
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Cinderace
+|-damage|p1a: Cinderace|39/100
+|-damage|p2a: Mimikyu|71/100|[from] item: Life Orb
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Mimikyu|[miss]
+|-miss|p1a: Cinderace|p2a: Mimikyu
+|
+|turn|9
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-damage|p2a: Mimikyu|61/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Toxapex|Toxapex, F|88/100
+|turn|10
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|11
+|
+|switch|p2a: Clodsire|Clodsire, F|88/100
+|move|p1a: Toxapex|Toxic|p2a: Clodsire
+|-immune|p2a: Clodsire
+|
+|-heal|p2a: Clodsire|94/100|[from] item: Black Sludge
+|turn|12
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Yawn|p1a: Salamence
+|-start|p1a: Salamence|move: Yawn|[of] p2a: Clodsire
+|
+|-heal|p2a: Clodsire|100/100|[from] item: Black Sludge
+|turn|13
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|
+|turn|14
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Dragonite
+|-status|p2a: Dragonite|slp|[from] move: Sleep Powder
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|slp|[msg]
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|turn|15
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Dragonite|Fire Punch|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|87/100
+|
+|turn|16
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|17
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Toxapex|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|
+|-damage|p2a: Dragonite|94/100 tox|[from] psn
+|turn|18
+|
+|move|p2a: Dragonite|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|9/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Dragonite|82/100 tox|[from] psn
+|turn|19
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-damage|p2a: Dragonite|63/100 tox|[from] psn
+|turn|20
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Dragonite|Extreme Speed|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|90/100
+|
+|-heal|p1a: Kingambit|96/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|39/100 tox|[from] psn
+|turn|21
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|turn|22
+|
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Yawn|p1a: Salamence
+|-start|p1a: Salamence|move: Yawn|[of] p2a: Clodsire
+|
+|turn|23
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|
+|turn|24
+|
+|switch|p1a: Toxapex|Toxapex, F|43/100
+|switch|p2a: Mimikyu|Mimikyu, M|61/100
+|
+|turn|25
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|93/100
+|
+|turn|26
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100
+|-damage|p2a: Mimikyu|51/100|[from] item: Life Orb
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|27
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Toxapex|Toxic|p2a: Goodra
+|-immune|p2a: Goodra
+|
+|turn|28
+|
+|move|p2a: Goodra|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|9/100
+|-unboost|p2a: Goodra|spa|2
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|59/100
+|
+|turn|29
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|turn|30
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Yawn|p1a: Salamence
+|-start|p1a: Salamence|move: Yawn|[of] p2a: Clodsire
+|
+|turn|31
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|
+|turn|32
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Cinderace|U-turn|p1a: Toxapex
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|
+|turn|33
+|
+|move|p2a: Gholdengo|Trick|p1a: Toxapex
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Toxapex
+|-item|p1a: Toxapex|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Covert Cloak|[from] move: Trick
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|34
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|-terastallize|p2a: Gholdengo|Fairy
+|move|p2a: Gholdengo|Tera Blast|p1a: Kingambit
+|-damage|p1a: Kingambit|57/100
+|
+|-heal|p1a: Kingambit|63/100|[from] item: Leftovers
+|turn|35
+|
+|switch|p2a: Mimikyu|Mimikyu, M|51/100
+|move|p1a: Kingambit|Iron Head|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|51/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|38/100|[from] pokemon: Mimikyu-Busted
+|
+|-heal|p1a: Kingambit|69/100|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Kingambit
+|-damage|p1a: Kingambit|35/100
+|-damage|p2a: Mimikyu|28/100|[from] item: Life Orb
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|41/100|[from] item: Leftovers
+|turn|37
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-heal|p1a: Kingambit|48/100|[from] item: Leftovers
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|turn|38
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Clodsire
+|-damage|p2a: Clodsire|50/100
+|move|p2a: Clodsire|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|13/100
+|
+|-heal|p1a: Kingambit|19/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|56/100|[from] item: Black Sludge
+|turn|39
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Clodsire
+|-damage|p2a: Clodsire|5/100
+|move|p2a: Clodsire|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|-heal|p2a: Clodsire|11/100|[from] item: Black Sludge
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|40
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Clodsire
+|-status|p2a: Clodsire|slp|[from] move: Sleep Powder
+|cant|p2a: Clodsire|slp
+|
+|-heal|p2a: Clodsire|17/100 slp|[from] item: Black Sludge
+|turn|41
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|-curestatus|p2a: Clodsire|slp|[msg]
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|67/100
+|
+|-heal|p2a: Clodsire|73/100|[from] item: Black Sludge
+|turn|42
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Clodsire|Yawn|p1a: Toxapex
+|-start|p1a: Toxapex|move: Yawn|[of] p2a: Clodsire
+|
+|-heal|p2a: Clodsire|80/100|[from] item: Black Sludge
+|turn|43
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|switch|p2a: Gholdengo|Gholdengo, tera:Fairy|100/100
+|
+|turn|44
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Gholdengo|Tera Blast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|83/100
+|
+|turn|45
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|47/100
+|move|p1a: Toxapex|Surf|p2a: Gholdengo
+|-damage|p2a: Gholdengo|79/100
+|
+|turn|46
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|move|p2a: Gholdengo|Tera Blast|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|turn|47
+|
+|switch|p2a: Clodsire|Clodsire, F|80/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-heal|p2a: Clodsire|86/100|[from] item: Black Sludge
+|turn|48
+|
+|move|p1a: Salamence|Earthquake|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|23/100
+|move|p2a: Clodsire|Yawn|p1a: Salamence
+|-start|p1a: Salamence|move: Yawn|[of] p2a: Clodsire
+|
+|-heal|p2a: Clodsire|29/100|[from] item: Black Sludge
+|turn|49
+|
+|switch|p1a: Toxapex|Toxapex, F|80/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|79/100
+|
+|-heal|p2a: Clodsire|85/100|[from] item: Black Sludge
+|turn|50
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Earthquake|p1a: Salamence
+|-immune|p1a: Salamence
+|
+|-heal|p2a: Clodsire|92/100|[from] item: Black Sludge
+|turn|51
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Clodsire|Yawn|p1a: Toxapex
+|-start|p1a: Toxapex|move: Yawn|[of] p2a: Clodsire
+|
+|-heal|p2a: Clodsire|98/100|[from] item: Black Sludge
+|turn|52
+|
+|move|p1a: Toxapex|Toxic|p2a: Clodsire
+|-immune|p2a: Clodsire
+|move|p2a: Clodsire|Toxic|p1a: Toxapex
+|-immune|p1a: Toxapex
+|
+|-heal|p2a: Clodsire|100/100|[from] item: Black Sludge
+|-end|p1a: Toxapex|move: Yawn|[silent]
+|-status|p1a: Toxapex|slp
+|turn|53
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|switch|p2a: Gholdengo|Gholdengo, tera:Fairy|79/100
+|
+|turn|54
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100 slp
+|move|p2a: Gholdengo|Tera Blast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|84/100 slp
+|
+|turn|55
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100 slp
+|cant|p1a: Toxapex|slp
+|
+|turn|56
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|19/100 slp
+|cant|p1a: Toxapex|slp
+|
+|turn|57
+|
+|move|p2a: Gholdengo|Tera Blast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|1/100 slp
+|cant|p1a: Toxapex|slp
+|
+|turn|58
+|
+|move|p2a: Gholdengo|Tera Blast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|turn|59
+|
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Gholdengo|Tera Blast|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|

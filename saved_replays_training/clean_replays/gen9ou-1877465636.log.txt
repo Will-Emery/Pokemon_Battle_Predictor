@@ -28,7 +28,7 @@
 |turn|2
 |
 |move|p2a: Heatran|Stealth Rock|p1a: Gift Wrapped
-|-sidestart|p1: L0AG|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Gift Wrapped|Chilly Reception|p1a: Gift Wrapped
 |-weather|Snow
 |
@@ -51,12 +51,12 @@
 |-miss|p1a: Peak of my pocket|p2a: Heatran
 |-damage|p1a: Peak of my pocket|51/100|[from] highjumpkick
 |move|p2a: Heatran|Stealth Rock|p1a: Peak of my pocket
-|-sidestart|p1: L0AG|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|Snow|[upkeep]
 |turn|5
 |player|p2|
-|player|p2|Gluzzmobiletest|265
+|player|p2|p2|265
 |
 |switch|p1a: Gift Wrapped|Slowking-Galar, F, shiny|92/100
 |-damage|p1a: Gift Wrapped|79/100|[from] Stealth Rock
@@ -70,7 +70,7 @@
 |switch|p1a: TWO PLANETS|Magearna|100/100
 |-damage|p1a: TWO PLANETS|95/100|[from] Stealth Rock
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Gluzzmobiletest|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-weather|none
 |turn|7
@@ -155,7 +155,7 @@
 |
 |-heal|p1a: Gift Wrapped|54/100|[from] item: Leftovers
 |-damage|p1a: Gift Wrapped|41/100|[from] move: Magma Storm|[partiallytrapped]
-|-sideend|p2: Gluzzmobiletest|Reflect
+|-sideend|p2: p2|Reflect
 |turn|14
 |
 |move|p2a: Heatran|Lava Plume|p1a: Gift Wrapped
@@ -205,7 +205,7 @@
 |turn|18
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Gluzzmobiletest|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: TWO PLANETS|Fleur Cannon|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|0 fnt
@@ -296,7 +296,7 @@
 |faint|p1a: TWO PLANETS
 |
 |-damage|p2a: Zamazenta|16/100 brn|[from] brn
-|-sideend|p2: Gluzzmobiletest|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Gift Wrapped|Slowking-Galar, F, shiny|56/100 brn
 |-damage|p1a: Gift Wrapped|43/100 brn|[from] Stealth Rock
@@ -366,4 +366,4 @@
 |-damage|p1a: Peak of my pocket|0 fnt
 |faint|p1a: Peak of my pocket
 |
-|win|Gluzzmobiletest
+|win|p2

@@ -25,7 +25,7 @@
 |turn|2
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: un-nefarious|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Sneasler|Dire Claw|p1a: Grimmsnarl
 |-supereffective|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|36/100
@@ -113,7 +113,7 @@
 |move|p2a: Zapdos|Discharge|p1a: Chien-Pao
 |-damage|p1a: Chien-Pao|35/100 par
 |
-|-sideend|p1: un-nefarious|Reflect
+|-sideend|p1: p1|Reflect
 |turn|10
 |
 |move|p2a: Zapdos|Discharge|p1a: Chien-Pao
@@ -125,14 +125,14 @@
 |turn|11
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: un-nefarious|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Zapdos|Roost|p2a: Zapdos
 |-heal|p2a: Zapdos|91/100
 |
 |turn|12
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: un-nefarious|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Zapdos|Discharge|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|18/100 par
 |
@@ -186,7 +186,7 @@
 |-boost|p1a: Braviary|spe|1
 |
 |-heal|p1a: Braviary|35/100|[from] item: Leftovers
-|-sideend|p1: un-nefarious|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|19
 |
 |move|p1a: Braviary|Esper Wing|p2a: Zapdos
@@ -196,7 +196,7 @@
 |faint|p2a: Zapdos
 |
 |-heal|p1a: Braviary|41/100|[from] item: Leftovers
-|-sideend|p1: un-nefarious|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: Chien-Pao|Chien-Pao|100/100
 |-ability|p2a: Chien-Pao|Sword of Ruin
@@ -304,4 +304,4 @@
 |-damage|p1a: Zamazenta|0 fnt
 |faint|p1a: Zamazenta
 |
-|win|ctrlxxx
+|win|p2

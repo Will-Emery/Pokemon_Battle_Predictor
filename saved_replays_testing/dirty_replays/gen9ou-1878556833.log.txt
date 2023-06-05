@@ -1,0 +1,171 @@
+|j|☆itsbooter
+|j|☆donjulian1
+|t:|1686000718
+|gametype|singles
+|player|p1|itsbooter|101|1029
+|player|p2|donjulian1|2|1044
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Quagsire, F|
+|poke|p1|Iron Hands|
+|poke|p1|Hippowdon, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Volcanion|
+|poke|p1|Voltorb-Hisui|
+|poke|p2|Torkoal, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by itsbooter)
+|
+|t:|1686000734
+|start
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1686000744
+|move|p1a: Quagsire|Protect|p1a: Quagsire
+|-singleturn|p1a: Quagsire|Protect
+|move|p2a: Torkoal|Stealth Rock|p1a: Quagsire
+|-sidestart|p1: itsbooter|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1686000750
+|move|p1a: Quagsire|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: donjulian1|move: Stealth Rock
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Quagsire
+|-status|p1a: Quagsire|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1686000760
+|move|p1a: Quagsire|Stone Edge|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|84/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Quagsire
+|-damage|p1a: Quagsire|87/100 brn
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: donjulian1|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Quagsire|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Quagsire|87/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1686000768
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Quagsire|Stone Edge|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|92/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Quagsire|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Quagsire|87/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1686000781
+|switch|p1a: Volcanion|Volcanion|100/100
+|-damage|p1a: Volcanion|75/100|[from] Stealth Rock
+|move|p2a: Lilligant|Solar Blade||[still]
+|-prepare|p2a: Lilligant|Solar Blade
+|-anim|p2a: Lilligant|Solar Blade|p1a: Volcanion
+|-damage|p1a: Volcanion|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1686000795
+|move|p2a: Lilligant|Solar Blade||[still]
+|-prepare|p2a: Lilligant|Solar Blade
+|-anim|p2a: Lilligant|Solar Blade|p1a: Volcanion
+|-crit|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1686000800
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-damage|p1a: Iron Hands|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1686000810
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Hands|atk|1
+|move|p1a: Iron Hands|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|-heal|p1a: Iron Hands|99/100|[from] drain|[of] p2a: Landorus
+|-damage|p1a: Iron Hands|90/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Landorus|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1686000819
+|move|p2a: Landorus|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|24/100
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|-weather|none
+|-heal|p2a: Landorus|98/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1686000835
+|move|p1a: Iron Hands|Protect|p1a: Iron Hands
+|-singleturn|p1a: Iron Hands|Protect
+|move|p2a: Landorus|Earthquake|p1a: Iron Hands
+|-activate|p1a: Iron Hands|move: Protect
+|
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1686000842
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Quagsire|Quagsire, F|87/100 brn
+|-damage|p1a: Quagsire|80/100 brn|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|37/100 brn
+|
+|-heal|p1a: Quagsire|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Quagsire|37/100 brn|[from] brn
+|upkeep
+|turn|11
+|-message|itsbooter forfeited.
+|
+|win|donjulian1
+|raw|itsbooter's rating: 1029 → 1015(-14 for losing)
+|raw|donjulian1's rating: 1044 → 1076(+32 for winning)
+|l|☆itsbooter

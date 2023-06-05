@@ -30,7 +30,7 @@
 |turn|2
 |
 |move|p1a: Great Tusk|Stealth Rock|p2a: Amoonguss
-|-sidestart|p2: skoma|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Amoonguss|Giga Drain|p1a: Great Tusk
 |-supereffective|p1a: Great Tusk
 |-damage|p1a: Great Tusk|26/100
@@ -120,7 +120,7 @@
 |-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
 |move|p2a: Corviknight|Defog|p1a: Urshifu
 |-unboost|p1a: Urshifu|evasion|1
-|-sideend|p2: skoma|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |turn|11
 |
@@ -207,7 +207,7 @@
 |
 |switch|p2a: Toxapex|Toxapex, M|42/100
 |move|p1a: Magearna|Spikes|p2a: Toxapex
-|-sidestart|p2: skoma|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p1a: Magearna|100/100|[from] item: Leftovers
 |-heal|p2a: Toxapex|48/100|[from] item: Leftovers
@@ -306,7 +306,7 @@
 |turn|29
 |
 |move|p1a: Magearna|Spikes|p2a: Toxapex
-|-sidestart|p2: skoma|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Toxapex|Recover|p2a: Toxapex
 |-heal|p2a: Toxapex|100/100 brn
 |
@@ -389,7 +389,7 @@
 |turn|37
 |
 |move|p1a: Magearna|Spikes|p2a: Hippowdon
-|-sidestart|p2: skoma|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Hippowdon|Earthquake|p1a: Magearna
 |-supereffective|p1a: Magearna
 |-damage|p1a: Magearna|49/100
@@ -421,7 +421,7 @@
 |move|p1a: Magearna|Volt Switch|p2a: Hippowdon
 |-immune|p2a: Hippowdon
 |move|p2a: Hippowdon|Stealth Rock|p1a: Magearna
-|-sidestart|p1: adil|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p1a: Magearna|74/100|[from] item: Leftovers
 |turn|41
@@ -509,8 +509,8 @@
 |-damage|p2a: Corviknight|52/100
 |move|p2a: Corviknight|Defog|p1a: fun meta!
 |-unboost|p1a: fun meta!|evasion|1
-|-sideend|p1: adil|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: skoma|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Corviknight
 |
 |turn|50
 |
@@ -566,7 +566,7 @@
 |
 |switch|p2a: Amoonguss|Amoonguss, F|93/100
 |move|p1a: Magearna|Spikes|p2a: Amoonguss
-|-sidestart|p2: skoma|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-weather|Sandstorm|[upkeep]
 |-damage|p2a: Amoonguss|86/100|[from] Sandstorm
@@ -637,7 +637,7 @@
 |-damage|p2a: Hippowdon|88/100|[from] Spikes
 |-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
 |move|p1a: Magearna|Spikes|p2a: Hippowdon
-|-sidestart|p2: skoma|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-weather|Sandstorm|[upkeep]
 |-heal|p1a: Magearna|80/100|[from] item: Leftovers
@@ -645,9 +645,9 @@
 |turn|62
 |
 |move|p1a: Magearna|Spikes|p2a: Hippowdon
-|-sidestart|p2: skoma|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Hippowdon|Stealth Rock|p1a: Magearna
-|-sidestart|p1: adil|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|Sandstorm|[upkeep]
 |-heal|p1a: Magearna|86/100|[from] item: Leftovers
@@ -1172,6 +1172,6 @@
 |-damage|p2a: Corviknight|6/100|[from] item: Black Sludge
 |-heal|p1a: Magearna|93/100|[from] item: Leftovers
 |turn|111
-|-message|skoma forfeited.
+|-message|p2 forfeited.
 |
-|win|adil
+|win|p1

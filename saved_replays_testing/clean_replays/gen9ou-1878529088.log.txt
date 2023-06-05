@@ -1,0 +1,332 @@
+|poke|p1|Kleavor, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Great Tusk|
+|poke|p1|Rillaboom, M|
+|poke|p1|Sneasler, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Clodsire, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Volcarona, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Tata|Kleavor, F|100/100
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Tata|Stone Axe|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|-sidestart|p2: p2|move: Stealth Rock
+|-damage|p1a: Tata|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|turn|2
+|
+|move|p1a: Tata|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|61/100
+|-damage|p1a: Tata|68/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|switch|p1a: Pelippo|Pelipper, M|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelippo
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|switch|p1a: Basculona|Basculegion-F, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Basculona|Ice Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|56/100
+|move|p2a: Clodsire|Toxic|p1a: Basculona
+|-status|p1a: Basculona|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|62/100|[from] item: Leftovers
+|-damage|p1a: Basculona|94/100 tox|[from] psn
+|turn|5
+|
+|switch|p1a: No-hated Lando|Great Tusk|100/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: No-hated Lando|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-damage|p1a: No-hated Lando|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: No-hated Lando
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|-end|p1a: No-hated Lando|Protosynthesis|[silent]
+|switch|p1a: Tata|Kleavor, F|68/100
+|move|p2a: Corviknight|Defog|p1a: Tata
+|-unboost|p1a: Tata|evasion|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Tata|Stone Axe|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|-sidestart|p2: p2|move: Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|81/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p1a: Tata|Stone Axe|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|move|p2a: Corviknight|Brave Bird|p1a: Tata
+|-damage|p1a: Tata|21/100
+|-damage|p2a: Corviknight|38/100|[from] Recoil
+|
+|-weather|none
+|turn|10
+|
+|move|p1a: Tata|Stone Axe|p2a: Corviknight
+|-damage|p2a: Corviknight|7/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|57/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|11
+|
+|move|p1a: Tata|Stone Axe|p2a: Corviknight
+|-damage|p2a: Corviknight|24/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|74/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|12
+|
+|move|p1a: Tata|Stone Axe|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|24/100
+|move|p2a: Corviknight|Brave Bird|p1a: Tata
+|-damage|p1a: Tata|0 fnt
+|faint|p1a: Tata
+|-damage|p2a: Corviknight|20/100|[from] Recoil
+|
+|
+|switch|p1a: Basculona|Basculegion-F, F|94/100 tox
+|turn|13
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|move|p1a: Basculona|Ice Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|47/100
+|
+|-heal|p2a: Clodsire|54/100|[from] item: Leftovers
+|-damage|p1a: Basculona|88/100 tox|[from] psn
+|turn|14
+|
+|switch|p1a: No-hated Lando|Great Tusk|84/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, M|20/100
+|-damage|p2a: Corviknight|7/100|[from] Stealth Rock
+|move|p1a: No-hated Lando|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|16
+|
+|-end|p1a: No-hated Lando|Protosynthesis|[silent]
+|switch|p1a: Pelippo|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelippo
+|-terastallize|p2a: Volcarona|Grass
+|move|p2a: Volcarona|Giga Drain|p1a: Pelippo
+|-damage|p1a: Pelippo|43/100
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Pelippo
+|-damage|p1a: Pelippo|0 fnt
+|faint|p1a: Pelippo
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Gen9 Weavile|Sneasler, F|100/100
+|turn|18
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p2a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Gen9 Weavile|Dire Claw|p2a: Zamazenta
+|-immune|p2a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|turn|19
+|
+|switch|p1a: Basculona|Basculegion-F, F|88/100 tox
+|move|p2a: Zamazenta|Psychic Fangs|p1a: Basculona
+|-damage|p1a: Basculona|51/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Basculona|45/100 tox|[from] psn
+|turn|20
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|move|p1a: Basculona|Shadow Ball|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|58/100|[from] item: Leftovers
+|-damage|p1a: Basculona|33/100 tox|[from] psn
+|turn|21
+|
+|switch|p1a: Grassy Gliden't|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Grassy Gliden't
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|
+|move|p1a: Grassy Gliden't|U-turn|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|80/100
+|
+|switch|p1a: Gen9 Weavile|Sneasler, F|100/100|[from] U-turn
+|-enditem|p1a: Gen9 Weavile|Grassy Seed
+|-boost|p1a: Gen9 Weavile|def|1|[from] item: Grassy Seed
+|move|p2a: Clodsire|Stealth Rock|p1a: Gen9 Weavile
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|86/100|[from] Grassy Terrain
+|-heal|p2a: Clodsire|92/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Gen9 Weavile|Swords Dance|p1a: Gen9 Weavile
+|-boost|p1a: Gen9 Weavile|atk|2
+|move|p2a: Clodsire|Earthquake|p1a: Gen9 Weavile
+|-supereffective|p1a: Gen9 Weavile
+|-damage|p1a: Gen9 Weavile|69/100
+|
+|-weather|none
+|-heal|p1a: Gen9 Weavile|75/100|[from] Grassy Terrain
+|-heal|p2a: Clodsire|99/100|[from] Grassy Terrain
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Gen9 Weavile|Acrobatics|p2a: Clodsire
+|-damage|p2a: Clodsire|9/100
+|move|p2a: Clodsire|Earthquake|p1a: Gen9 Weavile
+|-supereffective|p1a: Gen9 Weavile
+|-damage|p1a: Gen9 Weavile|41/100
+|
+|-heal|p1a: Gen9 Weavile|47/100|[from] Grassy Terrain
+|-heal|p2a: Clodsire|15/100|[from] Grassy Terrain
+|-heal|p2a: Clodsire|21/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Gen9 Weavile|Acrobatics|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-heal|p1a: Gen9 Weavile|53/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|97/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Gen9 Weavile|Close Combat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Gen9 Weavile|def|1
+|-unboost|p1a: Gen9 Weavile|spd|1
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Gen9 Weavile
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-resisted|p1a: Gen9 Weavile
+|-damage|p1a: Gen9 Weavile|7/100
+|move|p1a: Gen9 Weavile|Dire Claw|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|28
+|
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|move|p1a: Gen9 Weavile|Swords Dance|p1a: Gen9 Weavile
+|-boost|p1a: Gen9 Weavile|atk|2
+|
+|turn|29
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Gen9 Weavile
+|-resisted|p1a: Gen9 Weavile
+|-damage|p1a: Gen9 Weavile|0 fnt
+|faint|p1a: Gen9 Weavile
+|
+|
+|switch|p1a: No-hated Lando|Great Tusk|84/100
+|-damage|p1a: No-hated Lando|81/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: No-hated Lando
+|-supereffective|p1a: No-hated Lando
+|-damage|p1a: No-hated Lando|19/100
+|move|p1a: No-hated Lando|Close Combat|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-unboost|p1a: No-hated Lando|def|1
+|-unboost|p1a: No-hated Lando|spd|1
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Volcarona|Volcarona, F, tera:Grass|100/100
+|turn|31
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: No-hated Lando|Close Combat|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-unboost|p1a: No-hated Lando|def|1
+|-unboost|p1a: No-hated Lando|spd|1
+|-status|p1a: No-hated Lando|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|faint|p2a: Volcarona
+|

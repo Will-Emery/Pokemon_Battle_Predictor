@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p2a: Scream Tail|Light Screen|p2a: Scream Tail
-|-sidestart|p2: CelestialFish|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Hoopa|Trick Room|p1a: Hoopa
 |-fieldstart|move: Trick Room|[of] p1a: Hoopa
 |
@@ -26,7 +26,7 @@
 |
 |switch|p1a: Ursaluna|Ursaluna, F|100/100
 |move|p2a: Scream Tail|Reflect|p2a: Scream Tail
-|-sidestart|p2: CelestialFish|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-status|p1a: Ursaluna|brn|[from] item: Flame Orb
 |turn|3
@@ -86,7 +86,7 @@
 |switch|p1a: Magearna|Magearna|100/100|[from] Chilly Reception
 |
 |-weather|Snow|[upkeep]
-|-sideend|p2: CelestialFish|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|9
 |
 |move|p1a: Magearna|Encore|p2a: Magearna
@@ -96,7 +96,7 @@
 |-boost|p2a: Magearna|spd|1
 |
 |-weather|Snow|[upkeep]
-|-sideend|p2: CelestialFish|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |switch|p2a: Skeledirge|Skeledirge, F, shiny|100/100
@@ -183,6 +183,6 @@
 |
 |-weather|Snow|[upkeep]
 |-damage|p1a: Ursaluna|8/100 brn|[from] brn
-|-message|CelestialFish forfeited.
+|-message|p2 forfeited.
 |
-|win|Aggron
+|win|p1

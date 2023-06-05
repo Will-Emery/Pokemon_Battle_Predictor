@@ -17,7 +17,7 @@
 |switch|p1a: Mew|Mew|100/100
 |switch|p2a: Dondozo|Dondozo, F|100/100
 |turn|1
-|player|p2|Dec17|102
+|player|p2|p2|102
 |
 |move|p1a: Mew|Taunt|p2a: Dondozo
 |-start|p2a: Dondozo|move: Taunt
@@ -28,15 +28,15 @@
 |player|p2|
 |
 |move|p1a: Mew|Stealth Rock|p2a: Dondozo
-|-sidestart|p2: Dec17|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Dondozo|Liquidation|p1a: Mew
 |-damage|p1a: Mew|46/100
 |
 |turn|3
-|player|p2|Dec17|102
+|player|p2|p2|102
 |
 |move|p1a: Mew|Spikes|p2a: Dondozo
-|-sidestart|p2: Dec17|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Dondozo|Liquidation|p1a: Mew
 |-damage|p1a: Mew|15/100
 |
@@ -57,8 +57,8 @@
 |move|p2a: Komala|Rapid Spin|p1a: Mew
 |-damage|p1a: Mew|0 fnt
 |-boost|p2a: Komala|spe|1
-|-sideend|p2: Dec17|Spikes|[from] move: Rapid Spin|[of] p2a: Komala
-|-sideend|p2: Dec17|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Komala
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Komala
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Komala
 |faint|p1a: Mew
 |
 |
@@ -257,4 +257,4 @@
 |-damage|p1a: Chien-Pao|0 fnt
 |faint|p1a: Chien-Pao
 |
-|win|Dec17
+|win|p2

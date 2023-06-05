@@ -20,30 +20,30 @@
 |move|p1a: Child|Toxic|p2a: Mudsdale
 |-status|p2a: Mudsdale|tox
 |move|p2a: Mudsdale|Stealth Rock|p1a: Child
-|-sidestart|p1: Crimsora|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-damage|p2a: Mudsdale|94/100 tox|[from] psn
 |turn|2
 |
 |move|p1a: Child|Stealth Rock|p2a: Mudsdale
-|-sidestart|p2: Jetrage|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Mudsdale|Earthquake|p1a: Child
 |-supereffective|p1a: Child
 |-enditem|p1a: Child|Focus Sash
 |-damage|p1a: Child|1/100
 |-activate|p1a: Child|ability: Toxic Debris
-|-sidestart|p2: Jetrage|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-damage|p2a: Mudsdale|82/100 tox|[from] psn
 |turn|3
 |
 |move|p1a: Child|Spikes|p2a: Mudsdale
-|-sidestart|p2: Jetrage|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Mudsdale|Earthquake|p1a: Child
 |-supereffective|p1a: Child
 |-damage|p1a: Child|0 fnt
 |-activate|p1a: Child|ability: Toxic Debris
-|-sidestart|p2: Jetrage|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Child
 |
 |-damage|p2a: Mudsdale|63/100 tox|[from] psn
@@ -54,7 +54,7 @@
 |
 |switch|p2a: Salazzle|Salazzle, F|100/100
 |-damage|p2a: Salazzle|76/100|[from] Stealth Rock
-|-sideend|p2: Jetrage|move: Toxic Spikes|[of] p2a: Salazzle
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Salazzle
 |-damage|p2a: Salazzle|63/100|[from] Spikes
 |move|p1a: Slime|Chilling Water|p2a: Salazzle
 |-supereffective|p2a: Salazzle
@@ -141,7 +141,7 @@
 |turn|11
 |
 |move|p2a: Klefki|Reflect|p2a: Klefki
-|-sidestart|p2: Jetrage|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Mans|Iron Head|p2a: Klefki
 |-damage|p2a: Klefki|59/100
 |
@@ -216,7 +216,7 @@
 |faint|p1a: Mrs. Mann
 |-damage|p2a: Mabosstiff|43/100|[from] Recoil
 |
-|-sideend|p2: Jetrage|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p1a: Mr. Mann|Ceruledge, M|100/100
 |-damage|p1a: Mr. Mann|76/100|[from] Stealth Rock
@@ -255,4 +255,4 @@
 |faint|p2a: Mabosstiff
 |-damage|p1a: Mr. Mann|46/100|[from] item: Life Orb
 |
-|win|Crimsora
+|win|p1

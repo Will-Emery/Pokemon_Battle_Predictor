@@ -69,7 +69,7 @@
 |switch|p2a: Corviknight|Corviknight, M|100/100
 |-ability|p2a: Corviknight|Pressure
 |move|p1a: Great Tusk|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: crebnar|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |turn|7
@@ -78,7 +78,7 @@
 |switch|p1a: Thundurus|Thundurus-Therian, M|100/100
 |move|p2a: Corviknight|Defog|p1a: Thundurus
 |-unboost|p1a: Thundurus|evasion|1
-|-sideend|p2: crebnar|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |-weather|RainDance|[upkeep]
 |turn|8
@@ -133,7 +133,7 @@
 |switch|p2a: Corviknight|Corviknight, M|100/100
 |-ability|p2a: Corviknight|Pressure
 |move|p1a: Great Tusk|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: crebnar|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |turn|14
@@ -252,7 +252,7 @@
 |switch|p1a: Basculegion|Basculegion, M|19/100|[from] Volt Switch
 |move|p2a: Corviknight|Defog|p1a: Basculegion
 |-unboost|p1a: Basculegion|evasion|1
-|-sideend|p2: crebnar|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |-heal|p2a: Corviknight|62/100|[from] item: Leftovers
 |turn|25
@@ -313,6 +313,6 @@
 |
 |switch|p2a: Hydreigon|Hydreigon, M|100/100
 |turn|30
-|-message|On the wave now forfeited.
+|-message|p1 forfeited.
 |
-|win|crebnar
+|win|p2

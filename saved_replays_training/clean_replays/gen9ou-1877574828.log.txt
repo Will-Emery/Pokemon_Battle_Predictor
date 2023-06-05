@@ -19,12 +19,12 @@
 |turn|1
 |
 |move|p2a: Hit me :)|Stealth Rock|p1a: Pelippo
-|-sidestart|p1: adpg.alt|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Pelippo|U-turn|p2a: Hit me :)
 |-resisted|p2a: Hit me :)
 |-damage|p2a: Hit me :)|96/100
 |-activate|p2a: Hit me :)|ability: Toxic Debris
-|-sidestart|p1: adpg.alt|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |switch|p1a: No-hated Lando|Great Tusk|100/100|[from] U-turn
 |-damage|p1a: No-hated Lando|98/100|[from] Stealth Rock
@@ -35,12 +35,12 @@
 |turn|2
 |
 |move|p2a: Hit me :)|Spikes|p1a: No-hated Lando
-|-sidestart|p1: adpg.alt|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: No-hated Lando|Earthquake|p2a: Hit me :)
 |-supereffective|p2a: Hit me :)
 |-damage|p2a: Hit me :)|0 fnt
 |-activate|p2a: Hit me :)|ability: Toxic Debris
-|-sidestart|p1: adpg.alt|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |faint|p2a: Hit me :)
 |
 |-weather|RainDance|[upkeep]
@@ -55,9 +55,9 @@
 |move|p1a: No-hated Lando|Rapid Spin|p2a: Worst Ash' Poke
 |-damage|p2a: Worst Ash' Poke|85/100
 |-boost|p1a: No-hated Lando|spe|1
-|-sideend|p1: adpg.alt|Spikes|[from] move: Rapid Spin|[of] p1a: No-hated Lando
-|-sideend|p1: adpg.alt|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: No-hated Lando
-|-sideend|p1: adpg.alt|Stealth Rock|[from] move: Rapid Spin|[of] p1a: No-hated Lando
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: No-hated Lando
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: No-hated Lando
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: No-hated Lando
 |move|p2a: Worst Ash' Poke|Yawn||[still]
 |-fail|p2a: Worst Ash' Poke
 |
@@ -98,7 +98,7 @@
 |-damage|p1a: Tata|1/100
 |move|p1a: Tata|Stone Axe|p2a: Grug Croone
 |-damage|p2a: Grug Croone|44/100
-|-sidestart|p2: Juan_206|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|7
@@ -143,7 +143,7 @@
 |switch|p1a: Pelippo|Pelipper, F|32/100
 |move|p2a: Adam|Defog|p1a: Pelippo
 |-unboost|p1a: Pelippo|evasion|1
-|-sideend|p2: Juan_206|Stealth Rock|[from] move: Defog|[of] p2a: Adam
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Adam
 |-fieldend|move: Grassy Terrain
 |
 |-weather|RainDance|[upkeep]
@@ -246,5 +246,5 @@
 |-damage|p2a: Adam|0 fnt
 |faint|p2a: Adam
 |
-|win|adpg.alt
-|player|p1|adpg.alt|hilbert-wonderlauncher
+|win|p1
+|player|p1|p1|hilbert-wonderlauncher

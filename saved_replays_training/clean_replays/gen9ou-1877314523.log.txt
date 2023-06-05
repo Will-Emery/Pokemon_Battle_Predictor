@@ -19,7 +19,7 @@
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Rotom
 |-damage|p1a: Rotom|68/100
-|-sidestart|p1: Death Coil|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Rotom|Will-O-Wisp|p2a: Samurott
 |-status|p2a: Samurott|brn
 |
@@ -29,7 +29,7 @@
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Rotom
 |-damage|p1a: Rotom|57/100
-|-sidestart|p1: Death Coil|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Rotom|Thunderbolt|p2a: Samurott
 |-supereffective|p2a: Samurott
 |-damage|p2a: Samurott|1/100 brn
@@ -42,7 +42,7 @@
 |turn|3
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Sharktocrab|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Rotom|Will-O-Wisp|p2a: Dragapult
 |-status|p2a: Dragapult|brn
 |
@@ -51,7 +51,7 @@
 |turn|4
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Sharktocrab|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Rotom|Volt Switch|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|87/100 brn
@@ -67,9 +67,9 @@
 |-damage|p2a: Dragapult|31/100 brn
 |move|p1a: Hawlucha|Defog|p2a: Dragapult
 |-unboost|p2a: Dragapult|evasion|1
-|-sideend|p2: Sharktocrab|Reflect
-|-sideend|p2: Sharktocrab|move: Light Screen
-|-sideend|p1: Death Coil|Spikes|[from] move: Defog|[of] p1a: Hawlucha
+|-sideend|p2: p2|Reflect
+|-sideend|p2: p2|move: Light Screen
+|-sideend|p1: p1|Spikes|[from] move: Defog|[of] p1a: Hawlucha
 |
 |-damage|p2a: Dragapult|25/100 brn|[from] brn
 |-damage|p1a: Hawlucha|76/100|[from] Curse
@@ -161,7 +161,7 @@
 |switch|p1a: Hawlucha|Hawlucha, M|25/100
 |-ability|p1a: Hawlucha|Mold Breaker
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Sharktocrab|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-damage|p2a: Dragapult|2/100 brn|[from] brn
 |turn|16
@@ -237,12 +237,12 @@
 |-damage|p2a: Magearna|39/100
 |
 |-heal|p1a: Gholdengo|52/100|[from] item: Leftovers
-|-sideend|p2: Sharktocrab|Reflect
+|-sideend|p2: p2|Reflect
 |turn|23
-|-message|Sharktocrab forfeited.
+|-message|p2 forfeited.
 |
-|win|Death Coil
-|n|☆Death Coil|deathcoil
-|n|☆Sharktocrab|sharktocrab
+|win|p1
+|n|☆p1|deathcoil
+|n|☆p2|sharktocrab
 |n| tyresepennywhistle|tyresepennywhistle
 |n|+SetsuStsna|setsustsna

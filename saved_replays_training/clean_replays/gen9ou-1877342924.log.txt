@@ -21,7 +21,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Garganacl
 |-crit|p1a: Garganacl
 |-damage|p1a: Garganacl|59/100
-|-sidestart|p1: HoundstonePressF|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Garganacl|Salt Cure|p2a: Samurott
 |-damage|p2a: Samurott|84/100
 |-start|p2a: Samurott|Salt Cure
@@ -40,7 +40,7 @@
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Garganacl
 |-damage|p1a: Garganacl|43/100
-|-sidestart|p1: HoundstonePressF|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Garganacl|Salt Cure|p2a: Samurott
 |-damage|p2a: Samurott|17/100
 |
@@ -72,13 +72,13 @@
 |switch|p1a: Iron Treads|Iron Treads|100/100
 |-damage|p1a: Iron Treads|84/100|[from] Spikes
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: d18l|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-heal|p1a: Iron Treads|90/100|[from] item: Leftovers
 |turn|7
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: d18l|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Iron Treads|Earthquake|p2a: Dragapult
 |-damage|p2a: Dragapult|58/100
 |
@@ -156,7 +156,7 @@
 |-status|p2a: Magearna|brn
 |
 |-damage|p2a: Magearna|94/100 brn|[from] brn
-|-sideend|p2: d18l|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|14
 |
 |-terastallize|p2a: Magearna|Water
@@ -170,7 +170,7 @@
 |
 |-heal|p2a: Magearna|87/100 brn|[from] item: Leftovers
 |-damage|p2a: Magearna|81/100 brn|[from] brn
-|-sideend|p2: d18l|Reflect
+|-sideend|p2: p2|Reflect
 |turn|15
 |
 |move|p2a: Magearna|Iron Defense|p2a: Magearna
@@ -188,6 +188,6 @@
 |-damage|p2a: Magearna|0 fnt
 |faint|p2a: Magearna
 |
-|-message|d18l forfeited.
+|-message|p2 forfeited.
 |
-|win|HoundstonePressF
+|win|p1

@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p1a: Azelf|Reflect|p1a: Azelf
-|-sidestart|p1: The crimson wooper|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Great Tusk|Rapid Spin|p1a: Azelf
 |-damage|p1a: Azelf|92/100
 |-boost|p2a: Great Tusk|spe|1
@@ -26,7 +26,7 @@
 |turn|2
 |
 |move|p1a: Azelf|Light Screen|p1a: Azelf
-|-sidestart|p1: The crimson wooper|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Great Tusk|Knock Off|p1a: Azelf
 |-supereffective|p1a: Azelf
 |-damage|p1a: Azelf|57/100
@@ -39,7 +39,7 @@
 |-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
 |-start|p1a: Roaring Moon|protosynthesisatk
 |move|p2a: Great Tusk|Stealth Rock|p1a: Roaring Moon
-|-sidestart|p1: The crimson wooper|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|4
 |
@@ -92,7 +92,7 @@
 |faint|p2a: Zamazenta
 |
 |-weather|Snow|[upkeep]
-|-sideend|p1: The crimson wooper|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: Hoopa|Hoopa-Unbound|100/100
 |turn|9
@@ -102,7 +102,7 @@
 |faint|p2a: Hoopa
 |
 |-weather|Snow|[upkeep]
-|-sideend|p1: The crimson wooper|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Great Tusk|Great Tusk|100/100
 |turn|10
@@ -177,6 +177,6 @@
 |-heal|p2a: Dragapult|15/100|[from] item: Leftovers
 |-damage|p1a: UNDYNE|88/100 brn|[from] brn
 |turn|18
-|-message|gotsnsd forfeited.
+|-message|p2 forfeited.
 |
-|win|The crimson wooper
+|win|p1

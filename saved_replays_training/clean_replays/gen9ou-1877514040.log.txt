@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: Mat Riskich|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Magearna|Trick Room|p2a: Magearna
 |-fieldstart|move: Trick Room|[of] p2a: Magearna
 |
@@ -32,7 +32,7 @@
 |
 |switch|p2a: Ursaluna|Ursaluna, M|100/100
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: Mat Riskich|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |-status|p2a: Ursaluna|brn|[from] item: Flame Orb
 |turn|3
@@ -100,7 +100,7 @@
 |move|p1a: Lilligant|Sleep Powder|p2a: Magearna
 |-status|p2a: Magearna|slp|[from] move: Sleep Powder
 |
-|-sideend|p1: Mat Riskich|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|9
 |
 |switch|p2a: Slowking|Slowking-Galar, F|100/100
@@ -109,7 +109,7 @@
 |-boost|p1a: Lilligant|def|1
 |-boost|p1a: Lilligant|spe|1
 |
-|-sideend|p1: Mat Riskich|Reflect
+|-sideend|p1: p1|Reflect
 |turn|10
 |
 |move|p1a: Lilligant|Close Combat|p2a: Slowking|[miss]
@@ -118,6 +118,6 @@
 |-fieldstart|move: Trick Room|[of] p2a: Slowking
 |
 |turn|11
-|-message|Mat Riskich forfeited.
+|-message|p1 forfeited.
 |
-|win|Polco
+|win|p2

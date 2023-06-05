@@ -21,7 +21,7 @@
 |switch|p1a: Daronne de Woippy|Hatterene, F|100/100
 |move|p2a: Carmen Sandiego|Spikes|p1a: Daronne de Woippy
 |move|p1a: Daronne de Woippy|Spikes|p2a: Carmen Sandiego|[from]ability: Magic Bounce
-|-sidestart|p2: Toxinalpaca|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|2
 |
@@ -110,12 +110,12 @@
 |turn|9
 |
 |move|p1a: LESOUPERESOUBE|Stealth Rock|p2a: T-Bone Steak
-|-sidestart|p2: Toxinalpaca|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: T-Bone Steak|Rapid Spin|p1a: LESOUPERESOUBE
 |-damage|p1a: LESOUPERESOUBE|0 fnt
 |-boost|p2a: T-Bone Steak|spe|1
-|-sideend|p2: Toxinalpaca|Spikes|[from] move: Rapid Spin|[of] p2a: T-Bone Steak
-|-sideend|p2: Toxinalpaca|Stealth Rock|[from] move: Rapid Spin|[of] p2a: T-Bone Steak
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: T-Bone Steak
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: T-Bone Steak
 |faint|p1a: LESOUPERESOUBE
 |-end|p1a: LESOUPERESOUBE|Protosynthesis|[silent]
 |
@@ -240,4 +240,4 @@
 |-enditem|p1a: GO|Terrain Extender|[from] move: Knock Off|[of] p2a: T-Bone Steak
 |faint|p1a: GO
 |
-|win|Toxinalpaca
+|win|p2

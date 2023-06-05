@@ -49,7 +49,7 @@
 |turn|5
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: RushedRedemption|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Cynthia|Earthquake|p1a: Dragapult
 |-damage|p1a: Dragapult|33/100
 |-damage|p2a: Cynthia|51/100|[from] item: Life Orb
@@ -57,23 +57,23 @@
 |turn|6
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: RushedRedemption|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Cynthia|Spikes|p1a: Dragapult
-|-sidestart|p1: RushedRedemption|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|7
 |
 |switch|p1a: Sneasler|Sneasler, F|100/100
 |-item|p1a: Sneasler|Air Balloon
 |move|p2a: Cynthia|Spikes|p1a: Sneasler
-|-sidestart|p1: RushedRedemption|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|8
 |
 |move|p1a: Sneasler|Swords Dance|p1a: Sneasler
 |-boost|p1a: Sneasler|atk|2
 |move|p2a: Cynthia|Spikes|p1a: Sneasler
-|-sidestart|p1: RushedRedemption|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|9
 |
@@ -104,7 +104,7 @@
 |move|p2a: OnGholdengo|Nasty Plot|p2a: OnGholdengo
 |-boost|p2a: OnGholdengo|spa|2
 |
-|-sideend|p1: RushedRedemption|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|13
 |
 |move|p1a: Sneasler|Acrobatics|p2a: OnGholdengo
@@ -113,7 +113,7 @@
 |move|p2a: OnGholdengo|Recover|p2a: OnGholdengo
 |-heal|p2a: OnGholdengo|75/100
 |
-|-sideend|p1: RushedRedemption|Reflect
+|-sideend|p1: p1|Reflect
 |turn|14
 |
 |move|p1a: Sneasler|Acrobatics|p2a: OnGholdengo
@@ -145,7 +145,7 @@
 |turn|17
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: RushedRedemption|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: OnGholdengo|Shadow Ball|p1a: Dragapult
 |-supereffective|p1a: Dragapult
 |-damage|p1a: Dragapult|0 fnt
@@ -199,6 +199,6 @@
 |faint|p1a: Ursaluna
 |-damage|p2a: Cynthia|42/100|[from] item: Life Orb
 |
-|-message|RushedRedemption forfeited.
+|-message|p1 forfeited.
 |
-|win|redinerx
+|win|p2

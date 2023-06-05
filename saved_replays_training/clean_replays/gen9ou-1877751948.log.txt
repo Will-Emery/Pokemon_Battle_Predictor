@@ -23,18 +23,18 @@
 |-item|p2a: Ting-Lu|Choice Specs|[from] move: Trick
 |-item|p1a: Cloé|Leftovers|[from] move: Trick
 |move|p2a: Ting-Lu|Stealth Rock|p1a: Cloé
-|-sidestart|p1: PuceauGang|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|2
 |
 |switch|p2a: Toxapex|Toxapex, M|100/100
 |move|p1a: Cloé|Spikes|p2a: Toxapex
-|-sidestart|p2: AIGC101|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|3
 |
 |move|p1a: Cloé|Spikes|p2a: Toxapex
-|-sidestart|p2: AIGC101|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Toxapex|Chilling Water|p1a: Cloé
 |-damage|p1a: Cloé|90/100
 |-unboost|p1a: Cloé|atk|1
@@ -44,7 +44,7 @@
 |
 |switch|p2a: Corviknight|Corviknight, F|100/100
 |move|p1a: Cloé|Spikes|p2a: Corviknight
-|-sidestart|p2: AIGC101|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p1a: Cloé|100/100|[from] item: Leftovers
 |turn|5
@@ -56,8 +56,8 @@
 |-unboost|p1a: Cloé|spa|2
 |move|p2a: Corviknight|Defog|p1a: Cloé
 |-unboost|p1a: Cloé|evasion|1
-|-sideend|p1: PuceauGang|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: AIGC101|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Corviknight
 |
 |-heal|p2a: Corviknight|60/100|[from] item: Leftovers
 |turn|6
@@ -142,7 +142,7 @@
 |turn|15
 |
 |move|p1a: Tom|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: AIGC101|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Corviknight|Body Press|p1a: Tom
 |-crit|p1a: Tom
 |-damage|p1a: Tom|63/100
@@ -155,7 +155,7 @@
 |switch|p1a: Maxime|Volcarona, F|100/100
 |move|p2a: Corviknight|Defog|p1a: Maxime
 |-unboost|p1a: Maxime|evasion|1
-|-sideend|p2: AIGC101|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |turn|17
 |
@@ -186,6 +186,6 @@
 |
 |-damage|p1a: Maxime|14/100|[from] Salt Cure
 |turn|20
-|-message|PuceauGang forfeited.
+|-message|p1 forfeited.
 |
-|win|AIGC101
+|win|p2

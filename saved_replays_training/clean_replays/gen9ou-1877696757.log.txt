@@ -20,7 +20,7 @@
 |move|p1a: Nejibana|Ceaseless Edge|p2a: Mr. Heffner
 |-resisted|p2a: Mr. Heffner
 |-damage|p2a: Mr. Heffner|84/100
-|-sidestart|p2: inchandywetrust|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Mr. Heffner|Trick Room|p2a: Mr. Heffner
 |-fieldstart|move: Trick Room|[of] p2a: Mr. Heffner
 |
@@ -39,7 +39,7 @@
 |turn|3
 |
 |move|p2a: Mr. Heffner|Light Screen|p2a: Mr. Heffner
-|-sidestart|p2: inchandywetrust|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Ryujin Jakka|Torch Song|p2a: Mr. Heffner
 |-supereffective|p2a: Mr. Heffner
 |-damage|p2a: Mr. Heffner|64/100
@@ -89,7 +89,7 @@
 |switch|p1a: Zabimaru|Great Tusk|100/100|[from] U-turn
 |move|p2a: Gukko Force|Defog|p1a: Zabimaru
 |-unboost|p1a: Zabimaru|evasion|1
-|-sideend|p2: inchandywetrust|Spikes|[from] move: Defog|[of] p2a: Gukko Force
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Gukko Force
 |
 |-heal|p2a: Gukko Force|100/100|[from] item: Leftovers
 |turn|8
@@ -115,7 +115,7 @@
 |-supereffective|p2a: Mr. Heffner
 |-damage|p2a: Mr. Heffner|18/100
 |
-|-sideend|p2: inchandywetrust|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|11
 |
 |move|p1a: Tobiume|Flamethrower|p2a: Mr. Heffner
@@ -300,4 +300,4 @@
 |faint|p1a: Tobiume
 |-damage|p2a: Aku Lord of Evil|91/100|[from] item: Life Orb
 |
-|win|inchandywetrust
+|win|p2

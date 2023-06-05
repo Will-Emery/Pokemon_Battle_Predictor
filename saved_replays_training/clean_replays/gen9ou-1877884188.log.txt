@@ -40,7 +40,7 @@
 |
 |switch|p2a: Basculegion|Basculegion, M|100/100
 |move|p1a: Ting-Lu|Spikes|p2a: Basculegion
-|-sidestart|p2: rinnegan sad|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|4
 |
@@ -123,9 +123,9 @@
 |turn|12
 |
 |move|p2a: Landorus|Stealth Rock|p1a: Torkoal
-|-sidestart|p1: georgiethefirst|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Torkoal|Stealth Rock|p2a: Landorus
-|-sidestart|p2: rinnegan sad|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|13
@@ -301,9 +301,9 @@
 |
 |move|p2a: Corviknight|Defog|p1a: Toxapex
 |-unboost|p1a: Toxapex|evasion|1
-|-sideend|p1: georgiethefirst|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: rinnegan sad|Spikes|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: rinnegan sad|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Toxapex|Sludge Bomb|p2a: Corviknight
 |-immune|p2a: Corviknight
 |
@@ -518,6 +518,6 @@
 |-heal|p2a: Magearna|36/100 psn|[from] item: Leftovers
 |-damage|p2a: Magearna|23/100 psn|[from] psn
 |turn|53
-|-message|rinnegan sad forfeited.
+|-message|p2 forfeited.
 |
-|win|georgiethefirst
+|win|p1

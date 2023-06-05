@@ -1,0 +1,45 @@
+|poke|p1|Great Tusk|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Gholdengo|
+|poke|p1|Sneasler, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Great Tusk|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|move|p2a: Glimmora|Energy Ball|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Glimmora|atk|1
+|turn|2
+|
+|move|p2a: Glimmora|Energy Ball|p1a: Landorus
+|-damage|p1a: Landorus|65/100
+|move|p1a: Landorus|Smack Down|p2a: Glimmora
+|-damage|p2a: Glimmora|80/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: p1|move: Toxic Spikes
+|
+|turn|3
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Landorus|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|turn|4
+|

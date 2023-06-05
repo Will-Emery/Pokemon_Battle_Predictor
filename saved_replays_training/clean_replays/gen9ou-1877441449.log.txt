@@ -20,7 +20,7 @@
 |turn|1
 |
 |move|p1a: Overqwil|Toxic Spikes|p2a: Slowking
-|-sidestart|p2: Abretado01|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |move|p2a: Slowking|Chilly Reception|p2a: Slowking
 |-weather|Snow
 |
@@ -33,7 +33,7 @@
 |-swapsideconditions
 |-activate|p2a: Cinderace|move: Court Change
 |move|p1a: Overqwil|Toxic Spikes|p2a: Cinderace
-|-sidestart|p2: Abretado01|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-weather|Snow|[upkeep]
 |turn|3
@@ -75,7 +75,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Enamorus
 |-damage|p1a: Enamorus|69/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: Abretado01|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-damage|p2a: Great Tusk|88/100 psn|[from] psn
 |turn|7
@@ -103,7 +103,7 @@
 |
 |
 |switch|p1a: Overqwil|Overqwil, F|64/100
-|-sideend|p1: Dragonfly26|move: Toxic Spikes|[of] p1a: Overqwil
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Overqwil
 |-ability|p1a: Overqwil|Intimidate|boost
 |-unboost|p2a: Cinderace|atk|1
 |turn|9
@@ -217,4 +217,4 @@
 |-damage|p2a: Dondozo|0 fnt
 |faint|p2a: Dondozo
 |
-|win|Dragonfly26
+|win|p1

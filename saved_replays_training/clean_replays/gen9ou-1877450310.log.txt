@@ -33,8 +33,8 @@
 |-damage|p2a: Glimmora|93/100
 |-boost|p1a: Iron Treads|spe|1
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: Federa|move: Toxic Spikes
-|-sideend|p1: Federa|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sidestart|p1: p1|move: Toxic Spikes
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Iron Treads|60/100|[from] item: Leftovers
@@ -50,7 +50,7 @@
 |turn|4
 |
 |move|p1a: Iron Treads|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: McMuslim|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Corviknight|U-turn|p1a: Iron Treads
 |-resisted|p1a: Iron Treads
 |-crit|p1a: Iron Treads
@@ -79,7 +79,7 @@
 |
 |switch|p1a: Iron Treads|Iron Treads|65/100
 |move|p2a: Clodsire|Spikes|p1a: Iron Treads
-|-sidestart|p1: Federa|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Iron Treads|71/100|[from] item: Leftovers
@@ -173,7 +173,7 @@
 |-supereffective|p2a: Glimmora
 |-damage|p2a: Glimmora|0 fnt
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: Federa|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |faint|p2a: Glimmora
 |-damage|p1a: Basculegion|6/100 brn|[from] Recoil
 |
@@ -302,4 +302,4 @@
 |faint|p2a: Kingambit
 |-end|p2a: Kingambit|fallen5|[silent]
 |
-|win|Federa
+|win|p1

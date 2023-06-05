@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: TrashbutHuman|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Bombirdier|Parting Shot|p1a: Grimmsnarl
 |-unboost|p1a: Grimmsnarl|atk|1
 |-unboost|p1a: Grimmsnarl|spa|1
@@ -28,9 +28,9 @@
 |turn|2
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: TrashbutHuman|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Heatran|Stealth Rock|p1a: Grimmsnarl
-|-sidestart|p1: TrashbutHuman|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|3
 |
@@ -95,7 +95,7 @@
 |cant|p1a: Zapdos|slp
 |
 |-heal|p1a: Zapdos|100/100 slp|[from] item: Leftovers
-|-sideend|p1: TrashbutHuman|Reflect
+|-sideend|p1: p1|Reflect
 |turn|9
 |
 |cant|p1a: Zapdos|slp
@@ -104,7 +104,7 @@
 |-damage|p1a: Zapdos|51/100 slp
 |
 |-heal|p1a: Zapdos|57/100 slp|[from] item: Leftovers
-|-sideend|p1: TrashbutHuman|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|10
 |
 |-terastallize|p1a: Zapdos|Steel
@@ -209,7 +209,7 @@
 |turn|19
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: TrashbutHuman|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Chien-Pao|Ice Spinner|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|36/100
 |
@@ -258,6 +258,6 @@
 |-damage|p1a: Dragapult|0 fnt
 |faint|p1a: Dragapult
 |
-|-message|TrashbutHuman forfeited.
+|-message|p1 forfeited.
 |
-|win|Kaz2109
+|win|p2

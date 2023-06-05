@@ -20,7 +20,7 @@
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Pelipe
 |-damage|p1a: Pelipe|67/100
-|-sidestart|p1: lucenthine|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Pelipe|Hurricane|p2a: Samurott
 |-damage|p2a: Samurott|41/100
 |-start|p2a: Samurott|confusion
@@ -61,7 +61,7 @@
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Pelipe
 |-damage|p1a: Pelipe|31/100
-|-sidestart|p1: lucenthine|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Pelipe|U-turn|p2a: Samurott
 |-supereffective|p2a: Samurott
 |-damage|p2a: Samurott|0 fnt
@@ -76,7 +76,7 @@
 |turn|6
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: UnzipsCrogre|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: LINK|Spore|p2a: Dragapult
 |-status|p2a: Dragapult|slp|[from] move: Spore
 |
@@ -144,7 +144,7 @@
 |-boost|p2a: Sneasler|atk|2
 |
 |-weather|RainDance|[upkeep]
-|-sideend|p2: UnzipsCrogre|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|14
 |
 |move|p2a: Sneasler|Acrobatics|p1a: Pelipe
@@ -176,7 +176,7 @@
 |move|p1a: RAM & SLAM|Rapid Spin|p2a: Sneasler
 |-damage|p2a: Sneasler|0 fnt
 |-boost|p1a: RAM & SLAM|spe|1
-|-sideend|p1: lucenthine|Spikes|[from] move: Rapid Spin|[of] p1a: RAM & SLAM
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: RAM & SLAM
 |faint|p2a: Sneasler
 |
 |-weather|RainDance|[upkeep]
@@ -256,6 +256,6 @@
 |faint|p2a: Volcarona
 |
 |-weather|RainDance|[upkeep]
-|-message|UnzipsCrogre forfeited.
+|-message|p2 forfeited.
 |
-|win|lucenthine
+|win|p1

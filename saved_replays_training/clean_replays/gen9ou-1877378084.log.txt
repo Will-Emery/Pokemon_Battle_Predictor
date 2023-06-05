@@ -70,7 +70,7 @@
 |
 |switch|p1a: Samurott|Samurott-Hisui, M|100/100
 |move|p2a: Landorus|Stealth Rock|p1a: Samurott
-|-sidestart|p1: BH78|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|8
 |
@@ -81,7 +81,7 @@
 |switch|p2a: Volcarona|Volcarona, F, shiny|100/100|[from] U-turn
 |move|p1a: Samurott|Ceaseless Edge|p2a: Volcarona
 |-damage|p2a: Volcarona|0 fnt
-|-sidestart|p2: Nomarrow8|Spikes
+|-sidestart|p2: p2|Spikes
 |faint|p2a: Volcarona
 |
 |
@@ -201,7 +201,7 @@
 |switch|p1a: Slowking|Slowking-Galar, F|50/100
 |-damage|p1a: Slowking|38/100|[from] Stealth Rock
 |move|p2a: Cresselia|Light Screen|p2a: Cresselia
-|-sidestart|p2: Nomarrow8|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|19
 |
@@ -220,7 +220,7 @@
 |turn|21
 |
 |move|p2a: Cresselia|Reflect|p2a: Cresselia
-|-sidestart|p2: Nomarrow8|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Slowking|Flamethrower|p2a: Cresselia
 |-damage|p2a: Cresselia|93/100
 |-status|p2a: Cresselia|brn
@@ -274,11 +274,11 @@
 |-start|p1a: Slowking|move: Future Sight
 |
 |-damage|p2a: Cresselia|94/100 brn|[from] brn
-|-sideend|p2: Nomarrow8|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|26
 |
 |move|p2a: Cresselia|Light Screen|p2a: Cresselia
-|-sidestart|p2: Nomarrow8|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Slowking|Flamethrower|p2a: Cresselia
 |-damage|p2a: Cresselia|87/100 brn
 |
@@ -302,7 +302,7 @@
 |-heal|p2a: Cresselia|100/100 brn
 |
 |-damage|p2a: Cresselia|94/100 brn|[from] brn
-|-sideend|p2: Nomarrow8|Reflect
+|-sideend|p2: p2|Reflect
 |turn|29
 |
 |move|p1a: Urshifu|Surging Strikes|p2a: Cresselia
@@ -343,7 +343,7 @@
 |
 |-heal|p2a: Corviknight|40/100|[from] item: Leftovers
 |turn|32
-|n|!BH78|bh78
-|-message|BH78 forfeited.
+|n|!p1|bh78
+|-message|p1 forfeited.
 |
-|win|Nomarrow8
+|win|p2

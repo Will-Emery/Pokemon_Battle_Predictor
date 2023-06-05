@@ -34,7 +34,7 @@
 |-boost|p1a: Cresselia|spa|1
 |-boost|p1a: Cresselia|spd|1
 |move|p2a: QUAGGGGG|Stealth Rock|p1a: Cresselia
-|-sidestart|p1: Lattazel|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: QUAGGGGG|95/100|[from] item: Leftovers
 |turn|3
@@ -103,14 +103,14 @@
 |turn|10
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: Lattazel|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: QUAGGGGG|Ice Punch|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|81/100
 |
 |turn|11
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: Lattazel|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: QUAGGGGG|Body Press|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|70/100
 |
@@ -135,9 +135,9 @@
 |
 |move|p2a: BIRD UP|Defog|p1a: Gordo tetón
 |-unboost|p1a: Gordo tetón|evasion|1
-|-sideend|p1: Lattazel|Reflect
-|-sideend|p1: Lattazel|move: Light Screen
-|-sideend|p1: Lattazel|Stealth Rock|[from] move: Defog|[of] p2a: BIRD UP
+|-sideend|p1: p1|Reflect
+|-sideend|p1: p1|move: Light Screen
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: BIRD UP
 |move|p1a: Gordo tetón|Play Rough|p2a: BIRD UP
 |-damage|p2a: BIRD UP|14/100
 |
@@ -203,12 +203,12 @@
 |
 |switch|p2a: CLODDDDD|Clodsire, F|100/100
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: Lattazel|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|21
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: Lattazel|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: CLODDDDD|Earthquake|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|58/100
 |
@@ -274,7 +274,7 @@
 |-damage|p1a: Iron Moth|86/100
 |
 |-heal|p2a: QUAGGGGG|22/100|[from] item: Leftovers
-|-sideend|p1: Lattazel|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|28
 |
 |move|p1a: Iron Moth|Fiery Dance|p2a: QUAGGGGG
@@ -282,7 +282,7 @@
 |-damage|p2a: QUAGGGGG|0 fnt
 |faint|p2a: QUAGGGGG
 |
-|-sideend|p1: Lattazel|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: JustARegularGoodra|Goodra-Hisui, M|89/100
 |turn|29
@@ -296,6 +296,6 @@
 |
 |-heal|p2a: JustARegularGoodra|40/100|[from] item: Leftovers
 |turn|30
-|-message|flatterbreb forfeited.
+|-message|p2 forfeited.
 |
-|win|Lattazel
+|win|p1

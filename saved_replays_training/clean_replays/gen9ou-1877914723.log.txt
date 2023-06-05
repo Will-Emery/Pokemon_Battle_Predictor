@@ -24,7 +24,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Chien-Pao
 |-resisted|p1a: Chien-Pao
 |-damage|p1a: Chien-Pao|65/100
-|-sidestart|p1: MultiPokemon|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|2
 |
@@ -39,12 +39,12 @@
 |-damage|p2a: Dragapult|36/100
 |-start|p1a: Chien-Pao|Disable|Ice Shard|[from] ability: Cursed Body|[of] p2a: Dragapult
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: SchwuchtelSchlepp|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|4
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: SchwuchtelSchlepp|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Chien-Pao|Crunch|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|0 fnt
@@ -123,7 +123,7 @@
 |-boost|p1a: Magearna|spa|1
 |-boost|p1a: Magearna|spd|1
 |
-|-sideend|p2: SchwuchtelSchlepp|Reflect
+|-sideend|p2: p2|Reflect
 |turn|11
 |
 |move|p1a: Magearna|Shift Gear|p1a: Magearna
@@ -133,7 +133,7 @@
 |-boost|p2a: Magearna|spa|1
 |-boost|p2a: Magearna|spd|1
 |
-|-sideend|p2: SchwuchtelSchlepp|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|12
 |
 |move|p1a: Magearna|Calm Mind|p1a: Magearna
@@ -170,6 +170,6 @@
 |-boost|p2a: Magearna|spa|1
 |
 |-heal|p2a: Magearna|87/100|[from] item: Leftovers
-|-message|MultiPokemon forfeited.
+|-message|p1 forfeited.
 |
-|win|SchwuchtelSchlepp
+|win|p2

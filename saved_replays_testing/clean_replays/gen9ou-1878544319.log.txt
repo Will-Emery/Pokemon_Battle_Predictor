@@ -1,0 +1,99 @@
+|poke|p1|Torkoal, M|
+|poke|p1|Iron Moth|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Amoonguss, M|
+|poke|p1|Toxapex, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Gholdengo|
+|poke|p2|Ting-Lu|
+|poke|p2|Zamazenta-*|
+|poke|p2|Blissey, F|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Toxapex|Toxic|p1a: Iron Moth
+|-immune|p1a: Iron Moth
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Toxapex|Chilling Water|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|91/100
+|-unboost|p1a: Iron Moth|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|74/100|[from] item: Black Sludge
+|turn|3
+|
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Iron Moth|Psychic|p2a: Ting-Lu
+|-immune|p2a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|-terastallize|p1a: Iron Moth|Fairy
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|28/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Iron Moth
+|-damage|p1a: Iron Moth|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|34/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Blissey
+|-damage|p2a: Blissey|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Blissey
+|-damage|p2a: Blissey|32/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Blissey|Shadow Ball|p1a: Iron Moth
+|-damage|p1a: Iron Moth|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|switch|p2a: Ting-Lu|Ting-Lu|34/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|8
+|
+|-terastallize|p2a: Zamazenta|Steel
+|move|p1a: Iron Moth|Fiery Dance|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|none
+|

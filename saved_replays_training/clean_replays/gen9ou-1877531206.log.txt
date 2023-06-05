@@ -22,8 +22,8 @@
 |-damage|p1a: Glimmora|92/100
 |-boost|p2a: Iron Treads|spe|1
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: Emosmatla|move: Toxic Spikes
-|-sideend|p2: Emosmatla|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sidestart|p2: p2|move: Toxic Spikes
+|-sideend|p2: p2|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
 |move|p1a: Glimmora|Earth Power|p2a: Iron Treads
 |-supereffective|p2a: Iron Treads
 |-damage|p2a: Iron Treads|52/100
@@ -57,7 +57,7 @@
 |-supereffective|p1a: Glimmora
 |-damage|p1a: Glimmora|0 fnt
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: Emosmatla|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Glimmora
 |-damage|p2a: Floatzel|71/100|[from] Recoil
 |
@@ -81,7 +81,7 @@
 |-damage|p1a: Dragapult|95/100
 |
 |switch|p2a: Overqwil|Overqwil, F|100/100|[from] U-turn
-|-sideend|p2: Emosmatla|move: Toxic Spikes|[of] p2a: Overqwil
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Overqwil
 |
 |-weather|RainDance|[upkeep]
 |turn|7
@@ -189,7 +189,7 @@
 |turn|18
 |
 |move|p2a: Tornadus|Tailwind|p2a: Tornadus
-|-sidestart|p2: Emosmatla|move: Tailwind
+|-sidestart|p2: p2|move: Tailwind
 |move|p1a: Dragapult|Shadow Ball|p2a: Tornadus
 |-damage|p2a: Tornadus|0 fnt
 |faint|p2a: Tornadus
@@ -226,7 +226,7 @@
 |faint|p1a: Volcarona
 |
 |-weather|RainDance|[upkeep]
-|-sideend|p2: Emosmatla|move: Tailwind
+|-sideend|p2: p2|move: Tailwind
 |
 |switch|p1a: Meowscarada|Meowscarada, M|100/100
 |turn|22
@@ -248,4 +248,4 @@
 |faint|p1a: Meowscarada
 |-damage|p2a: Floatzel|39/100|[from] Recoil
 |
-|win|Emosmatla
+|win|p2

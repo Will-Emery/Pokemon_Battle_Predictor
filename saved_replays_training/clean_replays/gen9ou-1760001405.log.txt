@@ -34,9 +34,9 @@
 |turn|3
 |
 |move|p1a: shin|Stealth Rock|p2a: Garganacl
-|-sidestart|p2: ayevon|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Garganacl|Stealth Rock|p1a: shin
-|-sidestart|p1: godlywalrus|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|Sandstorm|[upkeep]
 |turn|4
@@ -171,8 +171,8 @@
 |
 |move|p1a: my G|Defog|p2a: Toxapex
 |-unboost|p2a: Toxapex|evasion|1
-|-sideend|p2: ayevon|Stealth Rock|[from] move: Defog|[of] p1a: my G
-|-sideend|p1: godlywalrus|Stealth Rock|[from] move: Defog|[of] p1a: my G
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p1a: my G
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: my G
 |move|p2a: Toxapex|Toxic|p1a: my G
 |-immune|p1a: my G
 |
@@ -194,7 +194,7 @@
 |
 |switch|p1a: balanced|Annihilape, F|45/100|[from] U-turn
 |move|p2a: Garganacl|Stealth Rock|p1a: balanced
-|-sidestart|p1: godlywalrus|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Garganacl|100/100|[from] item: Leftovers
 |turn|21
@@ -374,7 +374,7 @@
 |switch|p2a: Toxapex|Toxapex, M|43/100
 |move|p1a: my G|Defog|p2a: Toxapex
 |-unboost|p2a: Toxapex|evasion|1
-|-sideend|p1: godlywalrus|Stealth Rock|[from] move: Defog|[of] p1a: my G
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: my G
 |
 |-heal|p2a: Toxapex|49/100|[from] item: Black Sludge
 |turn|42
@@ -393,7 +393,7 @@
 |move|p1a: balanced|Rage Fist|p2a: Garganacl
 |-damage|p2a: Garganacl|75/100
 |move|p2a: Garganacl|Stealth Rock|p1a: balanced
-|-sidestart|p1: godlywalrus|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Garganacl|81/100|[from] item: Leftovers
 |turn|44
@@ -565,7 +565,7 @@
 |turn|61
 |
 |move|p2a: Garchomp|Spikes|p1a: shin
-|-sidestart|p1: godlywalrus|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: shin|Flamethrower|p2a: Garchomp
 |-resisted|p2a: Garchomp
 |-damage|p2a: Garchomp|57/100
@@ -626,7 +626,7 @@
 |-damage|p1a: shin|0 fnt|[from] Stealth Rock
 |faint|p1a: shin
 |move|p2a: Garchomp|Spikes|p1: shin
-|-sidestart|p1: godlywalrus|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |
 |switch|p1a: Iron Valiant|Iron Valiant|69/100
@@ -750,7 +750,7 @@
 |-damage|p1a: balanced|0 fnt
 |faint|p1a: balanced
 |
-|-message|godlywalrus forfeited.
+|-message|p1 forfeited.
 |
-|win|ayevon
+|win|p2
 ||Ladder isn't responding, score probably updated but might not have (Request timeout).

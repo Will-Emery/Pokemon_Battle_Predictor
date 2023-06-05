@@ -1,0 +1,503 @@
+|poke|p1|Clodsire, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Talonflame, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Blissey, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Azumarill, M|
+|poke|p2|Great Tusk|
+|poke|p2|Breloom, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Zoroark-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Great Tusk|[miss]
+|-miss|p1a: Talonflame|p2a: Great Tusk
+|move|p2a: Great Tusk|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|64/100
+|-enditem|p1a: Talonflame|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|2
+|
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Great Tusk
+|-status|p2a: Great Tusk|brn
+|move|p2a: Great Tusk|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|turn|3
+|
+|move|p1a: Talonflame|Defog|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|evasion|1
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|move|p2a: Great Tusk|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|52/100
+|
+|-damage|p2a: Great Tusk|88/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Great Tusk|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-damage|p2a: Great Tusk|82/100 brn|[from] brn
+|turn|5
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Breloom|Breloom, M|100/100
+|move|p1a: Talonflame|Defog|p2a: Breloom
+|-unboost|p2a: Breloom|evasion|1
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|
+|turn|6
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Breloom|Trick|p1a: Blissey
+|-activate|p2a: Breloom|move: Trick|[of] p1a: Blissey
+|-item|p1a: Blissey|Choice Specs|[from] move: Trick
+|-item|p2a: Breloom|Heavy-Duty Boots|[from] move: Trick
+|
+|turn|7
+|
+|switch|p2a: Great Tusk|Great Tusk|82/100 brn
+|move|p1a: Blissey|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-damage|p2a: Great Tusk|76/100 brn|[from] brn
+|turn|8
+|
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Talonflame
+|-damage|p1a: Talonflame|91/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|70/100 brn|[from] brn
+|turn|9
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Breloom|Breloom, M|100/100
+|move|p1a: Talonflame|Flamethrower|p2a: Breloom
+|-damage|p2a: Breloom|52/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|turn|10
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Zoroark|Hyper Voice|p1a: Blissey
+|-damage|p1a: Blissey|87/100
+|
+|turn|11
+|
+|switch|p2a: Great Tusk|Great Tusk|70/100 brn
+|move|p1a: Blissey|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-damage|p2a: Great Tusk|63/100 brn|[from] brn
+|turn|12
+|
+|switch|p1a: Talonflame|Talonflame, F|91/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Talonflame
+|-damage|p1a: Talonflame|82/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|57/100 brn|[from] brn
+|turn|13
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Talonflame|Flamethrower|p2a: Great Tusk
+|-damage|p2a: Great Tusk|23/100 brn
+|
+|-damage|p2a: Great Tusk|17/100 brn|[from] brn
+|turn|14
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|move|p1a: Talonflame|Defog|p2a: Azumarill
+|-unboost|p2a: Azumarill|evasion|1
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|
+|turn|15
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|17/100 brn
+|
+|-damage|p2a: Great Tusk|10/100 brn|[from] brn
+|turn|16
+|
+|switch|p1a: Talonflame|Talonflame, F|82/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-damage|p2a: Great Tusk|4/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Talonflame|Defog|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|evasion|1
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|move|p2a: Great Tusk|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-damage|p2a: Great Tusk|0 fnt|[from] brn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|18
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|33/100
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Azumarill|[miss]
+|-miss|p1a: Talonflame|p2a: Azumarill
+|
+|turn|19
+|
+|-terastallize|p1a: Talonflame|Ghost
+|move|p2a: Azumarill|Aqua Jet|p1a: Talonflame
+|-damage|p1a: Talonflame|9/100
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|59/100
+|
+|turn|20
+|
+|-terastallize|p2a: Azumarill|Water
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Azumarill
+|-status|p2a: Azumarill|brn
+|move|p2a: Azumarill|Liquidation|p1a: Talonflame
+|-damage|p1a: Talonflame|23/100
+|
+|-damage|p2a: Azumarill|94/100 brn|[from] brn
+|turn|21
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|73/100
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|44/100 brn
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|69/100 brn|[from] item: Sitrus Berry
+|
+|-damage|p2a: Azumarill|63/100 brn|[from] brn
+|turn|22
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Azumarill|Aqua Jet|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|97/100
+|
+|-damage|p2a: Azumarill|57/100 brn|[from] brn
+|turn|23
+|
+|switch|p2a: Breloom|Breloom, M|52/100
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|
+|turn|24
+|
+|switch|p1a: Blissey|Blissey, F|87/100
+|-damage|p1a: Blissey|75/100|[from] Stealth Rock
+|move|p2a: Breloom|Hyper Voice|p1a: Blissey
+|-damage|p1a: Blissey|62/100
+|
+|turn|25
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|move|p1a: Blissey|Stealth Rock|p2a: Breloom
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|26
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Breloom|Spore|p1a: Toxapex
+|-status|p1a: Toxapex|slp|[from] move: Spore
+|
+|turn|27
+|
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|cant|p1a: Toxapex|slp
+|
+|turn|28
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100 slp
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|37/100 slp
+|-hitcount|p1a: Toxapex|2
+|-curestatus|p1a: Toxapex|slp|[msg]
+|move|p1a: Toxapex|Toxic|p2a: Breloom
+|-status|p2a: Breloom|tox
+|
+|-damage|p2a: Breloom|94/100 tox|[from] psn
+|turn|29
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Breloom|Bullet Seed|p1a: Clodsire
+|-damage|p1a: Clodsire|75/100
+|-damage|p1a: Clodsire|53/100
+|-hitcount|p1a: Clodsire|2
+|
+|-damage|p2a: Breloom|82/100 tox|[from] psn
+|turn|30
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Clodsire
+|-damage|p1a: Clodsire|31/100
+|-damage|p1a: Clodsire|6/100
+|-hitcount|p1a: Clodsire|2
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|56/100
+|
+|-damage|p2a: Breloom|64/100 tox|[from] psn
+|turn|31
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Clodsire
+|-damage|p1a: Clodsire|31/100
+|-damage|p1a: Clodsire|5/100
+|-hitcount|p1a: Clodsire|2
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|55/100
+|
+|-damage|p2a: Breloom|39/100 tox|[from] psn
+|turn|32
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Clodsire
+|-damage|p1a: Clodsire|31/100
+|-damage|p1a: Clodsire|7/100
+|-hitcount|p1a: Clodsire|2
+|move|p1a: Clodsire|Earthquake|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|19/100 tox
+|
+|-damage|p2a: Breloom|0 fnt|[from] psn
+|faint|p2a: Breloom
+|
+|switch|p2a: Dragonite|Dragonite, M|52/100
+|turn|33
+|
+|move|p2a: Dragonite|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Blissey|Blissey, F|62/100
+|-damage|p1a: Blissey|49/100|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Dragonite|Hyper Voice|p1a: Blissey
+|-damage|p1a: Blissey|37/100
+|move|p1a: Blissey|Seismic Toss|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|turn|35
+|
+|switch|p1a: Talonflame|Talonflame, F, tera:Ghost|73/100
+|-damage|p1a: Talonflame|61/100|[from] Stealth Rock
+|move|p2a: Dragonite|Shadow Ball|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|
+|switch|p1a: Toxapex|Toxapex, F|70/100
+|turn|36
+|
+|switch|p2a: Azumarill|Azumarill, M, tera:Water|57/100 brn
+|-damage|p2a: Azumarill|45/100 brn|[from] Stealth Rock
+|move|p1a: Toxapex|Toxic||[still]
+|-fail|p1a: Toxapex
+|
+|-damage|p2a: Azumarill|38/100 brn|[from] brn
+|turn|37
+|
+|move|p2a: Azumarill|Play Rough|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|move|p1a: Toxapex|Infestation|p2a: Azumarill
+|-damage|p2a: Azumarill|35/100 brn
+|-activate|p2a: Azumarill|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Azumarill|29/100 brn|[from] brn
+|-damage|p2a: Azumarill|17/100 brn|[from] move: Infestation|[partiallytrapped]
+|turn|38
+|
+|move|p2a: Azumarill|Liquidation|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-damage|p2a: Azumarill|10/100 brn|[from] brn
+|-damage|p2a: Azumarill|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p2a: Azumarill
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-damage|p2a: Roaring Moon|88/100|[from] Stealth Rock
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|39
+|
+|move|p2a: Roaring Moon|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|41/100
+|move|p1a: Toxapex|Toxic|p2a: Roaring Moon
+|-status|p2a: Roaring Moon|tox
+|
+|-damage|p2a: Roaring Moon|82/100 tox|[from] psn
+|turn|40
+|
+|switch|p1a: Dondozo|Dondozo, F|97/100
+|move|p2a: Roaring Moon|Crunch|p1a: Dondozo
+|-damage|p1a: Dondozo|70/100
+|-unboost|p1a: Dondozo|def|1
+|
+|-damage|p2a: Roaring Moon|70/100 tox|[from] psn
+|turn|41
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Roaring Moon|Crunch|p1a: Alomomola
+|-damage|p1a: Alomomola|71/100
+|-unboost|p1a: Alomomola|def|1
+|
+|-damage|p2a: Roaring Moon|52/100 tox|[from] psn
+|turn|42
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Roaring Moon|Crunch|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Roaring Moon|28/100 tox|[from] psn
+|turn|43
+|
+|move|p2a: Roaring Moon|Crunch|p1a: Alomomola
+|-damage|p1a: Alomomola|22/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Roaring Moon|0 fnt|[from] psn
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|switch|p2a: Dragonite|Dragonite, M|52/100
+|turn|44
+|
+|switch|p1a: Toxapex|Toxapex, F|75/100
+|move|p2a: Dragonite|Hyper Voice|p1a: Toxapex
+|-damage|p1a: Toxapex|39/100
+|
+|-heal|p1a: Toxapex|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|45
+|
+|move|p2a: Dragonite|Hyper Voice|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|move|p1a: Toxapex|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|
+|-damage|p2a: Dragonite|46/100 tox|[from] psn
+|turn|46
+|
+|move|p2a: Dragonite|Hyper Voice|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|79/100
+|
+|-damage|p2a: Dragonite|34/100 tox|[from] psn
+|turn|47
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|turn|48
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Toxapex|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|
+|-damage|p2a: Dragonite|94/100 tox|[from] psn
+|turn|49
+|
+|switch|p1a: Blissey|Blissey, F|37/100
+|-damage|p1a: Blissey|24/100|[from] Stealth Rock
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-damage|p2a: Dragonite|82/100 tox|[from] psn
+|turn|50
+|
+|move|p2a: Dragonite|Earthquake|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-damage|p2a: Dragonite|63/100 tox|[from] psn
+|
+|switch|p1a: Dondozo|Dondozo, F|70/100
+|turn|51
+|
+|move|p2a: Dragonite|Thunder Punch|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|45/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-damage|p2a: Dragonite|39/100 tox|[from] psn
+|turn|52
+|
+|switch|p2a: Dragonite|Dragonite, M|34/100 tox
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Heavy Slam|p2a: Dragonite|[from]move: Sleep Talk
+|-damage|p2a: Dragonite|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|
+|switch|p2a: Dragonite|Dragonite, M|39/100 tox
+|turn|53
+|
+|move|p2a: Dragonite|Thunder Punch|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|74/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Heavy Slam|p2a: Dragonite|[from]move: Sleep Talk
+|-damage|p2a: Dragonite|29/100 tox
+|
+|-damage|p2a: Dragonite|23/100 tox|[from] psn
+|turn|54
+|
+|move|p2a: Dragonite|Thunder Punch|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|50/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Heavy Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|13/100 tox
+|
+|-damage|p2a: Dragonite|1/100 tox|[from] psn
+|turn|55
+|
+|move|p2a: Dragonite|Thunder Punch|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|24/100
+|move|p1a: Dondozo|Body Press|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

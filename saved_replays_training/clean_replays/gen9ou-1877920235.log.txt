@@ -19,7 +19,7 @@
 |turn|1
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Jektrooper|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Pelipper|Knock Off|p2a: Grimmsnarl
 |-resisted|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|99/100
@@ -61,7 +61,7 @@
 |turn|5
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Jektrooper|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Walking Wake|Hydro Steam|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|57/100
 |
@@ -94,14 +94,14 @@
 |-enditem|p2a: Moltres|Weakness Policy|[from] move: Knock Off|[of] p1a: Pelipper
 |
 |-weather|none
-|-sideend|p2: Jektrooper|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |switch|p1a: Rotom|Rotom-Wash, shiny|100/100
 |move|p2a: Moltres|Nasty Plot|p2a: Moltres
 |-boost|p2a: Moltres|spa|2
 |
-|-sideend|p2: Jektrooper|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|10
 |
 |-terastallize|p2a: Moltres|Dark
@@ -226,4 +226,4 @@
 |faint|p1a: Walking Wake
 |-end|p1a: Walking Wake|Protosynthesis|[silent]
 |
-|win|Jektrooper
+|win|p2

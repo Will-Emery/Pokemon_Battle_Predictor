@@ -23,16 +23,16 @@
 |-supereffective|p1a: Masquerain
 |-enditem|p1a: Masquerain|Focus Sash
 |-damage|p1a: Masquerain|1/100
-|-sidestart|p1: szkolna13|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Masquerain|Sticky Web|p2a: Kleavor
-|-sidestart|p2: Achoo-ler|move: Sticky Web
+|-sidestart|p2: p2|move: Sticky Web
 |
 |turn|2
 |
 |move|p2a: Kleavor|Defog|p1a: Masquerain
 |-unboost|p1a: Masquerain|evasion|1
-|-sideend|p1: szkolna13|Stealth Rock|[from] move: Defog|[of] p2a: Kleavor
-|-sideend|p2: Achoo-ler|Sticky Web|[from] move: Defog|[of] p2a: Kleavor
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Kleavor
+|-sideend|p2: p2|Sticky Web|[from] move: Defog|[of] p2a: Kleavor
 |move|p1a: Masquerain|Hydro Pump|p2a: Kleavor|[miss]
 |-miss|p1a: Masquerain|p2a: Kleavor
 |
@@ -79,12 +79,12 @@
 |
 |switch|p1a: Goodra|Goodra-Hisui, M|100/100
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Achoo-ler|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|8
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Achoo-ler|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Goodra|Ice Beam|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|72/100
@@ -107,7 +107,7 @@
 |move|p2a: Kleavor|Stone Axe|p1a: Great Tusk
 |-resisted|p1a: Great Tusk
 |-damage|p1a: Great Tusk|94/100
-|-sidestart|p1: szkolna13|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p1a: Great Tusk|99/100|[from] item: Leftovers
 |turn|11
@@ -128,7 +128,7 @@
 |-resisted|p2a: Zamazenta
 |-damage|p2a: Zamazenta|98/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: szkolna13|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |turn|13
 |
@@ -147,7 +147,7 @@
 |-boost|p1a: Great Tusk|def|1
 |
 |-heal|p1a: Great Tusk|57/100|[from] item: Leftovers
-|-sideend|p2: Achoo-ler|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|15
 |
 |move|p2a: Zamazenta|Body Press|p1a: Great Tusk
@@ -157,7 +157,7 @@
 |-damage|p2a: Zamazenta|96/100
 |
 |-heal|p1a: Great Tusk|19/100|[from] item: Leftovers
-|-sideend|p2: Achoo-ler|Reflect
+|-sideend|p2: p2|Reflect
 |turn|16
 |
 |-end|p1a: Great Tusk|Protosynthesis|[silent]
@@ -202,6 +202,6 @@
 |-damage|p1a: Volcanion|0 fnt
 |faint|p1a: Volcanion
 |
-|-message|szkolna13 forfeited.
+|-message|p1 forfeited.
 |
-|win|Achoo-ler
+|win|p2

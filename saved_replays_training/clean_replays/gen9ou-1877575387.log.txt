@@ -70,7 +70,7 @@
 |
 |move|p1a: Samurott|Ceaseless Edge|p2a: S.Cowell
 |-damage|p2a: S.Cowell|25/100
-|-sidestart|p2: Grain2Sel|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: S.Cowell|Spore|p1a: Samurott
 |-status|p1a: Samurott|slp|[from] move: Spore
 |
@@ -80,7 +80,7 @@
 |move|p2a: S.Cowell|Rapid Spin|p1a: Samurott
 |-damage|p1a: Samurott|90/100 slp
 |-boost|p2a: S.Cowell|spe|1
-|-sideend|p2: Grain2Sel|Spikes|[from] move: Rapid Spin|[of] p2a: S.Cowell
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: S.Cowell
 |cant|p1a: Samurott|slp
 |
 |-heal|p2a: S.Cowell|37/100|[from] item: Leftovers
@@ -300,4 +300,4 @@
 |faint|p1a: Kingambit
 |-end|p1a: Kingambit|fallen5|[silent]
 |
-|win|Grain2Sel
+|win|p2

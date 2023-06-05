@@ -1,0 +1,153 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Floatzel, F|
+|poke|p1|Azumarill, F|
+|poke|p1|Golduck, F|
+|poke|p1|Pawmot, F|
+|poke|p1|Toedscruel, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Magearna|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|start
+|switch|p1a: Ghoti carrier|Pelipper, M|100/100
+|switch|p2a: CPS|Dragapult, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|1
+|
+|move|p2a: CPS|Shadow Ball|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|46/100
+|move|p1a: Ghoti carrier|U-turn|p2a: CPS
+|-resisted|p2a: CPS
+|-damage|p2a: CPS|94/100
+|
+|switch|p1a: Seaking Duck|Golduck, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p2a: CORVID-19|Corviknight, F|100/100
+|-ability|p2a: CORVID-19|Pressure
+|move|p1a: Seaking Duck|Nasty Plot|p1a: Seaking Duck
+|-boost|p1a: Seaking Duck|spa|2
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Seaking Duck|Surf|p2a: CORVID-19
+|-damage|p2a: CORVID-19|0 fnt
+|faint|p2a: CORVID-19
+|-damage|p1a: Seaking Duck|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: A bit slow...|Slowking-Galar, F|100/100
+|turn|4
+|
+|-terastallize|p2a: A bit slow...|Grass
+|move|p1a: Seaking Duck|Surf|p2a: A bit slow...
+|-resisted|p2a: A bit slow...
+|-damage|p2a: A bit slow...|65/100
+|-damage|p1a: Seaking Duck|81/100|[from] item: Life Orb
+|move|p2a: A bit slow...|Sludge Bomb|p1a: Seaking Duck
+|-damage|p1a: Seaking Duck|33/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p1a: Seaking Duck|Ice Beam|p2a: A bit slow...
+|-supereffective|p2a: A bit slow...
+|-crit|p2a: A bit slow...
+|-damage|p2a: A bit slow...|0 fnt
+|faint|p2a: A bit slow...
+|-damage|p1a: Seaking Duck|23/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Po|Urshifu-Rapid-Strike, M|100/100
+|turn|6
+|
+|move|p2a: Po|Aqua Jet|p1a: Seaking Duck
+|-resisted|p1a: Seaking Duck
+|-damage|p1a: Seaking Duck|0 fnt
+|faint|p1a: Seaking Duck
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: The Goat|Azumarill, F|100/100
+|turn|7
+|
+|switch|p2a: Lando WHO?|Great Tusk|100/100
+|move|p1a: The Goat|Belly Drum|p1a: The Goat
+|-damage|p1a: The Goat|50/100
+|-setboost|p1a: The Goat|atk|6|[from] move: Belly Drum
+|-enditem|p1a: The Goat|Sitrus Berry|[eat]
+|-heal|p1a: The Goat|75/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: The Goat|Aqua Jet|p2a: Lando WHO?
+|-supereffective|p2a: Lando WHO?
+|-damage|p2a: Lando WHO?|0 fnt
+|faint|p2a: Lando WHO?
+|-end|p2a: Lando WHO?|Protosynthesis|[silent]
+|
+|-weather|none
+|
+|switch|p2a: CPS|Dragapult, M|94/100
+|turn|9
+|
+|-terastallize|p1a: The Goat|Water
+|move|p1a: The Goat|Aqua Jet|p2a: CPS
+|-resisted|p2a: CPS
+|-damage|p2a: CPS|0 fnt
+|faint|p2a: CPS
+|
+|
+|switch|p2a: Po|Urshifu-Rapid-Strike, M|100/100
+|turn|10
+|
+|move|p2a: Po|Close Combat|p1a: The Goat
+|-damage|p1a: The Goat|0 fnt
+|-unboost|p2a: Po|def|1
+|-unboost|p2a: Po|spd|1
+|faint|p1a: The Goat
+|
+|
+|switch|p1a: Ghoti carrier|Pelipper, M|46/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|11
+|
+|move|p2a: Po|Close Combat|p1a: Ghoti carrier
+|-resisted|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|0 fnt
+|-unboost|p2a: Po|def|1
+|-unboost|p2a: Po|spd|1
+|faint|p1a: Ghoti carrier
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: BandedSkewda|Floatzel, F|100/100
+|turn|12
+|
+|move|p1a: BandedSkewda|Wave Crash|p2a: Po
+|-resisted|p2a: Po
+|-damage|p2a: Po|0 fnt
+|faint|p2a: Po
+|-damage|p1a: BandedSkewda|67/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ban Hammer|Magearna|100/100
+|turn|13
+|
+|move|p1a: BandedSkewda|Wave Crash|p2a: Ban Hammer
+|-crit|p2a: Ban Hammer
+|-damage|p2a: Ban Hammer|0 fnt
+|faint|p2a: Ban Hammer
+|-damage|p1a: BandedSkewda|32/100|[from] Recoil
+|

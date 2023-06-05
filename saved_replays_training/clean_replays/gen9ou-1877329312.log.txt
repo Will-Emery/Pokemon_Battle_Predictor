@@ -134,7 +134,7 @@
 |
 |switch|p1a: Slither Wing|Slither Wing, shiny|100/100
 |move|p2a: Landorus|Stealth Rock|p1a: Slither Wing
-|-sidestart|p1: Vall_NB|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|15
 |
@@ -184,7 +184,7 @@
 |switch|p2a: Garganacl|Garganacl, F|38/100
 |move|p1a: Corviknight|Defog|p2a: Garganacl
 |-unboost|p2a: Garganacl|evasion|1
-|-sideend|p1: Vall_NB|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |
 |-heal|p2a: Garganacl|44/100|[from] item: Leftovers
 |turn|20
@@ -286,7 +286,7 @@
 |
 |switch|p1a: Baxcalibur|Baxcalibur, F|60/100
 |move|p2a: Magearna|Spikes|p1a: Baxcalibur
-|-sidestart|p1: Vall_NB|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p2a: Magearna|80/100|[from] item: Leftovers
 |turn|30
@@ -319,7 +319,7 @@
 |switch|p1a: Corviknight|Corviknight, M|62/100
 |-ability|p1a: Corviknight|Pressure
 |move|p2a: Landorus|Stealth Rock|p1a: Corviknight
-|-sidestart|p1: Vall_NB|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|33
 |
@@ -331,6 +331,6 @@
 |-damage|p1a: Corviknight|45/100|[from] item: Rocky Helmet|[of] p2a: Landorus
 |
 |turn|34
-|-message|Vall_NB forfeited.
+|-message|p1 forfeited.
 |
-|win|ianlazerbeem
+|win|p2

@@ -47,11 +47,16 @@ def get_children_links(parent_link):
 if __name__ == '__main__':
     #get the links to the children pages
     children_links = get_children_links("https://replay.pokemonshowdown.com/search/?format=gen9ou&rating")
+    
+    #variables for the location of the file for easy changing
+    #location = "saved_replays_training/replay_links.txt"
+    location = "saved_replays_testing/replay_links.txt"
+
     #loop through the children links
     for link in children_links:
-        if link not in open("saved_replays_training/replay_links.txt").read():
+        if link not in open(location).read():
             print(link)
-            append_to_file(link + '\n', "saved_replays_training/replay_links.txt")
+            append_to_file(link + '\n', location)
         else:
             print("Link already in file")
             print(link)
@@ -59,9 +64,9 @@ if __name__ == '__main__':
     while True:
         children_links = get_children_links("https://replay.pokemonshowdown.com/search/?format=gen9ou")
         for link in children_links:
-            if link not in open("saved_replays_training/replay_links.txt").read():
+            if link not in open(location).read():
                 print(link)
-                append_to_file(link + '\n', "saved_replays_training/replay_links.txt")
+                append_to_file(link + '\n', location)
             else:
                 print("Link already in file")
                 print(link)

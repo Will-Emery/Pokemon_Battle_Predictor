@@ -37,7 +37,7 @@
 |turn|3
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: dextol|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Meowscarada|Play Rough|p1a: Grimmsnarl
 |-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
 |-supereffective|p1a: Grimmsnarl
@@ -47,7 +47,7 @@
 |
 |switch|p2a: Iron Treads|Iron Treads|100/100
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: dextol|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|5
 |
@@ -112,17 +112,17 @@
 |switch|p2a: Sneasler|Sneasler, F|100/100|[from] U-turn
 |-item|p2a: Sneasler|Air Balloon
 |
-|-sideend|p1: dextol|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p1a: Grimmsnarl|Grimmsnarl, M|47/100
 |turn|11
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: dextol|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Sneasler|Swords Dance|p2a: Sneasler
 |-boost|p2a: Sneasler|atk|2
 |
-|-sideend|p1: dextol|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|12
 |
 |move|p1a: Grimmsnarl|Parting Shot|p2a: Sneasler
@@ -136,6 +136,6 @@
 |-status|p1a: Sneasler|par
 |
 |turn|13
-|-message|dextol forfeited.
+|-message|p1 forfeited.
 |
-|win|GliHybrid
+|win|p2

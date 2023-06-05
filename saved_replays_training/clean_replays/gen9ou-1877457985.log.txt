@@ -20,7 +20,7 @@
 |move|p1a: Glimmora|Venoshock|p2a: Diancie
 |-damage|p2a: Diancie|78/100
 |move|p2a: Diancie|Stealth Rock|p1a: Glimmora
-|-sidestart|p1: ThePlayerTim|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Diancie|84/100|[from] item: Leftovers
 |turn|2
@@ -29,17 +29,17 @@
 |-supereffective|p2a: Diancie
 |-damage|p2a: Diancie|39/100
 |move|p2a: Diancie|Spikes|p1a: Glimmora
-|-sidestart|p1: ThePlayerTim|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p2a: Diancie|45/100|[from] item: Leftovers
 |turn|3
 |
 |move|p1a: Glimmora|Spikes|p2a: Diancie
-|-sidestart|p2: DuDuDuTwojaStara|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Diancie|Body Press|p1a: Glimmora
 |-damage|p1a: Glimmora|67/100
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: DuDuDuTwojaStara|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-heal|p2a: Diancie|52/100|[from] item: Leftovers
 |turn|4
@@ -48,15 +48,15 @@
 |-supereffective|p2a: Diancie
 |-damage|p2a: Diancie|10/100
 |move|p2a: Diancie|Spikes|p1a: Glimmora
-|-sidestart|p1: ThePlayerTim|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p2a: Diancie|16/100|[from] item: Leftovers
 |turn|5
 |
 |move|p1a: Glimmora|Spikes|p2a: Diancie
-|-sidestart|p2: DuDuDuTwojaStara|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Diancie|Spikes|p1a: Glimmora
-|-sidestart|p1: ThePlayerTim|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p2a: Diancie|22/100|[from] item: Leftovers
 |turn|6
@@ -80,7 +80,7 @@
 |
 |switch|p2a: Sneasler|Sneasler, M|100/100
 |-damage|p2a: Sneasler|84/100|[from] Spikes
-|-sideend|p2: DuDuDuTwojaStara|move: Toxic Spikes|[of] p2a: Sneasler
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Sneasler
 |-ability|p2a: Sneasler|Pressure
 |turn|8
 |
@@ -89,7 +89,7 @@
 |-crit|p1a: Glimmora
 |-damage|p1a: Glimmora|54/100
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: DuDuDuTwojaStara|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |-damage|p2a: Sneasler|74/100|[from] item: Life Orb
 |cant|p1a: Glimmora|flinch
 |
@@ -98,10 +98,10 @@
 |move|p2a: Sneasler|Brick Break|p1a: Glimmora
 |-damage|p1a: Glimmora|4/100
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: DuDuDuTwojaStara|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |-damage|p2a: Sneasler|64/100|[from] item: Life Orb
 |move|p1a: Glimmora|Spikes|p2a: Sneasler
-|-sidestart|p2: DuDuDuTwojaStara|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|10
 |
@@ -128,7 +128,7 @@
 |
 |switch|p2a: Sneasler|Sneasler, M|54/100
 |-damage|p2a: Sneasler|29/100|[from] Spikes
-|-sideend|p2: DuDuDuTwojaStara|move: Toxic Spikes|[of] p2a: Sneasler
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Sneasler
 |-ability|p2a: Sneasler|Pressure
 |turn|12
 |
@@ -260,4 +260,4 @@
 |-damage|p2a: Landorus|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
 |faint|p2a: Landorus
 |
-|win|ThePlayerTim
+|win|p1

@@ -37,7 +37,7 @@
 |-weather|Snow|[upkeep]
 |turn|3
 |player|p1|
-|player|p1|shineskopes|swimmer
+|player|p1|p1|swimmer
 |
 |-end|p1a: Iron Leaves|Quark Drive|[silent]
 |switch|p1a: Toxapex|Toxapex, F, shiny|100/100
@@ -173,7 +173,7 @@
 |switch|p1a: Toxapex|Toxapex, F, shiny|66/100
 |move|p2a: Samurott|Ceaseless Edge|p1a: Toxapex
 |-damage|p1a: Toxapex|33/100
-|-sidestart|p1: shineskopes|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Toxapex|39/100|[from] item: Black Sludge
 |turn|16
@@ -199,7 +199,7 @@
 |turn|18
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Toxapex
-|-sidestart|p1: shineskopes|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Toxapex|Surf|p2a: Great Tusk
 |-supereffective|p2a: Great Tusk
 |-damage|p2a: Great Tusk|0 fnt
@@ -243,6 +243,6 @@
 |
 |-damage|p2a: Samurott|76/100 psn|[from] psn
 |turn|22
-|-message|CaptainVice forfeited.
+|-message|p2 forfeited.
 |
-|win|shineskopes
+|win|p1

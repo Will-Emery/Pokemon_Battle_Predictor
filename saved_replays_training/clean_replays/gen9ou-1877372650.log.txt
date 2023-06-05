@@ -19,7 +19,7 @@
 |turn|1
 |
 |move|p2a: "you need a small"|Reflect|p2a: "you need a small"
-|-sidestart|p2: wheatonwhiscash|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: I lost her.|Yawn|p2a: "you need a small"
 |-start|p2a: "you need a small"|move: Yawn|[of] p1a: I lost her.
 |
@@ -52,7 +52,7 @@
 |-supereffective|p2a: MMMMAGIKARP!
 |-damage|p2a: MMMMAGIKARP!|85/100
 |
-|-sideend|p2: wheatonwhiscash|Reflect
+|-sideend|p2: p2|Reflect
 |turn|6
 |
 |switch|p1a: Pokestupid|Eelektrik, M|100/100
@@ -69,7 +69,7 @@
 |turn|8
 |
 |move|p2a: Game 2 Teej|Stealth Rock|p1a: Pokestupid
-|-sidestart|p1: TheInnerPhallus|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Pokestupid|Giga Drain|p2a: Game 2 Teej
 |-supereffective|p2a: Game 2 Teej
 |-damage|p2a: Game 2 Teej|83/100
@@ -81,7 +81,7 @@
 |move|p2a: Game 2 Teej|Ruination|p1a: Pokestupid
 |-damage|p1a: Pokestupid|38/100
 |move|p1a: Pokestupid|Light Screen|p1a: Pokestupid
-|-sidestart|p1: TheInnerPhallus|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-heal|p2a: Game 2 Teej|95/100|[from] item: Leftovers
 |turn|10
@@ -118,7 +118,7 @@
 |-boost|p2a: Arizona THANGS|spd|1
 |-boost|p2a: Arizona THANGS|spe|1
 |
-|-sideend|p1: TheInnerPhallus|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|14
 |
 |switch|p2a: "you need a small"|Ampharos, M|28/100 slp
@@ -130,7 +130,7 @@
 |
 |-curestatus|p2a: "you need a small"|slp|[msg]
 |move|p2a: "you need a small"|Reflect|p2a: "you need a small"
-|-sidestart|p2: wheatonwhiscash|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: LIME KING|Swords Dance|p1a: LIME KING
 |-boost|p1a: LIME KING|atk|2
 |
@@ -172,7 +172,7 @@
 |move|p1a: I lost her.|Yawn|p2a: MMMMAGIKARP!
 |-start|p2a: MMMMAGIKARP!|move: Yawn|[of] p1a: I lost her.
 |
-|-sideend|p2: wheatonwhiscash|Reflect
+|-sideend|p2: p2|Reflect
 |turn|20
 |
 |switch|p2a: LIME KING YEAH!|Arcanine, M|100/100
@@ -359,4 +359,4 @@
 |faint|p1a: I CAN CHANGE
 |-end|p1a: I CAN CHANGE|Protosynthesis|[silent]
 |
-|win|wheatonwhiscash
+|win|p2

@@ -26,7 +26,7 @@
 |
 |move|p2a: Alomomola|Wish|p2a: Alomomola
 |move|p1a: Ting-Lu|Spikes|p2a: Alomomola
-|-sidestart|p2: Highv0ltag3|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|3
 |
@@ -43,7 +43,7 @@
 |
 |switch|p2a: Alomomola|Alomomola, M|84/100
 |move|p1a: Ting-Lu|Spikes|p2a: Alomomola
-|-sidestart|p2: Highv0ltag3|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|5
 |
@@ -52,7 +52,7 @@
 |-damage|p1a: Ting-Lu|95/100
 |-activate|p1a: Ting-Lu|move: Whirlpool|[of] p2a: Alomomola
 |move|p1a: Ting-Lu|Spikes|p2a: Alomomola
-|-sidestart|p2: Highv0ltag3|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
 |-damage|p1a: Ting-Lu|88/100|[from] move: Whirlpool|[partiallytrapped]
@@ -142,7 +142,7 @@
 |
 |switch|p1a: Great Tusk|Great Tusk|96/100
 |move|p2a: Blissey|Stealth Rock|p1a: Great Tusk
-|-sidestart|p1: AgencyIsOwn|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
 |turn|17
@@ -150,7 +150,7 @@
 |switch|p2a: Corviknight|Corviknight, F|84/100
 |-ability|p2a: Corviknight|Pressure
 |move|p1a: Great Tusk|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: Highv0ltag3|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|18
 |
@@ -176,7 +176,7 @@
 |-resisted|p2a: Corviknight
 |-damage|p2a: Corviknight|68/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: AgencyIsOwn|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |turn|21
 |
@@ -261,7 +261,7 @@
 |move|p1a: Great Tusk|Knock Off|p2a: Clodsire
 |-damage|p2a: Clodsire|67/100
 |move|p2a: Clodsire|Spikes|p1a: Great Tusk
-|-sidestart|p1: AgencyIsOwn|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Great Tusk|100/100 tox|[from] item: Leftovers
 |-damage|p1a: Great Tusk|88/100 tox|[from] psn
@@ -270,7 +270,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Clodsire
 |-damage|p2a: Clodsire|57/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: AgencyIsOwn|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Clodsire|Recover|p2a: Clodsire
 |-heal|p2a: Clodsire|100/100
 |
@@ -281,7 +281,7 @@
 |-end|p1a: Great Tusk|Protosynthesis|[silent]
 |switch|p1a: Azumarill|Azumarill, M|38/100 tox
 |move|p2a: Clodsire|Spikes|p1a: Azumarill
-|-sidestart|p1: AgencyIsOwn|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-damage|p1a: Azumarill|32/100 tox|[from] psn
 |turn|34
@@ -289,7 +289,7 @@
 |move|p1a: Azumarill|Facade|p2a: Clodsire
 |-damage|p2a: Clodsire|57/100
 |move|p2a: Clodsire|Spikes|p1a: Azumarill
-|-sidestart|p1: AgencyIsOwn|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-damage|p1a: Azumarill|20/100 tox|[from] psn
 |turn|35
@@ -317,9 +317,9 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Clodsire
 |-damage|p2a: Clodsire|67/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: AgencyIsOwn|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Clodsire|Spikes|p1a: Great Tusk
-|-sidestart|p1: AgencyIsOwn|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Great Tusk|65/100 tox|[from] item: Leftovers
 |-damage|p1a: Great Tusk|59/100 tox|[from] psn
@@ -337,7 +337,7 @@
 |move|p1a: Great Tusk|Earthquake|p2a: Clodsire
 |-damage|p2a: Clodsire|56/100
 |move|p2a: Clodsire|Spikes|p1a: Great Tusk
-|-sidestart|p1: AgencyIsOwn|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Great Tusk|59/100 tox|[from] item: Leftovers
 |-damage|p1a: Great Tusk|40/100 tox|[from] psn
@@ -346,7 +346,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Clodsire
 |-damage|p2a: Clodsire|46/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: AgencyIsOwn|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Clodsire|Recover|p2a: Clodsire
 |-heal|p2a: Clodsire|96/100
 |
@@ -357,7 +357,7 @@
 |move|p1a: Great Tusk|Earthquake|p2a: Clodsire
 |-damage|p2a: Clodsire|65/100
 |move|p2a: Clodsire|Spikes|p1a: Great Tusk
-|-sidestart|p1: AgencyIsOwn|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Great Tusk|28/100 tox|[from] item: Leftovers
 |-damage|p1a: Great Tusk|0 fnt|[from] psn
@@ -576,7 +576,7 @@
 |-damage|p1a: Ting-Lu|88/100|[from] Spikes
 |-ability|p1a: Ting-Lu|Vessel of Ruin
 |move|p2a: Blissey|Stealth Rock|p1a: Ting-Lu
-|-sidestart|p1: AgencyIsOwn|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p1a: Ting-Lu|94/100|[from] item: Leftovers
 |turn|70
@@ -793,7 +793,7 @@
 |-damage|p1a: Gholdengo|0 fnt
 |faint|p1a: Gholdengo
 |
-|-message|AgencyIsOwn forfeited.
+|-message|p1 forfeited.
 |
-|win|Highv0ltag3
+|win|p2
 ||Ladder isn't responding, score probably updated but might not have (Request timeout).

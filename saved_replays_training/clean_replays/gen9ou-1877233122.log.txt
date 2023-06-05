@@ -50,7 +50,7 @@
 |
 |switch|p2a: Skeledirge|Skeledirge, F|100/100|[from] Volt Switch
 |move|p1a: Torkoal|Stealth Rock|p2a: Skeledirge
-|-sidestart|p2: AhaKingler|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|4
@@ -83,7 +83,7 @@
 |-start|p1a: Great Tusk|protosynthesisatk
 |move|p2a: Kleavor|Defog|p1a: Great Tusk
 |-unboost|p1a: Great Tusk|evasion|1
-|-sideend|p2: AhaKingler|Stealth Rock|[from] move: Defog|[of] p2a: Kleavor
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Kleavor
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Great Tusk|44/100|[from] item: Leftovers
@@ -142,7 +142,7 @@
 |move|p2a: Kleavor|Stone Axe|p1a: Torkoal
 |-supereffective|p1a: Torkoal
 |-damage|p1a: Torkoal|3/100
-|-sidestart|p1: TrainerCyan1|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Torkoal|Lava Plume|p2a: Kleavor
 |-damage|p2a: Kleavor|18/100
 |
@@ -211,7 +211,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Skeledirge
 |-damage|p2a: Skeledirge|67/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: TrainerCyan1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Skeledirge|Torch Song|p1a: Great Tusk
 |-damage|p1a: Great Tusk|0 fnt
 |-boost|p2a: Skeledirge|spa|1
@@ -309,4 +309,4 @@
 |-damage|p2a: Delphox|0 fnt
 |faint|p2a: Delphox
 |
-|win|TrainerCyan1
+|win|p1

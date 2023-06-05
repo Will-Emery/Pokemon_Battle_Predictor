@@ -25,7 +25,7 @@
 |switch|p1a: Syphilis|Toxapex, F|100/100|[from] Volt Switch
 |move|p2a: Samurott|Ceaseless Edge|p1a: Syphilis
 |-damage|p1a: Syphilis|70/100
-|-sidestart|p1: Alolans Creed|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurott|0 fnt|[from] item: Rocky Helmet|[of] p1a: Syphilis
 |faint|p2a: Samurott
 |
@@ -36,7 +36,7 @@
 |switch|p1a: Mauler|Heatran, M|100/100
 |-damage|p1a: Mauler|88/100|[from] Spikes
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: weed smokers inc|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-heal|p1a: Mauler|94/100|[from] item: Leftovers
 |turn|3
@@ -44,13 +44,13 @@
 |move|p2a: Dragapult|Thunder Wave|p1a: Mauler
 |-status|p1a: Mauler|par
 |move|p1a: Mauler|Stealth Rock|p2a: Dragapult
-|-sidestart|p2: weed smokers inc|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Mauler|100/100 par|[from] item: Leftovers
 |turn|4
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: weed smokers inc|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Mauler|Magma Storm|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|88/100
@@ -92,7 +92,7 @@
 |move|p2a: Enamorus|Earth Power|p1a: Nerfed
 |-immune|p1a: Nerfed
 |
-|-sideend|p2: weed smokers inc|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|10
 |
 |switch|p2a: Dragapult|Dragapult, F|76/100
@@ -111,7 +111,7 @@
 |-start|p1a: Dragapult|Disable|Dragon Darts|[from] ability: Cursed Body|[of] p2a: Dragapult
 |faint|p2a: Dragapult
 |
-|-sideend|p2: weed smokers inc|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p2a: Corviknight|Corviknight, M|100/100
 |-damage|p2a: Corviknight|88/100|[from] Stealth Rock
@@ -282,4 +282,4 @@
 |-damage|p2a: Magearna|0 fnt|[from] move: Magma Storm|[partiallytrapped]
 |faint|p2a: Magearna
 |
-|win|Alolans Creed
+|win|p1

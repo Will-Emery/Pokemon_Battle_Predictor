@@ -24,7 +24,7 @@
 |
 |switch|p1a: Fin...|Rotom-Wash, shiny|100/100|[from] U-turn
 |move|p2a: Ting-Lu|Stealth Rock|p1a: Fin...
-|-sidestart|p1: Leonazium|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Ting-Lu|88/100|[from] item: Leftovers
 |turn|2
@@ -129,7 +129,7 @@
 |turn|11
 |
 |move|p1a: Behemoth|Stealth Rock|p2a: Gholdengo
-|-sidestart|p2: ResPootin|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Gholdengo|Recover|p2a: Gholdengo
 |-heal|p2a: Gholdengo|94/100
 |
@@ -150,7 +150,7 @@
 |move|p1a: Behemoth|Rapid Spin|p2a: Greninja
 |-damage|p2a: Greninja|63/100
 |-boost|p1a: Behemoth|spe|1
-|-sideend|p1: Leonazium|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Behemoth
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Behemoth
 |move|p2a: Greninja|Hydro Pump|p1a: Behemoth|[miss]
 |-start|p2a: Greninja|typechange|Water|[from] ability: Protean
 |-miss|p2a: Greninja|p1a: Behemoth
@@ -174,6 +174,6 @@
 |-unboost|p1a: Behemoth|spd|1
 |faint|p2a: Sneasler
 |
-|-message|ResPootin forfeited.
+|-message|p2 forfeited.
 |
-|win|Leonazium
+|win|p1

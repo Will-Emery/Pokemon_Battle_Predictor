@@ -35,7 +35,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Basculegion
 |-supereffective|p2a: Basculegion
 |-damage|p2a: Basculegion|6/100
-|-sidestart|p2: wax rig|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p1a: Samurott|12/100|[from] item: Leftovers
 |turn|3
@@ -63,18 +63,18 @@
 |switch|p1a: Dragapult|Dragapult, F|100/100
 |move|p2a: Corviknight|Defog|p1a: Dragapult
 |-unboost|p1a: Dragapult|evasion|1
-|-sideend|p2: wax rig|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Corviknight
 |
 |turn|6
 |
 |switch|p2a: Clodsire|Clodsire, M|100/100
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: Dabby1|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|7
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: Dabby1|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Clodsire|Toxic|p1a: Dragapult
 |-status|p1a: Dragapult|tox
 |
@@ -137,7 +137,7 @@
 |-unboost|p1a: Sneasler|spd|1
 |faint|p2a: Magearna
 |
-|-sideend|p1: Dabby1|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: Corviknight|Corviknight, F|41/100
 |-ability|p2a: Corviknight|Pressure
@@ -150,7 +150,7 @@
 |-damage|p1a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
 |faint|p2a: Corviknight
 |
-|-sideend|p1: Dabby1|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Chien-Pao|Chien-Pao|100/100
 |-ability|p2a: Chien-Pao|Sword of Ruin
@@ -199,7 +199,7 @@
 |turn|20
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: Dabby1|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Cinderace|Pyro Ball|p1a: Dragapult
 |-resisted|p1a: Dragapult
 |-damage|p1a: Dragapult|59/100 tox
@@ -209,7 +209,7 @@
 |turn|21
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: Dabby1|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Cinderace|Court Change|p2a: Cinderace
 |-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
 |-swapsideconditions
@@ -219,7 +219,7 @@
 |turn|22
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: Dabby1|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Cinderace|U-turn|p1a: Dragapult
 |-resisted|p1a: Dragapult
 |-damage|p1a: Dragapult|22/100 tox
@@ -254,4 +254,4 @@
 |-damage|p1a: Sneasler|0 fnt
 |faint|p1a: Sneasler
 |
-|win|wax rig
+|win|p2

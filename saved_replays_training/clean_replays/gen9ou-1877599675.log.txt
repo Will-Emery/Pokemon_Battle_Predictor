@@ -24,7 +24,7 @@
 |switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
 |move|p1a: Samurott|Ceaseless Edge|p2a: Zapdos
 |-damage|p2a: Zapdos|61/100
-|-sidestart|p2: Pierdeligasx3|Spikes
+|-sidestart|p2: p2|Spikes
 |-status|p1a: Samurott|par|[from] ability: Static|[of] p2a: Zapdos
 |
 |turn|2
@@ -39,7 +39,7 @@
 |turn|3
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: truedemonchild|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Zapdos|Roost|p2a: Zapdos
 |-heal|p2a: Zapdos|100/100
 |-singleturn|p2a: Zapdos|move: Roost
@@ -47,7 +47,7 @@
 |turn|4
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: truedemonchild|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Zapdos|U-turn|p1a: Dragapult
 |-resisted|p1a: Dragapult
 |-damage|p1a: Dragapult|97/100
@@ -121,7 +121,7 @@
 |-end|p2a: Iron Moth|Quark Drive|[silent]
 |
 |-heal|p1a: Magearna|35/100|[from] item: Leftovers
-|-sideend|p1: truedemonchild|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Dragapult|Dragapult, M|76/100
 |-damage|p2a: Dragapult|64/100|[from] Spikes
@@ -138,7 +138,7 @@
 |-boost|p1a: Magearna|spa|1
 |
 |-heal|p1a: Magearna|51/100|[from] item: Leftovers
-|-sideend|p1: truedemonchild|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: Great Tusk|Great Tusk|100/100
 |-damage|p2a: Great Tusk|88/100|[from] Spikes
@@ -159,7 +159,7 @@
 |turn|13
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: truedemonchild|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Great Tusk|Ice Spinner|p1a: Dragapult
 |-supereffective|p1a: Dragapult
 |-damage|p1a: Dragapult|81/100
@@ -171,7 +171,7 @@
 |-end|p2a: Great Tusk|Protosynthesis|[silent]
 |switch|p2a: Zapdos|Zapdos|100/100
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: truedemonchild|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|15
 |
@@ -244,7 +244,7 @@
 |-damage|p2a: Magearna|51/100
 |
 |-heal|p2a: Magearna|57/100|[from] item: Leftovers
-|-sideend|p1: truedemonchild|Reflect
+|-sideend|p1: p1|Reflect
 |turn|21
 |
 |move|p2a: Magearna|Stored Power|p1a: Sneasler
@@ -255,7 +255,7 @@
 |-boost|p2a: Magearna|spa|1
 |
 |-heal|p2a: Magearna|63/100|[from] item: Leftovers
-|-sideend|p1: truedemonchild|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p1a: Dragapult|Dragapult, M|81/100
 |turn|22
@@ -305,6 +305,6 @@
 |-heal|p1a: Magearna|69/100|[from] item: Leftovers
 |-end|p2a: Magearna|Disable
 |turn|26
-|-message|truedemonchild forfeited.
+|-message|p1 forfeited.
 |
-|win|Pierdeligasx3
+|win|p2

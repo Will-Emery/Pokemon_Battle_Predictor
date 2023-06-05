@@ -19,11 +19,11 @@
 |turn|1
 |
 |move|p1a: 5'7 I'm Messi girl|Stealth Rock|p2a: Pelipper
-|-sidestart|p2: b00mie|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Pelipper|Knock Off|p1a: 5'7 I'm Messi girl
 |-damage|p1a: 5'7 I'm Messi girl|86/100
 |-activate|p1a: 5'7 I'm Messi girl|ability: Toxic Debris
-|-sidestart|p2: b00mie|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |-enditem|p1a: 5'7 I'm Messi girl|Focus Sash|[from] move: Knock Off|[of] p2a: Pelipper
 |
 |-weather|RainDance|[upkeep]
@@ -49,16 +49,16 @@
 |-weather|RainDance|[upkeep]
 |
 |switch|p2a: Glimmora|Glimmora, F|100/100
-|-sideend|p2: b00mie|move: Toxic Spikes|[of] p2a: Glimmora
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Glimmora
 |turn|4
 |
 |move|p2a: Glimmora|Mortal Spin|p1a: 5'7 I'm Messi girl
 |-resisted|p1a: 5'7 I'm Messi girl
 |-damage|p1a: 5'7 I'm Messi girl|0 fnt
 |-activate|p1a: 5'7 I'm Messi girl|ability: Toxic Debris
-|-sidestart|p2: b00mie|move: Toxic Spikes
-|-sideend|p2: b00mie|Toxic Spikes|[from] move: Mortal Spin|[of] p2a: Glimmora
-|-sideend|p2: b00mie|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|-sidestart|p2: p2|move: Toxic Spikes
+|-sideend|p2: p2|Toxic Spikes|[from] move: Mortal Spin|[of] p2a: Glimmora
+|-sideend|p2: p2|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
 |faint|p1a: 5'7 I'm Messi girl
 |
 |-weather|RainDance|[upkeep]
@@ -85,7 +85,7 @@
 |-unboost|p1a: Big Protein|def|1
 |-unboost|p1a: Big Protein|spd|1
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: jay9ne|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |faint|p2a: Glimmora
 |
 |-weather|RainDance|[upkeep]
@@ -222,4 +222,4 @@
 |-damage|p2a: Landorus|0 fnt
 |faint|p2a: Landorus
 |
-|win|jay9ne
+|win|p1

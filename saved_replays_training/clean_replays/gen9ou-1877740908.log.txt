@@ -32,7 +32,7 @@
 |turn|2
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: TempYard|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Lando Bando|Sandsear Storm|p1a: Dragapult
 |-damage|p1a: Dragapult|55/100
 |
@@ -40,7 +40,7 @@
 |turn|3
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: TempYard|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Lando Bando|Sandsear Storm|p1a: Dragapult|[miss]
 |-miss|p2a: Lando Bando|p1a: Dragapult
 |
@@ -88,13 +88,13 @@
 |
 |switch|p1a: Enamorus|Enamorus, F|100/100
 |move|p2a: Asta|Reflect|p2a: Asta
-|-sidestart|p2: Whermst|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|8
 |
 |-terastallize|p2a: Asta|Steel
 |move|p2a: Asta|Light Screen|p2a: Asta
-|-sidestart|p2: Whermst|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Enamorus|Substitute|p1a: Enamorus
 |-start|p1a: Enamorus|Substitute
 |-damage|p1a: Enamorus|76/100
@@ -109,7 +109,7 @@
 |-boost|p1a: Enamorus|atk|1
 |-boost|p1a: Enamorus|def|1
 |
-|-sideend|p1: TempYard|Reflect
+|-sideend|p1: p1|Reflect
 |turn|10
 |
 |move|p2a: Asta|Parting Shot|p1a: Enamorus
@@ -125,7 +125,7 @@
 |-boost|p1a: Enamorus|atk|1
 |-boost|p1a: Enamorus|def|1
 |
-|-sideend|p1: TempYard|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|11
 |
 |move|p2a: Magenta|Behemoth Bash|p1a: Enamorus
@@ -176,7 +176,7 @@
 |-status|p1a: Hoopa|brn
 |
 |-damage|p1a: Hoopa|42/100 brn|[from] brn
-|-sideend|p2: Whermst|Reflect
+|-sideend|p2: p2|Reflect
 |turn|15
 |
 |move|p1a: Hoopa|Psychic|p2a: Smoker
@@ -185,7 +185,7 @@
 |-damage|p1a: Hoopa|0 fnt
 |faint|p1a: Hoopa
 |
-|-sideend|p2: Whermst|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Sneasler|Sneasler, F|84/100
 |turn|16
@@ -235,7 +235,7 @@
 |turn|21
 |
 |move|p2a: Asta|Reflect|p2a: Asta
-|-sidestart|p2: Whermst|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Muk|Knock Off|p2a: Asta
 |-damage|p2a: Asta|0 fnt
 |-enditem|p2a: Asta|Light Clay|[from] move: Knock Off|[of] p1a: Muk
@@ -310,7 +310,7 @@
 |-activate|p1a: Muk|move: Protect
 |
 |-heal|p1a: Muk|61/100|[from] item: Leftovers
-|-sideend|p2: Whermst|Reflect
+|-sideend|p2: p2|Reflect
 |turn|29
 |
 |move|p2a: shiest|Draining Kiss|p1a: Muk
@@ -378,6 +378,6 @@
 |-ability|p2a: shiest|Soul-Heart|boost
 |-boost|p2a: shiest|spa|1
 |
-|-message|TempYard forfeited.
+|-message|p1 forfeited.
 |
-|win|Whermst
+|win|p2

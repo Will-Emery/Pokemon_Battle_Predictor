@@ -25,19 +25,19 @@
 |
 |switch|p1a: Klefki|Klefki, F|100/100
 |move|p2a: Hu tao|Light Screen|p2a: Hu tao
-|-sidestart|p2: Pankkac|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|3
 |
 |move|p1a: Klefki|Spikes|p2a: Hu tao
-|-sidestart|p2: Pankkac|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Hu tao|Reflect|p2a: Hu tao
-|-sidestart|p2: Pankkac|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|4
 |
 |move|p1a: Klefki|Spikes|p2a: Hu tao
-|-sidestart|p2: Pankkac|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Hu tao|Will-O-Wisp|p1a: Klefki
 |-status|p1a: Klefki|brn
 |
@@ -45,7 +45,7 @@
 |turn|5
 |
 |move|p1a: Klefki|Light Screen|p1a: Klefki
-|-sidestart|p1: KarinaxCrushx11|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Hu tao|Hex|p1a: Klefki
 |-damage|p1a: Klefki|71/100 brn
 |
@@ -55,7 +55,7 @@
 |switch|p2a: Itto|Great Tusk|100/100
 |-damage|p2a: Itto|84/100|[from] Spikes
 |move|p1a: Klefki|Spikes|p2a: Itto
-|-sidestart|p2: Pankkac|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Itto|90/100|[from] item: Leftovers
 |-damage|p1a: Klefki|59/100 brn|[from] brn
@@ -87,10 +87,10 @@
 |-unboost|p2a: Itto|def|1
 |-unboost|p2a: Itto|spd|1
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: Pankkac|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Glimmora
 |
-|-sideend|p2: Pankkac|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Braviary|Braviary-Hisui, M|100/100
 |turn|10
@@ -98,8 +98,8 @@
 |move|p2a: Itto|Rapid Spin|p1a: Braviary
 |-damage|p1a: Braviary|76/100
 |-boost|p2a: Itto|spe|1
-|-sideend|p2: Pankkac|Spikes|[from] move: Rapid Spin|[of] p2a: Itto
-|-sideend|p2: Pankkac|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Itto
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Itto
+|-sideend|p2: p2|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Itto
 |move|p1a: Braviary|Esper Wing|p2a: Itto
 |-supereffective|p2a: Itto
 |-damage|p2a: Itto|0 fnt
@@ -107,7 +107,7 @@
 |faint|p2a: Itto
 |-end|p2a: Itto|Protosynthesis|[silent]
 |
-|-sideend|p2: Pankkac|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p2a: Gorou|Arcanine-Hisui, F|100/100
 |turn|11
@@ -124,7 +124,7 @@
 |-damage|p2a: Hu tao|53/100
 |-start|p1a: Ceruledge|Disable|Shadow Sneak|[from] ability: Cursed Body|[of] p2a: Hu tao
 |
-|-sideend|p1: KarinaxCrushx11|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|13
 |
 |-end|p1a: Ceruledge|ability: Flash Fire|[silent]
@@ -139,7 +139,7 @@
 |
 |switch|p1a: Ceruledge|Ceruledge, M|1/100
 |move|p2a: Hu tao|Reflect|p2a: Hu tao
-|-sidestart|p2: Pankkac|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|15
 |
@@ -158,13 +158,13 @@
 |
 |switch|p2a: Gorou|Arcanine-Hisui, F|100/100
 |move|p1a: Klefki|Light Screen|p1a: Klefki
-|-sidestart|p1: KarinaxCrushx11|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-damage|p1a: Klefki|53/100 brn|[from] brn
 |turn|17
 |
 |move|p1a: Klefki|Spikes|p2a: Gorou
-|-sidestart|p2: Pankkac|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Gorou|Flare Blitz|p1a: Klefki
 |-supereffective|p1a: Klefki
 |-damage|p1a: Klefki|0 fnt
@@ -212,7 +212,7 @@
 |
 |-heal|p1a: Ting-Lu|84/100 brn|[from] item: Leftovers
 |-damage|p1a: Ting-Lu|78/100 brn|[from] brn
-|-sideend|p2: Pankkac|Reflect
+|-sideend|p2: p2|Reflect
 |turn|22
 |
 |move|p2a: Nilou|Leaf Blade|p1a: Ting-Lu
@@ -233,7 +233,7 @@
 |-boost|p1a: Lilligant|def|1
 |-boost|p1a: Lilligant|spe|1
 |
-|-sideend|p1: KarinaxCrushx11|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Dori|Gholdengo|53/100
 |-damage|p2a: Dori|41/100|[from] Spikes
@@ -310,4 +310,4 @@
 |-boost|p1a: Braviary|spe|1
 |faint|p2a: Nilou
 |
-|win|KarinaxCrushx11
+|win|p1

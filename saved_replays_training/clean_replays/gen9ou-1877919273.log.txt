@@ -18,16 +18,16 @@
 |turn|1
 |
 |move|p2a: Cresselia|Light Screen|p2a: Cresselia
-|-sidestart|p2: PapaPeppinoVGC|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Carbink|Reflect|p1a: Carbink
-|-sidestart|p1: LacTose90|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|2
 |
 |move|p2a: Cresselia|Reflect|p2a: Cresselia
-|-sidestart|p2: PapaPeppinoVGC|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Carbink|Light Screen|p1a: Carbink
-|-sidestart|p1: LacTose90|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|3
 |
@@ -51,8 +51,8 @@
 |-damage|p2a: Cresselia|89/100
 |
 |-heal|p2a: Cresselia|95/100|[from] item: Leftovers
-|-sideend|p1: LacTose90|Reflect
-|-sideend|p2: PapaPeppinoVGC|move: Light Screen
+|-sideend|p1: p1|Reflect
+|-sideend|p2: p2|move: Light Screen
 |turn|6
 |
 |move|p2a: Cresselia|Psychic|p1a: Carbink
@@ -62,14 +62,14 @@
 |
 |-heal|p2a: Cresselia|100/100|[from] item: Leftovers
 |-heal|p1a: Carbink|99/100|[from] item: Leftovers
-|-sideend|p2: PapaPeppinoVGC|Reflect
-|-sideend|p1: LacTose90|move: Light Screen
+|-sideend|p2: p2|Reflect
+|-sideend|p1: p1|move: Light Screen
 |turn|7
 |
 |switch|p1a: Pelipper|Pelipper, M|100/100
 |-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
 |move|p2a: Cresselia|Reflect|p2a: Cresselia
-|-sidestart|p2: PapaPeppinoVGC|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-weather|RainDance|[upkeep]
 |turn|8
@@ -121,6 +121,6 @@
 |-heal|p1a: Goodra|27/100|[from] item: Leftovers
 |turn|11
 |player|p1|
-|-message|LacTose90 lost due to inactivity.
+|-message|p1 lost due to inactivity.
 |
-|win|PapaPeppinoVGC
+|win|p2

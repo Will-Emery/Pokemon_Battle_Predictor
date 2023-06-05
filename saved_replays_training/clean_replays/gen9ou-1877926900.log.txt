@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: KarinaxCrushx11|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Heatran|Magma Storm|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|78/100
 |-activate|p1a: Grimmsnarl|move: Magma Storm|[of] p2a: Heatran
@@ -27,9 +27,9 @@
 |turn|2
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: KarinaxCrushx11|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Heatran|Stealth Rock|p1a: Grimmsnarl
-|-sidestart|p1: KarinaxCrushx11|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-damage|p1a: Grimmsnarl|53/100|[from] move: Magma Storm|[partiallytrapped]
 |turn|3
@@ -38,7 +38,7 @@
 |-unboost|p2a: Heatran|atk|1
 |-unboost|p2a: Heatran|spa|1
 |player|p1|
-|player|p1|KarinaxCrushx11|lady-gen4
+|player|p1|p1|lady-gen4
 |
 |switch|p1a: Toxapex|Toxapex, F|100/100|[from] Parting Shot
 |-damage|p1a: Toxapex|88/100|[from] Stealth Rock
@@ -110,7 +110,7 @@
 |
 |-heal|p1a: Toxapex|58/100|[from] item: Leftovers
 |-end|p1a: Toxapex|Magma Storm|[partiallytrapped]|[silent]
-|-sideend|p1: KarinaxCrushx11|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Electrode|Electrode-Hisui|100/100
 |turn|9
@@ -125,7 +125,7 @@
 |switch|p2a: Glastrier|Glastrier|100/100|[from] Volt Switch
 |
 |-heal|p1a: Wo-Chien|81/100|[from] item: Leftovers
-|-sideend|p1: KarinaxCrushx11|Reflect
+|-sideend|p1: p1|Reflect
 |turn|10
 |
 |-terastallize|p1a: Wo-Chien|Poison
@@ -139,6 +139,6 @@
 |-damage|p2a: Glastrier|88/100|[from] Leech Seed|[of] p1a: Wo-Chien
 |-heal|p1a: Wo-Chien|62/100|[silent]
 |turn|11
-|-message|give a gible forfeited.
+|-message|p2 forfeited.
 |
-|win|KarinaxCrushx11
+|win|p1

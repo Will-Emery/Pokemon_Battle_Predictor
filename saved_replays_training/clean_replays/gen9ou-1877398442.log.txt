@@ -20,14 +20,14 @@
 |
 |switch|p2a: Scizor|Scizor, M|100/100
 |move|p1a: Garchomp|Stealth Rock|p2a: Scizor
-|-sidestart|p2: KeeperTGA|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |turn|2
 |
 |move|p2a: Scizor|Defog|p1a: Garchomp
 |-unboost|p1a: Garchomp|evasion|1
-|-sideend|p2: KeeperTGA|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
 |move|p1a: Garchomp|Dragon Tail|p2a: Scizor
 |-resisted|p2a: Scizor
 |-damage|p2a: Scizor|86/100
@@ -38,7 +38,7 @@
 |
 |-terastallize|p2a: Zapdos|Ice
 |move|p1a: Garchomp|Stealth Rock|p2a: Zapdos
-|-sidestart|p2: KeeperTGA|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Zapdos|Tera Blast|p1a: Garchomp
 |-supereffective|p1a: Garchomp
 |-damage|p1a: Garchomp|0 fnt
@@ -174,6 +174,6 @@
 |-boost|p1a: Magearna|spa|1
 |
 |-heal|p1a: Magearna|63/100|[from] item: Leftovers
-|-message|KeeperTGA forfeited.
+|-message|p2 forfeited.
 |
-|win|Irismeilani
+|win|p1

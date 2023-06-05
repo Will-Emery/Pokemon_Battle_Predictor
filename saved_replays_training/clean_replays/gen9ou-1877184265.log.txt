@@ -19,7 +19,7 @@
 |turn|1
 |
 |move|p2a: Glimmora|Stealth Rock|p1a: Carl
-|-sidestart|p1: Arde Showdown|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Carl|Hurricane|p2a: Glimmora
 |-resisted|p2a: Glimmora
 |-damage|p2a: Glimmora|75/100
@@ -34,11 +34,11 @@
 |-resisted|p2a: Glimmora
 |-damage|p2a: Glimmora|69/100
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: Arde Showdown|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |switch|p1a: God|Clodsire, F|100/100|[from] U-turn
 |-damage|p1a: God|94/100|[from] Stealth Rock
-|-sideend|p1: Arde Showdown|move: Toxic Spikes|[of] p1a: God
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: God
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: God|100/100|[from] item: Leftovers
@@ -52,7 +52,7 @@
 |-supereffective|p2a: Glimmora
 |-damage|p2a: Glimmora|0 fnt
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: Arde Showdown|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |faint|p2a: Glimmora
 |
 |-weather|RainDance|[upkeep]
@@ -90,8 +90,8 @@
 |move|p1a: Dumbo|Rapid Spin|p2a: Hydreigon
 |-resisted|p2a: Hydreigon
 |-activate|p2a: Hydreigon|move: Substitute|[damage]
-|-sideend|p1: Arde Showdown|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Dumbo
-|-sideend|p1: Arde Showdown|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dumbo
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Dumbo
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dumbo
 |-boost|p1a: Dumbo|spe|1
 |
 |-weather|RainDance|[upkeep]
@@ -268,4 +268,4 @@
 |-unboost|p2a: Great Tusk|spd|1
 |faint|p1a: Ghost face killah
 |
-|win|IsaiahZX7
+|win|p2

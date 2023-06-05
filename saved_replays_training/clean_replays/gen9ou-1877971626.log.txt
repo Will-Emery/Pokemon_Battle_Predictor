@@ -89,7 +89,7 @@
 |turn|8
 |
 |move|p1a: Great Tusk|Stealth Rock|p2a: Slowking
-|-sidestart|p2: Aggron|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Slowking|Psychic|p1a: Great Tusk
 |-supereffective|p1a: Great Tusk
 |-damage|p1a: Great Tusk|10/100
@@ -128,7 +128,7 @@
 |move|p1a: Torkoal|Rapid Spin|p2a: Cinderace
 |-damage|p2a: Cinderace|1/100
 |-boost|p1a: Torkoal|spe|1
-|-sideend|p1: jusemato|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
 |
 |-weather|SunnyDay|[upkeep]
 |turn|12
@@ -272,6 +272,6 @@
 |
 |-weather|SunnyDay|[upkeep]
 |-fieldend|move: Trick Room
-|-message|jusemato forfeited.
+|-message|p1 forfeited.
 |
-|win|Aggron
+|win|p2

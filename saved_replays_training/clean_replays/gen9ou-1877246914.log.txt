@@ -35,7 +35,7 @@
 |
 |switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
 |move|p2a: Articuno|Tailwind|p2a: Articuno
-|-sidestart|p2: 0variez|move: Tailwind
+|-sidestart|p2: p2|move: Tailwind
 |
 |-heal|p2a: Articuno|65/100 psn|[from] item: Leftovers
 |-damage|p2a: Articuno|53/100 psn|[from] psn
@@ -63,7 +63,7 @@
 |
 |move|p2a: Samurottski|Ceaseless Edge|p1a: Zapdos
 |-damage|p1a: Zapdos|28/100
-|-sidestart|p1: lyx321|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Zapdos|Volt Switch|p2a: Samurottski
 |-supereffective|p2a: Samurottski
 |-damage|p2a: Samurottski|9/100
@@ -74,7 +74,7 @@
 |-weather|Snow|[upkeep]
 |-end|p2a: Samurottski|move: Future Sight
 |-immune|p2a: Samurottski
-|-sideend|p2: 0variez|move: Tailwind
+|-sideend|p2: p2|move: Tailwind
 |turn|6
 |
 |switch|p2a: Articuno|Articuno|36/100 psn
@@ -146,7 +146,7 @@
 |move|p2a: Samurottski|Ceaseless Edge|p1a: Slowking
 |-supereffective|p1a: Slowking
 |-damage|p1a: Slowking|0 fnt
-|-sidestart|p1: lyx321|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurottski|0 fnt|[from] item: Rocky Helmet|[of] p1a: Slowking
 |faint|p1a: Slowking
 |faint|p2a: Samurottski
@@ -157,7 +157,7 @@
 |turn|12
 |
 |move|p2a: Iron Treads|Stealth Rock|p1a: Zapdos
-|-sidestart|p1: lyx321|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Zapdos|Roost|p1a: Zapdos
 |-heal|p1a: Zapdos|78/100
 |-singleturn|p1a: Zapdos|move: Roost
@@ -200,7 +200,7 @@
 |move|p2a: Cupcake|Head Smash|p1a: Glimmora
 |-damage|p1a: Glimmora|0 fnt
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: 0variez|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Glimmora
 |-damage|p2a: Cupcake|73/100|[from] item: Life Orb
 |
@@ -226,6 +226,6 @@
 |-damage|p2a: Cupcake|40/100 psn|[from] item: Life Orb
 |
 |-damage|p2a: Cupcake|27/100 psn|[from] psn
-|-message|lyx321 forfeited.
+|-message|p1 forfeited.
 |
-|win|0variez
+|win|p2

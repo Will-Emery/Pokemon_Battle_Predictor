@@ -22,19 +22,19 @@
 |move|p2a: Landorus|Earthquake|p1a: mamo
 |-damage|p1a: mamo|71/100
 |move|p1a: mamo|Stealth Rock|p2a: Landorus
-|-sidestart|p2: JudgeScrub|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
 |-end|p1a: mamo|Protosynthesis|[silent]
 |switch|p1a: wally|Grimmsnarl, M, shiny|100/100
 |move|p2a: Landorus|Stealth Rock|p1a: wally
-|-sidestart|p1: Papercl1p|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|3
 |
 |move|p1a: wally|Reflect|p1a: wally
-|-sidestart|p1: Papercl1p|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Landorus|U-turn|p1a: wally
 |-damage|p1a: wally|85/100
 |
@@ -44,7 +44,7 @@
 |turn|4
 |
 |move|p1a: wally|Light Screen|p1a: wally
-|-sidestart|p1: Papercl1p|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Goodra|Flash Cannon|p1a: wally
 |-supereffective|p1a: wally
 |-damage|p1a: wally|52/100
@@ -71,7 +71,7 @@
 |move|p1a: mamo|Rapid Spin|p2a: Braviary
 |-damage|p2a: Braviary|85/100
 |-boost|p1a: mamo|spe|1
-|-sideend|p1: Papercl1p|Stealth Rock|[from] move: Rapid Spin|[of] p1a: mamo
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: mamo
 |move|p2a: Braviary|Esper Wing|p1a: mamo
 |-supereffective|p1a: mamo
 |-damage|p1a: mamo|0 fnt
@@ -87,9 +87,9 @@
 |-boost|p1a: gen. talbot|def|1
 |move|p2a: Braviary|Defog|p1a: gen. talbot
 |-unboost|p1a: gen. talbot|evasion|1
-|-sideend|p1: Papercl1p|Reflect
-|-sideend|p1: Papercl1p|move: Light Screen
-|-sideend|p2: JudgeScrub|Stealth Rock|[from] move: Defog|[of] p2a: Braviary
+|-sideend|p1: p1|Reflect
+|-sideend|p1: p1|move: Light Screen
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Braviary
 |
 |turn|9
 |
@@ -186,12 +186,12 @@
 |-end|p1a: king|fallen1|[silent]
 |switch|p1a: wally|Grimmsnarl, M, shiny|52/100
 |move|p2a: Landorus|Stealth Rock|p1a: wally
-|-sidestart|p1: Papercl1p|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|20
 |
 |move|p1a: wally|Reflect|p1a: wally
-|-sidestart|p1: Papercl1p|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Landorus|Earthquake|p1a: wally
 |-damage|p1a: wally|19/100
 |
@@ -267,7 +267,7 @@
 |-resisted|p2a: Chesnaught
 |-damage|p2a: Chesnaught|75/100
 |
-|-sideend|p1: Papercl1p|Reflect
+|-sideend|p1: p1|Reflect
 |turn|28
 |
 |-end|p1a: king|fallen2|[silent]
@@ -331,7 +331,7 @@
 |turn|34
 |
 |move|p1a: wally|Reflect|p1a: wally
-|-sidestart|p1: Papercl1p|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Landorus|Earthquake|p1a: wally
 |-damage|p1a: wally|0 fnt
 |faint|p1a: wally
@@ -367,4 +367,4 @@
 |faint|p1a: king
 |-end|p1a: king|fallen5|[silent]
 |
-|win|JudgeScrub
+|win|p2

@@ -18,23 +18,23 @@
 |turn|1
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Pks wayment|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Glimmora|Stealth Rock|p2a: Dragapult
-|-sidestart|p2: Pks wayment|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Pks wayment|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Glimmora|Spikes|p2a: Dragapult
-|-sidestart|p2: Pks wayment|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|3
 |
 |move|p2a: Dragapult|Will-O-Wisp|p1a: Glimmora
 |-status|p1a: Glimmora|brn
 |move|p1a: Glimmora|Spikes|p2a: Dragapult
-|-sidestart|p2: Pks wayment|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-damage|p1a: Glimmora|94/100 brn|[from] brn
 |turn|4
@@ -43,7 +43,7 @@
 |-damage|p2a: Magearna|94/100|[from] Stealth Rock
 |-damage|p2a: Magearna|78/100|[from] Spikes
 |move|p1a: Glimmora|Spikes|p2a: Magearna
-|-sidestart|p2: Pks wayment|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Magearna|84/100|[from] item: Leftovers
 |-damage|p1a: Glimmora|88/100 brn|[from] brn
@@ -79,7 +79,7 @@
 |-boost|p2a: Volcarona|spd|1
 |-boost|p2a: Volcarona|spe|1
 |
-|-sideend|p2: Pks wayment|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|9
 |
 |move|p2a: Volcarona|Flamethrower|p1a: Dragonite
@@ -89,7 +89,7 @@
 |-boost|p1a: Dragonite|atk|1
 |-boost|p1a: Dragonite|spe|1
 |
-|-sideend|p2: Pks wayment|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |move|p2a: Volcarona|Flamethrower|p1a: Dragonite
@@ -153,7 +153,7 @@
 |turn|15
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Pks wayment|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Great Tusk|Knock Off|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|25/100
@@ -171,7 +171,7 @@
 |turn|17
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Pks wayment|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Great Tusk|Earthquake|p2a: Dragapult
 |-damage|p2a: Dragapult|0 fnt
 |faint|p2a: Dragapult
@@ -220,7 +220,7 @@
 |-damage|p2a: Sneasler|31/100
 |
 |-heal|p1a: Gholdengo|42/100|[from] item: Leftovers
-|-sideend|p2: Pks wayment|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|22
 |
 |move|p2a: Sneasler|Acrobatics|p1a: Gholdengo
@@ -228,7 +228,7 @@
 |-damage|p1a: Gholdengo|0 fnt
 |faint|p1a: Gholdengo
 |
-|-sideend|p2: Pks wayment|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p1a: Great Tusk|Great Tusk|88/100 brn
 |turn|23
@@ -248,6 +248,6 @@
 |-damage|p2a: Magearna|84/100|[from] Stealth Rock
 |-damage|p2a: Magearna|59/100|[from] Spikes
 |turn|24
-|-message|Pks wayment forfeited.
+|-message|p2 forfeited.
 |
-|win|ShellRaptor556
+|win|p1

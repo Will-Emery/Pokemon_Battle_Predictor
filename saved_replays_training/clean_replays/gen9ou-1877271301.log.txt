@@ -33,15 +33,15 @@
 |
 |switch|p1a: Clodsire|Clodsire, F|100/100
 |move|p2a: Toxapex|Toxic Spikes|p1a: Clodsire
-|-sidestart|p1: Pudistor Black|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-weather|RainDance|[upkeep]
 |turn|3
 |
 |move|p2a: Toxapex|Toxic Spikes|p1a: Clodsire
-|-sidestart|p1: Pudistor Black|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |move|p1a: Clodsire|Stealth Rock|p2a: Toxapex
-|-sidestart|p2: Granny Pie|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |turn|4
@@ -64,7 +64,7 @@
 |turn|6
 |
 |switch|p1a: Clodsire|Clodsire, F|100/100
-|-sideend|p1: Pudistor Black|move: Toxic Spikes|[of] p1a: Clodsire
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Clodsire
 |switch|p2a: Clodsire|Clodsire, F|100/100
 |
 |-weather|RainDance|[upkeep]
@@ -130,7 +130,7 @@
 |
 |switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|94/100 tox
 |move|p2a: Blissey|Stealth Rock|p1a: Urshifu
-|-sidestart|p1: Pudistor Black|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |-damage|p1a: Urshifu|88/100 tox|[from] psn
@@ -194,7 +194,7 @@
 |switch|p1a: Goodra|Goodra, M|91/100
 |-damage|p1a: Goodra|78/100|[from] Stealth Rock
 |move|p2a: Toxapex|Toxic Spikes|p1a: Goodra
-|-sidestart|p1: Pudistor Black|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |turn|21
 |
@@ -208,7 +208,7 @@
 |-damage|p1a: Poustiflex|75/100|[from] Stealth Rock
 |-weather|RainDance|[from] ability: Drizzle|[of] p1a: Poustiflex
 |move|p2a: Clodsire|Spikes|p1a: Poustiflex
-|-sidestart|p1: Pudistor Black|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |turn|23
@@ -243,7 +243,7 @@
 |-damage|p2a: Clodsire|16/100
 |-damage|p1a: Goodra|91/100|[from] item: Life Orb
 |move|p2a: Clodsire|Spikes|p1a: Goodra
-|-sidestart|p1: Pudistor Black|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |turn|26
@@ -300,7 +300,7 @@
 |-damage|p1a: Poustiflex|50/100|[from] Stealth Rock
 |-weather|RainDance|[from] ability: Drizzle|[of] p1a: Poustiflex
 |move|p2a: Magearna|Spikes|p1a: Poustiflex
-|-sidestart|p1: Pudistor Black|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|RainDance|[upkeep]
 |turn|32
@@ -417,7 +417,7 @@
 |move|p1a: Poustiflex|Hurricane|p2a: Toxapex
 |-damage|p2a: Toxapex|73/100
 |move|p2a: Toxapex|Toxic Spikes|p1a: Poustiflex
-|-sidestart|p1: Pudistor Black|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-weather|RainDance|[upkeep]
 |-damage|p1a: Poustiflex|57/100 brn|[from] brn
@@ -1172,4 +1172,4 @@
 |-boost|p2a: Skeledirge|spa|1
 |faint|p1a: Goodra
 |
-|win|Granny Pie
+|win|p2

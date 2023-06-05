@@ -30,7 +30,7 @@
 |move|p1a: Hatterene|Healing Wish|p1a: Hatterene
 |faint|p1a: Hatterene
 |move|p2a: Clodsire|Toxic Spikes|p1: Hatterene
-|-sidestart|p1: False Swipeing点老师|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |
 |switch|p1a: Great Tusk|Great Tusk|100/100
@@ -40,7 +40,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: burn :3
 |-damage|p2a: burn :3|84/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: False Swipeing点老师|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |turn|4
 |
@@ -228,7 +228,7 @@
 |
 |switch|p1a: Hoopa|Hoopa-Unbound|100/100
 |move|p2a: Magearna|Spikes|p1a: Hoopa
-|-sidestart|p1: False Swipeing点老师|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p2a: Magearna|75/100|[from] item: Leftovers
 |turn|26
@@ -270,7 +270,7 @@
 |switch|p1a: Basculegion|Basculegion-F, F, tera:Ghost|44/100
 |-damage|p1a: Basculegion|31/100|[from] Spikes
 |move|p2a: Magearna|Spikes|p1a: Basculegion
-|-sidestart|p1: False Swipeing点老师|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p2a: Magearna|87/100|[from] item: Leftovers
 |turn|30
@@ -337,11 +337,11 @@
 |-damage|p1a: Magearna|6/100
 |
 |turn|36
-|-message|gewwge forfeited.
+|-message|p2 forfeited.
 |
-|win|False Swipeing点老师
-|n|☆False Swipeing点老师|falseswipeing
-|n|☆gewwge|gewwge
+|win|p1
+|n|☆p1|falseswipeing
+|n|☆p2|p2
 |n| randomheavyps4|randomheavyps4
 |n| huoshenenb|huoshenenb
 |n| Prospect cxy|prospectcxy

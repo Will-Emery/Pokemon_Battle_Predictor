@@ -20,7 +20,7 @@
 |move|p1a: Regidrago|Dragon Energy|p2a: Blissey
 |-damage|p2a: Blissey|56/100
 |move|p2a: Blissey|Stealth Rock|p1a: Regidrago
-|-sidestart|p1: rebreberb|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|2
 |
@@ -70,7 +70,7 @@
 |move|p1a: Iron Treads|Rapid Spin|p2a: Talonflame
 |-damage|p2a: Talonflame|69/100
 |-boost|p1a: Iron Treads|spe|1
-|-sideend|p1: rebreberb|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
 |move|p2a: Talonflame|Flamethrower|p1a: Iron Treads
 |-supereffective|p1a: Iron Treads
 |-damage|p1a: Iron Treads|35/100 brn
@@ -108,7 +108,7 @@
 |
 |switch|p2a: Alomomola|Alomomola, M|100/100
 |move|p1a: Landorus|Stealth Rock|p2a: Alomomola
-|-sidestart|p2: IsAnythingReal|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|13
 |
@@ -141,7 +141,7 @@
 |
 |switch|p1a: Iron Treads|Iron Treads|29/100 brn
 |move|p2a: Blissey|Stealth Rock|p1a: Iron Treads
-|-sidestart|p1: rebreberb|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-damage|p1a: Iron Treads|23/100 brn|[from] brn
 |turn|17
@@ -157,7 +157,7 @@
 |move|p1a: Iron Treads|Rapid Spin|p2a: Talonflame
 |-damage|p2a: Talonflame|15/100
 |-boost|p1a: Iron Treads|spe|1
-|-sideend|p1: rebreberb|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
 |move|p2a: Talonflame|Roost|p2a: Talonflame
 |-heal|p2a: Talonflame|65/100
 |-singleturn|p2a: Talonflame|move: Roost
@@ -169,7 +169,7 @@
 |-damage|p2a: Talonflame|10/100
 |move|p2a: Talonflame|Defog|p1a: Iron Treads
 |-unboost|p1a: Iron Treads|evasion|1
-|-sideend|p2: IsAnythingReal|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
 |
 |-damage|p1a: Iron Treads|4/100 brn|[from] brn
 |turn|20
@@ -208,7 +208,7 @@
 |turn|23
 |
 |move|p1a: Landorus|Stealth Rock|p2a: Toxapex
-|-sidestart|p2: IsAnythingReal|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Toxapex|Recover|p2a: Toxapex
 |-heal|p2a: Toxapex|100/100
 |
@@ -419,6 +419,6 @@
 |
 |switch|p2a: Blissey|Blissey, F|94/100
 |turn|45
-|-message|IsAnythingReal forfeited.
+|-message|p2 forfeited.
 |
-|win|rebreberb
+|win|p1

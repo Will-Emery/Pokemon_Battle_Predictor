@@ -49,7 +49,7 @@
 |
 |switch|p1a: Iron Valiant|Iron Valiant|100/100
 |move|p2a: Garganacl|Stealth Rock|p1a: Iron Valiant
-|-sidestart|p1: 8Akkadian8|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Garganacl|59/100|[from] item: Leftovers
 |turn|5
@@ -74,7 +74,7 @@
 |move|p2a: Skeledirge|Will-O-Wisp|p1a: Ting-Lu
 |-status|p1a: Ting-Lu|brn
 |move|p1a: Ting-Lu|Stealth Rock|p2a: Skeledirge
-|-sidestart|p2: Capt Qwark|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Ting-Lu|94/100 brn|[from] item: Leftovers
 |-damage|p1a: Ting-Lu|88/100 brn|[from] brn
@@ -95,7 +95,7 @@
 |-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
 |move|p2a: Samurott|Ceaseless Edge|p1a: Amoonguss
 |-damage|p1a: Amoonguss|37/100
-|-sidestart|p1: 8Akkadian8|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurott|72/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
 |
 |turn|10
@@ -106,7 +106,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Iron Valiant
 |-resisted|p1a: Iron Valiant
 |-damage|p1a: Iron Valiant|61/100
-|-sidestart|p1: 8Akkadian8|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|11
 |
@@ -130,9 +130,9 @@
 |
 |move|p1a: Corviknight|Defog|p2a: Garganacl
 |-unboost|p2a: Garganacl|evasion|1
-|-sideend|p2: Capt Qwark|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
-|-sideend|p1: 8Akkadian8|Spikes|[from] move: Defog|[of] p1a: Corviknight
-|-sideend|p1: 8Akkadian8|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Spikes|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |move|p2a: Garganacl|Salt Cure|p1a: Corviknight
 |-damage|p1a: Corviknight|85/100
 |-start|p1a: Corviknight|Salt Cure
@@ -147,7 +147,7 @@
 |
 |switch|p1a: Amoonguss|Amoonguss, M|71/100|[from] U-turn
 |move|p2a: Garganacl|Stealth Rock|p1a: Amoonguss
-|-sidestart|p1: 8Akkadian8|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Garganacl|55/100|[from] item: Leftovers
 |turn|15
@@ -348,14 +348,14 @@
 |-damage|p1a: Amoonguss|76/100|[from] Stealth Rock
 |move|p2a: Samurott|Ceaseless Edge|p1a: Amoonguss
 |-damage|p1a: Amoonguss|29/100
-|-sidestart|p1: 8Akkadian8|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurott|55/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
 |
 |turn|35
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Amoonguss
 |-damage|p1a: Amoonguss|0 fnt
-|-sidestart|p1: 8Akkadian8|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurott|39/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
 |faint|p1a: Amoonguss
 |
@@ -374,6 +374,6 @@
 |
 |switch|p2a: Samurott|Samurott-Hisui, F|39/100
 |turn|37
-|-message|8Akkadian8 forfeited.
+|-message|p1 forfeited.
 |
-|win|Capt Qwark
+|win|p2

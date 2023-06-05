@@ -1,0 +1,546 @@
+|poke|p1|Basculegion-F, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Scream Tail|
+|poke|p1|Garganacl, F|
+|poke|p1|Zapdos|
+|poke|p1|Maushold|
+|poke|p2|Heatran, F|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Amoonguss, F|
+|teampreview
+|
+|start
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Zapdos|Thunderbolt|p1a: Garganacl
+|-damage|p1a: Garganacl|74/100
+|
+|-heal|p1a: Garganacl|80/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Zapdos|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|72/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p1a: Garganacl|Salt Cure|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|99/100
+|-start|p2a: Great Tusk|Salt Cure
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|78/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|88/100|[from] Salt Cure
+|turn|3
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|71/100
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|94/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|82/100|[from] Salt Cure
+|turn|4
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|84/100
+|
+|-heal|p2a: Heatran|91/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|72/100
+|
+|switch|p1a: Garganacl|Garganacl, F|78/100|[from] Volt Switch
+|move|p2a: Heatran|Stealth Rock|p1a: Garganacl
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Heatran|78/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|84/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Great Tusk|Great Tusk|82/100
+|move|p1a: Garganacl|Salt Cure|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|80/100
+|-start|p2a: Great Tusk|Salt Cure
+|
+|-heal|p2a: Great Tusk|87/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|90/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|74/100|[from] Salt Cure
+|turn|7
+|
+|-terastallize|p1a: Garganacl|Water
+|move|p2a: Great Tusk|Body Press|p1a: Garganacl
+|-damage|p1a: Garganacl|61/100
+|move|p1a: Garganacl|Block|p2a: Great Tusk
+|-activate|p2a: Great Tusk|trapped
+|
+|-heal|p2a: Great Tusk|80/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|67/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|68/100|[from] Salt Cure
+|turn|8
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Garganacl
+|-damage|p1a: Garganacl|51/100
+|-enditem|p1a: Garganacl|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-heal|p2a: Great Tusk|74/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|62/100|[from] Salt Cure
+|turn|9
+|
+|move|p2a: Great Tusk|Body Press|p1a: Garganacl
+|-damage|p1a: Garganacl|71/100
+|move|p1a: Garganacl|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|68/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|56/100|[from] Salt Cure
+|turn|10
+|
+|move|p2a: Great Tusk|Body Press|p1a: Garganacl
+|-damage|p1a: Garganacl|44/100
+|move|p1a: Garganacl|Salt Cure|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|54/100
+|
+|-heal|p2a: Great Tusk|60/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|48/100|[from] Salt Cure
+|turn|11
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Garganacl
+|-damage|p1a: Garganacl|35/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|85/100
+|
+|-heal|p2a: Great Tusk|54/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|42/100|[from] Salt Cure
+|turn|12
+|
+|move|p2a: Great Tusk|Body Press|p1a: Garganacl
+|-damage|p1a: Garganacl|55/100
+|move|p1a: Garganacl|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|48/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|35/100|[from] Salt Cure
+|turn|13
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Garganacl
+|-damage|p1a: Garganacl|47/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|97/100
+|
+|-heal|p2a: Great Tusk|42/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|29/100|[from] Salt Cure
+|turn|14
+|
+|move|p2a: Great Tusk|Body Press|p1a: Garganacl
+|-damage|p1a: Garganacl|69/100
+|move|p1a: Garganacl|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|35/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|23/100|[from] Salt Cure
+|turn|15
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Garganacl
+|-damage|p1a: Garganacl|59/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Garganacl|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|29/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|17/100|[from] Salt Cure
+|turn|16
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Garganacl
+|-damage|p1a: Garganacl|51/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-heal|p2a: Great Tusk|23/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|10/100|[from] Salt Cure
+|turn|17
+|
+|move|p2a: Great Tusk|Body Press|p1a: Garganacl
+|-damage|p1a: Garganacl|72/100
+|move|p1a: Garganacl|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|17/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|4/100|[from] Salt Cure
+|turn|18
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Garganacl
+|-damage|p1a: Garganacl|62/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Garganacl|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|10/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|0 fnt|[from] Salt Cure
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|19
+|
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|-damage|p1a: Scream Tail|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Thunderbolt|p1a: Scream Tail
+|-damage|p1a: Scream Tail|65/100
+|-status|p1a: Scream Tail|par
+|
+|-heal|p1a: Scream Tail|71/100 par|[from] item: Leftovers
+|turn|20
+|
+|cant|p1a: Scream Tail|par
+|move|p2a: Zapdos|Roost||[still]
+|-fail|p2a: Zapdos|heal
+|
+|-heal|p1a: Scream Tail|77/100 par|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Zapdos|U-turn|p1a: Scream Tail
+|-damage|p1a: Scream Tail|66/100 par
+|
+|switch|p2a: Heatran|Heatran, F|78/100|[from] U-turn
+|-damage|p2a: Heatran|65/100|[from] Stealth Rock
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|
+|-heal|p2a: Heatran|72/100|[from] item: Leftovers
+|-heal|p1a: Scream Tail|73/100 par|[from] item: Leftovers
+|turn|22
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Garganacl|Garganacl, F, tera:Water|62/100
+|-damage|p1a: Garganacl|49/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|33/100
+|-activate|p1a: Garganacl|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Garganacl|87/100|[from] move: Wish|[wisher] Scream Tail
+|-heal|p2a: Heatran|78/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|75/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|23
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Amoonguss
+|-damage|p2a: Amoonguss|89/100
+|-start|p2a: Amoonguss|Salt Cure
+|
+|-end|p1a: Garganacl|Magma Storm|[partiallytrapped]|[silent]
+|-damage|p2a: Amoonguss|77/100|[from] Salt Cure
+|turn|24
+|
+|switch|p1a: Zapdos|Zapdos|71/100
+|-damage|p1a: Zapdos|46/100|[from] Stealth Rock
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Zapdos
+|-damage|p1a: Zapdos|20/100
+|
+|-damage|p2a: Amoonguss|64/100|[from] Salt Cure
+|turn|25
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|52/100
+|
+|switch|p1a: Scream Tail|Scream Tail|73/100 par|[from] Volt Switch
+|-damage|p1a: Scream Tail|60/100 par|[from] Stealth Rock
+|move|p2a: Amoonguss|Spore||[still]
+|-fail|p2a: Amoonguss
+|
+|-heal|p1a: Scream Tail|66/100 par|[from] item: Leftovers
+|-damage|p2a: Amoonguss|40/100|[from] Salt Cure
+|turn|26
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|20/100
+|-damage|p1a: Zapdos|0 fnt|[from] Stealth Rock
+|faint|p1a: Zapdos
+|move|p2a: Amoonguss|Sludge Bomb|p1: Zapdos|[notarget]
+|-fail|p2a: Amoonguss
+|
+|-damage|p2a: Amoonguss|27/100|[from] Salt Cure
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Basculegion|Surf|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|28
+|
+|switch|p1a: Scream Tail|Scream Tail|66/100 par
+|-damage|p1a: Scream Tail|54/100 par|[from] Stealth Rock
+|move|p2a: Zapdos|Thunderbolt|p1a: Scream Tail
+|-damage|p1a: Scream Tail|28/100 par
+|
+|-heal|p1a: Scream Tail|34/100 par|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Zapdos|Hurricane|p1a: Scream Tail|[miss]
+|-miss|p2a: Zapdos|p1a: Scream Tail
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|
+|-heal|p1a: Scream Tail|41/100 par|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Zapdos|Hurricane|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|
+|-heal|p1a: Scream Tail|91/100 par|[from] move: Wish|[wisher] Scream Tail
+|-heal|p1a: Scream Tail|97/100 par|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Zapdos|U-turn|p1a: Scream Tail
+|-damage|p1a: Scream Tail|87/100 par
+|
+|switch|p2a: Heatran|Heatran, F|78/100|[from] U-turn
+|-damage|p2a: Heatran|65/100|[from] Stealth Rock
+|move|p1a: Scream Tail|Dazzling Gleam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|62/100
+|
+|-heal|p2a: Heatran|69/100|[from] item: Leftovers
+|-heal|p1a: Scream Tail|93/100 par|[from] item: Leftovers
+|turn|32
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Garganacl|Garganacl, F, tera:Water|75/100
+|-damage|p1a: Garganacl|62/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|47/100
+|-activate|p1a: Garganacl|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|75/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|35/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|33
+|
+|switch|p2a: Amoonguss|Amoonguss, F|60/100
+|move|p1a: Garganacl|Salt Cure|p2a: Amoonguss
+|-damage|p2a: Amoonguss|49/100
+|-start|p2a: Amoonguss|Salt Cure
+|
+|-end|p1a: Garganacl|Magma Storm|[partiallytrapped]|[silent]
+|-damage|p2a: Amoonguss|37/100|[from] Salt Cure
+|turn|34
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|85/100
+|
+|turn|35
+|
+|switch|p1a: Scream Tail|Scream Tail|93/100 par
+|-damage|p1a: Scream Tail|80/100 par|[from] Stealth Rock
+|move|p2a: Zapdos|U-turn|p1a: Scream Tail
+|-damage|p1a: Scream Tail|70/100 par
+|
+|switch|p2a: Amoonguss|Amoonguss, F|70/100|[from] U-turn
+|
+|-heal|p1a: Scream Tail|76/100 par|[from] item: Leftovers
+|turn|36
+|
+|cant|p1a: Scream Tail|par
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|44/100 par
+|
+|-heal|p1a: Scream Tail|50/100 par|[from] item: Leftovers
+|turn|37
+|
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|15/100 par
+|
+|-heal|p1a: Scream Tail|21/100 par|[from] item: Leftovers
+|turn|38
+|
+|cant|p1a: Scream Tail|par
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Basculegion|Basculegion-F, F|88/100
+|-damage|p1a: Basculegion|76/100|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|5/100
+|move|p2a: Amoonguss|Spore|p1a: Basculegion
+|-status|p1a: Basculegion|slp|[from] move: Spore
+|
+|turn|40
+|
+|cant|p1a: Basculegion|slp
+|move|p2a: Amoonguss|Giga Drain|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|4/100 slp
+|-heal|p2a: Amoonguss|37/100|[from] drain|[of] p1a: Basculegion
+|
+|turn|41
+|
+|cant|p1a: Basculegion|slp
+|move|p2a: Amoonguss|Giga Drain|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-heal|p2a: Amoonguss|38/100|[from] drain|[of] p1a: Basculegion
+|faint|p1a: Basculegion
+|
+|
+|switch|p1a: Garganacl|Garganacl, F, tera:Water|85/100
+|-damage|p1a: Garganacl|73/100|[from] Stealth Rock
+|turn|42
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Amoonguss
+|-damage|p2a: Amoonguss|28/100
+|-start|p2a: Amoonguss|Salt Cure
+|move|p2a: Amoonguss|Giga Drain|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|38/100
+|-heal|p2a: Amoonguss|44/100|[from] drain|[of] p1a: Garganacl
+|
+|-damage|p2a: Amoonguss|31/100|[from] Salt Cure
+|turn|43
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|88/100
+|
+|turn|44
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|35/100
+|move|p1a: Garganacl|Salt Cure|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|-start|p2a: Zapdos|Salt Cure
+|
+|-damage|p2a: Zapdos|58/100|[from] Salt Cure
+|turn|45
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Zapdos|46/100|[from] Salt Cure
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p1a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|46
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Zapdos|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|75/100
+|
+|-damage|p2a: Zapdos|33/100|[from] Salt Cure
+|turn|47
+|
+|move|p1a: Zamazenta|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, F|65/100
+|turn|48
+|
+|move|p1a: Zamazenta|Body Press|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|27/100
+|move|p2a: Amoonguss|Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Spore
+|
+|turn|49
+|
+|switch|p2a: Heatran|Heatran, F|75/100
+|-damage|p2a: Heatran|62/100|[from] Stealth Rock
+|cant|p1a: Zamazenta|slp
+|
+|-heal|p2a: Heatran|69/100|[from] item: Leftovers
+|turn|50
+|
+|cant|p1a: Zamazenta|slp
+|move|p2a: Heatran|Magma Storm|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|20/100 slp
+|-activate|p1a: Zamazenta|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|75/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|8/100 slp|[from] move: Magma Storm|[partiallytrapped]
+|turn|51
+|
+|-curestatus|p1a: Zamazenta|slp|[msg]
+|move|p1a: Zamazenta|Body Press|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Zamazenta|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|turn|52
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-hitcount|p1: Zamazenta|1
+|
+|
+|switch|p1a: Maushold|Maushold|100/100
+|-damage|p1a: Maushold|88/100|[from] Stealth Rock
+|turn|53
+|
+|-terastallize|p2a: Urshifu|Water
+|move|p2a: Urshifu|Surging Strikes|p1a: Maushold
+|-crit|p1a: Maushold
+|-damage|p1a: Maushold|46/100
+|-crit|p1a: Maushold
+|-damage|p1a: Maushold|6/100
+|-crit|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|-hitcount|p1: Maushold|3
+|

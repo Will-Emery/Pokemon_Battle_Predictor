@@ -42,7 +42,7 @@
 |turn|3
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: Harry'sHomeless|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Gholdengo|Make It Rain|p1a: Grimmsnarl
 |-supereffective|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|8/100
@@ -51,7 +51,7 @@
 |turn|4
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: Harry'sHomeless|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
 |-boost|p2a: Gholdengo|spa|2
 |
@@ -112,7 +112,7 @@
 |-damage|p1a: Magearna|32/100
 |
 |-heal|p1a: Magearna|38/100|[from] item: Leftovers
-|-sideend|p1: Harry'sHomeless|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|11
 |
 |move|p1a: Magearna|Draining Kiss|p2a: Gholdengo
@@ -123,7 +123,7 @@
 |-unboost|p2a: Gholdengo|spa|1
 |
 |-heal|p1a: Magearna|50/100|[from] item: Leftovers
-|-sideend|p1: Harry'sHomeless|Reflect
+|-sideend|p1: p1|Reflect
 |turn|12
 |
 |move|p1a: Magearna|Draining Kiss|p2a: Gholdengo
@@ -287,6 +287,6 @@
 |-damage|p2a: Samurott|0 fnt
 |faint|p2a: Samurott
 |
-|-message|The Hisui Expert forfeited.
+|-message|p2 forfeited.
 |
-|win|Harry'sHomeless
+|win|p1

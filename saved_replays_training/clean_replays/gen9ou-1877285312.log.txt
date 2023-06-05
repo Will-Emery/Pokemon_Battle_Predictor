@@ -18,9 +18,9 @@
 |turn|1
 |
 |move|p2a: Glimmora|Stealth Rock|p1a: Blissey
-|-sidestart|p1: IsAnythingReal|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Blissey|Stealth Rock|p2a: Glimmora
-|-sidestart|p2: Thepandaroux97|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
@@ -149,7 +149,7 @@
 |turn|17
 |
 |move|p2a: Glimmora|Spikes|p1a: Toxapex
-|-sidestart|p1: IsAnythingReal|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Toxapex|Haze|p1a: Toxapex
 |-clearallboost
 |
@@ -157,7 +157,7 @@
 |turn|18
 |
 |move|p2a: Glimmora|Spikes|p1a: Toxapex
-|-sidestart|p1: IsAnythingReal|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Toxapex|Haze|p1a: Toxapex
 |-clearallboost
 |
@@ -165,7 +165,7 @@
 |turn|19
 |
 |move|p2a: Glimmora|Spikes|p1a: Toxapex
-|-sidestart|p1: IsAnythingReal|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Toxapex|Haze|p1a: Toxapex
 |-clearallboost
 |
@@ -316,7 +316,7 @@
 |move|p1a: Blissey|Seismic Toss|p2a: Glimmora
 |-damage|p2a: Glimmora|0 fnt
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: IsAnythingReal|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |faint|p2a: Glimmora
 |
 |
@@ -342,7 +342,7 @@
 |-heal|p2a: Enamorus|53/100|[from] item: Leftovers
 |
 |switch|p1a: Toxapex|Toxapex, M|79/100
-|-sideend|p1: IsAnythingReal|move: Toxic Spikes|[of] p1a: Toxapex
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Toxapex
 |turn|39
 |
 |move|p2a: Enamorus|Taunt|p1a: Toxapex
@@ -429,4 +429,4 @@
 |-damage|p2a: Enamorus|0 fnt
 |faint|p2a: Enamorus
 |
-|win|IsAnythingReal
+|win|p1

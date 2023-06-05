@@ -27,7 +27,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Sneasler
 |-resisted|p1a: Sneasler
 |-damage|p1a: Sneasler|61/100
-|-sidestart|p1: GliHybrid|Spikes
+|-sidestart|p1: p1|Spikes
 |-enditem|p1a: Sneasler|Air Balloon
 |
 |turn|2
@@ -54,7 +54,7 @@
 |-boost|p1a: Sneasler|atk|2
 |-curestatus|p2a: Dragapult|slp|[msg]
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: murex30|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|5
 |
@@ -100,7 +100,7 @@
 |-resisted|p2a: Zamazenta
 |-damage|p2a: Zamazenta|99/100 slp
 |-boost|p1a: Iron Treads|spe|1
-|-sideend|p1: GliHybrid|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
 |
 |turn|10
 |
@@ -118,7 +118,7 @@
 |move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
 |-boost|p2a: Zamazenta|def|2
 |
-|-sideend|p2: murex30|Reflect
+|-sideend|p2: p2|Reflect
 |turn|12
 |
 |-end|p1a: Iron Treads|Quark Drive|[silent]
@@ -245,6 +245,6 @@
 |faint|p2a: Dragapult
 |
 |-heal|p1a: Amoonguss|97/100|[from] item: Black Sludge
-|-message|murex30 forfeited.
+|-message|p2 forfeited.
 |
-|win|GliHybrid
+|win|p1

@@ -12,7 +12,7 @@
 |poke|p2|Dragapult, F|
 |teampreview
 |player|p1|
-|player|p1|heaven0se|maid
+|player|p1|p1|maid
 |
 |start
 |switch|p1a: SNEAS|Sneasler, M, shiny|100/100
@@ -113,7 +113,7 @@
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: LANDO
 |-damage|p1a: LANDO|15/100
-|-sidestart|p1: heaven0se|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: LANDO|U-turn|p2a: Samurott
 |-supereffective|p2a: Samurott
 |-damage|p2a: Samurott|35/100
@@ -129,7 +129,7 @@
 |move|p1a: TUSK|Rapid Spin|p2a: Samurott
 |-damage|p2a: Samurott|15/100
 |-boost|p1a: TUSK|spe|1
-|-sideend|p1: heaven0se|Spikes|[from] move: Rapid Spin|[of] p1a: TUSK
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: TUSK
 |
 |turn|12
 |
@@ -145,7 +145,7 @@
 |turn|13
 |
 |move|p1a: TUSK|Stealth Rock|p2a: Landorus
-|-sidestart|p2: legit ajit|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Landorus|Earthquake|p1a: TUSK
 |-damage|p1a: TUSK|0 fnt
 |faint|p1a: TUSK
@@ -164,7 +164,7 @@
 |
 |-terastallize|p1a: THUND|Ice
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: legit ajit|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: THUND|Tera Blast|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|3/100
@@ -252,7 +252,7 @@
 |-damage|p2a: Magearna|63/100
 |
 |-heal|p2a: Magearna|69/100|[from] item: Leftovers
-|-sideend|p2: legit ajit|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|23
 |
 |move|p2a: Magearna|Draining Kiss|p1a: SNEAS
@@ -272,4 +272,4 @@
 |-damage|p1a: DENGO|0 fnt
 |faint|p1a: DENGO
 |
-|win|legit ajit
+|win|p2

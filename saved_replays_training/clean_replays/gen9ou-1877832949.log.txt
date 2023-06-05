@@ -28,19 +28,19 @@
 |
 |switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
 |move|p2a: Great Tusk|Stealth Rock|p1a: Grimmsnarl
-|-sidestart|p1: hectorvilla95|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|3
 |
 |-end|p2a: Great Tusk|Protosynthesis|[silent]
 |switch|p2a: Amoonguss|Amoonguss, M|100/100
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: hectorvilla95|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|4
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: hectorvilla95|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Amoonguss|Spore|p1a: Grimmsnarl
 |-status|p1a: Grimmsnarl|slp|[from] move: Spore
 |
@@ -105,7 +105,7 @@
 |-damage|p2a: Gholdengo|85/100
 |-unboost|p2a: Gholdengo|spa|1
 |
-|-sideend|p1: hectorvilla95|Reflect
+|-sideend|p1: p1|Reflect
 |turn|11
 |
 |move|p2a: Gholdengo|Tera Blast|p1a: Enamorus
@@ -113,7 +113,7 @@
 |-damage|p1a: Enamorus|0 fnt
 |faint|p1a: Enamorus
 |
-|-sideend|p1: hectorvilla95|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100 slp
 |-damage|p1a: Grimmsnarl|88/100 slp|[from] Stealth Rock
@@ -134,7 +134,7 @@
 |
 |-curestatus|p1a: Grimmsnarl|slp|[msg]
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: hectorvilla95|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Magearna|Calm Mind|p2a: Magearna
 |-boost|p2a: Magearna|spa|1
 |-boost|p2a: Magearna|spd|1
@@ -201,17 +201,17 @@
 |turn|21
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: hectorvilla95|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Amoonguss|Sludge Bomb|p1a: Grimmsnarl
 |-supereffective|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|56/100
 |
-|-sideend|p1: hectorvilla95|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|22
 |
 |switch|p2a: Garganacl|Garganacl, M|100/100
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: hectorvilla95|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|23
 |
@@ -265,7 +265,7 @@
 |
 |move|p1a: Corviknight|Defog|p2a: Garganacl
 |-unboost|p2a: Garganacl|evasion|1
-|-sideend|p1: hectorvilla95|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |move|p2a: Garganacl|Salt Cure|p1a: Corviknight
 |-damage|p1a: Corviknight|85/100
 |-start|p1a: Corviknight|Salt Cure
@@ -285,22 +285,22 @@
 |-boost|p2a: Garganacl|def|1
 |
 |-heal|p2a: Garganacl|97/100|[from] item: Leftovers
-|-sideend|p1: hectorvilla95|Reflect
+|-sideend|p1: p1|Reflect
 |turn|29
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: hectorvilla95|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Garganacl|Salt Cure|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|31/100
 |-start|p1a: Grimmsnarl|Salt Cure
 |
 |-heal|p2a: Garganacl|100/100|[from] item: Leftovers
 |-damage|p1a: Grimmsnarl|18/100|[from] Salt Cure
-|-sideend|p1: hectorvilla95|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|30
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: hectorvilla95|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Garganacl|Curse|p2a: Garganacl
 |-unboost|p2a: Garganacl|spe|1
 |-boost|p2a: Garganacl|atk|1
@@ -331,6 +331,6 @@
 |-damage|p1a: Moltres|0 fnt
 |faint|p1a: Moltres
 |
-|-message|hectorvilla95 forfeited.
+|-message|p1 forfeited.
 |
-|win|Murray69
+|win|p2

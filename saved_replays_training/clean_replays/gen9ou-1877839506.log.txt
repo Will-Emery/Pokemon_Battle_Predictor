@@ -195,14 +195,14 @@
 |
 |switch|p1a: Kleavor|Kleavor, F|100/100
 |move|p2a: Blissey|Stealth Rock|p1a: Kleavor
-|-sidestart|p1: 5sk|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|22
 |
 |switch|p2a: Alomomola|Alomomola, F|100/100
 |move|p1a: Kleavor|Stone Axe|p2a: Alomomola
 |-damage|p2a: Alomomola|74/100
-|-sidestart|p2: Pig Worm|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|23
 |
@@ -623,7 +623,7 @@
 |move|p1a: Iron Treads|Rapid Spin|p2a: Alomomola
 |-damage|p2a: Alomomola|94/100
 |-boost|p1a: Iron Treads|spe|1
-|-sideend|p1: 5sk|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
 |
 |turn|69
 |
@@ -646,7 +646,7 @@
 |
 |switch|p1a: Kleavor|Kleavor, F|100/100
 |move|p2a: Blissey|Stealth Rock|p1a: Kleavor
-|-sidestart|p1: 5sk|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|72
 |
@@ -818,6 +818,6 @@
 |faint|p2a: Dondozo
 |-damage|p1a: Tauros|22/100|[from] Recoil
 |
-|-message|Pig Worm forfeited.
+|-message|p2 forfeited.
 |
-|win|5sk
+|win|p1

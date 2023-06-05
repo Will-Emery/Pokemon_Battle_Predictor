@@ -19,25 +19,25 @@
 |turn|1
 |
 |move|p1a: Ditto|Stealth Rock|p2a: Azelf
-|-sidestart|p2: Traes home|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Azelf|Stealth Rock|p1a: Ditto
-|-sidestart|p1: JachiMalz|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|2
 |
 |switch|p1a: Killdozer|Iron Treads|100/100
 |-damage|p1a: Killdozer|97/100|[from] Stealth Rock
 |move|p2a: Azelf|Reflect|p2a: Azelf
-|-sidestart|p2: Traes home|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|3
 |
 |move|p2a: Azelf|Light Screen|p2a: Azelf
-|-sidestart|p2: Traes home|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Killdozer|Rapid Spin|p2a: Azelf
 |-damage|p2a: Azelf|90/100
 |-boost|p1a: Killdozer|spe|1
-|-sideend|p1: JachiMalz|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Killdozer
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Killdozer
 |
 |turn|4
 |
@@ -46,7 +46,7 @@
 |-ability|p1a: Lando-b|Intimidate|boost
 |-unboost|p2a: Azelf|atk|1
 |move|p2a: Azelf|Stealth Rock|p1a: Lando-b
-|-sidestart|p1: JachiMalz|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|5
 |
@@ -54,7 +54,7 @@
 |-damage|p1a: Lando-b|21/100
 |faint|p2a: Azelf
 |move|p1a: Lando-b|Sticky Web|p2: Azelf
-|-sidestart|p2: Traes home|move: Sticky Web
+|-sidestart|p2: p2|move: Sticky Web
 |
 |
 |switch|p2a: Samurott|Samurott-Hisui, F|100/100
@@ -67,11 +67,11 @@
 |-damage|p2a: Samurott|62/100
 |move|p2a: Samurott|Ceaseless Edge|p1a: Lando-b
 |-damage|p1a: Lando-b|0 fnt
-|-sidestart|p1: JachiMalz|Spikes
+|-sidestart|p1: p1|Spikes
 |faint|p1a: Lando-b
 |-damage|p2a: Samurott|52/100|[from] item: Life Orb
 |
-|-sideend|p2: Traes home|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p1a: Killdozer|Iron Treads|97/100
 |-damage|p1a: Killdozer|94/100|[from] Stealth Rock
@@ -81,8 +81,8 @@
 |move|p1a: Killdozer|Rapid Spin|p2a: Samurott
 |-damage|p2a: Samurott|29/100
 |-boost|p1a: Killdozer|spe|1
-|-sideend|p1: JachiMalz|Spikes|[from] move: Rapid Spin|[of] p1a: Killdozer
-|-sideend|p1: JachiMalz|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Killdozer
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Killdozer
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Killdozer
 |move|p2a: Samurott|Aqua Cutter|p1a: Killdozer
 |-supereffective|p1a: Killdozer
 |-damage|p1a: Killdozer|0 fnt
@@ -90,7 +90,7 @@
 |-end|p1a: Killdozer|Quark Drive|[silent]
 |-damage|p2a: Samurott|20/100|[from] item: Life Orb
 |
-|-sideend|p2: Traes home|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Dragapult|Dragapult, M|100/100
 |turn|8
@@ -195,5 +195,5 @@
 |-damage|p1a: Ditto|0 fnt
 |faint|p1a: Ditto
 |
-|win|Traes home
-|player|p2|Traes home|ninjaboy
+|win|p2
+|player|p2|p2|ninjaboy

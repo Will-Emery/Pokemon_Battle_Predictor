@@ -1,0 +1,604 @@
+|poke|p1|Drifblim, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Blissey, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Clodsire, F|
+|poke|p2|Breloom, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Ditto|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|-terastallize|p2a: Chien-Pao|Electric
+|move|p2a: Chien-Pao|Tera Blast|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|turn|2
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|
+|turn|3
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|turn|4
+|
+|move|p2a: Sneasler|Close Combat|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|71/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|move|p1a: Slowking|Psychic|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Electric|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|5
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Chien-Pao|Crunch|p1a: Dondozo
+|-damage|p1a: Dondozo|76/100
+|
+|turn|6
+|
+|-terastallize|p1a: Dondozo|Fighting
+|move|p2a: Chien-Pao|Tera Blast|p1a: Dondozo
+|-damage|p1a: Dondozo|53/100
+|move|p1a: Dondozo|Liquidation|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|58/100
+|
+|turn|7
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|turn|8
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|move|p2a: Breloom|Bullet Seed|p1a: Drifblim
+|-resisted|p1a: Drifblim
+|-damage|p1a: Drifblim|93/100
+|-resisted|p1a: Drifblim
+|-damage|p1a: Drifblim|84/100
+|-hitcount|p1a: Drifblim|2
+|
+|turn|9
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Breloom|Spore|p1a: Slowking
+|-status|p1a: Slowking|slp|[from] move: Spore
+|
+|turn|10
+|
+|switch|p1a: Drifblim|Drifblim, F|84/100
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|
+|turn|11
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Drifblim
+|-resisted|p1a: Drifblim
+|-damage|p1a: Drifblim|69/100
+|-resisted|p1a: Drifblim
+|-damage|p1a: Drifblim|54/100
+|-hitcount|p1a: Drifblim|2
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Breloom
+|-status|p2a: Breloom|brn
+|
+|-damage|p2a: Breloom|94/100 brn|[from] brn
+|turn|12
+|
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|move|p1a: Drifblim|Strength Sap|p2a: Breloom
+|-unboost|p2a: Breloom|atk|1
+|-heal|p1a: Drifblim|100/100
+|
+|-damage|p2a: Breloom|88/100 brn|[from] brn
+|turn|13
+|
+|move|p2a: Breloom|Swords Dance|p2a: Breloom
+|-boost|p2a: Breloom|atk|2
+|move|p1a: Drifblim|Air Slash|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|14
+|
+|switch|p1a: Alomomola|Alomomola, M|73/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|49/100
+|-sidestart|p1: p1|Spikes
+|
+|turn|15
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|24/100
+|-sidestart|p1: p1|Spikes
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|turn|16
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|73/100|[from] move: Wish|[wisher] Alomomola
+|turn|17
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola|[miss]
+|-miss|p2a: Samurott|p1a: Alomomola
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|turn|18
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|50/100
+|-sidestart|p1: p1|Spikes
+|move|p1a: Alomomola|Whirlpool|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|96/100
+|-activate|p2a: Samurott|move: Whirlpool|[of] p1a: Alomomola
+|
+|-heal|p1a: Alomomola|99/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Samurott|83/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|19
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|76/100
+|move|p1a: Alomomola|Chilling Water|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|77/100
+|-unboost|p2a: Samurott|atk|1
+|
+|-damage|p2a: Samurott|64/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|20
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|61/100
+|move|p1a: Alomomola|Chilling Water|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|58/100
+|-unboost|p2a: Samurott|atk|1
+|
+|-damage|p2a: Samurott|46/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|21
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|50/100
+|move|p1a: Alomomola|Chilling Water|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|39/100
+|-unboost|p2a: Samurott|atk|1
+|
+|-damage|p2a: Samurott|27/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|22
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Samurott|15/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|23
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|31/100
+|move|p1a: Alomomola|Chilling Water|p2a: Samurott
+|-resisted|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|4/100
+|-unboost|p2a: Samurott|atk|1
+|
+|-heal|p1a: Alomomola|81/100|[from] move: Wish|[wisher] Alomomola
+|-end|p2a: Samurott|Whirlpool|[partiallytrapped]
+|turn|24
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Alomomola|[from] ability: Imposter
+|move|p1a: Alomomola|Chilling Water|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|90/100
+|-unboost|p2a: Ditto|atk|1
+|
+|turn|25
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Ditto|Wish|p2a: Ditto
+|
+|turn|26
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|4/100
+|move|p1a: Clodsire|Toxic|p2a: Samurott
+|-status|p2a: Samurott|tox
+|
+|-heal|p2a: Samurott|51/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Samurott|45/100 tox|[from] psn
+|turn|27
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|28
+|
+|move|p2a: Ursaluna|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|35/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|turn|29
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Alomomola|[from] ability: Imposter
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|
+|turn|30
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Ditto|Whirlpool|p1a: Clodsire|[miss]
+|-miss|p2a: Ditto|p1a: Clodsire
+|
+|turn|31
+|
+|move|p2a: Ditto|Whirlpool|p1a: Clodsire|[miss]
+|-miss|p2a: Ditto|p1a: Clodsire
+|move|p1a: Clodsire|Toxic|p2a: Ditto
+|-status|p2a: Ditto|tox
+|
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|turn|32
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100 slp
+|move|p2a: Ditto|Whirlpool|p1a: Slowking
+|-damage|p1a: Slowking|97/100 slp
+|-activate|p1a: Slowking|move: Whirlpool|[of] p2a: Ditto
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Slowking|84/100 slp|[from] move: Whirlpool|[partiallytrapped]
+|turn|33
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Electric|58/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|cant|p1a: Slowking|slp
+|
+|-end|p1a: Slowking|Whirlpool|[partiallytrapped]|[silent]
+|turn|34
+|
+|switch|p1a: Dondozo|Dondozo, F, tera:Fighting|100/100 slp
+|move|p2a: Chien-Pao|Crunch|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|88/100 slp
+|
+|turn|35
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Dondozo
+|-damage|p1a: Dondozo|63/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|turn|36
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Dondozo
+|-damage|p1a: Dondozo|38/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|turn|37
+|
+|move|p2a: Chien-Pao|Tera Blast|p1a: Dondozo
+|-damage|p1a: Dondozo|15/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|turn|38
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Dondozo
+|-damage|p1a: Dondozo|77/100 slp
+|cant|p1a: Dondozo|slp
+|cant|p1a: Dondozo|flinch
+|
+|turn|39
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Dondozo
+|-damage|p1a: Dondozo|53/100 slp
+|cant|p1a: Dondozo|slp
+|cant|p1a: Dondozo|flinch
+|
+|turn|40
+|
+|move|p2a: Chien-Pao|Tera Blast|p1a: Dondozo
+|-damage|p1a: Dondozo|31/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|turn|41
+|
+|switch|p2a: Ursaluna|Ursaluna, M|94/100 brn
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Ursaluna|[from]move: Sleep Talk
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|56/100 brn
+|
+|-damage|p2a: Ursaluna|50/100 brn|[from] brn
+|turn|42
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|move|p2a: Ursaluna|Facade|p1a: Drifblim
+|-immune|p1a: Drifblim
+|
+|-damage|p2a: Ursaluna|43/100 brn|[from] brn
+|turn|43
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Electric|58/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Drifblim|Strength Sap|p2a: Chien-Pao
+|-unboost|p2a: Chien-Pao|atk|1
+|
+|turn|44
+|
+|switch|p1a: Alomomola|Alomomola, M|68/100
+|move|p2a: Chien-Pao|Tera Blast|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|30/100
+|
+|turn|45
+|
+|switch|p1a: Dondozo|Dondozo, F, tera:Fighting|100/100 slp
+|move|p2a: Chien-Pao|Tera Blast|p1a: Dondozo
+|-damage|p1a: Dondozo|78/100 slp
+|
+|turn|46
+|
+|switch|p2a: Ursaluna|Ursaluna, M|43/100 brn
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|-damage|p2a: Ursaluna|37/100 brn|[from] brn
+|turn|47
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|move|p2a: Ursaluna|Drain Punch|p1a: Drifblim
+|-immune|p1a: Drifblim
+|
+|-damage|p2a: Ursaluna|31/100 brn|[from] brn
+|turn|48
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Electric|58/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Chien-Pao
+|-status|p2a: Chien-Pao|brn
+|
+|-damage|p2a: Chien-Pao|52/100 brn|[from] brn
+|turn|49
+|
+|switch|p1a: Alomomola|Alomomola, M|64/100
+|move|p2a: Chien-Pao|Crunch|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|42/100
+|
+|-damage|p2a: Chien-Pao|46/100 brn|[from] brn
+|turn|50
+|
+|move|p2a: Chien-Pao|Tera Blast|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|12/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Chien-Pao|40/100 brn|[from] brn
+|turn|51
+|
+|switch|p2a: Ditto|Ditto|100/100 tox
+|-transform|p2a: Ditto|p1a: Alomomola|[from] ability: Imposter
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|62/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|turn|52
+|
+|move|p2a: Ditto|Wish|p2a: Ditto
+|move|p1a: Alomomola|Whirlpool|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|88/100 tox
+|-activate|p2a: Ditto|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Ditto|76/100 tox|[from] psn
+|-damage|p2a: Ditto|63/100 tox|[from] move: Whirlpool|[partiallytrapped]
+|turn|53
+|
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p2a: Ditto|70/100 tox|[from] move: Whirlpool|[partiallytrapped]
+|turn|54
+|
+|move|p2a: Ditto|Wish|p2a: Ditto
+|move|p1a: Alomomola|Chilling Water|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|61/100 tox
+|-unboost|p2a: Ditto|atk|1
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Ditto|37/100 tox|[from] psn
+|-damage|p2a: Ditto|25/100 tox|[from] move: Whirlpool|[partiallytrapped]
+|turn|55
+|
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|move|p1a: Alomomola|Chilling Water|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|16/100 tox
+|-unboost|p2a: Ditto|atk|1
+|
+|-heal|p2a: Ditto|66/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ditto|36/100 tox|[from] psn
+|-damage|p2a: Ditto|24/100 tox|[from] move: Whirlpool|[partiallytrapped]
+|turn|56
+|
+|move|p2a: Ditto|Wish|p2a: Ditto
+|move|p1a: Alomomola|Chilling Water|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|15/100 tox
+|-unboost|p2a: Ditto|atk|1
+|
+|-damage|p2a: Ditto|0 fnt|[from] psn
+|faint|p2a: Ditto
+|
+|switch|p2a: Ursaluna|Ursaluna, M|31/100 brn
+|turn|57
+|
+|move|p2a: Ursaluna|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|36/100
+|move|p1a: Alomomola|Chilling Water|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|16/100 brn
+|-unboost|p2a: Ursaluna|atk|1
+|
+|-heal|p2a: Ursaluna|48/100 brn|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ursaluna|42/100 brn|[from] brn
+|turn|58
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|move|p2a: Ursaluna|Play Rough|p1a: Drifblim
+|-damage|p1a: Drifblim|70/100
+|
+|-damage|p2a: Ursaluna|36/100 brn|[from] brn
+|turn|59
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|45/100 tox
+|move|p1a: Drifblim|Strength Sap|p2a: Samurott
+|-unboost|p2a: Samurott|atk|1
+|-heal|p1a: Drifblim|100/100
+|
+|-damage|p2a: Samurott|39/100 tox|[from] psn
+|turn|60
+|
+|switch|p1a: Alomomola|Alomomola, M|70/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|54/100
+|
+|-damage|p2a: Samurott|26/100 tox|[from] psn
+|turn|61
+|
+|switch|p2a: Ursaluna|Ursaluna, M|36/100 brn
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Ursaluna|30/100 brn|[from] brn
+|turn|62
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Ursaluna|Facade|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Ursaluna|24/100 brn|[from] brn
+|turn|63
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|move|p2a: Ursaluna|Facade|p1a: Drifblim
+|-immune|p1a: Drifblim
+|
+|-damage|p2a: Ursaluna|18/100 brn|[from] brn
+|turn|64
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Electric|40/100 brn
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Drifblim|Air Slash|p2a: Chien-Pao
+|-resisted|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|21/100 brn
+|
+|-damage|p2a: Chien-Pao|15/100 brn|[from] brn
+|turn|65
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Chien-Pao|Tera Blast|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|73/100
+|
+|-damage|p2a: Chien-Pao|9/100 brn|[from] brn
+|turn|66
+|
+|move|p2a: Chien-Pao|Tera Blast|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|46/100
+|move|p1a: Alomomola|Chilling Water|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, M|18/100 brn
+|turn|67
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|move|p2a: Ursaluna|Facade|p1a: Drifblim
+|-immune|p1a: Drifblim
+|
+|-damage|p2a: Ursaluna|12/100 brn|[from] brn
+|turn|68
+|
+|move|p1a: Drifblim|Air Slash|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|26/100 tox
+|turn|69
+|
+|switch|p1a: Alomomola|Alomomola, M|79/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola|[miss]
+|-miss|p2a: Samurott|p1a: Alomomola
+|
+|-damage|p2a: Samurott|20/100 tox|[from] psn
+|turn|70
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Alomomola|[miss]
+|-miss|p2a: Samurott|p1a: Alomomola
+|move|p1a: Alomomola|Whirlpool|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|15/100 tox
+|-activate|p2a: Samurott|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Samurott|3/100 tox|[from] psn
+|-damage|p2a: Samurott|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Samurott
+|

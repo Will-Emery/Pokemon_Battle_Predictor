@@ -25,7 +25,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Enamorus
 |-resisted|p1a: Enamorus
 |-damage|p1a: Enamorus|60/100
-|-sidestart|p1: Paradox N|Spikes
+|-sidestart|p1: p1|Spikes
 |-start|p2a: Samurott|Attract|[from] ability: Cute Charm|[of] p1a: Enamorus
 |
 |turn|2
@@ -40,7 +40,7 @@
 |turn|3
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: pantuxd|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Enamorus|Moonblast|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|11/100
@@ -50,7 +50,7 @@
 |turn|4
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: pantuxd|Reflect
+|-sidestart|p2: p2|Reflect
 |-activate|p1a: Enamorus|move: Struggle
 |move|p1a: Enamorus|Struggle|p2a: Dragapult
 |-damage|p2a: Dragapult|4/100
@@ -112,7 +112,7 @@
 |-boost|p2a: Volcarona|spd|1
 |-boost|p2a: Volcarona|spe|1
 |
-|-sideend|p2: pantuxd|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |-status|p1a: Ursaluna|brn|[from] item: Flame Orb
 |turn|11
 |
@@ -124,13 +124,13 @@
 |faint|p2a: Volcarona
 |
 |-damage|p1a: Ursaluna|46/100 brn|[from] brn
-|-sideend|p2: pantuxd|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p2a: Dragapult|Dragapult, M|4/100
 |turn|12
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: pantuxd|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Ursaluna|Fire Punch|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|0 fnt
@@ -212,7 +212,7 @@
 |move|p2a: Magearna|Iron Defense|p2a: Magearna
 |-boost|p2a: Magearna|def|2
 |
-|-sideend|p2: pantuxd|Reflect
+|-sideend|p2: p2|Reflect
 |turn|20
 |
 |move|p1a: Zamazenta|Body Press|p2a: Magearna
@@ -237,4 +237,4 @@
 |-damage|p2a: Magearna|0 fnt
 |faint|p2a: Magearna
 |
-|win|Paradox N
+|win|p1

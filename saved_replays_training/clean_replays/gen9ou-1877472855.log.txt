@@ -25,12 +25,12 @@
 |-end|p2a: Roaring Moon|Protosynthesis|[silent]
 |switch|p2a: Hatterene|Hatterene, F|100/100|[from] U-turn
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: Traes home|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|2
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: Traes home|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Hatterene|Draining Kiss|p1a: Dragapult
 |-supereffective|p1a: Dragapult
 |-damage|p1a: Dragapult|60/100
@@ -68,7 +68,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Roaring Moon
 |-resisted|p2a: Roaring Moon
 |-damage|p2a: Roaring Moon|66/100
-|-sidestart|p2: zkdr|Spikes
+|-sidestart|p2: p2|Spikes
 |-damage|p1a: Samurott|91/100|[from] item: Life Orb
 |
 |-weather|SunnyDay|[upkeep]
@@ -86,7 +86,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Great Tusk
 |-resisted|p2a: Great Tusk
 |-damage|p2a: Great Tusk|67/100
-|-sidestart|p2: zkdr|Spikes
+|-sidestart|p2: p2|Spikes
 |-damage|p1a: Samurott|31/100|[from] item: Life Orb
 |
 |-weather|SunnyDay|[upkeep]
@@ -100,7 +100,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Samurott
 |-damage|p1a: Samurott|6/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: zkdr|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p2a: Great Tusk|35/100|[from] item: Leftovers
@@ -116,7 +116,7 @@
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p2a: Great Tusk|26/100|[from] item: Leftovers
-|-sideend|p1: Traes home|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p1a: Zamazenta|Zamazenta|100/100
 |-ability|p1a: Zamazenta|Dauntless Shield|boost
@@ -129,7 +129,7 @@
 |-boost|p1a: Zamazenta|def|2
 |
 |-weather|SunnyDay|[upkeep]
-|-sideend|p1: Traes home|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|10
 |
 |-terastallize|p1a: Zamazenta|Steel
@@ -180,7 +180,7 @@
 |-supereffective|p2a: Torkoal
 |-damage|p2a: Torkoal|50/100
 |move|p2a: Torkoal|Stealth Rock|p1a: Zamazenta
-|-sidestart|p1: Traes home|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|15
@@ -363,6 +363,6 @@
 |
 |-weather|SunnyDay|[upkeep]
 |turn|30
-|-message|zkdr forfeited.
+|-message|p2 forfeited.
 |
-|win|Traes home
+|win|p1

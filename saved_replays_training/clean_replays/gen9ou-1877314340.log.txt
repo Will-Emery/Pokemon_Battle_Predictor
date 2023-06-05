@@ -133,7 +133,7 @@
 |turn|13
 |
 |move|p1a: Bisharp|Stealth Rock|p2a: Indeedee
-|-sidestart|p2: GarpaR2001|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Indeedee|Trick Room|p2a: Indeedee
 |-fieldstart|move: Trick Room|[of] p2a: Indeedee
 |
@@ -192,7 +192,7 @@
 |move|p2a: Kleavor|Stone Axe|p1a: Bisharp
 |-resisted|p1a: Bisharp
 |-damage|p1a: Bisharp|82/100
-|-sidestart|p1: Sioaee|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|20
 |
@@ -213,7 +213,7 @@
 |-fieldend|move: Psychic Terrain
 |turn|22
 |player|p2|
-|player|p2|GarpaR2001|lucas
+|player|p2|p2|lucas
 |
 |switch|p2a: Ursaluna|Ursaluna, M|26/100 brn
 |-damage|p2a: Ursaluna|20/100 brn|[from] Stealth Rock
@@ -241,8 +241,8 @@
 |
 |move|p1a: Braviary|Defog|p2a: Garganacl
 |-unboost|p2a: Garganacl|evasion|1
-|-sideend|p2: GarpaR2001|Stealth Rock|[from] move: Defog|[of] p1a: Braviary
-|-sideend|p1: Sioaee|Stealth Rock|[from] move: Defog|[of] p1a: Braviary
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p1a: Braviary
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Braviary
 |move|p2a: Garganacl|Salt Cure|p1a: Braviary
 |-supereffective|p1a: Braviary
 |-damage|p1a: Braviary|64/100
@@ -546,9 +546,9 @@
 |move|p2a: Kleavor|Stone Axe|p1a: Skeledirge
 |-supereffective|p1a: Skeledirge
 |-damage|p1a: Skeledirge|20/100
-|-sidestart|p1: Sioaee|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Skeledirge|Torch Song|p2a: Kleavor
 |-damage|p2a: Kleavor|0 fnt
 |faint|p2a: Kleavor
 |
-|win|Sioaee
+|win|p1

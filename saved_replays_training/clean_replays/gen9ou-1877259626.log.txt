@@ -53,7 +53,7 @@
 |switch|p1a: Corviknight|Corviknight, F|100/100
 |-ability|p1a: Corviknight|Pressure
 |move|p2a: Tusk 2:Mag killers|Stealth Rock|p1a: Corviknight
-|-sidestart|p1: Awavia|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|6
 |
@@ -61,7 +61,7 @@
 |switch|p2a: Theodore BoltoBert|Electrode-Hisui, shiny|50/100
 |move|p1a: Corviknight|Defog|p2a: Theodore BoltoBert
 |-unboost|p2a: Theodore BoltoBert|evasion|1
-|-sideend|p1: Awavia|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |
 |turn|7
 |
@@ -106,14 +106,14 @@
 |
 |switch|p2a: Tusk 2:Mag killers|Iron Treads|74/100
 |move|p1a: Blissey|Stealth Rock|p2a: Tusk 2:Mag killers
-|-sidestart|p2: Teddy is manifest|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|13
 |
 |switch|p1a: Corviknight|Corviknight, F|100/100
 |-ability|p1a: Corviknight|Pressure
 |move|p2a: Tusk 2:Mag killers|Stealth Rock|p1a: Corviknight
-|-sidestart|p1: Awavia|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|14
 |
@@ -319,7 +319,7 @@
 |switch|p2a: Skull Tracker|Zamazenta-Crowned|96/100|[from] Volt Switch
 |-damage|p2a: Skull Tracker|93/100|[from] Stealth Rock
 |move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
-|-sidestart|p1: Awavia|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-heal|p2a: Skull Tracker|99/100|[from] Grassy Terrain
 |-heal|p1a: Zamazenta|76/100|[from] Grassy Terrain
@@ -362,7 +362,7 @@
 |faint|p2a: Skull Tracker
 |
 |-heal|p1a: Zamazenta|68/100|[from] item: Leftovers
-|-sideend|p1: Awavia|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Theodore BoltoBert|Electrode-Hisui, shiny|29/100
 |-damage|p2a: Theodore BoltoBert|17/100|[from] Stealth Rock
@@ -372,7 +372,7 @@
 |-damage|p1a: Zamazenta|25/100
 |-status|p1a: Zamazenta|par
 |move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
-|-sidestart|p1: Awavia|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-heal|p1a: Zamazenta|31/100 par|[from] item: Leftovers
 |turn|41
@@ -418,7 +418,7 @@
 |faint|p2a: THE ONE WHO STRIKE
 |
 |-heal|p1a: Zamazenta|8/100|[from] item: Leftovers
-|-sideend|p1: Awavia|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Theodore BoltoBert|Electrode-Hisui, shiny|17/100
 |-damage|p2a: Theodore BoltoBert|4/100|[from] Stealth Rock
@@ -532,7 +532,7 @@
 |-supereffective|p1a: Ting-Lu
 |-damage|p1a: Ting-Lu|73/100
 |move|p1a: Ting-Lu|Spikes|p2a: Tusk 2:Mag killers
-|-sidestart|p2: Teddy is manifest|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p1a: Ting-Lu|79/100|[from] item: Leftovers
 |turn|55
@@ -540,8 +540,8 @@
 |move|p2a: Tusk 2:Mag killers|Rapid Spin|p1a: Ting-Lu
 |-damage|p1a: Ting-Lu|70/100
 |-boost|p2a: Tusk 2:Mag killers|spe|1
-|-sideend|p2: Teddy is manifest|Spikes|[from] move: Rapid Spin|[of] p2a: Tusk 2:Mag killers
-|-sideend|p2: Teddy is manifest|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tusk 2:Mag killers
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Tusk 2:Mag killers
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tusk 2:Mag killers
 |move|p1a: Ting-Lu|Earthquake|p2a: Tusk 2:Mag killers
 |-supereffective|p2a: Tusk 2:Mag killers
 |-damage|p2a: Tusk 2:Mag killers|10/100
@@ -566,7 +566,7 @@
 |turn|57
 |
 |move|p1a: Ting-Lu|Spikes|p2a: Jhon Jhons
-|-sidestart|p2: Teddy is manifest|Spikes
+|-sidestart|p2: p2|Spikes
 |cant|p2a: Jhon Jhons|par
 |
 |-heal|p1a: Ting-Lu|47/100|[from] Grassy Terrain
@@ -579,4 +579,4 @@
 |-damage|p1a: Ting-Lu|0 fnt
 |faint|p1a: Ting-Lu
 |
-|win|Teddy is manifest
+|win|p2

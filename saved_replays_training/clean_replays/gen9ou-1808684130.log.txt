@@ -145,7 +145,7 @@
 |
 |switch|p2a: Toxapex|Toxapex, F|100/100
 |move|p1a: Garchomp|Stealth Rock|p2a: Toxapex
-|-sidestart|p2: Highv0ltag3|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|17
 |
@@ -170,7 +170,7 @@
 |
 |switch|p1a: Kingambit|Kingambit, F|100/100
 |move|p2a: Blissey|Stealth Rock|p1a: Kingambit
-|-sidestart|p1: i'm an architect|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|21
 |
@@ -234,7 +234,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Alomomola
 |-damage|p2a: Alomomola|68/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: i'm an architect|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |turn|29
 |
@@ -315,7 +315,7 @@
 |switch|p2a: Alomomola|Alomomola, M, tera:Flying|100/100
 |-damage|p2a: Alomomola|76/100|[from] Stealth Rock
 |move|p1a: Garchomp|Spikes|p2a: Alomomola
-|-sidestart|p2: Highv0ltag3|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|40
 |
@@ -437,8 +437,8 @@
 |
 |move|p2a: Talonflame|Defog|p1a: Garchomp
 |-unboost|p1a: Garchomp|evasion|1
-|-sideend|p2: Highv0ltag3|Spikes|[from] move: Defog|[of] p2a: Talonflame
-|-sideend|p2: Highv0ltag3|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
 |move|p1a: Garchomp|Dragon Tail|p2a: Talonflame
 |-damage|p2a: Talonflame|73/100
 |-status|p1a: Garchomp|brn|[from] ability: Flame Body|[of] p2a: Talonflame
@@ -449,7 +449,7 @@
 |
 |switch|p2a: Talonflame|Talonflame, M|73/100
 |move|p1a: Garchomp|Stealth Rock|p2a: Talonflame
-|-sidestart|p2: Highv0ltag3|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-damage|p1a: Garchomp|64/100 brn|[from] brn
 |turn|58
@@ -465,7 +465,7 @@
 |
 |switch|p2a: Toxapex|Toxapex, F|100/100
 |move|p1a: Garchomp|Spikes|p2a: Toxapex
-|-sidestart|p2: Highv0ltag3|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-damage|p1a: Garchomp|52/100 brn|[from] brn
 |turn|60
@@ -558,7 +558,7 @@
 |
 |switch|p2a: Toxapex|Toxapex, F|100/100
 |move|p1a: Garchomp|Spikes|p2a: Toxapex
-|-sidestart|p2: Highv0ltag3|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-damage|p1a: Garchomp|39/100 brn|[from] brn
 |turn|71
@@ -645,7 +645,7 @@
 |
 |switch|p2a: Toxapex|Toxapex, F|96/100
 |move|p1a: Garchomp|Spikes|p2a: Toxapex
-|-sidestart|p2: Highv0ltag3|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-damage|p1a: Garchomp|3/100 brn|[from] brn
 |turn|83
@@ -848,7 +848,7 @@
 |move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
 |-boost|p1a: Gholdengo|spa|2
 |move|p2a: Blissey|Stealth Rock|p1a: Gholdengo
-|-sidestart|p1: i'm an architect|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|108
 |
@@ -959,5 +959,5 @@
 |faint|p1a: Kingambit
 |-end|p1a: Kingambit|fallen5|[silent]
 |
-|win|Highv0ltag3
+|win|p2
 ||Ladder isn't responding, score probably updated but might not have (Request timeout).

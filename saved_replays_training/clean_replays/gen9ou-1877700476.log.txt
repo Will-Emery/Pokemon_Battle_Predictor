@@ -39,14 +39,14 @@
 |-end|p2a: Kingambit|fallenundefined|[silent]
 |switch|p2a: Great Tusk|Great Tusk, shiny|100/100
 |move|p1a: Iron Treads|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: dreamybull_xx04|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|4
 |
 |-end|p1a: Iron Treads|Quark Drive|[silent]
 |switch|p1a: WhenAlomaUrMom|Alomomola, M|100/100
 |move|p2a: Great Tusk|Stealth Rock|p1a: WhenAlomaUrMom
-|-sidestart|p1: Glizzward|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|5
 |
@@ -220,8 +220,8 @@
 |-damage|p2a: Garchomp|75/100|[from] item: Life Orb
 |move|p1a: Corviknight|Defog|p2a: Garchomp
 |-unboost|p2a: Garchomp|evasion|1
-|-sideend|p2: dreamybull_xx04|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
-|-sideend|p1: Glizzward|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |
 |turn|22
 |
@@ -250,7 +250,7 @@
 |move|p1a: WhenAlomaUrMom|Protect|p1a: WhenAlomaUrMom
 |-singleturn|p1a: WhenAlomaUrMom|Protect
 |move|p2a: Garchomp|Spikes|p1a: WhenAlomaUrMom
-|-sidestart|p1: Glizzward|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: WhenAlomaUrMom|87/100|[from] move: Wish|[wisher] WhenAlomaUrMom
 |turn|26
@@ -266,7 +266,7 @@
 |turn|27
 |
 |move|p2a: Garchomp|Spikes|p1a: WhenAlomaUrMom
-|-sidestart|p1: Glizzward|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: WhenAlomaUrMom|Wish|p1a: WhenAlomaUrMom
 |
 |-damage|p2a: Garchomp|3/100|[from] move: Whirlpool|[partiallytrapped]
@@ -275,7 +275,7 @@
 |move|p1a: WhenAlomaUrMom|Protect|p1a: WhenAlomaUrMom
 |-singleturn|p1a: WhenAlomaUrMom|Protect
 |move|p2a: Garchomp|Spikes|p1a: WhenAlomaUrMom
-|-sidestart|p1: Glizzward|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: WhenAlomaUrMom|100/100|[from] move: Wish|[wisher] WhenAlomaUrMom
 |-damage|p2a: Garchomp|0 fnt|[from] move: Whirlpool|[partiallytrapped]
@@ -355,7 +355,7 @@
 |turn|36
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: WhenAlomaUrMom
-|-sidestart|p1: Glizzward|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: WhenAlomaUrMom|Chilling Water|p2a: Great Tusk
 |-supereffective|p2a: Great Tusk
 |-damage|p2a: Great Tusk|5/100
@@ -364,6 +364,6 @@
 |-heal|p2a: Great Tusk|12/100|[from] item: Leftovers
 |-end|p2a: Great Tusk|Whirlpool|[partiallytrapped]
 |turn|37
-|-message|dreamybull_xx04 forfeited.
+|-message|p2 forfeited.
 |
-|win|Glizzward
+|win|p1

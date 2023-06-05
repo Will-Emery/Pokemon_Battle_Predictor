@@ -20,12 +20,12 @@
 |
 |switch|p1a: Hatterene|Hatterene, F|100/100
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Winterchillz|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|2
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Winterchillz|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Hatterene|Nuzzle|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|99/100
@@ -93,7 +93,7 @@
 |-boost|p2a: Magearna|spa|1
 |
 |-heal|p2a: Magearna|63/100|[from] item: Leftovers
-|-sideend|p1: PichaExplosiva|Reflect
+|-sideend|p1: p1|Reflect
 |-fieldend|move: Psychic Terrain
 |
 |switch|p1a: Polteageist|Polteageist|100/100
@@ -110,7 +110,7 @@
 |-boost|p1a: Polteageist|spe|2
 |
 |-heal|p2a: Magearna|100/100|[from] item: Leftovers
-|-sideend|p1: PichaExplosiva|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|10
 |
 |move|p1a: Polteageist|Shadow Ball|p2a: Magearna
@@ -123,6 +123,6 @@
 |-boost|p2a: Magearna|spa|1
 |
 |-heal|p2a: Magearna|73/100|[from] item: Leftovers
-|-message|PichaExplosiva forfeited.
+|-message|p1 forfeited.
 |
-|win|Winterchillz
+|win|p2

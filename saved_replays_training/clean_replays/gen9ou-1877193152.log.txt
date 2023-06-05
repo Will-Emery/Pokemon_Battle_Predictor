@@ -26,20 +26,20 @@
 |
 |switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Nikkamaru|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|3
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: ShuckMyCorn|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Nikkamaru|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|4
 |
 |switch|p2a: Magearna|Magearna|100/100
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: ShuckMyCorn|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|5
 |
@@ -82,7 +82,7 @@
 |-damage|p2a: Jon Bones Jones|0 fnt
 |faint|p2a: Jon Bones Jones
 |
-|-sideend|p2: Nikkamaru|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p2a: Dragapult|Dragapult, M|55/100
 |turn|10
@@ -95,19 +95,19 @@
 |-damage|p2a: Dragapult|10/100
 |
 |-damage|p1a: Zamazenta|89/100 brn|[from] brn
-|-sideend|p1: ShuckMyCorn|Reflect
-|-sideend|p2: Nikkamaru|move: Light Screen
+|-sideend|p1: p1|Reflect
+|-sideend|p2: p2|move: Light Screen
 |turn|11
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Nikkamaru|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Zamazenta|Play Rough|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|0 fnt
 |faint|p2a: Dragapult
 |
 |-damage|p1a: Zamazenta|82/100 brn|[from] brn
-|-sideend|p1: ShuckMyCorn|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Volcarona|Volcarona, F|100/100
 |turn|12
@@ -132,7 +132,7 @@
 |turn|14
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: ShuckMyCorn|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Volcarona|Flamethrower|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|46/100
 |
@@ -166,7 +166,7 @@
 |-start|p2a: Zamazenta|Substitute
 |-damage|p2a: Zamazenta|76/100
 |move|p1a: Garchomp|Stealth Rock|p2a: Zamazenta
-|-sidestart|p2: Nikkamaru|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
 |-damage|p1a: Garchomp|34/100 brn|[from] brn
@@ -179,7 +179,7 @@
 |
 |-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
 |-damage|p1a: Garchomp|27/100 brn|[from] brn
-|-sideend|p2: Nikkamaru|Reflect
+|-sideend|p2: p2|Reflect
 |turn|19
 |
 |move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
@@ -208,13 +208,13 @@
 |faint|p1a: Zamazenta
 |
 |-heal|p2a: Zamazenta|77/100|[from] item: Leftovers
-|-sideend|p1: ShuckMyCorn|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p1a: Grimmsnarl|Grimmsnarl, M|46/100
 |turn|22
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: ShuckMyCorn|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Zamazenta|Body Press|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|0 fnt
 |faint|p1a: Grimmsnarl
@@ -292,7 +292,7 @@
 |-damage|p1a: Iron Valiant|71/100|[from] item: Life Orb
 |
 |-heal|p2a: Zamazenta|44/100|[from] item: Leftovers
-|-sideend|p1: ShuckMyCorn|Reflect
+|-sideend|p1: p1|Reflect
 |turn|30
 |
 |move|p2a: Zamazenta|Body Press|p1a: Iron Valiant
@@ -311,4 +311,4 @@
 |-damage|p1a: Sneasler|0 fnt
 |faint|p1a: Sneasler
 |
-|win|Nikkamaru
+|win|p2

@@ -1,0 +1,219 @@
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Treads|
+|poke|p1|Corviknight, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Armarouge, M|
+|poke|p2|Quaquaval, F|
+|poke|p2|Grafaiai, M|
+|poke|p2|Skeledirge, M|
+|poke|p2|Zapdos-Galar|
+|teampreview
+|
+|start
+|switch|p1a: Lands'R'Us|Landorus-Therian, M|100/100
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|-ability|p1a: Lands'R'Us|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|turn|1
+|
+|move|p1a: Lands'R'Us|U-turn|p2a: Ursaluna
+|-damage|p2a: Ursaluna|83/100
+|
+|switch|p1a: US Special Forces|Dragapult, F|100/100|[from] U-turn
+|move|p2a: Ursaluna|Metronome|p2a: Ursaluna
+|move|p2a: Ursaluna|Hurricane|p1a: US Special Forces|[from]move: Metronome
+|-crit|p1a: US Special Forces
+|-damage|p1a: US Special Forces|71/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|2
+|
+|switch|p2a: Grafaiai|Grafaiai, M|100/100
+|move|p1a: US Special Forces|Draco Meteor|p2a: Grafaiai
+|-damage|p2a: Grafaiai|0 fnt
+|-unboost|p1a: US Special Forces|spa|2
+|faint|p2a: Grafaiai
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|-item|p2a: Skeledirge|Air Balloon
+|turn|3
+|
+|switch|p1a: Lands'R'Us|Landorus-Therian, M|100/100
+|-ability|p1a: Lands'R'Us|Intimidate|boost
+|-unboost|p2a: Skeledirge|atk|1
+|-terastallize|p2a: Skeledirge|Fire
+|move|p2a: Skeledirge|Flame Charge|p1a: Lands'R'Us
+|-damage|p1a: Lands'R'Us|88/100
+|-boost|p2a: Skeledirge|spe|1
+|-damage|p2a: Skeledirge|84/100|[from] item: Rocky Helmet|[of] p1a: Lands'R'Us
+|
+|turn|4
+|
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Lands'R'Us
+|-status|p1a: Lands'R'Us|brn
+|move|p1a: Lands'R'Us|Brick Break|p2a: Skeledirge
+|-damage|p2a: Skeledirge|73/100
+|-enditem|p2a: Skeledirge|Air Balloon
+|
+|-damage|p1a: Lands'R'Us|82/100 brn|[from] brn
+|turn|5
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Lands'R'Us
+|-damage|p1a: Lands'R'Us|37/100 brn
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Lands'R'Us|Stealth Rock|p2a: Skeledirge
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-damage|p1a: Lands'R'Us|32/100 brn|[from] brn
+|turn|6
+|
+|switch|p1a: KING G|Slowking-Galar, F|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: KING G
+|-damage|p1a: KING G|61/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|turn|7
+|
+|-terastallize|p1a: KING G|Water
+|move|p2a: Skeledirge|Torch Song|p1a: KING G
+|-resisted|p1a: KING G
+|-damage|p1a: KING G|36/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: KING G|Surf|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|-damage|p2a: Zapdos|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Royal Guard|Corviknight, F|100/100
+|-ability|p1a: Royal Guard|Pressure
+|move|p2a: Zapdos|Bulk Up|p2a: Zapdos
+|-boost|p2a: Zapdos|atk|1
+|-boost|p2a: Zapdos|def|1
+|
+|turn|9
+|
+|move|p2a: Zapdos|Brave Bird|p1a: Royal Guard
+|-resisted|p1a: Royal Guard
+|-damage|p1a: Royal Guard|72/100
+|-damage|p2a: Zapdos|76/100|[from] Recoil
+|move|p1a: Royal Guard|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|74/100
+|
+|switch|p1a: US Special Forces|Dragapult, F|71/100|[from] U-turn
+|
+|turn|10
+|
+|move|p1a: US Special Forces|Draco Meteor|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: US Special Forces|spa|2
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|-damage|p2a: Quaquaval|94/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: US Special Forces|Draco Meteor|p2a: Quaquaval
+|-damage|p2a: Quaquaval|40/100
+|-unboost|p1a: US Special Forces|spa|2
+|move|p2a: Quaquaval|Aqua Step|p1a: US Special Forces
+|-resisted|p1a: US Special Forces
+|-damage|p1a: US Special Forces|27/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|turn|12
+|
+|switch|p1a: Royal Guard|Corviknight, F|72/100
+|-ability|p1a: Royal Guard|Pressure
+|move|p2a: Quaquaval|Aqua Step|p1a: Royal Guard
+|-damage|p1a: Royal Guard|38/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|-heal|p1a: Royal Guard|44/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Quaquaval|Aqua Step|p1a: Royal Guard
+|-damage|p1a: Royal Guard|8/100
+|-boost|p2a: Quaquaval|spe|1
+|move|p1a: Royal Guard|Roost|p1a: Royal Guard
+|-heal|p1a: Royal Guard|58/100
+|-singleturn|p1a: Royal Guard|move: Roost
+|
+|-heal|p1a: Royal Guard|64/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Quaquaval|Aqua Step|p1a: Royal Guard
+|-damage|p1a: Royal Guard|31/100
+|-boost|p2a: Quaquaval|spe|1
+|move|p1a: Royal Guard|Brave Bird|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|-damage|p1a: Royal Guard|21/100|[from] Recoil
+|
+|-heal|p1a: Royal Guard|27/100|[from] item: Leftovers
+|
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|-damage|p2a: Armarouge|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Armarouge|Expanding Force|p1a: Royal Guard
+|-resisted|p1a: Royal Guard
+|-damage|p1a: Royal Guard|8/100
+|move|p1a: Royal Guard|Roost|p1a: Royal Guard
+|-heal|p1a: Royal Guard|58/100
+|-singleturn|p1a: Royal Guard|move: Roost
+|
+|-heal|p1a: Royal Guard|64/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Armarouge|Armor Cannon|p1a: Royal Guard
+|-supereffective|p1a: Royal Guard
+|-damage|p1a: Royal Guard|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Royal Guard
+|
+|
+|switch|p1a: Chief Powell|Chien-Pao|100/100
+|-ability|p1a: Chief Powell|Sword of Ruin
+|turn|17
+|
+|move|p1a: Chief Powell|Crunch|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, M|83/100 brn
+|-damage|p2a: Ursaluna|77/100 brn|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Chief Powell|Crunch|p2a: Ursaluna
+|-damage|p2a: Ursaluna|23/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Chief Powell
+|-damage|p1a: Chief Powell|0 fnt
+|faint|p1a: Chief Powell
+|
+|-damage|p2a: Ursaluna|16/100 brn|[from] brn
+|
+|switch|p1a: Lands'R'Us|Landorus-Therian, M|32/100 brn
+|-ability|p1a: Lands'R'Us|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|turn|19
+|
+|move|p1a: Lands'R'Us|Earthquake|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|

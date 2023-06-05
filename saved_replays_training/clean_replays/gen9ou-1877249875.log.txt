@@ -19,13 +19,13 @@
 |
 |-terastallize|p2a: Volcanion|Ground
 |move|p1a: Glimmora|Stealth Rock|p2a: Volcanion
-|-sidestart|p2: Best_Vibes_Only|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Volcanion|Flame Charge|p1a: Glimmora
 |-resisted|p1a: Glimmora
 |-damage|p1a: Glimmora|89/100
 |-boost|p2a: Volcanion|spe|1
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: Best_Vibes_Only|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |turn|2
 |
@@ -56,7 +56,7 @@
 |cant|p2a: Volcanion|slp
 |move|p1a: Samurott|Ceaseless Edge|p2a: Volcanion
 |-damage|p2a: Volcanion|23/100 slp
-|-sidestart|p2: Best_Vibes_Only|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Volcanion|29/100 slp|[from] item: Leftovers
 |turn|6
@@ -67,7 +67,7 @@
 |-damage|p1a: Samurott|61/100
 |move|p1a: Samurott|Ceaseless Edge|p2a: Volcanion
 |-damage|p2a: Volcanion|0 fnt
-|-sidestart|p2: Best_Vibes_Only|Spikes
+|-sidestart|p2: p2|Spikes
 |faint|p2a: Volcanion
 |
 |
@@ -83,7 +83,7 @@
 |
 |switch|p2a: Amoonguss|Amoonguss, M|100/100
 |-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
-|-sideend|p2: Best_Vibes_Only|move: Toxic Spikes|[of] p2a: Amoonguss
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Amoonguss
 |-damage|p2a: Amoonguss|71/100|[from] Spikes
 |move|p1a: Dragapult|Draco Meteor|p2a: Amoonguss
 |-crit|p2a: Amoonguss
@@ -99,12 +99,12 @@
 |
 |switch|p1a: Sneasler|Sneasler, M|100/100
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Best_Vibes_Only|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|10
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Best_Vibes_Only|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Sneasler|Dire Claw|p2a: Grimmsnarl
 |-supereffective|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|17/100
@@ -142,6 +142,6 @@
 |-unboost|p1a: Dragapult|spa|2
 |faint|p2a: Ursaluna
 |
-|-message|Best_Vibes_Only forfeited.
+|-message|p2 forfeited.
 |
-|win|mangolol
+|win|p1

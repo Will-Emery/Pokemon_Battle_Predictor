@@ -51,7 +51,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Skeledirge
 |-supereffective|p2a: Skeledirge
 |-damage|p2a: Skeledirge|42/100
-|-sidestart|p2: uBezin|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Skeledirge|Will-O-Wisp|p1a: Samurott
 |-status|p1a: Samurott|brn
 |
@@ -61,7 +61,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Skeledirge
 |-supereffective|p2a: Skeledirge
 |-damage|p2a: Skeledirge|8/100
-|-sidestart|p2: uBezin|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
 |-heal|p2a: Skeledirge|58/100
 |
@@ -71,7 +71,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Skeledirge
 |-supereffective|p2a: Skeledirge
 |-damage|p2a: Skeledirge|20/100
-|-sidestart|p2: uBezin|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Skeledirge|Torch Song|p1a: Samurott
 |-resisted|p1a: Samurott
 |-damage|p1a: Samurott|36/100 brn
@@ -123,12 +123,12 @@
 |
 |switch|p1a: Uxie|Uxie|100/100
 |move|p2a: Landorus|Stealth Rock|p1a: Uxie
-|-sidestart|p1: KingsAmongUs|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|12
 |
 |move|p1a: Uxie|Stealth Rock|p2a: Landorus
-|-sidestart|p2: uBezin|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Landorus|U-turn|p1a: Uxie
 |-supereffective|p1a: Uxie
 |-damage|p1a: Uxie|73/100
@@ -148,7 +148,7 @@
 |turn|14
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: uBezin|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Uxie|U-turn|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|56/100
 |
@@ -159,7 +159,7 @@
 |turn|15
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: uBezin|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Leki At Home|Substitute|p1a: Leki At Home
 |-start|p1a: Leki At Home|Substitute
 |-damage|p1a: Leki At Home|70/100
@@ -224,7 +224,7 @@
 |-start|p2a: Magearna|Encore
 |
 |-heal|p1a: Uxie|64/100|[from] item: Leftovers
-|-sideend|p2: uBezin|Reflect
+|-sideend|p2: p2|Reflect
 |turn|22
 |
 |move|p2a: Magearna|Draining Kiss|p1a: Uxie
@@ -237,7 +237,7 @@
 |-damage|p1a: Gholdengo|88/100|[from] Stealth Rock
 |
 |-heal|p2a: Magearna|100/100|[from] item: Leftovers
-|-sideend|p2: uBezin|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|23
 |
 |switch|p2a: Landorus|Landorus-Therian, M|70/100
@@ -261,7 +261,7 @@
 |turn|25
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: uBezin|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Gholdengo|Shadow Ball|p2a: Grimmsnarl
 |-resisted|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|0 fnt
@@ -331,4 +331,4 @@
 |-damage|p2a: Magearna|0 fnt
 |faint|p2a: Magearna
 |
-|win|KingsAmongUs
+|win|p1

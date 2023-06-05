@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: Mercureiii|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Enamorus|Taunt|p1a: Grimmsnarl
 |-start|p1a: Grimmsnarl|move: Taunt
 |
@@ -47,7 +47,7 @@
 |turn|5
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: Mercureiii|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Zamazenta|Body Press|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|77/100
 |
@@ -80,7 +80,7 @@
 |-damage|p1a: Walking Wake|26/100
 |
 |-heal|p2a: Zamazenta|30/100|[from] item: Leftovers
-|-sideend|p1: Mercureiii|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|9
 |
 |move|p1a: Walking Wake|Flamethrower|p2a: Zamazenta
@@ -104,7 +104,7 @@
 |turn|11
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: Mercureiii|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Muk|Drain Punch|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|65/100
 |-heal|p2a: Muk|55/100|[from] drain|[of] p1a: Grimmsnarl
@@ -115,11 +115,11 @@
 |move|p1a: Grimmsnarl|Taunt|p2a: Enamorus
 |-start|p2a: Enamorus|move: Taunt
 |
-|-sideend|p1: Mercureiii|Reflect
+|-sideend|p1: p1|Reflect
 |turn|13
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: Mercureiii|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Enamorus|Moonblast|p1a: Grimmsnarl
 |-supereffective|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|14/100
@@ -174,7 +174,7 @@
 |-boost|p1a: Lilligant|def|1
 |-boost|p1a: Lilligant|spe|1
 |
-|-sideend|p1: Mercureiii|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|19
 |
 |switch|p2a: Muk|Muk-Alola, F|55/100
@@ -199,13 +199,13 @@
 |-damage|p1a: Lilligant|0 fnt
 |faint|p1a: Lilligant
 |
-|-sideend|p1: Mercureiii|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p1a: Grimmsnarl|Grimmsnarl, M|14/100
 |turn|21
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: Mercureiii|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Iron Treads|Iron Head|p1a: Grimmsnarl
 |-supereffective|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|0 fnt
@@ -287,7 +287,7 @@
 |faint|p1a: Kingambit
 |-end|p1a: Kingambit|fallen4|[silent]
 |
-|-sideend|p1: Mercureiii|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p1a: Chien-Pao|Chien-Pao|100/100
 |-ability|p1a: Chien-Pao|Sword of Ruin
@@ -316,4 +316,4 @@
 |-unboost|p2a: Walking Wake|spa|2
 |faint|p1a: Chien-Pao
 |
-|win|Kaloo loracle
+|win|p2

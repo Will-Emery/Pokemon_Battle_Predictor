@@ -1,0 +1,376 @@
+|poke|p1|Garchomp, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Chansey, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|poke|p2|Garganacl, F|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|move|p2a: Samurott|Grass Knot|p1a: Glimmora
+|-damage|p1a: Glimmora|82/100
+|move|p1a: Glimmora|Mortal Spin|p2a: Samurott
+|-damage|p2a: Samurott|93/100
+|-status|p2a: Samurott|psn
+|
+|-damage|p2a: Samurott|80/100 psn|[from] psn
+|turn|2
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Glimmora|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|3
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|turn|4
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|-terastallize|p1a: Garchomp|Fairy
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|turn|6
+|
+|-terastallize|p2a: Enamorus|Ground
+|move|p2a: Enamorus|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|move|p1a: Chansey|Seismic Toss|p2a: Enamorus
+|-damage|p2a: Enamorus|41/100
+|
+|turn|8
+|
+|move|p2a: Enamorus|Moonblast|p1a: Chansey
+|-damage|p1a: Chansey|58/100
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Seismic Toss|p2a: Enamorus
+|-damage|p2a: Enamorus|6/100
+|
+|turn|9
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Chansey|Seismic Toss|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|turn|10
+|
+|move|p2a: Dragapult|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|48/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Chansey|Thunder Wave|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Chansey
+|-damage|p1a: Chansey|38/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Chansey|Chilling Water|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|90/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|97/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Chansey
+|-damage|p1a: Chansey|26/100
+|-enditem|p1a: Chansey|Eviolite|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|76/100
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|13
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|move|p1a: Chansey|Chilling Water|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|86/100
+|-unboost|p2a: Dragapult|atk|1
+|
+|turn|14
+|
+|move|p2a: Dragapult|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|64/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p1a: Chansey|Thunder Wave|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|turn|15
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|23/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|73/100
+|
+|turn|16
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|33/100
+|move|p1a: Chansey|Chilling Water|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|98/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|4/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|54/100
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|27/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|77/100
+|
+|turn|19
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Chansey|Thunder Wave|p2a: Garganacl
+|-immune|p2a: Garganacl|[from] ability: Purifying Salt
+|
+|turn|20
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Garganacl
+|-damage|p2a: Garganacl|76/100
+|move|p2a: Garganacl|Salt Cure|p1a: Chansey
+|-damage|p1a: Chansey|63/100
+|-start|p1a: Chansey|Salt Cure
+|
+|-heal|p2a: Garganacl|82/100|[from] item: Leftovers
+|-damage|p1a: Chansey|51/100|[from] Salt Cure
+|turn|21
+|
+|switch|p1a: Garchomp|Garchomp, M, tera:Fairy|100/100
+|-damage|p1a: Garchomp|88/100|[from] Stealth Rock
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|88/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|63/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Garganacl|Earthquake|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Garchomp|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|26/100
+|move|p2a: Garganacl|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|20/100
+|
+|-heal|p2a: Garganacl|32/100|[from] item: Leftovers
+|turn|25
+|
+|switch|p2a: Enamorus|Enamorus, F, tera:Ground|6/100
+|move|p1a: Garchomp|Earthquake|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|86/100
+|turn|26
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|27
+|
+|switch|p2a: Garganacl|Garganacl, F|32/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Garganacl|38/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|29
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Zapdos|Hurricane|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|50/100
+|-start|p1a: Volcarona|confusion
+|
+|turn|30
+|
+|-activate|p1a: Volcarona|confusion
+|move|p1a: Volcarona|Giga Drain|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|72/100
+|-heal|p1a: Volcarona|68/100|[from] drain|[of] p2a: Zapdos
+|move|p2a: Zapdos|Hurricane|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|19/100
+|
+|turn|31
+|
+|-end|p1a: Volcarona|confusion
+|move|p1a: Volcarona|Fiery Dance|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|86/100
+|turn|32
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|49/100
+|-heal|p1a: Volcarona|37/100|[from] drain|[of] p2a: Dragapult
+|move|p2a: Dragapult|Draco Meteor|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Volcarona
+|
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|33
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|turn|34
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|60/100
+|move|p2a: Great Tusk|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|-enditem|p1a: Tyranitar|Weakness Policy
+|-boost|p1a: Tyranitar|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Tyranitar|spa|2|[from] item: Weakness Policy
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Great Tusk|66/100|[from] item: Leftovers
+|turn|35
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|21/100
+|move|p2a: Great Tusk|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Great Tusk|27/100|[from] item: Leftovers
+|
+|switch|p1a: Glimmora|Glimmora, F|82/100
+|-damage|p1a: Glimmora|70/100|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Glimmora|Energy Ball|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|80/100 psn
+|turn|37
+|
+|move|p2a: Samurott|Aqua Cutter|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: p2|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-weather|none
+|-damage|p2a: Samurott|68/100 psn|[from] psn
+|
+|switch|p1a: Chansey|Chansey, F|51/100
+|-damage|p1a: Chansey|38/100|[from] Stealth Rock
+|turn|38
+|
+|move|p2a: Samurott|Aqua Cutter|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|

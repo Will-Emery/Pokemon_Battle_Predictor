@@ -23,7 +23,7 @@
 |cant|p1a: Dragapult|move: Taunt|Reflect
 |
 |turn|2
-|player|p2|Bh100%|supernerd
+|player|p2|p2|supernerd
 |
 |switch|p1a: Ursaluna|Ursaluna, M|100/100
 |move|p2a: Grimmsnarl|Taunt|p1a: Ursaluna
@@ -33,7 +33,7 @@
 |turn|3
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Bh100%|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Ursaluna|Facade|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|18/100
 |
@@ -118,20 +118,20 @@
 |-damage|p2a: Enamorus|0 fnt
 |faint|p2a: Enamorus
 |
-|-sideend|p2: Bh100%|Reflect
-|n|!Bh100%|bh100
+|-sideend|p2: p2|Reflect
+|n|!p2|bh100
 |
 |switch|p2a: Grimmsnarl|Grimmsnarl, M|18/100
 |turn|11
 |player|p2|
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Bh100%|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Slowbro|Nasty Plot|p1a: Slowbro
 |-boost|p1a: Slowbro|spa|2
 |
 |turn|12
-|player|p2|Bh100%|supernerd
+|player|p2|p2|supernerd
 |-activate|p1a: Slowbro|ability: Quick Draw
 |
 |move|p2a: Grimmsnarl|Taunt|p1a: Slowbro
@@ -203,7 +203,7 @@
 |
 |-damage|p2a: Ursaluna|94/100 brn|[from] brn
 |-damage|p2a: Ursaluna|70/100 brn|[from] Curse
-|-sideend|p2: Bh100%|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Iron Valiant|Iron Valiant|100/100
 |-enditem|p1a: Iron Valiant|Booster Energy
@@ -260,4 +260,4 @@
 |-unboost|p2a: Sneasler|spd|1
 |faint|p1a: Ursaluna
 |
-|win|Bh100%
+|win|p2

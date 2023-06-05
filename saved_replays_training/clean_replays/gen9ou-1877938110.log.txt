@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p1a: dragon pult!|Reflect|p1a: dragon pult!
-|-sidestart|p1: IncandescentCandle|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Kleavor|Night Slash|p1a: dragon pult!
 |-supereffective|p1a: dragon pult!
 |-damage|p1a: dragon pult!|50/100
@@ -26,7 +26,7 @@
 |turn|2
 |
 |move|p1a: dragon pult!|Light Screen|p1a: dragon pult!
-|-sidestart|p1: IncandescentCandle|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Kleavor|Night Slash|p1a: dragon pult!
 |-supereffective|p1a: dragon pult!
 |-damage|p1a: dragon pult!|7/100
@@ -91,7 +91,7 @@
 |
 |-heal|p1a: The Shield|99/100 brn|[from] item: Leftovers
 |-damage|p1a: The Shield|94/100 brn|[from] brn
-|-sideend|p1: IncandescentCandle|Reflect
+|-sideend|p1: p1|Reflect
 |turn|9
 |
 |move|p1a: The Shield|Substitute|p1a: The Shield
@@ -102,7 +102,7 @@
 |
 |-heal|p1a: The Shield|75/100 brn|[from] item: Leftovers
 |-damage|p1a: The Shield|69/100 brn|[from] brn
-|-sideend|p1: IncandescentCandle|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|10
 |
 |move|p1a: The Shield|Crunch|p2a: Rabsca
@@ -129,7 +129,7 @@
 |-start|p1a: The Shield|Substitute
 |-damage|p1a: The Shield|44/100 brn
 |move|p2a: Forretress|Spikes|p1a: The Shield
-|-sidestart|p1: IncandescentCandle|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: The Shield|50/100 brn|[from] item: Leftovers
 |-damage|p1a: The Shield|44/100 brn|[from] brn
@@ -255,7 +255,7 @@
 |-damage|p1a: up|88/100|[from] Spikes
 |turn|25
 |player|p2|
-|player|p2|Halo halo orange|169
+|player|p2|p2|169
 |
 |switch|p2a: Volcarona|Volcarona, M|38/100
 |move|p1a: up|Earthquake|p2a: Volcarona
@@ -283,4 +283,4 @@
 |faint|p2a: Scizor
 |-damage|p1a: up|59/100|[from] item: Life Orb
 |
-|win|IncandescentCandle
+|win|p1

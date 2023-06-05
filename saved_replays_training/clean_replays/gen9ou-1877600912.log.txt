@@ -26,7 +26,7 @@
 |
 |switch|p1a: Cheesr|Gholdengo|100/100
 |move|p2a: Mew|Stealth Rock|p1a: Cheesr
-|-sidestart|p1: Tasbot 4.20|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|3
 |
@@ -60,7 +60,7 @@
 |
 |move|p1a: The|Defog|p2a: Toxapex
 |-unboost|p2a: Toxapex|evasion|1
-|-sideend|p1: Tasbot 4.20|Stealth Rock|[from] move: Defog|[of] p1a: The
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: The
 |move|p2a: Toxapex|Surf|p1a: The
 |-damage|p1a: The|47/100
 |
@@ -207,7 +207,7 @@
 |-supereffective|p1a: Magear no
 |-damage|p1a: Magear no|25/100
 |move|p1a: Magear no|Stealth Rock|p2a: Mew
-|-sidestart|p2: melonetmeleche|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Magear no|31/100|[from] item: Leftovers
 |-damage|p2a: Mew|82/100 tox|[from] psn
@@ -241,7 +241,7 @@
 |turn|25
 |
 |move|p2a: Mew|Stealth Rock|p1a: Me after losing
-|-sidestart|p1: Tasbot 4.20|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Me after losing|Iron Defense|p1a: Me after losing
 |-boost|p1a: Me after losing|def|2
 |
@@ -588,7 +588,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Oh carp
 |-damage|p1a: Oh carp|83/100 slp
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: melonetmeleche|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |-curestatus|p1a: Oh carp|slp|[msg]
 |move|p1a: Oh carp|Liquidation|p2a: Great Tusk
 |-supereffective|p2a: Great Tusk
@@ -642,4 +642,4 @@
 |-damage|p2a: Baxcalibur|0 fnt
 |faint|p2a: Baxcalibur
 |
-|win|Tasbot 4.20
+|win|p1

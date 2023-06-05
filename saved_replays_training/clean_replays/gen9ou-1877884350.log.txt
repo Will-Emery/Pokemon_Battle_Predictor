@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p2a: Garchomp|Stealth Rock|p1a: Slowking
-|-sidestart|p1: Unwallable|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Slowking|Chilly Reception|p1a: Slowking
 |-weather|Snow
 |
@@ -63,7 +63,7 @@
 |turn|4
 |
 |move|p1a: Ting-Lu|Stealth Rock|p2a: Garchomp
-|-sidestart|p2: Pablator20|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Garchomp|Dragon Tail|p1a: Ting-Lu
 |-damage|p1a: Ting-Lu|79/100
 |drag|p1a: Corviknight|Corviknight, F|100/100
@@ -78,8 +78,8 @@
 |-damage|p1a: Corviknight|48/100
 |move|p1a: Corviknight|Defog|p2a: Garchomp
 |-unboost|p2a: Garchomp|evasion|1
-|-sideend|p2: Pablator20|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
-|-sideend|p1: Unwallable|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |
 |-weather|none
 |turn|6
@@ -112,7 +112,7 @@
 |turn|9
 |
 |move|p2a: Garchomp|Stealth Rock|p1a: Corviknight
-|-sidestart|p1: Unwallable|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Corviknight|Brave Bird|p2a: Garchomp
 |-damage|p2a: Garchomp|19/100
 |-damage|p1a: Corviknight|65/100|[from] ability: Rough Skin|[of] p2a: Garchomp
@@ -211,7 +211,7 @@
 |
 |switch|p2a: Baxcalibur|Baxcalibur, M|100/100
 |move|p1a: Ting-Lu|Stealth Rock|p2a: Baxcalibur
-|-sidestart|p2: Pablator20|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|Snow|[upkeep]
 |-heal|p1a: Ting-Lu|86/100|[from] item: Leftovers
@@ -359,4 +359,4 @@
 |-damage|p2a: Dragonite|0 fnt
 |faint|p2a: Dragonite
 |
-|win|Unwallable
+|win|p1

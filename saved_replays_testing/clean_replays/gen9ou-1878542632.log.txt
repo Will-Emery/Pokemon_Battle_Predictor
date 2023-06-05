@@ -1,0 +1,686 @@
+|poke|p1|Zapdos-Galar|
+|poke|p1|Gholdengo|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Blissey, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Slowking-Galar, L99, M|
+|poke|p2|Ditto|
+|poke|p2|Toxapex, F|
+|poke|p2|Sableye, M|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|100/100
+|move|p2a: Corviknight|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|94/100
+|
+|-heal|p1a: Slowking|100/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Slowking|Slowking-Galar, L99, M|100/100
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|38/100
+|-sidestart|p2: p2|Spikes
+|move|p2a: Slowking|Sludge Bomb|p1a: Samurott
+|-damage|p1a: Samurott|49/100
+|-status|p1a: Samurott|psn
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Samurott|55/100 psn|[from] item: Leftovers
+|-damage|p1a: Samurott|43/100 psn|[from] psn
+|turn|4
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Spikes
+|move|p1a: Tomas Gooberson|Trick|p2a: Toxapex
+|-activate|p1a: Tomas Gooberson|move: Trick|[of] p2a: Toxapex
+|-item|p2a: Toxapex|Choice Scarf|[from] move: Trick
+|-item|p1a: Tomas Gooberson|Covert Cloak|[from] move: Trick
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Toxapex|atk|1
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-weather|none
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|8
+|
+|move|p1a: Landorus|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Defog
+|
+|turn|9
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|move|p1a: Landorus|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|52/100
+|
+|turn|10
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|100/100
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|
+|turn|11
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|switch|p2a: Slowking|Slowking-Galar, L99, M|72/100
+|
+|turn|12
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Tomas Gooberson|Gholdengo|100/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Tomas Gooberson
+|-immune|p1a: Tomas Gooberson
+|
+|turn|13
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|switch|p2a: Sableye|Sableye, M|100/100
+|
+|turn|14
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: Sableye|Knock Off|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|95/100
+|
+|turn|15
+|
+|switch|p2a: Slowking|Slowking-Galar, L99, M|100/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|turn|16
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|100/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|91/100
+|
+|-heal|p1a: Slowking|97/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Sableye|Sableye, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Slowking|100/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Slowking|[miss]
+|-miss|p2a: Sableye|p1a: Slowking
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|switch|p1a: Iron Valiant|Iron Valiant|95/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|19
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|move|p2a: Sableye|Protect||[still]
+|-fail|p2a: Sableye
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Sableye|move: Future Sight
+|-immune|p2a: Sableye
+|turn|20
+|
+|switch|p1a: Iron Valiant|Iron Valiant|95/100
+|move|p2a: Sableye|Knock Off|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|89/100
+|
+|-weather|Snow|[upkeep]
+|turn|21
+|
+|switch|p2a: Slowking|Slowking-Galar, L99, M|95/100
+|-damage|p2a: Slowking|83/100|[from] Spikes
+|-damage|p2a: Slowking|71/100|[from] Stealth Rock
+|move|p1a: Iron Valiant|Moonblast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|
+|-weather|none
+|turn|22
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|100/100
+|move|p2a: Slowking|Flamethrower|p1a: Slowking
+|-damage|p1a: Slowking|88/100
+|
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Sableye|Sableye, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Slowking|100/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p1a: Iron Valiant|Iron Valiant|89/100
+|move|p2a: Sableye|Knock Off|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|84/100
+|
+|-weather|Snow|[upkeep]
+|turn|25
+|
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Sableye|move: Future Sight
+|-immune|p2a: Sableye
+|turn|26
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Spikes
+|-damage|p2a: Toxapex|75/100|[from] Stealth Rock
+|move|p1a: Iron Valiant|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|54/100
+|-enditem|p2a: Toxapex|Choice Scarf|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|-weather|Snow|[upkeep]
+|turn|27
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Tomas Gooberson|Gholdengo|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-weather|none
+|turn|28
+|
+|move|p1a: Tomas Gooberson|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|73/100
+|move|p2a: Toxapex|Surf|p1a: Tomas Gooberson
+|-damage|p1a: Tomas Gooberson|78/100
+|
+|turn|29
+|
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|100/100
+|move|p2a: Toxapex|Surf|p1a: Slowking
+|-damage|p1a: Slowking|88/100
+|
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p2a: Slowking|Slowking-Galar, L99, M|85/100
+|-damage|p2a: Slowking|72/100|[from] Spikes
+|-damage|p2a: Slowking|60/100|[from] Stealth Rock
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p1a: Slowking|99/100|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|78/100|[from] Chilly Reception
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|switch|p2a: Blissey|Blissey, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|32
+|
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Sableye|move: Future Sight
+|-immune|p2a: Sableye
+|turn|33
+|
+|switch|p1a: Iron Valiant|Iron Valiant|84/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|brn
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Iron Valiant|77/100 brn|[from] brn
+|turn|34
+|
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Iron Valiant|71/100 brn|[from] brn
+|turn|35
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|43/100 psn
+|switch|p2a: Slowking|Slowking-Galar, L99, M|93/100
+|-damage|p2a: Slowking|81/100|[from] Spikes
+|-damage|p2a: Slowking|69/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Samurott|49/100 psn|[from] item: Leftovers
+|-damage|p1a: Samurott|37/100 psn|[from] psn
+|turn|36
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|-sidestart|p2: p2|Spikes
+|-damage|p1a: Samurott|20/100 psn|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-heal|p1a: Samurott|26/100 psn|[from] item: Leftovers
+|-damage|p1a: Samurott|14/100 psn|[from] psn
+|turn|37
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|78/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|38
+|
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|move|p2a: Corviknight|Defog|p1a: Zapdos
+|-unboost|p1a: Zapdos|evasion|1
+|-ability|p1a: Zapdos|Defiant|boost
+|-boost|p1a: Zapdos|atk|2
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|turn|39
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Zapdos|Brave Bird|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|-damage|p1a: Zapdos|69/100|[from] Recoil
+|
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Zapdos|[from] ability: Imposter
+|turn|40
+|
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|14/100 psn
+|move|p2a: Ditto|Brave Bird|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-damage|p2a: Ditto|96/100|[from] Recoil
+|
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|78/100
+|turn|41
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Tomas Gooberson|Make It Rain|p2a: Blissey
+|-damage|p2a: Blissey|81/100
+|-unboost|p1a: Tomas Gooberson|spa|1
+|
+|turn|42
+|
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|
+|turn|43
+|
+|move|p2a: Sableye|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|46/100
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Sableye
+|move|p1a: Slowking|Sludge Bomb|p2a: Sableye
+|-resisted|p2a: Sableye
+|-damage|p2a: Sableye|71/100
+|
+|turn|44
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Slowking
+|-status|p1a: Slowking|brn
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|78/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|45
+|
+|switch|p1a: Zapdos|Zapdos-Galar|69/100
+|move|p2a: Sableye|Protect||[still]
+|-fail|p2a: Sableye
+|
+|-weather|Snow|[upkeep]
+|turn|46
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|78/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Tomas Gooberson
+|-immune|p1a: Tomas Gooberson|[from] ability: Good as Gold
+|
+|-weather|Snow|[upkeep]
+|turn|47
+|
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p1a: Tomas Gooberson|Shadow Ball|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|-weather|Snow|[upkeep]
+|turn|48
+|
+|switch|p1a: Zapdos|Zapdos-Galar|69/100
+|switch|p2a: Blissey|Blissey, F|81/100
+|
+|-weather|none
+|turn|49
+|
+|switch|p2a: Slowking|Slowking-Galar, L99, M|100/100
+|move|p1a: Zapdos|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|75/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|
+|turn|50
+|
+|switch|p2a: Ditto|Ditto|96/100
+|-transform|p2a: Ditto|p1a: Landorus|[from] ability: Imposter
+|-ability|p2a: Ditto|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stealth Rock|p2a: Ditto
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|51
+|
+|switch|p1a: Zapdos|Zapdos-Galar|69/100
+|move|p2a: Ditto|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|turn|52
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Zapdos|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|61/100
+|-damage|p1a: Zapdos|53/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Zapdos|42/100|[from] Recoil
+|
+|turn|53
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|78/100
+|-damage|p1a: Tomas Gooberson|72/100|[from] Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|54
+|
+|move|p1a: Tomas Gooberson|Trick|p2a: Corviknight
+|-activate|p1a: Tomas Gooberson|move: Trick|[of] p2a: Corviknight
+|-item|p2a: Corviknight|Covert Cloak|[from] move: Trick
+|-item|p1a: Tomas Gooberson|Rocky Helmet|[from] move: Trick
+|move|p2a: Corviknight|Roost||[still]
+|-fail|p2a: Corviknight|heal
+|
+|turn|55
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Corviknight|atk|1
+|move|p2a: Corviknight|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|79/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|turn|56
+|
+|switch|p2a: Sableye|Sableye, M|71/100
+|move|p1a: Landorus|Taunt|p2a: Sableye
+|-start|p2a: Sableye|move: Taunt
+|
+|turn|57
+|
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|-damage|p2a: Corviknight|72/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|turn|58
+|
+|switch|p2a: Ditto|Ditto|96/100
+|-damage|p2a: Ditto|83/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Landorus|[from] ability: Imposter
+|-ability|p2a: Ditto|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Taunt|p2a: Ditto
+|-start|p2a: Ditto|move: Taunt
+|
+|turn|59
+|
+|switch|p2a: Slowking|Slowking-Galar, L99, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|72/100|[from] U-turn
+|-damage|p1a: Tomas Gooberson|66/100|[from] Stealth Rock
+|
+|turn|60
+|
+|-terastallize|p2a: Slowking|Water
+|move|p1a: Tomas Gooberson|Recover|p1a: Tomas Gooberson
+|-heal|p1a: Tomas Gooberson|100/100
+|move|p2a: Slowking|Flamethrower|p1a: Tomas Gooberson
+|-supereffective|p1a: Tomas Gooberson
+|-damage|p1a: Tomas Gooberson|52/100
+|-status|p1a: Tomas Gooberson|brn
+|
+|-damage|p1a: Tomas Gooberson|46/100 brn|[from] brn
+|turn|61
+|
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|79/100 brn
+|-damage|p1a: Slowking|66/100 brn|[from] Stealth Rock
+|move|p2a: Slowking|Flamethrower|p1a: Slowking
+|-damage|p1a: Slowking|53/100 brn
+|
+|-damage|p1a: Slowking|47/100 brn|[from] brn
+|turn|62
+|
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Slowking|Psyshock|p1a: Slowking
+|-damage|p1a: Slowking|18/100 brn
+|
+|-damage|p1a: Slowking|12/100 brn|[from] brn
+|turn|63
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Landorus|Landorus-Therian, M|79/100|[from] Chilly Reception
+|-damage|p1a: Landorus|67/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|move|p2a: Slowking|Psyshock|p1a: Landorus
+|-damage|p1a: Landorus|48/100
+|
+|-weather|Snow|[upkeep]
+|turn|64
+|
+|switch|p2a: Sableye|Sableye, M|71/100
+|move|p1a: Landorus|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|29/100
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Sableye|move: Future Sight
+|-immune|p2a: Sableye
+|turn|65
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|79/100
+|move|p1a: Landorus|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|30/100
+|
+|-weather|Snow|[upkeep]
+|turn|66
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Landorus|[miss]
+|-miss|p2a: Sableye|p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Ditto|Ditto|83/100
+|-damage|p2a: Ditto|71/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Landorus|[from] ability: Imposter
+|-ability|p2a: Ditto|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|turn|67
+|
+|switch|p2a: Slowking|Slowking-Galar, L99, M, tera:Water|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Landorus|Taunt|p2a: Slowking
+|-start|p2a: Slowking|move: Taunt
+|
+|-weather|none
+|turn|68
+|
+|move|p1a: Landorus|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|76/100
+|
+|switch|p1a: Tomas Gooberson|Gholdengo|46/100 brn|[from] U-turn
+|-damage|p1a: Tomas Gooberson|40/100 brn|[from] Stealth Rock
+|move|p2a: Slowking|Flamethrower|p1a: Tomas Gooberson
+|-supereffective|p1a: Tomas Gooberson
+|-damage|p1a: Tomas Gooberson|0 fnt
+|faint|p1a: Tomas Gooberson
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|45/100 brn
+|-damage|p1a: Slowking|32/100 brn|[from] Stealth Rock
+|turn|69
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Iron Valiant|Iron Valiant|71/100 brn|[from] Chilly Reception
+|-damage|p1a: Iron Valiant|65/100 brn|[from] Stealth Rock
+|move|p2a: Slowking|Psyshock|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Slowking|move: Taunt
+|
+|switch|p1a: Slowking|Slowking-Galar, F, shiny|66/100 brn
+|-damage|p1a: Slowking|53/100 brn|[from] Stealth Rock
+|turn|70
+|
+|move|p1a: Slowking|Fire Blast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|66/100
+|move|p2a: Slowking|Psyshock|p1a: Slowking
+|-damage|p1a: Slowking|24/100 brn
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Slowking|18/100 brn|[from] brn
+|turn|71
+|
+|move|p1a: Slowking|Sludge Bomb|p2a: Slowking
+|-damage|p2a: Slowking|37/100
+|move|p2a: Slowking|Psyshock|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Zapdos|Zapdos-Galar|42/100
+|-damage|p1a: Zapdos|29/100|[from] Stealth Rock
+|turn|72
+|
+|-terastallize|p1a: Zapdos|Fighting
+|move|p1a: Zapdos|Close Combat|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|faint|p2a: Slowking
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Ditto|Ditto|71/100
+|-damage|p2a: Ditto|59/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Zapdos|[from] ability: Imposter
+|-start|p2a: Ditto|typechange|Fighting/Flying|[silent]
+|turn|73
+|
+|move|p2a: Ditto|Brave Bird|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Ditto|49/100|[from] Recoil
+|
+|-weather|none
+|

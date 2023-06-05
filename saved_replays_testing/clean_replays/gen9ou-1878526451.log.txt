@@ -1,0 +1,229 @@
+|poke|p1|Mew|
+|poke|p1|Maushold|
+|poke|p1|Mabosstiff, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Mismagius, M|
+|poke|p1|Meowscarada, M|
+|poke|p2|Hoopa|
+|poke|p2|Cinderace, M|
+|poke|p2|Mew|
+|poke|p2|Enamorus, F|
+|poke|p2|Gastrodon, F|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|start
+|switch|p1a: Mabosstiff|Mabosstiff, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Mabosstiff
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Mabosstiff
+|-enditem|p1a: Mabosstiff|Focus Sash
+|-damage|p1a: Mabosstiff|1/100
+|move|p1a: Mabosstiff|Scary Face|p2a: Cinderace
+|-unboost|p2a: Cinderace|spe|2
+|
+|turn|2
+|
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Mabosstiff|Destiny Bond|p1a: Mabosstiff
+|-singlemove|p1a: Mabosstiff|Destiny Bond
+|
+|turn|3
+|
+|switch|p2a: Gastrodon|Gastrodon, F, shiny|100/100
+|move|p1a: Mabosstiff|Jaw Lock|p2a: Gastrodon
+|-damage|p2a: Gastrodon|57/100
+|-activate|p1a: Mabosstiff|trapped
+|-activate|p2a: Gastrodon|trapped
+|
+|-heal|p2a: Gastrodon|63/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Mabosstiff|Taunt|p2a: Gastrodon
+|-start|p2a: Gastrodon|move: Taunt
+|cant|p2a: Gastrodon|move: Taunt|Recover
+|
+|-heal|p2a: Gastrodon|69/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Mabosstiff|Destiny Bond|p1a: Mabosstiff
+|-singlemove|p1a: Mabosstiff|Destiny Bond
+|move|p2a: Gastrodon|Earth Power|p1a: Mabosstiff
+|-damage|p1a: Mabosstiff|0 fnt
+|faint|p1a: Mabosstiff
+|-activate|p1a: Mabosstiff|move: Destiny Bond
+|faint|p2a: Gastrodon
+|
+|
+|switch|p1a: Maushold|Maushold|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|6
+|
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Mismagius
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-immune|p1a: Mismagius
+|-damage|p2a: Cinderace|51/100|[from] highjumpkick
+|
+|turn|7
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-damage|p1a: Mismagius|2/100
+|move|p1a: Mismagius|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|8
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Enamorus|Moonblast|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|50/100
+|-unboost|p1a: Mew|spa|1
+|
+|turn|9
+|
+|move|p2a: Enamorus|Moonblast|p1a: Mew
+|-damage|p1a: Mew|18/100
+|move|p1a: Mew|Thunder Wave|p2a: Enamorus
+|-status|p2a: Enamorus|par
+|
+|turn|10
+|
+|move|p1a: Mew|Imprison|p1a: Mew
+|-start|p1a: Mew|move: Imprison
+|move|p2a: Enamorus|Moonblast|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|
+|switch|p1a: Mismagius|Mismagius, M|2/100
+|turn|11
+|
+|move|p1a: Mismagius|Destiny Bond|p1a: Mismagius
+|-singlemove|p1a: Mismagius|Destiny Bond
+|move|p2a: Enamorus|Moonblast|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|-activate|p1a: Mismagius|move: Destiny Bond
+|faint|p2a: Enamorus
+|
+|
+|switch|p1a: Maushold|Maushold|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|12
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|turn|13
+|
+|move|p1a: Maushold|Population Bomb|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|90/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|85/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|79/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|69/100
+|-hitcount|p2a: Corviknight|6
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|turn|14
+|
+|move|p1a: Maushold|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|turn|15
+|
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|turn|16
+|
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-end|p2a: Corviknight|Encore
+|turn|17
+|
+|switch|p2a: Hoopa|Hoopa|100/100
+|move|p1a: Maushold|Encore||[still]
+|-fail|p1a: Maushold
+|
+|turn|18
+|
+|-terastallize|p2a: Hoopa|Fairy
+|move|p1a: Maushold|Bite|p2a: Hoopa
+|-resisted|p2a: Hoopa
+|-damage|p2a: Hoopa|55/100
+|move|p2a: Hoopa|Focus Blast|p1a: Maushold
+|-supereffective|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|19
+|
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|move|p2a: Hoopa|Calm Mind|p2a: Hoopa
+|-boost|p2a: Hoopa|spa|1
+|-boost|p2a: Hoopa|spd|1
+|
+|turn|20
+|
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|move|p2a: Hoopa|Calm Mind|p2a: Hoopa
+|-boost|p2a: Hoopa|spa|1
+|-boost|p2a: Hoopa|spd|1
+|
+|turn|21
+|
+|move|p1a: Moltres|Hurricane|p2a: Hoopa
+|-damage|p2a: Hoopa|11/100
+|-enditem|p2a: Hoopa|Aguav Berry|[eat]
+|-heal|p2a: Hoopa|45/100|[from] item: Aguav Berry
+|move|p2a: Hoopa|Focus Blast|p1a: Moltres|[miss]
+|-miss|p2a: Hoopa|p1a: Moltres
+|
+|turn|22
+|
+|move|p1a: Moltres|Hurricane|p2a: Hoopa
+|-damage|p2a: Hoopa|4/100
+|-start|p2a: Hoopa|confusion
+|-activate|p2a: Hoopa|confusion
+|move|p2a: Hoopa|Focus Blast|p1a: Moltres|[miss]
+|-miss|p2a: Hoopa|p1a: Moltres
+|
+|turn|23
+|

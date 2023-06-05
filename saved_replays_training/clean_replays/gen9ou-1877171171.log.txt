@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p2a: Glimmora|Stealth Rock|p1a: Zapdos
-|-sidestart|p1: length times width|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Zapdos|Volt Switch|p2a: Glimmora
 |-damage|p2a: Glimmora|55/100
 |
@@ -47,7 +47,7 @@
 |
 |switch|p2a: Glimmora|Glimmora, M|55/100
 |move|p1a: Heatran|Stealth Rock|p2a: Glimmora
-|-sidestart|p2: mangolol|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Heatran|71/100|[from] item: Leftovers
 |turn|5
@@ -61,7 +61,7 @@
 |move|p2a: Glimmora|Mortal Spin|p1a: Zapdos
 |-damage|p1a: Zapdos|96/100
 |-status|p1a: Zapdos|psn
-|-sideend|p2: mangolol|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|-sideend|p2: p2|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
 |move|p1a: Zapdos|Volt Switch|p2a: Glimmora
 |-damage|p2a: Glimmora|7/100
 |
@@ -99,12 +99,12 @@
 |-resisted|p2a: Glimmora
 |-damage|p2a: Glimmora|0 fnt
 |-activate|p2a: Glimmora|ability: Toxic Debris
-|-sidestart|p1: length times width|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |faint|p2a: Glimmora
 |
 |switch|p1a: Sneasler|Sneasler, F|100/100|[from] U-turn
 |-damage|p1a: Sneasler|95/100|[from] Stealth Rock
-|-sideend|p1: length times width|move: Toxic Spikes|[of] p1a: Sneasler
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Sneasler
 |
 |
 |switch|p2a: Iron Valiant|Iron Valiant|100/100
@@ -136,7 +136,7 @@
 |-end|p2a: Iron Valiant|Quark Drive|[silent]
 |switch|p2a: Samurott|Samurott-Hisui, M|100/100
 |move|p1a: Heatran|Stealth Rock|p2a: Samurott
-|-sidestart|p2: mangolol|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Heatran|60/100|[from] item: Leftovers
 |turn|15
@@ -144,7 +144,7 @@
 |switch|p1a: Zapdos|Zapdos|15/100 psn
 |move|p2a: Samurott|Ceaseless Edge|p1a: Zapdos
 |-damage|p1a: Zapdos|0 fnt
-|-sidestart|p1: length times width|Spikes
+|-sidestart|p1: p1|Spikes
 |-status|p2a: Samurott|par|[from] ability: Static|[of] p1a: Zapdos
 |faint|p1a: Zapdos
 |
@@ -239,6 +239,6 @@
 |switch|p2a: Sneasler|Sneasler, M|100/100
 |-damage|p2a: Sneasler|95/100|[from] Stealth Rock
 |turn|23
-|-message|length times width forfeited.
+|-message|p1 forfeited.
 |
-|win|mangolol
+|win|p2

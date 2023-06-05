@@ -20,7 +20,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Houndstone
 |-supereffective|p1a: Houndstone
 |-damage|p1a: Houndstone|60/100
-|-sidestart|p1: testertester123|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurott|91/100|[from] item: Life Orb
 |move|p1a: Houndstone|Body Press|p2a: Samurott
 |-supereffective|p2a: Samurott
@@ -65,7 +65,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
 |-resisted|p1a: Great Tusk
 |-damage|p1a: Great Tusk|75/100
-|-sidestart|p1: testertester123|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurott|7/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
 |-damage|p2a: Samurott|0 fnt|[from] item: Life Orb
 |faint|p2a: Samurott
@@ -78,7 +78,7 @@
 |-resisted|p2a: Magearna
 |-damage|p2a: Magearna|94/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: testertester123|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Magearna|Shift Gear|p2a: Magearna
 |-boost|p2a: Magearna|spe|2
 |-boost|p2a: Magearna|atk|1
@@ -109,14 +109,14 @@
 |-item|p1a: Ting-Lu|Choice Scarf|[from] move: Trick
 |-item|p2a: Gholdengo|Leftovers|[from] move: Trick
 |move|p1a: Ting-Lu|Spikes|p2a: Gholdengo
-|-sidestart|p2: Ddrakos|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|10
 |
 |switch|p2a: Great Tusk|Great Tusk|100/100
 |-damage|p2a: Great Tusk|88/100|[from] Spikes
 |move|p1a: Ting-Lu|Spikes|p2a: Great Tusk
-|-sidestart|p2: Ddrakos|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Great Tusk|94/100|[from] item: Leftovers
 |turn|11
@@ -183,9 +183,9 @@
 |-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
 |turn|18
 |player|p2|
-|-message|Ddrakos lost due to inactivity.
+|-message|p2 lost due to inactivity.
 |
-|win|testertester123
-|player|p2|Ddrakos|giovanni
+|win|p1
+|player|p2|p2|giovanni
 |player|p2|
-|player|p2|Ddrakos|giovanni
+|player|p2|p2|giovanni

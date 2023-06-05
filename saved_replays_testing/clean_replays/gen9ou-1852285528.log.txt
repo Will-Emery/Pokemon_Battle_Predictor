@@ -1,0 +1,1089 @@
+|poke|p1|Ting-Lu|
+|poke|p1|Amoonguss, F|
+|poke|p1|Iron Moth|
+|poke|p1|Baxcalibur, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p2|Cyclizar, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Dondozo, F|
+|poke|p2|Blissey, F|
+|teampreview
+|
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|move|p2a: Cyclizar|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|95/100
+|-enditem|p1a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p2a: Cyclizar
+|move|p1a: Ting-Lu|Ruination|p2a: Cyclizar
+|-damage|p2a: Cyclizar|51/100
+|
+|turn|2
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Hatterene|[miss]
+|-miss|p1a: Ting-Lu|p2a: Hatterene
+|
+|turn|3
+|player|p2|
+|player|p2|p2|volo
+|
+|move|p2a: Hatterene|Nuzzle|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|move|p1a: Ting-Lu|Whirlwind|p2a: Hatterene
+|move|p2a: Hatterene|Whirlwind|p1a: Ting-Lu|[from]ability: Magic Bounce
+|drag|p1a: Iron Moth|Iron Moth|100/100
+|
+|turn|4
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Iron Moth|Overheat|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|-unboost|p1a: Iron Moth|spa|2
+|
+|turn|5
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: Great Tusk
+|-damage|p1a: Great Tusk|77/100
+|
+|-heal|p1a: Great Tusk|84/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|77/100
+|
+|-heal|p1a: Great Tusk|90/100|[from] item: Leftovers
+|-heal|p2a: Alomomola|84/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Alomomola|Whirlpool|p1a: Amoonguss|[miss]
+|-miss|p2a: Alomomola|p1a: Amoonguss
+|
+|-heal|p2a: Alomomola|90/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Amoonguss|Spore|p2a: Clodsire
+|-status|p2a: Clodsire|slp|[from] move: Spore
+|
+|turn|9
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Blissey|Blissey, F|70/100
+|
+|turn|10
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|90/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: Great Tusk|96/100|[from] item: Leftovers
+|turn|11
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|
+|turn|12
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Iron Moth|Sludge Wave|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|turn|13
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|switch|p2a: Clodsire|Clodsire, F|100/100 slp
+|
+|turn|14
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Alomomola
+|-damage|p2a: Alomomola|44/100
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|
+|-heal|p2a: Alomomola|50/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|56/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Iron Moth|Sludge Wave|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|63/100|[from] item: Leftovers
+|turn|17
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|switch|p2a: Clodsire|Clodsire, F|100/100 slp
+|
+|turn|18
+|
+|move|p1a: Iron Valiant|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|65/100 slp
+|-enditem|p2a: Clodsire|Leftovers|[from] move: Knock Off|[of] p1a: Iron Valiant
+|cant|p2a: Clodsire|slp
+|
+|turn|19
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-curestatus|p2a: Clodsire|slp|[msg]
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|turn|20
+|
+|move|p1a: Amoonguss|Spore|p2a: Clodsire
+|-status|p2a: Clodsire|slp|[from] move: Spore
+|cant|p2a: Clodsire|slp
+|
+|turn|21
+|
+|move|p1a: Amoonguss|Grass Knot|p2a: Clodsire
+|-damage|p2a: Clodsire|81/100 slp
+|-curestatus|p2a: Clodsire|slp|[msg]
+|move|p2a: Clodsire|Toxic|p1a: Amoonguss
+|-immune|p1a: Amoonguss
+|
+|turn|22
+|
+|move|p1a: Amoonguss|Spore|p2a: Clodsire
+|-status|p2a: Clodsire|slp|[from] move: Spore
+|cant|p2a: Clodsire|slp
+|
+|turn|23
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|cant|p2a: Clodsire|slp
+|
+|turn|24
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Iron Moth|Psychic|p2a: Blissey
+|-damage|p2a: Blissey|88/100
+|
+|turn|25
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|96/100
+|switch|p2a: Cyclizar|Cyclizar, F|84/100
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p2a: Alomomola|Alomomola, M|96/100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|95/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|
+|turn|28
+|
+|switch|p2a: Blissey|Blissey, F|88/100
+|move|p1a: Iron Moth|Overheat|p2a: Blissey
+|-damage|p2a: Blissey|59/100
+|-unboost|p1a: Iron Moth|spa|2
+|
+|turn|29
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|turn|30
+|
+|switch|p2a: Clodsire|Clodsire, F|81/100 slp
+|move|p1a: Iron Valiant|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|54/100 slp
+|
+|turn|31
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|cant|p2a: Clodsire|slp
+|
+|turn|32
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|
+|turn|33
+|
+|switch|p2a: Clodsire|Clodsire, F|54/100 slp
+|move|p1a: Iron Valiant|Moonblast|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|44/100 slp
+|
+|turn|34
+|
+|-terastallize|p1a: Iron Valiant|Fighting
+|move|p1a: Iron Valiant|Close Combat|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Clodsire
+|
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|35
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-terastallize|p2a: Alomomola|Ghost
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|turn|36
+|
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Cyclizar
+|-damage|p2a: Cyclizar|75/100
+|
+|-heal|p2a: Cyclizar|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|37
+|
+|switch|p1a: Ting-Lu|Ting-Lu|95/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Cyclizar|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|92/100
+|
+|turn|38
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Hatterene
+|-damage|p2a: Hatterene|50/100
+|
+|-heal|p2a: Hatterene|56/100|[from] item: Leftovers
+|turn|39
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|72/100
+|-heal|p2a: Hatterene|80/100|[from] drain|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Whirlwind|p2a: Hatterene
+|move|p2a: Hatterene|Whirlwind|p1a: Ting-Lu|[from]ability: Magic Bounce
+|drag|p1a: Iron Valiant|Iron Valiant, tera:Fighting|100/100
+|
+|-heal|p2a: Hatterene|86/100|[from] item: Leftovers
+|turn|40
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|90/100
+|-heal|p2a: Hatterene|96/100|[from] drain|[of] p1a: Amoonguss
+|
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|turn|41
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|
+|turn|42
+|
+|move|p2a: Blissey|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Spore
+|
+|turn|43
+|
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Cyclizar
+|-damage|p2a: Cyclizar|75/100
+|-status|p2a: Cyclizar|psn
+|
+|-damage|p2a: Cyclizar|63/100 psn|[from] psn
+|turn|44
+|
+|switch|p1a: Ting-Lu|Ting-Lu|72/100
+|-damage|p1a: Ting-Lu|66/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Cyclizar|Overheat|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|52/100
+|-unboost|p2a: Cyclizar|spa|2
+|
+|-damage|p2a: Cyclizar|51/100 psn|[from] psn
+|turn|45
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Hatterene
+|-damage|p2a: Hatterene|50/100
+|
+|-heal|p2a: Hatterene|56/100|[from] item: Leftovers
+|turn|46
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|32/100
+|-heal|p2a: Hatterene|81/100|[from] drain|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Whirlwind|p2a: Hatterene
+|move|p2a: Hatterene|Whirlwind|p1a: Ting-Lu|[from]ability: Magic Bounce
+|drag|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Hatterene|87/100|[from] item: Leftovers
+|turn|47
+|
+|switch|p2a: Blissey|Blissey, F|92/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Blissey
+|-damage|p2a: Blissey|75/100
+|
+|turn|48
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|97/100|[from] Stealth Rock
+|move|p2a: Blissey|Seismic Toss|p1a: Great Tusk
+|-damage|p1a: Great Tusk|74/100
+|
+|-heal|p1a: Great Tusk|81/100|[from] item: Leftovers
+|turn|49
+|
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Alomomola
+|-immune|p2a: Alomomola
+|
+|-heal|p1a: Great Tusk|87/100|[from] item: Leftovers
+|turn|50
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|move|p2a: Alomomola|Whirlpool|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|85/100
+|-activate|p1a: Amoonguss|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Amoonguss|73/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|51
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Amoonguss|Spore|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-damage|p1a: Amoonguss|61/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|52
+|
+|switch|p2a: Cyclizar|Cyclizar, F|84/100 psn
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Cyclizar
+|-damage|p2a: Cyclizar|60/100 psn
+|
+|-damage|p2a: Cyclizar|47/100 psn|[from] psn
+|-end|p1a: Amoonguss|Whirlpool|[partiallytrapped]|[silent]
+|turn|53
+|
+|switch|p1a: Ting-Lu|Ting-Lu|32/100
+|-damage|p1a: Ting-Lu|26/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Cyclizar|Overheat|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|12/100
+|-unboost|p2a: Cyclizar|spa|2
+|
+|-damage|p2a: Cyclizar|35/100 psn|[from] psn
+|turn|54
+|
+|switch|p2a: Hatterene|Hatterene, F|87/100
+|move|p1a: Ting-Lu|Ruination|p2a: Hatterene
+|-damage|p2a: Hatterene|44/100
+|
+|-heal|p2a: Hatterene|50/100|[from] item: Leftovers
+|turn|55
+|
+|move|p1a: Ting-Lu|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|18/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-heal|p2a: Hatterene|32/100|[from] drain|[of] p1a: Ting-Lu
+|faint|p1a: Ting-Lu
+|
+|-heal|p2a: Hatterene|38/100|[from] item: Leftovers
+|
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|-damage|p1a: Baxcalibur|76/100|[from] Stealth Rock
+|turn|56
+|
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|100/100
+|move|p1a: Baxcalibur|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|72/100
+|
+|-heal|p2a: Alomomola|78/100|[from] item: Leftovers
+|turn|57
+|
+|switch|p1a: Iron Moth|Iron Moth|76/100
+|-damage|p1a: Iron Moth|51/100|[from] Stealth Rock
+|move|p2a: Alomomola|Whirlpool|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|39/100
+|-activate|p1a: Iron Moth|move: Whirlpool|[of] p2a: Alomomola
+|
+|-heal|p2a: Alomomola|85/100|[from] item: Leftovers
+|-damage|p1a: Iron Moth|26/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|58
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Iron Moth|Sludge Wave|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|91/100|[from] item: Leftovers
+|-damage|p1a: Iron Moth|14/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|59
+|
+|switch|p2a: Blissey|Blissey, F|75/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Blissey
+|-damage|p2a: Blissey|54/100
+|
+|-end|p1a: Iron Moth|Whirlpool|[partiallytrapped]|[silent]
+|turn|60
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|94/100
+|-damage|p1a: Amoonguss|81/100|[from] Stealth Rock
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|turn|61
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Amoonguss
+|-damage|p1a: Amoonguss|58/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Blissey
+|-damage|p2a: Blissey|92/100
+|
+|turn|62
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Amoonguss
+|-damage|p1a: Amoonguss|35/100
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Spore
+|
+|turn|63
+|
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Cyclizar|Cyclizar, F|68/100 psn
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Fighting|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|
+|-damage|p2a: Cyclizar|56/100 psn|[from] psn
+|turn|64
+|
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|100/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|67/100
+|-enditem|p2a: Alomomola|Leftovers|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|turn|65
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Alomomola
+|-damage|p2a: Alomomola|24/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|turn|66
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|74/100|[from] move: Wish|[wisher] Alomomola
+|turn|67
+|
+|move|p1a: Iron Valiant|Encore|p2a: Alomomola
+|-start|p2a: Alomomola|Encore
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|turn|68
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Iron Valiant|Knock Off|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|turn|69
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Iron Valiant|Knock Off|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-end|p2a: Alomomola|Encore
+|turn|70
+|
+|switch|p2a: Hatterene|Hatterene, F|38/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|10/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|turn|71
+|
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|100/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|74/100
+|
+|turn|72
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Alomomola
+|-damage|p2a: Alomomola|32/100
+|-unboost|p2a: Alomomola|spa|1
+|move|p2a: Alomomola|Whirlpool|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|87/100
+|-activate|p1a: Iron Valiant|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Iron Valiant|74/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|73
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-damage|p1a: Iron Valiant|62/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|74
+|
+|switch|p2a: Cyclizar|Cyclizar, F|89/100 psn
+|move|p1a: Iron Valiant|Knock Off|p2a: Cyclizar
+|-damage|p2a: Cyclizar|35/100 psn
+|-enditem|p2a: Cyclizar|Assault Vest|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|-damage|p2a: Cyclizar|23/100 psn|[from] psn
+|-end|p1a: Iron Valiant|Whirlpool|[partiallytrapped]|[silent]
+|turn|75
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Iron Moth|Iron Moth|14/100
+|-damage|p1a: Iron Moth|0 fnt|[from] Stealth Rock
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|65/100
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Fighting|62/100
+|-damage|p1a: Iron Valiant|56/100|[from] Stealth Rock
+|turn|76
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Alomomola
+|-damage|p2a: Alomomola|17/100
+|-unboost|p2a: Alomomola|spa|1
+|move|p2a: Alomomola|Whirlpool|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|47/100
+|-activate|p1a: Iron Valiant|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Iron Valiant|35/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|77
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-damage|p1a: Iron Valiant|22/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|78
+|
+|switch|p2a: Cyclizar|Cyclizar, F|56/100 psn
+|move|p1a: Iron Valiant|Moonblast|p2a: Cyclizar
+|-supereffective|p2a: Cyclizar
+|-damage|p2a: Cyclizar|0 fnt
+|faint|p2a: Cyclizar
+|
+|-end|p1a: Iron Valiant|Whirlpool|[partiallytrapped]|[silent]
+|
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|turn|79
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|68/100
+|-damage|p1a: Amoonguss|55/100|[from] Stealth Rock
+|move|p2a: Dondozo|Liquidation|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|43/100
+|
+|turn|80
+|
+|switch|p2a: Blissey|Blissey, F|92/100
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Spore
+|
+|turn|81
+|
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|50/100
+|switch|p1a: Great Tusk|Great Tusk|87/100
+|-damage|p1a: Great Tusk|84/100|[from] Stealth Rock
+|
+|-heal|p1a: Great Tusk|90/100|[from] item: Leftovers
+|turn|82
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|77/100
+|-damage|p1a: Amoonguss|64/100|[from] Stealth Rock
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|turn|83
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|99/100|[from] move: Wish|[wisher] Alomomola
+|turn|84
+|
+|switch|p2a: Blissey|Blissey, F|92/100
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Spore
+|
+|turn|85
+|
+|cant|p2a: Blissey|slp
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-fail|p2a: Blissey|slp
+|
+|turn|86
+|
+|cant|p2a: Blissey|slp
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-fail|p2a: Blissey|slp
+|
+|turn|87
+|
+|-curestatus|p2a: Blissey|slp|[msg]
+|move|p2a: Blissey|Seismic Toss|p1a: Amoonguss
+|-damage|p1a: Amoonguss|41/100
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Spore
+|
+|turn|88
+|
+|switch|p1a: Great Tusk|Great Tusk|90/100
+|-damage|p1a: Great Tusk|87/100|[from] Stealth Rock
+|cant|p2a: Blissey|slp
+|
+|-heal|p1a: Great Tusk|93/100|[from] item: Leftovers
+|turn|89
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|74/100
+|-damage|p1a: Amoonguss|62/100|[from] Stealth Rock
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|100/100
+|
+|turn|90
+|
+|switch|p2a: Blissey|Blissey, F|92/100
+|move|p1a: Amoonguss|Spore|p2a: Blissey
+|-status|p2a: Blissey|slp|[from] move: Spore
+|
+|turn|91
+|
+|switch|p1a: Great Tusk|Great Tusk|93/100
+|-damage|p1a: Great Tusk|90/100|[from] Stealth Rock
+|cant|p2a: Blissey|slp
+|
+|-heal|p1a: Great Tusk|97/100|[from] item: Leftovers
+|turn|92
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|95/100
+|-damage|p1a: Amoonguss|83/100|[from] Stealth Rock
+|-curestatus|p2a: Blissey|slp|[from] ability: Natural Cure
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|100/100
+|
+|turn|93
+|
+|switch|p2a: Blissey|Blissey, F|92/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Blissey
+|-damage|p2a: Blissey|84/100
+|-status|p2a: Blissey|psn
+|
+|-damage|p2a: Blissey|72/100 psn|[from] psn
+|turn|94
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Amoonguss
+|-damage|p1a: Amoonguss|59/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Blissey
+|-damage|p2a: Blissey|64/100 psn
+|
+|-damage|p2a: Blissey|52/100 psn|[from] psn
+|turn|95
+|
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 psn
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Blissey
+|-damage|p2a: Blissey|92/100 psn
+|
+|-damage|p2a: Blissey|80/100 psn|[from] psn
+|turn|96
+|
+|switch|p1a: Great Tusk|Great Tusk|97/100
+|-damage|p1a: Great Tusk|94/100|[from] Stealth Rock
+|move|p2a: Blissey|Seismic Toss|p1a: Great Tusk
+|-damage|p1a: Great Tusk|70/100
+|
+|-heal|p1a: Great Tusk|77/100|[from] item: Leftovers
+|-damage|p2a: Blissey|67/100 psn|[from] psn
+|turn|97
+|
+|-curestatus|p2a: Blissey|psn|[from] ability: Natural Cure
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|76/100
+|
+|-heal|p1a: Great Tusk|83/100|[from] item: Leftovers
+|turn|98
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|93/100
+|-damage|p1a: Amoonguss|80/100|[from] Stealth Rock
+|move|p2a: Alomomola|Whirlpool|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|77/100
+|-activate|p1a: Amoonguss|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Amoonguss|65/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|99
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Amoonguss|Grass Knot|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-damage|p1a: Amoonguss|52/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|100
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Amoonguss|Grass Knot|p2a: Alomomola
+|-damage|p2a: Alomomola|53/100
+|
+|-damage|p1a: Amoonguss|40/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|101
+|
+|move|p2a: Alomomola|Chilling Water|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|36/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|36/100
+|-status|p2a: Alomomola|psn
+|
+|-heal|p2a: Alomomola|86/100 psn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Alomomola|74/100 psn|[from] psn
+|-damage|p1a: Amoonguss|24/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|102
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|56/100 psn
+|
+|-damage|p2a: Alomomola|44/100 psn|[from] psn
+|-end|p1a: Amoonguss|Whirlpool|[partiallytrapped]
+|turn|103
+|
+|switch|p1a: Great Tusk|Great Tusk|83/100
+|-damage|p1a: Great Tusk|80/100|[from] Stealth Rock
+|move|p2a: Alomomola|Whirlpool|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|63/100
+|-activate|p1a: Great Tusk|move: Whirlpool|[of] p2a: Alomomola
+|
+|-heal|p2a: Alomomola|94/100 psn|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Great Tusk|69/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|81/100 psn|[from] psn
+|-damage|p1a: Great Tusk|57/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|104
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|59/100 psn
+|move|p2a: Alomomola|Chilling Water|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|35/100
+|-unboost|p1a: Great Tusk|atk|1
+|
+|-heal|p1a: Great Tusk|42/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|46/100 psn|[from] psn
+|-damage|p1a: Great Tusk|29/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|105
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|31/100 psn
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Great Tusk|35/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|18/100 psn|[from] psn
+|-damage|p1a: Great Tusk|23/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|106
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|-heal|p2a: Alomomola|68/100 psn|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Great Tusk|29/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|56/100 psn|[from] psn
+|-damage|p1a: Great Tusk|17/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|107
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|32/100 psn
+|move|p2a: Alomomola|Chilling Water|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Alomomola|20/100 psn|[from] psn
+|
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Fighting|22/100
+|-damage|p1a: Iron Valiant|16/100|[from] Stealth Rock
+|turn|108
+|
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Dondozo
+|-damage|p2a: Dondozo|65/100
+|
+|-heal|p2a: Dondozo|71/100|[from] item: Leftovers
+|turn|109
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|57/100
+|-damage|p1a: Amoonguss|45/100|[from] Stealth Rock
+|move|p2a: Dondozo|Liquidation|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|32/100
+|
+|-heal|p2a: Dondozo|77/100|[from] item: Leftovers
+|turn|110
+|
+|switch|p2a: Blissey|Blissey, F|67/100
+|switch|p1a: Baxcalibur|Baxcalibur, M|76/100
+|-damage|p1a: Baxcalibur|51/100|[from] Stealth Rock
+|
+|turn|111
+|
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|53/100 psn
+|move|p1a: Baxcalibur|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|22/100 psn
+|
+|-damage|p2a: Alomomola|10/100 psn|[from] psn
+|turn|112
+|
+|switch|p2a: Dondozo|Dondozo, F|77/100
+|move|p1a: Baxcalibur|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|52/100
+|
+|-heal|p2a: Dondozo|58/100|[from] item: Leftovers
+|turn|113
+|
+|move|p1a: Baxcalibur|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|33/100
+|move|p2a: Dondozo|Body Press|p1a: Baxcalibur
+|-supereffective|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|-heal|p2a: Dondozo|39/100|[from] item: Leftovers
+|
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Fighting|16/100
+|-damage|p1a: Iron Valiant|10/100|[from] Stealth Rock
+|turn|114
+|
+|switch|p2a: Hatterene|Hatterene, F|10/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|43/100 psn
+|turn|115
+|
+|switch|p2a: Dondozo|Dondozo, F|39/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Dondozo
+|-damage|p2a: Dondozo|4/100
+|
+|-heal|p2a: Dondozo|10/100|[from] item: Leftovers
+|turn|116
+|
+|move|p1a: Iron Valiant|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|-enditem|p2a: Dondozo|Leftovers|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2a: Dondozo
+|
+|
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|76/100 psn
+|turn|117
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|66/100
+|-damage|p1a: Amoonguss|53/100|[from] Stealth Rock
+|move|p2a: Alomomola|Chilling Water|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|50/100
+|
+|-damage|p2a: Alomomola|64/100 psn|[from] psn
+|turn|118
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|47/100 psn
+|
+|-damage|p2a: Alomomola|34/100 psn|[from] psn
+|turn|119
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Amoonguss|Grass Knot|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|84/100 psn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Alomomola|72/100 psn|[from] psn
+|turn|120
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Amoonguss|Grass Knot|p2a: Alomomola
+|-damage|p2a: Alomomola|49/100 psn
+|
+|-damage|p2a: Alomomola|37/100 psn|[from] psn
+|turn|121
+|
+|move|p2a: Alomomola|Whirlpool|p1a: Amoonguss|[miss]
+|-miss|p2a: Alomomola|p1a: Amoonguss
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|18/100 psn
+|
+|-heal|p2a: Alomomola|68/100 psn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Alomomola|56/100 psn|[from] psn
+|turn|122
+|
+|switch|p2a: Blissey|Blissey, F|67/100
+|move|p1a: Amoonguss|Grass Knot|p2a: Blissey
+|-damage|p2a: Blissey|62/100
+|
+|turn|123
+|
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|89/100 psn
+|move|p1a: Amoonguss|Spore||[still]
+|-fail|p1a: Amoonguss
+|
+|-damage|p2a: Alomomola|77/100 psn|[from] psn
+|turn|124
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Amoonguss|Grass Knot|p2a: Alomomola
+|-damage|p2a: Alomomola|54/100 psn
+|
+|-damage|p2a: Alomomola|42/100 psn|[from] psn
+|turn|125
+|
+|move|p2a: Alomomola|Whirlpool|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|47/100
+|-activate|p1a: Amoonguss|move: Whirlpool|[of] p2a: Alomomola
+|move|p1a: Amoonguss|Grass Knot|p2a: Alomomola
+|-damage|p2a: Alomomola|20/100 psn
+|
+|-heal|p2a: Alomomola|70/100 psn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Alomomola|58/100 psn|[from] psn
+|-damage|p1a: Amoonguss|34/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|126
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Amoonguss|Grass Knot|p2a: Alomomola
+|-damage|p2a: Alomomola|34/100 psn
+|
+|-damage|p2a: Alomomola|22/100 psn|[from] psn
+|-damage|p1a: Amoonguss|22/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|127
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Amoonguss|Grass Knot|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|72/100 psn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Alomomola|60/100 psn|[from] psn
+|-damage|p1a: Amoonguss|9/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|128
+|
+|switch|p2a: Blissey|Blissey, F|62/100
+|move|p1a: Amoonguss|Grass Knot|p2a: Blissey
+|-damage|p2a: Blissey|56/100
+|
+|-end|p1a: Amoonguss|Whirlpool|[partiallytrapped]|[silent]
+|turn|129
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Fighting|10/100
+|-damage|p1a: Iron Valiant|4/100|[from] Stealth Rock
+|turn|130
+|
+|move|p1a: Iron Valiant|Close Combat|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Blissey
+|
+|
+|switch|p2a: Alomomola|Alomomola, M, tera:Ghost|93/100 psn
+|turn|131
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Alomomola
+|-damage|p2a: Alomomola|48/100 psn
+|move|p2a: Alomomola|Chilling Water|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|

@@ -24,7 +24,7 @@
 |-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
 |-start|p1a: Great Tusk|protosynthesisatk
 |move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
-|-sidestart|p1: eelektrik funeral|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|2
 |
@@ -34,7 +34,7 @@
 |-resisted|p2a: Iron Treads
 |-damage|p2a: Iron Treads|90/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: eelektrik funeral|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |turn|3
 |
@@ -56,12 +56,12 @@
 |-unboost|p1a: Great Tusk|def|1
 |-unboost|p1a: Great Tusk|spd|1
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: BoldBaldBoomer|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|5
 |
 |move|p1a: Great Tusk|Stealth Rock|p2a: Dragapult
-|-sidestart|p2: BoldBaldBoomer|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Dragapult|Shadow Ball|p1a: Great Tusk
 |-damage|p1a: Great Tusk|0 fnt
 |faint|p1a: Great Tusk
@@ -91,7 +91,7 @@
 |turn|8
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: BoldBaldBoomer|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Iron Moth|U-turn|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|0 fnt
@@ -127,7 +127,7 @@
 |-supereffective|p2a: Gyarados
 |-damage|p2a: Gyarados|3/100
 |
-|-sideend|p2: BoldBaldBoomer|Reflect
+|-sideend|p2: p2|Reflect
 |turn|12
 |
 |move|p2a: Gyarados|Waterfall|p1a: Wyrdeer
@@ -168,7 +168,7 @@
 |
 |switch|p2a: Dragonite|Dragonite, M|100/100|[from] U-turn
 |
-|-sideend|p2: BoldBaldBoomer|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|16
 |
 |move|p1a: Iron Moth|Sludge Wave|p2a: Dragonite
@@ -240,4 +240,4 @@
 |-damage|p1a: Polteageist|0 fnt
 |faint|p1a: Polteageist
 |
-|win|BoldBaldBoomer
+|win|p2

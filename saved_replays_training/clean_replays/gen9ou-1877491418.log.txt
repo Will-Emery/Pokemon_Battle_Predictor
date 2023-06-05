@@ -73,7 +73,7 @@
 |turn|6
 |
 |move|p1a: Landorus|Stealth Rock|p2a: Orthworm
-|-sidestart|p2: Kalen80|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Orthworm|Coil|p2a: Orthworm
 |-boost|p2a: Orthworm|atk|1
 |-boost|p2a: Orthworm|def|1
@@ -121,14 +121,14 @@
 |turn|11
 |
 |move|p2a: Clodsire|Toxic Spikes|p1a: Goodra
-|-sidestart|p1: julitodo|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |move|p1a: Goodra|Dragon Tail|p2a: Clodsire|[miss]
 |-miss|p1a: Goodra|p2a: Clodsire
 |
 |turn|12
 |
 |move|p2a: Clodsire|Toxic Spikes|p1a: Goodra
-|-sidestart|p1: julitodo|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |move|p1a: Goodra|Dragon Tail|p2a: Clodsire
 |-damage|p2a: Clodsire|75/100
 |-enditem|p2a: Clodsire|Air Balloon
@@ -169,8 +169,8 @@
 |
 |move|p1a: Corviknight|Defog|p2a: Slowking
 |-unboost|p2a: Slowking|evasion|1
-|-sideend|p2: Kalen80|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
-|-sideend|p1: julitodo|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
 |move|p2a: Slowking|Trick Room|p2a: Slowking
 |-fieldstart|move: Trick Room|[of] p2a: Slowking
 |
@@ -206,6 +206,6 @@
 |faint|p1a: Braviary
 |
 |-weather|Snow|[upkeep]
-|-message|julitodo forfeited.
+|-message|p1 forfeited.
 |
-|win|Kalen80
+|win|p2

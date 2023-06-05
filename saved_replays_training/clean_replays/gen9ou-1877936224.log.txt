@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p1a: Lilleplutt|Stealth Rock|p2a: Skeledirge
-|-sidestart|p2: Bruc3wi11y|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Skeledirge|Substitute|p2a: Skeledirge
 |-start|p2a: Skeledirge|Substitute
 |-damage|p2a: Skeledirge|75/100
@@ -89,7 +89,7 @@
 |switch|p1a: Vättlösa|Corviknight, F, shiny|100/100
 |-ability|p1a: Vättlösa|Pressure
 |move|p2a: Ting-Lu|Stealth Rock|p1a: Vättlösa
-|-sidestart|p1: Reece637|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Ting-Lu|100/100|[from] item: Leftovers
 |turn|9
@@ -114,7 +114,7 @@
 |-item|p2a: Ting-Lu|Choice Scarf|[from] move: Trick
 |-item|p1a: Tvättad|Leftovers|[from] move: Trick
 |move|p2a: Ting-Lu|Spikes|p1a: Tvättad
-|-sidestart|p1: Reece637|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Tvättad|63/100|[from] item: Leftovers
 |turn|11
@@ -123,7 +123,7 @@
 |-damage|p1a: Vättlösa|88/100|[from] Stealth Rock
 |-ability|p1a: Vättlösa|Pressure
 |move|p2a: Ting-Lu|Spikes|p1a: Vättlösa
-|-sidestart|p1: Reece637|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p1a: Vättlösa|94/100|[from] item: Leftovers
 |turn|12
@@ -162,9 +162,9 @@
 |-hitcount|p1a: Vättlösa|4
 |move|p1a: Vättlösa|Defog|p2a: Baxcalibur
 |-unboost|p2a: Baxcalibur|evasion|1
-|-sideend|p2: Bruc3wi11y|Stealth Rock|[from] move: Defog|[of] p1a: Vättlösa
-|-sideend|p1: Reece637|Spikes|[from] move: Defog|[of] p1a: Vättlösa
-|-sideend|p1: Reece637|Stealth Rock|[from] move: Defog|[of] p1a: Vättlösa
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p1a: Vättlösa
+|-sideend|p1: p1|Spikes|[from] move: Defog|[of] p1a: Vättlösa
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Vättlösa
 |
 |-heal|p1a: Vättlösa|45/100|[from] item: Leftovers
 |turn|15
@@ -298,6 +298,6 @@
 |-damage|p1a: Tvättad|0 fnt
 |faint|p1a: Tvättad
 |
-|-message|Reece637 forfeited.
+|-message|p1 forfeited.
 |
-|win|Bruc3wi11y
+|win|p2

@@ -91,7 +91,7 @@
 |
 |switch|p1a: Blissey|Blissey, F|100/100|[from] U-turn
 |move|p2a: Torkoal|Stealth Rock|p1a: Blissey
-|-sidestart|p1: Vatn|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|9
@@ -100,7 +100,7 @@
 |-activate|p2a: Great Tusk|ability: Protosynthesis
 |-start|p2a: Great Tusk|protosynthesisdef
 |move|p1a: Blissey|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: Zoroark The Master|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|10
@@ -112,7 +112,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Great Tusk
 |-damage|p1a: Great Tusk|58/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: Zoroark The Master|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Great Tusk|64/100|[from] item: Leftovers
@@ -136,7 +136,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Walking Wake
 |-damage|p2a: Walking Wake|77/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: Vatn|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |-weather|SunnyDay|[upkeep]
 |turn|13
@@ -153,7 +153,7 @@
 |switch|p2a: Corviknight|Corviknight, F|64/100
 |-ability|p2a: Corviknight|Pressure
 |move|p1a: Blissey|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: Zoroark The Master|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|none
 |turn|15
@@ -186,7 +186,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Cresselia
 |-damage|p1a: Cresselia|94/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: Zoroark The Master|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-heal|p1a: Cresselia|99/100|[from] item: Leftovers
 |turn|18
@@ -274,9 +274,9 @@
 |turn|26
 |
 |move|p1a: Blissey|Stealth Rock|p2a: Torkoal
-|-sidestart|p2: Zoroark The Master|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Torkoal|Stealth Rock|p1a: Blissey
-|-sidestart|p1: Vatn|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|27
@@ -286,13 +286,13 @@
 |move|p2a: Torkoal|Rapid Spin|p1a: Blissey
 |-damage|p1a: Blissey|84/100
 |-boost|p2a: Torkoal|spe|1
-|-sideend|p2: Zoroark The Master|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
 |
 |-weather|SunnyDay|[upkeep]
 |turn|28
 |
 |move|p1a: Blissey|Stealth Rock|p2a: Torkoal
-|-sidestart|p2: Zoroark The Master|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Torkoal|Yawn|p1a: Blissey
 |-start|p1a: Blissey|move: Yawn|[of] p2a: Torkoal
 |
@@ -306,7 +306,7 @@
 |move|p2a: Torkoal|Rapid Spin|p1a: Great Tusk
 |-damage|p1a: Great Tusk|52/100
 |-boost|p2a: Torkoal|spe|1
-|-sideend|p2: Zoroark The Master|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
 |
 |-weather|SunnyDay|[upkeep]
 |turn|30
@@ -314,7 +314,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Torkoal
 |-damage|p2a: Torkoal|84/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: Vatn|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Torkoal|Lava Plume|p1a: Great Tusk
 |-damage|p1a: Great Tusk|5/100
 |
@@ -424,7 +424,7 @@
 |move|p1a: Blissey|Seismic Toss|p2a: Torkoal
 |-damage|p2a: Torkoal|51/100
 |move|p2a: Torkoal|Stealth Rock|p1a: Blissey
-|-sidestart|p1: Vatn|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|42
@@ -433,7 +433,7 @@
 |-activate|p2a: Great Tusk|ability: Protosynthesis
 |-start|p2a: Great Tusk|protosynthesisdef
 |move|p1a: Blissey|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: Zoroark The Master|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|43
@@ -443,7 +443,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Cresselia
 |-damage|p1a: Cresselia|53/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: Zoroark The Master|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-weather|SunnyDay|[upkeep]
 |turn|44
@@ -839,7 +839,7 @@
 |-end|p2a: Walking Wake|Protosynthesis|[silent]
 |switch|p2a: Great Tusk|Great Tusk, tera:Steel|100/100
 |move|p1a: Blissey|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: Zoroark The Master|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|85
 |
@@ -864,7 +864,7 @@
 |-resisted|p1a: Corviknight
 |-damage|p1a: Corviknight|69/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: Zoroark The Master|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |move|p1a: Corviknight|Brave Bird|p2a: Great Tusk
 |-resisted|p2a: Great Tusk
 |-damage|p2a: Great Tusk|92/100
@@ -897,7 +897,7 @@
 |-singleturn|p2a: Corviknight|move: Roost
 |move|p1a: Corviknight|Defog|p2a: Corviknight
 |-unboost|p2a: Corviknight|evasion|1
-|-sideend|p1: Vatn|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |
 |turn|91
 |
@@ -1122,7 +1122,7 @@
 |turn|115
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Dondozo
-|-sidestart|p1: Vatn|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |cant|p1a: Dondozo|slp
 |
 |turn|116
@@ -1185,11 +1185,11 @@
 |-singleturn|p1a: Corviknight|move: Roost
 |
 |turn|121
-|-message|Vatn forfeited.
+|-message|p1 forfeited.
 |
-|win|Zoroark The Master
-|n|☆Vatn|vatn
-|n|☆Zoroark The Master|zoroarkthemaster
+|win|p2
+|n|☆p1|vatn
+|n|☆p2|zoroarkthemaster
 |n| nonononosupermario|nonononosupermario
 |n| ChiefGreenLeaf3|chiefgreenleaf3
 |n| yomaalt|yomaalt

@@ -19,14 +19,14 @@
 |turn|1
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Deftab|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Heatran|Stealth Rock|p2a: Dragapult
-|-sidestart|p2: Deftab|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Deftab|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Heatran|Taunt|p2a: Dragapult
 |-start|p2a: Dragapult|move: Taunt
 |
@@ -66,7 +66,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Zapdos
 |-damage|p1a: Zapdos|61/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: Deftab|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |turn|7
 |
@@ -81,9 +81,9 @@
 |switch|p1a: Heatran|Heatran, M|100/100
 |-item|p1a: Heatran|Air Balloon
 |move|p2a: Clodsire|Stealth Rock|p1a: Heatran
-|-sidestart|p1: PSV2|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
-|-sideend|p2: Deftab|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|9
 |
 |switch|p2a: Volcanion|Volcanion|100/100
@@ -93,7 +93,7 @@
 |-activate|p2a: Volcanion|move: Magma Storm|[of] p1a: Heatran
 |
 |-damage|p2a: Volcanion|80/100|[from] move: Magma Storm|[partiallytrapped]
-|-sideend|p2: Deftab|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |move|p1a: Heatran|Earth Power|p2a: Volcanion
@@ -228,14 +228,14 @@
 |switch|p1a: Heatran|Heatran, M|13/100
 |-damage|p1a: Heatran|1/100|[from] Stealth Rock
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Deftab|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-end|p2a: Dragapult|move: Future Sight
 |-damage|p2a: Dragapult|45/100
 |turn|24
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Deftab|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Heatran|Magma Storm|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|29/100
@@ -311,6 +311,6 @@
 |switch|p1a: Great Tusk|Great Tusk|76/100
 |-damage|p1a: Great Tusk|73/100|[from] Stealth Rock
 |turn|30
-|-message|PSV2 forfeited.
+|-message|p1 forfeited.
 |
-|win|Deftab
+|win|p2

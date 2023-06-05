@@ -26,12 +26,12 @@
 |turn|2
 |
 |move|p1a: Glimmora|Stealth Rock|p2a: Tornadus
-|-sidestart|p2: spinningstarmieyt|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Tornadus|U-turn|p1a: Glimmora
 |-resisted|p1a: Glimmora
 |-damage|p1a: Glimmora|91/100
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: spinningstarmieyt|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
 |
@@ -47,7 +47,7 @@
 |turn|4
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: 99+posnpig|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Enamorus|Moonblast|p1a: Grimmsnarl
 |-supereffective|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|21/100
@@ -83,8 +83,8 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Sneasler
 |-damage|p1a: Sneasler|18/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: spinningstarmieyt|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
-|-sideend|p2: spinningstarmieyt|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-heal|p2a: Great Tusk|54/100 psn|[from] item: Leftovers
 |-damage|p2a: Great Tusk|41/100 psn|[from] psn
@@ -124,7 +124,7 @@
 |move|p2a: Zapdos|Heat Wave|p1a: Thundurus
 |-damage|p1a: Thundurus|81/100
 |
-|-sideend|p1: 99+posnpig|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|12
 |
 |move|p1a: Thundurus|Grass Knot|p2a: Zapdos
@@ -179,11 +179,11 @@
 |-resisted|p1a: Glimmora
 |-damage|p1a: Glimmora|72/100
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: spinningstarmieyt|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from] U-turn
 |move|p1a: Glimmora|Stealth Rock|p2a: Tornadus
-|-sidestart|p2: spinningstarmieyt|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|19
 |
@@ -221,7 +221,7 @@
 |-resisted|p1a: Glimmora
 |-damage|p1a: Glimmora|0 fnt
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: spinningstarmieyt|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Glimmora
 |
 |switch|p2a: Enamorus|Enamorus-Therian, F|56/100|[from] U-turn
@@ -232,7 +232,7 @@
 |turn|23
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: 99+posnpig|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Enamorus|Draining Kiss|p1a: Grimmsnarl
 |-supereffective|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|0 fnt
@@ -279,6 +279,6 @@
 |-damage|p2a: Dragapult|0 fnt
 |faint|p2a: Dragapult
 |
-|-message|spinningstarmieyt forfeited.
+|-message|p2 forfeited.
 |
-|win|99+posnpig
+|win|p1

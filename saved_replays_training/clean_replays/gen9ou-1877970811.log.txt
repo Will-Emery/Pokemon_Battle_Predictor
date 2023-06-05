@@ -156,7 +156,7 @@
 |
 |switch|p1a: Gholdengo|Gholdengo|96/100
 |move|p2a: Magear no|Stealth Rock|p1a: Gholdengo
-|-sidestart|p1: Pushko|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Magear no|100/100|[from] item: Leftovers
 |turn|18
@@ -189,7 +189,7 @@
 |turn|21
 |
 |move|p1a: Landorus|Stealth Rock|p2a: The
-|-sidestart|p2: Tasbot 4.20|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: The|U-turn|p1a: Landorus
 |-resisted|p1a: Landorus
 |-damage|p1a: Landorus|91/100
@@ -401,8 +401,8 @@
 |-damage|p1a: Meloetta|12/100|[from] item: Life Orb
 |move|p2a: The|Defog|p1a: Meloetta
 |-unboost|p1a: Meloetta|evasion|1
-|-sideend|p1: Pushko|Stealth Rock|[from] move: Defog|[of] p2a: The
-|-sideend|p2: Tasbot 4.20|Stealth Rock|[from] move: Defog|[of] p2a: The
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: The
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: The
 |
 |turn|45
 |
@@ -822,7 +822,7 @@
 |switch|p2a: The|Corviknight, F|72/100
 |-ability|p2a: The|Pressure
 |move|p1a: Landorus|Stealth Rock|p2a: The
-|-sidestart|p2: Tasbot 4.20|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Landorus|23/100|[from] item: Leftovers
 |turn|92
@@ -1041,6 +1041,6 @@
 |
 |-heal|p2a: Me after losing|76/100|[from] item: Leftovers
 |turn|116
-|-message|Pushko forfeited.
+|-message|p1 forfeited.
 |
-|win|Tasbot 4.20
+|win|p2

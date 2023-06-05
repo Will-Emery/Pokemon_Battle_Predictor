@@ -19,7 +19,7 @@
 |turn|1
 |
 |move|p2a: Hatterene|Light Screen|p2a: Hatterene
-|-sidestart|p2: TheResearcher100|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Oogway|Yawn|p2a: Hatterene
 |move|p2a: Hatterene|Yawn|p1a: Oogway|[from]ability: Magic Bounce
 |-start|p1a: Oogway|move: Yawn|[of] p2a: Hatterene
@@ -31,7 +31,7 @@
 |-activate|p1a: Velocipastor|ability: Protosynthesis
 |-start|p1a: Velocipastor|protosynthesisspe
 |move|p2a: Hatterene|Reflect|p2a: Hatterene
-|-sidestart|p2: TheResearcher100|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-weather|SunnyDay|[upkeep]
 |turn|3
@@ -84,7 +84,7 @@
 |-boost|p2a: Corviknight|def|2
 |
 |-weather|none
-|-sideend|p2: TheResearcher100|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|9
 |
 |switch|p2a: Landorus|Landorus-Therian, M|100/100
@@ -93,7 +93,7 @@
 |move|p1a: Anakin|Swords Dance|p1a: Anakin
 |-boost|p1a: Anakin|atk|2
 |
-|-sideend|p2: TheResearcher100|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |move|p2a: Landorus|Earthquake|p1a: Anakin
@@ -239,7 +239,7 @@
 |turn|22
 |
 |move|p2a: Hatterene|Light Screen|p2a: Hatterene
-|-sidestart|p2: TheResearcher100|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Beanbag|Recover|p1a: Beanbag
 |-heal|p1a: Beanbag|99/100
 |
@@ -247,7 +247,7 @@
 |turn|23
 |
 |move|p2a: Hatterene|Reflect|p2a: Hatterene
-|-sidestart|p2: TheResearcher100|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Beanbag|Earthquake|p2a: Hatterene
 |-damage|p2a: Hatterene|86/100
 |
@@ -298,10 +298,10 @@
 |-resisted|p1a: Beanbag
 |-damage|p1a: Beanbag|86/100
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Beanbag|92/100|[from] item: Black Sludge
-|-sideend|p2: TheResearcher100|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|30
 |
 |move|p2a: Corviknight|Body Press|p1a: Beanbag
@@ -311,7 +311,7 @@
 |-fail|p1a: Beanbag
 |
 |-heal|p1a: Beanbag|83/100|[from] item: Black Sludge
-|-sideend|p2: TheResearcher100|Reflect
+|-sideend|p2: p2|Reflect
 |turn|31
 |
 |move|p2a: Corviknight|Body Press|p1a: Beanbag
@@ -406,7 +406,7 @@
 |
 |move|p2a: Corviknight|Defog|p1a: Beanbag
 |-unboost|p1a: Beanbag|evasion|1
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Beanbag|Toxic|p2a: Corviknight
 |-immune|p2a: Corviknight
 |
@@ -415,7 +415,7 @@
 |move|p2a: Corviknight|Iron Defense|p2a: Corviknight
 |-boost|p2a: Corviknight|def|2
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|43
 |
@@ -448,7 +448,7 @@
 |-damage|p2a: Hatterene|74/100|[from] Stealth Rock
 |move|p1a: Beanbag|Stealth Rock|p2a: Hatterene
 |move|p2a: Hatterene|Stealth Rock|p1a: Beanbag|[from]ability: Magic Bounce
-|-sidestart|p1: Alpha Nicholas|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|47
 |
@@ -464,8 +464,8 @@
 |-damage|p1a: AAAAAAAAA|88/100|[from] Stealth Rock
 |move|p2a: Corviknight|Defog|p1a: AAAAAAAAA
 |-unboost|p1a: AAAAAAAAA|evasion|1
-|-sideend|p1: Alpha Nicholas|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |-heal|p2a: Corviknight|99/100|[from] item: Leftovers
 |turn|49
@@ -489,7 +489,7 @@
 |switch|p2a: Hatterene|Hatterene, F|74/100
 |move|p1a: Beanbag|Stealth Rock|p2a: Hatterene
 |move|p2a: Hatterene|Stealth Rock|p1a: Beanbag|[from]ability: Magic Bounce
-|-sidestart|p1: Alpha Nicholas|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|51
 |
@@ -502,14 +502,14 @@
 |turn|52
 |
 |move|p2a: Hatterene|Reflect|p2a: Hatterene
-|-sidestart|p2: TheResearcher100|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Beanbag|Earthquake|p2a: Hatterene
 |-damage|p2a: Hatterene|60/100
 |
 |turn|53
 |
 |move|p2a: Hatterene|Light Screen|p2a: Hatterene
-|-sidestart|p2: TheResearcher100|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Beanbag|Stealth Rock|p2a: Hatterene
 |move|p2a: Hatterene|Stealth Rock||[from]ability: Magic Bounce|[still]
 |-fail|p2a: Hatterene
@@ -562,20 +562,20 @@
 |move|p1a: Beanbag|Earthquake|p2a: Hatterene
 |-damage|p2a: Hatterene|56/100 slp
 |
-|-sideend|p2: TheResearcher100|Reflect
+|-sideend|p2: p2|Reflect
 |turn|60
 |
 |-curestatus|p2a: Hatterene|slp|[msg]
 |move|p2a: Hatterene|Reflect|p2a: Hatterene
-|-sidestart|p2: TheResearcher100|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Beanbag|Earthquake|p2a: Hatterene
 |-damage|p2a: Hatterene|39/100
 |
-|-sideend|p2: TheResearcher100|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|61
 |
 |move|p2a: Hatterene|Light Screen|p2a: Hatterene
-|-sidestart|p2: TheResearcher100|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Beanbag|Earthquake|p2a: Hatterene
 |-damage|p2a: Hatterene|23/100
 |
@@ -618,10 +618,10 @@
 |
 |switch|p2a: Corviknight|Corviknight, M|78/100
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Corviknight|84/100|[from] item: Leftovers
-|-sideend|p2: TheResearcher100|Reflect
+|-sideend|p2: p2|Reflect
 |turn|68
 |
 |switch|p2a: Hatterene|Hatterene, F|71/100 slp
@@ -629,7 +629,7 @@
 |move|p1a: Beanbag|Earthquake|p2a: Hatterene
 |-damage|p2a: Hatterene|26/100 slp
 |
-|-sideend|p2: TheResearcher100|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|69
 |
 |switch|p2a: Corviknight|Corviknight, M|84/100
@@ -670,10 +670,10 @@
 |
 |move|p2a: Corviknight|Defog|p1a: Beanbag
 |-unboost|p1a: Beanbag|evasion|1
-|-sideend|p1: Alpha Nicholas|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|74
 |
@@ -698,10 +698,10 @@
 |cant|p2a: Hatterene|slp
 |move|p2a: Hatterene|Sleep Talk|p2a: Hatterene
 |move|p2a: Hatterene|Light Screen|p2a: Hatterene|[from]move: Sleep Talk
-|-sidestart|p2: TheResearcher100|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Beanbag|Stealth Rock|p2a: Hatterene
 |move|p2a: Hatterene|Stealth Rock|p1a: Beanbag|[from]ability: Magic Bounce
-|-sidestart|p1: Alpha Nicholas|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|77
 |
@@ -740,51 +740,51 @@
 |
 |move|p2a: Corviknight|Defog|p1a: Beanbag
 |-unboost|p1a: Beanbag|evasion|1
-|-sideend|p1: Alpha Nicholas|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Corviknight|99/100|[from] item: Leftovers
 |turn|82
 |
 |move|p2a: Corviknight|Defog|p1a: Beanbag
 |-unboost|p1a: Beanbag|evasion|1
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Corviknight|100/100|[from] item: Leftovers
 |turn|83
 |
 |move|p2a: Corviknight|Defog|p1a: Beanbag
 |-unboost|p1a: Beanbag|evasion|1
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
-|-sideend|p2: TheResearcher100|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|84
 |
 |move|p2a: Corviknight|Defog|p1a: Beanbag
 |-unboost|p1a: Beanbag|evasion|1
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|85
 |
 |move|p2a: Corviknight|Defog|p1a: Beanbag
 |-unboost|p1a: Beanbag|evasion|1
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|86
 |
 |move|p2a: Corviknight|Defog|p1a: Beanbag
 |-unboost|p1a: Beanbag|evasion|0
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Beanbag|Toxic|p2a: Corviknight
 |-immune|p2a: Corviknight
 |
@@ -807,13 +807,13 @@
 |
 |switch|p2a: Corviknight|Corviknight, M|100/100
 |move|p1a: Beanbag|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: TheResearcher100|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|90
 |
 |move|p2a: Corviknight|Defog|p1a: Beanbag
 |-unboost|p1a: Beanbag|evasion|0
-|-sideend|p2: TheResearcher100|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Beanbag|Toxic|p2a: Corviknight
 |-immune|p2a: Corviknight
 |
@@ -854,14 +854,14 @@
 |switch|p2a: Hatterene|Hatterene, F|100/100 slp
 |move|p1a: Beanbag|Stealth Rock|p2a: Hatterene
 |move|p2a: Hatterene|Stealth Rock|p1a: Beanbag|[from]ability: Magic Bounce
-|-sidestart|p1: Alpha Nicholas|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|96
 |
 |cant|p2a: Hatterene|slp
 |move|p2a: Hatterene|Sleep Talk|p2a: Hatterene
 |move|p2a: Hatterene|Reflect|p2a: Hatterene|[from]move: Sleep Talk
-|-sidestart|p2: TheResearcher100|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Beanbag|Stealth Rock|p2a: Hatterene
 |move|p2a: Hatterene|Stealth Rock||[from]ability: Magic Bounce|[still]
 |-fail|p2a: Hatterene
@@ -896,7 +896,7 @@
 |turn|100
 |
 |move|p2a: Hatterene|Light Screen|p2a: Hatterene
-|-sidestart|p2: TheResearcher100|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |-activate|p1a: Beanbag|move: Struggle
 |move|p1a: Beanbag|Struggle|p2a: Hatterene
 |-damage|p2a: Hatterene|90/100
@@ -934,5 +934,5 @@
 |-damage|p1a: Beanbag|0 fnt|[from] recoil
 |faint|p1a: Beanbag
 |
-|win|TheResearcher100
-|player|p2|TheResearcher100|red
+|win|p2
+|player|p2|p2|red

@@ -21,24 +21,24 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Decidueye
 |-resisted|p1a: Decidueye
 |-damage|p1a: Decidueye|83/100
-|-sidestart|p1: Jewish Reuniclus|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|2
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Decidueye
 |-resisted|p1a: Decidueye
 |-damage|p1a: Decidueye|64/100
-|-sidestart|p1: Jewish Reuniclus|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Decidueye|Defog|p2a: Samurott
 |-unboost|p2a: Samurott|evasion|1
-|-sideend|p1: Jewish Reuniclus|Spikes|[from] move: Defog|[of] p1a: Decidueye
+|-sideend|p1: p1|Spikes|[from] move: Defog|[of] p1a: Decidueye
 |
 |turn|3
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Decidueye
 |-resisted|p1a: Decidueye
 |-damage|p1a: Decidueye|45/100
-|-sidestart|p1: Jewish Reuniclus|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Decidueye|U-turn|p2a: Samurott
 |-supereffective|p2a: Samurott
 |-damage|p2a: Samurott|58/100
@@ -106,7 +106,7 @@
 |move|p1a: Zamazenta|Behemoth Bash|p2a: Clodsire
 |-damage|p2a: Clodsire|53/100
 |move|p2a: Clodsire|Stealth Rock|p1a: Zamazenta
-|-sidestart|p1: Jewish Reuniclus|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Clodsire|59/100|[from] item: Leftovers
 |turn|10
@@ -214,8 +214,8 @@
 |
 |move|p1a: Decidueye|Defog|p2a: Clodsire
 |-unboost|p2a: Clodsire|evasion|1
-|-sideend|p1: Jewish Reuniclus|Spikes|[from] move: Defog|[of] p1a: Decidueye
-|-sideend|p1: Jewish Reuniclus|Stealth Rock|[from] move: Defog|[of] p1a: Decidueye
+|-sideend|p1: p1|Spikes|[from] move: Defog|[of] p1a: Decidueye
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Decidueye
 |move|p2a: Clodsire|Toxic|p1a: Decidueye
 |-status|p1a: Decidueye|tox
 |
@@ -230,7 +230,7 @@
 |switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
 |-ability|p1a: Chien-Pao|Sword of Ruin
 |move|p2a: Clodsire|Stealth Rock|p1a: Chien-Pao
-|-sidestart|p1: Jewish Reuniclus|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Clodsire|85/100|[from] item: Leftovers
 |turn|23
@@ -304,9 +304,9 @@
 |faint|p1a: Hoopa
 |-hitcount|p1: Hoopa|2
 |
-|win|ho3nconfirm3d
-|n|☆Jewish Reuniclus|jewishreuniclus
-|n|☆ho3nconfirm3d|ho3nconfirm3d
+|win|p2
+|n|☆p1|jewishreuniclus
+|n|☆p2|p2
 |n| IConsumeChairs|iconsumechairs
 |n| GlobalWarmingDoom|globalwarmingdoom
 |n| EnderBeedrill|enderbeedrill

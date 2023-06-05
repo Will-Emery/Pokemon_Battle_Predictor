@@ -26,20 +26,20 @@
 |
 |switch|p1a: Clodsire|Clodsire, M|100/100
 |move|p2a: Clodsire|Spikes|p1a: Clodsire
-|-sidestart|p1: Armeen|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|3
 |
 |switch|p2a: Blissey|Blissey, F|100/100
 |move|p1a: Clodsire|Spikes|p2a: Blissey
-|-sidestart|p2: Red Speed|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|4
 |
 |move|p2a: Blissey|Stealth Rock|p1a: Clodsire
-|-sidestart|p1: Armeen|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Clodsire|Spikes|p2a: Blissey
-|-sidestart|p2: Red Speed|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|5
 |
@@ -62,7 +62,7 @@
 |
 |move|p2a: Alomomola|Wish|p2a: Alomomola
 |move|p1a: Clodsire|Spikes|p2a: Alomomola
-|-sidestart|p2: Red Speed|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|8
 |
@@ -78,7 +78,7 @@
 |
 |move|p1a: Kleavor|Stone Axe|p2a: Alomomola
 |-damage|p2a: Alomomola|83/100
-|-sidestart|p2: Red Speed|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Alomomola|Chilling Water|p1a: Kleavor
 |-supereffective|p1a: Kleavor
 |-damage|p1a: Kleavor|9/100
@@ -144,17 +144,17 @@
 |
 |switch|p2a: Talonflame|Talonflame, F|100/100
 |move|p1a: Sableye|Reflect|p1a: Sableye
-|-sidestart|p1: Armeen|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|18
 |
 |move|p2a: Talonflame|Defog|p1a: Sableye
 |-unboost|p1a: Sableye|evasion|1
-|-sideend|p1: Armeen|Reflect
-|-sideend|p1: Armeen|Spikes|[from] move: Defog|[of] p2a: Talonflame
-|-sideend|p1: Armeen|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
-|-sideend|p2: Red Speed|Spikes|[from] move: Defog|[of] p2a: Talonflame
-|-sideend|p2: Red Speed|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p1: p1|Reflect
+|-sideend|p1: p1|Spikes|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
 |move|p1a: Sableye|Knock Off|p2a: Talonflame
 |-damage|p2a: Talonflame|77/100
 |-enditem|p2a: Talonflame|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Sableye
@@ -188,6 +188,6 @@
 |
 |-damage|p1a: Sableye|57/100 tox|[from] psn
 |turn|23
-|-message|Armeen forfeited.
+|-message|p1 forfeited.
 |
-|win|Red Speed
+|win|p2

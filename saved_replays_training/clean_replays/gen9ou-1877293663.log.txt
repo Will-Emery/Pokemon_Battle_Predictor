@@ -19,7 +19,7 @@
 |turn|1
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Y0Z0RA|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Articuno|Ice Beam|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|80/100
 |
@@ -27,7 +27,7 @@
 |
 |switch|p1a: Samurai Warrior|Kingambit, F|100/100
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Y0Z0RA|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|3
 |
@@ -81,7 +81,7 @@
 |-boost|p2a: Magearna|spa|1
 |-end|p1a: Samurai Warrior|fallenundefined|[silent]
 |
-|-sideend|p2: Y0Z0RA|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Articuno|Articuno|100/100
 |-ability|p1a: Articuno|Pressure
@@ -92,7 +92,7 @@
 |-status|p2a: Magearna|frz
 |cant|p2a: Magearna|frz
 |
-|-sideend|p2: Y0Z0RA|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
@@ -119,7 +119,7 @@
 |turn|13
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Y0Z0RA|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Poison Duck|Poison Jab|p2a: Grimmsnarl
 |-supereffective|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|46/100
@@ -131,7 +131,7 @@
 |turn|14
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Y0Z0RA|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Poison Duck|Poison Jab|p2a: Grimmsnarl
 |-supereffective|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|7/100
@@ -169,7 +169,7 @@
 |-supereffective|p2a: Great Tusk
 |-damage|p2a: Great Tusk|55/100
 |move|p2a: Great Tusk|Stealth Rock|p1a: Articuno
-|-sidestart|p1: Felckon|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Great Tusk|61/100|[from] item: Leftovers
 |turn|18
@@ -192,13 +192,13 @@
 |move|p1a: Ground Taco|Rapid Spin|p2a: Slowking
 |-damage|p2a: Slowking|69/100
 |-boost|p1a: Ground Taco|spe|1
-|-sideend|p1: Felckon|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Ground Taco
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Ground Taco
 |move|p2a: Slowking|Sludge Bomb|p1a: Ground Taco
 |-resisted|p1a: Ground Taco
 |-damage|p1a: Ground Taco|83/100
 |
 |-heal|p1a: Ground Taco|89/100|[from] item: Leftovers
-|-sideend|p2: Y0Z0RA|Reflect
+|-sideend|p2: p2|Reflect
 |turn|21
 |
 |-end|p1a: Ground Taco|Protosynthesis|[silent]
@@ -209,7 +209,7 @@
 |-supereffective|p1a: Poison Duck
 |-damage|p1a: Poison Duck|34/100
 |-heal|p2a: Rotom|46/100|[from] item: Leftovers
-|-sideend|p2: Y0Z0RA|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|22
 |
 |switch|p1a: Parkchomp|Garchomp, M|100/100
@@ -229,7 +229,7 @@
 |move|p1a: Parkchomp|Outrage|p2a: Great Tusk|[from]lockedmove
 |-damage|p2a: Great Tusk|2/100
 |move|p2a: Great Tusk|Stealth Rock|p1a: Parkchomp
-|-sidestart|p1: Felckon|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Great Tusk|8/100|[from] item: Leftovers
 |turn|25
@@ -267,4 +267,4 @@
 |faint|p2a: Slowking
 |-start|p1a: Parkchomp|confusion|[fatigue]
 |
-|win|Felckon
+|win|p1

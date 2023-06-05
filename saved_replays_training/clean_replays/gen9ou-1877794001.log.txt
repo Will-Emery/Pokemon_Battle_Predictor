@@ -27,7 +27,7 @@
 |
 |switch|p2a: Talonflame|Talonflame, M|100/100
 |move|p1a: "Iron Treads"|Stealth Rock|p2a: Talonflame
-|-sidestart|p2: AshML|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |turn|3
@@ -45,7 +45,7 @@
 |switch|p1a: Ungungus|Amoonguss, M|100/100
 |move|p2a: Talonflame|Defog|p1a: Ungungus
 |-unboost|p1a: Ungungus|evasion|1
-|-sideend|p2: AshML|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
 |
 |-weather|RainDance|[upkeep]
 |turn|5
@@ -106,7 +106,7 @@
 |
 |switch|p2a: Talonflame|Talonflame, M|86/100
 |move|p1a: "Iron Treads"|Stealth Rock|p2a: Talonflame
-|-sidestart|p2: AshML|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: "Iron Treads"|100/100 brn|[from] item: Leftovers
 |-damage|p1a: "Iron Treads"|94/100 brn|[from] brn
@@ -116,7 +116,7 @@
 |-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
 |move|p2a: Talonflame|Defog|p1a: "OU"
 |-unboost|p1a: "OU"|evasion|1
-|-sideend|p2: AshML|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
 |
 |-weather|RainDance|[upkeep]
 |turn|13
@@ -142,7 +142,7 @@
 |move|p2a: Magnezone|Flash Cannon|p1a: "Iron Treads"
 |-damage|p1a: "Iron Treads"|51/100 brn
 |move|p1a: "Iron Treads"|Stealth Rock|p2a: Magnezone
-|-sidestart|p2: AshML|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: "Iron Treads"|57/100 brn|[from] item: Leftovers
@@ -212,7 +212,7 @@
 |-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
 |move|p2a: Talonflame|Defog|p1a: "OU"
 |-unboost|p1a: "OU"|evasion|1
-|-sideend|p2: AshML|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
 |
 |-weather|RainDance|[upkeep]
 |turn|23
@@ -276,6 +276,6 @@
 |-heal|p1a: "Iron Treads"|17/100 brn|[from] item: Leftovers
 |-damage|p1a: "Iron Treads"|11/100 brn|[from] brn
 |turn|29
-|-message|AshML forfeited.
+|-message|p2 forfeited.
 |
-|win|Cap2n
+|win|p1

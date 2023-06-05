@@ -24,7 +24,7 @@
 |-damage|p2a: Moon|90/100
 |-damage|p1a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p2a: Moon
 |-activate|p2a: Moon|ability: Toxic Debris
-|-sidestart|p1: yoissy|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |cant|p2a: Moon|flinch
 |
 |turn|2
@@ -47,7 +47,7 @@
 |turn|4
 |
 |switch|p1a: Sneasler|Sneasler, M|84/100
-|-sideend|p1: yoissy|move: Toxic Spikes|[of] p1a: Sneasler
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Sneasler
 |-ability|p1a: Sneasler|Pressure
 |move|p2a: Moon|Sludge Bomb|p1a: Sneasler
 |-resisted|p1a: Sneasler
@@ -84,7 +84,7 @@
 |
 |switch|p1a: Garganacl|Garganacl, F|100/100
 |move|p2a: Manda|Stealth Rock|p1a: Garganacl
-|-sidestart|p1: yoissy|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|Sandstorm|[upkeep]
 |turn|9
@@ -95,7 +95,7 @@
 |-damage|p2a: Moon|64/100
 |-start|p2a: Moon|Salt Cure
 |-activate|p2a: Moon|ability: Toxic Debris
-|-sidestart|p1: yoissy|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-weather|Sandstorm|[upkeep]
 |-damage|p2a: Moon|58/100|[from] Sandstorm
@@ -225,8 +225,8 @@
 |move|p1a: Torkoal|Rapid Spin|p2a: Ensorcell
 |-damage|p2a: Ensorcell|88/100
 |-boost|p1a: Torkoal|spe|1
-|-sideend|p1: yoissy|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
-|-sideend|p1: yoissy|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
 |
 |-weather|SunnyDay|[upkeep]
 |turn|22
@@ -235,7 +235,7 @@
 |-activate|p1a: Walking Wake|ability: Protosynthesis
 |-start|p1a: Walking Wake|protosynthesisspa
 |move|p2a: Ensorcell|Light Screen|p2a: Ensorcell
-|-sidestart|p2: Mewt Ensorcell|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-weather|SunnyDay|[upkeep]
 |turn|23
@@ -278,7 +278,7 @@
 |-damage|p2a: Yata|60/100
 |-damage|p1a: Sneasler|35/100|[from] item: Rocky Helmet|[of] p2a: Yata
 |
-|-sideend|p2: Mewt Ensorcell|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|27
 |
 |switch|p1a: Garganacl|Garganacl, F|100/100
@@ -335,7 +335,7 @@
 |-damage|p2a: Moon|19/100
 |-start|p2a: Moon|Salt Cure
 |-activate|p2a: Moon|ability: Toxic Debris
-|-sidestart|p1: yoissy|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-damage|p2a: Moon|7/100|[from] Salt Cure
 |turn|33
@@ -353,7 +353,7 @@
 |-ability|p1a: Landorus|Intimidate|boost
 |-unboost|p2a: Saint|atk|1
 |move|p2a: Saint|Stealth Rock|p1a: Landorus
-|-sidestart|p1: yoissy|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-damage|p2a: Saint|50/100|[from] Salt Cure
 |turn|35
@@ -380,8 +380,8 @@
 |move|p1a: Torkoal|Rapid Spin|p2a: Ensorcell
 |-damage|p2a: Ensorcell|75/100
 |-boost|p1a: Torkoal|spe|1
-|-sideend|p1: yoissy|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
-|-sideend|p1: yoissy|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
 |
 |-weather|SunnyDay|[upkeep]
 |turn|38
@@ -486,6 +486,6 @@
 |
 |-heal|p1a: Slowking|98/100|[from] item: Leftovers
 |turn|48
-|-message|Mewt Ensorcell forfeited.
+|-message|p2 forfeited.
 |
-|win|yoissy
+|win|p1

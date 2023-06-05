@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: notafatcat|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Iron Fist|Swords Dance|p2a: Iron Fist
 |-boost|p2a: Iron Fist|atk|2
 |
@@ -69,7 +69,7 @@
 |turn|6
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: notafatcat|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Storm|Bleakwind Storm|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|21/100
 |
@@ -91,7 +91,7 @@
 |switch|p1a: Chien-Pao|Chien-Pao|100/100
 |-ability|p1a: Chien-Pao|Sword of Ruin
 |
-|-sideend|p1: notafatcat|Reflect
+|-sideend|p1: p1|Reflect
 |turn|9
 |
 |-terastallize|p1a: Chien-Pao|Dark
@@ -100,7 +100,7 @@
 |-damage|p1a: Chien-Pao|84/100|[from] item: Rocky Helmet|[of] p2a: Vulture
 |move|p2a: Vulture|Defog|p1a: Chien-Pao
 |-unboost|p1a: Chien-Pao|evasion|1
-|-sideend|p1: notafatcat|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |turn|10
 |
@@ -275,4 +275,4 @@
 |-damage|p1a: Chien-Pao|0 fnt
 |faint|p1a: Chien-Pao
 |
-|win|One True Lycan
+|win|p2

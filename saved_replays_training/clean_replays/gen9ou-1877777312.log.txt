@@ -28,14 +28,14 @@
 |turn|2
 |
 |move|p1a: Toxapex|Toxic Spikes|p2a: Garganacl
-|-sidestart|p2: WoChien<3|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |move|p2a: Garganacl|Stealth Rock|p1a: Toxapex
-|-sidestart|p1: Houseki|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|3
 |
 |move|p1a: Toxapex|Toxic Spikes|p2a: Garganacl
-|-sidestart|p2: WoChien<3|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |move|p2a: Garganacl|Salt Cure|p1a: Toxapex
 |-crit|p1a: Toxapex
 |-damage|p1a: Toxapex|80/100
@@ -54,7 +54,7 @@
 |move|p2a: Iron Treads|Rapid Spin|p1a: Dangerous Nose
 |-damage|p1a: Dangerous Nose|87/100
 |-boost|p2a: Iron Treads|spe|1
-|-sideend|p2: WoChien<3|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sideend|p2: p2|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
 |move|p1a: Dangerous Nose|Headlong Rush|p2a: Iron Treads
 |-damage|p2a: Iron Treads|50/100
 |-unboost|p1a: Dangerous Nose|def|1
@@ -72,7 +72,7 @@
 |-damage|p1a: Samurott|42/100
 |move|p1a: Samurott|Ceaseless Edge|p2a: Iron Treads
 |-damage|p2a: Iron Treads|7/100
-|-sidestart|p2: WoChien<3|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Iron Treads|13/100|[from] item: Leftovers
 |turn|7
@@ -83,7 +83,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Urshifu
 |-resisted|p2a: Urshifu
 |-damage|p2a: Urshifu|53/100
-|-sidestart|p2: WoChien<3|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|8
 |
@@ -140,7 +140,7 @@
 |switch|p2a: Garganacl|Garganacl, M|100/100|[from] U-turn
 |-damage|p2a: Garganacl|84/100|[from] Spikes
 |move|p1a: Toxapex|Toxic Spikes|p2a: Garganacl
-|-sidestart|p2: WoChien<3|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-heal|p2a: Garganacl|90/100|[from] item: Leftovers
 |turn|12
@@ -289,7 +289,7 @@
 |-damage|p1a: Toxapex|44/100
 |-heal|p2a: Ceruledge|18/100 tox|[from] drain|[of] p1a: Toxapex
 |move|p1a: Toxapex|Toxic Spikes|p2a: Ceruledge
-|-sidestart|p2: WoChien<3|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-damage|p2a: Ceruledge|0 fnt|[from] psn
 |faint|p2a: Ceruledge
@@ -333,7 +333,7 @@
 |-damage|p1a: Ting-Lu|9/100
 |-hitcount|p1a: Ting-Lu|3
 |move|p1a: Ting-Lu|Stealth Rock|p2a: Urshifu
-|-sidestart|p2: WoChien<3|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Ting-Lu|16/100|[from] item: Leftovers
 |-damage|p2a: Urshifu|1/100 tox|[from] psn
@@ -383,4 +383,4 @@
 |faint|p1a: Dangerous Nose
 |-end|p1a: Dangerous Nose|Protosynthesis|[silent]
 |
-|win|WoChien<3
+|win|p2

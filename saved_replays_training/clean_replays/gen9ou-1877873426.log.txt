@@ -61,14 +61,14 @@
 |
 |switch|p1a: Dorival JR|Great Tusk, shiny|100/100
 |move|p2a: Garganacl|Stealth Rock|p1a: Dorival JR
-|-sidestart|p1: Batataplays|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Garganacl|91/100|[from] item: Leftovers
 |turn|7
 |
 |switch|p2a: Amoonguss|Amoonguss, M|100/100
 |move|p1a: Dorival JR|Stealth Rock|p2a: Amoonguss
-|-sidestart|p2: Mr Coffy|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|8
 |
@@ -76,7 +76,7 @@
 |-damage|p2a: Amoonguss|89/100
 |-boost|p1a: Dorival JR|spe|1
 |-damage|p1a: Dorival JR|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
-|-sideend|p1: Batataplays|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dorival JR
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dorival JR
 |move|p2a: Amoonguss|Giga Drain|p1a: Dorival JR
 |-supereffective|p1a: Dorival JR
 |-damage|p1a: Dorival JR|23/100
@@ -107,7 +107,7 @@
 |-damage|p2a: Garganacl|23/100
 |-damage|p1a: VAPO VAPO VAPO|91/100|[from] item: Life Orb
 |move|p2a: Garganacl|Stealth Rock|p1a: VAPO VAPO VAPO
-|-sidestart|p1: Batataplays|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Garganacl|29/100|[from] item: Leftovers
 |turn|12
@@ -128,7 +128,7 @@
 |-damage|p1a: VAPO VAPO VAPO|57/100
 |-boost|p2a: Great Tusk|spe|1
 |-damage|p2a: Great Tusk|16/100|[from] ability: Rough Skin|[of] p1a: VAPO VAPO VAPO
-|-sideend|p2: Mr Coffy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |turn|14
 |
@@ -143,14 +143,14 @@
 |turn|15
 |
 |move|p1a: VAPO VAPO VAPO|Spikes|p2a: Amoonguss
-|-sidestart|p2: Mr Coffy|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Amoonguss|Giga Drain|p1a: VAPO VAPO VAPO
 |-damage|p1a: VAPO VAPO VAPO|21/100
 |
 |turn|16
 |
 |move|p1a: VAPO VAPO VAPO|Spikes|p2a: Amoonguss
-|-sidestart|p2: Mr Coffy|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Amoonguss|Giga Drain|p1a: VAPO VAPO VAPO
 |-damage|p1a: VAPO VAPO VAPO|0 fnt
 |faint|p1a: VAPO VAPO VAPO
@@ -159,6 +159,6 @@
 |switch|p1a: Cachorrao louco|Arcanine-Hisui, F|35/100
 |-damage|p1a: Cachorrao louco|10/100|[from] Stealth Rock
 |turn|17
-|-message|Mr Coffy forfeited.
+|-message|p2 forfeited.
 |
-|win|Batataplays
+|win|p1

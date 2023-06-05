@@ -20,7 +20,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: VESPERTINE
 |-resisted|p2a: VESPERTINE
 |-damage|p2a: VESPERTINE|81/100
-|-sidestart|p2: owl_with_scarf|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: VESPERTINE|Volt Switch|p1a: Samurott
 |-supereffective|p1a: Samurott
 |-crit|p1a: Samurott
@@ -49,7 +49,7 @@
 |turn|3
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: d18l|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: VULNICURA|Steam Eruption|p1a: Dragapult
 |-resisted|p1a: Dragapult
 |-damage|p1a: Dragapult|59/100
@@ -62,7 +62,7 @@
 |switch|p2a: BIOPHILIA|Urshifu-Rapid-Strike, M|100/100
 |-damage|p2a: BIOPHILIA|88/100|[from] Spikes
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: d18l|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |-weather|RainDance|[upkeep]
 |-damage|p1a: Dragapult|46/100 brn|[from] brn
@@ -160,7 +160,7 @@
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Magearna|63/100 psn|[from] item: Leftovers
 |-damage|p1a: Magearna|51/100 psn|[from] psn
-|-sideend|p1: d18l|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|11
 |
 |move|p1a: Magearna|Draining Kiss|p2a: VULNICURA
@@ -174,7 +174,7 @@
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Magearna|60/100 psn|[from] item: Leftovers
 |-damage|p1a: Magearna|47/100 psn|[from] psn
-|-sideend|p1: d18l|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: HOMOGENIC|Basculegion, M|100/100
 |-damage|p2a: HOMOGENIC|88/100|[from] Spikes
@@ -292,4 +292,4 @@
 |-damage|p2a: FOSSORA|0 fnt
 |faint|p2a: FOSSORA
 |
-|win|d18l
+|win|p1

@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p2a: Espeon|Reflect|p2a: Espeon
-|-sidestart|p2: clail|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Scizor|U-turn|p2a: Espeon
 |-supereffective|p2a: Espeon
 |-damage|p2a: Espeon|46/100
@@ -32,7 +32,7 @@
 |-item|p2a: Espeon|Choice Scarf|[from] move: Trick
 |-item|p1a: Rotom|Light Clay|[from] move: Trick
 |move|p2a: Espeon|Light Screen|p2a: Espeon
-|-sidestart|p2: clail|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|3
 |
@@ -43,7 +43,7 @@
 |turn|4
 |
 |move|p2a: Iron Treads|Stealth Rock|p1a: Rotom
-|-sidestart|p1: BoronB|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Rotom|Hydro Pump|p2a: Iron Treads
 |-supereffective|p2a: Iron Treads
 |-damage|p2a: Iron Treads|57/100
@@ -66,7 +66,7 @@
 |move|p1a: Rotom|Trick|p2a: Gholdengo
 |-immune|p2a: Gholdengo|[from] ability: Good as Gold
 |
-|-sideend|p2: clail|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|7
 |
 |move|p2a: Gholdengo|Shadow Ball|p1a: Rotom
@@ -84,7 +84,7 @@
 |-resisted|p2a: Arcanine
 |-damage|p2a: Arcanine|90/100
 |
-|-sideend|p2: clail|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |switch|p2a: Espeon|Espeon, F|46/100
@@ -114,7 +114,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
 |-resisted|p1a: Great Tusk
 |-damage|p1a: Great Tusk|85/100
-|-sidestart|p1: BoronB|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|13
 |
@@ -304,4 +304,4 @@
 |-damage|p1a: Volcarona|0 fnt
 |faint|p1a: Volcarona
 |
-|win|clail
+|win|p2

@@ -21,7 +21,7 @@
 |move|p2a: Torkoal|Will-O-Wisp|p1a: Clodsire
 |-status|p1a: Clodsire|brn
 |move|p1a: Clodsire|Spikes|p2a: Torkoal
-|-sidestart|p2: dripclout|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-weather|SunnyDay|[upkeep]
 |-damage|p1a: Clodsire|94/100 brn|[from] brn
@@ -30,9 +30,9 @@
 |move|p2a: Torkoal|Rapid Spin|p1a: Clodsire
 |-damage|p1a: Clodsire|84/100 brn
 |-boost|p2a: Torkoal|spe|1
-|-sideend|p2: dripclout|Spikes|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Torkoal
 |move|p1a: Clodsire|Spikes|p2a: Torkoal
-|-sidestart|p2: dripclout|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Clodsire|90/100 brn|[from] item: Black Sludge
@@ -42,7 +42,7 @@
 |switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
 |-damage|p2a: Typhlosion|88/100|[from] Spikes
 |move|p1a: Clodsire|Spikes|p2a: Typhlosion
-|-sidestart|p2: dripclout|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Clodsire|90/100 brn|[from] item: Black Sludge
@@ -52,7 +52,7 @@
 |move|p2a: Typhlosion|Infernal Parade|p1a: Clodsire
 |-damage|p1a: Clodsire|52/100 brn
 |move|p1a: Clodsire|Spikes|p2a: Typhlosion
-|-sidestart|p2: dripclout|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Clodsire|58/100 brn|[from] item: Black Sludge
@@ -71,7 +71,7 @@
 |switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
 |-damage|p2a: Lilligant|76/100|[from] Spikes
 |move|p1a: Great Tusk|Stealth Rock|p2a: Lilligant
-|-sidestart|p2: dripclout|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|7
@@ -134,8 +134,8 @@
 |move|p2a: Torkoal|Rapid Spin|p1a: Great Tusk
 |-damage|p1a: Great Tusk|1/100
 |-boost|p2a: Torkoal|spe|1
-|-sideend|p2: dripclout|Spikes|[from] move: Rapid Spin|[of] p2a: Torkoal
-|-sideend|p2: dripclout|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
 |
 |-weather|SunnyDay|[upkeep]
 |turn|12
@@ -166,7 +166,7 @@
 |move|p1a: Ceruledge|Endure|p1a: Ceruledge
 |-singleturn|p1a: Ceruledge|move: Endure
 |move|p2a: Great Tusk|Stealth Rock|p1a: Ceruledge
-|-sidestart|p1: Bellatrix2022|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p2a: Great Tusk|98/100|[from] item: Leftovers
@@ -241,6 +241,6 @@
 |faint|p2a: Typhlosion
 |
 |-weather|SunnyDay|[upkeep]
-|-message|dripclout forfeited.
+|-message|p2 forfeited.
 |
-|win|Bellatrix2022
+|win|p1

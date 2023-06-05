@@ -19,11 +19,11 @@
 |
 |move|p2a: Kleavor|Stone Axe|p1a: Glimmora
 |-damage|p1a: Glimmora|44/100
-|-sidestart|p1: Treantomologist|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: cabforpitt|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |move|p1a: Glimmora|Stealth Rock|p2a: Kleavor
-|-sidestart|p2: cabforpitt|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
@@ -58,7 +58,7 @@
 |switch|p1a: Kingambit|Kingambit, M|100/100
 |-damage|p1a: Kingambit|94/100|[from] Stealth Rock
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: cabforpitt|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-heal|p1a: Kingambit|100/100|[from] item: Leftovers
 |-damage|p2a: Dragapult|21/100 psn|[from] psn
@@ -74,7 +74,7 @@
 |turn|6
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: cabforpitt|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Kingambit|Swords Dance|p1a: Kingambit
 |-boost|p1a: Kingambit|atk|2
 |
@@ -129,7 +129,7 @@
 |move|p2a: Zamazenta|Body Press|p1a: Glimmora
 |-damage|p1a: Glimmora|0 fnt
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: cabforpitt|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Glimmora
 |
 |-heal|p2a: Zamazenta|94/100 psn|[from] item: Leftovers
@@ -147,7 +147,7 @@
 |
 |-heal|p2a: Zamazenta|67/100 psn|[from] item: Leftovers
 |-damage|p2a: Zamazenta|55/100 psn|[from] psn
-|-sideend|p2: cabforpitt|Reflect
+|-sideend|p2: p2|Reflect
 |turn|12
 |
 |switch|p2a: Ursaluna|Ursaluna, M|100/100
@@ -166,7 +166,7 @@
 |faint|p1a: Urshifu
 |
 |-damage|p2a: Ursaluna|75/100 tox|[from] psn
-|-sideend|p2: cabforpitt|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Gholdengo|Gholdengo|49/100
 |-damage|p1a: Gholdengo|43/100|[from] Stealth Rock
@@ -219,5 +219,5 @@
 |-damage|p1a: Ursaluna|0 fnt
 |faint|p1a: Ursaluna
 |
-|win|cabforpitt
-|player|p1|Treantomologist|guitarist
+|win|p2
+|player|p1|p1|guitarist

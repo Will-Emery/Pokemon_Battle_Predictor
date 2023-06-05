@@ -73,7 +73,7 @@
 |
 |switch|p1a: Berga|Avalugg-Hisui, F, shiny|100/100
 |move|p2a: Landorus|Stealth Rock|p1a: Berga
-|-sidestart|p1: Adastran|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|8
 |
@@ -85,7 +85,7 @@
 |
 |switch|p2a: Garganacl|Garganacl, F, tera:Water|47/100|[from] U-turn
 |move|p1a: Berga|Stealth Rock|p2a: Garganacl
-|-sidestart|p2: ianlazerbeem|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Garganacl|53/100|[from] item: Leftovers
 |turn|9
@@ -93,7 +93,7 @@
 |move|p1a: Berga|Rapid Spin|p2a: Garganacl
 |-damage|p2a: Garganacl|46/100
 |-boost|p1a: Berga|spe|1
-|-sideend|p1: Adastran|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Berga
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Berga
 |move|p2a: Garganacl|Recover|p2a: Garganacl
 |-heal|p2a: Garganacl|96/100
 |
@@ -155,7 +155,7 @@
 |
 |switch|p1a: Mudbud|Clodsire, F|100/100
 |move|p2a: Magearna|Spikes|p1a: Mudbud
-|-sidestart|p1: Adastran|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p2a: Magearna|100/100|[from] item: Leftovers
 |turn|16
@@ -227,7 +227,7 @@
 |move|p1a: Berga|Rapid Spin|p2a: Garganacl
 |-damage|p2a: Garganacl|66/100
 |-boost|p1a: Berga|spe|1
-|-sideend|p1: Adastran|Spikes|[from] move: Rapid Spin|[of] p1a: Berga
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Berga
 |
 |-heal|p2a: Garganacl|72/100|[from] item: Leftovers
 |turn|23
@@ -596,6 +596,6 @@
 |-damage|p1a: Berga|38/100|[from] item: Life Orb
 |
 |turn|59
-|-message|Adastran forfeited.
+|-message|p1 forfeited.
 |
-|win|ianlazerbeem
+|win|p2

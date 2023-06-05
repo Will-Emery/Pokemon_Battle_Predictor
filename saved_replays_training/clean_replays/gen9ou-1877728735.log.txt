@@ -48,7 +48,7 @@
 |
 |switch|p2a: Corviknight|Corviknight, M|100/100
 |move|p1a: Landorus|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: Devious FearVG|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|5
 |
@@ -57,7 +57,7 @@
 |-start|p2a: Corviknight|Smack Down
 |move|p2a: Corviknight|Defog|p1a: Landorus
 |-unboost|p1a: Landorus|evasion|1
-|-sideend|p2: Devious FearVG|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |turn|6
 |
@@ -143,7 +143,7 @@
 |turn|14
 |
 |move|p1a: Landorus|Stealth Rock|p2a: Lilligant
-|-sidestart|p2: Devious FearVG|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Lilligant|Leaf Blade|p1a: Landorus
 |-damage|p1a: Landorus|20/100
 |
@@ -163,7 +163,7 @@
 |
 |move|p2a: Corviknight|Defog|p1a: Ursaluna
 |-unboost|p1a: Ursaluna|evasion|1
-|-sideend|p2: Devious FearVG|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
 |-boost|p1a: Ursaluna|atk|2
 |
@@ -171,7 +171,7 @@
 |turn|17
 |
 |move|p2a: Corviknight|Tailwind|p2a: Corviknight
-|-sidestart|p2: Devious FearVG|move: Tailwind
+|-sidestart|p2: p2|move: Tailwind
 |move|p1a: Ursaluna|Facade|p2a: Corviknight
 |-resisted|p2a: Corviknight
 |-damage|p2a: Corviknight|0 fnt
@@ -207,7 +207,7 @@
 |-damage|p1a: Basculegion|81/100|[from] item: Life Orb
 |
 |-weather|SunnyDay|[upkeep]
-|-sideend|p2: Devious FearVG|move: Tailwind
+|-sideend|p2: p2|move: Tailwind
 |turn|21
 |
 |move|p1a: Basculegion|Shadow Ball|p2a: Torkoal
@@ -261,4 +261,4 @@
 |faint|p1a: Landorus
 |-damage|p2a: Woof Woof|41/100|[from] item: Life Orb
 |
-|win|Devious FearVG
+|win|p2

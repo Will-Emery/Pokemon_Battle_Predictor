@@ -21,13 +21,13 @@
 |-boost|p2a: Braviary|spa|1
 |-boost|p2a: Braviary|spd|1
 |move|p1a: Clodsire|Stealth Rock|p2a: Braviary
-|-sidestart|p2: Gabo29|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
 |move|p2a: Braviary|Defog|p1a: Clodsire
 |-unboost|p1a: Clodsire|evasion|1
-|-sideend|p2: Gabo29|Stealth Rock|[from] move: Defog|[of] p2a: Braviary
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Braviary
 |move|p1a: Clodsire|Toxic|p2a: Braviary
 |-status|p2a: Braviary|tox
 |
@@ -62,7 +62,7 @@
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Clodsire
 |-damage|p1a: Clodsire|10/100
-|-sidestart|p1: TrainerCyan1|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Clodsire|Earthquake|p2a: Samurott
 |-damage|p2a: Samurott|50/100
 |
@@ -73,7 +73,7 @@
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Clodsire
 |-damage|p1a: Clodsire|0 fnt
-|-sidestart|p1: TrainerCyan1|Spikes
+|-sidestart|p1: p1|Spikes
 |faint|p1a: Clodsire
 |
 |-weather|none
@@ -86,7 +86,7 @@
 |-supereffective|p1a: Glimmora
 |-damage|p1a: Glimmora|0 fnt
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: Gabo29|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Glimmora
 |
 |
@@ -127,8 +127,8 @@
 |
 |move|p2a: Braviary|Defog|p1a: Corviknight
 |-unboost|p1a: Corviknight|evasion|1
-|-sideend|p1: TrainerCyan1|Spikes|[from] move: Defog|[of] p2a: Braviary
-|-sideend|p2: Gabo29|Toxic Spikes|[from] move: Defog|[of] p2a: Braviary
+|-sideend|p1: p1|Spikes|[from] move: Defog|[of] p2a: Braviary
+|-sideend|p2: p2|Toxic Spikes|[from] move: Defog|[of] p2a: Braviary
 |move|p1a: Corviknight|Roost|p1a: Corviknight
 |-heal|p1a: Corviknight|70/100
 |-singleturn|p1a: Corviknight|move: Roost
@@ -330,4 +330,4 @@
 |-damage|p1a: Heatran|0 fnt
 |faint|p1a: Heatran
 |
-|win|Gabo29
+|win|p2

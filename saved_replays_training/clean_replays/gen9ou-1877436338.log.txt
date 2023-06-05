@@ -19,23 +19,23 @@
 |
 |move|p1a: Kleavor|Stone Axe|p2a: Azelf
 |-damage|p2a: Azelf|53/100
-|-sidestart|p2: Traes home|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Azelf|Reflect|p2a: Azelf
-|-sidestart|p2: Traes home|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|2
 |
 |move|p1a: Kleavor|Stone Axe|p2a: Azelf
 |-damage|p2a: Azelf|30/100
 |move|p2a: Azelf|Stealth Rock|p1a: Kleavor
-|-sidestart|p1: MichaelJordansJam|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|3
 |
 |move|p1a: Kleavor|Stone Axe|p2a: Azelf
 |-damage|p2a: Azelf|7/100
 |move|p2a: Azelf|Light Screen|p2a: Azelf
-|-sidestart|p2: Traes home|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|4
 |
@@ -52,10 +52,10 @@
 |-damage|p2a: Samurott|67/100
 |move|p2a: Samurott|Ceaseless Edge|p1a: Kleavor
 |-damage|p1a: Kleavor|31/100
-|-sidestart|p1: MichaelJordansJam|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurott|58/100|[from] item: Life Orb
 |
-|-sideend|p2: Traes home|Reflect
+|-sideend|p2: p2|Reflect
 |turn|6
 |
 |switch|p1a: Ting-Lu|Ting-Lu|100/100
@@ -75,7 +75,7 @@
 |faint|p1a: Ting-Lu
 |-damage|p2a: Samurott|48/100|[from] item: Life Orb
 |
-|-sideend|p2: Traes home|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Electrode|Electrode-Hisui|100/100
 |-damage|p1a: Electrode|88/100|[from] Stealth Rock
@@ -377,4 +377,4 @@
 |faint|p1a: Scream Tail
 |-end|p1a: Scream Tail|Protosynthesis|[silent]
 |
-|win|Traes home
+|win|p2

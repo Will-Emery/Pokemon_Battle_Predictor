@@ -50,7 +50,7 @@
 |turn|4
 |
 |move|p2a: Gengar|Toxic Spikes|p1a: Garchomp
-|-sidestart|p1: Rebel242|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |move|p1a: Garchomp|Earthquake|p2a: Gengar
 |-supereffective|p2a: Gengar
 |-enditem|p2a: Gengar|Focus Sash
@@ -110,7 +110,7 @@
 |turn|10
 |
 |switch|p1a: Sneasler|Sneasler, F|100/100
-|-sideend|p1: Rebel242|move: Toxic Spikes|[of] p1a: Sneasler
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Sneasler
 |move|p2a: Dondozo|Curse|p2a: Dondozo
 |-unboost|p2a: Dondozo|spe|1
 |-boost|p2a: Dondozo|atk|1
@@ -154,7 +154,7 @@
 |-heal|p2a: Dondozo|40/100 psn|[from] item: Leftovers
 |-damage|p2a: Dondozo|27/100 psn|[from] psn
 |turn|14
-|n|!Rebel242|rebel242
+|n|!p1|rebel242
 |
 |cant|p1a: Garchomp|slp
 |move|p1a: Garchomp|Sleep Talk|p1a: Garchomp
@@ -350,6 +350,6 @@
 |faint|p2a: Iron Treads
 |-end|p2a: Iron Treads|Quark Drive|[silent]
 |
-|-message|cool trainer will forfeited.
+|-message|p2 forfeited.
 |
-|win|Rebel242
+|win|p1

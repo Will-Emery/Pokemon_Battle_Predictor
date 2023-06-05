@@ -35,14 +35,14 @@
 |
 |switch|p1a: Garchomp|Garchomp, M|100/100
 |move|p2a: Clodsire|Stealth Rock|p1a: Garchomp
-|-sidestart|p1: x222y2|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Clodsire|80/100|[from] item: Black Sludge
 |turn|4
 |
 |switch|p2a: Scream Tail|Scream Tail|100/100
 |move|p1a: Garchomp|Stealth Rock|p2a: Scream Tail
-|-sidestart|p2: Rani223|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|5
 |
@@ -109,7 +109,7 @@
 |switch|p2a: Scream Tail|Scream Tail|100/100
 |-damage|p2a: Scream Tail|88/100|[from] Stealth Rock
 |move|p1a: Garchomp|Spikes|p2a: Scream Tail
-|-sidestart|p2: Rani223|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Scream Tail|94/100|[from] item: Leftovers
 |-damage|p1a: Garchomp|76/100 tox|[from] psn
@@ -118,7 +118,7 @@
 |-end|p2a: Scream Tail|Protosynthesis|[silent]
 |switch|p2a: Skeledirge|Skeledirge, M|100/100
 |move|p1a: Garchomp|Spikes|p2a: Skeledirge
-|-sidestart|p2: Rani223|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-damage|p1a: Garchomp|57/100 tox|[from] psn
 |turn|14
@@ -375,4 +375,4 @@
 |faint|p2a: Roaring Moon
 |-end|p2a: Roaring Moon|Protosynthesis|[silent]
 |
-|win|x222y2
+|win|p1

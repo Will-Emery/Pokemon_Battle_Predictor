@@ -26,7 +26,7 @@
 |turn|2
 |
 |move|p2a: Azelf|Stealth Rock|p1a: Landorus
-|-sidestart|p1: Koreks|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Landorus|U-turn|p2a: Azelf
 |-supereffective|p2a: Azelf
 |-damage|p2a: Azelf|46/100
@@ -36,27 +36,27 @@
 |turn|3
 |
 |move|p2a: Azelf|Reflect|p2a: Azelf
-|-sidestart|p2: The crimson wooper|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Avalugg|Rapid Spin|p2a: Azelf
 |-damage|p2a: Azelf|38/100
 |-boost|p1a: Avalugg|spe|1
-|-sideend|p1: Koreks|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
 |
 |turn|4
 |
 |move|p2a: Azelf|Light Screen|p2a: Azelf
-|-sidestart|p2: The crimson wooper|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Avalugg|Stealth Rock|p2a: Azelf
-|-sidestart|p2: The crimson wooper|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|5
 |
 |move|p2a: Azelf|Stealth Rock|p1a: Avalugg
-|-sidestart|p1: Koreks|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Avalugg|Rapid Spin|p2a: Azelf
 |-damage|p2a: Azelf|29/100
 |-boost|p1a: Avalugg|spe|1
-|-sideend|p1: Koreks|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
 |
 |turn|6
 |
@@ -105,7 +105,7 @@
 |
 |-heal|p2a: Magearna|82/100|[from] item: Leftovers
 |-heal|p1a: Landorus|50/100|[from] item: Leftovers
-|-sideend|p2: The crimson wooper|Reflect
+|-sideend|p2: p2|Reflect
 |turn|11
 |
 |move|p2a: Magearna|Draining Kiss|p1a: Landorus
@@ -117,7 +117,7 @@
 |-heal|p2a: Magearna|77/100|[from] item: Leftovers
 |-heal|p1a: Landorus|31/100|[from] item: Leftovers
 |-end|p2a: Magearna|move: Taunt
-|-sideend|p2: The crimson wooper|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|12
 |
 |move|p2a: Magearna|Stored Power|p1a: Landorus
@@ -368,4 +368,4 @@
 |-heal|p2a: Magearna|45/100|[from] drain|[of] p1a: Avalugg
 |faint|p1a: Avalugg
 |
-|win|The crimson wooper
+|win|p2

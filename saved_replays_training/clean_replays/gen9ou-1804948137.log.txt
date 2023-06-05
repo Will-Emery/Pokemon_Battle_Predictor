@@ -26,12 +26,12 @@
 |switch|p1a: Azumarill|Azumarill, F|100/100|[from] U-turn
 |move|p2a: Misaka Mikoto|Toxic Spikes|p1a: Azumarill
 |-start|p2a: Misaka Mikoto|typechange|Poison|[from] ability: Protean
-|-sidestart|p1: running poly|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |turn|2
 |
 |move|p2a: Misaka Mikoto|Spikes|p1a: Azumarill
-|-sidestart|p1: running poly|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Azumarill|Liquidation|p2a: Misaka Mikoto
 |-damage|p2a: Misaka Mikoto|0 fnt
 |faint|p2a: Misaka Mikoto
@@ -146,8 +146,8 @@
 |-crit|p2a: Colmilargo
 |-damage|p2a: Colmilargo|0 fnt
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: running poly|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
-|-sideend|p1: running poly|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |faint|p2a: Colmilargo
 |-end|p2a: Colmilargo|Protosynthesis|[silent]
 |
@@ -210,5 +210,5 @@
 |faint|p2a: Deku Seinen
 |-end|p2a: Deku Seinen|fallen5|[silent]
 |
-|win|running poly
+|win|p1
 ||Ladder isn't responding, score probably updated but might not have (Request timeout).

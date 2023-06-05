@@ -60,14 +60,14 @@
 |turn|6
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: SDK04|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Heatran|Stealth Rock|p1a: Dragapult
-|-sidestart|p1: SDK04|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|7
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: SDK04|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Heatran|Substitute|p2a: Heatran
 |-start|p2a: Heatran|Substitute
 |-damage|p2a: Heatran|76/100
@@ -128,7 +128,7 @@
 |move|p1a: Volcarona|Tera Blast|p2a: Toxapex
 |-damage|p2a: Toxapex|65/100
 |
-|-sideend|p1: SDK04|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|14
 |
 |-terastallize|p1a: Volcarona|Ground
@@ -137,7 +137,7 @@
 |move|p1a: Volcarona|Tera Blast|p2a: Toxapex
 |-activate|p2a: Toxapex|move: Protect
 |
-|-sideend|p1: SDK04|Reflect
+|-sideend|p1: p1|Reflect
 |turn|15
 |
 |switch|p1a: Magearna|Magearna|100/100
@@ -366,4 +366,4 @@
 |-damage|p2a: Hoopa|0 fnt
 |faint|p2a: Hoopa
 |
-|win|SDK04
+|win|p1

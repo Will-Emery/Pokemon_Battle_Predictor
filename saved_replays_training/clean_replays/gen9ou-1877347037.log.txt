@@ -18,20 +18,20 @@
 |turn|1
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Winterchillz|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Samurott|Ceaseless Edge|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|44/100
-|-sidestart|p2: Winterchillz|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|2
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Winterchillz|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Samurott|Ceaseless Edge|p2a: Dragapult
 |-supereffective|p2a: Dragapult
 |-damage|p2a: Dragapult|0 fnt
-|-sidestart|p2: Winterchillz|Spikes
+|-sidestart|p2: p2|Spikes
 |faint|p2a: Dragapult
 |
 |
@@ -50,7 +50,7 @@
 |move|p1a: Samurott|Ceaseless Edge|p2a: Lilligant
 |-resisted|p2a: Lilligant
 |-damage|p2a: Lilligant|66/100
-|-sidestart|p2: Winterchillz|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|5
 |
@@ -91,7 +91,7 @@
 |-damage|p2a: Lilligant|0 fnt
 |faint|p2a: Lilligant
 |
-|-sideend|p2: Winterchillz|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
 |-damage|p2a: Zamazenta|76/100|[from] Spikes
@@ -103,7 +103,7 @@
 |move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
 |-boost|p2a: Zamazenta|def|2
 |
-|-sideend|p2: Winterchillz|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|10
 |
 |-terastallize|p2a: Zamazenta|Fairy
@@ -126,7 +126,7 @@
 |turn|12
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: d18l|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Zamazenta|Crunch|p1a: Dragapult
 |-supereffective|p1a: Dragapult
 |-damage|p1a: Dragapult|55/100
@@ -134,7 +134,7 @@
 |turn|13
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: d18l|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Zamazenta|Heavy Slam|p1a: Dragapult
 |-damage|p1a: Dragapult|30/100
 |-start|p2a: Zamazenta|Disable|Heavy Slam|[from] ability: Cursed Body|[of] p1a: Dragapult
@@ -198,4 +198,4 @@
 |faint|p2a: Kingambit
 |-end|p2a: Kingambit|fallen5|[silent]
 |
-|win|d18l
+|win|p1

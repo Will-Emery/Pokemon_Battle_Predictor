@@ -24,7 +24,7 @@
 |move|p2a: Kleavor|Stone Axe|p1a: Arcanine
 |-supereffective|p1a: Arcanine
 |-damage|p1a: Arcanine|0 fnt
-|-sidestart|p1: Baxcaloblazed|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |faint|p1a: Arcanine
 |-damage|p2a: Kleavor|0 fnt|[from] item: Life Orb
 |faint|p2a: Kleavor
@@ -36,16 +36,16 @@
 |turn|2
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: JudgeScrub|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Cresselia|Light Screen|p1a: Cresselia
-|-sidestart|p1: Baxcaloblazed|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|3
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: JudgeScrub|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Cresselia|Reflect|p1a: Cresselia
-|-sidestart|p1: Baxcaloblazed|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|4
 |
@@ -112,8 +112,8 @@
 |-immune|p2a: Dragapult
 |
 |-damage|p1a: Ursaluna|58/100 tox|[from] psn
-|-sideend|p2: JudgeScrub|move: Light Screen
-|-sideend|p1: Baxcaloblazed|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|10
 |
 |switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
@@ -123,12 +123,12 @@
 |-anim|p2a: Dragapult|Dragon Darts|p1a: Thundurus
 |-damage|p1a: Thundurus|45/100
 |
-|-sideend|p1: Baxcaloblazed|Reflect
-|-sideend|p2: JudgeScrub|Reflect
+|-sideend|p1: p1|Reflect
+|-sideend|p2: p2|Reflect
 |turn|11
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: JudgeScrub|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Thundurus|Volt Switch|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|82/100
@@ -140,7 +140,7 @@
 |turn|12
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: JudgeScrub|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Ursaluna|Headlong Rush|p2a: Dragapult
 |-damage|p2a: Dragapult|25/100
 |-unboost|p1a: Ursaluna|def|1
@@ -207,7 +207,7 @@
 |faint|p1a: Braviary
 |
 |-damage|p2a: Squawkabilly|94/100 brn|[from] brn
-|-sideend|p2: JudgeScrub|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Cresselia|Cresselia, F, shiny|88/100
 |-damage|p1a: Cresselia|76/100|[from] Stealth Rock
@@ -219,8 +219,8 @@
 |-damage|p2a: Squawkabilly|46/100 brn
 |
 |-damage|p2a: Squawkabilly|40/100 brn|[from] brn
-|-sideend|p2: JudgeScrub|Reflect
+|-sideend|p2: p2|Reflect
 |turn|20
-|-message|Baxcaloblazed forfeited.
+|-message|p1 forfeited.
 |
-|win|JudgeScrub
+|win|p2

@@ -20,24 +20,24 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Samurott
 |-resisted|p1a: Samurott
 |-damage|p1a: Samurott|63/100
-|-sidestart|p1: Wo-Chienjoyer|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurott|91/100|[from] item: Life Orb
 |move|p1a: Samurott|Ceaseless Edge|p2a: Samurott
 |-resisted|p2a: Samurott
 |-damage|p2a: Samurott|58/100
-|-sidestart|p2: SlarFlar|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|2
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Samurott
 |-resisted|p1a: Samurott
 |-damage|p1a: Samurott|26/100
-|-sidestart|p1: Wo-Chienjoyer|Spikes
+|-sidestart|p1: p1|Spikes
 |-damage|p2a: Samurott|48/100|[from] item: Life Orb
 |move|p1a: Samurott|Ceaseless Edge|p2a: Samurott
 |-resisted|p2a: Samurott
 |-damage|p2a: Samurott|15/100
-|-sidestart|p2: SlarFlar|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|3
 |
@@ -55,14 +55,14 @@
 |move|p2a: Samurott|Sucker Punch||[still]
 |-fail|p2a: Samurott
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: Wo-Chienjoyer|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|5
 |
 |move|p2a: Samurott|Sucker Punch||[still]
 |-fail|p2a: Samurott
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: Wo-Chienjoyer|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|6
 |
@@ -118,14 +118,14 @@
 |-resisted|p2a: Gholdengo
 |-damage|p2a: Gholdengo|62/100
 |
-|-sideend|p1: Wo-Chienjoyer|Reflect
+|-sideend|p1: p1|Reflect
 |turn|12
 |
 |switch|p1a: Volcarona|Volcarona, M|100/100
 |move|p2a: Gholdengo|Recover|p2a: Gholdengo
 |-heal|p2a: Gholdengo|100/100
 |
-|-sideend|p1: Wo-Chienjoyer|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|13
 |
 |move|p1a: Volcarona|Fiery Dance|p2a: Gholdengo
@@ -165,7 +165,7 @@
 |-heal|p1a: Volcarona|20/100|[from] drain|[of] p2a: Zamazenta
 |faint|p2a: Zamazenta
 |
-|n|!SlarFlar|slarflar
+|n|!p2|slarflar
 |
 |switch|p2a: Dragapult|Dragapult, M|100/100
 |-damage|p2a: Dragapult|84/100|[from] Spikes
@@ -306,4 +306,4 @@
 |faint|p2a: Iron Treads
 |-end|p2a: Iron Treads|Quark Drive|[silent]
 |
-|win|Wo-Chienjoyer
+|win|p1

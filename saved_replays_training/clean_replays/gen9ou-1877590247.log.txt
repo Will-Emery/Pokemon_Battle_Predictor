@@ -20,13 +20,13 @@
 |
 |switch|p1a: Hatterene|Hatterene, F, shiny|100/100
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Plohka|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-weather|SunnyDay|[upkeep]
 |turn|2
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Plohka|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Hatterene|Calm Mind|p1a: Hatterene
 |-boost|p1a: Hatterene|spa|1
 |-boost|p1a: Hatterene|spd|1
@@ -86,7 +86,7 @@
 |faint|p1a: Hatterene
 |
 |-weather|none
-|-sideend|p2: Plohka|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Torkoal|Torkoal, M, shiny|100/100
 |-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
@@ -95,10 +95,10 @@
 |move|p2a: Braviary|Psychic|p1a: Torkoal
 |-damage|p1a: Torkoal|24/100
 |move|p1a: Torkoal|Stealth Rock|p2a: Braviary
-|-sidestart|p2: Plohka|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
-|-sideend|p2: Plohka|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |move|p2a: Braviary|Psychic|p1a: Torkoal
@@ -147,7 +147,7 @@
 |turn|14
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Plohka|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Lilligant|Leaf Blade|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|46/100
 |
@@ -233,4 +233,4 @@
 |-damage|p2a: Grimmsnarl|0 fnt
 |faint|p2a: Grimmsnarl
 |
-|win|XT4S1S
+|win|p1

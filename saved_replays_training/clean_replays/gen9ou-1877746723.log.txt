@@ -19,7 +19,7 @@
 |turn|1
 |
 |move|p1a: JetJoint|Reflect|p1a: JetJoint
-|-sidestart|p1: Mognum62|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: kill bill|U-turn|p1a: JetJoint
 |-resisted|p1a: JetJoint
 |-damage|p1a: JetJoint|98/100
@@ -51,13 +51,13 @@
 |switch|p2a: 6th water type|Ditto, shiny|100/100
 |-transform|p2a: 6th water type|p1a: JetJoint|[from] ability: Imposter
 |move|p1a: JetJoint|Light Screen|p1a: JetJoint
-|-sidestart|p1: Mognum62|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-weather|RainDance|[upkeep]
 |turn|4
 |
 |move|p2a: 6th water type|Reflect|p2a: 6th water type
-|-sidestart|p2: Dr. Drake6782|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: JetJoint|Will-O-Wisp|p2a: 6th water type
 |-status|p2a: 6th water type|brn
 |
@@ -67,7 +67,7 @@
 |
 |switch|p1a: Gone in 2 days|Magearna|100/100
 |move|p2a: 6th water type|Light Screen|p2a: 6th water type
-|-sidestart|p2: Dr. Drake6782|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-weather|RainDance|[upkeep]
 |-damage|p2a: 6th water type|88/100 brn|[from] brn
@@ -116,8 +116,8 @@
 |-weather|none
 |-heal|p1a: Gone in 2 days|32/100|[from] item: Leftovers
 |-damage|p2a: poseidon blade|15/100 brn|[from] brn
-|-sideend|p1: Mognum62|Reflect
-|-sideend|p2: Dr. Drake6782|Reflect
+|-sideend|p1: p1|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |move|p1a: Gone in 2 days|Draining Kiss|p2a: poseidon blade
@@ -130,7 +130,7 @@
 |-boost|p1a: Gone in 2 days|spa|1
 |
 |-heal|p1a: Gone in 2 days|49/100|[from] item: Leftovers
-|-sideend|p2: Dr. Drake6782|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p2a: kill bill|Pelipper, F, shiny|100/100
 |-weather|RainDance|[from] ability: Drizzle|[of] p2a: kill bill
@@ -145,7 +145,7 @@
 |-boost|p1a: Gone in 2 days|spa|1
 |
 |-weather|RainDance|[upkeep]
-|-sideend|p1: Mognum62|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: crasher wake|Floatzel, F, shiny|100/100
 |turn|11
@@ -226,4 +226,4 @@
 |faint|p1a: 1200s Goober
 |-damage|p2a: mark 5:9|37/100 brn|[from] Recoil
 |
-|win|Dr. Drake6782
+|win|p2

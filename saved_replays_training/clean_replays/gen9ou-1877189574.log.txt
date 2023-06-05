@@ -18,22 +18,22 @@
 |turn|1
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: TheDarkar|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Dragapult|Thunder Wave|p2a: Grimmsnarl
 |-status|p2a: Grimmsnarl|par
 |
 |turn|2
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: TheDarkar|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: El_Poco|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|3
 |
 |switch|p2a: Ursaluna|Ursaluna, M|100/100
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: El_Poco|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-status|p2a: Ursaluna|brn|[from] item: Flame Orb
 |turn|4
@@ -85,7 +85,7 @@
 |-boost|p2a: Lilligant|def|1
 |-boost|p2a: Lilligant|spe|1
 |
-|-sideend|p2: TheDarkar|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |move|p2a: Lilligant|Leaf Blade|p1a: Kleavor
@@ -95,8 +95,8 @@
 |-damage|p2a: Lilligant|0 fnt
 |faint|p2a: Lilligant
 |
-|-sideend|p1: El_Poco|Reflect
-|-sideend|p2: TheDarkar|move: Light Screen
+|-sideend|p1: p1|Reflect
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p2a: Sneasler|Sneasler, F|100/100
 |turn|10
@@ -106,7 +106,7 @@
 |-damage|p2a: Sneasler|0 fnt
 |faint|p2a: Sneasler
 |
-|-sideend|p1: El_Poco|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Braviary|Braviary-Hisui, M|100/100
 |turn|11
@@ -115,6 +115,6 @@
 |-damage|p2a: Braviary|0 fnt
 |faint|p2a: Braviary
 |
-|-message|TheDarkar forfeited.
+|-message|p2 forfeited.
 |
-|win|El_Poco
+|win|p1

@@ -23,14 +23,14 @@
 |
 |switch|p1a: Magearna|Magearna|100/100|[from] U-turn
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Winterchillz|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|2
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Winterchillz|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Magearna|Spikes|p2a: Dragapult
-|-sidestart|p2: Winterchillz|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|3
 |
@@ -38,7 +38,7 @@
 |-start|p1a: Magearna|Curse|[of] p2a: Dragapult
 |-damage|p2a: Dragapult|35/100
 |move|p1a: Magearna|Spikes|p2a: Dragapult
-|-sidestart|p2: Winterchillz|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-damage|p1a: Magearna|75/100|[from] Curse
 |turn|4
@@ -84,7 +84,7 @@
 |-damage|p2a: Volcarona|83/100
 |-boost|p1a: Skeledirge|spa|1
 |
-|-sideend|p2: Winterchillz|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |-terastallize|p2a: Volcarona|Ground
@@ -94,7 +94,7 @@
 |move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
 |-heal|p1a: Skeledirge|84/100
 |
-|-sideend|p2: Winterchillz|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|10
 |
 |switch|p1a: Rotom|Rotom-Wash|100/100
@@ -141,7 +141,7 @@
 |turn|15
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Winterchillz|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
 |-boost|p1a: Dragonite|atk|1
 |-boost|p1a: Dragonite|spe|1
@@ -165,6 +165,6 @@
 |-damage|p2a: Zamazenta|0 fnt
 |faint|p2a: Zamazenta
 |
-|-message|Winterchillz forfeited.
+|-message|p2 forfeited.
 |
-|win|aeziolu
+|win|p1

@@ -1,0 +1,434 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Zapdos|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Great Tusk|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Basculegion, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|55/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|52/100
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|25/100
+|-hitcount|p2a: Zapdos|3
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-terastallize|p2a: Urshifu|Water
+|move|p2a: Urshifu|Surging Strikes|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|86/100
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|69/100
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|54/100
+|-hitcount|p1a: Pelipper|3
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: Zapdos|Zapdos|25/100
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|75/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|89/100
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Slowking|Sludge Bomb|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|47/100
+|-status|p2a: Chien-Pao|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Chien-Pao|34/100 psn|[from] psn
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|18/100
+|
+|-weather|none
+|-heal|p1a: Great Tusk|25/100|[from] item: Leftovers
+|-damage|p2a: Chien-Pao|22/100 psn|[from] psn
+|turn|9
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Chien-Pao|10/100 psn|[from] psn
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|turn|10
+|
+|switch|p2a: Zapdos|Zapdos|75/100
+|move|p1a: Basculegion|Aqua Jet|p2a: Zapdos
+|-damage|p2a: Zapdos|56/100
+|
+|turn|11
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|12
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|89/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|move|p1a: Slowking|Future Sight|p2a: Great Tusk
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|13
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Great Tusk|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|74/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|57/100
+|move|p1a: Pelipper|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|97/100
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Great Tusk|move: Future Sight
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M, tera:Water|100/100
+|turn|15
+|
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|15/100
+|-damage|p1a: Basculegion|75/100|[from] Recoil
+|move|p2a: Urshifu|Surging Strikes|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|49/100
+|-resisted|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|25/100
+|-resisted|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|-hitcount|p1: Basculegion|3
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|16
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|57/100
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|15/100
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|3
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Pelipper|Pelipper, M|57/100
+|turn|17
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|42/100
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|27/100
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|11/100
+|-hitcount|p1a: Pelipper|3
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|61/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|46/100
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|31/100
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|17/100
+|-hitcount|p1a: Pelipper|3
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|67/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|19
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Zapdos|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|89/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Volt Switch
+|
+|-weather|none
+|turn|21
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Slowking|[miss]
+|-miss|p2a: Dragapult|p1a: Slowking
+|move|p1a: Slowking|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|36/100
+|
+|-heal|p2a: Dragapult|42/100|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|64/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|40/100
+|move|p1a: Slowking|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|10/100 psn
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|23
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|55/100
+|move|p2a: Chien-Pao|Crunch|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|17/100
+|-unboost|p1a: Urshifu|def|1
+|
+|-damage|p2a: Chien-Pao|0 fnt|[from] psn
+|faint|p2a: Chien-Pao
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|24
+|
+|move|p1a: Urshifu|Ice Punch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|60/100
+|move|p2a: Zapdos|Volt Switch|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M, tera:Water|15/100|[from] Volt Switch
+|
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|25
+|
+|move|p2a: Urshifu|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|91/100
+|
+|switch|p2a: Zapdos|Zapdos|60/100|[from] U-turn
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|26
+|
+|switch|p1a: Slowking|Slowking-Galar, F|74/100
+|move|p2a: Zapdos|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|61/100
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|
+|move|p2a: Iron Valiant|Psyshock|p1a: Slowking
+|-damage|p1a: Slowking|19/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M, tera:Water|15/100
+|turn|28
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|move|p2a: Urshifu|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|91/100
+|
+|switch|p2a: Zapdos|Zapdos|60/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|29
+|
+|switch|p1a: Slowking|Slowking-Galar, F|52/100
+|move|p2a: Zapdos|Hurricane|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|
+|-weather|none
+|turn|30
+|
+|move|p2a: Zapdos|Hurricane|p1a: Slowking|[miss]
+|-miss|p2a: Zapdos|p1a: Slowking
+|move|p1a: Slowking|Sludge Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|27/100
+|
+|turn|31
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|78/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Slowking|Future Sight|p2a: Zapdos
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|32
+|
+|move|p2a: Zapdos|Hurricane|p1a: Slowking|[miss]
+|-miss|p2a: Zapdos|p1a: Slowking
+|move|p1a: Slowking|Sludge Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|45/100
+|
+|turn|33
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|95/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Slowking|Sludge Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|59/100
+|
+|-end|p2a: Zapdos|move: Future Sight
+|-damage|p2a: Zapdos|16/100
+|turn|34
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|66/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Slowking|Sludge Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|32/100
+|
+|turn|35
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|82/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Slowking|Sludge Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|48/100
+|-status|p2a: Zapdos|psn
+|
+|-damage|p2a: Zapdos|35/100 psn|[from] psn
+|turn|36
+|
+|move|p2a: Zapdos|Hurricane|p1a: Slowking|[miss]
+|-miss|p2a: Zapdos|p1a: Slowking
+|move|p1a: Slowking|Sludge Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|5/100 psn
+|
+|-damage|p2a: Zapdos|0 fnt|[from] psn
+|faint|p2a: Zapdos
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M, tera:Water|15/100
+|turn|37
+|
+|move|p2a: Urshifu|Ice Spinner|p1a: Slowking
+|-damage|p1a: Slowking|8/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|n|☆p1|streamoustache
+|n|☆p2|csmic
+|n| Kenneli|kenneli
+|n| BenGayOintment|bengayointment
+|n| WonderfuLucario|wonderfulucario
+|n| ressyrock|ressyrock
+|n| RedDiamond1024|reddiamond1024
+|n| akijuen|akijuen
+|n| blabloubleh|blabloubleh
+|n| tsushurf|tsushurf
+|n| sepiroth kebab|sepirothkebab

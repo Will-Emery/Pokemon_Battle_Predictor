@@ -18,14 +18,14 @@
 |turn|1
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: insertcatpuns|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Avalugg|Stealth Rock|p2a: Dragapult
-|-sidestart|p2: insertcatpuns|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: insertcatpuns|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Avalugg|Ice Fang|p2a: Dragapult|[miss]
 |-miss|p1a: Avalugg|p2a: Dragapult
 |
@@ -41,7 +41,7 @@
 |switch|p2a: Magearna|Magearna|100/100
 |-damage|p2a: Magearna|94/100|[from] Stealth Rock
 |move|p1a: Umbreon|Reflect|p1a: Umbreon
-|-sidestart|p1: GasterBlaster31|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |-heal|p2a: Magearna|100/100|[from] item: Leftovers
 |-damage|p1a: Umbreon|88/100 brn|[from] brn
@@ -51,7 +51,7 @@
 |-boost|p2a: Magearna|spe|2
 |-boost|p2a: Magearna|atk|1
 |move|p1a: Umbreon|Light Screen|p1a: Umbreon
-|-sidestart|p1: GasterBlaster31|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-damage|p1a: Umbreon|82/100 brn|[from] brn
 |turn|6
@@ -79,7 +79,7 @@
 |-start|p1a: Arboliva|Substitute
 |-damage|p1a: Arboliva|75/100
 |
-|-sideend|p2: insertcatpuns|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |move|p2a: Magearna|Calm Mind|p2a: Magearna
@@ -89,7 +89,7 @@
 |-unboost|p2a: Magearna|atk|1
 |-heal|p1a: Arboliva|100/100
 |
-|-sideend|p2: insertcatpuns|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|10
 |
 |move|p2a: Magearna|Draining Kiss|p1a: Arboliva
@@ -110,7 +110,7 @@
 |-damage|p2a: Magearna|72/100 par
 |
 |-heal|p2a: Magearna|78/100 par|[from] item: Leftovers
-|-sideend|p1: GasterBlaster31|Reflect
+|-sideend|p1: p1|Reflect
 |turn|12
 |
 |move|p2a: Magearna|Calm Mind|p2a: Magearna
@@ -121,7 +121,7 @@
 |-damage|p2a: Magearna|64/100 par
 |
 |-heal|p2a: Magearna|70/100 par|[from] item: Leftovers
-|-sideend|p1: GasterBlaster31|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|13
 |
 |move|p2a: Magearna|Draining Kiss|p1a: Arboliva
@@ -225,4 +225,4 @@
 |-damage|p1a: Toxapex|0 fnt
 |faint|p1a: Toxapex
 |
-|win|insertcatpuns
+|win|p2

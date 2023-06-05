@@ -34,12 +34,12 @@
 |-damage|p1a: Great Tusk|48/100
 |-damage|p2a: Iron Treads|67/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
 |move|p1a: Great Tusk|Stealth Rock|p2a: Iron Treads
-|-sidestart|p2: PaRappa da Kappa|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|3
 |
 |move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
-|-sidestart|p1: demont1m3|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Great Tusk|Body Press|p2a: Iron Treads
 |-supereffective|p2a: Iron Treads
 |-damage|p2a: Iron Treads|0 fnt
@@ -100,7 +100,7 @@
 |turn|8
 |
 |move|p1a: Cresselia|Light Screen|p1a: Cresselia
-|-sidestart|p1: demont1m3|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Goodra|Acid Spray|p1a: Cresselia
 |-damage|p1a: Cresselia|84/100
 |-unboost|p1a: Cresselia|spd|2
@@ -109,7 +109,7 @@
 |turn|9
 |
 |move|p1a: Cresselia|Reflect|p1a: Cresselia
-|-sidestart|p1: demont1m3|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Goodra|Flash Cannon|p1a: Cresselia
 |-damage|p1a: Cresselia|58/100
 |
@@ -175,7 +175,7 @@
 |-damage|p1a: BrokenButterfly|26/100
 |-unboost|p1a: BrokenButterfly|spd|2
 |
-|-sideend|p1: demont1m3|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|16
 |
 |move|p1a: BrokenButterfly|Stored Power|p2a: Goodra
@@ -186,7 +186,7 @@
 |-damage|p1a: BrokenButterfly|0 fnt
 |faint|p1a: BrokenButterfly
 |
-|-sideend|p1: demont1m3|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p1a: Great Tusk|Great Tusk|48/100
 |-heal|p1a: Great Tusk|100/100|[from] move: Lunar Dance
@@ -241,7 +241,7 @@
 |-damage|p2a: Kingambit|7/100 brn|[from] move: Magma Storm|[partiallytrapped]
 |turn|21
 |player|p2|
-|player|p2|PaRappa da Kappa|102
+|player|p2|p2|102
 |
 |switch|p1a: Great Tusk|Great Tusk|98/100
 |-damage|p1a: Great Tusk|95/100|[from] Stealth Rock
@@ -261,7 +261,7 @@
 |-heal|p2a: Houndstone|94/100|[from] item: Leftovers
 |turn|23
 |player|p2|
-|player|p2|PaRappa da Kappa|102
+|player|p2|p2|102
 |
 |-end|p1a: Great Tusk|Protosynthesis|[silent]
 |switch|p1a: Heatran|Heatran, M, shiny|25/100
@@ -328,7 +328,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Falinks
 |-damage|p2a: Falinks|65/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: demont1m3|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |-heal|p2a: Falinks|71/100|[from] item: Leftovers
 |turn|29
@@ -386,4 +386,4 @@
 |-damage|p2a: Houndstone|0 fnt
 |faint|p2a: Houndstone
 |
-|win|demont1m3
+|win|p1

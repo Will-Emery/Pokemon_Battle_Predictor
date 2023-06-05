@@ -19,13 +19,13 @@
 |turn|1
 |
 |move|p1a: clitorine|Stealth Rock|p2a: Ting-Lu
-|-sidestart|p2: AIGC101|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Ting-Lu|Earthquake|p1a: clitorine
 |-supereffective|p1a: clitorine
 |-enditem|p1a: clitorine|Focus Sash
 |-damage|p1a: clitorine|1/100
 |-activate|p1a: clitorine|ability: Toxic Debris
-|-sidestart|p2: AIGC101|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |turn|2
 |
@@ -36,7 +36,7 @@
 |-supereffective|p1a: clitorine
 |-damage|p1a: clitorine|0 fnt
 |-activate|p1a: clitorine|ability: Toxic Debris
-|-sidestart|p2: AIGC101|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: clitorine
 |
 |-heal|p2a: Ting-Lu|79/100|[from] item: Leftovers
@@ -57,7 +57,7 @@
 |
 |switch|p1a: mocheté|Enamorus, F|100/100
 |move|p2a: Ting-Lu|Stealth Rock|p1a: mocheté
-|-sidestart|p1: Noctal213|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: Ting-Lu|49/100|[from] item: Leftovers
 |turn|5
@@ -97,7 +97,7 @@
 |
 |switch|p2a: Toxapex|Toxapex, M|100/100
 |-damage|p2a: Toxapex|88/100|[from] Stealth Rock
-|-sideend|p2: AIGC101|move: Toxic Spikes|[of] p2a: Toxapex
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Toxapex
 |turn|9
 |
 |move|p1a: piou piou|Thunderbolt|p2a: Toxapex
@@ -349,6 +349,6 @@
 |switch|p1a: le flow|Azumarill, M, shiny|88/100
 |-damage|p1a: le flow|76/100|[from] Stealth Rock
 |turn|33
-|-message|AIGC101 forfeited.
+|-message|p2 forfeited.
 |
-|win|Noctal213
+|win|p1

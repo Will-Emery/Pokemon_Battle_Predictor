@@ -19,7 +19,7 @@
 |
 |switch|p2a: Zapdos|Zapdos, shiny|100/100
 |move|p1a: Clodsire|Stealth Rock|p2a: Zapdos
-|-sidestart|p2: DannyZ|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
@@ -40,15 +40,15 @@
 |-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
 |-activate|p1a: Clodsire|confusion
 |move|p1a: Clodsire|Spikes|p2a: Great Tusk
-|-sidestart|p2: DannyZ|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|4
 |
 |move|p2a: Great Tusk|Rapid Spin|p1a: Clodsire
 |-damage|p1a: Clodsire|60/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: DannyZ|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
-|-sideend|p2: DannyZ|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |-end|p1a: Clodsire|confusion
 |move|p1a: Clodsire|Toxic|p2a: Great Tusk
 |-status|p2a: Great Tusk|tox
@@ -65,7 +65,7 @@
 |turn|6
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Cinderace
-|-sidestart|p1: Lerenard2.0|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Cinderace|U-turn|p2a: Great Tusk
 |-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
 |-resisted|p2a: Great Tusk
@@ -102,14 +102,14 @@
 |
 |switch|p2a: Magearna|Magearna|100/100
 |move|p1a: Clodsire|Stealth Rock|p2a: Magearna
-|-sidestart|p2: DannyZ|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|10
 |
 |switch|p1a: Cinderace|Cinderace, F|63/100
 |-damage|p1a: Cinderace|39/100|[from] Stealth Rock
 |move|p2a: Magearna|Spikes|p1a: Cinderace
-|-sidestart|p1: Lerenard2.0|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|11
 |
@@ -170,7 +170,7 @@
 |-sethp|p1a: Clodsire|38/100|[from] move: Pain Split|[silent]
 |-sethp|p2a: Magearna|41/100|[from] move: Pain Split
 |move|p1a: Clodsire|Spikes|p2a: Magearna
-|-sidestart|p2: DannyZ|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|17
 |
@@ -178,7 +178,7 @@
 |-damage|p2a: Typhlosion|43/100|[from] Stealth Rock
 |-damage|p2a: Typhlosion|31/100|[from] Spikes
 |move|p1a: Clodsire|Spikes|p2a: Typhlosion
-|-sidestart|p2: DannyZ|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|18
 |
@@ -266,4 +266,4 @@
 |-unboost|p2a: Urshifu|spd|1
 |faint|p1a: Regidrago
 |
-|win|DannyZ
+|win|p2

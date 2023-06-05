@@ -19,7 +19,7 @@
 |
 |move|p1a: Samurott|Ceaseless Edge|p2a: Scizor
 |-damage|p2a: Scizor|59/100
-|-sidestart|p2: Sizzle2466|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Scizor|Swords Dance|p2a: Scizor
 |-boost|p2a: Scizor|atk|2
 |
@@ -60,7 +60,7 @@
 |switch|p1a: Heatran|Heatran, F|100/100|[from] U-turn
 |move|p2a: Scizor|Defog|p1a: Heatran
 |-unboost|p1a: Heatran|evasion|1
-|-sideend|p2: Sizzle2466|Spikes|[from] move: Defog|[of] p2a: Scizor
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Scizor
 |
 |turn|5
 |
@@ -125,7 +125,7 @@
 |turn|11
 |
 |move|p2a: Sableye|Light Screen|p2a: Sableye
-|-sidestart|p2: Sizzle2466|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Heatran|Taunt|p2a: Sableye
 |-start|p2a: Sableye|move: Taunt
 |
@@ -163,7 +163,7 @@
 |-damage|p1a: Heatran|0 fnt
 |faint|p1a: Heatran
 |
-|-sideend|p2: Sizzle2466|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Chien-Pao|Chien-Pao|100/100
 |-ability|p1a: Chien-Pao|Sword of Ruin
@@ -201,12 +201,12 @@
 |switch|p1a: Gholdengo|Gholdengo|100/100
 |-item|p1a: Gholdengo|Air Balloon
 |move|p2a: Sableye|Reflect|p2a: Sableye
-|-sidestart|p2: Sizzle2466|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|20
 |
 |move|p2a: Sableye|Light Screen|p2a: Sableye
-|-sidestart|p2: Sizzle2466|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
 |-boost|p1a: Gholdengo|spa|2
 |
@@ -236,7 +236,7 @@
 |move|p1a: Gholdengo|Recover|p1a: Gholdengo
 |-heal|p1a: Gholdengo|63/100
 |
-|-sideend|p2: Sizzle2466|Reflect
+|-sideend|p2: p2|Reflect
 |turn|24
 |
 |move|p2a: Zapdos|Discharge|p1a: Gholdengo
@@ -246,7 +246,7 @@
 |-damage|p2a: Zapdos|43/100
 |-unboost|p2a: Zapdos|spd|1
 |
-|-sideend|p2: Sizzle2466|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|25
 |
 |move|p2a: Zapdos|Discharge|p1a: Gholdengo
@@ -266,7 +266,7 @@
 |turn|27
 |
 |move|p2a: Sableye|Reflect|p2a: Sableye
-|-sidestart|p2: Sizzle2466|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Chien-Pao|Icicle Crash|p2a: Sableye
 |-damage|p2a: Sableye|19/100
 |
@@ -310,7 +310,7 @@
 |faint|p1a: Chien-Pao
 |
 |-heal|p2a: Heatran|18/100|[from] item: Leftovers
-|-sideend|p2: Sizzle2466|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p1a: Sneasler|Sneasler, F|100/100
 |turn|32
@@ -344,6 +344,6 @@
 |cant|p1a: Sneasler|par
 |
 |turn|35
-|-message|Lalo56 forfeited.
+|-message|p1 forfeited.
 |
-|win|Sizzle2466
+|win|p2

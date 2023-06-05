@@ -1,0 +1,754 @@
+|poke|p1|Annihilape, F|
+|poke|p1|Pawmot, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Amoonguss, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Garchomp, F|
+|poke|p2|Gholdengo|
+|poke|p2|Toxapex, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Iron Valiant|Psyshock|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100
+|
+|-heal|p2a: Toxapex|41/100|[from] item: Black Sludge
+|turn|2
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: shin|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: shin
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|turn|3
+|
+|move|p1a: shin|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: p2|move: Stealth Rock
+|move|p2a: Garganacl|Stealth Rock|p1a: shin
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|4
+|
+|switch|p1a: balanced|Annihilape, F|100/100
+|-damage|p1a: balanced|94/100|[from] Stealth Rock
+|switch|p2a: Toxapex|Toxapex, M|74/100
+|-damage|p2a: Toxapex|62/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: balanced|88/100|[from] Sandstorm
+|-damage|p2a: Toxapex|55/100|[from] Sandstorm
+|-heal|p2a: Toxapex|62/100|[from] item: Black Sludge
+|turn|5
+|
+|switch|p1a: impostor!|Amoonguss, F|100/100
+|-damage|p1a: impostor!|88/100|[from] Stealth Rock
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: impostor!|82/100|[from] Sandstorm
+|-heal|p1a: impostor!|88/100|[from] item: Black Sludge
+|turn|6
+|
+|move|p2a: Garchomp|Fire Blast|p1a: impostor!|[miss]
+|-miss|p2a: Garchomp|p1a: impostor!
+|move|p1a: impostor!|Spore|p2a: Garchomp
+|-status|p2a: Garchomp|slp|[from] move: Spore
+|
+|-weather|none
+|-heal|p1a: impostor!|94/100|[from] item: Black Sludge
+|turn|7
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|cant|p2a: Garchomp|slp
+|
+|turn|8
+|
+|switch|p2a: Toxapex|Toxapex, M|95/100
+|-damage|p2a: Toxapex|82/100|[from] Stealth Rock
+|move|p1a: Iron Valiant|Psyshock|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|17/100
+|
+|-heal|p2a: Toxapex|24/100|[from] item: Black Sludge
+|turn|9
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|move|p1a: Iron Valiant|Psyshock|p2a: Garganacl
+|-damage|p2a: Garganacl|69/100
+|
+|-heal|p2a: Garganacl|75/100|[from] item: Leftovers
+|turn|10
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: balanced|Annihilape, F|88/100
+|-damage|p1a: balanced|82/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: balanced
+|-resisted|p1a: balanced
+|-damage|p1a: balanced|76/100
+|-start|p1a: balanced|move: Salt Cure|[of] p2a: Garganacl
+|
+|-heal|p2a: Garganacl|81/100|[from] item: Leftovers
+|-damage|p1a: balanced|63/100|[from] Salt Cure
+|turn|11
+|
+|switch|p1a: Iron Valiant|Iron Valiant|94/100
+|-damage|p1a: Iron Valiant|88/100|[from] Stealth Rock
+|-terastallize|p2a: Garganacl|Fairy
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|turn|12
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: impostor!|Amoonguss, F|100/100
+|-damage|p1a: impostor!|88/100|[from] Stealth Rock
+|move|p2a: Garganacl|Protect||[still]
+|-fail|p2a: Garganacl
+|
+|-heal|p1a: impostor!|94/100|[from] item: Black Sludge
+|turn|13
+|
+|switch|p2a: Toxapex|Toxapex, M|57/100
+|-damage|p2a: Toxapex|44/100|[from] Stealth Rock
+|move|p1a: impostor!|Sludge Bomb|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100
+|
+|-heal|p2a: Toxapex|41/100|[from] item: Black Sludge
+|-heal|p1a: impostor!|100/100|[from] item: Black Sludge
+|turn|14
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|91/100
+|move|p1a: impostor!|Foul Play|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|turn|15
+|
+|move|p2a: Toxapex|Surf|p1a: impostor!
+|-resisted|p1a: impostor!
+|-damage|p1a: impostor!|91/100
+|move|p1a: impostor!|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|-heal|p1a: impostor!|96/100|[from] drain|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-heal|p1a: impostor!|100/100|[from] item: Black Sludge
+|turn|16
+|
+|switch|p1a: balanced|Annihilape, F|63/100
+|-damage|p1a: balanced|57/100|[from] Stealth Rock
+|move|p2a: Toxapex|Surf|p1a: balanced
+|-damage|p1a: balanced|45/100
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|turn|17
+|
+|switch|p1a: my G|Corviknight, M|100/100
+|-damage|p1a: my G|88/100|[from] Stealth Rock
+|-ability|p1a: my G|Pressure
+|move|p2a: Toxapex|Toxic|p1a: my G
+|-immune|p1a: my G
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|turn|18
+|
+|move|p1a: my G|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p1a: my G
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: my G
+|move|p2a: Toxapex|Toxic|p1a: my G
+|-immune|p1a: my G
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|turn|19
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Fairy|100/100
+|move|p1a: my G|Body Press|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|94/100
+|
+|-heal|p2a: Garganacl|99/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: my G|U-turn|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|95/100
+|
+|switch|p1a: balanced|Annihilape, F|45/100|[from] U-turn
+|move|p2a: Garganacl|Stealth Rock|p1a: balanced
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: balanced|Bulk Up|p1a: balanced
+|-boost|p1a: balanced|atk|1
+|-boost|p1a: balanced|def|1
+|move|p2a: Garganacl|Salt Cure|p1a: balanced
+|-resisted|p1a: balanced
+|-damage|p1a: balanced|41/100
+|-start|p1a: balanced|move: Salt Cure|[of] p2a: Garganacl
+|
+|-damage|p1a: balanced|28/100|[from] Salt Cure
+|turn|22
+|
+|switch|p1a: impostor!|Amoonguss, F|100/100
+|-damage|p1a: impostor!|88/100|[from] Stealth Rock
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|
+|-heal|p1a: impostor!|94/100|[from] item: Black Sludge
+|turn|23
+|
+|switch|p1a: balanced|Annihilape, F|28/100
+|-damage|p1a: balanced|22/100|[from] Stealth Rock
+|move|p2a: Toxapex|Toxic|p1a: balanced
+|-status|p1a: balanced|tox
+|
+|-damage|p1a: balanced|16/100 tox|[from] psn
+|turn|24
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Fairy|100/100
+|move|p1a: balanced|Rest|p1a: balanced
+|-status|p1a: balanced|slp|[from] move: Rest
+|-heal|p1a: balanced|100/100 slp|[silent]
+|-enditem|p1a: balanced|Chesto Berry|[eat]
+|-curestatus|p1a: balanced|slp|[msg]
+|
+|turn|25
+|
+|switch|p1a: impostor!|Amoonguss, F|100/100
+|-damage|p1a: impostor!|88/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: impostor!
+|-damage|p1a: impostor!|79/100
+|-start|p1a: impostor!|move: Salt Cure|[of] p2a: Garganacl
+|
+|-heal|p1a: impostor!|85/100|[from] item: Black Sludge
+|-damage|p1a: impostor!|72/100|[from] Salt Cure
+|turn|26
+|
+|move|p2a: Garganacl|Salt Cure|p1a: impostor!
+|-damage|p1a: impostor!|63/100
+|move|p1a: impostor!|Sludge Bomb|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|50/100
+|
+|-heal|p2a: Garganacl|56/100|[from] item: Leftovers
+|-heal|p1a: impostor!|69/100|[from] item: Black Sludge
+|-damage|p1a: impostor!|56/100|[from] Salt Cure
+|turn|27
+|
+|switch|p1a: Iron Valiant|Iron Valiant|88/100
+|-damage|p1a: Iron Valiant|82/100|[from] Stealth Rock
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|turn|28
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|turn|29
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: balanced|Annihilape, F|100/100
+|-damage|p1a: balanced|94/100|[from] Stealth Rock
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|
+|turn|30
+|
+|move|p1a: balanced|Bulk Up|p1a: balanced
+|-boost|p1a: balanced|atk|1
+|-boost|p1a: balanced|def|1
+|move|p2a: Toxapex|Toxic|p1a: balanced
+|-status|p1a: balanced|tox
+|
+|-damage|p1a: balanced|88/100 tox|[from] psn
+|turn|31
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Fairy|100/100
+|move|p1a: balanced|Rage Fist|p2a: Garganacl
+|-damage|p2a: Garganacl|71/100
+|
+|-heal|p2a: Garganacl|77/100|[from] item: Leftovers
+|-damage|p1a: balanced|76/100 tox|[from] psn
+|turn|32
+|
+|move|p1a: balanced|Rage Fist|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|34/100
+|move|p2a: Garganacl|Salt Cure|p1a: balanced
+|-resisted|p1a: balanced
+|-damage|p1a: balanced|72/100 tox
+|-start|p1a: balanced|move: Salt Cure|[of] p2a: Garganacl
+|
+|-heal|p2a: Garganacl|41/100|[from] item: Leftovers
+|-damage|p1a: balanced|53/100 tox|[from] psn
+|-damage|p1a: balanced|41/100 tox|[from] Salt Cure
+|turn|33
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: balanced|Rest|p1a: balanced
+|-status|p1a: balanced|slp|[from] move: Rest
+|-heal|p1a: balanced|100/100 slp|[silent]
+|
+|-heal|p2a: Garganacl|47/100|[from] item: Leftovers
+|-damage|p1a: balanced|88/100 slp|[from] Salt Cure
+|turn|34
+|
+|cant|p1a: balanced|slp
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|97/100
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: balanced|76/100 slp|[from] Salt Cure
+|turn|35
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|cant|p1a: balanced|slp
+|
+|-damage|p1a: balanced|64/100 slp|[from] Salt Cure
+|turn|36
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Garchomp|Garchomp, F|94/100 slp
+|switch|p1a: impostor!|Amoonguss, F|90/100
+|-damage|p1a: impostor!|77/100|[from] Stealth Rock
+|
+|-heal|p1a: impostor!|83/100|[from] item: Black Sludge
+|turn|37
+|
+|switch|p1a: Iron Valiant|Iron Valiant|82/100
+|-damage|p1a: Iron Valiant|76/100|[from] Stealth Rock
+|cant|p2a: Garchomp|slp
+|
+|turn|38
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Iron Valiant|Psyshock|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|3/100
+|
+|-heal|p2a: Toxapex|9/100|[from] item: Black Sludge
+|turn|39
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: my G|Corviknight, M|88/100
+|-damage|p1a: my G|76/100|[from] Stealth Rock
+|-ability|p1a: my G|Pressure
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|
+|turn|40
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: my G
+|-resisted|p1a: my G
+|-damage|p1a: my G|47/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: my G|Roost|p1a: my G
+|-heal|p1a: my G|97/100
+|-singleturn|p1a: my G|move: Roost
+|
+|turn|41
+|
+|switch|p2a: Toxapex|Toxapex, M|43/100
+|move|p1a: my G|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: my G
+|
+|-heal|p2a: Toxapex|49/100|[from] item: Black Sludge
+|turn|42
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Fairy|100/100
+|move|p1a: my G|U-turn|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|97/100
+|
+|switch|p1a: balanced|Annihilape, F|64/100 slp|[from] U-turn
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|turn|43
+|
+|-curestatus|p1a: balanced|slp|[msg]
+|move|p1a: balanced|Rage Fist|p2a: Garganacl
+|-damage|p2a: Garganacl|75/100
+|move|p2a: Garganacl|Stealth Rock|p1a: balanced
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|81/100|[from] item: Leftovers
+|turn|44
+|
+|move|p1a: balanced|Bulk Up|p1a: balanced
+|-boost|p1a: balanced|atk|1
+|-boost|p1a: balanced|def|1
+|move|p2a: Garganacl|Salt Cure|p1a: balanced
+|-resisted|p1a: balanced
+|-damage|p1a: balanced|60/100
+|-start|p1a: balanced|move: Salt Cure|[of] p2a: Garganacl
+|
+|-heal|p2a: Garganacl|87/100|[from] item: Leftovers
+|-damage|p1a: balanced|47/100|[from] Salt Cure
+|turn|45
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: balanced|Bulk Up|p1a: balanced
+|-boost|p1a: balanced|atk|1
+|-boost|p1a: balanced|def|1
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p1a: balanced|35/100|[from] Salt Cure
+|turn|46
+|
+|move|p1a: balanced|Rage Fist|p2a: Garganacl
+|-damage|p2a: Garganacl|34/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|84/100
+|
+|-heal|p2a: Garganacl|90/100|[from] item: Leftovers
+|-damage|p1a: balanced|23/100|[from] Salt Cure
+|turn|47
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: balanced|Bulk Up|p1a: balanced
+|-boost|p1a: balanced|atk|1
+|-boost|p1a: balanced|def|1
+|
+|-heal|p2a: Garganacl|97/100|[from] item: Leftovers
+|-damage|p1a: balanced|10/100|[from] Salt Cure
+|turn|48
+|
+|switch|p2a: Garchomp|Garchomp, F|94/100 slp
+|move|p1a: balanced|Rest|p1a: balanced
+|-status|p1a: balanced|slp|[from] move: Rest
+|-heal|p1a: balanced|100/100 slp|[silent]
+|
+|-damage|p1a: balanced|88/100 slp|[from] Salt Cure
+|turn|49
+|
+|switch|p1a: Iron Valiant|Iron Valiant|76/100
+|-damage|p1a: Iron Valiant|69/100|[from] Stealth Rock
+|-curestatus|p2a: Garchomp|slp|[msg]
+|move|p2a: Garchomp|Fire Blast|p1a: Iron Valiant|[miss]
+|-miss|p2a: Garchomp|p1a: Iron Valiant
+|
+|turn|50
+|
+|switch|p2a: Toxapex|Toxapex, M|82/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|-unboost|p2a: Toxapex|spa|1
+|
+|-heal|p2a: Toxapex|65/100|[from] item: Black Sludge
+|turn|51
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: balanced|Annihilape, F|88/100 slp
+|-damage|p1a: balanced|82/100 slp|[from] Stealth Rock
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|
+|turn|52
+|
+|switch|p2a: Garchomp|Garchomp, F|94/100
+|switch|p1a: impostor!|Amoonguss, F|100/100
+|-damage|p1a: impostor!|88/100|[from] Stealth Rock
+|
+|-heal|p1a: impostor!|94/100|[from] item: Black Sludge
+|turn|53
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|switch|p1a: balanced|Annihilape, F|82/100 slp
+|-damage|p1a: balanced|76/100 slp|[from] Stealth Rock
+|
+|turn|54
+|
+|switch|p1a: shin|Tyranitar, M|100/100
+|-damage|p1a: shin|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: shin
+|move|p2a: Iron Valiant|Trick|p1a: shin
+|-activate|p2a: Iron Valiant|move: Trick|[of] p1a: shin
+|-item|p1a: shin|Choice Specs|[from] move: Trick
+|-item|p2a: Iron Valiant|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|94/100|[from] Sandstorm
+|-heal|p2a: Iron Valiant|100/100|[from] item: Leftovers
+|turn|55
+|
+|switch|p1a: impostor!|Amoonguss, F|100/100
+|-damage|p1a: impostor!|88/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Moonblast|p1a: impostor!
+|-resisted|p1a: impostor!
+|-damage|p1a: impostor!|65/100
+|-unboost|p1a: impostor!|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|94/100|[from] Sandstorm
+|-damage|p1a: impostor!|59/100|[from] Sandstorm
+|-heal|p2a: Iron Valiant|100/100|[from] item: Leftovers
+|-heal|p1a: impostor!|65/100|[from] item: Black Sludge
+|turn|56
+|
+|switch|p1a: my G|Corviknight, M|97/100
+|-damage|p1a: my G|85/100|[from] Stealth Rock
+|-ability|p1a: my G|Pressure
+|move|p2a: Iron Valiant|Psyshock|p1a: my G
+|-resisted|p1a: my G
+|-damage|p1a: my G|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|94/100|[from] Sandstorm
+|-heal|p2a: Iron Valiant|100/100|[from] item: Leftovers
+|turn|57
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: my G|Roost|p1a: my G
+|-heal|p1a: my G|100/100
+|-singleturn|p1a: my G|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|turn|58
+|
+|move|p2a: Gholdengo|Trick|p1a: my G
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: my G
+|-item|p1a: my G|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Rocky Helmet|[from] move: Trick
+|move|p1a: my G|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|97/100
+|-damage|p1a: my G|84/100|[from] item: Rocky Helmet|[of] p2a: Gholdengo
+|
+|switch|p1a: shin|Tyranitar, M|88/100|[from] U-turn
+|-damage|p1a: shin|76/100|[from] Stealth Rock
+|
+|-weather|none
+|turn|59
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: shin
+|-supereffective|p1a: shin
+|-damage|p1a: shin|1/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: shin|Flamethrower|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|31/100
+|
+|turn|60
+|
+|switch|p2a: Garchomp|Garchomp, F|94/100
+|move|p1a: shin|Flamethrower|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|76/100
+|
+|turn|61
+|
+|move|p2a: Garchomp|Spikes|p1a: shin
+|-sidestart|p1: p1|Spikes
+|move|p1a: shin|Flamethrower|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|57/100
+|
+|turn|62
+|
+|switch|p1a: my G|Corviknight, M|84/100
+|-damage|p1a: my G|72/100|[from] Stealth Rock
+|-ability|p1a: my G|Pressure
+|move|p2a: Garchomp|Fire Blast|p1a: my G
+|-supereffective|p1a: my G
+|-crit|p1a: my G
+|-damage|p1a: my G|0 fnt
+|faint|p1a: my G
+|-damage|p2a: Garchomp|47/100|[from] item: Life Orb
+|
+|
+|switch|p1a: goat|Pawmot, M|100/100
+|-damage|p1a: goat|94/100|[from] Stealth Rock
+|-damage|p1a: goat|82/100|[from] Spikes
+|turn|63
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Fairy|97/100
+|move|p1a: goat|Ice Punch|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|74/100
+|
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|turn|64
+|
+|switch|p1a: impostor!|Amoonguss, F|98/100
+|-damage|p1a: impostor!|86/100|[from] Stealth Rock
+|-damage|p1a: impostor!|73/100|[from] Spikes
+|move|p2a: Garganacl|Salt Cure|p1a: impostor!
+|-damage|p1a: impostor!|63/100
+|-start|p1a: impostor!|move: Salt Cure|[of] p2a: Garganacl
+|
+|-heal|p2a: Garganacl|87/100|[from] item: Leftovers
+|-heal|p1a: impostor!|70/100|[from] item: Black Sludge
+|-damage|p1a: impostor!|57/100|[from] Salt Cure
+|turn|65
+|
+|switch|p1a: balanced|Annihilape, F|76/100 slp
+|-damage|p1a: balanced|70/100 slp|[from] Stealth Rock
+|-damage|p1a: balanced|57/100 slp|[from] Spikes
+|move|p2a: Garganacl|Protect||[still]
+|-fail|p2a: Garganacl
+|
+|-heal|p2a: Garganacl|93/100|[from] item: Leftovers
+|turn|66
+|
+|switch|p2a: Garchomp|Garchomp, F|47/100
+|cant|p1a: balanced|slp
+|
+|turn|67
+|
+|switch|p1a: shin|Tyranitar, M|1/100
+|-damage|p1a: shin|0 fnt|[from] Stealth Rock
+|faint|p1a: shin
+|move|p2a: Garchomp|Spikes|p1: shin
+|-sidestart|p1: p1|Spikes
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|69/100
+|-damage|p1a: Iron Valiant|63/100|[from] Stealth Rock
+|-damage|p1a: Iron Valiant|47/100|[from] Spikes
+|turn|68
+|
+|switch|p2a: Toxapex|Toxapex, M|98/100
+|move|p1a: Iron Valiant|Psyshock|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|38/100
+|
+|-heal|p2a: Toxapex|44/100|[from] item: Black Sludge
+|turn|69
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: impostor!|Amoonguss, F|91/100
+|-damage|p1a: impostor!|78/100|[from] Stealth Rock
+|-damage|p1a: impostor!|61/100|[from] Spikes
+|switch|p2a: Garganacl|Garganacl, M, tera:Fairy|93/100
+|
+|-heal|p2a: Garganacl|99/100|[from] item: Leftovers
+|-heal|p1a: impostor!|68/100|[from] item: Black Sludge
+|turn|70
+|
+|switch|p2a: Gholdengo|Gholdengo|31/100
+|move|p1a: impostor!|Sludge Bomb|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-heal|p1a: impostor!|74/100|[from] item: Black Sludge
+|turn|71
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|81/100
+|move|p1a: impostor!|Foul Play|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|57/100
+|-damage|p1a: impostor!|57/100|[from] item: Rocky Helmet|[of] p2a: Gholdengo
+|
+|-heal|p1a: impostor!|63/100|[from] item: Black Sludge
+|turn|72
+|
+|switch|p1a: Iron Valiant|Iron Valiant|47/100
+|-damage|p1a: Iron Valiant|40/100|[from] Stealth Rock
+|-damage|p1a: Iron Valiant|24/100|[from] Spikes
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p1a: goat|Pawmot, M|82/100
+|-damage|p1a: goat|76/100|[from] Stealth Rock
+|-damage|p1a: goat|60/100|[from] Spikes
+|turn|73
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: goat|Double Shock|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|turn|74
+|
+|switch|p1a: impostor!|Amoonguss, F|97/100
+|-damage|p1a: impostor!|84/100|[from] Stealth Rock
+|-damage|p1a: impostor!|68/100|[from] Spikes
+|move|p2a: Great Tusk|Earthquake|p1a: impostor!
+|-damage|p1a: impostor!|39/100
+|
+|-heal|p1a: impostor!|45/100|[from] item: Black Sludge
+|turn|75
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|57/100
+|move|p1a: impostor!|Giga Drain|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|42/100
+|-heal|p1a: impostor!|50/100|[from] drain|[of] p2a: Gholdengo
+|
+|-heal|p1a: impostor!|57/100|[from] item: Black Sludge
+|turn|76
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: impostor!
+|-damage|p1a: impostor!|19/100
+|move|p1a: impostor!|Giga Drain|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|30/100
+|-heal|p1a: impostor!|24/100|[from] drain|[of] p2a: Gholdengo
+|
+|-heal|p1a: impostor!|30/100|[from] item: Black Sludge
+|turn|77
+|
+|switch|p1a: balanced|Annihilape, F|57/100 slp
+|-damage|p1a: balanced|51/100 slp|[from] Stealth Rock
+|-damage|p1a: balanced|35/100 slp|[from] Spikes
+|move|p2a: Gholdengo|Shadow Ball|p1a: balanced
+|-supereffective|p1a: balanced
+|-damage|p1a: balanced|0 fnt
+|faint|p1a: balanced
+|
+|
+|switch|p1a: goat|Pawmot, M|60/100
+|-damage|p1a: goat|54/100|[from] Stealth Rock
+|-damage|p1a: goat|37/100|[from] Spikes
+|turn|78
+|
+|move|p1a: goat|Revival Blessing|p1a: goat
+|
+|-heal|p1: balanced|50/100|[from] move: Revival Blessing
+|move|p2a: Gholdengo|Shadow Ball|p1a: goat
+|-damage|p1a: goat|0 fnt
+|faint|p1a: goat
+|
+|
+|switch|p1a: balanced|Annihilape, F|50/100
+|-damage|p1a: balanced|44/100|[from] Stealth Rock
+|-damage|p1a: balanced|28/100|[from] Spikes
+|turn|79
+|
+|-terastallize|p1a: balanced|Water
+|move|p2a: Gholdengo|Shadow Ball|p1a: balanced
+|-damage|p1a: balanced|0 fnt
+|faint|p1a: balanced
+|
+|
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

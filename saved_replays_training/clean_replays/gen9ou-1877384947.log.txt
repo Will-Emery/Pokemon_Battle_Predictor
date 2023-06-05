@@ -29,13 +29,13 @@
 |
 |switch|p2a: Volcarona|Volcarona, M|100/100
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: starfat|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-weather|RainDance|[upkeep]
 |turn|3
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: starfat|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
 |-boost|p2a: Volcarona|spa|1
 |-boost|p2a: Volcarona|spd|1
@@ -97,7 +97,7 @@
 |turn|9
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: ChandosHTesting|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Cinderace|U-turn|p2a: Dragapult
 |-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
 |-resisted|p2a: Dragapult
@@ -105,7 +105,7 @@
 |
 |switch|p1a: Azumarill|Azumarill, F|100/100|[from] U-turn
 |
-|-sideend|p1: starfat|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|10
 |
 |move|p2a: Dragapult|Will-O-Wisp|p1a: Azumarill
@@ -117,7 +117,7 @@
 |-heal|p1a: Azumarill|75/100 brn|[from] item: Sitrus Berry
 |
 |-damage|p1a: Azumarill|69/100 brn|[from] brn
-|-sideend|p1: starfat|Reflect
+|-sideend|p1: p1|Reflect
 |turn|11
 |
 |move|p2a: Dragapult|Hex|p1a: Azumarill
@@ -155,7 +155,7 @@
 |switch|p1a: Pelipper|Pelipper, F|100/100|[from] U-turn
 |-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
 |move|p2a: Great Tusk|Stealth Rock|p1a: Pelipper
-|-sidestart|p1: starfat|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |turn|15
@@ -179,7 +179,7 @@
 |faint|p2a: Dragapult
 |
 |-weather|RainDance|[upkeep]
-|-sideend|p1: starfat|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: Zamazenta|Zamazenta|100/100
 |-ability|p2a: Zamazenta|Dauntless Shield|boost
@@ -238,6 +238,6 @@
 |-weather|none
 |-heal|p2a: Zamazenta|44/100|[from] item: Leftovers
 |turn|22
-|-message|starfat forfeited.
+|-message|p1 forfeited.
 |
-|win|ChandosHTesting
+|win|p2

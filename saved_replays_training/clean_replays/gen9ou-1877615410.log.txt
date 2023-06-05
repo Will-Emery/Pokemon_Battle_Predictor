@@ -75,7 +75,7 @@
 |
 |switch|p1a: Muk|Muk-Alola, F|100/100
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Qishan|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|9
 |
@@ -94,7 +94,7 @@
 |
 |switch|p1a: Heatran|Heatran, F|100/100
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Qishan|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-damage|p2a: Dragapult|0 fnt|[from] psn
 |faint|p2a: Dragapult
@@ -134,7 +134,7 @@
 |-boost|p2a: Magearna|atk|1
 |
 |-heal|p2a: Magearna|81/100|[from] item: Leftovers
-|-sideend|p2: Qishan|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|15
 |
 |-terastallize|p2a: Magearna|Dragon
@@ -145,7 +145,7 @@
 |-start|p2a: Magearna|move: Taunt
 |
 |-heal|p2a: Magearna|87/100|[from] item: Leftovers
-|-sideend|p2: Qishan|Reflect
+|-sideend|p2: p2|Reflect
 |turn|16
 |
 |move|p2a: Magearna|Stored Power|p1a: Heatran
@@ -175,7 +175,7 @@
 |-resisted|p1a: Heatran
 |-damage|p1a: Heatran|48/100
 |move|p1a: Heatran|Stealth Rock|p2a: Magearna
-|-sidestart|p2: Qishan|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Magearna|80/100|[from] item: Leftovers
 |-heal|p1a: Heatran|54/100|[from] item: Leftovers
@@ -258,6 +258,6 @@
 |-unboost|p1a: Great Tusk|spd|1
 |faint|p2a: Corviknight
 |
-|-message|Qishan forfeited.
+|-message|p2 forfeited.
 |
-|win|pyrromanis
+|win|p1

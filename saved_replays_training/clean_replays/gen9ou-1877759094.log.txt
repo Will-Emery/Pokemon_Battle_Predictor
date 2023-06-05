@@ -50,7 +50,7 @@
 |switch|p1a: Torkoal|Torkoal, F|100/100
 |-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
 |move|p2a: Iron Treads|Stealth Rock|p1a: Torkoal
-|-sidestart|p1: EtherSword|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p2a: Iron Treads|59/100|[from] item: Leftovers
@@ -113,7 +113,7 @@
 |-fail|p1a: Decidueye|unboost|Attack|[from] ability: Scrappy|[of] p1a: Decidueye
 |move|p1a: Decidueye|Defog|p2a: Landorus
 |-unboost|p2a: Landorus|evasion|1
-|-sideend|p1: EtherSword|Stealth Rock|[from] move: Defog|[of] p1a: Decidueye
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Decidueye
 |
 |-weather|RainDance|[upkeep]
 |turn|11
@@ -121,7 +121,7 @@
 |switch|p1a: Torkoal|Torkoal, F|100/100
 |-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
 |move|p2a: Landorus|Stealth Rock|p1a: Torkoal
-|-sidestart|p1: EtherSword|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|12
@@ -279,7 +279,7 @@
 |
 |move|p1a: Decidueye|Defog|p2a: Pelipper
 |-unboost|p2a: Pelipper|evasion|1
-|-sideend|p1: EtherSword|Stealth Rock|[from] move: Defog|[of] p1a: Decidueye
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Decidueye
 |move|p2a: Pelipper|Roost|p2a: Pelipper
 |-heal|p2a: Pelipper|67/100
 |-singleturn|p2a: Pelipper|move: Roost
@@ -347,4 +347,4 @@
 |-damage|p2a: Landorus|0 fnt
 |faint|p2a: Landorus
 |
-|win|EtherSword
+|win|p1

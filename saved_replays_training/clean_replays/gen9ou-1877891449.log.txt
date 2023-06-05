@@ -24,14 +24,14 @@
 |turn|2
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Unwallable|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Cinderace|Pyro Ball|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|73/100
 |
 |turn|3
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Unwallable|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Cinderace|Pyro Ball|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|42/100
 |
@@ -100,7 +100,7 @@
 |-damage|p2a: Cresselia|85/100
 |
 |-damage|p2a: Cresselia|73/100|[from] move: Infestation|[partiallytrapped]
-|-sideend|p2: Unwallable|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |move|p2a: Cresselia|Stored Power|p1a: Toxapex
@@ -109,7 +109,7 @@
 |-damage|p2a: Cresselia|68/100
 |
 |-damage|p2a: Cresselia|55/100|[from] move: Infestation|[partiallytrapped]
-|-sideend|p2: Unwallable|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|11
 |
 |switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
@@ -300,7 +300,7 @@
 |turn|30
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Unwallable|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Great Tusk|Earthquake|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|6/100
 |
@@ -368,7 +368,7 @@
 |faint|p1a: Great Tusk
 |-end|p1a: Great Tusk|Protosynthesis|[silent]
 |
-|-sideend|p2: Unwallable|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p1a: Toxapex|Toxapex, F, shiny, tera:Grass|49/100
 |turn|38
@@ -403,6 +403,6 @@
 |-damage|p1a: Thundurus|0 fnt
 |faint|p1a: Thundurus
 |
-|-message|Bwah321 forfeited.
+|-message|p1 forfeited.
 |
-|win|Unwallable
+|win|p2

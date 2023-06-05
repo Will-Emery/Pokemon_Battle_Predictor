@@ -20,14 +20,14 @@
 |move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
 |-boost|p1a: Thundurus|spa|2
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Daig'lung|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|2
 |
 |move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
 |-boost|p1a: Thundurus|spa|2
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Daig'lung|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|3
 |
@@ -76,7 +76,7 @@
 |move|p2a: Arcanine|Head Smash|p1a: Great Tusk|[miss]
 |-miss|p2a: Arcanine|p1a: Great Tusk
 |
-|-sideend|p2: Daig'lung|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|9
 |
 |move|p2a: Arcanine|Head Smash|p1a: Great Tusk
@@ -88,13 +88,13 @@
 |faint|p2a: Arcanine
 |
 |-heal|p1a: Great Tusk|95/100|[from] item: Leftovers
-|-sideend|p2: Daig'lung|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
 |turn|10
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Daig'lung|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Great Tusk|Earthquake|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|75/100
 |
@@ -172,7 +172,7 @@
 |cant|p2a: Skeledirge|par
 |
 |-heal|p1a: Goodra|55/100|[from] item: Leftovers
-|-sideend|p2: Daig'lung|Reflect
+|-sideend|p2: p2|Reflect
 |turn|18
 |
 |move|p1a: Goodra|Flash Cannon|p2a: Skeledirge
@@ -261,6 +261,6 @@
 |-damage|p2a: Corviknight|0 fnt
 |faint|p2a: Corviknight
 |
-|-message|Daig'lung forfeited.
+|-message|p2 forfeited.
 |
-|win|Sencopion
+|win|p1

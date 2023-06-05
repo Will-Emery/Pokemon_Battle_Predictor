@@ -20,16 +20,16 @@
 |turn|1
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Deftab|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Zamazenta|Reflect|p1a: Zamazenta
-|-sidestart|p1: ElRompeTesoOLT|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|2
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Deftab|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
-|-sidestart|p1: ElRompeTesoOLT|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|3
 |
@@ -42,7 +42,7 @@
 |
 |switch|p2a: Great Tusk|Great Tusk|100/100
 |move|p1a: Sneasler|Toxic Spikes|p2a: Great Tusk
-|-sidestart|p2: Deftab|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-damage|p1a: Sneasler|89/100 brn|[from] brn
 |turn|5
@@ -76,8 +76,8 @@
 |switch|p1a: Electrode|Electrode-Hisui|100/100
 |cant|p2a: Great Tusk|par
 |
-|-sideend|p2: Deftab|Reflect
-|-sideend|p1: ElRompeTesoOLT|Reflect
+|-sideend|p2: p2|Reflect
+|-sideend|p1: p1|Reflect
 |turn|9
 |
 |switch|p1a: Basculegion|Basculegion, M|100/100
@@ -86,8 +86,8 @@
 |-damage|p1a: Basculegion|22/100
 |-enditem|p1a: Basculegion|Metronome|[from] move: Knock Off|[of] p2a: Great Tusk
 |
-|-sideend|p1: ElRompeTesoOLT|move: Light Screen
-|-sideend|p2: Deftab|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|10
 |
 |move|p1a: Basculegion|Liquidation|p2a: Great Tusk
@@ -109,7 +109,7 @@
 |
 |
 |switch|p2a: Clodsire|Clodsire, M|100/100
-|-sideend|p2: Deftab|move: Toxic Spikes|[of] p2a: Clodsire
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Clodsire
 |turn|12
 |
 |switch|p1a: Sneasler|Sneasler, M|60/100 brn
@@ -119,15 +119,15 @@
 |turn|13
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Deftab|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Sneasler|Toxic Spikes|p2a: Dragapult
-|-sidestart|p2: Deftab|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-damage|p1a: Sneasler|48/100 brn|[from] brn
 |turn|14
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Deftab|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Sneasler|Dire Claw|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|95/100
@@ -137,7 +137,7 @@
 |turn|15
 |
 |switch|p2a: Clodsire|Clodsire, M|100/100
-|-sideend|p2: Deftab|move: Toxic Spikes|[of] p2a: Clodsire
+|-sideend|p2: p2|move: Toxic Spikes|[of] p2a: Clodsire
 |move|p1a: Sneasler|U-turn|p2a: Clodsire
 |-resisted|p2a: Clodsire
 |-damage|p2a: Clodsire|97/100
@@ -149,7 +149,7 @@
 |
 |switch|p1a: Sneasler|Sneasler, M|42/100 brn
 |move|p2a: Clodsire|Stealth Rock|p1a: Sneasler
-|-sidestart|p1: ElRompeTesoOLT|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-damage|p1a: Sneasler|36/100 brn|[from] brn
 |turn|17
@@ -189,7 +189,7 @@
 |-status|p1a: Enamorus|tox
 |
 |-damage|p1a: Enamorus|69/100 tox|[from] psn
-|-sideend|p2: Deftab|Reflect
+|-sideend|p2: p2|Reflect
 |turn|21
 |
 |move|p1a: Enamorus|Calm Mind|p1a: Enamorus
@@ -199,7 +199,7 @@
 |-fail|p2a: Clodsire
 |
 |-damage|p1a: Enamorus|57/100 tox|[from] psn
-|-sideend|p2: Deftab|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|22
 |
 |-terastallize|p1a: Enamorus|Fairy
@@ -321,6 +321,6 @@
 |-damage|p1a: Arcanine|0 fnt
 |faint|p1a: Arcanine
 |
-|-message|ElRompeTesoOLT forfeited.
+|-message|p1 forfeited.
 |
-|win|Deftab
+|win|p2

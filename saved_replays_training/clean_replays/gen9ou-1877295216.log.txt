@@ -37,13 +37,13 @@
 |-damage|p2a: DoinTheJob|86/100
 |-boost|p1a: Ursaluna|spe|1
 |move|p2a: DoinTheJob|Spikes|p1a: Ursaluna
-|-sidestart|p1: VAlexyz|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p2a: DoinTheJob|93/100|[from] item: Leftovers
 |-damage|p1a: Ursaluna|94/100 brn|[from] brn
 |turn|4
 |player|p1|
-|player|p1|VAlexyz|hugh
+|player|p1|p1|hugh
 |
 |move|p1a: Ursaluna|Headlong Rush|p2a: DoinTheJob
 |-damage|p2a: DoinTheJob|40/100
@@ -58,28 +58,28 @@
 |-heal|p2a: DoinTheJob|46/100|[from] item: Leftovers
 |turn|5
 |player|p1|
-|player|p1|VAlexyz|hugh
+|player|p1|p1|hugh
 |
 |move|p1a: Ting-Lu|Stealth Rock|p2a: DoinTheJob
-|-sidestart|p2: IceCreamTail|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: DoinTheJob|Spikes|p1a: Ting-Lu
-|-sidestart|p1: VAlexyz|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-heal|p2a: DoinTheJob|53/100|[from] item: Leftovers
 |-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
 |turn|6
 |
 |move|p1a: Ting-Lu|Spikes|p2a: DoinTheJob
-|-sidestart|p2: IceCreamTail|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: DoinTheJob|Stealth Rock|p1a: Ting-Lu
-|-sidestart|p1: VAlexyz|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-heal|p2a: DoinTheJob|59/100|[from] item: Leftovers
 |turn|7
 |
 |switch|p2a: Baxcalibur|Baxcalibur, F|100/100
 |move|p1a: Ting-Lu|Spikes|p2a: Baxcalibur
-|-sidestart|p2: IceCreamTail|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |turn|8
 |
@@ -133,8 +133,8 @@
 |-damage|p2a: Sneasler|56/100
 |-boost|p1a: Iron Treads|spe|1
 |-enditem|p2a: Sneasler|Air Balloon
-|-sideend|p1: VAlexyz|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
-|-sideend|p1: VAlexyz|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
 |move|p2a: Sneasler|Swords Dance|p2a: Sneasler
 |-boost|p2a: Sneasler|atk|2
 |
@@ -215,7 +215,7 @@
 |-damage|p1a: Ting-Lu|43/100
 |-unboost|p2a: Gholdengo|spa|1
 |move|p1a: Ting-Lu|Spikes|p2a: Gholdengo
-|-sidestart|p2: IceCreamTail|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p1a: Ting-Lu|49/100|[from] item: Leftovers
 |turn|22
@@ -318,4 +318,4 @@
 |-damage|p2a: Zapdos|0 fnt
 |faint|p2a: Zapdos
 |
-|win|VAlexyz
+|win|p1

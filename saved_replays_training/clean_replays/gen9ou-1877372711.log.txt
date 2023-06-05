@@ -17,10 +17,10 @@
 |switch|p2a: Dragapult|Dragapult, M|100/100
 |turn|1
 |player|p1|
-|player|p1|realspades|2
+|player|p1|p1|2
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: X-Scizor|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Cinderace|Will-O-Wisp|p2a: Dragapult
 |-status|p2a: Dragapult|brn
 |
@@ -28,7 +28,7 @@
 |turn|2
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: X-Scizor|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Cinderace|U-turn|p2a: Dragapult
 |-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
 |-resisted|p2a: Dragapult
@@ -96,22 +96,22 @@
 |-damage|p2a: Samurott|64/100
 |
 |-heal|p1a: Great Tusk|40/100|[from] item: Leftovers
-|-sideend|p2: X-Scizor|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
 |-damage|p1a: Great Tusk|17/100
-|-sidestart|p1: realspades|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Great Tusk|Stealth Rock|p2a: Samurott
-|-sidestart|p2: X-Scizor|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Great Tusk|23/100|[from] item: Leftovers
-|-sideend|p2: X-Scizor|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|10
 |
 |move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
 |-damage|p1a: Great Tusk|1/100
-|-sidestart|p1: realspades|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Great Tusk|Earthquake|p2a: Samurott
 |-damage|p2a: Samurott|3/100
 |
@@ -124,7 +124,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Breloom
 |-resisted|p1a: Breloom
 |-damage|p1a: Breloom|46/100
-|-sidestart|p1: realspades|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|12
 |
@@ -141,7 +141,7 @@
 |turn|13
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: X-Scizor|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Breloom|Rock Tomb|p2a: Dragapult
 |-damage|p2a: Dragapult|21/100 brn
 |-unboost|p2a: Dragapult|spe|1
@@ -228,7 +228,7 @@
 |-boost|p2a: Magearna|spa|1
 |
 |-heal|p2a: Magearna|51/100|[from] item: Leftovers
-|-sideend|p2: X-Scizor|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p1a: Dragapult|Dragapult, M|87/100
 |-damage|p1a: Dragapult|62/100|[from] Spikes
@@ -274,4 +274,4 @@
 |-damage|p1a: Cinderace|0 fnt
 |faint|p1a: Cinderace
 |
-|win|X-Scizor
+|win|p2

@@ -27,14 +27,14 @@
 |move|p2a: Rotom|Hydro Pump|p1a: Pincurchin|[miss]
 |-miss|p2a: Rotom|p1a: Pincurchin
 |move|p1a: Pincurchin|Toxic Spikes|p2a: Rotom
-|-sidestart|p2: SoaringSkies20102|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |turn|3
 |
 |move|p2a: Rotom|Hydro Pump|p1a: Pincurchin|[miss]
 |-miss|p2a: Rotom|p1a: Pincurchin
 |move|p1a: Pincurchin|Toxic Spikes|p2a: Rotom
-|-sidestart|p2: SoaringSkies20102|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |turn|4
 |
@@ -92,7 +92,7 @@
 |turn|9
 |
 |move|p2a: Moltres|Tailwind|p2a: Moltres
-|-sidestart|p2: SoaringSkies20102|move: Tailwind
+|-sidestart|p2: p2|move: Tailwind
 |move|p1a: Pincurchin|Thunder Wave|p2a: Moltres
 |-status|p2a: Moltres|par
 |
@@ -118,11 +118,11 @@
 |-heal|p1a: Hatterene|85/100|[from] drain|[of] p2a: Moltres
 |
 |-heal|p1a: Hatterene|91/100|[from] item: Leftovers
-|-sideend|p2: SoaringSkies20102|move: Tailwind
+|-sideend|p2: p2|move: Tailwind
 |turn|13
 |
 |move|p2a: Moltres|Tailwind|p2a: Moltres
-|-sidestart|p2: SoaringSkies20102|move: Tailwind
+|-sidestart|p2: p2|move: Tailwind
 |move|p1a: Hatterene|Draining Kiss|p2a: Moltres
 |-supereffective|p2a: Moltres
 |-damage|p2a: Moltres|0 fnt
@@ -138,7 +138,7 @@
 |move|p2a: Iron Treads|Rapid Spin|p1a: Hatterene
 |-damage|p1a: Hatterene|89/100
 |-boost|p2a: Iron Treads|spe|1
-|-sideend|p2: SoaringSkies20102|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sideend|p2: p2|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
 |move|p1a: Hatterene|Mystical Fire|p2a: Iron Treads
 |-supereffective|p2a: Iron Treads
 |-damage|p2a: Iron Treads|68/100
@@ -168,7 +168,7 @@
 |-damage|p2a: Arcanine|91/100
 |-unboost|p2a: Arcanine|spa|1
 |
-|-sideend|p2: SoaringSkies20102|move: Tailwind
+|-sideend|p2: p2|move: Tailwind
 |turn|17
 |
 |switch|p1a: Pincurchin|Pincurchin, M|21/100
@@ -307,4 +307,4 @@
 |faint|p1a: Iron Moth
 |-end|p1a: Iron Moth|Quark Drive|[silent]
 |
-|win|SoaringSkies20102
+|win|p2

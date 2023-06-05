@@ -18,28 +18,28 @@
 |turn|1
 |
 |move|p2a: Garchomp|Spikes|p1a: Glimmora
-|-sidestart|p1: PecDacier|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Glimmora|Stealth Rock|p2a: Garchomp
-|-sidestart|p2: CapnTophat|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
 |move|p2a: Garchomp|Spikes|p1a: Glimmora
-|-sidestart|p1: PecDacier|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Glimmora|Mortal Spin|p2a: Garchomp
 |-resisted|p2a: Garchomp
 |-crit|p2a: Garchomp
 |-damage|p2a: Garchomp|96/100
 |-status|p2a: Garchomp|psn
 |-damage|p1a: Glimmora|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
-|-sideend|p1: PecDacier|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-sideend|p1: p1|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
 |
 |-damage|p2a: Garchomp|83/100 psn|[from] psn
 |turn|3
 |
 |switch|p1a: Azumarill|Azumarill, F|100/100
 |move|p2a: Garchomp|Spikes|p1a: Azumarill
-|-sidestart|p1: PecDacier|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-damage|p2a: Garchomp|71/100 psn|[from] psn
 |turn|4
@@ -76,7 +76,7 @@
 |-damage|p2a: Zapdos|96/100
 |-status|p2a: Zapdos|psn
 |-status|p1a: Glimmora|par|[from] ability: Static|[of] p2a: Zapdos
-|-sideend|p1: PecDacier|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-sideend|p1: p1|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
 |move|p2a: Zapdos|Volt Switch|p1a: Glimmora
 |-damage|p1a: Glimmora|37/100 par
 |
@@ -87,7 +87,7 @@
 |turn|7
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Glimmora
-|-sidestart|p1: PecDacier|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Glimmora|Energy Ball|p2a: Great Tusk
 |-supereffective|p2a: Great Tusk
 |-damage|p2a: Great Tusk|21/100
@@ -100,14 +100,14 @@
 |-damage|p1a: Glimmora|28/100 par
 |-boost|p2a: Great Tusk|spe|1
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: CapnTophat|move: Toxic Spikes
-|-sideend|p2: CapnTophat|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
-|-sideend|p2: CapnTophat|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sidestart|p2: p2|move: Toxic Spikes
+|-sideend|p2: p2|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |move|p1a: Glimmora|Mortal Spin|p2a: Great Tusk
 |-resisted|p2a: Great Tusk
 |-damage|p2a: Great Tusk|26/100
 |-status|p2a: Great Tusk|psn
-|-sideend|p1: PecDacier|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-sideend|p1: p1|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
 |
 |-heal|p2a: Great Tusk|32/100 psn|[from] item: Leftovers
 |-damage|p2a: Great Tusk|19/100 psn|[from] psn
@@ -117,7 +117,7 @@
 |-supereffective|p1a: Glimmora
 |-damage|p1a: Glimmora|0 fnt
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: CapnTophat|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Glimmora
 |
 |-heal|p2a: Great Tusk|26/100 psn|[from] item: Leftovers
@@ -134,14 +134,14 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Zamazenta
 |-damage|p1a: Zamazenta|92/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: CapnTophat|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-heal|p2a: Great Tusk|13/100 psn|[from] item: Leftovers
 |-damage|p2a: Great Tusk|1/100 psn|[from] psn
 |turn|11
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Zamazenta
-|-sidestart|p1: PecDacier|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Zamazenta|Howl|p1a: Zamazenta
 |-boost|p1a: Zamazenta|atk|1
 |
@@ -253,4 +253,4 @@
 |faint|p1a: Kingambit
 |-end|p1a: Kingambit|fallen5|[silent]
 |
-|win|CapnTophat
+|win|p2

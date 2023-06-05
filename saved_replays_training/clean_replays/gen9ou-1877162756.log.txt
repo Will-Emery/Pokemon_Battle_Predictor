@@ -22,13 +22,13 @@
 |-ability|p1a: Landorus|Intimidate|boost
 |-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: MooeyM2|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-weather|RainDance|[upkeep]
 |turn|2
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: MooeyM2|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Landorus|Sandsear Storm|p2a: Dragapult
 |-damage|p2a: Dragapult|84/100
 |
@@ -85,7 +85,7 @@
 |
 |-weather|none
 |-heal|p2a: Garganacl|88/100|[from] item: Leftovers
-|-sideend|p2: MooeyM2|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|9
 |
 |switch|p1a: Pelipper|Pelipper, M|100/100
@@ -99,14 +99,14 @@
 |-weather|RainDance|[upkeep]
 |-heal|p2a: Garganacl|95/100|[from] item: Leftovers
 |-damage|p1a: Pelipper|49/100|[from] Salt Cure
-|-sideend|p2: MooeyM2|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |move|p1a: Pelipper|Roost|p1a: Pelipper
 |-heal|p1a: Pelipper|99/100
 |-singleturn|p1a: Pelipper|move: Roost
 |move|p2a: Garganacl|Stealth Rock|p1a: Pelipper
-|-sidestart|p1: rosko2020|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |-heal|p2a: Garganacl|100/100|[from] item: Leftovers
@@ -300,7 +300,7 @@
 |
 |switch|p2a: Rotom|Rotom-Wash|100/100
 |move|p1a: Landorus|Stealth Rock|p2a: Rotom
-|-sidestart|p2: MooeyM2|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|28
 |
@@ -377,4 +377,4 @@
 |-damage|p1a: Alomomola|0 fnt
 |faint|p1a: Alomomola
 |
-|win|MooeyM2
+|win|p2

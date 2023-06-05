@@ -52,7 +52,7 @@
 |-damage|p1a: Torkoal|12/100
 |-unboost|p2a: Dragapult|spa|2
 |move|p1a: Torkoal|Stealth Rock|p2a: Dragapult
-|-sidestart|p2: adil|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|Snow|[upkeep]
 |turn|5
@@ -133,7 +133,7 @@
 |-supereffective|p2a: Magearna
 |-damage|p2a: Magearna|31/100
 |move|p2a: Magearna|Spikes|p1a: Walking Wake
-|-sidestart|p1: Sawkuro|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-weather|Snow|[upkeep]
 |-heal|p2a: Magearna|37/100|[from] item: Leftovers
@@ -175,7 +175,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Cinderace
 |-damage|p1a: Cinderace|68/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: adil|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-heal|p2a: Great Tusk|22/100|[from] item: Leftovers
 |turn|16
@@ -241,7 +241,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: fun meta!
 |-damage|p2a: fun meta!|92/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: Sawkuro|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |
 |-weather|Snow|[upkeep]
 |-damage|p1a: Great Tusk|48/100 brn|[from] brn
@@ -435,5 +435,5 @@
 |faint|p1a: Great Tusk
 |-end|p1a: Great Tusk|Protosynthesis|[silent]
 |
-|win|adil
-|player|p1|Sawkuro|1
+|win|p2
+|player|p1|p1|1

@@ -20,7 +20,7 @@
 |
 |switch|p1a: Walking Wake|Walking Wake|100/100
 |move|p2a: Garchomp|Stealth Rock|p1a: Walking Wake
-|-sidestart|p1: Glizzward|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|RainDance|[upkeep]
 |turn|2
@@ -35,7 +35,7 @@
 |turn|3
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: phantomclaw8888|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Walking Wake|Hydro Pump|p2a: Dragapult|[miss]
 |-miss|p1a: Walking Wake|p2a: Dragapult
 |
@@ -45,7 +45,7 @@
 |-end|p1a: Walking Wake|Protosynthesis|[silent]
 |switch|p1a: Thundurus|Thundurus-Therian, M|100/100
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: phantomclaw8888|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-weather|RainDance|[upkeep]
 |turn|5
@@ -117,7 +117,7 @@
 |-damage|p1a: Volcanion|0 fnt|[from] psn
 |faint|p1a: Volcanion
 |-damage|p2a: Sneasler|28/100 brn|[from] brn
-|-sideend|p2: phantomclaw8888|Reflect
+|-sideend|p2: p2|Reflect
 |
 |switch|p1a: Pelipper|Pelipper, M|100/100
 |-damage|p1a: Pelipper|76/100|[from] Stealth Rock
@@ -135,7 +135,7 @@
 |
 |-weather|RainDance|[upkeep]
 |-damage|p2a: Sneasler|18/100 brn|[from] brn
-|-sideend|p2: phantomclaw8888|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|12
 |
 |move|p2a: Sneasler|Dire Claw|p1a: Basculegion
@@ -213,4 +213,4 @@
 |faint|p2a: Enamorus
 |-hitcount|p2: Enamorus|2
 |
-|win|Glizzward
+|win|p1

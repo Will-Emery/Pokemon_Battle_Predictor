@@ -1,0 +1,197 @@
+|poke|p1|Glimmora, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, M|
+|poke|p1|Volcarona, M|
+|poke|p2|Iron Hands|
+|poke|p2|Enamorus, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|move|p2a: Zapdos|Discharge|p1a: Glimmora
+|-damage|p1a: Glimmora|56/100
+|-status|p1a: Glimmora|par
+|move|p1a: Glimmora|Mortal Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|94/100
+|-status|p2a: Zapdos|psn
+|
+|-damage|p2a: Zapdos|82/100 psn|[from] psn
+|turn|2
+|
+|move|p2a: Zapdos|Discharge|p1a: Glimmora
+|-damage|p1a: Glimmora|11/100 par
+|cant|p1a: Glimmora|par
+|
+|-damage|p2a: Zapdos|70/100 psn|[from] psn
+|turn|3
+|
+|move|p2a: Zapdos|Discharge|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Zapdos|57/100 psn|[from] psn
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|5
+|
+|switch|p1a: IZANAMI|Dragapult, M|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: IZANAMI
+|-resisted|p1a: IZANAMI
+|-damage|p1a: IZANAMI|68/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-heal|p1a: IZANAMI|74/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: IZANAMI|Dragon Darts|p2a: Iron Moth
+|-damage|p2a: Iron Moth|58/100
+|-anim|p1a: IZANAMI|Dragon Darts|p2a: Iron Moth
+|-damage|p2a: Iron Moth|16/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: IZANAMI
+|-resisted|p1a: IZANAMI
+|-damage|p1a: IZANAMI|23/100
+|
+|-heal|p1a: IZANAMI|29/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: IZANAMI|Dragon Dance|p1a: IZANAMI
+|-boost|p1a: IZANAMI|atk|1
+|-boost|p1a: IZANAMI|spe|1
+|move|p2a: Iron Moth|Sludge Wave|p1a: IZANAMI
+|-resisted|p1a: IZANAMI
+|-damage|p1a: IZANAMI|0 fnt
+|faint|p1a: IZANAMI
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|8
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|turn|9
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|move|p2a: Iron Hands|Swords Dance|p2a: Iron Hands
+|-boost|p2a: Iron Hands|atk|2
+|
+|turn|10
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Iron Hands
+|-damage|p2a: Iron Hands|72/100
+|move|p2a: Iron Hands|Thunder Punch|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: AMATERASU|Volcarona, M, shiny|100/100
+|turn|11
+|
+|move|p1a: AMATERASU|Flamethrower|p2a: Iron Hands
+|-damage|p2a: Iron Hands|25/100
+|move|p2a: Iron Hands|Thunder Punch|p1a: AMATERASU
+|-damage|p1a: AMATERASU|0 fnt
+|-status|p2a: Iron Hands|brn|[from] ability: Flame Body|[of] p1a: AMATERASU
+|faint|p1a: AMATERASU
+|
+|-damage|p2a: Iron Hands|19/100 brn|[from] brn
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|12
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|13
+|
+|move|p2a: Enamorus|Moonblast|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-enditem|p1a: Chien-Pao|Focus Sash
+|-damage|p1a: Chien-Pao|1/100
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|14
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|45/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|faint|p1a: Chien-Pao
+|
+|-heal|p2a: Great Tusk|51/100|[from] item: Leftovers
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|15
+|
+|-terastallize|p2a: Great Tusk|Water
+|move|p2a: Great Tusk|Earthquake|p1a: Urshifu
+|-damage|p1a: Urshifu|60/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|45/100
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|39/100
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|32/100
+|-hitcount|p2a: Great Tusk|3
+|
+|-heal|p2a: Great Tusk|39/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Urshifu
+|-damage|p1a: Urshifu|14/100
+|move|p1a: Urshifu|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|5/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|-heal|p2a: Great Tusk|12/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|6/100
+|move|p2a: Great Tusk|Earthquake|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|

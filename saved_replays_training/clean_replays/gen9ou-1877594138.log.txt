@@ -60,12 +60,12 @@
 |
 |switch|p1a: Glimmora|Glimmora, F|100/100|[from] Volt Switch
 |move|p2a: Pincurchin|Spikes|p1a: Glimmora
-|-sidestart|p1: SoulHanXin|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|6
 |
 |move|p1a: Glimmora|Stealth Rock|p2a: Pincurchin
-|-sidestart|p2: KingCah|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Pincurchin|Memento|p1a: Glimmora
 |-unboost|p1a: Glimmora|atk|2
 |-unboost|p1a: Glimmora|spa|2
@@ -84,7 +84,7 @@
 |move|p1a: Glimmora|Mortal Spin|p2a: PK Thunder
 |-damage|p2a: PK Thunder|72/100
 |-status|p2a: PK Thunder|psn
-|-sideend|p1: SoulHanXin|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-sideend|p1: p1|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
 |
 |-damage|p2a: PK Thunder|60/100 psn|[from] psn
 |turn|8
@@ -115,7 +115,7 @@
 |-damage|p1a: Glimmora|0 fnt
 |-heal|p2a: Harichroma|41/100|[from] drain|[of] p1a: Glimmora
 |-activate|p1a: Glimmora|ability: Toxic Debris
-|-sidestart|p2: KingCah|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: Glimmora
 |
 |
@@ -180,6 +180,6 @@
 |switch|p1a: Chien-Pao|Chien-Pao|100/100
 |-ability|p1a: Chien-Pao|Sword of Ruin
 |turn|17
-|-message|KingCah forfeited.
+|-message|p2 forfeited.
 |
-|win|SoulHanXin
+|win|p1

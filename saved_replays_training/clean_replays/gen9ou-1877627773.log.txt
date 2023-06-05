@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Fresh willie|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Quaquaval|Aqua Step|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|75/100
 |-boost|p1a: Quaquaval|spe|1
@@ -26,7 +26,7 @@
 |turn|2
 |
 |move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
-|-sidestart|p2: Fresh willie|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Quaquaval|Aqua Step|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|49/100
 |-boost|p1a: Quaquaval|spe|1
@@ -59,7 +59,7 @@
 |
 |switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100|[from] Chilly Reception
 |move|p1a: Arcanine|Stealth Rock|p2a: Ursaluna
-|-sidestart|p2: Fresh willie|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|Snow|[upkeep]
 |-status|p2a: Ursaluna|brn|[from] item: Flame Orb
@@ -95,7 +95,7 @@
 |
 |-weather|Snow|[upkeep]
 |-damage|p2a: Ursaluna|61/100 brn|[from] brn
-|-sideend|p2: Fresh willie|Reflect
+|-sideend|p2: p2|Reflect
 |-fieldend|move: Trick Room
 |
 |switch|p1a: Cinderace|Cinderace, M|100/100
@@ -109,14 +109,14 @@
 |faint|p2a: Decidueye
 |
 |-weather|none
-|-sideend|p2: Fresh willie|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p2a: Grimmsnarl|Grimmsnarl, M|49/100
 |-damage|p2a: Grimmsnarl|37/100|[from] Stealth Rock
 |turn|10
 |
 |move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
-|-sidestart|p2: Fresh willie|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Cinderace|Pyro Ball|p2a: Grimmsnarl
 |-damage|p2a: Grimmsnarl|0 fnt
 |faint|p2a: Grimmsnarl
@@ -202,7 +202,7 @@
 |
 |-weather|none
 |-heal|p2a: Slowking|78/100|[from] item: Black Sludge
-|-sideend|p2: Fresh willie|Reflect
+|-sideend|p2: p2|Reflect
 |turn|18
 |
 |move|p2a: Slowking|Sludge Bomb|p1a: Quaquaval
@@ -256,4 +256,4 @@
 |faint|p2a: Iron Valiant
 |-end|p2a: Iron Valiant|Quark Drive|[silent]
 |
-|win|Iromike
+|win|p1

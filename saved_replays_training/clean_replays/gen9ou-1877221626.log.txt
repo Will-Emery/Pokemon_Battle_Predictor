@@ -47,7 +47,7 @@
 |-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
 |-damage|p2a: Corviknight|72/100|[from] Recoil
 |move|p1a: Landorus|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: DeltaDracorex|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Corviknight|79/100|[from] item: Leftovers
 |turn|5
@@ -79,7 +79,7 @@
 |-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
 |-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: BetaPrimePsi|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |-weather|Sandstorm|[upkeep]
 |-damage|p1a: Dragapult|88/100 tox|[from] Sandstorm
@@ -88,7 +88,7 @@
 |turn|8
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: BetaPrimePsi|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
 |-boost|p2a: Tyranitar|atk|1
 |-boost|p2a: Tyranitar|spe|1
@@ -165,7 +165,7 @@
 |switch|p1a: Decidueye|Decidueye-Hisui, F|100/100|[from] U-turn
 |
 |-heal|p2a: Tyranitar|81/100|[from] item: Leftovers
-|-sideend|p1: BetaPrimePsi|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|15
 |
 |move|p2a: Tyranitar|Stone Edge|p1a: Decidueye
@@ -176,7 +176,7 @@
 |-enditem|p2a: Tyranitar|Leftovers|[from] move: Knock Off|[of] p1a: Decidueye
 |-damage|p1a: Decidueye|60/100|[from] item: Life Orb
 |
-|-sideend|p1: BetaPrimePsi|Reflect
+|-sideend|p1: p1|Reflect
 |turn|16
 |
 |move|p2a: Tyranitar|Stone Edge|p1a: Decidueye|[miss]
@@ -219,7 +219,7 @@
 |switch|p1a: Rotom|Rotom-Heat|100/100
 |move|p2a: Corviknight|Defog|p1a: Rotom
 |-unboost|p1a: Rotom|evasion|1
-|-sideend|p2: DeltaDracorex|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |-heal|p2a: Corviknight|70/100|[from] item: Leftovers
 |turn|21
@@ -237,7 +237,7 @@
 |switch|p2a: Corviknight|Corviknight, M|70/100
 |-ability|p2a: Corviknight|Pressure
 |move|p1a: Landorus|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: DeltaDracorex|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Corviknight|76/100|[from] item: Leftovers
 |turn|23
@@ -308,14 +308,14 @@
 |-unboost|p2a: Corviknight|atk|1
 |move|p2a: Corviknight|Defog|p1a: Landorus
 |-unboost|p1a: Landorus|evasion|1
-|-sideend|p2: DeltaDracorex|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |-heal|p2a: Corviknight|45/100|[from] item: Leftovers
 |turn|30
 |
 |switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
 |move|p1a: Landorus|Stealth Rock|p2a: Arcanine
-|-sidestart|p2: DeltaDracorex|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|31
 |
@@ -331,7 +331,7 @@
 |switch|p1a: Rotom|Rotom-Heat|100/100
 |move|p2a: Corviknight|Defog|p1a: Rotom
 |-unboost|p1a: Rotom|evasion|1
-|-sideend|p2: DeltaDracorex|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
 |
 |-heal|p2a: Corviknight|45/100|[from] item: Leftovers
 |turn|33
@@ -470,4 +470,4 @@
 |-damage|p1a: Rotom|0 fnt
 |faint|p1a: Rotom
 |
-|win|DeltaDracorex
+|win|p2

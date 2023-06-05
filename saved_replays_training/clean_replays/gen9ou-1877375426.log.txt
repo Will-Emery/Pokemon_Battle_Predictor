@@ -40,9 +40,9 @@
 |turn|3
 |
 |move|p2a: Landorus|Stealth Rock|p1a: Toedscruel
-|-sidestart|p1: Sevenstrength|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Toedscruel|Spikes|p2a: Landorus
-|-sidestart|p2: harleyvision|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Toedscruel|84/100 brn|[from] item: Leftovers
@@ -55,7 +55,7 @@
 |move|p1a: Toedscruel|Rapid Spin|p2a: Landorus
 |-damage|p2a: Landorus|93/100
 |-boost|p1a: Toedscruel|spe|1
-|-sideend|p1: Sevenstrength|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Toedscruel
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Toedscruel
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Toedscruel|51/100 brn|[from] item: Leftovers
@@ -63,9 +63,9 @@
 |turn|5
 |
 |move|p2a: Landorus|Stealth Rock|p1a: Toedscruel
-|-sidestart|p1: Sevenstrength|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Toedscruel|Spikes|p2a: Landorus
-|-sidestart|p2: harleyvision|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-weather|RainDance|[upkeep]
 |-heal|p1a: Toedscruel|51/100 brn|[from] item: Leftovers
@@ -75,7 +75,7 @@
 |move|p1a: Toedscruel|Rapid Spin|p2a: Landorus
 |-damage|p2a: Landorus|91/100
 |-boost|p1a: Toedscruel|spe|1
-|-sideend|p1: Sevenstrength|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Toedscruel
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Toedscruel
 |move|p2a: Landorus|U-turn|p1a: Toedscruel
 |-supereffective|p1a: Toedscruel
 |-damage|p1a: Toedscruel|0 fnt
@@ -108,6 +108,6 @@
 |-damage|p1a: Floatzel|35/100|[from] Recoil
 |
 |-weather|none
-|-message|harleyvision forfeited.
+|-message|p2 forfeited.
 |
-|win|Sevenstrength
+|win|p1

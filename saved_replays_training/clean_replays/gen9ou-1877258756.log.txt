@@ -18,14 +18,14 @@
 |turn|1
 |
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: Zsynaps|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |move|p1a: Heatran|Stealth Rock|p2a: Dragapult
-|-sidestart|p2: Zsynaps|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|2
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: Zsynaps|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Heatran|Magma Storm|p2a: Dragapult
 |-resisted|p2a: Dragapult
 |-damage|p2a: Dragapult|87/100
@@ -92,7 +92,7 @@
 |-boost|p2a: Zamazenta|def|2
 |
 |-heal|p2a: Zamazenta|55/100|[from] item: Leftovers
-|-sideend|p2: Zsynaps|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|9
 |
 |switch|p1a: Ursaluna|Ursaluna, M|93/100 brn
@@ -101,7 +101,7 @@
 |
 |-heal|p2a: Zamazenta|61/100|[from] item: Leftovers
 |-damage|p1a: Ursaluna|87/100 brn|[from] brn
-|-sideend|p2: Zsynaps|Reflect
+|-sideend|p2: p2|Reflect
 |turn|10
 |
 |move|p2a: Zamazenta|Body Press|p1a: Ursaluna
@@ -279,4 +279,4 @@
 |-damage|p1a: Heatran|0 fnt
 |faint|p1a: Heatran
 |
-|win|Zsynaps
+|win|p2

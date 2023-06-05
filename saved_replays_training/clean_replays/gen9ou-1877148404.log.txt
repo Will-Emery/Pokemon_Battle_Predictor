@@ -19,7 +19,7 @@
 |
 |move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
 |-damage|p2a: Toxapex|72/100
-|-sidestart|p2: Granny Pie|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Toxapex|Toxic|p1a: Samurott
 |-status|p1a: Samurott|tox
 |
@@ -28,24 +28,24 @@
 |
 |move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
 |-damage|p2a: Toxapex|46/100
-|-sidestart|p2: Granny Pie|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Toxapex|Toxic Spikes|p1a: Samurott
-|-sidestart|p1: pkmnallrounder|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-damage|p1a: Samurott|82/100 tox|[from] psn
 |turn|3
 |
 |move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
 |-damage|p2a: Toxapex|19/100
-|-sidestart|p2: Granny Pie|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Toxapex|Toxic Spikes|p1a: Samurott
-|-sidestart|p1: pkmnallrounder|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-damage|p1a: Samurott|63/100 tox|[from] psn
 |turn|4
 |
 |switch|p1a: Sneasler|Sneasler, F|100/100
-|-sideend|p1: pkmnallrounder|move: Toxic Spikes|[of] p1a: Sneasler
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Sneasler
 |switch|p2a: Magearna|Magearna|100/100
 |
 |turn|5
@@ -54,7 +54,7 @@
 |-supereffective|p2a: Magearna
 |-damage|p2a: Magearna|51/100
 |move|p2a: Magearna|Spikes|p1a: Sneasler
-|-sidestart|p1: pkmnallrounder|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|6
 |
@@ -78,7 +78,7 @@
 |
 |switch|p2a: Drifblim|Drifblim, M|100/100
 |move|p1a: Great Tusk|Stealth Rock|p2a: Drifblim
-|-sidestart|p2: Granny Pie|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-damage|p1a: Great Tusk|76/100 brn|[from] brn
 |turn|9
@@ -124,6 +124,6 @@
 |-curestatus|p2: Drifblim|psn|[msg]
 |
 |turn|13
-|-message|pkmnallrounder forfeited.
+|-message|p1 forfeited.
 |
-|win|Granny Pie
+|win|p2

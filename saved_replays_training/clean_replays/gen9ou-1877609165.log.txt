@@ -18,7 +18,7 @@
 |turn|1
 |
 |move|p2a: Dragapult|Reflect|p2a: Dragapult
-|-sidestart|p2: SnoeetV|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Amoonguss|Spore|p2a: Dragapult
 |-status|p2a: Dragapult|slp|[from] move: Spore
 |
@@ -34,7 +34,7 @@
 |switch|p1a: Tornadus|Tornadus-Therian, M|100/100
 |-curestatus|p2a: Dragapult|slp|[msg]
 |move|p2a: Dragapult|Light Screen|p2a: Dragapult
-|-sidestart|p2: SnoeetV|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|4
 |
@@ -61,7 +61,7 @@
 |-ability|p1a: Landorus|Intimidate|boost
 |-unboost|p2a: Clodsire|atk|1
 |move|p2a: Clodsire|Stealth Rock|p1a: Landorus
-|-sidestart|p1: donkkut|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|7
 |
@@ -79,7 +79,7 @@
 |
 |-heal|p1a: Landorus|100/100 tox|[from] item: Leftovers
 |-damage|p1a: Landorus|89/100 tox|[from] psn
-|-sideend|p2: SnoeetV|Reflect
+|-sideend|p2: p2|Reflect
 |turn|9
 |
 |move|p1a: Landorus|U-turn|p2a: Dondozo
@@ -104,7 +104,7 @@
 |-damage|p2a: Dondozo|50/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
 |-damage|p2a: Dondozo|44/100|[from] Recoil
 |
-|-sideend|p2: SnoeetV|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|11
 |
 |move|p2a: Dondozo|Rest|p2a: Dondozo
@@ -231,6 +231,6 @@
 |
 |switch|p2a: Clodsire|Clodsire, F|100/100
 |turn|23
-|-message|SnoeetV forfeited.
+|-message|p2 forfeited.
 |
-|win|donkkut
+|win|p1

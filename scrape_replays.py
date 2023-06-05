@@ -19,13 +19,18 @@ def process_links(link_file):
         links = file.readlines()
         #remove the newline characters
         links = [link.strip() for link in links]
+
+    #variables for the location of the files for easy changing
+    #location = "saved_replays_training/dirty_replays/"
+    location = "saved_replays_testing/dirty_replays/"
+
     
     #loop through the links
     for link in links:
-        if link[link.find("gen9ou"):] in os.listdir("saved_replays_training/dirty_replays"):
+        if link[link.find("gen9ou"):] in os.listdir(location):
             print("Replay already saved")
             
-            if get_file_contents("saved_replays_training/dirty_replays/" + link[link.find("gen9ou")] + ".txt") == "Could not connect":
+            if get_file_contents(location + link[link.find("gen9ou")] + ".txt") == "Could not connect":
                 #this means the replay was not scraped successfully, try again
                 print("Replay not scraped successfully, trying again")
                 
@@ -34,7 +39,7 @@ def process_links(link_file):
                 if replay == None: continue
                 
                 else:
-                    write_to_file(replay, "saved_replays_training/dirty_replays/" + link[link.find("gen9ou"):] + ".txt")
+                    write_to_file(replay, location + link[link.find("gen9ou"):] + ".txt")
                     print("Saved replay " + link[link.find("gen9ou"):] + ".txt")
             
             continue
@@ -44,7 +49,7 @@ def process_links(link_file):
             if replay == None: continue
             
             else:
-                write_to_file(replay, "saved_replays_training/dirty_replays/" + link[link.find("gen9ou"):] + ".txt")
+                write_to_file(replay, location + link[link.find("gen9ou"):] + ".txt")
                 print("Saved replay " + link[link.find("gen9ou"):] + ".txt")
 
 
@@ -65,4 +70,7 @@ def scrape_replay(link):
 
 
 if __name__ == '__main__':
-    process_links("saved_replays_training/replay_links.txt")
+    #Replay links file variables for easy changing
+    #replay_links_file = "saved_replays_training/replay_links.txt"
+    replay_links_file = "saved_replays_testing/replay_links.txt"
+    process_links(replay_links_file)

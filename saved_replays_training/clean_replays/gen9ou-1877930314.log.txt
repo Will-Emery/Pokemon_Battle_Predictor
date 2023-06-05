@@ -19,7 +19,7 @@
 |turn|1
 |
 |move|p1a: ise giso|Stealth Rock|p2a: My Glorious King
-|-sidestart|p2: destinsimons|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: My Glorious King|Trick Room|p2a: My Glorious King
 |-fieldstart|move: Trick Room|[of] p2a: My Glorious King
 |
@@ -38,23 +38,23 @@
 |turn|3
 |
 |move|p1a: ise giso|Spikes|p2a: ZacianCustoms
-|-sidestart|p2: destinsimons|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: ZacianCustoms|Reflect|p2a: ZacianCustoms
-|-sidestart|p2: destinsimons|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-weather|Snow|[upkeep]
 |turn|4
 |
 |move|p1a: ise giso|Spikes|p2a: ZacianCustoms
-|-sidestart|p2: destinsimons|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: ZacianCustoms|Light Screen|p2a: ZacianCustoms
-|-sidestart|p2: destinsimons|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-weather|Snow|[upkeep]
 |turn|5
 |
 |move|p1a: ise giso|Spikes|p2a: ZacianCustoms
-|-sidestart|p2: destinsimons|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: ZacianCustoms|Light Screen||[still]
 |-fail|p2a: ZacianCustoms
 |
@@ -118,7 +118,7 @@
 |-damage|p2a: Cocaine Bear|64/100|[from] Spikes
 |
 |-weather|Snow|[upkeep]
-|-sideend|p2: destinsimons|Reflect
+|-sideend|p2: p2|Reflect
 |-status|p2a: Cocaine Bear|brn|[from] item: Flame Orb
 |
 |switch|p1a: Ceruledge|Ceruledge, M|100/100
@@ -137,7 +137,7 @@
 |-weather|Snow|[upkeep]
 |-heal|p1a: Ceruledge|7/100|[from] item: Leftovers
 |-damage|p2a: Cocaine Bear|58/100 brn|[from] brn
-|-sideend|p2: destinsimons|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |-fieldend|move: Trick Room
 |turn|12
 |
@@ -159,7 +159,7 @@
 |-damage|p2a: ZacianCustoms|44/100
 |-heal|p1a: Ceruledge|38/100|[from] drain|[of] p2a: ZacianCustoms
 |move|p2a: ZacianCustoms|Reflect|p2a: ZacianCustoms
-|-sidestart|p2: destinsimons|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |-heal|p1a: Ceruledge|44/100|[from] item: Leftovers
 |turn|14
@@ -245,7 +245,7 @@
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p2a: My Glorious King|54/100|[from] item: Leftovers
-|-sideend|p2: destinsimons|Reflect
+|-sideend|p2: p2|Reflect
 |turn|21
 |
 |move|p2a: My Glorious King|Flamethrower|p1a: Lilligant
@@ -362,4 +362,4 @@
 |-damage|p2a: Ou Forever|0 fnt
 |faint|p2a: Ou Forever
 |
-|win|ignapro000
+|win|p1

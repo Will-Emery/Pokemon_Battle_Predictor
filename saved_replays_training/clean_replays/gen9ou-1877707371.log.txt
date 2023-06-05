@@ -85,7 +85,7 @@
 |switch|p1a: Breloom|Breloom, F|100/100
 |-terastallize|p2a: Great Tusk|Steel
 |move|p2a: Great Tusk|Stealth Rock|p1a: Breloom
-|-sidestart|p1: atesrer|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-status|p1a: Breloom|tox|[from] item: Toxic Orb
 |turn|8
@@ -284,7 +284,7 @@
 |
 |switch|p2a: Great Tusk|Great Tusk, tera:Steel|28/100
 |move|p1a: Clodsire|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: BunnyBride|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Great Tusk|34/100|[from] item: Leftovers
 |turn|27
@@ -296,7 +296,7 @@
 |-resisted|p1a: Corviknight
 |-damage|p1a: Corviknight|82/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: BunnyBride|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-heal|p2a: Great Tusk|41/100|[from] item: Leftovers
 |-heal|p1a: Corviknight|89/100|[from] item: Leftovers
@@ -348,7 +348,7 @@
 |switch|p1a: Blissey|Blissey, F|100/100
 |-damage|p1a: Blissey|88/100|[from] Stealth Rock
 |move|p2a: Iron Moth|Toxic Spikes|p1a: Blissey
-|-sidestart|p1: atesrer|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-heal|p1a: Blissey|94/100|[from] item: Leftovers
 |-damage|p2a: Iron Moth|76/100|[from] Leech Seed|[of] p1a: Blissey
@@ -357,9 +357,9 @@
 |
 |switch|p1a: Toxapex|Toxapex, M|42/100
 |-damage|p1a: Toxapex|29/100|[from] Stealth Rock
-|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Toxapex
 |move|p2a: Iron Moth|Toxic Spikes|p1a: Toxapex
-|-sidestart|p1: atesrer|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-damage|p2a: Iron Moth|64/100|[from] Leech Seed|[of] p1a: Toxapex
 |-heal|p1a: Toxapex|41/100|[silent]
@@ -368,7 +368,7 @@
 |-end|p2a: Iron Moth|Quark Drive|[silent]
 |switch|p2a: Great Tusk|Great Tusk, tera:Steel|43/100
 |switch|p1a: Clodsire|Clodsire, F|64/100
-|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Clodsire
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Clodsire
 |
 |-heal|p2a: Great Tusk|50/100|[from] item: Leftovers
 |turn|35
@@ -401,7 +401,7 @@
 |turn|38
 |
 |move|p2a: Iron Moth|Toxic Spikes|p1a: Blissey
-|-sidestart|p1: atesrer|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |move|p1a: Blissey|Ice Beam|p2a: Iron Moth
 |-resisted|p2a: Iron Moth
 |-damage|p2a: Iron Moth|55/100
@@ -411,9 +411,9 @@
 |
 |switch|p1a: Toxapex|Toxapex, M|75/100
 |-damage|p1a: Toxapex|62/100|[from] Stealth Rock
-|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Toxapex
 |move|p2a: Iron Moth|Toxic Spikes|p1a: Toxapex
-|-sidestart|p1: atesrer|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |turn|40
 |
@@ -602,14 +602,14 @@
 |-damage|p1a: Corviknight|61/100
 |move|p1a: Corviknight|Defog|p2a: Great Tusk
 |-unboost|p2a: Great Tusk|evasion|1
-|-sideend|p1: atesrer|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
-|-sideend|p1: atesrer|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |
 |-heal|p2a: Great Tusk|23/100|[from] item: Leftovers
 |turn|59
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
-|-sidestart|p1: atesrer|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: Corviknight|Roost|p1a: Corviknight
 |-heal|p1a: Corviknight|100/100
 |-singleturn|p1a: Corviknight|move: Roost
@@ -647,7 +647,7 @@
 |-crit|p1a: Clodsire
 |-damage|p1a: Clodsire|36/100
 |move|p1a: Clodsire|Stealth Rock|p2a: Iron Moth
-|-sidestart|p2: BunnyBride|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-damage|p2a: Iron Moth|68/100|[from] Leech Seed|[of] p1a: Clodsire
 |-heal|p1a: Clodsire|44/100|[silent]
@@ -666,7 +666,7 @@
 |-crit|p1a: Clodsire
 |-damage|p1a: Clodsire|37/100
 |move|p1a: Clodsire|Spikes|p2a: Iron Moth
-|-sidestart|p2: BunnyBride|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-damage|p2a: Iron Moth|43/100|[from] Leech Seed|[of] p1a: Clodsire
 |-heal|p1a: Clodsire|45/100|[silent]
@@ -805,7 +805,7 @@
 |turn|79
 |
 |move|p2a: Iron Moth|Toxic Spikes|p1a: Blissey
-|-sidestart|p1: atesrer|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |move|p1a: Blissey|Soft-Boiled|p1a: Blissey
 |-heal|p1a: Blissey|100/100 brn
 |
@@ -815,7 +815,7 @@
 |-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
 |switch|p1a: Toxapex|Toxapex, M|38/100
 |-damage|p1a: Toxapex|25/100|[from] Stealth Rock
-|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Toxapex
 |move|p2a: Iron Moth|Morning Sun|p2a: Iron Moth
 |-heal|p2a: Iron Moth|70/100
 |
@@ -824,7 +824,7 @@
 |switch|p1a: Blissey|Blissey, F|94/100
 |-damage|p1a: Blissey|82/100|[from] Stealth Rock
 |move|p2a: Iron Moth|Toxic Spikes|p1a: Blissey
-|-sidestart|p1: atesrer|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-heal|p1a: Blissey|88/100|[from] item: Leftovers
 |turn|82
@@ -835,7 +835,7 @@
 |-damage|p2a: Hatterene|76/100|[from] Spikes
 |switch|p1a: Toxapex|Toxapex, M|59/100
 |-damage|p1a: Toxapex|46/100|[from] Stealth Rock
-|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Toxapex
 |
 |turn|83
 |
@@ -864,12 +864,12 @@
 |switch|p1a: Toxapex|Toxapex, M|79/100
 |-damage|p1a: Toxapex|67/100|[from] Stealth Rock
 |move|p2a: Iron Moth|Toxic Spikes|p1a: Toxapex
-|-sidestart|p1: atesrer|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |turn|86
 |
 |move|p2a: Iron Moth|Toxic Spikes|p1a: Toxapex
-|-sidestart|p1: atesrer|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |move|p1a: Toxapex|Chilling Water|p2a: Iron Moth
 |-supereffective|p2a: Iron Moth
 |-damage|p2a: Iron Moth|46/100
@@ -899,7 +899,7 @@
 |switch|p2a: Dragapult|Dragapult, M|39/100
 |switch|p1a: Toxapex|Toxapex, M|81/100
 |-damage|p1a: Toxapex|69/100|[from] Stealth Rock
-|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Toxapex
 |
 |turn|90
 |
@@ -1067,4 +1067,4 @@
 |-damage|p1a: Breloom|0 fnt
 |faint|p1a: Breloom
 |
-|win|BunnyBride
+|win|p2

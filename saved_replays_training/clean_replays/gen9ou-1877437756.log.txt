@@ -20,21 +20,21 @@
 |move|p1a: Rotom|Thunder Wave|p2a: Azelf|[miss]
 |-miss|p1a: Rotom|p2a: Azelf
 |move|p2a: Azelf|Reflect|p2a: Azelf
-|-sidestart|p2: Traes home|Reflect
+|-sidestart|p2: p2|Reflect
 |
 |turn|2
 |
 |move|p1a: Rotom|Thunder Wave|p2a: Azelf
 |-status|p2a: Azelf|par
 |move|p2a: Azelf|Light Screen|p2a: Azelf
-|-sidestart|p2: Traes home|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |turn|3
 |
 |switch|p1a: Chien-Pao|Chien-Pao|100/100
 |-ability|p1a: Chien-Pao|Sword of Ruin
 |move|p2a: Azelf|Stealth Rock|p1a: Chien-Pao
-|-sidestart|p1: Histriman|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|4
 |
@@ -58,18 +58,18 @@
 |
 |-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
 |-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
-|-sideend|p2: Traes home|Reflect
+|-sideend|p2: p2|Reflect
 |turn|6
 |
 |move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
 |-boost|p2a: Zamazenta|def|2
 |move|p1a: Great Tusk|Rapid Spin|p2a: Zamazenta
 |-activate|p2a: Zamazenta|move: Substitute|[damage]
-|-sideend|p1: Histriman|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |-boost|p1a: Great Tusk|spe|1
 |
 |-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
-|-sideend|p2: Traes home|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |turn|7
 |
 |move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
@@ -345,4 +345,4 @@
 |-damage|p1a: Dragonite|0 fnt
 |faint|p1a: Dragonite
 |
-|win|Traes home
+|win|p2

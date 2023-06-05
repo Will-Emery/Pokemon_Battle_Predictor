@@ -29,7 +29,7 @@
 |turn|2
 |
 |move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
-|-sidestart|p1: botbuster|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Basculegion|Wave Crash|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|4/100
 |-damage|p2a: Basculegion|71/100|[from] Recoil
@@ -38,7 +38,7 @@
 |turn|3
 |
 |move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
-|-sidestart|p1: botbuster|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Basculegion|Wave Crash|p1a: Grimmsnarl
 |-damage|p1a: Grimmsnarl|0 fnt
 |faint|p1a: Grimmsnarl
@@ -108,7 +108,7 @@
 |move|p1a: Zamazenta|Behemoth Bash|p2a: Amoonguss
 |-damage|p2a: Amoonguss|72/100
 |
-|-sideend|p1: botbuster|Reflect
+|-sideend|p1: p1|Reflect
 |turn|10
 |
 |move|p1a: Zamazenta|Body Press|p2a: Amoonguss
@@ -117,7 +117,7 @@
 |move|p2a: Amoonguss|Spore|p1a: Zamazenta
 |-status|p1a: Zamazenta|slp|[from] move: Spore
 |
-|-sideend|p1: botbuster|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|11
 |
 |switch|p2a: Pelipper|Pelipper, F|100/100
@@ -282,4 +282,4 @@
 |faint|p2a: Kingambit
 |-end|p2a: Kingambit|fallen5|[silent]
 |
-|win|botbuster
+|win|p1

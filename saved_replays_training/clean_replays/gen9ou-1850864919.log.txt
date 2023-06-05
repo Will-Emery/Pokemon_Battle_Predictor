@@ -86,7 +86,7 @@
 |
 |switch|p1a: Slowking|Slowking, M, tera:Water|39/100
 |move|p2a: Clodsire|Stealth Rock|p1a: Slowking
-|-sidestart|p1: Hana Macchia|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|9
 |
@@ -156,7 +156,7 @@
 |-ability|p2a: Corviknight|Pressure
 |move|p1a: Corviknight|Defog|p2a: Corviknight
 |-unboost|p2a: Corviknight|evasion|1
-|-sideend|p1: Hana Macchia|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
 |
 |-weather|Snow|[upkeep]
 |-heal|p2a: Corviknight|87/100|[from] item: Leftovers
@@ -169,7 +169,7 @@
 |-resisted|p1a: Corviknight
 |-damage|p1a: Corviknight|96/100
 |player|p2|
-|player|p2|Highv0ltag3|volo
+|player|p2|p2|volo
 |
 |switch|p2a: Slowking|Slowking, M|100/100|[from] U-turn
 |
@@ -326,7 +326,7 @@
 |switch|p2a: Corviknight|Corviknight, F|75/100
 |-ability|p2a: Corviknight|Pressure
 |move|p1a: Great Tusk|Stealth Rock|p2a: Corviknight
-|-sidestart|p2: Highv0ltag3|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p2a: Corviknight|81/100|[from] item: Leftovers
 |turn|31
@@ -361,7 +361,7 @@
 |
 |switch|p1a: Kingambit|Kingambit, F|100/100
 |move|p2a: Clodsire|Stealth Rock|p1a: Kingambit
-|-sidestart|p1: Hana Macchia|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|36
 |
@@ -583,7 +583,7 @@
 |move|p1a: Great Tusk|Rapid Spin|p2a: Slowking
 |-damage|p2a: Slowking|77/100
 |-boost|p1a: Great Tusk|spe|1
-|-sideend|p1: Hana Macchia|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
 |move|p2a: Slowking|Surf|p1a: Great Tusk
 |-supereffective|p1a: Great Tusk
 |-damage|p1a: Great Tusk|0 fnt
@@ -717,6 +717,6 @@
 |-damage|p2a: Meowscarada|0 fnt
 |faint|p2a: Meowscarada
 |
-|-message|Highv0ltag3 forfeited.
+|-message|p2 forfeited.
 |
-|win|Hana Macchia
+|win|p1

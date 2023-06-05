@@ -24,14 +24,14 @@
 |
 |switch|p2a: Magearna|Magearna|100/100|[from] U-turn
 |move|p1a: GET OUT OF MY LAB|Reflect|p1a: GET OUT OF MY LAB
-|-sidestart|p1: FOLFOXIRI|Reflect
+|-sidestart|p1: p1|Reflect
 |
 |turn|2
 |
 |move|p1a: GET OUT OF MY LAB|Light Screen|p1a: GET OUT OF MY LAB
-|-sidestart|p1: FOLFOXIRI|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Magearna|Spikes|p1a: GET OUT OF MY LAB
-|-sidestart|p1: FOLFOXIRI|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|3
 |
@@ -40,7 +40,7 @@
 |-ability|p2a: Magearna|Soul-Heart|boost
 |-boost|p2a: Magearna|spa|1
 |move|p2a: Magearna|Spikes|p1: GET OUT OF MY LAB
-|-sidestart|p1: FOLFOXIRI|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |
 |switch|p1a: REMOVE GENIES|Landorus-Therian, M|100/100
@@ -52,13 +52,13 @@
 |-supereffective|p2a: Magearna
 |-damage|p2a: Magearna|31/100
 |move|p2a: Magearna|Spikes|p1a: REMOVE GENIES
-|-sidestart|p1: FOLFOXIRI|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |turn|5
 |
 |switch|p2a: Zapdos|Zapdos|100/100
 |move|p1a: REMOVE GENIES|Stealth Rock|p2a: Zapdos
-|-sidestart|p2: Ahahawuq|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-fieldend|move: Psychic Terrain
 |turn|6
@@ -94,7 +94,7 @@
 |-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
 |
 |-heal|p1a: sneaslard|79/100|[from] item: Black Sludge
-|-sideend|p1: FOLFOXIRI|Reflect
+|-sideend|p1: p1|Reflect
 |turn|9
 |
 |switch|p1a: REMOVE GENIES|Landorus-Therian, M|100/100
@@ -104,9 +104,9 @@
 |-damage|p1a: REMOVE GENIES|94/100
 |-boost|p2a: Great Tusk|spe|1
 |-damage|p2a: Great Tusk|81/100|[from] item: Rocky Helmet|[of] p1a: REMOVE GENIES
-|-sideend|p2: Ahahawuq|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
-|-sideend|p1: FOLFOXIRI|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|10
 |
 |-terastallize|p1a: REMOVE GENIES|Water
@@ -120,9 +120,9 @@
 |turn|11
 |
 |move|p2a: Great Tusk|Stealth Rock|p1a: REMOVE GENIES
-|-sidestart|p1: FOLFOXIRI|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |move|p1a: REMOVE GENIES|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: Ahahawuq|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|12
 |
@@ -158,7 +158,7 @@
 |-unboost|p2a: Urshifu|def|1
 |-unboost|p2a: Urshifu|spd|1
 |-activate|p1a: creeping crystals|ability: Toxic Debris
-|-sidestart|p2: Ahahawuq|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |faint|p1a: creeping crystals
 |
 |
@@ -266,4 +266,4 @@
 |-damage|p2a: Typhlosion|0 fnt
 |faint|p2a: Typhlosion
 |
-|win|FOLFOXIRI
+|win|p1

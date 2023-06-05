@@ -21,7 +21,7 @@
 |
 |move|p1a: Latenna|Toxic Spikes|p2a: Embezzlement
 |-start|p1a: Latenna|typechange|Poison|[from] ability: Protean
-|-sidestart|p2: AnorLondoAzus|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |move|p2a: Embezzlement|U-turn|p1a: Latenna
 |-resisted|p1a: Latenna
 |-damage|p1a: Latenna|89/100
@@ -29,14 +29,14 @@
 |switch|p2a: Domestic Violence|Scizor, F|100/100|[from] U-turn
 |
 |turn|2
-|n|☆AnorLondoAzus|anorlondoazus
+|n|☆p2|anorlondoazus
 |
 |switch|p1a: Gurranq|Annihilape, F|100/100
 |move|p2a: Domestic Violence|Defog|p1a: Gurranq
 |-unboost|p1a: Gurranq|evasion|1
 |-ability|p1a: Gurranq|Defiant|boost
 |-boost|p1a: Gurranq|atk|2
-|-sideend|p2: AnorLondoAzus|Toxic Spikes|[from] move: Defog|[of] p2a: Domestic Violence
+|-sideend|p2: p2|Toxic Spikes|[from] move: Defog|[of] p2a: Domestic Violence
 |
 |turn|3
 |
@@ -116,7 +116,7 @@
 |turn|11
 |
 |move|p2a: Tax Fraud|Reflect|p2a: Tax Fraud
-|-sidestart|p2: AnorLondoAzus|Reflect
+|-sidestart|p2: p2|Reflect
 |move|p1a: Three Fingers|Switcheroo|p2a: Tax Fraud
 |-activate|p1a: Three Fingers|move: Trick|[of] p2a: Tax Fraud
 |-item|p2a: Tax Fraud|Black Sludge|[from] move: Switcheroo
@@ -129,7 +129,7 @@
 |
 |switch|p1a: Latenna|Frogadier, M, shiny|89/100
 |move|p2a: Tax Fraud|Light Screen|p2a: Tax Fraud
-|-sidestart|p2: AnorLondoAzus|move: Light Screen
+|-sidestart|p2: p2|move: Light Screen
 |
 |-damage|p2a: Tax Fraud|86/100|[from] item: Black Sludge
 |turn|13
@@ -141,7 +141,7 @@
 |switch|p2a: Cyberbullying|Dragapult, F|100/100|[from] Parting Shot
 |move|p1a: Latenna|Toxic Spikes|p2a: Cyberbullying
 |-start|p1a: Latenna|typechange|Poison|[from] ability: Protean
-|-sidestart|p2: AnorLondoAzus|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |turn|14
 |
@@ -160,7 +160,7 @@
 |-ability|p1a: Rennala|Technician|[from] ability: Trace|[of] p2a: Domestic Violence
 |move|p2a: Domestic Violence|Defog|p1a: Rennala
 |-unboost|p1a: Rennala|evasion|1
-|-sideend|p2: AnorLondoAzus|Toxic Spikes|[from] move: Defog|[of] p2a: Domestic Violence
+|-sideend|p2: p2|Toxic Spikes|[from] move: Defog|[of] p2a: Domestic Violence
 |
 |turn|16
 |
@@ -169,7 +169,7 @@
 |-damage|p1a: Rennala|0 fnt
 |faint|p1a: Rennala
 |
-|-sideend|p2: AnorLondoAzus|move: Light Screen
+|-sideend|p2: p2|move: Light Screen
 |
 |switch|p1a: Rollo|Iron Treads|100/100
 |turn|17
@@ -197,7 +197,7 @@
 |-heal|p2a: Tax Fraud|47/100 psn|[from] Grassy Terrain
 |-damage|p2a: Tax Fraud|34/100 psn|[from] item: Black Sludge
 |-damage|p2a: Tax Fraud|22/100 psn|[from] psn
-|-sideend|p2: AnorLondoAzus|Reflect
+|-sideend|p2: p2|Reflect
 |turn|19
 |
 |move|p2a: Tax Fraud|Parting Shot|p1a: Three Fingers
@@ -240,7 +240,7 @@
 |switch|p2a: Aggravated Assault|Azumarill, F|100/100
 |move|p1a: Latenna|Toxic Spikes|p2a: Aggravated Assault
 |-start|p1a: Latenna|typechange|Poison|[from] ability: Protean
-|-sidestart|p2: AnorLondoAzus|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |turn|23
 |
@@ -303,4 +303,4 @@
 |faint|p1a: Rollo
 |-end|p1a: Rollo|Quark Drive|[silent]
 |
-|win|AnorLondoAzus
+|win|p2

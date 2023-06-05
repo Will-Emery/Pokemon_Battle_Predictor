@@ -26,14 +26,14 @@
 |switch|p1a: Corviknight|Corviknight, F|100/100
 |-ability|p1a: Corviknight|Pressure
 |move|p2a: Toxapex|Toxic Spikes|p1a: Corviknight
-|-sidestart|p1: Hana Macchia|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |turn|3
 |
 |switch|p2a: Dragapult|Dragapult, F|100/100
 |move|p1a: Corviknight|Defog|p2a: Dragapult
 |-unboost|p2a: Dragapult|evasion|1
-|-sideend|p1: Hana Macchia|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: p1|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
 |
 |turn|4
 |
@@ -104,9 +104,9 @@
 |turn|12
 |
 |move|p1a: Great Tusk|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: i'm an architect|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Great Tusk|Stealth Rock|p1a: Great Tusk
-|-sidestart|p1: Hana Macchia|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|13
 |
@@ -130,7 +130,7 @@
 |move|p1a: Dragapult|Shadow Ball|p2a: Toxapex
 |-damage|p2a: Toxapex|31/100
 |move|p2a: Toxapex|Toxic Spikes|p1a: Dragapult
-|-sidestart|p1: Hana Macchia|move: Toxic Spikes
+|-sidestart|p1: p1|move: Toxic Spikes
 |
 |-heal|p2a: Toxapex|37/100|[from] item: Leftovers
 |turn|16
@@ -169,6 +169,6 @@
 |-damage|p2a: Dragapult|0 fnt
 |faint|p2a: Dragapult
 |
-|-message|i'm an architect forfeited.
+|-message|p2 forfeited.
 |
-|win|Hana Macchia
+|win|p1

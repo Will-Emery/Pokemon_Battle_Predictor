@@ -27,7 +27,7 @@
 |-miss|p2a: Garchomp|p1a: Samurott
 |move|p1a: Samurott|Ceaseless Edge|p2a: Garchomp
 |-damage|p2a: Garchomp|55/100
-|-sidestart|p2: cynthialeemontaine|Spikes
+|-sidestart|p2: p2|Spikes
 |-damage|p1a: Samurott|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
 |
 |turn|3
@@ -44,7 +44,7 @@
 |turn|4
 |
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: d18l|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Garchomp|Draco Meteor|p1a: Dragapult
 |-supereffective|p1a: Dragapult
 |-damage|p1a: Dragapult|61/100
@@ -54,9 +54,9 @@
 |turn|5
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: d18l|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Garchomp|Stealth Rock|p1a: Dragapult
-|-sidestart|p1: d18l|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|6
 |
@@ -118,7 +118,7 @@
 |-boost|p1a: Volcarona|spe|1
 |
 |-heal|p2a: Heatran|94/100|[from] item: Leftovers
-|-sideend|p1: d18l|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|12
 |
 |-terastallize|p1a: Volcarona|Ground
@@ -127,7 +127,7 @@
 |-damage|p2a: Heatran|0 fnt
 |faint|p2a: Heatran
 |
-|-sideend|p1: d18l|Reflect
+|-sideend|p1: p1|Reflect
 |
 |switch|p2a: Cresselia|Cresselia, F, shiny|100/100
 |turn|13
@@ -178,7 +178,7 @@
 |turn|18
 |
 |move|p1a: Dragapult|Reflect|p1a: Dragapult
-|-sidestart|p1: d18l|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
 |
 |-heal|p2: Cresselia|50/100|[from] move: Revival Blessing
@@ -188,7 +188,7 @@
 |switch|p2a: Magearna|Magearna, tera:Fairy|100/100
 |-damage|p2a: Magearna|88/100|[from] Spikes
 |move|p1a: Dragapult|Light Screen|p1a: Dragapult
-|-sidestart|p1: d18l|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |
 |turn|20
 |
@@ -199,7 +199,7 @@
 |-ability|p2a: Magearna|Soul-Heart|boost
 |-boost|p2a: Magearna|spa|1
 |move|p2a: Magearna|Spikes|p1: Dragapult
-|-sidestart|p1: d18l|Spikes
+|-sidestart|p1: p1|Spikes
 |
 |-damage|p2a: Magearna|63/100|[from] Curse
 |
@@ -254,7 +254,7 @@
 |-boost|p1a: Magearna|spd|1
 |
 |-heal|p2a: Heatran|44/100|[from] item: Leftovers
-|-sideend|p1: d18l|Reflect
+|-sideend|p1: p1|Reflect
 |turn|26
 |
 |move|p2a: Heatran|Taunt|p1a: Magearna
@@ -267,7 +267,7 @@
 |-ability|p1a: Magearna|Soul-Heart|boost
 |-boost|p1a: Magearna|spa|1
 |
-|-sideend|p1: d18l|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |
 |switch|p2a: Garchomp|Garchomp, M|26/100
 |-damage|p2a: Garchomp|13/100|[from] Spikes
@@ -300,6 +300,6 @@
 |-heal|p1a: Magearna|32/100 par|[from] item: Leftovers
 |-end|p1a: Magearna|move: Taunt
 |turn|29
-|-message|d18l forfeited.
+|-message|p1 forfeited.
 |
-|win|cynthialeemontaine
+|win|p2

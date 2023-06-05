@@ -24,14 +24,14 @@
 |turn|2
 |
 |move|p1a: Garchomp|Stealth Rock|p2a: Zapdos
-|-sidestart|p2: Fabiolasticot|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Zapdos|Hurricane|p1a: Garchomp
 |-damage|p1a: Garchomp|8/100
 |
 |turn|3
 |
 |move|p1a: Garchomp|Spikes|p2a: Zapdos
-|-sidestart|p2: Fabiolasticot|Spikes
+|-sidestart|p2: p2|Spikes
 |move|p2a: Zapdos|Hurricane|p1a: Garchomp
 |-crit|p1a: Garchomp
 |-damage|p1a: Garchomp|0 fnt
@@ -112,8 +112,8 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Urshifu
 |-damage|p1a: Urshifu|0 fnt
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: Fabiolasticot|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
-|-sideend|p2: Fabiolasticot|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |faint|p1a: Urshifu
 |
 |-heal|p2a: Great Tusk|60/100|[from] item: Leftovers
@@ -247,6 +247,6 @@
 |
 |switch|p2a: Skeledirge|Skeledirge, F|100/100
 |turn|22
-|-message|TuskStar forfeited.
+|-message|p1 forfeited.
 |
-|win|Fabiolasticot
+|win|p2

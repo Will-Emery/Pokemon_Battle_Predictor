@@ -41,7 +41,7 @@
 |-heal|p1a: Talonflame|100/100
 |-singleturn|p1a: Talonflame|move: Roost
 |move|p2a: Torkoal|Stealth Rock|p1a: Talonflame
-|-sidestart|p1: robupoke|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |turn|4
@@ -49,7 +49,7 @@
 |switch|p2a: vogal|Clodsire, F|100/100
 |move|p1a: Talonflame|Defog|p2a: vogal
 |-unboost|p2a: vogal|evasion|1
-|-sideend|p1: robupoke|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
 |
 |-weather|SunnyDay|[upkeep]
 |turn|5
@@ -76,7 +76,7 @@
 |-activate|p2a: Great Tusk|ability: Protosynthesis
 |-start|p2a: Great Tusk|protosynthesisatk
 |move|p1a: Clodsire|Stealth Rock|p2a: Great Tusk
-|-sidestart|p2: TheDarkMages|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p2a: Great Tusk|100/100 brn|[from] item: Leftovers
@@ -97,7 +97,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Talonflame
 |-damage|p1a: Talonflame|76/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: TheDarkMages|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-weather|none
 |-end|p2a: Great Tusk|Protosynthesis
@@ -123,7 +123,7 @@
 |-end|p2a: Walking Wake|Protosynthesis|[silent]
 |switch|p2a: vogal|Clodsire, F|94/100 brn
 |move|p1a: Clodsire|Stealth Rock|p2a: vogal
-|-sidestart|p2: TheDarkMages|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-heal|p1a: Clodsire|87/100|[from] item: Leftovers
 |-heal|p2a: vogal|100/100 brn|[from] item: Black Sludge
@@ -131,7 +131,7 @@
 |turn|13
 |
 |move|p2a: vogal|Spikes|p1a: Clodsire
-|-sidestart|p1: robupoke|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Clodsire|Earthquake|p2a: vogal
 |-supereffective|p2a: vogal
 |-damage|p2a: vogal|39/100 brn
@@ -155,7 +155,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: Talonflame
 |-damage|p1a: Talonflame|68/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: TheDarkMages|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |
 |-heal|p2a: Great Tusk|24/100 brn|[from] item: Leftovers
 |-damage|p2a: Great Tusk|18/100 brn|[from] brn
@@ -166,7 +166,7 @@
 |-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
 |move|p1a: Talonflame|Defog|p2a: Torkoal
 |-unboost|p2a: Torkoal|evasion|1
-|-sideend|p1: robupoke|Spikes|[from] move: Defog|[of] p1a: Talonflame
+|-sideend|p1: p1|Spikes|[from] move: Defog|[of] p1a: Talonflame
 |
 |-weather|SunnyDay|[upkeep]
 |turn|17
@@ -202,7 +202,7 @@
 |-end|p2a: Walking Wake|Protosynthesis|[silent]
 |switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
 |move|p1a: Clodsire|Stealth Rock|p2a: Lilligant
-|-sidestart|p2: TheDarkMages|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |-weather|SunnyDay|[upkeep]
 |-heal|p1a: Clodsire|79/100|[from] item: Leftovers
@@ -345,6 +345,6 @@
 |-boost|p1a: Magearna|spa|1
 |-end|p2a: Great Tusk|Protosynthesis|[silent]
 |
-|-message|TheDarkMages forfeited.
+|-message|p2 forfeited.
 |
-|win|robupoke
+|win|p1

@@ -24,14 +24,14 @@
 |turn|2
 |
 |move|p1a: Messier|Reflect|p1a: Messier
-|-sidestart|p1: KinTheLich|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Lilligant|Leaf Blade|p1a: Messier
 |-damage|p1a: Messier|70/100
 |
 |turn|3
 |
 |move|p1a: Messier|Light Screen|p1a: Messier
-|-sidestart|p1: KinTheLich|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Lilligant|Leaf Blade|p1a: Messier
 |-damage|p1a: Messier|35/100
 |
@@ -99,7 +99,7 @@
 |-heal|p2a: Heatran|62/100|[from] Grassy Terrain
 |-heal|p1a: Sirus|76/100|[from] Grassy Terrain
 |-end|p1a: Sirus|move: Taunt
-|-sideend|p1: KinTheLich|Reflect
+|-sideend|p1: p1|Reflect
 |turn|10
 |
 |move|p2a: Heatran|Taunt|p1a: Sirus
@@ -109,7 +109,7 @@
 |
 |-heal|p2a: Heatran|27/100|[from] Grassy Terrain
 |-heal|p1a: Sirus|82/100|[from] Grassy Terrain
-|-sideend|p1: KinTheLich|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|11
 |
 |move|p2a: Heatran|Flash Cannon|p1a: Sirus
@@ -277,7 +277,7 @@
 |turn|27
 |
 |move|p1a: Messier|Reflect|p1a: Messier
-|-sidestart|p1: KinTheLich|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Lilligant|Leaf Blade|p1a: Messier
 |-damage|p1a: Messier|0 fnt
 |faint|p1a: Messier
@@ -328,6 +328,6 @@
 |
 |switch|p1a: Gilgamesh|Great Tusk, shiny|50/100
 |turn|32
-|-message|KinTheLich forfeited.
+|-message|p1 forfeited.
 |
-|win|pontiff lombo
+|win|p2

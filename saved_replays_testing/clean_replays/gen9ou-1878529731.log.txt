@@ -1,0 +1,382 @@
+|poke|p1|Electrode-Hisui|
+|poke|p1|Regidrago|
+|poke|p1|Heatran, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Goodra-Hisui, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Electrode|Chloroblast|p2a: Clodsire
+|-damage|p2a: Clodsire|64/100
+|-damage|p1a: Electrode|50/100|[from] chloroblast
+|-damage|p1a: Electrode|41/100|[from] item: Life Orb
+|
+|-heal|p2a: Clodsire|70/100|[from] item: Black Sludge
+|turn|2
+|
+|move|p1a: Electrode|Taunt|p2a: Clodsire
+|-start|p2a: Clodsire|move: Taunt
+|cant|p2a: Clodsire|move: Taunt|Stealth Rock
+|
+|-heal|p2a: Clodsire|77/100|[from] item: Black Sludge
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Clodsire|83/100|[from] item: Black Sludge
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|5
+|
+|move|p1a: Landorus|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|switch|p1a: Heatran|Heatran, F|100/100|[from] U-turn
+|move|p2a: Corviknight|Defog|p1a: Heatran
+|-unboost|p1a: Heatran|evasion|1
+|-enditem|p1a: Heatran|Eject Pack
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|switch|p1a: Electrode|Electrode-Hisui|41/100
+|
+|turn|6
+|
+|switch|p2a: Clodsire|Clodsire, M|83/100
+|move|p1a: Electrode|Taunt|p2a: Clodsire
+|-start|p2a: Clodsire|move: Taunt
+|
+|-heal|p2a: Clodsire|89/100|[from] item: Black Sludge
+|turn|7
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|switch|p2a: Corviknight|Corviknight, F|96/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p1a: Landorus|90/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Landorus|Stone Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|move|p2a: Corviknight|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|84/100
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100|[from] U-turn
+|
+|-heal|p1a: Landorus|90/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Landorus|U-turn|p2a: Lilligant
+|-damage|p2a: Lilligant|72/100
+|
+|switch|p1a: Heatran|Heatran, F|100/100|[from] U-turn
+|
+|turn|10
+|
+|-terastallize|p1a: Heatran|Flying
+|move|p2a: Lilligant|Close Combat|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|37/100
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|move|p1a: Heatran|Overheat|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|-unboost|p1a: Heatran|spa|2
+|faint|p2a: Lilligant
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Heatran|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Heatran
+|-damage|p1a: Heatran|17/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|
+|switch|p1a: Landorus|Landorus-Therian, M|90/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Dragapult
+|turn|13
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Landorus
+|-damage|p1a: Landorus|72/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Landorus
+|-damage|p1a: Landorus|53/100
+|move|p1a: Landorus|Earthquake|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p1a: Landorus|59/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, F|71/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|-damage|p1a: Landorus|43/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from] U-turn
+|
+|turn|15
+|
+|move|p1a: Urshifu|Bulk Up|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|1
+|-boost|p1a: Urshifu|def|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|16
+|
+|move|p1a: Urshifu|Trailblaze|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|97/100
+|-boost|p1a: Urshifu|spe|1
+|-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|79/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|-heal|p1a: Urshifu|86/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Rotom|Trick|p1a: Urshifu
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Urshifu
+|-item|p1a: Urshifu|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Urshifu|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|15/100
+|-heal|p1a: Urshifu|100/100|[from] drain|[of] p2a: Rotom
+|
+|-heal|p2a: Rotom|21/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Landorus|Landorus-Therian, M|43/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|switch|p2a: Dragapult|Dragapult, M|94/100
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p1a: Landorus|49/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|move|p1a: Landorus|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|60/100
+|
+|-heal|p2a: Dragapult|66/100|[from] item: Leftovers
+|-heal|p1a: Landorus|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|49/100 brn|[from] brn
+|turn|20
+|
+|move|p2a: Dragapult|Hex|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Dragapult|72/100|[from] item: Leftovers
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|turn|21
+|
+|switch|p2a: Clodsire|Clodsire, M|89/100
+|move|p1a: Goodra|Ice Spinner|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|27/100
+|
+|-heal|p2a: Clodsire|34/100|[from] item: Black Sludge
+|turn|22
+|
+|move|p1a: Goodra|Ice Spinner|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|21/100
+|turn|23
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Goodra
+|-status|p1a: Goodra|brn
+|move|p1a: Goodra|Heavy Slam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|11/100
+|
+|-heal|p2a: Rotom|17/100|[from] item: Leftovers
+|-damage|p1a: Goodra|95/100 brn|[from] brn
+|turn|24
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|83/100 brn
+|move|p1a: Goodra|Thunder Punch|p2a: Rotom
+|-damage|p2a: Rotom|2/100
+|
+|-heal|p2a: Rotom|8/100|[from] item: Leftovers
+|-damage|p1a: Goodra|77/100 brn|[from] brn
+|turn|25
+|
+|switch|p1a: Regidrago|Regidrago|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Regidrago|[miss]
+|-miss|p2a: Rotom|p1a: Regidrago
+|
+|-heal|p2a: Rotom|14/100|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Regidrago
+|-status|p1a: Regidrago|brn
+|move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+|-boost|p1a: Regidrago|atk|1
+|-boost|p1a: Regidrago|spe|1
+|
+|-heal|p2a: Rotom|20/100|[from] item: Leftovers
+|-damage|p1a: Regidrago|94/100 brn|[from] brn
+|turn|27
+|
+|move|p1a: Regidrago|Dragon Energy|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Regidrago|88/100 brn|[from] brn
+|
+|switch|p2a: Corviknight|Corviknight, F|97/100
+|-ability|p2a: Corviknight|Pressure
+|turn|28
+|
+|move|p1a: Regidrago|Dragon Energy|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|move|p2a: Corviknight|Brave Bird|p1a: Regidrago
+|-damage|p1a: Regidrago|46/100 brn
+|-damage|p2a: Corviknight|35/100|[from] Recoil
+|
+|-damage|p1a: Regidrago|40/100 brn|[from] brn
+|turn|29
+|
+|move|p1a: Regidrago|Draco Meteor|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Regidrago|spa|2
+|-enditem|p1a: Regidrago|White Herb
+|-clearnegativeboost|p1a: Regidrago|[silent]
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Regidrago|34/100 brn|[from] brn
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|30
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|faint|p1a: Regidrago
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|31
+|
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Dragapult|Dragapult, M|72/100
+|move|p1a: Urshifu|Drain Punch|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|78/100|[from] item: Leftovers
+|turn|32
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|77/100 brn
+|move|p2a: Dragapult|Dragon Darts|p1a: Goodra
+|-damage|p1a: Goodra|55/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Goodra
+|-damage|p1a: Goodra|31/100 brn
+|
+|-heal|p2a: Dragapult|84/100|[from] item: Leftovers
+|-damage|p1a: Goodra|25/100 brn|[from] brn
+|turn|33
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|-heal|p2a: Dragapult|90/100|[from] item: Leftovers
+|
+|switch|p1a: Electrode|Electrode-Hisui|41/100
+|turn|34
+|
+|move|p1a: Electrode|Chloroblast|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|50/100
+|-damage|p1a: Electrode|0 fnt|[from] chloroblast
+|faint|p1a: Electrode
+|move|p2a: Dragapult|Dragon Darts|p1: Electrode|[notarget]
+|-fail|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|56/100|[from] item: Leftovers
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|35
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|44/100
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|29/100
+|-start|p1a: Urshifu|Disable|Surging Strikes|[from] ability: Cursed Body|[of] p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|15/100
+|-hitcount|p2a: Dragapult|3
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Urshifu
+|-status|p1a: Urshifu|brn
+|
+|-heal|p2a: Dragapult|21/100|[from] item: Leftovers
+|-damage|p1a: Urshifu|94/100 brn|[from] brn
+|turn|36
+|

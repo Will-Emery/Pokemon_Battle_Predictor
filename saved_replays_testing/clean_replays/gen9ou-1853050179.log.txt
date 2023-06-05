@@ -1,0 +1,367 @@
+|poke|p1|Ting-Lu|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, M|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Moth|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|2
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Corviknight|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|97/100
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|
+|turn|3
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Moth|Fire Blast|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|72/100
+|
+|-heal|p1a: Ting-Lu|78/100|[from] item: Leftovers
+|turn|4
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Great Tusk
+|-damage|p2a: Great Tusk|50/100
+|
+|-heal|p2a: Great Tusk|57/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|84/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|76/100
+|-enditem|p1a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Ting-Lu|Ruination|p2a: Great Tusk|[miss]
+|-miss|p1a: Ting-Lu|p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|63/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|50/100
+|move|p1a: Ting-Lu|Ruination|p2a: Great Tusk
+|-damage|p2a: Great Tusk|32/100
+|
+|-heal|p2a: Great Tusk|38/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|25/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|10/100
+|
+|-heal|p2a: Great Tusk|17/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Great Tusk|Ice Spinner|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-heal|p2a: Great Tusk|23/100|[from] item: Leftovers
+|
+|switch|p1a: Great Tusk|Great Tusk|84/100
+|turn|9
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|77/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|turn|10
+|
+|move|p1a: Great Tusk|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Corviknight|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|77/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|turn|11
+|
+|move|p1a: Great Tusk|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|47/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Rotom|Hydro Pump|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Rotom|53/100|[from] item: Leftovers
+|
+|switch|p1a: Gholdengo|Gholdengo|97/100
+|turn|12
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Gholdengo|Shadow Ball|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p2a: Rotom|59/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Moth
+|-damage|p2a: Iron Moth|21/100
+|-unboost|p2a: Iron Moth|spd|1
+|
+|turn|14
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Iron Moth|Fire Blast|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|67/100
+|
+|turn|15
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Iron Moth|Energy Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|54/100
+|
+|-heal|p2a: Garganacl|60/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Iron Moth|Energy Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|12/100
+|-unboost|p2a: Garganacl|spd|1
+|move|p2a: Garganacl|Stealth Rock|p1a: Iron Moth
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|18/100|[from] item: Leftovers
+|turn|17
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|97/100
+|-damage|p1a: Gholdengo|91/100|[from] Stealth Rock
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|
+|turn|18
+|
+|switch|p1a: Iron Moth|Iron Moth|67/100
+|-damage|p1a: Iron Moth|42/100|[from] Stealth Rock
+|move|p2a: Dragapult|Flamethrower|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|23/100
+|
+|turn|19
+|
+|switch|p2a: Garganacl|Garganacl, M|18/100
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|
+|switch|p2a: Iron Moth|Iron Moth|21/100
+|turn|20
+|
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|13/100
+|move|p2a: Iron Moth|Morning Sun|p2a: Iron Moth
+|-heal|p2a: Iron Moth|63/100
+|
+|turn|21
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Iron Moth|Morning Sun|p2a: Iron Moth
+|-heal|p2a: Iron Moth|100/100
+|
+|turn|22
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Rotom|Rotom-Wash|59/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Rotom|66/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Dragonite|Outrage|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Corviknight|Corviknight, F|31/100
+|-ability|p2a: Corviknight|Pressure
+|turn|24
+|
+|move|p1a: Dragonite|Outrage|p2a: Corviknight|[from]lockedmove
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|2/100
+|-start|p1a: Dragonite|confusion|[fatigue]
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|52/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|25
+|
+|switch|p1a: Gholdengo|Gholdengo|91/100
+|-damage|p1a: Gholdengo|85/100|[from] Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|26
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|move|p1a: Gholdengo|Thunderbolt|p2a: Iron Moth
+|-damage|p2a: Iron Moth|43/100
+|
+|turn|27
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Great Tusk|Great Tusk|23/100
+|switch|p1a: Iron Moth|Iron Moth|23/100
+|-damage|p1a: Iron Moth|0 fnt|[from] Stealth Rock
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Great Tusk|29/100|[from] item: Leftovers
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|28
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragonite|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|turn|29
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Corviknight|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|97/100
+|
+|switch|p2a: Great Tusk|Great Tusk|29/100|[from] U-turn
+|
+|-heal|p2a: Great Tusk|35/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p1a: Gholdengo|Gholdengo|85/100
+|-damage|p1a: Gholdengo|79/100|[from] Stealth Rock
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|turn|31
+|
+|switch|p2a: Iron Moth|Iron Moth|43/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|32
+|
+|switch|p1a: Dragonite|Dragonite, M|97/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100
+|
+|turn|33
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|34
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|35
+|
+|-terastallize|p1a: Kingambit|Dark
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|36/100
+|
+|turn|36
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|86/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|23/100
+|
+|turn|37
+|
+|move|p2a: Corviknight|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|79/100
+|-damage|p1a: Gholdengo|73/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|35/100
+|turn|39
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|

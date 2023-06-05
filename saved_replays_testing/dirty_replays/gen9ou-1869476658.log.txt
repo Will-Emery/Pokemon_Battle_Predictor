@@ -1,0 +1,321 @@
+|j|☆wrockstah
+|j|☆williamcostiganjr
+|t:|1684843293
+|gametype|singles
+|player|p1|wrockstah|burglar-gen2|1983
+|player|p2|williamcostiganjr|1|1923
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Baxcalibur, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Gengar, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p1|Ceruledge, M|
+|poke|p2|Iron Hands|
+|poke|p2|Walking Wake|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Treads|
+|poke|p2|Dragonite, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1684843343
+|start
+|switch|p1a: Gengar|Gengar, M, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1684843351
+|move|p2a: Iron Treads|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|2/100
+|-enditem|p1a: Gengar|Focus Sash|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Gengar|Focus Blast|p2a: Iron Treads|[miss]
+|-miss|p1a: Gengar|p2a: Iron Treads
+|
+|upkeep
+|turn|2
+|
+|t:|1684843359
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: wrockstah|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1684843362
+|move|p2a: Iron Treads|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|94/100
+|-damage|p2a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-enditem|p1a: Great Tusk|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|75/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: wrockstah|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|4
+|
+|t:|1684843370
+|move|p2a: Iron Treads|Steel Beam|p1a: Great Tusk
+|-damage|p1a: Great Tusk|28/100
+|-damage|p2a: Iron Treads|25/100|[from] steelbeam
+|move|p1a: Great Tusk|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|j| punyakoko
+|j| the eminence
+|
+|t:|1684843390
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|5
+|
+|t:|1684843397
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wrockstah)
+|inactive|williamcostiganjr has 120 seconds left.
+|
+|t:|1684843436
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1a: Hatterene|Nuzzle|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|99/100
+|
+|upkeep
+|turn|7
+|
+|t:|1684843454
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|switch|p1a: Great Tusk|Great Tusk|28/100
+|
+|upkeep
+|turn|8
+|
+|t:|1684843468
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gengar|Gengar, M, shiny|2/100
+|move|p2a: Iron Moth|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1684843479
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|turn|9
+|
+|t:|1684843483
+|move|p2a: Iron Moth|Psychic|p1a: Ceruledge
+|-damage|p1a: Ceruledge|54/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|58/100
+|-heal|p1a: Ceruledge|76/100|[from] drain|[of] p2a: Iron Moth
+|
+|upkeep
+|turn|10
+|
+|t:|1684843489
+|move|p2a: Iron Moth|Psychic|p1a: Ceruledge
+|-damage|p1a: Ceruledge|24/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|14/100
+|-heal|p1a: Ceruledge|47/100|[from] drain|[of] p2a: Iron Moth
+|
+|upkeep
+|turn|11
+|
+|t:|1684843508
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Walking Wake
+|-crit|p2a: Walking Wake
+|-damage|p2a: Walking Wake|69/100
+|
+|upkeep
+|turn|12
+|inactive|wrockstah has 120 seconds left.
+|
+|t:|1684843563
+|switch|p1a: Great Tusk|Great Tusk|28/100
+|move|p2a: Walking Wake|Hydro Pump|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|inactive|wrockstah has 90 seconds left.
+|
+|t:|1684843582
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|13
+|
+|t:|1684843587
+|move|p2a: Walking Wake|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|inactive|wrockstah has 90 seconds left.
+|
+|t:|1684843603
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|14
+|
+|t:|1684843606
+|move|p2a: Walking Wake|Hydro Pump|p1a: Hatterene
+|-damage|p1a: Hatterene|15/100
+|move|p1a: Hatterene|Nuzzle|p2a: Walking Wake
+|-damage|p2a: Walking Wake|65/100
+|-status|p2a: Walking Wake|par
+|
+|-heal|p1a: Hatterene|21/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1684843609
+|move|p2a: Walking Wake|Flamethrower|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1684843613
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|turn|16
+|
+|t:|1684843618
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Iron Hands|Iron Hands|99/100
+|move|p1a: Baxcalibur|Icicle Crash|p2a: Iron Hands
+|-damage|p2a: Iron Hands|55/100
+|
+|upkeep
+|turn|17
+|
+|t:|1684843625
+|switch|p1a: Ceruledge|Ceruledge, M|47/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Ceruledge
+|-immune|p1a: Ceruledge
+|
+|upkeep
+|turn|18
+|
+|t:|1684843636
+|-terastallize|p1a: Ceruledge|Grass
+|move|p1a: Ceruledge|Bitter Blade|p2a: Iron Hands
+|-damage|p2a: Iron Hands|18/100
+|-heal|p1a: Ceruledge|75/100|[from] drain|[of] p2a: Iron Hands
+|move|p2a: Iron Hands|Wild Charge|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|37/100
+|-damage|p2a: Iron Hands|12/100|[from] Recoil
+|
+|upkeep
+|turn|19
+|
+|t:|1684843644
+|move|p1a: Ceruledge|Bitter Blade|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|-heal|p1a: Ceruledge|46/100|[from] drain|[of] p2a: Iron Hands
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1684843646
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|20
+|j| tiranito
+|
+|t:|1684843655
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|21
+|
+|t:|1684843659
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|33/100
+|move|p1a: Baxcalibur|Icicle Crash|p2a: Dragonite
+|-damage|p2a: Dragonite|65/100
+|
+|upkeep
+|turn|22
+|c|☆williamcostiganjr|gg
+|
+|t:|1684843667
+|move|p2a: Dragonite|Extreme Speed|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|upkeep
+|c|☆wrockstah|gg
+|
+|t:|1684843678
+|switch|p1a: Ceruledge|Ceruledge, M, tera:Grass|46/100
+|turn|23
+|
+|t:|1684843682
+|move|p2a: Dragonite|Extreme Speed|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|win|williamcostiganjr
+|raw|wrockstah's rating: 1983 → 1960(-23 for losing)
+|raw|williamcostiganjr's rating: 1923 → 1946(+23 for winning)
+|l| punyakoko
+|l|☆wrockstah
+|l| the eminence
+|l|☆williamcostiganjr

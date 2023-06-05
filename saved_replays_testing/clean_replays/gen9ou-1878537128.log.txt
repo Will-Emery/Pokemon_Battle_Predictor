@@ -1,0 +1,180 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Mew|
+|poke|p1|Great Tusk|
+|poke|p1|Baxcalibur, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Kilowattrel, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Drednaw, M|
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p1a: Mew|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: p2|move: Stealth Rock
+|move|p2a: Pelipper|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|82/100
+|
+|switch|p2a: Overqwil|Overqwil, F|100/100|[from] U-turn
+|-damage|p2a: Overqwil|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Overqwil|Poison Jab|p1a: Mew
+|-damage|p1a: Mew|26/100
+|-damage|p2a: Overqwil|78/100|[from] item: Life Orb
+|move|p1a: Mew|Spikes|p2a: Overqwil
+|-sidestart|p2: p2|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Overqwil|Crunch|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|-damage|p2a: Overqwil|68/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|4
+|
+|move|p2a: Overqwil|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|19/100
+|-damage|p2a: Overqwil|58/100|[from] item: Life Orb
+|move|p1a: Great Tusk|Headlong Rush|p2a: Overqwil
+|-supereffective|p2a: Overqwil
+|-crit|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Drednaw|Drednaw, M|100/100
+|-damage|p2a: Drednaw|88/100|[from] Stealth Rock
+|-damage|p2a: Drednaw|76/100|[from] Spikes
+|turn|5
+|
+|-terastallize|p2a: Drednaw|Water
+|move|p2a: Drednaw|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Drednaw|66/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|6
+|
+|move|p2a: Drednaw|Ice Spinner|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|-damage|p2a: Drednaw|56/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|7
+|
+|-terastallize|p1a: Urshifu|Water
+|move|p2a: Drednaw|Liquidation|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|38/100
+|-unboost|p1a: Urshifu|def|1
+|-damage|p2a: Drednaw|46/100|[from] item: Life Orb
+|move|p1a: Urshifu|Close Combat|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Drednaw
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|-damage|p2a: Kilowattrel|76/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Kilowattrel|Volt Switch|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|-damage|p2a: Kilowattrel|66/100|[from] item: Life Orb
+|
+|switch|p2a: Kabûtops|Kleavor, M|100/100|[from] Volt Switch
+|-damage|p2a: Kabûtops|76/100|[from] Stealth Rock
+|-damage|p2a: Kabûtops|63/100|[from] Spikes
+|
+|-weather|none
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|9
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Kabûtops|Night Slash|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|turn|10
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Kabûtops
+|-damage|p2a: Kabûtops|33/100
+|move|p2a: Kabûtops|Night Slash|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|62/100
+|
+|turn|11
+|
+|move|p2a: Kabûtops|Night Slash|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|21/100
+|move|p1a: Baxcalibur|Earthquake|p2a: Kabûtops
+|-damage|p2a: Kabûtops|0 fnt
+|faint|p2a: Kabûtops
+|
+|
+|switch|p2a: Kilowattrel|Kilowattrel, M|66/100
+|-damage|p2a: Kilowattrel|41/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Kilowattrel
+|-supereffective|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|-damage|p2a: Volcarona|38/100|[from] Spikes
+|turn|13
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|22/100
+|move|p2a: Volcarona|Flamethrower|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|-damage|p2a: Volcarona|12/100|[from] item: Life Orb
+|

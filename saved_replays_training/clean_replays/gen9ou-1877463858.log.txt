@@ -19,7 +19,7 @@
 |turn|1
 |
 |move|p1a: Yikang|Light Screen|p1a: Yikang
-|-sidestart|p1: Kirin364|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Ting-Lu|Taunt|p1a: Yikang
 |-start|p1a: Yikang|move: Taunt
 |
@@ -28,7 +28,7 @@
 |move|p1a: Yikang|Play Rough|p2a: Ting-Lu|[miss]
 |-miss|p1a: Yikang|p2a: Ting-Lu
 |move|p2a: Ting-Lu|Stealth Rock|p1a: Yikang
-|-sidestart|p1: Kirin364|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|3
 |
@@ -51,7 +51,7 @@
 |turn|5
 |
 |move|p1a: Bushy Boi|Stealth Rock|p2a: Garganacl
-|-sidestart|p2: Monkedabest5|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Garganacl|Recover|p2a: Garganacl
 |-heal|p2a: Garganacl|100/100
 |
@@ -64,7 +64,7 @@
 |-damage|p2a: Garganacl|96/100
 |-boost|p1a: Bushy Boi|spe|1
 |-damage|p1a: Bushy Boi|65/100|[from] item: Rocky Helmet|[of] p2a: Garganacl
-|-sideend|p1: Kirin364|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Bushy Boi
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Bushy Boi
 |move|p2a: Garganacl|Curse|p2a: Garganacl
 |-unboost|p2a: Garganacl|spe|1
 |-boost|p2a: Garganacl|atk|1
@@ -91,7 +91,7 @@
 |-heal|p2a: Garganacl|83/100
 |
 |-damage|p1a: Draco Malfoy|36/100|[from] Salt Cure
-|-sideend|p1: Kirin364|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|9
 |
 |switch|p2a: Torkoal|Torkoal, M|100/100
@@ -139,7 +139,7 @@
 |
 |switch|p1a: Gold|Gholdengo|100/100
 |move|p2a: Ting-Lu|Stealth Rock|p1a: Gold
-|-sidestart|p1: Kirin364|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |-weather|none
 |turn|14
@@ -292,7 +292,7 @@
 |move|p2a: Garganacl|Recover|p2a: Garganacl
 |-heal|p2a: Garganacl|100/100
 |move|p1a: Putney|Toxic Spikes|p2a: Garganacl
-|-sidestart|p2: Monkedabest5|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-heal|p1a: Putney|98/100|[from] item: Leftovers
 |turn|28
@@ -302,7 +302,7 @@
 |-boost|p2a: Garganacl|atk|1
 |-boost|p2a: Garganacl|def|1
 |move|p1a: Putney|Toxic Spikes|p2a: Garganacl
-|-sidestart|p2: Monkedabest5|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-heal|p1a: Putney|100/100|[from] item: Leftovers
 |turn|29
@@ -901,4 +901,4 @@
 |-damage|p1a: Putney|0 fnt|[from] Salt Cure
 |faint|p1a: Putney
 |
-|win|Monkedabest5
+|win|p2

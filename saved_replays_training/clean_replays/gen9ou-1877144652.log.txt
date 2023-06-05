@@ -23,16 +23,16 @@
 |-status|p2a: Kleavor|psn
 |move|p2a: Kleavor|Stone Axe|p1a: FCF√ Goyave
 |-damage|p1a: FCF√ Goyave|33/100
-|-sidestart|p1: Lolopo_24|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |-activate|p1a: FCF√ Goyave|ability: Toxic Debris
-|-sidestart|p2: LOOPJ21|move: Toxic Spikes
+|-sidestart|p2: p2|move: Toxic Spikes
 |
 |-damage|p2a: Kleavor|84/100 psn|[from] psn
 |turn|2
 |
 |switch|p2a: Azelf|Azelf|100/100
 |move|p1a: FCF√ Goyave|Stealth Rock|p2a: Azelf
-|-sidestart|p2: LOOPJ21|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|3
 |
@@ -58,9 +58,9 @@
 |-fail|p1a: KatanaNaruto
 |move|p2a: Kleavor|Defog|p1a: KatanaNaruto
 |-unboost|p1a: KatanaNaruto|evasion|1
-|-sideend|p1: Lolopo_24|Stealth Rock|[from] move: Defog|[of] p2a: Kleavor
-|-sideend|p2: LOOPJ21|Toxic Spikes|[from] move: Defog|[of] p2a: Kleavor
-|-sideend|p2: LOOPJ21|Stealth Rock|[from] move: Defog|[of] p2a: Kleavor
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p2a: Kleavor
+|-sideend|p2: p2|Toxic Spikes|[from] move: Defog|[of] p2a: Kleavor
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Kleavor
 |
 |-damage|p2a: Kleavor|59/100 psn|[from] psn
 |turn|6
@@ -76,7 +76,7 @@
 |-end|p1a: KatanaNaruto|fallen1|[silent]
 |switch|p1a: Isocèle|Dragapult, F|100/100
 |move|p2a: Zapdos|Tailwind|p2a: Zapdos
-|-sidestart|p2: LOOPJ21|move: Tailwind
+|-sidestart|p2: p2|move: Tailwind
 |
 |turn|8
 |
@@ -108,14 +108,14 @@
 |-damage|p1a: Isocèle|0 fnt
 |faint|p1a: Isocèle
 |
-|-sideend|p2: LOOPJ21|move: Tailwind
+|-sideend|p2: p2|move: Tailwind
 |
 |switch|p1a: KatanaNaruto|Kingambit, F|94/100
 |-activate|p1a: KatanaNaruto|ability: Supreme Overlord
 |-start|p1a: KatanaNaruto|fallen2|[silent]
 |turn|11
 |player|p2|
-|player|p2|LOOPJ21|riley
+|player|p2|p2|riley
 |
 |-terastallize|p1a: KatanaNaruto|Dark
 |move|p2a: Typhlosion|Calm Mind|p2a: Typhlosion
@@ -185,5 +185,5 @@
 |-damage|p1a: Bitenbois|0 fnt
 |faint|p1a: Bitenbois
 |
-|win|LOOPJ21
-|player|p2|LOOPJ21|riley
+|win|p2
+|player|p2|p2|riley

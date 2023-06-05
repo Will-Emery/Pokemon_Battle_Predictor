@@ -54,7 +54,7 @@
 |move|p2a: Samurott|Ceaseless Edge|p1a: Azumarill
 |-resisted|p1a: Azumarill
 |-damage|p1a: Azumarill|37/100
-|-sidestart|p1: Inder-House|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: Azumarill|Play Rough|p2a: Samurott
 |-supereffective|p2a: Samurott
 |-damage|p2a: Samurott|0 fnt
@@ -94,14 +94,14 @@
 |turn|9
 |
 |move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
-|-sidestart|p1: Inder-House|move: Light Screen
+|-sidestart|p1: p1|move: Light Screen
 |move|p2a: Gholdengo|Shadow Ball|p1a: Zamazenta
 |-damage|p1a: Zamazenta|41/100
 |
 |turn|10
 |
 |move|p1a: Zamazenta|Reflect|p1a: Zamazenta
-|-sidestart|p1: Inder-House|Reflect
+|-sidestart|p1: p1|Reflect
 |move|p2a: Gholdengo|Make It Rain|p1a: Zamazenta
 |-damage|p1a: Zamazenta|17/100
 |-unboost|p2a: Gholdengo|spa|1
@@ -167,7 +167,7 @@
 |-heal|p1a: Magearna|53/100|[from] item: Leftovers
 |-heal|p2a: Heatran|30/100|[from] item: Leftovers
 |-damage|p1a: Magearna|40/100|[from] move: Magma Storm|[partiallytrapped]
-|-sideend|p1: Inder-House|move: Light Screen
+|-sideend|p1: p1|move: Light Screen
 |turn|17
 |
 |switch|p2a: Chien-Pao|Chien-Pao|100/100
@@ -177,7 +177,7 @@
 |
 |-heal|p1a: Magearna|46/100|[from] item: Leftovers
 |-end|p1a: Magearna|Magma Storm|[partiallytrapped]|[silent]
-|-sideend|p1: Inder-House|Reflect
+|-sideend|p1: p1|Reflect
 |turn|18
 |
 |move|p1a: Magearna|Draining Kiss|p2a: Chien-Pao
@@ -188,6 +188,6 @@
 |-ability|p1a: Magearna|Soul-Heart|boost
 |-boost|p1a: Magearna|spa|1
 |
-|-message|not beads of ruin forfeited.
+|-message|p2 forfeited.
 |
-|win|Inder-House
+|win|p1

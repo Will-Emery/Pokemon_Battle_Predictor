@@ -18,9 +18,9 @@
 |turn|1
 |
 |move|p1a: bombshell|Stealth Rock|p2a: Garganacl
-|-sidestart|p2: bae mysterio|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |move|p2a: Garganacl|Stealth Rock|p1a: bombshell
-|-sidestart|p1: drip severe|move: Stealth Rock
+|-sidestart|p1: p1|move: Stealth Rock
 |
 |turn|2
 |
@@ -55,7 +55,7 @@
 |move|p2a: Great Tusk|Rapid Spin|p1a: reaper
 |-damage|p1a: reaper|77/100
 |-boost|p2a: Great Tusk|spe|1
-|-sideend|p2: bae mysterio|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
 |move|p1a: reaper|Whirlpool|p2a: Great Tusk
 |-supereffective|p2a: Great Tusk
 |-damage|p2a: Great Tusk|83/100
@@ -118,7 +118,7 @@
 |turn|11
 |
 |move|p2a: Garchomp|Spikes|p1a: reaper
-|-sidestart|p1: drip severe|Spikes
+|-sidestart|p1: p1|Spikes
 |move|p1a: reaper|Wish|p1a: reaper
 |
 |turn|12
@@ -142,7 +142,7 @@
 |-damage|p1a: bombshell|45/100
 |-damage|p2a: Garchomp|91/100|[from] item: Life Orb
 |move|p1a: bombshell|Stealth Rock|p2a: Garchomp
-|-sidestart|p2: bae mysterio|move: Stealth Rock
+|-sidestart|p2: p2|move: Stealth Rock
 |
 |turn|15
 |
@@ -164,13 +164,13 @@
 |turn|17
 |
 |move|p2a: Garchomp|Spikes|p1a: abrams
-|-sidestart|p1: drip severe|Spikes
+|-sidestart|p1: p1|Spikes
 |cant|p1a: abrams|slp
 |
 |turn|18
 |
 |move|p2a: Garchomp|Spikes|p1a: abrams
-|-sidestart|p1: drip severe|Spikes
+|-sidestart|p1: p1|Spikes
 |cant|p1a: abrams|slp
 |
 |turn|19
@@ -255,7 +255,7 @@
 |switch|p2a: Garchomp|Garchomp, F|55/100
 |-damage|p2a: Garchomp|49/100|[from] Stealth Rock
 |move|p1a: normandy|Spikes|p2a: Garchomp
-|-sidestart|p2: bae mysterio|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-damage|p1a: normandy|68/100|[from] Salt Cure
 |turn|29
@@ -505,7 +505,7 @@
 |-damage|p1a: normandy|61/100
 |-start|p1a: normandy|move: Salt Cure|[of] p2a: Garganacl
 |move|p1a: normandy|Spikes|p2a: Garganacl
-|-sidestart|p2: bae mysterio|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Garganacl|94/100|[from] item: Leftovers
 |-damage|p1a: normandy|48/100|[from] Salt Cure
@@ -524,7 +524,7 @@
 |move|p2a: Garganacl|Stealth Rock||[still]
 |-fail|p2a: Garganacl
 |move|p1a: normandy|Spikes|p2a: Garganacl
-|-sidestart|p2: bae mysterio|Spikes
+|-sidestart|p2: p2|Spikes
 |
 |-heal|p2a: Garganacl|100/100|[from] item: Leftovers
 |-damage|p1a: normandy|67/100|[from] Salt Cure
@@ -740,9 +740,9 @@
 |faint|p2a: Iron Valiant
 |-end|p2a: Iron Valiant|Quark Drive|[silent]
 |
-|-message|bae mysterio forfeited.
+|-message|p2 forfeited.
 |
-|win|drip severe
+|win|p1
 ||Ladder isn't responding, score probably updated but might not have (Request timeout).
-|player|p2|bae mysterio|youngster
+|player|p2|p2|youngster
 |player|p2|
