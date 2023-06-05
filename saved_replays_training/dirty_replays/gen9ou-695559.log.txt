@@ -1,0 +1,416 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685883686
+|gametype|singles
+|player|p1|Eternal Spirit|caitlin|
+|player|p2|1 True Lycan|blackbelt-gen1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p1|Roaring Moon|
+|poke|p2|Glimmora, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Moth|
+|poke|p2|Dragapult, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Eternal Spirit has 270 seconds left.
+|c|☆1 True Lycan|hf
+|c|☆Eternal Spirit|Hf 
+|inactive|Eternal Spirit has 240 seconds left.
+|
+|t:|1685883762
+|start
+|switch|p1a: MAGNETUDE|Great Tusk|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|1
+|
+|t:|1685883772
+|move|p1a: MAGNETUDE|Headlong Rush|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-unboost|p1a: MAGNETUDE|def|1
+|-unboost|p1a: MAGNETUDE|spd|1
+|-enditem|p1a: MAGNETUDE|Eject Pack
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Eternal Spirit|move: Toxic Spikes
+|
+|t:|1685883782
+|-end|p1a: MAGNETUDE|Protosynthesis|[silent]
+|switch|p1a: PROMINENCE|Iron Moth|100/100
+|-enditem|p1a: PROMINENCE|Booster Energy
+|-activate|p1a: PROMINENCE|ability: Quark Drive|[fromitem]
+|-start|p1a: PROMINENCE|quarkdrivespa
+|-sideend|p1: Eternal Spirit|move: Toxic Spikes|[of] p1a: PROMINENCE
+|move|p2a: Glimmora|Energy Ball|p1a: PROMINENCE
+|-resisted|p1a: PROMINENCE
+|-damage|p1a: PROMINENCE|92/100
+|
+|upkeep
+|turn|2
+|inactive|1 True Lycan has 270 seconds left.
+|inactive|1 True Lycan has 240 seconds left.
+|
+|t:|1685883847
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|move|p1a: PROMINENCE|Dazzling Gleam|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|91/100
+|
+|upkeep
+|turn|3
+|
+|t:|1685883859
+|-terastallize|p1a: PROMINENCE|Water
+|move|p2a: Iron Moth|Psychic|p1a: PROMINENCE
+|-damage|p1a: PROMINENCE|45/100
+|move|p1a: PROMINENCE|Tera Blast|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|inactive|1 True Lycan has 240 seconds left.
+|inactive|1 True Lycan has 210 seconds left.
+|
+|t:|1685883899
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|4
+|
+|t:|1685883922
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: PROMINENCE|Dazzling Gleam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685883934
+|-end|p1a: PROMINENCE|Quark Drive|[silent]
+|switch|p1a: SHION|Iron Valiant|100/100
+|-enditem|p1a: SHION|Booster Energy
+|-activate|p1a: SHION|ability: Quark Drive|[fromitem]
+|-start|p1a: SHION|quarkdrivespe
+|move|p2a: Dragapult|Dragon Darts|p1a: SHION
+|-immune|p1a: SHION
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Eternal Spirit has 270 seconds left.
+|inactive|Eternal Spirit has 240 seconds left.
+|inactive|1 True Lycan has 210 seconds left.
+|inactive|Eternal Spirit has 210 seconds left.
+|inactive|1 True Lycan has 180 seconds left.
+|inactive|1 True Lycan has 150 seconds left.
+|
+|t:|1685884049
+|switch|p2a: Glimmora|Glimmora, M|1/100
+|move|p1a: SHION|Calm Mind|p1a: SHION
+|-boost|p1a: SHION|spa|1
+|-boost|p1a: SHION|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1685884065
+|move|p1a: SHION|Moonblast|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|upkeep
+|inactive|1 True Lycan has 150 seconds left.
+|
+|t:|1685884078
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|8
+|inactive|1 True Lycan has 150 seconds left.
+|inactive|1 True Lycan has 120 seconds left.
+|
+|t:|1685884125
+|-terastallize|p2a: Iron Valiant|Steel
+|move|p1a: SHION|Moonblast|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|34/100
+|move|p2a: Iron Valiant|Zen Headbutt|p1a: SHION
+|-supereffective|p1a: SHION
+|-damage|p1a: SHION|26/100
+|
+|upkeep
+|turn|9
+|inactive|1 True Lycan has 120 seconds left.
+|
+|t:|1685884141
+|move|p1a: SHION|Moonblast|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|inactive|1 True Lycan has 90 seconds left.
+|
+|t:|1685884175
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|10
+|inactive|Eternal Spirit has 210 seconds left.
+|inactive|1 True Lycan has 90 seconds left.
+|
+|t:|1685884186
+|move|p1a: SHION|Moonblast|p2a: Kingambit
+|-damage|p2a: Kingambit|15/100
+|-unboost|p2a: Kingambit|spa|1
+|move|p2a: Kingambit|Iron Head|p1a: SHION
+|-supereffective|p1a: SHION
+|-damage|p1a: SHION|0 fnt
+|faint|p1a: SHION
+|-end|p1a: SHION|Quark Drive|[silent]
+|
+|upkeep
+|inactive|Eternal Spirit has 210 seconds left.
+|inactive|Eternal Spirit has 180 seconds left.
+|
+|t:|1685884235
+|switch|p1a: YAMATA|Hydreigon, M|100/100
+|turn|11
+|
+|t:|1685884241
+|move|p1a: YAMATA|Dark Pulse|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1685884248
+|switch|p2a: Dragapult|Dragapult, F|88/100
+|turn|12
+|inactive|Eternal Spirit has 180 seconds left.
+|
+|t:|1685884270
+|move|p2a: Dragapult|Dragon Darts|p1a: YAMATA
+|-supereffective|p1a: YAMATA
+|-damage|p1a: YAMATA|60/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: YAMATA
+|-supereffective|p1a: YAMATA
+|-damage|p1a: YAMATA|15/100
+|move|p1a: YAMATA|Flash Cannon|p2a: Dragapult
+|-damage|p2a: Dragapult|44/100
+|
+|-heal|p2a: Dragapult|50/100|[from] item: Leftovers
+|-heal|p1a: YAMATA|21/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685884278
+|move|p2a: Dragapult|Dragon Darts|p1a: YAMATA
+|-supereffective|p1a: YAMATA
+|-damage|p1a: YAMATA|0 fnt
+|faint|p1a: YAMATA
+|
+|-heal|p2a: Dragapult|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685884280
+|switch|p1a: HADES|Roaring Moon|100/100
+|-enditem|p1a: HADES|Booster Energy
+|-activate|p1a: HADES|ability: Protosynthesis|[fromitem]
+|-start|p1a: HADES|protosynthesisspe
+|turn|14
+|
+|t:|1685884288
+|move|p1a: HADES|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|2/100
+|move|p2a: Dragapult|Thunder Wave|p1a: HADES
+|-status|p1a: HADES|par
+|
+|-heal|p2a: Dragapult|8/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c|☆Eternal Spirit|Hm 
+|inactive|Eternal Spirit has 180 seconds left.
+|inactive|Eternal Spirit has 150 seconds left.
+|
+|t:|1685884341
+|move|p2a: Dragapult|Dragon Darts|p1a: HADES
+|-supereffective|p1a: HADES
+|-damage|p1a: HADES|46/100 par
+|-anim|p2a: Dragapult|Dragon Darts|p1a: HADES
+|-supereffective|p1a: HADES
+|-damage|p1a: HADES|0 fnt
+|faint|p1a: HADES
+|-end|p1a: HADES|Protosynthesis|[silent]
+|
+|-heal|p2a: Dragapult|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685884344
+|switch|p1a: NIGHTMARE|Kingambit, M|100/100
+|-activate|p1a: NIGHTMARE|ability: Supreme Overlord
+|-start|p1a: NIGHTMARE|fallen3|[silent]
+|turn|16
+|inactive|Eternal Spirit has 150 seconds left.
+|
+|t:|1685884357
+|move|p2a: Dragapult|Thunder Wave|p1a: NIGHTMARE
+|-status|p1a: NIGHTMARE|par
+|move|p1a: NIGHTMARE|Swords Dance|p1a: NIGHTMARE
+|-boost|p1a: NIGHTMARE|atk|2
+|
+|-heal|p2a: Dragapult|20/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Eternal Spirit has 150 seconds left.
+|
+|t:|1685884368
+|move|p2a: Dragapult|Hex|p1a: NIGHTMARE
+|-resisted|p1a: NIGHTMARE
+|-damage|p1a: NIGHTMARE|70/100 par
+|move|p1a: NIGHTMARE|Swords Dance|p1a: NIGHTMARE
+|-boost|p1a: NIGHTMARE|atk|2
+|
+|-heal|p2a: Dragapult|26/100|[from] item: Leftovers
+|-heal|p1a: NIGHTMARE|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|1 True Lycan has 150 seconds left.
+|
+|t:|1685884377
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|1/100
+|move|p1a: NIGHTMARE|Iron Head|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|7/100|[from] item: Leftovers
+|-heal|p1a: NIGHTMARE|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685884381
+|move|p2a: Dragapult|Hex|p1a: NIGHTMARE
+|-resisted|p1a: NIGHTMARE
+|-damage|p1a: NIGHTMARE|53/100 par
+|move|p1a: NIGHTMARE|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: NIGHTMARE|59/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1685884385
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|20
+|inactive|Eternal Spirit has 180 seconds left.
+|inactive|1 True Lycan has 150 seconds left.
+|
+|t:|1685884430
+|move|p2a: Great Tusk|Earthquake|p1a: NIGHTMARE
+|-supereffective|p1a: NIGHTMARE
+|-crit|p1a: NIGHTMARE
+|-damage|p1a: NIGHTMARE|0 fnt
+|faint|p1a: NIGHTMARE
+|-end|p1a: NIGHTMARE|fallen3|[silent]
+|
+|upkeep
+|inactive|Eternal Spirit has 180 seconds left.
+|
+|t:|1685884442
+|switch|p1a: PROMINENCE|Iron Moth, tera:Water|45/100
+|turn|21
+|
+|t:|1685884461
+|move|p2a: Great Tusk|Earthquake|p1a: PROMINENCE
+|-damage|p1a: PROMINENCE|0 fnt
+|faint|p1a: PROMINENCE
+|-end|p1a: PROMINENCE|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685884464
+|switch|p1a: MAGNETUDE|Great Tusk|100/100
+|turn|22
+|
+|t:|1685884467
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: MAGNETUDE|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|94/100
+|-boost|p1a: MAGNETUDE|spe|1
+|
+|upkeep
+|turn|23
+|c|☆Eternal Spirit|gg 
+|inactive|1 True Lycan has 150 seconds left.
+|
+|t:|1685884507
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: MAGNETUDE|Headlong Rush|p2a: Great Tusk
+|-damage|p2a: Great Tusk|74/100
+|-unboost|p1a: MAGNETUDE|def|1
+|-unboost|p1a: MAGNETUDE|spd|1
+|
+|upkeep
+|turn|24
+|inactive|Eternal Spirit has 210 seconds left.
+|inactive|1 True Lycan has 120 seconds left.
+|
+|t:|1685884539
+|move|p2a: Great Tusk|Rapid Spin|p1a: MAGNETUDE
+|-damage|p1a: MAGNETUDE|70/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: MAGNETUDE|Headlong Rush|p2a: Great Tusk
+|-damage|p2a: Great Tusk|54/100
+|-unboost|p1a: MAGNETUDE|def|1
+|-unboost|p1a: MAGNETUDE|spd|1
+|
+|upkeep
+|turn|25
+|
+|t:|1685884545
+|move|p2a: Great Tusk|Close Combat|p1a: MAGNETUDE
+|-damage|p1a: MAGNETUDE|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: MAGNETUDE
+|-end|p1a: MAGNETUDE|Protosynthesis|[silent]
+|
+|win|1 True Lycan
+|c|☆1 True Lycan|gg

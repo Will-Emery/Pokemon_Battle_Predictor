@@ -1,0 +1,165 @@
+|j|☆tsyusu
+|j|☆lukci
+|t:|1685879230
+|gametype|singles
+|player|p1|tsyusu|1|1329
+|player|p2|lukci|2|1356
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tornadus, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Great Tusk|
+|poke|p2|Torkoal, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Volcarona, M|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|t:|1685879234
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lukci)
+|
+|t:|1685879246
+|move|p1a: Kleavor|Swords Dance|p1a: Kleavor
+|-boost|p1a: Kleavor|atk|2
+|move|p2a: Torkoal|Lava Plume|p1a: Kleavor
+|-damage|p1a: Kleavor|36/100
+|-status|p1a: Kleavor|brn
+|-enditem|p1a: Kleavor|Lum Berry|[eat]
+|-curestatus|p1a: Kleavor|brn|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685879258
+|move|p1a: Kleavor|Stone Axe|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-sidestart|p2: lukci|move: Stealth Rock
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685879272
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|3
+|
+|t:|1685879295
+|move|p2a: Great Tusk|Knock Off|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685879300
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|4
+|
+|t:|1685879307
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685879318
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Stealth Rock
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|5
+|
+|t:|1685879324
+|move|p2a: Walking Wake|Hydro Steam|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685879329
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|t:|1685879335
+|-terastallize|p2a: Walking Wake|Water
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Walking Wake|Hydro Steam|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685879343
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|7
+|
+|t:|1685879345
+|move|p2a: Walking Wake|Hydro Steam|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685879352
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|8
+|
+|t:|1685879355
+|move|p2a: Walking Wake|Hydro Steam|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1685879357
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|t:|1685879361
+|-terastallize|p1a: Great Tusk|Dark
+|move|p2a: Walking Wake|Hydro Steam|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|lukci
+|raw|tsyusu's rating: 1329 → 1311(-18 for losing)
+|raw|lukci's rating: 1356 → 1374(+18 for winning)

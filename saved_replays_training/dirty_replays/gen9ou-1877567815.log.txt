@@ -1,0 +1,342 @@
+|j|☆valoche43
+|j|‽IHaveAVPNLockOn
+|t:|1685883657
+|gametype|singles
+|player|p1|valoche43|swimmer|1638
+|player|p2|IHaveAVPNLockOn|266|1591
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Volcanion|
+|poke|p1|Magearna|
+|poke|p1|Iron Hands|
+|poke|p1|Great Tusk|
+|poke|p2|Sneasler, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Iron Treads|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Moth|
+|teampreview
+|c|☆valoche43|gl
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IHaveAVPNLockOn)
+|
+|t:|1685883673
+|start
+|switch|p1a: Volcanion|Volcanion|100/100
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1685883683
+|move|p2a: Iron Treads|Stealth Rock|p1a: Volcanion
+|-sidestart|p1: valoche43|move: Stealth Rock
+|move|p1a: Volcanion|Steam Eruption|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685883698
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|turn|2
+|
+|t:|1685883701
+|move|p2a: Iron Moth|Flamethrower|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|82/100
+|move|p1a: Volcanion|Earth Power|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685883704
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|3
+|
+|t:|1685883714
+|move|p2a: Rillaboom|Wood Hammer|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|-damage|p2a: Rillaboom|73/100|[from] Recoil
+|
+|-heal|p2a: Rillaboom|79/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685883732
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1685883737
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Rillaboom|U-turn|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|93/100
+|
+|t:|1685883744
+|switch|p1a: Magearna|Magearna|100/100|[from] U-turn
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Zamazenta|99/100|[from] Grassy Terrain
+|-heal|p1a: Magearna|100/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1685883752
+|move|p2a: Zamazenta|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|28/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Magearna|Fleur Cannon|p2a: Zamazenta|[miss]
+|-miss|p1a: Magearna|p2a: Zamazenta
+|
+|-heal|p2a: Zamazenta|100/100|[from] Grassy Terrain
+|-heal|p1a: Magearna|34/100|[from] Grassy Terrain
+|-heal|p1a: Magearna|40/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685883764
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|move|p2a: Zamazenta|Close Combat|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|44/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|-heal|p1a: Sneasler|50/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1685883776
+|move|p1a: Sneasler|Acrobatics|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Sneasler|56/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1685883780
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|8
+|
+|t:|1685883797
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-damage|p1a: Iron Hands|94/100|[from] Stealth Rock
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Hands
+|-damage|p1a: Iron Hands|63/100
+|-unboost|p1a: Iron Hands|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1685883806
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Magearna|Magearna|40/100
+|-damage|p1a: Magearna|34/100|[from] Stealth Rock
+|move|p2a: Gholdengo|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|upkeep
+|
+|t:|1685883831
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|97/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1685883836
+|switch|p2a: Rillaboom|Rillaboom, M|79/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Great Tusk|Headlong Rush|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|44/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-enditem|p1a: Great Tusk|Eject Pack
+|inactive|valoche43 has 120 seconds left.
+|
+|t:|1685883853
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Sneasler|Sneasler, M|56/100
+|-damage|p1a: Sneasler|50/100|[from] Stealth Rock
+|
+|-heal|p1a: Sneasler|56/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|50/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1685883861
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Sneasler|Acrobatics|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|76/100
+|
+|-heal|p2a: Gholdengo|82/100|[from] Grassy Terrain
+|-heal|p1a: Sneasler|62/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1685883870
+|move|p2a: Gholdengo|Shadow Ball|p1a: Sneasler
+|-damage|p1a: Sneasler|9/100
+|-unboost|p1a: Sneasler|spd|1
+|move|p1a: Sneasler|Acrobatics|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|56/100
+|
+|-heal|p2a: Gholdengo|62/100|[from] Grassy Terrain
+|-heal|p1a: Sneasler|15/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1685883880
+|move|p2a: Gholdengo|Shadow Ball|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-heal|p2a: Gholdengo|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685883891
+|switch|p1a: Rillaboom|Rillaboom, M|88/100
+|-damage|p1a: Rillaboom|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1685883902
+|move|p2a: Gholdengo|Shadow Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|26/100
+|move|p1a: Rillaboom|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|61/100
+|
+|t:|1685883910
+|switch|p1a: Great Tusk|Great Tusk|97/100|[from] U-turn
+|-damage|p1a: Great Tusk|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Gholdengo|67/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1685883922
+|move|p2a: Gholdengo|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|42/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1685883925
+|switch|p2a: Rillaboom|Rillaboom, M|50/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|16
+|
+|t:|1685883938
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Rillaboom|Rillaboom, M|26/100
+|-damage|p1a: Rillaboom|14/100|[from] Stealth Rock
+|move|p2a: Rillaboom|Wood Hammer|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2a: Rillaboom|45/100|[from] Recoil
+|
+|-heal|p2a: Rillaboom|51/100|[from] Grassy Terrain
+|upkeep
+|inactive|valoche43 has 120 seconds left.
+|
+|t:|1685883960
+|switch|p1a: Great Tusk|Great Tusk|42/100
+|-damage|p1a: Great Tusk|39/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1685883970
+|-terastallize|p1a: Great Tusk|Steel
+|move|p2a: Rillaboom|Wood Hammer|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|2/100
+|-damage|p2a: Rillaboom|37/100|[from] Recoil
+|move|p1a: Great Tusk|Ice Spinner|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-fieldend|move: Grassy Terrain
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1685883972
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|18
+|
+|t:|1685883984
+|-terastallize|p2a: Sneasler|Flying
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sneasler
+|-immune|p2a: Sneasler
+|
+|upkeep
+|turn|19
+|
+|t:|1685883991
+|move|p2a: Sneasler|Acrobatics|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685883995
+|switch|p1a: Iron Hands|Iron Hands|63/100
+|-damage|p1a: Iron Hands|57/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1685884002
+|move|p2a: Sneasler|Close Combat|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|win|IHaveAVPNLockOn
+|raw|valoche43's rating: 1638 → 1615(-23 for losing)
+|raw|IHaveAVPNLockOn's rating: 1591 → 1614(+23 for winning)
+|c|☆valoche43|gg

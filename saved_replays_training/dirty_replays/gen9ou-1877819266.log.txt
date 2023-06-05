@@ -1,0 +1,300 @@
+|j|☆EtherSword
+|j|‽yadeoj
+|t:|1685911687
+|gametype|singles
+|player|p1|EtherSword|unknown|1241
+|player|p2|yadeoj|2|1263
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Walking Wake|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|poke|p2|Garchomp, M|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EtherSword)
+|
+|t:|1685911693
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1685911697
+|move|p2a: Arcanine|Head Smash|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685911705
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|2
+|
+|t:|1685911709
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Sneasler|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|77/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685911719
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685911729
+|move|p1a: Thundurus|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|41/100
+|
+|t:|1685911741
+|switch|p1a: Sneasler|Sneasler, M|100/100|[from] Volt Switch
+|move|p2a: Zapdos|Heat Wave|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685911752
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Sneasler|Dire Claw|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685911766
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Walking Wake
+|-damage|p1a: Walking Wake|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685911780
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685911792
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|8
+|
+|t:|1685911796
+|move|p1a: Walking Wake|Hydro Steam|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|18/100
+|move|p2a: Urshifu|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|16/100
+|
+|t:|1685911802
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1685911808
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Sneasler|Sneasler, M|20/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|turn|10
+|
+|t:|1685911819
+|move|p2a: Kingambit|Sucker Punch|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|upkeep
+|
+|t:|1685911830
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|11
+|
+|t:|1685911834
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Kingambit
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|c|☆EtherSword|thought it was banded, and forgot my prankster doesn't work like that, big blunder
+|
+|t:|1685911857
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|12
+|
+|t:|1685911862
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1685911872
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Kingambit
+|-damage|p2a: Kingambit|40/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|10/100
+|
+|-heal|p1a: Dragonite|16/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|46/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685911880
+|move|p1a: Dragonite|Extreme Speed|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Dragonite|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685911884
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|18/100
+|turn|15
+|
+|t:|1685911886
+|move|p1a: Dragonite|Extreme Speed|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-heal|p1a: Dragonite|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685911889
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|16
+|
+|t:|1685911894
+|move|p1a: Dragonite|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|71/100
+|move|p2a: Great Tusk|Knock Off|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-enditem|p1a: Dragonite|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Great Tusk|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685911901
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|17
+|
+|t:|1685911905
+|move|p1a: Thundurus|Psychic|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685911909
+|switch|p2a: Zapdos|Zapdos|41/100
+|turn|18
+|
+|t:|1685911912
+|move|p1a: Thundurus|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1685911915
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|19
+|
+|t:|1685911921
+|move|p2a: Garchomp|Fire Blast|p1a: Thundurus
+|-damage|p1a: Thundurus|53/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Thundurus|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|32/100
+|
+|upkeep
+|turn|20
+|
+|t:|1685911927
+|move|p2a: Garchomp|Draco Meteor|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-unboost|p2a: Garchomp|spa|2
+|faint|p1a: Thundurus
+|-damage|p2a: Garchomp|22/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685911931
+|switch|p1a: Walking Wake|Walking Wake|16/100
+|turn|21
+|
+|t:|1685911934
+|move|p1a: Walking Wake|Hydro Steam|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|win|EtherSword
+|raw|EtherSword's rating: 1241 → 1268(+27 for winning)
+|raw|yadeoj's rating: 1263 → 1236(-27 for losing)
+|l|‽yadeoj

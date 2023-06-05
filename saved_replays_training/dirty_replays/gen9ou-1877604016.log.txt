@@ -1,0 +1,312 @@
+|j|☆zorasilva
+|j|☆NaOH3412
+|t:|1685888415
+|gametype|singles
+|player|p1|zorasilva|cheryl|1075
+|player|p2|NaOH3412|101|1047
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Volcanion|
+|poke|p2|Ceruledge, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|t:|1685888451
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1685888467
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Thundurus
+|-immune|p1a: Thundurus|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685888478
+|move|p1a: Thundurus|Grass Knot|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Thundurus|[miss]
+|-miss|p2a: Rotom|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685888489
+|move|p1a: Thundurus|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|56/100
+|
+|t:|1685888511
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] Volt Switch
+|move|p2a: Rotom|Will-O-Wisp|p1a: Basculegion
+|-status|p1a: Basculegion|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|62/100|[from] item: Leftovers
+|-damage|p1a: Basculegion|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685888524
+|move|p1a: Basculegion|Wave Crash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|31/100
+|-damage|p1a: Basculegion|86/100 brn|[from] Recoil
+|move|p2a: Rotom|Thunderbolt|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|7/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|38/100|[from] item: Leftovers
+|-damage|p1a: Basculegion|1/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685888536
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Basculegion|Wave Crash|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|44/100|[from] item: Leftovers
+|-damage|p1a: Basculegion|0 fnt|[from] brn
+|faint|p1a: Basculegion
+|upkeep
+|
+|t:|1685888554
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|6
+|
+|t:|1685888559
+|move|p1a: Thundurus|Wildbolt Storm|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685888569
+|switch|p2a: Torkoal|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|7
+|
+|t:|1685888577
+|move|p1a: Thundurus|Volt Switch|p2a: Torkoal
+|-damage|p2a: Torkoal|61/100
+|
+|t:|1685888581
+|switch|p1a: Pelipper|Pelipper, F|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Torkoal|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: zorasilva|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Torkoal|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685888595
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|move|p1a: Pelipper|Surf|p2a: Garchomp
+|-damage|p2a: Garchomp|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garchomp|56/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685888609
+|move|p2a: Garchomp|Dragon Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|70/100
+|move|p1a: Pelipper|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|47/100
+|-damage|p1a: Pelipper|57/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|t:|1685888616
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from] U-turn
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garchomp|53/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685888631
+|move|p1a: Barraskewda|Liquidation|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Barraskewda|76/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685888636
+|switch|p2a: Torkoal|Torkoal, M, shiny|67/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|11
+|
+|t:|1685888646
+|move|p1a: Barraskewda|Liquidation|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685888654
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|100/100
+|turn|12
+|
+|t:|1685888659
+|move|p1a: Barraskewda|Liquidation|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|27/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Solar Blade||[still]
+|-prepare|p2a: Ceruledge|Solar Blade
+|-anim|p2a: Ceruledge|Solar Blade|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685888671
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|13
+|
+|t:|1685888686
+|move|p2a: Ceruledge|Solar Blade||[still]
+|-prepare|p2a: Ceruledge|Solar Blade
+|-anim|p2a: Ceruledge|Solar Blade|p1a: Volcanion
+|-damage|p1a: Volcanion|63/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Ceruledge|[miss]
+|-miss|p1a: Volcanion|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1685888700
+|-terastallize|p2a: Ceruledge|Ghost
+|move|p2a: Ceruledge|Bitter Blade|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|47/100
+|-heal|p2a: Ceruledge|36/100|[from] drain|[of] p1a: Volcanion
+|move|p1a: Volcanion|Steam Eruption|p2a: Ceruledge
+|-damage|p2a: Ceruledge|2/100
+|-status|p2a: Ceruledge|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ceruledge|0 fnt|[from] brn
+|faint|p2a: Ceruledge
+|upkeep
+|
+|t:|1685888706
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|15
+|
+|t:|1685888717
+|move|p1a: Volcanion|Sludge Bomb|p2a: Pelipper
+|-damage|p2a: Pelipper|63/100
+|move|p2a: Pelipper|U-turn|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|44/100
+|
+|t:|1685888723
+|switch|p2a: Barraskewda|Barraskewda, M, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1685888734
+|move|p2a: Barraskewda|Close Combat|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|faint|p1a: Volcanion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685888748
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|17
+|
+|t:|1685888753
+|switch|p2a: Pelipper|Pelipper, M, shiny|63/100
+|move|p1a: Thundurus|Wildbolt Storm|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685888756
+|switch|p2a: Barraskewda|Barraskewda, M, shiny|100/100
+|turn|18
+|
+|t:|1685888770
+|-terastallize|p1a: Thundurus|Flying
+|move|p2a: Barraskewda|Liquidation|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685888780
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1685888785
+|move|p2a: Barraskewda|Liquidation|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-weather|none
+|upkeep
+|-message|zorasilva forfeited.
+|
+|win|NaOH3412
+|raw|zorasilva's rating: 1075 → 1052(-23 for losing)
+|raw|NaOH3412's rating: 1047 → 1083(+36 for winning)
+|l|☆zorasilva

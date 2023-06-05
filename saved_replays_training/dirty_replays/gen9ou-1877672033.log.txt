@@ -1,0 +1,211 @@
+|j|☆SoleilAuLait
+|j|☆ArchBS
+|t:|1685896116
+|gametype|singles
+|player|p1|SoleilAuLait|102|1534
+|player|p2|ArchBS|dahlia|1437
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Sneasler, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Iron Treads|
+|poke|p1|Amoonguss, F|
+|poke|p2|Glastrier|
+|poke|p2|Magearna|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArchBS)
+|
+|t:|1685896128
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F, shiny|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|t:|1685896134
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|100/100
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|upkeep
+|turn|2
+|inactive|ArchBS has 120 seconds left.
+|
+|t:|1685896168
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Amoonguss|Spore|p2a: Slowking
+|-status|p2a: Slowking|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|t:|1685896174
+|switch|p1a: Samurott|Samurott-Hisui, F, shiny|100/100
+|cant|p2a: Slowking|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1685896179
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|83/100
+|-sidestart|p2: ArchBS|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1685896194
+|move|p2a: Magearna|Thunderbolt|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|2/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|64/100
+|-sidestart|p2: ArchBS|Spikes
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1685896199
+|move|p1a: Samurott|Ceaseless Edge|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|46/100
+|-sidestart|p2: ArchBS|Spikes
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|upkeep
+|turn|7
+|
+|t:|1685896209
+|move|p2a: Magearna|Thunderbolt|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+|
+|t:|1685896219
+|switch|p1a: Iron Treads|Iron Treads, shiny|100/100
+|turn|8
+|
+|t:|1685896222
+|move|p2a: Magearna|Focus Blast|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-enditem|p1a: Iron Treads|Focus Sash
+|-damage|p1a: Iron Treads|1/100
+|move|p1a: Iron Treads|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|upkeep
+|
+|t:|1685896235
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|-damage|p2a: Ursaluna|75/100|[from] Spikes
+|turn|9
+|
+|t:|1685896241
+|move|p2a: Ursaluna|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1685896243
+|switch|p1a: Sneasler|Sneasler, F, shiny|100/100
+|turn|10
+|
+|t:|1685896259
+|switch|p2a: Slowking|Slowking-Galar, M|100/100 slp
+|-damage|p2a: Slowking|76/100 slp|[from] Spikes
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1685896273
+|move|p1a: Sneasler|Acrobatics|p2a: Slowking
+|-damage|p2a: Slowking|25/100 slp
+|cant|p2a: Slowking|slp
+|
+|upkeep
+|turn|12
+|
+|t:|1685896277
+|move|p1a: Sneasler|Acrobatics|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1685896286
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|13
+|
+|t:|1685896290
+|move|p1a: Sneasler|Dire Claw|p2a: Cresselia
+|-damage|p2a: Cresselia|48/100
+|-status|p2a: Cresselia|slp
+|cant|p2a: Cresselia|slp
+|
+|upkeep
+|turn|14
+|
+|t:|1685896297
+|move|p1a: Sneasler|Dire Claw|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|upkeep
+|
+|t:|1685896302
+|switch|p2a: Glastrier|Glastrier|100/100
+|turn|15
+|
+|t:|1685896305
+|move|p1a: Sneasler|Close Combat|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|faint|p2a: Glastrier
+|
+|upkeep
+|-message|ArchBS forfeited.
+|
+|win|SoleilAuLait
+|raw|SoleilAuLait's rating: 1534 → 1549(+15 for winning)
+|raw|ArchBS's rating: 1437 → 1422(-15 for losing)
+|l|☆ArchBS

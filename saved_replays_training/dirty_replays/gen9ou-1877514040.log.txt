@@ -1,0 +1,173 @@
+|j|☆Mat Riskich
+|j|☆Polco
+|t:|1685875034
+|gametype|singles
+|player|p1|Mat Riskich|benga|1111
+|player|p2|Polco|1|1084
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Dragapult, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Kleavor, F|
+|poke|p2|Glastrier|
+|poke|p2|Magearna|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Polco)
+|
+|t:|1685875048
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|t:|1685875058
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: Mat Riskich|move: Light Screen
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|upkeep
+|turn|2
+|
+|t:|1685875062
+|move|p2a: Magearna|Fleur Cannon|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|20/100
+|-unboost|p2a: Magearna|spa|2
+|-enditem|p2a: Magearna|Eject Pack
+|
+|t:|1685875067
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: Mat Riskich|Reflect
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1685875081
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|move|p1a: Dragapult|Curse|p2a: Ursaluna
+|-start|p2a: Ursaluna|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|-damage|p2a: Ursaluna|69/100 brn|[from] Curse
+|upkeep
+|
+|t:|1685875103
+|switch|p1a: Magearna|Magearna|100/100
+|turn|4
+|
+|t:|1685875109
+|move|p2a: Ursaluna|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-damage|p2a: Ursaluna|63/100 brn|[from] brn
+|-damage|p2a: Ursaluna|38/100 brn|[from] Curse
+|upkeep
+|
+|t:|1685875116
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|5
+|
+|t:|1685875126
+|-terastallize|p1a: Sneasler|Flying
+|move|p2a: Ursaluna|Facade|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-damage|p2a: Ursaluna|32/100 brn|[from] brn
+|-damage|p2a: Ursaluna|7/100 brn|[from] Curse
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685875145
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|turn|6
+|
+|t:|1685875159
+|move|p1a: Kleavor|Swords Dance|p1a: Kleavor
+|-boost|p1a: Kleavor|atk|2
+|move|p2a: Ursaluna|Facade|p1a: Kleavor
+|-resisted|p1a: Kleavor
+|-damage|p1a: Kleavor|15/100
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|upkeep
+|
+|t:|1685875168
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|7
+|
+|t:|1685875174
+|move|p2a: Kingambit|Sucker Punch|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|upkeep
+|
+|t:|1685875177
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|8
+|
+|t:|1685875184
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Lilligant|Sleep Powder|p2a: Magearna
+|-status|p2a: Magearna|slp|[from] move: Sleep Powder
+|
+|-sideend|p1: Mat Riskich|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1685875195
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-sideend|p1: Mat Riskich|Reflect
+|upkeep
+|turn|10
+|
+|t:|1685875206
+|move|p1a: Lilligant|Close Combat|p2a: Slowking|[miss]
+|-miss|p1a: Lilligant|p2a: Slowking
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|upkeep
+|turn|11
+|-message|Mat Riskich forfeited.
+|
+|win|Polco
+|raw|Mat Riskich's rating: 1111 → 1084(-27 for losing)
+|raw|Polco's rating: 1084 → 1114(+30 for winning)
+|l|☆Mat Riskich

@@ -1,0 +1,387 @@
+|j|☆ruinationn
+|j|☆PsyKensai
+|t:|1685893433
+|gametype|singles
+|player|p1|ruinationn|cyrus-masters|1247
+|player|p2|PsyKensai|170|1236
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcarona, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Magearna|
+|poke|p1|Zamazenta-*|
+|poke|p2|Magearna|
+|poke|p2|Cinderace, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Azumarill, M|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|t:|1685893476
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|1
+|
+|t:|1685893481
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Azumarill
+|-status|p2a: Azumarill|brn
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|50/100 brn
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|75/100 brn|[from] item: Sitrus Berry
+|
+|-damage|p2a: Azumarill|69/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1685893484
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: ruinationn|Reflect
+|move|p2a: Azumarill|Play Rough|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Azumarill|63/100 brn|[from] brn
+|upkeep
+|
+|t:|1685893491
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-item|p1a: Sneasler|Air Balloon
+|turn|3
+|
+|t:|1685893496
+|move|p1a: Sneasler|Dire Claw|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1685893506
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|4
+|
+|t:|1685893519
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1685893523
+|move|p2a: Cinderace|Pyro Ball|p1a: Sneasler
+|-damage|p1a: Sneasler|8/100
+|-status|p1a: Sneasler|brn
+|-enditem|p1a: Sneasler|Air Balloon
+|move|p1a: Sneasler|Dire Claw|p2a: Cinderace
+|-damage|p2a: Cinderace|66/100
+|-status|p2a: Cinderace|psn
+|
+|-damage|p2a: Cinderace|54/100 psn|[from] psn
+|-damage|p1a: Sneasler|2/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1685893534
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Sneasler|Close Combat|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|78/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|
+|-damage|p1a: Sneasler|0 fnt|[from] brn
+|faint|p1a: Sneasler
+|upkeep
+|
+|t:|1685893540
+|switch|p1a: Magearna|Magearna|100/100
+|turn|7
+|
+|t:|1685893543
+|move|p2a: Tornadus|Heat Wave|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|40/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|46/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685893555
+|move|p1a: Magearna|Stored Power|p2a: Tornadus
+|-damage|p2a: Tornadus|41/100
+|move|p2a: Tornadus|Hurricane|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|20/100
+|
+|-heal|p1a: Magearna|26/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685893562
+|move|p1a: Magearna|Stored Power|p2a: Tornadus
+|-damage|p2a: Tornadus|2/100
+|move|p2a: Tornadus|Heat Wave|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-sideend|p2: PsyKensai|Reflect
+|upkeep
+|
+|t:|1685893571
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|10
+|
+|t:|1685893581
+|switch|p2a: Cinderace|Cinderace, M|54/100 psn
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|76/100
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|42/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685893590
+|switch|p2a: Tornadus|Tornadus-Therian, M|35/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685893595
+|move|p1a: Zamazenta|Crunch|p2a: Tornadus
+|-damage|p2a: Tornadus|6/100
+|move|p2a: Tornadus|Hurricane|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685893599
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Zamazenta|Crunch|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|91/100
+|
+|-heal|p1a: Zamazenta|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685893603
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|75/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-unboost|p2a: Magearna|spa|2
+|
+|-heal|p1a: Zamazenta|81/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685893625
+|switch|p2a: Tornadus|Tornadus-Therian, M|39/100
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|57/100
+|
+|-heal|p1a: Zamazenta|63/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685893629
+|switch|p2a: Magearna|Magearna|91/100
+|move|p1a: Zamazenta|Body Press|p2a: Magearna
+|-damage|p2a: Magearna|8/100
+|
+|-heal|p1a: Zamazenta|69/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685893635
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Magearna|Fleur Cannon|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-unboost|p2a: Magearna|spa|2
+|
+|-heal|p1a: Zamazenta|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685893637
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|50/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-unboost|p2a: Magearna|spa|2
+|
+|-heal|p1a: Zamazenta|56/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685893657
+|move|p1a: Zamazenta|Body Press|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-heal|p1a: Zamazenta|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685893663
+|switch|p2a: Tornadus|Tornadus-Therian, M|72/100
+|turn|20
+|
+|t:|1685893669
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|37/100
+|move|p2a: Tornadus|Hurricane|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|44/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685893676
+|move|p1a: Zamazenta|Body Press|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Zamazenta|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685893680
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|22
+|
+|t:|1685893707
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|25/100
+|
+|-heal|p1a: Zamazenta|31/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685893710
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|21/100
+|move|p2a: Zamazenta|Play Rough|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|11/100|[from] item: Life Orb
+|
+|-heal|p1a: Zamazenta|37/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1685893714
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Zamazenta|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685893717
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|25
+|
+|t:|1685893737
+|-terastallize|p2a: Heatran|Flying
+|move|p1a: Zamazenta|Body Press|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|48/100
+|move|p2a: Heatran|Fire Blast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1685893749
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|26
+|
+|t:|1685893760
+|move|p2a: Heatran|Fire Blast|p1a: Ursaluna
+|-damage|p1a: Ursaluna|23/100
+|-status|p1a: Ursaluna|brn
+|move|p1a: Ursaluna|Facade|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-damage|p1a: Ursaluna|17/100 brn|[from] brn
+|upkeep
+|
+|t:|1685893763
+|switch|p2a: Cinderace|Cinderace, M|42/100 psn
+|turn|27
+|
+|t:|1685893769
+|move|p2a: Cinderace|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-damage|p2a: Cinderace|29/100 psn|[from] psn
+|upkeep
+|
+|t:|1685893771
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|28
+|
+|t:|1685893773
+|-terastallize|p1a: Volcarona|Water
+|move|p2a: Cinderace|Pyro Ball|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|PsyKensai
+|raw|ruinationn's rating: 1217 → 1193(-24 for losing)
+|raw|PsyKensai's rating: 1236 → 1260(+24 for winning)

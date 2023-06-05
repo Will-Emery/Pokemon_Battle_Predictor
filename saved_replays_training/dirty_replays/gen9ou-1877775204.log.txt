@@ -1,0 +1,241 @@
+|j|☆Any%ObtainPizza
+|j|☆Hunata
+|t:|1685906972
+|gametype|singles
+|player|p1|Any%ObtainPizza|169|1143
+|player|p2|Hunata|bellelba|1047
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Meowscarada, M|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Jugulis|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Moth|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Magearna|
+|poke|p2|Sneasler, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Mew|
+|teampreview
+|
+|t:|1685906988
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|t:|1685907000
+|move|p1a: Meowscarada|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|cant|p2a: Mew|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685907005
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Meowscarada|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|74/100
+|-enditem|p2a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685907018
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Torkoal|Flamethrower|p1a: Great Tusk
+|-damage|p1a: Great Tusk|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685907024
+|move|p1a: Great Tusk|Headlong Rush|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-enditem|p1a: Great Tusk|Eject Pack
+|faint|p2a: Torkoal
+|
+|t:|1685907031
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685907040
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|5
+|
+|t:|1685907046
+|move|p2a: Lilligant|Sleep Powder|p1a: Iron Moth
+|-status|p1a: Iron Moth|slp|[from] move: Sleep Powder
+|cant|p1a: Iron Moth|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685907048
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|cant|p1a: Iron Moth|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685907068
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|cant|p1a: Iron Moth|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1685907073
+|move|p2a: Lilligant|Close Combat|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|21/100 slp
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|-curestatus|p1a: Iron Moth|slp|[msg]
+|move|p1a: Iron Moth|Fiery Dance|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685907081
+|switch|p2a: Magearna|Magearna|100/100
+|turn|9
+|
+|t:|1685907085
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Iron Moth|Fiery Dance|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|76/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-weather|none
+|-heal|p2a: Magearna|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685907093
+|move|p1a: Iron Moth|Energy Ball|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|9/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|15/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685907100
+|move|p1a: Iron Moth|Energy Ball|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|upkeep
+|
+|t:|1685907104
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|12
+|
+|t:|1685907110
+|move|p2a: Sneasler|Fake Out|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685907126
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|turn|13
+|
+|t:|1685907133
+|move|p1a: Iron Jugulis|Hurricane|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|upkeep
+|
+|t:|1685907138
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|14
+|
+|t:|1685907140
+|move|p1a: Iron Jugulis|Hurricane|p2a: Zapdos|[miss]
+|-miss|p1a: Iron Jugulis|p2a: Zapdos
+|move|p2a: Zapdos|Thunderous Kick|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|48/100
+|-unboost|p1a: Iron Jugulis|def|1
+|
+|upkeep
+|turn|15
+|
+|t:|1685907150
+|move|p1a: Iron Jugulis|Hurricane|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1685907154
+|switch|p2a: Mew|Mew|100/100
+|turn|16
+|
+|t:|1685907156
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Mew
+|-supereffective|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|Any%ObtainPizza
+|raw|Any%ObtainPizza's rating: 1143 → 1161(+18 for winning)
+|raw|Hunata's rating: 1047 → 1035(-12 for losing)
+|c|☆Any%ObtainPizza|gg

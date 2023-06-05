@@ -1,0 +1,260 @@
+|j|☆StephDC1
+|j|☆Zerotti
+|t:|1685904968
+|gametype|singles
+|player|p1|StephDC1|rocketgrunt|
+|player|p2|Zerotti|atticus|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Moth|
+|poke|p1|Gholdengo|
+|poke|p1|Walking Wake|
+|poke|p2|Gallade, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zerotti)
+|
+|t:|1685904977
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|1
+|
+|t:|1685904994
+|move|p2a: Meowscarada|Taunt|p1a: Dragonite
+|-start|p1a: Dragonite|move: Taunt
+|cant|p1a: Dragonite|move: Taunt|Dragon Dance
+|
+|upkeep
+|turn|2
+|
+|t:|1685905004
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Meowscarada|Knock Off|p1a: Iron Moth
+|-damage|p1a: Iron Moth|65/100
+|
+|upkeep
+|turn|3
+|inactive|Zerotti has 270 seconds left.
+|inactive|StephDC1 has 270 seconds left.
+|
+|t:|1685905042
+|move|p1a: Iron Moth|Fiery Dance|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-crit|p2a: Meowscarada
+|-enditem|p2a: Meowscarada|Focus Sash
+|-damage|p2a: Meowscarada|1/100
+|move|p2a: Meowscarada|Spikes|p1a: Iron Moth
+|-sidestart|p1: StephDC1|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1685905065
+|move|p1a: Iron Moth|Fiery Dance|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Meowscarada
+|
+|upkeep
+|inactive|Zerotti has 240 seconds left.
+|
+|t:|1685905095
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|5
+|
+|t:|1685905100
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685905104
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|turn|6
+|
+|t:|1685905115
+|move|p1a: Garchomp|Stealth Rock|p2a: Kingambit
+|-sidestart|p2: Zerotti|move: Stealth Rock
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1685905122
+|move|p1a: Garchomp|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|12/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Kingambit|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|inactive|Zerotti has 240 seconds left.
+|inactive|Zerotti has 210 seconds left.
+|
+|t:|1685905191
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Gallade|Gallade, M, shiny|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Spikes
+|-damage|p2a: Gallade|94/100|[from] Stealth Rock
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|8
+|
+|t:|1685905200
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Gallade
+|-damage|p2a: Gallade|25/100
+|move|p2a: Gallade|Sacred Sword|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|-damage|p2a: Gallade|15/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685905211
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|9
+|
+|t:|1685905233
+|move|p2a: Gallade|Psycho Cut|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|45/100
+|-damage|p2a: Gallade|6/100|[from] item: Life Orb
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|10
+|inactive|Zerotti has 210 seconds left.
+|
+|t:|1685905260
+|move|p1a: Dragonite|Extreme Speed|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|inactive|Zerotti has 180 seconds left.
+|j| Dhrim15
+|
+|t:|1685905298
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|t:|1685905308
+|move|p1a: Dragonite|Dragon Claw|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|30/100
+|move|p2a: Dragonite|Encore|p1a: Dragonite
+|-start|p1a: Dragonite|Encore
+|
+|upkeep
+|turn|12
+|
+|t:|1685905325
+|move|p1a: Dragonite|Dragon Claw|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1685905336
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|13
+|
+|t:|1685905356
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1685905375
+|-terastallize|p1a: Gholdengo|Fairy
+|move|p2a: Iron Valiant|Fire Punch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|37/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|-enditem|p1a: Gholdengo|Eject Pack
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|t:|1685905385
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|88/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|
+|-heal|p1a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685905389
+|switch|p2a: Zoroark|Zoroark-Hisui, M|100/100
+|-damage|p2a: Zoroark|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1685905398
+|-terastallize|p2a: Zoroark|Fighting
+|move|p1a: Kingambit|Sucker Punch|p2a: Zoroark
+|-resisted|p2a: Zoroark
+|-damage|p2a: Zoroark|30/100
+|move|p2a: Zoroark|Low Kick|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1685905403
+|switch|p1a: Dragonite|Dragonite, M|45/100
+|turn|16
+|
+|t:|1685905407
+|move|p1a: Dragonite|Extreme Speed|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|win|StephDC1

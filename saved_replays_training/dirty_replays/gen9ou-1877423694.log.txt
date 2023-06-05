@@ -1,0 +1,325 @@
+|j|☆Thegreninjaman
+|j|☆NikiRose
+|t:|1685858059
+|gametype|singles
+|player|p1|Thegreninjaman|n|
+|player|p2|NikiRose|lady-gen4|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Iron Moth|
+|poke|p1|Goodra-Hisui, F|
+|poke|p2|Veluza, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Dragapult, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1685858073
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Sgt Steel|Corviknight, F, shiny|100/100
+|turn|1
+|
+|t:|1685858087
+|move|p2a: Sgt Steel|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|37/100
+|-unboost|p1a: Hatterene|spd|1
+|move|p1a: Hatterene|Mystical Fire|p2a: Sgt Steel
+|-supereffective|p2a: Sgt Steel
+|-damage|p2a: Sgt Steel|51/100
+|-ability|p2a: Sgt Steel|Mirror Armor
+|-unboost|p1a: Hatterene|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685858096
+|switch|p1a: Vulca|Iron Moth|100/100
+|-enditem|p1a: Vulca|Booster Energy
+|-activate|p1a: Vulca|ability: Quark Drive|[fromitem]
+|-start|p1a: Vulca|quarkdrivespa
+|move|p2a: Sgt Steel|Flash Cannon|p1a: Vulca
+|-resisted|p1a: Vulca
+|-damage|p1a: Vulca|88/100
+|
+|upkeep
+|turn|3
+|
+|t:|1685858109
+|move|p1a: Vulca|Flamethrower|p2a: Sgt Steel
+|-supereffective|p2a: Sgt Steel
+|-damage|p2a: Sgt Steel|0 fnt
+|faint|p2a: Sgt Steel
+|
+|upkeep
+|
+|t:|1685858118
+|switch|p2a: Stabby|Veluza, M, shiny|100/100
+|turn|4
+|
+|t:|1685858141
+|-end|p1a: Vulca|Quark Drive|[silent]
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Stabby|Aqua Cutter|p1a: Goodra
+|-damage|p1a: Goodra|12/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|
+|upkeep
+|turn|5
+|
+|t:|1685858151
+|move|p1a: Zoroark|Knock Off|p2a: Stabby
+|-supereffective|p2a: Stabby
+|-damage|p2a: Stabby|31/100
+|-enditem|p2a: Stabby|Weakness Policy
+|-boost|p2a: Stabby|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Stabby|spa|2|[from] item: Weakness Policy
+|move|p2a: Stabby|Aqua Cutter|p1a: Zoroark
+|-crit|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1685858163
+|switch|p1a: Slippy|Gastrodon, F|100/100
+|turn|6
+|
+|t:|1685858171
+|move|p2a: Stabby|Night Slash|p1a: Slippy
+|-damage|p1a: Slippy|20/100
+|move|p1a: Slippy|Earth Power|p2a: Stabby
+|-damage|p2a: Stabby|0 fnt
+|faint|p2a: Stabby
+|
+|upkeep
+|
+|t:|1685858182
+|switch|p2a: Terror|Great Tusk|100/100
+|turn|7
+|
+|t:|1685858188
+|move|p2a: Terror|Bulk Up|p2a: Terror
+|-boost|p2a: Terror|atk|1
+|-boost|p2a: Terror|def|1
+|move|p1a: Slippy|Ice Beam|p2a: Terror
+|-supereffective|p2a: Terror
+|-crit|p2a: Terror
+|-damage|p2a: Terror|1/100
+|
+|-heal|p2a: Terror|7/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685858202
+|move|p2a: Terror|Ice Spinner|p1a: Slippy
+|-crit|p1a: Slippy
+|-damage|p1a: Slippy|0 fnt
+|faint|p1a: Slippy
+|
+|-heal|p2a: Terror|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685858214
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|turn|9
+|
+|t:|1685858219
+|move|p2a: Terror|Headlong Rush|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-unboost|p2a: Terror|def|1
+|-unboost|p2a: Terror|spd|1
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Terror|spe|1
+|faint|p1a: Goodra
+|
+|-heal|p2a: Terror|20/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685858229
+|switch|p1a: Stacky|Garganacl, M|100/100
+|turn|10
+|
+|t:|1685858244
+|-terastallize|p1a: Stacky|Ghost
+|move|p2a: Terror|Headlong Rush|p1a: Stacky
+|-damage|p1a: Stacky|51/100
+|-unboost|p2a: Terror|def|1
+|-unboost|p2a: Terror|spd|1
+|move|p1a: Stacky|Ice Punch|p2a: Terror
+|-supereffective|p2a: Terror
+|-damage|p2a: Terror|0 fnt
+|faint|p2a: Terror
+|-end|p2a: Terror|Protosynthesis|[silent]
+|
+|-heal|p1a: Stacky|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685858256
+|switch|p2a: Seeker|Dragapult, F, shiny|100/100
+|turn|11
+|
+|t:|1685858266
+|-terastallize|p2a: Seeker|Dark
+|move|p2a: Seeker|Phantom Force||[still]
+|-prepare|p2a: Seeker|Phantom Force
+|-enditem|p2a: Seeker|Power Herb
+|-anim|p2a: Seeker|Phantom Force|p1a: Stacky
+|-supereffective|p1a: Stacky
+|-damage|p1a: Stacky|33/100
+|move|p1a: Stacky|Recover|p1a: Stacky
+|-heal|p1a: Stacky|83/100
+|
+|-heal|p1a: Stacky|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685858285
+|move|p2a: Seeker|Tera Blast|p1a: Stacky
+|-supereffective|p1a: Stacky
+|-damage|p1a: Stacky|48/100
+|move|p1a: Stacky|Salt Cure|p2a: Seeker
+|-damage|p2a: Seeker|79/100
+|-start|p2a: Seeker|Salt Cure
+|
+|-heal|p1a: Stacky|54/100|[from] item: Leftovers
+|-damage|p2a: Seeker|67/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1685858299
+|switch|p1a: Hatterene|Hatterene, F|37/100
+|move|p2a: Seeker|Dragon Darts|p1a: Hatterene
+|-immune|p1a: Hatterene
+|
+|-damage|p2a: Seeker|55/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1685858308
+|move|p2a: Seeker|Phantom Force||[still]
+|-prepare|p2a: Seeker|Phantom Force
+|move|p1a: Hatterene|Draining Kiss|p2a: Seeker|[miss]
+|-miss|p1a: Hatterene|p2a: Seeker
+|
+|-damage|p2a: Seeker|42/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1685858315
+|move|p2a: Seeker|Phantom Force|p1a: Hatterene|[from]lockedmove
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-damage|p2a: Seeker|30/100|[from] Salt Cure
+|upkeep
+|
+|t:|1685858322
+|switch|p1a: Vulca|Iron Moth|88/100
+|turn|16
+|
+|t:|1685858328
+|move|p2a: Seeker|Dragon Darts|p1a: Vulca
+|-damage|p1a: Vulca|51/100
+|-anim|p2a: Seeker|Dragon Darts|p1a: Vulca
+|-damage|p1a: Vulca|14/100
+|move|p1a: Vulca|Discharge|p2a: Seeker
+|-damage|p2a: Seeker|0 fnt
+|faint|p2a: Seeker
+|
+|upkeep
+|
+|t:|1685858338
+|switch|p2a: Spin Doctor|Electrode-Hisui|100/100
+|turn|17
+|
+|t:|1685858342
+|move|p2a: Spin Doctor|Energy Ball|p1a: Vulca
+|-resisted|p1a: Vulca
+|-damage|p1a: Vulca|6/100
+|move|p1a: Vulca|Flamethrower|p2a: Spin Doctor
+|-supereffective|p2a: Spin Doctor
+|-damage|p2a: Spin Doctor|0 fnt
+|faint|p2a: Spin Doctor
+|
+|upkeep
+|
+|t:|1685858353
+|switch|p2a: King|Dragonite, M, shiny|100/100
+|turn|18
+|
+|t:|1685858361
+|move|p1a: Vulca|Discharge|p2a: King
+|-damage|p2a: King|77/100
+|move|p2a: King|Chilling Water|p1a: Vulca
+|-supereffective|p1a: Vulca
+|-damage|p1a: Vulca|0 fnt
+|faint|p1a: Vulca
+|-end|p1a: Vulca|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685858367
+|switch|p1a: Stacky|Garganacl, M, tera:Ghost|54/100
+|turn|19
+|
+|t:|1685858371
+|move|p2a: King|Blizzard|p1a: Stacky
+|-damage|p1a: Stacky|25/100
+|move|p1a: Stacky|Recover|p1a: Stacky
+|-heal|p1a: Stacky|75/100
+|
+|-heal|p1a: Stacky|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685858378
+|move|p2a: King|Blizzard|p1a: Stacky
+|-damage|p1a: Stacky|53/100
+|move|p1a: Stacky|Ice Punch|p2a: King
+|-supereffective|p2a: King
+|-damage|p2a: King|8/100
+|
+|-heal|p1a: Stacky|59/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685858385
+|move|p2a: King|Blizzard|p1a: Stacky|[miss]
+|-miss|p2a: King|p1a: Stacky
+|move|p1a: Stacky|Recover|p1a: Stacky
+|-heal|p1a: Stacky|100/100
+|
+|upkeep
+|turn|22
+|
+|t:|1685858391
+|move|p2a: King|Blizzard|p1a: Stacky
+|-damage|p1a: Stacky|74/100
+|move|p1a: Stacky|Ice Punch|p2a: King
+|-supereffective|p2a: King
+|-damage|p2a: King|0 fnt
+|faint|p2a: King
+|
+|win|Thegreninjaman
+|l|☆NikiRose

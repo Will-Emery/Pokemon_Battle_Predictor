@@ -1,0 +1,157 @@
+|j|☆somnath069
+|j|☆Fatty No.1
+|t:|1685867351
+|gametype|singles
+|player|p1|somnath069|scientist|1183
+|player|p2|Fatty No.1|psychic-gen4|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Meowscarada, F|
+|poke|p1|Scizor, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Polteageist|
+|poke|p2|Hawlucha, F|
+|poke|p2|Sneasler, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fatty No.1)
+|
+|t:|1685867360
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-item|p1a: Glimmora|Air Balloon
+|turn|1
+|inactive|somnath069 has 120 seconds left.
+|
+|t:|1685867390
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2a: Indeedee|Psychic|p1a: Glimmora
+|-activate|p1a: Glimmora|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1685867397
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|42/100
+|
+|upkeep
+|turn|3
+|
+|t:|1685867403
+|move|p1a: Meowscarada|Knock Off|p2a: Indeedee
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Terrain Extender|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1685867414
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1685867422
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-item|p1a: Glimmora|Air Balloon
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1685867429
+|move|p2a: Sneasler|Close Combat|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Fatty No.1|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Air Balloon
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1685867439
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|t:|1685867444
+|move|p2a: Sneasler|Dire Claw|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|31/100
+|-status|p1a: Dragapult|slp
+|cant|p1a: Dragapult|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1685867452
+|move|p2a: Sneasler|Dire Claw|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1685867458
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|8
+|
+|t:|1685867461
+|move|p1a: Scizor|Bullet Punch|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Psychic Terrain
+|move|p2a: Sneasler|Close Combat|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Scizor
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1685867469
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1685867475
+|move|p2a: Sneasler|Dire Claw|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|-message|somnath069 forfeited.
+|
+|win|Fatty No.1
+|raw|somnath069's rating: 1183 → 1163(-20 for losing)
+|raw|Fatty No.1's rating: 1255 → 1275(+20 for winning)
+|l|☆somnath069

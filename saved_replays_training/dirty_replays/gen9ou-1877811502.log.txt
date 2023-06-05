@@ -1,0 +1,163 @@
+|j|☆HazeCloud
+|j|☆EtherSword
+|t:|1685910829
+|gametype|singles
+|player|p1|HazeCloud|blue-gen2|1267
+|player|p2|EtherSword|unknown|1242
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Glastrier|
+|poke|p1|Regidrago|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EtherSword)
+|
+|t:|1685910854
+|start
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|EtherSword has 120 seconds left.
+|
+|t:|1685910895
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685910913
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685910923
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|3
+|inactive|EtherSword has 120 seconds left.
+|
+|t:|1685910929
+|move|p1a: Hoopa|Zen Headbutt|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|move|p2a: Sneasler|Close Combat|p1a: Hoopa
+|-crit|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Hoopa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685910951
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|4
+|inactive|EtherSword has 120 seconds left.
+|
+|t:|1685910977
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|move|p1a: Ursaluna|Facade|p2a: Torkoal
+|-damage|p2a: Torkoal|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1685910991
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|EtherSword has 120 seconds left.
+|
+|t:|1685911006
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685911021
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|-end|p2a: Walking Wake|Protosynthesis
+|
+|t:|1685911036
+|switch|p1a: Regidrago|Regidrago|100/100|[from] Chilly Reception
+|move|p2a: Walking Wake|Hydro Steam|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|70/100
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|8
+|inactive|EtherSword has 120 seconds left.
+|
+|t:|1685911046
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Regidrago|Hyper Beam|p2a: Grimmsnarl|[miss]
+|-miss|p1a: Regidrago|p2a: Grimmsnarl
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|9
+|inactive|EtherSword has 120 seconds left.
+|
+|t:|1685911062
+|move|p1a: Regidrago|Hyper Beam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|23/100
+|-mustrecharge|p1a: Regidrago
+|move|p2a: Grimmsnarl|Draining Kiss|p1a: Regidrago
+|-supereffective|p1a: Regidrago
+|-damage|p1a: Regidrago|26/100
+|-heal|p2a: Grimmsnarl|72/100|[from] drain|[of] p1a: Regidrago
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Grimmsnarl|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|EtherSword has 120 seconds left.
+|-message|HazeCloud forfeited.
+|
+|win|EtherSword
+|raw|HazeCloud's rating: 1267 → 1240(-27 for losing)
+|raw|EtherSword's rating: 1242 → 1269(+27 for winning)
+|l|☆HazeCloud

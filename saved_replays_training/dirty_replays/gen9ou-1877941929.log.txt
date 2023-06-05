@@ -1,0 +1,286 @@
+|j|☆Daytime_lunar
+|j|☆hobreezy
+|t:|1685926483
+|gametype|singles
+|player|p1|Daytime_lunar|wattson|1434
+|player|p2|hobreezy|blue|1333
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcanion|
+|poke|p1|Chesnaught, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p2|Sandy Shocks|
+|poke|p2|Iron Hands|
+|poke|p2|Iron Jugulis|
+|poke|p2|Rotom-Wash|
+|poke|p2|Garganacl, F|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Daytime_lunar)
+|
+|t:|1685926497
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1685926510
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Volcanion
+|-damage|p1a: Volcanion|72/100
+|
+|upkeep
+|turn|2
+|
+|t:|1685926519
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|82/100
+|-status|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|82/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1685926528
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|-heal|p2a: Rotom|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685926538
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Volcanion|Volcanion|72/100
+|move|p2a: Rotom|Hydro Pump|p1a: Volcanion
+|-heal|p1a: Volcanion|97/100|[from] ability: Water Absorb|[of] p2a: Rotom
+|
+|-heal|p2a: Rotom|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685926545
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|86/100
+|
+|t:|1685926548
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|6
+|
+|t:|1685926553
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Iron Jugulis|Hurricane|p1a: Kingambit|[miss]
+|-miss|p2a: Iron Jugulis|p1a: Kingambit
+|
+|upkeep
+|turn|7
+|
+|t:|1685926559
+|move|p2a: Iron Jugulis|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|38/100
+|move|p1a: Kingambit|Iron Head|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|49/100
+|
+|upkeep
+|turn|8
+|
+|t:|1685926566
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Volcanion|Volcanion|97/100
+|move|p2a: Iron Jugulis|Flamethrower|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|91/100
+|
+|upkeep
+|turn|9
+|
+|t:|1685926570
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Rotom|Rotom-Wash|82/100 brn
+|move|p1a: Volcanion|Steam Eruption|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|62/100 brn
+|
+|-heal|p2a: Rotom|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|62/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685926577
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-heal|p2a: Rotom|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|62/100 brn|[from] brn
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1685926582
+|move|p2a: Rotom|Hydro Pump|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Rotom|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|62/100 brn|[from] brn
+|upkeep
+|
+|t:|1685926586
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|12
+|
+|t:|1685926588
+|move|p1a: Dragapult|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1685926606
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|turn|13
+|
+|t:|1685926611
+|switch|p1a: Chesnaught|Chesnaught, M|86/100
+|move|p2a: Iron Hands|Substitute|p2a: Iron Hands
+|-start|p2a: Iron Hands|Substitute
+|-damage|p2a: Iron Hands|76/100
+|
+|-heal|p2a: Iron Hands|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685926616
+|move|p1a: Chesnaught|Iron Defense|p1a: Chesnaught
+|-boost|p1a: Chesnaught|def|2
+|move|p2a: Iron Hands|Ice Punch|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|70/100
+|-damage|p2a: Iron Hands|65/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|
+|-heal|p2a: Iron Hands|71/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685926622
+|move|p1a: Chesnaught|Body Press|p2a: Iron Hands
+|-end|p2a: Iron Hands|Substitute
+|move|p2a: Iron Hands|Swords Dance|p2a: Iron Hands
+|-boost|p2a: Iron Hands|atk|2
+|
+|-heal|p2a: Iron Hands|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685926632
+|move|p1a: Chesnaught|Body Press|p2a: Iron Hands
+|-damage|p2a: Iron Hands|23/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|36/100
+|-damage|p2a: Iron Hands|7/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|
+|-heal|p2a: Iron Hands|13/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685926637
+|move|p1a: Chesnaught|Synthesis|p1a: Chesnaught
+|-heal|p1a: Chesnaught|86/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|50/100
+|-damage|p2a: Iron Hands|0 fnt|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685926640
+|switch|p2a: Iron Jugulis|Iron Jugulis|49/100
+|turn|18
+|
+|t:|1685926644
+|move|p2a: Iron Jugulis|Hurricane|p1a: Chesnaught|[miss]
+|-miss|p2a: Iron Jugulis|p1a: Chesnaught
+|move|p1a: Chesnaught|Body Press|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685926649
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|19
+|
+|t:|1685926653
+|-terastallize|p1a: Chesnaught|Water
+|move|p2a: Cinderace|Pyro Ball|p1a: Chesnaught
+|-immune|p1a: Chesnaught|[from] ability: Bulletproof
+|move|p1a: Chesnaught|Synthesis|p1a: Chesnaught
+|-heal|p1a: Chesnaught|99/100
+|
+|upkeep
+|turn|20
+|
+|t:|1685926659
+|move|p2a: Cinderace|U-turn|p1a: Chesnaught
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Chesnaught|90/100
+|-damage|p2a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p1a: Chesnaught
+|
+|t:|1685926662
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|move|p1a: Chesnaught|Iron Defense|p1a: Chesnaught
+|-boost|p1a: Chesnaught|def|2
+|
+|upkeep
+|turn|21
+|
+|t:|1685926670
+|move|p1a: Chesnaught|Body Press|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|upkeep
+|-message|hobreezy forfeited.
+|
+|win|Daytime_lunar
+|raw|Daytime_lunar's rating: 1434 → 1448(+14 for winning)
+|raw|hobreezy's rating: 1333 → 1319(-14 for losing)
+|l|☆hobreezy

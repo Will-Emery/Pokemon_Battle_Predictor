@@ -1,0 +1,270 @@
+|j|☆Caruzo
+|j|☆StealthVex
+|t:|1685916257
+|gametype|singles
+|player|p1|Caruzo|liza|1124
+|player|p2|StealthVex|266|1046
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Decidueye-Hisui, M|
+|teampreview
+|
+|t:|1685916265
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|switch|p2a: Decidueye|Decidueye-Hisui, M|100/100
+|turn|1
+|
+|t:|1685916272
+|move|p1a: Lilligant|Axe Kick|p2a: Decidueye
+|-enditem|p2a: Decidueye|Focus Sash
+|-damage|p2a: Decidueye|1/100
+|-damage|p1a: Lilligant|91/100|[from] item: Life Orb
+|move|p2a: Decidueye|Tailwind|p2a: Decidueye
+|-sidestart|p2: StealthVex|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1685916278
+|move|p2a: Decidueye|Triple Arrows|p1a: Lilligant
+|-damage|p1a: Lilligant|22/100
+|move|p1a: Lilligant|Leaf Blade|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|-damage|p1a: Lilligant|12/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685916282
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|turn|3
+|
+|t:|1685916289
+|move|p1a: Lilligant|Axe Kick|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|-damage|p1a: Lilligant|2/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685916295
+|switch|p2a: Basculegion|Basculegion, M, shiny|100/100
+|turn|4
+|
+|t:|1685916318
+|move|p2a: Basculegion|Aqua Jet|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-sideend|p2: StealthVex|move: Tailwind
+|upkeep
+|
+|t:|1685916327
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|5
+|
+|t:|1685916332
+|move|p1a: Zamazenta|Wild Charge|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|22/100
+|-damage|p1a: Zamazenta|77/100|[from] Recoil
+|move|p2a: Basculegion|Phantom Force||[still]
+|-prepare|p2a: Basculegion|Phantom Force
+|
+|upkeep
+|turn|6
+|
+|t:|1685916339
+|move|p1a: Zamazenta|Wild Charge|p2a: Basculegion|[miss]
+|-miss|p1a: Zamazenta|p2a: Basculegion
+|move|p2a: Basculegion|Phantom Force|p1a: Zamazenta|[from]lockedmove
+|-damage|p1a: Zamazenta|55/100
+|
+|upkeep
+|turn|7
+|
+|t:|1685916348
+|move|p2a: Basculegion|Aqua Jet|p1a: Zamazenta
+|-damage|p1a: Zamazenta|44/100
+|move|p1a: Zamazenta|Wild Charge|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-damage|p1a: Zamazenta|38/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1685916370
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|8
+|
+|t:|1685916375
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-terastallize|p2a: Arcanine|Normal
+|move|p2a: Arcanine|Agility|p2a: Arcanine
+|-boost|p2a: Arcanine|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1685916382
+|move|p2a: Arcanine|Head Smash|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-damage|p2a: Arcanine|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685916392
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|turn|10
+|
+|t:|1685916399
+|move|p2a: Arcanine|Head Smash|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|-damage|p2a: Arcanine|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685916404
+|switch|p1a: Zamazenta|Zamazenta-Crowned|38/100
+|turn|11
+|
+|t:|1685916409
+|move|p2a: Arcanine|Flare Blitz|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2a: Arcanine|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685916417
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|turn|12
+|
+|t:|1685916420
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Arcanine|Head Smash|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|65/100
+|-damage|p2a: Arcanine|61/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1685916423
+|move|p1a: Kingambit|Sucker Punch|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|-damage|p1a: Kingambit|55/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685916427
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|14
+|
+|t:|1685916434
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Samurott|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1685916440
+|move|p1a: Kingambit|Sucker Punch|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|51/100
+|-damage|p1a: Kingambit|45/100|[from] item: Life Orb
+|move|p2a: Samurott|Ceaseless Edge|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|28/100
+|-sidestart|p1: Caruzo|Spikes
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1685916445
+|move|p1a: Kingambit|Sucker Punch|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|6/100
+|-damage|p1a: Kingambit|18/100|[from] item: Life Orb
+|move|p2a: Samurott|Sacred Sword|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1685916448
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-damage|p1a: Typhlosion|88/100|[from] Spikes
+|turn|17
+|
+|t:|1685916452
+|-terastallize|p1a: Typhlosion|Fire
+|move|p1a: Typhlosion|Eruption|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1685916456
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|18
+|
+|t:|1685916460
+|move|p1a: Typhlosion|Eruption|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|win|Caruzo
+|raw|Caruzo's rating: 1124 → 1143(+19 for winning)
+|raw|StealthVex's rating: 1046 → 1033(-13 for losing)
+|l|☆StealthVex

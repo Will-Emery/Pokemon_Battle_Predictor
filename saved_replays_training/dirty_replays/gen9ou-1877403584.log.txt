@@ -1,0 +1,266 @@
+|j|☆yuyan2023
+|j|☆AceyAce
+|t:|1685854527
+|gametype|singles
+|player|p1|yuyan2023|266|1321
+|player|p2|AceyAce|cilan|1409
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Great Tusk|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Roaring Moon|
+|poke|p1|Rotom-Wash|
+|poke|p2|Volcanion|
+|poke|p2|Corviknight, F|
+|poke|p2|Regidrago|
+|poke|p2|Gallade, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Garganacl, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AceyAce)
+|
+|t:|1685854534
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: EXO-X_02|Volcanion|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1685854544
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: EXO-X_02|Earth Power|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685854551
+|move|p2a: EXO-X_02|Protect|p2a: EXO-X_02
+|-singleturn|p2a: EXO-X_02|Protect
+|move|p1a: Rotom|Trick|p2a: EXO-X_02
+|-activate|p2a: EXO-X_02|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685854560
+|switch|p2a: EXO-Sword_06|Gallade, M|100/100
+|move|p1a: Rotom|Trick|p2a: EXO-Sword_06
+|-activate|p1a: Rotom|move: Trick|[of] p2a: EXO-Sword_06
+|-item|p2a: EXO-Sword_06|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Choice Scarf|[from] move: Trick
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685854573
+|move|p2a: EXO-Sword_06|Sacred Sword|p1a: Rotom
+|-damage|p1a: Rotom|41/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: EXO-Sword_06
+|-status|p2a: EXO-Sword_06|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: EXO-Sword_06|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685854591
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p2a: EXO-Sword_06|Sacred Sword|p1a: Lilligant
+|-damage|p1a: Lilligant|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: EXO-Sword_06|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1685854599
+|switch|p2a: EXO-Upbeat_05|Corviknight, F|100/100
+|-ability|p2a: EXO-Upbeat_05|Pressure
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|-anim|p1a: Lilligant|Solar Blade|p2a: EXO-Upbeat_05
+|-resisted|p2a: EXO-Upbeat_05
+|-damage|p2a: EXO-Upbeat_05|86/100
+|-damage|p1a: Lilligant|39/100|[from] item: Rocky Helmet|[of] p2a: EXO-Upbeat_05
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685854613
+|switch|p1a: Rotom|Rotom-Wash|41/100
+|move|p2a: EXO-Upbeat_05|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1685854624
+|switch|p2a: EXO-Sword_06|Gallade, M|88/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: EXO-Sword_06
+|-damage|p2a: EXO-Sword_06|62/100 brn
+|
+|t:|1685854634
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|-damage|p2a: EXO-Sword_06|56/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685854645
+|move|p2a: EXO-Sword_06|Psycho Cut|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|41/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: EXO-Sword_06
+|-damage|p2a: EXO-Sword_06|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: EXO-Sword_06
+|
+|upkeep
+|
+|t:|1685854655
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|10
+|
+|t:|1685854667
+|move|p2a: Regidrago|Dragon Energy|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685854671
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|11
+|
+|t:|1685854677
+|switch|p1a: Rotom|Rotom-Wash|41/100
+|move|p2a: Regidrago|Dragon Energy|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685854686
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|12
+|
+|t:|1685854691
+|switch|p2a: EXO-Upbeat_05|Corviknight, F|86/100
+|-ability|p2a: EXO-Upbeat_05|Pressure
+|move|p1a: Walking Wake|Draco Meteor|p2a: EXO-Upbeat_05
+|-resisted|p2a: EXO-Upbeat_05
+|-damage|p2a: EXO-Upbeat_05|42/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1685854703
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|-activate|p1a: Roaring Moon|ability: Protosynthesis
+|-start|p1a: Roaring Moon|protosynthesisatk
+|move|p2a: EXO-Upbeat_05|U-turn|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|64/100
+|
+|t:|1685854711
+|switch|p2a: EXO-X_02|Volcanion|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1685854718
+|move|p1a: Roaring Moon|Dragon Dance|p1a: Roaring Moon
+|-boost|p1a: Roaring Moon|atk|1
+|-boost|p1a: Roaring Moon|spe|1
+|move|p2a: EXO-X_02|Steam Eruption|p1a: Roaring Moon
+|-resisted|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|48/100
+|-status|p1a: Roaring Moon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Roaring Moon|42/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1685854730
+|move|p1a: Roaring Moon|Dragon Dance|p1a: Roaring Moon
+|-boost|p1a: Roaring Moon|atk|1
+|-boost|p1a: Roaring Moon|spe|1
+|move|p2a: EXO-X_02|Earth Power|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|10/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Roaring Moon|3/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1685854743
+|move|p2a: EXO-X_02|Protect|p2a: EXO-X_02
+|-singleturn|p2a: EXO-X_02|Protect
+|move|p1a: Roaring Moon|Crunch|p2a: EXO-X_02
+|-activate|p2a: EXO-X_02|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Roaring Moon|0 fnt|[from] brn
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1685854754
+|switch|p1a: Lilligant|Lilligant-Hisui, F|39/100
+|turn|17
+|
+|t:|1685854757
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|-anim|p1a: Lilligant|Solar Blade|p2a: EXO-X_02
+|-damage|p2a: EXO-X_02|38/100
+|move|p2a: EXO-X_02|Flamethrower|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-crit|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: EXO-X_02|44/100|[from] item: Leftovers
+|upkeep
+|-message|yuyan2023 forfeited.
+|
+|win|AceyAce
+|raw|yuyan2023's rating: 1321 → 1306(-15 for losing)
+|raw|AceyAce's rating: 1409 → 1424(+15 for winning)
+|l|☆yuyan2023

@@ -1,0 +1,235 @@
+|j|☆eruhxd
+|j|☆The Googer
+|t:|1685912162
+|gametype|singles
+|player|p1|eruhxd|grimsley|1130
+|player|p2|The Googer|lenora|1143
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Quaquaval, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Maushold-Four|
+|poke|p2|Ceruledge, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eruhxd)
+|inactive|eruhxd has 120 seconds left.
+|
+|t:|1685912229
+|start
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, shiny|100/100
+|switch|p2a: Big Steppy|Quaquaval, F|100/100
+|-item|p2a: Big Steppy|Choice Band|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|turn|1
+|
+|t:|1685912237
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Big Steppy|Aqua Step|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-boost|p2a: Big Steppy|spe|1
+|faint|p1a: Indeedee
+|-ability|p2a: Big Steppy|Moxie|boost
+|-boost|p2a: Big Steppy|atk|1
+|
+|upkeep
+|
+|t:|1685912242
+|switch|p1a: Sneasler|Sneasler, M, shiny|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1685912251
+|-terastallize|p1a: Sneasler|Psychic
+|move|p1a: Sneasler|Tera Blast|p2a: Big Steppy
+|-supereffective|p2a: Big Steppy
+|-damage|p2a: Big Steppy|0 fnt
+|faint|p2a: Big Steppy
+|
+|upkeep
+|
+|t:|1685912260
+|switch|p2a: Thunk|Tinkaton, F|100/100
+|-ability|p2a: Thunk|Mold Breaker
+|turn|3
+|
+|t:|1685912265
+|move|p2a: Thunk|Fake Out|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Psychic Terrain
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|upkeep
+|turn|4
+|inactive|The Googer has 120 seconds left.
+|
+|t:|1685912298
+|move|p1a: Sneasler|Close Combat|p2a: Thunk
+|-damage|p2a: Thunk|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Thunk
+|
+|upkeep
+|inactive|The Googer has 120 seconds left.
+|
+|t:|1685912304
+|switch|p2a: NUH-UH|Gholdengo|100/100
+|turn|5
+|
+|t:|1685912322
+|switch|p1a: Goodra|Goodra-Hisui, F, shiny|100/100
+|move|p2a: NUH-UH|Shadow Ball|p1a: Goodra
+|-damage|p1a: Goodra|71/100
+|
+|upkeep
+|turn|6
+|
+|t:|1685912331
+|switch|p2a: Spectacled|Iron Valiant|100/100
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1685912352
+|move|p2a: Spectacled|Drain Punch|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|7/100
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Spectacled|spe|1
+|-damage|p2a: Spectacled|91/100|[from] item: Life Orb
+|move|p1a: Goodra|Rest|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Rest
+|-heal|p1a: Goodra|100/100 slp|[silent]
+|-enditem|p1a: Goodra|Chesto Berry|[eat]
+|-curestatus|p1a: Goodra|slp|[msg]
+|
+|upkeep
+|turn|8
+|
+|t:|1685912369
+|move|p2a: Spectacled|Drain Punch|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|38/100
+|-heal|p2a: Spectacled|100/100|[from] drain|[of] p1a: Goodra
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Spectacled|spe|1
+|-damage|p2a: Spectacled|91/100|[from] item: Life Orb
+|move|p1a: Goodra|Iron Head|p2a: Spectacled
+|-supereffective|p2a: Spectacled
+|-damage|p2a: Spectacled|0 fnt
+|faint|p2a: Spectacled
+|-end|p2a: Spectacled|Quark Drive|[silent]
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1685912376
+|switch|p2a: Blimbo|Ceruledge, F|100/100
+|turn|9
+|
+|t:|1685912391
+|move|p2a: Blimbo|Bitter Blade|p1a: Goodra
+|-damage|p1a: Goodra|9/100
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Blimbo|spe|1
+|move|p1a: Goodra|Dragon Claw|p2a: Blimbo
+|-damage|p2a: Blimbo|17/100
+|
+|upkeep
+|turn|10
+|
+|t:|1685912395
+|move|p2a: Blimbo|Bitter Blade|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-heal|p2a: Blimbo|22/100|[from] drain|[of] p1a: Goodra
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Blimbo|spe|1
+|faint|p1a: Goodra
+|
+|upkeep
+|
+|t:|1685912398
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|11
+|
+|t:|1685912411
+|move|p2a: Blimbo|Shadow Sneak|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|88/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Blimbo
+|-supereffective|p2a: Blimbo
+|-damage|p2a: Blimbo|0 fnt
+|-sidestart|p2: The Googer|Spikes
+|faint|p2a: Blimbo
+|
+|upkeep
+|
+|t:|1685912421
+|switch|p2a: NUH-UH|Gholdengo|100/100
+|-damage|p2a: NUH-UH|88/100|[from] Spikes
+|turn|12
+|
+|t:|1685912423
+|move|p2a: NUH-UH|Thunderbolt|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|22/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: NUH-UH
+|-supereffective|p2a: NUH-UH
+|-damage|p2a: NUH-UH|0 fnt
+|-sidestart|p2: The Googer|Spikes
+|faint|p2a: NUH-UH
+|
+|upkeep
+|
+|t:|1685912425
+|switch|p2a: Maustake|Maushold-Four|100/100
+|-damage|p2a: Maustake|84/100|[from] Spikes
+|turn|13
+|
+|t:|1685912429
+|move|p2a: Maustake|Population Bomb|p1a: Samurott
+|-damage|p1a: Samurott|7/100
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-hitcount|p1: Samurott|2
+|
+|upkeep
+|
+|t:|1685912431
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, shiny|100/100
+|-item|p2a: Maustake|Wide Lens|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|turn|14
+|
+|t:|1685912435
+|move|p1a: Typhlosion|Eruption|p2a: Maustake
+|-damage|p2a: Maustake|0 fnt
+|faint|p2a: Maustake
+|
+|win|eruhxd
+|raw|eruhxd's rating: 1130 → 1156(+26 for winning)
+|raw|The Googer's rating: 1143 → 1117(-26 for losing)
+|l|☆The Googer

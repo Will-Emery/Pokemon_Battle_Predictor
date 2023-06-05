@@ -1,0 +1,248 @@
+|j|☆SoulHanXin
+|j|☆KingCah
+|t:|1685887191
+|gametype|singles
+|player|p1|SoulHanXin|rosa|1497
+|player|p2|KingCah|cress|1413
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Glimmora, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Zapdos|
+|poke|p1|Chien-Pao|
+|poke|p2|Pincurchin, F|
+|poke|p2|Raichu-Alola, M|
+|poke|p2|Iron Jugulis|
+|poke|p2|Iron Leaves|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Hands|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SoulHanXin)
+|
+|t:|1685887206
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Iron Glade|Iron Leaves|100/100
+|-enditem|p2a: Iron Glade|Booster Energy
+|-activate|p2a: Iron Glade|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Glade|quarkdriveatk
+|turn|1
+|
+|t:|1685887214
+|-terastallize|p1a: Samurott|Dark
+|move|p1a: Samurott|Sucker Punch|p2a: Iron Glade
+|-supereffective|p2a: Iron Glade
+|-damage|p2a: Iron Glade|0 fnt
+|faint|p2a: Iron Glade
+|-end|p2a: Iron Glade|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685887219
+|switch|p2a: Harichroma|Iron Hands, shiny|100/100
+|turn|2
+|
+|t:|1685887222
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Harichroma|Fake Out|p1a: Zapdos
+|-damage|p1a: Zapdos|88/100
+|
+|upkeep
+|turn|3
+|
+|t:|1685887228
+|move|p1a: Zapdos|Hurricane|p2a: Harichroma
+|-damage|p2a: Harichroma|70/100
+|move|p2a: Harichroma|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|47/100
+|
+|upkeep
+|turn|4
+|
+|t:|1685887234
+|-end|p2a: Harichroma|Quark Drive|[silent]
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|97/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|5
+|
+|t:|1685887236
+|move|p1a: Zapdos|Volt Switch|p2a: Pincurchin
+|-resisted|p2a: Pincurchin
+|-damage|p2a: Pincurchin|82/100
+|
+|t:|1685887238
+|switch|p1a: Glimmora|Glimmora, F|100/100|[from] Volt Switch
+|move|p2a: Pincurchin|Spikes|p1a: Glimmora
+|-sidestart|p1: SoulHanXin|Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1685887242
+|move|p1a: Glimmora|Stealth Rock|p2a: Pincurchin
+|-sidestart|p2: KingCah|move: Stealth Rock
+|move|p2a: Pincurchin|Memento|p1a: Glimmora
+|-unboost|p1a: Glimmora|atk|2
+|-unboost|p1a: Glimmora|spa|2
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|t:|1685887253
+|switch|p2a: PK Thunder|Raichu-Alola, M|100/100
+|-damage|p2a: PK Thunder|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1685887256
+|move|p2a: PK Thunder|Psychic|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-damage|p2a: PK Thunder|78/100|[from] item: Life Orb
+|move|p1a: Glimmora|Mortal Spin|p2a: PK Thunder
+|-damage|p2a: PK Thunder|72/100
+|-status|p2a: PK Thunder|psn
+|-sideend|p1: SoulHanXin|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
+|
+|-damage|p2a: PK Thunder|60/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685887259
+|switch|p1a: Samurott|Samurott-Hisui, F, tera:Dark|100/100
+|move|p2a: PK Thunder|Thunderbolt|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-damage|p2a: PK Thunder|50/100 psn|[from] item: Life Orb
+|
+|-damage|p2a: PK Thunder|38/100 psn|[from] psn
+|upkeep
+|
+|t:|1685887264
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|t:|1685887266
+|switch|p2a: Harichroma|Iron Hands, shiny|70/100
+|-damage|p2a: Harichroma|64/100|[from] Stealth Rock
+|-activate|p2a: Harichroma|ability: Quark Drive
+|-start|p2a: Harichroma|quarkdriveatk
+|move|p1a: Chien-Pao|Ice Shard|p2a: Harichroma
+|-damage|p2a: Harichroma|41/100
+|
+|upkeep
+|turn|10
+|
+|t:|1685887269
+|switch|p1a: Glimmora|Glimmora, F|1/100
+|move|p2a: Harichroma|Drain Punch|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-heal|p2a: Harichroma|41/100|[from] drain|[of] p1a: Glimmora
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: KingCah|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1685887276
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|11
+|
+|t:|1685887279
+|move|p1a: Gholdengo|Focus Blast|p2a: Harichroma
+|-damage|p2a: Harichroma|18/100
+|move|p2a: Harichroma|Thunder Punch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|38/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-fieldend|move: Electric Terrain
+|-end|p2a: Harichroma|Quark Drive
+|upkeep
+|turn|12
+|
+|t:|1685887282
+|move|p1a: Gholdengo|Shadow Ball|p2a: Harichroma
+|-damage|p2a: Harichroma|0 fnt
+|faint|p2a: Harichroma
+|-end|p2a: Harichroma|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685887287
+|switch|p2a: Hydrugulis|Iron Jugulis, shiny|100/100
+|-damage|p2a: Hydrugulis|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1685887292
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Hydrugulis|Dark Pulse|p1a: Clodsire
+|-damage|p1a: Clodsire|71/100
+|
+|-heal|p1a: Clodsire|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685887294
+|-end|p2a: Hydrugulis|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Clodsire|Toxic|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|-heal|p1a: Clodsire|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685887301
+|switch|p1a: Gholdengo|Gholdengo|38/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|16
+|
+|t:|1685887307
+|move|p1a: Gholdengo|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|23/100
+|-unboost|p2a: Gholdengo|spd|1
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1685887309
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|17
+|-message|KingCah forfeited.
+|
+|win|SoulHanXin
+|raw|SoulHanXin's rating: 1497 → 1512(+15 for winning)
+|raw|KingCah's rating: 1413 → 1398(-15 for losing)
+|l|☆KingCah

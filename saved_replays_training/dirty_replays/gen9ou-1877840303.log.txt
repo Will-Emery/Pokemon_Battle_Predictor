@@ -1,0 +1,205 @@
+|j|☆SoftBrilliant
+|j|☆Dontus
+|t:|1685914095
+|gametype|singles
+|player|p1|SoftBrilliant|101|1078
+|player|p2|Dontus|policeman|1185
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ursaluna, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Clodsire, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Breloom, M|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Clodsire, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dontus)
+|
+|t:|1685914120
+|start
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|t:|1685914130
+|-terastallize|p1a: Zamazenta|Fighting
+|move|p1a: Zamazenta|Body Press|p2a: Breloom
+|-enditem|p2a: Breloom|Focus Sash
+|-damage|p2a: Breloom|1/100
+|move|p2a: Breloom|Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1685914141
+|cant|p1a: Zamazenta|slp
+|move|p2a: Breloom|Bullet Seed|p1a: Zamazenta
+|-damage|p1a: Zamazenta|90/100 slp
+|-damage|p1a: Zamazenta|78/100 slp
+|-hitcount|p1a: Zamazenta|2
+|
+|upkeep
+|turn|3
+|
+|t:|1685914148
+|move|p2a: Breloom|Mach Punch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|61/100 slp
+|-curestatus|p1a: Zamazenta|slp|[msg]
+|move|p1a: Zamazenta|Body Press|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|t:|1685914155
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|turn|4
+|
+|t:|1685914158
+|move|p1a: Zamazenta|Body Press|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|61/100
+|move|p2a: Clodsire|Toxic|p1a: Zamazenta
+|-status|p1a: Zamazenta|tox
+|
+|-heal|p2a: Clodsire|67/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|55/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685914169
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1685914177
+|move|p2a: Clodsire|Toxic|p1a: Cresselia
+|-status|p1a: Cresselia|tox
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-damage|p1a: Cresselia|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685914184
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: SoftBrilliant|move: Stealth Rock
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1685914191
+|move|p2a: Clodsire|Recover||[still]
+|-fail|p2a: Clodsire|heal
+|move|p1a: Ursaluna|Facade|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1685914199
+|switch|p2a: Baxcalibur|Baxcalibur, F|100/100
+|turn|9
+|
+|t:|1685914206
+|move|p2a: Baxcalibur|Ice Shard|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|63/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|-damage|p1a: Ursaluna|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1685914217
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|10
+|
+|t:|1685914222
+|move|p2a: Arcanine|Extreme Speed|p1a: Ursaluna
+|-damage|p1a: Ursaluna|28/100 brn
+|move|p1a: Ursaluna|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-damage|p1a: Ursaluna|22/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685914229
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|11
+|
+|t:|1685914235
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1685914241
+|switch|p1a: Zamazenta|Zamazenta, tera:Fighting|55/100 tox
+|-damage|p1a: Zamazenta|49/100 tox|[from] Stealth Rock
+|turn|12
+|
+|t:|1685914246
+|move|p1a: Zamazenta|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-damage|p1a: Zamazenta|43/100 tox|[from] psn
+|upkeep
+|
+|t:|1685914250
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|13
+|
+|t:|1685914265
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|4/100 tox
+|move|p1a: Zamazenta|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|SoftBrilliant
+|raw|SoftBrilliant's rating: 1078 → 1115(+37 for winning)
+|raw|Dontus's rating: 1185 → 1153(-32 for losing)
+|l|☆Dontus

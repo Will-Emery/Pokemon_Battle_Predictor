@@ -1,0 +1,196 @@
+|j|☆crapominable
+|j|☆Sir_Rambage
+|t:|1685925778
+|gametype|singles
+|player|p1|crapominable|265|1111
+|player|p2|Sir_Rambage|266|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Scizor, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Rotom-Wash|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Avalugg-Hisui, M|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Sneasler, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|t:|1685925786
+|start
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|1
+|
+|t:|1685925803
+|move|p2a: Electrode|Foul Play|p1a: Scizor
+|-damage|p1a: Scizor|56/100
+|-damage|p2a: Electrode|91/100|[from] item: Life Orb
+|move|p1a: Scizor|U-turn|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|-damage|p1a: Scizor|31/100|[from] ability: Aftermath|[of] p2a: Electrode
+|-enditem|p1a: Scizor|Sitrus Berry|[eat]
+|-heal|p1a: Scizor|56/100|[from] item: Sitrus Berry
+|faint|p2a: Electrode
+|
+|t:|1685925818
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1685925827
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-item|p2a: Sneasler|Air Balloon
+|turn|2
+|
+|t:|1685925834
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Landorus|U-turn|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|92/100
+|-enditem|p2a: Sneasler|Air Balloon
+|
+|t:|1685925850
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1685925864
+|move|p2a: Sneasler|Gunk Shot|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|upkeep
+|
+|t:|1685925877
+|switch|p1a: Scizor|Scizor, M|56/100
+|turn|4
+|
+|t:|1685925884
+|move|p1a: Scizor|Bullet Punch|p2a: Sneasler
+|-damage|p2a: Sneasler|48/100
+|move|p2a: Sneasler|Acrobatics|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1685925892
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|turn|5
+|
+|t:|1685925897
+|-terastallize|p2a: Sneasler|Flying
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Landorus|Earthquake|p2a: Sneasler
+|-immune|p2a: Sneasler
+|
+|upkeep
+|turn|6
+|
+|t:|1685925905
+|move|p2a: Sneasler|Acrobatics|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Sneasler|31/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1685925909
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|t:|1685925913
+|move|p1a: Chien-Pao|Ice Shard|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|upkeep
+|
+|t:|1685925922
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|turn|8
+|
+|t:|1685925926
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Overqwil|Toxic Spikes|p1a: Rotom
+|-sidestart|p1: crapominable|move: Toxic Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1685925962
+|move|p1a: Rotom|Volt Switch|p2a: Overqwil
+|-damage|p2a: Overqwil|67/100
+|
+|t:|1685925966
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-status|p1a: Chien-Pao|psn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Overqwil|Crunch|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|80/100 psn
+|-unboost|p1a: Chien-Pao|def|1
+|
+|-heal|p2a: Overqwil|73/100|[from] item: Black Sludge
+|-damage|p1a: Chien-Pao|68/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685925987
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Overqwil
+|-damage|p2a: Overqwil|18/100
+|move|p2a: Overqwil|Barb Barrage|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|-heal|p2a: Overqwil|24/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685925995
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-status|p1a: Typhlosion|psn
+|-item|p2a: Overqwil|Black Sludge|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|turn|11
+|
+|t:|1685926002
+|move|p1a: Typhlosion|Flame Charge|p2a: Overqwil
+|-damage|p2a: Overqwil|13/100
+|-boost|p1a: Typhlosion|spe|1
+|move|p2a: Overqwil|Crunch|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|2/100 psn
+|
+|-heal|p2a: Overqwil|19/100|[from] item: Black Sludge
+|-damage|p1a: Typhlosion|0 fnt|[from] psn
+|faint|p1a: Typhlosion
+|upkeep
+|-message|crapominable forfeited.
+|
+|win|Sir_Rambage
+|raw|crapominable's rating: 1111 → 1086(-25 for losing)
+|raw|Sir_Rambage's rating: 1115 → 1140(+25 for winning)
+|l|☆crapominable

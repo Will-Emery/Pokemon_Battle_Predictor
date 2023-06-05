@@ -1,0 +1,312 @@
+|j|☆saifung
+|j|☆vicksin
+|t:|1685867222
+|gametype|singles
+|player|p1|saifung|2|1342
+|player|p2|vicksin|1|1268
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Chien-Pao|
+|poke|p1|Scizor, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragonite, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Overqwil, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Magearna|
+|teampreview
+|
+|t:|1685867229
+|start
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-item|p1a: Sneasler|Air Balloon
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1685867235
+|move|p1a: Sneasler|Fake Out|p2a: Pelipper
+|-damage|p2a: Pelipper|89/100
+|cant|p2a: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685867244
+|move|p1a: Sneasler|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|80/100
+|
+|t:|1685867247
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|move|p2a: Pelipper|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|91/100
+|
+|t:|1685867261
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685867265
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Rillaboom|U-turn|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685867271
+|move|p1a: Rotom|Thunder Wave|p2a: Rillaboom
+|-status|p2a: Rillaboom|par
+|move|p2a: Rillaboom|Wood Hammer|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Rillaboom|76/100 par|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|82/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685867280
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|5
+|
+|t:|1685867284
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Rillaboom|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|94/100
+|
+|t:|1685867288
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685867291
+|move|p1a: Dragonite|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|61/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Dragonite
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|67/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1685867297
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|turn|7
+|
+|t:|1685867302
+|move|p1a: Chien-Pao|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|35/100
+|-enditem|p2a: Magearna|Sitrus Berry|[eat]
+|-heal|p2a: Magearna|60/100|[from] item: Sitrus Berry
+|-damage|p1a: Chien-Pao|91/100|[from] item: Life Orb
+|move|p2a: Magearna|Aura Sphere|p1a: Chien-Pao
+|-immune|p1a: Chien-Pao
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1685867308
+|move|p1a: Chien-Pao|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|29/100
+|-damage|p1a: Chien-Pao|81/100|[from] item: Life Orb
+|move|p2a: Magearna|Volt Switch|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|55/100
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|
+|t:|1685867326
+|switch|p2a: Rillaboom|Rillaboom, F|82/100 par|[from] Volt Switch
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-weather|none
+|-heal|p1a: Zoroark|61/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|88/100 par|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1685867332
+|switch|p2a: Pelipper|Pelipper, F|80/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Zoroark|Flamethrower|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|66/100
+|-damage|p1a: Zoroark|51/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zoroark|57/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1685867334
+|move|p1a: Zoroark|Bitter Malice|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-damage|p1a: Zoroark|47/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zoroark|53/100|[from] Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by saifung)
+|
+|t:|1685867373
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-enditem|p2a: Sneasler|Grassy Seed
+|-boost|p2a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|11
+|
+|t:|1685867383
+|move|p2a: Sneasler|Night Slash|p1a: Zoroark
+|-supereffective|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685867387
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|12
+|
+|t:|1685867396
+|move|p1a: Scizor|Bullet Punch|p2a: Sneasler
+|-damage|p2a: Sneasler|40/100
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sneasler|46/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|c|☆vicksin|damn that's strong, banded?
+|
+|t:|1685867412
+|move|p1a: Scizor|Bullet Punch|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685867422
+|switch|p2a: Rillaboom|Rillaboom, F|88/100 par
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|14
+|c|☆saifung|Nah
+|c|☆saifung|Adament tho
+|c|☆vicksin|wild
+|
+|t:|1685867432
+|move|p1a: Scizor|Bullet Punch|p2a: Rillaboom
+|-damage|p2a: Rillaboom|43/100 par
+|move|p2a: Rillaboom|Knock Off|p1a: Scizor
+|-damage|p1a: Scizor|70/100
+|-enditem|p1a: Scizor|Choice Band|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scizor|76/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|49/100 par|[from] Grassy Terrain
+|upkeep
+|turn|15
+|c|☆vicksin|through the defense boost
+|c|☆vicksin|bruh
+|n|!vicksin|vicksin
+|c|☆saifung|Haha
+|inactive|vicksin has 120 seconds left.
+|
+|t:|1685867490
+|move|p1a: Scizor|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|t:|1685867497
+|switch|p1a: Sneasler|Sneasler, F|100/100|[from] U-turn
+|-item|p1a: Sneasler|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|vicksin has 90 seconds left.
+|inactive|vicksin has 60 seconds left.
+|
+|t:|1685867553
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|16
+|
+|t:|1685867577
+|move|p2a: Basculegion|Liquidation|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-enditem|p1a: Sneasler|Air Balloon
+|faint|p1a: Sneasler
+|
+|-weather|none
+|upkeep
+|
+|t:|1685867579
+|switch|p1a: Scizor|Scizor, F|76/100
+|turn|17
+|
+|t:|1685867588
+|switch|p2a: Magearna|Magearna|29/100
+|move|p1a: Scizor|Bullet Punch|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-heal|p1a: Scizor|82/100|[from] Grassy Terrain
+|upkeep
+|inactive|vicksin has 30 seconds left.
+|l|!vicksin
+|inactive|vicksin disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|vicksin has 20 seconds left.
+|inactive|vicksin has 15 seconds left.
+|inactive|vicksin has 10 seconds left.
+|inactive|vicksin has 5 seconds left.
+|-message|vicksin lost due to inactivity.
+|
+|win|saifung
+|raw|saifung's rating: 1342 → 1358(+16 for winning)
+|raw|vicksin's rating: 1268 → 1248(-20 for losing)

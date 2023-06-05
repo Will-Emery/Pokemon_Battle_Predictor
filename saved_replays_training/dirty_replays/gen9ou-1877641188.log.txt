@@ -1,0 +1,154 @@
+|j|☆Lulu93290
+|j|☆Woodowl
+|t:|1685892715
+|gametype|singles
+|player|p1|Lulu93290|265|1358
+|player|p2|Woodowl|drayden|1345
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sneasler, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Treads|
+|poke|p1|Volcarona, M|
+|poke|p2|Weavile, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Hydreigon, M|
+|teampreview
+|
+|t:|1685892723
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: 印第安冲锋手|Weavile, M|100/100
+|-ability|p2a: 印第安冲锋手|Pressure
+|turn|1
+|
+|t:|1685892731
+|move|p2a: 印第安冲锋手|Low Kick|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|32/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: 印第安冲锋手
+|-damage|p2a: 印第安冲锋手|75/100
+|-boost|p1a: Iron Treads|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685892741
+|move|p1a: Iron Treads|Iron Head|p2a: 印第安冲锋手
+|-supereffective|p2a: 印第安冲锋手
+|-damage|p2a: 印第安冲锋手|0 fnt
+|faint|p2a: 印第安冲锋手
+|
+|upkeep
+|
+|t:|1685892744
+|switch|p2a: 钢兵|Iron Valiant|100/100
+|-enditem|p2a: 钢兵|Booster Energy
+|-activate|p2a: 钢兵|ability: Quark Drive|[fromitem]
+|-start|p2a: 钢兵|quarkdrivespe
+|turn|3
+|
+|t:|1685892753
+|move|p2a: 钢兵|Focus Blast|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685892761
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|4
+|
+|t:|1685892774
+|-end|p2a: 钢兵|Quark Drive|[silent]
+|switch|p2a: 王者基多拉|Hydreigon, M|100/100
+|move|p1a: Indeedee|Dazzling Gleam|p2a: 王者基多拉
+|-supereffective|p2a: 王者基多拉
+|-damage|p2a: 王者基多拉|0 fnt
+|faint|p2a: 王者基多拉
+|
+|upkeep
+|
+|t:|1685892788
+|switch|p2a: 大酱|Kingambit, M|100/100
+|-activate|p2a: 大酱|ability: Supreme Overlord
+|-start|p2a: 大酱|fallen2|[silent]
+|turn|5
+|
+|t:|1685892798
+|move|p1a: Indeedee|Dazzling Gleam|p2a: 大酱
+|-damage|p2a: 大酱|75/100
+|move|p2a: 大酱|Swords Dance|p2a: 大酱
+|-boost|p2a: 大酱|atk|2
+|
+|-heal|p2a: 大酱|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685892809
+|move|p1a: Indeedee|Encore|p2a: 大酱
+|-start|p2a: 大酱|Encore
+|move|p2a: 大酱|Swords Dance|p2a: 大酱
+|-boost|p2a: 大酱|atk|2
+|
+|-heal|p2a: 大酱|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685892817
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p2a: 大酱|Swords Dance|p2a: 大酱
+|-boost|p2a: 大酱|atk|2
+|
+|-heal|p2a: 大酱|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lulu93290)
+|
+|t:|1685892826
+|-terastallize|p2a: 大酱|Fairy
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: 大酱|Swords Dance|p2a: 大酱
+|-boost|p2a: 大酱|atk|0
+|
+|-heal|p2a: 大酱|99/100|[from] item: Leftovers
+|-end|p2a: 大酱|Encore
+|upkeep
+|turn|9
+|
+|t:|1685892840
+|move|p1a: Sneasler|Dire Claw|p2a: 大酱
+|-supereffective|p2a: 大酱
+|-damage|p2a: 大酱|0 fnt
+|faint|p2a: 大酱
+|-end|p2a: 大酱|fallen2|[silent]
+|
+|upkeep
+|-message|Woodowl forfeited.
+|
+|win|Lulu93290
+|raw|Lulu93290's rating: 1358 → 1377(+19 for winning)
+|raw|Woodowl's rating: 1345 → 1326(-19 for losing)
+|l|☆Woodowl

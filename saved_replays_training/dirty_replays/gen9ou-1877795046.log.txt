@@ -1,0 +1,300 @@
+|j|☆jsjznxb
+|j|☆GliHybrid
+|t:|1685909048
+|gametype|singles
+|player|p1|jsjznxb|102|1322
+|player|p2|GliHybrid|clay|1312
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Chien-Pao|
+|poke|p1|Zamazenta-*|
+|poke|p1|Glimmora, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Iron Treads|
+|poke|p2|Sneasler, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Amoonguss, F|
+|teampreview
+|
+|t:|1685909057
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jsjznxb)
+|
+|t:|1685909068
+|move|p2a: Meowscarada|U-turn|p1a: Glimmora
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|81/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: GliHybrid|move: Toxic Spikes
+|
+|t:|1685909075
+|switch|p2a: Amoonguss|Amoonguss, F|100/100|[from] U-turn
+|-sideend|p2: GliHybrid|move: Toxic Spikes|[of] p2a: Amoonguss
+|move|p1a: Glimmora|Stealth Rock|p2a: Amoonguss
+|-sidestart|p2: GliHybrid|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685909081
+|move|p1a: Glimmora|Sludge Bomb|p2a: Amoonguss
+|-damage|p2a: Amoonguss|49/100
+|move|p2a: Amoonguss|Spore|p1a: Glimmora
+|-status|p1a: Glimmora|slp|[from] move: Spore
+|
+|-heal|p2a: Amoonguss|55/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1685909087
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|98/100|[from] Stealth Rock
+|cant|p1a: Glimmora|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1685909091
+|-terastallize|p1a: Glimmora|Grass
+|move|p2a: Iron Treads|Rapid Spin|p1a: Glimmora
+|-damage|p1a: Glimmora|64/100 slp
+|-boost|p2a: Iron Treads|spe|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: GliHybrid|move: Toxic Spikes
+|-sideend|p2: GliHybrid|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sideend|p2: GliHybrid|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|cant|p1a: Glimmora|slp
+|
+|upkeep
+|turn|5
+|
+|t:|1685909101
+|move|p2a: Iron Treads|Knock Off|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|15/100 slp
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: GliHybrid|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Focus Sash|[from] move: Knock Off|[of] p2a: Iron Treads
+|-curestatus|p1a: Glimmora|slp|[msg]
+|move|p1a: Glimmora|Energy Ball|p2a: Iron Treads
+|-damage|p2a: Iron Treads|27/100
+|-enditem|p2a: Iron Treads|Red Card|[of] p1a: Glimmora
+|drag|p1a: Amoonguss|Amoonguss, M|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1685909111
+|move|p2a: Iron Treads|Rapid Spin|p1a: Amoonguss
+|-damage|p1a: Amoonguss|84/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: GliHybrid|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Amoonguss|Spore|p2a: Iron Treads
+|-status|p2a: Iron Treads|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|90/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1685909128
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-item|p2a: Sneasler|Air Balloon
+|move|p1a: Amoonguss|Toxic|p2a: Sneasler
+|-immune|p2a: Sneasler
+|
+|-heal|p1a: Amoonguss|97/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1685909136
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|upkeep
+|turn|9
+|
+|t:|1685909148
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Sneasler
+|-damage|p2a: Sneasler|21/100
+|-enditem|p2a: Sneasler|Air Balloon
+|move|p2a: Sneasler|Close Combat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1685909156
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|10
+|
+|t:|1685909163
+|move|p2a: Sneasler|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|18/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-damage|p2a: Sneasler|4/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|68/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|11
+|
+|t:|1685909170
+|move|p2a: Sneasler|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-damage|p2a: Sneasler|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|faint|p2a: Sneasler
+|
+|upkeep
+|
+|t:|1685909185
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|switch|p1a: Glimmora|Glimmora, M, tera:Grass|15/100
+|turn|12
+|
+|t:|1685909197
+|move|p2a: Typhlosion|Eruption|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1685909201
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|13
+|
+|t:|1685909205
+|switch|p2a: Iron Treads|Iron Treads|27/100 slp
+|move|p1a: Rotom|Thunder Wave|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|14
+|l|☆jsjznxb
+|inactive|jsjznxb disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆jsjznxb
+|inactive|jsjznxb reconnected and has 145 seconds left.
+|player|p1|jsjznxb|102
+|
+|t:|1685909216
+|cant|p2a: Iron Treads|slp
+|move|p1a: Rotom|Hydro Pump|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685909235
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|15
+|
+|t:|1685909239
+|move|p2a: Meowscarada|Flower Trick|p1a: Rotom
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|17/100
+|move|p1a: Rotom|Thunder Wave|p2a: Meowscarada
+|-status|p2a: Meowscarada|par
+|
+|-heal|p1a: Rotom|23/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685909248
+|move|p2a: Meowscarada|Flower Trick|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1685909253
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|turn|17
+|
+|t:|1685909263
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|84/100
+|-status|p2a: Arcanine|psn
+|
+|-damage|p2a: Arcanine|72/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1685909276
+|move|p2a: Arcanine|Flare Blitz|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-damage|p2a: Arcanine|59/100 psn|[from] psn
+|upkeep
+|
+|t:|1685909278
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|19
+|
+|t:|1685909285
+|move|p1a: Chien-Pao|Crunch|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1685909289
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p1a: Chien-Pao|Choice Band|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|turn|20
+|
+|t:|1685909293
+|move|p2a: Typhlosion|Eruption|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|win|GliHybrid
+|raw|jsjznxb's rating: 1322 → 1301(-21 for losing)
+|raw|GliHybrid's rating: 1312 → 1333(+21 for winning)
+|l|☆jsjznxb
+|l|☆GliHybrid
+|j|☆GliHybrid
+|player|p2|GliHybrid|clay

@@ -1,0 +1,319 @@
+|j|☆XT4S1S
+|j|☆Plohka
+|t:|1685886704
+|gametype|singles
+|player|p1|XT4S1S|iono|1200
+|player|p2|Plohka|266|1276
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Magearna|
+|teampreview
+|
+|t:|1685886721
+|start
+|switch|p1a: Torkoal|Torkoal, M, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1685886727
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Plohka|move: Light Screen
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685886733
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Plohka|Reflect
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685886740
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Grimmsnarl|[from]ability: Magic Bounce
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2a: Grimmsnarl|spa|1
+|
+|t:|1685886746
+|switch|p1a: Arcanine|Arcanine-Hisui, M, shiny|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|c|☆Plohka|I-
+|c|☆Plohka|I had no idea that was how magic bounce interacted with parting shot
+|
+|t:|1685886790
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|-terastallize|p1a: Arcanine|Fire
+|move|p1a: Arcanine|Flare Blitz|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685886800
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Arcanine|Head Smash|p1a: Great Tusk|[miss]
+|-miss|p2a: Arcanine|p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685886823
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|68/100
+|-enditem|p2a: Braviary|Life Orb|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685886845
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Braviary|Psychic|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1685886852
+|move|p2a: Braviary|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|none
+|-sideend|p2: Plohka|move: Light Screen
+|upkeep
+|
+|t:|1685886856
+|switch|p1a: Torkoal|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|9
+|
+|t:|1685886863
+|move|p2a: Braviary|Psychic|p1a: Torkoal
+|-damage|p1a: Torkoal|24/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Braviary
+|-sidestart|p2: Plohka|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Plohka|Reflect
+|upkeep
+|turn|10
+|
+|t:|1685886870
+|move|p2a: Braviary|Psychic|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685886876
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|11
+|
+|t:|1685886889
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Braviary|Heat Wave|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1685886898
+|move|p1a: Lilligant|Ice Spinner|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685886906
+|switch|p2a: Arcanine|Arcanine-Hisui, M|81/100
+|-damage|p2a: Arcanine|56/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1685886917
+|move|p1a: Lilligant|Close Combat|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685886933
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1685886935
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Plohka|Reflect
+|move|p1a: Lilligant|Leaf Blade|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1685886943
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-crit|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685886948
+|switch|p1a: Arcanine|Arcanine-Hisui, M, shiny, tera:Fire|100/100
+|turn|16
+|
+|t:|1685886954
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Arcanine
+|-unboost|p1a: Arcanine|atk|1
+|-unboost|p1a: Arcanine|spa|1
+|
+|t:|1685886962
+|switch|p2a: Basculegion|Basculegion-F, F|100/100|[from] Parting Shot
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|move|p1a: Arcanine|Flare Blitz|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|none
+|upkeep
+|c|☆XT4S1S|Bonk
+|c|☆XT4S1S|😹
+|
+|t:|1685886978
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|95/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1685886988
+|move|p1a: Arcanine|Flare Blitz|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|46/100
+|move|p2a: Magearna|Agility|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|
+|upkeep
+|turn|18
+|
+|t:|1685887010
+|move|p1a: Arcanine|Flare Blitz|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|upkeep
+|
+|t:|1685887027
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|46/100
+|-damage|p2a: Grimmsnarl|34/100|[from] Stealth Rock
+|turn|19
+|c|☆XT4S1S|Dogtality
+|
+|t:|1685887049
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Arcanine
+|-unboost|p1a: Arcanine|atk|1
+|-unboost|p1a: Arcanine|spa|1
+|
+|t:|1685887055
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100|[from] Parting Shot
+|-damage|p2a: Lilligant|94/100|[from] Stealth Rock
+|move|p1a: Arcanine|Flare Blitz|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|36/100
+|-status|p2a: Lilligant|brn
+|
+|-damage|p2a: Lilligant|30/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1685887072
+|move|p1a: Arcanine|Flare Blitz|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|upkeep
+|
+|t:|1685887075
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|34/100
+|-damage|p2a: Grimmsnarl|22/100|[from] Stealth Rock
+|turn|21
+|c|☆Plohka|Gg dude
+|
+|t:|1685887095
+|move|p1a: Arcanine|Flare Blitz|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|win|XT4S1S
+|raw|XT4S1S's rating: 1200 → 1230(+30 for winning)
+|raw|Plohka's rating: 1276 → 1246(-30 for losing)
+|c|☆XT4S1S|Gg Bro
+|c|☆Plohka|Man singles really ain't my strong suit lmao
+|c|☆Plohka|But all the new stuff is fun

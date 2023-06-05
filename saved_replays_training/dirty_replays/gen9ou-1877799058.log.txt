@@ -1,0 +1,256 @@
+|j|☆Degorosei
+|j|☆treeshhhh
+|t:|1685909475
+|gametype|singles
+|player|p1|Degorosei|brycenman|1162
+|player|p2|treeshhhh|102|1174
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Sneasler, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Basculegion, M|
+|teampreview
+|
+|t:|1685909494
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1685909514
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Basculegion|Agility|p2a: Basculegion
+|-boost|p2a: Basculegion|spe|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685909530
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Wave Crash|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|36/100
+|-damage|p2a: Basculegion|78/100|[from] Recoil
+|move|p1a: Rillaboom|Wood Hammer|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-damage|p1a: Rillaboom|12/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|18/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685909539
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|3
+|
+|t:|1685909546
+|move|p2a: Iron Valiant|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-enditem|p1a: Rillaboom|Assault Vest|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685909557
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|4
+|
+|t:|1685909563
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Sneasler|Dire Claw|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685909569
+|-terastallize|p1a: Sneasler|Dark
+|move|p1a: Sneasler|Night Slash|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|27/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sneasler|81/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|33/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1685909576
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685909588
+|move|p1a: Sneasler|Night Slash|p2a: Landorus
+|-damage|p2a: Landorus|55/100
+|move|p2a: Landorus|Earthquake|p1a: Sneasler
+|-damage|p1a: Sneasler|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|61/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685909593
+|move|p1a: Sneasler|Night Slash|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|none
+|upkeep
+|
+|t:|1685909599
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|9
+|
+|t:|1685909606
+|move|p1a: Sneasler|Close Combat|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|8/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Sneasler|U-turn|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|t:|1685909616
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1685909619
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|10
+|
+|t:|1685909622
+|move|p2a: Iron Valiant|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|73/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Pelipper|Hurricane|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685909627
+|switch|p2a: Sneasler|Sneasler, M|8/100
+|turn|11
+|
+|t:|1685909640
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|-item|p1a: Overqwil|Air Balloon
+|move|p2a: Sneasler|Dire Claw|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|70/100
+|-enditem|p1a: Overqwil|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1685909647
+|switch|p2a: Gholdengo|Gholdengo|33/100
+|move|p1a: Overqwil|Waterfall|p2a: Gholdengo
+|-damage|p2a: Gholdengo|4/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1685909653
+|move|p1a: Overqwil|Waterfall|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685909658
+|switch|p2a: Sneasler|Sneasler, M|8/100
+|turn|14
+|
+|t:|1685909661
+|move|p1a: Overqwil|Waterfall|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685909663
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|15
+|
+|t:|1685909666
+|move|p1a: Overqwil|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|move|p2a: Heatran|Earth Power|p1a: Overqwil
+|-supereffective|p1a: Overqwil
+|-damage|p1a: Overqwil|12/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1685909672
+|move|p1a: Overqwil|Destiny Bond|p1a: Overqwil
+|-singlemove|p1a: Overqwil|Destiny Bond
+|move|p2a: Heatran|Earth Power|p1a: Overqwil
+|-supereffective|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|-activate|p1a: Overqwil|move: Destiny Bond
+|faint|p2a: Heatran
+|
+|win|Degorosei
+|raw|Degorosei's rating: 1162 → 1188(+26 for winning)
+|raw|treeshhhh's rating: 1174 → 1148(-26 for losing)

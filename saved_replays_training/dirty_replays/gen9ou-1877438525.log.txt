@@ -1,0 +1,287 @@
+|j|☆Yaplu2PQ
+|j|☆DGP PLAYER
+|t:|1685860903
+|gametype|singles
+|player|p1|Yaplu2PQ|boarder|1428
+|player|p2|DGP PLAYER|hilda-wonderlauncher|1465
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Sandy Shocks|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Gholdengo|
+|poke|p2|Zapdos|
+|poke|p2|Ursaluna, M|
+|teampreview
+|
+|t:|1685860944
+|start
+|switch|p1a: Croissant|Indeedee, M, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Croissant
+|turn|1
+|
+|t:|1685860951
+|move|p2a: Cinderace|U-turn|p1a: Croissant
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Croissant
+|-damage|p1a: Croissant|0 fnt
+|faint|p1a: Croissant
+|
+|t:|1685860966
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] U-turn
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1685860971
+|switch|p1a: Wesh|Sneasler, M|100/100
+|-enditem|p1a: Wesh|Psychic Seed
+|-boost|p1a: Wesh|spd|1|[from] item: Psychic Seed
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yaplu2PQ)
+|
+|t:|1685860980
+|-terastallize|p1a: Wesh|Flying
+|-terastallize|p2a: Ursaluna|Fairy
+|move|p1a: Wesh|Swords Dance|p1a: Wesh
+|-boost|p1a: Wesh|atk|2
+|move|p2a: Ursaluna|Earthquake|p1a: Wesh
+|-immune|p1a: Wesh
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1685860988
+|move|p1a: Wesh|Dire Claw|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1685860995
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|4
+|
+|t:|1685861000
+|move|p1a: Wesh|Dire Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|21/100
+|-status|p2a: Zapdos|psn
+|-status|p1a: Wesh|par|[from] ability: Static|[of] p2a: Zapdos
+|move|p2a: Zapdos|Thunderbolt|p1a: Wesh
+|-supereffective|p1a: Wesh
+|-damage|p1a: Wesh|14/100 par
+|
+|-heal|p2a: Zapdos|27/100 psn|[from] item: Leftovers
+|-damage|p2a: Zapdos|14/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685861012
+|cant|p1a: Wesh|par
+|move|p2a: Zapdos|Volt Switch|p1a: Wesh
+|-supereffective|p1a: Wesh
+|-damage|p1a: Wesh|0 fnt
+|faint|p1a: Wesh
+|
+|t:|1685861019
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1685861029
+|switch|p1a: Lily|Lilligant-Hisui, F, shiny|100/100
+|turn|6
+|
+|t:|1685861032
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Lily
+|-status|p1a: Lily|brn
+|move|p1a: Lily|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|53/100
+|-fieldend|move: Psychic Terrain
+|
+|-damage|p1a: Lily|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685861038
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Lily|Victory Dance|p1a: Lily
+|-boost|p1a: Lily|atk|1
+|-boost|p1a: Lily|def|1
+|-boost|p1a: Lily|spe|1
+|
+|-damage|p1a: Lily|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685861046
+|move|p1a: Lily|Close Combat|p2a: Cinderace
+|-damage|p2a: Cinderace|21/100
+|-unboost|p1a: Lily|def|1
+|-unboost|p1a: Lily|spd|1
+|move|p2a: Cinderace|Pyro Ball|p1a: Lily
+|-supereffective|p1a: Lily
+|-damage|p1a: Lily|0 fnt
+|faint|p1a: Lily
+|
+|upkeep
+|
+|t:|1685861051
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|turn|9
+|
+|t:|1685861055
+|switch|p2a: Zapdos|Zapdos|14/100 psn
+|move|p1a: Sandy Shocks|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-damage|p1a: Sandy Shocks|91/100|[from] item: Life Orb
+|
+|t:|1685861058
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Chenille|Volcarona, M|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1685861061
+|switch|p2a: Cinderace|Cinderace, M|21/100
+|turn|10
+|
+|t:|1685861066
+|move|p2a: Cinderace|Pyro Ball|p1a: Chenille
+|-damage|p1a: Chenille|7/100
+|move|p1a: Chenille|Quiver Dance|p1a: Chenille
+|-boost|p1a: Chenille|spa|1
+|-boost|p1a: Chenille|spd|1
+|-boost|p1a: Chenille|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1685861072
+|switch|p2a: Dragapult|Dragapult, M|53/100
+|move|p1a: Chenille|Fiery Dance|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|10/100
+|-boost|p1a: Chenille|spa|1
+|
+|upkeep
+|turn|12
+|
+|t:|1685861079
+|move|p1a: Chenille|Fiery Dance|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-boost|p1a: Chenille|spa|1
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1685861082
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|13
+|
+|t:|1685861087
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|move|p1a: Chenille|Morning Sun|p1a: Chenille
+|-heal|p1a: Chenille|56/100
+|
+|upkeep
+|turn|14
+|
+|t:|1685861089
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|move|p1a: Chenille|Morning Sun|p1a: Chenille
+|-heal|p1a: Chenille|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1685861091
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Chenille
+|-damage|p1a: Chenille|0 fnt
+|faint|p1a: Chenille
+|
+|upkeep
+|
+|t:|1685861097
+|switch|p1a: Sandy Shocks|Sandy Shocks|91/100
+|turn|16
+|
+|t:|1685861100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Sandy Shocks|Stealth Rock|p2a: Gholdengo
+|-sidestart|p2: DGP PLAYER|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1685861105
+|move|p2a: Gholdengo|Shadow Ball|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|39/100
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|33/100
+|-damage|p1a: Sandy Shocks|29/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|
+|t:|1685861110
+|move|p2a: Gholdengo|Shadow Ball|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685861112
+|switch|p1a: Walter|Walking Wake|100/100
+|turn|19
+|
+|t:|1685861115
+|move|p2a: Gholdengo|Shadow Ball|p1a: Walter
+|-damage|p1a: Walter|52/100
+|move|p1a: Walter|Hydro Steam|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1685861124
+|switch|p2a: Cinderace|Cinderace, M|21/100
+|turn|20
+|
+|t:|1685861128
+|move|p2a: Cinderace|High Jump Kick|p1a: Walter
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Walter|0 fnt
+|faint|p1a: Walter
+|-end|p1a: Walter|Protosynthesis|[silent]
+|
+|win|DGP PLAYER
+|raw|Yaplu2PQ's rating: 1428 → 1410(-18 for losing)
+|raw|DGP PLAYER's rating: 1465 → 1483(+18 for winning)

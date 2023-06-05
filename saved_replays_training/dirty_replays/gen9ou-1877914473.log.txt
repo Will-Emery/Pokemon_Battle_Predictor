@@ -1,0 +1,219 @@
+|j|☆pakkutan
+|j|☆alejofer1534
+|t:|1685923038
+|gametype|singles
+|player|p1|pakkutan|erika|1161
+|player|p2|alejofer1534|steven|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Iron Treads|
+|poke|p1|Zapdos|
+|poke|p1|Iron Moth|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alejofer1534)
+|inactive|pakkutan also wants the timer to be on.
+|
+|t:|1685923048
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|1
+|
+|t:|1685923056
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Zapdos|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|upkeep
+|turn|2
+|
+|t:|1685923066
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Great Tusk|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: pakkutan|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1685923075
+|move|p2a: Great Tusk|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|73/100
+|-enditem|p1a: Rillaboom|Assault Vest|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Rillaboom|Wood Hammer|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|16/100
+|-damage|p1a: Rillaboom|43/100|[from] Recoil
+|
+|-heal|p2a: Great Tusk|22/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|50/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1685923084
+|move|p2a: Great Tusk|Headlong Rush|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|26/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Rillaboom|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|12/100
+|
+|t:|1685923089
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|18/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1685923094
+|move|p1a: Landorus|Stone Edge|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|10/100
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|66/100
+|-enditem|p1a: Landorus|Choice Scarf|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|17/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1685923103
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|52/100
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1685923111
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|7
+|
+|t:|1685923120
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Urshifu|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|92/100
+|-status|p2a: Urshifu|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|t:|1685923126
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1685923141
+|move|p2a: Typhlosion|Eruption|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1685923146
+|switch|p1a: Landorus|Landorus-Therian, M|52/100
+|-damage|p1a: Landorus|40/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Typhlosion|atk|1
+|turn|9
+|
+|t:|1685923153
+|move|p2a: Typhlosion|Eruption|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1685923162
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|10
+|
+|t:|1685923166
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100 par
+|move|p1a: Iron Moth|Sludge Wave|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1685923173
+|switch|p2a: Magearna|Magearna|100/100
+|turn|11
+|
+|t:|1685923178
+|move|p1a: Iron Moth|Fiery Dance|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|24/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Magearna|Volt Switch|p1a: Iron Moth
+|-damage|p1a: Iron Moth|54/100
+|
+|t:|1685923183
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|12
+|
+|t:|1685923187
+|-terastallize|p1a: Iron Moth|Fairy
+|move|p2a: Dragapult|Dragon Darts|p1a: Iron Moth
+|-immune|p1a: Iron Moth
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1685923195
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|turn|13
+|
+|t:|1685923201
+|move|p1a: Iron Moth|Sludge Wave|p2a: Zapdos
+|-damage|p2a: Zapdos|1/100
+|move|p2a: Zapdos|Hurricane|p1a: Iron Moth|[miss]
+|-miss|p2a: Zapdos|p1a: Iron Moth
+|
+|upkeep
+|turn|14
+|-message|alejofer1534 forfeited.
+|
+|win|pakkutan
+|raw|pakkutan's rating: 1161 → 1184(+23 for winning)
+|raw|alejofer1534's rating: 1132 → 1109(-23 for losing)
+|l|☆alejofer1534

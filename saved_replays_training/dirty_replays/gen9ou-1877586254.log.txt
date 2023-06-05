@@ -1,0 +1,430 @@
+|j|☆Brainifyer
+|j|☆LiJing0520
+|t:|1685886185
+|gametype|singles
+|player|p1|Brainifyer|169|1109
+|player|p2|LiJing0520|2|1051
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ursaluna, F|
+|poke|p1|Great Tusk|
+|poke|p1|Corviknight, M|
+|poke|p1|Gholdengo|
+|poke|p1|Meowscarada, F|
+|poke|p1|Sneasler, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Bellibolt, M|
+|poke|p2|Pawmot, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragonite, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LiJing0520)
+|
+|t:|1685886190
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1685886202
+|move|p1a: Great Tusk|Stealth Rock|p2a: Glimmora
+|-sidestart|p2: LiJing0520|move: Stealth Rock
+|move|p2a: Glimmora|Energy Ball|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|9/100
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685886209
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Brainifyer|move: Toxic Spikes
+|move|p2a: Glimmora|Energy Ball|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685886226
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-status|p1a: Ursaluna|psn
+|turn|3
+|
+|t:|1685886238
+|move|p2a: Glimmora|Energy Ball|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|46/100 psn
+|-unboost|p1a: Ursaluna|spd|1
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|
+|-damage|p1a: Ursaluna|34/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1685886251
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Glimmora|Energy Ball|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|93/100
+|
+|upkeep
+|turn|5
+|
+|t:|1685886260
+|move|p2a: Glimmora|Power Gem|p1a: Corviknight
+|-damage|p1a: Corviknight|54/100
+|move|p1a: Corviknight|Body Press|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Brainifyer|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1685886272
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1685886283
+|-terastallize|p2a: Garganacl|Ghost
+|move|p1a: Corviknight|Body Press|p2a: Garganacl
+|-immune|p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Corviknight
+|-damage|p1a: Corviknight|47/100
+|-start|p1a: Corviknight|Salt Cure
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|22/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1685886296
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Corviknight|U-turn|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|0 fnt|[from] Salt Cure
+|faint|p1a: Corviknight
+|upkeep
+|
+|t:|1685886308
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-status|p1a: Meowscarada|tox
+|turn|8
+|
+|t:|1685886323
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Knock Off|p2a: Cinderace
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Cinderace|11/100
+|-enditem|p2a: Cinderace|Choice Scarf|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-damage|p1a: Meowscarada|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1685886338
+|move|p1a: Meowscarada|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|t:|1685886347
+|switch|p1a: Sneasler|Sneasler, F|100/100|[from] U-turn
+|-item|p1a: Sneasler|Air Balloon
+|
+|upkeep
+|
+|t:|1685886356
+|switch|p2a: Garganacl|Garganacl, M, tera:Ghost|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1685886372
+|move|p1a: Sneasler|Dire Claw|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|72/100
+|move|p2a: Garganacl|Salt Cure|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|91/100
+|-start|p1a: Sneasler|Salt Cure
+|-enditem|p1a: Sneasler|Air Balloon
+|
+|-heal|p2a: Garganacl|78/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|78/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1685886392
+|move|p1a: Sneasler|Acrobatics|p2a: Garganacl
+|-damage|p2a: Garganacl|50/100
+|move|p2a: Garganacl|Bulldoze|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|38/100
+|-unboost|p1a: Sneasler|spe|1
+|
+|-heal|p2a: Garganacl|57/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|25/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1685886403
+|switch|p1a: Meowscarada|Meowscarada, F|94/100 tox
+|move|p2a: Garganacl|Protect||[still]
+|-fail|p2a: Garganacl
+|
+|-heal|p2a: Garganacl|63/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|88/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1685886411
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Meowscarada|Knock Off|p2a: Garganacl
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|69/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|76/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1685886440
+|switch|p2a: Bellibolt|Bellibolt, M|100/100
+|-damage|p2a: Bellibolt|88/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Knock Off|p2a: Bellibolt
+|-damage|p2a: Bellibolt|55/100
+|-start|p2a: Bellibolt|Charge|Knock Off|[from] ability: Electromorphosis
+|-enditem|p2a: Bellibolt|Weakness Policy|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-damage|p1a: Meowscarada|57/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|LiJing0520 has 120 seconds left.
+|
+|t:|1685886457
+|move|p1a: Meowscarada|U-turn|p2a: Bellibolt
+|-damage|p2a: Bellibolt|39/100
+|-start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+|
+|t:|1685886463
+|switch|p1a: Ursaluna|Ursaluna, F|34/100 psn|[from] U-turn
+|move|p2a: Bellibolt|Parabolic Charge|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|-damage|p1a: Ursaluna|21/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685886476
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Ursaluna|Drain Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|53/100
+|-heal|p1a: Ursaluna|29/100 psn|[from] drain|[of] p2a: Dragonite
+|
+|-heal|p2a: Dragonite|60/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|17/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1685886490
+|move|p2a: Dragonite|Extreme Speed|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Dragonite|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685886496
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|18
+|
+|t:|1685886503
+|move|p1a: Gholdengo|Shadow Ball|p2a: Dragonite
+|-damage|p2a: Dragonite|23/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|29/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685886512
+|move|p2a: Dragonite|Fire Punch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|20/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1685886519
+|switch|p2a: Garganacl|Garganacl, M, tera:Ghost|69/100
+|-damage|p2a: Garganacl|57/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1685886525
+|move|p1a: Gholdengo|Shadow Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|28/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|13/100
+|-start|p1a: Gholdengo|Salt Cure
+|
+|-heal|p2a: Garganacl|34/100|[from] item: Leftovers
+|-damage|p1a: Gholdengo|0 fnt|[from] Salt Cure
+|faint|p1a: Gholdengo
+|upkeep
+|
+|t:|1685886537
+|switch|p1a: Meowscarada|Meowscarada, F|57/100 tox
+|turn|21
+|
+|t:|1685886541
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Meowscarada|Knock Off|p2a: Garganacl
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|40/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|51/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1685886553
+|switch|p2a: Bellibolt|Bellibolt, M|39/100
+|-damage|p2a: Bellibolt|26/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Knock Off|p2a: Bellibolt
+|-damage|p2a: Bellibolt|6/100
+|-start|p2a: Bellibolt|Charge|Knock Off|[from] ability: Electromorphosis
+|
+|-damage|p1a: Meowscarada|39/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1685886564
+|move|p1a: Meowscarada|Flower Trick|p2a: Bellibolt
+|-crit|p2a: Bellibolt
+|-damage|p2a: Bellibolt|0 fnt
+|faint|p2a: Bellibolt
+|
+|-damage|p1a: Meowscarada|21/100 tox|[from] psn
+|upkeep
+|
+|t:|1685886571
+|switch|p2a: Garganacl|Garganacl, M, tera:Ghost|40/100
+|-damage|p2a: Garganacl|28/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1685886578
+|switch|p1a: Sneasler|Sneasler, F|25/100
+|-sideend|p1: Brainifyer|move: Toxic Spikes|[of] p1a: Sneasler
+|move|p2a: Garganacl|Protect||[still]
+|-fail|p2a: Garganacl
+|
+|-heal|p2a: Garganacl|34/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1685886588
+|move|p1a: Sneasler|Acrobatics|p2a: Garganacl
+|-damage|p2a: Garganacl|4/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|54/100
+|
+|-heal|p2a: Garganacl|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1685886598
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|upkeep
+|turn|27
+|
+|t:|1685886604
+|move|p1a: Sneasler|Dire Claw|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|72/100
+|move|p2a: Garganacl|Salt Cure|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|14/100
+|-start|p1a: Sneasler|Salt Cure
+|
+|-heal|p2a: Garganacl|78/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|2/100|[from] Salt Cure
+|upkeep
+|turn|28
+|
+|t:|1685886614
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Sneasler|Dire Claw|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|84/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|0 fnt|[from] Salt Cure
+|faint|p1a: Sneasler
+|upkeep
+|
+|t:|1685886623
+|switch|p1a: Meowscarada|Meowscarada, F|21/100 tox
+|turn|29
+|
+|t:|1685886629
+|move|p1a: Meowscarada|Knock Off|p2a: Garganacl
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|23/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Garganacl|Salt Cure|p1a: Meowscarada
+|-damage|p1a: Meowscarada|2/100 tox
+|-start|p1a: Meowscarada|Salt Cure
+|
+|-damage|p1a: Meowscarada|0 fnt|[from] psn
+|faint|p1a: Meowscarada
+|
+|win|LiJing0520
+|upkeep
+|raw|Brainifyer's rating: 1109 → 1080(-29 for losing)
+|raw|LiJing0520's rating: 1051 → 1089(+38 for winning)

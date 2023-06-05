@@ -1,0 +1,407 @@
+|j|☆Trousseux
+|j|☆argreaer
+|t:|1685863935
+|gametype|singles
+|player|p1|Trousseux|265|1242
+|player|p2|argreaer|2|1254
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Mew|
+|poke|p1|Great Tusk|
+|poke|p1|Baxcalibur, F|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1685863976
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1685863992
+|-terastallize|p1a: Mew|Ice
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Mew|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685864013
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p1a: Mew|Ice Beam|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|77/100
+|
+|upkeep
+|turn|3
+|
+|t:|1685864035
+|move|p1a: Mew|Taunt|p2a: Arcanine
+|-start|p2a: Arcanine|move: Taunt
+|move|p2a: Arcanine|Flare Blitz|p1a: Mew
+|-supereffective|p1a: Mew
+|-enditem|p1a: Mew|Focus Sash
+|-damage|p1a: Mew|1/100
+|
+|upkeep
+|turn|4
+|
+|t:|1685864070
+|move|p1a: Mew|Stealth Rock|p2a: Arcanine
+|-sidestart|p2: argreaer|move: Stealth Rock
+|move|p2a: Arcanine|Flare Blitz|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|t:|1685864087
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|5
+|
+|t:|1685864114
+|switch|p2a: Dragapult|Dragapult, M|82/100
+|-damage|p2a: Dragapult|69/100|[from] Stealth Rock
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685864125
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Urshifu
+|-status|p1a: Urshifu|brn
+|move|p1a: Urshifu|Surging Strikes|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|60/100
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|45/100
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|31/100
+|-hitcount|p2a: Dragapult|3
+|
+|-heal|p2a: Dragapult|37/100|[from] item: Leftovers
+|-damage|p1a: Urshifu|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685864160
+|switch|p2a: Baxcalibur|Baxcalibur, F|100/100
+|-damage|p2a: Baxcalibur|76/100|[from] Stealth Rock
+|move|p1a: Urshifu|Surging Strikes|p2a: Baxcalibur
+|-resisted|p2a: Baxcalibur
+|-crit|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|63/100
+|-resisted|p2a: Baxcalibur
+|-crit|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|50/100
+|-resisted|p2a: Baxcalibur
+|-crit|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|39/100
+|-hitcount|p2a: Baxcalibur|3
+|
+|-damage|p1a: Urshifu|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685864173
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Urshifu|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|75/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|-damage|p1a: Urshifu|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685864182
+|move|p1a: Urshifu|Surging Strikes|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|57/100
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|38/100
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|19/100
+|-hitcount|p2a: Zapdos|3
+|move|p2a: Zapdos|Volt Switch|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|t:|1685864213
+|switch|p2a: Dragapult|Dragapult, M|37/100|[from] Volt Switch
+|-damage|p2a: Dragapult|24/100|[from] Stealth Rock
+|
+|-heal|p2a: Dragapult|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685864230
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|10
+|
+|t:|1685864258
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1685864280
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|turn|11
+|
+|t:|1685864294
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Landorus|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Trousseux|move: Stealth Rock
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p2a: Landorus|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Trousseux)
+|
+|t:|1685864338
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Landorus|Earthquake|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685864351
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Landorus|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100
+|
+|-heal|p1a: Dragapult|30/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685864374
+|move|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-damage|p2a: Landorus|64/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-damage|p2a: Landorus|29/100
+|move|p2a: Landorus|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|16/100
+|inactive|argreaer has 120 seconds left.
+|
+|t:|1685864399
+|switch|p2a: Baxcalibur|Baxcalibur, F|39/100|[from] U-turn
+|-damage|p2a: Baxcalibur|14/100|[from] Stealth Rock
+|
+|-heal|p1a: Dragapult|22/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685864406
+|move|p2a: Baxcalibur|Ice Shard|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1685864411
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|-damage|p1a: Baxcalibur|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1685864422
+|switch|p2a: Landorus|Landorus-Therian, M|29/100
+|-damage|p2a: Landorus|17/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Baxcalibur|atk|1
+|move|p1a: Baxcalibur|Dragon Dance|p1a: Baxcalibur
+|-boost|p1a: Baxcalibur|atk|1
+|-boost|p1a: Baxcalibur|spe|1
+|
+|-heal|p2a: Landorus|23/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|argreaer has 120 seconds left.
+|inactive|Trousseux has 120 seconds left.
+|
+|t:|1685864478
+|switch|p2a: Zapdos|Zapdos|19/100
+|move|p1a: Baxcalibur|Ice Shard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|inactive|argreaer has 90 seconds left.
+|
+|t:|1685864499
+|switch|p2a: Landorus|Landorus-Therian, M|23/100
+|-damage|p2a: Landorus|11/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Baxcalibur|atk|1
+|turn|18
+|
+|t:|1685864512
+|move|p1a: Baxcalibur|Icicle Spear|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-hitcount|p2: Landorus|1
+|
+|upkeep
+|
+|t:|1685864527
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|turn|19
+|inactive|Trousseux has 90 seconds left.
+|inactive|argreaer has 90 seconds left.
+|
+|t:|1685864558
+|move|p1a: Baxcalibur|Icicle Spear|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|86/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|74/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|63/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|52/100
+|-hitcount|p2a: Great Tusk|4
+|move|p2a: Great Tusk|Rapid Spin|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|62/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: argreaer|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|Trousseux has 90 seconds left.
+|inactive|argreaer has 90 seconds left.
+|
+|t:|1685864584
+|move|p1a: Baxcalibur|Icicle Spear|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|47/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|36/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|26/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|15/100
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|5
+|
+|upkeep
+|
+|t:|1685864602
+|switch|p2a: Arcanine|Arcanine-Hisui, F|77/100
+|turn|21
+|inactive|argreaer has 60 seconds left.
+|
+|t:|1685864618
+|-terastallize|p2a: Arcanine|Fire
+|move|p1a: Baxcalibur|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|15/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|upkeep
+|inactive|Trousseux has 90 seconds left.
+|inactive|Trousseux has 60 seconds left.
+|
+|t:|1685864664
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|22
+|
+|t:|1685864674
+|move|p2a: Arcanine|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|9/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Trousseux|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1685864679
+|switch|p2a: Baxcalibur|Baxcalibur, F|14/100
+|turn|23
+|
+|t:|1685864683
+|move|p2a: Baxcalibur|Ice Shard|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685864687
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|24
+|
+|t:|1685864690
+|move|p2a: Baxcalibur|Ice Shard|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|win|argreaer
+|raw|Trousseux's rating: 1242 → 1218(-24 for losing)
+|raw|argreaer's rating: 1254 → 1278(+24 for winning)
+|l|☆Trousseux

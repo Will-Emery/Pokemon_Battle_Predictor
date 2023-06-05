@@ -1,0 +1,183 @@
+|j|☆plowered
+|j|☆Iscalune
+|t:|1685923192
+|gametype|singles
+|player|p1|plowered|harlequin|
+|player|p2|Iscalune|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Meowscarada, M|
+|poke|p1|Salamence, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Diancie|
+|poke|p1|Tinkaton, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Breloom, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|t:|1685923207
+|start
+|switch|p1a: TinKaZonb|Tinkaton, F|100/100
+|switch|p2a: Zigzig billyplouf|Glimmora, F|100/100
+|turn|1
+|
+|t:|1685923220
+|move|p1a: TinKaZonb|Stealth Rock|p2a: Zigzig billyplouf
+|-sidestart|p2: Iscalune|move: Stealth Rock
+|move|p2a: Zigzig billyplouf|Stealth Rock|p1a: TinKaZonb
+|-sidestart|p1: plowered|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685923237
+|switch|p2a: La coum jar|Goodra-Hisui, F|100/100
+|-damage|p2a: La coum jar|94/100|[from] Stealth Rock
+|move|p1a: TinKaZonb|Thunder Wave|p2a: La coum jar
+|-status|p2a: La coum jar|par
+|
+|-heal|p2a: La coum jar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685923263
+|switch|p1a: BonzangWifi|Volcarona, M|100/100
+|move|p2a: La coum jar|Heavy Slam|p1a: BonzangWifi
+|-resisted|p1a: BonzangWifi
+|-crit|p1a: BonzangWifi
+|-damage|p1a: BonzangWifi|54/100
+|
+|upkeep
+|turn|4
+|
+|t:|1685923291
+|switch|p2a: Caca dans l'eau|Samurott-Hisui, F|100/100
+|-damage|p2a: Caca dans l'eau|88/100|[from] Stealth Rock
+|move|p1a: BonzangWifi|Fiery Dance|p2a: Caca dans l'eau
+|-resisted|p2a: Caca dans l'eau
+|-damage|p2a: Caca dans l'eau|57/100
+|
+|upkeep
+|turn|5
+|
+|t:|1685923305
+|move|p1a: BonzangWifi|Bug Buzz|p2a: Caca dans l'eau
+|-supereffective|p2a: Caca dans l'eau
+|-crit|p2a: Caca dans l'eau
+|-damage|p2a: Caca dans l'eau|0 fnt
+|faint|p2a: Caca dans l'eau
+|
+|upkeep
+|
+|t:|1685923320
+|switch|p2a: Sardoche|Garganacl, M|100/100
+|-damage|p2a: Sardoche|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1685923334
+|-terastallize|p1a: BonzangWifi|Grass
+|move|p1a: BonzangWifi|Giga Drain|p2a: Sardoche
+|-supereffective|p2a: Sardoche
+|-crit|p2a: Sardoche
+|-damage|p2a: Sardoche|0 fnt
+|-heal|p1a: BonzangWifi|100/100|[from] drain|[of] p2a: Sardoche
+|faint|p2a: Sardoche
+|
+|upkeep
+|
+|t:|1685923357
+|switch|p2a: Pas de ralentir|Arcanine-Hisui, F|100/100
+|-damage|p2a: Pas de ralentir|76/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1685923366
+|move|p1a: BonzangWifi|Giga Drain|p2a: Pas de ralentir
+|-crit|p2a: Pas de ralentir
+|-damage|p2a: Pas de ralentir|0 fnt
+|faint|p2a: Pas de ralentir
+|
+|upkeep
+|
+|t:|1685923377
+|switch|p2a: La coum jar|Goodra-Hisui, F|100/100 par
+|-damage|p2a: La coum jar|94/100 par|[from] Stealth Rock
+|turn|8
+|
+|t:|1685923391
+|move|p1a: BonzangWifi|Calm Mind|p1a: BonzangWifi
+|-boost|p1a: BonzangWifi|spa|1
+|-boost|p1a: BonzangWifi|spd|1
+|cant|p2a: La coum jar|par
+|
+|-heal|p2a: La coum jar|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685923400
+|move|p1a: BonzangWifi|Fiery Dance|p2a: La coum jar
+|-damage|p2a: La coum jar|61/100 par
+|-boost|p1a: BonzangWifi|spa|1
+|move|p2a: La coum jar|Heavy Slam|p1a: BonzangWifi
+|-damage|p1a: BonzangWifi|32/100
+|
+|-heal|p2a: La coum jar|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685923418
+|move|p1a: BonzangWifi|Fiery Dance|p2a: La coum jar
+|-damage|p2a: La coum jar|16/100 par
+|-boost|p1a: BonzangWifi|spa|1
+|cant|p2a: La coum jar|par
+|
+|-heal|p2a: La coum jar|22/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685923432
+|move|p1a: BonzangWifi|Fiery Dance|p2a: La coum jar
+|-damage|p2a: La coum jar|0 fnt
+|-boost|p1a: BonzangWifi|spa|1
+|faint|p2a: La coum jar
+|
+|upkeep
+|
+|t:|1685923442
+|switch|p2a: C un champi|Breloom, F|100/100
+|-damage|p2a: C un champi|94/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1685923454
+|move|p1a: BonzangWifi|Bug Buzz|p2a: C un champi
+|-damage|p2a: C un champi|0 fnt
+|faint|p2a: C un champi
+|
+|upkeep
+|
+|t:|1685923460
+|switch|p2a: Zigzig billyplouf|Glimmora, F|100/100
+|-damage|p2a: Zigzig billyplouf|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1685923477
+|move|p1a: BonzangWifi|Giga Drain|p2a: Zigzig billyplouf
+|-damage|p2a: Zigzig billyplouf|0 fnt
+|-heal|p1a: BonzangWifi|84/100|[from] drain|[of] p2a: Zigzig billyplouf
+|faint|p2a: Zigzig billyplouf
+|
+|win|plowered

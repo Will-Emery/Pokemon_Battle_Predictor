@@ -1,0 +1,289 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1685920855
+|gametype|singles
+|player|p1|Lily|#scl1machines|
+|player|p2|Luthier|#luthier|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grafaiai, F|
+|poke|p1|Slowking, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p1|Meowscarada, F|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Amoonguss, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, F|
+|teampreview
+|c|☆Luthier|HAVE THE FUN 
+|c|☆Lily|YOU TOO
+|c|☆Luthier|oh bruh 
+|c|☆Luthier|i wish i had more meme team
+|
+|t:|1685920875
+|start
+|switch|p1a: Grafaiai|Grafaiai, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|c|☆Luthier|the faiai 
+|
+|t:|1685920882
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Grafaiai|Knock Off|p2a: Amoonguss
+|-damage|p2a: Amoonguss|84/100
+|-damage|p1a: Grafaiai|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-enditem|p2a: Amoonguss|Rocky Helmet|[from] move: Knock Off|[of] p1a: Grafaiai
+|
+|-heal|p1a: Grafaiai|90/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1685920887
+|move|p1a: Grafaiai|Parting Shot|p2a: Amoonguss
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2a: Amoonguss|spa|1
+|
+|t:|1685920890
+|switch|p1a: Meowscarada|Meowscarada, F|100/100|[from] Parting Shot
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|47/100
+|
+|upkeep
+|turn|3
+|
+|t:|1685920895
+|move|p1a: Meowscarada|Spikes|p2a: Amoonguss
+|-sidestart|p2: Luthier|Spikes
+|move|p2a: Amoonguss|Spore|p1a: Meowscarada
+|-immune|p1a: Meowscarada
+|
+|upkeep
+|turn|4
+|
+|t:|1685920897
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Amoonguss|Spore|p1a: Slowking
+|-status|p1a: Slowking|slp|[from] move: Spore
+|
+|upkeep
+|turn|5
+|c|☆Luthier|unreal 
+|
+|t:|1685920909
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Spikes
+|cant|p1a: Slowking|slp
+|
+|upkeep
+|turn|6
+|
+|t:|1685920912
+|move|p2a: Dragapult|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|21/100 slp
+|cant|p1a: Slowking|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1685920914
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|switch|p1a: Grafaiai|Grafaiai, F|90/100
+|
+|-heal|p1a: Grafaiai|96/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1685920917
+|move|p1a: Grafaiai|Switcheroo|p2a: Great Tusk
+|-activate|p1a: Grafaiai|move: Trick|[of] p2a: Great Tusk
+|-item|p2a: Great Tusk|Black Sludge|[from] move: Switcheroo
+|-item|p1a: Grafaiai|Rocky Helmet|[from] move: Switcheroo
+|move|p2a: Great Tusk|Earthquake|p1a: Grafaiai
+|-supereffective|p1a: Grafaiai
+|-crit|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|faint|p1a: Grafaiai
+|
+|-damage|p2a: Great Tusk|76/100|[from] item: Black Sludge
+|upkeep
+|c|☆Luthier|yooo
+|
+|t:|1685920921
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|9
+|
+|t:|1685920925
+|move|p1a: Dragapult|Flamethrower|p2a: Great Tusk
+|-damage|p2a: Great Tusk|24/100
+|move|p2a: Great Tusk|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|30/100
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|12/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1685920930
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|move|p1a: Dragapult|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|56/100
+|-unboost|p2a: Amoonguss|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1685920937
+|switch|p2a: Great Tusk|Great Tusk|12/100
+|-damage|p2a: Great Tusk|0 fnt|[from] Spikes
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|move|p1a: Dragapult|Draco Meteor|p2: Great Tusk|[notarget]
+|-fail|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1685920940
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|12
+|
+|t:|1685920942
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Kingambit|Iron Head|p1a: Great Tusk
+|-damage|p1a: Great Tusk|76/100
+|
+|-heal|p1a: Great Tusk|83/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685920945
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Amoonguss|Amoonguss, F|89/100
+|-damage|p2a: Amoonguss|77/100|[from] Spikes
+|move|p1a: Great Tusk|Stealth Rock|p2a: Amoonguss
+|-sidestart|p2: Luthier|move: Stealth Rock
+|
+|-heal|p1a: Great Tusk|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685920954
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|-damage|p2a: Baxcalibur|88/100|[from] Spikes
+|-damage|p2a: Baxcalibur|63/100|[from] Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1685920959
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Great Tusk|Great Tusk|89/100
+|move|p2a: Baxcalibur|Icicle Crash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|34/100
+|
+|-heal|p1a: Great Tusk|41/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685920962
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking, M|54/100 slp
+|move|p2a: Baxcalibur|Swords Dance|p2a: Baxcalibur
+|-boost|p2a: Baxcalibur|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1685920968
+|move|p2a: Baxcalibur|Earthquake|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1685920976
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|18
+|
+|t:|1685920984
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Dragapult|Dragapult, M|30/100
+|move|p2a: Baxcalibur|Icicle Crash|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1685920994
+|switch|p1a: Meowscarada|Meowscarada, F|47/100
+|turn|19
+|
+|t:|1685920996
+|move|p2a: Baxcalibur|Ice Shard|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1685920999
+|switch|p1a: Great Tusk|Great Tusk|41/100
+|turn|20
+|c|☆Luthier|oh ur such a goofy goober 
+|c|☆Lily|Ty
+|
+|t:|1685921016
+|move|p2a: Baxcalibur|Ice Shard|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685921017
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|21
+|
+|t:|1685921021
+|move|p1a: Kingambit|Sucker Punch|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|15/100
+|move|p2a: Baxcalibur|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|Luthier

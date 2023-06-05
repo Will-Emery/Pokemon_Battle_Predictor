@@ -1,0 +1,690 @@
+|j|☆Buried_ground
+|j|☆byobell
+|t:|1685872877
+|gametype|singles
+|player|p1|Buried_ground|1|1083
+|player|p2|byobell|170|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Greninja, F|
+|poke|p1|Magnezone|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Garchomp, F|
+|poke|p2|Greedent, F|
+|poke|p2|Talonflame, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Jolteon, F|
+|poke|p2|Walking Wake|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1685872888
+|start
+|switch|p1a: Greninja|Greninja, F|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|1
+|
+|t:|1685872898
+|move|p2a: Tinkaton|Fake Out|p1a: Greninja
+|-damage|p1a: Greninja|89/100
+|cant|p1a: Greninja|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1685872906
+|move|p1a: Greninja|U-turn|p2a: Tinkaton
+|-start|p1a: Greninja|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|95/100
+|
+|t:|1685872915
+|switch|p1a: Arcanine|Arcanine, F|100/100|[from] U-turn
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Tinkaton|atk|1
+|move|p2a: Tinkaton|Knock Off|p1a: Arcanine
+|-damage|p1a: Arcanine|89/100
+|-enditem|p1a: Arcanine|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tinkaton
+|
+|-heal|p2a: Tinkaton|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685872932
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Walking Wake
+|-status|p2a: Walking Wake|brn
+|
+|-damage|p2a: Walking Wake|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685872953
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Magnezone
+|-damage|p1a: Magnezone|70/100
+|
+|-damage|p2a: Walking Wake|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685872966
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: Magnezone|Flash Cannon|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|67/100
+|
+|-status|p2a: Jolteon|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1685872980
+|move|p2a: Jolteon|Volt Switch|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|57/100
+|
+|t:|1685872988
+|switch|p2a: Tinkaton|Tinkaton, F|100/100|[from] Volt Switch
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Magnezone|Flash Cannon|p2a: Tinkaton
+|-damage|p2a: Tinkaton|63/100
+|
+|-heal|p2a: Tinkaton|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685873002
+|move|p2a: Tinkaton|Fake Out|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|54/100
+|cant|p1a: Magnezone|flinch
+|
+|-heal|p2a: Tinkaton|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685873011
+|move|p2a: Tinkaton|Protect|p2a: Tinkaton
+|-singleturn|p2a: Tinkaton|Protect
+|move|p1a: Magnezone|Steel Beam|p2a: Tinkaton
+|-activate|p2a: Tinkaton|move: Protect
+|-damage|p1a: Magnezone|4/100|[from] steelbeam
+|
+|-heal|p2a: Tinkaton|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685873028
+|switch|p2a: WHOOAAARRGHH|Greedent, F|100/100
+|move|p1a: Magnezone|Thunderbolt|p2a: WHOOAAARRGHH
+|-damage|p2a: WHOOAAARRGHH|30/100
+|-enditem|p2a: WHOOAAARRGHH|Sitrus Berry|[eat]
+|-heal|p2a: WHOOAAARRGHH|55/100|[from] item: Sitrus Berry
+|-heal|p2a: WHOOAAARRGHH|88/100|[from] ability: Cheek Pouch
+|
+|upkeep
+|turn|10
+|
+|t:|1685873037
+|move|p1a: Magnezone|Thunderbolt|p2a: WHOOAAARRGHH
+|-damage|p2a: WHOOAAARRGHH|28/100
+|move|p2a: WHOOAAARRGHH|Belly Drum||[still]
+|-fail|p2a: WHOOAAARRGHH
+|
+|upkeep
+|turn|11
+|
+|t:|1685873044
+|move|p1a: Magnezone|Thunderbolt|p2a: WHOOAAARRGHH
+|-damage|p2a: WHOOAAARRGHH|0 fnt
+|faint|p2a: WHOOAAARRGHH
+|
+|upkeep
+|
+|t:|1685873050
+|switch|p2a: Jolteon|Jolteon, F|67/100 brn
+|turn|12
+|
+|t:|1685873062
+|move|p2a: Jolteon|Volt Switch|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|t:|1685873074
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1685873080
+|switch|p1a: Greninja|Greninja, F|89/100
+|turn|13
+|
+|t:|1685873096
+|switch|p2a: Tinkaton|Tinkaton, F|82/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Greninja|Surf|p2a: Tinkaton
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p2a: Tinkaton|55/100
+|
+|-heal|p2a: Tinkaton|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685873110
+|move|p2a: Tinkaton|Fake Out|p1a: Greninja
+|-damage|p1a: Greninja|77/100
+|cant|p1a: Greninja|flinch
+|
+|-heal|p2a: Tinkaton|67/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685873119
+|move|p1a: Greninja|Dark Pulse|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|59/100
+|move|p2a: Tinkaton|Knock Off|p1a: Greninja
+|-damage|p1a: Greninja|47/100
+|-enditem|p1a: Greninja|Focus Sash|[from] move: Knock Off|[of] p2a: Tinkaton
+|
+|-heal|p2a: Tinkaton|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685873129
+|move|p1a: Greninja|U-turn|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|61/100
+|
+|t:|1685873133
+|switch|p1a: Garchomp|Garchomp, F|100/100|[from] U-turn
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Garchomp
+|-damage|p1a: Garchomp|55/100
+|
+|-heal|p2a: Tinkaton|68/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685873151
+|move|p2a: Tinkaton|Protect|p2a: Tinkaton
+|-singleturn|p2a: Tinkaton|Protect
+|move|p1a: Garchomp|Earthquake|p2a: Tinkaton
+|-activate|p2a: Tinkaton|move: Protect
+|
+|-heal|p2a: Tinkaton|74/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685873171
+|move|p1a: Garchomp|Stealth Rock|p2a: Tinkaton
+|-sidestart|p2: byobell|move: Stealth Rock
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Garchomp
+|-damage|p1a: Garchomp|14/100
+|
+|-heal|p2a: Tinkaton|80/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685873183
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1685873192
+|move|p2a: Talonflame|Brave Bird|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Talonflame|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Talonflame|71/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|-damage|p2a: Talonflame|67/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1685873209
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|21
+|
+|t:|1685873223
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Talonflame
+|-unboost|p2a: Talonflame|atk|1
+|-unboost|p2a: Talonflame|spa|1
+|
+|t:|1685873226
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] Parting Shot
+|move|p2a: Talonflame|Defog|p1a: Slowking
+|-unboost|p1a: Slowking|evasion|1
+|-sideend|p2: byobell|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|
+|upkeep
+|turn|22
+|
+|t:|1685873244
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Slowking
+|-status|p1a: Slowking|brn
+|move|p1a: Slowking|Eerie Spell|p2a: Talonflame
+|-damage|p2a: Talonflame|27/100
+|-activate|p2a: Talonflame|move: Eerie Spell|Will-O-Wisp|3
+|
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1685873253
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|77/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Slowking|Sludge Bomb|p2a: Talonflame
+|-damage|p2a: Talonflame|32/100
+|-status|p2a: Talonflame|psn
+|
+|-heal|p1a: Slowking|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Talonflame|20/100 psn|[from] psn
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1685873277
+|move|p2a: Talonflame|Brave Bird|p1a: Slowking
+|-damage|p1a: Slowking|61/100 brn
+|-damage|p2a: Talonflame|8/100 psn|[from] Recoil
+|move|p1a: Slowking|Eerie Spell|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|-heal|p1a: Slowking|67/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|61/100 brn|[from] brn
+|upkeep
+|
+|t:|1685873299
+|switch|p2a: Walking Wake|Walking Wake|88/100 brn
+|turn|25
+|
+|t:|1685873308
+|move|p2a: Walking Wake|Hydro Steam|p1a: Slowking
+|-damage|p1a: Slowking|38/100 brn
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|t:|1685873316
+|switch|p1a: Greninja|Greninja, F|47/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Walking Wake|82/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1685873331
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Tinkaton|Tinkaton, F|80/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Greninja|Surf|p2a: Tinkaton
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p2a: Tinkaton|52/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Tinkaton|59/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1685873348
+|switch|p1a: Slowking|Slowking-Galar, M|71/100 brn
+|move|p2a: Tinkaton|Fake Out|p1a: Slowking
+|-damage|p1a: Slowking|64/100 brn
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Tinkaton|65/100|[from] item: Leftovers
+|-heal|p1a: Slowking|70/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|64/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1685873365
+|move|p2a: Tinkaton|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|25/100 brn
+|-enditem|p1a: Slowking|Black Sludge|[from] move: Knock Off|[of] p2a: Tinkaton
+|move|p1a: Slowking|Eerie Spell|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|55/100
+|-activate|p2a: Tinkaton|move: Eerie Spell|Knock Off|3
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Tinkaton|61/100|[from] item: Leftovers
+|-damage|p1a: Slowking|19/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1685873380
+|move|p2a: Tinkaton|Protect|p2a: Tinkaton
+|-singleturn|p2a: Tinkaton|Protect
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|69/100 brn
+|
+|-weather|none
+|-heal|p2a: Tinkaton|67/100|[from] item: Leftovers
+|-damage|p1a: Slowking|62/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1685873395
+|switch|p1a: Arcanine|Arcanine, F|89/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Tinkaton|atk|1
+|move|p2a: Tinkaton|Knock Off|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|70/100
+|
+|-heal|p2a: Tinkaton|73/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1685873412
+|switch|p2a: Walking Wake|Walking Wake|82/100 brn
+|-terastallize|p1a: Arcanine|Fire
+|move|p1a: Arcanine|Flare Blitz|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|60/100 brn
+|-damage|p1a: Arcanine|64/100|[from] Recoil
+|
+|-damage|p2a: Walking Wake|54/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1685873425
+|switch|p1a: Slowking|Slowking-Galar, M|96/100 brn
+|move|p2a: Walking Wake|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|56/100 brn
+|-unboost|p2a: Walking Wake|spa|2
+|
+|-damage|p2a: Walking Wake|48/100 brn|[from] brn
+|-damage|p1a: Slowking|50/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1685873438
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Tinkaton|Tinkaton, F|73/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Slowking|Eerie Spell|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|64/100
+|
+|-heal|p2a: Tinkaton|70/100|[from] item: Leftovers
+|-damage|p1a: Slowking|44/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1685873451
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Slowking
+|-damage|p1a: Slowking|2/100 brn
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|t:|1685873458
+|switch|p1a: Arcanine|Arcanine, F, tera:Fire|64/100|[from] Chilly Reception
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Tinkaton|atk|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Tinkaton|76/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1685873466
+|move|p2a: Tinkaton|Protect|p2a: Tinkaton
+|-singleturn|p2a: Tinkaton|Protect
+|move|p1a: Arcanine|Extreme Speed|p2a: Tinkaton
+|-activate|p2a: Tinkaton|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Tinkaton|82/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1685873479
+|switch|p2a: Walking Wake|Walking Wake|48/100 brn
+|move|p1a: Arcanine|Flare Blitz|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|25/100 brn
+|-damage|p1a: Arcanine|57/100|[from] Recoil
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Walking Wake|18/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1685873491
+|-terastallize|p2a: Walking Wake|Water
+|move|p1a: Arcanine|Extreme Speed|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685873501
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|turn|38
+|
+|t:|1685873516
+|switch|p1a: Slowking|Slowking-Galar, M|36/100 brn
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|
+|-weather|none
+|-damage|p1a: Slowking|29/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1685873536
+|move|p2a: Landorus|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1685873542
+|switch|p1a: Greninja|Greninja, F|47/100
+|turn|40
+|
+|t:|1685873561
+|switch|p2a: Tinkaton|Tinkaton, F|82/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Greninja|Surf|p2a: Tinkaton
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p2a: Tinkaton|53/100
+|
+|-heal|p2a: Tinkaton|59/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1685873574
+|move|p2a: Tinkaton|Fake Out|p1a: Greninja
+|-damage|p1a: Greninja|34/100
+|cant|p1a: Greninja|flinch
+|
+|-heal|p2a: Tinkaton|65/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1685873586
+|move|p1a: Greninja|Surf|p2a: Tinkaton
+|-damage|p2a: Tinkaton|37/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-heal|p2a: Tinkaton|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685873598
+|switch|p1a: Arcanine|Arcanine, F, tera:Fire|57/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Tinkaton|atk|1
+|turn|43
+|
+|t:|1685873604
+|move|p2a: Tinkaton|Protect|p2a: Tinkaton
+|-singleturn|p2a: Tinkaton|Protect
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|100/100
+|
+|-heal|p2a: Tinkaton|49/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1685873615
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|move|p1a: Arcanine|Flare Blitz|p2a: Landorus
+|-damage|p2a: Landorus|63/100
+|-damage|p1a: Arcanine|88/100|[from] Recoil
+|
+|-heal|p2a: Landorus|69/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1685873628
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|38/100
+|
+|-heal|p2a: Landorus|75/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|44/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1685873650
+|move|p2a: Landorus|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-heal|p2a: Landorus|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685873659
+|switch|p1a: Arcanine|Arcanine, F, tera:Fire|88/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|47
+|
+|t:|1685873670
+|switch|p2a: Tinkaton|Tinkaton, F|49/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Arcanine|Extreme Speed|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|36/100
+|
+|-heal|p2a: Tinkaton|42/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|t:|1685873681
+|move|p2a: Tinkaton|Fake Out|p1a: Arcanine
+|-damage|p1a: Arcanine|80/100
+|cant|p1a: Arcanine|flinch
+|
+|-heal|p2a: Tinkaton|48/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1685873688
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|100/100
+|move|p2a: Tinkaton|Knock Off|p1a: Arcanine
+|-damage|p1a: Arcanine|88/100
+|
+|-heal|p2a: Tinkaton|54/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1685873697
+|move|p1a: Arcanine|Flare Blitz|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|-damage|p1a: Arcanine|71/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1685873708
+|switch|p2a: Jolteon|Jolteon, F|67/100 brn
+|turn|51
+|
+|t:|1685873712
+|move|p2a: Jolteon|Volt Switch|p1a: Arcanine
+|-damage|p1a: Arcanine|32/100
+|
+|t:|1685873715
+|switch|p2a: Landorus|Landorus-Therian, M|81/100|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|82/100
+|
+|-heal|p2a: Landorus|87/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1685873737
+|switch|p2a: Jolteon|Jolteon, F|67/100 brn
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Jolteon
+|-fail|p2a: Jolteon|brn
+|
+|-damage|p2a: Jolteon|61/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|t:|1685873748
+|move|p1a: Arcanine|Extreme Speed|p2a: Jolteon
+|-damage|p2a: Jolteon|33/100 brn
+|move|p2a: Jolteon|Volt Switch|p1a: Arcanine
+|-damage|p1a: Arcanine|43/100
+|
+|t:|1685873753
+|switch|p2a: Landorus|Landorus-Therian, M|87/100|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|
+|-heal|p2a: Landorus|93/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|t:|1685873763
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|93/100
+|move|p2a: Landorus|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|byobell
+|raw|Buried_ground's rating: 1083 → 1058(-25 for losing)
+|raw|byobell's rating: 1040 → 1078(+38 for winning)
+|l|☆Buried_ground

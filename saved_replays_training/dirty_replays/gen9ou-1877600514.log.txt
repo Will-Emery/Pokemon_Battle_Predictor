@@ -1,0 +1,515 @@
+|j|☆idyllicious
+|j|☆Ketchup2000
+|t:|1685887978
+|gametype|singles
+|player|p1|idyllicious|lady|1248
+|player|p2|Ketchup2000|byron|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crocalor, F|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Kleavor, M|
+|poke|p1|Slowking, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Zamazenta-*|
+|poke|p2|Sneasler, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Great Tusk|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Typhlosion-Hisui, F|
+|teampreview
+|
+|t:|1685888020
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kleavor|atk|1
+|turn|1
+|
+|t:|1685888032
+|move|p1a: Kleavor|Stone Axe|p2a: Landorus
+|-damage|p2a: Landorus|67/100
+|-sidestart|p2: Ketchup2000|move: Stealth Rock
+|-damage|p1a: Kleavor|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Kleavor
+|-damage|p1a: Kleavor|52/100
+|
+|t:|1685888096
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685888112
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Electrode
+|-damage|p1a: Electrode|62/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Ketchup2000|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1685888125
+|move|p2a: Great Tusk|Close Combat|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|73/100|[from] ability: Aftermath|[of] p1a: Electrode
+|faint|p1a: Electrode
+|
+|upkeep
+|
+|t:|1685888135
+|switch|p1a: Crocalor|Crocalor, F|100/100
+|turn|4
+|
+|t:|1685888142
+|-terastallize|p1a: Crocalor|Water
+|move|p2a: Great Tusk|Headlong Rush|p1a: Crocalor
+|-damage|p1a: Crocalor|60/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Crocalor|Will-O-Wisp|p2a: Great Tusk
+|-status|p2a: Great Tusk|brn
+|
+|-damage|p2a: Great Tusk|66/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685888159
+|move|p2a: Great Tusk|Rapid Spin|p1a: Crocalor
+|-damage|p1a: Crocalor|54/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Crocalor|Slack Off|p1a: Crocalor
+|-heal|p1a: Crocalor|100/100
+|
+|-damage|p2a: Great Tusk|60/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1685888165
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Crocalor|Overheat|p2a: Great Tusk|[miss]
+|-miss|p1a: Crocalor|p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|54/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685888171
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Crocalor|Overheat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Crocalor|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685888188
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|8
+|
+|t:|1685888192
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Crocalor|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685888196
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Crocalor|Roar|p2a: Corviknight
+|drag|p2a: Sneasler|Sneasler, F|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1685888203
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Crocalor|Will-O-Wisp|p2a: Sneasler
+|-status|p2a: Sneasler|brn
+|
+|-damage|p2a: Sneasler|95/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1685888212
+|move|p2a: Sneasler|Dire Claw|p1a: Crocalor
+|-damage|p1a: Crocalor|89/100
+|-status|p1a: Crocalor|psn
+|move|p1a: Crocalor|Roar|p2a: Sneasler
+|drag|p2a: Braviary|Braviary-Hisui, M|100/100
+|
+|-damage|p1a: Crocalor|77/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685888224
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Braviary|Esper Wing|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|80/100
+|-boost|p2a: Braviary|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1685888229
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|move|p1a: Slowking|Future Sight|p2a: Braviary
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|14
+|
+|t:|1685888233
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|t:|1685888250
+|switch|p1a: Crocalor|Crocalor, F, tera:Water|77/100 psn|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Crocalor|65/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685888258
+|move|p2a: Braviary|Esper Wing|p1a: Crocalor
+|-damage|p1a: Crocalor|32/100 psn
+|-boost|p2a: Braviary|spe|1
+|move|p1a: Crocalor|Overheat|p2a: Braviary
+|-damage|p2a: Braviary|53/100
+|-unboost|p1a: Crocalor|spa|2
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Braviary|move: Future Sight
+|-resisted|p2a: Braviary
+|-damage|p2a: Braviary|40/100
+|-damage|p1a: Crocalor|19/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1685888268
+|move|p2a: Braviary|Esper Wing|p1a: Crocalor
+|-damage|p1a: Crocalor|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Crocalor
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685888285
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|17
+|
+|t:|1685888294
+|move|p2a: Braviary|Esper Wing|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|8/100
+|-boost|p2a: Braviary|spe|1
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685888303
+|switch|p2a: Sneasler|Sneasler, F|95/100 brn
+|turn|18
+|
+|t:|1685888309
+|move|p2a: Sneasler|Fake Out|p1a: Zamazenta
+|-enditem|p2a: Sneasler|Normal Gem|[from] gem
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|6/100
+|cant|p1a: Zamazenta|flinch
+|
+|-weather|none
+|-damage|p2a: Sneasler|89/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1685888321
+|move|p2a: Sneasler|Close Combat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Zamazenta
+|
+|-damage|p2a: Sneasler|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1685888337
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|20
+|
+|t:|1685888346
+|move|p2a: Sneasler|Dire Claw|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|83/100
+|move|p1a: Sneasler|Close Combat|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|faint|p2a: Sneasler
+|
+|upkeep
+|
+|t:|1685888362
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|turn|21
+|
+|t:|1685888421
+|move|p1a: Sneasler|U-turn|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|92/100
+|
+|t:|1685888423
+|switch|p1a: Slowking|Slowking, F|100/100|[from] U-turn
+|move|p2a: Typhlosion|Eruption|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|70/100
+|
+|upkeep
+|turn|22
+|
+|t:|1685888428
+|switch|p2a: Corviknight|Corviknight, F|94/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100 brn
+|
+|-damage|p2a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1685888431
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Slowking|Future Sight|p2a: Corviknight
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p2a: Corviknight|63/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1685888434
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|41/100 brn
+|
+|-damage|p2a: Corviknight|35/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1685888437
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|85/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100 brn
+|
+|-end|p2a: Corviknight|move: Future Sight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100 brn
+|-damage|p2a: Corviknight|45/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1685888441
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|95/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|72/100 brn
+|
+|-damage|p2a: Corviknight|66/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1685888443
+|move|p2a: Corviknight|Agility|p2a: Corviknight
+|-boost|p2a: Corviknight|spe|2
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100 brn
+|
+|-damage|p2a: Corviknight|38/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1685888446
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|88/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100 brn
+|
+|-damage|p2a: Corviknight|61/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1685888450
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|39/100 brn
+|
+|-damage|p2a: Corviknight|33/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1685888453
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|83/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100 brn
+|
+|-damage|p2a: Corviknight|58/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1685888457
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100 brn
+|
+|-damage|p2a: Corviknight|72/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1685888459
+|move|p2a: Corviknight|Agility|p2a: Corviknight
+|-boost|p2a: Corviknight|spe|2
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100 brn
+|
+|-damage|p2a: Corviknight|45/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1685888461
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|95/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100 brn
+|
+|-damage|p2a: Corviknight|68/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1685888463
+|move|p2a: Corviknight|Agility|p2a: Corviknight
+|-boost|p2a: Corviknight|spe|2
+|move|p1a: Slowking|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100 brn
+|
+|-damage|p2a: Corviknight|40/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1685888466
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|90/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Future Sight|p2a: Corviknight
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p2a: Corviknight|84/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1685888472
+|move|p2a: Corviknight|Power Trip|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-damage|p2a: Corviknight|78/100 brn|[from] brn
+|upkeep
+|
+|t:|1685888475
+|switch|p1a: Sneasler|Sneasler, M|83/100
+|turn|37
+|
+|t:|1685888482
+|move|p2a: Corviknight|Power Trip|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|30/100
+|move|p1a: Sneasler|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100 brn
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|
+|-end|p2a: Corviknight|move: Future Sight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100 brn
+|-damage|p2a: Corviknight|38/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1685888488
+|move|p2a: Corviknight|Power Trip|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-damage|p2a: Corviknight|32/100 brn|[from] brn
+|upkeep
+|-message|idyllicious forfeited.
+|
+|win|Ketchup2000
+|raw|idyllicious's rating: 1248 → 1222(-26 for losing)
+|raw|Ketchup2000's rating: 1228 → 1254(+26 for winning)
+|l|☆idyllicious

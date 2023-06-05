@@ -1,0 +1,303 @@
+|j|☆insertcatpuns
+|j|☆Undemi31
+|t:|1685915853
+|gametype|singles
+|player|p1|insertcatpuns|harlequin|1228
+|player|p2|Undemi31|266|1190
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Volcarona, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Sneasler, M|
+|poke|p2|Hoopa|
+|poke|p2|Volcanion|
+|teampreview
+|
+|t:|1685915859
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|turn|1
+|
+|t:|1685915868
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: insertcatpuns|Reflect
+|move|p2a: Landorus|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: insertcatpuns|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685915877
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: insertcatpuns|move: Light Screen
+|
+|upkeep
+|turn|3
+|
+|t:|1685915882
+|move|p1a: Dragapult|Curse|p2a: Goodra
+|-start|p2a: Goodra|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|50/100
+|move|p2a: Goodra|Draco Meteor|p1a: Dragapult|[miss]
+|-miss|p2a: Goodra|p1a: Dragapult
+|
+|-damage|p2a: Goodra|75/100|[from] Curse
+|upkeep
+|turn|4
+|
+|t:|1685915892
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p1a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|
+|upkeep
+|turn|5
+|
+|t:|1685915903
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|73/100
+|move|p2a: Landorus|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|upkeep
+|turn|6
+|
+|t:|1685915910
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Landorus|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|upkeep
+|turn|7
+|
+|t:|1685915936
+|-terastallize|p1a: Zamazenta|Fighting
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|48/100
+|move|p2a: Landorus|Earthquake|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|upkeep
+|turn|8
+|
+|t:|1685915943
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Landorus|Earthquake|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|-sideend|p1: insertcatpuns|Reflect
+|upkeep
+|turn|9
+|
+|t:|1685915950
+|move|p1a: Zamazenta|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|2/100
+|move|p2a: Landorus|Earthquake|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|-sideend|p1: insertcatpuns|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1685915958
+|move|p1a: Zamazenta|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1685915965
+|switch|p2a: Hoopa|Hoopa|100/100
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by insertcatpuns)
+|
+|t:|1685915971
+|move|p1a: Zamazenta|Body Press|p2a: Hoopa
+|-immune|p2a: Hoopa
+|move|p2a: Hoopa|Psychic|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|upkeep
+|turn|12
+|
+|t:|1685915979
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|23/100
+|move|p2a: Hoopa|Nasty Plot|p2a: Hoopa
+|-boost|p2a: Hoopa|spa|2
+|
+|upkeep
+|turn|13
+|
+|t:|1685915986
+|move|p1a: Zamazenta|Crunch|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|4/100
+|-unboost|p2a: Hoopa|def|1
+|-enditem|p2a: Hoopa|Salac Berry|[eat]
+|-boost|p2a: Hoopa|spe|1|[from] item: Salac Berry
+|move|p2a: Hoopa|Psychic|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|upkeep
+|turn|14
+|c|☆insertcatpuns|Lol u thrwlew
+|
+|t:|1685915996
+|move|p2a: Hoopa|Psychic|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1685916000
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|15
+|
+|t:|1685916010
+|move|p1a: Chien-Pao|Ice Shard|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1685916015
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|16
+|
+|t:|1685916022
+|switch|p1a: Dragapult|Dragapult, F|50/100
+|-damage|p1a: Dragapult|38/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1685916028
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|17
+|
+|t:|1685916033
+|switch|p2a: Goodra|Goodra-Hisui, M|75/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Goodra|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685916047
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Goodra|Ice Beam|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|95/100
+|
+|-heal|p2a: Goodra|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685916055
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Goodra|Ice Beam|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|90/100
+|
+|-heal|p2a: Goodra|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685916064
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Goodra|Ice Beam|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|86/100
+|
+|-heal|p2a: Goodra|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685916072
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Goodra|Draco Meteor|p1a: Volcarona
+|-damage|p1a: Volcarona|71/100
+|-unboost|p2a: Goodra|spa|2
+|
+|-heal|p2a: Goodra|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685916081
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Goodra|Ice Beam|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|70/100
+|
+|upkeep
+|turn|23
+|-message|Undemi31 forfeited.
+|
+|win|insertcatpuns
+|raw|insertcatpuns's rating: 1228 → 1250(+22 for winning)
+|raw|Undemi31's rating: 1190 → 1168(-22 for losing)
+|l|☆Undemi31

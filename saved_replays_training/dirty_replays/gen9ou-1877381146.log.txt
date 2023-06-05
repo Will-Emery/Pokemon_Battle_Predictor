@@ -1,0 +1,321 @@
+|j|☆pop cat pop cat
+|j|☆revamped_087
+|t:|1685851038
+|gametype|singles
+|player|p1|pop cat pop cat|palmer|1280
+|player|p2|revamped_087|blue|1335
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p2|Sneasler, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pop cat pop cat)
+|
+|t:|1685851066
+|start
+|switch|p1a: narc|Great Tusk|100/100
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|1
+|
+|t:|1685851081
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: narc|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|92/100
+|-boost|p1a: narc|spe|1
+|
+|-heal|p2a: Great Tusk|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685851092
+|-end|p1a: narc|Protosynthesis|[silent]
+|switch|p1a: plug|Hatterene, F|100/100
+|-item|p1a: plug|Air Balloon
+|move|p2a: Great Tusk|Knock Off|p1a: plug
+|-damage|p1a: plug|77/100
+|-enditem|p1a: plug|Air Balloon
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685851101
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|move|p1a: plug|Draining Kiss|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|84/100
+|-heal|p1a: plug|88/100|[from] drain|[of] p2a: Typhlosion
+|
+|upkeep
+|turn|4
+|
+|t:|1685851115
+|switch|p1a: bong water|Walking Wake|100/100
+|move|p2a: Typhlosion|Infernal Parade|p1a: bong water
+|-damage|p1a: bong water|48/100
+|
+|upkeep
+|turn|5
+|
+|t:|1685851123
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: bong water|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|49/100
+|-unboost|p1a: bong water|spa|2
+|
+|upkeep
+|turn|6
+|
+|t:|1685851134
+|-end|p1a: bong water|Protosynthesis|[silent]
+|switch|p1a: baked|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: baked
+|move|p2a: Slowking|Future Sight|p1a: baked
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685851141
+|move|p2a: Slowking|Sludge Bomb|p1a: baked
+|-damage|p1a: baked|61/100
+|-status|p1a: baked|psn
+|move|p1a: baked|Stealth Rock|p2a: Slowking
+|-sidestart|p2: revamped_087|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: baked|49/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1685851154
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: baked|Yawn|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Yawn|[of] p1a: baked
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: baked|move: Future Sight
+|-damage|p1a: baked|0 fnt
+|faint|p1a: baked
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685851163
+|switch|p1a: ganja|Lilligant-Hisui, F|100/100
+|turn|9
+|
+|t:|1685851172
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|move|p1a: ganja|Victory Dance|p1a: ganja
+|-boost|p1a: ganja|atk|1
+|-boost|p1a: ganja|def|1
+|-boost|p1a: ganja|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1685851185
+|-terastallize|p1a: ganja|Ghost
+|move|p1a: ganja|Tera Blast|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685851189
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|turn|11
+|
+|t:|1685851197
+|-terastallize|p2a: Great Tusk|Steel
+|move|p1a: ganja|Leaf Blade|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|68/100
+|move|p2a: Great Tusk|Knock Off|p1a: ganja
+|-supereffective|p1a: ganja
+|-damage|p1a: ganja|41/100
+|-enditem|p1a: ganja|Wide Lens|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685851209
+|move|p1a: ganja|Close Combat|p2a: Great Tusk|[miss]
+|-miss|p1a: ganja|p2a: Great Tusk
+|move|p2a: Great Tusk|Earthquake|p1a: ganja
+|-damage|p1a: ganja|0 fnt
+|faint|p1a: ganja
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685851214
+|switch|p1a: narc|Great Tusk|100/100
+|-activate|p1a: narc|ability: Protosynthesis
+|-start|p1a: narc|protosynthesisatk
+|turn|13
+|
+|t:|1685851220
+|move|p1a: narc|Headlong Rush|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|19/100
+|-unboost|p1a: narc|def|1
+|-unboost|p1a: narc|spd|1
+|move|p2a: Great Tusk|Knock Off|p1a: narc
+|-resisted|p1a: narc
+|-damage|p1a: narc|85/100
+|-enditem|p1a: narc|Assault Vest|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|none
+|-end|p1a: narc|Protosynthesis
+|-end|p2a: Great Tusk|Protosynthesis
+|-heal|p2a: Great Tusk|25/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685851224
+|move|p1a: narc|Headlong Rush|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: narc|def|1
+|-unboost|p1a: narc|spd|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685851231
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|84/100
+|-damage|p2a: Typhlosion|60/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1685851247
+|move|p2a: Typhlosion|Infernal Parade|p1a: narc
+|-crit|p1a: narc
+|-damage|p1a: narc|0 fnt
+|faint|p1a: narc
+|-end|p1a: narc|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685851251
+|switch|p1a: bong water|Walking Wake|48/100
+|turn|16
+|
+|t:|1685851263
+|switch|p2a: Slowking|Slowking-Galar, F|82/100
+|-damage|p2a: Slowking|70/100|[from] Stealth Rock
+|move|p1a: bong water|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|16/100
+|-unboost|p1a: bong water|spa|2
+|
+|upkeep
+|turn|17
+|
+|t:|1685851267
+|-end|p1a: bong water|Protosynthesis|[silent]
+|switch|p1a: plug|Hatterene, F|88/100
+|move|p2a: Slowking|Sludge Bomb|p1a: plug
+|-supereffective|p1a: plug
+|-damage|p1a: plug|0 fnt
+|faint|p1a: plug
+|
+|upkeep
+|
+|t:|1685851276
+|switch|p1a: cloud|Arcanine-Hisui, M|100/100
+|turn|18
+|
+|t:|1685851283
+|move|p1a: cloud|Head Smash|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-damage|p1a: cloud|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685851295
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|60/100
+|-damage|p2a: Typhlosion|35/100|[from] Stealth Rock
+|-item|p1a: cloud|Life Orb|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|turn|19
+|
+|t:|1685851301
+|move|p2a: Typhlosion|Infernal Parade|p1a: cloud
+|-damage|p1a: cloud|33/100
+|move|p1a: cloud|Head Smash|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|-damage|p1a: cloud|23/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685851316
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1685851321
+|move|p2a: Dragapult|Dragon Darts|p1a: cloud
+|-damage|p1a: cloud|0 fnt
+|faint|p1a: cloud
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685851323
+|switch|p1a: bong water|Walking Wake|48/100
+|turn|21
+|
+|t:|1685851341
+|move|p2a: Dragapult|Dragon Darts|p1a: bong water
+|-supereffective|p1a: bong water
+|-damage|p1a: bong water|1/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: bong water
+|-supereffective|p1a: bong water
+|-damage|p1a: bong water|0 fnt
+|faint|p1a: bong water
+|-end|p1a: bong water|Protosynthesis|[silent]
+|
+|win|revamped_087
+|raw|pop cat pop cat's rating: 1280 → 1259(-21 for losing)
+|raw|revamped_087's rating: 1335 → 1352(+17 for winning)
+|l|☆revamped_087

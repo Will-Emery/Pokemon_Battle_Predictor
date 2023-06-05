@@ -1,0 +1,293 @@
+|j|☆kokorikopi
+|j|☆Jorgor well
+|t:|1685853074
+|gametype|singles
+|player|p1|kokorikopi|1|1130
+|player|p2|Jorgor well|waiter-gen4dp|1202
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Garchomp, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Iron Treads|
+|poke|p1|Gholdengo|
+|poke|p1|Dondozo, F|
+|poke|p1|Moltres-Galar|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jorgor well)
+|inactive|Jorgor well has 120 seconds left.
+|
+|t:|1685853125
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|inactive|Jorgor well has 120 seconds left.
+|
+|t:|1685853159
+|move|p2a: Great Tusk|Headlong Rush|p1a: Garchomp
+|-damage|p1a: Garchomp|47/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Great Tusk|71/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|move|p1a: Garchomp|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: Jorgor well|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685853167
+|move|p2a: Great Tusk|Headlong Rush|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|59/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Great Tusk|42/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1685853183
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|3
+|
+|t:|1685853188
+|move|p2a: Great Tusk|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|48/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685853195
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1685853199
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100
+|
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685853203
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|brn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1685853219
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: kokorikopi|Reflect
+|
+|-damage|p1a: Grimmsnarl|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685853226
+|switch|p1a: Gholdengo|Gholdengo|48/100
+|move|p2a: Zapdos|Hurricane|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|25/100
+|-start|p1a: Gholdengo|confusion
+|
+|upkeep
+|turn|8
+|
+|t:|1685853231
+|move|p2a: Zapdos|Heat Wave|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1685853237
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|9
+|
+|t:|1685853264
+|move|p2a: Zapdos|Volt Switch|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|58/100
+|-enditem|p1a: Moltres|Weakness Policy
+|-boost|p1a: Moltres|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Moltres|spa|2|[from] item: Weakness Policy
+|
+|t:|1685853273
+|switch|p2a: Magearna|Magearna|100/100|[from] Volt Switch
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|upkeep
+|turn|10
+|
+|t:|1685853280
+|-terastallize|p1a: Moltres|Ground
+|move|p1a: Moltres|Tera Blast|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|upkeep
+|
+|t:|1685853286
+|switch|p2a: Dragapult|Dragapult, F, shiny|75/100
+|-damage|p2a: Dragapult|63/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1685853292
+|move|p1a: Moltres|Fiery Wrath|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1685853295
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1685853302
+|move|p2a: Urshifu|Surging Strikes|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|19/100
+|-supereffective|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|-hitcount|p1: Moltres|2
+|
+|upkeep
+|
+|t:|1685853314
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdriveatk
+|turn|13
+|
+|t:|1685853322
+|move|p2a: Urshifu|Surging Strikes|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|65/100
+|-supereffective|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|29/100
+|-supereffective|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-hitcount|p1: Iron Treads|3
+|
+|-sideend|p1: kokorikopi|Reflect
+|upkeep
+|
+|t:|1685853330
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|88/100 brn
+|turn|14
+|
+|t:|1685853334
+|-terastallize|p2a: Urshifu|Water
+|move|p2a: Urshifu|Surging Strikes|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|54/100 brn
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|22/100 brn
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-hitcount|p1: Grimmsnarl|3
+|
+|upkeep
+|
+|t:|1685853338
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|turn|15
+|
+|t:|1685853344
+|move|p2a: Urshifu|Surging Strikes|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|93/100
+|-resisted|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|85/100
+|-resisted|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|76/100
+|-hitcount|p1a: Dondozo|3
+|move|p1a: Dondozo|Body Press|p2a: Urshifu
+|-damage|p2a: Urshifu|75/100
+|
+|-heal|p1a: Dondozo|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685853351
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Dondozo|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|93/100
+|-status|p1a: Dondozo|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|-heal|p1a: Dondozo|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685853355
+|move|p2a: Zapdos|Hurricane|p1a: Dondozo
+|-damage|p1a: Dondozo|42/100 par
+|-start|p1a: Dondozo|confusion
+|-activate|p1a: Dondozo|confusion
+|-damage|p1a: Dondozo|34/100 par|[from] confusion
+|
+|-heal|p1a: Dondozo|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|-message|kokorikopi forfeited.
+|
+|win|Jorgor well
+|raw|kokorikopi's rating: 1130 → 1110(-20 for losing)
+|raw|Jorgor well's rating: 1202 → 1222(+20 for winning)
+|l|☆kokorikopi

@@ -1,0 +1,312 @@
+|j|‽IHaveAVPNLockOn
+|j|☆Klavor
+|t:|1685888570
+|gametype|singles
+|player|p1|IHaveAVPNLockOn|266|1637
+|player|p2|Klavor|guitarist|1602
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sneasler, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Iron Treads|
+|poke|p1|Gholdengo|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Moth|
+|poke|p2|Glimmora, F|
+|poke|p2|Magearna|
+|poke|p2|Chien-Pao|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|c|☆Klavor|glhf
+|
+|t:|1685888583
+|start
+|switch|p1a: Iron Treads|Iron Treads, shiny|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IHaveAVPNLockOn)
+|
+|t:|1685888593
+|move|p1a: Iron Treads|Earth Power|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|move|p2a: Glimmora|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: IHaveAVPNLockOn|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685888599
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|3
+|
+|t:|1685888605
+|move|p1a: Iron Treads|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: Klavor|move: Stealth Rock
+|move|p2a: Dragapult|Flamethrower|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685888612
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1685888619
+|switch|p2a: Glimmora|Glimmora, F|1/100
+|-damage|p2a: Glimmora|0 fnt|[from] Stealth Rock
+|faint|p2a: Glimmora
+|move|p1a: Iron Moth|U-turn|p2: Glimmora|[notarget]
+|-fail|p1a: Iron Moth
+|
+|upkeep
+|
+|t:|1685888632
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|95/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1685888635
+|move|p1a: Iron Moth|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|92/100
+|
+|t:|1685888636
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|upkeep
+|turn|6
+|
+|t:|1685888642
+|-terastallize|p2a: Magearna|Electric
+|move|p2a: Magearna|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|20/100
+|-damage|p2a: Magearna|82/100|[from] item: Life Orb
+|move|p1a: Gholdengo|Trick|p2a: Magearna
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Magearna
+|-item|p2a: Magearna|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|7
+|
+|t:|1685888657
+|move|p2a: Magearna|Ice Beam|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|upkeep
+|
+|t:|1685888664
+|switch|p1a: Iron Moth|Iron Moth, shiny|76/100
+|-damage|p1a: Iron Moth|51/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1685888672
+|move|p2a: Magearna|Ice Beam|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|25/100
+|-status|p1a: Iron Moth|frz
+|cant|p1a: Iron Moth|frz
+|
+|upkeep
+|turn|9
+|
+|t:|1685888677
+|move|p2a: Magearna|Ice Beam|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685888682
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|10
+|
+|t:|1685888687
+|move|p2a: Magearna|Ice Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|26/100
+|move|p1a: Zamazenta|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Magearna
+|
+|upkeep
+|
+|t:|1685888695
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|11
+|
+|t:|1685888701
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Iron Valiant|Psyshock|p1a: Rillaboom
+|-damage|p1a: Rillaboom|61/100
+|
+|-heal|p2a: Iron Valiant|100/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|67/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1685888709
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Rillaboom|U-turn|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|56/100
+|
+|t:|1685888711
+|switch|p1a: Zamazenta|Zamazenta|26/100|[from] U-turn
+|-damage|p1a: Zamazenta|20/100|[from] Stealth Rock
+|
+|-heal|p1a: Zamazenta|26/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|62/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1685888717
+|move|p2a: Kingambit|Sucker Punch|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|5/100
+|move|p1a: Zamazenta|Iron Head|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|46/100
+|
+|-heal|p1a: Zamazenta|11/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|52/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1685888720
+|move|p2a: Kingambit|Sucker Punch|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Kingambit|58/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685888722
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|15
+|
+|t:|1685888728
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|-heal|p1a: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|65/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1685888733
+|move|p1a: Sneasler|Fire Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1685888738
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1685888744
+|move|p1a: Sneasler|Acrobatics|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685888748
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|18
+|
+|t:|1685888752
+|move|p2a: Chien-Pao|Ice Shard|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|7/100
+|-damage|p2a: Chien-Pao|66/100|[from] item: Life Orb
+|move|p1a: Sneasler|Close Combat|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Chien-Pao
+|
+|upkeep
+|c|☆Klavor|gg
+|
+|t:|1685888754
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1685888757
+|move|p1a: Sneasler|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|IHaveAVPNLockOn
+|raw|IHaveAVPNLockOn's rating: 1637 → 1655(+18 for winning)
+|raw|Klavor's rating: 1602 → 1584(-18 for losing)

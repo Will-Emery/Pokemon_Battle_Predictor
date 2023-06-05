@@ -1,0 +1,297 @@
+|j|☆Arog4
+|j|☆bin sakura
+|t:|1685895469
+|gametype|singles
+|player|p1|Arog4|bruno|1145
+|player|p2|bin sakura|ingo|1068
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Sandy Shocks|
+|poke|p1|Magearna|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Urshifu-*, M|
+|teampreview
+|
+|t:|1685895478
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|t:|1685895484
+|move|p2a: Glimmora|Earth Power|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|25/100
+|move|p1a: Sandy Shocks|Earth Power|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-heal|p1a: Sandy Shocks|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685895500
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|2
+|
+|t:|1685895506
+|move|p2a: Urshifu|Ice Spinner|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685895512
+|switch|p1a: Magearna|Magearna|100/100
+|turn|3
+|
+|t:|1685895523
+|switch|p2a: Goodra|Goodra-Hisui, F, shiny|100/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Goodra
+|-damage|p2a: Goodra|75/100
+|-unboost|p1a: Magearna|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1685895535
+|move|p1a: Magearna|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|73/100
+|
+|t:|1685895545
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Goodra|Ice Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|
+|upkeep
+|turn|5
+|
+|t:|1685895555
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Great Tusk|Headlong Rush|p2a: Pelipper
+|-immune|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685895564
+|move|p1a: Great Tusk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|69/100
+|-enditem|p2a: Pelipper|Choice Specs|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Pelipper|Hurricane|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685895575
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|7
+|
+|t:|1685895587
+|move|p1a: Zapdos|Hurricane|p2a: Pelipper
+|-damage|p2a: Pelipper|7/100
+|move|p2a: Pelipper|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|98/100
+|
+|t:|1685895599
+|switch|p2a: Ursaluna|Ursaluna, F, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1685895606
+|move|p1a: Zapdos|Hurricane|p2a: Ursaluna
+|-damage|p2a: Ursaluna|59/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Zapdos
+|-damage|p1a: Zapdos|8/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|53/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1685895616
+|move|p1a: Zapdos|Hurricane|p2a: Ursaluna
+|-damage|p2a: Ursaluna|13/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|none
+|-damage|p2a: Ursaluna|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1685895627
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|10
+|
+|t:|1685895638
+|move|p1a: Urshifu|Ice Spinner|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1685895648
+|switch|p2a: Pelipper|Pelipper, M|7/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|11
+|
+|t:|1685895652
+|move|p1a: Urshifu|Ice Spinner|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685895655
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|12
+|
+|t:|1685895662
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Basculegion|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|71/100
+|-unboost|p1a: Magearna|spd|1
+|-damage|p2a: Basculegion|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1685895671
+|move|p2a: Basculegion|Surf|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-damage|p2a: Basculegion|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685895683
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|14
+|
+|t:|1685895690
+|-terastallize|p1a: Urshifu|Water
+|move|p2a: Basculegion|Shadow Ball|p1a: Urshifu
+|-damage|p1a: Urshifu|38/100
+|-damage|p2a: Basculegion|71/100|[from] item: Life Orb
+|move|p1a: Urshifu|Surging Strikes|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|43/100
+|-resisted|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|17/100
+|-resisted|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-hitcount|p2: Basculegion|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685895699
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|15
+|
+|t:|1685895714
+|move|p1a: Urshifu|Surging Strikes|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|82/100
+|-resisted|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|64/100
+|-resisted|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|45/100
+|-hitcount|p2a: Urshifu|3
+|move|p2a: Urshifu|Close Combat|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Urshifu
+|
+|-weather|none
+|upkeep
+|
+|t:|1685895729
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|turn|16
+|
+|t:|1685895736
+|switch|p2a: Goodra|Goodra-Hisui, F, shiny|73/100
+|move|p1a: Typhlosion|Eruption|p2a: Goodra
+|-damage|p2a: Goodra|26/100
+|
+|upkeep
+|turn|17
+|
+|t:|1685895743
+|move|p1a: Typhlosion|Eruption|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1685895746
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|45/100
+|turn|18
+|
+|t:|1685895750
+|-terastallize|p2a: Urshifu|Water
+|move|p2a: Urshifu|Surging Strikes|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-crit|p1a: Typhlosion
+|-damage|p1a: Typhlosion|18/100
+|-supereffective|p1a: Typhlosion
+|-crit|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|-hitcount|p1: Typhlosion|2
+|
+|win|bin sakura
+|raw|Arog4's rating: 1145 → 1115(-30 for losing)
+|raw|bin sakura's rating: 1068 → 1104(+36 for winning)
+|c|☆Arog4|Gg

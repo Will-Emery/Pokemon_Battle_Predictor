@@ -1,0 +1,303 @@
+|j|☆jovanibv
+|j|☆dorupo
+|t:|1685846563
+|gametype|singles
+|player|p1|jovanibv|turo-ai|1172
+|player|p2|dorupo|170|1131
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Magearna|
+|poke|p1|Amoonguss, M|
+|poke|p1|Sneasler, F|
+|poke|p2|Magearna|
+|poke|p2|Dragapult, F|
+|poke|p2|Roaring Moon|
+|poke|p2|Kingambit, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Volcarona, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dorupo)
+|
+|t:|1685846575
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|t:|1685846584
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: dorupo|move: Light Screen
+|move|p1a: Magearna|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|93/100
+|-start|p1a: Magearna|Disable|Volt Switch|[from] ability: Cursed Body|[of] p2a: Dragapult
+|
+|t:|1685846599
+|switch|p1a: Amoonguss|Amoonguss, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1685846610
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: dorupo|Reflect
+|move|p1a: Amoonguss|Spore|p2a: Dragapult
+|-status|p2a: Dragapult|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|t:|1685846619
+|cant|p2a: Dragapult|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|86/100 slp
+|
+|upkeep
+|turn|4
+|
+|t:|1685846624
+|-curestatus|p2a: Dragapult|slp|[msg]
+|move|p2a: Dragapult|Dragon Darts|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|70/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Amoonguss
+|-damage|p1a: Amoonguss|47/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|78/100
+|-status|p2a: Dragapult|psn
+|-start|p1a: Amoonguss|Disable|Sludge Bomb|[from] ability: Cursed Body|[of] p2a: Dragapult
+|
+|-heal|p1a: Amoonguss|54/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|66/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1685846638
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Dragapult|Dragon Darts|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Protect
+|
+|-heal|p1a: Amoonguss|60/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|53/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1685846646
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|-damage|p2a: Dragapult|41/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1685846654
+|move|p2a: Dragapult|Light Screen||[still]
+|-fail|p2a: Dragapult
+|move|p1a: Magearna|Fleur Cannon|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Dragapult
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+|
+|t:|1685846661
+|switch|p2a: ryuko|Volcarona, F|100/100
+|turn|8
+|
+|t:|1685846666
+|switch|p1a: Arcanine|Arcanine-Hisui, M, shiny|100/100
+|move|p2a: ryuko|Fire Blast|p1a: Arcanine|[miss]
+|-miss|p2a: ryuko|p1a: Arcanine
+|
+|-sideend|p2: dorupo|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1685846688
+|move|p2a: ryuko|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|58/100
+|move|p1a: Arcanine|Head Smash|p2a: ryuko
+|-supereffective|p2a: ryuko
+|-damage|p2a: ryuko|0 fnt
+|faint|p2a: ryuko
+|
+|-sideend|p2: dorupo|Reflect
+|upkeep
+|
+|t:|1685846701
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|10
+|
+|t:|1685846710
+|switch|p1a: Amoonguss|Amoonguss, M|93/100
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisspe
+|
+|-heal|p1a: Amoonguss|99/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1685846718
+|move|p2a: Roaring Moon|Acrobatics|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|22/100
+|move|p1a: Amoonguss|Spore|p2a: Roaring Moon
+|-status|p2a: Roaring Moon|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|29/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1685846728
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|switch|p1a: Magearna|Magearna|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1685846735
+|move|p2a: Dragonite|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|34/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|23/100
+|-unboost|p1a: Magearna|spa|2
+|
+|upkeep
+|turn|14
+|
+|t:|1685846745
+|switch|p2a: Roaring Moon|Roaring Moon|100/100 slp
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1685846752
+|cant|p2a: Roaring Moon|slp
+|move|p1a: Cresselia|Lunar Blessing||[still]
+|-fail|p1a: Cresselia
+|
+|upkeep
+|turn|16
+|
+|t:|1685846768
+|-curestatus|p2a: Roaring Moon|slp|[msg]
+|move|p2a: Roaring Moon|Crunch|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|46/100
+|move|p1a: Cresselia|Dazzling Gleam|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|45/100
+|
+|-heal|p1a: Cresselia|53/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685846778
+|switch|p1a: Magearna|Magearna|34/100
+|move|p2a: Roaring Moon|Crunch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|15/100
+|
+|upkeep
+|turn|18
+|
+|t:|1685846785
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Roaring Moon|Acrobatics|p1a: Hoopa
+|-damage|p1a: Hoopa|37/100
+|
+|upkeep
+|turn|19
+|
+|t:|1685846804
+|move|p2a: Roaring Moon|Acrobatics|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|upkeep
+|
+|t:|1685846814
+|switch|p1a: Cresselia|Cresselia, F|53/100
+|turn|20
+|
+|t:|1685846819
+|-terastallize|p1a: Cresselia|Steel
+|move|p2a: Roaring Moon|Crunch|p1a: Cresselia
+|-damage|p1a: Cresselia|25/100
+|-unboost|p1a: Cresselia|def|1
+|move|p1a: Cresselia|Lunar Blessing|p1a: Cresselia
+|-heal|p1a: Cresselia|50/100
+|
+|-heal|p1a: Cresselia|56/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685846847
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: king vamp|Kingambit, F|100/100
+|-activate|p2a: king vamp|ability: Supreme Overlord
+|-start|p2a: king vamp|fallen2|[silent]
+|move|p1a: Cresselia|Dazzling Gleam|p2a: king vamp
+|-damage|p2a: king vamp|85/100
+|
+|-heal|p1a: Cresselia|62/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|jovanibv has 120 seconds left.
+|
+|t:|1685846863
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: king vamp|Iron Head|p1: Cresselia|[notarget]
+|-fail|p2a: king vamp
+|
+|upkeep
+|
+|t:|1685846867
+|switch|p1a: Magearna|Magearna|15/100
+|-heal|p1a: Magearna|100/100|[from] move: Lunar Dance
+|turn|23
+|
+|t:|1685846893
+|move|p1a: Magearna|Aura Sphere|p2a: king vamp
+|-supereffective|p2a: king vamp
+|-damage|p2a: king vamp|0 fnt
+|faint|p2a: king vamp
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: king vamp|fallen2|[silent]
+|
+|upkeep
+|-message|dorupo forfeited.
+|
+|win|jovanibv
+|raw|jovanibv's rating: 1172 → 1194(+22 for winning)
+|raw|dorupo's rating: 1131 → 1109(-22 for losing)
+|l|☆dorupo
