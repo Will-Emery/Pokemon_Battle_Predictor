@@ -1,0 +1,276 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Clodsire, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Mudsdale, M|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: MF GOKU|Urshifu-Rapid-Strike, M|100/100
+|turn|1
+|
+|switch|p2a: Mudsdale2OU|Mudsdale, M|100/100
+|move|p1a: Thundurus|Volt Switch|p2a: Mudsdale2OU
+|-immune|p2a: Mudsdale2OU
+|
+|turn|2
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Mudsdale2OU|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: Ayudame1|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Pelipper|Hurricane|p2a: Mudsdale2OU
+|-damage|p2a: Mudsdale2OU|62/100
+|-start|p2a: Mudsdale2OU|confusion
+|-ability|p2a: Mudsdale2OU|Stamina|boost
+|-boost|p2a: Mudsdale2OU|def|1
+|-activate|p2a: Mudsdale2OU|confusion
+|-damage|p2a: Mudsdale2OU|58/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mudsdale2OU|64/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Pelipper|Surf|p2a: Mudsdale2OU
+|-supereffective|p2a: Mudsdale2OU
+|-crit|p2a: Mudsdale2OU
+|-damage|p2a: Mudsdale2OU|0 fnt
+|faint|p2a: Mudsdale2OU
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: WHEN ITS GONE|Basculegion, M|100/100
+|turn|5
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|move|p2a: WHEN ITS GONE|Phantom Force||[still]
+|-prepare|p2a: WHEN ITS GONE|Phantom Force
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|100/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|-damage|p1a: Overqwil|88/100|[from] Stealth Rock
+|move|p2a: WHEN ITS GONE|Phantom Force|p1a: Overqwil|[from]lockedmove
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|48/100
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Overqwil|Crunch|p2a: WHEN ITS GONE
+|-supereffective|p2a: WHEN ITS GONE
+|-damage|p2a: WHEN ITS GONE|0 fnt
+|faint|p2a: WHEN ITS GONE
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: MF GOKU|Urshifu-Rapid-Strike, M|100/100
+|turn|8
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|move|p2a: MF GOKU|Close Combat|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|61/100
+|-unboost|p2a: MF GOKU|def|1
+|-unboost|p2a: MF GOKU|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|68/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|-weather|none
+|turn|10
+|
+|move|p2a: Corviknight|U-turn|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|93/100
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Clodsire|Chilling Water|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|90/100
+|-unboost|p2a: Chien-Pao|atk|1
+|
+|-heal|p1a: Clodsire|99/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Overqwil|Overqwil, M|48/100
+|-damage|p1a: Overqwil|36/100|[from] Stealth Rock
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|-damage|p2a: Chien-Pao|80/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|12
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Corviknight
+|-damage|p1a: Corviknight|59/100
+|-damage|p2a: Chien-Pao|70/100|[from] item: Life Orb
+|move|p1a: Corviknight|U-turn|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|27/100
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100|[from] U-turn
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Pelipper|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|99/100
+|-damage|p1a: Pelipper|59/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p1a: Thundurus|Thunder|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|turn|15
+|
+|switch|p1a: Clodsire|Clodsire, F|99/100
+|-damage|p1a: Clodsire|93/100|[from] Stealth Rock
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: moope|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|99/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Pelipper|U-turn|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|95/100
+|
+|switch|p2a: Chien-Pao|Chien-Pao|27/100|[from] U-turn
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Clodsire|Chilling Water|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|13/100
+|-unboost|p2a: Chien-Pao|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|100/100|[from] item: Leftovers
+|turn|17
+|
+|-terastallize|p1a: Clodsire|Poison
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Clodsire
+|-damage|p1a: Clodsire|46/100
+|-damage|p2a: Chien-Pao|3/100|[from] item: Life Orb
+|cant|p1a: Clodsire|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|52/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|-damage|p2a: Chien-Pao|0 fnt|[from] item: Life Orb
+|faint|p2a: Chien-Pao
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: moope|move: Tailwind
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|switch|p1a: Thundurus|Thundurus-Therian, M|76/100
+|-damage|p1a: Thundurus|51/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Thundurus|Thunder|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|none
+|
+|switch|p2a: MF GOKU|Urshifu-Rapid-Strike, M|100/100
+|turn|20
+|
+|-terastallize|p2a: MF GOKU|Electric
+|move|p1a: Thundurus|Thunder|p2a: MF GOKU
+|-resisted|p2a: MF GOKU
+|-damage|p2a: MF GOKU|53/100
+|move|p2a: MF GOKU|Surging Strikes|p1a: Thundurus
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|19/100
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|-hitcount|p1: Thundurus|2
+|
+|
+|switch|p1a: Pelipper|Pelipper, M|59/100
+|-damage|p1a: Pelipper|35/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|21
+|
+|move|p2a: MF GOKU|Thunder Punch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Basculegion|Aqua Jet|p2a: MF GOKU
+|-damage|p2a: MF GOKU|8/100
+|move|p2a: MF GOKU|Thunder Punch|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Corviknight|Corviknight, M|59/100
+|-damage|p1a: Corviknight|46/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|23
+|
+|move|p2a: MF GOKU|Thunder Punch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: MF GOKU|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|faint|p2a: MF GOKU
+|
+|win|moope

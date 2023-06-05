@@ -1,0 +1,90 @@
+|poke|p1|Electrode-Hisui|
+|poke|p1|Regidrago|
+|poke|p1|Heatran, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Magearna|
+|poke|p2|Pelipper, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Walking Wake|
+|poke|p2|Sawsbuck-Autumn, F|
+|teampreview
+|
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Electrode|Volt Switch|p2a: Torkoal
+|-damage|p2a: Torkoal|63/100
+|
+|switch|p1a: Heatran|Heatran, F|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p1a: Heatran|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Pelipper|Hydro Pump|p1a: Toxapex|[miss]
+|-miss|p2a: Pelipper|p1a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p2a: Sawsbuck|Sawsbuck-Autumn, F|100/100
+|move|p1a: Toxapex|Infestation|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|91/100
+|-activate|p2a: Sawsbuck|move: Infestation|[of] p1a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Sawsbuck|79/100|[from] move: Infestation|[partiallytrapped]
+|turn|5
+|
+|move|p2a: Sawsbuck|Swords Dance|p2a: Sawsbuck
+|-boost|p2a: Sawsbuck|atk|2
+|move|p1a: Toxapex|Venoshock|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|39/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Sawsbuck|27/100|[from] move: Infestation|[partiallytrapped]
+|turn|6
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Sawsbuck|Stomping Tantrum|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-damage|p2a: Sawsbuck|17/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Sawsbuck|Infestation|[partiallytrapped]|[silent]
+|
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|turn|7
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|move|p1a: Electrode|Volt Switch|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-message|misterdoctoryuh forfeited.
+|
+|win|Sammyjtb

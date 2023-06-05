@@ -1,0 +1,238 @@
+|poke|p1|Volcanion|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Floatzel, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Scizor, M|
+|poke|p2|Donphan, F|
+|poke|p2|Houndstone, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Jolteon, F|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: Thundurus|Thunder|p2a: Jolteon
+|-immune|p2a: Jolteon|[from] ability: Volt Absorb
+|
+|turn|2
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Jolteon|Calm Mind|p2a: Jolteon
+|-boost|p2a: Jolteon|spa|1
+|-boost|p2a: Jolteon|spd|1
+|
+|turn|3
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Hatterene
+|-damage|p1a: Hatterene|27/100
+|-enditem|p1a: Hatterene|Eject Button
+|-damage|p2a: Jolteon|91/100|[from] item: Life Orb
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|
+|turn|4
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Scizor
+|-damage|p1a: Scizor|9/100
+|-damage|p2a: Jolteon|81/100|[from] item: Life Orb
+|move|p1a: Scizor|Close Combat|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|faint|p2a: Jolteon
+|
+|-heal|p1a: Scizor|15/100|[from] item: Leftovers
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|5
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|6
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Pelipper
+|-damage|p1a: Pelipper|63/100
+|-sidestart|p1: Puvero|Spikes
+|move|p1a: Pelipper|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|82/100
+|
+|switch|p1a: Volcanion|Volcanion|100/100|[from] U-turn
+|-damage|p1a: Volcanion|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Samurott|88/100|[from] item: Leftovers
+|-heal|p1a: Volcanion|94/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Volcanion
+|-damage|p1a: Volcanion|57/100
+|-sidestart|p1: Puvero|Spikes
+|move|p1a: Volcanion|Steam Eruption|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|23/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Samurott|30/100|[from] item: Leftovers
+|-heal|p1a: Volcanion|63/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Volcanion
+|-damage|p1a: Volcanion|22/100
+|-sidestart|p1: Puvero|Spikes
+|move|p1a: Volcanion|Steam Eruption|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcanion|28/100|[from] item: Leftovers
+|
+|switch|p2a: Houndstone|Houndstone, F|100/100
+|turn|9
+|
+|move|p2a: Houndstone|Shadow Sneak|p1a: Volcanion
+|-damage|p1a: Volcanion|13/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Houndstone
+|-damage|p2a: Houndstone|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcanion|19/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Houndstone|Shadow Sneak|p1a: Volcanion
+|-damage|p1a: Volcanion|2/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Houndstone|[miss]
+|-miss|p1a: Volcanion|p2a: Houndstone
+|
+|-weather|none
+|-heal|p1a: Volcanion|8/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Houndstone|Shadow Sneak|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|
+|switch|p1a: Pelipper|Pelipper, M|63/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|12
+|
+|move|p2a: Houndstone|Shadow Sneak|p1a: Pelipper
+|-damage|p1a: Pelipper|47/100
+|move|p1a: Pelipper|Hurricane|p2a: Houndstone
+|-damage|p2a: Houndstone|13/100
+|-start|p2a: Houndstone|confusion
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|-activate|p2a: Houndstone|confusion
+|move|p2a: Houndstone|Crunch|p1a: Pelipper
+|-damage|p1a: Pelipper|26/100
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|76/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|-activate|p2a: Houndstone|confusion
+|-damage|p2a: Houndstone|1/100|[from] confusion
+|move|p1a: Pelipper|Hurricane|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|15
+|
+|-terastallize|p1a: Pelipper|Ground
+|move|p2a: Kleavor|Stone Axe|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|60/100
+|-sidestart|p1: Puvero|move: Stealth Rock
+|move|p1a: Pelipper|Hydro Pump|p2a: Kleavor|[miss]
+|-miss|p1a: Pelipper|p2a: Kleavor
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p2a: Kleavor|X-Scissor|p1a: Pelipper
+|-damage|p1a: Pelipper|19/100
+|move|p1a: Pelipper|Hydro Pump|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|-weather|none
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|17
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|
+|switch|p1a: Floatzel|Floatzel, M|100/100
+|-damage|p1a: Floatzel|76/100|[from] Spikes
+|-damage|p1a: Floatzel|64/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Floatzel
+|-resisted|p1a: Floatzel
+|-damage|p1a: Floatzel|18/100
+|move|p1a: Floatzel|Wave Crash|p2a: Scizor
+|-damage|p2a: Scizor|12/100
+|-damage|p1a: Floatzel|0 fnt|[from] Recoil
+|faint|p1a: Floatzel
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Donphan|Donphan, F|100/100
+|move|p1a: Thundurus|Grass Knot|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-ability|p2a: Donphan|Sturdy
+|-damage|p2a: Donphan|1/100
+|
+|-heal|p2a: Donphan|7/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Donphan|Ice Shard|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|34/100
+|move|p1a: Thundurus|Grass Knot|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-crit|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|
+|switch|p2a: Scizor|Scizor, F|12/100
+|turn|21
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-message|Puvero forfeited.
+|
+|win|Basikone

@@ -1,0 +1,62 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Magearna|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Uxie|
+|poke|p1|Avalugg-Hisui, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Zapdos|
+|poke|p2|Urshifu-*, M|
+|teampreview
+|
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Uxie
+|-start|p1a: Uxie|move: Taunt
+|-enditem|p1a: Uxie|Mental Herb
+|-end|p1a: Uxie|move: Taunt
+|move|p1a: Uxie|Trick Room|p1a: Uxie
+|-fieldstart|move: Trick Room|[of] p1a: Uxie
+|
+|turn|2
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: ygfr45|move: Light Screen
+|
+|turn|3
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1a: Ursaluna|spa|1
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from] Parting Shot
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|4
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Urshifu|Aqua Jet|p1a: Slowking
+|-damage|p1a: Slowking|79/100
+|
+|turn|5
+|
+|move|p1a: Slowking|Psychic|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|40/100
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|
+|-fieldend|move: Trick Room
+|turn|6
+|player|p1|
+|-message|Zephyyyr lost due to inactivity.
+|
+|win|ygfr45

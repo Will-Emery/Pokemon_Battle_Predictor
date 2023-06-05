@@ -1,0 +1,343 @@
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Magearna|
+|poke|p1|Clodsire, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Scizor, M|
+|poke|p2|Espeon, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Hoops|Hoopa-Unbound|100/100
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|1
+|
+|move|p2a: Sneasler|U-turn|p1a: Hoops
+|-supereffective|p1a: Hoops
+|-damage|p1a: Hoops|0 fnt
+|faint|p1a: Hoops
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100|[from] U-turn
+|
+|
+|switch|p1a: Monument|Corviknight, M, shiny|100/100
+|-ability|p1a: Monument|Pressure
+|turn|2
+|
+|move|p2a: Baxcalibur|Flamethrower|p1a: Monument
+|-supereffective|p1a: Monument
+|-damage|p1a: Monument|32/100
+|move|p1a: Monument|Body Press|p2a: Baxcalibur
+|-immune|p2a: Baxcalibur
+|
+|turn|3
+|
+|switch|p1a: Mud Puppy|Clodsire, F|100/100
+|move|p2a: Baxcalibur|Flamethrower|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|81/100
+|
+|-heal|p1a: Mud Puppy|87/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Mud Puppy|Stealth Rock|p2a: Scizor
+|-sidestart|p2: Tu oponente|move: Stealth Rock
+|
+|-heal|p1a: Mud Puppy|94/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Mous|Landorus-Therian, M|100/100
+|-ability|p1a: Mous|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Defog|p1a: Mous
+|-unboost|p1a: Mous|evasion|1
+|-sideend|p2: Tu oponente|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|
+|turn|6
+|
+|move|p1a: Mous|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|87/100
+|
+|switch|p1a: Mud Puppy|Clodsire, F|94/100|[from] U-turn
+|move|p2a: Scizor|U-turn|p1a: Mud Puppy
+|-resisted|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|66/100
+|-damage|p2a: Scizor|77/100|[from] item: Life Orb
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100|[from] U-turn
+|
+|-heal|p1a: Mud Puppy|72/100|[from] item: Leftovers
+|turn|7
+|
+|-terastallize|p1a: Mud Puppy|Steel
+|move|p2a: Baxcalibur|Icicle Spear|p1a: Mud Puppy
+|-resisted|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|65/100
+|-resisted|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|58/100
+|-resisted|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|50/100
+|-resisted|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|42/100
+|-hitcount|p1a: Mud Puppy|4
+|move|p1a: Mud Puppy|Earthquake|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|74/100
+|
+|-heal|p1a: Mud Puppy|48/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Mud Puppy|Recover|p1a: Mud Puppy
+|-heal|p1a: Mud Puppy|98/100
+|
+|-heal|p1a: Mud Puppy|100/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Rotom|Volt Switch|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|75/100
+|
+|switch|p2a: Espeon|Espeon, F, shiny|100/100|[from] Volt Switch
+|move|p1a: Mud Puppy|Toxic|p2a: Espeon
+|move|p2a: Espeon|Toxic|p1a: Mud Puppy|[from]ability: Magic Bounce
+|-immune|p1a: Mud Puppy
+|
+|-heal|p1a: Mud Puppy|81/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Espeon|Yawn|p1a: Mud Puppy
+|-start|p1a: Mud Puppy|move: Yawn|[of] p2a: Espeon
+|move|p1a: Mud Puppy|Earthquake|p2a: Espeon
+|-damage|p2a: Espeon|52/100
+|
+|-heal|p1a: Mud Puppy|88/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|switch|p1a: Monument|Corviknight, M, shiny|32/100
+|-ability|p1a: Monument|Pressure
+|
+|turn|12
+|
+|move|p2a: Sneasler|Shadow Claw|p1a: Monument
+|-crit|p1a: Monument
+|-damage|p1a: Monument|0 fnt
+|-damage|p2a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1a: Monument
+|faint|p1a: Monument
+|
+|
+|switch|p1a: Pokeball|Magearna|100/100
+|turn|13
+|
+|switch|p2a: Scizor|Scizor, M|77/100
+|move|p1a: Pokeball|Calm Mind|p1a: Pokeball
+|-boost|p1a: Pokeball|spa|1
+|-boost|p1a: Pokeball|spd|1
+|
+|turn|14
+|
+|move|p1a: Pokeball|Shift Gear|p1a: Pokeball
+|-boost|p1a: Pokeball|spe|2
+|-boost|p1a: Pokeball|atk|1
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|turn|15
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Pokeball
+|-damage|p1a: Pokeball|43/100
+|-damage|p2a: Scizor|67/100|[from] item: Life Orb
+|move|p1a: Pokeball|Stored Power|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|35/100
+|
+|-heal|p1a: Pokeball|49/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: Mud Puppy|Clodsire, F, tera:Steel|88/100
+|move|p2a: Scizor|Bullet Punch|p1a: Mud Puppy
+|-resisted|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|64/100
+|-damage|p2a: Scizor|25/100|[from] item: Life Orb
+|
+|-heal|p1a: Mud Puppy|70/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Scizor|U-turn|p1a: Mud Puppy
+|-resisted|p1a: Mud Puppy
+|-crit|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|25/100
+|-damage|p2a: Scizor|15/100|[from] item: Life Orb
+|
+|switch|p2a: Espeon|Espeon, F, shiny|52/100|[from] U-turn
+|move|p1a: Mud Puppy|Earthquake|p2a: Espeon
+|-damage|p2a: Espeon|3/100
+|
+|-heal|p1a: Mud Puppy|31/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|15/100
+|move|p1a: Mud Puppy|Recover|p1a: Mud Puppy
+|-heal|p1a: Mud Puppy|65/100
+|
+|-heal|p1a: Mud Puppy|71/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Mud Puppy|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: Mud Puppy|77/100|[from] item: Leftovers
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|turn|20
+|
+|move|p2a: Rotom|Volt Switch|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|52/100
+|
+|switch|p2a: Espeon|Espeon, F, shiny|3/100|[from] Volt Switch
+|move|p1a: Mud Puppy|Earthquake|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|-heal|p1a: Mud Puppy|58/100|[from] item: Leftovers
+|
+|switch|p2a: Sneasler|Sneasler, M|84/100
+|turn|21
+|
+|switch|p1a: Mous|Landorus-Therian, M|100/100
+|-ability|p1a: Mous|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|move|p2a: Sneasler|Shadow Claw|p1a: Mous
+|-damage|p1a: Mous|67/100
+|
+|turn|22
+|
+|switch|p2a: Rotom|Rotom-Wash|94/100 tox
+|move|p1a: Mous|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|64/100 tox
+|
+|switch|p1a: Pokeball|Magearna|49/100|[from] U-turn
+|
+|-heal|p1a: Pokeball|55/100|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 tox|[from] psn
+|turn|23
+|
+|move|p1a: Pokeball|Shift Gear|p1a: Pokeball
+|-boost|p1a: Pokeball|spe|2
+|-boost|p1a: Pokeball|atk|1
+|move|p2a: Rotom|Trick|p1a: Pokeball
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Pokeball
+|-item|p1a: Pokeball|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Rotom|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|51/100 tox|[from] psn
+|turn|24
+|
+|move|p1a: Pokeball|Draining Kiss|p2a: Rotom
+|-damage|p2a: Rotom|19/100 tox
+|-heal|p1a: Pokeball|75/100|[from] drain|[of] p2a: Rotom
+|move|p2a: Rotom|Hydro Pump|p1a: Pokeball
+|-damage|p1a: Pokeball|33/100
+|
+|-heal|p2a: Rotom|25/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|7/100 tox|[from] psn
+|turn|25
+|
+|move|p1a: Pokeball|Draining Kiss|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Pokeball|37/100|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|-ability|p1a: Pokeball|Soul-Heart|boost
+|-boost|p1a: Pokeball|spa|1
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|26
+|
+|move|p1a: Pokeball|Draining Kiss|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|-heal|p1a: Pokeball|89/100|[from] drain|[of] p2a: Sneasler
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|move|p2a: Zoroark|Flamethrower|p1a: Pokeball
+|-supereffective|p1a: Pokeball
+|-damage|p1a: Pokeball|29/100
+|
+|turn|27
+|
+|move|p1a: Pokeball|Draining Kiss|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|-heal|p1a: Pokeball|30/100|[from] drain|[of] p2a: Zoroark
+|faint|p2a: Zoroark
+|-ability|p1a: Pokeball|Soul-Heart|boost
+|-boost|p1a: Pokeball|spa|1
+|
+|
+|switch|p2a: Scizor|Scizor, M|15/100
+|turn|28
+|
+|switch|p1a: Mud Puppy|Clodsire, F, tera:Steel|58/100
+|move|p2a: Scizor|Bullet Punch|p1a: Mud Puppy
+|-resisted|p1a: Mud Puppy
+|-crit|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|20/100
+|-damage|p2a: Scizor|5/100|[from] item: Life Orb
+|
+|-heal|p1a: Mud Puppy|26/100|[from] item: Leftovers
+|turn|29
+|
+|-terastallize|p2a: Scizor|Bug
+|move|p2a: Scizor|U-turn|p1a: Mud Puppy
+|-resisted|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|0 fnt
+|faint|p1a: Mud Puppy
+|-damage|p2a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p2a: Scizor
+|
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|74/100
+|switch|p1a: Mous|Landorus-Therian, M|67/100
+|-ability|p1a: Mous|Intimidate|boost
+|-unboost|p2a: Baxcalibur|atk|1
+|turn|30
+|
+|move|p1a: Mous|Stone Edge|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|2/100
+|move|p2a: Baxcalibur|Icicle Spear|p1a: Mous
+|-supereffective|p1a: Mous
+|-damage|p1a: Mous|16/100
+|-supereffective|p1a: Mous
+|-damage|p1a: Mous|0 fnt
+|faint|p1a: Mous
+|-hitcount|p1: Mous|2
+|
+|
+|switch|p1a: Chien-Chien|Chien-Pao|100/100
+|-ability|p1a: Chien-Chien|Sword of Ruin
+|turn|31
+|
+|move|p2a: Baxcalibur|Ice Shard|p1a: Chien-Chien
+|-resisted|p1a: Chien-Chien
+|-damage|p1a: Chien-Chien|92/100
+|move|p1a: Chien-Chien|Icicle Crash|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|84/100
+|turn|32
+|
+|move|p1a: Chien-Chien|Icicle Crash|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|win|Dangle Finangler

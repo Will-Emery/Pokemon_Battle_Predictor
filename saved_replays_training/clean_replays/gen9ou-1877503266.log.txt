@@ -1,0 +1,236 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Garchomp, M|
+|poke|p1|Heatran, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Toxapex, M|
+|poke|p1|Zapdos|
+|poke|p2|Breloom, M|
+|poke|p2|Heatran, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Azelf|
+|poke|p2|Volcanion|
+|poke|p2|Azumarill, M|
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|1
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Breloom|[miss]
+|-miss|p1a: Garchomp|p2a: Breloom
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-start|p2a: Breloom|Substitute
+|-damage|p2a: Breloom|75/100
+|
+|turn|2
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-end|p2a: Breloom|Substitute
+|move|p2a: Breloom|Bullet Seed|p1a: Garchomp
+|-damage|p1a: Garchomp|72/100
+|-damage|p1a: Garchomp|44/100
+|-hitcount|p1a: Garchomp|2
+|-damage|p2a: Breloom|66/100|[from] item: Life Orb
+|
+|turn|3
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Garchomp|Fire Blast|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|turn|4
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|
+|turn|5
+|
+|move|p1a: Zapdos|Heat Wave|p2a: Landorus
+|-damage|p2a: Landorus|61/100
+|move|p2a: Landorus|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|6/100
+|
+|-heal|p2a: Landorus|67/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Garchomp|Garchomp, M|44/100
+|move|p2a: Landorus|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|16/100
+|-damage|p2a: Landorus|54/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|switch|p2a: Breloom|Breloom, M|66/100|[from] U-turn
+|
+|turn|7
+|
+|move|p2a: Breloom|Mach Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Breloom|53/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|-damage|p2a: Breloom|43/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Zapdos|Zapdos|6/100
+|turn|8
+|
+|move|p2a: Breloom|Mach Punch|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Breloom|34/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|10
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Azumarill|Play Rough|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|77/100
+|
+|turn|11
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Toxapex|Infestation|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|99/100
+|-activate|p2a: Heatran|move: Infestation|[of] p1a: Toxapex
+|-damage|p1a: Toxapex|60/100|[from] item: Rocky Helmet|[of] p2a: Heatran
+|
+|-damage|p2a: Heatran|87/100|[from] move: Infestation|[partiallytrapped]
+|turn|12
+|
+|move|p2a: Heatran|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|25/100
+|move|p1a: Toxapex|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|35/100
+|
+|-damage|p2a: Heatran|23/100|[from] move: Infestation|[partiallytrapped]
+|turn|13
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Heatran|Earth Power|p1a: Zamazenta
+|-damage|p1a: Zamazenta|72/100
+|
+|-heal|p1a: Zamazenta|78/100|[from] item: Leftovers
+|-end|p2a: Heatran|Infestation|[partiallytrapped]|[silent]
+|turn|14
+|
+|switch|p2a: Landorus|Landorus-Therian, M|54/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|84/100|[from] item: Leftovers
+|-heal|p2a: Landorus|60/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|59/100
+|move|p2a: Landorus|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100|[from] U-turn
+|
+|-heal|p1a: Zamazenta|65/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Zamazenta|Body Press|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|67/100
+|move|p2a: Azumarill|Play Rough|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|71/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Azumarill|Play Rough|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|46/100
+|
+|-heal|p1a: Zamazenta|52/100|[from] item: Leftovers
+|turn|18
+|
+|-terastallize|p1a: Zamazenta|Fighting
+|move|p1a: Zamazenta|Body Press|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|4/100
+|move|p2a: Azumarill|Play Rough|p1a: Zamazenta|[miss]
+|-miss|p2a: Azumarill|p1a: Zamazenta
+|
+|-heal|p1a: Zamazenta|58/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Zamazenta|Body Press|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-heal|p1a: Zamazenta|64/100|[from] item: Leftovers
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|20
+|
+|move|p1a: Zamazenta|Body Press|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-heal|p1a: Zamazenta|70/100|[from] item: Leftovers
+|
+|switch|p2a: Landorus|Landorus-Therian, M|60/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|turn|21
+|
+|move|p1a: Zamazenta|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Zamazenta|76/100|[from] item: Leftovers
+|
+|switch|p2a: Azelf|Azelf|100/100
+|turn|22
+|
+|move|p1a: Zamazenta|Body Press|p2a: Azelf
+|-resisted|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|
+|switch|p2a: Heatran|Heatran, M|23/100
+|turn|23
+|
+|move|p1a: Zamazenta|Body Press|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-damage|p1a: Zamazenta|65/100|[from] item: Rocky Helmet|[of] p2a: Heatran
+|faint|p2a: Heatran
+|
+|win|KeevX2

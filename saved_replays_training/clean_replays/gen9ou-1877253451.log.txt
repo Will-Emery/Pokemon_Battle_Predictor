@@ -1,0 +1,303 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Heatran, F|
+|poke|p1|Great Tusk|
+|poke|p1|Enamorus, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|1
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-item|p2a: Hatterene|Air Balloon
+|move|p1a: Enamorus|Earth Power|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|turn|2
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Hatterene|Nuzzle|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|99/100
+|-status|p1a: Amoonguss|par
+|-damage|p2a: Hatterene|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|turn|3
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Torkoal
+|-damage|p2a: Torkoal|76/100
+|-status|p2a: Torkoal|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|63/100 psn|[from] psn
+|turn|4
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|switch|p1a: Heatran|Heatran, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Walking Wake|Hydro Steam|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100 par
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|39/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|8
+|
+|move|p1a: Sneasler|Fake Out|p2a: Walking Wake
+|-damage|p2a: Walking Wake|86/100
+|cant|p2a: Walking Wake|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|10
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Sneasler|Fake Out|p2a: Great Tusk
+|-damage|p2a: Great Tusk|95/100
+|
+|-weather|none
+|-end|p2a: Great Tusk|Protosynthesis
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Sneasler|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|95/100
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|move|p2a: Great Tusk|Earthquake|p1a: Enamorus
+|-immune|p1a: Enamorus
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|12
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p1a: Enamorus|Moonblast|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|57/100
+|
+|turn|13
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|64/100
+|-damage|p2a: Arcanine|47/100|[from] item: Life Orb
+|
+|-heal|p1a: Great Tusk|70/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|35/100
+|-damage|p2a: Arcanine|37/100|[from] item: Life Orb
+|move|p1a: Great Tusk|Stealth Rock|p2a: Arcanine
+|-sidestart|p2: SweatyRon|move: Stealth Rock
+|
+|-heal|p1a: Great Tusk|41/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|6/100
+|-status|p1a: Great Tusk|brn
+|-damage|p2a: Arcanine|27/100|[from] item: Life Orb
+|move|p1a: Great Tusk|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-heal|p1a: Great Tusk|12/100 brn|[from] item: Leftovers
+|-damage|p1a: Great Tusk|6/100 brn|[from] brn
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|86/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: SweatyRon|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Great Tusk|93/100|[from] item: Leftovers
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|17
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|84/100
+|-item|p2a: Hatterene|Air Balloon
+|move|p1a: Enamorus|Moonblast|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-enditem|p2a: Hatterene|Air Balloon
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Torkoal|Torkoal, M|63/100 psn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|18
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|move|p2a: Torkoal|Yawn|p1a: Sneasler
+|-start|p1a: Sneasler|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|51/100 psn|[from] psn
+|turn|19
+|
+|move|p1a: Sneasler|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|42/100 psn
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|move|p2a: Torkoal|Stealth Rock|p1a: Enamorus
+|-sidestart|p1: Shiestysnorlax|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|30/100 psn|[from] psn
+|turn|20
+|
+|switch|p2a: Great Tusk|Great Tusk|93/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Enamorus|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake, tera:Water|86/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|21
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|turn|22
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|66/100
+|-sidestart|p2: SweatyRon|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|turn|23
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|move|p2a: Lilligant|Leaf Blade|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|49/100
+|-damage|p2a: Lilligant|56/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|turn|24
+|
+|move|p1a: Sneasler|Fake Out|p2a: Lilligant
+|-damage|p2a: Lilligant|33/100
+|-status|p2a: Lilligant|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|cant|p2a: Lilligant|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lilligant|21/100 psn|[from] psn
+|turn|25
+|
+|move|p2a: Lilligant|Close Combat|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|faint|p1a: Sneasler
+|-damage|p2a: Lilligant|11/100 psn|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p2a: Lilligant|0 fnt|[from] psn
+|faint|p2a: Lilligant
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|88/100
+|switch|p2a: Torkoal|Torkoal, M|30/100 psn
+|-damage|p1a: Samurott|76/100|[from] Stealth Rock
+|-damage|p2a: Torkoal|18/100 psn|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|26
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-sidestart|p2: SweatyRon|Spikes
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake, tera:Water|86/100
+|-damage|p2a: Walking Wake|69/100|[from] Spikes
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|27
+|
+|-terastallize|p1a: Samurott|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|win|SweatyRon

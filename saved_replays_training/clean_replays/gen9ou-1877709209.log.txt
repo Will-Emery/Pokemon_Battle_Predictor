@@ -1,0 +1,196 @@
+|poke|p1|Uxie|
+|poke|p1|Ursaluna, M|
+|poke|p1|Kleavor, M|
+|poke|p1|Heatran, M|
+|poke|p1|Mew|
+|poke|p1|Volcanion|
+|poke|p2|Sneasler, F|
+|poke|p2|Klefki, M|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Blissey, F|
+|poke|p2|Avalugg-Hisui, F|
+|poke|p2|Pincurchin, F|
+|teampreview
+|
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: magearna killa|Avalugg-Hisui, F|100/100
+|turn|1
+|
+|move|p2a: magearna killa|Avalanche|p1a: Uxie
+|-damage|p1a: Uxie|73/100
+|move|p1a: Uxie|Trick Room|p1a: Uxie
+|-fieldstart|move: Trick Room|[of] p1a: Uxie
+|
+|-heal|p1a: Uxie|79/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Uxie|U-turn|p2a: magearna killa
+|-damage|p2a: magearna killa|94/100
+|
+|switch|p1a: Volcanion|Volcanion|100/100|[from] U-turn
+|move|p2a: magearna killa|Mirror Coat||[still]
+|-fail|p2a: magearna killa
+|
+|turn|3
+|
+|-terastallize|p1a: Volcanion|Water
+|move|p2a: magearna killa|Body Press|p1a: Volcanion
+|-damage|p1a: Volcanion|76/100
+|move|p1a: Volcanion|Steam Eruption|p2a: magearna killa
+|-supereffective|p2a: magearna killa
+|-damage|p2a: magearna killa|0 fnt
+|faint|p2a: magearna killa
+|
+|
+|switch|p2a: jumping cushion|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: jumping cushion
+|turn|4
+|
+|move|p2a: jumping cushion|Zing Zap|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|1/100
+|move|p1a: Volcanion|Steam Eruption|p2a: jumping cushion
+|-damage|p2a: jumping cushion|0 fnt
+|faint|p2a: jumping cushion
+|
+|
+|switch|p2a: BIissey|Blissey, F|100/100
+|turn|5
+|
+|move|p2a: BIissey|Trick|p1a: Volcanion
+|-activate|p2a: BIissey|move: Trick|[of] p1a: Volcanion
+|-item|p1a: Volcanion|Choice Band|[from] move: Trick
+|-item|p2a: BIissey|Choice Specs|[from] move: Trick
+|move|p1a: Volcanion|Steam Eruption|p2a: BIissey
+|-damage|p2a: BIissey|72/100
+|
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|move|p2a: BIissey|Soft-Boiled|p2a: BIissey
+|-heal|p2a: BIissey|100/100
+|
+|turn|7
+|
+|switch|p2a: tricken chicken|Decidueye-Hisui, M, shiny|100/100
+|move|p1a: Kleavor|Close Combat|p2a: tricken chicken
+|-damage|p2a: tricken chicken|50/100
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|
+|-heal|p2a: tricken chicken|56/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Kleavor|X-Scissor|p2a: tricken chicken
+|-damage|p2a: tricken chicken|0 fnt
+|faint|p2a: tricken chicken
+|
+|-fieldend|move: Electric Terrain
+|
+|switch|p2a: mangina|Klefki, M|100/100
+|turn|9
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: mangina|Thunder Wave|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|10
+|
+|switch|p2a: BIissey|Blissey, F|100/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: BIissey
+|-damage|p2a: BIissey|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: BIissey
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p2a: Sneaslucha|Sneasler, F|100/100
+|turn|11
+|
+|-terastallize|p2a: Sneaslucha|Flying
+|move|p2a: Sneaslucha|Swords Dance|p2a: Sneaslucha
+|-boost|p2a: Sneaslucha|atk|2
+|move|p1a: Ursaluna|Headlong Rush|p2a: Sneaslucha
+|-immune|p2a: Sneaslucha
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|turn|12
+|
+|switch|p1a: Volcanion|Volcanion, tera:Water|1/100
+|move|p2a: Sneaslucha|Close Combat|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|-unboost|p2a: Sneaslucha|def|1
+|-unboost|p2a: Sneaslucha|spd|1
+|-enditem|p2a: Sneaslucha|White Herb
+|-clearnegativeboost|p2a: Sneaslucha|[silent]
+|faint|p1a: Volcanion
+|
+|
+|switch|p1a: Uxie|Uxie|79/100
+|turn|13
+|
+|move|p2a: Sneaslucha|Acrobatics|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|
+|switch|p1a: Mew|Mew|100/100
+|turn|14
+|
+|move|p2a: Sneaslucha|Substitute|p2a: Sneaslucha
+|-start|p2a: Sneaslucha|Substitute
+|-damage|p2a: Sneaslucha|76/100
+|move|p1a: Mew|Trick Room|p1a: Mew
+|-fieldstart|move: Trick Room|[of] p1a: Mew
+|
+|turn|15
+|
+|move|p1a: Mew|Encore|p2a: Sneaslucha
+|-start|p2a: Sneaslucha|Encore
+|move|p2a: Sneaslucha|Substitute|p2a: Sneaslucha
+|-fail|p2a: Sneaslucha|move: Substitute
+|
+|turn|16
+|
+|move|p1a: Mew|U-turn|p2a: Sneaslucha
+|-resisted|p2a: Sneaslucha
+|-activate|p2a: Sneaslucha|move: Substitute|[damage]
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100|[from] U-turn
+|move|p2a: Sneaslucha|Substitute|p2a: Sneaslucha
+|-fail|p2a: Sneaslucha|move: Substitute
+|
+|turn|17
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Sneaslucha
+|-supereffective|p2a: Sneaslucha
+|-end|p2a: Sneaslucha|Substitute
+|-sidestart|p2: Rap's my Fave Meme|move: Stealth Rock
+|move|p2a: Sneaslucha|Substitute|p2a: Sneaslucha
+|-start|p2a: Sneaslucha|Substitute
+|-damage|p2a: Sneaslucha|51/100
+|
+|-end|p2a: Sneaslucha|Encore
+|turn|18
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Sneaslucha
+|-supereffective|p2a: Sneaslucha
+|-end|p2a: Sneaslucha|Substitute
+|move|p2a: Sneaslucha|Swords Dance|p2a: Sneaslucha
+|-boost|p2a: Sneaslucha|atk|2
+|
+|-fieldend|move: Trick Room
+|turn|19
+|
+|move|p2a: Sneaslucha|Acrobatics|p1a: Kleavor
+|-crit|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-message|Jayhawks12 forfeited.
+|
+|win|Rap's my Fave Meme

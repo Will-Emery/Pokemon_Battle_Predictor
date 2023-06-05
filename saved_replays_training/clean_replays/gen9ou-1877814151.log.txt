@@ -1,0 +1,267 @@
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Gholdengo|
+|poke|p1|Baxcalibur, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Great Tusk|
+|poke|p2|Sneasler, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|start
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100
+|switch|p2a: TIMMMMYYY|Glimmora, M|100/100
+|turn|1
+|
+|move|p1a: Lycanroc|Taunt|p2a: TIMMMMYYY
+|-start|p2a: TIMMMMYYY|move: Taunt
+|move|p2a: TIMMMMYYY|Earth Power|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-enditem|p1a: Lycanroc|Focus Sash
+|-damage|p1a: Lycanroc|1/100
+|-unboost|p1a: Lycanroc|spd|1
+|
+|turn|2
+|
+|move|p1a: Lycanroc|Stealth Rock|p2a: TIMMMMYYY
+|-sidestart|p2: KingofSoup|move: Stealth Rock
+|move|p2a: TIMMMMYYY|Earth Power|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|3
+|
+|move|p1a: Thundurus|Flash Cannon|p2a: TIMMMMYYY
+|-supereffective|p2a: TIMMMMYYY
+|-damage|p2a: TIMMMMYYY|13/100
+|move|p2a: TIMMMMYYY|Sludge Wave|p1a: Thundurus
+|-damage|p1a: Thundurus|30/100
+|
+|-end|p2a: TIMMMMYYY|move: Taunt
+|turn|4
+|
+|move|p1a: Thundurus|Flash Cannon|p2a: TIMMMMYYY
+|-supereffective|p2a: TIMMMMYYY
+|-damage|p2a: TIMMMMYYY|0 fnt
+|faint|p2a: TIMMMMYYY
+|
+|
+|switch|p2a: Isn't it|Dragonite, M|100/100
+|turn|5
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Isn't it
+|-damage|p2a: Isn't it|69/100
+|move|p2a: Isn't it|Dragon Claw|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|6
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Lunick01|Reflect
+|move|p2a: Isn't it|Dragon Dance|p2a: Isn't it
+|-boost|p2a: Isn't it|atk|1
+|-boost|p2a: Isn't it|spe|1
+|
+|turn|7
+|
+|move|p2a: Isn't it|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|64/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Isn't it
+|-supereffective|p2a: Isn't it
+|-damage|p2a: Isn't it|4/100
+|-unboost|p2a: Isn't it|spa|1
+|
+|turn|8
+|
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Isn't it
+|-unboost|p2a: Isn't it|atk|1
+|-unboost|p2a: Isn't it|spa|1
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100|[from] Parting Shot
+|move|p2a: Isn't it|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|turn|9
+|
+|move|p2a: Isn't it|Extreme Speed|p1a: Dragonite
+|-damage|p1a: Dragonite|93/100
+|move|p1a: Dragonite|Extreme Speed|p2a: Isn't it
+|-damage|p2a: Isn't it|0 fnt
+|faint|p2a: Isn't it
+|
+|
+|switch|p2a: Rus-T|Great Tusk|100/100
+|-damage|p2a: Rus-T|98/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Rus-T|Close Combat|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|77/100
+|-unboost|p2a: Rus-T|def|1
+|-unboost|p2a: Rus-T|spd|1
+|-enditem|p2a: Rus-T|Eject Pack
+|
+|-end|p2a: Rus-T|Protosynthesis|[silent]
+|switch|p2a: Sneasl'in?|Sneasler, M|100/100
+|-damage|p2a: Sneasl'in?|94/100|[from] Stealth Rock
+|move|p1a: Dragonite|Earthquake|p2a: Sneasl'in?
+|-supereffective|p2a: Sneasl'in?
+|-damage|p2a: Sneasl'in?|0 fnt
+|faint|p2a: Sneasl'in?
+|
+|
+|switch|p2a: BonkCloud|Kingambit, F|100/100
+|-damage|p2a: BonkCloud|94/100|[from] Stealth Rock
+|-activate|p2a: BonkCloud|ability: Supreme Overlord
+|-start|p2a: BonkCloud|fallen3|[silent]
+|turn|11
+|
+|move|p1a: Dragonite|Earthquake|p2a: BonkCloud
+|-supereffective|p2a: BonkCloud
+|-damage|p2a: BonkCloud|22/100
+|move|p2a: BonkCloud|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|47/100
+|
+|-heal|p2a: BonkCloud|28/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: BonkCloud
+|-resisted|p2a: BonkCloud
+|-damage|p2a: BonkCloud|13/100
+|move|p2a: BonkCloud|Sucker Punch||[still]
+|-fail|p2a: BonkCloud
+|
+|-heal|p2a: BonkCloud|20/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|97/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: BonkCloud|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|66/100
+|
+|-heal|p2a: BonkCloud|26/100|[from] item: Leftovers
+|-sideend|p1: Lunick01|Reflect
+|turn|14
+|
+|move|p1a: Dragonite|Earthquake|p2a: BonkCloud
+|-supereffective|p2a: BonkCloud
+|-damage|p2a: BonkCloud|0 fnt
+|faint|p2a: BonkCloud
+|-end|p2a: BonkCloud|fallen3|[silent]
+|
+|
+|switch|p2a: I hate myself|Gholdengo|100/100
+|-damage|p2a: I hate myself|94/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: I hate myself|Make It Rain|p1a: Dragonite
+|-damage|p1a: Dragonite|13/100
+|-unboost|p2a: I hate myself|spa|1
+|move|p1a: Dragonite|Earthquake|p2a: I hate myself
+|-supereffective|p2a: I hate myself
+|-damage|p2a: I hate myself|11/100
+|
+|turn|16
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: I hate myself|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|51/100
+|
+|turn|17
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|64/100
+|move|p2a: I hate myself|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|54/100
+|
+|turn|18
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Lunick01|move: Light Screen
+|move|p2a: I hate myself|Make It Rain|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|25/100
+|-unboost|p2a: I hate myself|spa|1
+|
+|turn|19
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Lunick01|Reflect
+|move|p2a: I hate myself|Nasty Plot|p2a: I hate myself
+|-boost|p2a: I hate myself|spa|2
+|
+|turn|20
+|
+|move|p2a: I hate myself|Recover|p2a: I hate myself
+|-heal|p2a: I hate myself|61/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: I hate myself
+|-resisted|p2a: I hate myself
+|-damage|p2a: I hate myself|46/100
+|
+|turn|21
+|
+|switch|p1a: Dragonite|Dragonite, M|13/100
+|move|p2a: I hate myself|Recover|p2a: I hate myself
+|-heal|p2a: I hate myself|96/100
+|
+|turn|22
+|
+|move|p2a: I hate myself|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|51/100
+|turn|23
+|
+|move|p2a: I hate myself|Nasty Plot|p2a: I hate myself
+|-boost|p2a: I hate myself|spa|2
+|move|p1a: Gholdengo|Shadow Ball|p2a: I hate myself
+|-supereffective|p2a: I hate myself
+|-damage|p2a: I hate myself|2/100
+|
+|turn|24
+|
+|move|p2a: I hate myself|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|turn|25
+|
+|-terastallize|p1a: Baxcalibur|Dragon
+|move|p1a: Baxcalibur|Dragon Dance|p1a: Baxcalibur
+|-boost|p1a: Baxcalibur|atk|1
+|-boost|p1a: Baxcalibur|spe|1
+|move|p2a: I hate myself|Recover|p2a: I hate myself
+|-heal|p2a: I hate myself|52/100
+|
+|-sideend|p1: Lunick01|move: Light Screen
+|turn|26
+|
+|-terastallize|p2a: I hate myself|Flying
+|move|p1a: Baxcalibur|Earthquake|p2a: I hate myself
+|-immune|p2a: I hate myself
+|move|p2a: I hate myself|Make It Rain|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|-unboost|p2a: I hate myself|spa|1
+|faint|p1a: Baxcalibur
+|
+|-sideend|p1: Lunick01|Reflect
+|-message|Lunick01 forfeited.
+|
+|win|KingofSoup

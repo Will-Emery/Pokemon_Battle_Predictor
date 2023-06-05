@@ -1,0 +1,269 @@
+|poke|p1|Hatterene, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Volcanion|
+|poke|p1|Clodsire, M|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Goodra-Hisui, F|
+|poke|p2|Veluza, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Overqwil, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Regidrago|
+|poke|p2|Raichu-Alola, F|
+|teampreview
+|
+|start
+|switch|p1a: Perfection|Clodsire, M|100/100
+|switch|p2a: AXE KICK!|Lilligant-Hisui, F, shiny|100/100
+|turn|1
+|
+|move|p2a: AXE KICK!|Axe Kick|p1a: Perfection
+|-resisted|p1a: Perfection
+|-damage|p1a: Perfection|55/100
+|move|p1a: Perfection|Poison Jab|p2a: AXE KICK!
+|-supereffective|p2a: AXE KICK!
+|-damage|p2a: AXE KICK!|19/100
+|
+|-heal|p1a: Perfection|61/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: AXE KICK!|Axe Kick|p1a: Perfection|[miss]
+|-miss|p2a: AXE KICK!|p1a: Perfection
+|-damage|p2a: AXE KICK!|0 fnt|[from] highjumpkick
+|faint|p2a: AXE KICK!
+|move|p1a: Perfection|Recover|p1a: Perfection
+|-heal|p1a: Perfection|100/100
+|
+|
+|switch|p2a: Zipper|Raichu-Alola, F, shiny|100/100
+|turn|3
+|
+|switch|p1a: Stacky|Garganacl, F|100/100
+|move|p2a: Zipper|Psyshock|p1a: Stacky
+|-damage|p1a: Stacky|84/100
+|
+|-heal|p1a: Stacky|90/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Zipper|Surf|p1a: Stacky
+|-supereffective|p1a: Stacky
+|-damage|p1a: Stacky|47/100
+|move|p1a: Stacky|Earthquake|p2a: Zipper
+|-supereffective|p2a: Zipper
+|-damage|p2a: Zipper|0 fnt
+|faint|p2a: Zipper
+|
+|-heal|p1a: Stacky|53/100|[from] item: Leftovers
+|
+|switch|p2a: Stabby|Veluza, M, shiny|100/100
+|turn|5
+|
+|switch|p1a: Perfection|Clodsire, M|100/100
+|move|p2a: Stabby|Fillet Away|p2a: Stabby
+|-boost|p2a: Stabby|atk|2
+|-boost|p2a: Stabby|spa|2
+|-boost|p2a: Stabby|spe|2
+|-damage|p2a: Stabby|50/100
+|-enditem|p2a: Stabby|Sitrus Berry|[eat]
+|-heal|p2a: Stabby|75/100|[from] item: Sitrus Berry
+|
+|turn|6
+|
+|-terastallize|p1a: Perfection|Water
+|move|p2a: Stabby|Psycho Cut|p1a: Perfection
+|-damage|p1a: Perfection|40/100
+|move|p1a: Perfection|Earthquake|p2a: Stabby
+|-damage|p2a: Stabby|30/100
+|
+|-heal|p1a: Perfection|47/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Stabby|Psycho Cut|p1a: Perfection
+|-damage|p1a: Perfection|0 fnt
+|faint|p1a: Perfection
+|
+|
+|switch|p1a: Deca|Decidueye-Hisui, F|100/100
+|turn|8
+|
+|move|p1a: Deca|Sucker Punch||[still]
+|-fail|p1a: Deca
+|move|p2a: Stabby|Fillet Away||[still]
+|-fail|p2a: Stabby
+|
+|turn|9
+|
+|move|p1a: Deca|Sucker Punch||[still]
+|-fail|p1a: Deca
+|move|p2a: Stabby|Fillet Away||[still]
+|-fail|p2a: Stabby
+|
+|turn|10
+|
+|move|p2a: Stabby|Psycho Cut|p1a: Deca
+|-supereffective|p1a: Deca
+|-crit|p1a: Deca
+|-damage|p1a: Deca|0 fnt
+|faint|p1a: Deca
+|
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|turn|11
+|
+|move|p2a: Stabby|Night Slash|p1a: Goodra
+|-damage|p1a: Goodra|32/100
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Stabby|spe|1
+|move|p1a: Goodra|Dragon Pulse|p2a: Stabby
+|-damage|p2a: Stabby|0 fnt
+|faint|p2a: Stabby
+|
+|
+|switch|p2a: Cruelity|Ceruledge, F, shiny|100/100
+|turn|12
+|
+|move|p2a: Cruelity|Bitter Blade|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Cruelity|spe|1
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|13
+|
+|switch|p2a: Draco|Regidrago, shiny|100/100
+|move|p1a: Volcanion|Earth Power|p2a: Draco
+|-damage|p2a: Draco|73/100
+|
+|turn|14
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Draco|Dragon Claw|p1a: Hatterene
+|-immune|p1a: Hatterene
+|
+|turn|15
+|
+|switch|p2a: Goodbye|Overqwil, F|100/100
+|-ability|p2a: Goodbye|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Goodbye
+|-damage|p2a: Goodbye|70/100
+|
+|-heal|p2a: Goodbye|76/100|[from] item: Black Sludge
+|turn|16
+|
+|switch|p1a: Stacky|Garganacl, F|53/100
+|move|p2a: Goodbye|Barb Barrage|p1a: Stacky
+|-resisted|p1a: Stacky
+|-damage|p1a: Stacky|47/100
+|
+|-heal|p2a: Goodbye|82/100|[from] item: Black Sludge
+|-heal|p1a: Stacky|53/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Goodbye|Aqua Jet|p1a: Stacky
+|-supereffective|p1a: Stacky
+|-damage|p1a: Stacky|42/100
+|move|p1a: Stacky|Recover|p1a: Stacky
+|-heal|p1a: Stacky|92/100
+|
+|-heal|p2a: Goodbye|88/100|[from] item: Black Sludge
+|-heal|p1a: Stacky|99/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Cruelity|Ceruledge, F, shiny|100/100
+|move|p1a: Stacky|Earthquake|p2a: Cruelity
+|-supereffective|p2a: Cruelity
+|-damage|p2a: Cruelity|32/100
+|-ability|p2a: Cruelity|Weak Armor|boost
+|-unboost|p2a: Cruelity|def|1
+|-boost|p2a: Cruelity|spe|2
+|-enditem|p2a: Cruelity|Weakness Policy
+|-boost|p2a: Cruelity|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Cruelity|spa|2|[from] item: Weakness Policy
+|
+|-heal|p1a: Stacky|100/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Cruelity|Close Combat|p1a: Stacky
+|-supereffective|p1a: Stacky
+|-damage|p1a: Stacky|18/100
+|-unboost|p2a: Cruelity|def|1
+|-unboost|p2a: Cruelity|spd|1
+|move|p1a: Stacky|Salt Cure|p2a: Cruelity
+|-supereffective|p2a: Cruelity
+|-damage|p2a: Cruelity|0 fnt
+|faint|p2a: Cruelity
+|
+|-heal|p1a: Stacky|24/100|[from] item: Leftovers
+|
+|switch|p2a: Draco|Regidrago, shiny|73/100
+|turn|20
+|
+|move|p2a: Draco|Earthquake|p1a: Stacky
+|-supereffective|p1a: Stacky
+|-damage|p1a: Stacky|0 fnt
+|faint|p1a: Stacky
+|
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|21
+|
+|switch|p2a: Goodbye|Overqwil, F|88/100
+|-ability|p2a: Goodbye|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Goodbye
+|-damage|p2a: Goodbye|56/100
+|
+|-heal|p2a: Goodbye|62/100|[from] item: Black Sludge
+|turn|22
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Goodbye|Barb Barrage|p1a: Volcanion
+|-damage|p1a: Volcanion|83/100
+|-status|p1a: Volcanion|psn
+|
+|-heal|p2a: Goodbye|68/100|[from] item: Black Sludge
+|-damage|p1a: Volcanion|71/100 psn|[from] psn
+|turn|23
+|
+|move|p2a: Goodbye|Barb Barrage|p1a: Volcanion
+|-damage|p1a: Volcanion|37/100 psn
+|move|p1a: Volcanion|Earth Power|p2a: Goodbye
+|-supereffective|p2a: Goodbye
+|-damage|p2a: Goodbye|0 fnt
+|faint|p2a: Goodbye
+|
+|-damage|p1a: Volcanion|25/100 psn|[from] psn
+|
+|switch|p2a: Draco|Regidrago, shiny|73/100
+|turn|24
+|
+|move|p2a: Draco|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|25
+|
+|move|p2a: Draco|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|61/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Draco
+|-supereffective|p2a: Draco
+|-damage|p2a: Draco|25/100
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Draco
+|
+|turn|26
+|
+|move|p2a: Draco|Fire Fang|p1a: Hatterene
+|-damage|p1a: Hatterene|75/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Draco
+|-supereffective|p2a: Draco
+|-damage|p2a: Draco|0 fnt
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Draco
+|faint|p2a: Draco
+|
+|win|Thegreninjaman

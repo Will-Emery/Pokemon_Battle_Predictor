@@ -1,0 +1,238 @@
+|poke|p1|Maushold-Four|
+|poke|p1|Dragapult, M|
+|poke|p1|Dondozo, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Meowscarada, M|
+|poke|p2|Glastrier|
+|poke|p2|Magearna|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|
+|start
+|switch|p1a: Femboy|Meowscarada, M, shiny|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|move|p1a: Femboy|Toxic Spikes|p2a: Slowking
+|-start|p1a: Femboy|typechange|Poison|[from] ability: Protean
+|-sidestart|p2: PurpleDew|move: Toxic Spikes
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Glastrier|Glastrier|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|2
+|
+|move|p1a: Femboy|Trick|p2a: Glastrier
+|-activate|p1a: Femboy|move: Trick|[of] p2a: Glastrier
+|-item|p2a: Glastrier|Black Sludge|[from] move: Trick
+|-item|p1a: Femboy|Heavy-Duty Boots|[from] move: Trick
+|move|p2a: Glastrier|Swords Dance|p2a: Glastrier
+|-boost|p2a: Glastrier|atk|2
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Glastrier|88/100|[from] item: Black Sludge
+|turn|3
+|
+|-terastallize|p2a: Glastrier|Electric
+|move|p1a: Femboy|Toxic Spikes|p2a: Glastrier
+|-sidestart|p2: PurpleDew|move: Toxic Spikes
+|move|p2a: Glastrier|Tera Blast|p1a: Femboy
+|-damage|p1a: Femboy|0 fnt
+|faint|p1a: Femboy
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Glastrier|76/100|[from] item: Black Sludge
+|
+|switch|p1a: Tara Bailey|Magearna|100/100
+|turn|4
+|
+|move|p1a: Tara Bailey|Shift Gear|p1a: Tara Bailey
+|-boost|p1a: Tara Bailey|spe|2
+|-boost|p1a: Tara Bailey|atk|1
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Tara Bailey
+|-supereffective|p1a: Tara Bailey
+|-damage|p1a: Tara Bailey|0 fnt
+|faint|p1a: Tara Bailey
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Glastrier|63/100|[from] item: Black Sludge
+|
+|switch|p1a: Germany|Maushold-Four|100/100
+|turn|5
+|
+|move|p1a: Germany|Population Bomb|p2a: Glastrier
+|-damage|p2a: Glastrier|56/100
+|-damage|p2a: Glastrier|47/100
+|-damage|p2a: Glastrier|40/100
+|-damage|p2a: Glastrier|32/100
+|-damage|p2a: Glastrier|24/100
+|-damage|p2a: Glastrier|16/100
+|-damage|p2a: Glastrier|8/100
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|-hitcount|p2: Glastrier|8
+|
+|-weather|none
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-sideend|p2: PurpleDew|move: Toxic Spikes|[of] p2a: Slowking
+|turn|6
+|
+|move|p1a: Germany|Population Bomb|p2a: Slowking
+|-damage|p2a: Slowking|92/100
+|-damage|p2a: Slowking|83/100
+|-damage|p2a: Slowking|76/100
+|-damage|p2a: Slowking|67/100
+|-damage|p2a: Slowking|59/100
+|-damage|p2a: Slowking|50/100
+|-damage|p2a: Slowking|42/100
+|-damage|p2a: Slowking|32/100
+|-damage|p2a: Slowking|25/100
+|-damage|p2a: Slowking|17/100
+|-hitcount|p2a: Slowking|10
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|7
+|
+|move|p2a: Slowking|Psychic|p1a: Germany
+|-damage|p1a: Germany|49/100
+|move|p1a: Germany|Population Bomb|p2a: Slowking
+|-damage|p2a: Slowking|9/100
+|-damage|p2a: Slowking|1/100
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-hitcount|p2: Slowking|3
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|turn|8
+|
+|move|p2a: Ursaluna|Facade|p1a: Germany
+|-damage|p1a: Germany|0 fnt
+|faint|p1a: Germany
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p1a: Ricky|Dondozo, M|100/100
+|turn|9
+|
+|move|p2a: Ursaluna|Facade|p1a: Ricky
+|-damage|p1a: Ricky|31/100
+|move|p1a: Ricky|Curse|p1a: Ricky
+|-unboost|p1a: Ricky|spe|1
+|-boost|p1a: Ricky|atk|1
+|-boost|p1a: Ricky|def|1
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Ricky|Rest|p1a: Ricky
+|-status|p1a: Ricky|slp|[from] move: Rest
+|-heal|p1a: Ricky|100/100 slp|[silent]
+|-enditem|p1a: Ricky|Chesto Berry|[eat]
+|-curestatus|p1a: Ricky|slp|[msg]
+|move|p2a: Ursaluna|Facade|p1a: Ricky
+|-damage|p1a: Ricky|53/100
+|
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|11
+|
+|move|p2a: Ursaluna|Facade|p1a: Ricky
+|-damage|p1a: Ricky|7/100
+|move|p1a: Ricky|Wave Crash|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-damage|p1a: Ricky|0 fnt|[from] Recoil
+|faint|p1a: Ricky
+|
+|
+|switch|p1a: Chow-Mein|Chien-Pao|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|-ability|p1a: Chow-Mein|Sword of Ruin
+|turn|12
+|
+|move|p1a: Chow-Mein|Swords Dance|p1a: Chow-Mein
+|-boost|p1a: Chow-Mein|atk|2
+|move|p2a: Magearna|Fleur Cannon|p1a: Chow-Mein
+|-supereffective|p1a: Chow-Mein
+|-enditem|p1a: Chow-Mein|Focus Sash
+|-damage|p1a: Chow-Mein|1/100
+|-unboost|p2a: Magearna|spa|2
+|-enditem|p2a: Magearna|Eject Pack
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|
+|turn|13
+|
+|move|p1a: Chow-Mein|Sucker Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|65/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|72/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Chow-Mein|Sucker Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|40/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|46/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Chow-Mein|Sacred Sword|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|16
+|
+|move|p1a: Chow-Mein|Icicle Crash|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|3/100
+|cant|p2a: Cresselia|flinch
+|
+|turn|17
+|
+|move|p1a: Chow-Mein|Sacred Sword|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|18
+|
+|move|p1a: Chow-Mein|Sacred Sword|p2a: Magearna
+|-damage|p2a: Magearna|29/100
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|19
+|
+|move|p1a: Chow-Mein|Sucker Punch|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|win|Proteinman11

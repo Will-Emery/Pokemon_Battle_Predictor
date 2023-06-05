@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import os
-from file_io import write_to_file
+from file_io import write_to_file, get_file_contents
 
 """Module for scraping replays from pokemon showdown and saving them as .txt files"""
 
@@ -24,14 +24,29 @@ def process_links(link_file):
     for link in links:
         if link[link.find("gen9ou"):] in os.listdir("saved_replays_training/dirty_replays"):
             print("Replay already saved")
+            
+            if get_file_contents("saved_replays_training/dirty_replays/" + link[link.find("gen9ou")] + ".txt") == "Could not connect":
+                #this means the replay was not scraped successfully, try again
+                print("Replay not scraped successfully, trying again")
+                
+                replay = scrape_replay(link)
+                
+                if replay == None: continue
+                
+                else:
+                    write_to_file(replay, "saved_replays_training/dirty_replays/" + link[link.find("gen9ou"):] + ".txt")
+                    print("Saved replay " + link[link.find("gen9ou"):] + ".txt")
+            
             continue
         else:
             replay = scrape_replay(link)
+            
             if replay == None: continue
+            
             else:
                 write_to_file(replay, "saved_replays_training/dirty_replays/" + link[link.find("gen9ou"):] + ".txt")
                 print("Saved replay " + link[link.find("gen9ou"):] + ".txt")
-                
+
 
 def scrape_replay(link):
     """Scrapes a replay from a link and saves it as a .txt file

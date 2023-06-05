@@ -1,0 +1,62 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Magearna|
+|poke|p1|Volcarona, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Pelipper, F|
+|poke|p2|Floatzel, F|
+|poke|p2|Golduck, M|
+|poke|p2|Pawmot, F|
+|poke|p2|Toedscruel, F|
+|poke|p2|Azumarill, F|
+|teampreview
+|
+|start
+|switch|p1a: edgy|Samurott-Hisui, F|100/100
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|turn|1
+|
+|move|p1a: edgy|Ceaseless Edge|p2a: Ghoti carrier|[miss]
+|-miss|p1a: edgy|p2a: Ghoti carrier
+|move|p2a: Ghoti carrier|U-turn|p1a: edgy
+|-supereffective|p1a: edgy
+|-damage|p1a: edgy|77/100
+|
+|switch|p2a: The Goat|Azumarill, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: edgy|Ceaseless Edge|p2a: The Goat|[miss]
+|-miss|p1a: edgy|p2a: The Goat
+|move|p2a: The Goat|Belly Drum|p2a: The Goat
+|-damage|p2a: The Goat|50/100
+|-setboost|p2a: The Goat|atk|6|[from] move: Belly Drum
+|-enditem|p2a: The Goat|Sitrus Berry|[eat]
+|-heal|p2a: The Goat|75/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: The Goat|Aqua Jet|p1a: edgy
+|-resisted|p1a: edgy
+|-damage|p1a: edgy|0 fnt
+|faint|p1a: edgy
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: yeetus the feetus|Dragapult, F|100/100
+|turn|4
+|
+|-terastallize|p2a: The Goat|Water
+|move|p2a: The Goat|Aqua Jet|p1a: yeetus the feetus
+|-resisted|p1a: yeetus the feetus
+|-damage|p1a: yeetus the feetus|0 fnt
+|faint|p1a: yeetus the feetus
+|
+|-weather|RainDance|[upkeep]
+|-message|pokemon tax agency forfeited.
+|
+|win|WeirdHamster

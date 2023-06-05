@@ -1,0 +1,275 @@
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, M|
+|poke|p1|Floatzel, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Great Tusk|
+|poke|p2|Pelipper, F|
+|poke|p2|Zapdos|
+|poke|p2|Basculegion, M|
+|poke|p2|Greninja, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Dragapult|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|97/100
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Corviknight|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|96/100
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Torkoal|Overheat|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|80/100
+|-unboost|p1a: Torkoal|spa|2
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|95/100
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p1a: Torkoal|Torkoal, M|96/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-terastallize|p2a: Basculegion|Ghost
+|move|p2a: Basculegion|Tera Blast|p1a: Torkoal
+|-damage|p1a: Torkoal|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Basculegion|Tera Blast|p1a: Walking Wake
+|-damage|p1a: Walking Wake|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|switch|p2a: Greninja|Greninja, F|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Pelipper|Pelipper, F|80/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Walking Wake|Protosynthesis
+|turn|8
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|97/100
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Floatzel|Floatzel, F|100/100
+|turn|10
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Floatzel|atk|1
+|move|p1a: Floatzel|Wave Crash|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-damage|p1a: Floatzel|60/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|11
+|
+|switch|p1a: Dragapult|Dragapult, F|95/100
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|48/100
+|-damage|p2a: Corviknight|88/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Dragapult|Thunder|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|28/100
+|move|p2a: Corviknight|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|38/100
+|
+|switch|p2a: Basculegion|Basculegion, M, tera:Ghost|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p2a: Basculegion|Tera Blast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Floatzel|Floatzel, F|60/100
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, M|28/100
+|move|p1a: Floatzel|Wave Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-damage|p1a: Floatzel|48/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Pelipper|Pelipper, F|80/100
+|turn|15
+|
+|switch|p1a: Pelipper|Pelipper, F|97/100
+|move|p2a: Pelipper|Hurricane|p1a: Pelipper
+|-damage|p1a: Pelipper|44/100
+|
+|-weather|none
+|turn|16
+|
+|move|p2a: Pelipper|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|40/100
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|91/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|turn|17
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|switch|p2a: Pelipper|Pelipper, F|80/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Torkoal|Torkoal, M|46/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|18
+|
+|move|p2a: Pelipper|Hydro Pump|p1a: Torkoal|[miss]
+|-miss|p2a: Pelipper|p1a: Torkoal
+|move|p1a: Torkoal|Yawn|p2a: Pelipper
+|-start|p2a: Pelipper|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|19
+|
+|move|p2a: Pelipper|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|44/100
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p1a: Torkoal|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: Craw1|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|20
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|switch|p2a: Pelipper|Pelipper, F|80/100|[from] Volt Switch
+|-damage|p2a: Pelipper|55/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake|18/100
+|turn|21
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M, tera:Ghost|100/100
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Basculegion|Tera Blast|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Floatzel|Floatzel, F|48/100
+|turn|24
+|
+|-terastallize|p1a: Floatzel|Water
+|move|p1a: Floatzel|Wave Crash|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-damage|p1a: Floatzel|13/100|[from] Recoil
+|
+|win|Yorikiri

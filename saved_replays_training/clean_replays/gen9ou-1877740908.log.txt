@@ -1,0 +1,383 @@
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Quaquaval, F|
+|poke|p1|Muk-Alola, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Sneasler, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Magearna|
+|poke|p2|Volcanion|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|switch|p2a: Meat|Kleavor, M, shiny|100/100
+|turn|1
+|
+|switch|p2a: Lando Bando|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Lando Bando|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|move|p1a: Sneasler|U-turn|p2a: Lando Bando
+|-resisted|p2a: Lando Bando
+|-damage|p2a: Lando Bando|88/100
+|-status|p2a: Lando Bando|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|-damage|p1a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p2a: Lando Bando
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|
+|-damage|p2a: Lando Bando|76/100 psn|[from] psn
+|turn|2
+|
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: TempYard|Reflect
+|move|p2a: Lando Bando|Sandsear Storm|p1a: Dragapult
+|-damage|p1a: Dragapult|55/100
+|
+|-damage|p2a: Lando Bando|63/100 psn|[from] psn
+|turn|3
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: TempYard|move: Light Screen
+|move|p2a: Lando Bando|Sandsear Storm|p1a: Dragapult|[miss]
+|-miss|p2a: Lando Bando|p1a: Dragapult
+|
+|-damage|p2a: Lando Bando|51/100 psn|[from] psn
+|turn|4
+|
+|move|p1a: Dragapult|U-turn|p2a: Lando Bando
+|-resisted|p2a: Lando Bando
+|-damage|p2a: Lando Bando|44/100 psn
+|-damage|p1a: Dragapult|38/100|[from] item: Rocky Helmet|[of] p2a: Lando Bando
+|
+|switch|p1a: Quaquaval|Quaquaval, F|100/100|[from] U-turn
+|move|p2a: Lando Bando|Sandsear Storm|p1a: Quaquaval
+|-damage|p1a: Quaquaval|75/100
+|
+|-damage|p2a: Lando Bando|32/100 psn|[from] psn
+|turn|5
+|
+|switch|p2a: Asta|Grimmsnarl, M, shiny|100/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Asta
+|-damage|p2a: Asta|49/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|turn|6
+|
+|move|p2a: Asta|Parting Shot|p1a: Quaquaval
+|-unboost|p1a: Quaquaval|atk|1
+|-unboost|p1a: Quaquaval|spa|1
+|
+|switch|p2a: Lando Bando|Landorus-Therian, M, shiny|32/100 psn|[from] Parting Shot
+|-ability|p2a: Lando Bando|Intimidate|boost
+|-unboost|p1a: Quaquaval|atk|1
+|move|p1a: Quaquaval|Aqua Step|p2a: Lando Bando
+|-supereffective|p2a: Lando Bando
+|-damage|p2a: Lando Bando|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|-damage|p1a: Quaquaval|59/100|[from] item: Rocky Helmet|[of] p2a: Lando Bando
+|faint|p2a: Lando Bando
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|
+|switch|p2a: Asta|Grimmsnarl, M, shiny|49/100
+|turn|7
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Asta|Reflect|p2a: Asta
+|-sidestart|p2: Whermst|Reflect
+|
+|turn|8
+|
+|-terastallize|p2a: Asta|Steel
+|move|p2a: Asta|Light Screen|p2a: Asta
+|-sidestart|p2: Whermst|move: Light Screen
+|move|p1a: Enamorus|Substitute|p1a: Enamorus
+|-start|p1a: Enamorus|Substitute
+|-damage|p1a: Enamorus|76/100
+|
+|turn|9
+|
+|move|p2a: Asta|Taunt|p1a: Enamorus
+|-start|p1a: Enamorus|move: Taunt
+|move|p1a: Enamorus|Superpower|p2a: Asta
+|-supereffective|p2a: Asta
+|-damage|p2a: Asta|7/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|
+|-sideend|p1: TempYard|Reflect
+|turn|10
+|
+|move|p2a: Asta|Parting Shot|p1a: Enamorus
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|spa|1
+|
+|switch|p2a: Magenta|Zamazenta-Crowned, shiny|100/100|[from] Parting Shot
+|-ability|p2a: Magenta|Dauntless Shield|boost
+|-boost|p2a: Magenta|def|1
+|move|p1a: Enamorus|Superpower|p2a: Magenta
+|-supereffective|p2a: Magenta
+|-damage|p2a: Magenta|63/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|
+|-sideend|p1: TempYard|move: Light Screen
+|turn|11
+|
+|move|p2a: Magenta|Behemoth Bash|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-end|p1a: Enamorus|Substitute
+|move|p1a: Enamorus|Superpower|p2a: Magenta
+|-supereffective|p2a: Magenta
+|-damage|p2a: Magenta|17/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|
+|-end|p1a: Enamorus|move: Taunt
+|turn|12
+|
+|-terastallize|p1a: Enamorus|Fire
+|move|p2a: Magenta|Behemoth Bash|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|62/100
+|move|p1a: Enamorus|Superpower|p2a: Magenta
+|-supereffective|p2a: Magenta
+|-damage|p2a: Magenta|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Magenta
+|
+|
+|switch|p2a: Smoker|Volcanion|100/100
+|turn|13
+|
+|move|p1a: Enamorus|Superpower|p2a: Smoker
+|-damage|p2a: Smoker|52/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|move|p2a: Smoker|Steam Eruption|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|14
+|
+|move|p1a: Hoopa|Calm Mind|p1a: Hoopa
+|-boost|p1a: Hoopa|spa|1
+|-boost|p1a: Hoopa|spd|1
+|move|p2a: Smoker|Steam Eruption|p1a: Hoopa
+|-damage|p1a: Hoopa|48/100
+|-status|p1a: Hoopa|brn
+|
+|-damage|p1a: Hoopa|42/100 brn|[from] brn
+|-sideend|p2: Whermst|Reflect
+|turn|15
+|
+|move|p1a: Hoopa|Psychic|p2a: Smoker
+|-damage|p2a: Smoker|6/100
+|move|p2a: Smoker|Steam Eruption|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-sideend|p2: Whermst|move: Light Screen
+|
+|switch|p1a: Sneasler|Sneasler, F|84/100
+|turn|16
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Smoker
+|-damage|p2a: Smoker|0 fnt
+|faint|p2a: Smoker
+|
+|
+|switch|p2a: shiest|Magearna|100/100
+|turn|17
+|
+|switch|p1a: Muk|Muk-Alola, M, shiny|100/100
+|move|p2a: shiest|Shift Gear|p2a: shiest
+|-boost|p2a: shiest|spe|2
+|-boost|p2a: shiest|atk|1
+|
+|turn|18
+|
+|switch|p2a: Meat|Kleavor, M, shiny|100/100
+|move|p1a: Muk|Knock Off|p2a: Meat
+|-damage|p2a: Meat|56/100
+|-enditem|p2a: Meat|Metronome|[from] move: Knock Off|[of] p1a: Muk
+|
+|turn|19
+|
+|move|p2a: Meat|Agility|p2a: Meat
+|-boost|p2a: Meat|spe|2
+|move|p1a: Muk|Poison Jab|p2a: Meat
+|-resisted|p2a: Meat
+|-damage|p2a: Meat|35/100
+|-status|p2a: Meat|psn
+|
+|-damage|p2a: Meat|23/100 psn|[from] psn
+|turn|20
+|
+|move|p2a: Meat|Stone Edge|p1a: Muk
+|-damage|p1a: Muk|53/100
+|move|p1a: Muk|Drain Punch|p2a: Meat
+|-damage|p2a: Meat|0 fnt
+|-heal|p1a: Muk|61/100|[from] drain|[of] p2a: Meat
+|faint|p2a: Meat
+|
+|-heal|p1a: Muk|67/100|[from] item: Leftovers
+|
+|switch|p2a: Asta|Grimmsnarl, M, shiny, tera:Steel|7/100
+|turn|21
+|
+|move|p2a: Asta|Reflect|p2a: Asta
+|-sidestart|p2: Whermst|Reflect
+|move|p1a: Muk|Knock Off|p2a: Asta
+|-damage|p2a: Asta|0 fnt
+|-enditem|p2a: Asta|Light Clay|[from] move: Knock Off|[of] p1a: Muk
+|faint|p2a: Asta
+|
+|-heal|p1a: Muk|73/100|[from] item: Leftovers
+|
+|switch|p2a: shiest|Magearna|100/100
+|turn|22
+|
+|move|p2a: shiest|Shift Gear|p2a: shiest
+|-boost|p2a: shiest|spe|2
+|-boost|p2a: shiest|atk|1
+|move|p1a: Muk|Knock Off|p2a: shiest
+|-resisted|p2a: shiest
+|-damage|p2a: shiest|92/100
+|-enditem|p2a: shiest|Weakness Policy|[from] move: Knock Off|[of] p1a: Muk
+|
+|-heal|p1a: Muk|79/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: shiest|Draining Kiss|p1a: Muk
+|-damage|p1a: Muk|57/100
+|-heal|p2a: shiest|100/100|[from] drain|[of] p1a: Muk
+|move|p1a: Muk|Drain Punch|p2a: shiest
+|-damage|p2a: shiest|91/100
+|-heal|p1a: Muk|60/100|[from] drain|[of] p2a: shiest
+|
+|-heal|p1a: Muk|66/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: shiest|Aura Sphere|p1a: Muk
+|-damage|p1a: Muk|43/100
+|move|p1a: Muk|Drain Punch|p2a: shiest
+|-damage|p2a: shiest|82/100
+|-heal|p1a: Muk|47/100|[from] drain|[of] p2a: shiest
+|
+|-heal|p1a: Muk|53/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|move|p2a: shiest|Draining Kiss|p1a: Muk
+|-activate|p1a: Muk|move: Protect
+|
+|-heal|p1a: Muk|59/100|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: shiest|Draining Kiss|p1a: Muk
+|-damage|p1a: Muk|36/100
+|-heal|p2a: shiest|100/100|[from] drain|[of] p1a: Muk
+|move|p1a: Muk|Drain Punch|p2a: shiest
+|-damage|p2a: shiest|92/100
+|-heal|p1a: Muk|40/100|[from] drain|[of] p2a: shiest
+|
+|-heal|p1a: Muk|46/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: shiest|Shift Gear|p2a: shiest
+|-boost|p2a: shiest|spe|2
+|-boost|p2a: shiest|atk|1
+|move|p1a: Muk|Drain Punch|p2a: shiest
+|-damage|p2a: shiest|83/100
+|-heal|p1a: Muk|49/100|[from] drain|[of] p2a: shiest
+|
+|-heal|p1a: Muk|55/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|move|p2a: shiest|Aura Sphere|p1a: Muk
+|-activate|p1a: Muk|move: Protect
+|
+|-heal|p1a: Muk|61/100|[from] item: Leftovers
+|-sideend|p2: Whermst|Reflect
+|turn|29
+|
+|move|p2a: shiest|Draining Kiss|p1a: Muk
+|-damage|p1a: Muk|37/100
+|-heal|p2a: shiest|100/100|[from] drain|[of] p1a: Muk
+|move|p1a: Muk|Drain Punch|p2a: shiest
+|-damage|p2a: shiest|81/100
+|-heal|p1a: Muk|44/100|[from] drain|[of] p2a: shiest
+|
+|-heal|p1a: Muk|50/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: shiest|Aura Sphere|p1a: Muk
+|-damage|p1a: Muk|28/100
+|move|p1a: Muk|Drain Punch|p2a: shiest
+|-damage|p2a: shiest|65/100
+|-heal|p1a: Muk|34/100|[from] drain|[of] p2a: shiest
+|
+|-heal|p1a: Muk|40/100|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: shiest|Aura Sphere|p1a: Muk
+|-damage|p1a: Muk|14/100
+|move|p1a: Muk|Drain Punch|p2a: shiest
+|-damage|p2a: shiest|47/100
+|-heal|p1a: Muk|21/100|[from] drain|[of] p2a: shiest
+|
+|-heal|p1a: Muk|27/100|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|move|p2a: shiest|Draining Kiss|p1a: Muk
+|-activate|p1a: Muk|move: Protect
+|
+|-heal|p1a: Muk|33/100|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: shiest|Draining Kiss|p1a: Muk
+|-damage|p1a: Muk|9/100
+|-heal|p2a: shiest|69/100|[from] drain|[of] p1a: Muk
+|move|p1a: Muk|Drain Punch|p2a: shiest
+|-damage|p2a: shiest|52/100
+|-heal|p1a: Muk|16/100|[from] drain|[of] p2a: shiest
+|
+|-heal|p1a: Muk|22/100|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: shiest|Draining Kiss|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|-heal|p2a: shiest|73/100|[from] drain|[of] p1a: Muk
+|faint|p1a: Muk
+|-ability|p2a: shiest|Soul-Heart|boost
+|-boost|p2a: shiest|spa|1
+|
+|
+|switch|p1a: Quaquaval|Quaquaval, F|59/100
+|turn|35
+|
+|move|p2a: shiest|Draining Kiss|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|-heal|p2a: shiest|100/100|[from] drain|[of] p1a: Quaquaval
+|faint|p1a: Quaquaval
+|-ability|p2a: shiest|Soul-Heart|boost
+|-boost|p2a: shiest|spa|1
+|
+|-message|TempYard forfeited.
+|
+|win|Whermst

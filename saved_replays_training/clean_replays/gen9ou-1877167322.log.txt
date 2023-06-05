@@ -1,0 +1,126 @@
+|poke|p1|Magearna|
+|poke|p1|Dragapult, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Iron Treads|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Heatran, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Gengar, M|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Gordita Crunch|Iron Treads|100/100
+|turn|1
+|
+|move|p2a: Gordita Crunch|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Noobula|move: Toxic Spikes
+|move|p1a: Glimmora|Earth Power|p2a: Gordita Crunch
+|-supereffective|p2a: Gordita Crunch
+|-damage|p2a: Gordita Crunch|26/100
+|
+|-heal|p2a: Gordita Crunch|32/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Gordita Crunch|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|95/100
+|
+|-end|p2a: Gordita Crunch|Quark Drive|[silent]
+|switch|p2a: Kilgrave|Gengar, M, shiny|100/100|[from] Volt Switch
+|-sideend|p2: Noobula|move: Toxic Spikes|[of] p2a: Kilgrave
+|
+|turn|3
+|
+|move|p2a: Kilgrave|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|3/100
+|-start|p2a: Kilgrave|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Dragapult
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: the eminence|move: Light Screen
+|
+|turn|4
+|
+|-activate|p2a: Kilgrave|move: Struggle
+|move|p2a: Kilgrave|Struggle|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-damage|p2a: Kilgrave|76/100|[from] recoil
+|
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|5
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|6
+|
+|switch|p2a: Hephaestus|Heatran, M|100/100
+|-terastallize|p1a: Volcarona|Water
+|move|p1a: Volcarona|Giga Drain|p2a: Hephaestus
+|-resisted|p2a: Hephaestus
+|-damage|p2a: Hephaestus|91/100
+|
+|-heal|p2a: Hephaestus|97/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Gordita Crunch|Iron Treads|32/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Gordita Crunch|38/100|[from] item: Leftovers
+|turn|8
+|
+|-end|p2a: Gordita Crunch|Quark Drive|[silent]
+|switch|p2a: Hephaestus|Heatran, M|97/100
+|move|p1a: Volcarona|Tera Blast|p2a: Hephaestus
+|-supereffective|p2a: Hephaestus
+|-damage|p2a: Hephaestus|0 fnt
+|faint|p2a: Hephaestus
+|
+|
+|switch|p2a: Kilgrave|Gengar, M, shiny|76/100
+|turn|9
+|
+|move|p1a: Volcarona|Flamethrower|p2a: Kilgrave
+|-damage|p2a: Kilgrave|0 fnt
+|faint|p2a: Kilgrave
+|
+|
+|switch|p2a: Balto|Zamazenta-Crowned|100/100
+|-ability|p2a: Balto|Dauntless Shield|boost
+|-boost|p2a: Balto|def|1
+|turn|10
+|
+|-terastallize|p2a: Balto|Ghost
+|move|p1a: Volcarona|Flamethrower|p2a: Balto
+|-damage|p2a: Balto|32/100
+|move|p2a: Balto|Body Press|p1a: Volcarona
+|-damage|p1a: Volcarona|11/100
+|
+|-sideend|p1: the eminence|move: Light Screen
+|turn|11
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Balto
+|-damage|p2a: Balto|0 fnt
+|-heal|p1a: Volcarona|31/100|[from] drain|[of] p2a: Balto
+|faint|p2a: Balto
+|
+|-message|Noobula forfeited.
+|
+|win|the eminence

@@ -1,0 +1,161 @@
+|poke|p1|Barraskewda, M|
+|poke|p1|Salamence, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Eelektross, F|
+|poke|p1|Weavile, M|
+|poke|p1|Meowscarada, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Sandy Shocks|
+|poke|p2|Lycanroc, F|
+|poke|p2|Frosmoth, F|
+|poke|p2|Armarouge, M|
+|poke|p2|Lilligant, F|
+|teampreview
+|
+|start
+|switch|p1a: Talkw/manager|Weavile, M, shiny|100/100
+|switch|p2a: Model F|Armarouge, M|100/100
+|-ability|p1a: Talkw/manager|Pressure
+|turn|1
+|
+|-terastallize|p2a: Model F|Dragon
+|move|p1a: Talkw/manager|Fake Out|p2a: Model F
+|-damage|p2a: Model F|88/100
+|-ability|p2a: Model F|Weak Armor|boost
+|-unboost|p2a: Model F|def|1
+|-boost|p2a: Model F|spe|2
+|cant|p2a: Model F|flinch
+|
+|turn|2
+|
+|move|p1a: Talkw/manager|Ice Spinner|p2a: Model F
+|-supereffective|p2a: Model F
+|-damage|p2a: Model F|0 fnt
+|faint|p2a: Model F
+|
+|
+|switch|p2a: Tatl|Frosmoth, F, shiny|100/100
+|turn|3
+|
+|switch|p1a: Eel Time|Eelektross, F, shiny|100/100
+|move|p2a: Tatl|Dazzling Gleam|p1a: Eel Time
+|-damage|p1a: Eel Time|69/100
+|
+|-heal|p1a: Eel Time|75/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Alphonse|Sandy Shocks|100/100
+|move|p1a: Eel Time|Drain Punch|p2a: Alphonse
+|-damage|p2a: Alphonse|76/100
+|-heal|p1a: Eel Time|86/100|[from] drain|[of] p2a: Alphonse
+|
+|-heal|p1a: Eel Time|92/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Alphonse|Earth Power|p1a: Eel Time
+|-immune|p1a: Eel Time|[from] ability: Levitate
+|move|p1a: Eel Time|Drain Punch|p2a: Alphonse
+|-damage|p2a: Alphonse|51/100
+|-heal|p1a: Eel Time|100/100|[from] drain|[of] p2a: Alphonse
+|
+|turn|6
+|
+|-end|p2a: Alphonse|Protosynthesis|[silent]
+|switch|p2a: Mickey|Lycanroc, F, shiny|100/100
+|move|p1a: Eel Time|Drain Punch|p2a: Mickey
+|-supereffective|p2a: Mickey
+|-crit|p2a: Mickey
+|-damage|p2a: Mickey|0 fnt
+|-damage|p1a: Eel Time|84/100|[from] item: Rocky Helmet|[of] p2a: Mickey
+|faint|p2a: Mickey
+|
+|-heal|p1a: Eel Time|90/100|[from] item: Leftovers
+|
+|switch|p2a: The Theater|Lilligant, F, shiny|100/100
+|turn|7
+|
+|move|p2a: The Theater|Petal Dance|p1a: Eel Time
+|-damage|p1a: Eel Time|35/100
+|move|p1a: Eel Time|Crunch|p2a: The Theater
+|-damage|p2a: The Theater|67/100
+|
+|-heal|p1a: Eel Time|41/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Mega in Spirit|Salamence, F, shiny|100/100
+|move|p2a: The Theater|Petal Dance|p1a: Mega in Spirit|[from]lockedmove
+|-resisted|p1a: Mega in Spirit
+|-damage|p1a: Mega in Spirit|84/100
+|
+|turn|9
+|
+|switch|p2a: Tatl|Frosmoth, F, shiny|100/100
+|move|p1a: Mega in Spirit|Dragon Claw|p2a: Tatl
+|-damage|p2a: Tatl|31/100
+|
+|turn|10
+|
+|move|p1a: Mega in Spirit|Dragon Claw|p2a: Tatl
+|-damage|p2a: Tatl|0 fnt
+|faint|p2a: Tatl
+|-ability|p1a: Mega in Spirit|Moxie|boost
+|-boost|p1a: Mega in Spirit|atk|1
+|
+|
+|switch|p2a: Calamity Ganon|Roaring Moon|100/100
+|turn|11
+|
+|switch|p1a: Eel Time|Eelektross, F, shiny|41/100
+|move|p2a: Calamity Ganon|Outrage|p1a: Eel Time
+|-damage|p1a: Eel Time|0 fnt
+|faint|p1a: Eel Time
+|
+|
+|switch|p1a: Fire Away!|Barraskewda, M, shiny|100/100
+|turn|12
+|
+|move|p1a: Fire Away!|Close Combat|p2a: Calamity Ganon
+|-supereffective|p2a: Calamity Ganon
+|-damage|p2a: Calamity Ganon|0 fnt
+|-unboost|p1a: Fire Away!|def|1
+|-unboost|p1a: Fire Away!|spd|1
+|faint|p2a: Calamity Ganon
+|-end|p2a: Calamity Ganon|Protosynthesis|[silent]
+|
+|
+|switch|p2a: The Theater|Lilligant, F, shiny|67/100
+|turn|13
+|
+|move|p1a: Fire Away!|Close Combat|p2a: The Theater
+|-damage|p2a: The Theater|0 fnt
+|-unboost|p1a: Fire Away!|def|1
+|-unboost|p1a: Fire Away!|spd|1
+|faint|p2a: The Theater
+|
+|
+|switch|p2a: Alphonse|Sandy Shocks|51/100
+|turn|14
+|
+|move|p2a: Alphonse|Thunderbolt|p1a: Fire Away!
+|-supereffective|p1a: Fire Away!
+|-damage|p1a: Fire Away!|0 fnt
+|faint|p1a: Fire Away!
+|
+|
+|switch|p1a: Talkw/manager|Weavile, M, shiny|100/100
+|-ability|p1a: Talkw/manager|Pressure
+|turn|15
+|
+|move|p1a: Talkw/manager|Fake Out|p2a: Alphonse
+|-damage|p2a: Alphonse|37/100
+|cant|p2a: Alphonse|flinch
+|
+|turn|16
+|
+|move|p1a: Talkw/manager|Ice Shard|p2a: Alphonse
+|-supereffective|p2a: Alphonse
+|-damage|p2a: Alphonse|0 fnt
+|faint|p2a: Alphonse
+|-end|p2a: Alphonse|Protosynthesis|[silent]
+|
+|win|baggyjimjam

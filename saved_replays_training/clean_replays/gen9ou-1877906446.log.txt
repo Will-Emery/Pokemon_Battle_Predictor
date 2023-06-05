@@ -1,0 +1,298 @@
+|poke|p1|Electrode-Hisui|
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p2|Altaria, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Iron Treads|
+|poke|p2|Cinderace, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|move|p2a: Tornadus|Taunt|p1a: Slowking
+|-start|p1a: Slowking|move: Taunt
+|move|p1a: Slowking|Future Sight|p2a: Tornadus
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|2
+|
+|move|p2a: Tornadus|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|79/100
+|-damage|p2a: Tornadus|91/100|[from] item: Life Orb
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|move|p1a: Slowking|Sludge Bomb|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|-heal|p1a: Slowking|85/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: NoParadox|move: Stealth Rock
+|
+|-end|p2a: Iron Treads|move: Future Sight
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|54/100
+|-heal|p2a: Iron Treads|61/100|[from] item: Leftovers
+|turn|4
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Altaria|Altaria, F|100/100
+|-ability|p2a: Altaria|Cloud Nine
+|move|p1a: Great Tusk|Rapid Spin|p2a: Altaria
+|-damage|p2a: Altaria|82/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: NoParadox|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|5
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Altaria|Will-O-Wisp|p1a: Pelipper
+|-status|p1a: Pelipper|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|94/100 brn|[from] brn
+|turn|6
+|
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|move|p1a: Pelipper|U-turn|p2a: Altaria
+|-damage|p2a: Altaria|95/100
+|
+|switch|p1a: Electrode|Electrode-Hisui|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Electrode|Volt Switch|p2a: Altaria
+|-damage|p2a: Altaria|68/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] Volt Switch
+|move|p2a: Altaria|Will-O-Wisp|p1a: Slowking
+|-status|p1a: Slowking|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|turn|8
+|
+|switch|p2a: Iron Treads|Iron Treads|61/100
+|move|p1a: Slowking|Future Sight|p2a: Iron Treads
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|67/100|[from] item: Leftovers
+|-heal|p1a: Slowking|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|turn|9
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|69/100
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|31/100
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|3
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Urshifu|move: Future Sight
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Altaria|Altaria, F|68/100
+|-ability|p2a: Altaria|Cloud Nine
+|turn|11
+|
+|-terastallize|p1a: Electrode|Ice
+|move|p1a: Electrode|Tera Blast|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|12
+|
+|switch|p1a: Pelipper|Pelipper, F|94/100 brn
+|move|p2a: Cinderace|Pyro Ball|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|83/100 brn
+|
+|-weather|none
+|-damage|p1a: Pelipper|77/100 brn|[from] brn
+|turn|13
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Cinderace|U-turn|p1a: Great Tusk
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|89/100
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from] U-turn
+|
+|turn|14
+|
+|move|p2a: Tornadus|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|move|p1a: Great Tusk|Knock Off|p2a: Tornadus
+|-damage|p2a: Tornadus|55/100
+|-enditem|p2a: Tornadus|Life Orb|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|15
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F|77/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Pelipper
+|-damage|p1a: Pelipper|14/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|8/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Tornadus|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|2/100 brn
+|
+|switch|p2a: Iron Treads|Iron Treads|67/100|[from] U-turn
+|move|p1a: Pelipper|U-turn|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|65/100
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|72/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Basculegion|81/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|88/100
+|turn|18
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-damage|p1a: Basculegion|58/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|19
+|
+|switch|p1a: Great Tusk|Great Tusk|89/100
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|move|p2a: Cinderace|U-turn|p1a: Great Tusk
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|77/100
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespa
+|move|p1a: Great Tusk|Knock Off|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|93/100
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100 brn
+|turn|22
+|
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|39/100 brn
+|move|p1a: Slowking|Sludge Bomb|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|-heal|p1a: Slowking|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowking|39/100 brn|[from] brn
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|23
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Slowking|[miss]
+|-miss|p2a: Cinderace|p1a: Slowking
+|move|p1a: Slowking|Sludge Bomb|p2a: Cinderace
+|-damage|p2a: Cinderace|38/100
+|
+|-heal|p1a: Slowking|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowking|39/100 brn|[from] brn
+|turn|24
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Pelipper|Pelipper, F|2/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|25
+|
+|move|p2a: Cinderace|U-turn|p1a: Pelipper
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M|58/100
+|turn|26
+|
+|move|p1a: Basculegion|Aqua Jet|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|NoParadox

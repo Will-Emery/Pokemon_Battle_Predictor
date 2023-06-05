@@ -1,0 +1,210 @@
+|poke|p1|Overqwil, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Volcanion|
+|poke|p1|Iron Treads|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Florges-White, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Pelipper
+|-damage|p1a: Pelipper|66/100
+|-sidestart|p1: really bout it|Spikes
+|move|p1a: Pelipper|Hurricane|p2a: Samurott
+|-damage|p2a: Samurott|49/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Pelipper
+|-damage|p1a: Pelipper|32/100
+|-sidestart|p1: really bout it|Spikes
+|move|p1a: Pelipper|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|26/100
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-damage|p1a: Iron Treads|84/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|90/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Iron Treads|Rapid Spin|p2a: Samurott
+|-damage|p2a: Samurott|7/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: really bout it|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Samurott|Razor Shell|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Overqwil|Overqwil, F|100/100
+|turn|4
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Overqwil|Crunch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|89/100
+|-unboost|p2a: Great Tusk|def|1
+|-damage|p1a: Overqwil|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Great Tusk|96/100|[from] item: Leftovers
+|turn|5
+|
+|-terastallize|p1a: Overqwil|Water
+|move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+|-boost|p1a: Overqwil|atk|2
+|move|p2a: Great Tusk|Stealth Rock|p1a: Overqwil
+|-sidestart|p1: really bout it|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Overqwil|Liquidation|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Overqwil|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Florges|Florges-White, F|100/100
+|turn|7
+|
+|move|p2a: Florges|Protect|p2a: Florges
+|-singleturn|p2a: Florges|Protect
+|move|p1a: Overqwil|Gunk Shot|p2a: Florges
+|-activate|p2a: Florges|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Overqwil|Crunch|p2a: Goodra
+|-damage|p2a: Goodra|11/100
+|-damage|p1a: Overqwil|71/100|[from] item: Life Orb
+|
+|-weather|none
+|turn|9
+|
+|move|p1a: Overqwil|Crunch|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|-damage|p1a: Overqwil|61/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|7/100
+|turn|10
+|
+|move|p1a: Overqwil|Crunch|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-damage|p1a: Overqwil|51/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|11
+|
+|switch|p1a: Pelipper|Pelipper, F|32/100
+|-damage|p1a: Pelipper|8/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Florges|Florges-White, F|100/100
+|move|p1a: Basculegion|Ice Beam|p2a: Florges
+|-damage|p2a: Florges|78/100
+|-damage|p1a: Basculegion|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Florges|84/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Basculegion|Hydro Pump|p2a: Florges
+|-damage|p2a: Florges|24/100
+|-damage|p1a: Basculegion|68/100|[from] item: Life Orb
+|move|p2a: Florges|Moonblast|p1a: Basculegion
+|-damage|p1a: Basculegion|25/100
+|-unboost|p1a: Basculegion|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Florges|30/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Florges|Protect|p2a: Florges
+|-singleturn|p2a: Florges|Protect
+|move|p1a: Basculegion|Hydro Pump|p2a: Florges
+|-activate|p2a: Florges|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Florges|36/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Basculegion|Hydro Pump|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|faint|p2a: Florges
+|-damage|p1a: Basculegion|15/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|turn|16
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|31/100
+|-damage|p1a: Basculegion|5/100|[from] item: Life Orb
+|move|p2a: Braviary|Esper Wing|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Overqwil|Overqwil, F, tera:Water|51/100
+|-damage|p1a: Overqwil|38/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Overqwil|Crunch|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|-damage|p1a: Overqwil|28/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|18
+|
+|move|p1a: Overqwil|Liquidation|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-damage|p1a: Overqwil|19/100|[from] item: Life Orb
+|
+|win|really bout it

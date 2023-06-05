@@ -1,0 +1,106 @@
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Scizor, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Great Tusk|
+|poke|p2|Alomomola, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Talonflame, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Braviary|Heat Wave|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|10/100
+|move|p2a: Magearna|Volt Switch|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|33/100
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100|[from] Volt Switch
+|
+|turn|2
+|
+|move|p1a: Braviary|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|3
+|
+|-terastallize|p2a: Clodsire|Psychic
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|83/100
+|-singleturn|p1a: Braviary|move: Roost
+|move|p2a: Clodsire|Toxic|p1a: Braviary
+|-status|p1a: Braviary|tox
+|
+|-damage|p1a: Braviary|77/100 tox|[from] psn
+|turn|4
+|
+|move|p1a: Braviary|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|48/100
+|move|p2a: Clodsire|Earthquake|p1a: Braviary
+|-immune|p1a: Braviary
+|
+|-damage|p1a: Braviary|65/100 tox|[from] psn
+|turn|5
+|
+|switch|p2a: Talonflame|Talonflame, F, shiny|100/100
+|move|p1a: Braviary|Hurricane|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|-damage|p1a: Braviary|46/100 tox|[from] psn
+|
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100
+|turn|6
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Braviary|Hurricane|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-damage|p1a: Braviary|22/100 tox|[from] psn
+|turn|7
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|turn|8
+|
+|move|p2a: Alomomola|Whirlpool|p1a: Clodsire
+|-immune|p1a: Clodsire|[from] ability: Water Absorb
+|move|p1a: Clodsire|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|85/100
+|
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|9
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Clodsire|Spikes|p2a: Alomomola
+|-sidestart|p2: woki mit deim koko|Spikes
+|
+|turn|10
+|
+|switch|p2a: Magearna|Magearna|10/100
+|move|p1a: Clodsire|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|turn|11
+|-message|woki mit deim koko forfeited.
+|
+|win|misplayin

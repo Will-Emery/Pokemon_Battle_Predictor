@@ -1,0 +1,64 @@
+|poke|p1|Enamorus, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Azumarill, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Azelf|
+|poke|p2|Sneasler, F|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, F|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: zelda|Azelf|100/100
+|turn|1
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: zelda|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: joelabite|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: zelda|Explosion|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|67/100
+|faint|p2a: zelda
+|move|p1a: Kingambit|Kowtow Cleave|p2: zelda|[notarget]
+|-fail|p1a: Kingambit
+|
+|
+|switch|p2a: nadakhan|Hoopa-Unbound|100/100
+|turn|3
+|
+|move|p2a: nadakhan|Drain Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p2a: mage|Magearna|100/100
+|move|p1a: Enamorus|Play Rough|p2a: mage
+|-resisted|p2a: mage
+|-damage|p2a: mage|78/100
+|
+|-heal|p1a: Enamorus|82/100|[from] item: Leftovers
+|-heal|p2a: mage|84/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Enamorus|Taunt|p2a: mage
+|-start|p2a: mage|move: Taunt
+|move|p2a: mage|Volt Switch|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|13/100
+|-message|joelabite forfeited.
+|
+|win|ArcDaBoss

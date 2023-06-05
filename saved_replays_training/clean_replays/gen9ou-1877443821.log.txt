@@ -1,0 +1,262 @@
+|poke|p1|Iron Valiant|
+|poke|p1|Ceruledge, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Baxcalibur, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Azelf|
+|poke|p2|Toxapex, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Corviknight, F|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Shasta|Ceruledge, F|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|1
+|
+|switch|p1a: Baller|Electrode-Hisui, shiny|100/100
+|move|p2a: Toxapex|Infestation|p1a: Baller
+|-supereffective|p1a: Baller
+|-damage|p1a: Baller|91/100
+|-activate|p1a: Baller|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Baller|78/100|[from] move: Infestation|[partiallytrapped]
+|turn|2
+|
+|move|p1a: Baller|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|move|p2a: Toxapex|Sludge Bomb|p1a: Baller
+|-supereffective|p1a: Baller
+|-damage|p1a: Baller|22/100
+|
+|-damage|p2a: Toxapex|88/100|[from] Leech Seed|[of] p1a: Baller
+|-heal|p1a: Baller|34/100|[silent]
+|-damage|p1a: Baller|21/100|[from] move: Infestation|[partiallytrapped]
+|turn|3
+|
+|move|p1a: Baller|Thunder Wave|p2a: Toxapex
+|-status|p2a: Toxapex|par
+|cant|p2a: Toxapex|par
+|
+|-damage|p2a: Toxapex|75/100 par|[from] Leech Seed|[of] p1a: Baller
+|-heal|p1a: Baller|33/100|[silent]
+|-damage|p1a: Baller|21/100|[from] move: Infestation|[partiallytrapped]
+|turn|4
+|
+|move|p1a: Baller|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|44/100 par
+|
+|switch|p1a: Benjira|Baxcalibur, M|100/100|[from] Volt Switch
+|move|p2a: Toxapex|Sludge Bomb|p1a: Benjira
+|-damage|p1a: Benjira|74/100
+|
+|-damage|p2a: Toxapex|31/100 par|[from] Leech Seed|[of] p1a: Benjira
+|-heal|p1a: Benjira|85/100|[silent]
+|turn|5
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Benjira|Dragon Dance|p1a: Benjira
+|-boost|p1a: Benjira|atk|1
+|-boost|p1a: Benjira|spe|1
+|
+|turn|6
+|
+|-terastallize|p1a: Benjira|Ghost
+|move|p1a: Benjira|Dragon Dance|p1a: Benjira
+|-boost|p1a: Benjira|atk|1
+|-boost|p1a: Benjira|spe|1
+|move|p2a: Corviknight|Body Press|p1a: Benjira
+|-immune|p1a: Benjira
+|
+|turn|7
+|
+|move|p1a: Benjira|Dragon Dance|p1a: Benjira
+|-boost|p1a: Benjira|atk|1
+|-boost|p1a: Benjira|spe|1
+|move|p2a: Corviknight|Brave Bird|p1a: Benjira
+|-damage|p1a: Benjira|45/100
+|-damage|p2a: Corviknight|88/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Benjira|Glaive Rush|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|26/100
+|-singlemove|p1a: Benjira|Glaive Rush|[silent]
+|move|p2a: Corviknight|Brave Bird|p1a: Benjira
+|-damage|p1a: Benjira|0 fnt
+|faint|p1a: Benjira
+|-damage|p2a: Corviknight|13/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|19/100|[from] item: Leftovers
+|
+|switch|p1a: Baller|Electrode-Hisui, shiny|21/100
+|turn|9
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Baller|Volt Switch|p2a: Thundurus
+|-immune|p2a: Thundurus|[from] ability: Volt Absorb
+|
+|turn|10
+|
+|move|p1a: Baller|Leech Seed|p2a: Thundurus
+|-start|p2a: Thundurus|move: Leech Seed
+|move|p2a: Thundurus|Tera Blast|p1a: Baller
+|-damage|p1a: Baller|0 fnt
+|faint|p1a: Baller
+|
+|
+|switch|p1a: Shasta|Ceruledge, F|100/100
+|turn|11
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Shasta|Swords Dance|p1a: Shasta
+|-boost|p1a: Shasta|atk|2
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|12
+|
+|move|p1a: Shasta|Swords Dance|p1a: Shasta
+|-boost|p1a: Shasta|atk|2
+|move|p2a: Ursaluna|Earthquake|p1a: Shasta
+|-supereffective|p1a: Shasta
+|-enditem|p1a: Shasta|Focus Sash
+|-damage|p1a: Shasta|1/100
+|-ability|p1a: Shasta|Weak Armor|boost
+|-unboost|p1a: Shasta|def|1
+|-boost|p1a: Shasta|spe|2
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Shasta|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Shasta|def|1
+|-unboost|p1a: Shasta|spd|1
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|14
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Shasta
+|-resisted|p1a: Shasta
+|-damage|p1a: Shasta|0 fnt
+|faint|p1a: Shasta
+|
+|
+|switch|p1a: Eku|Iron Valiant|100/100
+|-enditem|p1a: Eku|Booster Energy
+|-activate|p1a: Eku|ability: Quark Drive|[fromitem]
+|-start|p1a: Eku|quarkdrivespe
+|turn|15
+|
+|switch|p2a: Toxapex|Toxapex, F|65/100 par
+|move|p1a: Eku|Aura Sphere|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|54/100 par
+|
+|turn|16
+|
+|move|p1a: Eku|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|23/100 par
+|move|p2a: Toxapex|Infestation|p1a: Eku
+|-resisted|p1a: Eku
+|-damage|p1a: Eku|99/100
+|-activate|p1a: Eku|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Eku|87/100|[from] move: Infestation|[partiallytrapped]
+|turn|17
+|
+|move|p1a: Eku|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-end|p1a: Eku|Infestation|[partiallytrapped]|[silent]
+|
+|switch|p2a: MistinItUp|Azelf|100/100
+|turn|18
+|
+|-end|p1a: Eku|Quark Drive|[silent]
+|switch|p1a: Steve|Samurott-Hisui, M|100/100
+|move|p2a: MistinItUp|Energy Ball|p1a: Steve
+|-supereffective|p1a: Steve
+|-damage|p1a: Steve|41/100
+|
+|turn|19
+|
+|move|p2a: MistinItUp|Energy Ball|p1a: Steve
+|-supereffective|p1a: Steve
+|-damage|p1a: Steve|0 fnt
+|faint|p1a: Steve
+|
+|
+|switch|p1a: Ravage|Corviknight, M|100/100
+|-ability|p1a: Ravage|Pressure
+|turn|20
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Ravage|Iron Defense|p1a: Ravage
+|-boost|p1a: Ravage|def|2
+|
+|turn|21
+|
+|move|p2a: Thundurus|Thunder|p1a: Ravage|[miss]
+|-miss|p2a: Thundurus|p1a: Ravage
+|move|p1a: Ravage|Iron Defense|p1a: Ravage
+|-boost|p1a: Ravage|def|2
+|
+|turn|22
+|
+|move|p2a: Thundurus|Thunder|p1a: Ravage|[miss]
+|-miss|p2a: Thundurus|p1a: Ravage
+|move|p1a: Ravage|Defog|p2a: Thundurus
+|-unboost|p2a: Thundurus|evasion|1
+|
+|turn|23
+|
+|move|p2a: Thundurus|Thunder|p1a: Ravage|[miss]
+|-miss|p2a: Thundurus|p1a: Ravage
+|move|p1a: Ravage|Body Press|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|43/100
+|
+|turn|24
+|
+|move|p2a: Thundurus|Thunder|p1a: Ravage
+|-supereffective|p1a: Ravage
+|-damage|p1a: Ravage|0 fnt
+|faint|p1a: Ravage
+|
+|
+|switch|p1a: Eku|Iron Valiant|87/100
+|turn|25
+|
+|move|p1a: Eku|Moonblast|p2a: Thundurus
+|-crit|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|
+|switch|p2a: MistinItUp|Azelf|100/100
+|turn|26
+|
+|move|p2a: MistinItUp|Mystical Power|p1a: Eku
+|-supereffective|p1a: Eku
+|-damage|p1a: Eku|0 fnt
+|-boost|p2a: MistinItUp|spa|1
+|faint|p1a: Eku
+|-end|p1a: Eku|Quark Drive|[silent]
+|
+|win|TrueEcho

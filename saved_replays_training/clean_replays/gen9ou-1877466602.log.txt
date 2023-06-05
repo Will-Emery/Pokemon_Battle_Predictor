@@ -1,0 +1,304 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Floatzel, F|
+|poke|p2|Golduck, M|
+|poke|p2|Pawmot, F|
+|poke|p2|Toedscruel, F|
+|poke|p2|Azumarill, F|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|turn|1
+|
+|switch|p2a: Spaghetti Memory|Toedscruel, F|100/100
+|move|p1a: Enamorus|Moonblast|p2a: Spaghetti Memory
+|-damage|p2a: Spaghetti Memory|64/100
+|-unboost|p2a: Spaghetti Memory|spa|1
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: Enamorus|Taunt|p2a: Spaghetti Memory
+|-start|p2a: Spaghetti Memory|move: Taunt
+|cant|p2a: Spaghetti Memory|move: Taunt|Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Enamorus|Moonblast|p2a: Spaghetti Memory
+|-crit|p2a: Spaghetti Memory
+|-damage|p2a: Spaghetti Memory|6/100
+|-unboost|p2a: Spaghetti Memory|spa|1
+|move|p2a: Spaghetti Memory|Knock Off|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|87/100
+|-enditem|p1a: Enamorus|Pixie Plate|[from] move: Knock Off|[of] p2a: Spaghetti Memory
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: Enamorus|Moonblast|p2a: Spaghetti Memory
+|-damage|p2a: Spaghetti Memory|0 fnt
+|faint|p2a: Spaghetti Memory
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: The Goat|Azumarill, F|100/100
+|turn|5
+|
+|move|p1a: Enamorus|Taunt|p2a: The Goat
+|-start|p2a: The Goat|move: Taunt
+|move|p2a: The Goat|Liquidation|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|6
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: The Goat
+|-resisted|p2a: The Goat
+|-damage|p2a: The Goat|78/100
+|-sidestart|p2: WeirdHamster|Spikes
+|move|p2a: The Goat|Play Rough|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|7
+|
+|-terastallize|p2a: The Goat|Water
+|move|p2a: The Goat|Aqua Jet|p1a: Sneasler
+|-damage|p1a: Sneasler|14/100
+|move|p1a: Sneasler|Dire Claw|p2a: The Goat
+|-damage|p2a: The Goat|39/100
+|-status|p2a: The Goat|psn
+|-enditem|p2a: The Goat|Sitrus Berry|[eat]
+|-heal|p2a: The Goat|64/100 psn|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: The Goat|51/100 psn|[from] psn
+|-end|p2a: The Goat|move: Taunt
+|turn|8
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: The Goat|Aqua Jet|p1a: Gholdengo
+|-damage|p1a: Gholdengo|63/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-weather|none
+|-damage|p2a: The Goat|39/100 psn|[from] psn
+|turn|9
+|
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|move|p1a: Gholdengo|Thunder Wave|p2a: Ghoti carrier
+|-status|p2a: Ghoti carrier|par
+|move|p2a: Ghoti carrier|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|59/100
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ghoti carrier|atk|1
+|move|p2a: Ghoti carrier|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|98/100
+|
+|switch|p2a: BandedSkeda|Floatzel, F|100/100|[from] U-turn
+|-damage|p2a: BandedSkeda|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Landorus|Protect|p1a: Landorus
+|-singleturn|p1a: Landorus|Protect
+|move|p2a: BandedSkeda|Liquidation|p1a: Landorus
+|-activate|p1a: Landorus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|-terastallize|p1a: Landorus|Water
+|move|p2a: BandedSkeda|Liquidation|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|55/100
+|move|p1a: Landorus|Earthquake|p2a: BandedSkeda
+|-damage|p2a: BandedSkeda|9/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|61/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Landorus|Protect|p1a: Landorus
+|-singleturn|p1a: Landorus|Protect
+|move|p2a: BandedSkeda|Liquidation|p1a: Landorus
+|-activate|p1a: Landorus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|67/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Gholdengo|Gholdengo|59/100
+|move|p2a: BandedSkeda|Liquidation|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|16
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: BandedSkeda
+|-damage|p2a: BandedSkeda|0 fnt
+|faint|p2a: BandedSkeda
+|
+|-weather|none
+|
+|switch|p2a: Really want eject|Pawmot, F|100/100
+|-damage|p2a: Really want eject|88/100|[from] Spikes
+|turn|17
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Really want eject
+|-damage|p2a: Really want eject|12/100
+|move|p2a: Really want eject|Nuzzle|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|89/100
+|-status|p1a: Chien-Pao|par
+|
+|turn|18
+|
+|move|p2a: Really want eject|Revival Blessing|p2a: Really want eject
+|-enditem|p2a: Really want eject|Leppa Berry|[eat]
+|-activate|p2a: Really want eject|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p2: BandedSkeda|50/100|[from] move: Revival Blessing
+|move|p1a: Chien-Pao|Crunch|p2a: Really want eject
+|-resisted|p2a: Really want eject
+|-damage|p2a: Really want eject|0 fnt
+|faint|p2a: Really want eject
+|
+|
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|turn|19
+|
+|cant|p1a: Chien-Pao|par
+|cant|p2a: Ghoti carrier|par
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Ghoti carrier
+|-damage|p2a: Ghoti carrier|43/100 par
+|move|p2a: Ghoti carrier|U-turn|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|65/100 par
+|
+|switch|p2a: Seaking Duck|Golduck, M|100/100|[from] U-turn
+|-damage|p2a: Seaking Duck|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p2a: Seaking Duck|Surf|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|-damage|p2a: Seaking Duck|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, M|14/100
+|turn|22
+|
+|move|p1a: Sneasler|Close Combat|p2a: Seaking Duck
+|-damage|p2a: Seaking Duck|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Seaking Duck
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: BandedSkeda|Floatzel, F|50/100
+|-damage|p2a: BandedSkeda|38/100|[from] Spikes
+|turn|23
+|
+|move|p2a: BandedSkeda|Aqua Jet|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Landorus|Landorus-Therian, M, tera:Water|67/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: BandedSkeda|atk|1
+|turn|24
+|
+|switch|p2a: The Goat|Azumarill, F, tera:Water|39/100 psn
+|-damage|p2a: The Goat|26/100 psn|[from] Spikes
+|move|p1a: Landorus|U-turn|p2a: The Goat
+|-damage|p2a: The Goat|5/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|73/100|[from] item: Leftovers
+|-damage|p2a: The Goat|0 fnt|[from] psn
+|faint|p2a: The Goat
+|
+|switch|p2a: BandedSkeda|Floatzel, F|38/100
+|-damage|p2a: BandedSkeda|26/100|[from] Spikes
+|turn|25
+|
+|move|p1a: Landorus|Protect|p1a: Landorus
+|-singleturn|p1a: Landorus|Protect
+|move|p2a: BandedSkeda|Wave Crash|p1a: Landorus
+|-activate|p1a: Landorus|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|80/100|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: BandedSkeda|Wave Crash|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|17/100
+|-damage|p2a: BandedSkeda|2/100|[from] Recoil
+|move|p1a: Landorus|Earthquake|p2a: BandedSkeda
+|-damage|p2a: BandedSkeda|0 fnt
+|faint|p2a: BandedSkeda
+|
+|-weather|none
+|-heal|p1a: Landorus|23/100|[from] item: Leftovers
+|
+|switch|p2a: Ghoti carrier|Pelipper, F|43/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|turn|27
+|
+|move|p1a: Landorus|U-turn|p2a: Ghoti carrier
+|-resisted|p2a: Ghoti carrier
+|-damage|p2a: Ghoti carrier|32/100 par
+|move|p2a: Ghoti carrier|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|WeirdHamster

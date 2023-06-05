@@ -1,0 +1,129 @@
+|poke|p1|Polteageist|
+|poke|p1|Oricorio, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Sudowoodo, F|
+|poke|p1|Bronzong|
+|poke|p1|Chien-Pao|
+|poke|p2|Cinderace, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Glalie, M|
+|poke|p2|Luxray, F|
+|poke|p2|Mismagius, F|
+|poke|p2|Talonflame, M|
+|teampreview
+|
+|start
+|switch|p1a: Liberty Bell|Bronzong, shiny|100/100
+|switch|p2a: Kenji|Glalie, M|100/100
+|turn|1
+|
+|move|p2a: Kenji|Shadow Ball|p1a: Liberty Bell
+|-supereffective|p1a: Liberty Bell
+|-damage|p1a: Liberty Bell|74/100
+|move|p1a: Liberty Bell|Light Screen|p1a: Liberty Bell
+|-sidestart|p1: DubiousWitch|move: Light Screen
+|
+|turn|2
+|
+|move|p2a: Kenji|Shadow Ball|p1a: Liberty Bell
+|-supereffective|p1a: Liberty Bell
+|-damage|p1a: Liberty Bell|61/100
+|-unboost|p1a: Liberty Bell|spd|1
+|move|p1a: Liberty Bell|Reflect|p1a: Liberty Bell
+|-sidestart|p1: DubiousWitch|Reflect
+|
+|turn|3
+|
+|move|p2a: Kenji|Shadow Ball|p1a: Liberty Bell
+|-supereffective|p1a: Liberty Bell
+|-damage|p1a: Liberty Bell|39/100
+|move|p1a: Liberty Bell|Gyro Ball|p2a: Kenji
+|-supereffective|p2a: Kenji
+|-damage|p2a: Kenji|0 fnt
+|faint|p2a: Kenji
+|
+|
+|switch|p2a: Schierke|Mismagius, F|100/100
+|turn|4
+|
+|move|p2a: Schierke|Shadow Ball|p1a: Liberty Bell
+|-supereffective|p1a: Liberty Bell
+|-damage|p1a: Liberty Bell|0 fnt
+|faint|p1a: Liberty Bell
+|-damage|p2a: Schierke|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: DDR|Oricorio, F, shiny|100/100
+|turn|5
+|
+|move|p2a: Schierke|Shadow Ball|p1a: DDR
+|-crit|p1a: DDR
+|-damage|p1a: DDR|0 fnt
+|faint|p1a: DDR
+|-damage|p2a: Schierke|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Cup 'o Tea|Polteageist, shiny|100/100
+|turn|6
+|
+|move|p2a: Schierke|Shadow Ball|p1a: Cup 'o Tea
+|-supereffective|p1a: Cup 'o Tea
+|-damage|p1a: Cup 'o Tea|45/100
+|-damage|p2a: Schierke|71/100|[from] item: Life Orb
+|move|p1a: Cup 'o Tea|Shell Smash|p1a: Cup 'o Tea
+|-unboost|p1a: Cup 'o Tea|def|1
+|-unboost|p1a: Cup 'o Tea|spd|1
+|-boost|p1a: Cup 'o Tea|atk|2
+|-boost|p1a: Cup 'o Tea|spa|2
+|-boost|p1a: Cup 'o Tea|spe|2
+|-enditem|p1a: Cup 'o Tea|White Herb
+|-clearnegativeboost|p1a: Cup 'o Tea|[silent]
+|
+|turn|7
+|
+|move|p1a: Cup 'o Tea|Shadow Ball|p2a: Schierke
+|-supereffective|p2a: Schierke
+|-damage|p2a: Schierke|0 fnt
+|faint|p2a: Schierke
+|
+|
+|switch|p2a: Striker|Cinderace, M|100/100
+|turn|8
+|
+|move|p1a: Cup 'o Tea|Stored Power|p2a: Striker
+|-damage|p2a: Striker|0 fnt
+|faint|p2a: Striker
+|
+|-sideend|p1: DubiousWitch|move: Light Screen
+|
+|switch|p2a: Queen|Tsareena, F|100/100
+|turn|9
+|
+|move|p1a: Cup 'o Tea|Strength Sap|p2a: Queen
+|-unboost|p2a: Queen|atk|1
+|-heal|p1a: Cup 'o Tea|100/100
+|move|p2a: Queen|Power Whip|p1a: Cup 'o Tea|[miss]
+|-miss|p2a: Queen|p1a: Cup 'o Tea
+|
+|-sideend|p1: DubiousWitch|Reflect
+|turn|10
+|
+|move|p1a: Cup 'o Tea|Stored Power|p2a: Queen
+|-damage|p2a: Queen|0 fnt
+|faint|p2a: Queen
+|
+|
+|switch|p2a: Luftwaffe|Talonflame, M|100/100
+|turn|11
+|
+|move|p2a: Luftwaffe|Brave Bird|p1a: Cup 'o Tea
+|-damage|p1a: Cup 'o Tea|12/100
+|-start|p2a: Luftwaffe|Disable|Brave Bird|[from] ability: Cursed Body|[of] p1a: Cup 'o Tea
+|-damage|p2a: Luftwaffe|75/100|[from] Recoil
+|move|p1a: Cup 'o Tea|Shadow Ball|p2a: Luftwaffe
+|-damage|p2a: Luftwaffe|0 fnt
+|faint|p2a: Luftwaffe
+|
+|-message|sierra24 forfeited.
+|
+|win|DubiousWitch

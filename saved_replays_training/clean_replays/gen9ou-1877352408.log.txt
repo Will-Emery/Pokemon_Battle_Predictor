@@ -1,0 +1,134 @@
+|poke|p1|Magearna|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Magnezone|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Cyclizar, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Tornadus, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Slowking, F|
+|teampreview
+|
+|start
+|switch|p1a: Cyclizar|Cyclizar, F|100/100
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|turn|1
+|
+|move|p2a: Tornadus|Taunt|p1a: Cyclizar
+|-start|p1a: Cyclizar|move: Taunt
+|move|p1a: Cyclizar|Knock Off|p2a: Tornadus
+|-damage|p2a: Tornadus|69/100
+|-enditem|p2a: Tornadus|Leftovers|[from] move: Knock Off|[of] p1a: Cyclizar
+|
+|turn|2
+|
+|move|p2a: Tornadus|Sunny Day|p2a: Tornadus
+|-weather|SunnyDay
+|move|p1a: Cyclizar|Draco Meteor|p2a: Tornadus|[miss]
+|-miss|p1a: Cyclizar|p2a: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|move|p1a: Cyclizar|Draco Meteor|p2a: Tornadus
+|-damage|p2a: Tornadus|15/100
+|-unboost|p1a: Cyclizar|spa|2
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Cyclizar
+|-damage|p1a: Cyclizar|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Cyclizar|move: Taunt
+|turn|4
+|
+|move|p2a: Tornadus|Taunt|p1a: Cyclizar
+|-start|p1a: Cyclizar|move: Taunt
+|move|p1a: Cyclizar|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|4/100
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Samurott|Aqua Jet|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|92/100
+|-damage|p1a: Samurott|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-weather|none
+|turn|7
+|
+|move|p2a: Lilligant|Bullet Seed|p1a: Landorus
+|-damage|p1a: Landorus|87/100
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|66/100
+|-damage|p1a: Landorus|51/100
+|-damage|p1a: Landorus|36/100
+|-hitcount|p1a: Landorus|4
+|move|p1a: Landorus|Stealth Rock|p2a: Lilligant
+|-sidestart|p2: midius|move: Stealth Rock
+|
+|-heal|p1a: Landorus|42/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Landorus|U-turn|p2a: Lilligant
+|-crit|p2a: Lilligant
+|-damage|p2a: Lilligant|32/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] U-turn
+|
+|turn|9
+|
+|-terastallize|p2a: Lilligant|Grass
+|move|p2a: Lilligant|Axe Kick|p1a: Magearna|[miss]
+|-miss|p2a: Lilligant|p1a: Magearna
+|-damage|p2a: Lilligant|0 fnt|[from] highjumpkick
+|faint|p2a: Lilligant
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Draining Kiss|p2: Lilligant|[notarget]
+|-fail|p1a: Magearna
+|
+|
+|switch|p2a: Tornadus|Tornadus, M|4/100
+|-damage|p2a: Tornadus|0 fnt|[from] Stealth Rock
+|faint|p2a: Tornadus
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-damage|p2a: Arcanine|76/100|[from] Stealth Rock
+|turn|10
+|
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Arcanine|Double-Edge|p1a: Magearna
+|-damage|p1a: Magearna|66/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|72/100|[from] item: Leftovers
+|turn|11
+|-message|midius forfeited.
+|
+|win|Steel016

@@ -1,0 +1,211 @@
+|poke|p1|Great Tusk|
+|poke|p1|Breloom, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, F|
+|poke|p2|Magearna|
+|poke|p2|Volcarona, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|-terastallize|p2a: Samurott|Fairy
+|move|p1a: Cinderace|U-turn|p2a: Samurott
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|84/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|move|p2a: Samurott|Razor Shell|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|73/100
+|-unboost|p1a: Rotom|def|1
+|
+|turn|2
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-sidestart|p1: realspades|Spikes
+|faint|p1a: Rotom
+|
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|-damage|p1a: Breloom|88/100|[from] Spikes
+|turn|3
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|88/100|[from] Spikes
+|move|p2a: Samurott|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|
+|-heal|p1a: Great Tusk|94/100|[from] item: Leftovers
+|turn|4
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Breloom|Breloom, M|88/100
+|-damage|p1a: Breloom|76/100|[from] Spikes
+|move|p2a: Samurott|Razor Shell|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|30/100
+|
+|turn|5
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|-sidestart|p1: realspades|Spikes
+|faint|p1a: Breloom
+|
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|84/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|6
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Magearna
+|-damage|p2a: Magearna|57/100
+|
+|-heal|p2a: Magearna|63/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|90/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Great Tusk|Great Tusk|94/100
+|-damage|p1a: Great Tusk|78/100|[from] Spikes
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|
+|-heal|p1a: Great Tusk|84/100|[from] item: Leftovers
+|-heal|p2a: Magearna|69/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|67/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: realspades|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Magearna|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|28/100
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|35/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|95/100
+|-enditem|p2a: Magearna|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|
+|-heal|p1a: Great Tusk|41/100|[from] item: Leftovers
+|turn|10
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Magearna|Draining Kiss|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|88/100
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Cinderace
+|
+|turn|11
+|
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Magearna
+|-status|p2a: Magearna|brn
+|move|p2a: Magearna|Stored Power|p1a: Cinderace
+|-damage|p1a: Cinderace|54/100
+|
+|-damage|p2a: Magearna|94/100 brn|[from] brn
+|turn|12
+|
+|move|p1a: Cinderace|U-turn|p2a: Magearna
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|93/100 brn
+|
+|switch|p1a: Great Tusk|Great Tusk|41/100|[from] U-turn
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p1a: Great Tusk|47/100|[from] item: Leftovers
+|-damage|p2a: Magearna|87/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|63/100 brn
+|move|p2a: Magearna|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Magearna|100/100 brn|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Magearna|94/100 brn|[from] brn
+|
+|switch|p1a: Cinderace|Cinderace, F|54/100
+|turn|14
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|72/100 brn
+|move|p2a: Magearna|Stored Power|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-damage|p2a: Magearna|66/100 brn|[from] brn
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|15
+|
+|switch|p1a: Kingambit|Kingambit, M|90/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Magearna|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|23/100
+|-heal|p2a: Magearna|100/100 brn|[from] drain|[of] p1a: Kingambit
+|
+|-heal|p1a: Kingambit|29/100|[from] item: Leftovers
+|-damage|p2a: Magearna|94/100 brn|[from] brn
+|turn|16
+|
+|-terastallize|p1a: Kingambit|Fire
+|move|p2a: Magearna|Draining Kiss|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: Magearna|100/100 brn|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|-damage|p2a: Magearna|94/100 brn|[from] brn
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|17
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Magearna
+|-immune|p2a: Magearna
+|move|p2a: Magearna|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Magearna|100/100 brn|[from] drain|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|win|X-Scizor

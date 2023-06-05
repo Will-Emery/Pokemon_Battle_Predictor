@@ -1,0 +1,300 @@
+|poke|p1|Hatterene, F|
+|poke|p1|Magearna|
+|poke|p1|Ursaluna, M|
+|poke|p1|Glastrier|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Braviary-Hisui, M|
+|poke|p2|Magearna|
+|poke|p2|Clodsire, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|2
+|
+|move|p2a: Clodsire|Stealth Rock|p1a: Magearna
+|-sidestart|p1: Drewgeez|move: Stealth Rock
+|move|p1a: Magearna|Fleur Cannon|p2a: Clodsire|[miss]
+|-miss|p1a: Magearna|p2a: Clodsire
+|
+|turn|3
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|move|p2a: Clodsire|Earthquake|p1a: Glastrier
+|-damage|p1a: Glastrier|83/100
+|
+|turn|4
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Glastrier|Swords Dance|p1a: Glastrier
+|-boost|p1a: Glastrier|atk|2
+|
+|turn|5
+|
+|move|p1a: Glastrier|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|37/100
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|43/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|6
+|
+|-terastallize|p1a: Glastrier|Electric
+|move|p2a: Magearna|Draining Kiss|p1a: Glastrier
+|-damage|p1a: Glastrier|46/100
+|-heal|p2a: Magearna|74/100|[from] drain|[of] p1a: Glastrier
+|move|p1a: Glastrier|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|9/100
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|
+|-heal|p2a: Magearna|15/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|-heal|p2a: Magearna|53/100|[from] drain|[of] p1a: Glastrier
+|faint|p1a: Glastrier
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|59/100|[from] item: Leftovers
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|9
+|
+|move|p2a: Clodsire|Toxic|p1a: Magearna
+|-immune|p1a: Magearna
+|move|p1a: Magearna|Fleur Cannon|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|70/100
+|-unboost|p1a: Magearna|spa|2
+|-enditem|p1a: Magearna|Eject Pack
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Clodsire|76/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|10
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|11
+|
+|move|p1a: Ursaluna|Facade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|18/100
+|move|p2a: Great Tusk|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|12
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Slowking|Psyshock|p2a: Volcanion
+|-damage|p2a: Volcanion|78/100
+|
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|13
+|
+|move|p2a: Volcanion|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|51/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|57/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100|[from] Chilly Reception
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|move|p2a: Volcanion|Earth Power|p1a: Braviary
+|-immune|p1a: Braviary
+|
+|-weather|Snow|[upkeep]
+|turn|15
+|
+|move|p1a: Braviary|Psychic|p2a: Volcanion
+|-damage|p2a: Volcanion|39/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Braviary
+|-damage|p1a: Braviary|16/100
+|
+|-weather|Snow|[upkeep]
+|turn|16
+|
+|move|p1a: Braviary|Hurricane|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Clodsire|Clodsire, M|76/100
+|turn|17
+|
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|move|p1a: Braviary|Psychic|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|21/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Clodsire|27/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|18
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Braviary|Psychic|p2a: Chien-Pao
+|-immune|p2a: Chien-Pao
+|
+|-weather|none
+|turn|19
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Hatterene
+|-damage|p1a: Hatterene|3/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|turn|21
+|
+|move|p1a: Hatterene|Nuzzle|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|95/100
+|-status|p2a: Chien-Pao|par
+|move|p2a: Chien-Pao|Crunch|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|
+|switch|p1a: Magearna|Magearna|94/100
+|-damage|p1a: Magearna|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Chien-Pao
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Clodsire|Clodsire, M|27/100
+|turn|23
+|
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|77/100
+|move|p1a: Magearna|Flash Cannon|p2a: Clodsire
+|-damage|p2a: Clodsire|52/100
+|
+|-heal|p2a: Clodsire|58/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Clodsire|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|46/100
+|move|p1a: Magearna|Flash Cannon|p2a: Clodsire
+|-damage|p2a: Clodsire|32/100
+|
+|-heal|p2a: Clodsire|38/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|25
+|
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|88/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-heal|p2a: Clodsire|95/100|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Clodsire|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|3/100
+|move|p1a: Magearna|Flash Cannon|p2a: Clodsire
+|-damage|p2a: Clodsire|69/100
+|
+|-heal|p2a: Clodsire|75/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Clodsire|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-heal|p2a: Clodsire|82/100|[from] item: Leftovers
+|
+|switch|p1a: Slowking|Slowking-Galar, F|91/100
+|-damage|p1a: Slowking|78/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Clodsire|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|23/100
+|move|p1a: Slowking|Psyshock|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|17/100
+|
+|-heal|p2a: Clodsire|23/100|[from] item: Leftovers
+|-heal|p1a: Slowking|29/100|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Clodsire|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|win|Deftab

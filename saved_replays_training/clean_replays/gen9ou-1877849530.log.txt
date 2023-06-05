@@ -1,0 +1,208 @@
+|poke|p1|Kingambit, M|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Volcanion|
+|poke|p1|Iron Treads|
+|poke|p1|Kleavor, M|
+|poke|p2|Azumarill, F|
+|poke|p2|Iron Hands|
+|poke|p2|Meowscarada, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: thunderyama|Iron Hands|100/100
+|turn|1
+|
+|move|p1a: Kleavor|Stone Axe|p2a: thunderyama
+|-resisted|p2a: thunderyama
+|-crit|p2a: thunderyama
+|-damage|p2a: thunderyama|75/100
+|-sidestart|p2: pokeroxas|move: Stealth Rock
+|move|p2a: thunderyama|Drain Punch|p1a: Kleavor
+|-damage|p1a: Kleavor|40/100
+|-heal|p2a: thunderyama|91/100|[from] drain|[of] p1a: Kleavor
+|
+|-heal|p2a: thunderyama|98/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Kleavor|Close Combat|p2a: thunderyama
+|-damage|p2a: thunderyama|71/100
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|move|p2a: thunderyama|Swords Dance|p2a: thunderyama
+|-boost|p2a: thunderyama|atk|2
+|
+|-heal|p2a: thunderyama|77/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Kleavor|U-turn|p2a: thunderyama
+|-resisted|p2a: thunderyama
+|-damage|p2a: thunderyama|65/100
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|move|p2a: thunderyama|Swords Dance|p2a: thunderyama
+|-boost|p2a: thunderyama|atk|2
+|
+|-heal|p2a: thunderyama|72/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Kingambit|U-turn|p2a: thunderyama
+|-resisted|p2a: thunderyama
+|-damage|p2a: thunderyama|67/100
+|
+|switch|p1a: Kleavor|Kleavor, M|40/100|[from] U-turn
+|move|p2a: thunderyama|Drain Punch|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-heal|p2a: thunderyama|78/100|[from] drain|[of] p1a: Kleavor
+|faint|p1a: Kleavor
+|
+|-heal|p2a: thunderyama|84/100|[from] item: Leftovers
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|turn|5
+|
+|move|p1a: Kingambit|Hyper Voice|p2a: thunderyama
+|-damage|p2a: thunderyama|45/100
+|move|p2a: thunderyama|Drain Punch|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|-heal|p2a: thunderyama|51/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Kingambit|Hyper Voice|p2a: thunderyama
+|-damage|p2a: thunderyama|6/100
+|move|p2a: thunderyama|Earthquake|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|-heal|p2a: thunderyama|12/100|[from] item: Leftovers
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|turn|7
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: thunderyama
+|-resisted|p2a: thunderyama
+|-damage|p2a: thunderyama|0 fnt
+|faint|p2a: thunderyama
+|-end|p2a: thunderyama|Quark Drive|[silent]
+|
+|
+|switch|p2a: quicksilver|Garchomp, M|100/100
+|-damage|p2a: quicksilver|94/100|[from] Stealth Rock
+|turn|8
+|
+|-terastallize|p2a: quicksilver|Fire
+|-terastallize|p1a: Kingambit|Flying
+|move|p2a: quicksilver|Fire Blast|p1a: Kingambit
+|-damage|p1a: Kingambit|49/100
+|-damage|p2a: quicksilver|85/100|[from] item: Life Orb
+|move|p1a: Kingambit|Iron Defense|p1a: Kingambit
+|-boost|p1a: Kingambit|def|2
+|
+|-heal|p1a: Kingambit|55/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: quicksilver|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: aej64j|move: Stealth Rock
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|62/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: quicksilver
+|-damage|p2a: quicksilver|0 fnt
+|-damage|p1a: Kingambit|49/100|[from] ability: Rough Skin|[of] p2a: quicksilver
+|faint|p2a: quicksilver
+|
+|-heal|p1a: Kingambit|55/100|[from] item: Leftovers
+|
+|switch|p2a: dot|Meowscarada, F|100/100
+|turn|11
+|
+|move|p2a: dot|Flower Trick|p1a: Kingambit
+|-start|p2a: dot|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|37/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: dot
+|-damage|p2a: dot|0 fnt
+|faint|p2a: dot
+|
+|-heal|p1a: Kingambit|43/100|[from] item: Leftovers
+|
+|switch|p2a: blob|Clodsire, F|100/100
+|-damage|p2a: blob|94/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: blob
+|-damage|p2a: blob|38/100
+|move|p2a: blob|Earthquake|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|50/100|[from] item: Leftovers
+|-heal|p2a: blob|44/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: blob
+|-damage|p2a: blob|0 fnt
+|faint|p2a: blob
+|
+|-heal|p1a: Kingambit|56/100|[from] item: Leftovers
+|
+|switch|p2a: salem|Hatterene, F|100/100
+|-damage|p2a: salem|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: salem
+|-damage|p2a: salem|11/100
+|move|p2a: salem|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|33/100
+|-heal|p2a: salem|32/100|[from] drain|[of] p1a: Kingambit
+|
+|-heal|p1a: Kingambit|39/100|[from] item: Leftovers
+|-heal|p2a: salem|38/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: salem
+|-damage|p2a: salem|0 fnt
+|faint|p2a: salem
+|
+|-heal|p1a: Kingambit|46/100|[from] item: Leftovers
+|
+|switch|p2a: bongotap|Azumarill, F|100/100
+|-damage|p2a: bongotap|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: bongotap|Aqua Jet|p1a: Kingambit
+|-damage|p1a: Kingambit|36/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: bongotap
+|-resisted|p2a: bongotap
+|-damage|p2a: bongotap|36/100
+|-enditem|p2a: bongotap|Sitrus Berry|[eat]
+|-heal|p2a: bongotap|61/100|[from] item: Sitrus Berry
+|
+|-heal|p1a: Kingambit|43/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: bongotap
+|-resisted|p2a: bongotap
+|-damage|p2a: bongotap|7/100
+|move|p2a: bongotap|Play Rough|p1a: Kingambit
+|-damage|p1a: Kingambit|20/100
+|
+|-heal|p1a: Kingambit|26/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: bongotap
+|-resisted|p2a: bongotap
+|-damage|p2a: bongotap|0 fnt
+|faint|p2a: bongotap
+|
+|win|aej64j

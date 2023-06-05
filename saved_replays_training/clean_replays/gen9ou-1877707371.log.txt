@@ -1,0 +1,1070 @@
+|poke|p1|Clodsire, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Blissey, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Breloom, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Miwa|Magearna|100/100
+|turn|1
+|
+|move|p1a: Glimmora|Toxic|p2a: Miwa
+|-status|p2a: Miwa|tox
+|move|p2a: Miwa|Shift Gear|p2a: Miwa
+|-boost|p2a: Miwa|spe|2
+|-boost|p2a: Miwa|atk|1
+|
+|-damage|p2a: Miwa|94/100 tox|[from] psn
+|turn|2
+|
+|move|p2a: Miwa|Stored Power|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|33/100
+|move|p1a: Glimmora|Earth Power|p2a: Miwa
+|-supereffective|p2a: Miwa
+|-damage|p2a: Miwa|47/100 tox
+|
+|-heal|p2a: Miwa|53/100 tox|[from] item: Leftovers
+|-damage|p2a: Miwa|41/100 tox|[from] psn
+|turn|3
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Miwa|Stored Power|p1a: Blissey
+|-damage|p1a: Blissey|90/100
+|
+|-heal|p2a: Miwa|47/100 tox|[from] item: Leftovers
+|-heal|p1a: Blissey|96/100|[from] item: Leftovers
+|-damage|p2a: Miwa|29/100 tox|[from] psn
+|turn|4
+|
+|move|p2a: Miwa|Draining Kiss|p1a: Blissey
+|-damage|p1a: Blissey|87/100
+|-heal|p2a: Miwa|44/100 tox|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Ice Beam|p2a: Miwa
+|-resisted|p2a: Miwa
+|-damage|p2a: Miwa|36/100 tox
+|
+|-heal|p2a: Miwa|42/100 tox|[from] item: Leftovers
+|-heal|p1a: Blissey|93/100|[from] item: Leftovers
+|-damage|p2a: Miwa|17/100 tox|[from] psn
+|turn|5
+|
+|move|p2a: Miwa|Draining Kiss|p1a: Blissey
+|-damage|p1a: Blissey|84/100
+|-heal|p2a: Miwa|33/100 tox|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Ice Beam|p2a: Miwa
+|-resisted|p2a: Miwa
+|-damage|p2a: Miwa|26/100 tox
+|
+|-heal|p2a: Miwa|32/100 tox|[from] item: Leftovers
+|-heal|p1a: Blissey|90/100|[from] item: Leftovers
+|-damage|p2a: Miwa|2/100 tox|[from] psn
+|turn|6
+|
+|move|p2a: Miwa|Stored Power|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Miwa|8/100 tox|[from] item: Leftovers
+|-damage|p2a: Miwa|0 fnt|[from] psn
+|faint|p2a: Miwa
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|7
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|-terastallize|p2a: Great Tusk|Steel
+|move|p2a: Great Tusk|Stealth Rock|p1a: Breloom
+|-sidestart|p1: atesrer|move: Stealth Rock
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|turn|8
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|88/100 tox
+|-enditem|p1a: Breloom|Toxic Orb|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|63/100 tox
+|
+|-heal|p1a: Breloom|76/100 tox|[from] ability: Poison Heal
+|turn|9
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Breloom|Leech Seed|p2a: Dragapult
+|-start|p2a: Dragapult|move: Leech Seed
+|
+|-damage|p2a: Dragapult|88/100|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|88/100 tox|[silent]
+|-heal|p1a: Breloom|99/100 tox|[from] ability: Poison Heal
+|turn|10
+|
+|move|p2a: Dragapult|Hex|p1a: Breloom
+|-damage|p1a: Breloom|14/100 tox
+|move|p1a: Breloom|Spore|p2a: Dragapult
+|-status|p2a: Dragapult|slp|[from] move: Spore
+|
+|-damage|p2a: Dragapult|76/100 slp|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|26/100 tox|[silent]
+|-heal|p1a: Breloom|38/100 tox|[from] ability: Poison Heal
+|turn|11
+|
+|cant|p2a: Dragapult|slp
+|move|p1a: Breloom|Leech Seed||[still]
+|-fail|p1a: Breloom
+|
+|-damage|p2a: Dragapult|64/100 slp|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|50/100 tox|[silent]
+|-heal|p1a: Breloom|63/100 tox|[from] ability: Poison Heal
+|turn|12
+|
+|switch|p1a: Glimmora|Glimmora, F|33/100
+|-damage|p1a: Glimmora|21/100|[from] Stealth Rock
+|-curestatus|p2a: Dragapult|slp|[msg]
+|move|p2a: Dragapult|Hex|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Great Tusk|Great Tusk, tera:Steel|100/100
+|move|p1a: Toxapex|Infestation|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|99/100
+|-activate|p2a: Great Tusk|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p2a: Great Tusk|88/100|[from] move: Infestation|[partiallytrapped]
+|turn|14
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100
+|-boost|p2a: Great Tusk|spe|1
+|-end|p2a: Great Tusk|Infestation|[partiallytrapped]
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|74/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|80/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|85/100|[from] item: Black Sludge
+|turn|15
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|74/100
+|-enditem|p1a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Toxapex|Infestation|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|78/100
+|-activate|p2a: Great Tusk|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p2a: Great Tusk|85/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|72/100|[from] move: Infestation|[partiallytrapped]
+|turn|16
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|58/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|64/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|51/100|[from] move: Infestation|[partiallytrapped]
+|turn|17
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|14/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|64/100
+|
+|-heal|p2a: Great Tusk|58/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|45/100|[from] move: Infestation|[partiallytrapped]
+|turn|18
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|-boost|p2a: Great Tusk|spe|1
+|-end|p2a: Great Tusk|Infestation|[partiallytrapped]
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|31/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|38/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|36/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|86/100
+|
+|-heal|p2a: Great Tusk|44/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100
+|move|p1a: Toxapex|Infestation|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|42/100
+|-activate|p2a: Great Tusk|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p2a: Great Tusk|48/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|36/100|[from] move: Infestation|[partiallytrapped]
+|turn|21
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|62/100
+|-boost|p2a: Great Tusk|spe|1
+|-end|p2a: Great Tusk|Infestation|[partiallytrapped]
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|22/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|28/100|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|44/100
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|16/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|22/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p1a: Breloom|Breloom, F|63/100 tox
+|-damage|p1a: Breloom|57/100 tox|[from] Stealth Rock
+|move|p2a: Great Tusk|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|51/100 tox
+|
+|-heal|p2a: Great Tusk|28/100|[from] item: Leftovers
+|-heal|p1a: Breloom|63/100 tox|[from] ability: Poison Heal
+|turn|24
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, M|64/100
+|move|p1a: Breloom|Leech Seed|p2a: Dragapult
+|-start|p2a: Dragapult|move: Leech Seed
+|
+|-damage|p2a: Dragapult|51/100|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|75/100 tox|[silent]
+|-heal|p1a: Breloom|88/100 tox|[from] ability: Poison Heal
+|turn|25
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|78/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|56/100
+|
+|-damage|p2a: Dragapult|39/100|[from] Leech Seed|[of] p1a: Clodsire
+|-heal|p1a: Clodsire|64/100|[silent]
+|turn|26
+|
+|switch|p2a: Great Tusk|Great Tusk, tera:Steel|28/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: BunnyBride|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|34/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Great Tusk|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|82/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: BunnyBride|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|41/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|89/100|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|67/100
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Corviknight|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|37/100
+|
+|switch|p1a: Toxapex|Toxapex, M|77/100|[from] U-turn
+|-damage|p1a: Toxapex|64/100|[from] Stealth Rock
+|
+|-heal|p2a: Great Tusk|44/100|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|8/100
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|31/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|37/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p1a: Breloom|Breloom, F|88/100 tox
+|-damage|p1a: Breloom|82/100 tox|[from] Stealth Rock
+|move|p2a: Great Tusk|Earthquake|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|69/100 tox
+|
+|-heal|p2a: Great Tusk|43/100|[from] item: Leftovers
+|-heal|p1a: Breloom|81/100 tox|[from] ability: Poison Heal
+|turn|31
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|move|p1a: Breloom|Leech Seed|p2a: Iron Moth
+|-start|p2a: Iron Moth|move: Leech Seed
+|
+|-damage|p2a: Iron Moth|88/100|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|93/100 tox|[silent]
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|turn|32
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Blissey
+|-sidestart|p1: atesrer|move: Toxic Spikes
+|
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|-damage|p2a: Iron Moth|76/100|[from] Leech Seed|[of] p1a: Blissey
+|-heal|p1a: Blissey|99/100|[silent]
+|turn|33
+|
+|switch|p1a: Toxapex|Toxapex, M|42/100
+|-damage|p1a: Toxapex|29/100|[from] Stealth Rock
+|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Toxapex
+|-sidestart|p1: atesrer|move: Toxic Spikes
+|
+|-damage|p2a: Iron Moth|64/100|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|41/100|[silent]
+|turn|34
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Great Tusk|Great Tusk, tera:Steel|43/100
+|switch|p1a: Clodsire|Clodsire, F|64/100
+|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Clodsire
+|
+|-heal|p2a: Great Tusk|50/100|[from] item: Leftovers
+|turn|35
+|
+|switch|p1a: Corviknight|Corviknight, F|67/100
+|-damage|p1a: Corviknight|55/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Great Tusk|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|48/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-heal|p2a: Great Tusk|56/100|[from] item: Leftovers
+|turn|36
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|64/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|98/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|turn|37
+|
+|switch|p1a: Blissey|Blissey, F|99/100
+|-damage|p1a: Blissey|87/100|[from] Stealth Rock
+|move|p2a: Iron Moth|Flamethrower|p1a: Blissey
+|-damage|p1a: Blissey|70/100
+|
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|turn|38
+|
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Blissey
+|-sidestart|p1: atesrer|move: Toxic Spikes
+|move|p1a: Blissey|Ice Beam|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|55/100
+|
+|-heal|p1a: Blissey|82/100|[from] item: Leftovers
+|turn|39
+|
+|switch|p1a: Toxapex|Toxapex, M|75/100
+|-damage|p1a: Toxapex|62/100|[from] Stealth Rock
+|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Toxapex
+|-sidestart|p1: atesrer|move: Toxic Spikes
+|
+|turn|40
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Great Tusk|Great Tusk, tera:Steel|56/100
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|43/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|49/100|[from] item: Leftovers
+|turn|41
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|26/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|76/100
+|
+|-heal|p2a: Great Tusk|55/100|[from] item: Leftovers
+|turn|42
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|42/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|48/100|[from] item: Leftovers
+|turn|43
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|14/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|64/100
+|
+|-heal|p2a: Great Tusk|54/100|[from] item: Leftovers
+|turn|44
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|36/100
+|move|p1a: Toxapex|Infestation|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|52/100
+|-activate|p2a: Great Tusk|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p2a: Great Tusk|59/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|46/100|[from] move: Infestation|[partiallytrapped]
+|turn|45
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|-boost|p2a: Great Tusk|spe|1
+|-end|p2a: Great Tusk|Infestation|[partiallytrapped]
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|81/100
+|
+|-heal|p2a: Great Tusk|52/100|[from] item: Leftovers
+|turn|46
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100
+|move|p1a: Toxapex|Infestation|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|50/100
+|-activate|p2a: Great Tusk|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p2a: Great Tusk|57/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|44/100|[from] move: Infestation|[partiallytrapped]
+|turn|47
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100
+|-boost|p2a: Great Tusk|spe|1
+|-end|p2a: Great Tusk|Infestation|[partiallytrapped]
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|31/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|37/100|[from] item: Leftovers
+|turn|48
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Tai Lung|Chien-Pao|100/100
+|-ability|p2a: Tai Lung|Sword of Ruin
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|96/100
+|
+|turn|49
+|
+|move|p2a: Tai Lung|Sacred Sword|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|78/100
+|move|p1a: Toxapex|Chilling Water|p2a: Tai Lung
+|-damage|p2a: Tai Lung|85/100
+|-unboost|p2a: Tai Lung|atk|1
+|
+|turn|50
+|
+|switch|p2a: Great Tusk|Great Tusk, tera:Steel|37/100
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|23/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|29/100|[from] item: Leftovers
+|turn|51
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|15/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|21/100|[from] item: Leftovers
+|turn|52
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|66/100
+|
+|-heal|p2a: Great Tusk|27/100|[from] item: Leftovers
+|turn|53
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|39/100
+|move|p1a: Toxapex|Infestation|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|26/100
+|-activate|p2a: Great Tusk|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p2a: Great Tusk|32/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|19/100|[from] move: Infestation|[partiallytrapped]
+|turn|54
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|34/100
+|-boost|p2a: Great Tusk|spe|1
+|-end|p2a: Great Tusk|Infestation|[partiallytrapped]
+|move|p1a: Toxapex|Chilling Water|p2a: Great Tusk
+|-damage|p2a: Great Tusk|6/100
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-heal|p2a: Great Tusk|12/100|[from] item: Leftovers
+|turn|55
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|79/100
+|
+|-heal|p2a: Great Tusk|18/100|[from] item: Leftovers
+|turn|56
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|move|p1a: Toxapex|Infestation|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|17/100
+|-activate|p2a: Great Tusk|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p2a: Great Tusk|23/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|10/100|[from] move: Infestation|[partiallytrapped]
+|turn|57
+|
+|switch|p1a: Corviknight|Corviknight, F|98/100
+|-damage|p1a: Corviknight|86/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Great Tusk|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|-boost|p2a: Great Tusk|spe|1
+|-end|p2a: Great Tusk|Infestation|[partiallytrapped]
+|
+|-heal|p2a: Great Tusk|17/100|[from] item: Leftovers
+|turn|58
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|61/100
+|move|p1a: Corviknight|Defog|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|evasion|1
+|-sideend|p1: atesrer|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: atesrer|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p2a: Great Tusk|23/100|[from] item: Leftovers
+|turn|59
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: atesrer|move: Stealth Rock
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Great Tusk|29/100|[from] item: Leftovers
+|turn|60
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|move|p2a: Great Tusk|Knock Off|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|91/100 tox
+|
+|-heal|p2a: Great Tusk|35/100|[from] item: Leftovers
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|turn|61
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|55/100
+|move|p1a: Breloom|Leech Seed|p2a: Iron Moth
+|-start|p2a: Iron Moth|move: Leech Seed
+|
+|-damage|p2a: Iron Moth|42/100|[from] Leech Seed|[of] p1a: Breloom
+|turn|62
+|
+|switch|p1a: Clodsire|Clodsire, F|64/100
+|move|p2a: Iron Moth|Morning Sun|p2a: Iron Moth
+|-heal|p2a: Iron Moth|92/100
+|
+|-damage|p2a: Iron Moth|80/100|[from] Leech Seed|[of] p1a: Clodsire
+|-heal|p1a: Clodsire|72/100|[silent]
+|turn|63
+|
+|move|p2a: Iron Moth|Flamethrower|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|36/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Iron Moth
+|-sidestart|p2: BunnyBride|move: Stealth Rock
+|
+|-damage|p2a: Iron Moth|68/100|[from] Leech Seed|[of] p1a: Clodsire
+|-heal|p1a: Clodsire|44/100|[silent]
+|turn|64
+|
+|move|p2a: Iron Moth|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|16/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|67/100
+|
+|-damage|p2a: Iron Moth|55/100|[from] Leech Seed|[of] p1a: Clodsire
+|-heal|p1a: Clodsire|75/100|[silent]
+|turn|65
+|
+|move|p2a: Iron Moth|Flamethrower|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|37/100
+|move|p1a: Clodsire|Spikes|p2a: Iron Moth
+|-sidestart|p2: BunnyBride|Spikes
+|
+|-damage|p2a: Iron Moth|43/100|[from] Leech Seed|[of] p1a: Clodsire
+|-heal|p1a: Clodsire|45/100|[silent]
+|turn|66
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Great Tusk|Great Tusk, tera:Steel|35/100
+|-damage|p2a: Great Tusk|29/100|[from] Stealth Rock
+|-damage|p2a: Great Tusk|17/100|[from] Spikes
+|move|p1a: Clodsire|Earthquake|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Tai Lung|Chien-Pao|85/100
+|-damage|p2a: Tai Lung|60/100|[from] Stealth Rock
+|-damage|p2a: Tai Lung|48/100|[from] Spikes
+|-ability|p2a: Tai Lung|Sword of Ruin
+|turn|67
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Tai Lung|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|41/100
+|
+|turn|68
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Tai Lung|Crunch|p1a: Corviknight
+|-damage|p1a: Corviknight|26/100
+|
+|turn|69
+|
+|move|p2a: Tai Lung|Crunch|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Toxapex|Toxapex, M|74/100
+|-damage|p1a: Toxapex|61/100|[from] Stealth Rock
+|turn|70
+|
+|move|p2a: Tai Lung|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100
+|move|p1a: Toxapex|Chilling Water|p2a: Tai Lung
+|-damage|p2a: Tai Lung|30/100
+|-unboost|p2a: Tai Lung|atk|1
+|
+|turn|71
+|
+|switch|p1a: Clodsire|Clodsire, F|45/100
+|move|p2a: Tai Lung|Crunch|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Toxapex|Toxapex, M|49/100
+|-damage|p1a: Toxapex|37/100|[from] Stealth Rock
+|turn|72
+|
+|move|p2a: Tai Lung|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|5/100
+|move|p1a: Toxapex|Chilling Water|p2a: Tai Lung
+|-damage|p2a: Tai Lung|14/100
+|-unboost|p2a: Tai Lung|atk|1
+|
+|turn|73
+|
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|-damage|p1a: Breloom|94/100 tox|[from] Stealth Rock
+|move|p2a: Tai Lung|Crunch|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|78/100 tox
+|
+|-heal|p1a: Breloom|90/100 tox|[from] ability: Poison Heal
+|turn|74
+|
+|move|p2a: Tai Lung|Crunch|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|73/100 tox
+|move|p1a: Breloom|Leech Seed|p2a: Tai Lung
+|-start|p2a: Tai Lung|move: Leech Seed
+|
+|-damage|p2a: Tai Lung|1/100|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|85/100 tox|[silent]
+|-heal|p1a: Breloom|97/100 tox|[from] ability: Poison Heal
+|turn|75
+|
+|move|p2a: Tai Lung|Crunch|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|79/100 tox
+|-unboost|p1a: Breloom|def|1
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|55/100 tox
+|
+|-damage|p2a: Tai Lung|0 fnt|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|56/100 tox|[silent]
+|faint|p2a: Tai Lung
+|-heal|p1a: Breloom|68/100 tox|[from] ability: Poison Heal
+|
+|switch|p2a: Dragapult|Dragapult, M|39/100
+|turn|76
+|
+|switch|p1a: Blissey|Blissey, F|82/100
+|-damage|p1a: Blissey|70/100|[from] Stealth Rock
+|move|p2a: Dragapult|Hex|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|turn|77
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|76/100 brn|[from] brn
+|turn|78
+|
+|move|p2a: Dragapult|U-turn|p1a: Blissey
+|-damage|p1a: Blissey|58/100 brn
+|
+|switch|p2a: Iron Moth|Iron Moth|43/100|[from] U-turn
+|move|p1a: Blissey|Shadow Ball|p2a: Iron Moth
+|-damage|p2a: Iron Moth|20/100
+|
+|-heal|p1a: Blissey|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Blissey|58/100 brn|[from] brn
+|turn|79
+|
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Blissey
+|-sidestart|p1: atesrer|move: Toxic Spikes
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 brn
+|
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|turn|80
+|
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Toxapex|Toxapex, M|38/100
+|-damage|p1a: Toxapex|25/100|[from] Stealth Rock
+|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|move|p2a: Iron Moth|Morning Sun|p2a: Iron Moth
+|-heal|p2a: Iron Moth|70/100
+|
+|turn|81
+|
+|switch|p1a: Blissey|Blissey, F|94/100
+|-damage|p1a: Blissey|82/100|[from] Stealth Rock
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Blissey
+|-sidestart|p1: atesrer|move: Toxic Spikes
+|
+|-heal|p1a: Blissey|88/100|[from] item: Leftovers
+|turn|82
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|-damage|p2a: Hatterene|76/100|[from] Spikes
+|switch|p1a: Toxapex|Toxapex, M|59/100
+|-damage|p1a: Toxapex|46/100|[from] Stealth Rock
+|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|
+|turn|83
+|
+|switch|p1a: Blissey|Blissey, F|88/100
+|-damage|p1a: Blissey|76/100|[from] Stealth Rock
+|move|p2a: Hatterene|Nuzzle|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|-status|p1a: Blissey|par
+|
+|-heal|p1a: Blissey|78/100 par|[from] item: Leftovers
+|turn|84
+|
+|move|p2a: Hatterene|Psychic|p1a: Blissey
+|-damage|p1a: Blissey|64/100 par
+|move|p1a: Blissey|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|47/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|switch|p2a: Iron Moth|Iron Moth|70/100
+|
+|-heal|p1a: Blissey|70/100 par|[from] item: Leftovers
+|turn|85
+|
+|-curestatus|p1a: Blissey|par|[from] ability: Natural Cure
+|switch|p1a: Toxapex|Toxapex, M|79/100
+|-damage|p1a: Toxapex|67/100|[from] Stealth Rock
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Toxapex
+|-sidestart|p1: atesrer|move: Toxic Spikes
+|
+|turn|86
+|
+|move|p2a: Iron Moth|Toxic Spikes|p1a: Toxapex
+|-sidestart|p1: atesrer|move: Toxic Spikes
+|move|p1a: Toxapex|Chilling Water|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|46/100
+|-unboost|p2a: Iron Moth|atk|1
+|
+|turn|87
+|
+|move|p2a: Iron Moth|Flamethrower|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|48/100
+|move|p1a: Toxapex|Chilling Water|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|23/100
+|-unboost|p2a: Iron Moth|atk|1
+|
+|turn|88
+|
+|switch|p1a: Breloom|Breloom, F|68/100 tox
+|-damage|p1a: Breloom|62/100 tox|[from] Stealth Rock
+|move|p2a: Iron Moth|Morning Sun|p2a: Iron Moth
+|-heal|p2a: Iron Moth|73/100
+|
+|-heal|p1a: Breloom|74/100 tox|[from] ability: Poison Heal
+|turn|89
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Dragapult|Dragapult, M|39/100
+|switch|p1a: Toxapex|Toxapex, M|81/100
+|-damage|p1a: Toxapex|69/100|[from] Stealth Rock
+|-sideend|p1: atesrer|move: Toxic Spikes|[of] p1a: Toxapex
+|
+|turn|90
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|move|p1a: Toxapex|Chilling Water|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|31/100
+|-unboost|p2a: Dragapult|atk|1
+|
+|-damage|p1a: Toxapex|63/100 brn|[from] brn
+|turn|91
+|
+|switch|p1a: Blissey|Blissey, F|70/100
+|-damage|p1a: Blissey|58/100|[from] Stealth Rock
+|move|p2a: Dragapult|Dragon Darts|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|25/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|11/100
+|
+|-heal|p1a: Blissey|17/100|[from] item: Leftovers
+|turn|92
+|
+|switch|p1a: Toxapex|Toxapex, M|96/100 brn
+|-damage|p1a: Toxapex|83/100 brn|[from] Stealth Rock
+|move|p2a: Dragapult|Dragon Darts|p1a: Toxapex
+|-damage|p1a: Toxapex|73/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Toxapex
+|-damage|p1a: Toxapex|64/100 brn
+|
+|-damage|p1a: Toxapex|58/100 brn|[from] brn
+|turn|93
+|
+|move|p2a: Dragapult|Hex|p1a: Toxapex
+|-damage|p1a: Toxapex|15/100 brn
+|move|p1a: Toxapex|Chilling Water|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|25/100
+|-unboost|p2a: Dragapult|atk|1
+|
+|-damage|p1a: Toxapex|8/100 brn|[from] brn
+|turn|94
+|
+|switch|p1a: Blissey|Blissey, F|17/100
+|-damage|p1a: Blissey|5/100|[from] Stealth Rock
+|move|p2a: Dragapult|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|
+|switch|p1a: Breloom|Breloom, F|74/100 tox
+|-damage|p1a: Breloom|68/100 tox|[from] Stealth Rock
+|turn|95
+|
+|move|p2a: Dragapult|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|58/100 tox
+|
+|switch|p2a: Iron Moth|Iron Moth|73/100|[from] U-turn
+|move|p1a: Breloom|Spore|p2a: Iron Moth
+|-status|p2a: Iron Moth|slp|[from] move: Spore
+|
+|-heal|p1a: Breloom|70/100 tox|[from] ability: Poison Heal
+|turn|96
+|
+|cant|p2a: Iron Moth|slp
+|move|p1a: Breloom|Leech Seed|p2a: Iron Moth
+|-start|p2a: Iron Moth|move: Leech Seed
+|
+|-damage|p2a: Iron Moth|61/100 slp|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|82/100 tox|[silent]
+|-heal|p1a: Breloom|94/100 tox|[from] ability: Poison Heal
+|turn|97
+|
+|switch|p1a: Toxapex|Toxapex, M|42/100 brn
+|-damage|p1a: Toxapex|29/100 brn|[from] Stealth Rock
+|cant|p2a: Iron Moth|slp
+|
+|-damage|p2a: Iron Moth|49/100 slp|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|41/100 brn|[silent]
+|-damage|p1a: Toxapex|35/100 brn|[from] brn
+|turn|98
+|
+|cant|p2a: Iron Moth|slp
+|move|p1a: Toxapex|Infestation|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|48/100 slp
+|-activate|p2a: Iron Moth|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Iron Moth|36/100 slp|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|47/100 brn|[silent]
+|-damage|p1a: Toxapex|41/100 brn|[from] brn
+|-damage|p2a: Iron Moth|23/100 slp|[from] move: Infestation|[partiallytrapped]
+|turn|99
+|
+|-curestatus|p2a: Iron Moth|slp|[msg]
+|move|p2a: Iron Moth|Morning Sun|p2a: Iron Moth
+|-heal|p2a: Iron Moth|73/100
+|move|p1a: Toxapex|Chilling Water|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|51/100
+|-unboost|p2a: Iron Moth|atk|1
+|
+|-damage|p2a: Iron Moth|38/100|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|53/100 brn|[silent]
+|-damage|p1a: Toxapex|47/100 brn|[from] brn
+|-damage|p2a: Iron Moth|26/100|[from] move: Infestation|[partiallytrapped]
+|turn|100
+|
+|move|p2a: Iron Moth|Flamethrower|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|28/100 brn
+|move|p1a: Toxapex|Chilling Water|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|3/100
+|-unboost|p2a: Iron Moth|atk|1
+|
+|-damage|p2a: Iron Moth|0 fnt|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|31/100 brn|[silent]
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-damage|p1a: Toxapex|25/100 brn|[from] brn
+|
+|switch|p2a: Dragapult|Dragapult, M|25/100
+|turn|101
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Toxapex
+|-damage|p1a: Toxapex|10/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Breloom|Breloom, F|94/100 tox
+|-damage|p1a: Breloom|88/100 tox|[from] Stealth Rock
+|turn|102
+|
+|move|p2a: Dragapult|U-turn|p1a: Breloom
+|-damage|p1a: Breloom|71/100 tox
+|
+|switch|p2a: Hatterene|Hatterene, F|47/100|[from] U-turn
+|-damage|p2a: Hatterene|35/100|[from] Stealth Rock
+|-damage|p2a: Hatterene|22/100|[from] Spikes
+|move|p1a: Breloom|Spore|p2a: Hatterene
+|move|p2a: Hatterene|Spore|p1a: Breloom|[from]ability: Magic Bounce
+|-immune|p1a: Breloom
+|
+|-heal|p1a: Breloom|83/100 tox|[from] ability: Poison Heal
+|turn|103
+|
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|58/100 tox
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Breloom|71/100 tox|[from] ability: Poison Heal
+|
+|switch|p2a: Dragapult|Dragapult, M|25/100
+|-heal|p2a: Dragapult|100/100|[from] move: Healing Wish
+|turn|104
+|
+|-terastallize|p1a: Breloom|Grass
+|move|p2a: Dragapult|Hex|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|win|BunnyBride

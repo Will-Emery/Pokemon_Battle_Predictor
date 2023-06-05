@@ -1,0 +1,177 @@
+|poke|p1|Scovillain, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Magnezone|
+|poke|p1|Mimikyu, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Revavroom, F|
+|poke|p2|Quagsire, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Plant|Scovillain, M|100/100
+|switch|p2a: Jenga|Garganacl, F|100/100
+|turn|1
+|
+|switch|p2a: Critter|Corviknight, M|100/100
+|move|p1a: Plant|Energy Ball|p2a: Critter
+|-resisted|p2a: Critter
+|-damage|p2a: Critter|88/100
+|-damage|p1a: Plant|91/100|[from] item: Life Orb
+|
+|turn|2
+|
+|move|p1a: Plant|Fire Blast|p2a: Critter|[miss]
+|-miss|p1a: Plant|p2a: Critter
+|move|p2a: Critter|Brave Bird|p1a: Plant
+|-supereffective|p1a: Plant
+|-damage|p1a: Plant|0 fnt
+|faint|p1a: Plant
+|-damage|p2a: Critter|68/100|[from] Recoil
+|
+|
+|switch|p1a: Orb|Magnezone|100/100
+|turn|3
+|
+|-terastallize|p1a: Orb|Electric
+|move|p2a: Critter|Roost|p2a: Critter
+|-heal|p2a: Critter|100/100
+|-singleturn|p2a: Critter|move: Roost
+|move|p1a: Orb|Thunder|p2a: Critter|[miss]
+|-miss|p1a: Orb|p2a: Critter
+|
+|turn|4
+|
+|-terastallize|p2a: Critter|Electric
+|move|p2a: Critter|Iron Defense|p2a: Critter
+|-boost|p2a: Critter|def|2
+|move|p1a: Orb|Rain Dance|p1a: Orb
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p2a: Critter|Body Press|p1a: Orb
+|-damage|p1a: Orb|62/100
+|move|p1a: Orb|Thunder|p2a: Critter
+|-resisted|p2a: Critter
+|-damage|p2a: Critter|56/100
+|-damage|p1a: Orb|52/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Critter|Body Press|p1a: Orb
+|-damage|p1a: Orb|12/100
+|move|p1a: Orb|Thunder|p2a: Critter
+|-resisted|p2a: Critter
+|-damage|p2a: Critter|10/100
+|-damage|p1a: Orb|2/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p2a: Critter|Roost|p2a: Critter
+|-heal|p2a: Critter|60/100
+|move|p1a: Orb|Thunder|p2a: Critter
+|-resisted|p2a: Critter
+|-damage|p2a: Critter|11/100
+|-damage|p1a: Orb|0 fnt|[from] item: Life Orb
+|faint|p1a: Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Sly|Mimikyu, F, shiny|100/100
+|turn|8
+|
+|switch|p2a: Creature|Toxapex, M|100/100
+|move|p1a: Sly|Drain Punch|p2a: Creature
+|-resisted|p2a: Creature
+|-damage|p2a: Creature|94/100
+|
+|-weather|none
+|-heal|p2a: Creature|99/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Sly|Substitute|p1a: Sly
+|-start|p1a: Sly|Substitute
+|-damage|p1a: Sly|76/100
+|move|p2a: Creature|Sludge Bomb|p1a: Sly
+|-end|p1a: Sly|Substitute
+|
+|-heal|p1a: Sly|82/100|[from] item: Leftovers
+|-heal|p2a: Creature|100/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Thunder|Landorus-Therian, M|100/100
+|-ability|p1a: Thunder|Intimidate|boost
+|-unboost|p2a: Creature|atk|1
+|move|p2a: Creature|Sludge Bomb|p1a: Thunder
+|-resisted|p1a: Thunder
+|-crit|p1a: Thunder
+|-damage|p1a: Thunder|83/100
+|-status|p1a: Thunder|psn
+|
+|-damage|p1a: Thunder|71/100 psn|[from] psn
+|turn|11
+|
+|move|p2a: Creature|Baneful Bunker|p2a: Creature
+|-singleturn|p2a: Creature|move: Protect
+|move|p1a: Thunder|Bulk Up|p1a: Thunder
+|-boost|p1a: Thunder|atk|1
+|-boost|p1a: Thunder|def|1
+|
+|-damage|p1a: Thunder|59/100 psn|[from] psn
+|turn|12
+|
+|switch|p2a: Unit|Quagsire, M|100/100
+|move|p1a: Thunder|Bulk Up|p1a: Thunder
+|-boost|p1a: Thunder|atk|1
+|-boost|p1a: Thunder|def|1
+|
+|-damage|p1a: Thunder|47/100 psn|[from] psn
+|turn|13
+|
+|move|p1a: Thunder|Outrage|p2a: Unit
+|-damage|p2a: Unit|58/100
+|-damage|p1a: Thunder|37/100 psn|[from] item: Life Orb
+|move|p2a: Unit|Muddy Water|p1a: Thunder
+|-supereffective|p1a: Thunder
+|-damage|p1a: Thunder|0 fnt
+|faint|p1a: Thunder
+|
+|-heal|p2a: Unit|64/100|[from] item: Leftovers
+|
+|switch|p1a: Rev|Revavroom, F|100/100
+|turn|14
+|
+|move|p1a: Rev|Gunk Shot|p2a: Unit
+|-resisted|p2a: Unit
+|-damage|p2a: Unit|40/100
+|-status|p2a: Unit|psn
+|move|p2a: Unit|Earthquake|p1a: Rev
+|-supereffective|p1a: Rev
+|-damage|p1a: Rev|0 fnt
+|faint|p1a: Rev
+|
+|-heal|p2a: Unit|46/100 psn|[from] item: Leftovers
+|-damage|p2a: Unit|34/100 psn|[from] psn
+|
+|switch|p1a: Illusion|Gastrodon, F|100/100
+|turn|15
+|
+|move|p1a: Illusion|Earth Power|p2a: Unit
+|-damage|p2a: Unit|4/100 psn
+|move|p2a: Unit|Recover|p2a: Unit
+|-heal|p2a: Unit|54/100 psn
+|
+|-heal|p2a: Unit|60/100 psn|[from] item: Leftovers
+|-damage|p2a: Unit|48/100 psn|[from] psn
+|turn|16
+|-message|Manifest_Fan lost due to inactivity.
+|
+|win|TBalpha22

@@ -1,0 +1,288 @@
+|poke|p1|Electrode-Hisui|
+|poke|p1|Rillaboom, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Iron Treads|
+|poke|p1|Heatran, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Heatran, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Muk-Alola, M|
+|teampreview
+|
+|start
+|switch|p1a: Hittler|Heatran, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hittler|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Earthquake|p1a: Hittler
+|-supereffective|p1a: Hittler
+|-damage|p1a: Hittler|0 fnt
+|faint|p1a: Hittler
+|
+|
+|switch|p1a: THE ONE WHO STRIKE|Urshifu-Rapid-Strike, M|100/100
+|turn|2
+|
+|move|p1a: THE ONE WHO STRIKE|Surging Strikes|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|61/100
+|-damage|p1a: THE ONE WHO STRIKE|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|18/100
+|-damage|p1a: THE ONE WHO STRIKE|68/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: THE ONE WHO STRIKE|51/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|-hitcount|p2: Landorus|3
+|
+|
+|switch|p2a: Muk|Muk-Alola, M|100/100
+|turn|3
+|
+|switch|p1a: Tusk 2:Mag killers|Iron Treads|100/100
+|-enditem|p1a: Tusk 2:Mag killers|Booster Energy
+|-activate|p1a: Tusk 2:Mag killers|ability: Quark Drive|[fromitem]
+|-start|p1a: Tusk 2:Mag killers|quarkdrivespe
+|move|p2a: Muk|Shadow Ball|p1a: Tusk 2:Mag killers
+|-damage|p1a: Tusk 2:Mag killers|44/100
+|
+|turn|4
+|
+|move|p2a: Muk|Shadow Ball|p1a: Tusk 2:Mag killers
+|-damage|p1a: Tusk 2:Mag killers|0 fnt
+|faint|p1a: Tusk 2:Mag killers
+|-end|p1a: Tusk 2:Mag killers|Quark Drive|[silent]
+|
+|
+|switch|p1a: Theodore BoltoBert|Electrode-Hisui, shiny|100/100
+|turn|5
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Theodore BoltoBert|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|switch|p1a: THE ONE WHO STRIKE|Urshifu-Rapid-Strike, M|51/100|[from] Volt Switch
+|
+|-heal|p2a: Heatran|81/100|[from] item: Leftovers
+|turn|6
+|
+|-terastallize|p2a: Heatran|Grass
+|move|p1a: THE ONE WHO STRIKE|Surging Strikes|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|69/100
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|56/100
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|43/100
+|-hitcount|p2a: Heatran|3
+|move|p2a: Heatran|Tera Blast|p1a: THE ONE WHO STRIKE
+|-supereffective|p1a: THE ONE WHO STRIKE
+|-damage|p1a: THE ONE WHO STRIKE|0 fnt
+|faint|p1a: THE ONE WHO STRIKE
+|
+|-heal|p2a: Heatran|49/100|[from] item: Leftovers
+|
+|switch|p1a: Skull Tracker|Zamazenta|100/100
+|-ability|p1a: Skull Tracker|Dauntless Shield|boost
+|-boost|p1a: Skull Tracker|def|1
+|turn|7
+|
+|switch|p2a: Muk|Muk-Alola, M|100/100
+|move|p1a: Skull Tracker|Iron Defense|p1a: Skull Tracker
+|-boost|p1a: Skull Tracker|def|2
+|
+|turn|8
+|
+|move|p2a: Muk|Trick|p1a: Skull Tracker
+|-activate|p2a: Muk|move: Trick|[of] p1a: Skull Tracker
+|-item|p1a: Skull Tracker|Choice Scarf|[from] move: Trick
+|-item|p2a: Muk|Leftovers|[from] move: Trick
+|move|p1a: Skull Tracker|Crunch|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|16/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|-heal|p2a: Zoroark|22/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Theodore BoltoBert|Electrode-Hisui, shiny|100/100
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|
+|turn|10
+|
+|move|p1a: Theodore BoltoBert|Thunderbolt|p2a: Volcarona
+|-damage|p2a: Volcarona|37/100
+|-status|p2a: Volcarona|par
+|cant|p2a: Volcarona|par
+|
+|turn|11
+|
+|move|p1a: Theodore BoltoBert|Thunderbolt|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Muk|Muk-Alola, M|100/100
+|turn|12
+|
+|switch|p1a: Skull Tracker|Zamazenta|100/100
+|move|p2a: Muk|Poison Jab|p1a: Skull Tracker
+|-damage|p1a: Skull Tracker|82/100
+|-status|p1a: Skull Tracker|psn
+|
+|-damage|p1a: Skull Tracker|70/100 psn|[from] psn
+|turn|13
+|
+|move|p2a: Muk|Protect|p2a: Muk
+|-singleturn|p2a: Muk|Protect
+|move|p1a: Skull Tracker|Crunch|p2a: Muk
+|-activate|p2a: Muk|move: Protect
+|
+|-damage|p1a: Skull Tracker|57/100 psn|[from] psn
+|turn|14
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Skull Tracker|Crunch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|93/100
+|
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|-damage|p1a: Skull Tracker|45/100 psn|[from] psn
+|turn|15
+|
+|switch|p1a: Jhon Jhons|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Jhon Jhons
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|100/100|[from] Grassy Terrain
+|turn|16
+|
+|move|p1a: Jhon Jhons|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|11/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Jhon Jhons
+|-damage|p1a: Jhon Jhons|3/100
+|
+|-heal|p1a: Jhon Jhons|9/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|18/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|24/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Skull Tracker|Zamazenta|45/100 psn
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p1a: Skull Tracker|51/100 psn|[from] Grassy Terrain
+|-heal|p2a: Kingambit|30/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|36/100|[from] item: Leftovers
+|-damage|p1a: Skull Tracker|39/100 psn|[from] psn
+|turn|18
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Skull Tracker
+|-resisted|p1a: Skull Tracker
+|-damage|p1a: Skull Tracker|13/100 psn
+|move|p1a: Skull Tracker|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|-heal|p1a: Skull Tracker|19/100 psn|[from] Grassy Terrain
+|-damage|p1a: Skull Tracker|7/100 psn|[from] psn
+|
+|switch|p2a: Muk|Muk-Alola, M|22/100
+|turn|19
+|
+|move|p1a: Skull Tracker|Body Press|p2a: Muk
+|-immune|p2a: Muk
+|move|p2a: Muk|Flamethrower|p1a: Skull Tracker
+|-damage|p1a: Skull Tracker|0 fnt
+|faint|p1a: Skull Tracker
+|
+|-heal|p2a: Muk|28/100|[from] Grassy Terrain
+|-heal|p2a: Muk|34/100|[from] item: Leftovers
+|
+|switch|p1a: Theodore BoltoBert|Electrode-Hisui, shiny|100/100
+|turn|20
+|
+|move|p1a: Theodore BoltoBert|Volt Switch|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|switch|p1a: Jhon Jhons|Rillaboom, M|9/100|[from] Volt Switch
+|
+|-heal|p1a: Jhon Jhons|16/100|[from] Grassy Terrain
+|
+|switch|p2a: Muk|Muk-Alola, M|100/100
+|turn|21
+|
+|-terastallize|p1a: Jhon Jhons|Steel
+|move|p1a: Jhon Jhons|Swords Dance|p1a: Jhon Jhons
+|-boost|p1a: Jhon Jhons|atk|2
+|move|p2a: Muk|Poison Jab|p1a: Jhon Jhons
+|-immune|p1a: Jhon Jhons
+|
+|-heal|p1a: Jhon Jhons|22/100|[from] Grassy Terrain
+|turn|22
+|
+|move|p1a: Jhon Jhons|Drain Punch|p2a: Muk
+|-damage|p2a: Muk|45/100
+|-heal|p1a: Jhon Jhons|50/100|[from] drain|[of] p2a: Muk
+|move|p2a: Muk|Knock Off|p1a: Jhon Jhons
+|-damage|p1a: Jhon Jhons|16/100
+|-enditem|p1a: Jhon Jhons|Terrain Extender|[from] move: Knock Off|[of] p2a: Muk
+|
+|-heal|p1a: Jhon Jhons|22/100|[from] Grassy Terrain
+|-heal|p2a: Muk|51/100|[from] Grassy Terrain
+|-heal|p2a: Muk|57/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|turn|23
+|
+|move|p2a: Muk|Protect|p2a: Muk
+|-singleturn|p2a: Muk|Protect
+|move|p1a: Jhon Jhons|Drain Punch|p2a: Muk
+|-activate|p2a: Muk|move: Protect
+|
+|-heal|p2a: Muk|63/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Jhon Jhons|Drain Punch|p2a: Muk
+|-damage|p2a: Muk|2/100
+|-heal|p1a: Jhon Jhons|54/100|[from] drain|[of] p2a: Muk
+|move|p2a: Muk|Knock Off|p1a: Jhon Jhons
+|-damage|p1a: Jhon Jhons|32/100
+|
+|-heal|p2a: Muk|8/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Jhon Jhons|Drain Punch|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|-heal|p1a: Jhon Jhons|36/100|[from] drain|[of] p2a: Muk
+|faint|p2a: Muk
+|
+|
+|switch|p2a: Heatran|Heatran, F, tera:Grass|49/100
+|turn|26
+|
+|move|p1a: Jhon Jhons|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Jhon Jhons
+|faint|p2a: Heatran
+|
+|win|Teddy is manifest

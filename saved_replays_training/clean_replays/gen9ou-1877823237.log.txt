@@ -1,0 +1,266 @@
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Walking Wake|
+|poke|p1|Iron Valiant|
+|poke|p2|Komala, F|
+|poke|p2|Cetitan, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Delphox, F|
+|poke|p2|Toedscruel, M|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Sneasler
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2a: Sneasler|spa|1
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100|[from] Parting Shot
+|move|p2a: Sneasler|Dire Claw|p1a: Braviary
+|-damage|p1a: Braviary|72/100
+|
+|turn|2
+|
+|switch|p2a: Komala|Komala, F|100/100
+|-ability|p2a: Komala|Comatose
+|move|p1a: Braviary|Esper Wing|p2a: Komala
+|-damage|p2a: Komala|61/100
+|-boost|p1a: Braviary|spe|1
+|-damage|p1a: Braviary|62/100|[from] item: Life Orb
+|
+|turn|3
+|
+|move|p1a: Braviary|Esper Wing|p2a: Komala
+|-damage|p2a: Komala|21/100
+|-boost|p1a: Braviary|spe|1
+|-damage|p1a: Braviary|52/100|[from] item: Life Orb
+|move|p2a: Komala|U-turn|p1a: Braviary
+|-damage|p1a: Braviary|28/100
+|
+|switch|p2a: Cetitan|Cetitan, M|100/100|[from] U-turn
+|
+|turn|4
+|
+|move|p2a: Cetitan|Ice Shard|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|-damage|p2a: Cetitan|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|5
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Catgoyeetyou|Reflect
+|move|p2a: Cetitan|Icicle Crash|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|57/100
+|
+|turn|6
+|
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Cetitan
+|-unboost|p2a: Cetitan|atk|1
+|-unboost|p2a: Cetitan|spa|1
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100|[from] Parting Shot
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Cetitan|Liquidation|p1a: Zamazenta
+|-damage|p1a: Zamazenta|94/100
+|
+|turn|7
+|
+|switch|p2a: Komala|Komala, F|21/100
+|-ability|p2a: Komala|Comatose
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|turn|8
+|
+|move|p1a: Zamazenta|Body Press|p2a: Komala
+|-supereffective|p2a: Komala
+|-damage|p2a: Komala|0 fnt
+|faint|p2a: Komala
+|
+|
+|switch|p2a: Delphox|Delphox, F|100/100
+|turn|9
+|
+|move|p2a: Delphox|Fire Blast|p1a: Zamazenta|[miss]
+|-miss|p2a: Delphox|p1a: Zamazenta
+|move|p1a: Zamazenta|Crunch|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|10/100
+|
+|turn|10
+|
+|move|p2a: Delphox|Fire Blast|p1a: Zamazenta|[miss]
+|-miss|p2a: Delphox|p1a: Zamazenta
+|move|p1a: Zamazenta|Crunch|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|
+|switch|p2a: Toedscruel|Toedscruel, M|100/100
+|turn|11
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Toedscruel|Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Spore
+|
+|turn|12
+|
+|cant|p1a: Zamazenta|slp
+|move|p2a: Toedscruel|Earth Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|61/100 slp
+|
+|-sideend|p1: Catgoyeetyou|Reflect
+|turn|13
+|
+|-curestatus|p1a: Zamazenta|slp|[msg]
+|move|p1a: Zamazenta|Body Press|p2a: Toedscruel
+|-damage|p2a: Toedscruel|0 fnt
+|faint|p2a: Toedscruel
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|14
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Zamazenta|Body Press|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|
+|turn|15
+|
+|move|p2a: Sneasler|Close Combat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|15/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|move|p1a: Zamazenta|Body Press|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Cetitan|Cetitan, M|91/100
+|turn|16
+|
+|-terastallize|p2a: Cetitan|Water
+|move|p1a: Zamazenta|Body Press|p2a: Cetitan
+|-crit|p2a: Cetitan
+|-damage|p2a: Cetitan|0 fnt
+|faint|p2a: Cetitan
+|
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|17
+|
+|move|p1a: Zamazenta|Body Press|p2a: Dondozo
+|-damage|p2a: Dondozo|83/100
+|move|p2a: Dondozo|Body Press|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Dondozo|89/100|[from] item: Leftovers
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|57/100
+|turn|18
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Catgoyeetyou|Reflect
+|move|p2a: Dondozo|Liquidation|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|41/100
+|
+|-heal|p2a: Dondozo|95/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Dondozo
+|-start|p2a: Dondozo|move: Taunt
+|move|p2a: Dondozo|Body Press|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|23/100
+|
+|-heal|p2a: Dondozo|100/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Dondozo
+|-unboost|p2a: Dondozo|atk|1
+|-unboost|p2a: Dondozo|spa|1
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] Parting Shot
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Dondozo|Body Press|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|92/100
+|
+|turn|21
+|
+|move|p1a: Iron Valiant|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|86/100
+|-enditem|p2a: Dondozo|Leftovers|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Dondozo|Liquidation|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|79/100
+|
+|-end|p2a: Dondozo|move: Taunt
+|turn|22
+|
+|move|p1a: Iron Valiant|Spirit Break|p2a: Dondozo
+|-damage|p2a: Dondozo|68/100
+|-unboost|p2a: Dondozo|spa|1
+|move|p2a: Dondozo|Liquidation|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|66/100
+|-unboost|p1a: Iron Valiant|def|1
+|
+|turn|23
+|
+|move|p1a: Iron Valiant|Spirit Break|p2a: Dondozo
+|-damage|p2a: Dondozo|51/100
+|-unboost|p2a: Dondozo|spa|1
+|move|p2a: Dondozo|Liquidation|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|53/100
+|
+|turn|24
+|
+|move|p1a: Iron Valiant|Spirit Break|p2a: Dondozo
+|-damage|p2a: Dondozo|33/100
+|-unboost|p2a: Dondozo|spa|1
+|move|p2a: Dondozo|Liquidation|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|41/100
+|
+|turn|25
+|
+|move|p1a: Iron Valiant|Spirit Break|p2a: Dondozo
+|-damage|p2a: Dondozo|15/100
+|-unboost|p2a: Dondozo|spa|1
+|move|p2a: Dondozo|Liquidation|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-sideend|p1: Catgoyeetyou|Reflect
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F, shiny|100/100
+|turn|26
+|
+|move|p1a: Typhlosion|Eruption|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|win|Catgoyeetyou

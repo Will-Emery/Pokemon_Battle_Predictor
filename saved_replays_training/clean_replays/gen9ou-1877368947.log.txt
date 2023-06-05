@@ -1,0 +1,225 @@
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Magearna|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: ACDC|Zapdos|100/100
+|turn|1
+|
+|move|p1a: Zapdos|Volt Switch|p2a: ACDC
+|-damage|p2a: ACDC|71/100
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|move|p2a: ACDC|Hurricane|p1a: Dragapult
+|-damage|p1a: Dragapult|38/100
+|
+|-heal|p1a: Dragapult|44/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|19/100
+|move|p2a: ACDC|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|switch|p2a: Po|Urshifu-Rapid-Strike, F|100/100|[from] Volt Switch
+|
+|-heal|p1a: Dragapult|25/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Po|Surging Strikes|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|10/100
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-hitcount|p1: Dragapult|3
+|
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|4
+|
+|switch|p2a: Poppy|Magearna|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Poppy
+|-resisted|p2a: Poppy
+|-damage|p2a: Poppy|85/100
+|
+|turn|5
+|
+|move|p1a: Zapdos|Heat Wave|p2a: Poppy
+|-supereffective|p2a: Poppy
+|-damage|p2a: Poppy|44/100
+|move|p2a: Poppy|Spikes|p1a: Zapdos
+|-sidestart|p1: Mercedes1125|Spikes
+|
+|turn|6
+|
+|move|p1a: Zapdos|Heat Wave|p2a: Poppy
+|-supereffective|p2a: Poppy
+|-damage|p2a: Poppy|9/100
+|move|p2a: Poppy|Pain Split|p1a: Zapdos
+|-sethp|p1a: Zapdos|54/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Poppy|57/100|[from] move: Pain Split
+|
+|turn|7
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Poppy|Fleur Cannon|p1a: Zapdos
+|-damage|p1a: Zapdos|49/100
+|-unboost|p2a: Poppy|spa|2
+|
+|turn|8
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|99/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Poppy|Volt Switch|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|94/100
+|
+|switch|p2a: Kush Lord|Typhlosion-Hisui, F|100/100|[from] Volt Switch
+|
+|turn|9
+|
+|-terastallize|p1a: Zapdos|Fire
+|move|p2a: Kush Lord|Eruption|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|37/100
+|move|p1a: Zapdos|Volt Switch|p2a: Kush Lord
+|-damage|p2a: Kush Lord|64/100
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from] Volt Switch
+|-damage|p1a: Urshifu|88/100|[from] Spikes
+|
+|turn|10
+|
+|switch|p2a: ACDC|Zapdos|71/100
+|move|p1a: Urshifu|U-turn|p2a: ACDC
+|-resisted|p2a: ACDC
+|-damage|p2a: ACDC|62/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|-damage|p1a: Great Tusk|88/100|[from] Spikes
+|
+|turn|11
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: ACDC
+|-sidestart|p2: KingofKrook|move: Stealth Rock
+|move|p2a: ACDC|Hurricane|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-damage|p1a: Typhlosion|88/100|[from] Spikes
+|turn|12
+|
+|switch|p2a: Po|Urshifu-Rapid-Strike, F|100/100
+|-damage|p2a: Po|94/100|[from] Stealth Rock
+|move|p1a: Typhlosion|Infernal Parade|p2a: Po
+|-damage|p2a: Po|24/100
+|
+|turn|13
+|
+|switch|p1a: Zapdos|Zapdos, tera:Fire|37/100
+|move|p2a: Po|Surging Strikes|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|5/100
+|-supereffective|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|2
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|88/100
+|-damage|p1a: Urshifu|76/100|[from] Spikes
+|turn|14
+|
+|switch|p2a: ACDC|Zapdos|62/100
+|move|p1a: Urshifu|Surging Strikes|p2a: ACDC
+|-crit|p2a: ACDC
+|-damage|p2a: ACDC|46/100
+|-status|p1a: Urshifu|par|[from] ability: Static|[of] p2a: ACDC
+|-crit|p2a: ACDC
+|-damage|p2a: ACDC|32/100
+|-crit|p2a: ACDC
+|-damage|p2a: ACDC|18/100
+|-hitcount|p2a: ACDC|3
+|
+|turn|15
+|
+|move|p2a: ACDC|Volt Switch|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|switch|p2a: The Cooler Daniel|Great Tusk|100/100|[from] Volt Switch
+|-enditem|p2a: The Cooler Daniel|Booster Energy
+|-activate|p2a: The Cooler Daniel|ability: Protosynthesis|[fromitem]
+|-start|p2a: The Cooler Daniel|protosynthesisspe
+|-damage|p2a: The Cooler Daniel|98/100|[from] Stealth Rock
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|16
+|
+|-terastallize|p2a: The Cooler Daniel|Steel
+|move|p2a: The Cooler Daniel|Headlong Rush|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|23/100
+|-unboost|p2a: The Cooler Daniel|def|1
+|-unboost|p2a: The Cooler Daniel|spd|1
+|move|p1a: Magearna|Fleur Cannon|p2a: The Cooler Daniel
+|-resisted|p2a: The Cooler Daniel
+|-crit|p2a: The Cooler Daniel
+|-damage|p2a: The Cooler Daniel|10/100
+|-unboost|p1a: Magearna|spa|2
+|
+|turn|17
+|
+|move|p2a: The Cooler Daniel|Headlong Rush|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: The Cooler Daniel|def|1
+|-unboost|p2a: The Cooler Daniel|spd|1
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|88/100
+|-damage|p1a: Typhlosion|76/100|[from] Spikes
+|turn|18
+|
+|move|p2a: The Cooler Daniel|Headlong Rush|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|-unboost|p2a: The Cooler Daniel|def|1
+|-unboost|p2a: The Cooler Daniel|spd|1
+|faint|p1a: Typhlosion
+|
+|win|KingofKrook

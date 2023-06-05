@@ -1,0 +1,483 @@
+|poke|p1|Alomomola, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Talonflame, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Magearna|
+|poke|p2|Moltres-Galar|
+|poke|p2|Great Tusk|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Heatran, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|switch|p1a: Talonflame|Talonflame, M, shiny|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|71/100
+|-status|p2a: Great Tusk|brn|[from] ability: Flame Body|[of] p1a: Talonflame
+|-enditem|p1a: Talonflame|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|turn|2
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Talonflame|Flamethrower|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|76/100
+|-activate|p1a: Toxapex|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Toxapex|63/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|4
+|
+|move|p2a: Heatran|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|20/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|70/100
+|
+|-damage|p1a: Toxapex|57/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|5
+|
+|move|p2a: Heatran|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|move|p1a: Toxapex|Infestation|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|99/100
+|-activate|p2a: Heatran|move: Infestation|[of] p1a: Toxapex
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-damage|p2a: Heatran|88/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Toxapex|45/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|6
+|
+|move|p2a: Heatran|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-end|p2a: Heatran|Infestation|[partiallytrapped]|[silent]
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|turn|7
+|
+|-terastallize|p2a: Heatran|Grass
+|move|p2a: Heatran|Tera Blast|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|38/100
+|move|p1a: Dondozo|Liquidation|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|76/100
+|
+|turn|8
+|
+|switch|p1a: Talonflame|Talonflame, M, shiny|71/100
+|move|p2a: Heatran|Magma Storm|p1a: Talonflame|[miss]
+|-miss|p2a: Heatran|p1a: Talonflame
+|
+|turn|9
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Heatran|Magma Storm|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|58/100
+|-activate|p1a: Talonflame|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Talonflame|46/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|10
+|
+|-terastallize|p1a: Talonflame|Ghost
+|move|p1a: Talonflame|Defog|p2a: Heatran
+|-unboost|p2a: Heatran|evasion|1
+|move|p2a: Heatran|Taunt|p1a: Talonflame
+|-start|p1a: Talonflame|move: Taunt
+|
+|-damage|p1a: Talonflame|33/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|11
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Heatran|Tera Blast|p1a: Clodsire
+|-damage|p1a: Clodsire|82/100
+|
+|turn|12
+|
+|move|p2a: Heatran|Magma Storm|p1a: Clodsire
+|-damage|p1a: Clodsire|47/100
+|-activate|p1a: Clodsire|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Clodsire|Toxic|p2a: Heatran
+|-status|p2a: Heatran|tox
+|
+|-damage|p2a: Heatran|70/100 tox|[from] psn
+|-damage|p1a: Clodsire|35/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|13
+|
+|move|p2a: Heatran|Taunt|p1a: Clodsire
+|-start|p1a: Clodsire|move: Taunt
+|cant|p1a: Clodsire|move: Taunt|Recover
+|
+|-damage|p2a: Heatran|57/100 tox|[from] psn
+|-damage|p1a: Clodsire|23/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|14
+|
+|move|p2a: Heatran|Earth Power|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-damage|p2a: Heatran|38/100 tox|[from] psn
+|
+|switch|p1a: Talonflame|Talonflame, M, shiny, tera:Ghost|33/100
+|turn|15
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|83/100
+|
+|turn|16
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Magearna
+|-status|p1a: Magearna|brn
+|move|p1a: Magearna|Draining Kiss|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p1a: Magearna|94/100 brn|[from] brn
+|turn|18
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-damage|p1a: Magearna|88/100 brn|[from] brn
+|turn|19
+|
+|switch|p1a: Alomomola|Alomomola, F, shiny|100/100
+|move|p2a: Landorus|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|71/100
+|
+|turn|20
+|
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|move|p1a: Alomomola|Whirlpool|p2a: Moltres|[miss]
+|-miss|p1a: Alomomola|p2a: Moltres
+|
+|turn|21
+|
+|switch|p1a: Magearna|Magearna|88/100 brn
+|move|p2a: Moltres|Nasty Plot|p2a: Moltres
+|-boost|p2a: Moltres|spa|2
+|
+|-damage|p1a: Magearna|82/100 brn|[from] brn
+|turn|22
+|
+|move|p2a: Moltres|Hurricane|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|42/100 brn
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-damage|p1a: Magearna|36/100 brn|[from] brn
+|turn|23
+|
+|move|p2a: Moltres|Hurricane|p1a: Magearna|[miss]
+|-miss|p2a: Moltres|p1a: Magearna
+|move|p1a: Magearna|Draining Kiss|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|28/100
+|-heal|p1a: Magearna|84/100 brn|[from] drain|[of] p2a: Moltres
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|
+|-damage|p1a: Magearna|78/100 brn|[from] brn
+|turn|24
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|move|p1a: Magearna|Draining Kiss|p2a: Landorus
+|-damage|p2a: Landorus|36/100
+|-heal|p1a: Magearna|100/100 brn|[from] drain|[of] p2a: Landorus
+|
+|-damage|p1a: Magearna|94/100 brn|[from] brn
+|turn|25
+|
+|switch|p1a: Alomomola|Alomomola, F, shiny|100/100
+|move|p2a: Landorus|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|71/100
+|
+|turn|26
+|
+|switch|p2a: Great Tusk|Great Tusk|94/100 brn
+|move|p1a: Alomomola|Whirlpool|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|79/100 brn
+|-activate|p2a: Great Tusk|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Great Tusk|72/100 brn|[from] brn
+|-damage|p2a: Great Tusk|60/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|27
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: woki mit deim koko|move: Stealth Rock
+|move|p1a: Alomomola|Chilling Water|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|38/100 brn
+|-unboost|p2a: Great Tusk|atk|1
+|
+|-damage|p2a: Great Tusk|32/100 brn|[from] brn
+|-damage|p2a: Great Tusk|19/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|28
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Great Tusk|Knock Off|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Great Tusk|13/100 brn|[from] brn
+|-damage|p2a: Great Tusk|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p2a: Heatran|Heatran, M, tera:Grass|38/100 tox
+|turn|29
+|
+|switch|p1a: Talonflame|Talonflame, M, shiny, tera:Ghost|83/100
+|-damage|p1a: Talonflame|71/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Talonflame
+|-damage|p1a: Talonflame|14/100
+|-activate|p1a: Talonflame|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p2a: Heatran|32/100 tox|[from] psn
+|-damage|p1a: Talonflame|2/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|30
+|
+|switch|p1a: Alomomola|Alomomola, F, shiny|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Alomomola|[miss]
+|-miss|p2a: Heatran|p1a: Alomomola
+|
+|-damage|p2a: Heatran|20/100 tox|[from] psn
+|turn|31
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|move|p1a: Alomomola|Protect||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|69/100
+|move|p1a: Alomomola|Whirlpool|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|turn|33
+|
+|switch|p1a: Magearna|Magearna|94/100 brn
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Magearna|[miss]
+|-miss|p2a: Dragapult|p1a: Magearna
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|-damage|p1a: Magearna|88/100 brn|[from] brn
+|turn|34
+|
+|move|p2a: Dragapult|Hex|p1a: Magearna
+|-damage|p1a: Magearna|43/100 brn
+|move|p1a: Magearna|Draining Kiss|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-heal|p1a: Magearna|56/100 brn|[from] drain|[of] p2a: Dragapult
+|
+|-heal|p2a: Dragapult|87/100|[from] item: Leftovers
+|-damage|p1a: Magearna|50/100 brn|[from] brn
+|turn|35
+|
+|switch|p2a: Landorus|Landorus-Therian, M|36/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|move|p1a: Magearna|Draining Kiss|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-heal|p1a: Magearna|73/100 brn|[from] drain|[of] p2a: Landorus
+|faint|p2a: Landorus
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-damage|p1a: Magearna|67/100 brn|[from] brn
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|36
+|
+|move|p2a: Urshifu|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Alomomola|Alomomola, F, shiny|100/100
+|turn|37
+|
+|switch|p2a: Moltres|Moltres-Galar|28/100
+|move|p1a: Alomomola|Whirlpool|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|19/100
+|-activate|p2a: Moltres|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Moltres|7/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|38
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Moltres|Fiery Wrath|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Moltres|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Moltres
+|
+|switch|p2a: Heatran|Heatran, M, tera:Grass|20/100 tox
+|turn|39
+|
+|move|p2a: Heatran|Tera Blast|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|11/100
+|move|p1a: Alomomola|Whirlpool|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|18/100 tox
+|-activate|p2a: Heatran|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Heatran|11/100 tox|[from] psn
+|-damage|p2a: Heatran|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Heatran
+|
+|switch|p2a: Dragapult|Dragapult, M|87/100
+|turn|40
+|
+|switch|p1a: Talonflame|Talonflame, M, shiny, tera:Ghost|2/100
+|-damage|p1a: Talonflame|0 fnt|[from] Stealth Rock
+|faint|p1a: Talonflame
+|move|p2a: Dragapult|Hex|p1: Talonflame|[notarget]
+|-fail|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|93/100|[from] item: Leftovers
+|
+|switch|p1a: Alomomola|Alomomola, F, shiny|45/100
+|turn|41
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|68/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Dragapult|74/100|[from] item: Leftovers
+|turn|42
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Alomomola
+|-status|p1a: Alomomola|brn
+|move|p1a: Alomomola|Chilling Water|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Alomomola|95/100 brn|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Dragapult|80/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|89/100 brn|[from] brn
+|turn|43
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Dragapult|Hex|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p2a: Dragapult|86/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|82/100 brn|[from] brn
+|turn|44
+|
+|move|p2a: Dragapult|Hex|p1a: Alomomola
+|-damage|p1a: Alomomola|19/100 brn
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Dragapult|92/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|13/100 brn|[from] brn
+|turn|45
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Dragapult|Dragon Darts|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|63/100 brn|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Dragapult|98/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|57/100 brn|[from] brn
+|turn|46
+|
+|switch|p1a: Dondozo|Dondozo, F|38/100
+|move|p2a: Dragapult|Hex|p1a: Dondozo
+|-damage|p1a: Dondozo|15/100
+|
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|turn|47
+|
+|move|p2a: Dragapult|Hex|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|
+|switch|p1a: Alomomola|Alomomola, F, shiny|90/100 brn
+|turn|48
+|
+|move|p2a: Dragapult|Hex|p1a: Alomomola
+|-damage|p1a: Alomomola|25/100 brn
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p1a: Alomomola|18/100 brn|[from] brn
+|turn|49
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Dragapult|Dragon Darts|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|68/100 brn|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Alomomola|62/100 brn|[from] brn
+|turn|50
+|
+|move|p2a: Dragapult|Hex|p1a: Alomomola
+|-damage|p1a: Alomomola|4/100 brn
+|move|p1a: Alomomola|Whirlpool|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-damage|p1a: Alomomola|0 fnt|[from] brn
+|faint|p1a: Alomomola
+|
+|win|PSV2

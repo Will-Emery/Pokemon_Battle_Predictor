@@ -1,0 +1,78 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Dragonite, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Great Tusk|
+|poke|p1|Magearna|
+|poke|p1|Sneasler, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Volcarona, F|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-boost|p1a: Enamorus|atk|1
+|turn|1
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Enamorus|Superpower|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|90/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|
+|turn|2
+|
+|-terastallize|p1a: Enamorus|Steel
+|move|p1a: Enamorus|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|53/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Enamorus
+|-immune|p1a: Enamorus
+|
+|turn|3
+|
+|move|p1a: Enamorus|Play Rough|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|15/100
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|65/100
+|
+|turn|4
+|
+|move|p1a: Enamorus|Superpower|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|48/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|98/100
+|
+|turn|5
+|
+|move|p1a: Enamorus|Play Rough|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|53/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] Chilly Reception
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|Snow|[upkeep]
+|-message|ValhallaAsgardian forfeited.
+|
+|win|Hazel but Niche

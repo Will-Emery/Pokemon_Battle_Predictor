@@ -1,1 +1,295 @@
-Could not connect
+|j|☆cylls
+|j|☆Trainer#261
+|t:|1685908408
+|gametype|singles
+|player|p1|cylls|worker|1281
+|player|p2|Trainer#261|lucas|1174
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Diancie|
+|poke|p1|Ursaluna, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Bronzong|
+|poke|p2|Magearna|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Zamazenta-*|
+|poke|p2|Avalugg-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cylls)
+|
+|t:|1685908432
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Bronzong|atk|1
+|turn|1
+|
+|t:|1685908439
+|move|p2a: Landorus|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: cylls|move: Stealth Rock
+|move|p1a: Bronzong|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Trainer#261|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685908445
+|move|p2a: Landorus|U-turn|p1a: Bronzong
+|-damage|p1a: Bronzong|78/100
+|
+|t:|1685908451
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685908460
+|move|p1a: Bronzong|Steel Beam|p2a: Great Tusk
+|-damage|p2a: Great Tusk|31/100
+|-damage|p1a: Bronzong|28/100|[from] steelbeam
+|move|p2a: Great Tusk|Knock Off|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|-enditem|p1a: Bronzong|Focus Sash|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Bronzong
+|
+|-heal|p2a: Great Tusk|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685908471
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100
+|-damage|p1a: Decidueye|94/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1685908479
+|move|p1a: Decidueye|Leaf Blade|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685908483
+|switch|p2a: Avalugg|Avalugg-Hisui, M|100/100
+|-damage|p2a: Avalugg|76/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1685908495
+|-terastallize|p1a: Decidueye|Fighting
+|move|p2a: Avalugg|Ice Fang|p1a: Decidueye
+|-crit|p1a: Decidueye
+|-damage|p1a: Decidueye|23/100
+|move|p1a: Decidueye|Triple Arrows|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|upkeep
+|
+|t:|1685908504
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|t:|1685908522
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685908538
+|switch|p1a: Diancie|Diancie|100/100
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1685908551
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Diancie|unboost|[from] ability: Clear Body|[of] p1a: Diancie
+|move|p1a: Diancie|Trick Room|p1a: Diancie
+|-fieldstart|move: Trick Room|[of] p1a: Diancie
+|
+|-heal|p1a: Diancie|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685908564
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|60/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1685908573
+|move|p1a: Ursaluna|Facade|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Ursaluna|43/100 brn|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|-damage|p1a: Ursaluna|37/100 brn|[from] brn
+|upkeep
+|
+|t:|1685908581
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p2a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|10
+|
+|t:|1685908588
+|move|p1a: Ursaluna|Earthquake|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-damage|p1a: Ursaluna|31/100 brn|[from] brn
+|upkeep
+|
+|t:|1685908594
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1685908601
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Ursaluna|Earthquake|p2a: Magearna
+|-damage|p2a: Magearna|16/100
+|move|p2a: Magearna|Draining Kiss|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-heal|p2a: Magearna|45/100|[from] drain|[of] p1a: Ursaluna
+|faint|p1a: Ursaluna
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|51/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685908619
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1685908625
+|move|p2a: Magearna|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|71/100
+|-heal|p2a: Magearna|65/100|[from] drain|[of] p1a: Slowking
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|77/100|[from] item: Leftovers
+|-heal|p2a: Magearna|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685908633
+|move|p1a: Slowking|Sludge Bomb|p2a: Magearna
+|-damage|p2a: Magearna|30/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p1a: Slowking|83/100|[from] item: Leftovers
+|-heal|p2a: Magearna|36/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685908642
+|move|p1a: Slowking|Sludge Bomb|p2a: Magearna
+|-damage|p2a: Magearna|8/100
+|move|p2a: Magearna|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|62/100
+|-heal|p2a: Magearna|25/100|[from] drain|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|68/100|[from] item: Leftovers
+|-heal|p2a: Magearna|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685908651
+|move|p1a: Slowking|Sludge Bomb|p2a: Magearna
+|-damage|p2a: Magearna|6/100
+|move|p2a: Magearna|Aura Sphere|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|56/100
+|
+|-heal|p1a: Slowking|62/100|[from] item: Leftovers
+|-heal|p2a: Magearna|12/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685908660
+|move|p1a: Slowking|Sludge Bomb|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-heal|p1a: Slowking|68/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685908663
+|switch|p2a: Chien-Pao|Chien-Pao|76/100
+|-damage|p2a: Chien-Pao|51/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|17
+|
+|t:|1685908671
+|move|p2a: Chien-Pao|Crunch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1685908676
+|switch|p1a: Diancie|Diancie|94/100
+|-damage|p1a: Diancie|82/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1685908681
+|move|p2a: Chien-Pao|Crunch|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|53/100
+|move|p1a: Diancie|Moonblast|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|win|cylls
+|raw|cylls's rating: 1281 → 1299(+18 for winning)
+|raw|Trainer#261's rating: 1174 → 1156(-18 for losing)
+|l|☆Trainer#261

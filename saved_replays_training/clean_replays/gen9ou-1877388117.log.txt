@@ -1,0 +1,144 @@
+|poke|p1|Magearna|
+|poke|p1|Moltres|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kleavor, M|
+|poke|p2|Gholdengo|
+|poke|p2|Sneasler, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Regidrago|
+|poke|p2|Ting-Lu|
+|poke|p2|Skeledirge, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Dragon deez nutz|Regidrago|100/100
+|turn|1
+|
+|move|p2a: Dragon deez nutz|Dragon Energy|p1a: Kleavor
+|-damage|p1a: Kleavor|16/100
+|move|p1a: Kleavor|Stone Axe|p2a: Dragon deez nutz
+|-damage|p2a: Dragon deez nutz|32/100
+|-sidestart|p2: RascalCool|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Dragon deez nutz|Dragon Energy|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|turn|3
+|
+|switch|p2a: Cheese Stick|Gholdengo|100/100
+|-damage|p2a: Cheese Stick|94/100|[from] Stealth Rock
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|
+|-heal|p2a: Cheese Stick|100/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Samurott|Shadow Ball|p2a: Cheese Stick
+|-supereffective|p2a: Cheese Stick
+|-damage|p2a: Cheese Stick|0 fnt
+|faint|p2a: Cheese Stick
+|
+|
+|switch|p2a: Whatsapp|Ting-Lu|100/100
+|-damage|p2a: Whatsapp|94/100|[from] Stealth Rock
+|-ability|p2a: Whatsapp|Vessel of Ruin
+|turn|5
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Whatsapp|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: robstadalobsta|move: Stealth Rock
+|
+|-heal|p2a: Whatsapp|100/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Rock|Skeledirge, F|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Rock
+|-supereffective|p2a: Rock
+|-damage|p2a: Rock|43/100
+|-enditem|p2a: Rock|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|7
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Rock
+|-supereffective|p2a: Rock
+|-damage|p2a: Rock|0 fnt
+|faint|p2a: Rock
+|
+|
+|switch|p2a: Better Great Tusk|Landorus-Therian, M|100/100
+|-damage|p2a: Better Great Tusk|88/100|[from] Stealth Rock
+|-ability|p2a: Better Great Tusk|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|turn|8
+|
+|move|p2a: Better Great Tusk|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|42/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Better Great Tusk
+|-crit|p2a: Better Great Tusk
+|-damage|p2a: Better Great Tusk|60/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: robstadalobsta|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|9
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Better Great Tusk
+|-supereffective|p2a: Better Great Tusk
+|-damage|p2a: Better Great Tusk|0 fnt
+|faint|p2a: Better Great Tusk
+|
+|
+|switch|p2a: Pop|Sneasler, F|100/100
+|-damage|p2a: Pop|95/100|[from] Stealth Rock
+|-item|p2a: Pop|Air Balloon
+|turn|10
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Pop|Swords Dance|p2a: Pop
+|-boost|p2a: Pop|atk|2
+|
+|turn|11
+|
+|-terastallize|p1a: Moltres|Steel
+|move|p2a: Pop|Dire Claw|p1a: Moltres
+|-immune|p1a: Moltres
+|move|p1a: Moltres|Air Slash|p2a: Pop|[miss]
+|-miss|p1a: Moltres|p2a: Pop
+|
+|turn|12
+|
+|switch|p1a: Kleavor|Kleavor, M|16/100
+|move|p2a: Pop|Close Combat|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-unboost|p2a: Pop|def|1
+|-unboost|p2a: Pop|spd|1
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|13
+|
+|move|p2a: Pop|Swords Dance|p2a: Pop
+|-boost|p2a: Pop|atk|2
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|14
+|
+|move|p1a: Magearna|Stored Power|p2a: Pop
+|-supereffective|p2a: Pop
+|-damage|p2a: Pop|0 fnt
+|-enditem|p2a: Pop|Air Balloon
+|faint|p2a: Pop
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-message|RascalCool forfeited.
+|
+|win|robstadalobsta

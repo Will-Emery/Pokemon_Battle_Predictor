@@ -1,0 +1,70 @@
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Basculegion, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Magearna|
+|poke|p2|Zamazenta-*|
+|poke|p2|Volcarona, F|
+|poke|p2|Great Tusk|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|turn|1
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|move|p1a: Landorus|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: ChandosHTesting|move: Stealth Rock
+|
+|-damage|p1a: Landorus|95/100 brn|[from] brn
+|turn|2
+|
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: ChandosHTesting|Reflect
+|move|p1a: Landorus|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|97/100
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100|[from] U-turn
+|
+|turn|3
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Meowscarada
+|-status|p1a: Meowscarada|brn
+|move|p1a: Meowscarada|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|70/100
+|-start|p1a: Meowscarada|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Dragapult
+|-enditem|p2a: Dragapult|Light Clay|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-damage|p1a: Meowscarada|94/100 brn|[from] brn
+|turn|4
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: ChandosHTesting|move: Light Screen
+|move|p1a: Meowscarada|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|67/100
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|turn|5
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Basculegion
+|-status|p1a: Basculegion|brn
+|move|p1a: Basculegion|Agility|p1a: Basculegion
+|-boost|p1a: Basculegion|spe|2
+|
+|-damage|p1a: Basculegion|94/100 brn|[from] brn
+|turn|6
+|-message|Sunburnt_Sun forfeited.
+|
+|win|ChandosHTesting

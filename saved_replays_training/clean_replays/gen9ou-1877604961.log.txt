@@ -1,0 +1,243 @@
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Iron Moth|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Wyrdeer, M|
+|poke|p2|Iron Treads|
+|poke|p2|Scizor, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragonite, M|
+|poke|p2|Gyarados, F|
+|teampreview
+|
+|start
+|switch|p1a: Wyrdeer|Wyrdeer, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-ability|p1a: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|turn|1
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: eelektrik funeral|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Iron Treads|Earth Power|p1a: Great Tusk
+|-damage|p1a: Great Tusk|49/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|90/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: eelektrik funeral|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|3
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|4
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Dragapult
+|-damage|p2a: Dragapult|15/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: BoldBaldBoomer|Reflect
+|
+|turn|5
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: BoldBaldBoomer|move: Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|6
+|
+|move|p2a: Dragapult|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|28/100
+|
+|switch|p2a: Scizor|Scizor, M|100/100|[from] U-turn
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Indeedee|Psychic|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|56/100
+|
+|turn|7
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Dragapult|Dragapult, M, shiny|15/100
+|-damage|p2a: Dragapult|3/100|[from] Stealth Rock
+|
+|turn|8
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: BoldBaldBoomer|move: Light Screen
+|move|p1a: Iron Moth|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-start|p1a: Iron Moth|Disable|U-turn|[from] ability: Cursed Body|[of] p2a: Dragapult
+|faint|p2a: Dragapult
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Polteageist|Polteageist-Antique|100/100|[from] U-turn
+|
+|
+|switch|p2a: Gyarados|Gyarados, F, shiny|100/100
+|turn|9
+|
+|move|p2a: Gyarados|Taunt|p1a: Polteageist
+|-start|p1a: Polteageist|move: Taunt
+|cant|p1a: Polteageist|move: Taunt|Shell Smash
+|
+|turn|10
+|
+|switch|p1a: Wyrdeer|Wyrdeer, M|100/100
+|-ability|p1a: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|turn|11
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Wyrdeer|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|3/100
+|
+|-sideend|p2: BoldBaldBoomer|Reflect
+|turn|12
+|
+|move|p2a: Gyarados|Waterfall|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|16/100
+|cant|p1a: Wyrdeer|flinch
+|
+|turn|13
+|
+|move|p2a: Gyarados|Waterfall|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|0 fnt
+|faint|p1a: Wyrdeer
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-fieldend|move: Psychic Terrain
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|14
+|
+|move|p2a: Gyarados|Waterfall|p1a: Hatterene
+|-damage|p1a: Hatterene|37/100
+|move|p1a: Hatterene|Nuzzle|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-heal|p1a: Hatterene|43/100|[from] item: Leftovers
+|
+|switch|p2a: Scizor|Scizor, M|56/100
+|-damage|p2a: Scizor|44/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Scizor|U-turn|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|77/100
+|-damage|p2a: Scizor|34/100|[from] item: Life Orb
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100|[from] U-turn
+|
+|-sideend|p2: BoldBaldBoomer|move: Light Screen
+|turn|16
+|
+|move|p1a: Iron Moth|Sludge Wave|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|34/100
+|-status|p2a: Dragonite|psn
+|move|p2a: Dragonite|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-damage|p2a: Dragonite|22/100 psn|[from] psn
+|
+|switch|p1a: Hatterene|Hatterene, F|43/100
+|turn|17
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Hatterene
+|-damage|p1a: Hatterene|18/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-heal|p1a: Hatterene|34/100|[from] drain|[of] p2a: Dragonite
+|faint|p2a: Dragonite
+|
+|-heal|p1a: Hatterene|40/100|[from] item: Leftovers
+|
+|switch|p2a: Scizor|Scizor, M|34/100
+|-damage|p2a: Scizor|22/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Indeedee|Indeedee, M|28/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Scizor|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-damage|p2a: Scizor|12/100|[from] item: Life Orb
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|
+|
+|switch|p1a: Hatterene|Hatterene, F|40/100
+|turn|19
+|
+|-terastallize|p2a: Iron Valiant|Fairy
+|move|p2a: Iron Valiant|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|turn|20
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Polteageist
+|-damage|p1a: Polteageist|28/100
+|-unboost|p1a: Polteageist|spa|1
+|move|p1a: Polteageist|Shadow Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|41/100
+|-unboost|p2a: Iron Valiant|spd|1
+|
+|turn|21
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|win|BoldBaldBoomer

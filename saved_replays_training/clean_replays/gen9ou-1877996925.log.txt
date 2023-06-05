@@ -1,0 +1,83 @@
+|poke|p1|Meowscarada, M|
+|poke|p1|Volcanion|
+|poke|p1|Heatran, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p1|Zapdos|
+|poke|p2|Chien-Pao|
+|poke|p2|Skeledirge, M|
+|poke|p2|Iron Treads|
+|poke|p2|Abomasnow, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|move|p2a: Abomasnow|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|38/100
+|move|p1a: Heatran|Magma Storm|p2a: Abomasnow|[miss]
+|-miss|p1a: Heatran|p2a: Abomasnow
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Heatran|45/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Abomasnow|Blizzard|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Heatran|51/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Abomasnow|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|4
+|
+|-terastallize|p1a: Volcanion|Water
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: erduashi|move: Aurora Veil
+|move|p1a: Volcanion|Steam Eruption|p2a: Abomasnow
+|-resisted|p2a: Abomasnow
+|-damage|p2a: Abomasnow|67/100
+|-status|p2a: Abomasnow|brn
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Abomasnow|61/100 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Abomasnow|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|none
+|-damage|p2a: Abomasnow|55/100 brn|[from] brn
+|
+|switch|p1a: Volcanion|Volcanion, tera:Water|100/100
+|turn|6
+|
+|move|p2a: Abomasnow|Leaf Storm|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|-unboost|p2a: Abomasnow|spa|2
+|faint|p1a: Volcanion
+|
+|-damage|p2a: Abomasnow|49/100 brn|[from] brn
+|-message|tapudeez forfeited.
+|
+|win|erduashi

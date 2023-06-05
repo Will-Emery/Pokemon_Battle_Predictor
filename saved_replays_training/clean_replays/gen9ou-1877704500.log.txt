@@ -1,0 +1,319 @@
+|poke|p1|Sawsbuck-Winter, M|
+|poke|p1|Tauros, M|
+|poke|p1|Staraptor, M|
+|poke|p1|Pyroar, M|
+|poke|p1|Farigiraf, M|
+|poke|p1|Wigglytuff, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Klefki, M|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Blissey, F|
+|poke|p2|Avalugg-Hisui, F|
+|poke|p2|Pincurchin, F|
+|teampreview
+|
+|start
+|switch|p1a: VelaG4|Pyroar, M|100/100
+|switch|p2a: mangina|Klefki, M|100/100
+|turn|1
+|
+|switch|p2a: BIissey|Blissey, F|100/100
+|-terastallize|p1a: VelaG4|Fire
+|move|p1a: VelaG4|Flamethrower|p2a: BIissey
+|-damage|p2a: BIissey|87/100
+|
+|turn|2
+|
+|move|p1a: VelaG4|Protect|p1a: VelaG4
+|-singleturn|p1a: VelaG4|Protect
+|move|p2a: BIissey|Trick|p1a: VelaG4
+|-activate|p1a: VelaG4|move: Protect
+|
+|turn|3
+|
+|switch|p1a: GalinhaG4|Staraptor, M|100/100
+|-ability|p1a: GalinhaG4|Intimidate|boost
+|-unboost|p2a: BIissey|atk|1
+|move|p2a: BIissey|Trick|p1a: GalinhaG4
+|-activate|p2a: BIissey|move: Trick|[of] p1a: GalinhaG4
+|-item|p1a: GalinhaG4|Choice Band|[from] move: Trick
+|-item|p2a: BIissey|Choice Scarf|[from] move: Trick
+|
+|turn|4
+|
+|switch|p2a: tricken chicken|Decidueye-Hisui, F, shiny|100/100
+|move|p1a: GalinhaG4|Close Combat|p2a: tricken chicken
+|-damage|p2a: tricken chicken|28/100
+|-unboost|p1a: GalinhaG4|def|1
+|-unboost|p1a: GalinhaG4|spd|1
+|
+|-heal|p2a: tricken chicken|35/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: GalinhaG4|Close Combat|p2a: tricken chicken
+|-damage|p2a: tricken chicken|0 fnt
+|-unboost|p1a: GalinhaG4|def|1
+|-unboost|p1a: GalinhaG4|spd|1
+|faint|p2a: tricken chicken
+|
+|
+|switch|p2a: Sneaslucha|Sneasler, F|100/100
+|turn|6
+|
+|switch|p1a: BostonaroG4|Tauros, M|100/100
+|-ability|p1a: BostonaroG4|Intimidate|boost
+|-unboost|p2a: Sneaslucha|atk|1
+|-enditem|p2a: Sneaslucha|White Herb
+|-clearnegativeboost|p2a: Sneaslucha|[silent]
+|move|p2a: Sneaslucha|Substitute|p2a: Sneaslucha
+|-start|p2a: Sneaslucha|Substitute
+|-damage|p2a: Sneaslucha|76/100
+|
+|turn|7
+|
+|move|p2a: Sneaslucha|Swords Dance|p2a: Sneaslucha
+|-boost|p2a: Sneaslucha|atk|2
+|move|p1a: BostonaroG4|Earthquake|p2a: Sneaslucha
+|-supereffective|p2a: Sneaslucha
+|-end|p2a: Sneaslucha|Substitute
+|-damage|p1a: BostonaroG4|91/100|[from] item: Life Orb
+|
+|turn|8
+|
+|move|p2a: Sneaslucha|Close Combat|p1a: BostonaroG4
+|-supereffective|p1a: BostonaroG4
+|-damage|p1a: BostonaroG4|0 fnt
+|-unboost|p2a: Sneaslucha|def|1
+|-unboost|p2a: Sneaslucha|spd|1
+|faint|p1a: BostonaroG4
+|
+|
+|switch|p1a: GalinhaG4|Staraptor, M|100/100
+|-ability|p1a: GalinhaG4|Intimidate|boost
+|-unboost|p2a: Sneaslucha|atk|1
+|turn|9
+|
+|move|p2a: Sneaslucha|Acrobatics|p1a: GalinhaG4
+|-damage|p1a: GalinhaG4|11/100
+|move|p1a: GalinhaG4|Brave Bird|p2a: Sneaslucha
+|-supereffective|p2a: Sneaslucha
+|-damage|p2a: Sneaslucha|0 fnt
+|faint|p2a: Sneaslucha
+|-damage|p1a: GalinhaG4|0 fnt|[from] Recoil
+|faint|p1a: GalinhaG4
+|
+|
+|switch|p2a: BIissey|Blissey, F|87/100
+|switch|p1a: DestinoG4|Wigglytuff, M|100/100
+|turn|10
+|
+|move|p2a: BIissey|Thunder Wave|p1a: DestinoG4
+|-status|p1a: DestinoG4|par
+|move|p1a: DestinoG4|Stealth Rock|p2a: BIissey
+|-sidestart|p2: Rap's my Fave Meme|move: Stealth Rock
+|
+|turn|11
+|
+|switch|p2a: jumping cushion|Pincurchin, F|100/100
+|-damage|p2a: jumping cushion|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: jumping cushion
+|cant|p1a: DestinoG4|par
+|
+|turn|12
+|
+|move|p1a: DestinoG4|Nasty Plot|p1a: DestinoG4
+|-boost|p1a: DestinoG4|spa|2
+|move|p2a: jumping cushion|Curse|p2a: jumping cushion
+|-unboost|p2a: jumping cushion|spe|1
+|-boost|p2a: jumping cushion|atk|1
+|-boost|p2a: jumping cushion|def|1
+|
+|turn|13
+|
+|move|p1a: DestinoG4|Dazzling Gleam|p2a: jumping cushion
+|-damage|p2a: jumping cushion|0 fnt
+|faint|p2a: jumping cushion
+|
+|
+|switch|p2a: mangina|Klefki, M|100/100
+|-damage|p2a: mangina|94/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: mangina|Calm Mind|p2a: mangina
+|-boost|p2a: mangina|spa|1
+|-boost|p2a: mangina|spd|1
+|move|p1a: DestinoG4|Dazzling Gleam|p2a: mangina
+|-resisted|p2a: mangina
+|-damage|p2a: mangina|66/100
+|
+|-heal|p2a: mangina|73/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: mangina|Calm Mind|p2a: mangina
+|-boost|p2a: mangina|spa|1
+|-boost|p2a: mangina|spd|1
+|move|p1a: DestinoG4|Encore|p2a: mangina
+|-start|p2a: mangina|Encore
+|
+|-heal|p2a: mangina|79/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|turn|16
+|
+|move|p2a: mangina|Calm Mind|p2a: mangina
+|-boost|p2a: mangina|spa|1
+|-boost|p2a: mangina|spd|1
+|move|p1a: DestinoG4|Nasty Plot|p1a: DestinoG4
+|-boost|p1a: DestinoG4|spa|2
+|
+|-heal|p2a: mangina|85/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: mangina|Calm Mind|p2a: mangina
+|-boost|p2a: mangina|spa|1
+|-boost|p2a: mangina|spd|1
+|move|p1a: DestinoG4|Nasty Plot|p1a: DestinoG4
+|-boost|p1a: DestinoG4|spa|2
+|
+|-heal|p2a: mangina|91/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: mangina|Calm Mind|p2a: mangina
+|-boost|p2a: mangina|spa|1
+|-boost|p2a: mangina|spd|1
+|move|p1a: DestinoG4|Dazzling Gleam|p2a: mangina
+|-resisted|p2a: mangina
+|-damage|p2a: mangina|70/100
+|
+|-heal|p2a: mangina|76/100|[from] item: Leftovers
+|-end|p2a: mangina|Encore
+|turn|19
+|
+|move|p2a: mangina|Draining Kiss|p1a: DestinoG4
+|-damage|p1a: DestinoG4|39/100 par
+|-heal|p2a: mangina|100/100|[from] drain|[of] p1a: DestinoG4
+|-enditem|p1a: DestinoG4|Sitrus Berry|[eat]
+|-heal|p1a: DestinoG4|64/100 par|[from] item: Sitrus Berry
+|move|p1a: DestinoG4|Encore|p2a: mangina
+|-start|p2a: mangina|Encore
+|
+|turn|20
+|
+|move|p2a: mangina|Draining Kiss|p1a: DestinoG4
+|-damage|p1a: DestinoG4|6/100 par
+|move|p1a: DestinoG4|Dazzling Gleam|p2a: mangina
+|-resisted|p2a: mangina
+|-damage|p2a: mangina|79/100
+|
+|-heal|p2a: mangina|85/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: mangina|Draining Kiss|p1a: DestinoG4
+|-damage|p1a: DestinoG4|0 fnt
+|-heal|p2a: mangina|92/100|[from] drain|[of] p1a: DestinoG4
+|faint|p1a: DestinoG4
+|
+|-heal|p2a: mangina|98/100|[from] item: Leftovers
+|
+|switch|p1a: VelaG4|Pyroar, M, tera:Fire|100/100
+|turn|22
+|
+|move|p1a: VelaG4|Yawn|p2a: mangina
+|-start|p2a: mangina|move: Yawn|[of] p1a: VelaG4
+|move|p2a: mangina|Draining Kiss|p1a: VelaG4
+|-resisted|p1a: VelaG4
+|-damage|p1a: VelaG4|59/100
+|-heal|p2a: mangina|100/100|[from] drain|[of] p1a: VelaG4
+|
+|-end|p2a: mangina|Encore
+|turn|23
+|
+|move|p2a: mangina|Thunder Wave|p1a: VelaG4
+|-status|p1a: VelaG4|par
+|move|p1a: VelaG4|Flamethrower|p2a: mangina
+|-supereffective|p2a: mangina
+|-damage|p2a: mangina|52/100
+|
+|-heal|p2a: mangina|58/100|[from] item: Leftovers
+|-end|p2a: mangina|move: Yawn|[silent]
+|-status|p2a: mangina|slp
+|turn|24
+|
+|cant|p2a: mangina|slp
+|cant|p1a: VelaG4|par
+|
+|-heal|p2a: mangina|64/100 slp|[from] item: Leftovers
+|turn|25
+|
+|cant|p2a: mangina|slp
+|move|p1a: VelaG4|Flamethrower|p2a: mangina
+|-supereffective|p2a: mangina
+|-damage|p2a: mangina|16/100 slp
+|
+|-heal|p2a: mangina|22/100 slp|[from] item: Leftovers
+|turn|26
+|
+|cant|p2a: mangina|slp
+|move|p1a: VelaG4|Flamethrower|p2a: mangina
+|-supereffective|p2a: mangina
+|-damage|p2a: mangina|0 fnt
+|faint|p2a: mangina
+|
+|
+|switch|p2a: magearna killa|Avalugg-Hisui, F|100/100
+|-damage|p2a: magearna killa|76/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: VelaG4|Yawn|p2a: magearna killa
+|-start|p2a: magearna killa|move: Yawn|[of] p1a: VelaG4
+|move|p2a: magearna killa|Body Press|p1a: VelaG4
+|-damage|p1a: VelaG4|16/100 par
+|
+|turn|28
+|
+|move|p1a: VelaG4|Protect|p1a: VelaG4
+|-singleturn|p1a: VelaG4|Protect
+|move|p2a: magearna killa|Body Press|p1a: VelaG4
+|-activate|p1a: VelaG4|move: Protect
+|
+|-end|p2a: magearna killa|move: Yawn|[silent]
+|-status|p2a: magearna killa|slp
+|turn|29
+|
+|move|p1a: VelaG4|Endeavor|p2a: magearna killa
+|-damage|p2a: magearna killa|13/100 slp
+|cant|p2a: magearna killa|slp
+|
+|turn|30
+|
+|move|p1a: VelaG4|Flamethrower|p2a: magearna killa
+|-damage|p2a: magearna killa|0 fnt
+|faint|p2a: magearna killa
+|
+|
+|switch|p2a: BIissey|Blissey, F|87/100
+|-damage|p2a: BIissey|75/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: BIissey|Trick|p1a: VelaG4
+|-activate|p2a: BIissey|move: Trick|[of] p1a: VelaG4
+|-item|p1a: VelaG4|Choice Scarf|[from] move: Trick
+|-item|p2a: BIissey|Focus Sash|[from] move: Trick
+|cant|p1a: VelaG4|par
+|
+|turn|32
+|
+|move|p1a: VelaG4|Endeavor|p2a: BIissey
+|-damage|p2a: BIissey|8/100
+|move|p2a: BIissey|Seismic Toss|p1a: VelaG4
+|-damage|p1a: VelaG4|0 fnt
+|faint|p1a: VelaG4
+|
+|
+|switch|p1a: MachoG4|Sawsbuck-Winter, M|100/100
+|turn|33
+|
+|move|p1a: MachoG4|Horn Leech|p2a: BIissey
+|-damage|p2a: BIissey|0 fnt
+|faint|p2a: BIissey
+|
+|win|HisokaG4

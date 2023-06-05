@@ -1,0 +1,308 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Magearna|
+|poke|p1|Slowking, M|
+|poke|p1|Crabominable, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Hoopa|
+|poke|p2|Meowscarada, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Great Tusk|
+|poke|p2|Skeledirge, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Clodsire, F|
+|teampreview
+|
+|start
+|switch|p1a: Hoopa|Hoopa|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|1
+|
+|move|p2a: Meowscarada|Knock Off|p1a: Hoopa
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Hoopa
+|-enditem|p1a: Hoopa|Focus Sash
+|-damage|p1a: Hoopa|1/100
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|turn|2
+|
+|move|p1a: Hoopa|Destiny Bond|p1a: Hoopa
+|-singlemove|p1a: Hoopa|Destiny Bond
+|move|p2a: Meowscarada|Knock Off|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|-activate|p1a: Hoopa|move: Destiny Bond
+|faint|p2a: Meowscarada
+|
+|
+|switch|p1a: Crabominable|Crabominable, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|3
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ursaluna
+|-status|p1a: Ursaluna|brn
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|4
+|
+|-terastallize|p1a: Ursaluna|Normal
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Ursaluna|Facade|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|turn|5
+|
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Ursaluna|Crunch|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|27/100
+|
+|-damage|p1a: Ursaluna|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|6
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Ursaluna
+|-damage|p1a: Ursaluna|55/100 brn
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Ursaluna|Earthquake|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|-damage|p1a: Ursaluna|49/100 brn|[from] brn
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|7
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|52/100
+|-enditem|p1a: Slowking|Lagging Tail|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|8
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|9
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Chilly Reception
+|move|p2a: Rotom|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|79/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|-weather|Snow|[upkeep]
+|turn|10
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|-enditem|p1a: Magearna|Eject Pack
+|faint|p2a: Great Tusk
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p1a: Crabominable|Crabominable, F|100/100
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|11
+|
+|-terastallize|p2a: Garganacl|Fairy
+|move|p1a: Crabominable|Ice Hammer|p2a: Garganacl
+|-damage|p2a: Garganacl|39/100
+|-unboost|p1a: Crabominable|spe|1
+|-damage|p1a: Crabominable|91/100|[from] item: Life Orb
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Garganacl|46/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Magearna|Magearna|79/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|96/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|13
+|
+|move|p2a: Garganacl|Salt Cure|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|73/100
+|-start|p1a: Magearna|Salt Cure
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-weather|none
+|-damage|p1a: Magearna|48/100|[from] Salt Cure
+|turn|14
+|
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|move|p1a: Magearna|Fleur Cannon|p2a: Garganacl
+|-damage|p2a: Garganacl|53/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p2a: Garganacl|60/100|[from] item: Leftovers
+|-damage|p1a: Magearna|23/100|[from] Salt Cure
+|turn|15
+|
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|move|p1a: Magearna|Encore|p2a: Garganacl
+|-start|p2a: Garganacl|Encore
+|
+|-damage|p1a: Magearna|0 fnt|[from] Salt Cure
+|faint|p1a: Magearna
+|
+|switch|p1a: Ursaluna|Ursaluna, F, tera:Normal|49/100 brn
+|turn|16
+|
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: Garganacl|Recover||[still]
+|-fail|p2a: Garganacl|heal
+|
+|-damage|p1a: Ursaluna|43/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: Garganacl|Recover||[still]
+|-fail|p2a: Garganacl|heal
+|
+|-damage|p1a: Ursaluna|37/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|18
+|
+|move|p2a: Garganacl|Recover||[still]
+|-fail|p2a: Garganacl|heal
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Ursaluna|31/100 brn|[from] brn
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|19
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Slowking|Slowking, M|86/100
+|turn|20
+|
+|move|p2a: Rotom|Volt Switch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100|[from] Volt Switch
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|21
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Crabominable|Crabominable, F|91/100|[from] Chilly Reception
+|move|p2a: Clodsire|Earthquake|p1a: Crabominable
+|-damage|p1a: Crabominable|71/100
+|
+|-weather|Snow|[upkeep]
+|turn|22
+|
+|move|p2a: Clodsire|Toxic|p1a: Crabominable
+|-status|p1a: Crabominable|tox
+|move|p1a: Crabominable|Ice Hammer|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|-unboost|p1a: Crabominable|spe|1
+|faint|p2a: Clodsire
+|-damage|p1a: Crabominable|61/100 tox|[from] item: Life Orb
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Crabominable|55/100 tox|[from] psn
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|23
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Crabominable|Close Combat|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Crabominable|43/100 tox|[from] psn
+|turn|24
+|
+|move|p1a: Crabominable|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|26/100
+|-unboost|p1a: Crabominable|def|1
+|-unboost|p1a: Crabominable|spd|1
+|-damage|p1a: Crabominable|33/100 tox|[from] item: Life Orb
+|move|p2a: Rotom|Volt Switch|p1a: Crabominable
+|-damage|p1a: Crabominable|0 fnt
+|faint|p1a: Crabominable
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Rotom|32/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Slowking|Slowking, M|76/100
+|turn|25
+|
+|move|p2a: Rotom|Volt Switch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|38/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|none
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Slowking|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|move|p2a: Rotom|Hydro Pump|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|23/100
+|
+|-heal|p2a: Rotom|11/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Slowking|Psychic|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p2a: Rotom|17/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Slowking|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|Aggron

@@ -1,0 +1,225 @@
+|poke|p1|Masquerain, F|
+|poke|p1|Gholdengo|
+|poke|p1|Kleavor, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Chansey, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Armarouge, F|
+|poke|p2|Great Tusk|
+|poke|p2|Breloom, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|start
+|switch|p1a: Masquerain|Masquerain, F|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|move|p1a: Masquerain|Sticky Web|p2a: Torkoal
+|-sidestart|p2: TrainerCyan1|move: Sticky Web
+|move|p2a: Torkoal|Stealth Rock|p1a: Masquerain
+|-sidestart|p1: kautama|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p1a: Masquerain|Stun Spore|p2a: Torkoal
+|-status|p2a: Torkoal|par
+|move|p2a: Torkoal|Rapid Spin|p1a: Masquerain
+|-damage|p1a: Masquerain|90/100
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: TrainerCyan1|Sticky Web|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Masquerain|Sticky Web|p2a: Lilligant
+|-sidestart|p2: TrainerCyan1|move: Sticky Web
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|-damage|p1a: Kleavor|76/100|[from] Stealth Rock
+|move|p2a: Lilligant|Ice Spinner|p1a: Kleavor
+|-damage|p1a: Kleavor|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|move|p2a: Lilligant|Ice Spinner|p1a: Kleavor
+|-damage|p1a: Kleavor|8/100
+|move|p1a: Kleavor|X-Scissor|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100 par
+|-activate|p2a: Torkoal|move: Sticky Web
+|-unboost|p2a: Torkoal|spe|1
+|turn|6
+|
+|move|p1a: Kleavor|X-Scissor|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|72/100 par
+|move|p2a: Torkoal|Rapid Spin|p1a: Kleavor
+|-resisted|p1a: Kleavor
+|-damage|p1a: Kleavor|3/100
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: TrainerCyan1|Sticky Web|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p1a: Kleavor|X-Scissor|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|43/100 par
+|cant|p2a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|move|p1a: Kleavor|X-Scissor|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|14/100 par
+|move|p2a: Torkoal|Rapid Spin|p1a: Kleavor
+|-resisted|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-boost|p2a: Torkoal|spe|1
+|faint|p1a: Kleavor
+|
+|-weather|none
+|
+|switch|p1a: Masquerain|Masquerain, F|90/100
+|-damage|p1a: Masquerain|40/100|[from] Stealth Rock
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|turn|9
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Masquerain|Sticky Web|p2a: Breloom
+|-sidestart|p2: TrainerCyan1|move: Sticky Web
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|turn|10
+|
+|move|p1a: Masquerain|Chilling Water|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|89/100 tox
+|-unboost|p2a: Breloom|atk|1
+|move|p2a: Breloom|Spore|p1a: Masquerain
+|-status|p1a: Masquerain|slp|[from] move: Spore
+|
+|-heal|p2a: Breloom|100/100 tox|[from] ability: Poison Heal
+|turn|11
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|-damage|p1a: Dondozo|88/100|[from] Stealth Rock
+|move|p2a: Breloom|Leech Seed|p1a: Dondozo
+|-start|p1a: Dondozo|move: Leech Seed
+|
+|-heal|p1a: Dondozo|94/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|82/100|[from] Leech Seed|[of] p2a: Breloom
+|turn|12
+|
+|move|p2a: Breloom|Giga Drain|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|47/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|53/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|41/100|[from] Leech Seed|[of] p2a: Breloom
+|turn|13
+|
+|move|p2a: Breloom|Giga Drain|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|7/100
+|move|p1a: Dondozo|Wave Crash|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|75/100 tox
+|-damage|p1a: Dondozo|2/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|8/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|0 fnt|[from] Leech Seed|[of] p2a: Breloom
+|-heal|p2a: Breloom|86/100 tox|[silent]
+|faint|p1a: Dondozo
+|-heal|p2a: Breloom|99/100 tox|[from] ability: Poison Heal
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Hoopa|Zen Headbutt|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|12/100 tox
+|move|p2a: Breloom|Close Combat|p1a: Hoopa
+|-damage|p1a: Hoopa|33/100
+|-unboost|p2a: Breloom|def|1
+|-unboost|p2a: Breloom|spd|1
+|
+|-heal|p2a: Breloom|24/100 tox|[from] ability: Poison Heal
+|turn|15
+|
+|move|p1a: Hoopa|Zen Headbutt|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|
+|switch|p2a: Torkoal|Torkoal, F|14/100 par
+|-activate|p2a: Torkoal|move: Sticky Web
+|-unboost|p2a: Torkoal|spe|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|16
+|
+|move|p1a: Hoopa|Zen Headbutt|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|17
+|
+|move|p1a: Hoopa|Zen Headbutt|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|28/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: TrainerCyan1|Sticky Web|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|faint|p1a: Hoopa
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|34/100|[from] item: Leftovers
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|turn|18
+|
+|-terastallize|p1a: Gholdengo|Fighting
+|move|p2a: Great Tusk|Headlong Rush|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|40/100|[from] item: Leftovers
+|-message|kautama forfeited.
+|
+|win|TrainerCyan1

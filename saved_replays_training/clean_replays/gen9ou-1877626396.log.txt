@@ -1,0 +1,70 @@
+|poke|p1|Enamorus, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Muk-Alola, F|
+|poke|p1|Iron Treads|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Iron Hands|
+|poke|p2|Enamorus, F|
+|poke|p2|Persian-Alola, M|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|-ability|p2a: Zapdos|Defiant|boost
+|-boost|p2a: Zapdos|atk|2
+|-enditem|p2a: Zapdos|Adrenaline Orb
+|-boost|p2a: Zapdos|spe|1|[from] item: Adrenaline Orb
+|turn|1
+|
+|move|p2a: Zapdos|Acrobatics|p1a: Landorus
+|-damage|p1a: Landorus|45/100
+|-damage|p2a: Zapdos|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|move|p1a: Landorus|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: altharu|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Zapdos|Acrobatics|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|66/100
+|
+|turn|3
+|
+|move|p1a: Iron Treads|Knock Off|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|72/100
+|move|p2a: Zapdos|Close Combat|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|-ability|p2a: Zapdos|Defiant|boost
+|-boost|p2a: Zapdos|atk|2
+|turn|4
+|
+|move|p2a: Zapdos|Acrobatics|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|-message|GameJoker4200 forfeited.
+|
+|win|altharu

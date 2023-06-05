@@ -1,0 +1,204 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Slowking, M|
+|poke|p1|Garganacl, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Chien-Pao|
+|poke|p2|Masquerain, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Electrode-Hisui|
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|move|p2a: Arcanine|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|40/100
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Earth Power|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-enditem|p2a: Arcanine|Focus Sash
+|-damage|p2a: Arcanine|1/100
+|
+|turn|2
+|
+|move|p2a: Arcanine|Head Smash|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|3
+|
+|move|p2a: Arcanine|Head Smash|p1a: Cresselia
+|-damage|p1a: Cresselia|52/100
+|-damage|p2a: Arcanine|0 fnt|[from] item: Rocky Helmet|[of] p1a: Cresselia
+|faint|p2a: Arcanine
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|
+|switch|p2a: Masquerain|Masquerain, F|100/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Cresselia|atk|1
+|turn|4
+|
+|move|p1a: Cresselia|Power Gem|p2a: Masquerain
+|-supereffective|p2a: Masquerain
+|-damage|p2a: Masquerain|24/100
+|move|p2a: Masquerain|Hurricane|p1a: Cresselia|[miss]
+|-miss|p2a: Masquerain|p1a: Cresselia
+|
+|turn|5
+|
+|move|p1a: Cresselia|Power Gem|p2a: Masquerain
+|-supereffective|p2a: Masquerain
+|-damage|p2a: Masquerain|0 fnt
+|faint|p2a: Masquerain
+|
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|-ability|p2a: Basculegion|Mold Breaker
+|turn|6
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Basculegion|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|50/100
+|
+|turn|7
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|87/100
+|-enditem|p2a: Great Tusk|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-fieldend|move: Trick Room
+|turn|8
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|55/100
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|9
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|-ability|p2a: Basculegion|Mold Breaker
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|10
+|
+|move|p1a: Slowking|Psyshock|p2a: Basculegion
+|-damage|p2a: Basculegion|68/100
+|move|p2a: Basculegion|Liquidation|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|40/100
+|
+|turn|11
+|
+|-terastallize|p2a: Basculegion|Ghost
+|move|p1a: Slowking|Psyshock|p2a: Basculegion
+|-damage|p2a: Basculegion|33/100
+|move|p2a: Basculegion|Tera Blast|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|12
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|73/100
+|move|p1a: Ursaluna|Earthquake|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p2a: Great Tusk|Great Tusk|87/100
+|turn|13
+|
+|move|p1a: Ursaluna|Facade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Ursaluna|67/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|14
+|
+|switch|p1a: Cresselia|Cresselia, F|52/100
+|move|p2a: Electrode|Energy Ball|p1a: Cresselia
+|-damage|p1a: Cresselia|26/100
+|
+|turn|15
+|
+|move|p2a: Electrode|Energy Ball|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|turn|16
+|
+|move|p2a: Electrode|Energy Ball|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|11/100
+|move|p1a: Garganacl|Earthquake|p2a: Electrode
+|-damage|p2a: Electrode|59/100
+|
+|-heal|p1a: Garganacl|18/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Electrode|Energy Ball|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|24/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Electrode|Energy Ball|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|50/100
+|turn|19
+|
+|move|p2a: Electrode|Energy Ball|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M|67/100 brn
+|turn|20
+|
+|move|p2a: Electrode|Energy Ball|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|Hallpass

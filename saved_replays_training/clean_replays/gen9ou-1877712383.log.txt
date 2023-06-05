@@ -1,0 +1,344 @@
+|poke|p1|Kleavor, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Gholdengo|
+|poke|p1|Magearna|
+|poke|p1|Quaquaval, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Tyranitar, M|
+|poke|p2|Heatran, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Axed|Kleavor, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Axed|Stone Axe|p2a: Magearna
+|-resisted|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|70/100
+|-sidestart|p2: Masvidal|move: Stealth Rock
+|
+|-heal|p2a: Magearna|76/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Axed|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|70/100
+|
+|switch|p1a: Gargle Salt|Garganacl, M|100/100|[from] U-turn
+|move|p2a: Magearna|Aura Sphere|p1a: Gargle Salt
+|-supereffective|p1a: Gargle Salt
+|-damage|p1a: Gargle Salt|62/100
+|
+|-heal|p2a: Magearna|76/100|[from] item: Leftovers
+|-heal|p1a: Gargle Salt|69/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Magearna|Volt Switch|p1a: Gargle Salt
+|-damage|p1a: Gargle Salt|52/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gargle Salt|atk|1
+|move|p1a: Gargle Salt|Salt Cure|p2a: Landorus
+|-damage|p2a: Landorus|77/100
+|
+|-heal|p1a: Gargle Salt|58/100|[from] item: Leftovers
+|turn|4
+|
+|-terastallize|p1a: Gargle Salt|Ghost
+|move|p2a: Landorus|Earth Power|p1a: Gargle Salt
+|-damage|p1a: Gargle Salt|29/100
+|-unboost|p1a: Gargle Salt|spd|1
+|move|p1a: Gargle Salt|Recover|p1a: Gargle Salt
+|-heal|p1a: Gargle Salt|79/100
+|
+|-heal|p1a: Gargle Salt|85/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Gholden-No|Gholdengo|100/100
+|-item|p1a: Gholden-No|Air Balloon
+|move|p2a: Landorus|Substitute|p2a: Landorus
+|-start|p2a: Landorus|Substitute
+|-damage|p2a: Landorus|52/100
+|
+|turn|6
+|
+|move|p2a: Landorus|Psychic|p1a: Gholden-No
+|-resisted|p1a: Gholden-No
+|-damage|p1a: Gholden-No|90/100
+|-enditem|p1a: Gholden-No|Air Balloon
+|move|p1a: Gholden-No|Shadow Ball|p2a: Landorus
+|-end|p2a: Landorus|Substitute
+|
+|turn|7
+|
+|move|p2a: Landorus|Earth Power|p1a: Gholden-No
+|-supereffective|p1a: Gholden-No
+|-damage|p1a: Gholden-No|24/100
+|-unboost|p1a: Gholden-No|spd|1
+|move|p1a: Gholden-No|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|10/100
+|
+|turn|8
+|
+|move|p2a: Landorus|Psychic|p1a: Gholden-No
+|-resisted|p1a: Gholden-No
+|-damage|p1a: Gholden-No|8/100
+|-unboost|p1a: Gholden-No|spd|1
+|move|p1a: Gholden-No|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|switch|p1a: You Set Spikes|Samurott-Hisui, F|100/100
+|-terastallize|p2a: Chien-Pao|Dark
+|move|p2a: Chien-Pao|Crunch|p1a: You Set Spikes
+|-resisted|p1a: You Set Spikes
+|-damage|p1a: You Set Spikes|45/100
+|
+|-heal|p1a: You Set Spikes|51/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Chien-Pao|Crunch|p1a: You Set Spikes
+|-resisted|p1a: You Set Spikes
+|-damage|p1a: You Set Spikes|0 fnt
+|faint|p1a: You Set Spikes
+|
+|
+|switch|p1a: Buns of Steel|Magearna|100/100
+|turn|11
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Buns of Steel|Draining Kiss|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|85/100
+|
+|-heal|p2a: Heatran|91/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Dark|76/100
+|-damage|p2a: Chien-Pao|63/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|switch|p1a: Daffy|Quaquaval, M|100/100
+|
+|turn|13
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Daffy|Aqua Step|p2a: Slowking
+|-damage|p2a: Slowking|58/100
+|-boost|p1a: Daffy|spe|1
+|-damage|p1a: Daffy|84/100|[from] item: Rocky Helmet|[of] p2a: Slowking
+|
+|turn|14
+|
+|move|p1a: Daffy|Bulk Up|p1a: Daffy
+|-boost|p1a: Daffy|atk|1
+|-boost|p1a: Daffy|def|1
+|move|p2a: Slowking|Psychic|p1a: Daffy
+|-supereffective|p1a: Daffy
+|-damage|p1a: Daffy|0 fnt
+|faint|p1a: Daffy
+|
+|
+|switch|p1a: Gholden-No|Gholdengo|8/100
+|turn|15
+|
+|move|p1a: Gholden-No|Recover|p1a: Gholden-No
+|-heal|p1a: Gholden-No|58/100
+|move|p2a: Slowking|Flamethrower|p1a: Gholden-No
+|-supereffective|p1a: Gholden-No
+|-damage|p1a: Gholden-No|22/100
+|
+|turn|16
+|
+|move|p1a: Gholden-No|Recover|p1a: Gholden-No
+|-heal|p1a: Gholden-No|72/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Dark|63/100|[from] Chilly Reception
+|-damage|p2a: Chien-Pao|51/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|turn|17
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Gholden-No
+|-supereffective|p1a: Gholden-No
+|-damage|p1a: Gholden-No|0 fnt
+|faint|p1a: Gholden-No
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Axed|Kleavor, M|100/100
+|turn|18
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Axed
+|-crit|p1a: Axed
+|-damage|p1a: Axed|0 fnt
+|faint|p1a: Axed
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Buns of Steel|Magearna|100/100
+|turn|19
+|
+|switch|p2a: Heatran|Heatran, M|91/100
+|-damage|p2a: Heatran|78/100|[from] Stealth Rock
+|move|p1a: Buns of Steel|Draining Kiss|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Heatran|81/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Heatran|Magma Storm|p1a: Buns of Steel
+|-supereffective|p1a: Buns of Steel
+|-damage|p1a: Buns of Steel|37/100
+|-activate|p1a: Buns of Steel|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Buns of Steel|Calm Mind|p1a: Buns of Steel
+|-boost|p1a: Buns of Steel|spa|1
+|-boost|p1a: Buns of Steel|spd|1
+|
+|-weather|none
+|-heal|p2a: Heatran|88/100|[from] item: Leftovers
+|-heal|p1a: Buns of Steel|43/100|[from] item: Leftovers
+|-damage|p1a: Buns of Steel|31/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|21
+|
+|move|p2a: Heatran|Earth Power|p1a: Buns of Steel
+|-supereffective|p1a: Buns of Steel
+|-damage|p1a: Buns of Steel|7/100
+|move|p1a: Buns of Steel|Shift Gear|p1a: Buns of Steel
+|-boost|p1a: Buns of Steel|spe|2
+|-boost|p1a: Buns of Steel|atk|1
+|
+|-heal|p1a: Buns of Steel|14/100|[from] item: Leftovers
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-damage|p1a: Buns of Steel|1/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|22
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Buns of Steel|Draining Kiss|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p1a: Buns of Steel|7/100|[from] item: Leftovers
+|-heal|p2a: Heatran|99/100|[from] item: Leftovers
+|-damage|p1a: Buns of Steel|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p1a: Buns of Steel
+|
+|switch|p1a: Gargle Salt|Garganacl, M, tera:Ghost|85/100
+|turn|23
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Gargle Salt|Iron Defense|p1a: Gargle Salt
+|-boost|p1a: Gargle Salt|def|2
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-heal|p1a: Gargle Salt|92/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p2a: Slowking|Slowking-Galar, M|92/100
+|-damage|p2a: Slowking|79/100|[from] Stealth Rock
+|move|p1a: Gargle Salt|Protect||[still]
+|-fail|p1a: Gargle Salt
+|
+|-heal|p1a: Gargle Salt|98/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Gargle Salt|Iron Defense|p1a: Gargle Salt
+|-boost|p1a: Gargle Salt|def|2
+|move|p2a: Slowking|Psychic|p1a: Gargle Salt
+|-damage|p1a: Gargle Salt|75/100
+|
+|-heal|p1a: Gargle Salt|81/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Gargle Salt|Salt Cure|p2a: Slowking
+|-damage|p2a: Slowking|69/100
+|-start|p2a: Slowking|Salt Cure
+|move|p2a: Slowking|Psychic|p1a: Gargle Salt
+|-damage|p1a: Gargle Salt|59/100
+|
+|-heal|p1a: Gargle Salt|65/100|[from] item: Leftovers
+|-damage|p2a: Slowking|56/100|[from] Salt Cure
+|turn|27
+|
+|move|p1a: Gargle Salt|Protect|p1a: Gargle Salt
+|-singleturn|p1a: Gargle Salt|Protect
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Dark|51/100|[from] Chilly Reception
+|-damage|p2a: Chien-Pao|39/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Gargle Salt|72/100|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Gargle Salt
+|-supereffective|p1a: Gargle Salt
+|-damage|p1a: Gargle Salt|26/100
+|-unboost|p1a: Gargle Salt|def|1
+|move|p1a: Gargle Salt|Recover|p1a: Gargle Salt
+|-heal|p1a: Gargle Salt|76/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Gargle Salt|82/100|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Gargle Salt|Protect|p1a: Gargle Salt
+|-singleturn|p1a: Gargle Salt|Protect
+|move|p2a: Chien-Pao|Crunch|p1a: Gargle Salt
+|-activate|p1a: Gargle Salt|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Gargle Salt|88/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Gargle Salt
+|-supereffective|p1a: Gargle Salt
+|-damage|p1a: Gargle Salt|30/100
+|-unboost|p1a: Gargle Salt|def|1
+|move|p1a: Gargle Salt|Iron Defense|p1a: Gargle Salt
+|-boost|p1a: Gargle Salt|def|2
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Gargle Salt|36/100|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Gargle Salt|Protect|p1a: Gargle Salt
+|-singleturn|p1a: Gargle Salt|Protect
+|move|p2a: Chien-Pao|Crunch|p1a: Gargle Salt
+|-activate|p1a: Gargle Salt|move: Protect
+|
+|-weather|none
+|-heal|p1a: Gargle Salt|43/100|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Gargle Salt
+|-supereffective|p1a: Gargle Salt
+|-damage|p1a: Gargle Salt|0 fnt
+|faint|p1a: Gargle Salt
+|
+|win|Masvidal

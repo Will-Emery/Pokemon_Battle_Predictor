@@ -1,0 +1,218 @@
+|poke|p1|Iron Moth|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Magearna|
+|poke|p1|Pincurchin, M|
+|poke|p2|Azelf|
+|poke|p2|Cryogonal|
+|poke|p2|Glimmora, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Magearna
+|-sidestart|p1: randomamborambo|move: Stealth Rock
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|2
+|
+|move|p2a: Azelf|Taunt|p1a: Magearna
+|-start|p1a: Magearna|move: Taunt
+|cant|p1a: Magearna|move: Taunt|Iron Defense
+|
+|turn|3
+|
+|move|p2a: Azelf|Psychic|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|86/100
+|move|p1a: Magearna|Stored Power|p2a: Azelf
+|-resisted|p2a: Azelf
+|-damage|p2a: Azelf|86/100
+|
+|-heal|p1a: Magearna|92/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Azelf|Psychic|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|77/100
+|-unboost|p1a: Magearna|spd|1
+|move|p1a: Magearna|Stored Power|p2a: Azelf
+|-resisted|p2a: Azelf
+|-damage|p2a: Azelf|70/100
+|
+|-heal|p1a: Magearna|83/100|[from] item: Leftovers
+|-end|p1a: Magearna|move: Taunt
+|turn|5
+|
+|move|p2a: Azelf|Taunt|p1a: Magearna
+|-start|p1a: Magearna|move: Taunt
+|cant|p1a: Magearna|move: Taunt|Calm Mind
+|
+|-heal|p1a: Magearna|89/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|move|p2a: Azelf|Psychic|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|87/100
+|
+|turn|7
+|
+|move|p2a: Azelf|Explosion|p1a: Braviary
+|-damage|p1a: Braviary|14/100
+|faint|p2a: Azelf
+|move|p1a: Braviary|Esper Wing|p2: Azelf|[notarget]
+|-fail|p1a: Braviary
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|move|p1a: Braviary|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|86/100
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100|[from] U-turn
+|-damage|p1a: Pincurchin|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Hatterene|Trick|p1a: Pincurchin
+|-activate|p2a: Hatterene|move: Trick|[of] p1a: Pincurchin
+|-item|p1a: Pincurchin|Choice Specs|[from] move: Trick
+|-item|p2a: Hatterene|Terrain Extender|[from] move: Trick
+|
+|turn|9
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Pincurchin|Memento|p2a: Thundurus
+|-unboost|p2a: Thundurus|atk|2
+|-unboost|p2a: Thundurus|spa|2
+|faint|p1a: Pincurchin
+|
+|
+|switch|p1a: Magearna|Magearna|89/100
+|-damage|p1a: Magearna|83/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|67/100
+|
+|switch|p2a: Hatterene|Hatterene, F|86/100|[from] Volt Switch
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|73/100|[from] item: Leftovers
+|turn|11
+|
+|-terastallize|p1a: Magearna|Water
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|65/100
+|-unboost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|71/100|[from] item: Leftovers
+|turn|12
+|
+|-terastallize|p2a: Hatterene|Dark
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|move|p2a: Hatterene|Trick|p1a: Magearna
+|-activate|p2a: Hatterene|move: Trick|[of] p1a: Magearna
+|-item|p1a: Magearna|Terrain Extender|[from] move: Trick
+|-item|p2a: Hatterene|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Hatterene|92/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|63/100
+|-unboost|p1a: Magearna|spa|1
+|
+|-heal|p2a: Hatterene|98/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|56/100
+|-unboost|p1a: Magearna|spa|1
+|
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|52/100
+|-unboost|p1a: Magearna|spa|1
+|
+|-fieldend|move: Electric Terrain
+|turn|16
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|48/100
+|-unboost|p1a: Magearna|spa|1
+|
+|turn|17
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|45/100
+|-unboost|p1a: Magearna|spa|1
+|
+|turn|18
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|42/100
+|-unboost|p1a: Magearna|spa|1
+|
+|turn|19
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|3/100
+|
+|turn|20
+|
+|move|p1a: Magearna|Stored Power|p2a: Hatterene
+|-immune|p2a: Hatterene
+|move|p2a: Hatterene|Draining Kiss|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-message|randomamborambo forfeited.
+|
+|win|Soul of Aeon

@@ -1,1 +1,337 @@
-Could not connect
+|j|☆vegangsta
+|j|☆Yakkosalabama
+|t:|1685927822
+|gametype|singles
+|player|p1|vegangsta|hilbert|1145
+|player|p2|Yakkosalabama|169|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kleavor, F|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Hydreigon, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Mesprit|
+|poke|p2|Basculegion, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Articuno|
+|poke|p2|Dondozo, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Gastrodon-East, F|
+|teampreview
+|
+|t:|1685927865
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1685927880
+|move|p1a: Samurott|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|14/100
+|move|p2a: Pelipper|Knock Off|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|50/100
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|-enditem|p1a: Zoroark|Choice Specs|[from] move: Knock Off|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685927899
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100
+|move|p1a: Zoroark|Hyper Voice|p2a: Gastrodon
+|-damage|p2a: Gastrodon|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685927908
+|move|p1a: Zoroark|Trick|p2a: Gastrodon
+|-activate|p1a: Zoroark|move: Trick|[of] p2a: Gastrodon
+|-enditem|p2a: Gastrodon|Leftovers|[silent]|[from] move: Trick
+|-item|p1a: Zoroark|Leftovers|[from] move: Trick
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zoroark|56/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685927924
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Gastrodon|Surf|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|68/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685927939
+|move|p1a: Samurott|Taunt|p2a: Gastrodon
+|-start|p2a: Gastrodon|move: Taunt
+|move|p2a: Gastrodon|Ancient Power|p1a: Samurott
+|-damage|p1a: Samurott|51/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685927948
+|move|p1a: Samurott|Ceaseless Edge|p2a: Gastrodon
+|-damage|p2a: Gastrodon|66/100
+|-sidestart|p2: Yakkosalabama|Spikes
+|move|p2a: Gastrodon|Ancient Power|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|24/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685927958
+|move|p1a: Samurott|Ceaseless Edge|p2a: Gastrodon
+|-damage|p2a: Gastrodon|31/100
+|-sidestart|p2: Yakkosalabama|Spikes
+|move|p2a: Gastrodon|Ancient Power|p1a: Samurott
+|-damage|p1a: Samurott|6/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Gastrodon|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1685927967
+|move|p1a: Samurott|Ceaseless Edge|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-sidestart|p2: Yakkosalabama|Spikes
+|faint|p2a: Gastrodon
+|
+|-weather|none
+|upkeep
+|
+|t:|1685927969
+|switch|p2a: Pelipper|Pelipper, F|14/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|9
+|
+|t:|1685927979
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p2a: Urshifu|76/100|[from] Spikes
+|move|p1a: Samurott|Knock Off|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|55/100
+|-enditem|p2a: Urshifu|Choice Band|[from] move: Knock Off|[of] p1a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1685927994
+|switch|p1a: Mesprit|Mesprit|100/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Mesprit
+|-crit|p1a: Mesprit
+|-damage|p1a: Mesprit|80/100
+|-crit|p1a: Mesprit
+|-damage|p1a: Mesprit|59/100
+|-crit|p1a: Mesprit
+|-damage|p1a: Mesprit|39/100
+|-hitcount|p1a: Mesprit|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1685928011
+|move|p2a: Urshifu|Surging Strikes|p1a: Mesprit
+|-crit|p1a: Mesprit
+|-damage|p1a: Mesprit|19/100
+|-crit|p1a: Mesprit
+|-damage|p1a: Mesprit|0 fnt
+|faint|p1a: Mesprit
+|-hitcount|p1: Mesprit|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685928022
+|switch|p1a: Kleavor|Kleavor, F|56/100
+|turn|12
+|
+|t:|1685928029
+|move|p1a: Kleavor|Shadow Ball|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kleavor|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685928033
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|turn|13
+|
+|t:|1685928047
+|move|p1a: Kleavor|Hyper Voice|p2a: Articuno
+|-damage|p2a: Articuno|66/100
+|move|p2a: Articuno|Agility|p2a: Articuno
+|-boost|p2a: Articuno|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kleavor|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685928072
+|move|p2a: Articuno|Hurricane|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|-damage|p2a: Articuno|56/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685928096
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|turn|15
+|
+|t:|1685928101
+|move|p2a: Articuno|Hurricane|p1a: Kleavor
+|-damage|p1a: Kleavor|16/100
+|-damage|p2a: Articuno|46/100|[from] item: Life Orb
+|move|p1a: Kleavor|Stone Axe|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|-sidestart|p2: Yakkosalabama|move: Stealth Rock
+|faint|p2a: Articuno
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685928108
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|-damage|p2a: Dondozo|75/100|[from] Spikes
+|-damage|p2a: Dondozo|63/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1685928126
+|move|p1a: Kleavor|U-turn|p2a: Dondozo
+|-damage|p2a: Dondozo|47/100
+|
+|t:|1685928129
+|switch|p1a: Hydreigon|Hydreigon, F|100/100|[from] U-turn
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-weather|none
+|-heal|p2a: Dondozo|53/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685928158
+|move|p1a: Hydreigon|Draco Meteor|p2a: Dondozo
+|-damage|p2a: Dondozo|3/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|18
+|
+|t:|1685928174
+|switch|p1a: Samurott|Samurott-Hisui, M|6/100
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|upkeep
+|turn|19
+|
+|t:|1685928197
+|move|p1a: Samurott|Taunt|p2a: Dondozo
+|-start|p2a: Dondozo|move: Taunt
+|cant|p2a: Dondozo|slp
+|cant|p2a: Dondozo|move: Taunt|Sleep Talk
+|
+|upkeep
+|turn|20
+|
+|t:|1685928210
+|move|p1a: Samurott|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|85/100 slp
+|-enditem|p2a: Dondozo|Leftovers|[from] move: Knock Off|[of] p1a: Samurott
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Liquidation|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1685928221
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|21
+|
+|t:|1685928240
+|-terastallize|p1a: Hydreigon|Dark
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dondozo
+|-damage|p2a: Dondozo|47/100
+|move|p2a: Dondozo|Liquidation|p1a: Hydreigon
+|-damage|p1a: Hydreigon|48/100
+|
+|-end|p2a: Dondozo|move: Taunt
+|upkeep
+|turn|22
+|
+|t:|1685928250
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dondozo
+|-damage|p2a: Dondozo|5/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|23
+|
+|t:|1685928259
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dondozo
+|-damage|p2a: Dondozo|57/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Hydreigon|[from]move: Sleep Talk
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|c|☆vegangsta|so lucky
+|-message|vegangsta forfeited.
+|
+|win|Yakkosalabama
+|raw|vegangsta's rating: 1145 → 1125(-20 for losing)
+|raw|Yakkosalabama's rating: 1221 → 1241(+20 for winning)
+|l|☆vegangsta

@@ -1,0 +1,33 @@
+|poke|p1|Rillaboom, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Gholdengo|
+|poke|p1|Ursaluna, M|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Gastrodon-East, M|
+|poke|p2|Gholdengo|
+|poke|p2|Maushold-Four|
+|poke|p2|Basculegion, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Breloom, F|
+|teampreview
+|
+|start
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|turn|1
+|
+|switch|p2a: Breloom|Breloom, F, shiny|100/100
+|move|p1a: Gastrodon|Shadow Ball|p2a: Breloom
+|-damage|p2a: Breloom|1/100
+|
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|turn|2
+|
+|move|p1a: Gastrodon|Shadow Ball|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-message|poetkyy forfeited.
+|
+|win|littensalt

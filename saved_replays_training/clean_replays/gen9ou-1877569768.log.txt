@@ -1,0 +1,275 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Kleavor, M|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Uxie|
+|poke|p2|Decidueye-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M, shiny|100/100
+|switch|p2a: Uxie|Uxie|100/100
+|turn|1
+|
+|move|p1a: Kleavor|X-Scissor|p2a: Uxie
+|-supereffective|p2a: Uxie
+|-damage|p2a: Uxie|19/100
+|move|p2a: Uxie|Trick Room|p2a: Uxie
+|-fieldstart|move: Trick Room|[of] p2a: Uxie
+|
+|turn|2
+|
+|move|p2a: Uxie|U-turn|p1a: Kleavor
+|-damage|p1a: Kleavor|86/100
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] U-turn
+|move|p1a: Kleavor|Stone Axe|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|82/100
+|-sidestart|p2: chaln12|move: Stealth Rock
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p2a: Ursaluna|Headlong Rush|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Kleavor
+|
+|-damage|p2a: Ursaluna|76/100 brn|[from] brn
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|turn|4
+|
+|switch|p2a: Uxie|Uxie|19/100
+|-damage|p2a: Uxie|6/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Close Combat|p2a: Uxie
+|-resisted|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Uxie
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, F|76/100 brn
+|-damage|p2a: Ursaluna|70/100 brn|[from] Stealth Rock
+|turn|5
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Ursaluna|Headlong Rush|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-damage|p2a: Ursaluna|64/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Make It Rain|p2a: Slowking
+|-damage|p2a: Slowking|50/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Slowking|56/100|[from] item: Black Sludge
+|turn|7
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|62/100|[from] item: Black Sludge
+|turn|8
+|
+|move|p2a: Slowking|Fire Blast|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|30/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Make It Rain|p2a: Slowking
+|-damage|p2a: Slowking|5/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Slowking|11/100|[from] item: Black Sludge
+|turn|9
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100|[from] Chilly Reception
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Gholdengo|Make It Rain|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|65/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Kingambit|71/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Kingambit|77/100|[from] item: Leftovers
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|turn|11
+|
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-damage|p2a: Cresselia|88/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Knock Off|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|48/100
+|-enditem|p2a: Cresselia|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|turn|12
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-weather|Snow|[upkeep]
+|turn|13
+|
+|switch|p2a: Kingambit|Kingambit, F|77/100
+|-damage|p2a: Kingambit|71/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-weather|none
+|-heal|p2a: Kingambit|77/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Kingambit|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|23/100
+|cant|p1a: Hatterene|flinch
+|
+|-heal|p1a: Hatterene|28/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|83/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|32/100
+|-heal|p1a: Hatterene|78/100|[from] drain|[of] p2a: Kingambit
+|move|p2a: Kingambit|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Kingambit|38/100|[from] item: Leftovers
+|
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|16
+|
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|-damage|p2a: Decidueye|94/100|[from] Stealth Rock
+|move|p1a: Samurott|Ceaseless Edge|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|72/100
+|-sidestart|p2: chaln12|Spikes
+|
+|-fieldend|move: Trick Room
+|turn|17
+|
+|-terastallize|p1a: Samurott|Poison
+|move|p1a: Samurott|Aqua Cutter|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|48/100
+|move|p2a: Decidueye|Leaf Blade|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|55/100
+|
+|-heal|p1a: Samurott|61/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Slowking|Slowking-Galar, F|44/100
+|-damage|p2a: Slowking|31/100|[from] Stealth Rock
+|-damage|p2a: Slowking|19/100|[from] Spikes
+|move|p1a: Samurott|Ceaseless Edge|p2a: Slowking|[miss]
+|-miss|p1a: Samurott|p2a: Slowking
+|
+|-heal|p1a: Samurott|67/100|[from] item: Leftovers
+|-heal|p2a: Slowking|25/100|[from] item: Black Sludge
+|turn|19
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-sidestart|p2: chaln12|Spikes
+|faint|p2a: Slowking
+|
+|-heal|p1a: Samurott|73/100|[from] item: Leftovers
+|
+|switch|p2a: Cresselia|Cresselia, F|48/100
+|-damage|p2a: Cresselia|36/100|[from] Stealth Rock
+|turn|20
+|
+|-terastallize|p2a: Cresselia|Fairy
+|move|p1a: Samurott|Taunt|p2a: Cresselia
+|-start|p2a: Cresselia|move: Taunt
+|cant|p2a: Cresselia|move: Taunt|Trick Room
+|
+|-heal|p1a: Samurott|80/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Kingambit|Kingambit, F|38/100
+|-damage|p2a: Kingambit|32/100|[from] Stealth Rock
+|-damage|p2a: Kingambit|15/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Samurott|Aqua Cutter|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p1a: Samurott|86/100|[from] item: Leftovers
+|
+|switch|p2a: Ursaluna|Ursaluna, F|64/100 brn
+|-damage|p2a: Ursaluna|58/100 brn|[from] Stealth Rock
+|-damage|p2a: Ursaluna|41/100 brn|[from] Spikes
+|turn|22
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-heal|p1a: Samurott|92/100|[from] item: Leftovers
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, F|48/100
+|-damage|p2a: Decidueye|42/100|[from] Stealth Rock
+|-damage|p2a: Decidueye|26/100|[from] Spikes
+|turn|23
+|
+|move|p2a: Decidueye|Shadow Sneak|p1a: Samurott
+|-damage|p1a: Samurott|64/100
+|move|p1a: Samurott|Sacred Sword|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|-heal|p1a: Samurott|70/100|[from] item: Leftovers
+|-message|chaln12 forfeited.
+|
+|win|XT4S1S

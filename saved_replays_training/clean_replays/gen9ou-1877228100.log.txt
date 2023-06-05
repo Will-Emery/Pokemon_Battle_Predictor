@@ -1,0 +1,249 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Moltres-Galar|
+|poke|p1|Basculegion, M|
+|poke|p1|Decidueye-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gastrodon-East, F|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Overqwil, F|
+|poke|p2|Avalugg-Hisui, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Basculegion-F, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|switch|p2a: Tomahawk|Kleavor, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Tomahawk|Stone Axe|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-sidestart|p1: Dragonsapian7000|move: Stealth Rock
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|-damage|p1a: Moltres|76/100|[from] Stealth Rock
+|turn|2
+|
+|-terastallize|p1a: Moltres|Steel
+|move|p1a: Moltres|After You||[still]
+|-fail|p1a: Moltres
+|move|p2a: Tomahawk|Stone Axe|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|47/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Moltres|Hurricane|p2a: Tomahawk
+|-damage|p2a: Tomahawk|25/100
+|move|p2a: Tomahawk|Night Slash|p1a: Moltres
+|-damage|p1a: Moltres|2/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: Moltres|Hurricane|p2a: Tomahawk
+|-damage|p2a: Tomahawk|0 fnt
+|faint|p2a: Tomahawk
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Finana|Basculegion-F, F|100/100
+|turn|5
+|
+|move|p2a: Finana|Chilling Water|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|move|p2a: Finana|Chilling Water|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, M, shiny|100/100
+|-damage|p1a: Decidueye|94/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Finana|Chilling Water|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|82/100
+|-unboost|p1a: Decidueye|atk|1
+|move|p1a: Decidueye|Leaf Blade|p2a: Finana
+|-supereffective|p2a: Finana
+|-damage|p2a: Finana|26/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Decidueye|Sucker Punch|p2a: Finana
+|-supereffective|p2a: Finana
+|-damage|p2a: Finana|0 fnt
+|faint|p2a: Finana
+|
+|-weather|none
+|
+|switch|p2a: Frozone|Avalugg-Hisui, M, shiny|100/100
+|turn|9
+|
+|move|p2a: Frozone|Will-O-Wisp|p1a: Decidueye
+|-status|p1a: Decidueye|brn
+|move|p1a: Decidueye|Triple Arrows|p2a: Frozone
+|-supereffective|p2a: Frozone
+|-damage|p2a: Frozone|37/100
+|replace|p2a: Ishigami|Zoroark-Hisui, M, shiny
+|-end|p2a: Ishigami|Illusion
+|
+|-damage|p1a: Decidueye|75/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Decidueye|Sucker Punch|p2a: Ishigami
+|-supereffective|p2a: Ishigami
+|-damage|p2a: Ishigami|2/100
+|move|p2a: Ishigami|Bitter Malice|p1a: Decidueye
+|-damage|p1a: Decidueye|43/100 brn
+|-unboost|p1a: Decidueye|atk|1
+|-damage|p2a: Ishigami|0 fnt|[from] item: Life Orb
+|faint|p2a: Ishigami
+|
+|-damage|p1a: Decidueye|37/100 brn|[from] brn
+|
+|switch|p2a: Frozone|Avalugg-Hisui, M, shiny|100/100
+|turn|11
+|
+|move|p1a: Decidueye|Triple Arrows|p2a: Frozone
+|-supereffective|p2a: Frozone
+|-damage|p2a: Frozone|80/100
+|move|p2a: Frozone|Recover|p2a: Frozone
+|-heal|p2a: Frozone|100/100
+|
+|-damage|p1a: Decidueye|30/100 brn|[from] brn
+|turn|12
+|
+|move|p1a: Decidueye|Triple Arrows|p2a: Frozone
+|-supereffective|p2a: Frozone
+|-crit|p2a: Frozone
+|-damage|p2a: Frozone|44/100
+|-unboost|p2a: Frozone|def|1
+|cant|p2a: Frozone|flinch
+|
+|-damage|p1a: Decidueye|24/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Decidueye|Triple Arrows|p2a: Frozone
+|-supereffective|p2a: Frozone
+|-damage|p2a: Frozone|17/100
+|move|p2a: Frozone|Recover|p2a: Frozone
+|-heal|p2a: Frozone|67/100
+|
+|-damage|p1a: Decidueye|18/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Decidueye|Triple Arrows|p2a: Frozone
+|-supereffective|p2a: Frozone
+|-damage|p2a: Frozone|39/100
+|-unboost|p2a: Frozone|def|1
+|move|p2a: Frozone|Recover|p2a: Frozone
+|-heal|p2a: Frozone|89/100
+|
+|-damage|p1a: Decidueye|12/100 brn|[from] brn
+|turn|15
+|
+|switch|p2a: Mrs. Puff|Overqwil, F, shiny|100/100
+|-ability|p2a: Mrs. Puff|Intimidate|boost
+|-fail|p1a: Decidueye|unboost|Attack|[from] ability: Scrappy|[of] p1a: Decidueye
+|move|p1a: Decidueye|Triple Arrows|p2a: Mrs. Puff
+|-damage|p2a: Mrs. Puff|86/100
+|-unboost|p2a: Mrs. Puff|def|1
+|
+|-heal|p2a: Mrs. Puff|92/100|[from] item: Leftovers
+|-damage|p1a: Decidueye|6/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Mrs. Puff|Toxic Spikes|p1a: Decidueye
+|-sidestart|p1: Dragonsapian7000|move: Toxic Spikes
+|move|p1a: Decidueye|Triple Arrows|p2a: Mrs. Puff
+|-damage|p2a: Mrs. Puff|72/100
+|-unboost|p2a: Mrs. Puff|def|1
+|
+|-heal|p2a: Mrs. Puff|78/100|[from] item: Leftovers
+|-damage|p1a: Decidueye|0 fnt|[from] brn
+|faint|p1a: Decidueye
+|
+|switch|p1a: Gastrodon|Gastrodon-East, F, shiny|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|-status|p1a: Gastrodon|psn
+|turn|17
+|
+|move|p2a: Mrs. Puff|Toxic Spikes|p1a: Gastrodon
+|-sidestart|p1: Dragonsapian7000|move: Toxic Spikes
+|move|p1a: Gastrodon|Earth Power|p2a: Mrs. Puff
+|-supereffective|p2a: Mrs. Puff
+|-damage|p2a: Mrs. Puff|0 fnt
+|faint|p2a: Mrs. Puff
+|
+|-heal|p1a: Gastrodon|100/100 psn|[from] item: Leftovers
+|-damage|p1a: Gastrodon|88/100 psn|[from] psn
+|
+|switch|p2a: Mumei|Decidueye-Hisui, F|100/100
+|turn|18
+|
+|move|p2a: Mumei|Leaf Blade|p1a: Gastrodon
+|-supereffective|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|-status|p1a: Basculegion|tox
+|turn|19
+|
+|move|p1a: Basculegion|Psychic Fangs|p2a: Mumei
+|-supereffective|p2a: Mumei
+|-damage|p2a: Mumei|0 fnt
+|faint|p2a: Mumei
+|
+|-damage|p1a: Basculegion|82/100 tox|[from] psn
+|
+|switch|p2a: Frozone|Avalugg-Hisui, M, shiny|89/100
+|turn|20
+|
+|-terastallize|p2a: Frozone|Steel
+|move|p1a: Basculegion|Psychic Fangs|p2a: Frozone
+|-resisted|p2a: Frozone
+|-damage|p2a: Frozone|81/100
+|-damage|p1a: Basculegion|66/100 tox|[from] item: Rocky Helmet|[of] p2a: Frozone
+|move|p2a: Frozone|Recover|p2a: Frozone
+|-heal|p2a: Frozone|100/100
+|
+|-damage|p1a: Basculegion|54/100 tox|[from] psn
+|turn|21
+|
+|move|p1a: Basculegion|Psychic Fangs|p2a: Frozone
+|-resisted|p2a: Frozone
+|-damage|p2a: Frozone|92/100
+|-damage|p1a: Basculegion|37/100 tox|[from] item: Rocky Helmet|[of] p2a: Frozone
+|move|p2a: Frozone|Avalanche|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|2/100 tox
+|
+|-damage|p1a: Basculegion|0 fnt|[from] psn
+|faint|p1a: Basculegion
+|
+|win|TheMaz878

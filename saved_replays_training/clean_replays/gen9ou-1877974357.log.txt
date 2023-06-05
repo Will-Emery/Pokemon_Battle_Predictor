@@ -1,0 +1,77 @@
+|poke|p1|Magearna|
+|poke|p1|Dragapult, M|
+|poke|p1|Magnezone|
+|poke|p1|Dragonite, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Sneasler, M|
+|poke|p2|Great Tusk|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Drag|Dragapult, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|move|p1a: Drag|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|92/100
+|
+|switch|p1a: Dragma|Dragonite, F|100/100|[from] U-turn
+|move|p2a: Great Tusk|Knock Off|p1a: Dragma
+|-damage|p1a: Dragma|87/100
+|-enditem|p1a: Dragma|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|98/100|[from] item: Leftovers
+|turn|2
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Dragma|Dragon Dance|p1a: Dragma
+|-boost|p1a: Dragma|atk|1
+|-boost|p1a: Dragma|spe|1
+|
+|turn|3
+|
+|move|p1a: Dragma|Substitute|p1a: Dragma
+|-start|p1a: Dragma|Substitute
+|-damage|p1a: Dragma|62/100
+|move|p2a: Rotom|Thunder Wave||[still]
+|-fail|p2a: Rotom
+|
+|turn|4
+|
+|move|p1a: Dragma|Dragon Dance|p1a: Dragma
+|-boost|p1a: Dragma|atk|1
+|-boost|p1a: Dragma|spe|1
+|move|p2a: Rotom|Volt Switch|p1a: Dragma
+|-activate|p1a: Dragma|move: Substitute|[damage]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|turn|5
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Dragma
+|-supereffective|p1a: Dragma
+|-end|p1a: Dragma|Substitute
+|move|p1a: Dragma|Fly||[still]
+|-prepare|p1a: Dragma|Fly
+|
+|turn|6
+|player|p2|
+|player|p2|xeno000|266
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Dragma|[miss]
+|-miss|p2a: Chien-Pao|p1a: Dragma
+|move|p1a: Dragma|Fly|p2a: Chien-Pao|[from]lockedmove
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-message|xeno000 forfeited.
+|
+|win|SozzledBupkis

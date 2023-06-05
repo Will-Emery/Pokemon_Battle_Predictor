@@ -1,0 +1,138 @@
+|poke|p1|Dondozo, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Slowking, M|
+|poke|p1|Dudunsparce-*, F|
+|poke|p1|Orthworm, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Glastrier|
+|poke|p2|Magearna|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|start
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|turn|2
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p1a: Goodra|Dragon Claw|p2a: Ursaluna
+|-damage|p2a: Ursaluna|62/100 brn
+|move|p2a: Ursaluna|Earthquake|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|28/100
+|-enditem|p1a: Goodra|Weakness Policy
+|-boost|p1a: Goodra|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Goodra|spa|2|[from] item: Weakness Policy
+|
+|-damage|p2a: Ursaluna|56/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Goodra|Dragon Claw|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Glastrier|Glastrier|100/100
+|turn|5
+|
+|-terastallize|p2a: Glastrier|Fighting
+|move|p1a: Goodra|Dragon Claw|p2a: Glastrier
+|-damage|p2a: Glastrier|45/100
+|move|p2a: Glastrier|Close Combat|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-unboost|p2a: Glastrier|def|1
+|-unboost|p2a: Glastrier|spd|1
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Glastrier|spe|1
+|faint|p1a: Goodra
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|-damage|p2a: Glastrier|35/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|turn|6
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Slowking|Future Sight|p2a: Hatterene
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|7
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Dudunsparce|Dudunsparce, F|100/100|[from] Chilly Reception
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Dudunsparce|Boomburst|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|60/100
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Magearna|move: Future Sight
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|43/100
+|-heal|p2a: Magearna|49/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Dudunsparce|Boomburst|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|10/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|16/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Dudunsparce|Boomburst|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Glastrier|Glastrier, tera:Fighting|35/100
+|turn|11
+|
+|-terastallize|p1a: Dudunsparce|Ghost
+|move|p2a: Glastrier|Close Combat|p1a: Dudunsparce
+|-immune|p1a: Dudunsparce
+|move|p1a: Dudunsparce|Boomburst|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-message|The Only Spiderman forfeited.
+|
+|win|Kalen80

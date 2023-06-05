@@ -1,0 +1,222 @@
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Walking Wake|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|poke|p2|Garchomp, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: Arcanine|Head Smash|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|2
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Sneasler|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|77/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|41/100
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100|[from] Volt Switch
+|move|p2a: Zapdos|Heat Wave|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Sneasler|Dire Claw|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Walking Wake
+|-damage|p1a: Walking Wake|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|8
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|18/100
+|move|p2a: Urshifu|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|16/100
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|turn|9
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Sneasler|Sneasler, M|20/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|turn|10
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|11
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Kingambit
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|12
+|
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|turn|13
+|
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Kingambit
+|-damage|p2a: Kingambit|40/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|10/100
+|
+|-heal|p1a: Dragonite|16/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|46/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Dragonite|22/100|[from] item: Leftovers
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|18/100
+|turn|15
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-heal|p1a: Dragonite|28/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|16
+|
+|move|p1a: Dragonite|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|71/100
+|move|p2a: Great Tusk|Knock Off|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-enditem|p1a: Dragonite|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Great Tusk|77/100|[from] item: Leftovers
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|17
+|
+|move|p1a: Thundurus|Psychic|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Zapdos|Zapdos|41/100
+|turn|18
+|
+|move|p1a: Thundurus|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|19
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Thundurus
+|-damage|p1a: Thundurus|53/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Thundurus|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|32/100
+|
+|turn|20
+|
+|move|p2a: Garchomp|Draco Meteor|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-unboost|p2a: Garchomp|spa|2
+|faint|p1a: Thundurus
+|-damage|p2a: Garchomp|22/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Walking Wake|Walking Wake|16/100
+|turn|21
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|win|EtherSword

@@ -1,0 +1,144 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Magearna|
+|poke|p1|Volcarona, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Dragapult, F|
+|poke|p2|Gholdengo|
+|poke|p2|Masquerain, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Great Tusk|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Randy|Masquerain, M|100/100
+|-ability|p2a: Randy|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|turn|1
+|
+|move|p1a: Samurott|Taunt|p2a: Randy
+|-start|p2a: Randy|move: Taunt
+|cant|p2a: Randy|move: Taunt|Sticky Web
+|
+|turn|2
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Randy
+|-damage|p2a: Randy|60/100
+|-sidestart|p2: Dumber luck|Spikes
+|move|p2a: Randy|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|66/100
+|
+|switch|p2a: Long Distance|Enamorus, F|100/100|[from] U-turn
+|
+|turn|3
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-item|p1a: Sneasler|Air Balloon
+|-terastallize|p2a: Long Distance|Fairy
+|move|p2a: Long Distance|Moonblast|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-enditem|p1a: Sneasler|Air Balloon
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|4
+|
+|switch|p2a: Kyle|Gholdengo|100/100
+|-damage|p2a: Kyle|88/100|[from] Spikes
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|turn|5
+|
+|-terastallize|p1a: Magearna|Water
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Kyle|Nasty Plot|p2a: Kyle
+|-boost|p2a: Kyle|spa|2
+|
+|turn|6
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Kyle|Nasty Plot|p2a: Kyle
+|-boost|p2a: Kyle|spa|2
+|
+|turn|7
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Kyle|Nasty Plot|p2a: Kyle
+|-boost|p2a: Kyle|spa|2
+|
+|turn|8
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Kyle|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|64/100
+|
+|-heal|p1a: Magearna|70/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Magearna|Stored Power|p2a: Kyle
+|-resisted|p2a: Kyle
+|-damage|p2a: Kyle|3/100
+|move|p2a: Kyle|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|33/100
+|
+|-heal|p1a: Magearna|39/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Kyle
+|-resisted|p2a: Kyle
+|-damage|p2a: Kyle|0 fnt
+|-heal|p1a: Magearna|42/100|[from] drain|[of] p2a: Kyle
+|-damage|p1a: Magearna|25/100|[from] item: Rocky Helmet|[of] p2a: Kyle
+|faint|p2a: Kyle
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|31/100|[from] item: Leftovers
+|
+|switch|p2a: Ectoplasm|Dragapult, F|100/100
+|-damage|p2a: Ectoplasm|88/100|[from] Spikes
+|turn|11
+|
+|move|p2a: Ectoplasm|Dragon Darts|p1a: Magearna
+|-damage|p1a: Magearna|18/100
+|-anim|p2a: Ectoplasm|Dragon Darts|p1a: Magearna
+|-damage|p1a: Magearna|3/100
+|move|p1a: Magearna|Draining Kiss|p2a: Ectoplasm
+|-supereffective|p2a: Ectoplasm
+|-damage|p2a: Ectoplasm|0 fnt
+|-heal|p1a: Magearna|61/100|[from] drain|[of] p2a: Ectoplasm
+|faint|p2a: Ectoplasm
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|67/100|[from] item: Leftovers
+|
+|switch|p2a: Long Distance|Enamorus, F, tera:Fairy|100/100
+|-damage|p2a: Long Distance|88/100|[from] Spikes
+|turn|12
+|
+|move|p2a: Long Distance|Moonblast|p1a: Magearna
+|-damage|p1a: Magearna|35/100
+|move|p1a: Magearna|Draining Kiss|p2a: Long Distance
+|-damage|p2a: Long Distance|0 fnt
+|-heal|p1a: Magearna|88/100|[from] drain|[of] p2a: Long Distance
+|faint|p2a: Long Distance
+|
+|-heal|p1a: Magearna|94/100|[from] item: Leftovers
+|-message|Dumber luck forfeited.
+|
+|win|keirimm

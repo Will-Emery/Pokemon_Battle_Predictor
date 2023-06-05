@@ -1,0 +1,168 @@
+|poke|p1|Electrode-Hisui|
+|poke|p1|Zangoose, F|
+|poke|p1|Tropius, M|
+|poke|p1|Seviper, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Heatran, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Enamorus, F|
+|poke|p2|Magearna|
+|poke|p2|Zamazenta-*|
+|poke|p2|Articuno-Galar|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: the maddening ball|Electrode-Hisui|100/100
+|switch|p2a: Articuno|Articuno-Galar|100/100
+|turn|1
+|
+|move|p1a: the maddening ball|Substitute|p1a: the maddening ball
+|-start|p1a: the maddening ball|Substitute
+|-damage|p1a: the maddening ball|75/100
+|move|p2a: Articuno|Recover||[still]
+|-fail|p2a: Articuno|heal
+|
+|turn|2
+|
+|move|p1a: the maddening ball|Leech Seed|p2a: Articuno
+|-start|p2a: Articuno|move: Leech Seed
+|move|p2a: Articuno|U-turn|p1a: the maddening ball
+|-supereffective|p1a: the maddening ball
+|-end|p1a: the maddening ball|Substitute
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|turn|3
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: the maddening ball
+|-supereffective|p1a: the maddening ball
+|-damage|p1a: the maddening ball|0 fnt
+|faint|p1a: the maddening ball
+|
+|
+|switch|p1a: enormous chef|Enamorus, F|100/100
+|turn|4
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: enormous chef|Superpower|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|87/100
+|-boost|p1a: enormous chef|atk|1
+|-boost|p1a: enormous chef|def|1
+|
+|turn|5
+|
+|move|p2a: Enamorus|Dazzling Gleam|p1a: enormous chef
+|-damage|p1a: enormous chef|49/100
+|move|p1a: enormous chef|Iron Head|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-heal|p1a: enormous chef|55/100|[from] item: Leftovers
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|-terastallize|p1a: enormous chef|Fighting
+|move|p2a: Chien-Pao|Ice Spinner|p1a: enormous chef
+|-damage|p1a: enormous chef|0 fnt
+|faint|p1a: enormous chef
+|
+|
+|switch|p1a: rip hellfrog|Heatran, F|100/100
+|turn|7
+|
+|switch|p2a: Articuno|Articuno-Galar|100/100
+|move|p1a: rip hellfrog|Substitute|p1a: rip hellfrog
+|-start|p1a: rip hellfrog|Substitute
+|-damage|p1a: rip hellfrog|75/100
+|
+|-heal|p1a: rip hellfrog|82/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: rip hellfrog|Lava Plume|p2a: Articuno
+|-damage|p2a: Articuno|69/100
+|move|p2a: Articuno|U-turn|p1a: rip hellfrog
+|-resisted|p1a: rip hellfrog
+|-crit|p1a: rip hellfrog
+|-activate|p1a: rip hellfrog|move: Substitute|[damage]
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|-heal|p1a: rip hellfrog|88/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Great Tusk|Headlong Rush|p1a: rip hellfrog
+|-supereffective|p1a: rip hellfrog
+|-end|p1a: rip hellfrog|Substitute
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: rip hellfrog|Lava Plume|p2a: Great Tusk
+|-damage|p2a: Great Tusk|23/100
+|-status|p2a: Great Tusk|brn
+|
+|-heal|p2a: Great Tusk|29/100 brn|[from] item: Leftovers
+|-heal|p1a: rip hellfrog|94/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|23/100 brn|[from] brn
+|turn|10
+|
+|move|p2a: Great Tusk|Headlong Rush|p1a: rip hellfrog
+|-supereffective|p1a: rip hellfrog
+|-damage|p1a: rip hellfrog|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: rip hellfrog
+|
+|-heal|p2a: Great Tusk|29/100 brn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|23/100 brn|[from] brn
+|
+|switch|p1a: Tropus|Tropius, M|100/100
+|turn|11
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Tropus|Substitute|p1a: Tropus
+|-start|p1a: Tropus|Substitute
+|-damage|p1a: Tropus|75/100
+|
+|turn|12
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Tropus
+|-supereffective|p1a: Tropus
+|-end|p1a: Tropus|Substitute
+|move|p1a: Tropus|Leech Seed|p2a: Chien-Pao
+|-start|p2a: Chien-Pao|move: Leech Seed
+|
+|-damage|p2a: Chien-Pao|88/100|[from] Leech Seed|[of] p1a: Tropus
+|-heal|p1a: Tropus|85/100|[silent]
+|turn|13
+|
+|switch|p1a: Sevper|Seviper, M|100/100
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Sevper
+|-damage|p1a: Sevper|0 fnt
+|faint|p1a: Sevper
+|
+|
+|switch|p1a: Zangose|Zangoose, F|100/100
+|turn|14
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Zangose
+|-damage|p1a: Zangose|0 fnt
+|faint|p1a: Zangose
+|
+|
+|switch|p1a: Tropus|Tropius, M|85/100
+|turn|15
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Tropus
+|-supereffective|p1a: Tropus
+|-damage|p1a: Tropus|0 fnt
+|faint|p1a: Tropus
+|
+|win|KiritsuneGX
+|player|p2|KiritsuneGX|101

@@ -1,0 +1,240 @@
+|poke|p1|Indeedee, M|
+|poke|p1|Armarouge, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Polteageist|
+|poke|p1|Volcarona, F|
+|poke|p1|Sneasler, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Skeledirge, M|
+|poke|p2|Iron Treads|
+|poke|p2|Abomasnow, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Alfred|Indeedee, M, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Alfred
+|turn|1
+|
+|switch|p1a: Esmerelda|Hatterene, F, shiny|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Esmerelda
+|-damage|p1a: Esmerelda|71/100
+|-enditem|p1a: Esmerelda|Eject Button|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|turn|2
+|
+|move|p2a: Iron Treads|Iron Head|p1a: Esmerelda
+|-supereffective|p1a: Esmerelda
+|-damage|p1a: Esmerelda|5/100
+|move|p1a: Esmerelda|Healing Wish|p1a: Esmerelda
+|faint|p1a: Esmerelda
+|
+|
+|switch|p1a: Mothra|Volcarona, F, shiny|100/100
+|turn|3
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Mothra
+|-damage|p1a: Mothra|53/100
+|-enditem|p1a: Mothra|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Mothra|Quiver Dance|p1a: Mothra
+|-boost|p1a: Mothra|spa|1
+|-boost|p1a: Mothra|spd|1
+|-boost|p1a: Mothra|spe|1
+|
+|turn|4
+|
+|-terastallize|p2a: Iron Treads|Ground
+|move|p1a: Mothra|Fiery Dance|p2a: Iron Treads
+|-damage|p2a: Iron Treads|32/100
+|-boost|p1a: Mothra|spa|1
+|move|p2a: Iron Treads|Earthquake|p1a: Mothra
+|-damage|p1a: Mothra|0 fnt
+|faint|p1a: Mothra
+|
+|
+|switch|p1a: Mortar|Armarouge, F, shiny|100/100
+|turn|5
+|
+|move|p1a: Mortar|Endure|p1a: Mortar
+|-singleturn|p1a: Mortar|move: Endure
+|move|p2a: Iron Treads|Earthquake|p1a: Mortar
+|-supereffective|p1a: Mortar
+|-activate|p1a: Mortar|move: Endure
+|-damage|p1a: Mortar|1/100
+|-ability|p1a: Mortar|Weak Armor|boost
+|-unboost|p1a: Mortar|def|1
+|-boost|p1a: Mortar|spe|2
+|-enditem|p1a: Mortar|Weakness Policy
+|-boost|p1a: Mortar|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Mortar|spa|2|[from] item: Weakness Policy
+|
+|turn|6
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Mortar|Expanding Force|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Iron Treads|Iron Treads, tera:Ground|32/100
+|turn|7
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Mortar|Expanding Force|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|6/100
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|move|p1a: Mortar|Energy Ball|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Psychic Terrain
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|move|p1a: Mortar|Endure|p1a: Mortar
+|-singleturn|p1a: Mortar|move: Endure
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|
+|-weather|Snow|[upkeep]
+|turn|10
+|
+|move|p1a: Mortar|Endure||[still]
+|-fail|p1a: Mortar
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|
+|-weather|none
+|turn|11
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Mortar
+|-supereffective|p1a: Mortar
+|-damage|p1a: Mortar|0 fnt
+|faint|p1a: Mortar
+|
+|
+|switch|p1a: Alfred|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Alfred
+|turn|12
+|
+|switch|p2a: Iron Treads|Iron Treads, tera:Ground|32/100
+|move|p1a: Alfred|Healing Wish|p1a: Alfred
+|faint|p1a: Alfred
+|
+|
+|switch|p1a: Juice Express|Polteageist, shiny|100/100
+|turn|13
+|
+|-terastallize|p1a: Juice Express|Fighting
+|move|p2a: Iron Treads|Iron Head|p1a: Juice Express
+|-damage|p1a: Juice Express|32/100
+|-ability|p1a: Juice Express|Weak Armor|boost
+|-unboost|p1a: Juice Express|def|1
+|-boost|p1a: Juice Express|spe|2
+|move|p1a: Juice Express|Shell Smash|p1a: Juice Express
+|-unboost|p1a: Juice Express|def|1
+|-unboost|p1a: Juice Express|spd|1
+|-boost|p1a: Juice Express|atk|2
+|-boost|p1a: Juice Express|spa|2
+|-boost|p1a: Juice Express|spe|2
+|
+|turn|14
+|
+|move|p1a: Juice Express|Shadow Ball|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|15
+|
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Juice Express|Stored Power|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|turn|16
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Juice Express|Stored Power|p2a: Chien-Pao
+|-immune|p2a: Chien-Pao
+|
+|turn|17
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Juice Express|Tera Blast|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|
+|turn|18
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|move|p1a: Juice Express|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|12/100
+|
+|-heal|p2a: Zamazenta|18/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Juice Express|Shadow Ball|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-heal|p2a: Zamazenta|24/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|turn|20
+|
+|move|p1a: Juice Express|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|21
+|
+|move|p1a: Juice Express|Shadow Ball|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|30/100
+|move|p2a: Skeledirge|Torch Song|p1a: Juice Express
+|-damage|p1a: Juice Express|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Juice Express
+|
+|
+|switch|p1a: Sonic OC|Sneasler, F, shiny|100/100
+|turn|22
+|
+|move|p1a: Sonic OC|Acrobatics|p2a: Skeledirge
+|-damage|p2a: Skeledirge|11/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|61/100
+|
+|turn|23
+|
+|move|p1a: Sonic OC|Acrobatics|p2a: Skeledirge
+|-damage|p2a: Skeledirge|43/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Sonic OC
+|-status|p1a: Sonic OC|brn
+|
+|-damage|p1a: Sonic OC|95/100 brn|[from] brn
+|turn|24
+|-message|Laprasrules12 forfeited.
+|
+|win|erduashi

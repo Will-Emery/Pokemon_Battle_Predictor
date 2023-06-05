@@ -1,0 +1,317 @@
+|poke|p1|Toxapex, M|
+|poke|p1|Iron Treads|
+|poke|p1|Bisharp, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Dondozo, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Iron Hands|
+|poke|p2|Scizor, F|
+|poke|p2|Gastrodon-East, F|
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Pincurchin|Discharge|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|turn|2
+|
+|switch|p2a: Nikola Jokic|Iron Hands|100/100
+|-activate|p2a: Nikola Jokic|ability: Quark Drive
+|-start|p2a: Nikola Jokic|quarkdriveatk
+|move|p1a: Clodsire|Toxic|p2a: Nikola Jokic
+|-status|p2a: Nikola Jokic|tox
+|
+|-damage|p2a: Nikola Jokic|94/100 tox|[from] psn
+|turn|3
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Nikola Jokic|Earthquake|p1a: Dondozo
+|-damage|p1a: Dondozo|76/100
+|
+|-damage|p2a: Nikola Jokic|82/100 tox|[from] psn
+|turn|4
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Nikola Jokic|Thunder Punch|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|-damage|p2a: Nikola Jokic|63/100 tox|[from] psn
+|turn|5
+|
+|move|p2a: Nikola Jokic|Thunder Punch|p1a: Clodsire
+|-immune|p1a: Clodsire
+|move|p1a: Clodsire|Toxic Spikes|p2a: Nikola Jokic
+|-sidestart|p2: Houseki|move: Toxic Spikes
+|
+|-damage|p2a: Nikola Jokic|38/100 tox|[from] psn
+|turn|6
+|
+|move|p2a: Nikola Jokic|Thunder Punch|p1a: Clodsire
+|-immune|p1a: Clodsire
+|move|p1a: Clodsire|Earthquake|p2a: Nikola Jokic
+|-supereffective|p2a: Nikola Jokic
+|-damage|p2a: Nikola Jokic|3/100 tox
+|
+|-damage|p2a: Nikola Jokic|0 fnt|[from] psn
+|faint|p2a: Nikola Jokic
+|-end|p2a: Nikola Jokic|Quark Drive|[silent]
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|7
+|
+|switch|p1a: Dondozo|Dondozo, M|76/100
+|move|p2a: Scizor|Sandstorm|p2a: Scizor
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dondozo|70/100|[from] Sandstorm
+|turn|8
+|
+|move|p2a: Scizor|U-turn|p1a: Dondozo
+|-damage|p1a: Dondozo|52/100
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100|[from] U-turn
+|move|p1a: Dondozo|Liquidation|p2a: Gastrodon
+|-damage|p2a: Gastrodon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dondozo|46/100|[from] Sandstorm
+|-fieldend|move: Electric Terrain
+|turn|9
+|
+|-terastallize|p2a: Gastrodon|Ground
+|-terastallize|p1a: Dondozo|Grass
+|move|p2a: Gastrodon|Earth Power|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|10
+|
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|move|p1a: Toxapex|Surf|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|95/100|[from] Sandstorm
+|turn|11
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|19/100
+|move|p1a: Toxapex|Infestation|p2a: Gastrodon
+|-damage|p2a: Gastrodon|36/100
+|-activate|p2a: Gastrodon|move: Infestation|[of] p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|13/100|[from] Sandstorm
+|-damage|p2a: Gastrodon|23/100|[from] move: Infestation|[partiallytrapped]
+|turn|12
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Gastrodon|Earth Power|p1a: Hatterene
+|-damage|p1a: Hatterene|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|17/100|[from] Sandstorm
+|-heal|p1a: Hatterene|23/100|[from] item: Leftovers
+|-end|p2a: Gastrodon|Infestation|[partiallytrapped]|[silent]
+|turn|13
+|
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|73/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Gastrodon
+|-damage|p2a: Gastrodon|50/100
+|-unboost|p2a: Gastrodon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|17/100|[from] Sandstorm
+|-heal|p1a: Hatterene|23/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|none
+|
+|switch|p1a: Toxapex|Toxapex, M|47/100
+|turn|15
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|8/100
+|move|p1a: Toxapex|Surf|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|16
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Clodsire
+|-damage|p1a: Clodsire|61/100
+|
+|-heal|p1a: Clodsire|67/100|[from] item: Black Sludge
+|turn|17
+|
+|move|p2a: Scizor|U-turn|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|44/100
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100|[from] U-turn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|94/100
+|
+|-heal|p1a: Clodsire|100/100|[from] item: Black Sludge
+|turn|18
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|
+|turn|19
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Braviary|Heat Wave|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|turn|20
+|
+|move|p2a: Braviary|Esper Wing|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|47/100
+|move|p1a: Clodsire|Toxic|p2a: Braviary
+|-status|p2a: Braviary|tox
+|
+|-heal|p1a: Clodsire|54/100|[from] item: Black Sludge
+|-damage|p2a: Braviary|94/100 tox|[from] psn
+|turn|21
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Braviary|Esper Wing|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|41/100
+|
+|-heal|p1a: Iron Treads|47/100|[from] item: Leftovers
+|-damage|p2a: Braviary|82/100 tox|[from] psn
+|turn|22
+|
+|move|p1a: Iron Treads|Iron Head|p2a: Braviary
+|-damage|p2a: Braviary|42/100 tox
+|cant|p2a: Braviary|flinch
+|
+|-heal|p1a: Iron Treads|53/100|[from] item: Leftovers
+|-damage|p2a: Braviary|23/100 tox|[from] psn
+|turn|23
+
+|
+|move|p1a: Iron Treads|Iron Head|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|-heal|p1a: Iron Treads|59/100|[from] item: Leftovers
+|
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-status|p2a: Pincurchin|psn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|24
+|
+|move|p1a: Iron Treads|Rapid Spin|p2a: Pincurchin
+|-damage|p2a: Pincurchin|86/100 psn
+|-boost|p1a: Iron Treads|spe|1
+|move|p2a: Pincurchin|Spikes|p1a: Iron Treads
+|-sidestart|p1: Shammoo Shaman|Spikes
+|
+|-heal|p1a: Iron Treads|66/100|[from] item: Leftovers
+|-damage|p2a: Pincurchin|74/100 psn|[from] psn
+|turn|25
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Iron Treads|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|57/100
+|
+|-heal|p1a: Iron Treads|72/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|11/100
+|move|p2a: Scizor|Close Combat|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Scizor|def|1
+|-unboost|p2a: Scizor|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Clodsire|Clodsire, M|54/100
+|-damage|p1a: Clodsire|41/100|[from] Spikes
+|turn|27
+|
+|switch|p1a: Toxapex|Toxapex, M|42/100
+|-damage|p1a: Toxapex|30/100|[from] Spikes
+|move|p2a: Scizor|Bullet Punch|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|15/100
+|
+|turn|28
+|
+|switch|p1a: Clodsire|Clodsire, M|41/100
+|-damage|p1a: Clodsire|29/100|[from] Spikes
+|move|p2a: Scizor|Bullet Punch|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Toxapex|Toxapex, M|49/100
+|-damage|p1a: Toxapex|36/100|[from] Spikes
+|turn|29
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100
+|move|p1a: Toxapex|Surf|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|
+|switch|p2a: Pincurchin|Pincurchin, F|74/100 psn
+|turn|30
+|
+|move|p1a: Toxapex|Surf|p2a: Pincurchin
+|-damage|p2a: Pincurchin|32/100 psn
+|move|p2a: Pincurchin|Discharge|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|win|Houseki

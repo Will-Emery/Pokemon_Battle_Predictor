@@ -1,0 +1,132 @@
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Kleavor, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Enamorus, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Jhon china|Arcanine-Hisui, M, shiny|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jhon china|atk|1
+|turn|1
+|
+|switch|p1a: Cefiro|Enamorus, F|100/100
+|move|p2a: Landorus|Earthquake|p1a: Cefiro
+|-immune|p1a: Cefiro
+|
+|turn|2
+|
+|move|p1a: Cefiro|Superpower|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|82/100
+|-boost|p1a: Cefiro|atk|1
+|-boost|p1a: Cefiro|def|1
+|move|p2a: Landorus|Taunt|p1a: Cefiro
+|-start|p1a: Cefiro|move: Taunt
+|
+|turn|3
+|
+|move|p1a: Cefiro|Superpower|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|57/100
+|-boost|p1a: Cefiro|atk|1
+|-boost|p1a: Cefiro|def|1
+|move|p2a: Landorus|Stealth Rock|p1a: Cefiro
+|-sidestart|p1: Notorius Semyazza|move: Stealth Rock
+|
+|turn|4
+|
+|move|p1a: Cefiro|Play Rough|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|5
+|
+|-terastallize|p2a: Lilligant|Grass
+|move|p1a: Cefiro|Play Rough|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-end|p1a: Cefiro|move: Taunt
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|turn|6
+|
+|move|p1a: Cefiro|Earth Power|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|74/100
+|move|p2a: Goodra|Iron Head|p1a: Cefiro
+|-supereffective|p1a: Cefiro
+|-damage|p1a: Cefiro|48/100
+|
+|turn|7
+|
+|move|p1a: Cefiro|Superpower|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-boost|p1a: Cefiro|atk|1
+|-boost|p1a: Cefiro|def|1
+|-ability|p2a: Goodra|Gooey
+|-boost|p1a: Cefiro|spe|1
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|8
+|
+|-terastallize|p1a: Cefiro|Fairy
+|move|p1a: Cefiro|Play Rough|p2a: Iron Valiant|[miss]
+|-miss|p1a: Cefiro|p2a: Iron Valiant
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Cefiro
+|-damage|p1a: Cefiro|17/100
+|
+|turn|9
+|
+|move|p1a: Cefiro|Play Rough|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|10
+|
+|move|p1a: Cefiro|Superpower|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-boost|p1a: Cefiro|atk|1
+|-boost|p1a: Cefiro|def|1
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|11
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Cefiro
+|-damage|p1a: Cefiro|0 fnt
+|faint|p1a: Cefiro
+|-damage|p2a: Arcanine|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Shogun-Ron|Samurott-Hisui, F, shiny|100/100
+|-damage|p1a: Shogun-Ron|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Shogun-Ron|Aqua Cutter|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|win|Notorius Semyazza

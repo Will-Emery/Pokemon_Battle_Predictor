@@ -1,0 +1,322 @@
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Gholdengo|
+|poke|p1|Hydreigon, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Wyrdeer, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Magearna|
+|poke|p2|Chien-Pao|
+|poke|p2|Cinderace, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: Wyrdeer|Wyrdeer, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-ability|p1a: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Chien-Pao|atk|1
+|turn|1
+|
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|-ability|p1a: Overqwil|Intimidate|boost
+|-unboost|p2a: Chien-Pao|atk|1
+|move|p2a: Chien-Pao|Swords Dance|p2a: Chien-Pao
+|-boost|p2a: Chien-Pao|atk|2
+|
+|turn|2
+|
+|-terastallize|p1a: Overqwil|Fighting
+|move|p2a: Chien-Pao|Swords Dance|p2a: Chien-Pao
+|-boost|p2a: Chien-Pao|atk|2
+|move|p1a: Overqwil|Tera Blast|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|3
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Enamorus|Superpower|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|turn|4
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|56/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|turn|5
+|
+|switch|p1a: Overqwil|Overqwil, M, tera:Fighting|100/100
+|-ability|p1a: Overqwil|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|Pyro Ball|p1a: Overqwil
+|-damage|p1a: Overqwil|72/100
+|
+|-heal|p1a: Overqwil|78/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Cinderace|U-turn|p1a: Overqwil
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|70/100
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|move|p1a: Overqwil|Spikes|p2a: Magearna
+|-sidestart|p2: Ricardo2221|Spikes
+|
+|-heal|p1a: Overqwil|76/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Overqwil|Taunt|p2a: Magearna
+|-start|p2a: Magearna|move: Taunt
+|cant|p2a: Magearna|move: Taunt|Shift Gear
+|
+|-heal|p1a: Overqwil|82/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Overqwil|Tera Blast|p2a: Magearna
+|-damage|p2a: Magearna|75/100
+|move|p2a: Magearna|Draining Kiss|p1a: Overqwil
+|-supereffective|p1a: Overqwil
+|-damage|p1a: Overqwil|11/100
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Overqwil
+|
+|-heal|p1a: Overqwil|18/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Overqwil|Tera Blast|p2a: Magearna
+|-damage|p2a: Magearna|77/100
+|move|p2a: Magearna|Draining Kiss|p1a: Overqwil
+|-supereffective|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|-heal|p2a: Magearna|90/100|[from] drain|[of] p1a: Overqwil
+|faint|p1a: Overqwil
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|96/100|[from] item: Leftovers
+|-end|p2a: Magearna|move: Taunt
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|10
+|
+|move|p1a: Gholdengo|Trick|p2a: Magearna
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Magearna
+|-item|p2a: Magearna|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Leftovers|[from] move: Trick
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|11
+|
+|switch|p2a: Cinderace|Cinderace, F|56/100
+|switch|p1a: Wyrdeer|Wyrdeer, M|100/100
+|-ability|p1a: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|
+|turn|12
+|
+|move|p2a: Cinderace|U-turn|p1a: Wyrdeer
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|49/100
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100|[from] U-turn
+|-damage|p2a: Dondozo|88/100|[from] Spikes
+|move|p1a: Wyrdeer|Psychic|p2a: Dondozo
+|-damage|p2a: Dondozo|26/100
+|
+|-heal|p2a: Dondozo|33/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Wyrdeer|Psychic|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|14
+|
+|switch|p2a: Cinderace|Cinderace, F|56/100
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100
+|
+|turn|15
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|
+|switch|p1a: Wyrdeer|Wyrdeer, M|49/100
+|-ability|p1a: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|turn|16
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Wyrdeer
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|0 fnt
+|faint|p1a: Wyrdeer
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|17
+|
+|move|p2a: Cinderace|U-turn|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|95/100
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|move|p1a: Enamorus|Superpower|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|85/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|
+|turn|18
+|
+|move|p2a: Enamorus|Superpower|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|82/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|-damage|p2a: Enamorus|75/100|[from] item: Life Orb
+|move|p1a: Enamorus|Play Rough|p2a: Enamorus
+|-crit|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Magearna|Magearna|96/100
+|-damage|p2a: Magearna|83/100|[from] Spikes
+|turn|19
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Magearna|Draining Kiss|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|83/100
+|-heal|p2a: Magearna|95/100|[from] drain|[of] p1a: Gholdengo
+|
+|-heal|p1a: Gholdengo|89/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Cinderace|Cinderace, F|56/100
+|
+|turn|21
+|
+|move|p2a: Cinderace|U-turn|p1a: Hydreigon
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|16/100
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100|[from] U-turn
+|-damage|p2a: Clodsire|88/100|[from] Spikes
+|move|p1a: Hydreigon|Earth Power|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|44/100
+|-damage|p1a: Hydreigon|6/100|[from] item: Life Orb
+|
+|-heal|p2a: Clodsire|50/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Hydreigon|Stealth Rock|p2a: Clodsire
+|-sidestart|p2: Ricardo2221|move: Stealth Rock
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|turn|23
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Clodsire
+|-damage|p2a: Clodsire|58/100
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|0 fnt|[from] item: Life Orb
+|faint|p1a: Hydreigon
+|move|p2a: Clodsire|Toxic|p1: Hydreigon|[notarget]
+|-fail|p2a: Clodsire
+|
+|-heal|p2a: Clodsire|65/100|[from] item: Leftovers
+|
+|switch|p1a: Enamorus|Enamorus, F|82/100
+|turn|24
+|
+|move|p1a: Enamorus|Zen Headbutt|p2a: Clodsire|[miss]
+|-miss|p1a: Enamorus|p2a: Clodsire
+|move|p2a: Clodsire|Toxic|p1a: Enamorus
+|-status|p1a: Enamorus|tox
+|
+|-heal|p2a: Clodsire|71/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|76/100 tox|[from] psn
+|turn|25
+|
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Enamorus|Superpower|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-heal|p2a: Clodsire|77/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|63/100 tox|[from] psn
+|turn|26
+|
+|move|p1a: Enamorus|Zen Headbutt|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|21/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|71/100
+|
+|-heal|p2a: Clodsire|77/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|45/100 tox|[from] psn
+|turn|27
+|
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Enamorus|Zen Headbutt|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-heal|p2a: Clodsire|83/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|20/100 tox|[from] psn
+|turn|28
+|
+|move|p1a: Enamorus|Zen Headbutt|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|22/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|72/100
+|
+|-heal|p2a: Clodsire|79/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|0 fnt|[from] psn
+|faint|p1a: Enamorus
+|
+|switch|p1a: Gholdengo|Gholdengo|89/100
+|turn|29
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|54/100
+|-unboost|p2a: Clodsire|spd|1
+|move|p2a: Clodsire|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|29/100
+|
+|-heal|p1a: Gholdengo|35/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|60/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Clodsire
+|-damage|p2a: Clodsire|10/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Clodsire|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|Ricardo2221

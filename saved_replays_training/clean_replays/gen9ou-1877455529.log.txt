@@ -1,0 +1,149 @@
+|poke|p1|Sylveon, F|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Clodsire, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Skeledirge, M|
+|poke|p2|Breloom, F|
+|poke|p2|Magearna|
+|poke|p2|Azelf|
+|teampreview
+|
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Magearna|Light Screen|p2a: Magearna
+|-sidestart|p2: puissance du feu|move: Light Screen
+|
+|turn|2
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Magearna
+|-damage|p2a: Magearna|59/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Magearna|Reflect|p2a: Magearna
+|-sidestart|p2: puissance du feu|Reflect
+|
+|turn|3
+|
+|switch|p2a: No..|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: No..
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|turn|4
+|
+|move|p2a: No..|Encore|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|move|p1a: Gholdengo|Shadow Ball|p2a: No..
+|-immune|p2a: No..
+|
+|turn|5
+|
+|move|p2a: No..|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|66/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|turn|6
+|
+|move|p2a: No..|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|27/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|1
+|
+|turn|7
+|
+|-terastallize|p1a: Gholdengo|Normal
+|move|p2a: No..|Shadow Ball|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|77/100
+|
+|turn|8
+|
+|move|p2a: No..|Psychic|p1a: Gholdengo
+|-damage|p1a: Gholdengo|35/100
+|move|p1a: Gholdengo|Make It Rain|p2a: No..
+|-damage|p2a: No..|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: No..
+|
+|-sideend|p2: puissance du feu|move: Light Screen
+|
+|switch|p2a: Ok|Sneasler, M|100/100
+|-enditem|p2a: Ok|Psychic Seed
+|-boost|p2a: Ok|spd|1|[from] item: Psychic Seed
+|turn|9
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Ok|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|64/100
+|-unboost|p2a: Ok|def|1
+|-unboost|p2a: Ok|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: puissance du feu|Reflect
+|turn|10
+|
+|move|p2a: Ok|Swords Dance|p2a: Ok
+|-boost|p2a: Ok|atk|2
+|move|p1a: Torkoal|Stealth Rock|p2a: Ok
+|-sidestart|p2: puissance du feu|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|turn|11
+|
+|move|p2a: Ok|Close Combat|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Ok|def|1
+|-unboost|p2a: Ok|spd|1
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|12
+|
+|move|p2a: Ok|Dire Claw|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|81/100
+|-status|p1a: Great Tusk|slp
+|cant|p1a: Great Tusk|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|87/100 slp|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Ok|Swords Dance|p2a: Ok
+|-boost|p2a: Ok|atk|2
+|cant|p1a: Great Tusk|slp
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|-heal|p1a: Great Tusk|94/100 slp|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Ok|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Ok|def|1
+|-unboost|p2a: Ok|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-message|ooo01w forfeited.
+|
+|win|puissance du feu

@@ -1,0 +1,213 @@
+|poke|p1|Kingambit, F|
+|poke|p1|Gholdengo|
+|poke|p1|Armarouge, M|
+|poke|p1|Arboliva, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Glimmora, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Great Tusk|
+|poke|p2|Hatterene, F|
+|poke|p2|Amoonguss, F|
+|poke|p2|Cloyster, F|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|1
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Glimmora|Stealth Rock|p2a: Mimikyu
+|-sidestart|p2: egocrucifix|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Mimikyu|Leech Life|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|64/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: egocrucifix|move: Toxic Spikes
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|move|p1a: Glimmora|Mortal Spin|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|91/100
+|-status|p2a: Mimikyu|psn
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|78/100 psn|[from] pokemon: Mimikyu-Busted
+|
+|-damage|p2a: Mimikyu|66/100 psn|[from] psn
+|turn|3
+|
+|move|p2a: Mimikyu|Leech Life|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|32/100
+|-heal|p2a: Mimikyu|85/100 psn|[from] drain|[of] p1a: Glimmora
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: egocrucifix|move: Toxic Spikes
+|-damage|p2a: Mimikyu|75/100 psn|[from] item: Life Orb
+|move|p1a: Glimmora|Sludge Wave|p2a: Mimikyu
+|-damage|p2a: Mimikyu|7/100 psn
+|
+|-damage|p2a: Mimikyu|0 fnt|[from] psn
+|faint|p2a: Mimikyu
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|-sideend|p2: egocrucifix|move: Toxic Spikes|[of] p2a: Amoonguss
+|turn|4
+|
+|move|p1a: Glimmora|Earth Power|p2a: Amoonguss
+|-damage|p2a: Amoonguss|63/100
+|move|p2a: Amoonguss|Spore|p1a: Glimmora
+|-status|p1a: Glimmora|slp|[from] move: Spore
+|
+|turn|5
+|
+|cant|p1a: Glimmora|slp
+|move|p2a: Amoonguss|Giga Drain|p1a: Glimmora
+|-damage|p1a: Glimmora|3/100 slp
+|-heal|p2a: Amoonguss|74/100|[from] drain|[of] p1a: Glimmora
+|
+|turn|6
+|
+|-curestatus|p1a: Glimmora|slp|[msg]
+|move|p1a: Glimmora|Sludge Wave|p2a: Amoonguss
+|-damage|p2a: Amoonguss|29/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-heal|p2a: Amoonguss|30/100|[from] drain|[of] p1a: Glimmora
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|turn|7
+|
+|move|p1a: Armarouge|Armor Cannon|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|-damage|p2a: Cloyster|76/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|-enditem|p2a: Cloyster|White Herb
+|-clearnegativeboost|p2a: Cloyster|[silent]
+|
+|turn|9
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|98/100
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|95/100
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|93/100
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|90/100
+|-resisted|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|86/100
+|-hitcount|p1a: Dondozo|5
+|move|p1a: Dondozo|Body Press|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|31/100
+|
+|-heal|p1a: Dondozo|92/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Dondozo|Body Press|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|84/100
+|
+|-heal|p1a: Dondozo|98/100|[from] item: Leftovers
+|turn|11
+|
+|-terastallize|p2a: Volcarona|Grass
+|move|p2a: Volcarona|Giga Drain|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|38/100
+|-heal|p2a: Volcarona|100/100|[from] drain|[of] p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|85/100
+|
+|-heal|p1a: Dondozo|44/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|-heal|p2a: Volcarona|100/100|[from] drain|[of] p1a: Dondozo
+|faint|p1a: Dondozo
+|
+|
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|turn|13
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Armarouge|Calm Mind|p1a: Armarouge
+|-boost|p1a: Armarouge|spa|1
+|-boost|p1a: Armarouge|spd|1
+|
+|turn|14
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Armarouge
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|75/100
+|move|p1a: Armarouge|Armor Cannon|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Cloyster|Cloyster, F|31/100
+|-damage|p2a: Cloyster|6/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Armarouge|Energy Ball|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Armarouge|Expanding Force|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Armarouge|Armor Cannon|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Hatterene
+|
+|win|therealcomrade66

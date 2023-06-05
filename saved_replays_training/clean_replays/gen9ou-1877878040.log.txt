@@ -1,0 +1,468 @@
+|poke|p1|Azumarill, M|
+|poke|p1|Skeledirge, M|
+|poke|p1|Magearna|
+|poke|p1|Sneasler, M|
+|poke|p1|Great Tusk|
+|poke|p1|Garganacl, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Breloom, M|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Azelf|
+|teampreview
+|
+|start
+|switch|p1a: Femboy II|Azumarill, M, shiny|100/100
+|switch|p2a: Ala|Electrode-Hisui|100/100
+|turn|1
+|
+|move|p2a: Ala|Reflect|p2a: Ala
+|-sidestart|p2: puissance du feu|Reflect
+|move|p1a: Femboy II|Belly Drum|p1a: Femboy II
+|-damage|p1a: Femboy II|50/100
+|-setboost|p1a: Femboy II|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Femboy II|Sitrus Berry|[eat]
+|-heal|p1a: Femboy II|75/100|[from] item: Sitrus Berry
+|
+|turn|2
+|
+|move|p2a: Ala|Volt Switch|p1a: Femboy II
+|-supereffective|p1a: Femboy II
+|-damage|p1a: Femboy II|29/100
+|
+|switch|p2a: Sku|Skeledirge, F|100/100|[from] Volt Switch
+|move|p1a: Femboy II|Play Rough|p2a: Sku
+|-resisted|p2a: Sku
+|-damage|p2a: Sku|92/100
+|
+|turn|3
+|
+|move|p1a: Femboy II|Aqua Jet|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|76/100
+|move|p2a: Sku|Will-O-Wisp|p1a: Femboy II
+|-status|p1a: Femboy II|brn
+|
+|-damage|p1a: Femboy II|23/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Femboy II|Aqua Jet|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|69/100
+|move|p2a: Sku|Slack Off|p2a: Sku
+|-heal|p2a: Sku|100/100
+|
+|-damage|p1a: Femboy II|17/100 brn|[from] brn
+|turn|5
+|
+|move|p1a: Femboy II|Aqua Jet|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|93/100
+|move|p2a: Sku|Torch Song|p1a: Femboy II
+|-resisted|p1a: Femboy II
+|-damage|p1a: Femboy II|3/100 brn
+|-boost|p2a: Sku|spa|1
+|
+|-damage|p1a: Femboy II|0 fnt|[from] brn
+|faint|p1a: Femboy II
+|
+|switch|p1a: My White Ass|Great Tusk|100/100
+|-enditem|p1a: My White Ass|Booster Energy
+|-activate|p1a: My White Ass|ability: Protosynthesis|[fromitem]
+|-start|p1a: My White Ass|protosynthesisatk
+|turn|6
+|
+|move|p1a: My White Ass|Headlong Rush|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|46/100
+|-unboost|p1a: My White Ass|def|1
+|-unboost|p1a: My White Ass|spd|1
+|move|p2a: Sku|Will-O-Wisp|p1a: My White Ass
+|-status|p1a: My White Ass|brn
+|
+|-damage|p1a: My White Ass|94/100 brn|[from] brn
+|turn|7
+|
+|move|p1a: My White Ass|Knock Off|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|34/100
+|-enditem|p2a: Sku|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: My White Ass
+|move|p2a: Sku|Slack Off|p2a: Sku
+|-heal|p2a: Sku|84/100
+|
+|-damage|p1a: My White Ass|88/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: My White Ass|Headlong Rush|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|59/100
+|-unboost|p1a: My White Ass|def|1
+|-unboost|p1a: My White Ass|spd|1
+|move|p2a: Sku|Torch Song|p1a: My White Ass
+|-damage|p1a: My White Ass|20/100 brn
+|-boost|p2a: Sku|spa|1
+|
+|-damage|p1a: My White Ass|14/100 brn|[from] brn
+|-sideend|p2: puissance du feu|Reflect
+|turn|9
+|
+|switch|p2a: Azelf|Azelf|100/100
+|move|p1a: My White Ass|Headlong Rush|p2a: Azelf
+|-immune|p2a: Azelf|[from] ability: Levitate
+|
+|-damage|p1a: My White Ass|8/100 brn|[from] brn
+|turn|10
+|
+|move|p2a: Azelf|U-turn|p1a: My White Ass
+|-resisted|p1a: My White Ass
+|-damage|p1a: My White Ass|0 fnt
+|faint|p1a: My White Ass
+|-end|p1a: My White Ass|Protosynthesis|[silent]
+|
+|switch|p2a: Ala|Electrode-Hisui|100/100|[from] U-turn
+|
+|
+|switch|p1a: Zodiac Killer|Skeledirge, M, shiny|100/100
+|turn|11
+|
+|move|p2a: Ala|Volt Switch|p1a: Zodiac Killer
+|-damage|p1a: Zodiac Killer|75/100
+|
+|switch|p2a: No..|Indeedee, M|100/100|[from] Volt Switch
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: No..
+|move|p1a: Zodiac Killer|Torch Song|p2a: No..
+|-damage|p2a: No..|47/100
+|-boost|p1a: Zodiac Killer|spa|1
+|
+|turn|12
+|
+|move|p2a: No..|Shadow Ball|p1a: Zodiac Killer
+|-supereffective|p1a: Zodiac Killer
+|-damage|p1a: Zodiac Killer|24/100
+|-unboost|p1a: Zodiac Killer|spd|1
+|move|p1a: Zodiac Killer|Torch Song|p2a: No..
+|-damage|p2a: No..|0 fnt
+|-boost|p1a: Zodiac Killer|spa|1
+|faint|p2a: No..
+|
+|
+|switch|p2a: Ala|Electrode-Hisui|100/100
+|turn|13
+|
+|move|p2a: Ala|Volt Switch|p1a: Zodiac Killer
+|-damage|p1a: Zodiac Killer|0 fnt
+|faint|p1a: Zodiac Killer
+|
+|switch|p2a: Ok|Sneasler, M|100/100|[from] Volt Switch
+|-enditem|p2a: Ok|Psychic Seed
+|-boost|p2a: Ok|spd|1|[from] item: Psychic Seed
+|
+|
+|switch|p1a: Vega|Sneasler, M|100/100
+|turn|14
+|
+|switch|p1a: Robo Bitch|Magearna|100/100
+|move|p2a: Ok|Swords Dance|p2a: Ok
+|-boost|p2a: Ok|atk|2
+|
+|turn|15
+|
+|move|p2a: Ok|Close Combat|p1a: Robo Bitch
+|-damage|p1a: Robo Bitch|0 fnt
+|-unboost|p2a: Ok|def|1
+|-unboost|p2a: Ok|spd|1
+|faint|p1a: Robo Bitch
+|
+|
+|switch|p1a: dedidated wam|Garganacl, M|100/100
+|turn|16
+|
+|-terastallize|p1a: dedidated wam|Ghost
+|move|p2a: Ok|Close Combat|p1a: dedidated wam
+|-immune|p1a: dedidated wam
+|move|p1a: dedidated wam|Salt Cure|p2a: Ok
+|-resisted|p2a: Ok
+|-damage|p2a: Ok|85/100
+|-start|p2a: Ok|Salt Cure
+|
+|-damage|p2a: Ok|72/100|[from] Salt Cure
+|turn|17
+|
+|move|p2a: Ok|Swords Dance|p2a: Ok
+|-boost|p2a: Ok|atk|2
+|move|p1a: dedidated wam|Iron Defense|p1a: dedidated wam
+|-boost|p1a: dedidated wam|def|2
+|
+|-damage|p2a: Ok|60/100|[from] Salt Cure
+|turn|18
+|
+|move|p2a: Ok|Shadow Claw|p1a: dedidated wam
+|-supereffective|p1a: dedidated wam
+|-damage|p1a: dedidated wam|72/100
+|move|p1a: dedidated wam|Iron Defense|p1a: dedidated wam
+|-boost|p1a: dedidated wam|def|2
+|
+|-heal|p1a: dedidated wam|78/100|[from] item: Leftovers
+|-damage|p2a: Ok|47/100|[from] Salt Cure
+|-fieldend|move: Psychic Terrain
+|turn|19
+|
+|move|p2a: Ok|Dire Claw|p1a: dedidated wam
+|-resisted|p1a: dedidated wam
+|-damage|p1a: dedidated wam|63/100
+|move|p1a: dedidated wam|Iron Defense|p1a: dedidated wam
+|-boost|p1a: dedidated wam|def|2
+|
+|-heal|p1a: dedidated wam|69/100|[from] item: Leftovers
+|-damage|p2a: Ok|35/100|[from] Salt Cure
+|turn|20
+|
+|move|p2a: Ok|Dire Claw|p1a: dedidated wam
+|-resisted|p1a: dedidated wam
+|-damage|p1a: dedidated wam|58/100
+|move|p1a: dedidated wam|Body Press|p2a: Ok
+|-resisted|p2a: Ok
+|-damage|p2a: Ok|0 fnt
+|faint|p2a: Ok
+|
+|-heal|p1a: dedidated wam|65/100|[from] item: Leftovers
+|
+|switch|p2a: Sku|Skeledirge, F|59/100
+|turn|21
+|
+|move|p2a: Sku|Torch Song|p1a: dedidated wam
+|-damage|p1a: dedidated wam|44/100
+|-boost|p2a: Sku|spa|1
+|move|p1a: dedidated wam|Salt Cure|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|42/100
+|-start|p2a: Sku|Salt Cure
+|
+|-heal|p1a: dedidated wam|50/100|[from] item: Leftovers
+|-damage|p2a: Sku|30/100|[from] Salt Cure
+|turn|22
+|
+|move|p2a: Sku|Slack Off|p2a: Sku
+|-heal|p2a: Sku|80/100
+|move|p1a: dedidated wam|Recover|p1a: dedidated wam
+|-heal|p1a: dedidated wam|100/100
+|
+|-damage|p2a: Sku|68/100|[from] Salt Cure
+|turn|23
+|
+|move|p2a: Sku|Torch Song|p1a: dedidated wam
+|-damage|p1a: dedidated wam|72/100
+|-boost|p2a: Sku|spa|1
+|move|p1a: dedidated wam|Salt Cure|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|52/100
+|
+|-heal|p1a: dedidated wam|78/100|[from] item: Leftovers
+|-damage|p2a: Sku|39/100|[from] Salt Cure
+|turn|24
+|
+|move|p2a: Sku|Slack Off|p2a: Sku
+|-heal|p2a: Sku|89/100
+|move|p1a: dedidated wam|Salt Cure|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|72/100
+|
+|-heal|p1a: dedidated wam|84/100|[from] item: Leftovers
+|-damage|p2a: Sku|59/100|[from] Salt Cure
+|turn|25
+|
+|move|p2a: Sku|Torch Song|p1a: dedidated wam
+|-damage|p1a: dedidated wam|45/100
+|-boost|p2a: Sku|spa|1
+|move|p1a: dedidated wam|Salt Cure|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|41/100
+|
+|-heal|p1a: dedidated wam|51/100|[from] item: Leftovers
+|-damage|p2a: Sku|28/100|[from] Salt Cure
+|turn|26
+|
+|move|p2a: Sku|Slack Off|p2a: Sku
+|-heal|p2a: Sku|78/100
+|move|p1a: dedidated wam|Recover|p1a: dedidated wam
+|-heal|p1a: dedidated wam|100/100
+|
+|-damage|p2a: Sku|66/100|[from] Salt Cure
+|turn|27
+|
+|move|p2a: Sku|Hex|p1a: dedidated wam
+|-supereffective|p1a: dedidated wam
+|-damage|p1a: dedidated wam|63/100
+|move|p1a: dedidated wam|Salt Cure|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|49/100
+|
+|-heal|p1a: dedidated wam|69/100|[from] item: Leftovers
+|-damage|p2a: Sku|37/100|[from] Salt Cure
+|turn|28
+|
+|move|p2a: Sku|Slack Off|p2a: Sku
+|-heal|p2a: Sku|87/100
+|move|p1a: dedidated wam|Salt Cure|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|71/100
+|
+|-heal|p1a: dedidated wam|75/100|[from] item: Leftovers
+|-damage|p2a: Sku|59/100|[from] Salt Cure
+|turn|29
+|
+|move|p2a: Sku|Torch Song|p1a: dedidated wam
+|-crit|p1a: dedidated wam
+|-damage|p1a: dedidated wam|7/100
+|-boost|p2a: Sku|spa|1
+|move|p1a: dedidated wam|Recover|p1a: dedidated wam
+|-heal|p1a: dedidated wam|57/100
+|
+|-heal|p1a: dedidated wam|64/100|[from] item: Leftovers
+|-damage|p2a: Sku|46/100|[from] Salt Cure
+|turn|30
+|
+|move|p2a: Sku|Torch Song|p1a: dedidated wam
+|-damage|p1a: dedidated wam|6/100
+|-boost|p2a: Sku|spa|1
+|move|p1a: dedidated wam|Salt Cure|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|28/100
+|
+|-heal|p1a: dedidated wam|13/100|[from] item: Leftovers
+|-damage|p2a: Sku|16/100|[from] Salt Cure
+|turn|31
+|
+|move|p2a: Sku|Slack Off|p2a: Sku
+|-heal|p2a: Sku|66/100
+|move|p1a: dedidated wam|Recover|p1a: dedidated wam
+|-heal|p1a: dedidated wam|63/100
+|
+|-heal|p1a: dedidated wam|69/100|[from] item: Leftovers
+|-damage|p2a: Sku|53/100|[from] Salt Cure
+|turn|32
+|
+|move|p2a: Sku|Torch Song|p1a: dedidated wam
+|-damage|p1a: dedidated wam|2/100
+|-boost|p2a: Sku|spa|1
+|move|p1a: dedidated wam|Salt Cure|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|36/100
+|
+|-heal|p1a: dedidated wam|8/100|[from] item: Leftovers
+|-damage|p2a: Sku|24/100|[from] Salt Cure
+|turn|33
+|
+|move|p2a: Sku|Slack Off|p2a: Sku
+|-heal|p2a: Sku|74/100
+|move|p1a: dedidated wam|Recover|p1a: dedidated wam
+|-heal|p1a: dedidated wam|58/100
+|
+|-heal|p1a: dedidated wam|64/100|[from] item: Leftovers
+|-damage|p2a: Sku|61/100|[from] Salt Cure
+|turn|34
+|
+|move|p2a: Sku|Hex|p1a: dedidated wam
+|-supereffective|p1a: dedidated wam
+|-damage|p1a: dedidated wam|2/100
+|move|p1a: dedidated wam|Salt Cure|p2a: Sku
+|-supereffective|p2a: Sku
+|-damage|p2a: Sku|45/100
+|
+|-heal|p1a: dedidated wam|8/100|[from] item: Leftovers
+|-damage|p2a: Sku|33/100|[from] Salt Cure
+|turn|35
+|
+|move|p2a: Sku|Hex|p1a: dedidated wam
+|-supereffective|p1a: dedidated wam
+|-damage|p1a: dedidated wam|0 fnt
+|faint|p1a: dedidated wam
+|
+|-damage|p2a: Sku|20/100|[from] Salt Cure
+|
+|switch|p1a: Vega|Sneasler, M|100/100
+|turn|36
+|
+|move|p1a: Vega|Dire Claw|p2a: Sku
+|-resisted|p2a: Sku
+|-damage|p2a: Sku|8/100
+|-status|p2a: Sku|slp
+|cant|p2a: Sku|slp
+|
+|-damage|p2a: Sku|0 fnt|[from] Salt Cure
+|faint|p2a: Sku
+|
+|switch|p2a: Azelf|Azelf|100/100
+|turn|37
+|
+|move|p1a: Vega|Dire Claw|p2a: Azelf
+|-damage|p2a: Azelf|29/100
+|-status|p2a: Azelf|par
+|move|p2a: Azelf|Zen Headbutt|p1a: Vega|[miss]
+|-miss|p2a: Azelf|p1a: Vega
+|
+|turn|38
+|
+|move|p1a: Vega|U-turn|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|
+|switch|p2a: Ala|Electrode-Hisui|100/100
+|turn|39
+|
+|move|p2a: Ala|Reflect|p2a: Ala
+|-sidestart|p2: puissance du feu|Reflect
+|move|p1a: Vega|Dire Claw|p2a: Ala
+|-supereffective|p2a: Ala
+|-damage|p2a: Ala|40/100
+|
+|turn|40
+|
+|move|p2a: Ala|Thunder Wave|p1a: Vega
+|-status|p1a: Vega|par
+|move|p1a: Vega|Dire Claw|p2a: Ala
+|-supereffective|p2a: Ala
+|-damage|p2a: Ala|0 fnt
+|faint|p2a: Ala
+|
+|
+|switch|p2a: Va|Breloom, M|100/100
+|turn|41
+|
+|move|p1a: Vega|Dire Claw|p2a: Va
+|-supereffective|p2a: Va
+|-damage|p2a: Va|50/100
+|-status|p2a: Va|psn
+|move|p2a: Va|Bullet Seed|p1a: Vega
+|-resisted|p1a: Vega
+|-damage|p1a: Vega|83/100 par
+|-resisted|p1a: Vega
+|-damage|p1a: Vega|66/100 par
+|-resisted|p1a: Vega
+|-damage|p1a: Vega|47/100 par
+|-hitcount|p1a: Vega|3
+|
+|-heal|p1a: Vega|53/100 par|[from] item: Black Sludge
+|-heal|p2a: Va|56/100 psn|[from] item: Leftovers
+|-damage|p2a: Va|44/100 psn|[from] psn
+|turn|42
+|
+|-terastallize|p2a: Va|Rock
+|move|p1a: Vega|Dire Claw|p2a: Va
+|-resisted|p2a: Va
+|-damage|p2a: Va|31/100 psn
+|move|p2a: Va|Bullet Seed|p1a: Vega
+|-resisted|p1a: Vega
+|-crit|p1a: Vega
+|-damage|p1a: Vega|26/100 par
+|-resisted|p1a: Vega
+|-damage|p1a: Vega|9/100 par
+|-resisted|p1a: Vega
+|-damage|p1a: Vega|0 fnt
+|faint|p1a: Vega
+|-hitcount|p1: Vega|3
+|
+|win|puissance du feu

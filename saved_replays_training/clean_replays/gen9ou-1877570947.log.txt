@@ -1,0 +1,136 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p2|Uxie|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Uxie|Uxie, shiny|100/100
+|turn|1
+|
+|move|p2a: Uxie|Light Screen|p2a: Uxie
+|-sidestart|p2: koraidon03|move: Light Screen
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|2
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Uxie|Yawn|p1a: Magearna
+|-start|p1a: Magearna|move: Yawn|[of] p2a: Uxie
+|
+|turn|3
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Uxie|Reflect|p2a: Uxie
+|-sidestart|p2: koraidon03|Reflect
+|
+|turn|4
+|
+|move|p1a: Indeedee|Encore|p2a: Uxie
+|-start|p2a: Uxie|Encore
+|move|p2a: Uxie|Reflect||[still]
+|-fail|p2a: Uxie
+|
+|turn|5
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: PresidentWorm|Iron Moth|100/100
+|-enditem|p1a: PresidentWorm|Booster Energy
+|-activate|p1a: PresidentWorm|ability: Quark Drive|[fromitem]
+|-start|p1a: PresidentWorm|quarkdrivespa
+|turn|6
+|
+|move|p1a: PresidentWorm|Fiery Dance|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|44/100
+|-enditem|p2a: Magearna|Weakness Policy
+|-boost|p2a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Magearna|spa|2|[from] item: Weakness Policy
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|7
+|
+|move|p2a: Magearna|Stored Power|p1a: PresidentWorm
+|-supereffective|p1a: PresidentWorm
+|-damage|p1a: PresidentWorm|0 fnt
+|faint|p1a: PresidentWorm
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: PresidentWorm|Quark Drive|[silent]
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|8
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-sideend|p2: koraidon03|move: Light Screen
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|9
+|
+|-terastallize|p1a: Sneasler|Flying
+|-terastallize|p2a: Magearna|Fairy
+|move|p1a: Sneasler|Dire Claw|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|52/100
+|move|p2a: Magearna|Draining Kiss|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Sneasler
+|faint|p1a: Sneasler
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|10
+|
+|move|p2a: Magearna|Stored Power|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-sideend|p2: koraidon03|Reflect
+|-fieldend|move: Psychic Terrain
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|11
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|67/100
+|move|p2a: Magearna|Draining Kiss|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Chien-Pao
+|faint|p1a: Chien-Pao
+|
+|win|koraidon03

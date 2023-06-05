@@ -1,0 +1,307 @@
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Corviknight, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Braviary-Hisui, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Zapdos|
+|poke|p2|Sneasler, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-item|p2a: Sneasler|Air Balloon
+|turn|1
+|
+|move|p2a: Sneasler|Fake Out|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|83/100
+|cant|p1a: Grimmsnarl|flinch
+|
+|turn|2
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: un-nefarious|Reflect
+|move|p2a: Sneasler|Dire Claw|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|36/100
+|-status|p1a: Grimmsnarl|par
+|
+|turn|3
+|
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Sneasler
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2a: Sneasler|spa|1
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Parting Shot
+|move|p2a: Sneasler|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|99/100
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Chien-Pao|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|52/100
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|-heal|p1a: Magearna|58/100|[from] item: Leftovers
+|turn|5
+|
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Chien-Pao|Flamethrower|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|44/100
+|-status|p1a: Magearna|brn
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|44/100 brn|[from] brn
+|turn|6
+|
+|move|p2a: Chien-Pao|Hex|p1a: Magearna
+|-damage|p1a: Magearna|10/100 brn
+|move|p1a: Magearna|Draining Kiss|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|6/100
+|-heal|p1a: Magearna|58/100 brn|[from] drain|[of] p2a: Chien-Pao
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|-heal|p1a: Magearna|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|58/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: Zoroark|Hex|p1a: Magearna
+|-damage|p1a: Magearna|22/100 brn
+|move|p1a: Magearna|Draining Kiss|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|-heal|p1a: Magearna|25/100 brn|[from] drain|[of] p2a: Zoroark
+|faint|p2a: Zoroark
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|31/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|25/100 brn|[from] brn
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|8
+|
+|move|p2a: Zapdos|Discharge|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|-terastallize|p2a: Zapdos|Electric
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Zapdos
+|-damage|p2a: Zapdos|41/100
+|-status|p1a: Chien-Pao|par|[from] ability: Static|[of] p2a: Zapdos
+|move|p2a: Zapdos|Discharge|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|35/100 par
+|
+|-sideend|p1: un-nefarious|Reflect
+|turn|10
+|
+|move|p2a: Zapdos|Discharge|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|36/100 par
+|turn|11
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: un-nefarious|move: Light Screen
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|91/100
+|
+|turn|12
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: un-nefarious|Reflect
+|move|p2a: Zapdos|Discharge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|18/100 par
+|
+|turn|13
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Zapdos
+|-start|p2a: Zapdos|move: Taunt
+|move|p2a: Zapdos|Discharge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|1/100 par
+|
+|turn|14
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|cant|p1a: Grimmsnarl|par
+|
+|turn|15
+|
+|switch|p2a: Zapdos|Zapdos, tera:Electric|91/100
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|
+|turn|16
+|
+|move|p2a: Zapdos|Discharge|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|54/100
+|move|p1a: Corviknight|U-turn|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|74/100
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100|[from] U-turn
+|
+|turn|17
+|
+|move|p2a: Zapdos|Discharge|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|52/100
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|
+|-heal|p1a: Braviary|59/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Zapdos|Discharge|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|29/100
+|move|p1a: Braviary|Esper Wing|p2a: Zapdos
+|-damage|p2a: Zapdos|29/100
+|-boost|p1a: Braviary|spe|1
+|
+|-heal|p1a: Braviary|35/100|[from] item: Leftovers
+|-sideend|p1: un-nefarious|move: Light Screen
+|turn|19
+|
+|move|p1a: Braviary|Esper Wing|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-boost|p1a: Braviary|spe|1
+|faint|p2a: Zapdos
+|
+|-heal|p1a: Braviary|41/100|[from] item: Leftovers
+|-sideend|p1: un-nefarious|Reflect
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|20
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|21
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Zamazenta|Stone Edge|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|
+|-heal|p2a: Rotom|51/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Corviknight|Corviknight, M|54/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Rotom|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|
+|-heal|p2a: Rotom|57/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|48/100 brn|[from] brn
+|turn|23
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Corviknight|U-turn|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p2a: Rotom|63/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|42/100 brn|[from] brn
+|turn|24
+|
+|move|p2a: Rotom|Volt Switch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100|[from] Volt Switch
+|-item|p2a: Sneasler|Air Balloon
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|turn|25
+|
+|move|p2a: Sneasler|Fake Out|p1a: Zamazenta
+|-damage|p1a: Zamazenta|86/100
+|cant|p1a: Zamazenta|flinch
+|
+|turn|26
+|
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-enditem|p2a: Sneasler|Air Balloon
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|27
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|1/100 par
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|86/100
+|turn|28
+|
+|switch|p2a: Rotom|Rotom-Wash|63/100
+|move|p1a: Zamazenta|Stone Edge|p2a: Rotom
+|-damage|p2a: Rotom|14/100
+|
+|-heal|p2a: Rotom|20/100|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Zamazenta|Stone Edge|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p2a: Rotom|26/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Zamazenta|Stone Edge|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|31
+|
+|move|p2a: Enamorus|Moonblast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|win|ctrlxxx

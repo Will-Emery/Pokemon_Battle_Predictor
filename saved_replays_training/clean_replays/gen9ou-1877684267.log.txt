@@ -1,0 +1,245 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Klefki, M|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Blissey, F|
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Pincurchin, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Muk-Alola, F|
+|teampreview
+|
+|start
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|1
+|
+|move|p1a: Blissey|Trick|p2a: Clodsire
+|-activate|p1a: Blissey|move: Trick|[of] p2a: Clodsire
+|-item|p2a: Clodsire|Choice Band|[from] move: Trick
+|-item|p1a: Blissey|Black Sludge|[from] move: Trick
+|move|p2a: Clodsire|Stealth Rock|p1a: Blissey
+|-sidestart|p1: Rap's my Fave Meme|move: Stealth Rock
+|
+|-damage|p1a: Blissey|88/100|[from] item: Black Sludge
+|turn|2
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Samurott
+|-damage|p2a: Samurott|69/100
+|
+|-damage|p1a: Blissey|76/100|[from] item: Black Sludge
+|turn|3
+|
+|move|p2a: Samurott|Sacred Sword|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|
+|switch|p1a: tricken chicken|Decidueye-Hisui, F, shiny|100/100
+|-damage|p1a: tricken chicken|94/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p2a: Muk|Muk-Alola, F|100/100
+|move|p1a: tricken chicken|Substitute|p1a: tricken chicken
+|-start|p1a: tricken chicken|Substitute
+|-damage|p1a: tricken chicken|69/100
+|
+|-heal|p1a: tricken chicken|75/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: tricken chicken|Bulk Up|p1a: tricken chicken
+|-boost|p1a: tricken chicken|atk|1
+|-boost|p1a: tricken chicken|def|1
+|move|p2a: Muk|Poison Jab|p1a: tricken chicken
+|-supereffective|p1a: tricken chicken
+|-end|p1a: tricken chicken|Substitute
+|
+|-heal|p1a: tricken chicken|82/100|[from] item: Leftovers
+|turn|6
+|
+|-terastallize|p1a: tricken chicken|Steel
+|move|p1a: tricken chicken|Substitute|p1a: tricken chicken
+|-start|p1a: tricken chicken|Substitute
+|-damage|p1a: tricken chicken|57/100
+|move|p2a: Muk|Poison Jab|p1a: tricken chicken
+|-immune|p1a: tricken chicken
+|
+|-heal|p1a: tricken chicken|63/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: tricken chicken|Triple Arrows|p2a: Muk
+|-damage|p2a: Muk|43/100
+|-unboost|p2a: Muk|def|1
+|move|p2a: Muk|Drain Punch|p1a: tricken chicken
+|-supereffective|p1a: tricken chicken
+|-end|p1a: tricken chicken|Substitute
+|-heal|p2a: Muk|54/100|[from] drain|[of] p1a: tricken chicken
+|
+|-heal|p1a: tricken chicken|69/100|[from] item: Leftovers
+|-heal|p2a: Muk|60/100|[from] item: Black Sludge
+|turn|8
+|
+|-terastallize|p2a: Muk|Poison
+|move|p1a: tricken chicken|Triple Arrows|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|23/100
+|move|p2a: Muk|Drain Punch|p1a: tricken chicken
+|-supereffective|p1a: tricken chicken
+|-damage|p1a: tricken chicken|35/100
+|-heal|p2a: Muk|38/100|[from] drain|[of] p1a: tricken chicken
+|
+|-heal|p1a: tricken chicken|41/100|[from] item: Leftovers
+|-heal|p2a: Muk|44/100|[from] item: Black Sludge
+|turn|9
+|
+|move|p1a: tricken chicken|Triple Arrows|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|3/100
+|-unboost|p2a: Muk|def|1
+|cant|p2a: Muk|flinch
+|
+|-heal|p1a: tricken chicken|48/100|[from] item: Leftovers
+|-heal|p2a: Muk|9/100|[from] item: Black Sludge
+|turn|10
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: tricken chicken|Triple Arrows|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|81/100
+|-unboost|p2a: Clodsire|def|1
+|
+|-heal|p1a: tricken chicken|54/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: tricken chicken|Substitute|p1a: tricken chicken
+|-start|p1a: tricken chicken|Substitute
+|-damage|p1a: tricken chicken|29/100
+|move|p2a: Clodsire|Earthquake|p1a: tricken chicken
+|-supereffective|p1a: tricken chicken
+|-end|p1a: tricken chicken|Substitute
+|
+|-heal|p1a: tricken chicken|35/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: tricken chicken|Triple Arrows|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|50/100
+|cant|p2a: Clodsire|flinch
+|
+|-heal|p1a: tricken chicken|41/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: tricken chicken|Triple Arrows|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|19/100
+|move|p2a: Clodsire|Earthquake|p1a: tricken chicken
+|-supereffective|p1a: tricken chicken
+|-damage|p1a: tricken chicken|0 fnt
+|faint|p1a: tricken chicken
+|
+|
+|switch|p1a: mangina|Klefki, M|100/100
+|-damage|p1a: mangina|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p1a: mangina|Flash Cannon|p2a: Arcanine
+|-damage|p2a: Arcanine|71/100
+|
+|-heal|p1a: mangina|100/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: mangina|Thunder Wave|p2a: Arcanine
+|-status|p2a: Arcanine|par
+|move|p2a: Arcanine|Flare Blitz|p1a: mangina
+|-supereffective|p1a: mangina
+|-damage|p1a: mangina|0 fnt
+|faint|p1a: mangina
+|-damage|p2a: Arcanine|62/100 par|[from] item: Life Orb
+|
+|
+|switch|p1a: Sneaslucha|Sneasler, F|100/100
+|-damage|p1a: Sneaslucha|95/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Clodsire|Clodsire, M|19/100
+|move|p1a: Sneaslucha|Substitute|p1a: Sneaslucha
+|-start|p1a: Sneaslucha|Substitute
+|-damage|p1a: Sneaslucha|70/100
+|
+|turn|17
+|
+|move|p1a: Sneaslucha|Close Combat|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|-unboost|p1a: Sneaslucha|def|1
+|-unboost|p1a: Sneaslucha|spd|1
+|-enditem|p1a: Sneaslucha|White Herb
+|-clearnegativeboost|p1a: Sneaslucha|[silent]
+|faint|p2a: Clodsire
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|69/100
+|turn|18
+|
+|move|p1a: Sneaslucha|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Sneaslucha|def|1
+|-unboost|p1a: Sneaslucha|spd|1
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Muk|Muk-Alola, F, tera:Poison|9/100
+|turn|19
+|
+|move|p1a: Sneaslucha|Acrobatics|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|20
+|
+|move|p1a: Sneaslucha|Swords Dance|p1a: Sneaslucha
+|-boost|p1a: Sneaslucha|atk|2
+|move|p2a: Electrode|Volt Switch|p1a: Sneaslucha
+|-end|p1a: Sneaslucha|Substitute
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|62/100 par|[from] Volt Switch
+|
+|turn|21
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Sneaslucha
+|-damage|p1a: Sneaslucha|0 fnt
+|faint|p1a: Sneaslucha
+|-damage|p2a: Arcanine|52/100 par|[from] item: Life Orb
+|
+|
+|switch|p1a: jumping cushion|Pincurchin, M|100/100
+|-damage|p1a: jumping cushion|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: jumping cushion
+|turn|22
+|
+|move|p2a: Arcanine|Head Smash|p1a: jumping cushion
+|-damage|p1a: jumping cushion|0 fnt
+|faint|p1a: jumping cushion
+|-damage|p2a: Arcanine|42/100 par|[from] item: Life Orb
+|
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, M|100/100
+|-damage|p1a: Avalugg|76/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Arcanine|Head Smash|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|-damage|p2a: Arcanine|32/100 par|[from] item: Life Orb
+|
+|win|Jaref6669

@@ -1,0 +1,92 @@
+|poke|p1|Drifblim, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Armarouge, M|
+|poke|p1|Great Tusk|
+|poke|p1|Meowscarada, M|
+|poke|p1|Gholdengo|
+|poke|p2|Chien-Pao|
+|poke|p2|Volcarona, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Ebony.D'N.D.R.W|Meowscarada, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p1a: gamemode c|Armarouge, M|100/100
+|move|p2a: Chien-Pao|Ice Spinner|p1a: gamemode c
+|-resisted|p1a: gamemode c
+|-damage|p1a: gamemode c|75/100
+|-ability|p1a: gamemode c|Weak Armor|boost
+|-unboost|p1a: gamemode c|def|1
+|-boost|p1a: gamemode c|spe|2
+|-damage|p2a: Chien-Pao|91/100|[from] item: Life Orb
+|
+|turn|2
+|
+|-terastallize|p1a: gamemode c|Fighting
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|move|p1a: gamemode c|Iron Defense|p1a: gamemode c
+|-boost|p1a: gamemode c|def|2
+|
+|turn|3
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: gamemode c|Iron Defense|p1a: gamemode c
+|-boost|p1a: gamemode c|def|2
+|
+|turn|4
+|
+|move|p1a: gamemode c|Calm Mind|p1a: gamemode c
+|-boost|p1a: gamemode c|spa|1
+|-boost|p1a: gamemode c|spd|1
+|move|p2a: Hatterene|Draining Kiss|p1a: gamemode c
+|-supereffective|p1a: gamemode c
+|-damage|p1a: gamemode c|49/100
+|-enditem|p1a: gamemode c|Weakness Policy
+|-boost|p1a: gamemode c|atk|2|[from] item: Weakness Policy
+|-boost|p1a: gamemode c|spa|2|[from] item: Weakness Policy
+|
+|turn|5
+|
+|move|p1a: gamemode c|Calm Mind|p1a: gamemode c
+|-boost|p1a: gamemode c|spa|1
+|-boost|p1a: gamemode c|spd|1
+|move|p2a: Hatterene|Draining Kiss|p1a: gamemode c
+|-supereffective|p1a: gamemode c
+|-damage|p1a: gamemode c|28/100
+|
+|turn|6
+|
+|move|p1a: gamemode c|Stored Power|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|91/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|move|p1a: gamemode c|Aura Sphere|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|8
+|
+|move|p1a: gamemode c|Stored Power|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-message|TheNutmeg33 forfeited.
+|
+|win|Dead3y3

@@ -1,0 +1,214 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Garganacl, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Iron Moth|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, M, shiny|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-item|p1a: Hatterene|Air Balloon
+|move|p2a: Glimmora|Earth Power|p1a: Hatterene
+|-immune|p1a: Hatterene
+|
+|turn|2
+|
+|move|p2a: Glimmora|Sludge Wave|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-enditem|p1a: Hatterene|Air Balloon
+|faint|p1a: Hatterene
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|3
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: I wuv mons ✰|move: Toxic Spikes
+|move|p2a: Glimmora|Energy Ball|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|2/100
+|
+|turn|4
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: I wuv mons ✰|move: Toxic Spikes
+|-sideend|p1: I wuv mons ✰|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|faint|p2a: Glimmora
+|
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|5
+|
+|move|p2a: Iron Moth|Psychic|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M, shiny|100/100
+|turn|6
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|switch|p1a: Torkoal|Torkoal, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p2a: Garganacl|Salt Cure|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|83/100
+|-start|p1a: Torkoal|Salt Cure
+|move|p1a: Torkoal|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: gbcc|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Torkoal|71/100|[from] Salt Cure
+|turn|8
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M, shiny|100/100
+|move|p2a: Garganacl|Stealth Rock|p1a: Arcanine
+|-sidestart|p1: I wuv mons ✰|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|74/100
+|-damage|p1a: Arcanine|91/100|[from] item: Life Orb
+|move|p2a: Garganacl|Salt Cure|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|52/100
+|-start|p1a: Arcanine|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p1a: Arcanine|40/100|[from] Salt Cure
+|turn|10
+|
+|move|p1a: Arcanine|Head Smash|p2a: Garganacl|[miss]
+|-miss|p1a: Arcanine|p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|-damage|p1a: Arcanine|0 fnt|[from] Salt Cure
+|faint|p1a: Arcanine
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|-damage|p1a: Lilligant|94/100|[from] Stealth Rock
+|turn|11
+|
+|-terastallize|p2a: Garganacl|Fairy
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Garganacl|Salt Cure|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|88/100
+|-start|p1a: Lilligant|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garganacl|92/100|[from] item: Leftovers
+|-damage|p1a: Lilligant|75/100|[from] Salt Cure
+|turn|12
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garganacl|98/100|[from] item: Leftovers
+|-damage|p1a: Lilligant|63/100|[from] Salt Cure
+|turn|13
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Lilligant|Leaf Blade|p2a: Great Tusk|[miss]
+|-miss|p1a: Lilligant|p2a: Great Tusk
+|
+|-weather|none
+|-end|p2a: Great Tusk|Protosynthesis
+|-damage|p1a: Lilligant|50/100|[from] Salt Cure
+|turn|14
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Lilligant|38/100|[from] Salt Cure
+|
+|switch|p2a: Garganacl|Garganacl, F, tera:Fairy|98/100
+|-damage|p2a: Garganacl|86/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Lilligant|Leaf Blade|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|92/100|[from] item: Leftovers
+|-damage|p1a: Lilligant|25/100|[from] Salt Cure
+|turn|16
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Lilligant|13/100|[from] Salt Cure
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|17
+|
+|-terastallize|p1a: Lilligant|Ghost
+|move|p2a: Dragonite|Extreme Speed|p1a: Lilligant
+|-immune|p1a: Lilligant
+|move|p1a: Lilligant|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Dragonite
+|
+|-damage|p1a: Lilligant|0 fnt|[from] Salt Cure
+|faint|p1a: Lilligant
+|-message|gbcc forfeited.
+|
+|win|I wuv mons ✰

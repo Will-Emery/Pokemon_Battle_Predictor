@@ -1,0 +1,194 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Meloetta|
+|poke|p2|Heatran, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Hoopa|
+|teampreview
+|
+|start
+|switch|p1a: Peruvian Coke|Ursaluna, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|1
+|
+|switch|p1a: Metro|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Metro
+|move|p2a: Urshifu|Surging Strikes|p1a: Metro
+|-resisted|p1a: Metro
+|-crit|p1a: Metro
+|-damage|p1a: Metro|88/100
+|-resisted|p1a: Metro
+|-crit|p1a: Metro
+|-damage|p1a: Metro|75/100
+|-resisted|p1a: Metro
+|-crit|p1a: Metro
+|-damage|p1a: Metro|62/100
+|-hitcount|p1a: Metro|3
+|
+|-heal|p1a: Metro|68/100|[from] Grassy Terrain
+|turn|2
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Metro|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|94/100
+|-status|p1a: Metro|brn|[from] ability: Flame Body|[of] p2a: Heatran
+|-enditem|p2a: Heatran|Air Balloon
+|
+|switch|p1a: Peruvian Coke|Ursaluna, M|100/100|[from] U-turn
+|
+|-heal|p2a: Heatran|100/100|[from] Grassy Terrain
+|turn|3
+|
+|-terastallize|p2a: Heatran|Flying
+|move|p2a: Heatran|Lava Plume|p1a: Peruvian Coke
+|-damage|p1a: Peruvian Coke|60/100
+|move|p1a: Peruvian Coke|Trailblaze|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|89/100
+|-boost|p1a: Peruvian Coke|spe|1
+|-status|p1a: Peruvian Coke|brn|[from] ability: Flame Body|[of] p2a: Heatran
+|
+|-heal|p1a: Peruvian Coke|66/100 brn|[from] Grassy Terrain
+|-heal|p1a: Peruvian Coke|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Peruvian Coke|66/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Peruvian Coke|Ice Punch|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|10/100
+|move|p2a: Heatran|Lava Plume|p1a: Peruvian Coke
+|-damage|p1a: Peruvian Coke|23/100 brn
+|
+|-heal|p1a: Peruvian Coke|29/100 brn|[from] Grassy Terrain
+|-heal|p1a: Peruvian Coke|35/100 brn|[from] item: Leftovers
+|-damage|p1a: Peruvian Coke|29/100 brn|[from] brn
+|turn|5
+|
+|move|p1a: Peruvian Coke|Trailblaze|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-boost|p1a: Peruvian Coke|spe|1
+|faint|p2a: Heatran
+|
+|-heal|p1a: Peruvian Coke|35/100 brn|[from] Grassy Terrain
+|-heal|p1a: Peruvian Coke|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Peruvian Coke|35/100 brn|[from] brn
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|6
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Peruvian Coke
+|-supereffective|p1a: Peruvian Coke
+|-damage|p1a: Peruvian Coke|0 fnt
+|faint|p1a: Peruvian Coke
+|
+|
+|switch|p1a: Metro|Rillaboom, M|68/100 brn
+|turn|7
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Metro|U-turn|p2a: Lilligant
+|-damage|p2a: Lilligant|81/100
+|
+|switch|p1a: Hercules No Thug|Sneasler, M|100/100|[from] U-turn
+|-enditem|p1a: Hercules No Thug|Grassy Seed
+|-boost|p1a: Hercules No Thug|def|1|[from] item: Grassy Seed
+|
+|-heal|p2a: Lilligant|87/100|[from] Grassy Terrain
+|turn|8
+|
+|move|p1a: Hercules No Thug|Swords Dance|p1a: Hercules No Thug
+|-boost|p1a: Hercules No Thug|atk|2
+|move|p2a: Lilligant|Ice Spinner|p1a: Hercules No Thug
+|-damage|p1a: Hercules No Thug|64/100
+|-fieldend|move: Grassy Terrain
+|
+|turn|9
+|
+|switch|p2a: Hoopa|Hoopa|100/100
+|move|p1a: Hercules No Thug|Acrobatics|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|10
+|
+|-terastallize|p1a: Hercules No Thug|Flying
+|move|p2a: Urshifu|Aqua Jet|p1a: Hercules No Thug
+|-damage|p1a: Hercules No Thug|30/100
+|move|p1a: Hercules No Thug|Acrobatics|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|11
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Hercules No Thug
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p1a: Hercules No Thug|0 fnt
+|faint|p1a: Hercules No Thug
+|
+|
+|switch|p1a: 7500 On A YSL Hatt|Hatterene, F|100/100
+|turn|12
+|
+|move|p2a: Cinderace|U-turn|p1a: 7500 On A YSL Hatt
+|-damage|p1a: 7500 On A YSL Hatt|81/100
+|
+|switch|p2a: Meloetta|Meloetta|100/100|[from] U-turn
+|move|p1a: 7500 On A YSL Hatt|Calm Mind|p1a: 7500 On A YSL Hatt
+|-boost|p1a: 7500 On A YSL Hatt|spa|1
+|-boost|p1a: 7500 On A YSL Hatt|spd|1
+|
+|-heal|p1a: 7500 On A YSL Hatt|87/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Meloetta|Relic Song|p1a: 7500 On A YSL Hatt
+|-damage|p1a: 7500 On A YSL Hatt|58/100
+|-formechange|p2a: Meloetta|Meloetta-Pirouette|[msg]
+|-damage|p2a: Meloetta|91/100|[from] item: Life Orb
+|move|p1a: 7500 On A YSL Hatt|Calm Mind|p1a: 7500 On A YSL Hatt
+|-boost|p1a: 7500 On A YSL Hatt|spa|1
+|-boost|p1a: 7500 On A YSL Hatt|spd|1
+|
+|-heal|p1a: 7500 On A YSL Hatt|64/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Meloetta|Zen Headbutt|p1a: 7500 On A YSL Hatt
+|-resisted|p1a: 7500 On A YSL Hatt
+|-damage|p1a: 7500 On A YSL Hatt|49/100
+|-damage|p2a: Meloetta|81/100|[from] item: Life Orb
+|move|p1a: 7500 On A YSL Hatt|Draining Kiss|p2a: Meloetta
+|-supereffective|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|-heal|p1a: 7500 On A YSL Hatt|100/100|[from] drain|[of] p2a: Meloetta
+|faint|p2a: Meloetta
+|
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|87/100
+|turn|15
+|
+|move|p2a: Lilligant|Leaf Blade|p1a: 7500 On A YSL Hatt
+|-crit|p1a: 7500 On A YSL Hatt
+|-damage|p1a: 7500 On A YSL Hatt|18/100
+|move|p1a: 7500 On A YSL Hatt|Draining Kiss|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|-heal|p1a: 7500 On A YSL Hatt|76/100|[from] drain|[of] p2a: Lilligant
+|faint|p2a: Lilligant
+|
+|-heal|p1a: 7500 On A YSL Hatt|82/100|[from] item: Leftovers
+|-message|dreamboy11 forfeited.
+|
+|win|Despacito87

@@ -1,0 +1,472 @@
+|poke|p1|Muk-Alola, M|
+|poke|p1|Regidrago|
+|poke|p1|Corviknight, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Slowking, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Hoopa-Unbound|
+|teampreview
+|
+|start
+|switch|p1a: Regidrago|Regidrago|100/100
+|switch|p2a: Everywhere again|Landorus-Therian, M|100/100
+|-ability|p2a: Everywhere again|Intimidate|boost
+|-unboost|p1a: Regidrago|atk|1
+|turn|1
+|
+|switch|p2a: Greatest bird|Corviknight, F|100/100
+|-ability|p2a: Greatest bird|Pressure
+|move|p1a: Regidrago|Dragon Energy|p2a: Greatest bird
+|-resisted|p2a: Greatest bird
+|-damage|p2a: Greatest bird|53/100
+|
+|-heal|p2a: Greatest bird|59/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Greatest bird|Roost|p2a: Greatest bird
+|-heal|p2a: Greatest bird|100/100
+|-singleturn|p2a: Greatest bird|move: Roost
+|
+|turn|3
+|
+|move|p2a: Greatest bird|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|-damage|p2a: Greatest bird|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|switch|p2a: Everywhere again|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: Everywhere again|Intimidate|boost
+|-unboost|p1a: Corviknight|atk|1
+|move|p1a: Corviknight|U-turn|p2a: Everywhere again
+|-resisted|p2a: Everywhere again
+|-damage|p2a: Everywhere again|96/100
+|-damage|p1a: Corviknight|82/100|[from] item: Rocky Helmet|[of] p2a: Everywhere again
+|
+|switch|p1a: Regidrago|Regidrago|100/100|[from] U-turn
+|
+|turn|4
+|
+|switch|p2a: Greatest bird|Corviknight, F|84/100
+|-ability|p2a: Greatest bird|Pressure
+|move|p1a: Regidrago|Dragon Energy|p2a: Greatest bird
+|-resisted|p2a: Greatest bird
+|-damage|p2a: Greatest bird|40/100
+|
+|-heal|p2a: Greatest bird|46/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Regidrago|Dragon Energy|p2a: Greatest bird
+|-resisted|p2a: Greatest bird
+|-damage|p2a: Greatest bird|0 fnt
+|faint|p2a: Greatest bird
+|
+|
+|switch|p2a: Trop fort ou pas|Hoopa-Unbound|100/100
+|turn|6
+|
+|switch|p1a: Muk|Muk-Alola, M|100/100
+|move|p2a: Trop fort ou pas|Thunderbolt|p1a: Muk
+|-damage|p1a: Muk|81/100
+|
+|turn|7
+|
+|switch|p2a: Everywhere again|Landorus-Therian, M|96/100
+|-ability|p2a: Everywhere again|Intimidate|boost
+|-unboost|p1a: Muk|atk|1
+|move|p1a: Muk|Knock Off|p2a: Everywhere again
+|-damage|p2a: Everywhere again|67/100
+|-status|p2a: Everywhere again|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|-damage|p1a: Muk|64/100|[from] item: Rocky Helmet|[of] p2a: Everywhere again
+|-enditem|p2a: Everywhere again|Rocky Helmet|[from] move: Knock Off|[of] p1a: Muk
+|
+|-damage|p2a: Everywhere again|55/100 psn|[from] psn
+|turn|8
+|
+|switch|p1a: Corviknight|Corviknight, M|82/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Everywhere again|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: ajmlmaster|move: Stealth Rock
+|
+|-damage|p2a: Everywhere again|43/100 psn|[from] psn
+|turn|9
+|
+|switch|p2a: Send me back|Zamazenta|100/100
+|-ability|p2a: Send me back|Dauntless Shield|boost
+|-boost|p2a: Send me back|def|1
+|move|p1a: Corviknight|Defog|p2a: Send me back
+|-unboost|p2a: Send me back|evasion|1
+|-sideend|p1: ajmlmaster|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|turn|10
+|
+|move|p2a: Send me back|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|31/100
+|-unboost|p2a: Send me back|def|1
+|-unboost|p2a: Send me back|spd|1
+|-damage|p2a: Send me back|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|U-turn|p2a: Send me back
+|-resisted|p2a: Send me back
+|-damage|p2a: Send me back|78/100
+|
+|switch|p1a: Regidrago|Regidrago|100/100|[from] U-turn
+|
+|turn|11
+|
+|switch|p2a: Galarian is bad|Slowking, M|100/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Galarian is bad
+|-damage|p2a: Galarian is bad|47/100
+|
+|turn|12
+|
+|-terastallize|p2a: Galarian is bad|Fairy
+|move|p1a: Regidrago|Dragon Energy|p2a: Galarian is bad
+|-immune|p2a: Galarian is bad
+|move|p2a: Galarian is bad|Chilly Reception|p2a: Galarian is bad
+|-weather|Snow
+|
+|switch|p2a: Everywhere again|Landorus-Therian, M|43/100 psn|[from] Chilly Reception
+|-ability|p2a: Everywhere again|Intimidate|boost
+|-unboost|p1a: Regidrago|atk|1
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Everywhere again|30/100 psn|[from] psn
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, M|31/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Everywhere again|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: ajmlmaster|move: Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Everywhere again|18/100 psn|[from] psn
+|turn|14
+|
+|move|p2a: Everywhere again|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|cant|p1a: Corviknight|move: Taunt|Defog
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Everywhere again|6/100 psn|[from] psn
+|turn|15
+|
+|move|p2a: Everywhere again|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|move|p1a: Corviknight|Body Press|p2a: Everywhere again
+|-resisted|p2a: Everywhere again
+|-damage|p2a: Everywhere again|0 fnt
+|faint|p2a: Everywhere again
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: My bro too strong|Urshifu-Rapid-Strike, F|100/100
+|turn|16
+|
+|move|p2a: My bro too strong|Surging Strikes|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|16/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|2/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|-hitcount|p1: Corviknight|3
+|
+|-weather|none
+|
+|switch|p1a: Regidrago|Regidrago|100/100
+|-damage|p1a: Regidrago|88/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Galarian is bad|Slowking, M, tera:Fairy|80/100
+|move|p1a: Regidrago|Draco Meteor|p2a: Galarian is bad
+|-immune|p2a: Galarian is bad
+|
+|turn|18
+|
+|switch|p1a: Muk|Muk-Alola, M|64/100
+|-damage|p1a: Muk|52/100|[from] Stealth Rock
+|move|p2a: Galarian is bad|Chilly Reception|p2a: Galarian is bad
+|-weather|Snow
+|
+|switch|p2a: My bro too strong|Urshifu-Rapid-Strike, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|19
+|
+|move|p2a: My bro too strong|Surging Strikes|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|31/100
+|-crit|p1a: Muk
+|-damage|p1a: Muk|7/100
+|-crit|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|-hitcount|p1: Muk|3
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Galarian is bad|Slowking, M, tera:Fairy|100/100
+|move|p1a: Grimmsnarl|Taunt|p2a: Galarian is bad
+|-start|p2a: Galarian is bad|move: Taunt
+|
+|-weather|Snow|[upkeep]
+|turn|21
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: ajmlmaster|Reflect
+|move|p2a: Galarian is bad|Future Sight|p1a: Grimmsnarl
+|-start|p2a: Galarian is bad|move: Future Sight
+|
+|-weather|Snow|[upkeep]
+|turn|22
+|
+|switch|p2a: Send me back|Zamazenta|78/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: ajmlmaster|move: Light Screen
+|
+|-weather|none
+|turn|23
+|
+|switch|p2a: Galarian is bad|Slowking, M, tera:Fairy|100/100
+|move|p1a: Grimmsnarl|Taunt|p2a: Galarian is bad
+|-start|p2a: Galarian is bad|move: Taunt
+|
+|-end|p1a: Grimmsnarl|move: Future Sight
+|-immune|p1a: Grimmsnarl
+|turn|24
+|
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Galarian is bad
+|-unboost|p2a: Galarian is bad|atk|1
+|-unboost|p2a: Galarian is bad|spa|1
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from] Parting Shot
+|move|p2a: Galarian is bad|Future Sight|p1a: Volcarona
+|-start|p2a: Galarian is bad|move: Future Sight
+|
+|turn|25
+|
+|switch|p2a: Trop fort ou pas|Hoopa-Unbound|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|26
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Trop fort ou pas
+|-supereffective|p2a: Trop fort ou pas
+|-damage|p2a: Trop fort ou pas|0 fnt
+|faint|p2a: Trop fort ou pas
+|
+|-end|p1a: Volcarona|move: Future Sight
+|-damage|p1a: Volcarona|85/100
+|
+|switch|p2a: Galarian is bad|Slowking, M, tera:Fairy|100/100
+|turn|27
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Galarian is bad|Yawn|p1a: Volcarona
+|-start|p1a: Volcarona|move: Yawn|[of] p2a: Galarian is bad
+|
+|turn|28
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|move|p2a: Galarian is bad|Chilly Reception|p2a: Galarian is bad
+|-weather|Snow
+|
+|switch|p2a: Send me back|Zamazenta|78/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-sideend|p1: ajmlmaster|Reflect
+|turn|29
+|
+|-terastallize|p1a: Urshifu|Water
+|move|p2a: Send me back|Wild Charge|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|-damage|p2a: Send me back|53/100|[from] Recoil
+|
+|-weather|Snow|[upkeep]
+|-sideend|p1: ajmlmaster|move: Light Screen
+|
+|switch|p1a: Regidrago|Regidrago|88/100
+|-damage|p1a: Regidrago|76/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p2a: Galarian is bad|Slowking, M, tera:Fairy|100/100
+|move|p1a: Regidrago|Earth Power|p2a: Galarian is bad
+|-damage|p2a: Galarian is bad|85/100
+|
+|-weather|Snow|[upkeep]
+|turn|31
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|88/100
+|-damage|p1a: Grimmsnarl|76/100|[from] Stealth Rock
+|move|p2a: Galarian is bad|Yawn|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Yawn|[of] p2a: Galarian is bad
+|
+|-weather|Snow|[upkeep]
+|turn|32
+|
+|switch|p2a: Send me back|Zamazenta|53/100
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Send me back
+|-unboost|p2a: Send me back|atk|1
+|-unboost|p2a: Send me back|spa|1
+|
+|switch|p1a: Volcarona|Volcarona, M|85/100|[from] Parting Shot
+|
+|-weather|none
+|turn|33
+|
+|switch|p2a: Galarian is bad|Slowking, M, tera:Fairy|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|34
+|
+|move|p1a: Volcarona|Flamethrower|p2a: Galarian is bad
+|-damage|p2a: Galarian is bad|55/100
+|move|p2a: Galarian is bad|Yawn|p1a: Volcarona
+|-start|p1a: Volcarona|move: Yawn|[of] p2a: Galarian is bad
+|
+|turn|35
+|
+|move|p1a: Volcarona|Flamethrower|p2a: Galarian is bad
+|-damage|p2a: Galarian is bad|16/100
+|move|p2a: Galarian is bad|Chilly Reception|p2a: Galarian is bad
+|-weather|Snow
+|
+|switch|p2a: My bro too strong|Urshifu-Rapid-Strike, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Volcarona|move: Yawn|[silent]
+|-status|p1a: Volcarona|slp
+|turn|36
+|
+|switch|p1a: Regidrago|Regidrago|76/100
+|-damage|p1a: Regidrago|63/100|[from] Stealth Rock
+|move|p2a: My bro too strong|Surging Strikes|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-crit|p1a: Regidrago
+|-damage|p1a: Regidrago|50/100
+|-resisted|p1a: Regidrago
+|-crit|p1a: Regidrago
+|-damage|p1a: Regidrago|37/100
+|-resisted|p1a: Regidrago
+|-crit|p1a: Regidrago
+|-damage|p1a: Regidrago|25/100
+|-hitcount|p1a: Regidrago|3
+|
+|-weather|Snow|[upkeep]
+|turn|37
+|
+|switch|p2a: Galarian is bad|Slowking, M, tera:Fairy|49/100
+|move|p1a: Regidrago|Draco Meteor|p2a: Galarian is bad
+|-immune|p2a: Galarian is bad
+|
+|-weather|Snow|[upkeep]
+|turn|38
+|
+|switch|p1a: Volcarona|Volcarona, M|85/100 slp
+|move|p2a: Galarian is bad|Chilly Reception|p2a: Galarian is bad
+|
+|switch|p2a: My bro too strong|Urshifu-Rapid-Strike, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|39
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|76/100
+|-damage|p1a: Grimmsnarl|63/100|[from] Stealth Rock
+|move|p2a: My bro too strong|Surging Strikes|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|36/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|10/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-hitcount|p1: Grimmsnarl|3
+|
+|-weather|none
+|
+|switch|p1a: Regidrago|Regidrago|25/100
+|-damage|p1a: Regidrago|13/100|[from] Stealth Rock
+|turn|40
+|
+|switch|p2a: Galarian is bad|Slowking, M, tera:Fairy|82/100
+|move|p1a: Regidrago|Draco Meteor|p2a: Galarian is bad
+|-immune|p2a: Galarian is bad
+|
+|turn|41
+|
+|move|p1a: Regidrago|Draco Meteor|p2a: Galarian is bad
+|-immune|p2a: Galarian is bad
+|move|p2a: Galarian is bad|Chilly Reception|p2a: Galarian is bad
+|-weather|Snow
+|
+|switch|p2a: My bro too strong|Urshifu-Rapid-Strike, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|42
+|
+|switch|p2a: Galarian is bad|Slowking, M, tera:Fairy|100/100
+|move|p1a: Regidrago|Draco Meteor|p2a: Galarian is bad
+|-immune|p2a: Galarian is bad
+|
+|-weather|Snow|[upkeep]
+|turn|43
+|
+|switch|p1a: Volcarona|Volcarona, M|85/100 slp
+|move|p2a: Galarian is bad|Future Sight|p1a: Volcarona
+|-start|p2a: Galarian is bad|move: Future Sight
+|
+|-weather|Snow|[upkeep]
+|turn|44
+|
+|cant|p1a: Volcarona|slp
+|move|p2a: Galarian is bad|Chilly Reception|p2a: Galarian is bad
+|
+|switch|p2a: My bro too strong|Urshifu-Rapid-Strike, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|45
+|
+|cant|p1a: Volcarona|slp
+|move|p2a: My bro too strong|Surging Strikes|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|17/100 slp
+|-supereffective|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|-hitcount|p1: Volcarona|2
+|
+|-weather|none
+|-hint|Future Sight did not hit because the target is fainted.
+|player|p1|
+|player|p1|ajmlmaster|cyrus
+|-message|ajmlmaster forfeited.
+|
+|win|Red violet blue
+|player|p1|ajmlmaster|cyrus
+|player|p1|

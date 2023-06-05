@@ -1,1 +1,130 @@
-Could not connect
+|j|☆ShwiftyDal
+|j|☆Aizenbontay
+|t:|1685932231
+|gametype|singles
+|player|p1|ShwiftyDal|colress|
+|player|p2|Aizenbontay|morty|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Amoonguss, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Sneasler, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Great Tusk|
+|poke|p2|Roaring Moon|
+|poke|p2|Garganacl, M|
+|poke|p2|Scream Tail|
+|teampreview
+|
+|t:|1685932244
+|start
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|l|☆Aizenbontay
+|player|p2|
+|
+|t:|1685932301
+|move|p1a: Decidueye|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|94/100
+|j|☆Aizenbontay
+|player|p2|Aizenbontay|morty
+|
+|t:|1685932310
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100|[from] U-turn
+|move|p2a: Torkoal|Yawn|p1a: Enamorus
+|-start|p1a: Enamorus|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685932321
+|-terastallize|p1a: Enamorus|Ground
+|move|p1a: Enamorus|Tera Blast|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Enamorus|move: Yawn|[silent]
+|-status|p1a: Enamorus|slp
+|upkeep
+|
+|t:|1685932329
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|3
+|
+|t:|1685932337
+|move|p2a: Roaring Moon|Dragon Dance|p2a: Roaring Moon
+|-boost|p2a: Roaring Moon|atk|1
+|-boost|p2a: Roaring Moon|spe|1
+|cant|p1a: Enamorus|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685932346
+|move|p2a: Roaring Moon|Dragon Dance|p2a: Roaring Moon
+|-boost|p2a: Roaring Moon|atk|1
+|-boost|p2a: Roaring Moon|spe|1
+|cant|p1a: Enamorus|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685932353
+|move|p2a: Roaring Moon|Dragon Claw|p1a: Enamorus
+|-damage|p1a: Enamorus|15/100 slp
+|-curestatus|p1a: Enamorus|slp|[msg]
+|move|p1a: Enamorus|Springtide Storm|p2a: Roaring Moon|[miss]
+|-miss|p1a: Enamorus|p2a: Roaring Moon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685932358
+|move|p2a: Roaring Moon|Crunch|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685932362
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|turn|7
+|
+|t:|1685932367
+|move|p2a: Roaring Moon|Crunch|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|ShwiftyDal forfeited.
+|
+|win|Aizenbontay
+|l|☆ShwiftyDal

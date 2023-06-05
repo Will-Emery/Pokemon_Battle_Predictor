@@ -1,0 +1,123 @@
+|poke|p1|Scream Tail|
+|poke|p1|Maushold|
+|poke|p1|Slowking, M|
+|poke|p1|Haxorus, M|
+|poke|p1|Armarouge, F|
+|poke|p1|Baxcalibur, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Abomasnow, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|poke|p2|Skeledirge, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|-enditem|p1a: Scream Tail|Booster Energy
+|-activate|p1a: Scream Tail|ability: Protosynthesis|[fromitem]
+|-start|p1a: Scream Tail|protosynthesisspe
+|turn|1
+|
+|move|p1a: Scream Tail|Flamethrower|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|2/100
+|-status|p2a: Abomasnow|brn
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: erduashi|move: Aurora Veil
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Abomasnow|0 fnt|[from] brn
+|faint|p2a: Abomasnow
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|2
+|
+|move|p1a: Scream Tail|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|81/100
+|-enditem|p2a: Magearna|Weakness Policy
+|-boost|p2a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Magearna|spa|2|[from] item: Weakness Policy
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|move|p1a: Scream Tail|Encore|p2a: Magearna
+|-start|p2a: Magearna|Encore
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|0
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Haxorus|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|49/100
+|
+|-weather|none
+|-end|p2a: Magearna|Encore
+|turn|6
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Haxorus
+|faint|p1a: Haxorus
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|turn|7
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Slowking|Light Screen|p1a: Slowking
+|-sidestart|p1: Q'Unknown|move: Light Screen
+|
+|turn|8
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Armarouge|Armarouge, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-sideend|p2: erduashi|move: Aurora Veil
+|turn|9
+|
+|move|p2a: Magearna|Stored Power|p1a: Armarouge
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|Snow|[upkeep]
+|-message|Q'Unknown forfeited.
+|
+|win|erduashi

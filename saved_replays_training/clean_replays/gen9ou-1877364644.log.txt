@@ -1,0 +1,113 @@
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Great Tusk|
+|poke|p1|Magearna|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Peruvian Coke|Ursaluna, F|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Hydro Pump|p2a: Peruvian Coke
+|-supereffective|p2a: Peruvian Coke
+|-damage|p2a: Peruvian Coke|3/100
+|move|p2a: Peruvian Coke|Ice Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|25/100
+|
+|-heal|p2a: Peruvian Coke|9/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Metro|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Metro
+|move|p1a: Dragapult|Hydro Pump|p2a: Metro
+|-resisted|p2a: Metro
+|-damage|p2a: Metro|71/100
+|
+|-heal|p1a: Dragapult|31/100|[from] Grassy Terrain
+|-heal|p2a: Metro|77/100|[from] Grassy Terrain
+|turn|3
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Metro|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|85/100
+|
+|switch|p2a: Hercules No Thug|Sneasler, M|100/100|[from] U-turn
+|-enditem|p2a: Hercules No Thug|Grassy Seed
+|-boost|p2a: Hercules No Thug|def|1|[from] item: Grassy Seed
+|
+|turn|4
+|
+|-terastallize|p2a: Hercules No Thug|Flying
+|move|p2a: Hercules No Thug|Swords Dance|p2a: Hercules No Thug
+|-boost|p2a: Hercules No Thug|atk|2
+|move|p1a: Tornadus|Focus Blast|p2a: Hercules No Thug
+|-resisted|p2a: Hercules No Thug
+|-damage|p2a: Hercules No Thug|85/100
+|
+|turn|5
+|
+|move|p2a: Hercules No Thug|Acrobatics|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|6
+|
+|move|p2a: Hercules No Thug|Close Combat|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Hercules No Thug|def|1
+|-unboost|p2a: Hercules No Thug|spd|1
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|7
+|
+|move|p2a: Hercules No Thug|Acrobatics|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|8
+|
+|move|p2a: Hercules No Thug|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Hercules No Thug|def|1
+|-unboost|p2a: Hercules No Thug|spd|1
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|9
+|
+|move|p2a: Hercules No Thug|Acrobatics|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-fieldend|move: Grassy Terrain
+|
+|switch|p1a: Dragapult|Dragapult, M|31/100
+|turn|10
+|
+|move|p2a: Hercules No Thug|Acrobatics|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|SpeIIbound

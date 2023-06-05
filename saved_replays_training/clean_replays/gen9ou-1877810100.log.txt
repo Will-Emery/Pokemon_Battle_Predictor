@@ -1,0 +1,286 @@
+|poke|p1|Maushold|
+|poke|p1|Sneasler, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Ursaluna, L99, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Garchomp|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|2
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-terastallize|p2a: Chien-Pao|Dark
+|move|p2a: Chien-Pao|Crunch|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|52/100
+|-unboost|p1a: Samurott|def|1
+|-damage|p2a: Chien-Pao|91/100|[from] item: Life Orb
+|
+|turn|3
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|
+|turn|4
+|
+|switch|p2a: FINALLY|Ursaluna, L99, M, shiny|100/100
+|-terastallize|p1a: Zapdos|Fire
+|move|p1a: Zapdos|Heat Wave|p2a: FINALLY
+|-damage|p2a: FINALLY|63/100
+|
+|-status|p2a: FINALLY|brn|[from] item: Flame Orb
+|turn|5
+|
+|move|p1a: Zapdos|Hurricane|p2a: FINALLY|[miss]
+|-miss|p1a: Zapdos|p2a: FINALLY
+|move|p2a: FINALLY|Earthquake|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-damage|p2a: FINALLY|56/100 brn|[from] brn
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|6
+|
+|move|p1a: Sneasler|Fake Out|p2a: FINALLY
+|-damage|p2a: FINALLY|46/100 brn
+|cant|p2a: FINALLY|flinch
+|
+|-damage|p2a: FINALLY|40/100 brn|[from] brn
+|turn|7
+|
+|switch|p2a: faier|Typhlosion-Hisui, M|100/100
+|-item|p1a: Sneasler|Protective Pads|[from] ability: Frisk|[of] p2a: faier|[identify]
+|move|p1a: Sneasler|Close Combat|p2a: faier
+|-immune|p2a: faier
+|
+|turn|8
+|
+|switch|p2a: DonZONZO|Dondozo, M|100/100
+|move|p1a: Sneasler|U-turn|p2a: DonZONZO
+|-damage|p2a: DonZONZO|89/100
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|52/100|[from] U-turn
+|
+|turn|9
+|
+|switch|p2a: no u|Corviknight, M, shiny|100/100
+|-ability|p2a: no u|Pressure
+|move|p1a: Samurott|Ceaseless Edge|p2a: no u
+|-damage|p2a: no u|75/100
+|-sidestart|p2: Drake115|Spikes
+|
+|-heal|p2a: no u|82/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: no u|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|98/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Dark|91/100|[from] U-turn
+|-damage|p2a: Chien-Pao|78/100|[from] Spikes
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|turn|11
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2a: Chien-Pao|68/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|52/100
+|turn|12
+|
+|switch|p2a: no u|Corviknight, M, shiny|82/100
+|-ability|p2a: no u|Pressure
+|move|p1a: Samurott|Sacred Sword|p2a: no u
+|-damage|p2a: no u|57/100
+|
+|-heal|p2a: no u|63/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Maushold|Maushold|100/100
+|move|p2a: no u|Defog|p1a: Maushold
+|-unboost|p1a: Maushold|evasion|1
+|-sideend|p2: Drake115|Spikes|[from] move: Defog|[of] p2a: no u
+|
+|-heal|p2a: no u|69/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Maushold|Encore|p2a: no u
+|-start|p2a: no u|Encore
+|move|p2a: no u|Defog|p1a: Maushold
+|-unboost|p1a: Maushold|evasion|1
+|
+|-heal|p2a: no u|75/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: DonZONZO|Dondozo, M|89/100
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|turn|16
+|
+|move|p1a: Maushold|Population Bomb|p2a: DonZONZO
+|-damage|p2a: DonZONZO|83/100
+|-damage|p1a: Maushold|84/100|[from] item: Rocky Helmet|[of] p2a: DonZONZO
+|-damage|p2a: DonZONZO|78/100
+|-damage|p1a: Maushold|67/100|[from] item: Rocky Helmet|[of] p2a: DonZONZO
+|-damage|p2a: DonZONZO|73/100
+|-damage|p1a: Maushold|51/100|[from] item: Rocky Helmet|[of] p2a: DonZONZO
+|-damage|p2a: DonZONZO|68/100
+|-damage|p1a: Maushold|34/100|[from] item: Rocky Helmet|[of] p2a: DonZONZO
+|-damage|p2a: DonZONZO|64/100
+|-damage|p1a: Maushold|17/100|[from] item: Rocky Helmet|[of] p2a: DonZONZO
+|-damage|p2a: DonZONZO|59/100
+|-damage|p1a: Maushold|1/100|[from] item: Rocky Helmet|[of] p2a: DonZONZO
+|-damage|p2a: DonZONZO|54/100
+|-damage|p1a: Maushold|0 fnt|[from] item: Rocky Helmet|[of] p2a: DonZONZO
+|faint|p1a: Maushold
+|-hitcount|p2a: DonZONZO|7
+|move|p2a: DonZONZO|Curse|p2a: DonZONZO
+|-unboost|p2a: DonZONZO|spe|1
+|-boost|p2a: DonZONZO|atk|1
+|-boost|p2a: DonZONZO|def|1
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|17
+|
+|move|p1a: Sneasler|Fake Out|p2a: DonZONZO
+|-damage|p2a: DonZONZO|50/100
+|-status|p2a: DonZONZO|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|cant|p2a: DonZONZO|flinch
+|
+|-damage|p2a: DonZONZO|37/100 psn|[from] psn
+|turn|18
+|
+|move|p1a: Sneasler|Close Combat|p2a: DonZONZO
+|-damage|p2a: DonZONZO|17/100 psn
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: DonZONZO|Rest|p2a: DonZONZO
+|-status|p2a: DonZONZO|slp|[from] move: Rest
+|-heal|p2a: DonZONZO|100/100 slp|[silent]
+|
+|turn|19
+|
+|move|p1a: Sneasler|U-turn|p2a: DonZONZO
+|-crit|p2a: DonZONZO
+|-damage|p2a: DonZONZO|84/100 slp
+|
+|switch|p1a: Garchomp|Garchomp, M|91/100|[from] U-turn
+|cant|p2a: DonZONZO|slp
+|move|p2a: DonZONZO|Sleep Talk|p2a: DonZONZO
+|move|p2a: DonZONZO|Curse|p2a: DonZONZO|[from]move: Sleep Talk
+|-unboost|p2a: DonZONZO|spe|1
+|-boost|p2a: DonZONZO|atk|1
+|-boost|p2a: DonZONZO|def|1
+|
+|turn|20
+|
+|move|p1a: Garchomp|Draco Meteor|p2a: DonZONZO
+|-damage|p2a: DonZONZO|26/100 slp
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|81/100|[from] item: Life Orb
+|cant|p2a: DonZONZO|slp
+|move|p2a: DonZONZO|Sleep Talk|p2a: DonZONZO
+|move|p2a: DonZONZO|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: DonZONZO
+|
+|turn|21
+|
+|switch|p2a: no u|Corviknight, M, shiny|75/100
+|-ability|p2a: no u|Pressure
+|move|p1a: Garchomp|Draco Meteor|p2a: no u
+|-resisted|p2a: no u
+|-damage|p2a: no u|63/100
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|71/100|[from] item: Life Orb
+|
+|-heal|p2a: no u|69/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|move|p2a: no u|U-turn|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|95/100
+|
+|switch|p2a: faier|Typhlosion-Hisui, M|100/100|[from] U-turn
+|-item|p1a: Sneasler|Protective Pads|[from] ability: Frisk|[of] p2a: faier|[identify]
+|
+|turn|23
+|
+|move|p1a: Sneasler|Dire Claw|p2a: faier
+|-resisted|p2a: faier
+|-damage|p2a: faier|67/100
+|-status|p2a: faier|psn
+|move|p2a: faier|Flamethrower|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-damage|p2a: faier|55/100 psn|[from] psn
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|52/100
+|turn|24
+|
+|move|p2a: faier|Flamethrower|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|34/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: faier
+|-supereffective|p2a: faier
+|-damage|p2a: faier|0 fnt
+|-sidestart|p2: Drake115|Spikes
+|faint|p2a: faier
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Dark|68/100
+|-damage|p2a: Chien-Pao|56/100|[from] Spikes
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|25
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-damage|p2a: Chien-Pao|46/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Garchomp|Garchomp, M|71/100
+|turn|26
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-damage|p2a: Chien-Pao|36/100|[from] item: Life Orb
+|
+|win|Drake115

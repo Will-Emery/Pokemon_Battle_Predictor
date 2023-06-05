@@ -1,0 +1,373 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Zapdos|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Great Tusk|
+|poke|p2|Quaquaval, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Pawmot, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Clodsire
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|83/100
+|
+|switch|p1a: Purple Guy|Great Tusk|100/100|[from] U-turn
+|move|p2a: Clodsire|Toxic|p1a: Purple Guy
+|-status|p1a: Purple Guy|tox
+|
+|-heal|p2a: Clodsire|89/100|[from] item: Black Sludge
+|-damage|p1a: Purple Guy|94/100 tox|[from] psn
+|turn|2
+|
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|move|p1a: Purple Guy|Knock Off|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|88/100
+|-enditem|p2a: Quaquaval|Leftovers|[from] move: Knock Off|[of] p1a: Purple Guy
+|
+|-damage|p1a: Purple Guy|82/100 tox|[from] psn
+|turn|3
+|
+|move|p2a: Quaquaval|Aqua Step|p1a: Purple Guy
+|-supereffective|p1a: Purple Guy
+|-damage|p1a: Purple Guy|48/100 tox
+|-boost|p2a: Quaquaval|spe|1
+|-damage|p2a: Quaquaval|71/100|[from] item: Rocky Helmet|[of] p1a: Purple Guy
+|move|p1a: Purple Guy|Stealth Rock|p2a: Quaquaval
+|-sidestart|p2: MarktheGreat777|move: Stealth Rock
+|
+|-damage|p1a: Purple Guy|30/100 tox|[from] psn
+|turn|4
+|
+|-end|p1a: Purple Guy|Protosynthesis|[silent]
+|switch|p1a: Freddy|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Freddy
+|-resisted|p1a: Freddy
+|-damage|p1a: Freddy|83/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|turn|5
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-terastallize|p1a: Freddy|Ghost
+|move|p1a: Freddy|Surging Strikes|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|81/100
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|65/100
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|50/100
+|-hitcount|p2a: Gholdengo|3
+|
+|-heal|p2a: Gholdengo|56/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Purple Guy|Great Tusk|100/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Purple Guy
+|-status|p1a: Purple Guy|par
+|
+|-heal|p2a: Gholdengo|62/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Clodsire|Clodsire, M|89/100
+|-damage|p2a: Clodsire|83/100|[from] Stealth Rock
+|move|p1a: Purple Guy|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|51/100
+|-unboost|p2a: Clodsire|spd|1
+|
+|-heal|p2a: Clodsire|57/100|[from] item: Black Sludge
+|turn|8
+|
+|move|p1a: Purple Guy|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|6/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|56/100
+|
+|-heal|p2a: Clodsire|62/100|[from] item: Black Sludge
+|turn|9
+|
+|move|p1a: Purple Guy|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|16/100
+|-unboost|p2a: Clodsire|spd|1
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|66/100
+|
+|-heal|p2a: Clodsire|72/100|[from] item: Black Sludge
+|turn|10
+|
+|move|p1a: Purple Guy|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|6/100
+|move|p2a: Clodsire|Earthquake|p1a: Purple Guy
+|-damage|p1a: Purple Guy|41/100 par
+|replace|p1a: Foxy|Zoroark-Hisui, M
+|-end|p1a: Foxy|Illusion
+|
+|-heal|p2a: Clodsire|12/100|[from] item: Black Sludge
+|turn|11
+|
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|cant|p1a: Foxy|par
+|
+|turn|12
+|
+|switch|p1a: Purple Guy|Great Tusk|30/100 tox
+|move|p2a: Meowscarada|Knock Off|p1a: Purple Guy
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-resisted|p1a: Purple Guy
+|-damage|p1a: Purple Guy|19/100 tox
+|-damage|p2a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p1a: Purple Guy
+|-enditem|p1a: Purple Guy|Rocky Helmet|[from] move: Knock Off|[of] p2a: Meowscarada
+|
+|-damage|p1a: Purple Guy|12/100 tox|[from] psn
+|turn|13
+|
+|move|p2a: Meowscarada|Flower Trick|p1a: Purple Guy
+|-supereffective|p1a: Purple Guy
+|-crit|p1a: Purple Guy
+|-damage|p1a: Purple Guy|0 fnt
+|faint|p1a: Purple Guy
+|-end|p1a: Purple Guy|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|14
+|
+|move|p2a: Meowscarada|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|89/100
+|-status|p2a: Meowscarada|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|switch|p2a: Clodsire|Clodsire, M|12/100|[from] U-turn
+|-damage|p2a: Clodsire|6/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Clodsire
+|-immune|p2a: Clodsire
+|
+|-heal|p2a: Clodsire|12/100|[from] item: Black Sludge
+|turn|15
+|
+|move|p1a: Zapdos|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|-damage|p1a: Zapdos|79/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|16
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Skeledirge
+|-damage|p2a: Skeledirge|68/100
+|-damage|p1a: Zapdos|69/100|[from] item: Life Orb
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Volt Switch
+|move|p2a: Skeledirge|Torch Song|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|81/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|turn|17
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Skeledirge
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|15/100
+|move|p2a: Skeledirge|Hex|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|52/100
+|
+|turn|18
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Quaquaval|Quaquaval, M|71/100
+|-damage|p2a: Quaquaval|65/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Cinderace|U-turn|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|56/100
+|
+|switch|p1a: Cinderace|Cinderace, F|41/100 par|[from] U-turn
+|move|p2a: Quaquaval|Roost|p2a: Quaquaval
+|-heal|p2a: Quaquaval|100/100
+|-singleturn|p2a: Quaquaval|move: Roost
+|
+|turn|20
+|
+|move|p2a: Quaquaval|Aqua Step|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|replace|p1a: Foxy|Zoroark-Hisui, M
+|-end|p1a: Foxy|Illusion
+|faint|p1a: Foxy
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|
+|switch|p1a: Zapdos|Zapdos|69/100
+|turn|21
+|
+|switch|p2a: Meowscarada|Meowscarada, F|84/100 par
+|move|p1a: Zapdos|Thunderbolt|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|41/100 par
+|-damage|p1a: Zapdos|59/100|[from] item: Life Orb
+|
+|turn|22
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-crit|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|-damage|p1a: Zapdos|49/100|[from] item: Life Orb
+|
+|switch|p1a: IT'S ME|Ursaluna, M|100/100|[from] Volt Switch
+|
+|-status|p1a: IT'S ME|brn|[from] item: Flame Orb
+|
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|-damage|p2a: Quaquaval|94/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Quaquaval|Bulk Up|p2a: Quaquaval
+|-boost|p2a: Quaquaval|atk|1
+|-boost|p2a: Quaquaval|def|1
+|move|p1a: IT'S ME|Facade|p2a: Quaquaval
+|-damage|p2a: Quaquaval|18/100
+|
+|-damage|p1a: IT'S ME|94/100 brn|[from] brn
+|turn|24
+|
+|move|p2a: Quaquaval|Aqua Step|p1a: IT'S ME
+|-supereffective|p1a: IT'S ME
+|-damage|p1a: IT'S ME|30/100 brn
+|-boost|p2a: Quaquaval|spe|1
+|move|p1a: IT'S ME|Facade|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|-damage|p1a: IT'S ME|24/100 brn|[from] brn
+|
+|switch|p2a: Pawmot|Pawmot, F|100/100
+|-damage|p2a: Pawmot|94/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Pawmot|Ice Punch|p1a: IT'S ME
+|-supereffective|p1a: IT'S ME
+|-damage|p1a: IT'S ME|0 fnt
+|faint|p1a: IT'S ME
+|
+|
+|switch|p1a: Freddy|Urshifu-Rapid-Strike, M, tera:Ghost|83/100
+|turn|26
+|
+|move|p2a: Pawmot|Nuzzle|p1a: Freddy
+|-damage|p1a: Freddy|73/100
+|-status|p1a: Freddy|par
+|move|p1a: Freddy|Swords Dance|p1a: Freddy
+|-boost|p1a: Freddy|atk|2
+|
+|turn|27
+|
+|move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
+|-enditem|p2a: Pawmot|Leppa Berry|[eat]
+|-activate|p2a: Pawmot|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p2: Quaquaval|50/100|[from] move: Revival Blessing
+|move|p1a: Freddy|Surging Strikes|p2a: Pawmot
+|-crit|p2a: Pawmot
+|-damage|p2a: Pawmot|24/100
+|-crit|p2a: Pawmot
+|-damage|p2a: Pawmot|0 fnt
+|faint|p2a: Pawmot
+|-hitcount|p2: Pawmot|2
+|
+|
+|switch|p2a: Quaquaval|Quaquaval, M|50/100
+|-damage|p2a: Quaquaval|44/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Quaquaval|Roost|p2a: Quaquaval
+|-heal|p2a: Quaquaval|94/100
+|-singleturn|p2a: Quaquaval|move: Roost
+|move|p1a: Freddy|Surging Strikes|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-crit|p2a: Quaquaval
+|-damage|p2a: Quaquaval|77/100
+|-resisted|p2a: Quaquaval
+|-crit|p2a: Quaquaval
+|-damage|p2a: Quaquaval|58/100
+|-resisted|p2a: Quaquaval
+|-crit|p2a: Quaquaval
+|-damage|p2a: Quaquaval|39/100
+|-hitcount|p2a: Quaquaval|3
+|
+|turn|29
+|
+|move|p2a: Quaquaval|Roost|p2a: Quaquaval
+|-heal|p2a: Quaquaval|89/100
+|-singleturn|p2a: Quaquaval|move: Roost
+|cant|p1a: Freddy|par
+|
+|turn|30
+|
+|move|p2a: Quaquaval|Bulk Up|p2a: Quaquaval
+|-boost|p2a: Quaquaval|atk|1
+|-boost|p2a: Quaquaval|def|1
+|move|p1a: Freddy|Close Combat|p2a: Quaquaval
+|-damage|p2a: Quaquaval|17/100
+|-unboost|p1a: Freddy|def|1
+|-unboost|p1a: Freddy|spd|1
+|
+|turn|31
+|
+|move|p2a: Quaquaval|Close Combat|p1a: Freddy
+|-immune|p1a: Freddy
+|move|p1a: Freddy|Close Combat|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|-unboost|p1a: Freddy|def|1
+|-unboost|p1a: Freddy|spd|1
+|faint|p2a: Quaquaval
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|62/100
+|-damage|p2a: Gholdengo|56/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Gholdengo|Hex|p1a: Freddy
+|-supereffective|p1a: Freddy
+|-damage|p1a: Freddy|0 fnt
+|faint|p1a: Freddy
+|
+|-heal|p2a: Gholdengo|62/100|[from] item: Leftovers
+|
+|switch|p1a: Cinderace|Cinderace, F|52/100
+|turn|33
+|
+|-terastallize|p2a: Gholdengo|Flying
+|move|p1a: Cinderace|Pyro Ball|p2a: Gholdengo
+|-damage|p2a: Gholdengo|24/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Cinderace|[miss]
+|-miss|p2a: Gholdengo|p1a: Cinderace
+|
+|-heal|p2a: Gholdengo|30/100|[from] item: Leftovers
+|turn|34
+|-message|MarktheGreat777 forfeited.
+|
+|win|FiveTurnsAtTrckRm

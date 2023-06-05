@@ -1,0 +1,116 @@
+|poke|p1|Gengar, M|
+|poke|p1|Delphox, F|
+|poke|p1|Breloom, M|
+|poke|p1|Eelektross, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Glaceon, F|
+|poke|p2|Dudunsparce-*, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Pawmot, M|
+|poke|p2|Clodsire, M|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Amy|Tinkaton, F|100/100
+|-ability|p2a: Amy|Mold Breaker
+|turn|1
+|
+|move|p2a: Amy|Swords Dance|p2a: Amy
+|-boost|p2a: Amy|atk|2
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|turn|2
+|
+|move|p2a: Amy|Swords Dance|p2a: Amy
+|-boost|p2a: Amy|atk|2
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|turn|3
+|
+|-terastallize|p2a: Amy|Steel
+|move|p2a: Amy|Gigaton Hammer|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-damage|p2a: Amy|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Delphox|Delphox, F, shiny|100/100
+|turn|4
+|
+|-terastallize|p1a: Delphox|Fire
+|move|p2a: Amy|Stone Edge|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|-damage|p2a: Amy|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Eelektross|Eelektross, F|100/100
+|turn|5
+|
+|move|p2a: Amy|Play Rough|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|-damage|p2a: Amy|71/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Gengar|Gengar, M, shiny|100/100
+|turn|6
+|
+|move|p2a: Amy|Gigaton Hammer|p1a: Gengar
+|-enditem|p1a: Gengar|Focus Sash
+|-damage|p1a: Gengar|1/100
+|-damage|p2a: Amy|61/100|[from] item: Life Orb
+|move|p1a: Gengar|Hypnosis|p2a: Amy|[miss]
+|-miss|p1a: Gengar|p2a: Amy
+|
+|turn|7
+|
+|move|p2a: Amy|Stone Edge|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|-damage|p2a: Amy|51/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|8
+|
+|move|p2a: Amy|Play Rough|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|-damage|p2a: Amy|41/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Glaceon|Glaceon, F|100/100
+|turn|9
+|
+|move|p1a: Glaceon|Detect|p1a: Glaceon
+|-singleturn|p1a: Glaceon|Protect
+|move|p2a: Amy|Gigaton Hammer|p1a: Glaceon
+|-activate|p1a: Glaceon|move: Protect
+|
+|turn|10
+|
+|move|p1a: Glaceon|Detect|p1a: Glaceon
+|-singleturn|p1a: Glaceon|Protect
+|move|p2a: Amy|Stone Edge|p1a: Glaceon
+|-activate|p1a: Glaceon|move: Protect
+|
+|turn|11
+|
+|move|p2a: Amy|Gigaton Hammer|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-damage|p1a: Glaceon|0 fnt
+|faint|p1a: Glaceon
+|-damage|p2a: Amy|31/100|[from] item: Life Orb
+|
+|win|Matheushunteromega

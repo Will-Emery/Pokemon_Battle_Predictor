@@ -1,0 +1,277 @@
+|poke|p1|Heatran, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Magearna|
+|poke|p1|Volcarona, M|
+|poke|p2|Thundurus, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Treads|
+|poke|p2|Skeledirge, M|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Thundurus|atk|1
+|turn|1
+|
+|-terastallize|p2a: Thundurus|Ice
+|move|p2a: Thundurus|Tera Blast|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|2
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|78/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Magma Storm|p2a: Landorus
+|-damage|p2a: Landorus|57/100
+|-activate|p2a: Landorus|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Landorus|63/100|[from] item: Leftovers
+|-heal|p1a: Heatran|85/100|[from] item: Leftovers
+|-damage|p2a: Landorus|51/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|3
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: nfyhsueryfgius|move: Stealth Rock
+|
+|-heal|p2a: Landorus|57/100|[from] item: Leftovers
+|-end|p2a: Landorus|Magma Storm|[partiallytrapped]|[silent]
+|turn|4
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|38/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: nfyhsueryfgius|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Landorus|Grass Knot|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|10/100
+|
+|-heal|p2a: Landorus|44/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|91/100
+|-damage|p1a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Heatran|Heatran, M|85/100
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|44/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Magma Storm|p2a: Landorus|[miss]
+|-miss|p1a: Heatran|p2a: Landorus
+|
+|-heal|p2a: Landorus|50/100|[from] item: Leftovers
+|-heal|p1a: Heatran|91/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Landorus|Sandsear Storm|p1a: Samurott
+|-damage|p1a: Samurott|51/100
+|-status|p1a: Samurott|brn
+|
+|-heal|p2a: Landorus|56/100|[from] item: Leftovers
+|-damage|p1a: Samurott|45/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: Samurott|Razor Shell|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|17/100
+|move|p2a: Landorus|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|switch|p2a: Thundurus|Thundurus, M, tera:Ice|100/100|[from] U-turn
+|
+|
+|switch|p1a: Heatran|Heatran, M|91/100
+|turn|9
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|69/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|17/100|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Magma Storm|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Heatran|75/100|[from] item: Leftovers
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|10
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|60/100
+|
+|turn|11
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|89/100
+|-boost|p1a: Volcarona|spa|1
+|
+|turn|12
+|
+|switch|p1a: Heatran|Heatran, M|75/100
+|move|p2a: Skeledirge|Torch Song|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-heal|p1a: Heatran|81/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: Heatran|Earth Power|p2a: Dondozo
+|-damage|p2a: Dondozo|74/100
+|
+|-heal|p1a: Heatran|88/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|80/100|[from] item: Leftovers
+|turn|14
+|
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Dondozo|Wave Crash|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|48/100
+|-damage|p2a: Dondozo|68/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|74/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Skeledirge|Skeledirge, M|89/100
+|move|p1a: Magearna|Volt Switch|p2a: Skeledirge
+|-damage|p2a: Skeledirge|58/100
+|
+|switch|p1a: Heatran|Heatran, M|88/100|[from] Volt Switch
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Dondozo|Dondozo, F|74/100
+|move|p1a: Heatran|Magma Storm|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|54/100
+|-activate|p2a: Dondozo|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|99/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|60/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|48/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|17
+|
+|switch|p1a: Magearna|Magearna|48/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-end|p2a: Dondozo|Magma Storm|[partiallytrapped]|[silent]
+|turn|18
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Magearna|Trick|p2a: Iron Treads
+|-activate|p1a: Magearna|move: Trick|[of] p2a: Iron Treads
+|-item|p2a: Iron Treads|Choice Specs|[from] move: Trick
+|-item|p1a: Magearna|Assault Vest|[from] move: Trick
+|
+|turn|19
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|60/100
+|turn|20
+|
+|-terastallize|p1a: Volcarona|Grass
+|move|p2a: Iron Treads|Earthquake|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|42/100
+|move|p1a: Volcarona|Morning Sun|p1a: Volcarona
+|-heal|p1a: Volcarona|91/100
+|
+|turn|21
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Skeledirge|Skeledirge, M|58/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|22
+|
+|switch|p1a: Heatran|Heatran, M|99/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p2a: Dondozo|Dondozo, F|100/100 slp
+|move|p1a: Heatran|Stealth Rock|p2a: Dondozo
+|-sidestart|p2: Mailiam|move: Stealth Rock
+|
+|turn|24
+|
+|switch|p1a: Volcarona|Volcarona, M, tera:Grass|91/100
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Body Press|p1a: Volcarona|[from]move: Sleep Talk
+|-damage|p1a: Volcarona|62/100
+|
+|turn|25
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Volcarona|Giga Drain|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|87/100
+|-heal|p1a: Volcarona|69/100|[from] drain|[of] p2a: Skeledirge
+|
+|turn|26
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Skeledirge|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|48/100
+|
+|-heal|p1a: Heatran|54/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Heatran|Earth Power|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|49/100
+|move|p2a: Skeledirge|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-message|nfyhsueryfgius forfeited.
+|
+|win|Mailiam

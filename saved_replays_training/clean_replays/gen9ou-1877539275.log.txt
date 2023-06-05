@@ -1,0 +1,452 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Corviknight, M|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|1
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Zapdos|[miss]
+|-miss|p1a: Rotom|p2a: Zapdos
+|
+|turn|2
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Zapdos|U-turn|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|95/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|
+|-heal|p1a: Clodsire|100/100|[from] item: Black Sludge
+|turn|3
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Clodsire|Toxic||[still]
+|-fail|p1a: Clodsire
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Clodsire
+|-status|p1a: Clodsire|brn
+|move|p1a: Clodsire|Earthquake|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p1a: Clodsire|94/100 brn|[from] brn
+|turn|5
+|
+|move|p2a: Dragapult|Hex|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|46/100 brn
+|move|p1a: Clodsire|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: argreaer|move: Stealth Rock
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|52/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|46/100 brn|[from] brn
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Rotom
+|-damage|p1a: Rotom|73/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Rotom
+|-damage|p1a: Rotom|47/100
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Rotom|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|switch|p1a: Clodsire|Clodsire, M|46/100 brn|[from] Volt Switch
+|move|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|27/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|10/100 brn
+|
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|16/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|10/100 brn|[from] brn
+|turn|8
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|60/100 brn
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|66/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|60/100 brn|[from] brn
+|turn|9
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|43/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|25/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|75/100 brn
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|81/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|75/100 brn|[from] brn
+|turn|10
+|
+|move|p2a: Dragapult|Hex|p1a: Clodsire
+|-damage|p1a: Clodsire|38/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|88/100 brn
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|95/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|88/100 brn|[from] brn
+|turn|11
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragapult|Dragon Darts|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|95/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|89/100
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Clodsire|Clodsire, M|88/100 brn
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Clodsire
+|-fail|p1a: Clodsire|brn
+|
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|95/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|88/100 brn|[from] brn
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, M|89/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragapult|Dragon Darts|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|77/100
+|
+|turn|14
+|
+|switch|p1a: Clodsire|Clodsire, M|88/100 brn
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Clodsire
+|-fail|p1a: Clodsire|brn
+|
+|-heal|p1a: Clodsire|95/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|88/100 brn|[from] brn
+|turn|15
+|
+|move|p2a: Dragapult|Hex|p1a: Clodsire
+|-damage|p1a: Clodsire|55/100 brn
+|move|p1a: Clodsire|Earthquake|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Clodsire|61/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|55/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Dragapult|Hex|p1a: Clodsire
+|-damage|p1a: Clodsire|22/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|72/100 brn
+|
+|-heal|p1a: Clodsire|79/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|72/100 brn|[from] brn
+|turn|17
+|
+|switch|p1a: Corviknight|Corviknight, M|77/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|
+|-damage|p1a: Corviknight|71/100 brn|[from] brn
+|turn|18
+|
+|move|p2a: Dragapult|Hex|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100 brn
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|69/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p1a: Corviknight|63/100 brn|[from] brn
+|turn|19
+|
+|move|p2a: Dragapult|Hex|p1a: Corviknight
+|-damage|p1a: Corviknight|11/100 brn
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|61/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p1a: Corviknight|55/100 brn|[from] brn
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Wash|47/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-fail|p2a: Dragapult|move: Substitute
+|
+|turn|21
+|
+|move|p1a: Rotom|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|switch|p1a: Clodsire|Clodsire, M|72/100 brn|[from] Volt Switch
+|move|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|57/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|39/100 brn
+|
+|-heal|p1a: Clodsire|46/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|39/100 brn|[from] brn
+|turn|22
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|21/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|4/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|54/100 brn
+|
+|-heal|p1a: Clodsire|60/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|54/100 brn|[from] brn
+|turn|23
+|
+|switch|p1a: Corviknight|Corviknight, M|55/100 brn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|49/100 brn|[from] brn
+|turn|24
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Corviknight
+|-fail|p1a: Corviknight|brn
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|99/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|93/100 brn|[from] brn
+|turn|25
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-fail|p2a: Dragapult|move: Substitute
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|turn|26
+|
+|move|p2a: Dragapult|Hex|p1a: Corviknight
+|-damage|p1a: Corviknight|42/100 brn
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-damage|p1a: Corviknight|34/100 brn|[from] Recoil|[of] p2a: Dragapult
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|28/100 brn|[from] brn
+|turn|27
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|75/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|78/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|72/100 brn|[from] brn
+|turn|28
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-fail|p2a: Dragapult|move: Substitute
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|-damage|p1a: Corviknight|64/100 brn|[from] Recoil|[of] p2a: Dragapult
+|
+|-heal|p2a: Dragapult|87/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|58/100 brn|[from] brn
+|turn|29
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Corviknight
+|-fail|p1a: Corviknight|brn
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Dragapult|93/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|turn|30
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Corviknight|[miss]
+|-miss|p2a: Dragapult|p1a: Corviknight
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-damage|p1a: Corviknight|94/100 brn|[from] Recoil|[of] p2a: Dragapult
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|88/100 brn|[from] brn
+|turn|31
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|75/100
+|move|p1a: Corviknight|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|switch|p1a: Rotom|Rotom-Wash|47/100|[from] U-turn
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Rotom|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|switch|p1a: Clodsire|Clodsire, M|54/100 brn|[from] Volt Switch
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Clodsire
+|-fail|p1a: Clodsire|brn
+|
+|-heal|p2a: Dragapult|87/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|60/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|54/100 brn|[from] brn
+|turn|33
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|38/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|21/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|71/100 brn
+|
+|-heal|p2a: Dragapult|93/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|77/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|71/100 brn|[from] brn
+|turn|34
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-fail|p2a: Dragapult|move: Substitute
+|move|p1a: Clodsire|Earthquake|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|77/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|71/100 brn|[from] brn
+|turn|35
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|74/100
+|move|p1a: Clodsire|Earthquake|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|80/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|77/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|71/100 brn|[from] brn
+|turn|36
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Clodsire
+|-fail|p1a: Clodsire|brn
+|move|p1a: Clodsire|Earthquake|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|86/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|77/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|71/100 brn|[from] brn
+|turn|37
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|61/100
+|move|p1a: Clodsire|Earthquake|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|68/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|77/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|71/100 brn|[from] brn
+|turn|38
+|player|p1|
+|player|p1|Antimony Halide|170
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|55/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|38/100 brn
+|move|p1a: Clodsire|Earthquake|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|74/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|45/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|38/100 brn|[from] brn
+|turn|39
+|
+|-terastallize|p2a: Dragapult|Dragon
+|move|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|2/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-heal|p2a: Dragapult|80/100|[from] item: Leftovers
+|
+|switch|p1a: Rotom|Rotom-Wash|47/100
+|turn|40
+|player|p1|
+|
+|switch|p2a: Baxcalibur|Baxcalibur, F|100/100
+|move|p1a: Rotom|Trick|p2a: Baxcalibur
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Baxcalibur
+|-item|p2a: Baxcalibur|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Heavy-Duty Boots|[from] move: Trick
+|
+|turn|41
+|player|p1|Antimony Halide|170
+|
+|move|p2a: Baxcalibur|Glaive Rush|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+|faint|p1a: Rotom
+|
+|
+|switch|p1a: Corviknight|Corviknight, M|88/100 brn
+|-ability|p1a: Corviknight|Pressure
+|turn|42
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Corviknight|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|97/100
+|-message|Antimony Halide forfeited.
+|
+|win|argreaer

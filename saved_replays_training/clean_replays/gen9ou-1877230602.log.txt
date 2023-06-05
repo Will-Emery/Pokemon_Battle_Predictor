@@ -1,0 +1,96 @@
+|poke|p1|Roaring Moon|
+|poke|p1|Kingambit, F|
+|poke|p1|Volcarona, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Amoonguss, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Iron Treads|
+|poke|p2|Hatterene, F|
+|poke|p2|Volcanion|
+|poke|p2|Sneasler, M|
+|teampreview
+|
+|start
+|switch|p1a: bobby sherda|Roaring Moon|100/100
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: bobby sherda|atk|1
+|turn|1
+|
+|move|p1a: bobby sherda|Focus Energy|p1a: bobby sherda
+|-start|p1a: bobby sherda|move: Focus Energy
+|move|p2a: Landorus|Taunt|p1a: bobby sherda
+|-start|p1a: bobby sherda|move: Taunt
+|
+|turn|2
+|
+|move|p1a: bobby sherda|Scale Shot|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|71/100
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|56/100
+|-hitcount|p2a: Landorus|3
+|-unboost|p1a: bobby sherda|def|1
+|-boost|p1a: bobby sherda|spe|1
+|move|p2a: Landorus|Stealth Rock|p1a: bobby sherda
+|-sidestart|p1: Ashereye|move: Stealth Rock
+|
+|turn|3
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: bobby sherda|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|26/100
+|
+|-heal|p2a: Hatterene|32/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: bobby sherda|Iron Head|p2a: Samurott
+|-resisted|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|71/100
+|
+|-end|p1a: bobby sherda|move: Taunt
+|turn|5
+|
+|move|p1a: bobby sherda|Scale Shot|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|45/100
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|19/100
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-hitcount|p2: Samurott|3
+|-unboost|p1a: bobby sherda|def|1
+|-boost|p1a: bobby sherda|spe|1
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|6
+|
+|move|p1a: bobby sherda|Earthquake|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-crit|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|7
+|
+|move|p1a: bobby sherda|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-crit|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-message|ReadVagabond11 forfeited.
+|
+|win|Ashereye

@@ -1,0 +1,310 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Gholdengo|
+|poke|p1|Magearna|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Zapdos|
+|poke|p2|Heatran, M|
+|poke|p2|Slowking, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: FLEXIN|Urshifu-Rapid-Strike, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: FLEXIN|atk|1
+|turn|1
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: FLEXIN|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|89/100
+|
+|switch|p2a: SAVIN THESE HOES|Kingambit, F|100/100|[from] U-turn
+|
+|turn|2
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: SAVIN THESE HOES
+|-status|p2a: SAVIN THESE HOES|brn
+|move|p2a: SAVIN THESE HOES|Kowtow Cleave|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|10/100
+|
+|-damage|p2a: SAVIN THESE HOES|94/100 brn|[from] brn
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: SAVIN THESE HOES|atk|1
+|move|p2a: SAVIN THESE HOES|Kowtow Cleave|p1a: Landorus
+|-damage|p1a: Landorus|86/100
+|-damage|p2a: SAVIN THESE HOES|78/100 brn|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-damage|p2a: SAVIN THESE HOES|72/100 brn|[from] brn
+|turn|4
+|
+|-end|p2a: SAVIN THESE HOES|fallenundefined|[silent]
+|switch|p2a: FUNK THE FUNK|Slowking, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: FUNK THE FUNK
+|-damage|p2a: FUNK THE FUNK|50/100
+|
+|turn|5
+|
+|switch|p2a: FADE|Zapdos|100/100
+|move|p1a: Landorus|Earthquake|p2a: FADE
+|-immune|p2a: FADE
+|
+|turn|6
+|
+|move|p2a: FADE|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|34/100
+|-start|p1a: Landorus|confusion
+|-activate|p1a: Landorus|confusion
+|move|p1a: Landorus|Stone Edge|p2a: FADE|[miss]
+|-miss|p1a: Landorus|p2a: FADE
+|
+|turn|7
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: FADE|Hurricane|p1a: Samurott|[miss]
+|-miss|p2a: FADE|p1a: Samurott
+|
+|turn|8
+|
+|move|p2a: FADE|Thunderbolt|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|9/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: FADE
+|-damage|p2a: FADE|56/100
+|-sidestart|p2: mlverdugo|Spikes
+|
+|turn|9
+|
+|move|p1a: Samurott|Sucker Punch|p2a: FADE
+|-damage|p2a: FADE|24/100
+|-status|p1a: Samurott|par|[from] ability: Static|[of] p2a: FADE
+|move|p2a: FADE|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|switch|p2a: PLUG|Heatran, M|100/100|[from] Volt Switch
+|-damage|p2a: PLUG|88/100|[from] Spikes
+|
+|-heal|p2a: PLUG|94/100|[from] item: Leftovers
+|
+|switch|p1a: Landorus|Landorus-Therian, M|34/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: PLUG|atk|1
+|turn|10
+|
+|switch|p2a: FADE|Zapdos|24/100
+|move|p1a: Landorus|Earthquake|p2a: FADE
+|-immune|p2a: FADE
+|
+|turn|11
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: FADE|Roost|p2a: FADE
+|-heal|p2a: FADE|74/100
+|-singleturn|p2a: FADE|move: Roost
+|
+|turn|12
+|
+|move|p2a: FADE|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|56/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: FADE
+|-damage|p2a: FADE|37/100
+|
+|turn|13
+|
+|move|p2a: FADE|Roost|p2a: FADE
+|-heal|p2a: FADE|87/100
+|-singleturn|p2a: FADE|move: Roost
+|move|p1a: Gholdengo|Shadow Ball|p2a: FADE
+|-damage|p2a: FADE|49/100
+|
+|turn|14
+|
+|move|p2a: FADE|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|17/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: FADE
+|-damage|p2a: FADE|5/100
+|
+|turn|15
+|
+|move|p2a: FADE|Roost|p2a: FADE
+|-heal|p2a: FADE|55/100
+|-singleturn|p2a: FADE|move: Roost
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|67/100
+|
+|turn|16
+|
+|move|p2a: FADE|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|29/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: FADE
+|-damage|p2a: FADE|11/100
+|-unboost|p2a: FADE|spd|1
+|
+|turn|17
+|
+|switch|p1a: Landorus|Landorus-Therian, M|34/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: FADE|atk|1
+|move|p2a: FADE|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|turn|18
+|
+|move|p2a: FADE|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|19
+|
+|move|p2a: FADE|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|68/100
+|
+|switch|p2a: PLUG|Heatran, M|94/100|[from] Volt Switch
+|-damage|p2a: PLUG|82/100|[from] Spikes
+|move|p1a: Magearna|Draining Kiss|p2a: PLUG
+|-resisted|p2a: PLUG
+|-damage|p2a: PLUG|77/100
+|-heal|p1a: Magearna|72/100|[from] drain|[of] p2a: PLUG
+|
+|-heal|p1a: Magearna|78/100|[from] item: Leftovers
+|-heal|p2a: PLUG|83/100|[from] item: Leftovers
+|turn|20
+|
+|-terastallize|p1a: Magearna|Water
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: PLUG|Stealth Rock|p1a: Magearna
+|-sidestart|p1: PLAYB0I R0BBIE B|move: Stealth Rock
+|
+|-heal|p1a: Magearna|84/100|[from] item: Leftovers
+|-heal|p2a: PLUG|90/100|[from] item: Leftovers
+|turn|21
+|
+|-terastallize|p2a: PLUG|Grass
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: PLUG|Taunt|p1a: Magearna
+|-start|p1a: Magearna|move: Taunt
+|
+|-heal|p1a: Magearna|90/100|[from] item: Leftovers
+|-heal|p2a: PLUG|96/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: FADE|Zapdos|11/100
+|move|p1a: Magearna|Stored Power|p2a: FADE
+|-damage|p2a: FADE|0 fnt
+|faint|p2a: FADE
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|96/100|[from] item: Leftovers
+|
+|switch|p2a: FUNK THE FUNK|Slowking, F|83/100
+|turn|23
+|
+|move|p1a: Magearna|Stored Power|p2a: FUNK THE FUNK
+|-resisted|p2a: FUNK THE FUNK
+|-damage|p2a: FUNK THE FUNK|52/100
+|move|p2a: FUNK THE FUNK|Future Sight|p1a: Magearna
+|-start|p2a: FUNK THE FUNK|move: Future Sight
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Magearna|Draining Kiss|p2a: FUNK THE FUNK
+|-damage|p2a: FUNK THE FUNK|20/100
+|move|p2a: FUNK THE FUNK|Slack Off|p2a: FUNK THE FUNK
+|-heal|p2a: FUNK THE FUNK|70/100
+|
+|-end|p1a: Magearna|move: Taunt
+|turn|25
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: FUNK THE FUNK|Chilly Reception|p2a: FUNK THE FUNK
+|-weather|Snow
+|
+|switch|p2a: CASHING|Landorus-Therian, M|100/100|[from] Chilly Reception
+|-ability|p2a: CASHING|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Magearna|move: Future Sight
+|-damage|p1a: Magearna|80/100
+|-heal|p1a: Magearna|86/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Magearna|Stored Power|p2a: CASHING
+|-damage|p2a: CASHING|0 fnt
+|faint|p2a: CASHING
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Magearna|92/100|[from] item: Leftovers
+|
+|switch|p2a: FUNK THE FUNK|Slowking, F|100/100
+|turn|27
+|
+|move|p1a: Magearna|Stored Power|p2a: FUNK THE FUNK
+|-resisted|p2a: FUNK THE FUNK
+|-damage|p2a: FUNK THE FUNK|41/100
+|move|p2a: FUNK THE FUNK|Future Sight|p1a: Magearna
+|-start|p2a: FUNK THE FUNK|move: Future Sight
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Magearna|98/100|[from] item: Leftovers
+|turn|28
+|
+|switch|p2a: PLUG|Heatran, M, tera:Grass|96/100
+|-damage|p2a: PLUG|83/100|[from] Spikes
+|move|p1a: Magearna|Stored Power|p2a: PLUG
+|-damage|p2a: PLUG|0 fnt
+|faint|p2a: PLUG
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|
+|switch|p2a: SAVIN THESE HOES|Kingambit, F|72/100 brn
+|-damage|p2a: SAVIN THESE HOES|59/100 brn|[from] Spikes
+|-activate|p2a: SAVIN THESE HOES|ability: Supreme Overlord
+|-start|p2a: SAVIN THESE HOES|fallen3|[silent]
+|turn|29
+|
+|move|p1a: Magearna|Draining Kiss|p2a: SAVIN THESE HOES
+|-damage|p2a: SAVIN THESE HOES|0 fnt
+|faint|p2a: SAVIN THESE HOES
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: SAVIN THESE HOES|fallen3|[silent]
+|
+|-weather|none
+|-end|p1a: Magearna|move: Future Sight
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|40/100
+|-heal|p1a: Magearna|46/100|[from] item: Leftovers
+|
+|switch|p2a: FLEXIN|Urshifu-Rapid-Strike, F|100/100
+|-damage|p2a: FLEXIN|88/100|[from] Spikes
+|turn|30
+|-message|mlverdugo forfeited.
+|
+|win|PLAYB0I R0BBIE B

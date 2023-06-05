@@ -1,0 +1,200 @@
+|poke|p1|Mismagius, F|
+|poke|p1|Scizor, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Breloom, F|
+|poke|p1|Walking Wake|
+|poke|p1|Chien-Pao|
+|poke|p2|Meowscarada, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Quaquaval, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Articuno-Galar|
+|poke|p2|Iron Hands|
+|teampreview
+|
+|start
+|switch|p1a: Brawlshroom|Breloom, F|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|switch|p1a: Blade|Scizor, F|100/100
+|move|p2a: Meowscarada|Play Rough|p1a: Blade
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-resisted|p1a: Blade
+|-damage|p1a: Blade|80/100
+|
+|turn|2
+|
+|-terastallize|p2a: Meowscarada|Fire
+|move|p1a: Blade|Bullet Punch|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|73/100
+|move|p2a: Meowscarada|Tera Blast|p1a: Blade
+|-supereffective|p1a: Blade
+|-damage|p1a: Blade|0 fnt
+|faint|p1a: Blade
+|
+|
+|switch|p1a: Gyoon|Walking Wake|100/100
+|-enditem|p1a: Gyoon|Booster Energy
+|-activate|p1a: Gyoon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Gyoon|protosynthesisspa
+|turn|3
+|
+|move|p1a: Gyoon|Hydro Steam|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|4
+|
+|switch|p2a: Quaquaval|Quaquaval, M, shiny|100/100
+|move|p1a: Gyoon|Dragon Breath|p2a: Quaquaval
+|-damage|p2a: Quaquaval|41/100
+|-status|p2a: Quaquaval|par
+|
+|turn|5
+|
+|move|p1a: Gyoon|Dragon Breath|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|-terastallize|p1a: Gyoon|Ghost
+|move|p2a: Iron Valiant|Spirit Break|p1a: Gyoon
+|-damage|p1a: Gyoon|59/100
+|-unboost|p1a: Gyoon|spa|1
+|move|p1a: Gyoon|Hydro Steam|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|39/100
+|
+|turn|7
+|
+|move|p2a: Iron Valiant|Spirit Break|p1a: Gyoon
+|-damage|p1a: Gyoon|16/100
+|-unboost|p1a: Gyoon|spa|1
+|move|p1a: Gyoon|Hydro Steam|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|8
+|
+|move|p1a: Gyoon|Draco Meteor|p2a: Skeledirge
+|-damage|p2a: Skeledirge|53/100
+|-unboost|p1a: Gyoon|spa|2
+|move|p2a: Skeledirge|Shadow Ball|p1a: Gyoon
+|-supereffective|p1a: Gyoon
+|-damage|p1a: Gyoon|0 fnt
+|faint|p1a: Gyoon
+|-end|p1a: Gyoon|Protosynthesis|[silent]
+|
+|
+|switch|p1a: FlutterMane @ Home|Mismagius, F|100/100
+|turn|9
+|
+|move|p1a: FlutterMane @ Home|Shadow Ball|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|16/100
+|move|p2a: Skeledirge|Shadow Ball|p1a: FlutterMane @ Home
+|-supereffective|p1a: FlutterMane @ Home
+|-damage|p1a: FlutterMane @ Home|12/100
+|
+|turn|10
+|
+|move|p1a: FlutterMane @ Home|Shadow Ball|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|turn|11
+|
+|move|p1a: FlutterMane @ Home|Draining Kiss|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|68/100
+|-heal|p1a: FlutterMane @ Home|54/100|[from] drain|[of] p2a: Iron Hands
+|move|p2a: Iron Hands|Wild Charge|p1a: FlutterMane @ Home
+|-damage|p1a: FlutterMane @ Home|0 fnt
+|faint|p1a: FlutterMane @ Home
+|-damage|p2a: Iron Hands|61/100|[from] Recoil
+|
+|-heal|p2a: Iron Hands|67/100|[from] item: Leftovers
+|
+|switch|p1a: Brawlshroom|Breloom, F|100/100
+|turn|12
+|
+|move|p1a: Brawlshroom|Spore|p2a: Iron Hands
+|-status|p2a: Iron Hands|slp|[from] move: Spore
+|cant|p2a: Iron Hands|slp
+|
+|-heal|p2a: Iron Hands|73/100 slp|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Brawlshroom|Swords Dance|p1a: Brawlshroom
+|-boost|p1a: Brawlshroom|atk|2
+|cant|p2a: Iron Hands|slp
+|
+|-heal|p2a: Iron Hands|79/100 slp|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Brawlshroom|Bullet Seed|p2a: Iron Hands
+|-damage|p2a: Iron Hands|58/100 slp
+|-damage|p2a: Iron Hands|39/100 slp
+|-damage|p2a: Iron Hands|20/100 slp
+|-damage|p2a: Iron Hands|1/100 slp
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|-hitcount|p2: Iron Hands|5
+|
+|
+|switch|p2a: Articuno|Articuno-Galar|100/100
+|turn|15
+|
+|move|p1a: Brawlshroom|Spore|p2a: Articuno
+|-status|p2a: Articuno|slp|[from] move: Spore
+|cant|p2a: Articuno|slp
+|
+|turn|16
+|
+|move|p1a: Brawlshroom|Bullet Seed|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|82/100 slp
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|61/100 slp
+|-hitcount|p2a: Articuno|2
+|cant|p2a: Articuno|slp
+|
+|turn|17
+|
+|move|p1a: Brawlshroom|Bullet Seed|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|41/100 slp
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|21/100 slp
+|-hitcount|p2a: Articuno|2
+|cant|p2a: Articuno|slp
+|
+|turn|18
+|
+|move|p1a: Brawlshroom|Bullet Seed|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|1/100 slp
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|-hitcount|p2: Articuno|2
+|
+|win|Egg Robo

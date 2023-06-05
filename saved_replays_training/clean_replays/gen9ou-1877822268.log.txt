@@ -1,0 +1,95 @@
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Enamorus, F|
+|poke|p2|Decidueye, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Heatran, M|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Braviary|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Taunt|p1a: Braviary
+|-start|p1a: Braviary|move: Taunt
+|move|p1a: Braviary|Psychic|p2a: Landorus
+|-damage|p2a: Landorus|41/100
+|
+|-heal|p2a: Landorus|47/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Landorus|U-turn|p1a: Braviary
+|-damage|p1a: Braviary|75/100
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Braviary|Psychic|p2a: Chien-Pao
+|-immune|p2a: Chien-Pao
+|
+|turn|3
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|move|p2a: Chien-Pao|Swords Dance|p2a: Chien-Pao
+|-boost|p2a: Chien-Pao|atk|2
+|
+|turn|4
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Sneasler|Sneasler, F, shiny|100/100
+|turn|5
+|
+|-terastallize|p2a: Chien-Pao|Ice
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Enamorus|Enamorus, F, shiny|100/100
+|turn|6
+|
+|-terastallize|p1a: Enamorus|Fairy
+|move|p2a: Chien-Pao|Ice Shard|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|turn|7
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, F, shiny|100/100
+|turn|8
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|75/100
+|turn|9
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|win|Blackninjamb

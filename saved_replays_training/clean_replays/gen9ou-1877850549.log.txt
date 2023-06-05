@@ -1,0 +1,193 @@
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Torkoal, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Roaring Moon|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Magearna|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|poke|p2|Volcanion|
+|teampreview
+|
+|start
+|switch|p1a: Manny (Manfred)|Great Tusk|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|1
+|
+|move|p1a: Manny (Manfred)|Rapid Spin|p2a: Volcanion
+|-damage|p2a: Volcanion|88/100
+|-boost|p1a: Manny (Manfred)|spe|1
+|move|p2a: Volcanion|Steam Eruption|p1a: Manny (Manfred)
+|-supereffective|p1a: Manny (Manfred)
+|-damage|p1a: Manny (Manfred)|0 fnt
+|faint|p1a: Manny (Manfred)
+|-end|p1a: Manny (Manfred)|Protosynthesis|[silent]
+|
+|
+|switch|p1a: мσσηнυηтєя|Roaring Moon|100/100
+|-enditem|p1a: мσσηнυηтєя|Booster Energy
+|-activate|p1a: мσσηнυηтєя|ability: Protosynthesis|[fromitem]
+|-start|p1a: мσσηнυηтєя|protosynthesisspe
+|turn|2
+|
+|move|p1a: мσσηнυηтєя|Dragon Dance|p1a: мσσηнυηтєя
+|-boost|p1a: мσσηнυηтєя|atk|1
+|-boost|p1a: мσσηнυηтєя|spe|1
+|move|p2a: Volcanion|Flash Cannon|p1a: мσσηнυηтєя
+|-damage|p1a: мσσηнυηтєя|73/100
+|
+|turn|3
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: мσσηнυηтєя|Crunch|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|67/100
+|
+|-heal|p2a: Magearna|73/100|[from] item: Leftovers
+|turn|4
+|
+|-terastallize|p1a: мσσηнυηтєя|Steel
+|move|p1a: мσσηнυηтєя|Dragon Dance|p1a: мσσηнυηтєя
+|-boost|p1a: мσσηнυηтєя|atk|1
+|-boost|p1a: мσσηнυηтєя|spe|1
+|move|p2a: Magearna|Draining Kiss|p1a: мσσηнυηтєя
+|-resisted|p1a: мσσηнυηтєя
+|-crit|p1a: мσσηнυηтєя
+|-damage|p1a: мσσηнυηтєя|54/100
+|-heal|p2a: Magearna|90/100|[from] drain|[of] p1a: мσσηнυηтєя
+|
+|-heal|p2a: Magearna|96/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: мσσηнυηтєя|Iron Head|p2a: Magearna
+|-damage|p2a: Magearna|17/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|23/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: мσσηнυηтєя|Iron Head|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: мσσηнυηтєя|atk|1
+|turn|7
+|
+|move|p1a: мσσηнυηтєя|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|32/100
+|cant|p2a: Landorus|flinch
+|
+|turn|8
+|
+|move|p1a: мσσηнυηтєя|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|9
+|
+|move|p1a: мσσηнυηтєя|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|10
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: мσσηнυηтєя
+|-damage|p1a: мσσηнυηтєя|28/100
+|move|p1a: мσσηнυηтєя|Crunch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-unboost|p2a: Ceruledge|def|1
+|
+|turn|11
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: мσσηнυηтєя
+|-damage|p1a: мσσηнυηтєя|2/100
+|move|p1a: мσσηнυηтєя|Dragon Claw|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|12
+|
+|move|p1a: мσσηнυηтєя|Iron Head|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|86/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|turn|13
+|
+|move|p1a: мσσηнυηтєя|Dragon Claw|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|53/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|turn|14
+|
+|move|p1a: мσσηнυηтєя|Dragon Claw|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|48/100
+|move|p2a: Zamazenta|Body Press|p1a: мσσηнυηтєя
+|-supereffective|p1a: мσσηнυηтєя
+|-damage|p1a: мσσηнυηтєя|0 fnt
+|faint|p1a: мσσηнυηтєя
+|-end|p1a: мσσηнυηтєя|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Ɠσ∂Ƶιℓℓα|Walking Wake|100/100
+|turn|15
+|
+|-terastallize|p2a: Zamazenta|Flying
+|move|p1a: Ɠσ∂Ƶιℓℓα|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|20/100
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Ɠσ∂Ƶιℓℓα
+|-resisted|p1a: Ɠσ∂Ƶιℓℓα
+|-damage|p1a: Ɠσ∂Ƶιℓℓα|73/100
+|
+|turn|16
+|
+|move|p1a: Ɠσ∂Ƶιℓℓα|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Volcanion|Volcanion|88/100
+|turn|17
+|
+|-end|p1a: Ɠσ∂Ƶιℓℓα|Protosynthesis|[silent]
+|switch|p1a: Not quagsire!|Clodsire, M|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Not quagsire!
+|-immune|p1a: Not quagsire!|[from] ability: Water Absorb
+|
+|turn|18
+|
+|move|p2a: Volcanion|Flash Cannon|p1a: Not quagsire!
+|-damage|p1a: Not quagsire!|83/100
+|move|p1a: Not quagsire!|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|45/100
+|
+|-heal|p1a: Not quagsire!|89/100|[from] item: Leftovers
+|turn|19
+|-message|benvari forfeited.
+|
+|win|ManuelPepsi

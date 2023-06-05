@@ -1,0 +1,303 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Toedscruel, M|
+|poke|p1|Volcanion|
+|poke|p1|Zapdos|
+|poke|p1|Clodsire, F|
+|poke|p1|Tauros-Paldea-Blaze, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Charizard, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Great Tusk|
+|poke|p2|Roaring Moon|
+|teampreview
+|
+|start
+|switch|p1a: Volcanion|Volcanion|100/100
+|switch|p2a: Rarren Moon|Roaring Moon|100/100
+|turn|1
+|
+|-terastallize|p1a: Volcanion|Fairy
+|move|p2a: Rarren Moon|U-turn|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|86/100
+|
+|-end|p2a: Rarren Moon|Protosynthesis|[silent]
+|switch|p2a: PACKWATCH|Torkoal, F|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: PACKWATCH
+|move|p1a: Volcanion|Body Press|p2a: PACKWATCH
+|-damage|p2a: PACKWATCH|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcanion|92/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: WALKIN TO UR WAKE|Walking Wake|100/100
+|-activate|p2a: WALKIN TO UR WAKE|ability: Protosynthesis
+|-start|p2a: WALKIN TO UR WAKE|protosynthesisspe
+|move|p1a: Volcanion|Substitute|p1a: Volcanion
+|-start|p1a: Volcanion|Substitute
+|-damage|p1a: Volcanion|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcanion|74/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: WALKIN TO UR WAKE|Flamethrower|p1a: Volcanion
+|-end|p1a: Volcanion|Substitute
+|move|p1a: Volcanion|Earth Power|p2a: WALKIN TO UR WAKE
+|-damage|p2a: WALKIN TO UR WAKE|62/100
+|-unboost|p2a: WALKIN TO UR WAKE|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcanion|80/100|[from] item: Leftovers
+|turn|4
+|
+|-end|p2a: WALKIN TO UR WAKE|Protosynthesis|[silent]
+|switch|p2a: Rarren Moon|Roaring Moon|100/100
+|-activate|p2a: Rarren Moon|ability: Protosynthesis
+|-start|p2a: Rarren Moon|protosynthesisspe
+|move|p1a: Volcanion|Earth Power|p2a: Rarren Moon
+|-crit|p2a: Rarren Moon
+|-damage|p2a: Rarren Moon|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcanion|86/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Rarren Moon|atk|1
+|move|p2a: Rarren Moon|U-turn|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|96/100
+|
+|-end|p2a: Rarren Moon|Protosynthesis|[silent]
+|switch|p2a: Chris Bosh|Charizard, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chris Bosh|88/100|[from] ability: Solar Power|[of] p2a: Chris Bosh
+|-heal|p1a: Tauros|100/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Chris Bosh|Dragon Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|19/100
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: PACKWATCH|Torkoal, F|87/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: PACKWATCH
+|move|p1a: Pelipper|Surf|p2a: PACKWATCH
+|-supereffective|p2a: PACKWATCH
+|-damage|p2a: PACKWATCH|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|switch|p1a: Volcanion|Volcanion, tera:Fairy|86/100
+|switch|p2a: WALKIN TO UR WAKE|Walking Wake|62/100
+|-activate|p2a: WALKIN TO UR WAKE|ability: Protosynthesis
+|-start|p2a: WALKIN TO UR WAKE|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcanion|92/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: WALKIN TO UR WAKE|atk|1
+|move|p2a: WALKIN TO UR WAKE|Flamethrower|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tauros|60/100|[from] item: Leftovers
+|turn|10
+|
+|-end|p2a: WALKIN TO UR WAKE|Protosynthesis|[silent]
+|switch|p2a: Mammoth Graveyard|Great Tusk|100/100
+|-activate|p2a: Mammoth Graveyard|ability: Protosynthesis
+|-start|p2a: Mammoth Graveyard|protosynthesisdef
+|move|p1a: Tauros|Earthquake|p2a: Mammoth Graveyard
+|-damage|p2a: Mammoth Graveyard|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tauros|66/100|[from] item: Leftovers
+|-heal|p2a: Mammoth Graveyard|97/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Tauros|Will-O-Wisp|p2a: Mammoth Graveyard
+|-status|p2a: Mammoth Graveyard|brn
+|move|p2a: Mammoth Graveyard|Ice Spinner|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tauros|69/100|[from] item: Leftovers
+|-heal|p2a: Mammoth Graveyard|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Mammoth Graveyard|94/100 brn|[from] brn
+|turn|12
+|
+|switch|p1a: Pelipper|Pelipper, F|19/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Mammoth Graveyard|Protosynthesis
+|move|p2a: Mammoth Graveyard|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: Jontrendline|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mammoth Graveyard|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Mammoth Graveyard|94/100 brn|[from] brn
+|turn|13
+|
+|-end|p2a: Mammoth Graveyard|Protosynthesis|[silent]
+|switch|p2a: Chris Bosh|Charizard, F|88/100
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|69/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|move|p2a: Chris Bosh|Dragon Pulse|p1a: Clodsire
+|-damage|p1a: Clodsire|63/100
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p2a: PACKWATCH|Torkoal, F|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: PACKWATCH
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|16
+|
+|switch|p2a: Chris Bosh|Charizard, F|88/100
+|move|p1a: Clodsire|Toxic|p2a: Chris Bosh
+|-status|p2a: Chris Bosh|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chris Bosh|76/100 tox|[from] ability: Solar Power|[of] p2a: Chris Bosh
+|-damage|p2a: Chris Bosh|70/100 tox|[from] psn
+|turn|17
+|
+|move|p2a: Chris Bosh|Overheat|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|-unboost|p2a: Chris Bosh|spa|2
+|faint|p1a: Clodsire
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chris Bosh|57/100 tox|[from] ability: Solar Power|[of] p2a: Chris Bosh
+|-damage|p2a: Chris Bosh|45/100 tox|[from] psn
+|
+|switch|p1a: Toedscruel|Toedscruel, M|100/100
+|turn|18
+|
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|69/100
+|-damage|p1a: Tauros|56/100|[from] Stealth Rock
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Chris Bosh|atk|1
+|move|p2a: Chris Bosh|Overheat|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|-unboost|p2a: Chris Bosh|spa|2
+|faint|p1a: Tauros
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chris Bosh|32/100 tox|[from] ability: Solar Power|[of] p2a: Chris Bosh
+|-damage|p2a: Chris Bosh|14/100 tox|[from] psn
+|
+|switch|p1a: Volcanion|Volcanion, tera:Fairy|92/100
+|-damage|p1a: Volcanion|80/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Chris Bosh|Overheat|p1a: Volcanion|[miss]
+|-miss|p2a: Chris Bosh|p1a: Volcanion
+|move|p1a: Volcanion|Substitute|p1a: Volcanion
+|-start|p1a: Volcanion|Substitute
+|-damage|p1a: Volcanion|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chris Bosh|2/100 tox|[from] ability: Solar Power|[of] p2a: Chris Bosh
+|-heal|p1a: Volcanion|61/100|[from] item: Leftovers
+|-damage|p2a: Chris Bosh|0 fnt|[from] psn
+|faint|p2a: Chris Bosh
+|
+|switch|p2a: WALKIN TO UR WAKE|Walking Wake|62/100
+|-activate|p2a: WALKIN TO UR WAKE|ability: Protosynthesis
+|-start|p2a: WALKIN TO UR WAKE|protosynthesisspe
+|turn|20
+|
+|move|p2a: WALKIN TO UR WAKE|Flamethrower|p1a: Volcanion
+|-end|p1a: Volcanion|Substitute
+|move|p1a: Volcanion|Earth Power|p2a: WALKIN TO UR WAKE
+|-damage|p2a: WALKIN TO UR WAKE|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcanion|67/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: WALKIN TO UR WAKE|Flamethrower|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Pelipper|Pelipper, F|69/100
+|-damage|p1a: Pelipper|44/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: WALKIN TO UR WAKE|Protosynthesis
+|turn|22
+|
+|-end|p2a: WALKIN TO UR WAKE|Protosynthesis|[silent]
+|switch|p2a: PACKWATCH|Torkoal, F|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: PACKWATCH
+|move|p1a: Pelipper|Surf|p2a: PACKWATCH
+|-supereffective|p2a: PACKWATCH
+|-damage|p2a: PACKWATCH|0 fnt
+|faint|p2a: PACKWATCH
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Rarren Moon|Roaring Moon|55/100
+|-activate|p2a: Rarren Moon|ability: Protosynthesis
+|-start|p2a: Rarren Moon|protosynthesisspe
+|turn|23
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Rarren Moon|Outrage|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Pelipper|Pelipper, F|44/100
+|-damage|p1a: Pelipper|20/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Rarren Moon|Protosynthesis
+|turn|24
+|
+|move|p1a: Pelipper|Hurricane|p2a: Rarren Moon
+|-damage|p2a: Rarren Moon|15/100
+|move|p2a: Rarren Moon|Outrage|p1a: Pelipper|[from]lockedmove
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Toedscruel|Toedscruel, M|100/100
+|turn|25
+|
+|move|p2a: Rarren Moon|Outrage|p1a: Toedscruel|[from]lockedmove
+|-damage|p1a: Toedscruel|0 fnt
+|faint|p1a: Toedscruel
+|-start|p2a: Rarren Moon|confusion|[fatigue]
+|
+|win|LaxativeCement

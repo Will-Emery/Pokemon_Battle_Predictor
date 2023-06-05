@@ -1,0 +1,129 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Glastrier|
+|poke|p1|Kingambit, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: 7500 On A YSL Hatt|Hatterene, F|100/100
+|turn|1
+|
+|move|p2a: 7500 On A YSL Hatt|Nuzzle|p1a: Cresselia
+|-damage|p1a: Cresselia|98/100
+|-status|p1a: Cresselia|par
+|cant|p1a: Cresselia|par
+|
+|-heal|p1a: Cresselia|100/100 par|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|3
+|
+|move|p1a: Cresselia|Moonblast|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|84/100
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|
+|-heal|p2a: 7500 On A YSL Hatt|90/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|
+|-heal|p2a: 7500 On A YSL Hatt|96/100|[from] item: Leftovers
+|turn|5
+|
+|-terastallize|p2a: 7500 On A YSL Hatt|Water
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: 7500 On A YSL Hatt|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|43/100
+|-heal|p2a: 7500 On A YSL Hatt|100/100|[from] drain|[of] p1a: Kingambit
+|
+|-heal|p1a: Kingambit|49/100|[from] item: Leftovers
+|turn|6
+|player|p1|
+|player|p1|azuloon|bellelba
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|33/100
+|move|p2a: 7500 On A YSL Hatt|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: 7500 On A YSL Hatt|79/100|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-heal|p2a: 7500 On A YSL Hatt|85/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|7
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100 par
+|move|p2a: 7500 On A YSL Hatt|Draining Kiss|p1a: Cresselia
+|-damage|p1a: Cresselia|63/100 par
+|-heal|p2a: 7500 On A YSL Hatt|100/100|[from] drain|[of] p1a: Cresselia
+|
+|-heal|p1a: Cresselia|69/100 par|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|move|p1a: Cresselia|Psyshock|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|73/100
+|
+|-heal|p2a: 7500 On A YSL Hatt|79/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|75/100 par|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-heal|p1a: Cresselia|82/100 par|[from] item: Leftovers
+|-heal|p2a: 7500 On A YSL Hatt|85/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|
+|-heal|p2a: 7500 On A YSL Hatt|91/100|[from] item: Leftovers
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|11
+|
+|move|p1a: Ursaluna|Headlong Rush|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|29/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|move|p2a: 7500 On A YSL Hatt|Draining Kiss|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-heal|p2a: 7500 On A YSL Hatt|100/100|[from] drain|[of] p1a: Ursaluna
+|faint|p1a: Ursaluna
+|
+|-message|azuloon forfeited.
+|
+|win|2013 andy

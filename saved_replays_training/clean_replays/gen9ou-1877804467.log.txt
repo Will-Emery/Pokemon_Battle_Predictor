@@ -1,0 +1,214 @@
+|poke|p1|Great Tusk|
+|poke|p1|Meowscarada, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Zapdos|
+|poke|p1|Dragonite, F|
+|poke|p2|Gholdengo|
+|poke|p2|Sneasler, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Basculegion, M|
+|teampreview
+|
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|1
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|2
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|-terastallize|p1a: Samurott|Flying
+|move|p1a: Samurott|Air Slash|p2a: Landorus
+|-damage|p2a: Landorus|48/100
+|
+|-heal|p2a: Landorus|54/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Samurott|Swords Dance|p1a: Samurott
+|-boost|p1a: Samurott|atk|2
+|
+|turn|4
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|55/100
+|move|p2a: Heatran|Magma Storm|p1a: Samurott
+|-damage|p1a: Samurott|32/100
+|-activate|p1a: Samurott|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|61/100|[from] item: Leftovers
+|-damage|p1a: Samurott|20/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|5
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|move|p1a: Samurott|Air Slash|p2a: Basculegion
+|-damage|p2a: Basculegion|56/100
+|
+|-end|p1a: Samurott|Magma Storm|[partiallytrapped]|[silent]
+|turn|6
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|7
+|
+|switch|p2a: Landorus|Landorus-Therian, M|54/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Discharge|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p2a: Landorus|60/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|move|p1a: Zapdos|Tera Blast|p2a: Landorus
+|-damage|p2a: Landorus|25/100
+|
+|-heal|p2a: Landorus|31/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Landorus|Outrage|p1a: Zapdos
+|-damage|p1a: Zapdos|30/100
+|-status|p2a: Landorus|par|[from] ability: Static|[of] p1a: Zapdos
+|move|p1a: Zapdos|Tera Blast|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|10
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-status|p2a: Sneasler|par|[from] ability: Static|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|cant|p2a: Sneasler|par
+|
+|turn|12
+|
+|move|p1a: Dragonite|Earthquake|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Basculegion|Basculegion, M|56/100
+|turn|13
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|93/100
+|move|p1a: Dragonite|Earthquake|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|14
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|36/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|16/100
+|-unboost|p1a: Dragonite|spa|1
+|
+|turn|15
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Dragonite|Extreme Speed|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|turn|16
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|67/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Gholdengo|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|31/100
+|-unboost|p1a: Dragonite|spd|1
+|
+|turn|17
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|18
+|
+|-terastallize|p2a: Gholdengo|Flying
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|53/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|-damage|p1a: Chien-Pao|91/100|[from] item: Life Orb
+|move|p2a: Gholdengo|Make It Rain|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|19
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Heatran|Heatran, F|61/100
+|turn|20
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-enditem|p1a: Great Tusk|Eject Pack
+|faint|p2a: Heatran
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dragonite|Dragonite, F|31/100
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|36/100
+|turn|21
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|Zappl

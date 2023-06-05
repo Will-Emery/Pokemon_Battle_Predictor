@@ -1,0 +1,460 @@
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Magearna|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p2|Alomomola, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Corviknight, M|
+|poke|p2|Heatran, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Zarude|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Zarude|Zarude|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Zarude|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|
+|turn|3
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|69/100
+|-activate|p1a: Urshifu|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Urshifu|57/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|4
+|
+|switch|p2a: WhenAlomaUrMom|Alomomola, F|100/100
+|move|p1a: Urshifu|U-turn|p2a: WhenAlomaUrMom
+|-damage|p2a: WhenAlomaUrMom|86/100
+|
+|switch|p1a: Dragapult|Dragapult, M|82/100|[from] U-turn
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|turn|6
+|
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|7
+|
+|switch|p2a: WhenAlomaUrMom|Alomomola, F|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: WhenAlomaUrMom
+|-damage|p2a: WhenAlomaUrMom|85/100
+|-enditem|p2a: WhenAlomaUrMom|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|8
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: WhenAlomaUrMom
+|-sidestart|p2: PorygonBburstWhen|move: Stealth Rock
+|move|p2a: WhenAlomaUrMom|Wish|p2a: WhenAlomaUrMom
+|
+|turn|9
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: WhenAlomaUrMom|Whirlpool|p1a: Magearna
+|-damage|p1a: Magearna|96/100
+|-activate|p1a: Magearna|move: Whirlpool|[of] p2a: WhenAlomaUrMom
+|
+|-heal|p2a: WhenAlomaUrMom|100/100|[from] move: Wish|[wisher] WhenAlomaUrMom
+|-damage|p1a: Magearna|84/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Magearna|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|74/100
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|57/100|[from] Volt Switch
+|
+|-heal|p2a: Heatran|80/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Urshifu|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|40/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|turn|12
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|13
+|
+|switch|p2a: Heatran|Heatran, M|80/100
+|-damage|p2a: Heatran|68/100|[from] Stealth Rock
+|move|p1a: Typhlosion|Eruption|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-heal|p2a: Heatran|74/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: WhenAlomaUrMom|Alomomola, F|100/100
+|-damage|p2a: WhenAlomaUrMom|88/100|[from] Stealth Rock
+|
+|turn|15
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Magearna|Magearna|84/100
+|move|p2a: WhenAlomaUrMom|Wish|p2a: WhenAlomaUrMom
+|
+|turn|16
+|
+|switch|p2a: Heatran|Heatran, M|74/100
+|-damage|p2a: Heatran|61/100|[from] Stealth Rock
+|move|p1a: Magearna|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|54/100
+|
+|-heal|p2a: Heatran|100/100|[from] move: Wish|[wisher] WhenAlomaUrMom
+|turn|17
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Typhlosion|[miss]
+|-miss|p2a: Heatran|p1a: Typhlosion
+|
+|turn|18
+|
+|switch|p2a: Dragapult|Dragapult, M, tera:Ghost|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Typhlosion|Infernal Parade|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|-activate|p1a: Great Tusk|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|32/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|20
+|
+|switch|p2a: WhenAlomaUrMom|Alomomola, F|100/100
+|-damage|p2a: WhenAlomaUrMom|88/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Knock Off|p2a: WhenAlomaUrMom
+|-damage|p2a: WhenAlomaUrMom|79/100
+|
+|-end|p1a: Great Tusk|Magma Storm|[partiallytrapped]|[silent]
+|turn|21
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: WhenAlomaUrMom|Wish|p2a: WhenAlomaUrMom
+|
+|turn|22
+|
+|switch|p2a: Lvl 100 Mafia|Hoopa-Unbound|100/100
+|-damage|p2a: Lvl 100 Mafia|88/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Lvl 100 Mafia
+|-damage|p2a: Lvl 100 Mafia|75/100
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|40/100|[from] Volt Switch
+|
+|-heal|p2a: Lvl 100 Mafia|100/100|[from] move: Wish|[wisher] WhenAlomaUrMom
+|turn|23
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Urshifu|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|-damage|p1a: Urshifu|24/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|turn|24
+|
+|switch|p2a: Heatran|Heatran, M|94/100
+|-damage|p2a: Heatran|82/100|[from] Stealth Rock
+|move|p1a: Zapdos|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|55/100
+|
+|-heal|p2a: Heatran|62/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|38/100
+|move|p2a: Heatran|Magma Storm|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|32/100
+|-activate|p1a: Zapdos|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|44/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|20/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|26
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|25/100
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100|[from] Volt Switch
+|move|p2a: Heatran|Magma Storm|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|74/100
+|-activate|p1a: Typhlosion|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|32/100|[from] item: Leftovers
+|-damage|p1a: Typhlosion|61/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|27
+|
+|move|p1a: Typhlosion|Infernal Parade|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Typhlosion|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p2a: Lvl 100 Mafia|Hoopa-Unbound|100/100
+|-damage|p2a: Lvl 100 Mafia|88/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p1a: Magearna|Magearna|84/100
+|move|p2a: Lvl 100 Mafia|Knock Off|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|63/100
+|-enditem|p1a: Magearna|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Lvl 100 Mafia
+|
+|turn|29
+|
+|move|p2a: Lvl 100 Mafia|Drain Punch|p1a: Magearna
+|-damage|p1a: Magearna|40/100
+|-heal|p2a: Lvl 100 Mafia|99/100|[from] drain|[of] p1a: Magearna
+|move|p1a: Magearna|Volt Switch|p2a: Lvl 100 Mafia
+|-damage|p2a: Lvl 100 Mafia|90/100
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|24/100|[from] Volt Switch
+|
+|turn|30
+|
+|switch|p2a: WhenAlomaUrMom|Alomomola, F|100/100
+|-damage|p2a: WhenAlomaUrMom|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|U-turn|p2a: WhenAlomaUrMom
+|-damage|p2a: WhenAlomaUrMom|75/100
+|
+|switch|p1a: Zapdos|Zapdos|20/100|[from] U-turn
+|
+|turn|31
+|
+|switch|p2a: Lvl 100 Mafia|Hoopa-Unbound|90/100
+|-damage|p2a: Lvl 100 Mafia|77/100|[from] Stealth Rock
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|70/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|turn|32
+|
+|switch|p1a: Magearna|Magearna|40/100
+|move|p2a: Lvl 100 Mafia|Psychic|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|22/100
+|
+|turn|33
+|
+|move|p2a: Lvl 100 Mafia|Drain Punch|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-heal|p2a: Lvl 100 Mafia|88/100|[from] drain|[of] p1a: Magearna
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|24/100
+|turn|34
+|
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|-damage|p2a: Corviknight|72/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Urshifu|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|7/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|turn|35
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|61/100
+|switch|p2a: WhenAlomaUrMom|Alomomola, F|100/100
+|-damage|p2a: WhenAlomaUrMom|88/100|[from] Stealth Rock
+|
+|turn|36
+|
+|-terastallize|p1a: Typhlosion|Normal
+|move|p1a: Typhlosion|Infernal Parade|p2a: WhenAlomaUrMom
+|-damage|p2a: WhenAlomaUrMom|40/100
+|-status|p2a: WhenAlomaUrMom|brn
+|move|p2a: WhenAlomaUrMom|Wish|p2a: WhenAlomaUrMom
+|
+|-damage|p2a: WhenAlomaUrMom|34/100 brn|[from] brn
+|turn|37
+|
+|switch|p2a: Lvl 100 Mafia|Hoopa-Unbound|88/100
+|-damage|p2a: Lvl 100 Mafia|75/100|[from] Stealth Rock
+|move|p1a: Typhlosion|Infernal Parade|p2a: Lvl 100 Mafia
+|-damage|p2a: Lvl 100 Mafia|54/100
+|
+|-heal|p2a: Lvl 100 Mafia|100/100|[from] move: Wish|[wisher] WhenAlomaUrMom
+|turn|38
+|
+|switch|p1a: Zapdos|Zapdos|70/100
+|move|p2a: Lvl 100 Mafia|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|26/100
+|
+|turn|39
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|76/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Lvl 100 Mafia|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|25/100
+|
+|turn|40
+|
+|move|p1a: Zapdos|Hurricane|p2a: Lvl 100 Mafia
+|-damage|p2a: Lvl 100 Mafia|80/100
+|move|p2a: Lvl 100 Mafia|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|32/100
+|turn|41
+|
+|switch|p2a: WhenAlomaUrMom|Alomomola, F|67/100 brn
+|-damage|p2a: WhenAlomaUrMom|55/100 brn|[from] Stealth Rock
+|move|p1a: Great Tusk|Headlong Rush|p2a: WhenAlomaUrMom
+|-damage|p2a: WhenAlomaUrMom|29/100 brn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-damage|p2a: WhenAlomaUrMom|22/100 brn|[from] brn
+|turn|42
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, tera:Normal|61/100
+|move|p2a: WhenAlomaUrMom|Whirlpool|p1a: Typhlosion
+|-damage|p1a: Typhlosion|53/100
+|-activate|p1a: Typhlosion|move: Whirlpool|[of] p2a: WhenAlomaUrMom
+|
+|-damage|p2a: WhenAlomaUrMom|16/100 brn|[from] brn
+|-damage|p1a: Typhlosion|41/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|43
+|
+|move|p1a: Typhlosion|Infernal Parade|p2a: WhenAlomaUrMom
+|-crit|p2a: WhenAlomaUrMom
+|-damage|p2a: WhenAlomaUrMom|0 fnt
+|faint|p2a: WhenAlomaUrMom
+|
+|-end|p1a: Typhlosion|Whirlpool|[partiallytrapped]|[silent]
+|
+|switch|p2a: Lvl 100 Mafia|Hoopa-Unbound|80/100
+|-damage|p2a: Lvl 100 Mafia|68/100|[from] Stealth Rock
+|turn|44
+|
+|switch|p1a: Great Tusk|Great Tusk|32/100
+|move|p2a: Lvl 100 Mafia|Drain Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|14/100
+|-heal|p2a: Lvl 100 Mafia|79/100|[from] drain|[of] p1a: Great Tusk
+|
+|turn|45
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, tera:Normal|41/100
+|switch|p2a: Corviknight|Corviknight, M|31/100
+|-damage|p2a: Corviknight|19/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|turn|46
+|
+|move|p1a: Typhlosion|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Lvl 100 Mafia|Hoopa-Unbound|79/100
+|-damage|p2a: Lvl 100 Mafia|66/100|[from] Stealth Rock
+|turn|47
+|
+|switch|p1a: Great Tusk|Great Tusk|14/100
+|move|p2a: Lvl 100 Mafia|Drain Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Lvl 100 Mafia|74/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|7/100
+|turn|48
+|
+|move|p1a: Urshifu|U-turn|p2a: Lvl 100 Mafia
+|-supereffective|p2a: Lvl 100 Mafia
+|-damage|p2a: Lvl 100 Mafia|0 fnt
+|faint|p2a: Lvl 100 Mafia
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, tera:Normal|41/100|[from] U-turn
+|
+|
+|switch|p2a: Zarude|Zarude|100/100
+|turn|49
+|
+|move|p2a: Zarude|Crunch|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|7/100
+|turn|50
+|
+|move|p1a: Urshifu|U-turn|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|17/100
+|move|p2a: Zarude|Crunch|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|win|PorygonBburstWhen

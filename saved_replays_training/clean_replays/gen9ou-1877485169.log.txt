@@ -1,0 +1,278 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Garchomp, F|
+|poke|p1|Heatran, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Toxapex, F|
+|poke|p1|Zapdos|
+|poke|p2|Enamorus, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Azumarill, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|move|p1a: Garchomp|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: KeevX2|move: Toxic Spikes
+|move|p2a: Glimmora|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: KeevX2|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Garchomp|Earthquake|p2a: Enamorus
+|-immune|p2a: Enamorus
+|
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-sideend|p1: KeevX2|move: Toxic Spikes|[of] p1a: Toxapex
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Enamorus|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|
+|turn|4
+|
+|move|p2a: Enamorus|Zen Headbutt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|49/100
+|cant|p1a: Toxapex|flinch
+|
+|turn|5
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|move|p2a: Enamorus|Zen Headbutt|p1a: Zapdos
+|-damage|p1a: Zapdos|43/100
+|
+|-heal|p1a: Zapdos|49/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Enamorus|Play Rough|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-status|p2a: Enamorus|par|[from] ability: Static|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Zamazenta
+|-damage|p2a: Zamazenta|52/100
+|
+|turn|8
+|
+|switch|p1a: Toxapex|Toxapex, F|82/100
+|-damage|p1a: Toxapex|70/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|turn|9
+|
+|switch|p2a: Glimmora|Glimmora, F|1/100
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|
+|turn|10
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100 par
+|move|p1a: Garchomp|Iron Head|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|9/100 par
+|
+|-heal|p2a: Enamorus|15/100 par|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Garchomp|Iron Head|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|12
+|
+|switch|p1a: Toxapex|Toxapex, F|78/100
+|-damage|p1a: Toxapex|66/100|[from] Stealth Rock
+|move|p2a: Azumarill|Play Rough|p1a: Toxapex|[miss]
+|-miss|p2a: Azumarill|p1a: Toxapex
+|
+|turn|13
+|
+|switch|p2a: Glimmora|Glimmora, F|1/100
+|move|p1a: Toxapex|Infestation|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|14
+|
+|switch|p1a: Garchomp|Garchomp, F|94/100
+|-damage|p1a: Garchomp|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Thunderbolt|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|turn|15
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|move|p1a: Garchomp|Dragon Claw|p2a: Azumarill
+|-immune|p2a: Azumarill
+|
+|turn|16
+|
+|switch|p1a: Toxapex|Toxapex, F|99/100
+|-damage|p1a: Toxapex|87/100|[from] Stealth Rock
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|50/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|75/100|[from] item: Sitrus Berry
+|
+|turn|17
+|
+|move|p2a: Azumarill|Play Rough|p1a: Toxapex|[miss]
+|-miss|p2a: Azumarill|p1a: Toxapex
+|move|p1a: Toxapex|Sludge Bomb|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|19/100
+|-status|p2a: Azumarill|psn
+|
+|-damage|p2a: Azumarill|6/100 psn|[from] psn
+|turn|18
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Azumarill|Play Rough|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|44/100
+|
+|-heal|p1a: Heatran|50/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|0 fnt|[from] psn
+|faint|p2a: Azumarill
+|
+|switch|p2a: Zamazenta|Zamazenta|52/100
+|turn|19
+|
+|move|p2a: Zamazenta|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|move|p1a: Toxapex|Infestation|p2a: Kingambit
+|-damage|p2a: Kingambit|96/100
+|-activate|p2a: Kingambit|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Kingambit|83/100|[from] move: Infestation|[partiallytrapped]
+|turn|21
+|
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Toxapex|Surf|p2a: Kingambit
+|-damage|p2a: Kingambit|47/100
+|
+|-damage|p2a: Kingambit|35/100|[from] move: Infestation|[partiallytrapped]
+|turn|22
+|
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-end|p2a: Kingambit|Infestation|[partiallytrapped]|[silent]
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|23
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|69/100
+|
+|-heal|p1a: Zamazenta|75/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Kingambit|Iron Head|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Zamazenta|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|-heal|p1a: Zamazenta|88/100|[from] item: Leftovers
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|26
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|51/100
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|28/100
+|
+|-heal|p1a: Zamazenta|57/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|1/100
+|-damage|p2a: Dragapult|18/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Zamazenta|7/100|[from] item: Leftovers
+|
+|switch|p2a: Zamazenta|Zamazenta|52/100
+|turn|28
+|
+|move|p2a: Zamazenta|Crunch|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|3/100
+|-unboost|p1a: Zamazenta|def|1
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|win|KeevX2

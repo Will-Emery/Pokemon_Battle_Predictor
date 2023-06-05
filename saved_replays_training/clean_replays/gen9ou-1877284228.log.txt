@@ -1,0 +1,290 @@
+|poke|p1|Frosmoth, M|
+|poke|p1|Lumineon, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Thundurus, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Great Tusk|
+|poke|p2|Amoonguss, F|
+|poke|p2|Slowking, M|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Thundurus|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|move|p2a: Dragapult|Draco Meteor|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|2
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|turn|3
+|
+|move|p1a: Enamorus|Mystical Fire|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|42/100
+|-unboost|p2a: Amoonguss|spa|1
+|move|p2a: Amoonguss|Spore|p1a: Enamorus
+|-status|p1a: Enamorus|slp|[from] move: Spore
+|
+|-heal|p2a: Amoonguss|48/100|[from] item: Black Sludge
+|turn|4
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-terastallize|p1a: Enamorus|Ground
+|cant|p1a: Enamorus|slp
+|
+|turn|5
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|6
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Corviknight|[miss]
+|-miss|p2a: Chien-Pao|p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|turn|7
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|cant|p1a: Corviknight|flinch
+|
+|-heal|p1a: Corviknight|84/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Skeledirge|Skeledirge, F, shiny|100/100
+|move|p1a: Corviknight|Body Press|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|
+|-heal|p1a: Corviknight|90/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Lumineon|Lumineon, M|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Lumineon
+|-resisted|p1a: Lumineon
+|-damage|p1a: Lumineon|79/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Lumineon|85/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|81/100
+|move|p1a: Lumineon|Attract|p2a: Amoonguss
+|-start|p2a: Amoonguss|Attract
+|
+|-heal|p1a: Lumineon|91/100|[from] item: Leftovers
+|-heal|p2a: Amoonguss|88/100|[from] item: Black Sludge
+|turn|11
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|move|p1a: Lumineon|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|42/100
+|
+|-heal|p1a: Lumineon|97/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|move|p2a: Dragapult|U-turn|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|90/100
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100|[from] U-turn
+|
+|-heal|p1a: Sylveon|96/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Lumineon|Lumineon, M|97/100
+|move|p2a: Amoonguss|Spore|p1a: Lumineon
+|-status|p1a: Lumineon|slp|[from] move: Spore
+|
+|-heal|p1a: Lumineon|100/100 slp|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Frosmoth|Frosmoth, M|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Frosmoth
+|-resisted|p1a: Frosmoth
+|-damage|p1a: Frosmoth|93/100
+|
+|-heal|p1a: Frosmoth|99/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Skeledirge|Skeledirge, F, shiny|100/100
+|move|p1a: Frosmoth|Attract|p2a: Skeledirge
+|-start|p2a: Skeledirge|Attract
+|
+|-heal|p1a: Frosmoth|100/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: Sylveon|Sylveon, M|96/100
+|-end|p2a: Skeledirge|Attract|[silent]
+|move|p2a: Skeledirge|Torch Song|p1a: Sylveon
+|-damage|p1a: Sylveon|75/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Sylveon|81/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Sylveon
+|-damage|p1a: Sylveon|50/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|
+|-heal|p1a: Sylveon|56/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Sylveon
+|-damage|p1a: Sylveon|15/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|
+|-heal|p1a: Sylveon|21/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Sylveon
+|
+|
+|switch|p1a: Lumineon|Lumineon, M|100/100 slp
+|turn|20
+|
+|cant|p1a: Lumineon|slp
+|move|p2a: Skeledirge|Torch Song|p1a: Lumineon
+|-resisted|p1a: Lumineon
+|-damage|p1a: Lumineon|35/100 slp
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Lumineon|41/100 slp|[from] item: Leftovers
+|turn|21
+|
+|cant|p1a: Lumineon|slp
+|move|p2a: Skeledirge|Torch Song|p1a: Lumineon
+|-resisted|p1a: Lumineon
+|-damage|p1a: Lumineon|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Lumineon
+|
+|
+|switch|p1a: Frosmoth|Frosmoth, M|100/100
+|turn|22
+|
+|move|p1a: Frosmoth|Attract|p2a: Skeledirge
+|-start|p2a: Skeledirge|Attract
+|-activate|p2a: Skeledirge|move: Attract|[of] p1a: Frosmoth
+|cant|p2a: Skeledirge|Attract
+|
+|turn|23
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|42/100
+|move|p1a: Frosmoth|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, F, shiny|100/100
+|turn|24
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100
+|move|p1a: Frosmoth|Attract|p2a: Amoonguss
+|-start|p2a: Amoonguss|Attract
+|
+|turn|25
+|
+|switch|p2a: Skeledirge|Skeledirge, F, shiny|100/100
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|turn|26
+|
+|move|p1a: Frosmoth|Attract|p2a: Skeledirge
+|-start|p2a: Skeledirge|Attract
+|-activate|p2a: Skeledirge|move: Attract|[of] p1a: Frosmoth
+|cant|p2a: Skeledirge|Attract
+|
+|turn|27
+|
+|move|p1a: Frosmoth|Ice Beam|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|79/100
+|-activate|p2a: Skeledirge|move: Attract|[of] p1a: Frosmoth
+|cant|p2a: Skeledirge|Attract
+|
+|turn|28
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100
+|move|p1a: Frosmoth|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|29
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Frosmoth
+|-damage|p1a: Frosmoth|29/100
+|move|p1a: Frosmoth|Giga Drain|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|34/100
+|-heal|p1a: Frosmoth|65/100|[from] drain|[of] p2a: Chien-Pao
+|
+|-heal|p1a: Frosmoth|71/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Frosmoth
+|-damage|p1a: Frosmoth|2/100
+|move|p1a: Frosmoth|Giga Drain|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-heal|p1a: Frosmoth|20/100|[from] drain|[of] p2a: Chien-Pao
+|faint|p2a: Chien-Pao
+|
+|-heal|p1a: Frosmoth|26/100|[from] item: Leftovers
+|
+|switch|p2a: Skeledirge|Skeledirge, F, shiny|79/100
+|turn|31
+|
+|move|p1a: Frosmoth|Attract|p2a: Skeledirge
+|-start|p2a: Skeledirge|Attract
+|-activate|p2a: Skeledirge|move: Attract|[of] p1a: Frosmoth
+|move|p2a: Skeledirge|Substitute|p2a: Skeledirge
+|-start|p2a: Skeledirge|Substitute
+|-damage|p2a: Skeledirge|54/100
+|
+|-heal|p1a: Frosmoth|33/100|[from] item: Leftovers
+|turn|32
+|-message|mnbvcxz321 lost due to inactivity.
+|
+|win|womanlover3432

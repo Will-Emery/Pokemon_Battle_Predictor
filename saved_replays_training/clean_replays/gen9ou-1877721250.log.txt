@@ -1,0 +1,251 @@
+|poke|p1|Basculegion, M|
+|poke|p1|Garganacl, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Magearna|
+|poke|p2|Kingambit, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Decidueye|Decidueye-Hisui, M|100/100
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p2a: Toxapex|71/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Toxapex|Toxic|p1a: Garganacl
+|-immune|p1a: Garganacl|[from] ability: Purifying Salt
+|
+|-heal|p2a: Toxapex|77/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Garganacl|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: skoma|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|4
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: TaunterMan|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|turn|5
+|
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|70/100
+|move|p2a: Hippowdon|Rock Slide|p1a: Thundurus|[miss]
+|-miss|p2a: Hippowdon|p1a: Thundurus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|64/100|[from] Sandstorm
+|turn|6
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Hippowdon|Rock Slide|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-crit|p1a: Thundurus
+|-end|p1a: Thundurus|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|58/100|[from] Sandstorm
+|turn|7
+|
+|-terastallize|p1a: Thundurus|Ice
+|move|p1a: Thundurus|Tera Blast|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|none
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|move|p2a: Kingambit|Iron Head|p1a: Landorus
+|-damage|p1a: Landorus|60/100
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|9
+|
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Decidueye|Decidueye-Hisui, M|100/100
+|move|p1a: Landorus|U-turn|p2a: Decidueye
+|-damage|p2a: Decidueye|79/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] U-turn
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|
+|turn|10
+|
+|move|p2a: Decidueye|Knock Off|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|85/100
+|-enditem|p1a: Magearna|Choice Specs|[from] move: Knock Off|[of] p2a: Decidueye
+|move|p1a: Magearna|Volt Switch|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|68/100
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from] Volt Switch
+|
+|turn|11
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|turn|12
+|
+|move|p1a: Cinderace|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100 brn
+|
+|switch|p1a: Magearna|Magearna|85/100|[from] U-turn
+|-damage|p1a: Magearna|79/100|[from] Stealth Rock
+|move|p2a: Toxapex|Ice Beam|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|73/100
+|
+|-heal|p2a: Toxapex|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|81/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Magearna|Trick|p2a: Toxapex
+|-activate|p1a: Magearna|move: Trick|[of] p2a: Toxapex
+|-enditem|p2a: Toxapex|Leftovers|[silent]|[from] move: Trick
+|-item|p1a: Magearna|Leftovers|[from] move: Trick
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-heal|p1a: Magearna|80/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Magearna|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|53/100 brn
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100|[from] Volt Switch
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Ice Beam|p1a: Garganacl
+|-damage|p1a: Garganacl|77/100
+|
+|-heal|p1a: Garganacl|83/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|47/100 brn|[from] brn
+|turn|15
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, M|68/100
+|move|p1a: Garganacl|Salt Cure|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|61/100
+|-start|p2a: Decidueye|Salt Cure
+|
+|-heal|p1a: Garganacl|89/100|[from] item: Leftovers
+|-damage|p2a: Decidueye|49/100|[from] Salt Cure
+|turn|16
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|switch|p1a: Magearna|Magearna|80/100
+|-damage|p1a: Magearna|73/100|[from] Stealth Rock
+|
+|-heal|p1a: Magearna|80/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Kingambit
+|-damage|p2a: Kingambit|37/100
+|-unboost|p1a: Magearna|spa|2
+|move|p2a: Kingambit|Iron Head|p1a: Magearna
+|-damage|p1a: Magearna|46/100
+|
+|-heal|p1a: Magearna|52/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|43/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Magearna|Volt Switch|p2a: Kingambit
+|-damage|p2a: Kingambit|31/100
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] Volt Switch
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|move|p2a: Kingambit|Iron Head|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|59/100
+|
+|-heal|p2a: Kingambit|37/100|[from] item: Leftovers
+|turn|19
+|
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Decidueye|Decidueye-Hisui, M|49/100
+|move|p1a: Basculegion|Aqua Jet|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|30/100
+|
+|turn|20
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Decidueye|Triple Arrows|p1a: Cinderace
+|-damage|p1a: Cinderace|65/100
+|
+|turn|21
+|
+|switch|p2a: Toxapex|Toxapex, M|80/100 brn
+|-damage|p2a: Toxapex|68/100 brn|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100 brn
+|
+|-damage|p2a: Toxapex|44/100 brn|[from] brn
+|turn|22
+|
+|move|p1a: Cinderace|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100 brn
+|
+|switch|p1a: Magearna|Magearna|52/100|[from] U-turn
+|-damage|p1a: Magearna|46/100|[from] Stealth Rock
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|87/100 brn
+|
+|-heal|p1a: Magearna|52/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|81/100 brn|[from] brn
+|turn|23
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, M|30/100
+|move|p1a: Magearna|Volt Switch|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|17/100
+|-message|skoma forfeited.
+|
+|win|TaunterMan

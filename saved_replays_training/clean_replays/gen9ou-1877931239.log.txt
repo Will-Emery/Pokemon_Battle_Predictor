@@ -1,0 +1,62 @@
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, M|
+|poke|p1|Ursaluna, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Grimmsnarl|Taunt|p2a: Sneasler
+|-start|p2a: Sneasler|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Sneasler|Dire Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|25/100
+|-status|p1a: Volcarona|par
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|move|p2a: Sneasler|Close Combat|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|faint|p1a: Volcarona
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Sneasler|move: Taunt
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-item|p1a: Sneasler|Air Balloon
+|turn|4
+|
+|move|p2a: Sneasler|Acrobatics|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-enditem|p1a: Sneasler|Air Balloon
+|faint|p1a: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|-message|underratedsetsgud forfeited.
+|
+|win|EtherSword

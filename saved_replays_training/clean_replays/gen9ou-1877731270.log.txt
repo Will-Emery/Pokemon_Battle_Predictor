@@ -1,0 +1,107 @@
+|poke|p1|Electrode-Hisui|
+|poke|p1|Enamorus, F|
+|poke|p1|Ursaring, M|
+|poke|p1|Iron Thorns|
+|poke|p1|Zarude|
+|poke|p1|Carbink|
+|poke|p2|Scizor, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Great Tusk|
+|poke|p2|Chien-Pao|
+|poke|p2|Volcarona, F|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|start
+|switch|p1a: Electrode|Electrode-Hisui, shiny|100/100
+|switch|p2a: Spin Cycle|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p2a: Blade|Scizor, M|100/100
+|move|p1a: Electrode|Chloroblast|p2a: Blade
+|-resisted|p2a: Blade
+|-damage|p2a: Blade|77/100
+|-damage|p1a: Electrode|50/100|[from] chloroblast
+|-damage|p1a: Electrode|40/100|[from] item: Life Orb
+|
+|turn|2
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Blade|U-turn|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|92/100
+|
+|switch|p2a: Shimmer|Glimmora, F|100/100|[from] U-turn
+|
+|-heal|p1a: Enamorus|98/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Electrode|Electrode-Hisui, shiny|40/100
+|move|p2a: Shimmer|Sludge Wave|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|
+|switch|p1a: Iron Thorns|Iron Thorns|100/100
+|turn|4
+|
+|-terastallize|p1a: Iron Thorns|Bug
+|move|p2a: Shimmer|Energy Ball|p1a: Iron Thorns
+|-resisted|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|82/100
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|
+|turn|5
+|
+|move|p1a: Iron Thorns|Rock Blast|p2a: Shimmer
+|-damage|p2a: Shimmer|76/100
+|-activate|p2a: Shimmer|ability: Toxic Debris
+|-sidestart|p1: champ stalker|move: Toxic Spikes
+|-damage|p2a: Shimmer|50/100
+|-activate|p2a: Shimmer|ability: Toxic Debris
+|-sidestart|p1: champ stalker|move: Toxic Spikes
+|-damage|p2a: Shimmer|24/100
+|-damage|p2a: Shimmer|1/100
+|-damage|p2a: Shimmer|0 fnt
+|faint|p2a: Shimmer
+|-hitcount|p2: Shimmer|5
+|
+|
+|switch|p2a: Blade|Scizor, M|77/100
+|turn|6
+|
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|move|p2a: Blade|Aerial Ace|p1a: Iron Thorns
+|-supereffective|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|16/100
+|
+|turn|7
+|
+|move|p2a: Blade|Bullet Punch|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|0 fnt
+|faint|p1a: Iron Thorns
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|
+|
+|switch|p1a: Ursaring|Ursaring, M|100/100
+|-status|p1a: Ursaring|tox
+|turn|8
+|
+|move|p1a: Ursaring|Close Combat|p2a: Blade
+|-damage|p2a: Blade|20/100
+|-unboost|p1a: Ursaring|def|1
+|-unboost|p1a: Ursaring|spd|1
+|move|p2a: Blade|Brick Break|p1a: Ursaring
+|-supereffective|p1a: Ursaring
+|-damage|p1a: Ursaring|23/100 tox
+|
+|-damage|p1a: Ursaring|16/100 tox|[from] psn
+|turn|9
+|-message|champ stalker forfeited.
+|
+|win|Egg Robo

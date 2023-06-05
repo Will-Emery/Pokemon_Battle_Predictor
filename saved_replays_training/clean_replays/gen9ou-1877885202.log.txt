@@ -1,0 +1,186 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Magearna|
+|poke|p2|Cinderace, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|start
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|switch|p2a: Kleavor|Kleavor, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Kleavor|U-turn|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|79/100
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|move|p1a: Basculegion|Hydro Pump|p2a: Magearna
+|-damage|p2a: Magearna|13/100
+|
+|-heal|p2a: Magearna|19/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Basculegion|Hydro Pump|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, F, shiny|100/100
+|turn|3
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Decidueye|Leaf Blade|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|69/100
+|
+|turn|4
+|
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|brn
+|
+|-damage|p2a: Ting-Lu|94/100 brn|[from] brn
+|turn|5
+|
+|move|p1a: Cinderace|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|77/100 brn
+|
+|switch|p1a: Mr. S|Samurott-Hisui, M|100/100|[from] U-turn
+|move|p2a: Ting-Lu|Spikes|p1a: Mr. S
+|-sidestart|p1: theecallee|Spikes
+|
+|-heal|p2a: Ting-Lu|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|77/100 brn|[from] brn
+|turn|6
+|
+|move|p1a: Mr. S|Razor Shell|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|26/100 brn
+|-damage|p1a: Mr. S|91/100|[from] item: Life Orb
+|move|p2a: Ting-Lu|Whirlwind|p1a: Mr. S
+|drag|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|-damage|p1a: Lilligant|88/100|[from] Spikes
+|
+|-heal|p2a: Ting-Lu|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|26/100 brn|[from] brn
+|turn|7
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|
+|switch|p2a: Kleavor|Kleavor, F, shiny|100/100
+|turn|8
+|
+|-terastallize|p2a: Kleavor|Ghost
+|move|p2a: Kleavor|X-Scissor|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|88/100|[from] Spikes
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|move|p2a: Kleavor|X-Scissor|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Mr. S|Samurott-Hisui, M|91/100
+|-damage|p1a: Mr. S|78/100|[from] Spikes
+|turn|10
+|
+|move|p2a: Kleavor|X-Scissor|p1a: Mr. S
+|-supereffective|p1a: Mr. S
+|-damage|p1a: Mr. S|0 fnt
+|faint|p1a: Mr. S
+|
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|88/100|[from] Spikes
+|turn|11
+|
+|move|p2a: Kleavor|X-Scissor|p1a: Garchomp
+|-damage|p1a: Garchomp|22/100
+|-damage|p2a: Kleavor|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Kleavor|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|move|p1a: Garchomp|Earthquake|p2a: Kleavor
+|-damage|p2a: Kleavor|4/100
+|
+|turn|12
+|
+|move|p2a: Kleavor|X-Scissor|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Kleavor|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|faint|p2a: Kleavor
+|
+|
+|switch|p1a: Cinderace|Cinderace, M|69/100
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|turn|13
+|
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|move|p2a: Dragonite|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|12/100
+|
+|-damage|p2a: Dragonite|94/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|46/100 brn
+|move|p2a: Dragonite|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-damage|p2a: Dragonite|40/100 brn|[from] brn
+|
+|switch|p1a: Basculegion|Basculegion-F, F|79/100
+|-damage|p1a: Basculegion|66/100|[from] Spikes
+|turn|15
+|
+|move|p2a: Dragonite|Earthquake|p1a: Basculegion
+|-damage|p1a: Basculegion|44/100
+|move|p1a: Basculegion|Hydro Pump|p2a: Dragonite|[miss]
+|-miss|p1a: Basculegion|p2a: Dragonite
+|
+|-damage|p2a: Dragonite|34/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Dragonite|Earthquake|p1a: Basculegion
+|-damage|p1a: Basculegion|23/100
+|move|p1a: Basculegion|Hydro Pump|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, F, shiny|100/100
+|turn|17
+|
+|move|p2a: Decidueye|Leaf Blade|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|win|GlobalChallenge

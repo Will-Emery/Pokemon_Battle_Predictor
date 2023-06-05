@@ -1,0 +1,185 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Skeledirge, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Breloom, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Rotom
+|-damage|p2a: Rotom|14/100
+|move|p2a: Rotom|Thunder Wave|p1a: Chien-Pao
+|-status|p1a: Chien-Pao|par
+|
+|-heal|p2a: Rotom|20/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|59/100 par
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Chien-Pao|atk|1
+|move|p1a: Chien-Pao|Crunch|p2a: Landorus
+|-damage|p2a: Landorus|66/100
+|-damage|p1a: Chien-Pao|43/100 par|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|turn|3
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Landorus|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|97/100
+|-damage|p2a: Landorus|50/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100|[from] U-turn
+|
+|turn|4
+|
+|move|p2a: Volcarona|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|turn|5
+|
+|-terastallize|p2a: Volcarona|Ground
+|move|p2a: Volcarona|Tera Blast|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|30/100
+|move|p1a: Skeledirge|Torch Song|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|57/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|turn|6
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Volcarona|Tera Blast|p1a: Samurott
+|-damage|p1a: Samurott|60/100
+|
+|turn|7
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Samurott|Aqua Jet|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|87/100
+|
+|turn|8
+|
+|switch|p1a: Chien-Pao|Chien-Pao|43/100 par
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Breloom|Bulldoze|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Wash|20/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|10
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Skeledirge|Skeledirge, M|30/100
+|move|p2a: Sneasler|Close Combat|p1a: Skeledirge
+|-immune|p1a: Skeledirge
+|
+|turn|11
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|12/100
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|62/100
+|
+|turn|12
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|43/100
+|-status|p1a: Skeledirge|psn
+|move|p1a: Skeledirge|Torch Song|p2a: Sneasler
+|-damage|p2a: Sneasler|62/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-damage|p1a: Skeledirge|31/100 psn|[from] psn
+|turn|13
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|12/100 psn
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|62/100 psn
+|
+|-damage|p1a: Skeledirge|50/100 psn|[from] psn
+|turn|14
+|
+|move|p2a: Sneasler|U-turn|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|45/100 psn
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|95/100 psn
+|
+|-damage|p1a: Skeledirge|82/100 psn|[from] psn
+|turn|15
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|7/100 psn
+|move|p1a: Skeledirge|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Skeledirge|0 fnt|[from] psn
+|faint|p1a: Skeledirge
+|
+|switch|p2a: Sneasler|Sneasler, F|62/100
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|16
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Sneasler
+|-damage|p2a: Sneasler|1/100
+|move|p2a: Sneasler|Close Combat|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|54/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|
+|turn|17
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-message|Medias1290 forfeited.
+|
+|win|Albathirst

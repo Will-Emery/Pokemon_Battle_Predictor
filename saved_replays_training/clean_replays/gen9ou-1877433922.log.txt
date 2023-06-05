@@ -1,0 +1,436 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Magearna|
+|poke|p1|Mudsdale, F|
+|poke|p1|Articuno-Galar|
+|poke|p2|Kingambit, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Magearna|
+|poke|p2|Rotom-Wash|
+|poke|p2|Clodsire, F|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|start
+|switch|p1a: Braviary-Hisuii|Articuno-Galar|100/100
+|switch|p2a: Napoleon|Kingambit, F|100/100
+|turn|1
+|
+|switch|p1a: Mudsdale|Mudsdale, F|100/100
+|move|p2a: Napoleon|Shadow Ball|p1a: Mudsdale
+|-damage|p1a: Mudsdale|54/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p1a: Mudsdale|60/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Dyson|Rotom-Wash|100/100
+|move|p1a: Mudsdale|Earthquake|p2a: Dyson
+|-immune|p2a: Dyson|[from] ability: Levitate
+|
+|-heal|p1a: Mudsdale|66/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Dyson|Will-O-Wisp|p1a: Samurott
+|-status|p1a: Samurott|brn
+|
+|-damage|p1a: Samurott|94/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Dyson
+|-damage|p2a: Dyson|76/100
+|-sidestart|p2: conuer|Spikes
+|-damage|p1a: Samurott|84/100 brn|[from] item: Life Orb
+|move|p2a: Dyson|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|3/100 brn
+|
+|switch|p2a: Napoleon|Kingambit, F|100/100|[from] Volt Switch
+|
+|-damage|p1a: Samurott|0 fnt|[from] brn
+|faint|p1a: Samurott
+|
+|switch|p1a: Mudsdale|Mudsdale, F|66/100
+|turn|5
+|
+|-end|p2a: Napoleon|fallenundefined|[silent]
+|switch|p2a: Dyson|Rotom-Wash|76/100
+|move|p1a: Mudsdale|Stealth Rock|p2a: Dyson
+|-sidestart|p2: conuer|move: Stealth Rock
+|
+|-heal|p2a: Dyson|83/100|[from] item: Leftovers
+|-heal|p1a: Mudsdale|72/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Dyson|Will-O-Wisp|p1a: Magearna
+|-status|p1a: Magearna|brn
+|
+|-heal|p2a: Dyson|89/100|[from] item: Leftovers
+|-damage|p1a: Magearna|94/100 brn|[from] brn
+|turn|7
+|
+|switch|p2a: Boird|Corviknight, F|100/100
+|-damage|p2a: Boird|88/100|[from] Stealth Rock
+|-ability|p2a: Boird|Pressure
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Boird|94/100|[from] item: Leftovers
+|-damage|p1a: Magearna|94/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Boird|Defog|p1a: Magearna
+|-unboost|p1a: Magearna|evasion|1
+|-sideend|p2: conuer|Spikes|[from] move: Defog|[of] p2a: Boird
+|-sideend|p2: conuer|Stealth Rock|[from] move: Defog|[of] p2a: Boird
+|
+|-heal|p1a: Magearna|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Boird|100/100|[from] item: Leftovers
+|-damage|p1a: Magearna|94/100 brn|[from] brn
+|turn|9
+|
+|switch|p2a: Pokeball|Magearna|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|94/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Pokeball|Trick|p1a: Magearna
+|-activate|p2a: Pokeball|move: Trick|[of] p1a: Magearna
+|-item|p1a: Magearna|Choice Specs|[from] move: Trick
+|-item|p2a: Pokeball|Leftovers|[from] move: Trick
+|
+|-damage|p1a: Magearna|88/100 brn|[from] brn
+|turn|11
+|
+|switch|p2a: BigPooper|Clodsire, F|100/100
+|move|p1a: Magearna|Stored Power|p2a: BigPooper
+|-supereffective|p2a: BigPooper
+|-damage|p2a: BigPooper|0 fnt
+|faint|p2a: BigPooper
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-damage|p1a: Magearna|82/100 brn|[from] brn
+|
+|switch|p2a: Napoleon|Kingambit, F|100/100
+|-activate|p2a: Napoleon|ability: Supreme Overlord
+|-start|p2a: Napoleon|fallen1|[silent]
+|turn|12
+|
+|switch|p1a: Mudsdale|Mudsdale, F|72/100
+|move|p2a: Napoleon|Kowtow Cleave|p1a: Mudsdale
+|-damage|p1a: Mudsdale|27/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p1a: Mudsdale|33/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Napoleon|Kowtow Cleave|p1a: Mudsdale
+|-damage|p1a: Mudsdale|1/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Body Press|p2a: Napoleon
+|-supereffective|p2a: Napoleon
+|-damage|p2a: Napoleon|0 fnt
+|faint|p2a: Napoleon
+|-end|p2a: Napoleon|fallen1|[silent]
+|
+|-heal|p1a: Mudsdale|8/100|[from] item: Leftovers
+|
+|switch|p2a: Dyson|Rotom-Wash|89/100
+|turn|14
+|
+|move|p2a: Dyson|Hydro Pump|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|-heal|p2a: Dyson|95/100|[from] item: Leftovers
+|
+|switch|p1a: Magearna|Magearna|82/100 brn
+|turn|15
+|
+|move|p2a: Dyson|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|58/100 brn
+|
+|switch|p2a: Boird|Corviknight, F|100/100|[from] Volt Switch
+|-ability|p2a: Boird|Pressure
+|move|p1a: Magearna|Draining Kiss|p2a: Boird
+|-resisted|p2a: Boird
+|-damage|p2a: Boird|78/100
+|-heal|p1a: Magearna|78/100 brn|[from] drain|[of] p2a: Boird
+|
+|-heal|p2a: Boird|85/100|[from] item: Leftovers
+|-damage|p1a: Magearna|71/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Boird
+|-resisted|p2a: Boird
+|-damage|p2a: Boird|65/100
+|-heal|p1a: Magearna|89/100 brn|[from] drain|[of] p2a: Boird
+|move|p2a: Boird|Body Press|p1a: Magearna
+|-damage|p1a: Magearna|67/100 brn
+|
+|-heal|p2a: Boird|71/100|[from] item: Leftovers
+|-damage|p1a: Magearna|61/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Boird
+|-resisted|p2a: Boird
+|-damage|p2a: Boird|49/100
+|-heal|p1a: Magearna|80/100 brn|[from] drain|[of] p2a: Boird
+|move|p2a: Boird|Body Press|p1a: Magearna
+|-damage|p1a: Magearna|58/100 brn
+|
+|-heal|p2a: Boird|56/100|[from] item: Leftovers
+|-damage|p1a: Magearna|52/100 brn|[from] brn
+|turn|18
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Boird
+|-resisted|p2a: Boird
+|-damage|p2a: Boird|36/100
+|-heal|p1a: Magearna|69/100 brn|[from] drain|[of] p2a: Boird
+|move|p2a: Boird|Roost|p2a: Boird
+|-heal|p2a: Boird|86/100
+|-singleturn|p2a: Boird|move: Roost
+|
+|-heal|p2a: Boird|92/100|[from] item: Leftovers
+|-damage|p1a: Magearna|63/100 brn|[from] brn
+|turn|19
+|
+|switch|p2a: Pokeball|Magearna|100/100
+|move|p1a: Magearna|Draining Kiss|p2a: Pokeball
+|-resisted|p2a: Pokeball
+|-damage|p2a: Pokeball|82/100
+|-heal|p1a: Magearna|78/100 brn|[from] drain|[of] p2a: Pokeball
+|
+|-heal|p2a: Pokeball|88/100|[from] item: Leftovers
+|-damage|p1a: Magearna|72/100 brn|[from] brn
+|turn|20
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Pokeball|Flash Cannon|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|69/100
+|
+|-heal|p2a: Pokeball|94/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Dyson|Rotom-Wash|95/100
+|-terastallize|p1a: Urshifu|Water
+|move|p1a: Urshifu|Surging Strikes|p2a: Dyson
+|-resisted|p2a: Dyson
+|-crit|p2a: Dyson
+|-damage|p2a: Dyson|82/100
+|-resisted|p2a: Dyson
+|-crit|p2a: Dyson
+|-damage|p2a: Dyson|71/100
+|-resisted|p2a: Dyson
+|-crit|p2a: Dyson
+|-damage|p2a: Dyson|58/100
+|-hitcount|p2a: Dyson|3
+|
+|-heal|p2a: Dyson|65/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Urshifu|Drain Punch|p2a: Dyson
+|-damage|p2a: Dyson|30/100
+|-heal|p1a: Urshifu|83/100|[from] drain|[of] p2a: Dyson
+|move|p2a: Dyson|Will-O-Wisp|p1a: Urshifu
+|-status|p1a: Urshifu|brn
+|
+|-heal|p2a: Dyson|36/100|[from] item: Leftovers
+|-damage|p1a: Urshifu|77/100 brn|[from] brn
+|turn|23
+|
+|move|p2a: Dyson|Protect|p2a: Dyson
+|-singleturn|p2a: Dyson|Protect
+|move|p1a: Urshifu|Drain Punch|p2a: Dyson
+|-activate|p2a: Dyson|move: Protect
+|
+|-heal|p2a: Dyson|43/100|[from] item: Leftovers
+|-damage|p1a: Urshifu|71/100 brn|[from] brn
+|turn|24
+|
+|move|p1a: Urshifu|Drain Punch|p2a: Dyson
+|-damage|p2a: Dyson|27/100
+|-heal|p1a: Urshifu|78/100 brn|[from] drain|[of] p2a: Dyson
+|move|p2a: Dyson|Volt Switch|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|12/100 brn
+|
+|switch|p2a: Boird|Corviknight, F|100/100|[from] Volt Switch
+|
+|-damage|p1a: Urshifu|6/100 brn|[from] brn
+|turn|25
+|
+|move|p2a: Boird|Nasty Plot|p2a: Boird
+|-boost|p2a: Boird|spa|2
+|move|p1a: Urshifu|Surging Strikes|p2a: Boird
+|-crit|p2a: Boird
+|-damage|p2a: Boird|67/100
+|replace|p2a: NotZoroark|Zoroark-Hisui, M, shiny
+|-end|p2a: NotZoroark|Illusion
+|-crit|p2a: NotZoroark
+|-damage|p2a: NotZoroark|38/100
+|-crit|p2a: NotZoroark
+|-damage|p2a: NotZoroark|7/100
+|-hitcount|p2a: NotZoroark|3
+|
+|-damage|p1a: Urshifu|0 fnt|[from] brn
+|faint|p1a: Urshifu
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|26
+|
+|switch|p2a: Pokeball|Magearna|94/100
+|move|p1a: Chien-Pao|Ice Shard|p2a: Pokeball
+|-resisted|p2a: Pokeball
+|-damage|p2a: Pokeball|77/100
+|-damage|p1a: Chien-Pao|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Pokeball|83/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p1a: Magearna|Magearna|72/100 brn
+|move|p2a: Pokeball|Flash Cannon|p1a: Magearna
+|-damage|p1a: Magearna|28/100 brn
+|
+|-heal|p2a: Pokeball|89/100|[from] item: Leftovers
+|-damage|p1a: Magearna|22/100 brn|[from] brn
+|turn|28
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Pokeball
+|-resisted|p2a: Pokeball
+|-damage|p2a: Pokeball|72/100
+|-heal|p1a: Magearna|35/100 brn|[from] drain|[of] p2a: Pokeball
+|move|p2a: Pokeball|Flash Cannon|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-ability|p2a: Pokeball|Soul-Heart|boost
+|-boost|p2a: Pokeball|spa|1
+|
+|-heal|p2a: Pokeball|79/100|[from] item: Leftovers
+|
+|switch|p1a: Braviary-Hisuii|Articuno-Galar|100/100
+|turn|29
+|
+|move|p1a: Braviary-Hisuii|Calm Mind|p1a: Braviary-Hisuii
+|-boost|p1a: Braviary-Hisuii|spa|1
+|-boost|p1a: Braviary-Hisuii|spd|1
+|move|p2a: Pokeball|Fleur Cannon|p1a: Braviary-Hisuii
+|-damage|p1a: Braviary-Hisuii|37/100
+|-unboost|p2a: Pokeball|spa|2
+|
+|-heal|p1a: Braviary-Hisuii|43/100|[from] item: Leftovers
+|-heal|p2a: Pokeball|85/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Braviary-Hisuii|Calm Mind|p1a: Braviary-Hisuii
+|-boost|p1a: Braviary-Hisuii|spa|1
+|-boost|p1a: Braviary-Hisuii|spd|1
+|move|p2a: Pokeball|Fleur Cannon|p1a: Braviary-Hisuii
+|-damage|p1a: Braviary-Hisuii|21/100
+|-unboost|p2a: Pokeball|spa|2
+|
+|-heal|p1a: Braviary-Hisuii|27/100|[from] item: Leftovers
+|-heal|p2a: Pokeball|91/100|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Braviary-Hisuii|Ancient Power|p2a: Pokeball
+|-resisted|p2a: Pokeball
+|-damage|p2a: Pokeball|72/100
+|move|p2a: Pokeball|Volt Switch|p1a: Braviary-Hisuii
+|-supereffective|p1a: Braviary-Hisuii
+|-damage|p1a: Braviary-Hisuii|18/100
+|
+|switch|p2a: Boird|Corviknight, F|7/100|[from] Volt Switch
+|
+|-heal|p1a: Braviary-Hisuii|24/100|[from] item: Leftovers
+|turn|32
+|
+|switch|p1a: Chien-Pao|Chien-Pao|91/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Boird|Shadow Ball|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|58/100
+|
+|turn|33
+|
+|switch|p2a: Dyson|Rotom-Wash|27/100
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|
+|-heal|p2a: Dyson|33/100|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Dyson
+|-damage|p2a: Dyson|0 fnt
+|faint|p2a: Dyson
+|-damage|p1a: Chien-Pao|48/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Boird|Corviknight, F|7/100
+|turn|35
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Boird
+|-supereffective|p2a: Boird
+|-damage|p2a: Boird|0 fnt
+|replace|p2a: NotZoroark|Zoroark-Hisui, M, shiny
+|-end|p2a: NotZoroark|Illusion
+|faint|p2a: NotZoroark
+|-damage|p1a: Chien-Pao|38/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Boird|Corviknight, F|92/100
+|-ability|p2a: Boird|Pressure
+|turn|36
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Boird
+|-damage|p2a: Boird|1/100
+|-damage|p1a: Chien-Pao|28/100|[from] item: Life Orb
+|move|p2a: Boird|Body Press|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|-heal|p2a: Boird|7/100|[from] item: Leftovers
+|
+|switch|p1a: Braviary-Hisuii|Articuno-Galar|24/100
+|turn|37
+|
+|move|p1a: Braviary-Hisuii|Ancient Power|p2a: Boird
+|-damage|p2a: Boird|0 fnt
+|faint|p2a: Boird
+|
+|-heal|p1a: Braviary-Hisuii|30/100|[from] item: Leftovers
+|
+|switch|p2a: Pokeball|Magearna|72/100
+|turn|38
+|
+|move|p1a: Braviary-Hisuii|Freezing Glare|p2a: Pokeball
+|-resisted|p2a: Pokeball
+|-damage|p2a: Pokeball|52/100
+|move|p2a: Pokeball|Flash Cannon|p1a: Braviary-Hisuii
+|-damage|p1a: Braviary-Hisuii|0 fnt
+|faint|p1a: Braviary-Hisuii
+|
+|win|conuer

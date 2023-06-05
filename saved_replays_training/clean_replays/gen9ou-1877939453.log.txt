@@ -1,0 +1,318 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Great Tusk|
+|poke|p1|Rotom-Wash|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Gholdengo|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Zapdos|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|turn|1
+|
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Landorus|Taunt|p1a: Sneasler
+|-start|p1a: Sneasler|move: Taunt
+|
+|turn|2
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|79/100
+|-damage|p1a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|Stealth Rock|p1a: Sneasler
+|-sidestart|p1: Rabbit1069|move: Stealth Rock
+|
+|turn|3
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|57/100
+|-status|p2a: Landorus|par
+|-damage|p1a: Sneasler|67/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|49/100
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from] U-turn
+|
+|turn|4
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Sneasler
+|-damage|p1a: Sneasler|11/100
+|move|p1a: Sneasler|Dire Claw|p2a: Urshifu
+|-damage|p2a: Urshifu|35/100
+|
+|-end|p1a: Sneasler|move: Taunt
+|turn|5
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Rabbit1069|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|7
+|
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Zapdos|Hurricane|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|8
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|72/100
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] Volt Switch
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-heal|p1a: Magearna|78/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Rotom
+|-immune|p1a: Rotom
+|
+|turn|10
+|
+|switch|p2a: Zapdos|Zapdos|78/100
+|move|p1a: Rotom|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|37/100
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100|[from] Volt Switch
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|11
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Ursaluna|Ice Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|79/100
+|
+|-heal|p2a: Gholdengo|85/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Zapdos|Zapdos|37/100
+|
+|-fieldend|move: Trick Room
+|turn|13
+|
+|move|p1a: Rotom|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100|[from] Volt Switch
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|14
+|
+|switch|p1a: Magearna|Magearna|78/100
+|move|p2a: Slowking|Future Sight|p1a: Magearna
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Magearna|84/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Landorus|Landorus-Therian, M|57/100 par|[from] Chilly Reception
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Magearna|90/100|[from] item: Leftovers
+|turn|16
+|
+|-terastallize|p2a: Landorus|Ground
+|cant|p2a: Landorus|par
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Magearna|move: Future Sight
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|77/100
+|-heal|p1a: Magearna|83/100|[from] item: Leftovers
+|turn|17
+|n|!gogogamma|gogogamma
+|
+|move|p2a: Landorus|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Ursaluna|Ursaluna, F|94/100 brn
+|turn|18
+|
+|switch|p2a: Gholdengo|Gholdengo|85/100
+|move|p1a: Ursaluna|Bulk Up|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|1
+|-boost|p1a: Ursaluna|def|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Gholdengo|91/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|turn|19
+|
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Ground|57/100 par
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|move|p1a: Ursaluna|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Ursaluna|71/100 brn|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|-weather|none
+|-damage|p1a: Ursaluna|65/100 brn|[from] brn
+|
+|switch|p2a: Gholdengo|Gholdengo|91/100
+|turn|20
+|
+|move|p1a: Ursaluna|Ice Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|77/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Gholdengo|83/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|turn|21
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Gholdengo|Thunder Wave|p1a: Zamazenta
+|-status|p1a: Zamazenta|par
+|
+|-heal|p2a: Gholdengo|89/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Zamazenta|Crunch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|63/100
+|
+|turn|23
+|
+|cant|p1a: Zamazenta|par
+|move|p2a: Slowking|Future Sight|p1a: Zamazenta
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|24
+|
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|35/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|25
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|84/100 par
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|71/100 par
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|56/100 par
+|-hitcount|p1a: Zamazenta|3
+|move|p1a: Zamazenta|Body Press|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Zamazenta|move: Future Sight
+|-damage|p1a: Zamazenta|22/100 par
+|
+|switch|p2a: Slowking|Slowking-Galar, M|60/100
+|turn|26
+|
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Slowking
+|-damage|p2a: Slowking|22/100
+|move|p2a: Slowking|Future Sight|p1a: Zamazenta
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|Snow|[upkeep]
+|turn|27
+|
+|switch|p2a: Gholdengo|Gholdengo|89/100
+|cant|p1a: Zamazenta|par
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Gholdengo|95/100|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|2/100 par
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Zamazenta|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|65/100
+|
+|-weather|none
+|-end|p1a: Zamazenta|move: Future Sight
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-heal|p2a: Gholdengo|71/100|[from] item: Leftovers
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|29
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Gholdengo
+|-damage|p2a: Gholdengo|17/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|67/100
+|
+|-heal|p2a: Gholdengo|73/100|[from] item: Leftovers
+|turn|30
+|-message|Rabbit1069 forfeited.
+|
+|win|gogogamma

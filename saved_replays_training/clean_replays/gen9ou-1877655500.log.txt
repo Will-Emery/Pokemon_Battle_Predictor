@@ -1,0 +1,105 @@
+|poke|p1|Zapdos-Galar|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Skeledirge, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Persian-Alola, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Delphox, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Muk-Alola, M|
+|poke|p2|Lurantis, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Lurantis|Lurantis, M|100/100
+|turn|1
+|
+|move|p1a: Dragapult|U-turn|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|64/100
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from] U-turn
+|move|p2a: Lurantis|Leaf Storm|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|90/100
+|-boost|p2a: Lurantis|spa|2
+|
+|-heal|p2a: Lurantis|70/100|[from] item: Leftovers
+|turn|2
+|
+|-terastallize|p2a: Lurantis|Water
+|move|p1a: Volcarona|Fiery Dance|p2a: Lurantis
+|-resisted|p2a: Lurantis
+|-damage|p2a: Lurantis|41/100
+|move|p2a: Lurantis|Tera Blast|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-heal|p2a: Lurantis|47/100|[from] item: Leftovers
+|
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|turn|3
+|
+|move|p1a: Zapdos|Trailblaze|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|10/100
+|-boost|p1a: Zapdos|spe|1
+|move|p2a: Lurantis|Synthesis|p2a: Lurantis
+|-heal|p2a: Lurantis|60/100
+|
+|-heal|p2a: Lurantis|66/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Zapdos|Bulk Up|p1a: Zapdos
+|-boost|p1a: Zapdos|atk|1
+|-boost|p1a: Zapdos|def|1
+|move|p2a: Lurantis|Synthesis|p2a: Lurantis
+|-heal|p2a: Lurantis|100/100
+|
+|turn|5
+|
+|move|p1a: Zapdos|Trailblaze|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|40/100
+|-boost|p1a: Zapdos|spe|1
+|move|p2a: Lurantis|Leaf Storm|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|51/100
+|-boost|p2a: Lurantis|spa|2
+|
+|-heal|p2a: Lurantis|47/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Zapdos|Trailblaze|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|-boost|p1a: Zapdos|spe|1
+|faint|p2a: Lurantis
+|
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|7
+|
+|-terastallize|p1a: Zapdos|Flying
+|move|p1a: Zapdos|Tera Blast|p2a: Ceruledge
+|-damage|p2a: Ceruledge|3/100
+|move|p2a: Ceruledge|Bulk Up|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|1
+|-boost|p2a: Ceruledge|def|1
+|
+|turn|8
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Zapdos
+|-damage|p1a: Zapdos|26/100
+|move|p1a: Zapdos|Tera Blast|p2a: Ceruledge
+|-crit|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-message|mistherx forfeited.
+|
+|win|HomieDon'Dos

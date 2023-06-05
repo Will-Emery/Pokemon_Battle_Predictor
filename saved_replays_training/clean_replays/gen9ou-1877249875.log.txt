@@ -1,0 +1,147 @@
+|poke|p1|Dragapult, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Ursaluna, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Volcanion|
+|poke|p2|Zapdos-Galar|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|1
+|
+|-terastallize|p2a: Volcanion|Ground
+|move|p1a: Glimmora|Stealth Rock|p2a: Volcanion
+|-sidestart|p2: Best_Vibes_Only|move: Stealth Rock
+|move|p2a: Volcanion|Flame Charge|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|89/100
+|-boost|p2a: Volcanion|spe|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Best_Vibes_Only|move: Toxic Spikes
+|
+|turn|2
+|
+|move|p2a: Volcanion|Steam Eruption|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|3
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|82/100
+|-status|p2a: Volcanion|slp
+|cant|p2a: Volcanion|slp
+|
+|-heal|p2a: Volcanion|88/100 slp|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|cant|p2a: Volcanion|slp
+|
+|-heal|p2a: Volcanion|94/100 slp|[from] item: Leftovers
+|turn|5
+|
+|cant|p2a: Volcanion|slp
+|move|p1a: Samurott|Ceaseless Edge|p2a: Volcanion
+|-damage|p2a: Volcanion|23/100 slp
+|-sidestart|p2: Best_Vibes_Only|Spikes
+|
+|-heal|p2a: Volcanion|29/100 slp|[from] item: Leftovers
+|turn|6
+|
+|-curestatus|p2a: Volcanion|slp|[msg]
+|move|p2a: Volcanion|Steam Eruption|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|61/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|-sidestart|p2: Best_Vibes_Only|Spikes
+|faint|p2a: Volcanion
+|
+|
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|-damage|p2a: Zapdos|88/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Zapdos|Thunderous Kick|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|turn|8
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|-sideend|p2: Best_Vibes_Only|move: Toxic Spikes|[of] p2a: Amoonguss
+|-damage|p2a: Amoonguss|71/100|[from] Spikes
+|move|p1a: Dragapult|Draco Meteor|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|-damage|p2a: Grimmsnarl|72/100|[from] Spikes
+|turn|9
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Best_Vibes_Only|move: Light Screen
+|
+|turn|10
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Best_Vibes_Only|Reflect
+|move|p1a: Sneasler|Dire Claw|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|17/100
+|-status|p2a: Grimmsnarl|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|
+|-damage|p2a: Grimmsnarl|5/100 psn|[from] psn
+|turn|11
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|61/100
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Samurott
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Samurott
+|
+|-damage|p2a: Grimmsnarl|0 fnt|[from] psn
+|faint|p2a: Grimmsnarl
+|
+|switch|p2a: Zapdos|Zapdos-Galar|88/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Zapdos|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|85/100
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] U-turn
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|-damage|p2a: Ursaluna|78/100|[from] Spikes
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|13
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Ursaluna
+|
+|-message|Best_Vibes_Only forfeited.
+|
+|win|mangolol

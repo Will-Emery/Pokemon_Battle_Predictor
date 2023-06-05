@@ -1,0 +1,306 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Amoonguss, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Magearna|
+|poke|p2|Volcarona, F|
+|poke|p2|Roaring Moon|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: guy|Glimmora, F|100/100
+|turn|1
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: guy
+|-supereffective|p2a: guy
+|-crit|p2a: guy
+|-damage|p2a: guy|48/100
+|-activate|p2a: guy|ability: Toxic Debris
+|-sidestart|p1: RiloBR|move: Toxic Spikes
+|-supereffective|p2a: guy
+|-crit|p2a: guy
+|-damage|p2a: guy|0 fnt
+|-activate|p2a: guy|ability: Toxic Debris
+|-sidestart|p1: RiloBR|move: Toxic Spikes
+|faint|p2a: guy
+|-hitcount|p2: guy|2
+|
+|
+|switch|p2a: guy 3|Magearna|100/100
+|turn|2
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: guy 3
+|-crit|p2a: guy 3
+|-damage|p2a: guy 3|82/100
+|-crit|p2a: guy 3
+|-damage|p2a: guy 3|65/100
+|-crit|p2a: guy 3
+|-damage|p2a: guy 3|45/100
+|-hitcount|p2a: guy 3|3
+|move|p2a: guy 3|Draining Kiss|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|10/100
+|-heal|p2a: guy 3|100/100|[from] drain|[of] p1a: Urshifu
+|
+|turn|3
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: guy 3
+|-crit|p2a: guy 3
+|-damage|p2a: guy 3|81/100
+|-crit|p2a: guy 3
+|-damage|p2a: guy 3|62/100
+|-crit|p2a: guy 3
+|-damage|p2a: guy 3|45/100
+|-hitcount|p2a: guy 3|3
+|move|p2a: guy 3|Calm Mind|p2a: guy 3
+|-boost|p2a: guy 3|spa|1
+|-boost|p2a: guy 3|spd|1
+|
+|-heal|p2a: guy 3|51/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: guy 3
+|-crit|p2a: guy 3
+|-damage|p2a: guy 3|34/100
+|-crit|p2a: guy 3
+|-damage|p2a: guy 3|16/100
+|-crit|p2a: guy 3
+|-damage|p2a: guy 3|0 fnt
+|faint|p2a: guy 3
+|-hitcount|p2: guy 3|3
+|
+|
+|switch|p2a: guy 5|Dragapult, F|100/100
+|turn|5
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: guy 5
+|-resisted|p2a: guy 5
+|-damage|p2a: guy 5|85/100
+|move|p2a: guy 5|Dragon Dance|p2a: guy 5
+|-boost|p2a: guy 5|atk|1
+|-boost|p2a: guy 5|spe|1
+|
+|-heal|p2a: guy 5|91/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: guy 5|Phantom Force||[still]
+|-prepare|p2a: guy 5|Phantom Force
+|move|p1a: Urshifu|Surging Strikes|p2a: guy 5|[miss]
+|-miss|p1a: Urshifu|p2a: guy 5
+|
+|-heal|p2a: guy 5|97/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: guy 5|Phantom Force|p1a: Zapdos|[from]lockedmove
+|-damage|p1a: Zapdos|13/100
+|-status|p2a: guy 5|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|-heal|p2a: guy 5|100/100 par|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Zapdos|Volt Switch|p2a: guy 5
+|-resisted|p2a: guy 5
+|-damage|p2a: guy 5|78/100 par
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100|[from] Volt Switch
+|-sideend|p1: RiloBR|move: Toxic Spikes|[of] p1a: Amoonguss
+|move|p2a: guy 5|Substitute|p2a: guy 5
+|-start|p2a: guy 5|Substitute
+|-damage|p2a: guy 5|53/100 par
+|
+|-heal|p2a: guy 5|59/100 par|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|10/100
+|move|p2a: guy 5|Dragon Dance|p2a: guy 5
+|-boost|p2a: guy 5|atk|1
+|-boost|p2a: guy 5|spe|1
+|
+|-heal|p2a: guy 5|65/100 par|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: guy 5|Phantom Force||[still]
+|-prepare|p2a: guy 5|Phantom Force
+|move|p1a: Urshifu|Surging Strikes|p2a: guy 5|[miss]
+|-miss|p1a: Urshifu|p2a: guy 5
+|
+|-heal|p2a: guy 5|71/100 par|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: guy 5|Phantom Force|p1a: Urshifu|[from]lockedmove
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-heal|p2a: guy 5|77/100 par|[from] item: Leftovers
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|12
+|
+|move|p2a: guy 5|Dragon Dance|p2a: guy 5
+|-boost|p2a: guy 5|atk|1
+|-boost|p2a: guy 5|spe|1
+|move|p1a: Pelipper|Hurricane|p2a: guy 5
+|-end|p2a: guy 5|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: guy 5|83/100 par|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: guy 5|Dragon Dance|p2a: guy 5
+|-boost|p2a: guy 5|atk|1
+|-boost|p2a: guy 5|spe|1
+|move|p1a: Pelipper|Hurricane|p2a: guy 5
+|-damage|p2a: guy 5|34/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: guy 5|40/100 par|[from] item: Leftovers
+|turn|14
+|
+|cant|p2a: guy 5|par
+|move|p1a: Pelipper|Hurricane|p2a: guy 5
+|-damage|p2a: guy 5|0 fnt
+|faint|p2a: guy 5
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: guy 1|Roaring Moon|100/100
+|-enditem|p2a: guy 1|Booster Energy
+|-activate|p2a: guy 1|ability: Protosynthesis|[fromitem]
+|-start|p2a: guy 1|protosynthesisatk
+|turn|15
+|
+|move|p2a: guy 1|Dragon Dance|p2a: guy 1
+|-boost|p2a: guy 1|atk|1
+|-boost|p2a: guy 1|spe|1
+|move|p1a: Pelipper|U-turn|p2a: guy 1
+|-supereffective|p2a: guy 1
+|-damage|p2a: guy 1|78/100
+|
+|switch|p1a: DANGER|Basculegion, M, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p1a: DANGER|Wave Crash|p2a: guy 1
+|-resisted|p2a: guy 1
+|-damage|p2a: guy 1|0 fnt
+|faint|p2a: guy 1
+|-end|p2a: guy 1|Protosynthesis|[silent]
+|-damage|p1a: DANGER|77/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: guy 2|Volcarona, F|100/100
+|turn|17
+|
+|move|p1a: DANGER|Wave Crash|p2a: guy 2
+|-supereffective|p2a: guy 2
+|-damage|p2a: guy 2|0 fnt
+|faint|p2a: guy 2
+|-damage|p1a: DANGER|50/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: satan|Kingambit, M|100/100
+|-activate|p2a: satan|ability: Supreme Overlord
+|-start|p2a: satan|fallen5|[silent]
+|turn|18
+|
+|move|p2a: satan|Sucker Punch|p1a: DANGER
+|-supereffective|p1a: DANGER
+|-damage|p1a: DANGER|0 fnt
+|faint|p1a: DANGER
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|turn|19
+|
+|move|p2a: satan|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|45/100
+|-enditem|p1a: Amoonguss|Eject Button
+|
+|switch|p1a: Zapdos|Zapdos|13/100
+|
+|-weather|none
+|turn|20
+|
+|move|p2a: satan|Sucker Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Amoonguss|Amoonguss, F|78/100
+|turn|21
+|
+|move|p2a: satan|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|22/100
+|cant|p1a: Amoonguss|flinch
+|
+|turn|22
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: satan|Iron Head|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|74/100
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|move|p2a: satan|Swords Dance|p2a: satan
+|-boost|p2a: satan|atk|2
+|move|p1a: Pelipper|Surf|p2a: satan
+|-damage|p2a: satan|55/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: satan|61/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: satan|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: satan|67/100|[from] item: Leftovers
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|25
+|
+|-terastallize|p1a: Hatterene|Steel
+|move|p2a: satan|Iron Head|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|38/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|switch|p1a: Amoonguss|Amoonguss, F|55/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: satan|73/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p1a: Hatterene|Hatterene, F, tera:Steel|38/100
+|move|p2a: satan|Iron Head|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: satan|79/100|[from] item: Leftovers
+|
+|switch|p1a: Amoonguss|Amoonguss, F|88/100
+|turn|27
+|
+|move|p2a: satan|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|win|Omnifinity

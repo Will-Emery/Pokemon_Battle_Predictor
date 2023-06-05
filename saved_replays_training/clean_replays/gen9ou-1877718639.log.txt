@@ -1,0 +1,185 @@
+|poke|p1|Indeedee, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Glimmora, F|
+|poke|p1|Gholdengo|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Zangoose, M|
+|poke|p2|Tropius, M|
+|poke|p2|Seviper, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Zangose|Zangoose, M|100/100
+|turn|1
+|
+|move|p2a: Zangose|Body Slam|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|78/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Rap's my Fave Meme|move: Toxic Spikes
+|move|p1a: Glimmora|Stealth Rock|p2a: Zangose
+|-sidestart|p2: Rap's my Fave Meme|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Zangose|Body Slam|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|52/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Rap's my Fave Meme|move: Toxic Spikes
+|move|p1a: Glimmora|Spikes|p2a: Zangose
+|-sidestart|p2: Rap's my Fave Meme|Spikes
+|
+|turn|3
+|
+|move|p2a: Zangose|Belly Drum|p2a: Zangose
+|-damage|p2a: Zangose|50/100
+|-setboost|p2a: Zangose|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Zangose|Sitrus Berry|[eat]
+|-heal|p2a: Zangose|75/100|[from] item: Sitrus Berry
+|move|p1a: Glimmora|Spikes|p2a: Zangose
+|-sidestart|p2: Rap's my Fave Meme|Spikes
+|
+|turn|4
+|
+|move|p2a: Zangose|Body Slam|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|5
+|
+|move|p2a: Zangose|Quick Attack|p1a: Chien-Pao
+|-enditem|p1a: Chien-Pao|Focus Sash
+|-damage|p1a: Chien-Pao|1/100
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Zangose
+|-supereffective|p2a: Zangose
+|-crit|p2a: Zangose
+|-damage|p2a: Zangose|0 fnt
+|faint|p2a: Zangose
+|
+|
+|switch|p2a: Sevper|Seviper, F|100/100
+|-sideend|p2: Rap's my Fave Meme|move: Toxic Spikes|[of] p2a: Sevper
+|-damage|p2a: Sevper|88/100|[from] Stealth Rock
+|-damage|p2a: Sevper|71/100|[from] Spikes
+|turn|6
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Sevper
+|-damage|p2a: Sevper|0 fnt
+|faint|p2a: Sevper
+|
+|
+|switch|p2a: the maddening ball|Electrode-Hisui|100/100
+|turn|7
+|
+|move|p2a: the maddening ball|Discharge|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|8
+|
+|move|p2a: the maddening ball|Substitute|p2a: the maddening ball
+|-start|p2a: the maddening ball|Substitute
+|-damage|p2a: the maddening ball|75/100
+|move|p1a: Indeedee|Psychic|p2a: the maddening ball
+|-end|p2a: the maddening ball|Substitute
+|
+|turn|9
+|
+|move|p2a: the maddening ball|Protect|p2a: the maddening ball
+|-singleturn|p2a: the maddening ball|Protect
+|move|p1a: Indeedee|Psychic|p2a: the maddening ball
+|-activate|p2a: the maddening ball|move: Protect
+|
+|turn|10
+|
+|move|p2a: the maddening ball|Substitute|p2a: the maddening ball
+|-start|p2a: the maddening ball|Substitute
+|-damage|p2a: the maddening ball|50/100
+|move|p1a: Indeedee|Psychic|p2a: the maddening ball
+|-end|p2a: the maddening ball|Substitute
+|
+|turn|11
+|
+|move|p2a: the maddening ball|Protect|p2a: the maddening ball
+|-singleturn|p2a: the maddening ball|Protect
+|move|p1a: Indeedee|Psychic|p2a: the maddening ball
+|-activate|p2a: the maddening ball|move: Protect
+|
+|turn|12
+|
+|move|p2a: the maddening ball|Substitute|p2a: the maddening ball
+|-start|p2a: the maddening ball|Substitute
+|-damage|p2a: the maddening ball|25/100
+|move|p1a: Indeedee|Psychic|p2a: the maddening ball
+|-end|p2a: the maddening ball|Substitute
+|
+|turn|13
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p2a: the maddening ball|Protect||[still]
+|-fail|p2a: the maddening ball
+|
+|turn|14
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: the maddening ball|Leech Seed|p1a: Sneasler|[miss]
+|-miss|p2a: the maddening ball|p1a: Sneasler
+|
+|turn|15
+|
+|move|p1a: Sneasler|Dire Claw|p2a: the maddening ball
+|-supereffective|p2a: the maddening ball
+|-damage|p2a: the maddening ball|0 fnt
+|faint|p2a: the maddening ball
+|
+|-fieldend|move: Psychic Terrain
+|
+|switch|p2a: rip hellfrog|Heatran, F|100/100
+|-damage|p2a: rip hellfrog|88/100|[from] Stealth Rock
+|-damage|p2a: rip hellfrog|71/100|[from] Spikes
+|turn|16
+|
+|-terastallize|p2a: rip hellfrog|Fire
+|move|p1a: Sneasler|Close Combat|p2a: rip hellfrog
+|-damage|p2a: rip hellfrog|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: rip hellfrog
+|
+|
+|switch|p2a: enormous chef|Enamorus, F|100/100
+|-damage|p2a: enormous chef|75/100|[from] Stealth Rock
+|turn|17
+|
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Acrobatics|p2a: enormous chef
+|-damage|p2a: enormous chef|0 fnt
+|faint|p2a: enormous chef
+|
+|
+|switch|p2a: Tropus|Tropius, M|100/100
+|-damage|p2a: Tropus|75/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Tropus
+|-supereffective|p2a: Tropus
+|-damage|p2a: Tropus|0 fnt
+|faint|p2a: Tropus
+|
+|win|Ivan Veiga

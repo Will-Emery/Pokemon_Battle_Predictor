@@ -1,1 +1,331 @@
-Could not connect
+|j|☆Moulou
+|j|☆Emosmatla
+|t:|1685878045
+|gametype|singles
+|player|p1|Moulou|fisherman-gen4|1564
+|player|p2|Emosmatla|az|1592
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Floatzel, F|
+|poke|p2|Tornadus, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1685878057
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|t:|1685878063
+|move|p2a: Iron Treads|Rapid Spin|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|92/100
+|-boost|p2a: Iron Treads|spe|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Emosmatla|move: Toxic Spikes
+|-sideend|p2: Emosmatla|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Glimmora|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|52/100
+|
+|upkeep
+|turn|2
+|
+|t:|1685878073
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|82/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1685878084
+|move|p2a: Iron Treads|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|22/100
+|move|p1a: Landorus|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685878093
+|switch|p2a: Floatzel|Floatzel, F|100/100
+|turn|4
+|
+|t:|1685878100
+|switch|p1a: Glimmora|Glimmora, M|92/100
+|move|p2a: Floatzel|Wave Crash|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Emosmatla|move: Toxic Spikes
+|faint|p1a: Glimmora
+|-damage|p2a: Floatzel|71/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1685878121
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|5
+|
+|t:|1685878132
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Meowscarada|Knock Off|p2a: Pelipper
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Pelipper|63/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685878147
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|95/100
+|
+|t:|1685878150
+|switch|p2a: Overqwil|Overqwil, F|100/100|[from] U-turn
+|-sideend|p2: Emosmatla|move: Toxic Spikes|[of] p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685878164
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Overqwil|Crunch|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|80/100
+|-damage|p2a: Overqwil|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1685878172
+|move|p2a: Overqwil|Taunt|p1a: Kingambit
+|-start|p1a: Kingambit|move: Taunt
+|cant|p1a: Kingambit|move: Taunt|Swords Dance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1685878179
+|move|p2a: Overqwil|Crunch|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|60/100
+|-damage|p2a: Overqwil|81/100|[from] item: Life Orb
+|move|p1a: Kingambit|Iron Head|p2a: Overqwil
+|-damage|p2a: Overqwil|19/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1685878186
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Overqwil|Destiny Bond|p2a: Overqwil
+|-singlemove|p2a: Overqwil|Destiny Bond
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Kingambit|move: Taunt
+|upkeep
+|turn|11
+|
+|t:|1685878197
+|move|p2a: Overqwil|Taunt|p1a: Kingambit
+|-start|p1a: Kingambit|move: Taunt
+|move|p1a: Kingambit|Iron Head|p2a: Overqwil
+|-crit|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685878205
+|switch|p2a: Pelipper|Pelipper, F|63/100
+|turn|12
+|
+|t:|1685878211
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|17/100
+|move|p2a: Pelipper|Surf|p1a: Kingambit
+|-damage|p1a: Kingambit|18/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1685878220
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-end|p1a: Kingambit|move: Taunt
+|upkeep
+|
+|t:|1685878223
+|switch|p2a: Floatzel|Floatzel, F|71/100
+|turn|14
+|
+|t:|1685878226
+|move|p2a: Floatzel|Aqua Jet|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1685878230
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|15
+|
+|t:|1685878235
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Tornadus
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|64/100
+|
+|upkeep
+|turn|16
+|
+|t:|1685878244
+|switch|p1a: Landorus|Landorus-Therian, M|22/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1685878251
+|move|p2a: Tornadus|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685878262
+|switch|p1a: Dragapult|Dragapult, M|95/100
+|turn|18
+|
+|t:|1685878274
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Emosmatla|move: Tailwind
+|move|p1a: Dragapult|Shadow Ball|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685878298
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|19
+|
+|t:|1685878302
+|-terastallize|p2a: Basculegion|Ghost
+|move|p2a: Basculegion|Tera Blast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685878324
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|20
+|
+|t:|1685878330
+|-terastallize|p1a: Volcarona|Grass
+|move|p2a: Basculegion|Tera Blast|p1a: Volcarona
+|-damage|p1a: Volcarona|27/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1685878337
+|move|p2a: Basculegion|Tera Blast|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Emosmatla|move: Tailwind
+|upkeep
+|
+|t:|1685878340
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|22
+|
+|t:|1685878347
+|move|p1a: Meowscarada|Knock Off|p2a: Basculegion
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-enditem|p2a: Basculegion|Choice Band|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685878351
+|switch|p2a: Floatzel|Floatzel, F|71/100
+|turn|23
+|
+|t:|1685878357
+|move|p2a: Floatzel|Wave Crash|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-damage|p2a: Floatzel|39/100|[from] Recoil
+|
+|win|Emosmatla
+|raw|Moulou's rating: 1564 → 1546(-18 for losing)
+|raw|Emosmatla's rating: 1592 → 1610(+18 for winning)
+|l|☆Moulou
+|c|☆Emosmatla|Gg

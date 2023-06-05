@@ -1,0 +1,114 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Dugtrio-Alola, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Venomoth, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Braviary-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio-Alola, F|100/100
+|switch|p2a: Hawks|Braviary-Hisui, M, shiny|100/100
+|turn|1
+|
+|-terastallize|p2a: Hawks|Psychic
+|move|p1a: Dugtrio|Stealth Rock|p2a: Hawks
+|-sidestart|p2: Th3K1ng123|move: Stealth Rock
+|move|p2a: Hawks|Esper Wing|p1a: Dugtrio
+|-resisted|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|-boost|p2a: Hawks|spe|1
+|
+|turn|2
+|
+|move|p2a: Hawks|Esper Wing|p1a: Dugtrio
+|-resisted|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-boost|p2a: Hawks|spe|1
+|faint|p1a: Dugtrio
+|
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|3
+|
+|move|p2a: Hawks|Esper Wing|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|-boost|p2a: Hawks|spe|1
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Hawks
+|drag|p2a: Woofers|Arcanine-Hisui, M, shiny|100/100
+|-damage|p2a: Woofers|88/100|[from] Stealth Rock
+|move|p1a: Mimikyu|Copycat|p1a: Mimikyu
+|move|p1a: Mimikyu|Esper Wing|p2a: Woofers|[from]move: Copycat
+|-damage|p2a: Woofers|70/100
+|-boost|p1a: Mimikyu|spe|1
+|replace|p2a: Surprise MF|Zoroark-Hisui, M, shiny
+|-end|p2a: Surprise MF|Illusion
+|
+|turn|4
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Surprise MF
+|-damage|p2a: Surprise MF|5/100
+|-unboost|p2a: Surprise MF|atk|1
+|move|p2a: Surprise MF|Shadow Ball|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|1/100
+|
+|turn|5
+|
+|move|p1a: Mimikyu|Copycat|p1a: Mimikyu
+|move|p1a: Mimikyu|Shadow Ball|p2a: Surprise MF|[from]move: Copycat
+|-immune|p2a: Surprise MF
+|move|p2a: Surprise MF|Shadow Ball|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|6
+|
+|move|p2a: Surprise MF|Hyper Voice|p1a: Thundurus
+|-damage|p1a: Thundurus|36/100
+|-enditem|p2a: Surprise MF|Throat Spray
+|-boost|p2a: Surprise MF|spa|1|[from] item: Throat Spray
+|move|p1a: Thundurus|Volt Switch|p2a: Surprise MF
+|-damage|p2a: Surprise MF|0 fnt
+|faint|p2a: Surprise MF
+|
+|switch|p1a: Venomoth|Venomoth, M, shiny|100/100|[from] Volt Switch
+|
+|
+|switch|p2a: Spooks|Typhlosion-Hisui, M, shiny|100/100
+|-damage|p2a: Spooks|75/100|[from] Stealth Rock
+|-item|p1a: Venomoth|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Spooks|[identify]
+|turn|7
+|
+|move|p2a: Spooks|Eruption|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|8
+|
+|move|p2a: Spooks|Eruption|p1a: Ursaluna
+|-damage|p1a: Ursaluna|69/100
+|move|p1a: Ursaluna|Play Rough|p2a: Spooks
+|-resisted|p2a: Spooks
+|-damage|p2a: Spooks|52/100
+|
+|turn|9
+|-message|arcadestarjosten forfeited.
+|
+|win|Th3K1ng123

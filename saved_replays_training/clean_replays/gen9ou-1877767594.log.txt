@@ -1,0 +1,217 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Sneasler, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Cinderace, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Magearna|
+|poke|p2|Toxapex, F|
+|poke|p2|Kleavor, M|
+|poke|p2|Sneasler, M|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kleavor|atk|1
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Landorus
+|-damage|p1a: Landorus|74/100
+|-sidestart|p1: treeshhhh|move: Stealth Rock
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|
+|-heal|p1a: Landorus|80/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Landorus
+|-damage|p1a: Landorus|54/100
+|move|p1a: Landorus|Earthquake|p2a: Kleavor
+|-enditem|p2a: Kleavor|Focus Sash
+|-damage|p2a: Kleavor|1/100
+|
+|-heal|p1a: Landorus|60/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Landorus
+|-damage|p1a: Landorus|32/100
+|move|p1a: Landorus|Earthquake|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|-heal|p1a: Landorus|38/100|[from] item: Leftovers
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|4
+|
+|move|p2a: Sneasler|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|43/100
+|
+|turn|6
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|High Jump Kick|p1a: Heatran
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|86/100
+|
+|-heal|p2a: Toxapex|92/100|[from] item: Black Sludge
+|turn|8
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|94/100
+|-damage|p1a: Gholdengo|88/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Toxapex|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|69/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|turn|9
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Toxapex|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|52/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|turn|10
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|turn|11
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Toxapex|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|32/100
+|
+|turn|12
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|38/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|44/100|[from] item: Black Sludge
+|turn|13
+|
+|switch|p2a: Cinderace|Cinderace, M|43/100
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|82/100
+|
+|turn|14
+|
+|-terastallize|p1a: Gholdengo|Flying
+|move|p2a: Cinderace|Pyro Ball|p1a: Gholdengo
+|-damage|p1a: Gholdengo|35/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|15
+|
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|85/100
+|move|p2a: Magearna|Draining Kiss|p1a: Gholdengo
+|-damage|p1a: Gholdengo|59/100
+|
+|turn|16
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Magearna|Ice Beam|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Sneasler|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|19/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Magearna|Flash Cannon|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|94/100
+|-damage|p1a: Iron Valiant|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Iron Valiant|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|19
+|
+|move|p1a: Iron Valiant|Close Combat|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|50/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Sneasler|Gunk Shot|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Sneasler|Gunk Shot|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|win|Veisatiopileven

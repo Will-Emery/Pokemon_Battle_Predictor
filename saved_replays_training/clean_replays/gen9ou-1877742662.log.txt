@@ -1,0 +1,140 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Volcarona, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Garganacl, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Great Tusk|
+|poke|p2|Garchomp, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Poacher|Cinderace, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|1
+|
+|move|p1a: Poacher|U-turn|p2a: Urshifu
+|-start|p1a: Poacher|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|83/100
+|
+|switch|p1a: Fall Guy|Clodsire, F, shiny|100/100|[from] U-turn
+|move|p2a: Urshifu|U-turn|p1a: Fall Guy
+|-resisted|p1a: Fall Guy
+|-damage|p1a: Fall Guy|88/100
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100|[from] U-turn
+|
+|-heal|p1a: Fall Guy|94/100|[from] item: Black Sludge
+|turn|2
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Fall Guy
+|-sidestart|p1: lakemera|move: Stealth Rock
+|move|p1a: Fall Guy|Toxic|p2a: Great Tusk
+|-status|p2a: Great Tusk|tox
+|
+|-heal|p1a: Fall Guy|100/100|[from] item: Black Sludge
+|-damage|p2a: Great Tusk|94/100 tox|[from] psn
+|turn|3
+|
+|move|p1a: Fall Guy|Protect|p1a: Fall Guy
+|-singleturn|p1a: Fall Guy|Protect
+|move|p2a: Great Tusk|Earthquake|p1a: Fall Guy
+|-activate|p1a: Fall Guy|move: Protect
+|
+|-heal|p2a: Great Tusk|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Great Tusk|88/100 tox|[from] psn
+|turn|4
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Fall Guy
+|-supereffective|p1a: Fall Guy
+|-damage|p1a: Fall Guy|5/100
+|move|p1a: Fall Guy|Recover|p1a: Fall Guy
+|-heal|p1a: Fall Guy|55/100
+|
+|-heal|p2a: Great Tusk|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Fall Guy|61/100|[from] item: Black Sludge
+|-damage|p2a: Great Tusk|76/100 tox|[from] psn
+|turn|5
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p1a: Fall Guy|Protect||[still]
+|-fail|p1a: Fall Guy
+|
+|-heal|p1a: Fall Guy|67/100|[from] item: Black Sludge
+|turn|6
+|
+|move|p2a: Arcanine|Psychic Fangs|p1a: Fall Guy
+|-supereffective|p1a: Fall Guy
+|-damage|p1a: Fall Guy|0 fnt
+|faint|p1a: Fall Guy
+|
+|
+|switch|p1a: Poacher|Cinderace, M|100/100
+|turn|7
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|76/100 tox
+|move|p1a: Poacher|Court Change|p1a: Poacher
+|-start|p1a: Poacher|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Poacher|move: Court Change
+|
+|-heal|p2a: Great Tusk|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Great Tusk|76/100 tox|[from] psn
+|turn|8
+|
+|move|p1a: Poacher|High Jump Kick|p2a: Great Tusk
+|-damage|p2a: Great Tusk|55/100 tox
+|move|p2a: Great Tusk|Stealth Rock|p1a: Poacher
+|-sidestart|p1: lakemera|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|61/100 tox|[from] item: Leftovers
+|-damage|p2a: Great Tusk|49/100 tox|[from] psn
+|turn|9
+|
+|move|p1a: Poacher|High Jump Kick|p2a: Great Tusk
+|-damage|p2a: Great Tusk|27/100 tox
+|move|p2a: Great Tusk|Earthquake|p1a: Poacher
+|-damage|p1a: Poacher|36/100
+|
+|-heal|p2a: Great Tusk|33/100 tox|[from] item: Leftovers
+|-damage|p2a: Great Tusk|14/100 tox|[from] psn
+|turn|10
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Poacher|Pyro Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|70/100
+|
+|turn|11
+|
+|switch|p1a: Sun Goddess|Volcarona, F|100/100
+|-damage|p1a: Sun Goddess|51/100|[from] Stealth Rock
+|move|p2a: Zapdos|Volt Switch|p1a: Sun Goddess
+|-damage|p1a: Sun Goddess|21/100
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100|[from] Volt Switch
+|-damage|p2a: Arcanine|76/100|[from] Stealth Rock
+|
+|turn|12
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Sun Goddess
+|-damage|p1a: Sun Goddess|0 fnt
+|faint|p1a: Sun Goddess
+|
+|
+|switch|p1a: Poacher|Cinderace, M|36/100
+|turn|13
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Poacher
+|-damage|p1a: Poacher|0 fnt
+|faint|p1a: Poacher
+|
+|-message|lakemera forfeited.
+|
+|win|Jorgor well

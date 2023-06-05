@@ -1,0 +1,342 @@
+|poke|p1|Meloetta|
+|poke|p1|Zamazenta-*|
+|poke|p1|Glimmora, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Flareon, M|
+|poke|p2|Gholdengo|
+|poke|p2|Heatran, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: Meloetta|Meloetta|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Glimmora|Glimmora, F, shiny|100/100
+|-item|p1a: Glimmora|Air Balloon
+|
+|turn|2
+|
+|switch|p1a: Flareon|Flareon, M, shiny|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Flareon
+|-damage|p1a: Flareon|47/100
+|-damage|p2a: Corviknight|86/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|92/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|turn|4
+|
+|move|p1a: Flareon|Protect|p1a: Flareon
+|-singleturn|p1a: Flareon|Protect
+|move|p2a: Great Tusk|Knock Off|p1a: Flareon
+|-activate|p1a: Flareon|move: Protect
+|
+|-heal|p1a: Flareon|97/100|[from] move: Wish|[wisher] Flareon
+|turn|5
+|
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|83/100
+|-enditem|p1a: Samurott|Choice Scarf|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|6
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|56/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Samurott
+|-damage|p1a: Samurott|66/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-heal|p2a: Great Tusk|62/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|move|p2a: Great Tusk|Body Press|p1a: Meloetta
+|-immune|p1a: Meloetta
+|
+|-heal|p2a: Great Tusk|68/100|[from] item: Leftovers
+|turn|8
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F, shiny|92/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Meloetta|Trick|p2a: Corviknight
+|-activate|p1a: Meloetta|move: Trick|[of] p2a: Corviknight
+|-item|p2a: Corviknight|Choice Specs|[from] move: Trick
+|-item|p1a: Meloetta|Leftovers|[from] move: Trick
+|
+|turn|9
+|
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|66/100
+|move|p2a: Corviknight|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|26/100
+|
+|switch|p2a: Dragonite|Dragonite, F, shiny|100/100|[from] U-turn
+|
+|turn|10
+|
+|switch|p1a: Glimmora|Glimmora, F, shiny|100/100
+|-item|p1a: Glimmora|Air Balloon
+|move|p2a: Dragonite|Extreme Speed|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|75/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: run for me plz|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Air Balloon
+|
+|turn|11
+|
+|move|p1a: Glimmora|Power Gem|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|35/100
+|move|p2a: Dragonite|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: run for me plz|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|12
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Meloetta
+|-immune|p1a: Meloetta
+|move|p1a: Meloetta|Shadow Ball|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|92/100
+|-ability|p2a: Corviknight|Pressure
+|turn|13
+|
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|26/100
+|move|p2a: Corviknight|Defog|p1a: Samurott
+|-unboost|p1a: Samurott|evasion|1
+|-sideend|p2: run for me plz|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|turn|14
+|
+|switch|p2a: Great Tusk|Great Tusk|68/100
+|move|p1a: Samurott|Aqua Cutter|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|19/100
+|
+|-heal|p2a: Great Tusk|26/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|15/100
+|-sidestart|p2: run for me plz|Spikes
+|move|p2a: Great Tusk|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Great Tusk|21/100|[from] item: Leftovers
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|16
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F, shiny|92/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Meloetta|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|
+|turn|17
+|
+|move|p1a: Meloetta|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|88/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|18
+|
+|switch|p2a: Heatran|Heatran, M, shiny|100/100
+|-damage|p2a: Heatran|88/100|[from] Spikes
+|move|p1a: Meloetta|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|63/100
+|
+|-heal|p2a: Heatran|69/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Meloetta|Focus Blast|p2a: Heatran|[miss]
+|-miss|p1a: Meloetta|p2a: Heatran
+|move|p2a: Heatran|Magma Storm|p1a: Meloetta
+|-damage|p1a: Meloetta|5/100
+|-activate|p1a: Meloetta|move: Magma Storm|[of] p2a: Heatran
+|replace|p1a: Zoroark|Zoroark-Hisui, M, shiny
+|-end|p1a: Zoroark|Illusion
+|
+|-heal|p1a: Zoroark|11/100|[from] item: Leftovers
+|-heal|p2a: Heatran|76/100|[from] item: Leftovers
+|-damage|p1a: Zoroark|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p1a: Zoroark
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|20
+|
+|move|p1a: Meloetta|Relic Song|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|66/100
+|-formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+|move|p2a: Heatran|Magma Storm|p1a: Meloetta
+|-damage|p1a: Meloetta|47/100
+|-activate|p1a: Meloetta|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|73/100|[from] item: Leftovers
+|-damage|p1a: Meloetta|35/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|21
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|88/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Meloetta|Swords Dance|p1a: Meloetta
+|-boost|p1a: Meloetta|atk|2
+|
+|-end|p1a: Meloetta|Magma Storm|[partiallytrapped]|[silent]
+|turn|22
+|
+|move|p1a: Meloetta|Zen Headbutt|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|move|p2a: Corviknight|Defog|p1a: Meloetta
+|-unboost|p1a: Meloetta|evasion|1
+|-sideend|p2: run for me plz|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|turn|23
+|
+|switch|p2a: Heatran|Heatran, M, shiny|73/100
+|move|p1a: Meloetta|Zen Headbutt|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|47/100
+|
+|-heal|p2a: Heatran|54/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Meloetta|Zen Headbutt|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|32/100
+|cant|p2a: Heatran|flinch
+|
+|-heal|p2a: Heatran|38/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Meloetta|Zen Headbutt|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|13/100
+|move|p2a: Heatran|Magma Storm|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|-heal|p2a: Heatran|20/100|[from] item: Leftovers
+|
+|switch|p1a: Zamazenta|Zamazenta, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|26
+|
+|move|p1a: Zamazenta|Crunch|p2a: Heatran
+|-damage|p2a: Heatran|3/100
+|move|p2a: Heatran|Taunt|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Taunt
+|
+|-heal|p2a: Heatran|9/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Zamazenta|Crunch|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|28
+|
+|switch|p1a: Flareon|Flareon, M, shiny|97/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Flareon
+|-damage|p1a: Flareon|47/100
+|
+|turn|29
+|
+|-terastallize|p1a: Flareon|Dark
+|move|p2a: Gholdengo|Shadow Ball|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|22/100
+|-unboost|p1a: Flareon|spd|1
+|move|p1a: Flareon|Flare Blitz|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Flareon|0 fnt|[from] Recoil
+|faint|p1a: Flareon
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|switch|p1a: Zamazenta|Zamazenta, shiny|100/100
+|turn|30
+|
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Tera Blast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|47/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|54/100|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Dragapult|Tera Blast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|27/100
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|45/100
+|-unboost|p2a: Dragapult|def|1
+|
+|-heal|p1a: Zamazenta|33/100|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Dragapult|Tera Blast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|9/100
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Zamazenta|15/100|[from] item: Leftovers
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|65/100
+|-ability|p2a: Corviknight|Pressure
+|turn|33
+|
+|move|p1a: Zamazenta|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Zamazenta|21/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk|21/100
+|turn|34
+|
+|move|p1a: Zamazenta|Body Press|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|win|Envymetta_TTV

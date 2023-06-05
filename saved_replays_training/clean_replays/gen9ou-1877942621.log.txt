@@ -1,0 +1,40 @@
+|poke|p1|Kleavor, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Iron Treads|
+|poke|p1|Rabsca, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Rotom-Heat|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Philips|Rotom-Heat|100/100
+|turn|1
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Philips
+|-supereffective|p2a: Philips
+|-damage|p2a: Philips|0 fnt
+|-sidestart|p2: Quackstorm|move: Stealth Rock
+|faint|p2a: Philips
+|
+|
+|switch|p2a: torkoal btfo|Pelipper, F|100/100
+|-damage|p2a: torkoal btfo|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: torkoal btfo
+|turn|2
+|
+|move|p1a: Kleavor|Stone Axe|p2a: torkoal btfo
+|-supereffective|p2a: torkoal btfo
+|-damage|p2a: torkoal btfo|0 fnt
+|faint|p2a: torkoal btfo
+|
+|-weather|RainDance|[upkeep]
+|-message|Quackstorm forfeited.
+|
+|win|L34D3R M1STY

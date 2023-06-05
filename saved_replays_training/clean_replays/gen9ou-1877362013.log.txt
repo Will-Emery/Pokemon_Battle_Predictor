@@ -1,0 +1,343 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p1|Floatzel, F|
+|poke|p1|Magearna|
+|poke|p2|Alomomola, M|
+|poke|p2|Scream Tail|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Magearna|Volt Switch|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Magearna
+|-sidestart|p2: TrulyAtrocious|move: Stealth Rock
+|move|p2a: Magearna|Fleur Cannon|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Great Tusk
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Floatzel|Floatzel, F|100/100
+|turn|3
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|-terastallize|p1a: Floatzel|Water
+|move|p1a: Floatzel|Wave Crash|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Floatzel|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Floatzel|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-damage|p1a: Floatzel|36/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|move|p1a: Zapdos|Hurricane|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|80/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|6
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Magearna
+|-damage|p2a: Magearna|81/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Volt Switch
+|move|p2a: Magearna|Ice Beam|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magearna|93/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Magearna|Spikes|p2a: Magearna
+|-sidestart|p2: TrulyAtrocious|Spikes
+|move|p2a: Magearna|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|72/100
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] Volt Switch
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|-damage|p2a: Ursaluna|82/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magearna|79/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|8
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Ursaluna
+|-damage|p2a: Ursaluna|16/100 brn
+|-unboost|p1a: Magearna|spa|2
+|move|p2a: Ursaluna|Facade|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|22/100
+|
+|-weather|none
+|-heal|p1a: Magearna|28/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|10/100 brn|[from] brn
+|turn|9
+|
+|switch|p2a: Scream Tail|Scream Tail|100/100
+|-damage|p2a: Scream Tail|88/100|[from] Stealth Rock
+|-damage|p2a: Scream Tail|76/100|[from] Spikes
+|move|p1a: Magearna|Fleur Cannon|p2a: Scream Tail
+|-damage|p2a: Scream Tail|55/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p2a: Scream Tail|61/100|[from] item: Leftovers
+|-heal|p1a: Magearna|34/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scream Tail|67/100|[from] item: Leftovers
+|turn|11
+|
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Ursaluna|Ursaluna, M|10/100 brn
+|-damage|p2a: Ursaluna|4/100 brn|[from] Stealth Rock
+|-damage|p2a: Ursaluna|0 fnt|[from] Spikes
+|faint|p2a: Ursaluna
+|move|p1a: Pelipper|Knock Off|p2: Ursaluna|[notarget]
+|-fail|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Magearna|Magearna|81/100
+|-damage|p2a: Magearna|75/100|[from] Stealth Rock
+|-damage|p2a: Magearna|63/100|[from] Spikes
+|turn|12
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Magearna|Volt Switch|p1a: Zapdos
+|-damage|p1a: Zapdos|69/100
+|
+|switch|p2a: Scream Tail|Scream Tail|67/100|[from] Volt Switch
+|-damage|p2a: Scream Tail|55/100|[from] Stealth Rock
+|-damage|p2a: Scream Tail|42/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scream Tail|49/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p1a: Zapdos|Thunder|p2a: Scream Tail
+|-activate|p2a: Scream Tail|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scream Tail|55/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Zapdos|Thunder|p2a: Scream Tail
+|-damage|p2a: Scream Tail|27/100
+|-status|p2a: Scream Tail|par
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Scream Tail|33/100 par|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Floatzel|Floatzel, F, tera:Water|36/100
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|63/100
+|-damage|p2a: Magearna|57/100|[from] Stealth Rock
+|-damage|p2a: Magearna|44/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|100/100|[from] move: Wish|[wisher] Scream Tail
+|turn|16
+|
+|switch|p2a: Scream Tail|Scream Tail|33/100 par
+|-damage|p2a: Scream Tail|21/100 par|[from] Stealth Rock
+|-damage|p2a: Scream Tail|9/100 par|[from] Spikes
+|move|p1a: Floatzel|Wave Crash|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|-damage|p1a: Floatzel|32/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|-damage|p2a: Goodra|82/100|[from] Spikes
+|turn|17
+|
+|switch|p1a: Zapdos|Zapdos|69/100
+|move|p2a: Goodra|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|none
+|turn|18
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|74/100
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Goodra|Flamethrower|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|89/100
+|
+|-weather|RainDance|[upkeep]
+|turn|19
+|
+|move|p1a: Pelipper|U-turn|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|70/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Pelipper|spe|1
+|
+|switch|p1a: Magearna|Magearna|34/100|[from] U-turn
+|move|p2a: Goodra|Draco Meteor|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magearna|40/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Magearna|Pain Split|p2a: Goodra
+|-sethp|p2a: Goodra|55/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Magearna|55/100|[from] move: Pain Split
+|move|p2a: Goodra|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|19/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magearna|25/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Goodra
+|-damage|p2a: Goodra|25/100
+|-unboost|p1a: Magearna|spa|2
+|move|p2a: Goodra|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|22
+|
+|move|p1a: Urshifu|Close Combat|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Urshifu|spe|1
+|faint|p2a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|-damage|p2a: Magearna|82/100|[from] Spikes
+|turn|23
+|
+|switch|p1a: Zapdos|Zapdos|69/100
+|move|p2a: Magearna|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Floatzel|Floatzel, F, tera:Water|32/100
+|turn|24
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|-damage|p2a: Alomomola|76/100|[from] Spikes
+|move|p1a: Floatzel|Wave Crash|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|26/100
+|-damage|p1a: Floatzel|4/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|33/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Floatzel|Wave Crash|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|-damage|p1a: Floatzel|0 fnt|[from] Recoil
+|faint|p1a: Floatzel
+|
+|-weather|none
+|
+|switch|p1a: Pelipper|Pelipper, F|89/100
+|switch|p2a: Magearna|Magearna|82/100
+|-damage|p2a: Magearna|76/100|[from] Stealth Rock
+|-damage|p2a: Magearna|64/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|26
+|
+|move|p2a: Magearna|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|27
+|
+|-terastallize|p2a: Magearna|Fighting
+|move|p1a: Urshifu|Surging Strikes|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|34/100
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|7/100
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-hitcount|p2: Magearna|3
+|
+|win|MonkweyGwoose

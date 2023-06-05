@@ -1,0 +1,194 @@
+|poke|p1|Kleavor, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Iron Treads|
+|poke|p1|Rabsca, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Pincurchin, M|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Hands|
+|poke|p2|Iron Jugulis|
+|poke|p2|Iron Leaves|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|turn|1
+|
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Iron Treads
+|-damage|p1a: Iron Treads|44/100
+|move|p1a: Iron Treads|Ice Spinner|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|38/100
+|
+|turn|2
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|22/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|turn|4
+|
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|move|p1a: Basculegion|Wave Crash|p2a: Iron Hands
+|-damage|p2a: Iron Hands|23/100
+|-damage|p1a: Basculegion|71/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Hands|30/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|-damage|p1a: Basculegion|59/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Iron Leaves|Iron Leaves|100/100
+|turn|6
+|
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Iron Leaves
+|-resisted|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|0 fnt
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|-damage|p1a: Basculegion|31/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|7
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Basculegion|Wave Crash|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Basculegion|0 fnt|[from] Recoil
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Iron Jugulis|Iron Jugulis|38/100
+|switch|p1a: Rabsca|Rabsca, F|100/100
+|-activate|p2a: Iron Jugulis|ability: Quark Drive
+|-start|p2a: Iron Jugulis|quarkdrivespa
+|turn|8
+|
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Rabsca
+|-supereffective|p1a: Rabsca
+|-enditem|p1a: Rabsca|Focus Sash
+|-damage|p1a: Rabsca|1/100
+|move|p1a: Rabsca|Trick Room|p1a: Rabsca
+|-fieldstart|move: Trick Room|[of] p1a: Rabsca
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p1a: Rabsca|Dazzling Gleam|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|-weather|none
+|
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|turn|10
+|
+|move|p2a: Pincurchin|Discharge|p1a: Rabsca
+|-damage|p1a: Rabsca|0 fnt
+|faint|p1a: Rabsca
+|
+|
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|turn|11
+|
+|move|p2a: Pincurchin|Discharge|p1a: Kleavor
+|-damage|p1a: Kleavor|45/100
+|move|p1a: Kleavor|Stone Axe|p2a: Pincurchin|[miss]
+|-miss|p1a: Kleavor|p2a: Pincurchin
+|
+|turn|12
+|
+|switch|p1a: Iron Treads|Iron Treads|44/100
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdriveatk
+|move|p2a: Pincurchin|Discharge|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|-fieldend|move: Trick Room
+|turn|13
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-activate|p2a: Iron Valiant|ability: Quark Drive
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Iron Treads|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|11/100
+|
+|turn|14
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Kleavor|Kleavor, F|45/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Valiant|Quark Drive
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|15
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|16
+|
+|move|p1a: Dragonite|Hydro Pump|p2a: Pincurchin
+|-damage|p2a: Pincurchin|69/100
+|move|p2a: Pincurchin|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|17
+|
+|move|p1a: Dragonite|Hydro Pump|p2a: Pincurchin
+|-crit|p2a: Pincurchin
+|-damage|p2a: Pincurchin|20/100
+|move|p2a: Pincurchin|Discharge|p1a: Dragonite
+|-damage|p1a: Dragonite|83/100 par
+|
+|turn|18
+|
+|move|p1a: Dragonite|Hydro Pump|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|win|L34D3R M1STY

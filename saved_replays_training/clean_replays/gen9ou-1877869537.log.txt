@@ -1,0 +1,116 @@
+|poke|p1|Wyrdeer, M|
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Glastrier|
+|poke|p1|Iron Hands|
+|poke|p2|Goodra, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Maushold-Four|
+|poke|p2|Volcanion|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|start
+|switch|p1a: Wyrdeer|Wyrdeer, M, shiny|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-ability|p1a: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Glimmora|atk|1
+|turn|1
+|
+|move|p2a: Glimmora|Stealth Rock|p1a: Wyrdeer
+|-sidestart|p1: MajoraWaffled|move: Stealth Rock
+|move|p1a: Wyrdeer|Trick Room|p1a: Wyrdeer
+|-fieldstart|move: Trick Room|[of] p1a: Wyrdeer
+|
+|turn|2
+|
+|move|p1a: Wyrdeer|Psyshield Bash|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|19/100
+|-boost|p1a: Wyrdeer|def|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: MajoraWaffled|move: Toxic Spikes
+|move|p2a: Glimmora|Mortal Spin|p1a: Wyrdeer
+|-damage|p1a: Wyrdeer|98/100
+|-status|p1a: Wyrdeer|psn
+|
+|-heal|p1a: Wyrdeer|100/100 psn|[from] item: Leftovers
+|-damage|p1a: Wyrdeer|88/100 psn|[from] psn
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Wyrdeer|Psyshield Bash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|85/100
+|-boost|p1a: Wyrdeer|def|1
+|
+|-heal|p1a: Wyrdeer|94/100 psn|[from] item: Leftovers
+|-heal|p2a: Corviknight|92/100|[from] item: Leftovers
+|-damage|p1a: Wyrdeer|82/100 psn|[from] psn
+|turn|4
+|
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|-sideend|p1: MajoraWaffled|move: Toxic Spikes|[of] p1a: Slowking
+|move|p2a: Corviknight|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|96/100
+|
+|-heal|p2a: Corviknight|98/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, M, shiny|100/100|[from] Chilly Reception
+|-damage|p1a: Avalugg|76/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p2a: Volcanion|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|
+|-weather|Snow|[upkeep]
+|turn|7
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|-damage|p1a: Glastrier|76/100|[from] Stealth Rock
+|move|p2a: Volcanion|Earth Power|p1a: Glastrier
+|-damage|p1a: Glastrier|50/100
+|-unboost|p1a: Glastrier|spd|1
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|move|p2a: Volcanion|Flamethrower|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|faint|p1a: Glastrier
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-damage|p1a: Iron Hands|94/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Lesma|Goodra, F|100/100
+|-terastallize|p1a: Iron Hands|Fighting
+|move|p1a: Iron Hands|Close Combat|p2a: Lesma
+|-damage|p2a: Lesma|0 fnt
+|-unboost|p1a: Iron Hands|def|1
+|-unboost|p1a: Iron Hands|spd|1
+|-ability|p2a: Lesma|Gooey
+|-unboost|p1a: Iron Hands|spe|1
+|faint|p2a: Lesma
+|
+|-weather|none
+|-message|MajoraWaffled forfeited.
+|
+|win|LucasCelebrom

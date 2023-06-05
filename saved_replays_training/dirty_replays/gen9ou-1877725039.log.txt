@@ -1,1 +1,155 @@
-Could not connect
+|j|☆reading59
+|j|☆T8XICIDAD
+|t:|1685901733
+|gametype|singles
+|player|p1|reading59|102|1103
+|player|p2|T8XICIDAD|clair|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Basculegion-F, F|
+|poke|p1|Magearna|
+|poke|p1|Kleavor, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|t:|1685901752
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1685901759
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|move|p2a: Slowking|Future Sight|p1a: Magearna
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|t:|1685901764
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|t:|1685901777
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1685901793
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Magearna|move: Future Sight
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|89/100
+|-heal|p1a: Magearna|95/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685901805
+|-terastallize|p1a: Magearna|Psychic
+|move|p1a: Magearna|Stored Power|p2a: Ursaluna
+|-damage|p2a: Ursaluna|21/100 brn
+|move|p2a: Ursaluna|Earthquake|p1a: Magearna
+|-damage|p1a: Magearna|54/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Magearna|60/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|15/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685901818
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Magearna|Draining Kiss|p2a: Kingambit
+|-damage|p2a: Kingambit|69/100
+|-heal|p1a: Magearna|86/100|[from] drain|[of] p2a: Kingambit
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Magearna|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685901827
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-weather|none
+|-heal|p1a: Magearna|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685901834
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685901840
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|36/100
+|move|p1a: Magearna|Draining Kiss|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-heal|p1a: Magearna|93/100|[from] drain|[of] p2a: Kingambit
+|faint|p2a: Kingambit
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|-heal|p1a: Magearna|99/100|[from] item: Leftovers
+|upkeep
+|c|☆T8XICIDAD|Ojala te mueras
+|n|‽T8XICIDAD|t8xicidad
+|c|&|/log T8XICIDAD was locked from talking by Artemis. (☆T8XICIDAD: Ojala te mueras)
+|c|&|/raw This action was done automatically. Want to learn more about the AI? Visit the information thread.
+|l|‽T8XICIDAD
+|player|p2|
+|j|‽T8XICIDAD
+|player|p2|T8XICIDAD|clair
+|-message|T8XICIDAD forfeited.
+|
+|win|reading59
+|raw|reading59's rating: 1103 → 1129(+26 for winning)
+|raw|T8XICIDAD's rating: 1116 → 1090(-26 for losing)
+|l|‽T8XICIDAD

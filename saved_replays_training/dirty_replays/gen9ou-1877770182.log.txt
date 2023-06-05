@@ -1,1 +1,366 @@
-Could not connect
+|j|☆the2thomasklu8
+|j|☆ravensoot
+|t:|1685906456
+|gametype|singles
+|player|p1|the2thomasklu8|cynthia-gen4|1108
+|player|p2|ravensoot|marnie|1150
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Chien-Pao|
+|poke|p1|Magearna|
+|poke|p1|Kleavor, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Treads|
+|poke|p2|Rillaboom, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ravensoot)
+|
+|t:|1685906463
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1685906471
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Rillaboom|Knock Off|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|95/100
+|
+|-heal|p1a: Iron Valiant|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1685906481
+|move|p1a: Iron Valiant|Moonblast|p2a: Rillaboom
+|-damage|p2a: Rillaboom|20/100
+|-enditem|p2a: Rillaboom|Eject Button
+|
+|t:|1685906485
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-enditem|p2a: Sneasler|Grassy Seed
+|-boost|p2a: Sneasler|def|1|[from] item: Grassy Seed
+|
+|upkeep
+|turn|3
+|
+|t:|1685906493
+|move|p2a: Sneasler|Gunk Shot|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685906500
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|4
+|
+|t:|1685906506
+|-terastallize|p1a: Iron Treads|Flying
+|move|p2a: Sneasler|Close Combat|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|76/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|move|p1a: Iron Treads|Earthquake|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|34/100
+|
+|-heal|p2a: Sneasler|40/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1685906516
+|move|p2a: Sneasler|Gunk Shot|p1a: Iron Treads
+|-damage|p1a: Iron Treads|28/100
+|move|p1a: Iron Treads|Earthquake|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1685906528
+|switch|p2a: Rillaboom|Rillaboom, M|20/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|6
+|
+|t:|1685906535
+|move|p1a: Iron Treads|Volt Switch|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|13/100
+|
+|t:|1685906540
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Magearna|Magearna|100/100|[from] Volt Switch
+|move|p2a: Rillaboom|Seed Bomb|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|82/100
+|
+|-heal|p2a: Rillaboom|19/100|[from] Grassy Terrain
+|-heal|p1a: Magearna|88/100|[from] Grassy Terrain
+|-heal|p1a: Magearna|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685906549
+|move|p2a: Rillaboom|Leech Seed|p1a: Magearna
+|-start|p1a: Magearna|move: Leech Seed
+|move|p1a: Magearna|Dazzling Gleam|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|99/100|[from] Grassy Terrain
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685906558
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|8
+|
+|t:|1685906563
+|move|p2a: Great Tusk|Headlong Rush|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|11/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Magearna|Dazzling Gleam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Magearna|17/100|[from] Grassy Terrain
+|-heal|p1a: Magearna|23/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685906575
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|9
+|
+|t:|1685906582
+|move|p2a: Enamorus|Superpower|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Magearna
+|
+|upkeep
+|
+|t:|1685906599
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|10
+|
+|t:|1685906606
+|-terastallize|p2a: Enamorus|Fire
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|54/100
+|cant|p2a: Enamorus|flinch
+|
+|-heal|p2a: Enamorus|60/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1685906613
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|11/100
+|move|p2a: Enamorus|Superpower|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Chien-Pao
+|
+|upkeep
+|
+|t:|1685906621
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|turn|12
+|
+|t:|1685906626
+|move|p2a: Enamorus|Play Rough|p1a: Kleavor
+|-enditem|p1a: Kleavor|Focus Sash
+|-damage|p1a: Kleavor|1/100
+|move|p1a: Kleavor|Stone Axe|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-sidestart|p2: ravensoot|move: Stealth Rock
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1685906634
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|13
+|
+|t:|1685906642
+|move|p1a: Kleavor|Stone Axe|p2a: Corviknight
+|-damage|p2a: Corviknight|70/100
+|move|p2a: Corviknight|Defog|p1a: Kleavor
+|-unboost|p1a: Kleavor|evasion|1
+|-sideend|p2: ravensoot|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|14
+|
+|t:|1685906649
+|move|p1a: Kleavor|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|move|p2a: Corviknight|Body Press|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|upkeep
+|
+|t:|1685906659
+|switch|p1a: Iron Treads|Iron Treads, tera:Flying|28/100
+|turn|15
+|
+|t:|1685906666
+|move|p1a: Iron Treads|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|21/100
+|
+|t:|1685906670
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Landorus|atk|1
+|move|p2a: Corviknight|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|85/100
+|
+|-heal|p1a: Landorus|91/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685906686
+|move|p1a: Landorus|Grass Knot|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|16/100
+|move|p2a: Corviknight|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|83/100
+|
+|t:|1685906691
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|
+|-heal|p1a: Landorus|90/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685906698
+|move|p1a: Landorus|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|33/100
+|move|p2a: Slowking|Future Sight|p1a: Landorus
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Landorus|96/100|[from] item: Leftovers
+|-heal|p2a: Slowking|39/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1685906708
+|move|p1a: Landorus|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685906713
+|switch|p2a: Corviknight|Corviknight, F|16/100
+|turn|19
+|
+|t:|1685906726
+|move|p1a: Landorus|Grass Knot|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|12/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-end|p1a: Landorus|move: Future Sight
+|-damage|p1a: Landorus|65/100
+|-heal|p1a: Landorus|71/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685906735
+|move|p1a: Landorus|Grass Knot|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|8/100
+|move|p2a: Corviknight|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|50/100
+|
+|-heal|p1a: Landorus|56/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685906742
+|move|p1a: Landorus|Grass Knot|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|3/100
+|move|p2a: Corviknight|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|35/100
+|
+|-heal|p1a: Landorus|41/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1685906749
+|move|p1a: Landorus|Grass Knot|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|win|the2thomasklu8
+|raw|the2thomasklu8's rating: 1108 → 1136(+28 for winning)
+|raw|ravensoot's rating: 1150 → 1122(-28 for losing)
+|c|☆the2thomasklu8|gg
+|c|☆ravensoot|gg
+|l|☆ravensoot

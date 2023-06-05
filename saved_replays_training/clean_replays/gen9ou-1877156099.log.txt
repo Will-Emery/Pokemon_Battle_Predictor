@@ -1,0 +1,290 @@
+|poke|p1|Glimmora, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Gholdengo|
+|poke|p1|Magearna|
+|poke|p1|Quaquaval, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Pincurchin, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Iron Thorns|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Glimmora|Toxic|p2a: Hatterene
+|move|p2a: Hatterene|Toxic|p1a: Glimmora|[from]ability: Magic Bounce
+|-immune|p1a: Glimmora
+|
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Hatterene|Psychic|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|78/100
+|-unboost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|84/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Hatterene|Nuzzle|p1a: Magearna
+|-damage|p1a: Magearna|79/100
+|-status|p1a: Magearna|par
+|
+|-heal|p1a: Magearna|85/100 par|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|38/100 par
+|-unboost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|44/100 par|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|11/100 par
+|-unboost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|17/100 par|[from] item: Leftovers
+|turn|6
+|
+|cant|p1a: Magearna|par
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|7
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-enditem|p2a: Sneasler|Electric Seed
+|-boost|p2a: Sneasler|def|1|[from] item: Electric Seed
+|turn|8
+|
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-fieldend|move: Electric Terrain
+|turn|9
+|
+|-terastallize|p2a: Sneasler|Flying
+|move|p2a: Sneasler|Dire Claw|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|83/100
+|move|p1a: Glimmora|Toxic|p2a: Sneasler
+|-status|p2a: Sneasler|tox
+|
+|-heal|p1a: Glimmora|89/100|[from] item: Leftovers
+|-damage|p2a: Sneasler|95/100 tox|[from] psn
+|turn|10
+|
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2a: Sneasler|Close Combat|p1a: Glimmora
+|-activate|p1a: Glimmora|move: Protect
+|-damage|p2a: Sneasler|82/100 tox|[from] Spiky Shield|[of] p1a: Glimmora
+|
+|-heal|p1a: Glimmora|96/100|[from] item: Leftovers
+|-damage|p2a: Sneasler|70/100 tox|[from] psn
+|turn|11
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Sneasler|Acrobatics|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|24/100
+|
+|-damage|p2a: Sneasler|52/100 tox|[from] psn
+|turn|12
+|
+|move|p2a: Sneasler|Acrobatics|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-damage|p2a: Sneasler|28/100 tox|[from] psn
+|
+|switch|p1a: Glimmora|Glimmora, F|96/100
+|turn|13
+|
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Glimmora|Toxic|p2a: Pincurchin
+|-status|p2a: Pincurchin|tox
+|
+|-heal|p1a: Glimmora|100/100|[from] item: Leftovers
+|-damage|p2a: Pincurchin|94/100 tox|[from] psn
+|turn|14
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|move|p1a: Glimmora|Toxic Spikes|p2a: Electrode
+|-sidestart|p2: Segser|move: Toxic Spikes
+|
+|turn|15
+|
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2a: Electrode|Chloroblast|p1a: Glimmora
+|-activate|p1a: Glimmora|move: Protect
+|-damage|p2a: Electrode|50/100|[from] chloroblast
+|
+|turn|16
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p2a: Electrode|Giga Drain|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|72/100
+|-heal|p2a: Electrode|66/100|[from] drain|[of] p1a: Lilligant
+|-damage|p2a: Electrode|56/100|[from] item: Life Orb
+|
+|turn|17
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|25/100
+|-damage|p2a: Electrode|46/100|[from] item: Life Orb
+|move|p1a: Lilligant|Leaf Blade|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|11/100
+|
+|turn|18
+|
+|move|p2a: Electrode|Giga Drain|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|-heal|p2a: Electrode|24/100|[from] drain|[of] p1a: Lilligant
+|faint|p1a: Lilligant
+|-damage|p2a: Electrode|14/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|turn|19
+|
+|move|p2a: Electrode|Giga Drain|p1a: Glimmora
+|-damage|p1a: Glimmora|65/100
+|-heal|p2a: Electrode|40/100|[from] drain|[of] p1a: Glimmora
+|-damage|p2a: Electrode|30/100|[from] item: Life Orb
+|move|p1a: Glimmora|Toxic Spikes|p2a: Electrode
+|-sidestart|p2: Segser|move: Toxic Spikes
+|
+|-heal|p1a: Glimmora|71/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2a: Electrode|Thunderbolt|p1a: Glimmora
+|-activate|p1a: Glimmora|move: Protect
+|
+|-heal|p1a: Glimmora|77/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|turn|21
+|
+|move|p2a: Electrode|Chloroblast|p1a: Glimmora
+|-damage|p1a: Glimmora|7/100
+|-damage|p2a: Electrode|0 fnt|[from] chloroblast
+|faint|p2a: Electrode
+|move|p1a: Glimmora|Power Gem|p2: Electrode|[notarget]
+|-fail|p1a: Glimmora
+|
+|-heal|p1a: Glimmora|13/100|[from] item: Leftovers
+|
+|switch|p2a: Sneasler|Sneasler, F, tera:Flying|28/100 tox
+|turn|22
+|
+|move|p2a: Sneasler|Close Combat|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Sneasler|22/100 tox|[from] psn
+|
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|23
+|
+|move|p1a: Quaquaval|Aqua Jet|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|
+|switch|p2a: Pincurchin|Pincurchin, M|94/100 tox
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|24
+|
+|move|p1a: Quaquaval|Swords Dance|p1a: Quaquaval
+|-boost|p1a: Quaquaval|atk|2
+|move|p2a: Pincurchin|Memento|p1a: Quaquaval
+|-unboost|p1a: Quaquaval|atk|2
+|-unboost|p1a: Quaquaval|spa|2
+|faint|p2a: Pincurchin
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-status|p2a: Iron Valiant|tox
+|-activate|p2a: Iron Valiant|ability: Quark Drive
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|25
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-enditem|p1a: Quaquaval|Focus Sash
+|-damage|p1a: Quaquaval|1/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|30/100 tox
+|-boost|p1a: Quaquaval|spe|1
+|
+|-damage|p2a: Iron Valiant|24/100 tox|[from] psn
+|turn|26
+|
+|move|p1a: Quaquaval|Aqua Jet|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-status|p2a: Iron Thorns|tox
+|-activate|p2a: Iron Thorns|ability: Quark Drive
+|-start|p2a: Iron Thorns|quarkdriveatk
+|turn|27
+|
+|move|p1a: Quaquaval|Close Combat|p2a: Iron Thorns
+|-supereffective|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|
+|win|Wander36

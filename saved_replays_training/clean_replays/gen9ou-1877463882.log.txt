@@ -1,0 +1,229 @@
+|poke|p1|Skeledirge, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Baxcalibur, M|
+|poke|p1|Kilowattrel, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Walking Wake|
+|poke|p2|Meloetta|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Zamazenta-*|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|
+|turn|2
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Skeledirge|Torch Song|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-heal|p2a: Slowking|84/100|[from] item: Black Sludge
+|turn|3
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|-terastallize|p1a: Skeledirge|Water
+|move|p2a: Samurott|Ceaseless Edge|p1a: Skeledirge
+|-damage|p1a: Skeledirge|66/100
+|-sidestart|p1: Inteleo|Spikes
+|move|p1a: Skeledirge|Earth Power|p2a: Samurott
+|-damage|p2a: Samurott|12/100
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Skeledirge
+|-damage|p1a: Skeledirge|32/100
+|-sidestart|p1: Inteleo|Spikes
+|move|p1a: Skeledirge|Torch Song|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Samurott
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|84/100|[from] Spikes
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Sneasler|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|63/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|
+|-weather|none
+|turn|8
+|
+|move|p1a: Sneasler|Night Slash|p2a: Corviknight
+|-damage|p2a: Corviknight|47/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|97/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|9
+|
+|move|p1a: Sneasler|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-damage|p2a: Corviknight|42/100|[from] Recoil
+|
+|
+|switch|p1a: Kilowattrel|Kilowattrel, M|100/100
+|turn|10
+|
+|switch|p2a: Slowking|Slowking-Galar, M|78/100
+|move|p1a: Kilowattrel|Tailwind|p1a: Kilowattrel
+|-sidestart|p1: Inteleo|move: Tailwind
+|-start|p1a: Kilowattrel|Charge|Tailwind|[from] ability: Wind Power
+|
+|-heal|p2a: Slowking|84/100|[from] item: Black Sludge
+|turn|11
+|
+|move|p1a: Kilowattrel|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|37/100
+|-end|p1a: Kilowattrel|Charge|[silent]
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|87/100
+|
+|-heal|p2a: Slowking|93/100|[from] item: Black Sludge
+|turn|12
+|
+|move|p1a: Kilowattrel|Hurricane|p2a: Slowking|[miss]
+|-miss|p1a: Kilowattrel|p2a: Slowking
+|move|p2a: Slowking|Future Sight|p1a: Kilowattrel
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|99/100|[from] item: Black Sludge
+|turn|13
+|
+|move|p1a: Kilowattrel|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|76/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|26/100
+|
+|-heal|p2a: Slowking|82/100|[from] item: Black Sludge
+|-sideend|p1: Inteleo|move: Tailwind
+|turn|14
+|
+|move|p1a: Kilowattrel|Tailwind|p1a: Kilowattrel
+|-sidestart|p1: Inteleo|move: Tailwind
+|-start|p1a: Kilowattrel|Charge|Tailwind|[from] ability: Wind Power
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Meloetta|Meloetta|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Kilowattrel|move: Future Sight
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|84/100|[from] Spikes
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|15
+|
+|move|p1a: Iron Valiant|Close Combat|p2a: Meloetta
+|-damage|p2a: Meloetta|47/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Meloetta|Psyshock|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|-damage|p1a: Baxcalibur|84/100|[from] Spikes
+|turn|16
+|
+|-terastallize|p2a: Meloetta|Fighting
+|move|p1a: Baxcalibur|Dragon Dance|p1a: Baxcalibur
+|-boost|p1a: Baxcalibur|atk|1
+|-boost|p1a: Baxcalibur|spe|1
+|move|p2a: Meloetta|Tera Blast|p1a: Baxcalibur
+|-supereffective|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|84/100|[from] Spikes
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|17
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Meloetta
+|-damage|p2a: Meloetta|12/100
+|move|p2a: Meloetta|Tera Blast|p1a: Walking Wake
+|-damage|p1a: Walking Wake|39/100
+|
+|-weather|Snow|[upkeep]
+|-sideend|p1: Inteleo|move: Tailwind
+|turn|18
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|faint|p2a: Meloetta
+|
+|-weather|none
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|19
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Walking Wake
+|-crit|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|win|dune481

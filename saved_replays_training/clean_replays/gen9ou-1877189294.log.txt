@@ -1,0 +1,191 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Zamazenta-*|
+|poke|p1|Enamorus, F|
+|poke|p1|Magearna|
+|poke|p1|Sneasler, M|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Iron Treads|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|switch|p2a: ZamaGwappa|Zamazenta|100/100
+|-ability|p2a: ZamaGwappa|Dauntless Shield|boost
+|-boost|p2a: ZamaGwappa|def|1
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|-terastallize|p2a: ZamaGwappa|Fighting
+|move|p2a: ZamaGwappa|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|59/100
+|-unboost|p2a: ZamaGwappa|def|1
+|-unboost|p2a: ZamaGwappa|spd|1
+|move|p1a: Zamazenta|Reflect|p1a: Zamazenta
+|-sidestart|p1: fugufug|Reflect
+|
+|turn|2
+|
+|switch|p2a: Enamorus Men|Enamorus, F|100/100
+|move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
+|-sidestart|p1: fugufug|move: Light Screen
+|
+|turn|3
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-item|p1a: Magearna|Air Balloon
+|move|p2a: Enamorus Men|Earth Power|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|turn|4
+|
+|switch|p2a: Fairy Abuser|Iron Treads|100/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|5
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Fairy Abuser|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|97/100
+|-enditem|p1a: Magearna|Air Balloon
+|
+|-end|p2a: Fairy Abuser|Quark Drive|[silent]
+|switch|p2a: Mrs.Hat|Hatterene, F|100/100|[from] Volt Switch
+|
+|turn|6
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Mrs.Hat|Nuzzle|p1a: Magearna
+|-damage|p1a: Magearna|95/100
+|-status|p1a: Magearna|par
+|
+|turn|7
+|
+|switch|p2a: Muhammad Ali|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|8
+|
+|move|p1a: Magearna|Stored Power|p2a: Muhammad Ali
+|-supereffective|p2a: Muhammad Ali
+|-damage|p2a: Muhammad Ali|0 fnt
+|faint|p2a: Muhammad Ali
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-sideend|p1: fugufug|Reflect
+|
+|switch|p2a: ZamaGwappa|Zamazenta, tera:Fighting|100/100
+|turn|9
+|
+|move|p2a: ZamaGwappa|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: ZamaGwappa|def|1
+|-unboost|p2a: ZamaGwappa|spd|1
+|faint|p1a: Magearna
+|
+|-sideend|p1: fugufug|move: Light Screen
+|
+|switch|p1a: Zamazenta|Zamazenta|59/100
+|turn|10
+|
+|move|p2a: ZamaGwappa|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-unboost|p2a: ZamaGwappa|def|1
+|-unboost|p2a: ZamaGwappa|spd|1
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|11
+|
+|switch|p2a: Fairy Abuser|Iron Treads|100/100
+|move|p1a: Chien-Pao|Ice Shard|p2a: Fairy Abuser
+|-damage|p2a: Fairy Abuser|71/100
+|-damage|p1a: Chien-Pao|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Fairy Abuser|77/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|move|p2a: Fairy Abuser|Stealth Rock|p1a: Chien-Pao
+|-sidestart|p1: fugufug|move: Stealth Rock
+|
+|-heal|p2a: Fairy Abuser|83/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Fairy Abuser
+|-damage|p2a: Fairy Abuser|0 fnt
+|faint|p2a: Fairy Abuser
+|-end|p2a: Fairy Abuser|Quark Drive|[silent]
+|-damage|p1a: Chien-Pao|81/100|[from] item: Life Orb
+|
+|
+|switch|p2a: ZamaGwappa|Zamazenta, tera:Fighting|100/100
+|turn|14
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: ZamaGwappa
+|-damage|p2a: ZamaGwappa|29/100
+|-damage|p1a: Chien-Pao|71/100|[from] item: Life Orb
+|move|p2a: ZamaGwappa|Close Combat|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-unboost|p2a: ZamaGwappa|def|1
+|-unboost|p2a: ZamaGwappa|spd|1
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Mrs.Hat|Hatterene, F|100/100
+|move|p1a: Urshifu|Aqua Jet|p2a: Mrs.Hat
+|-damage|p2a: Mrs.Hat|72/100
+|-enditem|p2a: Mrs.Hat|Eject Button
+|
+|switch|p2a: Enamorus Men|Enamorus, F|100/100
+|
+|turn|16
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|move|p2a: Enamorus Men|Moonblast|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Enamorus Men|Moonblast|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|94/100
+|-damage|p1a: Urshifu|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Enamorus Men|Moonblast|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|win|Dinotea

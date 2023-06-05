@@ -1,0 +1,298 @@
+|poke|p1|Garganacl, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Hatterene, F|
+|poke|p1|Volcanion|
+|poke|p1|Corviknight, M|
+|poke|p1|Great Tusk|
+|poke|p2|Ursaluna, M|
+|poke|p2|Slowking, F|
+|poke|p2|Misdreavus, M|
+|poke|p2|Scizor, M|
+|poke|p2|Espeon, F|
+|poke|p2|Dudunsparce-*, F|
+|teampreview
+|
+|start
+|switch|p1a: Peezy|Chien-Pao|100/100
+|switch|p2a: Slowking|Slowking, F|100/100
+|-ability|p1a: Peezy|Sword of Ruin
+|turn|1
+|
+|move|p1a: Peezy|Crunch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-enditem|p2a: Slowking|Colbur Berry|[eat]
+|-enditem|p2a: Slowking|Colbur Berry|[weaken]
+|-damage|p2a: Slowking|19/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|2
+|
+|switch|p1a: Naci|Garganacl, M, shiny|100/100
+|move|p2a: Slowking|Surf|p1a: Naci
+|-supereffective|p1a: Naci
+|-damage|p1a: Naci|60/100
+|
+|-heal|p1a: Naci|67/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Slowking|Surf|p1a: Naci
+|-supereffective|p1a: Naci
+|-damage|p1a: Naci|27/100
+|move|p1a: Naci|Salt Cure|p2a: Slowking
+|-damage|p2a: Slowking|4/100
+|-start|p2a: Slowking|Salt Cure
+|
+|-heal|p1a: Naci|34/100|[from] item: Leftovers
+|-damage|p2a: Slowking|0 fnt|[from] Salt Cure
+|faint|p2a: Slowking
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|turn|4
+|
+|move|p1a: Naci|Salt Cure|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|96/100
+|-start|p2a: Ursaluna|Salt Cure
+|move|p2a: Ursaluna|Earthquake|p1a: Naci
+|-supereffective|p1a: Naci
+|-damage|p1a: Naci|0 fnt
+|faint|p1a: Naci
+|
+|-damage|p2a: Ursaluna|83/100|[from] Salt Cure
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p1a: Armorga|Corviknight, M, shiny|100/100
+|-ability|p1a: Armorga|Pressure
+|turn|5
+|
+|move|p2a: Ursaluna|Fire Punch|p1a: Armorga
+|-supereffective|p1a: Armorga
+|-damage|p1a: Armorga|50/100
+|-damage|p2a: Ursaluna|67/100 brn|[from] item: Rocky Helmet|[of] p1a: Armorga
+|move|p1a: Armorga|Brave Bird|p2a: Ursaluna
+|-damage|p2a: Ursaluna|38/100 brn
+|-damage|p1a: Armorga|39/100|[from] Recoil
+|
+|-damage|p2a: Ursaluna|32/100 brn|[from] brn
+|-damage|p2a: Ursaluna|19/100 brn|[from] Salt Cure
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Armorga|Roost|p1a: Armorga
+|-heal|p1a: Armorga|89/100
+|-singleturn|p1a: Armorga|move: Roost
+|
+|turn|7
+|
+|move|p2a: Scizor|Close Combat|p1a: Armorga
+|-damage|p1a: Armorga|46/100
+|-unboost|p2a: Scizor|def|1
+|-unboost|p2a: Scizor|spd|1
+|-damage|p2a: Scizor|84/100|[from] item: Rocky Helmet|[of] p1a: Armorga
+|move|p1a: Armorga|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|74/100
+|
+|switch|p1a: Nose|Great Tusk, shiny|100/100|[from] U-turn
+|
+|turn|8
+|
+|switch|p2a: Misdreavus|Misdreavus, M|100/100
+|move|p1a: Nose|Knock Off|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|49/100
+|-enditem|p2a: Misdreavus|Eviolite|[from] move: Knock Off|[of] p1a: Nose
+|
+|turn|9
+|
+|move|p1a: Nose|Knock Off|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|5/100
+|move|p2a: Misdreavus|Destiny Bond|p2a: Misdreavus
+|-singlemove|p2a: Misdreavus|Destiny Bond
+|
+|turn|10
+|
+|move|p1a: Nose|Knock Off|p2a: Misdreavus
+|-supereffective|p2a: Misdreavus
+|-damage|p2a: Misdreavus|0 fnt
+|faint|p2a: Misdreavus
+|-activate|p2a: Misdreavus|move: Destiny Bond
+|faint|p1a: Nose
+|-end|p1a: Nose|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Peezy|Chien-Pao|100/100
+|switch|p2a: Espeon|Espeon, F|100/100
+|-ability|p1a: Peezy|Sword of Ruin
+|turn|11
+|
+|-terastallize|p2a: Espeon|Fairy
+|move|p1a: Peezy|Crunch|p2a: Espeon
+|-resisted|p2a: Espeon
+|-damage|p2a: Espeon|39/100
+|move|p2a: Espeon|Trick Room|p2a: Espeon
+|-fieldstart|move: Trick Room|[of] p2a: Espeon
+|
+|turn|12
+|
+|switch|p1a: Hat|Hatterene, F, shiny|100/100
+|move|p2a: Espeon|Dazzling Gleam|p1a: Hat
+|-damage|p1a: Hat|65/100
+|
+|-heal|p1a: Hat|71/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Dudunsparce|Dudunsparce, F|100/100
+|move|p1a: Hat|Draining Kiss|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|80/100
+|-heal|p1a: Hat|93/100|[from] drain|[of] p2a: Dudunsparce
+|
+|-heal|p1a: Hat|99/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Hat|Nuzzle|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|76/100
+|-status|p2a: Dudunsparce|par
+|cant|p2a: Dudunsparce|par
+|
+|-heal|p1a: Hat|100/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Armorga|Corviknight, M, shiny|46/100
+|-ability|p1a: Armorga|Pressure
+|move|p2a: Dudunsparce|Boomburst|p1a: Armorga
+|-resisted|p1a: Armorga
+|-damage|p1a: Armorga|4/100
+|
+|-fieldend|move: Trick Room
+|turn|16
+|
+|switch|p2a: Espeon|Espeon, F, tera:Fairy|39/100
+|move|p1a: Armorga|Roost|p1a: Armorga
+|-heal|p1a: Armorga|54/100
+|-singleturn|p1a: Armorga|move: Roost
+|
+|turn|17
+|
+|move|p2a: Espeon|Reflect|p2a: Espeon
+|-sidestart|p2: Deck56C|Reflect
+|move|p1a: Armorga|Brave Bird|p2a: Espeon
+|-damage|p2a: Espeon|10/100
+|-damage|p1a: Armorga|46/100|[from] Recoil
+|
+|turn|18
+|
+|move|p1a: Armorga|Defog|p2a: Espeon
+|-unboost|p2a: Espeon|evasion|1
+|-sideend|p2: Deck56C|Reflect
+|move|p2a: Espeon|Trick Room|p2a: Espeon
+|-fieldstart|move: Trick Room|[of] p2a: Espeon
+|
+|turn|19
+|
+|move|p1a: Armorga|Roost|p1a: Armorga
+|-heal|p1a: Armorga|96/100
+|-singleturn|p1a: Armorga|move: Roost
+|move|p2a: Espeon|Reflect|p2a: Espeon
+|-sidestart|p2: Deck56C|Reflect
+|
+|turn|20
+|
+|switch|p2a: Dudunsparce|Dudunsparce, F|76/100 par
+|move|p1a: Armorga|Defog|p2a: Dudunsparce
+|-unboost|p2a: Dudunsparce|evasion|1
+|-sideend|p2: Deck56C|Reflect
+|
+|turn|21
+|
+|cant|p2a: Dudunsparce|par
+|move|p1a: Armorga|U-turn|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|64/100 par
+|
+|switch|p1a: Hat|Hatterene, F, shiny|100/100|[from] U-turn
+|
+|turn|22
+|
+|move|p1a: Hat|Nuzzle|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|60/100 par
+|move|p2a: Dudunsparce|Boomburst|p1a: Hat
+|-damage|p1a: Hat|7/100
+|
+|-heal|p1a: Hat|13/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|23
+|
+|switch|p1a: Armorga|Corviknight, M, shiny|96/100
+|-ability|p1a: Armorga|Pressure
+|move|p2a: Dudunsparce|Boomburst|p1a: Armorga
+|-resisted|p1a: Armorga
+|-damage|p1a: Armorga|55/100
+|
+|turn|24
+|
+|switch|p2a: Scizor|Scizor, M|74/100
+|move|p1a: Armorga|Brave Bird|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|15/100
+|-damage|p1a: Armorga|38/100|[from] Recoil
+|
+|turn|25
+|
+|move|p2a: Scizor|Close Combat|p1a: Armorga
+|-damage|p1a: Armorga|0 fnt
+|-unboost|p2a: Scizor|def|1
+|-unboost|p2a: Scizor|spd|1
+|-damage|p2a: Scizor|0 fnt|[from] item: Rocky Helmet|[of] p1a: Armorga
+|faint|p1a: Armorga
+|faint|p2a: Scizor
+|
+|
+|switch|p2a: Dudunsparce|Dudunsparce, F|60/100 par
+|switch|p1a: Peezy|Chien-Pao|100/100
+|-ability|p1a: Peezy|Sword of Ruin
+|turn|26
+|
+|-terastallize|p1a: Peezy|Ice
+|move|p1a: Peezy|Ice Spinner|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|0 fnt
+|faint|p2a: Dudunsparce
+|
+|
+|switch|p2a: Espeon|Espeon, F, tera:Fairy|10/100
+|turn|27
+|
+|move|p1a: Peezy|Ice Spinner|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, M|19/100 brn
+|turn|28
+|
+|switch|p1a: Hat|Hatterene, F, shiny|13/100
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-heal|p1a: Hat|19/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|13/100 brn|[from] brn
+|turn|29
+|
+|move|p2a: Ursaluna|Facade|p1a: Hat
+|-damage|p1a: Hat|0 fnt
+|faint|p1a: Hat
+|
+|-damage|p2a: Ursaluna|7/100 brn|[from] brn
+|
+|switch|p1a: Peezy|Chien-Pao, tera:Ice|100/100
+|-ability|p1a: Peezy|Sword of Ruin
+|turn|30
+|
+|move|p1a: Peezy|Ice Shard|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|bye mag

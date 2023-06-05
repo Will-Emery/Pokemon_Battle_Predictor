@@ -1,0 +1,366 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Magearna|
+|poke|p1|Zamazenta-*|
+|poke|p1|Volcarona, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Dragapult, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Glimm Shady|Glimmora, F|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: tomebreaker|move: Light Screen
+|move|p2a: Glimm Shady|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: tomebreaker|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: tomebreaker|Reflect
+|move|p2a: Glimm Shady|Mortal Spin|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|96/100
+|-status|p1a: Grimmsnarl|psn
+|
+|-damage|p1a: Grimmsnarl|83/100 psn|[from] psn
+|turn|3
+|
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Glimm Shady
+|-unboost|p2a: Glimm Shady|atk|1
+|-unboost|p2a: Glimm Shady|spa|1
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Parting Shot
+|-damage|p1a: Magearna|95/100|[from] Stealth Rock
+|move|p2a: Glimm Shady|Mortal Spin|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Skill™|Magearna|100/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|5
+|
+|move|p1a: Magearna|Stored Power|p2a: Skill™
+|-resisted|p2a: Skill™
+|-damage|p2a: Skill™|87/100
+|move|p2a: Skill™|Shift Gear|p2a: Skill™
+|-boost|p2a: Skill™|spe|2
+|-boost|p2a: Skill™|atk|1
+|
+|-heal|p2a: Skill™|93/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Skill™|Encore|p1a: Magearna
+|-start|p1a: Magearna|Encore
+|move|p1a: Magearna|Stored Power|p2a: Skill™
+|-resisted|p2a: Skill™
+|-damage|p2a: Skill™|77/100
+|
+|-heal|p2a: Skill™|83/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|-item|p1a: Sneasler|Air Balloon
+|move|p2a: Skill™|Ice Beam|p1a: Sneasler
+|-damage|p1a: Sneasler|73/100
+|-enditem|p1a: Sneasler|Air Balloon
+|
+|-heal|p2a: Skill™|89/100|[from] item: Leftovers
+|turn|8
+|
+|-terastallize|p2a: Skill™|Ground
+|move|p1a: Sneasler|Close Combat|p2a: Skill™
+|-damage|p2a: Skill™|21/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Skill™|Tera Blast|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-ability|p2a: Skill™|Soul-Heart|boost
+|-boost|p2a: Skill™|spa|1
+|
+|-heal|p2a: Skill™|27/100|[from] item: Leftovers
+|-sideend|p1: tomebreaker|move: Light Screen
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|83/100 psn
+|-damage|p1a: Grimmsnarl|71/100 psn|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: tomebreaker|move: Light Screen
+|move|p2a: Skill™|Encore|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Encore
+|
+|-heal|p2a: Skill™|33/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|58/100 psn|[from] psn
+|-sideend|p1: tomebreaker|Reflect
+|turn|10
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Skill™|Tera Blast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|64/100
+|
+|-heal|p2a: Skill™|40/100|[from] item: Leftovers
+|-heal|p1a: Zamazenta|70/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Dreepy Airlines|Dragapult, F|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Dreepy Airlines
+|-immune|p2a: Dreepy Airlines
+|
+|-heal|p1a: Zamazenta|76/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|58/100 psn
+|-damage|p1a: Grimmsnarl|46/100 psn|[from] Stealth Rock
+|move|p2a: Dreepy Airlines|Will-O-Wisp||[still]
+|-fail|p2a: Dreepy Airlines
+|
+|-damage|p1a: Grimmsnarl|33/100 psn|[from] psn
+|turn|13
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Dreepy Airlines
+|-start|p2a: Dreepy Airlines|move: Taunt
+|cant|p2a: Dreepy Airlines|move: Taunt|Reflect
+|
+|-damage|p1a: Grimmsnarl|21/100 psn|[from] psn
+|turn|14
+|
+|switch|p2a: Skill™|Magearna, tera:Ground|40/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: tomebreaker|Reflect
+|
+|-heal|p2a: Skill™|46/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|9/100 psn|[from] psn
+|turn|15
+|
+|switch|p2a: 3100 BC Croissant|Roaring Moon|100/100
+|move|p1a: Grimmsnarl|Taunt|p2a: 3100 BC Croissant
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: 3100 BC Croissant
+|
+|-damage|p1a: Grimmsnarl|0 fnt|[from] psn
+|faint|p1a: Grimmsnarl
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|95/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: 3100 BC Croissant|Taunt|p1a: Magearna
+|-start|p1a: Magearna|move: Taunt
+|cant|p1a: Magearna|move: Taunt|Shift Gear
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|-sideend|p1: tomebreaker|move: Light Screen
+|turn|17
+|
+|-end|p2a: 3100 BC Croissant|Protosynthesis|[silent]
+|switch|p2a: Glimm Shady|Glimmora, F|100/100
+|move|p1a: Magearna|Draining Kiss|p2a: Glimm Shady
+|-resisted|p2a: Glimm Shady
+|-damage|p2a: Glimm Shady|80/100
+|
+|turn|18
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Glimm Shady|Earth Power|p1a: Volcarona
+|-damage|p1a: Volcarona|69/100
+|
+|turn|19
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Glimm Shady|Mortal Spin|p1a: Volcarona
+|-damage|p1a: Volcarona|65/100
+|-status|p1a: Volcarona|psn
+|
+|-damage|p1a: Volcarona|53/100 psn|[from] psn
+|turn|20
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Glimm Shady|Earth Power|p1a: Volcarona
+|-damage|p1a: Volcarona|37/100 psn
+|
+|-damage|p1a: Volcarona|24/100 psn|[from] psn
+|turn|21
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Glimm Shady
+|-damage|p2a: Glimm Shady|5/100
+|-heal|p1a: Volcarona|61/100 psn|[from] drain|[of] p2a: Glimm Shady
+|move|p2a: Glimm Shady|Earth Power|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|16/100 psn
+|
+|-damage|p1a: Volcarona|3/100 psn|[from] psn
+|-sideend|p1: tomebreaker|Reflect
+|turn|22
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Glimm Shady
+|-damage|p2a: Glimm Shady|0 fnt
+|-heal|p1a: Volcarona|6/100 psn|[from] drain|[of] p2a: Glimm Shady
+|faint|p2a: Glimm Shady
+|
+|-damage|p1a: Volcarona|0 fnt|[from] psn
+|faint|p1a: Volcarona
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|switch|p2a: Skill™|Magearna, tera:Ground|46/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Skill™|Ice Beam|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|29/100
+|move|p1a: Ursaluna|Earthquake|p2a: Skill™
+|-damage|p2a: Skill™|0 fnt
+|faint|p2a: Skill™
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p2a: Dreepy Airlines|Dragapult, F|100/100
+|turn|24
+|
+|move|p2a: Dreepy Airlines|Reflect|p2a: Dreepy Airlines
+|-sidestart|p2: Obana|Reflect
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|
+|-damage|p1a: Ursaluna|22/100 brn|[from] brn
+|turn|25
+|
+|move|p2a: Dreepy Airlines|Light Screen|p2a: Dreepy Airlines
+|-sidestart|p2: Obana|move: Light Screen
+|move|p1a: Ursaluna|Earthquake|p2a: Dreepy Airlines
+|-damage|p2a: Dreepy Airlines|0 fnt
+|faint|p2a: Dreepy Airlines
+|
+|-damage|p1a: Ursaluna|16/100 brn|[from] brn
+|
+|switch|p2a: Gardevade|Iron Valiant|100/100
+|-enditem|p2a: Gardevade|Booster Energy
+|-activate|p2a: Gardevade|ability: Quark Drive|[fromitem]
+|-start|p2a: Gardevade|quarkdrivespe
+|turn|26
+|
+|move|p2a: Gardevade|Spirit Break|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|95/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Gardevade|Swords Dance|p2a: Gardevade
+|-boost|p2a: Gardevade|atk|2
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|28
+|
+|-terastallize|p1a: Magearna|Fairy
+|move|p2a: Gardevade|Close Combat|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|46/100
+|-unboost|p2a: Gardevade|def|1
+|-unboost|p2a: Gardevade|spd|1
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|52/100|[from] item: Leftovers
+|turn|29
+|
+|-end|p2a: Gardevade|Quark Drive|[silent]
+|switch|p2a: Pandemic|Volcarona, F|100/100
+|move|p1a: Magearna|Draining Kiss|p2a: Pandemic
+|-resisted|p2a: Pandemic
+|-damage|p2a: Pandemic|91/100
+|-heal|p1a: Magearna|60/100|[from] drain|[of] p2a: Pandemic
+|
+|-heal|p1a: Magearna|66/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Pandemic|Quiver Dance|p2a: Pandemic
+|-boost|p2a: Pandemic|spa|1
+|-boost|p2a: Pandemic|spd|1
+|-boost|p2a: Pandemic|spe|1
+|
+|-heal|p1a: Magearna|72/100|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Pandemic|Quiver Dance|p2a: Pandemic
+|-boost|p2a: Pandemic|spa|1
+|-boost|p2a: Pandemic|spd|1
+|-boost|p2a: Pandemic|spe|1
+|
+|-heal|p1a: Magearna|78/100|[from] item: Leftovers
+|-sideend|p2: Obana|Reflect
+|turn|32
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Pandemic|Fiery Dance|p1a: Magearna
+|-damage|p1a: Magearna|51/100
+|
+|-heal|p1a: Magearna|57/100|[from] item: Leftovers
+|-sideend|p2: Obana|move: Light Screen
+|turn|33
+|
+|move|p1a: Magearna|Stored Power|p2a: Pandemic
+|-damage|p2a: Pandemic|0 fnt
+|faint|p2a: Pandemic
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|63/100|[from] item: Leftovers
+|-message|Obana forfeited.
+|
+|win|tomebreaker
+|n|☆tomebreaker|tomebreaker
+|n|☆Obana|obana
+|n| opium ovulator|opiumovulator
+|n| donkkut|donkkut
+|n| Bradley Chadster|bradleychadster
+|n| zeitera|zeitera
+|n| Yuggy|yuggy
+|n| Thick and Creamy|thickandcreamy
+|n| splarmer|splarmer
+|n| Mikirae69|mikirae69
+|n| NightLarry|nightlarry
+|n| hkhlkjhj|hkhlkjhj
+|n| jefo|jefo
+|n| muddyswamppert|muddyswamppert
+|n| JoeMan23|joeman23

@@ -1,0 +1,273 @@
+|poke|p1|Meowscarada, M|
+|poke|p1|Salamence, F|
+|poke|p1|Volcarona, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Diancie|
+|poke|p1|Tinkaton, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Breloom, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Glimmora, M|
+|teampreview
+|
+|start
+|switch|p1a: BilliBong|Meowscarada, M|100/100
+|switch|p2a: Zigzig billyplouf|Glimmora, M|100/100
+|turn|1
+|
+|move|p1a: BilliBong|Brick Break|p2a: Zigzig billyplouf
+|-start|p1a: BilliBong|typechange|Fighting|[from] ability: Protean
+|-damage|p2a: Zigzig billyplouf|61/100
+|-activate|p2a: Zigzig billyplouf|ability: Toxic Debris
+|-sidestart|p1: plowered|move: Toxic Spikes
+|move|p2a: Zigzig billyplouf|Stealth Rock|p1a: BilliBong
+|-sidestart|p1: plowered|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: BilliBong|Brick Break|p2a: Zigzig billyplouf
+|-damage|p2a: Zigzig billyplouf|25/100
+|-activate|p2a: Zigzig billyplouf|ability: Toxic Debris
+|-sidestart|p1: plowered|move: Toxic Spikes
+|move|p2a: Zigzig billyplouf|Reflect|p2a: Zigzig billyplouf
+|-sidestart|p2: Iscalune|Reflect
+|
+|turn|3
+|
+|move|p1a: BilliBong|Brick Break|p2a: Zigzig billyplouf
+|-sideend|p2: Iscalune|Reflect
+|-crit|p2a: Zigzig billyplouf
+|-damage|p2a: Zigzig billyplouf|0 fnt
+|faint|p2a: Zigzig billyplouf
+|
+|
+|switch|p2a: Pas de ralentir|Arcanine-Hisui, M|100/100
+|turn|4
+|
+|move|p1a: BilliBong|U-turn|p2a: Pas de ralentir
+|-resisted|p2a: Pas de ralentir
+|-damage|p2a: Pas de ralentir|87/100
+|
+|switch|p1a: FartoZabongo|Toxapex, F|100/100|[from] U-turn
+|-sideend|p1: plowered|move: Toxic Spikes|[of] p1a: FartoZabongo
+|-damage|p1a: FartoZabongo|88/100|[from] Stealth Rock
+|move|p2a: Pas de ralentir|Agility|p2a: Pas de ralentir
+|-boost|p2a: Pas de ralentir|spe|2
+|
+|-heal|p1a: FartoZabongo|94/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Pas de ralentir|Head Smash|p1a: FartoZabongo|[miss]
+|-miss|p2a: Pas de ralentir|p1a: FartoZabongo
+|move|p1a: FartoZabongo|Toxic|p2a: Pas de ralentir
+|-status|p2a: Pas de ralentir|tox
+|
+|-heal|p1a: FartoZabongo|100/100|[from] item: Leftovers
+|-damage|p2a: Pas de ralentir|81/100 tox|[from] psn
+|turn|6
+|
+|switch|p2a: Sardoche|Garganacl, F|100/100
+|move|p1a: FartoZabongo|Surf|p2a: Sardoche
+|-supereffective|p2a: Sardoche
+|-damage|p2a: Sardoche|66/100
+|
+|turn|7
+|
+|move|p1a: FartoZabongo|Toxic|p2a: Sardoche
+|-immune|p2a: Sardoche|[from] ability: Purifying Salt
+|move|p2a: Sardoche|Salt Cure|p1a: FartoZabongo
+|-damage|p1a: FartoZabongo|93/100
+|-start|p1a: FartoZabongo|Salt Cure
+|
+|-heal|p1a: FartoZabongo|99/100|[from] item: Leftovers
+|-damage|p1a: FartoZabongo|74/100|[from] Salt Cure
+|turn|8
+|
+|switch|p1a: BilliBong|Meowscarada, M|100/100
+|-damage|p1a: BilliBong|88/100|[from] Stealth Rock
+|move|p2a: Sardoche|Recover|p2a: Sardoche
+|-heal|p2a: Sardoche|100/100
+|
+|turn|9
+|
+|move|p1a: BilliBong|Knock Off|p2a: Sardoche
+|-start|p1a: BilliBong|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Sardoche|73/100
+|-damage|p1a: BilliBong|72/100|[from] item: Rocky Helmet|[of] p2a: Sardoche
+|-enditem|p2a: Sardoche|Rocky Helmet|[from] move: Knock Off|[of] p1a: BilliBong
+|move|p2a: Sardoche|Heavy Slam|p1a: BilliBong
+|-crit|p1a: BilliBong
+|-damage|p1a: BilliBong|10/100
+|
+|turn|10
+|
+|move|p1a: BilliBong|Flower Trick|p2a: Sardoche
+|-supereffective|p2a: Sardoche
+|-crit|p2a: Sardoche
+|-damage|p2a: Sardoche|38/100
+|move|p2a: Sardoche|Heavy Slam|p1a: BilliBong
+|-damage|p1a: BilliBong|0 fnt
+|faint|p1a: BilliBong
+|
+|
+|switch|p1a: Dangzizigi|Diancie|100/100
+|-damage|p1a: Dangzizigi|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Dangzizigi|Diamond Storm|p2a: Sardoche
+|-damage|p2a: Sardoche|19/100
+|-boost|p1a: Dangzizigi|def|2
+|move|p2a: Sardoche|Recover|p2a: Sardoche
+|-heal|p2a: Sardoche|69/100
+|
+|turn|12
+|
+|move|p1a: Dangzizigi|Body Press|p2a: Sardoche
+|-supereffective|p2a: Sardoche
+|-damage|p2a: Sardoche|13/100
+|move|p2a: Sardoche|Heavy Slam|p1a: Dangzizigi
+|-supereffective|p1a: Dangzizigi
+|-damage|p1a: Dangzizigi|46/100
+|-damage|p2a: Sardoche|0 fnt|[from] item: Rocky Helmet|[of] p1a: Dangzizigi
+|faint|p2a: Sardoche
+|
+|
+|switch|p2a: Caca dans l'eau|Samurott-Hisui, F|100/100
+|turn|13
+|
+|switch|p1a: FartoZabongo|Toxapex, F|100/100
+|-damage|p1a: FartoZabongo|88/100|[from] Stealth Rock
+|move|p2a: Caca dans l'eau|Hydro Pump|p1a: FartoZabongo
+|-resisted|p1a: FartoZabongo
+|-damage|p1a: FartoZabongo|60/100
+|
+|-heal|p1a: FartoZabongo|67/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: C un champi|Breloom, F|100/100
+|move|p1a: FartoZabongo|Toxic|p2a: C un champi
+|-status|p2a: C un champi|tox
+|
+|-heal|p1a: FartoZabongo|73/100|[from] item: Leftovers
+|-damage|p2a: C un champi|94/100 tox|[from] psn
+|turn|15
+|
+|switch|p1a: BonzangWifi|Volcarona, F|100/100
+|move|p2a: C un champi|Bulk Up|p2a: C un champi
+|-boost|p2a: C un champi|atk|1
+|-boost|p2a: C un champi|def|1
+|
+|-heal|p2a: C un champi|100/100 tox|[from] item: Leftovers
+|-damage|p2a: C un champi|88/100 tox|[from] psn
+|turn|16
+|
+|move|p1a: BonzangWifi|Fiery Dance|p2a: C un champi
+|-supereffective|p2a: C un champi
+|-damage|p2a: C un champi|0 fnt
+|faint|p2a: C un champi
+|
+|
+|switch|p2a: Caca dans l'eau|Samurott-Hisui, F|100/100
+|turn|17
+|
+|-terastallize|p1a: BonzangWifi|Grass
+|move|p1a: BonzangWifi|Giga Drain|p2a: Caca dans l'eau
+|-supereffective|p2a: Caca dans l'eau
+|-damage|p2a: Caca dans l'eau|0 fnt
+|faint|p2a: Caca dans l'eau
+|
+|
+|switch|p2a: Pas de ralentir|Arcanine-Hisui, M|81/100 tox
+|turn|18
+|
+|switch|p1a: Dangzizigi|Diancie|46/100
+|-damage|p1a: Dangzizigi|34/100|[from] Stealth Rock
+|move|p2a: Pas de ralentir|Head Smash|p1a: Dangzizigi
+|-damage|p1a: Dangzizigi|0 fnt
+|-damage|p2a: Pas de ralentir|64/100 tox|[from] item: Rocky Helmet|[of] p1a: Dangzizigi
+|faint|p1a: Dangzizigi
+|
+|-damage|p2a: Pas de ralentir|58/100 tox|[from] psn
+|
+|switch|p1a: TinKaZonb|Tinkaton, F|100/100
+|-damage|p1a: TinKaZonb|94/100|[from] Stealth Rock
+|turn|19
+|
+|-terastallize|p2a: Pas de ralentir|Fire
+|move|p1a: TinKaZonb|Gigaton Hammer|p2a: Pas de ralentir
+|-resisted|p2a: Pas de ralentir
+|-damage|p2a: Pas de ralentir|29/100 tox
+|move|p2a: Pas de ralentir|Flare Blitz|p1a: TinKaZonb
+|-supereffective|p1a: TinKaZonb
+|-damage|p1a: TinKaZonb|0 fnt
+|faint|p1a: TinKaZonb
+|
+|-damage|p2a: Pas de ralentir|17/100 tox|[from] psn
+|
+|switch|p1a: FartoZabongo|Toxapex, F|100/100
+|-damage|p1a: FartoZabongo|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Pas de ralentir|Flare Blitz|p1a: FartoZabongo
+|-resisted|p1a: FartoZabongo
+|-damage|p1a: FartoZabongo|60/100
+|move|p1a: FartoZabongo|Recover|p1a: FartoZabongo
+|-heal|p1a: FartoZabongo|100/100
+|
+|-damage|p2a: Pas de ralentir|0 fnt|[from] psn
+|faint|p2a: Pas de ralentir
+|
+|switch|p2a: La coum jar|Goodra-Hisui, F|100/100
+|turn|21
+|
+|move|p2a: La coum jar|Heavy Slam|p1a: FartoZabongo
+|-resisted|p1a: FartoZabongo
+|-damage|p1a: FartoZabongo|87/100
+|move|p1a: FartoZabongo|Surf|p2a: La coum jar
+|-resisted|p2a: La coum jar
+|-damage|p2a: La coum jar|94/100
+|
+|-heal|p2a: La coum jar|99/100|[from] item: Leftovers
+|-heal|p1a: FartoZabongo|93/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Proutox|Salamence, F|100/100
+|-damage|p1a: Proutox|76/100|[from] Stealth Rock
+|move|p2a: La coum jar|Hydro Pump|p1a: Proutox
+|-resisted|p1a: Proutox
+|-damage|p1a: Proutox|54/100
+|
+|-heal|p1a: Proutox|60/100|[from] item: Leftovers
+|-heal|p2a: La coum jar|100/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Proutox|Dragon Claw|p2a: La coum jar
+|-damage|p2a: La coum jar|56/100
+|move|p2a: La coum jar|Draco Meteor|p1a: Proutox
+|-supereffective|p1a: Proutox
+|-damage|p1a: Proutox|0 fnt
+|-unboost|p2a: La coum jar|spa|2
+|faint|p1a: Proutox
+|
+|-heal|p2a: La coum jar|62/100|[from] item: Leftovers
+|
+|switch|p1a: BonzangWifi|Volcarona, F, tera:Grass|100/100
+|turn|24
+|
+|move|p1a: BonzangWifi|Fiery Dance|p2a: La coum jar
+|-damage|p2a: La coum jar|33/100
+|-boost|p1a: BonzangWifi|spa|1
+|move|p2a: La coum jar|Hydro Pump|p1a: BonzangWifi
+|-resisted|p1a: BonzangWifi
+|-damage|p1a: BonzangWifi|91/100
+|
+|-heal|p2a: La coum jar|39/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: BonzangWifi|Fiery Dance|p2a: La coum jar
+|-damage|p2a: La coum jar|0 fnt
+|faint|p2a: La coum jar
+|
+|win|plowered

@@ -1,0 +1,291 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Kleavor, F|
+|poke|p2|Heatran, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Uxie|
+|poke|p2|Garganacl, F|
+|poke|p2|Clodsire, M|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Leplumignon|Clodsire, M|100/100
+|turn|1
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Leplumignon|[miss]
+|-miss|p1a: Kleavor|p2a: Leplumignon
+|move|p2a: Leplumignon|Counter||[still]
+|-fail|p2a: Leplumignon
+|
+|turn|2
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Leplumignon
+|-resisted|p2a: Leplumignon
+|-damage|p2a: Leplumignon|73/100
+|-sidestart|p2: Sacha77500|move: Stealth Rock
+|move|p2a: Leplumignon|Counter|p1a: Kleavor
+|-damage|p1a: Kleavor|9/100
+|
+|turn|3
+|
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|move|p2a: Leplumignon|Recover|p2a: Leplumignon
+|-heal|p2a: Leplumignon|100/100
+|
+|turn|4
+|
+|move|p1a: Electrode|Substitute|p1a: Electrode
+|-start|p1a: Electrode|Substitute
+|-damage|p1a: Electrode|76/100
+|move|p2a: Leplumignon|Earthquake|p1a: Electrode
+|-end|p1a: Electrode|Substitute
+|
+|-heal|p1a: Electrode|82/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Electrode|Leech Seed|p2a: Leplumignon
+|-start|p2a: Leplumignon|move: Leech Seed
+|move|p2a: Leplumignon|Earthquake|p1a: Electrode
+|-damage|p1a: Electrode|42/100
+|
+|-heal|p1a: Electrode|48/100|[from] item: Leftovers
+|-damage|p2a: Leplumignon|88/100|[from] Leech Seed|[of] p1a: Electrode
+|-heal|p1a: Electrode|66/100|[silent]
+|turn|6
+|
+|move|p1a: Electrode|Giga Drain|p2a: Leplumignon
+|-damage|p2a: Leplumignon|76/100
+|-heal|p1a: Electrode|75/100|[from] drain|[of] p2a: Leplumignon
+|move|p2a: Leplumignon|Earthquake|p1a: Electrode
+|-damage|p1a: Electrode|33/100
+|
+|-heal|p1a: Electrode|39/100|[from] item: Leftovers
+|-damage|p2a: Leplumignon|63/100|[from] Leech Seed|[of] p1a: Electrode
+|-heal|p1a: Electrode|57/100|[silent]
+|turn|7
+|
+|switch|p2a: Pyramide|Garganacl, F|100/100
+|-damage|p2a: Pyramide|88/100|[from] Stealth Rock
+|move|p1a: Electrode|Substitute|p1a: Electrode
+|-start|p1a: Electrode|Substitute
+|-damage|p1a: Electrode|32/100
+|
+|-heal|p1a: Electrode|39/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Electrode|Leech Seed|p2a: Pyramide|[miss]
+|-miss|p1a: Electrode|p2a: Pyramide
+|move|p2a: Pyramide|Recover|p2a: Pyramide
+|-heal|p2a: Pyramide|100/100
+|
+|-heal|p1a: Electrode|45/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Electrode|Leech Seed|p2a: Pyramide|[miss]
+|-miss|p1a: Electrode|p2a: Pyramide
+|move|p2a: Pyramide|Curse|p2a: Pyramide
+|-unboost|p2a: Pyramide|spe|1
+|-boost|p2a: Pyramide|atk|1
+|-boost|p2a: Pyramide|def|1
+|
+|-heal|p1a: Electrode|51/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Electrode|Leech Seed|p2a: Pyramide
+|-start|p2a: Pyramide|move: Leech Seed
+|move|p2a: Pyramide|Curse|p2a: Pyramide
+|-unboost|p2a: Pyramide|spe|1
+|-boost|p2a: Pyramide|atk|1
+|-boost|p2a: Pyramide|def|1
+|
+|-heal|p1a: Electrode|57/100|[from] item: Leftovers
+|-damage|p2a: Pyramide|88/100|[from] Leech Seed|[of] p1a: Electrode
+|-heal|p1a: Electrode|70/100|[silent]
+|turn|11
+|
+|move|p1a: Electrode|Giga Drain|p2a: Pyramide
+|-supereffective|p2a: Pyramide
+|-damage|p2a: Pyramide|57/100
+|-heal|p1a: Electrode|87/100|[from] drain|[of] p2a: Pyramide
+|move|p2a: Pyramide|Stone Edge|p1a: Electrode
+|-crit|p1a: Electrode
+|-end|p1a: Electrode|Substitute
+|
+|-heal|p1a: Electrode|93/100|[from] item: Leftovers
+|-damage|p2a: Pyramide|44/100|[from] Leech Seed|[of] p1a: Electrode
+|-heal|p1a: Electrode|100/100|[silent]
+|turn|12
+|
+|move|p1a: Electrode|Substitute|p1a: Electrode
+|-start|p1a: Electrode|Substitute
+|-damage|p1a: Electrode|76/100
+|move|p2a: Pyramide|Stone Edge|p1a: Electrode
+|-end|p1a: Electrode|Substitute
+|
+|-heal|p1a: Electrode|82/100|[from] item: Leftovers
+|-damage|p2a: Pyramide|32/100|[from] Leech Seed|[of] p1a: Electrode
+|-heal|p1a: Electrode|95/100|[silent]
+|turn|13
+|
+|move|p1a: Electrode|Substitute|p1a: Electrode
+|-start|p1a: Electrode|Substitute
+|-damage|p1a: Electrode|70/100
+|move|p2a: Pyramide|Stone Edge|p1a: Electrode
+|-end|p1a: Electrode|Substitute
+|
+|-heal|p1a: Electrode|76/100|[from] item: Leftovers
+|-damage|p2a: Pyramide|20/100|[from] Leech Seed|[of] p1a: Electrode
+|-heal|p1a: Electrode|89/100|[silent]
+|turn|14
+|
+|switch|p2a: cerul Edge-lord|Ceruledge, M, shiny|100/100
+|-damage|p2a: cerul Edge-lord|75/100|[from] Stealth Rock
+|move|p1a: Electrode|Giga Drain|p2a: cerul Edge-lord
+|-resisted|p2a: cerul Edge-lord
+|-damage|p2a: cerul Edge-lord|63/100
+|-heal|p1a: Electrode|95/100|[from] drain|[of] p2a: cerul Edge-lord
+|
+|-heal|p1a: Electrode|100/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p2a: cerul Edge-lord|Bitter Blade|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|87/100
+|-heal|p2a: cerul Edge-lord|71/100|[from] drain|[of] p1a: Arcanine
+|
+|turn|16
+|
+|-terastallize|p1a: Arcanine|Rock
+|-terastallize|p2a: cerul Edge-lord|Fighting
+|move|p1a: Arcanine|Head Smash|p2a: cerul Edge-lord|[miss]
+|-miss|p1a: Arcanine|p2a: cerul Edge-lord
+|move|p2a: cerul Edge-lord|Close Combat|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: cerul Edge-lord|def|1
+|-unboost|p2a: cerul Edge-lord|spd|1
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|17
+|
+|move|p1a: Enamorus|Moonblast|p2a: cerul Edge-lord
+|-supereffective|p2a: cerul Edge-lord
+|-damage|p2a: cerul Edge-lord|0 fnt
+|faint|p2a: cerul Edge-lord
+|
+|
+|switch|p2a: Limace qui passe|Heatran, M|100/100
+|-damage|p2a: Limace qui passe|88/100|[from] Stealth Rock
+|-item|p2a: Limace qui passe|Air Balloon
+|turn|18
+|
+|switch|p1a: Kleavor|Kleavor, F|9/100
+|move|p2a: Limace qui passe|Flash Cannon|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|19
+|
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Limace qui passe|Will-O-Wisp|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|20
+|
+|move|p2a: Limace qui passe|Iron Defense|p2a: Limace qui passe
+|-boost|p2a: Limace qui passe|def|2
+|move|p1a: Ursaluna|Facade|p2a: Limace qui passe
+|-resisted|p2a: Limace qui passe
+|-damage|p2a: Limace qui passe|62/100
+|-enditem|p2a: Limace qui passe|Air Balloon
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|21
+|
+|move|p2a: Limace qui passe|Iron Defense|p2a: Limace qui passe
+|-boost|p2a: Limace qui passe|def|2
+|move|p1a: Ursaluna|Earthquake|p2a: Limace qui passe
+|-supereffective|p2a: Limace qui passe
+|-damage|p2a: Limace qui passe|0 fnt
+|faint|p2a: Limace qui passe
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|
+|switch|p2a: Leplumignon|Clodsire, M|63/100
+|-damage|p2a: Leplumignon|57/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Leplumignon|Protect|p2a: Leplumignon
+|-singleturn|p2a: Leplumignon|Protect
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|
+|-damage|p1a: Ursaluna|82/100 brn|[from] brn
+|turn|23
+|
+|move|p1a: Ursaluna|Facade|p2a: Leplumignon
+|-damage|p2a: Leplumignon|0 fnt
+|faint|p2a: Leplumignon
+|
+|-damage|p1a: Ursaluna|76/100 brn|[from] brn
+|
+|switch|p2a: Chien|Chien-Pao|100/100
+|-damage|p2a: Chien|76/100|[from] Stealth Rock
+|-ability|p2a: Chien|Sword of Ruin
+|turn|24
+|
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Chien|Icicle Crash|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-damage|p1a: Ursaluna|70/100 brn|[from] brn
+|turn|25
+|
+|move|p2a: Chien|Icicle Crash|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|9/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Chien
+|-damage|p2a: Chien|0 fnt
+|faint|p2a: Chien
+|
+|-damage|p1a: Ursaluna|3/100 brn|[from] brn
+|
+|switch|p2a: Chapô|Uxie|100/100
+|-damage|p2a: Chapô|88/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Chapô|Calm Mind|p2a: Chapô
+|-boost|p2a: Chapô|spa|1
+|-boost|p2a: Chapô|spd|1
+|move|p1a: Ursaluna|Facade|p2a: Chapô
+|-damage|p2a: Chapô|0 fnt
+|faint|p2a: Chapô
+|
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|
+|switch|p2a: Pyramide|Garganacl, F|20/100
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Pyramide|8/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Enamorus|Earth Power|p2a: Pyramide
+|-supereffective|p2a: Pyramide
+|-damage|p2a: Pyramide|0 fnt
+|faint|p2a: Pyramide
+|
+|win|Octobling25

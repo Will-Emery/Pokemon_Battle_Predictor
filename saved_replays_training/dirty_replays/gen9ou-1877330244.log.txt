@@ -1,1 +1,347 @@
-Could not connect
+|j|☆bocoloco123
+|j|☆TrainerCyan1
+|t:|1685843991
+|gametype|singles
+|player|p1|bocoloco123|2|1163
+|player|p2|TrainerCyan1|silver|1145
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Scovillain, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Azumarill, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Zapdos|
+|poke|p2|Overqwil, M|
+|teampreview
+|
+|t:|1685844000
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1685844007
+|move|p2a: Pelipper|Hurricane|p1a: Hatterene
+|-damage|p1a: Hatterene|74/100
+|move|p1a: Hatterene|Trick|p2a: Pelipper
+|-activate|p1a: Hatterene|move: Trick|[of] p2a: Pelipper
+|-item|p2a: Pelipper|Choice Band|[from] move: Trick
+|-item|p1a: Hatterene|Damp Rock|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685844025
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Pelipper|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|97/100
+|
+|t:|1685844030
+|switch|p2a: Clodsire|Clodsire, M|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685844037
+|switch|p1a: Hatterene|Hatterene, F|74/100
+|move|p2a: Clodsire|Earthquake|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685844046
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Hatterene|Trick|p2a: Pelipper
+|-activate|p1a: Hatterene|move: Trick|[of] p2a: Pelipper
+|-item|p2a: Pelipper|Damp Rock|[from] move: Trick
+|-item|p1a: Hatterene|Choice Band|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685844053
+|move|p2a: Pelipper|Hurricane|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685844058
+|switch|p1a: Scovillain|Scovillain, F|100/100
+|turn|6
+|
+|t:|1685844063
+|-terastallize|p1a: Scovillain|Electric
+|move|p1a: Scovillain|Tera Blast|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685844068
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|7
+|
+|t:|1685844073
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|85/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1685844087
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Tauros|Raging Bull|p2a: Zapdos
+|-damage|p2a: Zapdos|41/100
+|-status|p1a: Tauros|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1685844098
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Zapdos|Thunder|p1a: Torkoal
+|-damage|p1a: Torkoal|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|28/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685844107
+|switch|p1a: Scovillain|Scovillain, F, tera:Electric|100/100
+|move|p2a: Zapdos|Volt Switch|p1a: Scovillain
+|-resisted|p1a: Scovillain
+|-damage|p1a: Scovillain|70/100
+|
+|t:|1685844111
+|switch|p2a: Clodsire|Clodsire, M|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1685844118
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Clodsire
+|-damage|p2a: Clodsire|66/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Scovillain
+|-sidestart|p1: bocoloco123|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clodsire|72/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685844126
+|move|p1a: Scovillain|Flamethrower|p2a: Clodsire
+|-damage|p2a: Clodsire|36/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clodsire|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685844142
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|-damage|p1a: Skeledirge|76/100|[from] Stealth Rock
+|move|p2a: Clodsire|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|22/100
+|
+|-weather|none
+|-heal|p2a: Clodsire|98/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685844152
+|move|p1a: Skeledirge|Earth Power|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|66/100
+|move|p2a: Clodsire|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-heal|p2a: Clodsire|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685844167
+|switch|p1a: Torkoal|Torkoal, F|28/100
+|-damage|p1a: Torkoal|3/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|15
+|
+|t:|1685844177
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|move|p1a: Torkoal|Rapid Spin|p2a: Azumarill
+|-damage|p2a: Azumarill|90/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: bocoloco123|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|9/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685844186
+|move|p2a: Azumarill|Aqua Jet|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685844196
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|turn|17
+|
+|t:|1685844201
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Azumarill|Play Rough|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1685844216
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|85/100 par
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Azumarill|atk|1
+|move|p2a: Azumarill|Aqua Jet|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|81/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1685844229
+|switch|p2a: Zapdos|Zapdos|41/100
+|move|p1a: Tauros|Bulk Up|p1a: Tauros
+|-boost|p1a: Tauros|atk|1
+|-boost|p1a: Tauros|def|1
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1685844236
+|move|p2a: Zapdos|Thunder|p1a: Tauros|[miss]
+|-miss|p2a: Zapdos|p1a: Tauros
+|move|p1a: Tauros|Raging Bull|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1685844243
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|21
+|
+|t:|1685844252
+|-terastallize|p2a: Basculegion|Fairy
+|move|p2a: Basculegion|Tera Blast|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+|
+|t:|1685844259
+|switch|p1a: Scovillain|Scovillain, F, tera:Electric|70/100
+|turn|22
+|
+|t:|1685844266
+|move|p1a: Scovillain|Giga Drain|p2a: Basculegion
+|-damage|p2a: Basculegion|62/100
+|-heal|p1a: Scovillain|100/100|[from] drain|[of] p2a: Basculegion
+|move|p2a: Basculegion|Tera Blast|p1a: Scovillain
+|-damage|p1a: Scovillain|3/100
+|
+|upkeep
+|turn|23
+|
+|t:|1685844275
+|move|p1a: Scovillain|Flamethrower|p2a: Basculegion
+|-damage|p2a: Basculegion|17/100
+|move|p2a: Basculegion|Tera Blast|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|
+|upkeep
+|
+|t:|1685844281
+|switch|p1a: Polteageist|Polteageist-Antique|1/100
+|turn|24
+|
+|t:|1685844286
+|move|p1a: Polteageist|Shadow Ball|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|upkeep
+|
+|t:|1685844288
+|switch|p2a: Azumarill|Azumarill, M|90/100
+|turn|25
+|
+|t:|1685844292
+|move|p2a: Azumarill|Aqua Jet|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|win|TrainerCyan1
+|raw|bocoloco123's rating: 1163 → 1137(-26 for losing)
+|raw|TrainerCyan1's rating: 1145 → 1171(+26 for winning)

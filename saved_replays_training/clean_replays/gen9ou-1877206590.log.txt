@@ -1,0 +1,264 @@
+|poke|p1|Enamorus, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Dragonite, M|
+|poke|p1|Ditto|
+|poke|p2|Maushold|
+|poke|p2|Sneasler, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Gholdengo|
+|poke|p2|Zapdos|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|1
+|
+|move|p2a: Sneasler|Fake Out|p1a: Hydreigon
+|-damage|p1a: Hydreigon|85/100
+|cant|p1a: Hydreigon|flinch
+|
+|turn|2
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Samurott|[from] ability: Imposter
+|
+|turn|3
+|
+|move|p1a: Ditto|Ceaseless Edge|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|80/100
+|-sidestart|p2: Eternal Darknesss|Spikes
+|move|p2a: Samurott|Knock Off|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|77/100
+|-enditem|p1a: Ditto|Choice Scarf|[from] move: Knock Off|[of] p2a: Samurott
+|
+|turn|4
+|
+|move|p1a: Ditto|Sacred Sword|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-damage|p2a: Sneasler|88/100|[from] Spikes
+|turn|5
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Sneasler|Close Combat|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|83/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|
+|turn|6
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Dragonite
+|-damage|p1a: Dragonite|39/100
+|-status|p1a: Dragonite|slp
+|cant|p1a: Dragonite|slp
+|
+|turn|7
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-terastallize|p2a: Sneasler|Fighting
+|move|p2a: Sneasler|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|43/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|
+|turn|8
+|
+|move|p2a: Sneasler|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|9
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100
+|
+|turn|10
+|
+|-terastallize|p1a: Zamazenta|Steel
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Zapdos|Hurricane|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|79/100
+|-start|p1a: Zamazenta|confusion
+|
+|-heal|p1a: Zamazenta|85/100|[from] item: Leftovers
+|turn|11
+|
+|-activate|p1a: Zamazenta|confusion
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Zapdos|Heat Wave|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|37/100
+|
+|-heal|p1a: Zamazenta|43/100|[from] item: Leftovers
+|turn|12
+|
+|-activate|p1a: Zamazenta|confusion
+|move|p1a: Zamazenta|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|23/100
+|move|p2a: Zapdos|Heat Wave|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Hydreigon|Hydreigon, M|85/100
+|turn|13
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Sneasler|Sneasler, M, tera:Fighting|88/100
+|-damage|p2a: Sneasler|76/100|[from] Spikes
+|turn|14
+|
+|switch|p1a: Dragonite|Dragonite, M|39/100 slp
+|move|p2a: Sneasler|Close Combat|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Ditto|Ditto|77/100
+|-transform|p1a: Ditto|p2a: Sneasler|[from] ability: Imposter
+|turn|15
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Ditto|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|96/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|switch|p1a: Hydreigon|Hydreigon, M|85/100|[from] U-turn
+|
+|turn|16
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|88/100|[from] Spikes
+|move|p1a: Hydreigon|Dark Pulse|p2a: Garchomp
+|-damage|p2a: Garchomp|42/100
+|
+|turn|17
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|66/100
+|-damage|p2a: Garchomp|32/100|[from] item: Life Orb
+|move|p1a: Hydreigon|Taunt|p2a: Garchomp
+|-start|p2a: Garchomp|move: Taunt
+|
+|turn|18
+|
+|move|p2a: Garchomp|Draco Meteor|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Garchomp|spa|2
+|faint|p1a: Hydreigon
+|-damage|p2a: Garchomp|22/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|19
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Enamorus
+|-damage|p1a: Enamorus|77/100
+|-damage|p2a: Garchomp|12/100|[from] item: Life Orb
+|move|p1a: Enamorus|Agility|p1a: Enamorus
+|-boost|p1a: Enamorus|spe|2
+|
+|turn|20
+|
+|move|p1a: Enamorus|Superpower|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Enamorus|atk|1
+|-unboost|p1a: Enamorus|def|1
+|-damage|p1a: Enamorus|64/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-damage|p1a: Enamorus|54/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Sneasler|Sneasler, M, tera:Fighting|76/100
+|-damage|p2a: Sneasler|64/100|[from] Spikes
+|turn|21
+|
+|move|p2a: Sneasler|Fake Out|p1a: Enamorus
+|-damage|p1a: Enamorus|21/100
+|cant|p1a: Enamorus|flinch
+|
+|turn|22
+|
+|switch|p2a: Maushold|Maushold|100/100
+|-damage|p2a: Maushold|88/100|[from] Spikes
+|move|p1a: Enamorus|Earth Power|p2a: Maushold
+|-damage|p2a: Maushold|18/100
+|-damage|p1a: Enamorus|11/100|[from] item: Life Orb
+|
+|turn|23
+|
+|move|p1a: Enamorus|Earth Power|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|-damage|p1a: Enamorus|1/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Sneasler|Sneasler, M, tera:Fighting|64/100
+|-damage|p2a: Sneasler|51/100|[from] Spikes
+|turn|24
+|
+|switch|p1a: Ditto|Ditto|77/100
+|-transform|p1a: Ditto|p2a: Sneasler|[from] ability: Imposter
+|move|p2a: Sneasler|Fake Out|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|41/100
+|
+|turn|25
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|3/100
+|-status|p1a: Ditto|par
+|move|p1a: Ditto|U-turn|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|32/100
+|
+|switch|p1a: Enamorus|Enamorus, F|1/100|[from] U-turn
+|
+|turn|26
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-message|me and the rza forfeited.
+|
+|win|Eternal Darknesss

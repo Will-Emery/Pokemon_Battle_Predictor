@@ -1,0 +1,267 @@
+|poke|p1|Medicham, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Qwilfish, F|
+|poke|p1|Bronzong|
+|poke|p1|Sandy Shocks|
+|poke|p1|Volcarona, M|
+|poke|p2|Quagsire, F|
+|poke|p2|Arcanine, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Gardevoir, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|start
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Iron Moth|atk|1
+|turn|1
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Iron Moth|U-turn|p1a: Bronzong
+|-damage|p1a: Bronzong|94/100
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Gardevoir|Gardevoir, M, shiny|100/100|[from] U-turn
+|-ability|p2a: Gardevoir|Heatproof|[from] ability: Trace|[of] p1a: Bronzong
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Gardevoir|Mystical Fire|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|82/100
+|-unboost|p1a: Bronzong|spa|1
+|move|p1a: Bronzong|Heavy Slam|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-crit|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-heal|p1a: Bronzong|88/100|[from] item: Leftovers
+|
+|switch|p2a: Arcanine|Arcanine, M, shiny|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Bronzong|atk|1
+|turn|3
+|
+|switch|p1a: Qwilfish|Qwilfish, F|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|move|p2a: Arcanine|Flare Blitz|p1a: Qwilfish
+|-resisted|p1a: Qwilfish
+|-damage|p1a: Qwilfish|76/100
+|-damage|p2a: Arcanine|93/100|[from] Recoil
+|
+|-heal|p1a: Qwilfish|82/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Qwilfish|Toxic|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p1a: Qwilfish|88/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|move|p2a: Corviknight|U-turn|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|85/100
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100|[from] U-turn
+|
+|turn|6
+|
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Qwilfish|Qwilfish, F|88/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Quagsire|atk|1
+|move|p2a: Quagsire|Stealth Rock|p1a: Qwilfish
+|-sidestart|p1: thegroomsmen|move: Stealth Rock
+|
+|-heal|p1a: Qwilfish|94/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|turn|8
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Corviknight|U-turn|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|89/100
+|-status|p2a: Corviknight|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|
+|switch|p2a: Vaporeon|Vaporeon, F, shiny|100/100|[from] U-turn
+|
+|turn|9
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|44/100
+|-heal|p1a: Volcarona|100/100|[from] drain|[of] p2a: Vaporeon
+|move|p2a: Vaporeon|Surf|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|54/100
+|
+|-heal|p2a: Vaporeon|50/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|57/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Arcanine|Arcanine, M, shiny|93/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|move|p1a: Volcarona|Bug Buzz|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|29/100
+|
+|-heal|p2a: Arcanine|96/100|[from] move: Wish|[wisher] Vaporeon
+|turn|12
+|
+|switch|p1a: Bronzong|Bronzong|88/100
+|-damage|p1a: Bronzong|82/100|[from] Stealth Rock
+|move|p2a: Arcanine|Wild Charge|p1a: Bronzong
+|-damage|p1a: Bronzong|40/100
+|-damage|p2a: Arcanine|86/100|[from] Recoil
+|
+|-heal|p1a: Bronzong|47/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Bronzong|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Dietgoose|move: Stealth Rock
+|
+|-heal|p1a: Bronzong|53/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|turn|14
+|
+|move|p2a: Corviknight|Defog|p1a: Bronzong
+|-unboost|p1a: Bronzong|evasion|1
+|-sideend|p1: thegroomsmen|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Dietgoose|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Bronzong|Future Sight|p2a: Corviknight
+|-start|p1a: Bronzong|move: Future Sight
+|
+|-heal|p2a: Corviknight|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Bronzong|59/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|turn|15
+|
+|switch|p1a: Sandy Shocks|Sandy Shocks|85/100
+|move|p2a: Corviknight|Drill Peck|p1a: Sandy Shocks
+|-resisted|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|79/100
+|
+|-heal|p2a: Corviknight|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Sandy Shocks|Earth Power|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-end|p2a: Corviknight|move: Future Sight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|85/100 brn
+|-heal|p2a: Corviknight|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|85/100 brn|[from] brn
+|turn|17
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Sandy Shocks|Earth Power|p2a: Quagsire
+|-damage|p2a: Quagsire|47/100
+|
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|85/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Sandy Shocks|Earth Power|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|85/100 brn|[from] brn
+|turn|19
+|
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|turn|20
+|
+|move|p2a: Iron Moth|U-turn|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|67/100
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Quagsire|Quagsire, F|47/100|[from] U-turn
+|move|p1a: Sandy Shocks|Earth Power|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|turn|21
+|
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|28/100
+|move|p1a: Sandy Shocks|Earth Power|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|
+|switch|p2a: Vaporeon|Vaporeon, F, shiny|57/100
+|turn|22
+|
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|5/100
+|move|p2a: Vaporeon|Surf|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-heal|p2a: Vaporeon|11/100|[from] item: Leftovers
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|23
+|
+|move|p1a: Dragonite|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|
+|switch|p2a: Arcanine|Arcanine, M, shiny|86/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|24
+|
+|move|p1a: Dragonite|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|win|thegroomsmen

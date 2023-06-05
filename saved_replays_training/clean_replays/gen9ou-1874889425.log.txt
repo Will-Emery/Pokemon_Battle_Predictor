@@ -1,0 +1,145 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Floatzel, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Maushold|Maushold-Four|100/100
+|switch|p2a: Good mornoon!|Tornadus-Therian, M|100/100
+|turn|1
+|
+|move|p2a: Good mornoon!|Hurricane|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|2
+|
+|switch|p2a: Eminem AI|Slowking-Galar, F|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Eminem AI|atk|1
+|
+|turn|3
+|
+|switch|p2a: Good mornoon!|Tornadus-Therian, M|100/100
+|move|p1a: Landorus|U-turn|p2a: Good mornoon!
+|-resisted|p2a: Good mornoon!
+|-damage|p2a: Good mornoon!|85/100
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|
+|turn|4
+|
+|switch|p2a: Eminem AI|Slowking-Galar, F|100/100
+|move|p1a: Thundurus|Thunder|p2a: Eminem AI
+|-crit|p2a: Eminem AI
+|-damage|p2a: Eminem AI|49/100
+|-status|p2a: Eminem AI|par
+|
+|turn|5
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Eminem AI|Surf|p1a: Thundurus
+|-damage|p1a: Thundurus|59/100
+|
+|turn|6
+|
+|move|p1a: Thundurus|Thunder|p2a: Eminem AI
+|-damage|p2a: Eminem AI|0 fnt
+|faint|p2a: Eminem AI
+|
+|
+|switch|p2a: Skinny Flex|Chien-Pao|100/100
+|-ability|p2a: Skinny Flex|Sword of Ruin
+|turn|7
+|
+|-terastallize|p1a: Thundurus|Water
+|move|p2a: Skinny Flex|Crunch|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skinny Flex|atk|1
+|turn|8
+|
+|switch|p2a: Good mornoon!|Tornadus-Therian, M|100/100
+|move|p1a: Landorus|U-turn|p2a: Good mornoon!
+|-resisted|p2a: Good mornoon!
+|-damage|p2a: Good mornoon!|84/100
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p2a: Good mornoon!|Hurricane|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Floatzel|Floatzel, M|100/100
+|turn|10
+|
+|switch|p2a: Cracker w da Juice|Great Tusk|100/100
+|move|p1a: Floatzel|Wave Crash|p2a: Cracker w da Juice
+|-supereffective|p2a: Cracker w da Juice
+|-damage|p2a: Cracker w da Juice|0 fnt
+|faint|p2a: Cracker w da Juice
+|-end|p2a: Cracker w da Juice|Protosynthesis|[silent]
+|-damage|p1a: Floatzel|58/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ball like a laker|Urshifu-Rapid-Strike, F|100/100
+|turn|11
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Ball like a laker|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|82/100
+|-enditem|p1a: Amoonguss|Eject Button
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ball like a laker|atk|1
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|move|p2a: Ball like a laker|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|95/100
+|
+|switch|p2a: Good mornoon!|Tornadus-Therian, M|100/100|[from] U-turn
+|move|p1a: Landorus|Stone Edge|p2a: Good mornoon!
+|-supereffective|p2a: Good mornoon!
+|-damage|p2a: Good mornoon!|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Good mornoon!|Icy Wind|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|-message|RggV forfeited.
+|
+|win|i get my gholdngo

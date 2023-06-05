@@ -1,1 +1,321 @@
-Could not connect
+|j|☆Gluzzmobiletest
+|j|☆kura51
+|t:|1685873219
+|gametype|singles
+|player|p1|Gluzzmobiletest|265|1470
+|player|p2|kura51|lucas|1499
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcanion|
+|poke|p1|Ursaluna, F|
+|poke|p1|Magearna|
+|poke|p1|Zamazenta-*|
+|poke|p1|Sneasler, M|
+|poke|p1|Chien-Pao|
+|poke|p2|Torkoal, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Walking Wake|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Corviknight, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gluzzmobiletest)
+|
+|t:|1685873247
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|-enditem|p1a: Magearna|Eject Pack
+|
+|t:|1685873250
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-item|p1a: Sneasler|Air Balloon
+|turn|1
+|
+|t:|1685873266
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Landorus|Stealth Rock|p1a: Sneasler
+|-sidestart|p1: Gluzzmobiletest|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685873272
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685873291
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Sneasler|Close Combat|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|51/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1685873299
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685873316
+|move|p2a: Walking Wake|Draco Meteor|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|-enditem|p1a: Sneasler|Air Balloon
+|faint|p1a: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685873319
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1685873333
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|51/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685873344
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1685873362
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|turn|7
+|
+|t:|1685873377
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: Landorus|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|63/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|57/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685873387
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ursaluna|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Corviknight|35/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|51/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|kura51 has 120 seconds left.
+|
+|t:|1685873406
+|move|p1a: Ursaluna|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|none
+|-damage|p1a: Ursaluna|45/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|kura51 has 120 seconds left.
+|
+|t:|1685873416
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p1a: Ursaluna|Flame Orb|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|turn|10
+|
+|t:|1685873421
+|move|p2a: Typhlosion|Eruption|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1685873425
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|11
+|
+|t:|1685873428
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|82/100
+|
+|upkeep
+|turn|12
+|
+|t:|1685873444
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volcanion|atk|1
+|move|p1a: Volcanion|Earth Power|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|13
+|
+|t:|1685873453
+|move|p2a: Landorus|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|21/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1685873463
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p1a: Volcanion|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|turn|14
+|
+|t:|1685873468
+|move|p2a: Typhlosion|Eruption|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+|
+|t:|1685873487
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|15
+|
+|t:|1685873493
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Chien-Pao|Crunch|p2a: Torkoal
+|-damage|p2a: Torkoal|59/100
+|-unboost|p2a: Torkoal|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1685873502
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Crunch|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685873506
+|switch|p2a: Walking Wake|Walking Wake|82/100
+|-heal|p2a: Walking Wake|100/100|[from] move: Healing Wish
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|17
+|
+|t:|1685873514
+|switch|p1a: Magearna|Magearna|94/100
+|-damage|p1a: Magearna|88/100|[from] Stealth Rock
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685873523
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p1a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|18
+|
+|t:|1685873529
+|move|p2a: Walking Wake|Hydro Steam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|19/100
+|move|p1a: Zamazenta|Body Press|p2a: Walking Wake
+|-damage|p2a: Walking Wake|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1685873535
+|move|p2a: Walking Wake|Hydro Steam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685873537
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|76/100
+|-damage|p1a: Chien-Pao|63/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|20
+|
+|t:|1685873546
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p1a: Chien-Pao|Choice Band|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|move|p1a: Chien-Pao|Ice Shard|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1685873554
+|move|p1a: Chien-Pao|Ice Shard|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|46/100
+|move|p2a: Typhlosion|Flamethrower|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|win|kura51
+|raw|Gluzzmobiletest's rating: 1470 → 1452(-18 for losing)
+|raw|kura51's rating: 1499 → 1517(+18 for winning)
+|l|☆Gluzzmobiletest

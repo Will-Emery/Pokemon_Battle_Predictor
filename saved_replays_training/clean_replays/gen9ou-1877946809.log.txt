@@ -1,0 +1,287 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Chien-Pao|
+|poke|p1|Skeledirge, F|
+|poke|p1|Walking Wake|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Heatran, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Zapdos|Zapdos-Galar, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|-ability|p2a: Zapdos|Defiant|boost
+|-boost|p2a: Zapdos|atk|2
+|turn|1
+|
+|move|p2a: Zapdos|Brave Bird|p1a: Landorus
+|-damage|p1a: Landorus|8/100
+|-damage|p2a: Zapdos|64/100|[from] Recoil
+|move|p1a: Landorus|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|57/100
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|
+|turn|2
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Hatterene|Thunder Wave|p2a: Volcanion|[miss]
+|-miss|p1a: Hatterene|p2a: Volcanion
+|
+|turn|3
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|82/100
+|
+|turn|4
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Volcanion
+|-damage|p2a: Volcanion|60/100
+|move|p2a: Volcanion|Sludge Bomb|p1a: Walking Wake
+|-damage|p1a: Walking Wake|44/100
+|
+|-heal|p2a: Volcanion|66/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Volcanion
+|-damage|p2a: Volcanion|25/100
+|move|p2a: Volcanion|Sludge Bomb|p1a: Walking Wake
+|-damage|p1a: Walking Wake|6/100
+|
+|-heal|p2a: Volcanion|32/100|[from] item: Leftovers
+|turn|6
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|8/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Volcanion|atk|1
+|move|p2a: Volcanion|Sludge Bomb|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Volcanion|38/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|8
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Skeledirge
+|-sidestart|p1: jlkfsjkldf|move: Stealth Rock
+|
+|turn|9
+|
+|move|p2a: Heatran|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|60/100
+|move|p1a: Skeledirge|Hex|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Heatran|Taunt|p1a: Hatterene
+|move|p1a: Hatterene|Taunt|p2a: Heatran|[from]ability: Magic Bounce
+|-start|p2a: Heatran|move: Taunt
+|
+|-heal|p2a: Heatran|88/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Heatran|Magma Storm|p1a: Hatterene|[miss]
+|-miss|p2a: Heatran|p1a: Hatterene
+|move|p1a: Hatterene|Thunder Wave|p2a: Heatran
+|-status|p2a: Heatran|par
+|
+|-heal|p2a: Heatran|94/100 par|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Skeledirge|Skeledirge, F|60/100
+|move|p2a: Heatran|Magma Storm|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|46/100
+|-activate|p1a: Skeledirge|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|99/100 par|[from] item: Leftovers
+|-damage|p1a: Skeledirge|33/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|13
+|
+|move|p1a: Skeledirge|Hex|p2a: Heatran
+|-damage|p2a: Heatran|69/100 par
+|cant|p2a: Heatran|par
+|
+|-heal|p2a: Heatran|75/100 par|[from] item: Leftovers
+|-damage|p1a: Skeledirge|21/100|[from] move: Magma Storm|[partiallytrapped]
+|-end|p2a: Heatran|move: Taunt
+|turn|14
+|
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|71/100
+|move|p2a: Heatran|Taunt|p1a: Skeledirge
+|-start|p1a: Skeledirge|move: Taunt
+|
+|-heal|p2a: Heatran|82/100 par|[from] item: Leftovers
+|-damage|p1a: Skeledirge|59/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|15
+|
+|move|p1a: Skeledirge|Hex|p2a: Heatran
+|-damage|p2a: Heatran|51/100 par
+|move|p2a: Heatran|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|18/100
+|
+|-heal|p2a: Heatran|57/100 par|[from] item: Leftovers
+|-damage|p1a: Skeledirge|6/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|16
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Skeledirge|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|66/100
+|
+|-end|p1a: Skeledirge|Magma Storm|[partiallytrapped]|[silent]
+|turn|17
+|
+|switch|p1a: Walking Wake|Walking Wake|6/100
+|-damage|p1a: Walking Wake|0 fnt|[from] Stealth Rock
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|move|p2a: Great Tusk|Knock Off|p1: Walking Wake|[notarget]
+|-fail|p2a: Great Tusk
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|18
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-start|p1a: Chien-Pao|Disable|Ice Spinner|[from] ability: Cursed Body|[of] p2a: Dragapult
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Zapdos|Zapdos-Galar, shiny|57/100
+|turn|19
+|
+|switch|p1a: Skeledirge|Skeledirge, F|6/100
+|move|p2a: Zapdos|U-turn|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|switch|p2a: Heatran|Heatran, M|57/100 par|[from] U-turn
+|
+|-heal|p2a: Heatran|63/100 par|[from] item: Leftovers
+|
+|switch|p1a: Zamazenta|Zamazenta, shiny|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|20
+|
+|-terastallize|p2a: Heatran|Grass
+|move|p1a: Zamazenta|Body Press|p2a: Heatran
+|-damage|p2a: Heatran|25/100 par
+|move|p2a: Heatran|Magma Storm|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|46/100
+|-activate|p1a: Zamazenta|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Zamazenta|52/100|[from] item: Leftovers
+|-heal|p2a: Heatran|31/100 par|[from] item: Leftovers
+|-damage|p1a: Zamazenta|39/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|21
+|
+|move|p1a: Zamazenta|Body Press|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Zamazenta|46/100|[from] item: Leftovers
+|-end|p1a: Zamazenta|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p2a: Zapdos|Zapdos-Galar, shiny|57/100
+|turn|22
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Zapdos|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|16/100
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|
+|-heal|p1a: Zamazenta|22/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p2a: Great Tusk|Great Tusk|66/100
+|move|p1a: Zamazenta|Body Press|p2a: Great Tusk
+|-damage|p2a: Great Tusk|23/100
+|-damage|p1a: Zamazenta|6/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|-heal|p1a: Zamazenta|12/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Zamazenta|Body Press|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Zamazenta|0 fnt|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Hatterene|Hatterene, F|88/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-damage|p1a: Hatterene|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-damage|p2a: Chien-Pao|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|26
+|
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|
+|turn|27
+|
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Chien-Pao
+|-resisted|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|26/100
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|-damage|p2a: Chien-Pao|16/100|[from] item: Life Orb
+|
+|win|TesteZapZapdos3

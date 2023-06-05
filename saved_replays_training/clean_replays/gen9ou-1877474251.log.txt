@@ -1,0 +1,203 @@
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Murkrow, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Mew|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Grafaiai, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Masquerain, F|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Masquerain|Masquerain, F|100/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Masquerain|atk|1
+|turn|1
+|
+|move|p2a: Masquerain|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|7/100
+|move|p1a: Landorus|Stealth Rock|p2a: Masquerain
+|-sidestart|p2: ryucore|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Masquerain|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|turn|3
+|
+|move|p2a: Masquerain|Sticky Web|p1a: Braviary
+|-sidestart|p1: the burnerrr|move: Sticky Web
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|
+|turn|4
+|
+|move|p2a: Masquerain|Quiver Dance|p2a: Masquerain
+|-boost|p2a: Masquerain|spa|1
+|-boost|p2a: Masquerain|spd|1
+|-boost|p2a: Masquerain|spe|1
+|move|p1a: Braviary|Esper Wing|p2a: Masquerain
+|-damage|p2a: Masquerain|45/100
+|-boost|p1a: Braviary|spe|1
+|
+|turn|5
+|
+|move|p2a: Masquerain|Ice Beam|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|36/100
+|move|p1a: Braviary|Esper Wing|p2a: Masquerain
+|-damage|p2a: Masquerain|0 fnt
+|-boost|p1a: Braviary|spe|1
+|faint|p2a: Masquerain
+|
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Braviary|Hurricane|p2a: Mew
+|-damage|p2a: Mew|19/100
+|move|p2a: Mew|Stealth Rock|p1a: Braviary
+|-sidestart|p1: the burnerrr|move: Stealth Rock
+|
+|-heal|p2a: Mew|25/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Braviary|Esper Wing|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-boost|p1a: Braviary|spe|1
+|faint|p2a: Mew
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Braviary|Hurricane|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|26/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|32/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Braviary|Hurricane|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Grafaiai|Grafaiai, F|100/100
+|-damage|p2a: Grafaiai|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Grafaiai|Toxic|p1a: Braviary
+|-status|p1a: Braviary|tox
+|move|p1a: Braviary|Esper Wing|p2a: Grafaiai
+|-supereffective|p2a: Grafaiai
+|-damage|p2a: Grafaiai|0 fnt
+|-boost|p1a: Braviary|spe|1
+|faint|p2a: Grafaiai
+|
+|-damage|p1a: Braviary|29/100 tox|[from] psn
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|turn|11
+|
+|-terastallize|p2a: Urshifu|Water
+|move|p2a: Urshifu|Aqua Jet|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Murkrow|Murkrow, M|100/100
+|-damage|p1a: Murkrow|76/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Murkrow|Thunder Wave|p2a: Urshifu
+|-status|p2a: Urshifu|par
+|move|p2a: Urshifu|Surging Strikes|p1a: Murkrow
+|-crit|p1a: Murkrow
+|-damage|p1a: Murkrow|19/100
+|-crit|p1a: Murkrow
+|-damage|p1a: Murkrow|0 fnt
+|faint|p1a: Murkrow
+|-hitcount|p1: Murkrow|2
+|
+|
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|-damage|p1a: Zapdos|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Zapdos|Brave Bird|p2a: Urshifu
+|-damage|p2a: Urshifu|1/100 par
+|-damage|p1a: Zapdos|55/100|[from] Recoil
+|move|p2a: Urshifu|Surging Strikes|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|22/100
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|2
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-activate|p1a: Ursaluna|move: Sticky Web
+|-unboost|p1a: Ursaluna|spe|1
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|55/100
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|15/100
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-hitcount|p1: Ursaluna|3
+|
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|turn|15
+|
+|move|p2a: Urshifu|Poison Jab|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|47/100
+|move|p1a: Enamorus|Earth Power|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|turn|16
+|
+|-terastallize|p1a: Enamorus|Steel
+|move|p2a: Cinderace|Pyro Ball|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|win|ryucore

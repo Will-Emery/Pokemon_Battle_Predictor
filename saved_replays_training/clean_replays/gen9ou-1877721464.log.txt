@@ -1,0 +1,149 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Breloom, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Great Tusk|
+|poke|p1|Volcarona, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dondozo, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Great Tusk|Knock Off|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|94/100
+|-enditem|p2a: Zamazenta|Life Orb|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|2
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|76/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-enditem|p1a: Great Tusk|Eject Pack
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|
+|turn|3
+|
+|move|p2a: Zamazenta|Stone Edge|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|4
+|
+|move|p1a: Sneasler|Fake Out|p2a: Zamazenta
+|-damage|p2a: Zamazenta|72/100
+|cant|p2a: Zamazenta|flinch
+|
+|turn|5
+|
+|move|p2a: Zamazenta|Body Press|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|11/100
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|turn|6
+|
+|move|p2a: Zamazenta|Body Press|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|7
+|
+|move|p2a: Zamazenta|Body Press|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|63/100
+|move|p2a: Zamazenta|Body Press|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|turn|9
+|
+|move|p2a: Zamazenta|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|65/100
+|-damage|p2a: Zamazenta|46/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|43/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|turn|10
+|
+|move|p2a: Zamazenta|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|27/100
+|move|p1a: Great Tusk|Close Combat|p2a: Zamazenta
+|-damage|p2a: Zamazenta|24/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|turn|11
+|
+|move|p2a: Zamazenta|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|65/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|turn|12
+|
+|move|p2a: Zamazenta|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|27/100
+|-damage|p2a: Zamazenta|8/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|13
+|
+|-terastallize|p2a: Dragapult|Fairy
+|move|p2a: Dragapult|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Landorus
+|
+|win|PedroDu94

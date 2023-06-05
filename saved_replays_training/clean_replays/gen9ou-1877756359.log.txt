@@ -1,0 +1,39 @@
+|poke|p1|Espeon, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Donphan, M|
+|poke|p1|Baxcalibur, M|
+|poke|p1|Heatran, M|
+|poke|p2|Azelf|
+|poke|p2|Dondozo, F|
+|poke|p2|Carbink|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Slowbro-Galar, M|
+|poke|p2|Ursaluna, F|
+|teampreview
+|
+|start
+|switch|p1a: Donphan|Donphan, M|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p2a: Azelf|Taunt|p1a: Donphan
+|-start|p1a: Donphan|move: Taunt
+|cant|p1a: Donphan|move: Taunt|Stealth Rock
+|
+|turn|2
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Azelf|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Para Skuh|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Azelf|Taunt|p1a: Heatran
+|-start|p1a: Heatran|move: Taunt
+|cant|p1a: Heatran|move: Taunt|Substitute
+|
+|turn|4
+|-message|Para Skuh forfeited.
+|
+|win|Soul of Aeon

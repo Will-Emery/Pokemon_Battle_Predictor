@@ -1,1 +1,290 @@
-Could not connect
+|j|☆Dirigible
+|j|☆Navi987
+|t:|1685819358
+|gametype|singles
+|player|p1|Dirigible|169|1190
+|player|p2|Navi987|1|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Heatran, F|
+|poke|p1|Meowscarada, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Breloom, F|
+|poke|p1|Great Tusk|
+|poke|p2|Arboliva, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Quaquaval, M|
+|poke|p2|Bellibolt, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Orthworm, M|
+|teampreview
+|
+|t:|1685819369
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Ghost Rider|Typhlosion-Hisui, M|100/100
+|turn|1
+|
+|t:|1685819377
+|move|p2a: Ghost Rider|Calm Mind|p2a: Ghost Rider
+|-boost|p2a: Ghost Rider|spa|1
+|-boost|p2a: Ghost Rider|spd|1
+|move|p1a: Heatran|Stealth Rock|p2a: Ghost Rider
+|-sidestart|p2: Navi987|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685819387
+|move|p2a: Ghost Rider|Focus Blast|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|22/100
+|move|p1a: Heatran|Magma Storm|p2a: Ghost Rider
+|-resisted|p2a: Ghost Rider
+|-damage|p2a: Ghost Rider|82/100
+|-activate|p2a: Ghost Rider|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|28/100|[from] item: Leftovers
+|-damage|p2a: Ghost Rider|69/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1685819396
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Ghost Rider|Infernal Parade|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p1a: Heatran|35/100|[from] item: Leftovers
+|-damage|p2a: Ghost Rider|57/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1685819410
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Ghost Rider|Focus Blast|p1a: Meowscarada|[miss]
+|-miss|p2a: Ghost Rider|p1a: Meowscarada
+|
+|-end|p2a: Ghost Rider|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|5
+|
+|t:|1685819422
+|switch|p2a: Amorbis|Orthworm, M|100/100
+|-damage|p2a: Amorbis|94/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Knock Off|p2a: Amorbis
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Amorbis|55/100
+|-damage|p1a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p2a: Amorbis
+|-enditem|p2a: Amorbis|Rocky Helmet|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|upkeep
+|turn|6
+|
+|t:|1685819437
+|switch|p1a: Breloom|Breloom, F|100/100
+|move|p2a: Amorbis|Stealth Rock|p1a: Breloom
+|-sidestart|p1: Dirigible|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1685819446
+|move|p1a: Breloom|Spore|p2a: Amorbis
+|-status|p2a: Amorbis|slp|[from] move: Spore
+|cant|p2a: Amorbis|slp
+|
+|upkeep
+|turn|8
+|
+|t:|1685819451
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|switch|p2a: Ghost Rider|Typhlosion-Hisui, M|57/100
+|
+|upkeep
+|turn|9
+|
+|t:|1685819462
+|move|p2a: Ghost Rider|Infernal Parade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|54/100
+|move|p1a: Great Tusk|Knock Off|p2a: Ghost Rider
+|-supereffective|p2a: Ghost Rider
+|-damage|p2a: Ghost Rider|0 fnt
+|-enditem|p2a: Ghost Rider|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Ghost Rider
+|
+|upkeep
+|
+|t:|1685819471
+|switch|p2a: Dolan|Quaquaval, M|100/100
+|-damage|p2a: Dolan|94/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1685819481
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Meowscarada|Meowscarada, F|84/100
+|-damage|p1a: Meowscarada|72/100|[from] Stealth Rock
+|move|p2a: Dolan|Aqua Step|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|41/100
+|-boost|p2a: Dolan|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1685819490
+|move|p2a: Dolan|Ice Spinner|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-ability|p2a: Dolan|Moxie|boost
+|-boost|p2a: Dolan|atk|1
+|
+|upkeep
+|
+|t:|1685819504
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1685819516
+|-terastallize|p1a: Gyarados|Flying
+|move|p2a: Dolan|Rapid Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|41/100
+|-boost|p2a: Dolan|spe|1
+|-sideend|p2: Navi987|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Dolan
+|move|p1a: Gyarados|Tera Blast|p2a: Dolan
+|-supereffective|p2a: Dolan
+|-damage|p2a: Dolan|0 fnt
+|faint|p2a: Dolan
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1685819527
+|switch|p2a: Fat Frog|Bellibolt, M|100/100
+|turn|13
+|
+|t:|1685819535
+|move|p1a: Gyarados|Waterfall|p2a: Fat Frog
+|-damage|p2a: Fat Frog|53/100
+|-start|p2a: Fat Frog|Charge|Waterfall|[from] ability: Electromorphosis
+|move|p2a: Fat Frog|Chilling Water|p1a: Gyarados
+|-damage|p1a: Gyarados|29/100
+|-unboost|p1a: Gyarados|atk|1
+|
+|upkeep
+|turn|14
+|
+|t:|1685819551
+|move|p1a: Gyarados|Waterfall|p2a: Fat Frog
+|-damage|p2a: Fat Frog|21/100
+|-start|p2a: Fat Frog|Charge|Waterfall|[from] ability: Electromorphosis
+|move|p2a: Fat Frog|Charge Beam|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-boost|p2a: Fat Frog|spa|1
+|faint|p1a: Gyarados
+|-end|p2a: Fat Frog|Charge|[silent]
+|
+|upkeep
+|
+|t:|1685819565
+|switch|p1a: Great Tusk|Great Tusk|54/100
+|-damage|p1a: Great Tusk|51/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1685819571
+|move|p1a: Great Tusk|Rapid Spin|p2a: Fat Frog
+|-damage|p2a: Fat Frog|7/100
+|-boost|p1a: Great Tusk|spe|1
+|-start|p2a: Fat Frog|Charge|Rapid Spin|[from] ability: Electromorphosis
+|-sideend|p1: Dirigible|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Fat Frog|Chilling Water|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685819581
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|16
+|
+|t:|1685819610
+|move|p1a: Dragapult|U-turn|p2a: Fat Frog
+|-damage|p2a: Fat Frog|0 fnt
+|faint|p2a: Fat Frog
+|
+|t:|1685819617
+|switch|p1a: Heatran|Heatran, F|35/100|[from] U-turn
+|
+|-heal|p1a: Heatran|41/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685819632
+|switch|p2a: Olivia Pierce|Arboliva, F|100/100
+|turn|17
+|
+|t:|1685819641
+|move|p1a: Heatran|Magma Storm|p2a: Olivia Pierce|[miss]
+|-miss|p1a: Heatran|p2a: Olivia Pierce
+|move|p2a: Olivia Pierce|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1685819653
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|18
+|
+|t:|1685819674
+|-terastallize|p2a: Olivia Pierce|Ghost
+|move|p1a: Breloom|Mach Punch|p2a: Olivia Pierce
+|-immune|p2a: Olivia Pierce
+|move|p2a: Olivia Pierce|Dazzling Gleam|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|upkeep
+|
+|t:|1685819691
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|19
+|
+|t:|1685819695
+|move|p1a: Dragapult|Shadow Ball|p2a: Olivia Pierce
+|-supereffective|p2a: Olivia Pierce
+|-damage|p2a: Olivia Pierce|40/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Olivia Pierce
+|move|p2a: Olivia Pierce|Tera Blast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|Navi987
+|raw|Dirigible's rating: 1190 → 1159(-31 for losing)
+|raw|Navi987's rating: 1112 → 1143(+31 for winning)
+|l|☆Dirigible
+|c|☆Navi987|gg

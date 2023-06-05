@@ -1,0 +1,184 @@
+|poke|p1|Glastrier|
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Cinderace, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Rotom-Wash|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Slowking
+|-sidestart|p1: bbld|move: Stealth Rock
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|2
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100|[from] Chilly Reception
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|68/100
+|
+|-weather|Snow|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p1a: Ursaluna|Earthquake|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|49/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|42/100 brn
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Ting-Lu|55/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|36/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Ursaluna|Facade|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Ursaluna|30/100 brn|[from] brn
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|5
+|
+|move|p1a: Ursaluna|Facade|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Ursaluna|24/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|6
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Cresselia
+|-damage|p1a: Cresselia|61/100
+|
+|-weather|none
+|turn|7
+|
+|move|p2a: Rotom|Thunder Wave|p1a: Cresselia
+|-status|p1a: Cresselia|par
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|8
+|
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Rotom|Volt Switch|p1: Cresselia|[notarget]
+|-fail|p2a: Rotom
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M|24/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Lunar Dance
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: Rotom|Hydro Pump|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|26/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|10
+|
+|move|p1a: Ursaluna|Facade|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Ursaluna|19/100 brn|[from] brn
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|11
+|
+|move|p1a: Ursaluna|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-damage|p1a: Ursaluna|13/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|12
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Cinderace|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|73/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|14
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100|[from] Chilly Reception
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Dragapult|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|70/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Kingambit|76/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Cinderace
+|-damage|p2a: Cinderace|23/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Kingambit|83/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Kingambit|89/100|[from] item: Leftovers
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|17
+|
+|-terastallize|p2a: Dragapult|Ghost
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|bbld

@@ -1,0 +1,267 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Magearna|
+|poke|p1|Volcarona, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|poke|p2|Garganacl, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Ursaluna, M|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|1
+|
+|move|p2a: Meowscarada|Play Rough|p1a: Samurott
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|63/100
+|-sidestart|p2: HOME copland|Spikes
+|
+|turn|2
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Meowscarada
+|-damage|p2a: Meowscarada|34/100
+|move|p2a: Meowscarada|Play Rough|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|3
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|-damage|p2a: Ursaluna|88/100|[from] Spikes
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|4
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-damage|p2a: Ursaluna|82/100 brn|[from] brn
+|turn|5
+|
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|76/100
+|move|p2a: Ursaluna|Earthquake|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|76/100 brn|[from] brn
+|turn|6
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|57/100
+|move|p2a: Ursaluna|Earthquake|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|63/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|70/100 brn|[from] brn
+|turn|7
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|38/100
+|move|p2a: Ursaluna|Earthquake|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|44/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|64/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|19/100
+|move|p2a: Ursaluna|Earthquake|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|25/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|58/100 brn|[from] brn
+|turn|9
+|
+|move|p1a: Zamazenta|Crunch|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|26/100 brn
+|move|p2a: Ursaluna|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-damage|p2a: Ursaluna|20/100 brn|[from] brn
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-item|p1a: Sneasler|Air Balloon
+|turn|10
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|2/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-enditem|p1a: Sneasler|Air Balloon
+|faint|p1a: Sneasler
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|turn|11
+|
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: ggundy|Reflect
+|move|p2a: Garganacl|Salt Cure|p1a: Dragapult
+|-damage|p1a: Dragapult|92/100
+|-start|p1a: Dragapult|Salt Cure
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|80/100|[from] Salt Cure
+|turn|12
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: ggundy|move: Light Screen
+|move|p2a: Garganacl|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: ggundy|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|67/100|[from] Salt Cure
+|turn|13
+|
+|move|p1a: Dragapult|Curse|p2a: Garganacl
+|-start|p2a: Garganacl|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|17/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragapult
+|-damage|p1a: Dragapult|9/100
+|
+|-damage|p2a: Garganacl|75/100|[from] Curse
+|-damage|p1a: Dragapult|0 fnt|[from] Salt Cure
+|faint|p1a: Dragapult
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|58/100
+|-start|p1a: Volcarona|Salt Cure
+|
+|-heal|p2a: Garganacl|82/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|57/100|[from] Curse
+|-damage|p1a: Volcarona|46/100|[from] Salt Cure
+|turn|15
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|move|p1a: Volcarona|Giga Drain|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|82/100
+|-heal|p1a: Volcarona|50/100|[from] drain|[of] p2a: Slowking
+|
+|-damage|p1a: Volcarona|37/100|[from] Salt Cure
+|turn|16
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: Slowking|Future Sight|p1a: Volcarona
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p1a: Volcarona|25/100|[from] Salt Cure
+|turn|17
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Slowking
+|-damage|p2a: Slowking|32/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Volcarona
+|-damage|p1a: Volcarona|3/100
+|
+|-damage|p1a: Volcarona|0 fnt|[from] Salt Cure
+|faint|p1a: Volcarona
+|
+|switch|p1a: Magearna|Magearna|94/100
+|-damage|p1a: Magearna|88/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Garganacl|Garganacl, F|57/100
+|-damage|p2a: Garganacl|44/100|[from] Spikes
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-end|p1a: Magearna|move: Future Sight
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|81/100
+|-heal|p1a: Magearna|87/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|50/100|[from] item: Leftovers
+|-sideend|p1: ggundy|Reflect
+|turn|19
+|
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|move|p2a: Garganacl|Salt Cure|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|84/100
+|-start|p1a: Magearna|Salt Cure
+|
+|-heal|p1a: Magearna|90/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|57/100|[from] item: Leftovers
+|-damage|p1a: Magearna|66/100|[from] Salt Cure
+|-sideend|p1: ggundy|move: Light Screen
+|turn|20
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|72/100|[from] item: Leftovers
+|-heal|p2a: Great Tusk|94/100|[from] item: Leftovers
+|-damage|p1a: Magearna|47/100|[from] Salt Cure
+|turn|21
+|
+|-terastallize|p1a: Magearna|Water
+|move|p1a: Magearna|Draining Kiss|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Magearna|100/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Magearna|76/100|[from] Salt Cure
+|
+|switch|p2a: Meowscarada|Meowscarada, M|34/100
+|-damage|p2a: Meowscarada|22/100|[from] Spikes
+|turn|22
+|
+|move|p2a: Meowscarada|Flower Trick|p1a: Magearna
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|win|HOME copland

@@ -1,0 +1,408 @@
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Toxapex, F|
+|poke|p1|Great Tusk|
+|poke|p1|Cinderace, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Cresselia, F|
+|poke|p2|Slowbro-Galar, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Cinderace
+|-start|p1a: Cinderace|move: Taunt
+|cant|p1a: Cinderace|move: Taunt|Will-O-Wisp
+|
+|turn|2
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Unwallable|Reflect
+|move|p1a: Cinderace|Pyro Ball|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|73/100
+|
+|turn|3
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Unwallable|move: Light Screen
+|move|p1a: Cinderace|Pyro Ball|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|42/100
+|
+|-end|p1a: Cinderace|move: Taunt
+|turn|4
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Cinderace
+|-start|p1a: Cinderace|move: Taunt
+|cant|p1a: Cinderace|move: Taunt|Court Change
+|
+|turn|5
+|
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-unboost|p1a: Cinderace|spa|1
+|
+|switch|p2a: Slowbro|Slowbro-Galar, M|100/100|[from] Parting Shot
+|move|p1a: Cinderace|U-turn|p2a: Slowbro
+|-damage|p2a: Slowbro|95/100
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100|[from] U-turn
+|
+|turn|6
+|
+|move|p2a: Slowbro|Belly Drum|p2a: Slowbro
+|-damage|p2a: Slowbro|45/100
+|-setboost|p2a: Slowbro|atk|6|[from] move: Belly Drum
+|move|p1a: Toxapex|Infestation|p2a: Slowbro
+|-damage|p2a: Slowbro|42/100
+|-activate|p2a: Slowbro|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Slowbro|29/100|[from] move: Infestation|[partiallytrapped]
+|turn|7
+|-activate|p2a: Slowbro|ability: Quick Draw
+|
+|-terastallize|p1a: Toxapex|Grass
+|move|p2a: Slowbro|Earthquake|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|48/100
+|move|p1a: Toxapex|Surf|p2a: Slowbro
+|-damage|p2a: Slowbro|12/100
+|
+|-damage|p2a: Slowbro|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p2a: Slowbro
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|8
+|
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Toxapex|Infestation|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|98/100
+|-activate|p2a: Cresselia|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Cresselia|86/100|[from] move: Infestation|[partiallytrapped]
+|turn|9
+|
+|-terastallize|p2a: Cresselia|Poison
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Toxapex|Acid Spray|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|85/100
+|
+|-damage|p2a: Cresselia|73/100|[from] move: Infestation|[partiallytrapped]
+|-sideend|p2: Unwallable|Reflect
+|turn|10
+|
+|move|p2a: Cresselia|Stored Power|p1a: Toxapex
+|-damage|p1a: Toxapex|15/100
+|move|p1a: Toxapex|Surf|p2a: Cresselia
+|-damage|p2a: Cresselia|68/100
+|
+|-damage|p2a: Cresselia|55/100|[from] move: Infestation|[partiallytrapped]
+|-sideend|p2: Unwallable|move: Light Screen
+|turn|11
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|100/100
+|
+|-end|p2a: Cresselia|Infestation|[partiallytrapped]|[silent]
+|turn|12
+|
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Braviary|Esper Wing|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|76/100
+|-boost|p1a: Braviary|spe|1
+|
+|turn|13
+|
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|
+|turn|14
+|
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|move|p1a: Braviary|Esper Wing|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|50/100
+|-boost|p1a: Braviary|spe|1
+|
+|turn|15
+|
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|99/100
+|
+|turn|16
+|
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|move|p2a: Cresselia|Stored Power|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|58/100
+|
+|-heal|p1a: Braviary|64/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Braviary|Esper Wing|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|62/100
+|-boost|p1a: Braviary|spe|1
+|move|p2a: Cresselia|Stored Power|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|21/100
+|
+|-heal|p1a: Braviary|27/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|77/100
+|-singleturn|p1a: Braviary|move: Roost
+|move|p2a: Cresselia|Stored Power|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|30/100
+|
+|-heal|p1a: Braviary|36/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|86/100
+|-singleturn|p1a: Braviary|move: Roost
+|move|p2a: Cresselia|Stored Power|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|37/100
+|
+|-heal|p1a: Braviary|43/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|93/100
+|-singleturn|p1a: Braviary|move: Roost
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|
+|-heal|p1a: Braviary|99/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|100/100
+|
+|-heal|p1a: Braviary|100/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|move|p2a: Cresselia|Stored Power|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|58/100
+|
+|-heal|p1a: Braviary|64/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Braviary|Esper Wing|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|52/100
+|-boost|p1a: Braviary|spe|1
+|move|p2a: Cresselia|Stored Power|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|24/100
+|
+|-heal|p1a: Braviary|30/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|80/100
+|-singleturn|p1a: Braviary|move: Roost
+|move|p2a: Cresselia|Stored Power|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|37/100
+|
+|-heal|p1a: Braviary|43/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|93/100
+|-singleturn|p1a: Braviary|move: Roost
+|move|p2a: Cresselia|Stored Power|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|51/100
+|
+|-heal|p1a: Braviary|58/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Braviary|Esper Wing|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|-boost|p1a: Braviary|spe|1
+|faint|p2a: Cresselia
+|
+|-heal|p1a: Braviary|64/100|[from] item: Leftovers
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|27
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|28
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|turn|29
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|42/100
+|turn|30
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Unwallable|Reflect
+|move|p1a: Great Tusk|Earthquake|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|6/100
+|
+|turn|31
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|cant|p1a: Great Tusk|move: Taunt|Bulk Up
+|
+|turn|32
+|
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|atk|1
+|-unboost|p1a: Great Tusk|spa|1
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100|[from] Parting Shot
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|move|p1a: Great Tusk|Knock Off|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|95/100
+|-enditem|p2a: Kingambit|Black Glasses|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|33
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|58/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-end|p1a: Great Tusk|move: Taunt
+|turn|34
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|19/100
+|move|p2a: Kingambit|Low Kick|p1a: Great Tusk
+|-damage|p1a: Great Tusk|52/100
+|
+|turn|35
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|36
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|64/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|37
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-sideend|p2: Unwallable|Reflect
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny, tera:Grass|49/100
+|turn|38
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Volcarona|Tera Blast|p1a: Cinderace
+|-damage|p1a: Cinderace|38/100
+|
+|turn|39
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny, tera:Grass|82/100
+|turn|40
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|41
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-message|Bwah321 forfeited.
+|
+|win|Unwallable

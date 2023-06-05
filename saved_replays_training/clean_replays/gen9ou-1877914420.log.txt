@@ -1,0 +1,60 @@
+|poke|p1|Moltres|
+|poke|p1|Kleavor, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Sableye, F|
+|poke|p1|Avalugg-Hisui, F|
+|poke|p2|Dudunsparce-*, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Pawmot, M|
+|poke|p2|Clodsire, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M, shiny|100/100
+|switch|p2a: Amy|Tinkaton, F|100/100
+|-ability|p2a: Amy|Mold Breaker
+|turn|1
+|
+|move|p2a: Amy|Swords Dance|p2a: Amy
+|-boost|p2a: Amy|atk|2
+|move|p1a: Kleavor|Stone Axe|p2a: Amy
+|-resisted|p2a: Amy
+|-damage|p2a: Amy|64/100
+|-sidestart|p2: Matheushunteromega|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|-terastallize|p2a: Amy|Steel
+|move|p2a: Amy|Gigaton Hammer|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|-damage|p2a: Amy|55/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Moltres|Moltres|100/100
+|-ability|p1a: Moltres|Pressure
+|turn|3
+|
+|move|p2a: Amy|Stone Edge|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|-damage|p2a: Amy|45/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, F|100/100
+|turn|4
+|
+|move|p2a: Amy|Gigaton Hammer|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|-damage|p2a: Amy|35/100|[from] item: Life Orb
+|
+|-message|guicateb forfeited.
+|
+|win|Matheushunteromega

@@ -1,0 +1,179 @@
+|poke|p1|Cinderace, F|
+|poke|p1|Dondozo, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Tauros, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Quaquaval, M|
+|poke|p2|Persian-Alola, F|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Persian|Persian-Alola, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Cinderace|Swords Dance|p1a: Cinderace
+|-boost|p1a: Cinderace|atk|2
+|move|p2a: Persian|Hypnosis|p1a: Cinderace|[miss]
+|-miss|p2a: Persian|p1a: Cinderace
+|
+|turn|2
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Persian
+|-damage|p2a: Persian|42/100
+|move|p2a: Persian|Hypnosis|p1a: Cinderace
+|-status|p1a: Cinderace|slp|[from] move: Hypnosis
+|
+|turn|3
+|
+|cant|p1a: Cinderace|slp
+|move|p2a: Persian|Parting Shot|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-unboost|p1a: Cinderace|spa|1
+|
+|switch|p2a: Quaquaval|Quaquaval, M|100/100|[from] Parting Shot
+|
+|turn|4
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|84/100
+|-boost|p2a: Quaquaval|spe|1
+|-damage|p2a: Quaquaval|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Dondozo|90/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Persian|Persian-Alola, F, shiny|42/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|96/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Persian|Thunder Wave|p1a: Dondozo|[miss]
+|-miss|p2a: Persian|p1a: Dondozo
+|move|p1a: Dondozo|Wave Crash|p2a: Persian
+|-damage|p2a: Persian|12/100
+|-damage|p1a: Dondozo|90/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|96/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Persian|Parting Shot|p1a: Dondozo
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1a: Dondozo|spa|1
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Parting Shot
+|move|p1a: Dondozo|Wave Crash|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-damage|p1a: Dondozo|76/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|82/100|[from] item: Leftovers
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|turn|8
+|
+|move|p2a: Braviary|Esper Wing|p1a: Dondozo
+|-damage|p1a: Dondozo|58/100
+|-boost|p2a: Braviary|spe|1
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|64/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Braviary|Hurricane|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|18/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|turn|10
+|
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|turn|11
+|
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Curse|p1a: Dondozo|[from]move: Sleep Talk
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|turn|12
+|
+|move|p2a: Braviary|Hurricane|p1a: Dondozo
+|-damage|p1a: Dondozo|68/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Wave Crash|p2a: Braviary
+|-enditem|p2a: Braviary|Focus Sash
+|-damage|p2a: Braviary|1/100
+|-damage|p1a: Dondozo|45/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|51/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Braviary|Hurricane|p1a: Dondozo|[miss]
+|-miss|p2a: Braviary|p1a: Dondozo
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|turn|14
+|
+|move|p2a: Braviary|Hurricane|p1a: Dondozo
+|-damage|p1a: Dondozo|65/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Curse|p1a: Dondozo|[from]move: Sleep Talk
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|71/100 slp|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Braviary|Hurricane|p1a: Dondozo|[miss]
+|-miss|p2a: Braviary|p1a: Dondozo
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|-heal|p1a: Dondozo|77/100 slp|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Braviary|Hurricane|p1a: Dondozo
+|-damage|p1a: Dondozo|41/100 slp
+|-start|p1a: Dondozo|confusion
+|-curestatus|p1a: Dondozo|slp|[msg]
+|-activate|p1a: Dondozo|confusion
+|move|p1a: Dondozo|Wave Crash|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|-damage|p1a: Dondozo|41/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|47/100|[from] item: Leftovers
+|-message|khoven forfeited.
+|
+|win|Hugo Chavez II

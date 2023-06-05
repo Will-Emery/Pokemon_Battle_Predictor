@@ -1,0 +1,163 @@
+|poke|p1|Spiritomb, M|
+|poke|p1|Zangoose, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Slowbro, F|
+|poke|p1|Bellibolt, M|
+|poke|p1|Gholdengo|
+|poke|p2|Pelipper, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Coalossal, F|
+|poke|p2|Jolteon, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Electrode-Hisui|
+|teampreview
+|
+|start
+|switch|p1a: Zangoose|Zangoose, F|100/100
+|switch|p2a: Wipe|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Wipe
+|turn|1
+|
+|move|p1a: Zangoose|Night Slash|p2a: Wipe
+|-crit|p2a: Wipe
+|-damage|p2a: Wipe|63/100
+|-enditem|p2a: Wipe|Red Card|[of] p1a: Zangoose
+|drag|p1a: Spiritomb|Spiritomb, M|100/100
+|move|p2a: Wipe|Surf|p1a: Spiritomb
+|-damage|p1a: Spiritomb|39/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Spiritomb|45/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Wipe|Surf|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Bellibolt|Bellibolt, M|100/100
+|turn|3
+|
+|switch|p2a: Asia Size|Jolteon, F|100/100
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Asia Size
+|-immune|p2a: Asia Size|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p1a: Zangoose|Zangoose, F|100/100
+|move|p2a: Asia Size|Fake Tears|p1a: Zangoose
+|-unboost|p1a: Zangoose|spd|2
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Zangoose|tox|[from] item: Toxic Orb
+|turn|5
+|
+|move|p2a: Asia Size|Thunder|p1a: Zangoose
+|-damage|p1a: Zangoose|0 fnt
+|faint|p1a: Zangoose
+|
+|-weather|none
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|6
+|
+|move|p2a: Asia Size|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|50/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|-enditem|p2a: Asia Size|Mirror Herb
+|-boost|p2a: Asia Size|spa|2|[from] item: Mirror Herb
+|
+|-heal|p1a: Gholdengo|56/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Asia Size|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|turn|8
+|
+|move|p2a: Asia Size|Thunder|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|
+|switch|p1a: Bellibolt|Bellibolt, M|100/100
+|turn|9
+|
+|move|p2a: Asia Size|Fake Tears|p1a: Bellibolt
+|-unboost|p1a: Bellibolt|spd|2
+|move|p1a: Bellibolt|Soak|p2a: Asia Size
+|-start|p2a: Asia Size|typechange|Water
+|
+|turn|10
+|
+|move|p2a: Asia Size|Shadow Ball|p1a: Bellibolt
+|-damage|p1a: Bellibolt|13/100
+|-start|p1a: Bellibolt|Charge|Shadow Ball|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Volt Switch|p2a: Asia Size
+|-immune|p2a: Asia Size|[from] ability: Volt Absorb
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|turn|11
+|
+|move|p2a: Asia Size|Shadow Ball|p1a: Bellibolt
+|-damage|p1a: Bellibolt|0 fnt
+|faint|p1a: Bellibolt
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|12
+|
+|move|p2a: Asia Size|Fake Tears|p1a: Kingambit
+|-unboost|p1a: Kingambit|spd|2
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|13
+|
+|move|p2a: Asia Size|Fake Tears|p1a: Kingambit
+|-unboost|p1a: Kingambit|spd|2
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|14
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Asia Size|Fake Tears|p1a: Kingambit
+|-unboost|p1a: Kingambit|spd|2
+|
+|turn|15
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Asia Size|Fake Tears|p1a: Kingambit
+|-unboost|p1a: Kingambit|spd|0
+|
+|turn|16
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Asia Size|Fake Tears|p1a: Kingambit
+|-unboost|p1a: Kingambit|spd|0
+|
+|turn|17
+|
+|move|p2a: Asia Size|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|hdjd2saucy

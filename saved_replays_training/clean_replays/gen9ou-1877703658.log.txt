@@ -1,0 +1,325 @@
+|poke|p1|Avalugg, M|
+|poke|p1|Frosmoth, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Glalie, F|
+|poke|p1|Abomasnow, F|
+|poke|p1|Squawkabilly-Blue, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Clodsire, F|
+|poke|p2|Breloom, M|
+|poke|p2|Thundurus, M|
+|poke|p2|Cinderace, M|
+|teampreview
+|player|p1|
+|player|p1|321g|101
+|
+|start
+|switch|p1a: Squawkabilly|Squawkabilly-Blue, M|100/100
+|switch|p2a: Basculegion|Basculegion, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Squawkabilly|U-turn|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|91/100
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100|[from] U-turn
+|move|p2a: Basculegion|Head Smash|p1a: Avalugg|[miss]
+|-miss|p2a: Basculegion|p1a: Avalugg
+|
+|turn|2
+|player|p1|
+|player|p1|321g|101
+|
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|move|p2a: Thundurus|Taunt|p1a: Abomasnow
+|-start|p1a: Abomasnow|move: Taunt
+|cant|p1a: Abomasnow|move: Taunt|Aurora Veil
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|switch|p1a: Glalie|Glalie, F|100/100
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|76/100
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p2a: Thundurus|Wildbolt Storm|p1a: Glalie
+|-damage|p1a: Glalie|46/100
+|-status|p1a: Glalie|par
+|move|p1a: Glalie|Freeze-Dry|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Glalie|52/100 par|[from] ability: Ice Body
+|-heal|p1a: Glalie|58/100 par|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|cant|p1a: Glalie|par
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Glalie|64/100 par|[from] ability: Ice Body
+|-heal|p1a: Glalie|70/100 par|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Glalie|Protect|p1a: Glalie
+|-singleturn|p1a: Glalie|Protect
+|move|p2a: Thundurus|Substitute|p2a: Thundurus
+|-start|p2a: Thundurus|Substitute
+|-damage|p2a: Thundurus|51/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Glalie|76/100 par|[from] ability: Ice Body
+|-heal|p1a: Glalie|82/100 par|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Thundurus|Wildbolt Storm|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|9
+|
+|move|p2a: Thundurus|Wildbolt Storm|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-enditem|p1a: Cloyster|Focus Sash
+|-damage|p1a: Cloyster|1/100
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|-weather|none
+|turn|10
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-end|p2a: Thundurus|Substitute
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|-hitcount|p2: Thundurus|2
+|
+|
+|switch|p2a: Breloom|Breloom, M, shiny|100/100
+|turn|11
+|
+|move|p1a: Cloyster|Ice Shard|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|13/100
+|move|p2a: Breloom|Mach Punch|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|
+|switch|p1a: Squawkabilly|Squawkabilly-Blue, M|100/100
+|turn|12
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Squawkabilly|Tailwind|p1a: Squawkabilly
+|-sidestart|p1: 321g|move: Tailwind
+|
+|turn|13
+|
+|move|p1a: Squawkabilly|Brave Bird|p2a: Clodsire
+|-damage|p2a: Clodsire|40/100
+|-damage|p1a: Squawkabilly|70/100|[from] Recoil
+|move|p2a: Clodsire|Gunk Shot|p1a: Squawkabilly
+|-damage|p1a: Squawkabilly|0 fnt
+|faint|p1a: Squawkabilly
+|
+|-heal|p2a: Clodsire|47/100|[from] item: Leftovers
+|
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|14
+|
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: 321g|move: Aurora Veil
+|move|p2a: Clodsire|Yawn|p1a: Abomasnow
+|-start|p1a: Abomasnow|move: Yawn|[of] p2a: Clodsire
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Clodsire|53/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Frosmoth|Frosmoth, M|100/100
+|move|p2a: Clodsire|Gunk Shot|p1a: Frosmoth
+|-damage|p1a: Frosmoth|72/100
+|-status|p1a: Frosmoth|psn
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Clodsire|59/100|[from] item: Leftovers
+|-damage|p1a: Frosmoth|59/100 psn|[from] psn
+|-sideend|p1: 321g|move: Tailwind
+|turn|16
+|
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|move|p2a: Clodsire|Body Slam|p1a: Frosmoth
+|-crit|p1a: Frosmoth
+|-damage|p1a: Frosmoth|19/100 psn
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Clodsire|65/100|[from] item: Leftovers
+|-damage|p1a: Frosmoth|7/100 psn|[from] psn
+|turn|17
+|
+|move|p1a: Frosmoth|Blizzard|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Frosmoth|0 fnt|[from] psn
+|faint|p1a: Frosmoth
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|18
+|
+|-terastallize|p2a: Cinderace|Steel
+|move|p2a: Cinderace|Iron Head|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|88/100
+|-damage|p2a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|move|p1a: Avalugg|Avalanche|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|44/100
+|
+|-weather|Snow|[upkeep]
+|-sideend|p1: 321g|move: Aurora Veil
+|turn|19
+|
+|switch|p2a: Breloom|Breloom, M, shiny|13/100
+|move|p1a: Avalugg|Aurora Veil|p1a: Avalugg
+|-sidestart|p1: 321g|move: Aurora Veil
+|
+|-weather|Snow|[upkeep]
+|turn|20
+|
+|move|p2a: Breloom|Force Palm|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|72/100
+|-damage|p2a: Breloom|0 fnt|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|faint|p2a: Breloom
+|move|p1a: Avalugg|Rapid Spin|p2: Breloom|[notarget]
+|-fail|p1a: Avalugg
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M, shiny|91/100
+|turn|21
+|
+|-terastallize|p1a: Avalugg|Steel
+|move|p2a: Basculegion|Psychic Fangs|p1a: Avalugg
+|-sideend|p1: 321g|move: Aurora Veil
+|-resisted|p1a: Avalugg
+|-damage|p1a: Avalugg|62/100
+|-damage|p2a: Basculegion|74/100|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|move|p1a: Avalugg|Avalanche|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|42/100
+|
+|-weather|none
+|turn|22
+|
+|switch|p2a: Cinderace|Cinderace, M, tera:Steel|44/100
+|move|p1a: Avalugg|Avalanche|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|23/100
+|
+|turn|23
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|1/100
+|move|p1a: Avalugg|Avalanche|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Basculegion|Basculegion, M, shiny|42/100
+|turn|24
+|
+|move|p2a: Basculegion|Head Smash|p1a: Avalugg|[miss]
+|-miss|p2a: Basculegion|p1a: Avalugg
+|move|p1a: Avalugg|Avalanche|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|26/100
+|
+|turn|25
+|
+|move|p2a: Basculegion|Head Smash|p1a: Avalugg|[miss]
+|-miss|p2a: Basculegion|p1a: Avalugg
+|move|p1a: Avalugg|Avalanche|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|10/100
+|
+|turn|26
+|
+|move|p2a: Basculegion|Head Smash|p1a: Avalugg
+|-resisted|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|-damage|p2a: Basculegion|0 fnt|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|faint|p1a: Avalugg
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-weather|Snow|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|27
+|
+|move|p2a: Chien-Pao|Swords Dance|p2a: Chien-Pao
+|-boost|p2a: Chien-Pao|atk|2
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: 321g|move: Aurora Veil
+|
+|-weather|Snow|[upkeep]
+|turn|28
+|
+|move|p2a: Chien-Pao|Swords Dance|p2a: Chien-Pao
+|-boost|p2a: Chien-Pao|atk|2
+|move|p1a: Abomasnow|Energy Ball|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|51/100
+|
+|-weather|Snow|[upkeep]
+|turn|29
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|9/100
+|move|p1a: Abomasnow|Energy Ball|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|6/100
+|-unboost|p2a: Chien-Pao|spd|1
+|
+|-weather|Snow|[upkeep]
+|turn|30
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|
+|win|e110_omega

@@ -1,1 +1,848 @@
-Could not connect
+|j|☆Red Speed
+|j|☆BigDaddyAddy
+|t:|1685847634
+|gametype|singles
+|player|p1|Red Speed|lucas-gen4pt|1537
+|player|p2|BigDaddyAddy|hoopster|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Talonflame, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Blissey, F|
+|poke|p1|Clodsire, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Zamazenta-*|
+|poke|p2|Heatran, M|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|t:|1685847645
+|start
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|1
+|
+|t:|1685847664
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Electrode|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1685847668
+|move|p2a: Electrode|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|93/100
+|
+|t:|1685847686
+|switch|p2a: Heatran|Heatran, M|100/100|[from] Volt Switch
+|move|p1a: Blissey|Seismic Toss|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|-heal|p2a: Heatran|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685847692
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: Red Speed|move: Stealth Rock
+|
+|-heal|p2a: Heatran|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685847710
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Alomomola|Whirlpool|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685847722
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|move|p1a: Alomomola|Whirlpool|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|95/100
+|-activate|p2a: Electrode|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Electrode|83/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1685847726
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Electrode|Volt Switch|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Electrode|71/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1685847730
+|move|p2a: Electrode|Volt Switch|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|
+|t:|1685847733
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] Volt Switch
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|8
+|
+|t:|1685847741
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|-heal|p1a: Corviknight|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|9
+|
+|t:|1685847747
+|move|p2a: Samurott|Ceaseless Edge|p1a: Corviknight
+|-damage|p1a: Corviknight|40/100
+|-sidestart|p1: Red Speed|Spikes
+|-damage|p2a: Samurott|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Body Press|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|21/100
+|
+|upkeep
+|turn|10
+|
+|t:|1685847754
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dondozo
+|-damage|p1a: Dondozo|78/100
+|-sidestart|p1: Red Speed|Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1685847771
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dondozo
+|-damage|p1a: Dondozo|55/100
+|-sidestart|p1: Red Speed|Spikes
+|move|p1a: Dondozo|Body Press|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1685847783
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|12
+|
+|t:|1685847790
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|-damage|p1a: Clodsire|69/100|[from] Spikes
+|move|p2a: Enamorus|Moonblast|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|55/100
+|
+|-heal|p1a: Clodsire|61/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685847802
+|switch|p2a: Electrode|Electrode-Hisui|71/100
+|move|p1a: Clodsire|Toxic|p2a: Electrode
+|-status|p2a: Electrode|tox
+|
+|-heal|p1a: Clodsire|67/100|[from] item: Leftovers
+|-damage|p2a: Electrode|64/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1685847807
+|move|p2a: Electrode|Taunt|p1a: Clodsire
+|-start|p1a: Clodsire|move: Taunt
+|cant|p1a: Clodsire|move: Taunt|Recover
+|
+|-heal|p1a: Clodsire|74/100|[from] item: Leftovers
+|-damage|p2a: Electrode|52/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1685847815
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|switch|p1a: Blissey|Blissey, F|93/100
+|
+|upkeep
+|turn|16
+|
+|t:|1685847818
+|switch|p1a: Clodsire|Clodsire, M|74/100
+|-damage|p1a: Clodsire|67/100|[from] Stealth Rock
+|-damage|p1a: Clodsire|42/100|[from] Spikes
+|move|p2a: Enamorus|Superpower|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|27/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|
+|-heal|p1a: Clodsire|33/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685847833
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|83/100
+|
+|-heal|p1a: Clodsire|89/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685847852
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|-terastallize|p2a: Lilligant|Steel
+|move|p2a: Lilligant|Ice Spinner|p1a: Talonflame
+|-damage|p1a: Talonflame|67/100
+|
+|upkeep
+|turn|19
+|
+|t:|1685847868
+|switch|p2a: Heatran|Heatran, M|93/100
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|
+|-heal|p2a: Heatran|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685847875
+|move|p1a: Talonflame|Substitute|p1a: Talonflame
+|-start|p1a: Talonflame|Substitute
+|-damage|p1a: Talonflame|75/100
+|move|p2a: Heatran|Magma Storm|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-crit|p1a: Talonflame
+|-end|p1a: Talonflame|Substitute
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685847895
+|move|p1a: Talonflame|Substitute|p1a: Talonflame
+|-start|p1a: Talonflame|Substitute
+|-damage|p1a: Talonflame|50/100
+|move|p2a: Heatran|Magma Storm|p1a: Talonflame|[miss]
+|-miss|p2a: Heatran|p1a: Talonflame
+|
+|upkeep
+|turn|22
+|
+|t:|1685847900
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Heatran|Magma Storm|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-end|p1a: Talonflame|Substitute
+|
+|upkeep
+|turn|23
+|
+|t:|1685847905
+|switch|p2a: Electrode|Electrode-Hisui|52/100 tox
+|move|p1a: Talonflame|Substitute|p1a: Talonflame
+|-start|p1a: Talonflame|Substitute
+|-damage|p1a: Talonflame|75/100
+|
+|-damage|p2a: Electrode|46/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1685847910
+|move|p2a: Electrode|Volt Switch|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-end|p1a: Talonflame|Substitute
+|
+|t:|1685847913
+|switch|p2a: Heatran|Heatran, M|100/100|[from] Volt Switch
+|move|p1a: Talonflame|Defog|p2a: Heatran
+|-unboost|p2a: Heatran|evasion|1
+|-sideend|p1: Red Speed|Spikes|[from] move: Defog|[of] p1a: Talonflame
+|-sideend|p1: Red Speed|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|
+|upkeep
+|turn|25
+|
+|t:|1685847920
+|move|p1a: Talonflame|Substitute|p1a: Talonflame
+|-start|p1a: Talonflame|Substitute
+|-damage|p1a: Talonflame|50/100
+|move|p2a: Heatran|Earth Power|p1a: Talonflame
+|-immune|p1a: Talonflame
+|
+|upkeep
+|turn|26
+|
+|t:|1685847924
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Heatran|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: Red Speed|move: Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|t:|1685847928
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Talonflame|Defog|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|upkeep
+|turn|28
+|
+|t:|1685847931
+|move|p1a: Talonflame|Defog|p2a: Heatran
+|-unboost|p2a: Heatran|evasion|1
+|-sideend|p1: Red Speed|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|move|p2a: Heatran|Magma Storm|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-end|p1a: Talonflame|Substitute
+|
+|upkeep
+|turn|29
+|
+|t:|1685847937
+|move|p1a: Talonflame|Substitute|p1a: Talonflame
+|-start|p1a: Talonflame|Substitute
+|-damage|p1a: Talonflame|75/100
+|move|p2a: Heatran|Magma Storm|p1a: Talonflame|[miss]
+|-miss|p2a: Heatran|p1a: Talonflame
+|
+|upkeep
+|turn|30
+|
+|t:|1685847943
+|move|p1a: Talonflame|Defog|p2a: Heatran
+|-unboost|p2a: Heatran|evasion|1
+|move|p2a: Heatran|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: Red Speed|move: Stealth Rock
+|
+|upkeep
+|turn|31
+|
+|t:|1685847946
+|switch|p2a: Electrode|Electrode-Hisui|46/100 tox
+|move|p1a: Talonflame|Defog|p2a: Electrode
+|-unboost|p2a: Electrode|evasion|1
+|-sideend|p1: Red Speed|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|
+|-damage|p2a: Electrode|40/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1685847953
+|move|p2a: Electrode|Volt Switch|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-end|p1a: Talonflame|Substitute
+|
+|t:|1685847959
+|switch|p2a: Heatran|Heatran, M|100/100|[from] Volt Switch
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|
+|upkeep
+|turn|33
+|
+|t:|1685847962
+|move|p1a: Talonflame|Substitute|p1a: Talonflame
+|-start|p1a: Talonflame|Substitute
+|-damage|p1a: Talonflame|75/100
+|move|p2a: Heatran|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: Red Speed|move: Stealth Rock
+|
+|upkeep
+|turn|34
+|
+|t:|1685847973
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Talonflame|Defog|p2a: Enamorus
+|-boost|p2a: Enamorus|evasion|1
+|-sideend|p1: Red Speed|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|
+|upkeep
+|turn|35
+|
+|t:|1685847983
+|switch|p1a: Clodsire|Clodsire, M|89/100
+|move|p2a: Enamorus|Moonblast|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|74/100
+|
+|-heal|p1a: Clodsire|80/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1685847987
+|switch|p2a: Electrode|Electrode-Hisui|40/100 tox
+|move|p1a: Clodsire|Toxic|p2a: Electrode
+|-fail|p2a: Electrode|tox
+|
+|-heal|p1a: Clodsire|87/100|[from] item: Leftovers
+|-damage|p2a: Electrode|34/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1685847994
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|switch|p1a: Blissey|Blissey, F|93/100
+|
+|upkeep
+|turn|38
+|
+|t:|1685848000
+|switch|p1a: Clodsire|Clodsire, M|87/100
+|move|p2a: Enamorus|Earth Power|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|46/100
+|
+|-heal|p1a: Clodsire|52/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1685848005
+|move|p2a: Enamorus|Earth Power|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|12/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|62/100
+|
+|-heal|p1a: Clodsire|68/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1685848011
+|switch|p2a: Electrode|Electrode-Hisui|34/100 tox
+|move|p1a: Clodsire|Toxic|p2a: Electrode
+|-fail|p2a: Electrode|tox
+|
+|-heal|p1a: Clodsire|74/100|[from] item: Leftovers
+|-damage|p2a: Electrode|28/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1685848021
+|move|p2a: Electrode|Taunt|p1a: Clodsire
+|-start|p1a: Clodsire|move: Taunt
+|cant|p1a: Clodsire|move: Taunt|Spikes
+|
+|-heal|p1a: Clodsire|81/100|[from] item: Leftovers
+|-damage|p2a: Electrode|15/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1685848035
+|switch|p1a: Blissey|Blissey, F|93/100
+|move|p2a: Electrode|Chloroblast|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|68/100
+|-damage|p2a: Electrode|0 fnt|[from] chloroblast
+|faint|p2a: Electrode
+|
+|upkeep
+|
+|t:|1685848052
+|switch|p2a: Lilligant|Lilligant-Hisui, F, tera:Steel|100/100
+|turn|43
+|
+|t:|1685848061
+|switch|p1a: Talonflame|Talonflame, M|75/100
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|
+|upkeep
+|turn|44
+|
+|t:|1685848071
+|move|p2a: Lilligant|Ice Spinner|p1a: Talonflame
+|-damage|p1a: Talonflame|24/100
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Lilligant
+|-status|p2a: Lilligant|brn
+|
+|-damage|p2a: Lilligant|94/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1685848082
+|move|p2a: Lilligant|Ice Spinner|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-damage|p2a: Lilligant|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1685848086
+|switch|p1a: Corviknight|Corviknight, F|40/100
+|-ability|p1a: Corviknight|Pressure
+|turn|46
+|
+|t:|1685848113
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|90/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|47
+|
+|t:|1685848122
+|switch|p1a: Blissey|Blissey, F|68/100
+|move|p2a: Heatran|Stealth Rock|p1a: Blissey
+|-sidestart|p1: Red Speed|move: Stealth Rock
+|
+|upkeep
+|turn|48
+|
+|t:|1685848132
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Blissey|Stealth Rock|p2a: Zamazenta
+|-sidestart|p2: BigDaddyAddy|move: Stealth Rock
+|
+|upkeep
+|turn|49
+|
+|t:|1685848140
+|switch|p1a: Dondozo|Dondozo, F|55/100
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|75/100
+|
+|upkeep
+|turn|50
+|
+|t:|1685848146
+|move|p2a: Zamazenta|Body Press|p1a: Dondozo
+|-damage|p1a: Dondozo|40/100
+|move|p1a: Dondozo|Body Press|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|upkeep
+|turn|51
+|
+|t:|1685848161
+|switch|p2a: Lilligant|Lilligant-Hisui, F, tera:Steel|88/100 brn
+|-damage|p2a: Lilligant|82/100 brn|[from] Stealth Rock
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-damage|p2a: Lilligant|76/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1685848167
+|move|p2a: Lilligant|Leaf Blade|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|74/100 slp
+|cant|p1a: Dondozo|slp
+|
+|-damage|p2a: Lilligant|70/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|t:|1685848169
+|move|p2a: Lilligant|Leaf Blade|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|46/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Lilligant|[from]move: Sleep Talk
+|-damage|p2a: Lilligant|23/100 brn
+|
+|-damage|p2a: Lilligant|17/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|t:|1685848172
+|move|p2a: Lilligant|Leaf Blade|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|18/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-damage|p2a: Lilligant|11/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|t:|1685848176
+|move|p2a: Lilligant|Leaf Blade|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|72/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|-damage|p2a: Lilligant|5/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|t:|1685848179
+|move|p2a: Lilligant|Leaf Blade|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|43/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Body Press|p2a: Lilligant|[from]move: Sleep Talk
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|upkeep
+|
+|t:|1685848182
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|turn|57
+|
+|t:|1685848191
+|switch|p1a: Clodsire|Clodsire, M|81/100
+|-damage|p1a: Clodsire|74/100|[from] Stealth Rock
+|move|p2a: Enamorus|Moonblast|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|59/100
+|
+|-heal|p1a: Clodsire|65/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|t:|1685848203
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1685848209
+|switch|p1a: Blissey|Blissey, F|68/100
+|move|p2a: Heatran|Magma Storm|p1a: Blissey|[miss]
+|-miss|p2a: Heatran|p1a: Blissey
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|t:|1685848213
+|move|p2a: Heatran|Magma Storm|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|51/100
+|-activate|p1a: Blissey|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Blissey|Seismic Toss|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|-heal|p2a: Heatran|81/100|[from] item: Leftovers
+|-damage|p1a: Blissey|38/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|61
+|
+|t:|1685848220
+|switch|p2a: Zamazenta|Zamazenta-Crowned|75/100
+|-damage|p2a: Zamazenta|72/100|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|88/100
+|
+|-end|p1a: Blissey|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|62
+|
+|t:|1685848223
+|switch|p2a: Enamorus|Enamorus, F|76/100
+|-damage|p2a: Enamorus|51/100|[from] Stealth Rock
+|switch|p1a: Dondozo|Dondozo, F|43/100 slp
+|
+|upkeep
+|turn|63
+|
+|t:|1685848227
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|move|p2a: Enamorus|Earth Power|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|55/100
+|
+|-heal|p1a: Clodsire|61/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|t:|1685848232
+|move|p2a: Enamorus|Earth Power|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|27/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|77/100
+|
+|-heal|p1a: Clodsire|83/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|t:|1685848235
+|switch|p2a: Heatran|Heatran, M|81/100
+|-damage|p2a: Heatran|68/100|[from] Stealth Rock
+|move|p1a: Clodsire|Toxic|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-heal|p2a: Heatran|75/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|89/100|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|t:|1685848238
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Heatran|Magma Storm|p1a: Blissey
+|-damage|p1a: Blissey|76/100
+|-activate|p1a: Blissey|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|81/100|[from] item: Leftovers
+|-damage|p1a: Blissey|63/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|67
+|
+|t:|1685848242
+|move|p2a: Heatran|Earth Power|p1a: Blissey
+|-damage|p1a: Blissey|56/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Heatran|87/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|68
+|
+|t:|1685848246
+|move|p2a: Heatran|Earth Power|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|move|p1a: Blissey|Seismic Toss|p2a: Heatran
+|-damage|p2a: Heatran|61/100
+|
+|-heal|p2a: Heatran|67/100|[from] item: Leftovers
+|-damage|p1a: Blissey|68/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|69
+|
+|t:|1685848248
+|move|p2a: Heatran|Earth Power|p1a: Blissey
+|-damage|p1a: Blissey|60/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Heatran|74/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|70
+|
+|t:|1685848250
+|move|p2a: Heatran|Earth Power|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|move|p1a: Blissey|Seismic Toss|p2a: Heatran
+|-damage|p2a: Heatran|48/100
+|
+|-heal|p2a: Heatran|54/100|[from] item: Leftovers
+|-end|p1a: Blissey|Magma Storm|[partiallytrapped]
+|upkeep
+|turn|71
+|
+|t:|1685848255
+|switch|p2a: Zamazenta|Zamazenta-Crowned|72/100
+|-damage|p2a: Zamazenta|69/100|[from] Stealth Rock
+|switch|p1a: Corviknight|Corviknight, F|90/100
+|-damage|p1a: Corviknight|78/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|upkeep
+|turn|72
+|
+|t:|1685848259
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Corviknight|Body Press|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|13/100
+|
+|upkeep
+|turn|73
+|
+|t:|1685848266
+|switch|p1a: Dondozo|Dondozo, F|43/100 slp
+|move|p2a: Zamazenta|Body Press|p1a: Dondozo
+|-damage|p1a: Dondozo|28/100 slp
+|
+|upkeep
+|turn|74
+|
+|t:|1685848272
+|switch|p2a: Enamorus|Enamorus, F|51/100
+|-damage|p2a: Enamorus|26/100|[from] Stealth Rock
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|75
+|
+|t:|1685848277
+|switch|p1a: Clodsire|Clodsire, M|89/100
+|-damage|p1a: Clodsire|83/100|[from] Stealth Rock
+|move|p2a: Enamorus|Draining Kiss|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|76/100
+|-heal|p2a: Enamorus|34/100|[from] drain|[of] p1a: Clodsire
+|
+|-heal|p1a: Clodsire|82/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|-message|BigDaddyAddy forfeited.
+|
+|win|Red Speed
+|raw|Red Speed's rating: 1537 → 1560(+23 for winning)
+|raw|BigDaddyAddy's rating: 1596 → 1573(-23 for losing)
+|l|☆BigDaddyAddy
+|l|☆Red Speed

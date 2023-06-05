@@ -1,0 +1,166 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Dragonite, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Magearna|
+|poke|p1|Glimmora, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Sneasler, F|
+|poke|p2|Volcarona, M|
+|teampreview
+|
+|start
+|switch|p1a: 5'7 I'm Messi girl|Glimmora, F|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|1
+|
+|move|p2a: Glimmora|Earth Power|p1a: 5'7 I'm Messi girl
+|-supereffective|p1a: 5'7 I'm Messi girl
+|-enditem|p1a: 5'7 I'm Messi girl|Focus Sash
+|-damage|p1a: 5'7 I'm Messi girl|1/100
+|move|p1a: 5'7 I'm Messi girl|Earth Power|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|
+|turn|2
+|
+|move|p2a: Glimmora|Mortal Spin|p1a: 5'7 I'm Messi girl
+|-resisted|p1a: 5'7 I'm Messi girl
+|-damage|p1a: 5'7 I'm Messi girl|0 fnt
+|-activate|p1a: 5'7 I'm Messi girl|ability: Toxic Debris
+|-sidestart|p2: NeppaNonatsu|move: Toxic Spikes
+|-sideend|p2: NeppaNonatsu|Toxic Spikes|[from] move: Mortal Spin|[of] p2a: Glimmora
+|faint|p1a: 5'7 I'm Messi girl
+|
+|
+|switch|p1a: Flog Gnaw|Dragapult, F|100/100
+|turn|3
+|
+|move|p1a: Flog Gnaw|Hex|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|4
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Flog Gnaw
+|-resisted|p1a: Flog Gnaw
+|-damage|p1a: Flog Gnaw|75/100
+|move|p1a: Flog Gnaw|Will-O-Wisp|p2a: Sneasler
+|-status|p2a: Sneasler|brn
+|
+|-heal|p1a: Flog Gnaw|82/100|[from] item: Leftovers
+|-damage|p2a: Sneasler|95/100 brn|[from] brn
+|turn|5
+|
+|switch|p2a: AMATERASU|Volcarona, M, shiny|100/100
+|move|p1a: Flog Gnaw|Reflect|p1a: Flog Gnaw
+|-sidestart|p1: jay9ne|Reflect
+|
+|-heal|p1a: Flog Gnaw|88/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Flog Gnaw|Light Screen|p1a: Flog Gnaw
+|-sidestart|p1: jay9ne|move: Light Screen
+|move|p2a: AMATERASU|Substitute|p2a: AMATERASU
+|-start|p2a: AMATERASU|Substitute
+|-damage|p2a: AMATERASU|76/100
+|
+|-heal|p1a: Flog Gnaw|94/100|[from] item: Leftovers
+|-heal|p2a: AMATERASU|82/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: High Profile|Moltres-Galar|100/100
+|move|p2a: AMATERASU|Quiver Dance|p2a: AMATERASU
+|-boost|p2a: AMATERASU|spa|1
+|-boost|p2a: AMATERASU|spd|1
+|-boost|p2a: AMATERASU|spe|1
+|
+|-heal|p2a: AMATERASU|88/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: AMATERASU|Quiver Dance|p2a: AMATERASU
+|-boost|p2a: AMATERASU|spa|1
+|-boost|p2a: AMATERASU|spd|1
+|-boost|p2a: AMATERASU|spe|1
+|move|p1a: High Profile|Agility|p1a: High Profile
+|-boost|p1a: High Profile|spe|2
+|
+|-heal|p2a: AMATERASU|94/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: AMATERASU|Flamethrower|p1a: High Profile
+|-damage|p1a: High Profile|50/100
+|-ability|p1a: High Profile|Berserk|boost
+|-boost|p1a: High Profile|spa|1
+|move|p1a: High Profile|Hurricane|p2a: AMATERASU
+|-supereffective|p2a: AMATERASU
+|-end|p2a: AMATERASU|Substitute
+|-damage|p1a: High Profile|40/100|[from] item: Life Orb
+|
+|-heal|p2a: AMATERASU|99/100|[from] item: Leftovers
+|-sideend|p1: jay9ne|Reflect
+|turn|10
+|
+|move|p2a: AMATERASU|Flamethrower|p1a: High Profile
+|-damage|p1a: High Profile|0 fnt
+|faint|p1a: High Profile
+|
+|-heal|p2a: AMATERASU|100/100|[from] item: Leftovers
+|-sideend|p1: jay9ne|move: Light Screen
+|
+|switch|p1a: Is that a Foreign?|Dragonite, F|100/100
+|turn|11
+|
+|-terastallize|p2a: AMATERASU|Ghost
+|-terastallize|p1a: Is that a Foreign?|Fire
+|move|p2a: AMATERASU|Tera Blast|p1a: Is that a Foreign?
+|-damage|p1a: Is that a Foreign?|50/100
+|move|p1a: Is that a Foreign?|Dragon Claw|p2a: AMATERASU
+|-damage|p2a: AMATERASU|30/100
+|
+|-heal|p2a: AMATERASU|36/100|[from] item: Leftovers
+|-heal|p1a: Is that a Foreign?|57/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: AMATERASU|Tera Blast|p1a: Is that a Foreign?
+|-damage|p1a: Is that a Foreign?|0 fnt
+|faint|p1a: Is that a Foreign?
+|
+|-heal|p2a: AMATERASU|42/100|[from] item: Leftovers
+|
+|switch|p1a: Princess Shoes|Magearna|100/100
+|turn|13
+|
+|move|p2a: AMATERASU|Flamethrower|p1a: Princess Shoes
+|-supereffective|p1a: Princess Shoes
+|-damage|p1a: Princess Shoes|0 fnt
+|faint|p1a: Princess Shoes
+|
+|-heal|p2a: AMATERASU|48/100|[from] item: Leftovers
+|
+|switch|p1a: Big Protein|Sneasler, M|100/100
+|-item|p1a: Big Protein|Air Balloon
+|turn|14
+|
+|move|p2a: AMATERASU|Flamethrower|p1a: Big Protein
+|-damage|p1a: Big Protein|0 fnt
+|-enditem|p1a: Big Protein|Air Balloon
+|faint|p1a: Big Protein
+|
+|-heal|p2a: AMATERASU|55/100|[from] item: Leftovers
+|
+|switch|p1a: Flog Gnaw|Dragapult, F|94/100
+|turn|15
+|
+|move|p2a: AMATERASU|Tera Blast|p1a: Flog Gnaw
+|-supereffective|p1a: Flog Gnaw
+|-damage|p1a: Flog Gnaw|0 fnt
+|faint|p1a: Flog Gnaw
+|
+|win|NeppaNonatsu

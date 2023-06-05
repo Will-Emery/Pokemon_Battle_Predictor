@@ -1,0 +1,219 @@
+|poke|p1|Garchomp, M|
+|poke|p1|Iron Jugulis|
+|poke|p1|Iron Treads|
+|poke|p1|Meowscarada, M|
+|poke|p1|Gholdengo|
+|poke|p1|Baxcalibur, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Magearna|
+|poke|p2|Chien-Pao|
+|poke|p2|Iron Treads|
+|poke|p2|Volcarona, M|
+|teampreview
+|
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-enditem|p1a: Meowscarada|Focus Sash
+|-damage|p1a: Meowscarada|1/100
+|move|p1a: Meowscarada|Aura Sphere|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-enditem|p2a: Chien-Pao|Focus Sash
+|-damage|p2a: Chien-Pao|1/100
+|
+|turn|2
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|turn|3
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Baxcalibur|Ice Shard|p2a: Iron Treads
+|-damage|p2a: Iron Treads|79/100
+|
+|turn|4
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: InfinityValor|move: Stealth Rock
+|
+|turn|5
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|50/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: Lulu93290|move: Stealth Rock
+|
+|turn|6
+|
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|-damage|p1a: Iron Jugulis|76/100|[from] Stealth Rock
+|move|p2a: Iron Treads|Rapid Spin|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|57/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Lulu93290|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|turn|7
+|
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Iron Treads
+|-damage|p2a: Iron Treads|26/100
+|move|p2a: Iron Treads|Iron Head|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|14/100
+|
+|turn|8
+|
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|9
+|
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|10
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|
+|
+|switch|p1a: Garchomp|Garchomp, M|50/100
+|-damage|p1a: Garchomp|44/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Sneasler|Close Combat|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-damage|p2a: Sneasler|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Volcarona
+|-damage|p2a: Volcarona|57/100
+|
+|turn|13
+|
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|-damage|p1a: Baxcalibur|76/100|[from] Stealth Rock
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|14
+|
+|move|p2a: Volcarona|Psychic|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|12/100
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|88/100
+|turn|15
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Psychic Terrain
+|move|p2a: Sneasler|Acrobatics|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|94/100
+|-damage|p1a: Gholdengo|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Sneasler
+|-damage|p2a: Sneasler|29/100
+|move|p2a: Sneasler|Acrobatics|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|63/100
+|
+|-fieldend|move: Psychic Terrain
+|turn|17
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|18
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|-damage|p1a: Iron Treads|97/100|[from] Stealth Rock
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|19
+|
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Iron Treads|Earthquake|p2a: Magearna
+|-damage|p2a: Magearna|64/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|70/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Iron Treads|Iron Head|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|57/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|63/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Magearna|Tera Blast|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Magearna|69/100|[from] item: Leftovers
+|-message|InfinityValor forfeited.
+|
+|win|Lulu93290

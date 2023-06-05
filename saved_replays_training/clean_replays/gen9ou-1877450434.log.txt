@@ -1,0 +1,246 @@
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Zarude|
+|poke|p1|Heatran, F|
+|poke|p1|Ursaluna, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|poke|p2|Garganacl, M|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, F|
+|teampreview
+|
+|start
+|switch|p1a: Russel|Ursaluna, M, shiny|100/100
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|turn|1
+|
+|move|p1a: Russel|Swords Dance|p1a: Russel
+|-boost|p1a: Russel|atk|2
+|move|p2a: Garganacl|Salt Cure|p1a: Russel
+|-resisted|p1a: Russel
+|-damage|p1a: Russel|95/100
+|-start|p1a: Russel|Salt Cure
+|
+|-damage|p1a: Russel|83/100|[from] Salt Cure
+|-status|p1a: Russel|brn|[from] item: Flame Orb
+|turn|2
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Russel|Headlong Rush|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-damage|p1a: Russel|77/100 brn|[from] brn
+|-damage|p1a: Russel|65/100 brn|[from] Salt Cure
+|turn|3
+|
+|move|p1a: Russel|Headlong Rush|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|-unboost|p1a: Russel|def|1
+|-unboost|p1a: Russel|spd|1
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Russel|59/100 brn|[from] brn
+|-damage|p1a: Russel|46/100 brn|[from] Salt Cure
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|4
+|
+|move|p2a: Great Tusk|Ice Spinner|p1a: Russel
+|-supereffective|p1a: Russel
+|-damage|p1a: Russel|0 fnt
+|faint|p1a: Russel
+|
+|
+|switch|p1a: Theodora|Heatran, F|100/100
+|-item|p1a: Theodora|Air Balloon
+|turn|5
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Theodora|Flame Charge|p2a: Zapdos
+|-damage|p2a: Zapdos|85/100
+|-boost|p1a: Theodora|spe|1
+|
+|turn|6
+|
+|move|p1a: Theodora|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|34/100
+|move|p2a: Zapdos|Volt Switch|p1a: Theodora
+|-damage|p1a: Theodora|70/100
+|-enditem|p1a: Theodora|Air Balloon
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] Volt Switch
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|7
+|
+|move|p1a: Theodora|Fire Blast|p2a: Ursaluna
+|-damage|p2a: Ursaluna|50/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Theodora
+|-resisted|p1a: Theodora
+|-damage|p1a: Theodora|8/100
+|
+|-damage|p2a: Ursaluna|44/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: Theodora|Fire Blast|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Zapdos|Zapdos|34/100
+|turn|9
+|
+|move|p1a: Theodora|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|10
+|
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Theodora|Fire Blast|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|72/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|11
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Theodora|Earth Power|p2a: Magearna
+|-damage|p2a: Magearna|52/100
+|
+|turn|12
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Theodora|Earth Power|p2a: Magearna
+|-damage|p2a: Magearna|38/100
+|
+|turn|13
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Theodora|Earth Power|p2a: Magearna
+|-damage|p2a: Magearna|25/100
+|
+|turn|14
+|
+|move|p2a: Magearna|Thunderbolt|p1a: Theodora
+|-damage|p1a: Theodora|0 fnt
+|faint|p1a: Theodora
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Green Monkey|Zarude|100/100
+|turn|15
+|
+|move|p1a: Green Monkey|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Green Monkey|def|1
+|-unboost|p1a: Green Monkey|spd|1
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|16
+|
+|move|p1a: Green Monkey|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|74/100
+|-unboost|p1a: Green Monkey|def|1
+|-unboost|p1a: Green Monkey|spd|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: Green Monkey
+|-damage|p1a: Green Monkey|70/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-heal|p2a: Great Tusk|80/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Valentina|Enamorus, F|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-heal|p2a: Great Tusk|86/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Great Tusk|Ice Spinner|p1a: Valentina
+|-supereffective|p1a: Valentina
+|-damage|p1a: Valentina|0 fnt
+|faint|p1a: Valentina
+|
+|-heal|p2a: Great Tusk|92/100|[from] item: Leftovers
+|
+|switch|p1a: Kennedy|Braviary-Hisui, M, shiny|100/100
+|turn|19
+|
+|-terastallize|p1a: Kennedy|Fighting
+|move|p2a: Great Tusk|Ice Spinner|p1a: Kennedy
+|-damage|p1a: Kennedy|51/100
+|move|p1a: Kennedy|Psychic|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|20
+|
+|move|p2a: Zamazenta|Body Press|p1a: Kennedy
+|-damage|p1a: Kennedy|0 fnt
+|faint|p1a: Kennedy
+|
+|
+|switch|p1a: Green Monkey|Zarude|70/100
+|turn|21
+|
+|move|p1a: Green Monkey|Close Combat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|63/100
+|-unboost|p1a: Green Monkey|def|1
+|-unboost|p1a: Green Monkey|spd|1
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|turn|22
+|
+|move|p1a: Green Monkey|Close Combat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|43/100
+|-unboost|p1a: Green Monkey|def|1
+|-unboost|p1a: Green Monkey|spd|1
+|move|p2a: Zamazenta|Body Press|p1a: Green Monkey
+|-supereffective|p1a: Green Monkey
+|-damage|p1a: Green Monkey|0 fnt
+|faint|p1a: Green Monkey
+|
+|
+|switch|p1a: Raffaella|Urshifu-Rapid-Strike, F|100/100
+|turn|23
+|
+|move|p1a: Raffaella|Close Combat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|12/100
+|-unboost|p1a: Raffaella|def|1
+|-unboost|p1a: Raffaella|spd|1
+|move|p2a: Zamazenta|Body Press|p1a: Raffaella
+|-damage|p1a: Raffaella|0 fnt
+|faint|p1a: Raffaella
+|
+|win|5556A553

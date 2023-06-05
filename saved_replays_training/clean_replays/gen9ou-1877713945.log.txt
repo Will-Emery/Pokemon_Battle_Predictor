@@ -1,0 +1,541 @@
+|poke|p1|Blissey, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Dondozo, M|
+|poke|p1|Drifblim, F|
+|poke|p2|Magearna|
+|poke|p2|Indeedee, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Heatran, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Indeedee|Psyshock|p1a: Blissey
+|-damage|p1a: Blissey|48/100
+|
+|turn|2
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Indeedee|Psyshock|p1a: Alomomola
+|-damage|p1a: Alomomola|70/100
+|
+|-heal|p1a: Alomomola|76/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Indeedee|Psyshock|p1a: Alomomola
+|-damage|p1a: Alomomola|50/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|56/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Indeedee|Encore|p1a: Alomomola
+|-start|p1a: Alomomola|Encore
+|move|p1a: Alomomola|Wish||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|5
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|
+|turn|6
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Sneasler
+|-status|p2a: Sneasler|brn
+|
+|-damage|p2a: Sneasler|95/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: Sneasler|Night Slash|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|60/100
+|move|p1a: Drifblim|Haze|p1a: Drifblim
+|-clearallboost
+|
+|-damage|p2a: Sneasler|89/100 brn|[from] brn
+|turn|8
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Drifblim|Strength Sap|p2a: Magearna
+|-unboost|p2a: Magearna|atk|1
+|-heal|p1a: Drifblim|96/100
+|
+|-fieldend|move: Psychic Terrain
+|turn|9
+|
+|switch|p1a: Blissey|Blissey, F|48/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|
+|turn|10
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Clodsire
+|-sidestart|p1: Ting Lu is so cute|move: Stealth Rock
+|
+|turn|11
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Clodsire|Spikes|p2a: Great Tusk
+|-sidestart|p2: Gadam64|Spikes
+|
+|turn|12
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Clodsire
+|-damage|p1a: Clodsire|83/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Gadam64|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Clodsire|Toxic|p2a: Great Tusk
+|-status|p2a: Great Tusk|tox
+|
+|-damage|p2a: Great Tusk|94/100 tox|[from] psn
+|turn|13
+|
+|switch|p1a: Drifblim|Drifblim, F|96/100
+|move|p2a: Great Tusk|Earthquake|p1a: Drifblim
+|-immune|p1a: Drifblim
+|
+|-damage|p2a: Great Tusk|82/100 tox|[from] psn
+|turn|14
+|
+|move|p2a: Great Tusk|Ice Spinner|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|49/100
+|move|p1a: Drifblim|Strength Sap|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-heal|p1a: Drifblim|100/100
+|
+|-damage|p2a: Great Tusk|63/100 tox|[from] psn
+|turn|15
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Drifblim|Strength Sap|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|
+|turn|16
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Indeedee|Shadow Ball|p1a: Alomomola
+|-damage|p1a: Alomomola|66/100
+|-unboost|p1a: Alomomola|spd|1
+|
+|-heal|p1a: Alomomola|72/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Indeedee|Shadow Ball|p1a: Alomomola
+|-damage|p1a: Alomomola|39/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|45/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Indeedee|Psyshock|p1a: Alomomola
+|-damage|p1a: Alomomola|19/100
+|move|p1a: Alomomola|Whirlpool|p2a: Indeedee
+|-damage|p2a: Indeedee|91/100
+|-activate|p2a: Indeedee|move: Whirlpool|[of] p1a: Alomomola
+|
+|-heal|p1a: Alomomola|69/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|75/100|[from] item: Leftovers
+|-damage|p2a: Indeedee|79/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|19
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Indeedee|Encore|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|81/100|[from] item: Leftovers
+|-damage|p2a: Indeedee|67/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|20
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|move|p2a: Indeedee|Psyshock|p1a: Drifblim
+|-damage|p1a: Drifblim|61/100
+|
+|-end|p2a: Indeedee|Whirlpool|[partiallytrapped]|[silent]
+|turn|21
+|
+|switch|p1a: Blissey|Blissey, F|48/100
+|move|p2a: Indeedee|Shadow Ball|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|turn|22
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Indeedee|Psyshock|p1a: Alomomola
+|-damage|p1a: Alomomola|61/100
+|
+|-heal|p1a: Alomomola|67/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|turn|23
+|
+|move|p2a: Indeedee|Psyshock|p1a: Alomomola
+|-damage|p1a: Alomomola|45/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|51/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p1a: Blissey|Blissey, F|48/100
+|move|p2a: Indeedee|Encore||[still]
+|-fail|p2a: Indeedee
+|
+|-heal|p1a: Blissey|84/100|[from] move: Wish|[wisher] Alomomola
+|turn|25
+|
+|switch|p2a: Great Tusk|Great Tusk|63/100 tox
+|switch|p1a: Alomomola|Alomomola, M|84/100
+|-damage|p1a: Alomomola|72/100|[from] Stealth Rock
+|
+|-heal|p1a: Alomomola|78/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|57/100 tox|[from] psn
+|turn|26
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Indeedee|Indeedee, M|67/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Alomomola|Whirlpool|p2a: Indeedee
+|-damage|p2a: Indeedee|58/100
+|-activate|p2a: Indeedee|move: Whirlpool|[of] p1a: Alomomola
+|
+|-heal|p1a: Alomomola|84/100|[from] item: Leftovers
+|-damage|p2a: Indeedee|45/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|27
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Indeedee|Encore|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|91/100|[from] item: Leftovers
+|-damage|p2a: Indeedee|33/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|28
+|
+|move|p2a: Indeedee|Psyshock|p1a: Alomomola
+|-damage|p1a: Alomomola|60/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|66/100|[from] item: Leftovers
+|-damage|p2a: Indeedee|21/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|29
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Indeedee|Psyshock|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Indeedee|9/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|30
+|
+|move|p2a: Indeedee|Psyshock|p1a: Alomomola
+|-damage|p1a: Alomomola|72/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|78/100|[from] item: Leftovers
+|-end|p2a: Indeedee|Whirlpool|[partiallytrapped]
+|turn|31
+|
+|move|p2a: Indeedee|Encore|p1a: Alomomola
+|-start|p1a: Alomomola|Encore
+|move|p1a: Alomomola|Wish||[still]
+|-fail|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|32
+|
+|switch|p2a: Great Tusk|Great Tusk|57/100 tox
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Great Tusk|51/100 tox|[from] psn
+|turn|33
+|
+|switch|p1a: Drifblim|Drifblim, F|61/100
+|move|p2a: Great Tusk|Close Combat|p1a: Drifblim
+|-immune|p1a: Drifblim
+|
+|-heal|p1a: Drifblim|100/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Great Tusk|38/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|turn|34
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Indeedee|Indeedee, M|9/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Drifblim|Strength Sap|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|
+|turn|35
+|
+|move|p2a: Indeedee|Shadow Ball|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|46/100
+|move|p1a: Drifblim|Air Slash|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|36
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Arcanine|Head Smash|p1a: Dondozo
+|-damage|p1a: Dondozo|62/100
+|
+|turn|37
+|
+|switch|p2a: Great Tusk|Great Tusk|38/100 tox
+|move|p1a: Dondozo|Liquidation|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|1/100 tox
+|
+|-damage|p2a: Great Tusk|0 fnt|[from] psn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|38
+|
+|switch|p1a: Clodsire|Clodsire, F|83/100
+|move|p2a: Magearna|Agility|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|
+|turn|39
+|
+|-terastallize|p1a: Clodsire|Fire
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Clodsire|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|69/100
+|
+|-heal|p2a: Magearna|75/100|[from] item: Leftovers
+|turn|40
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Clodsire|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|38/100
+|
+|-heal|p2a: Magearna|44/100|[from] item: Leftovers
+|turn|41
+|
+|move|p2a: Magearna|Stored Power|p1a: Clodsire
+|-damage|p1a: Clodsire|53/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|-heal|p2a: Magearna|50/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|turn|42
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|94/100
+|-heal|p2a: Magearna|56/100|[from] drain|[of] p1a: Clodsire
+|move|p1a: Clodsire|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|24/100
+|
+|-heal|p2a: Magearna|30/100|[from] item: Leftovers
+|turn|43
+|
+|-terastallize|p2a: Magearna|Water
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Clodsire|Earthquake|p2a: Magearna
+|-damage|p2a: Magearna|12/100
+|
+|-heal|p2a: Magearna|18/100|[from] item: Leftovers
+|turn|44
+|
+|move|p2a: Magearna|Stored Power|p1a: Clodsire
+|-damage|p1a: Clodsire|65/100
+|move|p1a: Clodsire|Toxic|p2a: Magearna
+|-status|p2a: Magearna|tox
+|
+|-heal|p2a: Magearna|24/100 tox|[from] item: Leftovers
+|-damage|p2a: Magearna|18/100 tox|[from] psn
+|turn|45
+|
+|move|p2a: Magearna|Stored Power|p1a: Clodsire
+|-damage|p1a: Clodsire|36/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|86/100
+|
+|-heal|p2a: Magearna|24/100 tox|[from] item: Leftovers
+|-damage|p2a: Magearna|12/100 tox|[from] psn
+|turn|46
+|
+|move|p2a: Magearna|Stored Power|p1a: Clodsire
+|-damage|p1a: Clodsire|55/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|-heal|p2a: Magearna|18/100 tox|[from] item: Leftovers
+|-damage|p2a: Magearna|0 fnt|[from] psn
+|faint|p2a: Magearna
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|47
+|
+|switch|p1a: Dondozo|Dondozo, M|62/100
+|move|p2a: Arcanine|Head Smash|p1a: Dondozo
+|-damage|p1a: Dondozo|26/100
+|
+|turn|48
+|
+|move|p2a: Arcanine|Head Smash|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|turn|49
+|
+|switch|p2a: Sneasler|Sneasler, M|89/100 brn
+|move|p1a: Alomomola|Whirlpool|p2a: Sneasler
+|-damage|p2a: Sneasler|81/100 brn
+|-activate|p2a: Sneasler|move: Whirlpool|[of] p1a: Alomomola
+|
+|-heal|p1a: Alomomola|94/100|[from] item: Leftovers
+|-damage|p2a: Sneasler|75/100 brn|[from] brn
+|-damage|p2a: Sneasler|62/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|50
+|
+|switch|p1a: Drifblim|Drifblim, F|46/100
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-damage|p2a: Sneasler|56/100 brn|[from] brn
+|-end|p2a: Sneasler|Whirlpool|[partiallytrapped]|[silent]
+|turn|51
+|
+|move|p2a: Sneasler|Night Slash|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|7/100
+|move|p1a: Drifblim|Strength Sap|p2a: Sneasler
+|-unboost|p2a: Sneasler|atk|1
+|-heal|p1a: Drifblim|100/100
+|
+|-damage|p2a: Sneasler|50/100 brn|[from] brn
+|turn|52
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Drifblim|Haze|p1a: Drifblim
+|-clearallboost
+|
+|-damage|p2a: Sneasler|44/100 brn|[from] brn
+|turn|53
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Drifblim|Air Slash|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|54
+|
+|move|p2a: Arcanine|Wild Charge|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|51/100
+|move|p1a: Drifblim|Strength Sap|p2a: Arcanine
+|-unboost|p2a: Arcanine|atk|1
+|-heal|p1a: Drifblim|100/100
+|
+|turn|55
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|switch|p1a: Clodsire|Clodsire, F, tera:Fire|100/100
+|
+|turn|56
+|
+|move|p2a: Heatran|Magma Storm|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|88/100
+|-activate|p1a: Clodsire|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Clodsire|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Clodsire|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|57
+|
+|move|p2a: Arcanine|Head Smash|p1a: Clodsire|[miss]
+|-miss|p2a: Arcanine|p1a: Clodsire
+|move|p1a: Clodsire|Toxic|p2a: Arcanine
+|-status|p2a: Arcanine|tox
+|
+|-damage|p2a: Arcanine|94/100 tox|[from] psn
+|turn|58
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Arcanine|Head Smash|p1a: Toxapex|[miss]
+|-miss|p2a: Arcanine|p1a: Toxapex
+|
+|-damage|p2a: Arcanine|82/100 tox|[from] psn
+|turn|59
+|
+|switch|p1a: Blissey|Blissey, F|84/100
+|move|p2a: Arcanine|Head Smash|p1a: Blissey|[miss]
+|-miss|p2a: Arcanine|p1a: Blissey
+|
+|-damage|p2a: Arcanine|64/100 tox|[from] psn
+|turn|60
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|move|p2a: Arcanine|Head Smash|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|-damage|p2a: Arcanine|39/100 tox|[from] ability: Aftermath|[of] p1a: Drifblim
+|faint|p1a: Drifblim
+|
+|-damage|p2a: Arcanine|15/100 tox|[from] psn
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|turn|61
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Arcanine|Head Smash|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|94/100|[from] item: Leftovers
+|-damage|p2a: Arcanine|0 fnt|[from] psn
+|faint|p2a: Arcanine
+|
+|win|Ting Lu is so cute

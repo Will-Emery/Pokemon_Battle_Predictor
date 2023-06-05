@@ -1,0 +1,180 @@
+|poke|p1|Scovillain, M|
+|poke|p1|Iron Leaves|
+|poke|p1|Toedscruel, M|
+|poke|p1|Brute Bonnet|
+|poke|p1|Rotom-Mow|
+|poke|p1|Gogoat, F|
+|poke|p2|Cetitan, M|
+|poke|p2|Avalugg-Hisui, F|
+|poke|p2|Slowking, F|
+|poke|p2|Cryogonal|
+|poke|p2|Garchomp, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|switch|p2a: Slowking|Slowking, F|100/100
+|-enditem|p1a: Brute Bonnet|Booster Energy
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis|[fromitem]
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|turn|1
+|
+|move|p1a: Brute Bonnet|Payback|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|20/100
+|move|p2a: Slowking|Thunder Wave|p1a: Brute Bonnet
+|-status|p1a: Brute Bonnet|par
+|
+|turn|2
+|
+|move|p1a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1a: Brute Bonnet
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|-terastallize|p1a: Brute Bonnet|Fairy
+|move|p2a: Avalugg|Aurora Veil|p2a: Avalugg
+|-sidestart|p2: Droide_Pogo|move: Aurora Veil
+|cant|p1a: Brute Bonnet|par
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p2a: Avalugg|Body Press|p1a: Brute Bonnet
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|84/100 par
+|move|p1a: Brute Bonnet|Spore|p2a: Avalugg
+|-status|p2a: Avalugg|slp|[from] move: Spore
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|48/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Rotom|Sunny Day|p1a: Rotom
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|switch|p1a: Scovillain|Scovillain, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Droide_Pogo|move: Aurora Veil
+|turn|8
+|
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Garchomp
+|-damage|p2a: Garchomp|49/100
+|move|p2a: Garchomp|Earthquake|p1a: Scovillain
+|-damage|p1a: Scovillain|27/100
+|-enditem|p1a: Scovillain|Sitrus Berry|[eat]
+|-heal|p1a: Scovillain|52/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|10
+|
+|move|p1a: Scovillain|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|60/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|
+|-weather|none
+|
+|switch|p1a: Brute Bonnet|Brute Bonnet, tera:Fairy|84/100 par
+|turn|11
+|
+|switch|p2a: Slowking|Slowking, F|53/100
+|move|p1a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1a: Brute Bonnet
+|
+|turn|12
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Cetitan|Cetitan, M|100/100|[from] Chilly Reception
+|cant|p1a: Brute Bonnet|par
+|
+|-weather|Snow|[upkeep]
+|turn|13
+|
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Cetitan
+|-damage|p2a: Cetitan|74/100
+|move|p2a: Cetitan|Ice Spinner|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|33/100 par
+|
+|-weather|Snow|[upkeep]
+|turn|14
+|
+|move|p2a: Cetitan|Ice Spinner|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Rotom|Rotom-Mow|48/100
+|turn|15
+|
+|move|p2a: Cetitan|Ice Spinner|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Iron Leaves|Iron Leaves|100/100
+|turn|16
+|
+|move|p2a: Cetitan|Ice Spinner|p1a: Iron Leaves
+|-supereffective|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|0 fnt
+|faint|p1a: Iron Leaves
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Toedscruel|Toedscruel, M|100/100
+|turn|17
+|
+|move|p2a: Cetitan|Ice Spinner|p1a: Toedscruel
+|-supereffective|p1a: Toedscruel
+|-crit|p1a: Toedscruel
+|-damage|p1a: Toedscruel|0 fnt
+|faint|p1a: Toedscruel
+|
+|-weather|Snow|[upkeep]
+|-message|MAF1001 forfeited.
+|
+|win|Droide_Pogo

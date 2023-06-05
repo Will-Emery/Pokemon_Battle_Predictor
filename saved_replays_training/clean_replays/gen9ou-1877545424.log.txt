@@ -1,0 +1,162 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Azumarill, M|
+|poke|p1|Bellibolt, M|
+|poke|p1|Iron Treads|
+|poke|p1|Greninja, F|
+|poke|p2|Uxie|
+|poke|p2|Iron Treads|
+|poke|p2|Walking Wake|
+|poke|p2|Chien-Pao|
+|poke|p2|Iron Moth|
+|poke|p2|Florges, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|1
+|
+|switch|p1a: Bellibolt|Bellibolt, M|100/100
+|move|p2a: Iron Moth|Discharge|p1a: Bellibolt
+|-resisted|p1a: Bellibolt
+|-damage|p1a: Bellibolt|92/100
+|-start|p1a: Bellibolt|Charge|Discharge|[from] ability: Electromorphosis
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Florges|Florges, F|100/100
+|move|p1a: Bellibolt|Weather Ball|p2a: Florges
+|-crit|p2a: Florges
+|-damage|p2a: Florges|73/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Florges|Trick|p1a: Bellibolt
+|-activate|p2a: Florges|move: Trick|[of] p1a: Bellibolt
+|-item|p1a: Bellibolt|Choice Scarf|[from] move: Trick
+|-item|p2a: Florges|Assault Vest|[from] move: Trick
+|move|p1a: Bellibolt|Thunder|p2a: Florges
+|-crit|p2a: Florges
+|-damage|p2a: Florges|35/100
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|move|p2a: Florges|Moonblast|p1a: Basculegion
+|-damage|p1a: Basculegion|62/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: Uxie|Uxie|100/100
+|move|p1a: Basculegion|Wave Crash|p2a: Uxie
+|-damage|p2a: Uxie|13/100
+|-damage|p1a: Basculegion|35/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p2a: Florges|Florges, F|35/100
+|move|p1a: Basculegion|Wave Crash|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|faint|p2a: Florges
+|-damage|p1a: Basculegion|24/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|7
+|
+|switch|p1a: Greninja|Greninja, F|100/100
+|move|p2a: Walking Wake|Hydro Pump|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|6/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Greninja|Grass Knot|p2a: Walking Wake
+|-start|p1a: Greninja|typechange|Grass|[from] ability: Protean
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|9
+|
+|switch|p1a: Bellibolt|Bellibolt, M|92/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Bellibolt
+|-damage|p1a: Bellibolt|58/100
+|-start|p1a: Bellibolt|Charge|Sludge Wave|[from] ability: Electromorphosis
+|
+|turn|10
+|
+|move|p2a: Iron Moth|Fiery Dance|p1a: Bellibolt
+|-damage|p1a: Bellibolt|30/100
+|-start|p1a: Bellibolt|Charge|Fiery Dance|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Volt Switch|p2a: Iron Moth
+|-damage|p2a: Iron Moth|50/100
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100|[from] Volt Switch
+|
+|turn|11
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|12
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|58/100
+|move|p1a: Azumarill|Belly Drum|p1a: Azumarill
+|-damage|p1a: Azumarill|8/100
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Azumarill|Sitrus Berry|[eat]
+|-heal|p1a: Azumarill|33/100|[from] item: Sitrus Berry
+|
+|turn|13
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Chien-Pao
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|14
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Uxie|Uxie|13/100
+|turn|15
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Uxie
+|-damage|p2a: Uxie|0 fnt
+|faint|p2a: Uxie
+|
+|win|kakyoinjjba69

@@ -1,0 +1,108 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Floatzel, F|
+|poke|p1|Golduck, M|
+|poke|p1|Pawmot, F|
+|poke|p1|Toedscruel, F|
+|poke|p1|Azumarill, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Great Tusk|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Sableye, M|
+|teampreview
+|
+|start
+|switch|p1a: Ghoti carrier|Pelipper, F|100/100
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|1
+|
+|move|p2a: Braviary|Hurricane|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|0 fnt
+|faint|p1a: Ghoti carrier
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Seaking Duck|Golduck, M|100/100
+|turn|2
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Seaking Duck|Surf|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Seaking Duck|Nasty Plot|p1a: Seaking Duck
+|-boost|p1a: Seaking Duck|spa|2
+|move|p2a: Clodsire|Spikes|p1a: Seaking Duck
+|-sidestart|p1: WeirdHamster|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|move|p1a: Seaking Duck|Ice Beam|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|-damage|p1a: Seaking Duck|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|turn|5
+|
+|move|p1a: Seaking Duck|Ice Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|29/100
+|-damage|p1a: Seaking Duck|81/100|[from] item: Life Orb
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|85/100|[from] item: Black Sludge
+|turn|6
+|
+|move|p1a: Seaking Duck|Nasty Plot|p1a: Seaking Duck
+|-boost|p1a: Seaking Duck|spa|2
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Seaking Duck|Ice Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|-damage|p1a: Seaking Duck|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|8
+|
+|move|p1a: Seaking Duck|Grass Knot|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Seaking Duck|61/100|[from] item: Life Orb
+|
+|-weather|none
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|9
+|
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|move|p1a: Seaking Duck|Grass Knot|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-damage|p1a: Seaking Duck|51/100|[from] item: Life Orb
+|
+|-message|Armeen forfeited.
+|
+|win|WeirdHamster

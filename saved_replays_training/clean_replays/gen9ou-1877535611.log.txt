@@ -1,0 +1,245 @@
+|poke|p1|Garganacl, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ursaluna, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Frosmoth, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Glastrier|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|1
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Cresselia|Light Screen|p1a: Cresselia
+|-sidestart|p1: purpledebo|move: Light Screen
+|
+|turn|2
+|
+|move|p1a: Cresselia|Reflect|p1a: Cresselia
+|-sidestart|p1: purpledebo|Reflect
+|move|p2a: Samurott|Ceaseless Edge|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|62/100
+|-sidestart|p1: purpledebo|Spikes
+|-damage|p2a: Samurott|91/100|[from] item: Life Orb
+|
+|turn|3
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|21/100
+|-sidestart|p1: purpledebo|Spikes
+|-damage|p2a: Samurott|81/100|[from] item: Life Orb
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|4
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-damage|p1a: Ursaluna|84/100|[from] Spikes
+|move|p2a: Samurott|Ceaseless Edge|p1a: Ursaluna
+|-damage|p1a: Ursaluna|62/100
+|-sidestart|p1: purpledebo|Spikes
+|-damage|p2a: Samurott|71/100|[from] item: Life Orb
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|5
+|
+|move|p2a: Samurott|Protect|p2a: Samurott
+|-singleturn|p2a: Samurott|Protect
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|
+|-damage|p1a: Ursaluna|56/100 brn|[from] brn
+|turn|6
+|
+|move|p2a: Samurott|Protect|p2a: Samurott
+|-singleturn|p2a: Samurott|Protect
+|move|p1a: Ursaluna|Facade|p2a: Samurott
+|-activate|p2a: Samurott|move: Protect
+|
+|-damage|p1a: Ursaluna|50/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: Samurott|Protect||[still]
+|-fail|p2a: Samurott
+|move|p1a: Ursaluna|Facade|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-damage|p1a: Ursaluna|44/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|8
+|
+|move|p2a: Enamorus|Superpower|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|17/100 brn
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|move|p1a: Ursaluna|Facade|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-damage|p1a: Ursaluna|11/100 brn|[from] brn
+|-sideend|p1: purpledebo|move: Light Screen
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|turn|9
+|
+|move|p2a: Landorus|Grass Knot|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-sideend|p1: purpledebo|Reflect
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|81/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: purpledebo|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Landorus|Grass Knot|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Landorus|87/100|[from] item: Leftovers
+|
+|switch|p1a: Cresselia|Cresselia, F|21/100
+|turn|11
+|
+|move|p2a: Landorus|Sludge Bomb|p1a: Cresselia
+|-damage|p1a: Cresselia|6/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-heal|p2a: Landorus|93/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Cresselia|Reflect|p1a: Cresselia
+|-sidestart|p1: purpledebo|Reflect
+|move|p2a: Landorus|Sludge Bomb|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|13
+|
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|move|p2a: Landorus|Earth Power|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|32/100
+|
+|-heal|p2a: Landorus|100/100|[from] item: Leftovers
+|turn|14
+|
+|-terastallize|p1a: Garganacl|Water
+|move|p1a: Garganacl|Salt Cure|p2a: Landorus
+|-damage|p2a: Landorus|78/100
+|-start|p2a: Landorus|Salt Cure
+|move|p2a: Landorus|Earth Power|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-heal|p2a: Landorus|84/100|[from] item: Leftovers
+|-damage|p2a: Landorus|71/100|[from] Salt Cure
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|15
+|
+|move|p2a: Landorus|Earth Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|56/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p2a: Landorus|77/100|[from] item: Leftovers
+|-damage|p2a: Landorus|65/100|[from] Salt Cure
+|-fieldend|move: Trick Room
+|turn|16
+|
+|move|p1a: Zamazenta|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|9/100
+|move|p2a: Landorus|Earth Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|9/100
+|
+|-heal|p2a: Landorus|15/100|[from] item: Leftovers
+|-damage|p2a: Landorus|3/100|[from] Salt Cure
+|turn|17
+|
+|move|p1a: Zamazenta|Rest|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Rest
+|-heal|p1a: Zamazenta|100/100 slp|[silent]
+|move|p2a: Landorus|Earth Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|57/100 slp
+|
+|-heal|p2a: Landorus|9/100|[from] item: Leftovers
+|-damage|p2a: Landorus|0 fnt|[from] Salt Cure
+|faint|p2a: Landorus
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|turn|18
+|
+|cant|p1a: Zamazenta|slp
+|move|p2a: Goodra|Flamethrower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|22/100 slp
+|
+|turn|19
+|
+|cant|p1a: Zamazenta|slp
+|move|p2a: Goodra|Flamethrower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-sideend|p1: purpledebo|Reflect
+|
+|switch|p1a: Frosmoth|Frosmoth, F, shiny|100/100
+|turn|20
+|
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|move|p2a: Goodra|Flamethrower|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|49/100
+|-status|p1a: Frosmoth|brn
+|
+|-damage|p1a: Frosmoth|42/100 brn|[from] brn
+|turn|21
+|
+|move|p1a: Frosmoth|Ice Beam|p2a: Goodra
+|-damage|p2a: Goodra|54/100
+|move|p2a: Goodra|Flamethrower|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|win|Typer Meme

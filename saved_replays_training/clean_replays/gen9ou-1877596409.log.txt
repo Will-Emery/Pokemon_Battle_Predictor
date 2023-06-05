@@ -1,0 +1,186 @@
+|poke|p1|Corviknight, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Toxapex, F|
+|poke|p1|Great Tusk|
+|poke|p2|Overqwil, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Volcanion|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: walking fake|Volcanion|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|1
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: walking fake|Flamethrower|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|42/100
+|-status|p1a: Dragapult|brn
+|
+|-heal|p1a: Dragapult|48/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|42/100 brn|[from] brn
+|turn|2
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: walking fake
+|-damage|p2a: walking fake|88/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: walking fake
+|-damage|p2a: walking fake|76/100
+|move|p2a: walking fake|Flamethrower|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|3
+|
+|move|p2a: walking fake|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|turn|4
+|
+|-terastallize|p2a: walking fake|Ground
+|move|p2a: walking fake|Flamethrower|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|68/100
+|move|p1a: Skeledirge|Hex|p2a: walking fake
+|-damage|p2a: walking fake|43/100
+|
+|turn|5
+|
+|move|p2a: walking fake|Flamethrower|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|32/100
+|move|p1a: Skeledirge|Hex|p2a: walking fake
+|-damage|p2a: walking fake|12/100
+|
+|turn|6
+|
+|move|p2a: walking fake|Flamethrower|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|1/100
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|51/100
+|
+|turn|7
+|
+|move|p2a: walking fake|Flamethrower|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|19/100
+|move|p1a: Skeledirge|Hex|p2a: walking fake
+|-damage|p2a: walking fake|0 fnt
+|faint|p2a: walking fake
+|
+|
+|switch|p2a: ol’ reliable|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: ol’ reliable
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: ol’ reliable|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|9
+|
+|move|p2a: ol’ reliable|Surf|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|64/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: ol’ reliable
+|drag|p2a: qwil or be qwil’d|Overqwil, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|71/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: qwil or be qwil’d|Swords Dance|p2a: qwil or be qwil’d
+|-boost|p2a: qwil or be qwil’d|atk|2
+|move|p1a: Ting-Lu|Spikes|p2a: qwil or be qwil’d
+|-sidestart|p2: coocoowoowoo|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|77/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: qwil or be qwil’d|Liquidation|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-damage|p2a: qwil or be qwil’d|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|12
+|
+|move|p2a: qwil or be qwil’d|Swords Dance|p2a: qwil or be qwil’d
+|-boost|p2a: qwil or be qwil’d|atk|2
+|move|p1a: Toxapex|Surf|p2a: qwil or be qwil’d
+|-damage|p2a: qwil or be qwil’d|43/100
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p2a: qwil or be qwil’d|Liquidation|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|37/100
+|-unboost|p1a: Toxapex|def|1
+|-damage|p2a: qwil or be qwil’d|33/100|[from] item: Life Orb
+|move|p1a: Toxapex|Surf|p2a: qwil or be qwil’d
+|-damage|p2a: qwil or be qwil’d|0 fnt
+|faint|p2a: qwil or be qwil’d
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: holy shamone|Thundurus-Therian, M|100/100
+|turn|14
+|
+|move|p2a: holy shamone|Thunder|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Skeledirge|Skeledirge, F|19/100
+|turn|15
+|
+|move|p2a: holy shamone|Nasty Plot|p2a: holy shamone
+|-boost|p2a: holy shamone|spa|2
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|69/100
+|
+|-weather|none
+|turn|16
+|
+|move|p2a: holy shamone|Thunder|p1a: Skeledirge
+|-damage|p1a: Skeledirge|15/100
+|move|p1a: Skeledirge|Torch Song|p2a: holy shamone
+|-damage|p2a: holy shamone|63/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|turn|17
+|
+|move|p2a: holy shamone|Thunder|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|win|coocoowoowoo

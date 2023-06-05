@@ -1,1 +1,318 @@
-Could not connect
+|j|☆Anxova
+|j|☆Batataplays
+|t:|1685903340
+|gametype|singles
+|player|p1|Anxova|veteran|
+|player|p2|Batataplays|geeta|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Volcarona, F|
+|poke|p1|Gallade, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Zapdos|
+|poke|p2|Garganacl, F|
+|teampreview
+|
+|t:|1685903357
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1685903362
+|move|p1a: Grimmsnarl|Taunt|p2a: Slowking
+|-start|p2a: Slowking|move: Taunt
+|move|p2a: Slowking|Sludge Bomb|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|63/100
+|-status|p1a: Grimmsnarl|psn
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|
+|-damage|p1a: Zoroark|51/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1685903366
+|move|p1a: Zoroark|Bitter Malice|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|-unboost|p2a: Slowking|atk|1
+|move|p2a: Slowking|Flamethrower|p1a: Zoroark
+|-damage|p1a: Zoroark|5/100 psn
+|
+|-heal|p2a: Slowking|60/100|[from] item: Leftovers
+|-damage|p1a: Zoroark|0 fnt|[from] psn
+|faint|p1a: Zoroark
+|upkeep
+|
+|t:|1685903373
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|3
+|j| Always Close
+|
+|t:|1685903387
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Gallade|Agility|p1a: Gallade
+|-boost|p1a: Gallade|spe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1685903393
+|move|p1a: Gallade|Psycho Cut|p2a: Zapdos
+|-damage|p2a: Zapdos|49/100
+|-damage|p1a: Gallade|91/100|[from] item: Life Orb
+|move|p2a: Zapdos|Volt Switch|p1a: Gallade
+|-damage|p1a: Gallade|57/100
+|
+|t:|1685903401
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|5
+|
+|t:|1685903404
+|move|p1a: Gallade|Psycho Cut|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|19/100
+|-damage|p1a: Gallade|47/100|[from] item: Life Orb
+|move|p2a: Great Tusk|Earthquake|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|-heal|p2a: Great Tusk|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685903417
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|6
+|
+|t:|1685903440
+|move|p1a: Volcarona|Fiery Dance|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685903446
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|7
+|
+|t:|1685903448
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|84/100
+|-start|p1a: Grimmsnarl|Salt Cure
+|
+|-damage|p1a: Grimmsnarl|71/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1685903455
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Anxova|Reflect
+|
+|-damage|p1a: Grimmsnarl|59/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1685903458
+|move|p2a: Urshifu|Surging Strikes|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|24/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-hitcount|p1: Grimmsnarl|2
+|
+|upkeep
+|
+|t:|1685903462
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|10
+|
+|t:|1685903479
+|switch|p2a: Slowking|Slowking-Galar, F|94/100
+|move|p1a: Gholdengo|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|74/100
+|
+|-heal|p2a: Slowking|80/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685903493
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|t:|1685903505
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1685903521
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Garganacl|Salt Cure|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|58/100
+|-start|p1a: Volcarona|Salt Cure
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Volcarona|46/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1685903524
+|move|p1a: Volcarona|Giga Drain|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|45/100
+|-heal|p1a: Volcarona|82/100|[from] drain|[of] p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|39/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Garganacl|51/100|[from] item: Leftovers
+|-damage|p1a: Volcarona|27/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1685903529
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Volcarona|Giga Drain|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|89/100
+|-heal|p1a: Volcarona|34/100|[from] drain|[of] p2a: Slowking
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Slowking|95/100|[from] item: Leftovers
+|-damage|p1a: Volcarona|22/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1685903537
+|move|p1a: Volcarona|Bug Buzz|p2a: Slowking
+|-damage|p2a: Slowking|48/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|none
+|-heal|p2a: Slowking|54/100|[from] item: Leftovers
+|-sideend|p1: Anxova|Reflect
+|upkeep
+|
+|t:|1685903541
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|16
+|
+|t:|1685903553
+|move|p1a: Great Tusk|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1685903558
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|17
+|
+|t:|1685903564
+|move|p2a: Urshifu|Surging Strikes|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|71/100
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|14/100
+|-hitcount|p1a: Great Tusk|3
+|move|p1a: Great Tusk|Knock Off|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|87/100
+|-enditem|p2a: Urshifu|Choice Band|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|20/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685903571
+|move|p2a: Urshifu|Surging Strikes|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p1: Great Tusk|1
+|
+|upkeep
+|
+|t:|1685903574
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|19
+|
+|t:|1685903578
+|move|p1a: Gholdengo|Thunderbolt|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|upkeep
+|
+|t:|1685903583
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|20
+|
+|t:|1685903585
+|move|p1a: Gholdengo|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|78/100
+|-status|p2a: Dragapult|par
+|cant|p2a: Dragapult|par
+|
+|upkeep
+|turn|21
+|
+|t:|1685903591
+|move|p1a: Gholdengo|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|55/100 par
+|move|p2a: Dragapult|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|Batataplays
+|c|☆Anxova|gg
+|c|☆Batataplays|Gg
+|l|☆Anxova

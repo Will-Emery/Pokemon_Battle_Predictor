@@ -1,0 +1,57 @@
+|poke|p1|Amoonguss, F|
+|poke|p1|Frosmoth, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Magearna|
+|poke|p2|Kingambit, F|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|start
+|switch|p1a: Super Merk2|Iron Moth|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|move|p1a: Super Merk2|Overheat|p2a: Slowking
+|-damage|p2a: Slowking|34/100
+|-unboost|p1a: Super Merk2|spa|2
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|40/100|[from] item: Leftovers
+|turn|2
+|
+|-end|p1a: Super Merk2|Quark Drive|[silent]
+|switch|p1a: Edge|Kingambit, F|100/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p1a: Edge|Iron Head|p2a: Ursaluna
+|-damage|p2a: Ursaluna|68/100 brn
+|cant|p2a: Ursaluna|flinch
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Ursaluna|62/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Edge|Iron Head|p2a: Ursaluna
+|-damage|p2a: Ursaluna|31/100 brn
+|cant|p2a: Ursaluna|flinch
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Ursaluna|25/100 brn|[from] brn
+|turn|5
+|-message|Ahdvcvc forfeited.
+|
+|win|RegalZero

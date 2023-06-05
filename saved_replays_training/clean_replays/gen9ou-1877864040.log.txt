@@ -1,0 +1,75 @@
+|poke|p1|Pincurchin, F|
+|poke|p1|Raichu-Alola, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Zarude|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p2|Chien-Pao|
+|poke|p2|Iron Valiant|
+|poke|p2|Gholdengo|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Great Tusk|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Pincurchin|atk|1
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Electric Seed
+|move|p2a: Landorus|Earthquake|p1a: Hawlucha
+|-immune|p1a: Hawlucha
+|
+|turn|2
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Landorus|Stealth Rock|p1a: Hawlucha
+|-sidestart|p1: bassprostan|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Landorus|Protect|p2a: Landorus
+|-singleturn|p2a: Landorus|Protect
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|turn|4
+|
+|move|p2a: Landorus|Protect||[still]
+|-fail|p2a: Landorus
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|turn|5
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Hawlucha|Drain Punch|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|turn|7
+|
+|move|p1a: Hawlucha|Fire Punch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-message|Mole Enthusiast forfeited.
+|
+|win|bassprostan
+|player|p1|bassprostan|fisherman-gen4

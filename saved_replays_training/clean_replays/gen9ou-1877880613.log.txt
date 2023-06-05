@@ -1,0 +1,198 @@
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Polteageist|
+|poke|p1|Armarouge, F|
+|poke|p1|Toedscruel, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Treads|
+|poke|p2|Skeledirge, F|
+|teampreview
+|
+|start
+|switch|p1a: Toedscruel|Toedscruel, F|100/100
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|1
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Sneasler|Dire Claw|p1a: Indeedee
+|-damage|p1a: Indeedee|19/100
+|
+|turn|2
+|
+|switch|p1a: Armarouge|Armarouge, F|100/100
+|move|p2a: Sneasler|Dire Claw|p1a: Armarouge
+|-damage|p1a: Armarouge|55/100
+|-status|p1a: Armarouge|psn
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|-damage|p1a: Armarouge|43/100 psn|[from] psn
+|turn|3
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Armarouge|Armor Cannon|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|58/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|
+|-damage|p1a: Armarouge|30/100 psn|[from] psn
+|turn|4
+|
+|switch|p1a: Toedscruel|Toedscruel, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Toedscruel
+|-damage|p1a: Toedscruel|28/100
+|-sidestart|p1: Apoteosis|Spikes
+|
+|turn|5
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Toedscruel|Leaf Storm|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-crit|p2a: Enamorus
+|-damage|p2a: Enamorus|51/100
+|-unboost|p1a: Toedscruel|spa|2
+|
+|turn|6
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Spikes
+|move|p2a: Enamorus|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|7/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|88/100|[from] Spikes
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|
+|turn|7
+|
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|turn|8
+|
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Acrobatics|p2a: Skeledirge
+|-damage|p2a: Skeledirge|47/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Sneasler|[miss]
+|-miss|p2a: Skeledirge|p1a: Sneasler
+|
+|-fieldend|move: Psychic Terrain
+|turn|9
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|58/100
+|turn|10
+|
+|move|p2a: Samurott|Sucker Punch|p1a: Sneasler
+|-damage|p1a: Sneasler|45/100
+|move|p1a: Sneasler|Dire Claw|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|11
+|
+|-terastallize|p2a: Zamazenta|Steel
+|move|p1a: Sneasler|Acrobatics|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|60/100
+|move|p2a: Zamazenta|Crunch|p1a: Sneasler
+|-damage|p1a: Sneasler|10/100
+|-unboost|p1a: Sneasler|def|1
+|
+|-heal|p2a: Zamazenta|67/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Sneasler|Close Combat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|13
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Indeedee|Indeedee, M|19/100
+|-damage|p1a: Indeedee|6/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|14
+|
+|switch|p1a: Hatterene|Hatterene, F|7/100
+|-damage|p1a: Hatterene|0 fnt|[from] Spikes
+|faint|p1a: Hatterene
+|move|p2a: Sneasler|Dire Claw|p1: Hatterene|[notarget]
+|-fail|p2a: Sneasler
+|
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|-damage|p1a: Polteageist|88/100|[from] Spikes
+|turn|15
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Polteageist
+|-resisted|p1a: Polteageist
+|-damage|p1a: Polteageist|47/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|turn|16
+|
+|move|p1a: Polteageist|Stored Power|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|17
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Iron Treads
+|-damage|p2a: Iron Treads|13/100
+|move|p2a: Iron Treads|Earthquake|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|
+|switch|p1a: Toedscruel|Toedscruel, F|28/100
+|-damage|p1a: Toedscruel|15/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Iron Treads|Ice Spinner|p1a: Toedscruel
+|-supereffective|p1a: Toedscruel
+|-damage|p1a: Toedscruel|0 fnt
+|-fieldend|move: Psychic Terrain
+|faint|p1a: Toedscruel
+|
+|-message|Apoteosis forfeited.
+|
+|win|Lectrys

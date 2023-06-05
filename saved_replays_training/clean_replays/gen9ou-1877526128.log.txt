@@ -1,0 +1,270 @@
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, F|
+|poke|p1|Baxcalibur, M|
+|poke|p1|Iron Moth|
+|poke|p1|Moltres-Galar|
+|poke|p1|Great Tusk|
+|poke|p2|Great Tusk|
+|poke|p2|Torkoal, F|
+|poke|p2|Typhlosion, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Roaring Moon|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|1
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: ojulyj|move: Stealth Rock
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Great Tusk|[miss]
+|-miss|p2a: Torkoal|p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|54/100
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|turn|3
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Torkoal|Rapid Spin|p1a: Iron Moth
+|-damage|p1a: Iron Moth|84/100
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: ojulyj|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|92/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clodsire|98/100|[from] item: Black Sludge
+|turn|5
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|94/100 brn
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Clodsire|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|84/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|91/100 brn|[from] item: Leftovers
+|-heal|p2a: Clodsire|100/100|[from] item: Black Sludge
+|-damage|p1a: Great Tusk|84/100 brn|[from] brn
+|turn|6
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Great Tusk|84/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: ojulyj|Reflect
+|move|p1a: Great Tusk|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: ojulyj|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Great Tusk|84/100 brn|[from] brn
+|turn|8
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|84/100
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: ojulyj|move: Light Screen
+|
+|-weather|none
+|turn|9
+|
+|switch|p2a: Torkoal|Torkoal, F|54/100
+|-damage|p2a: Torkoal|30/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Iron Moth|Toxic Spikes|p2a: Torkoal
+|-sidestart|p2: ojulyj|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|move|p1a: Iron Moth|Sludge Wave|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|-sideend|p2: ojulyj|move: Toxic Spikes|[of] p2a: Clodsire
+|turn|11
+|
+|move|p1a: Iron Moth|U-turn|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|92/100
+|
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|84/100 brn|[from] U-turn
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Clodsire|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|74/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|80/100 brn|[from] item: Leftovers
+|-heal|p2a: Clodsire|98/100|[from] item: Black Sludge
+|-damage|p1a: Great Tusk|74/100 brn|[from] brn
+|turn|12
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Great Tusk|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Great Tusk|74/100 brn|[from] brn
+|turn|13
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Moltres
+|-damage|p1a: Moltres|81/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: ojulyj|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|turn|14
+|
+|move|p2a: Great Tusk|Ice Spinner|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|21/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|move|p1a: Moltres|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|92/100
+|-damage|p1a: Moltres|5/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|switch|p1a: Iron Moth|Iron Moth|84/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: ojulyj|Reflect
+|turn|15
+|
+|move|p1a: Iron Moth|Sludge Wave|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|75/100
+|move|p2a: Great Tusk|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: ojulyj|move: Light Screen
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|16
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|turn|17
+|
+|switch|p1a: Great Tusk|Great Tusk|74/100 brn
+|move|p2a: Roaring Moon|Crunch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|60/100 brn
+|
+|-heal|p1a: Great Tusk|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Great Tusk|60/100 brn|[from] brn
+|turn|18
+|
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, F|75/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: ojulyj|move: Stealth Rock
+|
+|-heal|p1a: Great Tusk|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Great Tusk|60/100 brn|[from] brn
+|turn|19
+|
+|move|p2a: Dragapult|Hex|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|turn|20
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|9/100
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: ojulyj|Reflect
+|
+|turn|21
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Clodsire|Clodsire, F|98/100
+|-damage|p2a: Clodsire|92/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Baxcalibur|Dragon Dance|p1a: Baxcalibur
+|-boost|p1a: Baxcalibur|atk|1
+|-boost|p1a: Baxcalibur|spe|1
+|move|p2a: Clodsire|Earthquake|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|71/100
+|
+|-heal|p1a: Baxcalibur|77/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|98/100|[from] item: Black Sludge
+|turn|23
+|
+|move|p1a: Baxcalibur|Earthquake|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|35/100
+|move|p2a: Clodsire|Haze|p2a: Clodsire
+|-clearallboost
+|
+|-heal|p1a: Baxcalibur|84/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|41/100|[from] item: Black Sludge
+|turn|24
+|-message|ojulyj forfeited.
+|
+|win|Litesratures

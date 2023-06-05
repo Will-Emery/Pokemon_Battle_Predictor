@@ -1,0 +1,261 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Gholdengo|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Amoonguss, M|
+|poke|p1|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Magearna|
+|poke|p2|Dragapult, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Pelipe|Pelipper, M, shiny|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipe
+|turn|1
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Pelipe
+|-damage|p1a: Pelipe|67/100
+|-sidestart|p1: lucenthine|Spikes
+|move|p1a: Pelipe|Hurricane|p2a: Samurott
+|-damage|p2a: Samurott|41/100
+|-start|p2a: Samurott|confusion
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|-activate|p2a: Samurott|confusion
+|-damage|p2a: Samurott|26/100|[from] confusion
+|move|p1a: Pelipe|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|3/100
+|
+|switch|p1a: Overqwil|Overqwil, M, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Overqwil|Taunt|p2a: Samurott
+|-start|p2a: Samurott|move: Taunt
+|-activate|p2a: Samurott|confusion
+|move|p2a: Samurott|Razor Shell|p1a: Overqwil
+|-damage|p1a: Overqwil|13/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|-end|p2a: Samurott|confusion
+|move|p2a: Samurott|Sucker Punch|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Pelipe|Pelipper, M, shiny|67/100
+|turn|5
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Pelipe
+|-damage|p1a: Pelipe|31/100
+|-sidestart|p1: lucenthine|Spikes
+|move|p1a: Pelipe|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|switch|p1a: LINK|Amoonguss, M, shiny|100/100|[from] U-turn
+|-damage|p1a: LINK|84/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: UnzipsCrogre|move: Light Screen
+|move|p1a: LINK|Spore|p2a: Dragapult
+|-status|p2a: Dragapult|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|84/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gholdengo|90/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|move|p1a: Gholdengo|Thunder Wave|p2a: Zamazenta
+|-status|p2a: Zamazenta|par
+|
+|-weather|none
+|-heal|p1a: Gholdengo|96/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: RAM & SLAM|Great Tusk, shiny|100/100
+|-damage|p1a: RAM & SLAM|84/100|[from] Spikes
+|move|p2a: Zamazenta|Wild Charge|p1a: RAM & SLAM
+|-immune|p1a: RAM & SLAM
+|
+|-heal|p1a: RAM & SLAM|90/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100 slp
+|move|p1a: RAM & SLAM|Rapid Spin|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p1a: RAM & SLAM|96/100|[from] item: Leftovers
+|turn|11
+|
+|cant|p2a: Dragapult|slp
+|move|p1a: RAM & SLAM|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|39/100 slp
+|-start|p1a: RAM & SLAM|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Dragapult
+|-enditem|p2a: Dragapult|Light Clay|[from] move: Knock Off|[of] p1a: RAM & SLAM
+|
+|-heal|p1a: RAM & SLAM|100/100|[from] item: Leftovers
+|turn|12
+|
+|cant|p2a: Dragapult|slp
+|move|p1a: RAM & SLAM|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-item|p2a: Sneasler|Air Balloon
+|turn|13
+|
+|-end|p1a: RAM & SLAM|Protosynthesis|[silent]
+|switch|p1a: Pelipe|Pelipper, M, shiny|31/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipe
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: UnzipsCrogre|move: Light Screen
+|turn|14
+|
+|move|p2a: Sneasler|Acrobatics|p1a: Pelipe
+|-damage|p1a: Pelipe|3/100
+|move|p1a: Pelipe|Hurricane|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|4/100
+|-enditem|p2a: Sneasler|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p1a: LINK|Amoonguss, M, shiny|100/100
+|-damage|p1a: LINK|84/100|[from] Spikes
+|move|p2a: Sneasler|Dire Claw|p1a: LINK
+|-damage|p1a: LINK|21/100
+|-enditem|p1a: LINK|Eject Button
+|
+|switch|p1a: RAM & SLAM|Great Tusk, shiny|100/100
+|-damage|p1a: RAM & SLAM|84/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: RAM & SLAM|90/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Sneasler|Acrobatics|p1a: RAM & SLAM
+|-supereffective|p1a: RAM & SLAM
+|-damage|p1a: RAM & SLAM|3/100
+|move|p1a: RAM & SLAM|Rapid Spin|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-boost|p1a: RAM & SLAM|spe|1
+|-sideend|p1: lucenthine|Spikes|[from] move: Rapid Spin|[of] p1a: RAM & SLAM
+|faint|p2a: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: RAM & SLAM|9/100|[from] item: Leftovers
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|17
+|
+|-end|p1a: RAM & SLAM|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|96/100
+|-terastallize|p2a: Magearna|Water
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gholdengo|100/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Gholdengo|Thunder Wave|p2a: Magearna
+|-status|p2a: Magearna|par
+|cant|p2a: Magearna|par
+|
+|-weather|RainDance|[upkeep]
+|turn|19
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|cant|p2a: Magearna|par
+|
+|-weather|none
+|turn|21
+|
+|move|p1a: Gholdengo|Hex|p2a: Magearna
+|-damage|p2a: Magearna|35/100 par
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|41/100 par|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Gholdengo|Hex|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|23
+|
+|switch|p1a: Pelipe|Pelipper, M, shiny|3/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipe
+|move|p2a: Volcarona|Fiery Dance|p1a: Pelipe
+|-resisted|p1a: Pelipe
+|-damage|p1a: Pelipe|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Pelipe
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|turn|24
+|
+|move|p1a: Basculegion|Surf|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-message|UnzipsCrogre forfeited.
+|
+|win|lucenthine

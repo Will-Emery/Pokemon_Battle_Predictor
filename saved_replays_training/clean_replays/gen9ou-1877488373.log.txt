@@ -1,0 +1,248 @@
+|poke|p1|Torkoal, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Walking Wake|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Walking Wake|
+|poke|p2|Scizor, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Hatterene
+|-immune|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Chien-Pao|atk|1
+|move|p2a: Chien-Pao|Crunch|p1a: Landorus
+|-damage|p1a: Landorus|74/100
+|-damage|p2a: Chien-Pao|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Hatterene
+|-damage|p1a: Hatterene|64/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|66/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|7
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|64/100
+|-terastallize|p2a: Walking Wake|Grass
+|move|p2a: Walking Wake|Tera Blast|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|66/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|8
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|move|p1a: Walking Wake|Flamethrower|p2a: Zapdos
+|-damage|p2a: Zapdos|25/100
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|turn|9
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Zapdos|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|90/100
+|
+|switch|p2a: Walking Wake|Walking Wake, tera:Grass|100/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|switch|p1a: Landorus|Landorus-Therian, M|74/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Walking Wake|atk|1
+|move|p2a: Walking Wake|Draco Meteor|p1a: Landorus|[miss]
+|-miss|p2a: Walking Wake|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|turn|11
+|
+|move|p2a: Walking Wake|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|66/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|12
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos-Galar|25/100
+|move|p1a: Walking Wake|Flamethrower|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|13
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p2a: Great Tusk|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|move|p2a: Great Tusk|Knock Off|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-crit|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|-enditem|p1a: Typhlosion|Choice Specs|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|66/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|14
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake, tera:Grass|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|15
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Walking Wake|Draco Meteor|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|58/100
+|-unboost|p2a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Corviknight|64/100|[from] item: Leftovers
+|turn|16
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Corviknight|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|93/100
+|
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|66/100|[from] U-turn
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|turn|17
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|39/100
+|move|p1a: Walking Wake|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|
+|switch|p2a: Walking Wake|Walking Wake, tera:Grass|100/100
+|turn|18
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|90/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p2a: Walking Wake|Hydro Steam|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|39/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|19
+|
+|move|p1a: Walking Wake|Flamethrower|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|win|kura51

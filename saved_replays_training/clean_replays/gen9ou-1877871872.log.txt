@@ -1,0 +1,225 @@
+|poke|p1|Basculegion, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Magearna|
+|poke|p2|Dragapult, F|
+|poke|p2|Gholdengo|
+|poke|p2|Masquerain, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Great Tusk|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Randy|Masquerain, M|100/100
+|-ability|p2a: Randy|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|turn|1
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Randy
+|-damage|p2a: Randy|80/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Randy
+|-damage|p2a: Randy|62/100
+|move|p2a: Randy|Sticky Web|p1a: Dragapult
+|-sidestart|p1: rinnegan sad|move: Sticky Web
+|
+|turn|2
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Randy
+|-damage|p2a: Randy|43/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Randy
+|-damage|p2a: Randy|22/100
+|move|p2a: Randy|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|89/100
+|
+|switch|p2a: Stan|Great Tusk|100/100|[from] U-turn
+|
+|turn|3
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Stan
+|-status|p2a: Stan|brn
+|move|p2a: Stan|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|48/100
+|-enditem|p1a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Stan
+|
+|-damage|p2a: Stan|94/100 brn|[from] brn
+|turn|4
+|
+|-end|p2a: Stan|Protosynthesis|[silent]
+|switch|p2a: Randy|Masquerain, M|22/100
+|-ability|p2a: Randy|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|move|p1a: Dragapult|Hex|p2a: Randy
+|-damage|p2a: Randy|0 fnt
+|faint|p2a: Randy
+|
+|
+|switch|p2a: Ectoplasm|Dragapult, F|100/100
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-fail|p2a: Ectoplasm|unboost|[from] ability: Clear Body|[of] p2a: Ectoplasm
+|move|p2a: Ectoplasm|Sucker Punch||[still]
+|-fail|p2a: Ectoplasm
+|
+|turn|6
+|
+|switch|p2a: Stan|Great Tusk|94/100 brn
+|move|p1a: Landorus|Stealth Rock|p2a: Stan
+|-sidestart|p2: Dumber luck|move: Stealth Rock
+|
+|-heal|p2a: Stan|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Stan|94/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: Stan|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|91/100
+|-damage|p2a: Stan|78/100 brn|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Stan
+|move|p1a: Landorus|Extrasensory|p2a: Stan
+|-supereffective|p2a: Stan
+|-damage|p2a: Stan|33/100 brn
+|
+|-heal|p2a: Stan|40/100 brn|[from] item: Leftovers
+|-damage|p2a: Stan|33/100 brn|[from] brn
+|turn|8
+|
+|move|p2a: Stan|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|86/100
+|-boost|p2a: Stan|spe|1
+|-sideend|p2: Dumber luck|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Stan
+|move|p1a: Landorus|Earthquake|p2a: Stan
+|-crit|p2a: Stan
+|-damage|p2a: Stan|1/100 brn
+|
+|-heal|p2a: Stan|7/100 brn|[from] item: Leftovers
+|-damage|p2a: Stan|1/100 brn|[from] brn
+|turn|9
+|
+|-end|p2a: Stan|Protosynthesis|[silent]
+|switch|p2a: Long Distance|Enamorus, F|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Long Distance
+|-sidestart|p2: Dumber luck|move: Stealth Rock
+|
+|turn|10
+|
+|-terastallize|p2a: Long Distance|Fairy
+|move|p2a: Long Distance|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-activate|p1a: Magearna|move: Sticky Web
+|-unboost|p1a: Magearna|spe|1
+|turn|11
+|
+|switch|p2a: Truth|Cinderace, M|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|turn|12
+|
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Truth|Pyro Ball|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|81/100
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|-heal|p1a: Magearna|87/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Truth|Will-O-Wisp|p1a: Magearna
+|-status|p1a: Magearna|brn
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|87/100 brn|[from] brn
+|turn|14
+|
+|move|p2a: Truth|U-turn|p1a: Magearna
+|-damage|p1a: Magearna|79/100 brn
+|
+|switch|p2a: Stan|Great Tusk|1/100 brn|[from] U-turn
+|-damage|p2a: Stan|0 fnt|[from] Stealth Rock
+|faint|p2a: Stan
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Stan|Protosynthesis|[silent]
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|79/100 brn|[from] brn
+|
+|switch|p2a: Ectoplasm|Dragapult, F|100/100
+|-damage|p2a: Ectoplasm|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Ectoplasm|Dragon Darts|p1a: Magearna
+|-damage|p1a: Magearna|64/100 brn
+|-anim|p2a: Ectoplasm|Dragon Darts|p1a: Magearna
+|-damage|p1a: Magearna|49/100 brn
+|move|p1a: Magearna|Stored Power|p2a: Ectoplasm
+|-damage|p2a: Ectoplasm|0 fnt
+|faint|p2a: Ectoplasm
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|49/100 brn|[from] brn
+|
+|switch|p2a: Long Distance|Enamorus, F, tera:Fairy|100/100
+|-damage|p2a: Long Distance|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Long Distance|Moonblast|p1a: Magearna
+|-damage|p1a: Magearna|22/100 brn
+|-unboost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Stored Power|p2a: Long Distance
+|-damage|p2a: Long Distance|0 fnt
+|faint|p2a: Long Distance
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|28/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|22/100 brn|[from] brn
+|
+|switch|p2a: Kyle|Gholdengo|100/100
+|-damage|p2a: Kyle|94/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Kyle|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|12/100 brn
+|move|p1a: Magearna|Stored Power|p2a: Kyle
+|-resisted|p2a: Kyle
+|-damage|p2a: Kyle|0 fnt
+|faint|p2a: Kyle
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|12/100 brn|[from] brn
+|
+|switch|p2a: Truth|Cinderace, M|100/100
+|turn|18
+|
+|move|p2a: Truth|Pyro Ball|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|3/100 brn
+|move|p1a: Magearna|Stored Power|p2a: Truth
+|-damage|p2a: Truth|0 fnt
+|faint|p2a: Truth
+|
+|win|rinnegan sad

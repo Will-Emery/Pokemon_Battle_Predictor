@@ -1,0 +1,316 @@
+|poke|p1|Baxcalibur, F|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Rotom-Wash|
+|poke|p1|Amoonguss, F|
+|poke|p1|Garganacl, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Zapdos|
+|poke|p2|Garganacl, F|
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|1
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|turn|2
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|
+|-heal|p2a: Slowking|84/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Rotom|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|70/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Haxcalibur|Baxcalibur, F|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Haxcalibur
+|-damage|p1a: Haxcalibur|54/100
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Haxcalibur|Glaive Rush|p2a: Garganacl
+|-damage|p2a: Garganacl|33/100
+|-singlemove|p1a: Haxcalibur|Glaive Rush|[silent]
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Garganacl|39/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Haxcalibur|Glaive Rush|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|-singlemove|p1a: Haxcalibur|Glaive Rush|[silent]
+|faint|p2a: Garganacl
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|7
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Urshifu|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|72/100
+|-damage|p2a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|none
+|turn|8
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Zapdos|Volt Switch|p1a: Garganacl
+|-damage|p1a: Garganacl|78/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|-heal|p1a: Garganacl|84/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Mr Coffy|move: Stealth Rock
+|
+|turn|10
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|78/100
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Rotom|Hydro Pump|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Dragapult|Draco Meteor|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|turn|12
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|move|p2a: Dragapult|Draco Meteor|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|62/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|turn|13
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|58/100
+|
+|-heal|p2a: Slowking|64/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|21/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|15
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|97/100|[from] Stealth Rock
+|move|p2a: Dragapult|Draco Meteor|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|27/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-weather|Snow|[upkeep]
+|turn|16
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|84/100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Garganacl|Garganacl, M|84/100
+|-damage|p1a: Garganacl|72/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Garganacl|78/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|move|p2a: Urshifu|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|58/100
+|-damage|p2a: Urshifu|68/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|Snow|[upkeep]
+|turn|18
+|
+|switch|p1a: Great Tusk|Great Tusk|27/100
+|-damage|p1a: Great Tusk|24/100|[from] Stealth Rock
+|move|p2a: Zapdos|Hurricane|p1a: Great Tusk|[miss]
+|-miss|p2a: Zapdos|p1a: Great Tusk
+|
+|-weather|none
+|turn|19
+|
+|move|p2a: Zapdos|Hurricane|p1a: Great Tusk|[miss]
+|-miss|p2a: Zapdos|p1a: Great Tusk
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|90/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Mr Coffy|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|20
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|-status|p1a: Great Tusk|par|[from] ability: Static|[of] p2a: Zapdos
+|-enditem|p2a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Zapdos|Hurricane|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Haxcalibur|Baxcalibur, F|54/100
+|turn|21
+|
+|move|p1a: Haxcalibur|Glaive Rush|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-singlemove|p1a: Haxcalibur|Glaive Rush|[silent]
+|-status|p1a: Haxcalibur|par|[from] ability: Static|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|68/100
+|turn|22
+|
+|switch|p1a: Amoonguss|Amoonguss, F|91/100
+|move|p2a: Urshifu|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|64/100
+|-damage|p2a: Urshifu|51/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|
+|turn|23
+|
+|switch|p1a: Rotom|Rotom-Wash|78/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|24/100
+|
+|turn|24
+|
+|switch|p1a: Garganacl|Garganacl, M|78/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Garganacl
+|-damage|p1a: Garganacl|55/100
+|-unboost|p1a: Garganacl|spd|1
+|
+|-heal|p1a: Garganacl|62/100|[from] item: Leftovers
+|turn|25
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|51/100
+|move|p1a: Garganacl|Stealth Rock|p2a: Urshifu
+|-sidestart|p2: Batataplays|move: Stealth Rock
+|
+|-heal|p1a: Garganacl|68/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p1a: Amoonguss|Amoonguss, F|97/100
+|move|p2a: Urshifu|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|70/100
+|-damage|p2a: Urshifu|35/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|turn|27
+|
+|switch|p1a: Rotom|Rotom-Wash|24/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|
+|switch|p1a: Garganacl|Garganacl, M|68/100
+|turn|28
+|
+|switch|p2a: Slowking|Slowking-Galar, M|54/100
+|-damage|p2a: Slowking|41/100|[from] Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|-start|p2a: Slowking|Salt Cure
+|
+|-heal|p1a: Garganacl|74/100|[from] item: Leftovers
+|-heal|p2a: Slowking|33/100|[from] item: Leftovers
+|-damage|p2a: Slowking|20/100|[from] Salt Cure
+|turn|29
+|
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|70/100
+|
+|-heal|p2a: Slowking|77/100|[from] item: Leftovers
+|-damage|p2a: Slowking|64/100|[from] Salt Cure
+|turn|30
+|
+|switch|p1a: Gholdengo|Gholdengo|62/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100|[from] Chilly Reception
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|turn|31
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Garganacl
+|-damage|p1a: Garganacl|37/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Garganacl|43/100|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Garganacl|[miss]
+|-miss|p2a: Dragapult|p1a: Garganacl
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|93/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Garganacl|99/100|[from] item: Leftovers
+|turn|33
+|-message|Batataplays forfeited.
+|
+|win|Mr Coffy
+|player|p2|Batataplays|geeta

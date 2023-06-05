@@ -1,0 +1,454 @@
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Forretress, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Pelipper, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Pawmot, M|
+|poke|p2|Kilowattrel, F|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Kilowattrel|Kilowattrel, F|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Kilowattrel|[miss]
+|-miss|p1a: Rotom|p2a: Kilowattrel
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Kilowattrel|Thunder|p1a: Rotom
+|-damage|p1a: Rotom|30/100
+|-damage|p2a: Kilowattrel|91/100|[from] item: Life Orb
+|move|p1a: Rotom|Hydro Pump|p2a: Kilowattrel|[miss]
+|-miss|p1a: Rotom|p2a: Kilowattrel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|36/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Kilowattrel|Thunder|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|43/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Kilowattrel|Thunder|p1a: Slowking
+|-damage|p1a: Slowking|62/100
+|-damage|p2a: Kilowattrel|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|68/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Kilowattrel|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|42/100
+|-damage|p2a: Kilowattrel|71/100|[from] item: Life Orb
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] Volt Switch
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|move|p1a: Urshifu|U-turn|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|77/100
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|turn|7
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Chien-Pao|Crunch|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|67/100
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Samurott|Aqua Cutter|p1a: Forretress
+|-damage|p1a: Forretress|72/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Forretress|78/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Forretress|Volt Switch|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|36/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|75/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|81/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Pelipper|Hurricane|p1a: Slowking
+|-damage|p1a: Slowking|60/100
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Chilly Reception
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|turn|11
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|
+|-weather|Snow|[upkeep]
+|turn|12
+|
+|-terastallize|p2a: Garchomp|Steel
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|43/100
+|move|p2a: Garchomp|Fire Blast|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|-damage|p2a: Garchomp|33/100|[from] item: Life Orb
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|13
+|
+|move|p2a: Garchomp|Draco Meteor|p1a: Urshifu
+|-damage|p1a: Urshifu|2/100
+|-unboost|p2a: Garchomp|spa|2
+|-damage|p2a: Garchomp|23/100|[from] item: Life Orb
+|move|p1a: Urshifu|Surging Strikes|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Urshifu|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Urshifu
+|-hitcount|p2: Garchomp|1
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Pelipper|Pelipper, F|36/100
+|switch|p1a: Slowking|Slowking-Galar, F|93/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|14
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|86/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Chilly Reception
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|
+|-weather|Snow|[upkeep]
+|turn|15
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Icicle220|move: Stealth Rock
+|move|p2a: Pelipper|Chilling Water|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|66/100
+|-unboost|p1a: Landorus|atk|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Landorus|72/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Landorus|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|80/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p2a: Pelipper|Chilling Water|p1a: Slowking
+|-damage|p1a: Slowking|90/100
+|-unboost|p1a: Slowking|atk|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Slowking|96/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|67/100
+|-damage|p2a: Samurott|54/100|[from] Stealth Rock
+|move|p1a: Slowking|Sludge Bomb|p2a: Samurott
+|-damage|p2a: Samurott|4/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Slowking|100/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Landorus|Landorus-Therian, M|72/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Samurott|atk|1
+|move|p2a: Samurott|Ceaseless Edge|p1a: Landorus|[miss]
+|-miss|p2a: Samurott|p1a: Landorus
+|
+|-weather|none
+|-heal|p1a: Landorus|78/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Landorus
+|-damage|p1a: Landorus|56/100
+|-sidestart|p1: Fokuna|Spikes
+|move|p1a: Landorus|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|
+|switch|p2a: Basculegion|Basculegion, M|77/100
+|-damage|p2a: Basculegion|65/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Wash|43/100
+|move|p2a: Basculegion|Crunch|p1a: Rotom
+|-damage|p1a: Rotom|16/100
+|-damage|p2a: Basculegion|55/100|[from] item: Life Orb
+|
+|-heal|p1a: Rotom|22/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Kilowattrel|Kilowattrel, F|71/100
+|-damage|p2a: Kilowattrel|46/100|[from] Stealth Rock
+|move|p1a: Rotom|Protect||[still]
+|-fail|p1a: Rotom
+|
+|-heal|p1a: Rotom|28/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Landorus|Landorus-Therian, M|56/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kilowattrel|atk|1
+|move|p2a: Kilowattrel|Thunder|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p1a: Landorus|62/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p2a: Pelipper|Pelipper, F|80/100
+|-damage|p2a: Pelipper|56/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Landorus|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|47/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|86/100
+|
+|switch|p2a: Kilowattrel|Kilowattrel, F|46/100|[from] U-turn
+|-damage|p2a: Kilowattrel|21/100|[from] Stealth Rock
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Rotom|Rotom-Wash|28/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Rotom|34/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Kilowattrel|Thunder|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Rotom|41/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p1a: Landorus|Landorus-Therian, M|62/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kilowattrel|atk|1
+|move|p2a: Kilowattrel|Thunder|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Landorus|68/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Kilowattrel|Weather Ball|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2a: Kilowattrel|11/100|[from] item: Life Orb
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|turn|28
+|
+|move|p2a: Kilowattrel|Weather Ball|p1a: Slowking
+|-damage|p1a: Slowking|66/100
+|-damage|p2a: Kilowattrel|1/100|[from] item: Life Orb
+|move|p1a: Slowking|Sludge Bomb|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|
+|-weather|none
+|-heal|p1a: Slowking|72/100|[from] item: Leftovers
+|
+|switch|p2a: Pawmot|Pawmot, M|100/100
+|-damage|p2a: Pawmot|94/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
+|-enditem|p2a: Pawmot|Leppa Berry|[eat]
+|-activate|p2a: Pawmot|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p2: Garchomp|50/100|[from] move: Revival Blessing
+|move|p1a: Slowking|Sludge Bomb|p2a: Pawmot
+|-damage|p2a: Pawmot|35/100
+|
+|-heal|p1a: Slowking|78/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
+|
+|-heal|p2: Samurott|50/100|[from] move: Revival Blessing
+|move|p1a: Slowking|Sludge Bomb|p2a: Pawmot
+|-damage|p2a: Pawmot|0 fnt
+|faint|p2a: Pawmot
+|
+|-heal|p1a: Slowking|84/100|[from] item: Leftovers
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|50/100
+|-damage|p2a: Samurott|38/100|[from] Stealth Rock
+|turn|31
+|
+|switch|p1a: Forretress|Forretress, F|78/100
+|-damage|p1a: Forretress|65/100|[from] Spikes
+|move|p2a: Samurott|Ceaseless Edge|p1a: Forretress
+|-damage|p1a: Forretress|39/100
+|-sidestart|p1: Fokuna|Spikes
+|
+|-heal|p1a: Forretress|45/100|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Forretress
+|-damage|p1a: Forretress|21/100
+|-sidestart|p1: Fokuna|Spikes
+|move|p1a: Forretress|Rapid Spin|p2a: Samurott
+|-damage|p2a: Samurott|24/100
+|-boost|p1a: Forretress|spe|1
+|-sideend|p1: Fokuna|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|
+|-heal|p1a: Forretress|27/100|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Forretress
+|-damage|p1a: Forretress|2/100
+|-sidestart|p1: Fokuna|Spikes
+|move|p1a: Forretress|Volt Switch|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|switch|p1a: Rotom|Rotom-Wash|41/100|[from] Volt Switch
+|
+|-heal|p1a: Rotom|47/100|[from] item: Leftovers
+|
+|switch|p2a: Pelipper|Pelipper, F|47/100
+|-damage|p2a: Pelipper|22/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|34
+|
+|switch|p2a: Basculegion|Basculegion, M|55/100
+|-damage|p2a: Basculegion|42/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Basculegion
+|-status|p2a: Basculegion|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|53/100|[from] item: Leftovers
+|-damage|p2a: Basculegion|36/100 brn|[from] brn
+|turn|35
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Basculegion|Wave Crash|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|59/100|[from] item: Leftovers
+|-damage|p2a: Basculegion|30/100 brn|[from] brn
+|turn|36
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|38/100
+|-damage|p2a: Basculegion|24/100 brn|[from] Recoil
+|-damage|p2a: Basculegion|14/100 brn|[from] item: Life Orb
+|move|p1a: Rotom|Volt Switch|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] Volt Switch
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|
+|switch|p2a: Garchomp|Garchomp, M|50/100
+|-damage|p2a: Garchomp|44/100|[from] Stealth Rock
+|turn|37
+|
+|switch|p1a: Forretress|Forretress, F|2/100
+|-damage|p1a: Forretress|0 fnt|[from] Spikes
+|faint|p1a: Forretress
+|move|p2a: Garchomp|Earthquake|p1: Forretress|[notarget]
+|-fail|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Rotom|Rotom-Wash|38/100
+|turn|38
+|
+|-terastallize|p1a: Rotom|Fairy
+|move|p2a: Garchomp|Draco Meteor|p1a: Rotom
+|-immune|p1a: Rotom
+|move|p1a: Rotom|Hydro Pump|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|44/100|[from] item: Leftovers
+|-message|Icicle220 forfeited.
+|
+|win|Fokuna

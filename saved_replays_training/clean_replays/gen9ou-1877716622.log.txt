@@ -1,0 +1,303 @@
+|poke|p1|Masquerain, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Carbink|
+|poke|p1|Ursaluna, F|
+|poke|p1|Mew|
+|poke|p1|Kingambit, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Azumarill, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Hawlucha, M|
+|teampreview
+|
+|start
+|switch|p1a: Masquerain|Masquerain, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|1
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Masquerain
+|-supereffective|p1a: Masquerain
+|-enditem|p1a: Masquerain|Focus Sash
+|-damage|p1a: Masquerain|1/100
+|move|p1a: Masquerain|Sticky Web|p2a: Garchomp
+|-sidestart|p2: Tommy Choubidou|move: Sticky Web
+|
+|turn|2
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Masquerain
+|-supereffective|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|faint|p1a: Masquerain
+|
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|turn|3
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|78/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Tommy Choubidou|move: Stealth Rock
+|
+|-heal|p1a: Clodsire|84/100|[from] item: Black Sludge
+|turn|4
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|61/100
+|move|p1a: Clodsire|Toxic Spikes|p2a: Garchomp
+|-sidestart|p2: Tommy Choubidou|move: Toxic Spikes
+|
+|-heal|p1a: Clodsire|67/100|[from] item: Black Sludge
+|turn|5
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|41/100
+|move|p1a: Clodsire|Toxic Spikes|p2a: Garchomp
+|-sidestart|p2: Tommy Choubidou|move: Toxic Spikes
+|
+|-heal|p1a: Clodsire|47/100|[from] item: Black Sludge
+|turn|6
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|21/100
+|move|p1a: Clodsire|Spikes|p2a: Garchomp
+|-sidestart|p2: Tommy Choubidou|Spikes
+|
+|-heal|p1a: Clodsire|27/100|[from] item: Black Sludge
+|turn|7
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|3/100
+|move|p1a: Clodsire|Spikes|p2a: Garchomp
+|-sidestart|p2: Tommy Choubidou|Spikes
+|
+|-heal|p1a: Clodsire|9/100|[from] item: Black Sludge
+|turn|8
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Mew|Mew|100/100
+|turn|9
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Mew
+|-damage|p1a: Mew|65/100
+|move|p1a: Mew|Spikes|p2a: Garchomp
+|-sidestart|p2: Tommy Choubidou|Spikes
+|
+|-heal|p1a: Mew|71/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Mew|Protect|p1a: Mew
+|-singleturn|p1a: Mew|Protect
+|move|p2a: Garchomp|Flamethrower|p1a: Mew
+|-activate|p1a: Mew|move: Protect
+|
+|-heal|p1a: Mew|77/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Garchomp|Flamethrower|p1a: Mew
+|-damage|p1a: Mew|38/100
+|move|p1a: Mew|Dragon Tail|p2a: Garchomp
+|-damage|p2a: Garchomp|71/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M, shiny
+|-end|p2a: Zoroark|Illusion
+|drag|p2a: Dragonite|Dragonite, M|100/100
+|
+|-heal|p1a: Mew|44/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Garchomp|Garchomp, M|71/100
+|-activate|p2a: Garchomp|move: Sticky Web
+|-unboost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|59/100|[from] Stealth Rock
+|-status|p2a: Garchomp|tox
+|-damage|p2a: Garchomp|34/100 tox|[from] Spikes
+|move|p1a: Mew|Dragon Tail|p2a: Garchomp
+|-damage|p2a: Garchomp|4/100 tox
+|replace|p2a: Zoroark|Zoroark-Hisui, M, shiny
+|-end|p2a: Zoroark|Illusion
+|drag|p2a: Azumarill|Azumarill, M, shiny|100/100
+|-activate|p2a: Azumarill|move: Sticky Web
+|-unboost|p2a: Azumarill|spe|1
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|-status|p2a: Azumarill|tox
+|-damage|p2a: Azumarill|63/100 tox|[from] Spikes
+|
+|-heal|p1a: Mew|50/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|57/100 tox|[from] psn
+|turn|13
+|
+|move|p1a: Mew|Protect|p1a: Mew
+|-singleturn|p1a: Mew|Protect
+|move|p2a: Azumarill|Aqua Jet|p1a: Mew
+|-activate|p1a: Mew|move: Protect
+|
+|-heal|p1a: Mew|57/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|45/100 tox|[from] psn
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|70/100 tox|[from] item: Sitrus Berry
+|turn|14
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Mew
+|-damage|p1a: Mew|41/100
+|move|p1a: Mew|Dragon Tail|p2a: Azumarill
+|-immune|p2a: Azumarill
+|
+|-heal|p1a: Mew|47/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|51/100 tox|[from] psn
+|turn|15
+|
+|move|p1a: Mew|Protect|p1a: Mew
+|-singleturn|p1a: Mew|Protect
+|move|p2a: Azumarill|Liquidation|p1a: Mew
+|-activate|p1a: Mew|move: Protect
+|
+|-heal|p1a: Mew|53/100|[from] item: Leftovers
+|-damage|p2a: Azumarill|26/100 tox|[from] psn
+|turn|16
+|
+|switch|p1a: Carbink|Carbink|100/100
+|move|p2a: Azumarill|Liquidation|p1a: Carbink
+|-supereffective|p1a: Carbink
+|-damage|p1a: Carbink|29/100
+|
+|-damage|p2a: Azumarill|0 fnt|[from] psn
+|faint|p2a: Azumarill
+|
+|switch|p2a: Garchomp|Garchomp, M|4/100 tox
+|-activate|p2a: Garchomp|move: Sticky Web
+|-unboost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|0 fnt|[from] Stealth Rock
+|faint|p2a: Garchomp
+|
+|switch|p2a: Hawlucha|Hawlucha, M, shiny|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Carbink
+|-damage|p1a: Carbink|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Carbink
+|
+|
+|switch|p1a: Mew|Mew|53/100
+|turn|18
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|35/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|move|p1a: Mew|Dragon Tail|p2a: Hawlucha
+|-damage|p2a: Hawlucha|53/100
+|drag|p2a: Dragapult|Dragapult, M, shiny|100/100
+|-activate|p2a: Dragapult|move: Sticky Web
+|-unboost|p2a: Dragapult|spe|1
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-status|p2a: Dragapult|tox
+|-damage|p2a: Dragapult|63/100 tox|[from] Spikes
+|
+|-heal|p2a: Dragapult|69/100 tox|[from] item: Leftovers
+|-heal|p1a: Mew|42/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|63/100 tox|[from] psn
+|turn|19
+|
+|move|p1a: Mew|Protect|p1a: Mew
+|-singleturn|p1a: Mew|Protect
+|move|p2a: Dragapult|Dragon Darts|p1a: Mew
+|-activate|p1a: Mew|move: Protect
+|
+|-heal|p2a: Dragapult|69/100 tox|[from] item: Leftovers
+|-heal|p1a: Mew|48/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|57/100 tox|[from] psn
+|turn|20
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Mew
+|-damage|p1a: Mew|31/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Mew
+|-damage|p1a: Mew|15/100
+|move|p1a: Mew|Dragon Tail|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|21/100 tox
+|drag|p2a: Dragonite|Dragonite, M|100/100
+|
+|-heal|p1a: Mew|21/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Mew
+|-damage|p1a: Mew|1/100
+|move|p1a: Mew|Dragon Tail|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|85/100
+|drag|p2a: Dragapult|Dragapult, M, shiny|21/100 tox
+|-activate|p2a: Dragapult|move: Sticky Web
+|-unboost|p2a: Dragapult|spe|1
+|-damage|p2a: Dragapult|9/100 tox|[from] Stealth Rock
+|-damage|p2a: Dragapult|0 fnt|[from] Spikes
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Mew|7/100|[from] item: Leftovers
+|
+|switch|p2a: Dragonite|Dragonite, M|85/100
+|turn|22
+|
+|move|p1a: Mew|Protect|p1a: Mew
+|-singleturn|p1a: Mew|Protect
+|move|p2a: Dragonite|Extreme Speed|p1a: Mew
+|-activate|p1a: Mew|move: Protect
+|
+|-heal|p1a: Mew|14/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|24
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|61/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-damage|p1a: Kingambit|51/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Hawlucha|Hawlucha, M, shiny|53/100
+|-damage|p2a: Hawlucha|41/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|-damage|p1a: Kingambit|41/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-activate|p2a: Garchomp|move: Sticky Web
+|-unboost|p2a: Garchomp|spe|1
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|-status|p2a: Garchomp|tox
+|-damage|p2a: Garchomp|69/100 tox|[from] Spikes
+|turn|26
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Kingambit|29/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-damage|p1a: Kingambit|19/100|[from] item: Life Orb
+|
+|win|danz12

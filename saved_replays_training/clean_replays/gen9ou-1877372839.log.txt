@@ -1,0 +1,190 @@
+|poke|p1|Slowking, F|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Magearna|
+|poke|p1|Ursaluna, F|
+|poke|p1|Heatran, F|
+|poke|p1|Azumarill, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Volcanion|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|start
+|switch|p1a: Slowking|Slowking, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|1
+|
+|move|p2a: Slowking|Future Sight|p1a: Slowking
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Slowking|Psyshock|p2a: Slowking
+|-damage|p2a: Slowking|74/100
+|
+|turn|2
+|
+|move|p2a: Slowking|Sludge Bomb|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|move|p1a: Slowking|Psyshock|p2a: Slowking
+|-damage|p2a: Slowking|47/100
+|
+|-heal|p1a: Slowking|81/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Slowking|Psyshock|p2a: Hydreigon
+|-immune|p2a: Hydreigon
+|
+|-end|p1a: Slowking|move: Future Sight
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|-heal|p1a: Slowking|71/100|[from] item: Leftovers
+|turn|4
+|
+|-terastallize|p1a: Slowking|Fairy
+|move|p2a: Hydreigon|Flash Cannon|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|20/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|26/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100|[from] Chilly Reception
+|move|p2a: Hydreigon|Flash Cannon|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|24/100
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|switch|p2a: Slowking|Slowking-Galar, M|80/100
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|-weather|Snow|[upkeep]
+|turn|7
+|
+|move|p2a: Slowking|Sludge Bomb|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|8
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ursaluna|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|87/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Corviknight|93/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|9
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Corviknight|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|98/100
+|
+|switch|p2a: Volcanion|Volcanion|100/100|[from] U-turn
+|
+|-weather|none
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Volcanion|Earth Power|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|45/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-heal|p1a: Magearna|51/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Magearna|Volt Switch|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|61/100
+|
+|switch|p1a: Heatran|Heatran, F|100/100|[from] Volt Switch
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Volcanion|Earth Power|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|turn|12
+|
+|move|p2a: Volcanion|Steam Eruption|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|2/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Lava Plume|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|53/100
+|
+|turn|13
+|
+|move|p2a: Volcanion|Earth Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|turn|14
+|
+|move|p1a: Azumarill|Play Rough|p2a: Volcanion|[miss]
+|-miss|p1a: Azumarill|p2a: Volcanion
+|move|p2a: Volcanion|Sludge Bomb|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|35/100
+|
+|-fieldend|move: Trick Room
+|turn|15
+|
+|switch|p1a: Magearna|Magearna|51/100
+|move|p2a: Volcanion|Sludge Bomb|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|-heal|p1a: Magearna|57/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Volcanion|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Slowking|Slowking, F, tera:Fairy|59/100
+|turn|17
+|
+|move|p2a: Volcanion|Sludge Bomb|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|15/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|21/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100 brn
+|move|p2a: Volcanion|Steam Eruption|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|6/100 brn
+|
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|-message|plasma_fistem forfeited.
+|
+|win|Etherlords
+|player|p2|Etherlords|gambler

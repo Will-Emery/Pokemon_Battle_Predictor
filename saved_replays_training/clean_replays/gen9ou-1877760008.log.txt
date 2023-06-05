@@ -1,0 +1,190 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Walking Wake|
+|poke|p1|Tauros-Paldea-Blaze, M|
+|poke|p1|Great Tusk|
+|poke|p2|Ceruledge, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Gholdengo|
+|poke|p2|Hydreigon, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: fierclaw's|Ceruledge, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: fierclaw's|Shadow Claw|p1a: Torkoal
+|-damage|p1a: Torkoal|70/100
+|move|p1a: Torkoal|Stealth Rock|p2a: fierclaw's
+|-sidestart|p2: Maciekpro11|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: fierclaw's|Shadow Claw|p1a: Walking Wake
+|-immune|p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|move|p2a: fierclaw's|Shadow Sneak|p1a: Walking Wake
+|-immune|p1a: Walking Wake
+|move|p1a: Walking Wake|Shadow Ball|p2a: fierclaw's
+|-supereffective|p2a: fierclaw's
+|-damage|p2a: fierclaw's|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Walking Wake|Shadow Ball|p2a: fierclaw's
+|-supereffective|p2a: fierclaw's
+|-damage|p2a: fierclaw's|0 fnt
+|faint|p2a: fierclaw's
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: fortnite|Dragonite, M|100/100
+|-damage|p2a: fortnite|76/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Walking Wake|Dark Pulse|p2a: fortnite
+|-damage|p2a: fortnite|44/100
+|move|p2a: fortnite|Dragon Tail|p1a: Walking Wake
+|-damage|p1a: Walking Wake|29/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M, shiny
+|-end|p1a: Zoroark|Illusion
+|drag|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p1a: Walking Wake|Draco Meteor|p2a: fortnite
+|-supereffective|p2a: fortnite
+|-damage|p2a: fortnite|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: fortnite
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: piglin dream|Gholdengo|100/100
+|-damage|p2a: piglin dream|94/100|[from] Stealth Rock
+|turn|7
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: piglin dream|atk|1
+|move|p2a: piglin dream|Hex|p1a: Tauros
+|-damage|p1a: Tauros|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|move|p1a: Tauros|Flare Blitz|p2a: piglin dream
+|-supereffective|p2a: piglin dream
+|-damage|p2a: piglin dream|0 fnt
+|faint|p2a: piglin dream
+|-damage|p1a: Tauros|6/100|[from] Recoil
+|
+|-weather|none
+|
+|switch|p2a: hydra|Hydreigon, F|100/100
+|-damage|p2a: hydra|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Tauros|Flare Blitz|p2a: hydra
+|-resisted|p2a: hydra
+|-damage|p2a: hydra|43/100
+|-damage|p1a: Tauros|0 fnt|[from] Recoil
+|faint|p1a: Tauros
+|move|p2a: hydra|Draco Meteor|p1: Tauros|[notarget]
+|-fail|p2a: hydra
+|
+|
+|switch|p1a: Torkoal|Torkoal, M|70/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|10
+|
+|move|p2a: hydra|Draco Meteor|p1a: Torkoal
+|-damage|p1a: Torkoal|2/100
+|-unboost|p2a: hydra|spa|2
+|move|p1a: Torkoal|Eruption|p2a: hydra
+|-resisted|p2a: hydra
+|-damage|p2a: hydra|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|11
+|
+|move|p2a: hydra|Dragon Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|12
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: hydra|Draco Meteor|p1a: Lilligant
+|-damage|p1a: Lilligant|46/100
+|-unboost|p2a: hydra|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|13
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: hydra|Draco Meteor|p1a: Lilligant
+|-damage|p1a: Lilligant|8/100
+|-unboost|p2a: hydra|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|14
+|
+|move|p1a: Lilligant|Ice Spinner|p2a: hydra
+|-supereffective|p2a: hydra
+|-damage|p2a: hydra|0 fnt
+|faint|p2a: hydra
+|-damage|p1a: Lilligant|0 fnt|[from] item: Life Orb
+|faint|p1a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: tygrys diego|Chien-Pao|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|-damage|p2a: tygrys diego|75/100|[from] Stealth Rock
+|-ability|p2a: tygrys diego|Sword of Ruin
+|turn|15
+|
+|move|p1a: Walking Wake|Flamethrower|p2a: tygrys diego
+|-supereffective|p2a: tygrys diego
+|-damage|p2a: tygrys diego|0 fnt
+|faint|p2a: tygrys diego
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: iron golem 2.0|Magearna|100/100
+|-damage|p2a: iron golem 2.0|94/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Walking Wake|Flamethrower|p2a: iron golem 2.0
+|-supereffective|p2a: iron golem 2.0
+|-damage|p2a: iron golem 2.0|0 fnt
+|faint|p2a: iron golem 2.0
+|
+|win|EpicNyanNoob

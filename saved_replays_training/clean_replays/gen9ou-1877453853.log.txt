@@ -1,0 +1,207 @@
+|poke|p1|Slowking, F|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Diancie|
+|poke|p1|Glastrier|
+|poke|p1|Azumarill, F|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Wo-Chien|
+|poke|p2|Brambleghast, M|
+|poke|p2|Tauros-Paldea-Blaze, M|
+|poke|p2|Mimikyu, F|
+|teampreview
+|
+|start
+|switch|p1a: Diancie|Diancie|100/100
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|1
+|
+|move|p2a: Sneasler|Fake Out|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|95/100
+|-status|p1a: Diancie|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|cant|p1a: Diancie|flinch
+|
+|-heal|p1a: Diancie|100/100 psn|[from] item: Leftovers
+|-damage|p1a: Diancie|88/100 psn|[from] psn
+|turn|2
+|
+|move|p2a: Sneasler|U-turn|p1a: Diancie
+|-resisted|p1a: Diancie
+|-damage|p1a: Diancie|79/100 psn
+|
+|switch|p2a: Wo-Chien|Wo-Chien|100/100|[from] U-turn
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|move|p1a: Diancie|Trick Room|p1a: Diancie
+|-fieldstart|move: Trick Room|[of] p1a: Diancie
+|
+|-heal|p1a: Diancie|85/100 psn|[from] item: Leftovers
+|-damage|p1a: Diancie|73/100 psn|[from] psn
+|turn|3
+|
+|move|p1a: Diancie|Diamond Storm|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|76/100
+|move|p2a: Wo-Chien|Ruination|p1a: Diancie
+|-damage|p1a: Diancie|37/100 psn
+|
+|-heal|p1a: Diancie|43/100 psn|[from] item: Leftovers
+|-damage|p1a: Diancie|30/100 psn|[from] psn
+|turn|4
+|
+|move|p1a: Diancie|Body Press|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-crit|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|37/100
+|move|p2a: Wo-Chien|Ruination|p1a: Diancie
+|-damage|p1a: Diancie|16/100 psn
+|
+|-heal|p1a: Diancie|22/100 psn|[from] item: Leftovers
+|-damage|p1a: Diancie|9/100 psn|[from] psn
+|turn|5
+|
+|move|p1a: Diancie|Body Press|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|11/100
+|move|p2a: Wo-Chien|Body Press|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|turn|6
+|
+|move|p1a: Glastrier|Icicle Crash|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|0 fnt
+|faint|p2a: Wo-Chien
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|7
+|
+|move|p2a: Sneasler|Fake Out|p1a: Glastrier
+|-damage|p1a: Glastrier|90/100
+|cant|p1a: Glastrier|flinch
+|
+|turn|8
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Glastrier
+|-damage|p1a: Glastrier|61/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|
+|switch|p2a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|turn|9
+|
+|-terastallize|p1a: Glastrier|Fighting
+|move|p2a: Tauros|Bulk Up|p2a: Tauros
+|-boost|p2a: Tauros|atk|1
+|-boost|p2a: Tauros|def|1
+|move|p1a: Glastrier|Close Combat|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|faint|p2a: Tauros
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|10
+|
+|move|p2a: Mimikyu|Thunder Wave|p1a: Glastrier
+|-status|p1a: Glastrier|par
+|cant|p1a: Glastrier|par
+|
+|turn|11
+|
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Mimikyu|Bulk Up|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|1
+|-boost|p2a: Mimikyu|def|1
+|
+|turn|12
+|
+|move|p2a: Mimikyu|Shadow Claw|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|19/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|25/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Mimikyu|Bulk Up|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|1
+|-boost|p2a: Mimikyu|def|1
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|14
+|
+|move|p1a: Ursaluna|Crunch|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-unboost|p2a: Mimikyu|def|1
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|move|p2a: Mimikyu|Drain Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|26/100 brn
+|-heal|p2a: Mimikyu|100/100|[from] drain|[of] p1a: Ursaluna
+|
+|-damage|p1a: Ursaluna|20/100 brn|[from] brn
+|turn|15
+|
+|move|p1a: Ursaluna|Headlong Rush|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Mimikyu
+|
+|-damage|p1a: Ursaluna|14/100 brn|[from] brn
+|
+|switch|p2a: Brambleghast|Brambleghast, M|100/100
+|turn|16
+|
+|move|p1a: Ursaluna|Crunch|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-crit|p2a: Brambleghast
+|-damage|p2a: Brambleghast|0 fnt
+|faint|p2a: Brambleghast
+|
+|-damage|p1a: Ursaluna|7/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Zoroark|Zoroark-Hisui, F|100/100
+|turn|17
+|
+|-terastallize|p2a: Zoroark|Normal
+|move|p2a: Zoroark|Hyper Voice|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|18
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Zoroark
+|-damage|p2a: Zoroark|19/100
+|move|p2a: Zoroark|Hyper Voice|p1a: Azumarill
+|-damage|p1a: Azumarill|35/100
+|
+|turn|19
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|win|plasma_fistem

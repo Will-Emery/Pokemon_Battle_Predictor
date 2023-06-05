@@ -1,0 +1,203 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Magearna|
+|poke|p1|Great Tusk|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Slowking, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Magearna|
+|poke|p2|Cinderace, F|
+|poke|p2|Farigiraf, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Roaring Moon|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Farigiraf|Farigiraf, F|100/100
+|turn|1
+|
+|move|p2a: Farigiraf|Agility|p2a: Farigiraf
+|-boost|p2a: Farigiraf|spe|2
+|move|p1a: Great Tusk|Stealth Rock|p2a: Farigiraf
+|-sidestart|p2: PsyKensai|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Farigiraf|Twin Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|29/100
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p1: Great Tusk|2
+|-damage|p2a: Farigiraf|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|3
+|
+|move|p2a: Farigiraf|Thunderbolt|p1a: Magearna
+|-damage|p1a: Magearna|73/100
+|-damage|p2a: Farigiraf|81/100|[from] item: Life Orb
+|move|p1a: Magearna|Pain Split|p2a: Farigiraf
+|-sethp|p2a: Farigiraf|75/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Magearna|79/100|[from] move: Pain Split
+|
+|turn|4
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Magearna|Spikes|p2a: Cinderace
+|-sidestart|p2: PsyKensai|Spikes
+|
+|turn|5
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Magearna|Volt Switch|p2a: Cinderace
+|-damage|p2a: Cinderace|70/100
+|
+|switch|p1a: Slowking|Slowking, M|100/100|[from] Volt Switch
+|
+|turn|6
+|
+|move|p2a: Cinderace|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|55/100
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from] U-turn
+|move|p1a: Slowking|Future Sight|p2a: Tornadus
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|7
+|
+|move|p2a: Tornadus|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|26/100
+|
+|switch|p2a: Farigiraf|Farigiraf, F|75/100|[from] U-turn
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Magearna|Magearna|79/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|switch|p2a: Cinderace|Cinderace, F|70/100
+|move|p1a: Magearna|Spikes|p2a: Cinderace
+|-sidestart|p2: PsyKensai|Spikes
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Cinderace|move: Future Sight
+|-damage|p2a: Cinderace|13/100
+|turn|9
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|-damage|p1a: Sneasler|82/100|[from] Spikes
+|turn|10
+|
+|move|p1a: Sneasler|Fire Punch|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|11
+|
+|switch|p1a: Slowking|Slowking, M|59/100
+|move|p2a: Tornadus|Hurricane|p1a: Slowking
+|-damage|p1a: Slowking|30/100
+|
+|-weather|none
+|turn|12
+|
+|move|p2a: Tornadus|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|-damage|p2a: Magearna|88/100|[from] Spikes
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|82/100
+|-damage|p1a: Sneasler|76/100|[from] Stealth Rock
+|-damage|p1a: Sneasler|64/100|[from] Spikes
+|turn|13
+|
+|move|p1a: Sneasler|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|80/100
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M, shiny|100/100|[from] U-turn
+|move|p2a: Magearna|Ice Beam|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|31/100
+|
+|turn|14
+|
+|move|p1a: Tornadus|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|77/100
+|
+|switch|p1a: Sneasler|Sneasler, M|64/100|[from] U-turn
+|-damage|p1a: Sneasler|58/100|[from] Stealth Rock
+|-damage|p1a: Sneasler|46/100|[from] Spikes
+|move|p2a: Magearna|Ice Beam|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p1a: Dragapult|76/100|[from] Spikes
+|turn|15
+|
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Magearna
+|-status|p2a: Magearna|brn
+|move|p2a: Magearna|Ice Beam|p1a: Dragapult
+|-damage|p1a: Dragapult|8/100
+|
+|-heal|p1a: Dragapult|14/100|[from] item: Leftovers
+|-damage|p2a: Magearna|71/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Dragapult|Hex|p2a: Magearna
+|-damage|p2a: Magearna|30/100 brn
+|move|p2a: Magearna|Ice Beam|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-damage|p2a: Magearna|24/100 brn|[from] brn
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M, shiny|64/100
+|turn|17
+|
+|move|p1a: Tornadus|Heat Wave|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|2/100 brn
+|move|p2a: Magearna|Ice Beam|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|win|PsyKensai

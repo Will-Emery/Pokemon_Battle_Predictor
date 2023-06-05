@@ -1,0 +1,132 @@
+|poke|p1|Avalugg, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Gengar, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Donphan, F|
+|poke|p1|Mew|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Great Tusk|
+|poke|p2|Garchomp, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|1
+|
+|move|p1a: Mew|Ice Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|32/100
+|move|p2a: Great Tusk|Knock Off|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|40/100
+|-enditem|p1a: Mew|Choice Scarf|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|39/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Donphan|Donphan, F|100/100
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|
+|turn|3
+|
+|-terastallize|p1a: Donphan|Flying
+|move|p2a: Urshifu|Surging Strikes|p1a: Donphan
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|84/100
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|69/100
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|55/100
+|-hitcount|p1a: Donphan|3
+|move|p1a: Donphan|Knock Off|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|82/100
+|-enditem|p2a: Urshifu|Choice Scarf|[from] move: Knock Off|[of] p1a: Donphan
+|
+|turn|4
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Donphan
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|40/100
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|25/100
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|11/100
+|-hitcount|p1a: Donphan|3
+|move|p1a: Donphan|Earthquake|p2a: Urshifu
+|-damage|p2a: Urshifu|32/100
+|
+|turn|5
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Donphan
+|-crit|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|-hitcount|p1: Donphan|1
+|
+|
+|switch|p1a: Mew|Mew|40/100
+|turn|6
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Mew
+|-damage|p1a: Mew|20/100
+|move|p1a: Mew|Volt Switch|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F, shiny|100/100|[from] Volt Switch
+|
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|7
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|30/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|
+|turn|8
+|
+|switch|p1a: Avalugg|Avalugg, M, shiny|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Avalugg
+|-damage|p1a: Avalugg|73/100
+|-damage|p2a: Garchomp|81/100|[from] item: Life Orb
+|
+|turn|9
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|27/100
+|-damage|p2a: Garchomp|71/100|[from] item: Life Orb
+|move|p1a: Avalugg|Chilling Water|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|62/100
+|-unboost|p2a: Garchomp|atk|1
+|
+|turn|10
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|-damage|p2a: Garchomp|52/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Mew|Mew|20/100
+|turn|11
+|
+|move|p2a: Garchomp|Earthquake|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|-damage|p2a: Garchomp|42/100|[from] item: Life Orb
+|
+|-message|Trinitron forfeited.
+|
+|win|treeshhhh

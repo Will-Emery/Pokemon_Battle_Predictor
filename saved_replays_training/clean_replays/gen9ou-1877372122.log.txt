@@ -1,0 +1,212 @@
+|poke|p1|Great Tusk|
+|poke|p1|Chien-Pao|
+|poke|p1|Azumarill, F|
+|poke|p1|Bombirdier, F|
+|poke|p1|Heatran, F|
+|poke|p1|Breloom, F|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Meowscarada, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Arcanine-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|1
+|
+|move|p1a: Breloom|Mach Punch|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|13/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-enditem|p1a: Breloom|Focus Sash
+|-damage|p1a: Breloom|1/100
+|-status|p1a: Breloom|brn
+|
+|-damage|p1a: Breloom|0 fnt|[from] brn
+|faint|p1a: Breloom
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|2
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|3
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Gholdengo|Thunderbolt|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|68/100
+|
+|-heal|p1a: Heatran|74/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Great Tusk
+|-damage|p2a: Great Tusk|33/100
+|-activate|p2a: Great Tusk|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|81/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|20/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|5
+|
+|switch|p1a: Bombirdier|Bombirdier, F|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Bombirdier
+|-immune|p1a: Bombirdier
+|
+|-end|p2a: Great Tusk|Magma Storm|[partiallytrapped]|[silent]
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|move|p1a: Bombirdier|Brave Bird|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|48/100
+|-damage|p1a: Bombirdier|77/100|[from] Recoil
+|
+|turn|7
+|
+|-terastallize|p1a: Bombirdier|Rock
+|move|p2a: Baxcalibur|Ice Shard|p1a: Bombirdier
+|-damage|p1a: Bombirdier|35/100
+|-damage|p2a: Baxcalibur|38/100|[from] item: Life Orb
+|move|p1a: Bombirdier|Brave Bird|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|-damage|p1a: Bombirdier|19/100|[from] Recoil
+|
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|8
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Bombirdier
+|-damage|p1a: Bombirdier|0 fnt
+|faint|p1a: Bombirdier
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Bitter Blade|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-heal|p2a: Ceruledge|53/100|[from] drain|[of] p1a: Chien-Pao
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|10
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|11
+|
+|switch|p1a: Heatran|Heatran, F|81/100
+|move|p2a: Meowscarada|Knock Off|p1a: Heatran
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Heatran|40/100
+|-enditem|p1a: Heatran|Leftovers|[from] move: Knock Off|[of] p2a: Meowscarada
+|
+|turn|12
+|
+|move|p2a: Meowscarada|Sucker Punch|p1a: Heatran
+|-damage|p1a: Heatran|10/100
+|move|p1a: Heatran|Magma Storm|p2a: Meowscarada
+|-damage|p2a: Meowscarada|37/100
+|-activate|p2a: Meowscarada|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Meowscarada|43/100|[from] item: Leftovers
+|-damage|p2a: Meowscarada|31/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|13
+|
+|move|p2a: Meowscarada|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Meowscarada|37/100|[from] item: Leftovers
+|-end|p2a: Meowscarada|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|14
+|
+|-terastallize|p2a: Meowscarada|Water
+|move|p1a: Azumarill|Aqua Jet|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|18/100
+|move|p2a: Meowscarada|Flower Trick|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-crit|p1a: Azumarill
+|-damage|p1a: Azumarill|28/100
+|
+|-heal|p2a: Meowscarada|24/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Azumarill|Aqua Jet|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|4/100
+|move|p2a: Meowscarada|Flower Trick|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-crit|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-heal|p2a: Meowscarada|10/100|[from] item: Leftovers
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|16
+|
+|move|p2a: Meowscarada|Flower Trick|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|52/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Meowscarada
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|17
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|20/100
+|turn|18
+|
+|move|p1a: Great Tusk|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|win|Kaz2109

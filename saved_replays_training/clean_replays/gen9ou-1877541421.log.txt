@@ -1,0 +1,114 @@
+|poke|p1|Ting-Lu|
+|poke|p1|Heatran, F|
+|poke|p1|Greninja, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Roaring Moon|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Overqwil, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Talonflame, M|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Overqwil|Overqwil, M|100/100
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|move|p2a: Overqwil|Taunt|p1a: Ting-Lu
+|-start|p1a: Ting-Lu|move: Taunt
+|cant|p1a: Ting-Lu|move: Taunt|Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Overqwil|Spikes|p1a: Ting-Lu
+|-sidestart|p1: Realandres|Spikes
+|move|p1a: Ting-Lu|Earthquake|p2a: Overqwil
+|-supereffective|p2a: Overqwil
+|-damage|p2a: Overqwil|57/100
+|
+|turn|3
+|
+|move|p2a: Overqwil|Spikes|p1a: Ting-Lu
+|-sidestart|p1: Realandres|Spikes
+|move|p1a: Ting-Lu|Ruination|p2a: Overqwil
+|-damage|p2a: Overqwil|29/100
+|
+|-end|p1a: Ting-Lu|move: Taunt
+|turn|4
+|
+|move|p2a: Overqwil|Taunt|p1a: Ting-Lu
+|-start|p1a: Ting-Lu|move: Taunt
+|move|p1a: Ting-Lu|Earthquake|p2a: Overqwil
+|-supereffective|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|5
+|
+|move|p2a: Decidueye|Bulk Up|p2a: Decidueye
+|-boost|p2a: Decidueye|atk|1
+|-boost|p2a: Decidueye|def|1
+|move|p1a: Ting-Lu|Ruination|p2a: Decidueye
+|-damage|p2a: Decidueye|50/100
+|
+|-heal|p2a: Decidueye|57/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Decidueye|Bulk Up|p2a: Decidueye
+|-boost|p2a: Decidueye|atk|1
+|-boost|p2a: Decidueye|def|1
+|move|p1a: Ting-Lu|Ruination|p2a: Decidueye
+|-damage|p2a: Decidueye|29/100
+|
+|-heal|p2a: Decidueye|35/100|[from] item: Leftovers
+|-end|p1a: Ting-Lu|move: Taunt
+|turn|7
+|
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisatk
+|-damage|p1a: Roaring Moon|84/100|[from] Spikes
+|move|p2a: Decidueye|Triple Arrows|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|-heal|p2a: Decidueye|41/100|[from] item: Leftovers
+|
+|switch|p1a: Greninja|Greninja, F|100/100
+|-damage|p1a: Greninja|84/100|[from] Spikes
+|turn|8
+|
+|-terastallize|p2a: Decidueye|Ghost
+|move|p1a: Greninja|Tera Blast|p2a: Decidueye
+|-start|p1a: Greninja|typechange|Normal|[from] ability: Protean
+|-immune|p2a: Decidueye
+|move|p2a: Decidueye|Roost|p2a: Decidueye
+|-heal|p2a: Decidueye|91/100
+|
+|-heal|p2a: Decidueye|97/100|[from] item: Leftovers
+|turn|9
+|
+|-terastallize|p1a: Greninja|Fire
+|move|p1a: Greninja|Tera Blast|p2a: Decidueye
+|-crit|p2a: Decidueye
+|-damage|p2a: Decidueye|41/100
+|move|p2a: Decidueye|Triple Arrows|p1a: Greninja
+|-crit|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-heal|p2a: Decidueye|47/100|[from] item: Leftovers
+|-message|Realandres forfeited.
+|
+|win|Chosentolose

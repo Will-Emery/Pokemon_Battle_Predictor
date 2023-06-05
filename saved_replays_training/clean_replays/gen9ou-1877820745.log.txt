@@ -1,0 +1,65 @@
+|poke|p1|Muk-Alola, F|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Iron Treads|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Gholdengo|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Treads|atk|1
+|-terastallize|p1a: Iron Treads|Water
+|move|p1a: Iron Treads|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|turn|2
+|
+|move|p1a: Iron Treads|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|28/100
+|move|p2a: Landorus|Substitute|p2a: Landorus
+|-start|p2a: Landorus|Substitute
+|-damage|p2a: Landorus|3/100
+|
+|-heal|p2a: Landorus|9/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Iron Treads|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-end|p2a: Landorus|Substitute
+|move|p2a: Landorus|Earthquake|p1a: Iron Treads
+|-damage|p1a: Iron Treads|53/100
+|
+|-heal|p2a: Landorus|15/100|[from] item: Leftovers
+|turn|4
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|
+|-heal|p2a: Landorus|22/100|[from] item: Leftovers
+|turn|5
+|
+|-terastallize|p2a: Landorus|Flying
+|move|p2a: Landorus|Tera Blast|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-heal|p2a: Landorus|28/100|[from] item: Leftovers
+|player|p1|
+|-message|MisterTwister22 lost due to inactivity.
+|
+|win|grapplepie

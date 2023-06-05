@@ -1,0 +1,269 @@
+|poke|p1|Glastrier|
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Dragapult, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Magearna|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: Volcarona|Volcarona, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Volcarona|Bug Buzz|p1a: Slowking
+|-damage|p1a: Slowking|61/100
+|
+|turn|2
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|3
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100|[from] Chilly Reception
+|move|p2a: Volcarona|Fiery Dance|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|4
+|
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1a: Ursaluna|Facade|p2a: Volcarona
+|-damage|p2a: Volcarona|9/100
+|-status|p1a: Ursaluna|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|move|p2a: Volcarona|Giga Drain|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|42/100 brn
+|-heal|p2a: Volcarona|52/100|[from] drain|[of] p1a: Ursaluna
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Ursaluna|36/100 brn|[from] brn
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|move|p1a: Ursaluna|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Ursaluna|30/100 brn|[from] brn
+|
+|switch|p2a: Volcarona|Volcarona, M, shiny|52/100
+|turn|6
+|
+|move|p1a: Ursaluna|Facade|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Ursaluna|23/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100
+|turn|7
+|
+|switch|p1a: Slowking|Slowking-Galar, F|94/100
+|move|p2a: Ursaluna|Drain Punch|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|89/100
+|
+|-weather|none
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|8
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-terastallize|p2a: Ursaluna|Ground
+|move|p2a: Ursaluna|Earthquake|p1a: Cresselia
+|-immune|p1a: Cresselia|[from] ability: Levitate
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|turn|9
+|
+|move|p1a: Cresselia|Ice Beam|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|63/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Cresselia
+|-damage|p1a: Cresselia|27/100
+|
+|-damage|p2a: Ursaluna|57/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Ursaluna|Facade|p1: Cresselia|[notarget]
+|-fail|p2a: Ursaluna
+|
+|-damage|p2a: Ursaluna|51/100 brn|[from] brn
+|
+|switch|p1a: Ursaluna|Ursaluna, F, tera:Normal|23/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Lunar Dance
+|turn|11
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Ursaluna|Drain Punch|p1a: Magearna
+|-damage|p1a: Magearna|64/100
+|-heal|p2a: Ursaluna|65/100 brn|[from] drain|[of] p1a: Magearna
+|
+|-damage|p2a: Ursaluna|59/100 brn|[from] brn
+|turn|12
+|
+|move|p2a: Ursaluna|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-damage|p2a: Ursaluna|53/100 brn|[from] brn
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|turn|13
+|
+|move|p2a: Ursaluna|Drain Punch|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|43/100
+|-heal|p2a: Ursaluna|78/100 brn|[from] drain|[of] p1a: Glastrier
+|move|p1a: Glastrier|Icicle Crash|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|5/100 brn
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|14
+|
+|move|p2a: Chien-Pao|Swords Dance|p2a: Chien-Pao
+|-boost|p2a: Chien-Pao|atk|2
+|move|p1a: Glastrier|Stomping Tantrum|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|56/100
+|
+|turn|15
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|faint|p1a: Glastrier
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|16
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Slowking
+|-damage|p1a: Slowking|19/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|17
+|
+|move|p1a: Slowking|Flamethrower|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Dragonite|Dragonite, F, shiny|100/100
+|turn|18
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Ursaluna|Ursaluna, F, tera:Normal|100/100|[from] Chilly Reception
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Snow|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|19
+|
+|move|p1a: Ursaluna|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|14/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|20
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Ursaluna
+|-damage|p1a: Ursaluna|53/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Ursaluna|47/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|21
+|
+|switch|p1a: Slowking|Slowking-Galar, F|52/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-weather|Snow|[upkeep]
+|turn|22
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|none
+|turn|23
+|
+|move|p1a: Slowking|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|76/100
+|move|p2a: Magearna|Stored Power|p1a: Slowking
+|-damage|p1a: Slowking|1/100
+|
+|-heal|p2a: Magearna|82/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Slowking|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|58/100
+|move|p2a: Magearna|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-heal|p2a: Magearna|58/100|[from] drain|[of] p1a: Slowking
+|faint|p1a: Slowking
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|64/100|[from] item: Leftovers
+|
+|switch|p1a: Ursaluna|Ursaluna, F, tera:Normal|47/100 brn
+|turn|25
+|
+|move|p1a: Ursaluna|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|win|Abele01
+|player|p1|Abele01|clown

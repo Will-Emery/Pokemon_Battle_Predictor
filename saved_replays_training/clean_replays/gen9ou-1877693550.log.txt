@@ -1,0 +1,135 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Magearna|
+|poke|p1|Great Tusk|
+|poke|p1|Zapdos|
+|poke|p1|Dragapult, M|
+|poke|p1|Chien-Pao|
+|poke|p2|Magnezone|
+|poke|p2|Regidrago|
+|poke|p2|Amoonguss, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Kleavor, F|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p2a: Kleavor|U-turn|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|75/100
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100|[from] U-turn
+|move|p1a: Sneasler|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|67/100
+|-damage|p1a: Sneasler|58/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|
+|turn|2
+|
+|move|p1a: Dragapult|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|53/100
+|-damage|p1a: Dragapult|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p2a: Amoonguss|Spore|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Spore
+|
+|turn|3
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|turn|4
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Magearna|Flash Cannon|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|90/100
+|
+|turn|5
+|
+|-terastallize|p2a: Magnezone|Ground
+|move|p2a: Magnezone|Tera Blast|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|58/100
+|turn|6
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Magnezone|Tera Blast|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|58/100
+|turn|7
+|
+|-terastallize|p1a: Sneasler|Fighting
+|move|p1a: Sneasler|Close Combat|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Magnezone
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|84/100
+|turn|9
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Chien-Pao
+|-resisted|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|57/100
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Zapdos|Zapdos|100/100 slp
+|turn|10
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|11
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|38/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-heal|p1a: Great Tusk|51/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|inflammablehound1

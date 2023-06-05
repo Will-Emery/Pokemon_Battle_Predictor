@@ -1,0 +1,182 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Rotom-Wash|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Toedscruel, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Greninja, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, M|
+|teampreview
+|player|p1|
+|player|p1|Sr.wez1ng|clair
+|n|‽Sr.wez1ng|srwez1ng
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|switch|p2a: nito|Clodsire, M|100/100
+|turn|1
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: nito|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: Sr.wez1ng|move: Stealth Rock
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|2
+|
+|switch|p2a: qervo|Corviknight, M|100/100
+|-ability|p2a: qervo|Pressure
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|3
+|
+|move|p2a: qervo|Brave Bird|p1a: Ursaluna
+|-damage|p1a: Ursaluna|70/100 brn
+|-damage|p2a: qervo|91/100|[from] Recoil
+|move|p1a: Ursaluna|Fire Punch|p2a: qervo
+|-supereffective|p2a: qervo
+|-damage|p2a: qervo|0 fnt
+|faint|p2a: qervo
+|
+|-damage|p1a: Ursaluna|64/100 brn|[from] brn
+|
+|switch|p2a: mamut|Great Tusk|100/100
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: mamut|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: mamut|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|64/100
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: mamut
+|move|p1a: Rotom|Hydro Pump|p2a: mamut|[miss]
+|-miss|p1a: Rotom|p2a: mamut
+|
+|turn|6
+|
+|move|p2a: mamut|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: mamut
+|-status|p2a: mamut|brn
+|
+|-damage|p2a: mamut|94/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: mamut|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|move|p1a: Rotom|Hydro Pump|p2a: mamut
+|-supereffective|p2a: mamut
+|-damage|p2a: mamut|0 fnt
+|faint|p2a: mamut
+|-end|p2a: mamut|Protosynthesis|[silent]
+|
+|
+|switch|p2a: lengua|Greninja, M|100/100
+|turn|8
+|
+|move|p2a: lengua|Spikes|p1a: Rotom
+|-start|p2a: lengua|typechange|Ground|[from] ability: Protean
+|-sidestart|p1: Sr.wez1ng|Spikes
+|move|p1a: Rotom|Volt Switch|p2a: lengua
+|-immune|p2a: lengua
+|
+|turn|9
+|
+|move|p2a: lengua|Spikes|p1a: Rotom
+|-sidestart|p1: Sr.wez1ng|Spikes
+|move|p1a: Rotom|Hydro Pump|p2a: lengua
+|-supereffective|p2a: lengua
+|-damage|p2a: lengua|0 fnt
+|faint|p2a: lengua
+|
+|
+|switch|p2a: si|Iron Valiant|100/100
+|turn|10
+|
+|-terastallize|p2a: si|Fairy
+|move|p2a: si|Moonblast|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|
+|switch|p1a: Toedscruel|Toedscruel, M|100/100
+|-damage|p1a: Toedscruel|94/100|[from] Stealth Rock
+|-damage|p1a: Toedscruel|78/100|[from] Spikes
+|turn|11
+|
+|move|p2a: si|Moonblast|p1a: Toedscruel
+|-damage|p1a: Toedscruel|38/100
+|move|p1a: Toedscruel|Spore|p2a: si
+|-status|p2a: si|slp|[from] move: Spore
+|
+|-heal|p1a: Toedscruel|44/100|[from] item: Leftovers
+|turn|12
+|
+|cant|p2a: si|slp
+|move|p1a: Toedscruel|Leech Seed|p2a: si
+|-start|p2a: si|move: Leech Seed
+|
+|-heal|p1a: Toedscruel|50/100|[from] item: Leftovers
+|-damage|p2a: si|88/100 slp|[from] Leech Seed|[of] p1a: Toedscruel
+|-heal|p1a: Toedscruel|60/100|[silent]
+|turn|13
+|
+|-curestatus|p2a: si|slp|[msg]
+|move|p2a: si|Moonblast|p1a: Toedscruel
+|-damage|p1a: Toedscruel|24/100
+|move|p1a: Toedscruel|Trick Room|p1a: Toedscruel
+|-fieldstart|move: Trick Room|[of] p1a: Toedscruel
+|
+|-heal|p1a: Toedscruel|30/100|[from] item: Leftovers
+|-damage|p2a: si|76/100|[from] Leech Seed|[of] p1a: Toedscruel
+|-heal|p1a: Toedscruel|40/100|[silent]
+|turn|14
+|
+|-end|p2a: si|Quark Drive|[silent]
+|switch|p2a: nito|Clodsire, M|100/100
+|move|p1a: Toedscruel|Spore|p2a: nito
+|-status|p2a: nito|slp|[from] move: Spore
+|
+|-heal|p1a: Toedscruel|46/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: si|Iron Valiant, tera:Fairy|76/100
+|move|p1a: Toedscruel|Leech Seed|p2a: si
+|-start|p2a: si|move: Leech Seed
+|
+|-heal|p1a: Toedscruel|52/100|[from] item: Leftovers
+|-damage|p2a: si|63/100|[from] Leech Seed|[of] p1a: Toedscruel
+|-heal|p1a: Toedscruel|61/100|[silent]
+|turn|16
+|
+|move|p1a: Toedscruel|Earth Power|p2a: si
+|-damage|p2a: si|20/100
+|move|p2a: si|Moonblast|p1a: Toedscruel
+|-damage|p1a: Toedscruel|24/100
+|
+|-heal|p1a: Toedscruel|30/100|[from] item: Leftovers
+|-damage|p2a: si|7/100|[from] Leech Seed|[of] p1a: Toedscruel
+|-heal|p1a: Toedscruel|40/100|[silent]
+|turn|17
+|
+|move|p1a: Toedscruel|Earth Power|p2a: si
+|-damage|p2a: si|0 fnt
+|faint|p2a: si
+|-end|p2a: si|Quark Drive|[silent]
+|
+|-heal|p1a: Toedscruel|46/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-message|SnT05 forfeited.
+|
+|win|Sr.wez1ng

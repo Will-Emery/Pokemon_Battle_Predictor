@@ -1,0 +1,69 @@
+|poke|p1|Enamorus, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Azumarill, F|
+|poke|p2|Slowbro, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Gardevoir, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|-terastallize|p2a: Dragapult|Fire
+|move|p2a: Dragapult|Flamethrower|p1a: Kleavor
+|-enditem|p1a: Kleavor|Focus Sash
+|-damage|p1a: Kleavor|1/100
+|move|p1a: Kleavor|Stone Axe|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-sidestart|p2: Mokkiks|move: Stealth Rock
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|turn|2
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|3
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Stealth Rock
+|-terastallize|p1a: Lilligant|Grass
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|turn|4
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Lilligant|Axe Kick|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-message|Mokkiks forfeited.
+|
+|win|BeastkidYT

@@ -1,0 +1,208 @@
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Magearna|
+|poke|p1|Clodsire, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Iron Treads|
+|poke|p2|Rabsca, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: Hoops|Hoopa-Unbound|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|-terastallize|p1a: Hoops|Psychic
+|move|p1a: Hoops|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|2
+|
+|switch|p1a: Monument|Corviknight, F, shiny|100/100
+|-ability|p1a: Monument|Pressure
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Wave Crash|p1a: Monument
+|-damage|p1a: Monument|0 fnt
+|-damage|p2a: Basculegion|84/100|[from] item: Rocky Helmet|[of] p1a: Monument
+|faint|p1a: Monument
+|-damage|p2a: Basculegion|49/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Mous|Landorus-Therian, M|100/100
+|-ability|p1a: Mous|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|turn|3
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Mous
+|-supereffective|p1a: Mous
+|-damage|p1a: Mous|0 fnt
+|faint|p1a: Mous
+|-damage|p2a: Basculegion|22/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Chien-Chien|Chien-Pao|100/100
+|-ability|p1a: Chien-Chien|Sword of Ruin
+|turn|4
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Chien-Chien|Sucker Punch||[still]
+|-fail|p1a: Chien-Chien
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Mud Puppy|Clodsire, F|100/100
+|move|p2a: Iron Treads|Iron Head|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mud Puppy|65/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Mud Puppy
+|-supereffective|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|0 fnt
+|faint|p1a: Mud Puppy
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Hoops|Hoopa-Unbound, tera:Psychic|100/100
+|turn|7
+|
+|move|p2a: Iron Treads|Iron Head|p1a: Hoops
+|-damage|p1a: Hoops|27/100
+|move|p1a: Hoops|Dark Pulse|p2a: Iron Treads
+|-damage|p2a: Iron Treads|25/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Pokeball|Magearna|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Pokeball
+|-supereffective|p1a: Pokeball
+|-damage|p1a: Pokeball|26/100
+|
+|-weather|none
+|-heal|p1a: Pokeball|32/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Hoops|Hoopa-Unbound, tera:Psychic|27/100
+|move|p2a: Iron Treads|Iron Head|p1a: Hoops
+|-damage|p1a: Hoops|0 fnt
+|faint|p1a: Hoops
+|
+|
+|switch|p1a: Chien-Chien|Chien-Pao|100/100
+|-ability|p1a: Chien-Chien|Sword of Ruin
+|turn|10
+|
+|move|p1a: Chien-Chien|Sacred Sword|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Rabsca|Rabsca, F|100/100
+|turn|11
+|
+|move|p1a: Chien-Chien|Crunch|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-enditem|p2a: Rabsca|Focus Sash
+|-damage|p2a: Rabsca|1/100
+|move|p2a: Rabsca|Trick Room|p2a: Rabsca
+|-fieldstart|move: Trick Room|[of] p2a: Rabsca
+|
+|turn|12
+|
+|switch|p1a: Pokeball|Magearna|32/100
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|
+|-heal|p2: Pelipper|50/100|[from] move: Revival Blessing
+|
+|-heal|p1a: Pokeball|38/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Rabsca|Memento|p1a: Pokeball
+|-unboost|p1a: Pokeball|atk|2
+|-unboost|p1a: Pokeball|spa|2
+|faint|p2a: Rabsca
+|-ability|p1a: Pokeball|Soul-Heart|boost
+|-boost|p1a: Pokeball|spa|1
+|move|p1a: Pokeball|Shift Gear|p1a: Pokeball
+|-boost|p1a: Pokeball|spe|2
+|-boost|p1a: Pokeball|atk|1
+|
+|-heal|p1a: Pokeball|44/100|[from] item: Leftovers
+|
+|switch|p2a: Basculegion|Basculegion, M, tera:Water|22/100
+|turn|14
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Pokeball
+|-crit|p1a: Pokeball
+|-damage|p1a: Pokeball|0 fnt
+|faint|p1a: Pokeball
+|-damage|p2a: Basculegion|8/100|[from] Recoil
+|
+|
+|switch|p1a: Chien-Chien|Chien-Pao|100/100
+|-ability|p1a: Chien-Chien|Sword of Ruin
+|turn|15
+|
+|move|p1a: Chien-Chien|Sucker Punch|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Pelipper|Pelipper, F|50/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|16
+|
+|move|p1a: Chien-Chien|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|8/100
+|-unboost|p2a: Pelipper|def|1
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|58/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p1a: Chien-Chien|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|18
+|
+|move|p1a: Chien-Chien|Icicle Crash|p2a: Kleavor
+|-damage|p2a: Kleavor|32/100
+|move|p2a: Kleavor|U-turn|p1a: Chien-Chien
+|-supereffective|p1a: Chien-Chien
+|-damage|p1a: Chien-Chien|5/100
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|19
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Chien-Chien
+|-damage|p1a: Chien-Chien|0 fnt
+|faint|p1a: Chien-Chien
+|
+|win|LowELOtest

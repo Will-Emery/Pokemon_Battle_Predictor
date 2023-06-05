@@ -1,0 +1,186 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Roaring Moon|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Zapdos-Galar|
+|poke|p2|Indeedee, M|
+|poke|p2|Armarouge, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Polteageist|
+|poke|p2|Volcarona, F|
+|poke|p2|Sneasler, F|
+|teampreview
+|
+|start
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|switch|p2a: Alfred|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Alfred
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisatk
+|turn|1
+|
+|switch|p2a: Esmerelda|Hatterene, F, shiny|100/100
+|move|p1a: Roaring Moon|Dragon Dance|p1a: Roaring Moon
+|-boost|p1a: Roaring Moon|atk|1
+|-boost|p1a: Roaring Moon|spe|1
+|
+|turn|2
+|
+|move|p1a: Roaring Moon|Crunch|p2a: Esmerelda
+|-damage|p2a: Esmerelda|16/100
+|-unboost|p2a: Esmerelda|def|1
+|-enditem|p2a: Esmerelda|Eject Button
+|
+|switch|p2a: Juice Express|Polteageist, shiny|100/100
+|
+|turn|3
+|
+|move|p1a: Roaring Moon|Crunch|p2a: Juice Express
+|-supereffective|p2a: Juice Express
+|-enditem|p2a: Juice Express|Focus Sash
+|-damage|p2a: Juice Express|1/100
+|-ability|p2a: Juice Express|Weak Armor|boost
+|-unboost|p2a: Juice Express|def|1
+|-boost|p2a: Juice Express|spe|2
+|move|p2a: Juice Express|Shell Smash|p2a: Juice Express
+|-unboost|p2a: Juice Express|def|1
+|-unboost|p2a: Juice Express|spd|1
+|-boost|p2a: Juice Express|atk|2
+|-boost|p2a: Juice Express|spa|2
+|-boost|p2a: Juice Express|spe|2
+|
+|turn|4
+|
+|-terastallize|p2a: Juice Express|Fighting
+|move|p2a: Juice Express|Tera Blast|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|turn|5
+|
+|move|p2a: Juice Express|Stored Power|p1a: Skeledirge
+|-damage|p1a: Skeledirge|32/100
+|move|p1a: Skeledirge|Torch Song|p2a: Juice Express
+|-damage|p2a: Juice Express|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Juice Express
+|
+|
+|switch|p2a: Mortar|Armarouge, M, shiny|100/100
+|turn|6
+|
+|move|p2a: Mortar|Expanding Force|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|7
+|
+|move|p2a: Mortar|Endure|p2a: Mortar
+|-singleturn|p2a: Mortar|move: Endure
+|move|p1a: Urshifu|Surging Strikes|p2a: Mortar
+|-supereffective|p2a: Mortar
+|-crit|p2a: Mortar
+|-damage|p2a: Mortar|40/100
+|-ability|p2a: Mortar|Weak Armor|boost
+|-unboost|p2a: Mortar|def|1
+|-boost|p2a: Mortar|spe|2
+|-enditem|p2a: Mortar|Weakness Policy
+|-boost|p2a: Mortar|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Mortar|spa|2|[from] item: Weakness Policy
+|-supereffective|p2a: Mortar
+|-crit|p2a: Mortar
+|-activate|p2a: Mortar|move: Endure
+|-damage|p2a: Mortar|1/100
+|-ability|p2a: Mortar|Weak Armor|boost
+|-unboost|p2a: Mortar|def|1
+|-boost|p2a: Mortar|spe|2
+|-supereffective|p2a: Mortar
+|-crit|p2a: Mortar
+|-activate|p2a: Mortar|move: Endure
+|-damage|p2a: Mortar|1/100
+|-ability|p2a: Mortar|Weak Armor|boost
+|-unboost|p2a: Mortar|def|1
+|-boost|p2a: Mortar|spe|2
+|-hitcount|p2a: Mortar|3
+|
+|turn|8
+|
+|move|p2a: Mortar|Expanding Force|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-fieldend|move: Psychic Terrain
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|9
+|
+|-terastallize|p1a: Zamazenta|Fighting
+|move|p2a: Mortar|Armor Cannon|p1a: Zamazenta
+|-damage|p1a: Zamazenta|11/100
+|-unboost|p2a: Mortar|def|1
+|-unboost|p2a: Mortar|spd|1
+|move|p1a: Zamazenta|Body Press|p2a: Mortar
+|-resisted|p2a: Mortar
+|-damage|p2a: Mortar|0 fnt
+|faint|p2a: Mortar
+|
+|
+|switch|p2a: Alfred|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Alfred
+|turn|10
+|
+|switch|p2a: Esmerelda|Hatterene, F, shiny|16/100
+|move|p1a: Zamazenta|Crunch|p2a: Esmerelda
+|-damage|p2a: Esmerelda|0 fnt
+|faint|p2a: Esmerelda
+|
+|
+|switch|p2a: Sonic OC|Sneasler, F, shiny|100/100
+|-enditem|p2a: Sonic OC|Psychic Seed
+|-boost|p2a: Sonic OC|spd|1|[from] item: Psychic Seed
+|turn|11
+|
+|move|p2a: Sonic OC|Swords Dance|p2a: Sonic OC
+|-boost|p2a: Sonic OC|atk|2
+|move|p1a: Zamazenta|Body Press|p2a: Sonic OC
+|-resisted|p2a: Sonic OC
+|-damage|p2a: Sonic OC|34/100
+|
+|turn|12
+|
+|move|p2a: Sonic OC|Acrobatics|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|turn|13
+|
+|move|p2a: Sonic OC|Acrobatics|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|14
+|
+|move|p2a: Sonic OC|Acrobatics|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|win|Laprasrules12

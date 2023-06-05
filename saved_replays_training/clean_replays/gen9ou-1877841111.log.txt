@@ -1,0 +1,310 @@
+|poke|p1|Pincurchin, M|
+|poke|p1|Iron Moth|
+|poke|p1|Sneasler, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Moltres-Galar|
+|poke|p2|Rotom-Wash|
+|poke|p2|Iron Treads|
+|poke|p2|Mimikyu, F|
+|teampreview
+|
+|start
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Pincurchin|Thunder Wave|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|turn|2
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Pincurchin|[miss]
+|-miss|p2a: Rotom|p1a: Pincurchin
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Rotom
+|-sidestart|p2: SoaringSkies20102|move: Toxic Spikes
+|
+|turn|3
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Pincurchin|[miss]
+|-miss|p2a: Rotom|p1a: Pincurchin
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Rotom
+|-sidestart|p2: SoaringSkies20102|move: Toxic Spikes
+|
+|turn|4
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|69/100
+|
+|turn|5
+|
+|move|p1a: Urshifu|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|26/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: Urshifu
+|-status|p1a: Urshifu|brn
+|
+|-heal|p2a: Rotom|32/100|[from] item: Leftovers
+|-damage|p1a: Urshifu|63/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|turn|6
+|
+|move|p1a: Urshifu|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Rotom
+|
+|-damage|p1a: Urshifu|57/100 brn|[from] brn
+|
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|turn|7
+|
+|move|p1a: Urshifu|Close Combat|p2a: Moltres
+|-damage|p2a: Moltres|48/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|
+|-damage|p1a: Urshifu|51/100 brn|[from] brn
+|turn|8
+|
+|move|p2a: Moltres|Air Slash|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|9
+|
+|move|p2a: Moltres|Tailwind|p2a: Moltres
+|-sidestart|p2: SoaringSkies20102|move: Tailwind
+|move|p1a: Pincurchin|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|
+|turn|10
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Pincurchin
+|-damage|p1a: Pincurchin|21/100
+|cant|p1a: Pincurchin|flinch
+|
+|turn|11
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Moltres|Air Slash|p1a: Hatterene
+|-damage|p1a: Hatterene|46/100
+|
+|-heal|p1a: Hatterene|52/100|[from] item: Leftovers
+|turn|12
+|
+|cant|p2a: Moltres|par
+|move|p1a: Hatterene|Draining Kiss|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|5/100 par
+|-heal|p1a: Hatterene|85/100|[from] drain|[of] p2a: Moltres
+|
+|-heal|p1a: Hatterene|91/100|[from] item: Leftovers
+|-sideend|p2: SoaringSkies20102|move: Tailwind
+|turn|13
+|
+|move|p2a: Moltres|Tailwind|p2a: Moltres
+|-sidestart|p2: SoaringSkies20102|move: Tailwind
+|move|p1a: Hatterene|Draining Kiss|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-heal|p1a: Hatterene|94/100|[from] drain|[of] p2a: Moltres
+|faint|p2a: Moltres
+|
+|-heal|p1a: Hatterene|99/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|14
+|
+|move|p2a: Iron Treads|Rapid Spin|p1a: Hatterene
+|-damage|p1a: Hatterene|89/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: SoaringSkies20102|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Hatterene|Mystical Fire|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|68/100
+|-unboost|p2a: Iron Treads|spa|1
+|
+|-heal|p1a: Hatterene|95/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|77/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Hatterene|Mystical Fire|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|32/100
+|-unboost|p2a: Iron Treads|spa|1
+|
+|turn|16
+|
+|move|p2a: Iron Treads|Volt Switch|p1a: Hatterene
+|-damage|p1a: Hatterene|71/100
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100|[from] Volt Switch
+|move|p1a: Hatterene|Mystical Fire|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|91/100
+|-unboost|p2a: Arcanine|spa|1
+|
+|-sideend|p2: SoaringSkies20102|move: Tailwind
+|turn|17
+|
+|switch|p1a: Pincurchin|Pincurchin, M|21/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Arcanine|Head Smash|p1a: Pincurchin|[miss]
+|-miss|p2a: Arcanine|p1a: Pincurchin
+|
+|turn|18
+|
+|switch|p2a: Iron Treads|Iron Treads|32/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Pincurchin|Memento|p2a: Iron Treads
+|-unboost|p2a: Iron Treads|atk|2
+|-unboost|p2a: Iron Treads|spa|2
+|faint|p1a: Pincurchin
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-enditem|p1a: Sneasler|Electric Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Electric Seed
+|turn|19
+|
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Iron Treads|Volt Switch|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|83/100
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Mimikyu|Mimikyu, F, shiny|100/100|[from] Volt Switch
+|
+|turn|20
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-status|p2a: Mimikyu|psn
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F, shiny
+|-damage|p2a: Mimikyu|88/100 psn|[from] pokemon: Mimikyu-Busted
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|-damage|p2a: Mimikyu|76/100 psn|[from] psn
+|turn|21
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Sneasler
+|-damage|p1a: Sneasler|43/100
+|-damage|p2a: Mimikyu|66/100 psn|[from] item: Life Orb
+|move|p1a: Sneasler|Dire Claw|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-fieldend|move: Electric Terrain
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|91/100
+|turn|22
+|
+|-terastallize|p2a: Arcanine|Normal
+|move|p2a: Arcanine|Extreme Speed|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Hatterene|Hatterene, F|71/100
+|turn|23
+|
+|switch|p2a: Iron Treads|Iron Treads|32/100
+|move|p1a: Hatterene|Psyshock|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|12/100
+|
+|turn|24
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|39/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|turn|25
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|6/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|turn|26
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|27
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|28
+|
+|move|p2a: Decidueye|Triple Arrows|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|29
+|
+|move|p2a: Decidueye|Sucker Punch|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-damage|p1a: Iron Moth|38/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M, tera:Normal|91/100
+|turn|30
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|win|SoaringSkies20102

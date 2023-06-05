@@ -1,0 +1,548 @@
+|poke|p1|Enamorus, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Heatran, M|
+|poke|p1|Kleavor, M|
+|poke|p2|Vaporeon, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Gengar, F|
+|poke|p2|Decidueye, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|1
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: Wiztick|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p1a: Kleavor|Kleavor, M, shiny|100/100
+|move|p2a: Vaporeon|Hydro Pump|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|3
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Vaporeon|Ice Beam|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|95/100
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p2a: Gengar|94/100|[from] item: Black Sludge
+|turn|5
+|
+|move|p1a: Magearna|Stored Power|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|6
+|
+|move|p1a: Magearna|Stored Power|p2a: Zapdos
+|-damage|p2a: Zapdos|23/100
+|move|p2a: Zapdos|Discharge|p1a: Magearna
+|-damage|p1a: Magearna|83/100
+|-status|p1a: Magearna|par
+|
+|-heal|p1a: Magearna|89/100 par|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|57/100 par
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|63/100 par|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Magearna|Stored Power|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|69/100 par|[from] item: Leftovers
+|
+|switch|p2a: Decidueye|Decidueye, M|100/100
+|turn|9
+|
+|move|p1a: Magearna|Stored Power|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|75/100 par|[from] item: Leftovers
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|10
+|
+|cant|p1a: Magearna|par
+|move|p2a: Garchomp|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-heal|p2a: Garchomp|100/100|[from] item: Leftovers
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|11
+|
+|move|p1a: Enamorus|Play Rough|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Enamorus|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-damage|p1a: Enamorus|78/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Enamorus|Play Rough|p2a: Vaporeon
+|-damage|p2a: Vaporeon|16/100
+|-damage|p1a: Enamorus|68/100|[from] item: Life Orb
+|move|p2a: Vaporeon|Ice Beam|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|3/100
+|
+|-heal|p2a: Vaporeon|22/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Enamorus|Play Rough|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|29/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Enamorus|Superpower|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Vaporeon
+|-damage|p1a: Enamorus|0 fnt|[from] item: Life Orb
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Heatran|Will-O-Wisp|p2a: Sylveon
+|-status|p2a: Sylveon|brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|88/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Heatran|Magma Storm|p2a: Sylveon
+|-damage|p2a: Sylveon|57/100 brn
+|-activate|p2a: Sylveon|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|-heal|p2a: Sylveon|100/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|-damage|p2a: Sylveon|82/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|17
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|69/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|85/100
+|
+|-heal|p1a: Heatran|91/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|69/100 brn|[from] brn
+|-damage|p2a: Sylveon|57/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|18
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|45/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Heatran|98/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|45/100 brn|[from] brn
+|-damage|p2a: Sylveon|32/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|19
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|82/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|82/100 brn|[from] brn
+|-damage|p2a: Sylveon|70/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|20
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|57/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|57/100 brn|[from] brn
+|-damage|p2a: Sylveon|45/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|21
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|95/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|-end|p2a: Sylveon|Magma Storm|[partiallytrapped]
+|turn|22
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|82/100 brn
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|-heal|p2a: Sylveon|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|82/100 brn|[from] brn
+|turn|23
+|
+|move|p1a: Heatran|Magma Storm|p2a: Sylveon
+|-damage|p2a: Sylveon|68/100 brn
+|-activate|p2a: Sylveon|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|68/100 brn|[from] brn
+|-damage|p2a: Sylveon|55/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|24
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|100/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|-damage|p2a: Sylveon|82/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|25
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|74/100 brn
+|-unboost|p2a: Sylveon|spd|1
+|move|p2a: Sylveon|Hyper Voice|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|80/100
+|
+|-heal|p1a: Heatran|86/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|80/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|74/100 brn|[from] brn
+|-damage|p2a: Sylveon|61/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|26
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|50/100 brn
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|-heal|p1a: Heatran|92/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|50/100 brn|[from] brn
+|-damage|p2a: Sylveon|38/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|27
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|29/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Heatran|99/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|29/100 brn|[from] brn
+|-damage|p2a: Sylveon|17/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|28
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|67/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|67/100 brn|[from] brn
+|-end|p2a: Sylveon|Magma Storm|[partiallytrapped]
+|turn|29
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|57/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|57/100 brn|[from] brn
+|turn|30
+|
+|move|p1a: Heatran|Magma Storm|p2a: Sylveon
+|-damage|p2a: Sylveon|42/100 brn
+|-activate|p2a: Sylveon|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|-heal|p2a: Sylveon|92/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|92/100 brn|[from] brn
+|-damage|p2a: Sylveon|79/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|31
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|72/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|74/100
+|
+|-heal|p1a: Heatran|80/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|72/100 brn|[from] brn
+|-damage|p2a: Sylveon|60/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|32
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|53/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Heatran|86/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|53/100 brn|[from] brn
+|-damage|p2a: Sylveon|40/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|33
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|32/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|60/100
+|
+|-heal|p2a: Sylveon|82/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Heatran|66/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|89/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|82/100 brn|[from] brn
+|-damage|p2a: Sylveon|70/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|34
+|
+|move|p1a: Heatran|Earth Power|p2a: Sylveon
+|-damage|p2a: Sylveon|63/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|40/100
+|
+|-heal|p1a: Heatran|46/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|63/100 brn|[from] brn
+|-damage|p2a: Sylveon|50/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|35
+|
+|move|p1a: Heatran|Magma Storm|p2a: Sylveon|[miss]
+|-miss|p1a: Heatran|p2a: Sylveon
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Heatran|53/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|50/100 brn|[from] brn
+|-end|p2a: Sylveon|Magma Storm|[partiallytrapped]
+|turn|36
+|
+|move|p1a: Heatran|Magma Storm|p2a: Sylveon
+|-damage|p2a: Sylveon|37/100 brn
+|-activate|p2a: Sylveon|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Sylveon|Hyper Voice|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|23/100
+|
+|-heal|p2a: Sylveon|87/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Heatran|29/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|87/100 brn|[from] brn
+|-damage|p2a: Sylveon|75/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|37
+|
+|move|p1a: Heatran|Magma Storm|p2a: Sylveon
+|-damage|p2a: Sylveon|62/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|3/100
+|
+|-heal|p1a: Heatran|9/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|62/100 brn|[from] brn
+|-damage|p2a: Sylveon|50/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|38
+|
+|move|p1a: Heatran|Magma Storm|p2a: Sylveon
+|-damage|p2a: Sylveon|39/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Heatran|15/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|39/100 brn|[from] brn
+|-damage|p2a: Sylveon|27/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|39
+|
+|move|p1a: Heatran|Magma Storm|p2a: Sylveon
+|-damage|p2a: Sylveon|15/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Sylveon|65/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|65/100 brn|[from] brn
+|-end|p2a: Sylveon|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|40
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|47/100 brn
+|-start|p1a: Urshifu|Attract|[from] ability: Cute Charm|[of] p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|28/100 brn
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|11/100 brn
+|-hitcount|p2a: Sylveon|3
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|17/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|11/100 brn|[from] brn
+|turn|41
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|-activate|p1a: Urshifu|move: Attract|[of] p2a: Sylveon
+|cant|p1a: Urshifu|Attract
+|
+|-heal|p2a: Sylveon|61/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|61/100 brn|[from] brn
+|turn|42
+|
+|-activate|p1a: Urshifu|move: Attract|[of] p2a: Sylveon
+|cant|p1a: Urshifu|Attract
+|move|p2a: Sylveon|Hyper Voice|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-heal|p2a: Sylveon|67/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|61/100 brn|[from] brn
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|43
+|
+|move|p1a: Zamazenta|Body Press|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|36/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|42/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|36/100 brn|[from] brn
+|turn|44
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Zamazenta|Body Press|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|86/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|86/100 brn|[from] brn
+|turn|45
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Sylveon|Hyper Voice|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|85/100
+|
+|-heal|p2a: Sylveon|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|86/100 brn|[from] brn
+|turn|46
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|-heal|p2a: Sylveon|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|86/100 brn|[from] brn
+|turn|47
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|-heal|p2a: Sylveon|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|86/100 brn|[from] brn
+|turn|48
+|
+|move|p1a: Zamazenta|Body Press|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|25/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|62/100
+|
+|-heal|p2a: Sylveon|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Sylveon|25/100 brn|[from] brn
+|turn|49
+|
+|move|p1a: Zamazenta|Body Press|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|win|Skralll

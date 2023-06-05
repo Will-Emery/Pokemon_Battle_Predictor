@@ -1,0 +1,183 @@
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Volcanion|
+|poke|p2|Azumarill, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|turn|2
+|
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|turn|3
+|
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|turn|4
+|
+|move|p1a: Enamorus|Draining Kiss|p2a: Azumarill
+|-damage|p2a: Azumarill|36/100
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|61/100|[from] item: Sitrus Berry
+|move|p2a: Azumarill|Play Rough|p1a: Enamorus
+|-damage|p1a: Enamorus|55/100
+|
+|turn|5
+|
+|move|p1a: Enamorus|Draining Kiss|p2a: Azumarill
+|-damage|p2a: Azumarill|3/100
+|-heal|p1a: Enamorus|100/100|[from] drain|[of] p2a: Azumarill
+|move|p2a: Azumarill|Play Rough|p1a: Enamorus|[miss]
+|-miss|p2a: Azumarill|p1a: Enamorus
+|
+|turn|6
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Enamorus
+|-damage|p1a: Enamorus|82/100
+|move|p1a: Enamorus|Draining Kiss|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|-heal|p1a: Enamorus|84/100|[from] drain|[of] p2a: Azumarill
+|faint|p2a: Azumarill
+|
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|turn|7
+|
+|move|p2a: Ursaluna|Facade|p1a: Enamorus
+|-damage|p1a: Enamorus|52/100
+|move|p1a: Enamorus|Draining Kiss|p2a: Ursaluna
+|-damage|p2a: Ursaluna|45/100
+|-heal|p1a: Enamorus|100/100|[from] drain|[of] p2a: Ursaluna
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|8
+|
+|move|p2a: Ursaluna|Facade|p1a: Enamorus
+|-damage|p1a: Enamorus|12/100
+|move|p1a: Enamorus|Draining Kiss|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-heal|p1a: Enamorus|56/100|[from] drain|[of] p2a: Ursaluna
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|9
+|
+|-terastallize|p1a: Enamorus|Fire
+|move|p2a: Kingambit|Iron Head|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|35/100
+|move|p1a: Enamorus|Draining Kiss|p2a: Kingambit
+|-damage|p2a: Kingambit|40/100
+|-heal|p1a: Enamorus|87/100|[from] drain|[of] p2a: Kingambit
+|
+|-heal|p2a: Kingambit|47/100|[from] item: Leftovers
+|turn|10
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Enamorus|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|30/100
+|-heal|p1a: Enamorus|100/100|[from] drain|[of] p2a: Hatterene
+|
+|turn|11
+|
+|move|p1a: Enamorus|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|12
+|
+|move|p2a: Meowscarada|Knock Off|p1a: Enamorus
+|-damage|p1a: Enamorus|62/100
+|-enditem|p1a: Enamorus|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Enamorus|Draining Kiss|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-heal|p1a: Enamorus|100/100|[from] drain|[of] p2a: Meowscarada
+|faint|p2a: Meowscarada
+|
+|
+|switch|p2a: Cresselia|Cresselia, F, shiny|100/100
+|turn|13
+|
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Enamorus|Draining Kiss|p2: Cresselia|[notarget]
+|-fail|p1a: Enamorus
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|47/100
+|-heal|p2a: Kingambit|100/100|[from] move: Lunar Dance
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|14
+|
+|-terastallize|p2a: Kingambit|Ghost
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Enamorus|Draining Kiss|p2a: Kingambit
+|-damage|p2a: Kingambit|39/100
+|
+|-heal|p2a: Kingambit|45/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-heal|p2a: Kingambit|52/100|[from] item: Leftovers
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|16
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|38/100
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|22/100
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|8/100
+|-hitcount|p2a: Kingambit|3
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|32/100
+|
+|-heal|p2a: Kingambit|14/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|hippo3242

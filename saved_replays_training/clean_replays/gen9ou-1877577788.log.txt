@@ -1,0 +1,307 @@
+|poke|p1|Kingambit, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Kleavor, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Metro|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Metro
+|-ability|p1a: Corviknight|Pressure
+|turn|1
+|
+|move|p2a: Metro|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|80/100
+|-damage|p2a: Metro|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-enditem|p1a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p2a: Metro
+|move|p1a: Corviknight|U-turn|p2a: Metro
+|-supereffective|p2a: Metro
+|-damage|p2a: Metro|57/100
+|
+|switch|p1a: Kleavor|Kleavor, F|100/100|[from] U-turn
+|
+|-heal|p2a: Metro|63/100|[from] Grassy Terrain
+|turn|2
+|
+|move|p1a: Kleavor|Rock Slide|p2a: Metro
+|-damage|p2a: Metro|0 fnt
+|faint|p2a: Metro
+|
+|
+|switch|p2a: Peruvian Coke|Ursaluna, F|100/100
+|turn|3
+|
+|move|p1a: Kleavor|Close Combat|p2a: Peruvian Coke
+|-supereffective|p2a: Peruvian Coke
+|-damage|p2a: Peruvian Coke|8/100
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|-damage|p1a: Kleavor|91/100|[from] item: Life Orb
+|move|p2a: Peruvian Coke|Trailblaze|p1a: Kleavor
+|-damage|p1a: Kleavor|43/100
+|-boost|p2a: Peruvian Coke|spe|1
+|
+|-heal|p2a: Peruvian Coke|14/100|[from] Grassy Terrain
+|-heal|p2a: Peruvian Coke|20/100|[from] item: Leftovers
+|-heal|p1a: Kleavor|49/100|[from] Grassy Terrain
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, F|80/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Peruvian Coke|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|65/100
+|-heal|p2a: Peruvian Coke|28/100|[from] drain|[of] p1a: Corviknight
+|
+|-heal|p2a: Peruvian Coke|34/100|[from] Grassy Terrain
+|-heal|p2a: Peruvian Coke|40/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Peruvian Coke|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|49/100
+|-heal|p2a: Peruvian Coke|48/100|[from] drain|[of] p1a: Corviknight
+|move|p1a: Corviknight|Brave Bird|p2a: Peruvian Coke
+|-damage|p2a: Peruvian Coke|16/100
+|-damage|p1a: Corviknight|38/100|[from] Recoil
+|
+|-heal|p2a: Peruvian Coke|22/100|[from] Grassy Terrain
+|-heal|p2a: Peruvian Coke|29/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Peruvian Coke|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|23/100
+|-heal|p2a: Peruvian Coke|36/100|[from] drain|[of] p1a: Corviknight
+|move|p1a: Corviknight|Brave Bird|p2a: Peruvian Coke
+|-damage|p2a: Peruvian Coke|6/100
+|-damage|p1a: Corviknight|13/100|[from] Recoil
+|
+|-heal|p2a: Peruvian Coke|12/100|[from] Grassy Terrain
+|-heal|p2a: Peruvian Coke|19/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Peruvian Coke|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-heal|p2a: Peruvian Coke|25/100|[from] drain|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Peruvian Coke|31/100|[from] Grassy Terrain
+|-heal|p2a: Peruvian Coke|38/100|[from] item: Leftovers
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|8
+|
+|move|p2a: Peruvian Coke|Drain Punch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|29/100
+|-heal|p2a: Peruvian Coke|66/100|[from] drain|[of] p1a: Samurott
+|move|p1a: Samurott|Aqua Cutter|p2a: Peruvian Coke
+|-supereffective|p2a: Peruvian Coke
+|-damage|p2a: Peruvian Coke|0 fnt
+|faint|p2a: Peruvian Coke
+|
+|-heal|p1a: Samurott|36/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|
+|switch|p2a: 7500 On A YSL Hatt|Hatterene, F|100/100
+|turn|9
+|
+|switch|p1a: Kleavor|Kleavor, F|49/100
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|
+|turn|10
+|
+|move|p1a: Kleavor|Rock Slide|p2a: 7500 On A YSL Hatt|[miss]
+|-miss|p1a: Kleavor|p2a: 7500 On A YSL Hatt
+|move|p2a: 7500 On A YSL Hatt|Draining Kiss|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|switch|p2a: Big Bastard|Zamazenta|100/100
+|-ability|p2a: Big Bastard|Dauntless Shield|boost
+|-boost|p2a: Big Bastard|def|1
+|-terastallize|p1a: Kingambit|Flying
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|12
+|
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Big Bastard|Iron Defense|p2a: Big Bastard
+|-boost|p2a: Big Bastard|def|2
+|
+|turn|13
+|
+|switch|p2a: 7500 On A YSL Hatt|Hatterene, F|100/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|turn|14
+|
+|move|p2a: 7500 On A YSL Hatt|Nuzzle|p1a: Hatterene
+|-damage|p1a: Hatterene|97/100
+|-status|p1a: Hatterene|par
+|cant|p1a: Hatterene|par
+|
+|-heal|p1a: Hatterene|100/100 par|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: 7500 On A YSL Hatt|Nuzzle|p1a: Hatterene
+|-damage|p1a: Hatterene|97/100 par
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|100/100 par|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|cant|p1a: Hatterene|par
+|
+|turn|17
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|move|p1a: Hatterene|Mystical Fire|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|76/100
+|-unboost|p2a: 7500 On A YSL Hatt|spa|1
+|
+|-heal|p2a: 7500 On A YSL Hatt|82/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: 7500 On A YSL Hatt|88/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|move|p1a: Hatterene|Mystical Fire|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|69/100
+|-unboost|p2a: 7500 On A YSL Hatt|spa|1
+|
+|-heal|p2a: 7500 On A YSL Hatt|75/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|move|p1a: Hatterene|Mystical Fire|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|57/100
+|-unboost|p2a: 7500 On A YSL Hatt|spa|1
+|
+|-heal|p2a: 7500 On A YSL Hatt|63/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: 7500 On A YSL Hatt|Draining Kiss|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|24/100 par
+|-heal|p2a: 7500 On A YSL Hatt|100/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Mystical Fire|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|84/100
+|-unboost|p2a: 7500 On A YSL Hatt|spa|1
+|
+|-heal|p2a: 7500 On A YSL Hatt|90/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|30/100 par|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|1
+|cant|p1a: Hatterene|par
+|
+|-heal|p2a: 7500 On A YSL Hatt|96/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|36/100 par|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: 7500 On A YSL Hatt|Calm Mind|p2a: 7500 On A YSL Hatt
+|-boost|p2a: 7500 On A YSL Hatt|spa|1
+|-boost|p2a: 7500 On A YSL Hatt|spd|0
+|move|p1a: Hatterene|Draining Kiss|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|82/100
+|-heal|p1a: Hatterene|46/100 par|[from] drain|[of] p2a: 7500 On A YSL Hatt
+|
+|-heal|p2a: 7500 On A YSL Hatt|88/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|52/100 par|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: 7500 On A YSL Hatt|Stored Power|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|9/100 par
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: 7500 On A YSL Hatt|94/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|15/100 par|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: 7500 On A YSL Hatt|Draining Kiss|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-heal|p2a: 7500 On A YSL Hatt|100/100|[from] drain|[of] p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|
+|switch|p1a: Kingambit|Kingambit, M, tera:Flying|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|26
+|
+|-terastallize|p2a: 7500 On A YSL Hatt|Water
+|move|p1a: Kingambit|Iron Head|p2a: 7500 On A YSL Hatt
+|-resisted|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|76/100
+|cant|p2a: 7500 On A YSL Hatt|flinch
+|
+|-heal|p2a: 7500 On A YSL Hatt|82/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|31/100
+|move|p2a: 7500 On A YSL Hatt|Draining Kiss|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|19/100
+|-heal|p2a: 7500 On A YSL Hatt|100/100|[from] drain|[of] p1a: Kingambit
+|
+|-heal|p1a: Kingambit|25/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: 7500 On A YSL Hatt
+|-damage|p2a: 7500 On A YSL Hatt|46/100
+|move|p2a: 7500 On A YSL Hatt|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: 7500 On A YSL Hatt|70/100|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-heal|p2a: 7500 On A YSL Hatt|76/100|[from] item: Leftovers
+|-message|jeanmilapipe forfeited.
+|
+|win|kd458

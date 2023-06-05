@@ -1,0 +1,265 @@
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Magearna|
+|poke|p1|Uxie|
+|poke|p1|Cryogonal|
+|poke|p2|Basculegion, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Clodsire, F|
+|poke|p2|Meowscarada, M|
+|teampreview
+|
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: I move first|Meowscarada, M|100/100
+|turn|1
+|
+|move|p2a: I move first|Knock Off|p1a: Uxie
+|-start|p2a: I move first|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|36/100
+|-enditem|p1a: Uxie|Light Clay|[from] move: Knock Off|[of] p2a: I move first
+|move|p1a: Uxie|Reflect|p1a: Uxie
+|-sidestart|p1: I'm a beginner w|Reflect
+|
+|turn|2
+|
+|move|p2a: I move first|U-turn|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|17/100
+|
+|switch|p2a: Carl|Pelipper, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Carl
+|move|p1a: Uxie|Memento|p2a: Carl
+|-unboost|p2a: Carl|atk|2
+|-unboost|p2a: Carl|spa|2
+|faint|p1a: Uxie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|3
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Carl
+|-damage|p2a: Carl|61/100
+|-sidestart|p2: Arde Showdown|Spikes
+|move|p2a: Carl|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|96/100
+|
+|switch|p2a: Ghost face killah|Gholdengo|100/100|[from] U-turn
+|-item|p2a: Ghost face killah|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p2a: Ghost face killah|Thunderbolt|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|switch|p2a: God|Clodsire, F|100/100
+|-damage|p2a: God|88/100|[from] Spikes
+|move|p1a: Dragapult|U-turn|p2a: God
+|-resisted|p2a: God
+|-damage|p2a: God|75/100
+|
+|switch|p1a: Cryogonal|Cryogonal|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: God|82/100|[from] item: Black Sludge
+|-sideend|p1: I'm a beginner w|Reflect
+|turn|6
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: God
+|-supereffective|p2a: God
+|-damage|p2a: God|47/100
+|-status|p2a: God|frz
+|cant|p2a: God|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: God|53/100 frz|[from] item: Black Sludge
+|turn|7
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: God
+|-supereffective|p2a: God
+|-damage|p2a: God|14/100 frz
+|cant|p2a: God|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: God|21/100 frz|[from] item: Black Sludge
+|turn|8
+|
+|move|p1a: Cryogonal|Freeze-Dry|p2a: God
+|-supereffective|p2a: God
+|-damage|p2a: God|0 fnt
+|faint|p2a: God
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ghost face killah|Gholdengo|100/100
+|-item|p2a: Ghost face killah|Air Balloon
+|turn|9
+|
+|move|p2a: Ghost face killah|Make It Rain|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|-unboost|p2a: Ghost face killah|spa|1
+|faint|p1a: Cryogonal
+|
+|-weather|none
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|10
+|
+|switch|p2a: Carl|Pelipper, F|61/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Carl
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p1a: Magearna|Volt Switch|p2a: Carl
+|-supereffective|p2a: Carl
+|-damage|p2a: Carl|0 fnt
+|faint|p2a: Carl
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dumbo|Great Tusk|100/100
+|-damage|p2a: Dumbo|88/100|[from] Spikes
+|turn|12
+|
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|move|p2a: Dumbo|Rapid Spin|p1a: Enamorus
+|-damage|p1a: Enamorus|89/100
+|-boost|p2a: Dumbo|spe|1
+|-sideend|p2: Arde Showdown|Spikes|[from] move: Rapid Spin|[of] p2a: Dumbo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Enamorus|95/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Enamorus|Draining Kiss|p2a: Dumbo
+|-supereffective|p2a: Dumbo
+|-crit|p2a: Dumbo
+|-damage|p2a: Dumbo|19/100
+|-heal|p1a: Enamorus|100/100|[from] drain|[of] p2a: Dumbo
+|move|p2a: Dumbo|Ice Spinner|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Enamorus|72/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Enamorus|Draining Kiss|p2a: Dumbo
+|-supereffective|p2a: Dumbo
+|-damage|p2a: Dumbo|0 fnt
+|-heal|p1a: Enamorus|86/100|[from] drain|[of] p2a: Dumbo
+|faint|p2a: Dumbo
+|-end|p2a: Dumbo|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Enamorus|92/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Ghost face killah|Gholdengo|100/100
+|-item|p2a: Ghost face killah|Air Balloon
+|turn|15
+|
+|move|p2a: Ghost face killah|Make It Rain|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|-unboost|p2a: Ghost face killah|spa|1
+|faint|p1a: Enamorus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|16
+|
+|switch|p2a: I move first|Meowscarada, M|100/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p1a: Magearna|Draining Kiss|p2a: I move first
+|-supereffective|p2a: I move first
+|-damage|p2a: I move first|11/100
+|move|p2a: I move first|U-turn|p1a: Magearna
+|-start|p2a: I move first|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|94/100
+|
+|switch|p2a: Ghost face killah|Gholdengo|100/100|[from] U-turn
+|-item|p2a: Ghost face killah|Air Balloon
+|
+|-weather|none
+|turn|18
+|
+|-terastallize|p1a: Magearna|Steel
+|move|p1a: Magearna|Ice Beam|p2a: Ghost face killah
+|-resisted|p2a: Ghost face killah
+|-damage|p2a: Ghost face killah|81/100
+|-status|p2a: Ghost face killah|frz
+|-enditem|p2a: Ghost face killah|Air Balloon
+|-curestatus|p2a: Ghost face killah|frz|[msg]
+|move|p2a: Ghost face killah|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|58/100
+|
+|turn|19
+|
+|move|p1a: Magearna|Ice Beam|p2a: Ghost face killah
+|-resisted|p2a: Ghost face killah
+|-damage|p2a: Ghost face killah|59/100
+|move|p2a: Ghost face killah|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|22/100
+|
+|turn|20
+|
+|move|p1a: Magearna|Ice Beam|p2a: Ghost face killah
+|-resisted|p2a: Ghost face killah
+|-damage|p2a: Ghost face killah|40/100
+|move|p2a: Ghost face killah|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|21
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Ghost face killah
+|-resisted|p2a: Ghost face killah
+|-crit|p2a: Ghost face killah
+|-damage|p2a: Ghost face killah|21/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Ghost face killah
+|-resisted|p2a: Ghost face killah
+|-damage|p2a: Ghost face killah|8/100
+|move|p2a: Ghost face killah|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-enditem|p1a: Dragapult|Focus Sash
+|-damage|p1a: Dragapult|1/100
+|
+|turn|22
+|-message|I'm a beginner w forfeited.
+|
+|win|Arde Showdown

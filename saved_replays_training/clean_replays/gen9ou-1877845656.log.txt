@@ -1,0 +1,88 @@
+|poke|p1|Zapdos|
+|poke|p1|Garchomp, F|
+|poke|p1|Roaring Moon|
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, M|
+|poke|p1|Indeedee, M|
+|poke|p2|Azelf|
+|poke|p2|Moltres-Galar|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Magearna|
+|poke|p2|Roaring Moon|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|-terastallize|p1a: Garchomp|Fire
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Garchomp|Fire Blast|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|75/100
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|81/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Magearna
+|-sidestart|p2: Ryu nuzlocke|move: Stealth Rock
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|88/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Garchomp|Draco Meteor|p2a: Magearna
+|-damage|p2a: Magearna|61/100
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Magearna|67/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Garchomp|Earthquake|p2a: Magearna
+|-damage|p2a: Magearna|33/100
+|-damage|p1a: Garchomp|71/100|[from] item: Life Orb
+|
+|-heal|p2a: Magearna|39/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Magearna|Stored Power|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|45/100|[from] item: Leftovers
+|
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisatk
+|turn|6
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Roaring Moon
+|faint|p1a: Roaring Moon
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|-message|JoeFlint forfeited.
+|
+|win|Ryu nuzlocke

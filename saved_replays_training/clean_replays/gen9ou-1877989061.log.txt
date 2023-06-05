@@ -1,0 +1,342 @@
+|poke|p1|Amoonguss, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Cloyster, F|
+|poke|p1|Mabosstiff, F|
+|poke|p1|Mismagius, M|
+|poke|p1|Typhlosion, F|
+|poke|p2|Iron Leaves|
+|poke|p2|Iron Treads|
+|poke|p2|Rotom-Heat|
+|poke|p2|Vaporeon, F|
+|poke|p2|Bombirdier, F|
+|poke|p2|Pincurchin, F|
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Funny noise man|Bombirdier, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p2a: Funny noise man|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: SPACEDUDE360000|move: Stealth Rock
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Funny noise man|94/100|[from] Sandstorm
+|turn|2
+|
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Funny noise man|Parting Shot|p1a: Tyranitar
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|spa|1
+|
+|switch|p2a: Did you know...?|Vaporeon, F|100/100|[from] Parting Shot
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Did you know...?|94/100|[from] Sandstorm
+|-heal|p2a: Did you know...?|100/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Tyranitar|Rock Blast|p2a: Did you know...?|[miss]
+|-miss|p1a: Tyranitar|p2a: Did you know...?
+|move|p2a: Did you know...?|Haze|p2a: Did you know...?
+|-clearallboost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Did you know...?|94/100|[from] Sandstorm
+|-heal|p2a: Did you know...?|100/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Did you know...?|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Did you know...?|94/100|[from] Sandstorm
+|-heal|p2a: Did you know...?|100/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Tyranitar|Rock Blast|p2a: Did you know...?
+|-damage|p2a: Did you know...?|87/100
+|-damage|p2a: Did you know...?|71/100
+|-damage|p2a: Did you know...?|55/100
+|-hitcount|p2a: Did you know...?|3
+|move|p2a: Did you know...?|Haze|p2a: Did you know...?
+|-clearallboost
+|
+|-weather|none
+|-heal|p2a: Did you know...?|61/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|move|p2a: Did you know...?|Wish|p2a: Did you know...?
+|
+|-heal|p2a: Did you know...?|68/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Iron Leaver|Iron Leaves|100/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Iron Leaver
+|-supereffective|p2a: Iron Leaver
+|-damage|p2a: Iron Leaver|49/100
+|
+|-heal|p2a: Iron Leaver|100/100|[from] move: Wish|[wisher] Did you know...?
+|turn|8
+|
+|move|p2a: Iron Leaver|Psyblade|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|27/100
+|-damage|p2a: Iron Leaver|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Iron Leaver
+|-supereffective|p2a: Iron Leaver
+|-damage|p2a: Iron Leaver|35/100
+|-status|p2a: Iron Leaver|psn
+|-enditem|p2a: Iron Leaver|Lum Berry|[eat]
+|-curestatus|p2a: Iron Leaver|psn|[msg]
+|
+|turn|9
+|
+|switch|p1a: Mabosstiff|Mabosstiff, F|100/100
+|-damage|p1a: Mabosstiff|88/100|[from] Stealth Rock
+|-ability|p1a: Mabosstiff|Intimidate|boost
+|-unboost|p2a: Iron Leaver|atk|1
+|move|p2a: Iron Leaver|Close Combat|p1a: Mabosstiff
+|-supereffective|p1a: Mabosstiff
+|-damage|p1a: Mabosstiff|21/100
+|-unboost|p2a: Iron Leaver|def|1
+|-unboost|p2a: Iron Leaver|spd|1
+|-enditem|p1a: Mabosstiff|Salac Berry|[eat]
+|-boost|p1a: Mabosstiff|spe|1|[from] item: Salac Berry
+|
+|turn|10
+|
+|-end|p2a: Iron Leaver|Quark Drive|[silent]
+|switch|p2a: Funny noise man|Bombirdier, F|94/100
+|move|p1a: Mabosstiff|Crunch|p2a: Funny noise man
+|-resisted|p2a: Funny noise man
+|-damage|p2a: Funny noise man|74/100
+|
+|turn|11
+|
+|move|p1a: Mabosstiff|Play Rough|p2a: Funny noise man
+|-supereffective|p2a: Funny noise man
+|-damage|p2a: Funny noise man|7/100
+|move|p2a: Funny noise man|Parting Shot|p1a: Mabosstiff
+|-unboost|p1a: Mabosstiff|atk|1
+|-unboost|p1a: Mabosstiff|spa|1
+|
+|switch|p2a: Did you know...?|Vaporeon, F|68/100|[from] Parting Shot
+|
+|-heal|p2a: Did you know...?|74/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Mabosstiff|Destiny Bond|p1a: Mabosstiff
+|-singlemove|p1a: Mabosstiff|Destiny Bond
+|move|p2a: Did you know...?|Wish|p2a: Did you know...?
+|
+|-heal|p2a: Did you know...?|80/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Mabosstiff|Crunch|p2a: Did you know...?
+|-damage|p2a: Did you know...?|61/100
+|move|p2a: Did you know...?|Surf|p1a: Mabosstiff
+|-damage|p1a: Mabosstiff|0 fnt
+|faint|p1a: Mabosstiff
+|
+|-heal|p2a: Did you know...?|100/100|[from] move: Wish|[wisher] Did you know...?
+|
+|switch|p1a: Amoonguss|Amoonguss, M|60/100
+|-damage|p1a: Amoonguss|48/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Did you know...?|Wish|p2a: Did you know...?
+|move|p1a: Amoonguss|Synthesis|p1a: Amoonguss
+|-heal|p1a: Amoonguss|98/100
+|
+|turn|15
+|
+|switch|p2a: PIVOT!!!|Rotom-Heat|100/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: PIVOT!!!
+|-damage|p2a: PIVOT!!!|70/100
+|-status|p2a: PIVOT!!!|psn
+|
+|-heal|p2a: PIVOT!!!|100/100 psn|[from] move: Wish|[wisher] Did you know...?
+|-damage|p2a: PIVOT!!!|88/100 psn|[from] psn
+|turn|16
+|
+|switch|p1a: Tyranitar|Tyranitar, M|60/100
+|-damage|p1a: Tyranitar|47/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: PIVOT!!!|Overheat|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|33/100
+|-unboost|p2a: PIVOT!!!|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: PIVOT!!!|82/100 psn|[from] Sandstorm
+|-damage|p2a: PIVOT!!!|69/100 psn|[from] psn
+|turn|17
+|
+|move|p2a: PIVOT!!!|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|24/100
+|
+|switch|p2a: Did you know...?|Vaporeon, F|100/100|[from] Volt Switch
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Did you know...?|94/100|[from] Sandstorm
+|-heal|p2a: Did you know...?|100/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Tyranitar|Rock Blast|p2a: Did you know...?
+|-damage|p2a: Did you know...?|87/100
+|-damage|p2a: Did you know...?|73/100
+|-damage|p2a: Did you know...?|59/100
+|-damage|p2a: Did you know...?|44/100
+|-hitcount|p2a: Did you know...?|4
+|move|p2a: Did you know...?|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Did you know...?|38/100|[from] Sandstorm
+|-heal|p2a: Did you know...?|44/100|[from] item: Leftovers
+|
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|-damage|p1a: Mismagius|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Mismagius|Thunderbolt|p2a: Did you know...?
+|-supereffective|p2a: Did you know...?
+|-damage|p2a: Did you know...?|5/100
+|move|p2a: Did you know...?|Wish|p2a: Did you know...?
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mismagius|82/100|[from] Sandstorm
+|-damage|p2a: Did you know...?|0 fnt|[from] Sandstorm
+|faint|p2a: Did you know...?
+|
+|switch|p2a: PIVOT!!!|Rotom-Heat|69/100 psn
+|turn|20
+|
+|switch|p1a: Typhlosion|Typhlosion, F|100/100
+|-damage|p1a: Typhlosion|76/100|[from] Stealth Rock
+|move|p2a: PIVOT!!!|Overheat|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|46/100
+|-unboost|p2a: PIVOT!!!|spa|2
+|
+|-weather|none
+|-heal|p2a: PIVOT!!!|100/100 psn|[from] move: Wish|[wisher] Did you know...?
+|-damage|p2a: PIVOT!!!|88/100 psn|[from] psn
+|turn|21
+|
+|move|p2a: PIVOT!!!|Volt Switch|p1a: Typhlosion
+|-damage|p1a: Typhlosion|29/100
+|
+|switch|p2a: Funny noise man|Bombirdier, F|7/100|[from] Volt Switch
+|move|p1a: Typhlosion|Flamethrower|p2a: Funny noise man
+|-damage|p2a: Funny noise man|0 fnt
+|faint|p2a: Funny noise man
+|
+|
+|switch|p2a: Iron Dreads|Iron Treads|100/100
+|turn|22
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Stealth Rock
+|-terastallize|p2a: Iron Dreads|Water
+|move|p2a: Iron Dreads|Rapid Spin|p1a: Amoonguss
+|-damage|p1a: Amoonguss|77/100
+|-boost|p2a: Iron Dreads|spe|1
+|-damage|p2a: Iron Dreads|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|turn|23
+|
+|move|p2a: Iron Dreads|Knock Off|p1a: Amoonguss
+|-damage|p1a: Amoonguss|57/100
+|-damage|p2a: Iron Dreads|68/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|-enditem|p1a: Amoonguss|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Dreads
+|move|p1a: Amoonguss|Giga Drain|p2a: Iron Dreads
+|-supereffective|p2a: Iron Dreads
+|-damage|p2a: Iron Dreads|26/100
+|-heal|p1a: Amoonguss|73/100|[from] drain|[of] p2a: Iron Dreads
+|
+|turn|24
+|
+|-end|p2a: Iron Dreads|Quark Drive|[silent]
+|switch|p2a: Iron Leaver|Iron Leaves|35/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Iron Leaver
+|-resisted|p2a: Iron Leaver
+|-damage|p2a: Iron Leaver|24/100
+|-heal|p1a: Amoonguss|77/100|[from] drain|[of] p2a: Iron Leaver
+|
+|turn|25
+|
+|move|p2a: Iron Leaver|Psyblade|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|23/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Iron Leaver
+|-supereffective|p2a: Iron Leaver
+|-damage|p2a: Iron Leaver|0 fnt
+|faint|p2a: Iron Leaver
+|-end|p2a: Iron Leaver|Quark Drive|[silent]
+|
+|
+|switch|p2a: Iron Dreads|Iron Treads, tera:Water|26/100
+|turn|26
+|
+|switch|p1a: Mismagius|Mismagius, M|82/100
+|-damage|p1a: Mismagius|70/100|[from] Stealth Rock
+|move|p2a: Iron Dreads|Earthquake|p1a: Mismagius
+|-immune|p1a: Mismagius|[from] ability: Levitate
+|
+|turn|27
+|
+|move|p1a: Mismagius|Shadow Ball|p2a: Iron Dreads
+|-damage|p2a: Iron Dreads|0 fnt
+|faint|p2a: Iron Dreads
+|-end|p2a: Iron Dreads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Neat|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Neat
+|turn|28
+|
+|-terastallize|p1a: Mismagius|Ghost
+|move|p1a: Mismagius|Shadow Ball|p2a: Neat
+|-damage|p2a: Neat|42/100
+|move|p2a: Neat|Thunder Wave|p1a: Mismagius
+|-status|p1a: Mismagius|par
+|
+|turn|29
+|
+|move|p1a: Mismagius|Shadow Ball|p2a: Neat
+|-damage|p2a: Neat|0 fnt
+|faint|p2a: Neat
+|
+|
+|switch|p2a: PIVOT!!!|Rotom-Heat|88/100 psn
+|turn|30
+|
+|move|p2a: PIVOT!!!|Volt Switch|p1a: Mismagius
+|-damage|p1a: Mismagius|39/100 par
+|move|p1a: Mismagius|Shadow Ball|p2a: PIVOT!!!
+|-crit|p2a: PIVOT!!!
+|-damage|p2a: PIVOT!!!|9/100 psn
+|
+|-damage|p2a: PIVOT!!!|0 fnt|[from] psn
+|faint|p2a: PIVOT!!!
+|
+|win|SPACEDUDE360000

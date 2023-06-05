@@ -1,0 +1,280 @@
+|poke|p1|Moltres|
+|poke|p1|Meowscarada, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Delphox, F|
+|poke|p1|Great Tusk|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Haunter, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Muk-Alola, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Glimmora, M|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Lasher|Glimmora, M|100/100
+|turn|1
+|
+|switch|p2a: Phage|Haunter, M|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Phage
+|-immune|p2a: Phage
+|
+|turn|2
+|
+|move|p2a: Phage|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|move|p1a: Great Tusk|Knock Off|p2a: Phage
+|-supereffective|p2a: Phage
+|-damage|p2a: Phage|4/100
+|-enditem|p2a: Phage|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|turn|3
+|
+|move|p2a: Phage|Destiny Bond|p2a: Phage
+|-singlemove|p2a: Phage|Destiny Bond
+|move|p1a: Great Tusk|Ice Spinner|p2a: Phage
+|-damage|p2a: Phage|0 fnt
+|faint|p2a: Phage
+|-activate|p2a: Phage|move: Destiny Bond
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Lasher|Glimmora, M|100/100
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|turn|4
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Lasher
+|-damage|p2a: Lasher|36/100
+|-sidestart|p2: VenomBoner0|move: Stealth Rock
+|move|p2a: Lasher|Power Gem|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Delphox|Delphox, F, shiny|100/100
+|turn|5
+|
+|switch|p2a: Venom|Muk-Alola, M|100/100
+|-damage|p2a: Venom|88/100|[from] Stealth Rock
+|move|p1a: Delphox|Will-O-Wisp|p2a: Venom
+|-status|p2a: Venom|brn
+|
+|-damage|p2a: Venom|82/100 brn|[from] brn
+|turn|6
+|
+|move|p1a: Delphox|Wish|p1a: Delphox
+|move|p2a: Venom|Poison Fang|p1a: Delphox
+|-damage|p1a: Delphox|88/100
+|-status|p1a: Delphox|tox
+|
+|-damage|p1a: Delphox|82/100 tox|[from] psn
+|-damage|p2a: Venom|76/100 brn|[from] brn
+|turn|7
+|
+|move|p1a: Delphox|Dazzling Gleam|p2a: Venom
+|-damage|p2a: Venom|68/100 brn
+|move|p2a: Venom|Poison Fang|p1a: Delphox
+|-damage|p1a: Delphox|71/100 tox
+|
+|-heal|p1a: Delphox|100/100 tox|[from] move: Wish|[wisher] Delphox
+|-damage|p1a: Delphox|88/100 tox|[from] psn
+|-damage|p2a: Venom|62/100 brn|[from] brn
+|turn|8
+|
+|switch|p1a: Moltres|Moltres, shiny|100/100
+|move|p2a: Venom|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|89/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Venom
+|
+|-damage|p2a: Venom|56/100 brn|[from] brn
+|turn|9
+|
+|move|p1a: Moltres|U-turn|p2a: Venom
+|-damage|p2a: Venom|43/100 brn
+|
+|switch|p1a: Delphox|Delphox, F, shiny|88/100 tox|[from] U-turn
+|move|p2a: Venom|Poison Fang|p1a: Delphox
+|-damage|p1a: Delphox|77/100 tox
+|
+|-damage|p1a: Delphox|71/100 tox|[from] psn
+|-damage|p2a: Venom|37/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Delphox|Wish|p1a: Delphox
+|move|p2a: Venom|Knock Off|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|30/100 tox
+|-enditem|p1a: Delphox|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Venom
+|
+|-damage|p1a: Delphox|17/100 tox|[from] psn
+|-damage|p2a: Venom|31/100 brn|[from] brn
+|turn|11
+|
+|switch|p1a: Moltres|Moltres, shiny|89/100
+|switch|p2a: Lasher|Glimmora, M|36/100
+|
+|-heal|p1a: Moltres|100/100|[from] move: Wish|[wisher] Delphox
+|turn|12
+|
+|move|p2a: Lasher|Mortal Spin|p1a: Moltres
+|-damage|p1a: Moltres|96/100
+|-status|p1a: Moltres|psn
+|-sideend|p2: VenomBoner0|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Lasher
+|move|p1a: Moltres|Flamethrower|p2a: Lasher
+|-resisted|p2a: Lasher
+|-damage|p2a: Lasher|13/100
+|
+|-damage|p1a: Moltres|84/100 psn|[from] psn
+|turn|13
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|move|p2a: Lasher|Power Gem|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|68/100
+|
+|turn|14
+|
+|-terastallize|p1a: Lilligant|Ghost
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Lasher|Toxic|p1a: Lilligant
+|-status|p1a: Lilligant|tox
+|
+|-damage|p1a: Lilligant|62/100 tox|[from] psn
+|turn|15
+|
+|move|p1a: Lilligant|Tera Blast|p2a: Lasher
+|-damage|p2a: Lasher|0 fnt
+|faint|p2a: Lasher
+|
+|-damage|p1a: Lilligant|50/100 tox|[from] psn
+|
+|switch|p2a: Agony|Toxapex, M|100/100
+|turn|16
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Agony
+|-damage|p2a: Agony|47/100
+|move|p2a: Agony|Toxic Spikes|p1a: Lilligant
+|-sidestart|p1: Damage-Advantage|move: Toxic Spikes
+|
+|-heal|p2a: Agony|53/100|[from] item: Black Sludge
+|-damage|p1a: Lilligant|31/100 tox|[from] psn
+|turn|17
+|
+|switch|p2a: Venom|Muk-Alola, M|31/100 brn
+|move|p1a: Lilligant|Leaf Blade|p2a: Venom
+|-resisted|p2a: Venom
+|-damage|p2a: Venom|0 fnt
+|faint|p2a: Venom
+|
+|-damage|p1a: Lilligant|7/100 tox|[from] psn
+|
+|switch|p2a: Agony|Toxapex, M|86/100
+|turn|18
+|
+|move|p1a: Lilligant|Tera Blast|p2a: Agony
+|-damage|p2a: Agony|36/100
+|move|p2a: Agony|Recover|p2a: Agony
+|-heal|p2a: Agony|86/100
+|
+|-heal|p2a: Agony|92/100|[from] item: Black Sludge
+|-damage|p1a: Lilligant|0 fnt|[from] psn
+|faint|p1a: Lilligant
+|
+|switch|p1a: Delphox|Delphox, F, shiny|17/100 tox
+|turn|19
+|
+|move|p1a: Delphox|Wish|p1a: Delphox
+|move|p2a: Agony|Chilling Water|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|3/100 tox
+|-unboost|p1a: Delphox|atk|1
+|
+|-heal|p2a: Agony|99/100|[from] item: Black Sludge
+|-damage|p1a: Delphox|0 fnt|[from] psn
+|faint|p1a: Delphox
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-status|p1a: Meowscarada|psn
+|turn|20
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Agony
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Agony|55/100
+|-enditem|p2a: Agony|Black Sludge|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Agony|Chilling Water|p1a: Meowscarada
+|-damage|p1a: Meowscarada|83/100 psn
+|-unboost|p1a: Meowscarada|atk|1
+|
+|-heal|p1a: Meowscarada|100/100 psn|[from] move: Wish|[wisher] Delphox
+|-damage|p1a: Meowscarada|88/100 psn|[from] psn
+|turn|21
+|
+|switch|p1a: Moltres|Moltres, shiny|84/100 psn
+|move|p2a: Agony|Recover|p2a: Agony
+|-heal|p2a: Agony|100/100
+|
+|-damage|p1a: Moltres|71/100 psn|[from] psn
+|turn|22
+|
+|switch|p2a: Riot|Slowking-Galar, M|100/100
+|move|p1a: Moltres|Hurricane|p2a: Riot
+|-damage|p2a: Riot|82/100
+|-start|p2a: Riot|confusion
+|
+|-damage|p1a: Moltres|59/100 psn|[from] psn
+|turn|23
+|
+|move|p1a: Moltres|U-turn|p2a: Riot
+|-damage|p2a: Riot|68/100
+|
+|switch|p1a: Meowscarada|Meowscarada, F|88/100 psn|[from] U-turn
+|-activate|p2a: Riot|confusion
+|move|p2a: Riot|Future Sight|p1a: Meowscarada
+|-start|p2a: Riot|move: Future Sight
+|
+|-damage|p1a: Meowscarada|76/100 psn|[from] psn
+|turn|24
+|
+|switch|p2a: Agony|Toxapex, M|100/100
+|move|p1a: Meowscarada|Knock Off|p2a: Agony
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Agony|74/100
+|
+|-damage|p1a: Meowscarada|64/100 psn|[from] psn
+|turn|25
+|
+|switch|p1a: Moltres|Moltres, shiny|59/100 psn
+|move|p2a: Agony|Chilling Water|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|39/100 psn
+|-unboost|p1a: Moltres|atk|1
+|
+|-end|p1a: Moltres|move: Future Sight
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|switch|p1a: Meowscarada|Meowscarada, F|64/100 psn
+|turn|26
+|
+|move|p1a: Meowscarada|Flower Trick|p2a: Agony
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p2a: Agony
+|-damage|p2a: Agony|31/100
+|move|p2a: Agony|Chilling Water|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|55/100 psn
+|-unboost|p1a: Meowscarada|atk|1
+|
+|-damage|p1a: Meowscarada|43/100 psn|[from] psn
+|turn|27
+|-message|Damage-Advantage forfeited.
+|
+|win|VenomBoner0

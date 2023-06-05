@@ -1,0 +1,218 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Iron Treads|
+|poke|p1|Corviknight, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Dondozo, F|
+|poke|p2|Amoonguss, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|turn|1
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|turn|2
+|
+|move|p1a: Cresselia|Thunderbolt|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|69/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|turn|3
+|
+|-terastallize|p1a: Cresselia|Fairy
+|move|p1a: Cresselia|Thunderbolt|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|36/100
+|move|p2a: Dondozo|Liquidation|p1a: Cresselia
+|-damage|p1a: Cresselia|61/100
+|
+|-heal|p1a: Cresselia|68/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Cresselia|Thunderbolt|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|6/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-heal|p1a: Cresselia|74/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Cresselia|Future Sight|p2a: Dondozo
+|-start|p1a: Cresselia|move: Future Sight
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|-heal|p1a: Cresselia|80/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Cresselia|Thunderbolt|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|71/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|-heal|p1a: Cresselia|86/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Cresselia|Thunderbolt|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|37/100 slp
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-end|p2a: Dondozo|move: Future Sight
+|-damage|p2a: Dondozo|68/100 slp
+|-heal|p1a: Cresselia|93/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Cresselia|Thunderbolt|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|36/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|-heal|p1a: Cresselia|99/100|[from] item: Leftovers
+|turn|9
+|
+|-terastallize|p2a: Dondozo|Steel
+|move|p1a: Cresselia|Thunderbolt|p2a: Dondozo
+|-damage|p2a: Dondozo|20/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Cresselia|[from]move: Sleep Talk
+|-damage|p1a: Cresselia|58/100
+|
+|-heal|p1a: Cresselia|65/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Cresselia|Thunderbolt|p2a: Dondozo
+|-damage|p2a: Dondozo|5/100 slp
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-heal|p1a: Cresselia|71/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|turn|12
+|
+|move|p1a: Enamorus|Earth Power|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|65/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo|[from]move: Sleep Talk
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|turn|13
+|
+|move|p1a: Enamorus|Earth Power|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|33/100 slp
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Liquidation|p1a: Enamorus
+|-enditem|p1a: Enamorus|Focus Sash
+|-damage|p1a: Enamorus|1/100
+|-boost|p1a: Enamorus|def|1
+|
+|turn|14
+|
+|move|p1a: Enamorus|Earth Power|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|2/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|turn|15
+|
+|move|p1a: Enamorus|Earth Power|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|64/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Enamorus|[from]move: Sleep Talk
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|16
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|40/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|turn|17
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|18/100 slp
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|turn|18
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|79/100 slp
+|cant|p2a: Dondozo|slp
+|
+|turn|19
+|n|!hahneeakule|hahneeakule
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|57/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Iron Treads|[from]move: Sleep Talk
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-message|hahneeakule forfeited.
+|
+|win|MonaPT

@@ -1,0 +1,128 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Polteageist|
+|poke|p1|Hawlucha, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Magearna|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Volcarona, M|
+|teampreview
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: Winterchillz|Reflect
+|
+|turn|2
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: Winterchillz|move: Light Screen
+|move|p1a: Hatterene|Nuzzle|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|99/100
+|-status|p2a: Dragapult|par
+|-start|p1a: Hatterene|Disable|Nuzzle|[from] ability: Cursed Body|[of] p2a: Dragapult
+|
+|turn|3
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Hatterene|Psyshock|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|89/100
+|
+|-heal|p2a: Magearna|95/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|5
+|
+|-terastallize|p2a: Magearna|Water
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|turn|6
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Cinderace|Zen Headbutt|p2a: Magearna
+|-damage|p2a: Magearna|67/100
+|
+|-heal|p2a: Magearna|73/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Cinderace|U-turn|p2a: Magearna
+|-damage|p2a: Magearna|51/100
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100|[from] U-turn
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|
+|-heal|p2a: Magearna|57/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Magearna|Stored Power|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|63/100|[from] item: Leftovers
+|-sideend|p1: PichaExplosiva|Reflect
+|-fieldend|move: Psychic Terrain
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|9
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Polteageist
+|-damage|p1a: Polteageist|51/100
+|-heal|p2a: Magearna|95/100|[from] drain|[of] p1a: Polteageist
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|-sideend|p1: PichaExplosiva|move: Light Screen
+|turn|10
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|67/100
+|-unboost|p2a: Magearna|spd|1
+|move|p2a: Magearna|Stored Power|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|73/100|[from] item: Leftovers
+|-message|PichaExplosiva forfeited.
+|
+|win|Winterchillz

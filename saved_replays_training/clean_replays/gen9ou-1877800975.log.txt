@@ -1,0 +1,1150 @@
+|poke|p1|Greninja, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Floatzel, F|
+|poke|p1|Amoonguss, M|
+|poke|p1|Donphan, F|
+|poke|p1|Pawmot, M|
+|poke|p2|Talonflame, M|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Magnezone|
+|poke|p2|Alomomola, M|
+|teampreview
+|
+|start
+|switch|p1a: "Iron Treads"|Donphan, F|100/100
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|turn|1
+|
+|-terastallize|p1a: "Iron Treads"|Water
+|move|p2a: Baxcalibur|Icicle Crash|p1a: "Iron Treads"
+|-resisted|p1a: "Iron Treads"
+|-damage|p1a: "Iron Treads"|82/100
+|move|p1a: "Iron Treads"|Knock Off|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|76/100
+|-enditem|p2a: Baxcalibur|Assault Vest|[from] move: Knock Off|[of] p1a: "Iron Treads"
+|
+|-heal|p1a: "Iron Treads"|88/100|[from] item: Leftovers
+|turn|2
+|
+|-terastallize|p2a: Baxcalibur|Electric
+|move|p2a: Baxcalibur|Tera Blast|p1a: "Iron Treads"
+|-supereffective|p1a: "Iron Treads"
+|-damage|p1a: "Iron Treads"|19/100
+|move|p1a: "Iron Treads"|Earthquake|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-crit|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|-heal|p1a: "Iron Treads"|26/100|[from] item: Leftovers
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|3
+|
+|move|p2a: Magnezone|Hyper Voice|p1a: "Iron Treads"
+|-damage|p1a: "Iron Treads"|0 fnt
+|faint|p1a: "Iron Treads"
+|
+|
+|switch|p1a: "OU"|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|turn|4
+|
+|switch|p1a: Ungungus|Amoonguss, M|100/100
+|move|p2a: Magnezone|Hyper Voice|p1a: Ungungus
+|-damage|p1a: Ungungus|41/100
+|-enditem|p1a: Ungungus|Eject Button
+|
+|switch|p1a: Buoy|Floatzel, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p1a: Buoy|Liquidation|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|6
+|
+|switch|p1a: Ungungus|Amoonguss, M|75/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Ungungus
+|-resisted|p1a: Ungungus
+|-damage|p1a: Ungungus|51/100
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Ungungus
+|-resisted|p1a: Ungungus
+|-damage|p1a: Ungungus|29/100
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Pawper|Pawmot, M|100/100
+|cant|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Double Shock|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|39/100
+|-start|p1a: Pawper|typechange|???/Fighting|[from] move: Double Shock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|46/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Ungungus|Amoonguss, M|63/100
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|52/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Magnezone|Magnezone|100/100 slp
+|move|p1a: Ungungus|Sludge Bomb|p2a: Magnezone
+|-immune|p2a: Magnezone
+|
+|-weather|none
+|turn|12
+|
+|switch|p1a: Pawper|Pawmot, M|100/100
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Flash Cannon|p1a: Pawper
+|-resisted|p1a: Pawper
+|-damage|p1a: Pawper|61/100
+|
+|turn|13
+|
+|switch|p2a: Alomomola|Alomomola, M|85/100
+|move|p1a: Pawper|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|54/100
+|-unboost|p1a: Pawper|def|1
+|-unboost|p1a: Pawper|spd|1
+|
+|-heal|p2a: Alomomola|60/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Pawper|Double Shock|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|66/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: "OU"|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|73/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: "OU"|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|68/100
+|
+|switch|p1a: Ungungus|Amoonguss, M|96/100|[from] U-turn
+|move|p2a: Alomomola|Whirlpool|p1a: Ungungus
+|-resisted|p1a: Ungungus
+|-damage|p1a: Ungungus|92/100
+|-activate|p1a: Ungungus|move: Whirlpool|[of] p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|74/100|[from] item: Leftovers
+|-damage|p1a: Ungungus|79/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|17
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ungungus|Sludge Bomb|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|81/100|[from] item: Leftovers
+|-damage|p1a: Ungungus|67/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|18
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Ungungus|Spore|p2a: Alomomola
+|-status|p2a: Alomomola|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|87/100 slp|[from] item: Leftovers
+|-damage|p1a: Ungungus|54/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|19
+|
+|cant|p2a: Alomomola|slp
+|move|p1a: Ungungus|Sludge Bomb|p2a: Alomomola
+|-damage|p2a: Alomomola|57/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|100/100 slp|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Ungungus|42/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|20
+|
+|-curestatus|p2a: Alomomola|slp|[msg]
+|move|p2a: Alomomola|Whirlpool|p1a: Ungungus
+|-resisted|p1a: Ungungus
+|-damage|p1a: Ungungus|38/100
+|move|p1a: Ungungus|Sludge Bomb|p2a: Alomomola
+|-damage|p2a: Alomomola|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|77/100|[from] item: Leftovers
+|-end|p1a: Ungungus|Whirlpool|[partiallytrapped]
+|turn|21
+|
+|switch|p1a: "OU"|Pelipper, F|100/100
+|move|p2a: Alomomola|Whirlpool|p1a: "OU"|[miss]
+|-miss|p2a: Alomomola|p1a: "OU"
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|84/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: "OU"|Hurricane|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|94/100
+|
+|-weather|none
+|turn|23
+|
+|switch|p1a: Ungungus|Amoonguss, M|71/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Ungungus
+|-resisted|p1a: Ungungus
+|-crit|p1a: Ungungus
+|-damage|p1a: Ungungus|35/100
+|
+|turn|24
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Ungungus
+|-resisted|p1a: Ungungus
+|-damage|p1a: Ungungus|13/100
+|-status|p1a: Ungungus|par
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|turn|25
+|
+|switch|p1a: Pawper|Pawmot, M|61/100
+|cant|p2a: Magnezone|slp
+|
+|turn|26
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|68/100
+|-unboost|p1a: Pawper|def|1
+|-unboost|p1a: Pawper|spd|1
+|
+|-heal|p2a: Alomomola|75/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p1a: "OU"|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|move|p2a: Alomomola|Whirlpool|p1a: "OU"
+|-resisted|p1a: "OU"
+|-damage|p1a: "OU"|96/100
+|-activate|p1a: "OU"|move: Whirlpool|[of] p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|81/100|[from] item: Leftovers
+|-damage|p1a: "OU"|83/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|28
+|
+|switch|p2a: Magnezone|Magnezone|94/100 slp
+|move|p1a: "OU"|U-turn|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|91/100 slp
+|
+|switch|p1a: Pawper|Pawmot, M|61/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|29
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|68/100
+|-unboost|p1a: Pawper|def|1
+|-unboost|p1a: Pawper|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|74/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p1a: "OU"|Pelipper, F|83/100
+|move|p2a: Alomomola|Whirlpool|p1a: "OU"
+|-resisted|p1a: "OU"
+|-damage|p1a: "OU"|79/100
+|-activate|p1a: "OU"|move: Whirlpool|[of] p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|81/100|[from] item: Leftovers
+|-damage|p1a: "OU"|66/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|31
+|
+|move|p1a: "OU"|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|76/100
+|
+|switch|p1a: Buoy|Floatzel, F|100/100|[from] U-turn
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|82/100|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Buoy|Wave Crash|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|44/100
+|-damage|p1a: Buoy|81/100|[from] Recoil
+|move|p2a: Alomomola|Whirlpool|p1a: Buoy
+|-resisted|p1a: Buoy
+|-damage|p1a: Buoy|73/100
+|-activate|p1a: Buoy|move: Whirlpool|[of] p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|94/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Alomomola|99/100|[from] item: Leftovers
+|-damage|p1a: Buoy|61/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|33
+|
+|move|p1a: Buoy|Wave Crash|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|65/100
+|-damage|p1a: Buoy|42/100|[from] Recoil
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|71/100|[from] item: Leftovers
+|-damage|p1a: Buoy|30/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|34
+|
+|move|p2a: Alomomola|Aqua Jet|p1a: Buoy
+|-resisted|p1a: Buoy
+|-damage|p1a: Buoy|16/100
+|move|p1a: Buoy|Wave Crash|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|34/100
+|-damage|p1a: Buoy|0 fnt|[from] Recoil
+|faint|p1a: Buoy
+|
+|-weather|none
+|-heal|p2a: Alomomola|84/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Alomomola|90/100|[from] item: Leftovers
+|
+|switch|p1a: Ungungus|Amoonguss, M|47/100 par
+|turn|35
+|
+|switch|p2a: Magnezone|Magnezone|91/100 slp
+|switch|p1a: "OU"|Pelipper, F|66/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|
+|-weather|RainDance|[upkeep]
+|turn|36
+|
+|switch|p1a: Pawper|Pawmot, M|61/100
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Thunderbolt|p1a: Pawper
+|-resisted|p1a: Pawper
+|-damage|p1a: Pawper|19/100
+|
+|-weather|RainDance|[upkeep]
+|turn|37
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|72/100
+|-unboost|p1a: Pawper|def|1
+|-unboost|p1a: Pawper|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|78/100|[from] item: Leftovers
+|turn|38
+|
+|switch|p1a: Ungungus|Amoonguss, M|80/100 par
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|84/100|[from] item: Leftovers
+|turn|39
+|
+|switch|p2a: Magnezone|Magnezone|91/100
+|move|p1a: Ungungus|Giga Drain|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|83/100
+|-heal|p1a: Ungungus|83/100 par|[from] drain|[of] p2a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|40
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|44/100 par
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|41
+|
+|switch|p1a: Pawper|Pawmot, M|19/100
+|cant|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|42
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|70/100
+|-unboost|p1a: Pawper|def|1
+|-unboost|p1a: Pawper|spd|1
+|
+|-weather|none
+|-heal|p2a: Alomomola|76/100|[from] item: Leftovers
+|turn|43
+|
+|switch|p1a: "OU"|Pelipper, F|66/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|move|p2a: Alomomola|Whirlpool|p1a: "OU"|[miss]
+|-miss|p2a: Alomomola|p1a: "OU"
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|82/100|[from] item: Leftovers
+|turn|44
+|
+|switch|p2a: Magnezone|Magnezone|100/100 slp
+|move|p1a: "OU"|Roost|p1a: "OU"
+|-heal|p1a: "OU"|100/100
+|-singleturn|p1a: "OU"|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|45
+|
+|switch|p1a: Ungungus|Amoonguss, M|77/100 par
+|cant|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|46
+|
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|40/100 par
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|47
+|
+|switch|p1a: Pawper|Pawmot, M|19/100
+|cant|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|48
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|68/100
+|-unboost|p1a: Pawper|def|1
+|-unboost|p1a: Pawper|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|74/100|[from] item: Leftovers
+|turn|49
+|
+|switch|p1a: "OU"|Pelipper, F|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|81/100|[from] item: Leftovers
+|turn|50
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: "OU"|U-turn|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|none
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|51
+|
+|switch|p2a: Magnezone|Magnezone|100/100 slp
+|move|p1a: "OU"|U-turn|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|97/100 slp
+|
+|switch|p1a: Pawper|Pawmot, M|19/100|[from] U-turn
+|
+|turn|52
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|72/100
+|-unboost|p1a: Pawper|def|1
+|-unboost|p1a: Pawper|spd|1
+|
+|-heal|p2a: Alomomola|78/100|[from] item: Leftovers
+|turn|53
+|
+|switch|p1a: "OU"|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|switch|p2a: Magnezone|Magnezone|97/100 slp
+|
+|-weather|RainDance|[upkeep]
+|turn|54
+|
+|switch|p1a: Ungungus|Amoonguss, M|73/100 par
+|cant|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|55
+|
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|36/100 par
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|56
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|switch|p1a: Pawper|Pawmot, M|19/100
+|
+|-weather|RainDance|[upkeep]
+|turn|57
+|
+|switch|p1a: Ungungus|Amoonguss, M|69/100 par
+|move|p2a: Iron Valiant|Moonblast|p1a: Ungungus
+|-resisted|p1a: Ungungus
+|-damage|p1a: Ungungus|50/100 par
+|
+|-weather|RainDance|[upkeep]
+|turn|58
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Magnezone|Magnezone|97/100 slp
+|move|p1a: Ungungus|Sludge Bomb|p2a: Magnezone
+|-immune|p2a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|turn|59
+|
+|switch|p1a: Pawper|Pawmot, M|19/100
+|cant|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|60
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Revival Blessing|p1a: Pawper
+|
+|-heal|p1: Buoy|50/100|[from] move: Revival Blessing
+|
+|-weather|none
+|turn|61
+|
+|switch|p1a: "OU"|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|switch|p2a: Magnezone|Magnezone|97/100 slp
+|
+|-weather|RainDance|[upkeep]
+|turn|62
+|
+|switch|p1a: Ungungus|Amoonguss, M|84/100 par
+|cant|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|63
+|
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|43/100 par
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|64
+|
+|switch|p1a: Pawper|Pawmot, M|19/100
+|cant|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|65
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Double Shock|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|40/100
+|-start|p1a: Pawper|typechange|???/Fighting|[from] move: Double Shock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|46/100|[from] item: Leftovers
+|turn|66
+|
+|switch|p1a: Ungungus|Amoonguss, M|76/100 par
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|52/100|[from] item: Leftovers
+|turn|67
+|
+|switch|p2a: Magnezone|Magnezone|97/100 slp
+|switch|p1a: Buoy|Floatzel, F|50/100
+|
+|-weather|RainDance|[upkeep]
+|turn|68
+|
+|switch|p2a: Alomomola|Alomomola, M|85/100
+|move|p1a: Buoy|Liquidation|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|61/100
+|
+|-weather|none
+|-heal|p2a: Alomomola|67/100|[from] item: Leftovers
+|turn|69
+|
+|switch|p1a: "OU"|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|73/100|[from] item: Leftovers
+|turn|70
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: "OU"|U-turn|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|71
+|
+|move|p1a: "OU"|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|60/100
+|move|p2a: Alomomola|Whirlpool|p1a: "OU"
+|-resisted|p1a: "OU"
+|-damage|p1a: "OU"|96/100
+|-activate|p1a: "OU"|move: Whirlpool|[of] p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|67/100|[from] item: Leftovers
+|-damage|p1a: "OU"|83/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|72
+|
+|move|p1a: "OU"|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|62/100
+|
+|switch|p1a: Ungungus|Amoonguss, M|100/100 par|[from] U-turn
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|69/100|[from] item: Leftovers
+|turn|73
+|
+|switch|p2a: Magnezone|Magnezone|97/100 slp
+|move|p1a: Ungungus|Sludge Bomb|p2a: Magnezone
+|-immune|p2a: Magnezone
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|100/100 slp|[from] move: Wish|[wisher] Alomomola
+|turn|74
+|
+|cant|p2a: Magnezone|slp
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-fail|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|75
+|
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|60/100 par
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|76
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|switch|p1a: Pawper|Pawmot, M|19/100
+|
+|-weather|none
+|turn|77
+|
+|switch|p1a: Ungungus|Amoonguss, M|93/100 par
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Ungungus
+|-resisted|p1a: Ungungus
+|-damage|p1a: Ungungus|82/100 par
+|
+|turn|78
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Magnezone|Magnezone|100/100 slp
+|move|p1a: Ungungus|Sludge Bomb|p2a: Magnezone
+|-immune|p2a: Magnezone
+|
+|turn|79
+|
+|switch|p1a: Pawper|Pawmot, M|19/100
+|cant|p2a: Magnezone|slp
+|
+|turn|80
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Double Shock|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|44/100
+|-start|p1a: Pawper|typechange|???/Fighting|[from] move: Double Shock
+|
+|-heal|p2a: Alomomola|50/100|[from] item: Leftovers
+|turn|81
+|
+|switch|p1a: Ungungus|Amoonguss, M|100/100 par
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|56/100|[from] item: Leftovers
+|turn|82
+|
+|switch|p1a: "OU"|Pelipper, F|83/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|83
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: "OU"|Hurricane|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|84
+|
+|move|p1a: "OU"|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|57/100
+|-start|p2a: Alomomola|confusion
+|-activate|p2a: Alomomola|confusion
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|63/100|[from] item: Leftovers
+|turn|85
+|
+|switch|p2a: Magnezone|Magnezone|100/100 slp
+|move|p1a: "OU"|Surf|p2a: Magnezone
+|-damage|p2a: Magnezone|69/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magnezone|100/100 slp|[from] move: Wish|[wisher] Alomomola
+|turn|86
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|switch|p1a: Ungungus|Amoonguss, M|100/100 par
+|
+|-weather|RainDance|[upkeep]
+|turn|87
+|
+|move|p2a: Iron Valiant|Psycho Cut|p1a: Ungungus
+|-supereffective|p1a: Ungungus
+|-damage|p1a: Ungungus|69/100 par
+|move|p1a: Ungungus|Sludge Bomb|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|88
+|
+|switch|p1a: "OU"|Pelipper, F|83/100
+|move|p2a: Talonflame|Will-O-Wisp|p1a: "OU"
+|-status|p1a: "OU"|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: "OU"|77/100 brn|[from] brn
+|turn|89
+|
+|switch|p2a: Magnezone|Magnezone|100/100 slp
+|switch|p1a: Ungungus|Amoonguss, M|100/100 par
+|
+|-weather|none
+|turn|90
+|
+|cant|p2a: Magnezone|slp
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-fail|p2a: Magnezone|slp
+|
+|turn|91
+|
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|59/100 par
+|cant|p1a: Ungungus|par
+|
+|turn|92
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|18/100 par
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|turn|93
+|
+|switch|p1a: Pawper|Pawmot, M|19/100
+|cant|p2a: Magnezone|slp
+|
+|turn|94
+|
+|switch|p2a: Alomomola|Alomomola, M|96/100
+|move|p1a: Pawper|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|66/100
+|-unboost|p1a: Pawper|def|1
+|-unboost|p1a: Pawper|spd|1
+|
+|-heal|p2a: Alomomola|72/100|[from] item: Leftovers
+|turn|95
+|
+|switch|p1a: "OU"|Pelipper, F|77/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|move|p2a: Alomomola|Aqua Jet|p1a: "OU"
+|-resisted|p1a: "OU"
+|-damage|p1a: "OU"|69/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|79/100|[from] item: Leftovers
+|-damage|p1a: "OU"|63/100 brn|[from] brn
+|turn|96
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: "OU"|Roost|p1a: "OU"
+|-heal|p1a: "OU"|100/100 brn
+|-singleturn|p1a: "OU"|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|85/100|[from] item: Leftovers
+|-damage|p1a: "OU"|94/100 brn|[from] brn
+|turn|97
+|
+|move|p1a: "OU"|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|44/100
+|-start|p2a: Alomomola|confusion
+|-activate|p2a: Alomomola|confusion
+|move|p2a: Alomomola|Whirlpool|p1a: "OU"
+|-resisted|p1a: "OU"
+|-crit|p1a: "OU"
+|-damage|p1a: "OU"|86/100 brn
+|-activate|p1a: "OU"|move: Whirlpool|[of] p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|50/100|[from] item: Leftovers
+|-damage|p1a: "OU"|80/100 brn|[from] brn
+|-damage|p1a: "OU"|68/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|98
+|
+|-activate|p2a: Alomomola|confusion
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: "OU"|Roost|p1a: "OU"
+|-heal|p1a: "OU"|100/100 brn
+|-singleturn|p1a: "OU"|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|56/100|[from] item: Leftovers
+|-damage|p1a: "OU"|94/100 brn|[from] brn
+|-damage|p1a: "OU"|82/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|99
+|
+|switch|p2a: Magnezone|Magnezone|100/100 slp
+|move|p1a: "OU"|Hurricane|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|94/100 slp
+|-start|p2a: Magnezone|confusion
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: "OU"|76/100 brn|[from] brn
+|-end|p1a: "OU"|Whirlpool|[partiallytrapped]|[silent]
+|turn|100
+|
+|switch|p1a: Ungungus|Amoonguss, M|51/100 par
+|cant|p2a: Magnezone|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|101
+|
+|-curestatus|p2a: Magnezone|slp|[msg]
+|-activate|p2a: Magnezone|confusion
+|-damage|p2a: Magnezone|89/100|[from] confusion
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|102
+|
+|switch|p1a: Pawper|Pawmot, M|19/100
+|cant|p2a: Magnezone|slp
+|
+|-weather|none
+|turn|103
+|
+|switch|p2a: Alomomola|Alomomola, M|90/100
+|move|p1a: Pawper|Mach Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|77/100
+|
+|-heal|p2a: Alomomola|83/100|[from] item: Leftovers
+|turn|104
+|
+|switch|p1a: "OU"|Pelipper, F|76/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|move|p2a: Alomomola|Whirlpool|p1a: "OU"
+|-resisted|p1a: "OU"
+|-damage|p1a: "OU"|70/100 brn
+|-activate|p1a: "OU"|move: Whirlpool|[of] p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|89/100|[from] item: Leftovers
+|-damage|p1a: "OU"|64/100 brn|[from] brn
+|-damage|p1a: "OU"|52/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|105
+|
+|switch|p2a: Magnezone|Magnezone|89/100 slp
+|move|p1a: "OU"|Roost|p1a: "OU"
+|-heal|p1a: "OU"|100/100 brn
+|-singleturn|p1a: "OU"|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: "OU"|94/100 brn|[from] brn
+|-end|p1a: "OU"|Whirlpool|[partiallytrapped]|[silent]
+|turn|106
+|
+|switch|p1a: Ungungus|Amoonguss, M|85/100 par
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|41/100 par
+|
+|-weather|RainDance|[upkeep]
+|turn|107
+|
+|switch|p1a: "OU"|Pelipper, F|94/100 brn
+|move|p2a: Magnezone|Flash Cannon|p1a: "OU"
+|-resisted|p1a: "OU"
+|-damage|p1a: "OU"|74/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: "OU"|68/100 brn|[from] brn
+|turn|108
+|
+|switch|p1a: Ungungus|Amoonguss, M|75/100 par
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|34/100 par
+|
+|-weather|RainDance|[upkeep]
+|turn|109
+|
+|switch|p1a: "OU"|Pelipper, F|68/100 brn
+|move|p2a: Magnezone|Flash Cannon|p1a: "OU"
+|-resisted|p1a: "OU"
+|-damage|p1a: "OU"|45/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: "OU"|39/100 brn|[from] brn
+|turn|110
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: "OU"
+|-resisted|p1a: "OU"
+|-damage|p1a: "OU"|18/100 brn
+|move|p1a: "OU"|Roost|p1a: "OU"
+|-heal|p1a: "OU"|68/100 brn
+|-singleturn|p1a: "OU"|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: "OU"|61/100 brn|[from] brn
+|turn|111
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: "OU"
+|-resisted|p1a: "OU"
+|-damage|p1a: "OU"|38/100 brn
+|move|p1a: "OU"|Roost|p1a: "OU"
+|-heal|p1a: "OU"|88/100 brn
+|-singleturn|p1a: "OU"|move: Roost
+|
+|-weather|none
+|-damage|p1a: "OU"|82/100 brn|[from] brn
+|turn|112
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: "OU"
+|-supereffective|p1a: "OU"
+|-damage|p1a: "OU"|0 fnt
+|faint|p1a: "OU"
+|
+|
+|switch|p1a: Buoy|Floatzel, F|50/100
+|turn|113
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Buoy|Wave Crash|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|76/100
+|-damage|p1a: Buoy|38/100|[from] Recoil
+|
+|-heal|p2a: Alomomola|82/100|[from] item: Leftovers
+|turn|114
+|
+|switch|p1a: Ungungus|Amoonguss, M|67/100 par
+|switch|p2a: Magnezone|Magnezone|89/100
+|
+|turn|115
+|
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-damage|p1a: Ungungus|28/100 par
+|-unboost|p1a: Ungungus|spd|1
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|turn|116
+|
+|switch|p1a: Pawper|Pawmot, M|19/100
+|cant|p2a: Magnezone|slp
+|
+|turn|117
+|
+|switch|p1a: Ungungus|Amoonguss, M|61/100 par
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|
+|turn|118
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ungungus|Giga Drain|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|turn|119
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: Ungungus|Giga Drain|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|94/100
+|-heal|p1a: Ungungus|64/100 par|[from] drain|[of] p2a: Talonflame
+|
+|turn|120
+|
+|switch|p1a: Gren|Greninja, M, shiny|100/100
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Gren
+|-status|p1a: Gren|brn
+|
+|-damage|p1a: Gren|95/100 brn|[from] brn
+|turn|121
+|
+|switch|p2a: Magnezone|Magnezone|89/100 slp
+|move|p1a: Gren|Water Shuriken|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|81/100 slp
+|-damage|p2a: Magnezone|76/100 slp
+|-damage|p2a: Magnezone|70/100 slp
+|-damage|p2a: Magnezone|65/100 slp
+|-hitcount|p2a: Magnezone|4
+|
+|-damage|p1a: Gren|89/100 brn|[from] brn
+|turn|122
+|
+|move|p1a: Gren|Dark Pulse|p2a: Magnezone
+|-damage|p2a: Magnezone|37/100 slp
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Volt Switch|p1a: Gren
+|-supereffective|p1a: Gren
+|-damage|p1a: Gren|0 fnt
+|faint|p1a: Gren
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from] Volt Switch
+|
+|
+|switch|p1a: Ungungus|Amoonguss, M|97/100 par
+|turn|123
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ungungus|Spore|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|turn|124
+|
+|switch|p2a: Magnezone|Magnezone|37/100
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|turn|125
+|
+|cant|p2a: Magnezone|slp
+|cant|p1a: Ungungus|par
+|
+|turn|126
+|
+|cant|p2a: Magnezone|slp
+|move|p1a: Ungungus|Foul Play|p2a: Magnezone
+|-damage|p2a: Magnezone|24/100 slp
+|
+|turn|127
+|
+|-curestatus|p2a: Magnezone|slp|[msg]
+|move|p2a: Magnezone|Flash Cannon|p1a: Ungungus
+|-crit|p1a: Ungungus
+|-damage|p1a: Ungungus|41/100 par
+|move|p1a: Ungungus|Spore|p2a: Magnezone
+|-status|p2a: Magnezone|slp|[from] move: Spore
+|
+|turn|128
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|switch|p1a: Pawper|Pawmot, M|19/100
+|
+|turn|129
+|
+|switch|p1a: Ungungus|Amoonguss, M|75/100 par
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|turn|130
+|
+|switch|p2a: Magnezone|Magnezone|24/100 slp
+|move|p1a: Ungungus|Giga Drain|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|16/100 slp
+|-heal|p1a: Ungungus|78/100 par|[from] drain|[of] p2a: Magnezone
+|
+|-heal|p2a: Magnezone|100/100 slp|[from] move: Wish|[wisher] Alomomola
+|turn|131
+|
+|switch|p1a: Pawper|Pawmot, M|19/100
+|cant|p2a: Magnezone|slp
+|
+|turn|132
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Pawper|Mach Punch|p2a: Alomomola
+|-damage|p2a: Alomomola|88/100
+|
+|-heal|p2a: Alomomola|94/100|[from] item: Leftovers
+|turn|133
+|-message|Cap2n forfeited.
+|
+|win|AshML

@@ -1,0 +1,192 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Enamorus, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Volcanion|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zapdos|
+|poke|p2|Indeedee, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Magearna|
+|poke|p2|Chien-Pao|
+|poke|p2|Armarouge, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|move|p2a: Iron Treads|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: aquathunder145|move: Stealth Rock
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|11/100
+|
+|turn|2
+|
+|move|p2a: Iron Treads|Iron Head|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|80/100
+|cant|p1a: Zapdos|flinch
+|
+|turn|3
+|
+|move|p2a: Iron Treads|Iron Head|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|59/100
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-status|p2a: Chien-Pao|par|[from] ability: Static|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Chien-Pao|Crunch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|6
+|
+|move|p1a: Enamorus|Superpower|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|7
+|
+|move|p1a: Enamorus|Superpower|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Indeedee
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Enamorus|Superpower|p2a: Magearna
+|-damage|p2a: Magearna|43/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|49/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Magearna|Stored Power|p1a: Enamorus
+|-damage|p1a: Enamorus|57/100
+|move|p1a: Enamorus|Superpower|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Magearna
+|
+|-heal|p1a: Enamorus|63/100|[from] item: Leftovers
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|10
+|
+|-terastallize|p1a: Enamorus|Water
+|move|p2a: Sneasler|Dire Claw|p1a: Enamorus
+|-damage|p1a: Enamorus|35/100
+|-status|p1a: Enamorus|slp
+|cant|p1a: Enamorus|slp
+|
+|-heal|p1a: Enamorus|42/100 slp|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|cant|p1a: Enamorus|slp
+|
+|-heal|p1a: Enamorus|48/100 slp|[from] item: Leftovers
+|turn|12
+|
+|-terastallize|p2a: Sneasler|Flying
+|move|p2a: Sneasler|Acrobatics|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|13
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Sneasler
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|-damage|p2a: Armarouge|76/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Armarouge|atk|1
+|move|p2a: Armarouge|Armor Cannon|p1a: Landorus
+|-damage|p1a: Landorus|13/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|
+|-fieldend|move: Psychic Terrain
+|turn|15
+|
+|move|p2a: Armarouge|Endure|p2a: Armarouge
+|-singleturn|p2a: Armarouge|move: Endure
+|move|p1a: Landorus|Earthquake|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-activate|p2a: Armarouge|move: Endure
+|-damage|p2a: Armarouge|1/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|
+|turn|16
+|
+|move|p2a: Armarouge|Expanding Force|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|17
+|player|p2|
+|-message|vladebaroule lost due to inactivity.
+|
+|win|aquathunder145

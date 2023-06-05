@@ -1,0 +1,79 @@
+|poke|p1|Torkoal, F|
+|poke|p1|Scream Tail|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Magearna|
+|poke|p1|Iron Hands|
+|poke|p2|Corviknight, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Muk-Alola, M|
+|poke|p2|Scream Tail|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Muk|Muk-Alola, M|100/100
+|move|p1a: Scream Tail|Reflect|p1a: Scream Tail
+|-sidestart|p1: Miscellandorus-T|Reflect
+|
+|turn|2
+|
+|move|p1a: Scream Tail|Light Screen|p1a: Scream Tail
+|-sidestart|p1: Miscellandorus-T|move: Light Screen
+|move|p2a: Muk|Knock Off|p1a: Scream Tail
+|-damage|p1a: Scream Tail|89/100
+|-enditem|p1a: Scream Tail|Light Clay|[from] move: Knock Off|[of] p2a: Muk
+|
+|turn|3
+|
+|move|p2a: Muk|Knock Off|p1a: Scream Tail
+|-damage|p1a: Scream Tail|82/100
+|move|p1a: Scream Tail|Trick Room|p1a: Scream Tail
+|-fieldstart|move: Trick Room|[of] p1a: Scream Tail
+|
+|turn|4
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|move|p2a: Muk|Knock Off|p1a: Iron Hands
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|95/100
+|-enditem|p1a: Iron Hands|Leftovers|[from] move: Knock Off|[of] p2a: Muk
+|
+|turn|5
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Iron Hands|Swords Dance|p1a: Iron Hands
+|-boost|p1a: Iron Hands|atk|2
+|
+|turn|6
+|
+|move|p1a: Iron Hands|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|45/100
+|move|p2a: Great Tusk|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|69/100
+|
+|-heal|p2a: Great Tusk|51/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Hands|atk|1
+|move|p1a: Iron Hands|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-fieldend|move: Trick Room
+|-message|badalt24324 forfeited.
+|
+|win|Miscellandorus-T

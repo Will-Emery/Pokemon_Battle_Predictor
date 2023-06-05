@@ -1,0 +1,164 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Magearna|
+|poke|p1|Volcarona, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Roaring Moon|
+|poke|p2|Iron Treads|
+|poke|p2|Espeon, M|
+|poke|p2|Eelektross, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Greninja, M|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|move|p2a: Iron Treads|Stealth Rock|p1a: Samurott
+|-sidestart|p1: SchwuchtelSchlepp|move: Stealth Rock
+|move|p1a: Samurott|Ceaseless Edge|p2a: Iron Treads
+|-damage|p2a: Iron Treads|59/100
+|-sidestart|p2: Arcaniner52|Spikes
+|
+|turn|2
+|
+|move|p2a: Iron Treads|Rapid Spin|p1a: Samurott
+|-damage|p1a: Samurott|78/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Arcaniner52|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Samurott|Ceaseless Edge|p2a: Iron Treads
+|-damage|p2a: Iron Treads|17/100
+|-sidestart|p2: Arcaniner52|Spikes
+|
+|turn|3
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-damage|p2a: Roaring Moon|88/100|[from] Spikes
+|turn|4
+|
+|move|p2a: Roaring Moon|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Eelektross|Eelektross, M|100/100|[from] U-turn
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: SchwuchtelSchlepp|move: Light Screen
+|move|p2a: Eelektross|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|78/100
+|-start|p2a: Eelektross|Disable|Volt Switch|[from] ability: Cursed Body|[of] p1a: Dragapult
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100|[from] Volt Switch
+|-damage|p2a: Ceruledge|88/100|[from] Spikes
+|
+|turn|6
+|
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: SchwuchtelSchlepp|Reflect
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|turn|7
+|
+|move|p1a: Dragapult|Curse|p2a: Ceruledge
+|-start|p2a: Ceruledge|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|28/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|2/100
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Dragapult
+|
+|-damage|p2a: Ceruledge|76/100|[from] Curse
+|turn|8
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Ceruledge|51/100|[from] Curse
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p1a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|9
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Ceruledge|Bitter Blade|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|74/100
+|-heal|p2a: Ceruledge|64/100|[from] drain|[of] p1a: Zamazenta
+|
+|-damage|p2a: Ceruledge|39/100|[from] Curse
+|turn|10
+|
+|move|p1a: Zamazenta|Crunch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|turn|11
+|
+|move|p1a: Zamazenta|Body Press|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|
+|switch|p2a: Roaring Moon|Roaring Moon|88/100
+|-damage|p2a: Roaring Moon|75/100|[from] Spikes
+|turn|12
+|
+|move|p1a: Zamazenta|Body Press|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|-sideend|p1: SchwuchtelSchlepp|move: Light Screen
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|-damage|p2a: Espeon|88/100|[from] Spikes
+|turn|13
+|
+|-terastallize|p2a: Espeon|Fire
+|move|p1a: Zamazenta|Body Press|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|-sideend|p1: SchwuchtelSchlepp|Reflect
+|
+|switch|p2a: Greninja|Greninja, M, shiny|100/100
+|-damage|p2a: Greninja|88/100|[from] Spikes
+|turn|14
+|
+|move|p1a: Zamazenta|Body Press|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|win|SchwuchtelSchlepp

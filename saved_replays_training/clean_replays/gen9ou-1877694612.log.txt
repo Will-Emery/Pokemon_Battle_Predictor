@@ -1,0 +1,211 @@
+|poke|p1|Magearna|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Corviknight, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Slowking, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Klefki, M|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Blissey, F|
+|poke|p2|Avalugg-Hisui, F|
+|poke|p2|Pincurchin, F|
+|teampreview
+|
+|start
+|switch|p1a: Slowking|Slowking, F|100/100
+|switch|p2a: jumping cushion|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: jumping cushion
+|turn|1
+|
+|move|p1a: Slowking|Future Sight|p2a: jumping cushion
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: jumping cushion|Zing Zap|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|9/100
+|
+|turn|2
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: jumping cushion|Liquidation|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|44/100
+|-unboost|p1a: Clodsire|def|1
+|
+|-heal|p1a: Clodsire|50/100|[from] item: Black Sludge
+|turn|3
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-terastallize|p2a: jumping cushion|Dark
+|move|p2a: jumping cushion|Liquidation|p1a: Corviknight
+|-damage|p1a: Corviknight|85/100
+|-damage|p2a: jumping cushion|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-end|p2a: jumping cushion|move: Future Sight
+|-immune|p2a: jumping cushion
+|turn|4
+|
+|switch|p1a: Clodsire|Clodsire, M|50/100
+|move|p2a: jumping cushion|Zing Zap|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|-heal|p1a: Clodsire|57/100|[from] item: Black Sludge
+|turn|5
+|
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|move|p2a: jumping cushion|Liquidation|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|42/100
+|
+|-heal|p1a: Clodsire|48/100|[from] item: Black Sludge
+|-fieldend|move: Electric Terrain
+|turn|6
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: jumping cushion|Zing Zap|p1a: Magearna
+|-damage|p1a: Magearna|73/100
+|
+|-heal|p1a: Magearna|79/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: jumping cushion|Curse|p2a: jumping cushion
+|-unboost|p2a: jumping cushion|spe|1
+|-boost|p2a: jumping cushion|atk|1
+|-boost|p2a: jumping cushion|def|1
+|
+|-heal|p1a: Magearna|85/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: jumping cushion|Curse|p2a: jumping cushion
+|-unboost|p2a: jumping cushion|spe|1
+|-boost|p2a: jumping cushion|atk|1
+|-boost|p2a: jumping cushion|def|1
+|
+|-heal|p1a: Magearna|91/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: jumping cushion|Curse|p2a: jumping cushion
+|-unboost|p2a: jumping cushion|spe|1
+|-boost|p2a: jumping cushion|atk|1
+|-boost|p2a: jumping cushion|def|1
+|
+|-heal|p1a: Magearna|97/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: jumping cushion|Zing Zap|p1a: Magearna
+|-damage|p1a: Magearna|35/100
+|
+|-heal|p1a: Magearna|41/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Magearna|Draining Kiss|p2a: jumping cushion
+|-supereffective|p2a: jumping cushion
+|-damage|p2a: jumping cushion|0 fnt
+|-heal|p1a: Magearna|93/100|[from] drain|[of] p2a: jumping cushion
+|faint|p2a: jumping cushion
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|99/100|[from] item: Leftovers
+|
+|switch|p2a: BIissey|Blissey, F|100/100
+|turn|12
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: BIissey|Trick|p1a: Magearna
+|-activate|p2a: BIissey|move: Trick|[of] p1a: Magearna
+|-item|p1a: Magearna|Choice Band|[from] move: Trick
+|-item|p2a: BIissey|Leftovers|[from] move: Trick
+|
+|turn|13
+|
+|move|p1a: Magearna|Stored Power|p2a: BIissey
+|-damage|p2a: BIissey|14/100
+|move|p2a: BIissey|Thunder Wave|p1a: Magearna
+|-status|p1a: Magearna|par
+|
+|-heal|p2a: BIissey|20/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Magearna|Stored Power|p2a: BIissey
+|-damage|p2a: BIissey|0 fnt
+|faint|p2a: BIissey
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: mangina|Klefki, M|100/100
+|turn|15
+|
+|move|p2a: mangina|Calm Mind|p2a: mangina
+|-boost|p2a: mangina|spa|1
+|-boost|p2a: mangina|spd|1
+|move|p1a: Magearna|Stored Power|p2a: mangina
+|-resisted|p2a: mangina
+|-damage|p2a: mangina|0 fnt
+|faint|p2a: mangina
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, F|100/100
+|turn|16
+|
+|move|p1a: Magearna|Stored Power|p2a: Avalugg
+|-ability|p2a: Avalugg|Sturdy
+|-damage|p2a: Avalugg|1/100
+|move|p2a: Avalugg|Mirror Coat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|17
+|
+|move|p1a: Hoopa|Psychic|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|
+|switch|p2a: Sneaslucha|Sneasler, F|100/100
+|turn|18
+|
+|move|p1a: Hoopa|Psychic|p2a: Sneaslucha
+|-supereffective|p2a: Sneaslucha
+|-damage|p2a: Sneaslucha|0 fnt
+|faint|p2a: Sneaslucha
+|
+|
+|switch|p2a: tricken chicken|Decidueye-Hisui, F, shiny|100/100
+|turn|19
+|
+|move|p1a: Hoopa|Psychic|p2a: tricken chicken
+|-supereffective|p2a: tricken chicken
+|-damage|p2a: tricken chicken|15/100
+|move|p2a: tricken chicken|Scary Face|p1a: Hoopa
+|-unboost|p1a: Hoopa|spe|2
+|
+|-heal|p2a: tricken chicken|21/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Hoopa|Psychic|p2a: tricken chicken
+|-supereffective|p2a: tricken chicken
+|-damage|p2a: tricken chicken|0 fnt
+|faint|p2a: tricken chicken
+|
+|win|Usushshsj

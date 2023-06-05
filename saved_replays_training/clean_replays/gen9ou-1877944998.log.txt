@@ -1,0 +1,239 @@
+|poke|p1|Dudunsparce-*, M|
+|poke|p1|Sandaconda, F|
+|poke|p1|Vespiquen, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Glalie, F|
+|poke|p1|Avalugg, F|
+|poke|p2|Iron Hands|
+|poke|p2|Azumarill, M|
+|poke|p2|Toedscruel, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Copperajah, M|
+|poke|p2|Noivern, M|
+|teampreview
+|
+|start
+|switch|p1a: Avalugg|Avalugg, F, shiny|100/100
+|switch|p2a: Rusty|Copperajah, M|100/100
+|turn|1
+|
+|move|p2a: Rusty|Heavy Slam|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|71/100
+|move|p1a: Avalugg|Body Press|p2a: Rusty
+|-supereffective|p2a: Rusty
+|-damage|p2a: Rusty|17/100
+|
+|-heal|p2a: Rusty|23/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Dazzle|Salazzle, F|100/100
+|move|p1a: Avalugg|Recover|p1a: Avalugg
+|-heal|p1a: Avalugg|100/100
+|
+|turn|3
+|
+|switch|p1a: Sandaconda|Sandaconda, F, shiny|100/100
+|move|p2a: Dazzle|Flamethrower|p1a: Sandaconda
+|-damage|p1a: Sandaconda|49/100
+|
+|turn|4
+|
+|switch|p2a: Jetpack|Noivern, M|100/100
+|move|p1a: Sandaconda|Glare|p2a: Jetpack
+|-status|p2a: Jetpack|par
+|
+|turn|5
+|
+|switch|p1a: Glalie|Glalie, F|100/100
+|move|p2a: Jetpack|Draco Meteor|p1a: Glalie
+|-damage|p1a: Glalie|14/100
+|-unboost|p2a: Jetpack|spa|2
+|
+|turn|6
+|
+|switch|p2a: Dazzle|Salazzle, F|100/100
+|move|p1a: Glalie|Ice Spinner|p2a: Dazzle
+|-resisted|p2a: Dazzle
+|-damage|p2a: Dazzle|69/100
+|
+|turn|7
+|
+|move|p2a: Dazzle|Flamethrower|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|8
+|
+|switch|p2a: Cruel Toad|Toedscruel, F|100/100
+|move|p1a: Iron Valiant|Psyshock|p2a: Cruel Toad
+|-damage|p2a: Cruel Toad|56/100
+|
+|turn|9
+|
+|-terastallize|p1a: Iron Valiant|Steel
+|move|p1a: Iron Valiant|Close Combat|p2a: Cruel Toad
+|-damage|p2a: Cruel Toad|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Cruel Toad
+|
+|
+|switch|p2a: Catch These Hands|Iron Hands|100/100
+|turn|10
+|
+|move|p1a: Iron Valiant|Psyshock|p2a: Catch These Hands
+|-supereffective|p2a: Catch These Hands
+|-damage|p2a: Catch These Hands|68/100
+|move|p2a: Catch These Hands|Thunder Punch|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|9/100
+|
+|turn|11
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Sandaconda|Sandaconda, F, shiny|49/100
+|move|p2a: Catch These Hands|Thunder Punch|p1a: Sandaconda
+|-immune|p1a: Sandaconda
+|
+|turn|12
+|
+|move|p1a: Sandaconda|Glare|p2a: Catch These Hands
+|-immune|p2a: Catch These Hands
+|move|p2a: Catch These Hands|Ice Punch|p1a: Sandaconda
+|-supereffective|p1a: Sandaconda
+|-damage|p1a: Sandaconda|7/100
+|
+|turn|13
+|
+|move|p1a: Sandaconda|Zen Headbutt|p2a: Catch These Hands
+|-supereffective|p2a: Catch These Hands
+|-damage|p2a: Catch These Hands|42/100
+|cant|p2a: Catch These Hands|flinch
+|
+|turn|14
+|
+|move|p1a: Sandaconda|Zen Headbutt|p2a: Catch These Hands
+|-supereffective|p2a: Catch These Hands
+|-damage|p2a: Catch These Hands|17/100
+|move|p2a: Catch These Hands|Ice Punch|p1a: Sandaconda
+|-supereffective|p1a: Sandaconda
+|-damage|p1a: Sandaconda|0 fnt
+|faint|p1a: Sandaconda
+|
+|
+|switch|p1a: Vespiquen|Vespiquen, F, shiny|100/100
+|-ability|p1a: Vespiquen|Pressure
+|turn|15
+|
+|-end|p2a: Catch These Hands|Quark Drive|[silent]
+|switch|p2a: Dazzle|Salazzle, F|69/100
+|move|p1a: Vespiquen|Air Slash|p2a: Dazzle
+|-damage|p2a: Dazzle|32/100
+|
+|turn|16
+|
+|move|p2a: Dazzle|Flamethrower|p1a: Vespiquen
+|-supereffective|p1a: Vespiquen
+|-damage|p1a: Vespiquen|23/100
+|move|p1a: Vespiquen|Air Slash|p2a: Dazzle
+|-damage|p2a: Dazzle|0 fnt
+|faint|p2a: Dazzle
+|
+|
+|switch|p2a: Rusty|Copperajah, M|23/100
+|turn|17
+|
+|move|p1a: Vespiquen|U-turn|p2a: Rusty
+|-resisted|p2a: Rusty
+|-damage|p2a: Rusty|13/100
+|
+|switch|p1a: Dudunsparce|Dudunsparce-Three-Segment, M, shiny|100/100|[from] U-turn
+|move|p2a: Rusty|Heavy Slam|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|52/100
+|
+|-heal|p1a: Dudunsparce|58/100|[from] item: Leftovers
+|-heal|p2a: Rusty|19/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Dudunsparce|Boomburst|p2a: Rusty
+|-resisted|p2a: Rusty
+|-damage|p2a: Rusty|0 fnt
+|faint|p2a: Rusty
+|
+|-heal|p1a: Dudunsparce|65/100|[from] item: Leftovers
+|
+|switch|p2a: Jetpack|Noivern, M|100/100 par
+|turn|19
+|
+|move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+|-boost|p1a: Dudunsparce|spa|1
+|-boost|p1a: Dudunsparce|spd|1
+|cant|p2a: Jetpack|par
+|
+|-heal|p1a: Dudunsparce|71/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+|-boost|p1a: Dudunsparce|spa|1
+|-boost|p1a: Dudunsparce|spd|1
+|move|p2a: Jetpack|Draco Meteor|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|40/100
+|-unboost|p2a: Jetpack|spa|2
+|
+|-heal|p1a: Dudunsparce|47/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Dudunsparce|Roost|p1a: Dudunsparce
+|-heal|p1a: Dudunsparce|97/100
+|-singleturn|p1a: Dudunsparce|move: Roost
+|cant|p2a: Jetpack|par
+|
+|-heal|p1a: Dudunsparce|100/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+|-boost|p1a: Dudunsparce|spa|1
+|-boost|p1a: Dudunsparce|spd|1
+|move|p2a: Jetpack|Draco Meteor|p1a: Dudunsparce|[miss]
+|-miss|p2a: Jetpack|p1a: Dudunsparce
+|
+|turn|23
+|
+|switch|p2a: Catch These Hands|Iron Hands|17/100
+|move|p1a: Dudunsparce|Calm Mind|p1a: Dudunsparce
+|-boost|p1a: Dudunsparce|spa|1
+|-boost|p1a: Dudunsparce|spd|1
+|
+|turn|24
+|
+|move|p1a: Dudunsparce|Boomburst|p2a: Catch These Hands
+|-damage|p2a: Catch These Hands|0 fnt
+|faint|p2a: Catch These Hands
+|-end|p2a: Catch These Hands|Quark Drive|[silent]
+|
+|
+|switch|p2a: Jetpack|Noivern, M|100/100 par
+|turn|25
+|
+|move|p1a: Dudunsparce|Boomburst|p2a: Jetpack
+|-damage|p2a: Jetpack|0 fnt
+|faint|p2a: Jetpack
+|
+|
+|switch|p2a: Easter Egg|Azumarill, M|100/100
+|turn|26
+|
+|move|p2a: Easter Egg|Aqua Jet|p1a: Dudunsparce
+|-damage|p1a: Dudunsparce|83/100
+|move|p1a: Dudunsparce|Boomburst|p2a: Easter Egg
+|-crit|p2a: Easter Egg
+|-damage|p2a: Easter Egg|0 fnt
+|faint|p2a: Easter Egg
+|
+|win|Odstin

@@ -1,0 +1,214 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Brambleghast, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Regidrago|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Overqwil, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Overqwil|Overqwil, M|100/100
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Overqwil|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|move|p1a: Pelipper|U-turn|p2a: Overqwil
+|-damage|p2a: Overqwil|93/100
+|-damage|p1a: Pelipper|84/100 tox|[from] item: Rocky Helmet|[of] p2a: Overqwil
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: Basculegion|Hydro Pump|p2a: Overqwil
+|-crit|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|3
+|
+|switch|p1a: Brambleghast|Brambleghast, F|100/100
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Brambleghast
+|-resisted|p1a: Brambleghast
+|-damage|p1a: Brambleghast|84/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Brambleghast|Leech Seed|p2a: Enamorus
+|-start|p2a: Enamorus|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Enamorus|88/100|[from] Leech Seed|[of] p1a: Brambleghast
+|-heal|p1a: Brambleghast|95/100|[silent]
+|turn|5
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|24/100
+|-unboost|p1a: Cresselia|spd|1
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|30/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|8
+|
+|switch|p2a: Regidrago|Regidrago|100/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: Regidrago
+|-damage|p2a: Regidrago|29/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-weather|none
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|9
+|
+|move|p1a: Ursaluna|Facade|p2a: Regidrago
+|-damage|p2a: Regidrago|0 fnt
+|faint|p2a: Regidrago
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|10
+|
+|move|p1a: Ursaluna|Headlong Rush|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|-damage|p1a: Ursaluna|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|11
+|
+|switch|p1a: Brambleghast|Brambleghast, F|95/100
+|-terastallize|p2a: Iron Valiant|Water
+|move|p2a: Iron Valiant|Liquidation|p1a: Brambleghast
+|-resisted|p1a: Brambleghast
+|-damage|p1a: Brambleghast|61/100
+|
+|turn|12
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p1a: Brambleghast|Leech Seed|p2a: Arcanine
+|-start|p2a: Arcanine|move: Leech Seed
+|
+|-damage|p2a: Arcanine|88/100|[from] Leech Seed|[of] p1a: Brambleghast
+|-heal|p1a: Brambleghast|74/100|[silent]
+|turn|13
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Brambleghast
+|-supereffective|p1a: Brambleghast
+|-damage|p1a: Brambleghast|0 fnt
+|faint|p1a: Brambleghast
+|
+|
+|switch|p1a: Pelipper|Pelipper, M|84/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|14
+|
+|switch|p2a: Enamorus|Enamorus, F|88/100
+|move|p1a: Pelipper|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|84/100
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|move|p1a: Basculegion|Hydro Pump|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Iron Valiant|Iron Valiant, tera:Water|100/100
+|turn|16
+|
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|87/100
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Dragonite|Draco Meteor|p2a: Iron Valiant|[miss]
+|-miss|p1a: Dragonite|p2a: Iron Valiant
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|move|p2a: Iron Valiant|Liquidation|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|12/100
+|move|p1a: Dragonite|Draco Meteor|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Dragonite|spa|2
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|88/100
+|turn|19
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|turn|20
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Basculegion
+|-immune|p1a: Basculegion
+|move|p1a: Basculegion|Chilling Water|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|win|itaintthathard

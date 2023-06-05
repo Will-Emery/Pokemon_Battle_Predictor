@@ -1,0 +1,211 @@
+|poke|p1|Skeledirge, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Amoonguss, F|
+|poke|p1|Great Tusk|
+|poke|p1|Sneasler, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Sneasler, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Hydreigon, F|
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Slowking
+|-status|p2a: Slowking|par
+|
+|turn|2
+|
+|move|p1a: Rotom|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|85/100 par
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100|[from] Volt Switch
+|move|p2a: Slowking|Future Sight|p1a: Amoonguss
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|91/100 par|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|move|p1a: Rotom|Thunder Wave||[still]
+|-fail|p1a: Rotom
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Rotom|move: Future Sight
+|-damage|p1a: Rotom|67/100
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|-heal|p1a: Rotom|73/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Rotom|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100|[from] Volt Switch
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|turn|6
+|
+|-terastallize|p1a: Skeledirge|Fairy
+|move|p2a: Hydreigon|Dark Pulse|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|86/100
+|move|p1a: Skeledirge|Torch Song|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|72/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Hydreigon|78/100|[from] item: Leftovers
+|turn|7
+|
+|-terastallize|p2a: Hydreigon|Poison
+|move|p2a: Hydreigon|Tera Blast|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|29/100
+|move|p1a: Skeledirge|Torch Song|p2a: Hydreigon
+|-damage|p2a: Hydreigon|30/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-weather|none
+|-heal|p2a: Hydreigon|36/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Hydreigon|Tera Blast|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-heal|p2a: Hydreigon|42/100|[from] item: Leftovers
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|50/100
+|cant|p1a: Great Tusk|flinch
+|
+|-heal|p2a: Hydreigon|48/100|[from] item: Leftovers
+|-heal|p1a: Great Tusk|56/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|3/100
+|cant|p1a: Great Tusk|flinch
+|
+|-heal|p2a: Hydreigon|55/100|[from] item: Leftovers
+|-heal|p1a: Great Tusk|10/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Hydreigon|61/100|[from] item: Leftovers
+|
+|switch|p1a: Rotom|Rotom-Wash|73/100
+|turn|12
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|12/100
+|move|p1a: Rotom|Volt Switch|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|
+|-heal|p2a: Hydreigon|67/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Iron Valiant|Psyshock|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|3/100
+|move|p2a: Hydreigon|Tera Blast|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Hydreigon|9/100|[from] item: Leftovers
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|14
+|
+|move|p1a: Sneasler|Close Combat|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|faint|p2a: Hydreigon
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|15
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Great Tusk|Headlong Rush|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p2a: Great Tusk|Eject Pack
+|faint|p1a: Sneasler
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 par
+|
+|
+|switch|p1a: Rotom|Rotom-Wash|12/100
+|turn|16
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Slowking
+|-damage|p2a: Slowking|78/100 par
+|move|p2a: Slowking|Sludge Bomb|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Slowking|84/100 par|[from] item: Leftovers
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|turn|17
+|
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Slowking
+|-resisted|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|72/100 par
+|move|p2a: Slowking|Future Sight|p1a: Amoonguss
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|78/100 par|[from] item: Leftovers
+|turn|18
+|-message|RokRoh forfeited.
+|
+|win|islamichorserace95

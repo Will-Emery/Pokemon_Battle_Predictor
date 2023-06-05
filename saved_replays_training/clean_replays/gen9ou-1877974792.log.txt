@@ -1,0 +1,32 @@
+|poke|p1|Kleavor, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Hippowdon, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Gholdengo|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Volcanion|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F, shiny|100/100
+|switch|p2a: Decidueye|Decidueye-Hisui, M|100/100
+|turn|1
+|
+|move|p1a: Kleavor|U-turn|p2a: Decidueye
+|-damage|p2a: Decidueye|48/100
+|
+|switch|p1a: Kingambit|Kingambit, F, shiny|100/100|[from] U-turn
+|move|p2a: Decidueye|Triple Arrows|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-message|zanitos forfeited.
+|
+|win|riolu2309

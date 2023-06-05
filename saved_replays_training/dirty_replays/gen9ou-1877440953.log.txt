@@ -1,1 +1,230 @@
-Could not connect
+|j|☆magalodon
+|j|☆Kalen80
+|t:|1685861381
+|gametype|singles
+|player|p1|magalodon|101|1127
+|player|p2|Kalen80|swimmer-gen4dp|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Jolteon, F|
+|poke|p1|Slowking, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Gholdengo|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Kleavor, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Slowking, M|
+|poke|p2|Dudunsparce-*, F|
+|poke|p2|Orthworm, M|
+|teampreview
+|
+|t:|1685861400
+|start
+|switch|p1a: Slowking|Slowking, F|100/100
+|switch|p2a: Slowking|Slowking, M|100/100
+|turn|1
+|
+|t:|1685861410
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|upkeep
+|turn|2
+|
+|t:|1685861418
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|t:|1685861424
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100|[from] Chilly Reception
+|move|p1a: Slowking|Surf|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|89/100
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685861432
+|move|p1a: Slowking|Protect|p1a: Slowking
+|-singleturn|p1a: Slowking|Protect
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Goodra|move: Future Sight
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|73/100
+|upkeep
+|turn|4
+|
+|t:|1685861448
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|move|p1a: Slowking|Future Sight|p2a: Goodra
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685861451
+|move|p2a: Goodra|Dragon Claw|p1a: Slowking
+|-damage|p1a: Slowking|44/100
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1685861462
+|switch|p1a: Kleavor|Kleavor, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1685861476
+|move|p1a: Kleavor|Stone Axe|p2a: Goodra
+|-resisted|p2a: Goodra
+|-crit|p2a: Goodra
+|-damage|p2a: Goodra|40/100
+|-sidestart|p2: Kalen80|move: Stealth Rock
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Kleavor|spe|1
+|move|p2a: Goodra|Dragon Claw|p1a: Kleavor
+|-damage|p1a: Kleavor|35/100
+|
+|-weather|none
+|-end|p2a: Goodra|move: Future Sight
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|24/100
+|upkeep
+|turn|7
+|
+|t:|1685861486
+|move|p1a: Kleavor|X-Scissor|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|12/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Kleavor|spe|1
+|move|p2a: Goodra|Rest|p2a: Goodra
+|-status|p2a: Goodra|slp|[from] move: Rest
+|-heal|p2a: Goodra|100/100 slp|[silent]
+|
+|upkeep
+|turn|8
+|
+|t:|1685861496
+|move|p1a: Kleavor|Night Slash|p2a: Goodra
+|-damage|p2a: Goodra|84/100 slp
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Kleavor|spe|1
+|cant|p2a: Goodra|slp
+|move|p2a: Goodra|Sleep Talk|p2a: Goodra
+|move|p2a: Goodra|Curse|p2a: Goodra|[from]move: Sleep Talk
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|upkeep
+|turn|9
+|
+|t:|1685861513
+|switch|p1a: Slowking|Slowking, F|77/100
+|cant|p2a: Goodra|slp
+|move|p2a: Goodra|Sleep Talk|p2a: Goodra
+|move|p2a: Goodra|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Goodra
+|
+|-heal|p1a: Slowking|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685861521
+|move|p1a: Slowking|Future Sight|p2a: Goodra
+|-start|p1a: Slowking|move: Future Sight
+|-curestatus|p2a: Goodra|slp|[msg]
+|move|p2a: Goodra|Dragon Claw|p1a: Slowking
+|-damage|p1a: Slowking|7/100
+|
+|-heal|p1a: Slowking|13/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685861533
+|move|p1a: Slowking|Surf|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|72/100
+|move|p2a: Goodra|Dragon Claw|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1685861552
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|turn|12
+|
+|t:|1685861559
+|-terastallize|p1a: Jolteon|Ice
+|move|p1a: Jolteon|Tera Blast|p2a: Goodra
+|-damage|p2a: Goodra|36/100
+|-damage|p1a: Jolteon|91/100|[from] item: Life Orb
+|move|p2a: Goodra|Dragon Claw|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-end|p2a: Goodra|move: Future Sight
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|22/100
+|upkeep
+|
+|t:|1685861571
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|13
+|
+|t:|1685861576
+|move|p1a: Gholdengo|Make It Rain|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1685861584
+|switch|p2a: Dudunsparce|Dudunsparce, F|100/100
+|-damage|p2a: Dudunsparce|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1685861598
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p2a: Dudunsparce|Fire Blast|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|upkeep
+|-message|magalodon forfeited.
+|
+|win|Kalen80
+|raw|magalodon's rating: 1127 → 1098(-29 for losing)
+|raw|Kalen80's rating: 1067 → 1102(+35 for winning)
+|l|☆magalodon

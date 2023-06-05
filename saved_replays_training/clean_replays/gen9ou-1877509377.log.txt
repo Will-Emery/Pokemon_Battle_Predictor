@@ -1,0 +1,155 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Breloom, F|
+|poke|p1|Baxcalibur, M|
+|poke|p1|Great Tusk|
+|poke|p1|Magearna|
+|poke|p1|Zamazenta-*|
+|poke|p2|Dragapult, M|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Breloom|Breloom, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Breloom|[miss]
+|-miss|p2a: Dragapult|p1a: Breloom
+|move|p1a: Breloom|Spore|p2a: Dragapult
+|-status|p2a: Dragapult|slp|[from] move: Spore
+|
+|turn|2
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Breloom|Bullet Seed|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|93/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|85/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|77/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|69/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|62/100
+|-hitcount|p2a: Zapdos|5
+|
+|turn|3
+|
+|move|p1a: Breloom|Bullet Seed|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|54/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|47/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|40/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|31/100
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|24/100
+|-hitcount|p2a: Zapdos|5
+|move|p2a: Zapdos|Volt Switch|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|71/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|turn|4
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Breloom|Bullet Seed|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|96/100
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|91/100
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|87/100
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|83/100
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|78/100
+|-hitcount|p2a: Heatran|5
+|
+|-heal|p2a: Heatran|85/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100 slp
+|move|p1a: Breloom|Bulldoze|p2a: Dragapult
+|-damage|p2a: Dragapult|65/100 slp
+|-unboost|p2a: Dragapult|spe|1
+|
+|turn|6
+|
+|cant|p2a: Dragapult|slp
+|move|p1a: Breloom|Bullet Seed|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|55/100 slp
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|43/100 slp
+|-start|p1a: Breloom|Disable|Bullet Seed|[from] ability: Cursed Body|[of] p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|33/100 slp
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|23/100 slp
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|11/100 slp
+|-hitcount|p2a: Dragapult|5
+|
+|turn|7
+|
+|cant|p2a: Dragapult|slp
+|move|p1a: Breloom|Bulldoze|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|move|p1a: Breloom|Mach Punch|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Zapdos|Zapdos|24/100
+|turn|9
+|
+|move|p1a: Breloom|Spore|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Spore
+|cant|p2a: Zapdos|slp
+|
+|-end|p1a: Breloom|Disable
+|turn|10
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Breloom|Bullet Seed|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|90/100
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|79/100
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|69/100
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|60/100
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|49/100
+|-hitcount|p2a: Magearna|5
+|
+|-heal|p2a: Magearna|55/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Breloom|Bulldoze|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-message|li dream forfeited.
+|
+|win|yiyiha

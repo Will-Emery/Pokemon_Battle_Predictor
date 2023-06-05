@@ -1,0 +1,194 @@
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p2|Jolteon, M|
+|poke|p2|Great Tusk|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Muk-Alola, F|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: baked|Torkoal, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: baked
+|turn|1
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: baked
+|-start|p1a: baked|move: Taunt
+|cant|p1a: baked|move: Taunt|Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Hafs|move: Light Screen
+|move|p1a: baked|Lava Plume|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p1a: cloud|Arcanine-Hisui, M|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Hafs|Reflect
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p2a: Grimmsnarl|Parting Shot|p1a: cloud
+|-unboost|p1a: cloud|atk|1
+|-unboost|p1a: cloud|spa|1
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Parting Shot
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: cloud|Head Smash|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|98/100
+|-damage|p1a: cloud|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: plug|Hatterene, F|100/100
+|-item|p1a: plug|Air Balloon
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: plug|Nuzzle|p2a: Magearna
+|-damage|p2a: Magearna|99/100
+|-status|p2a: Magearna|par
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|switch|p1a: baked|Torkoal, M|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: baked|Stealth Rock|p2a: Magearna
+|-sidestart|p2: Hafs|move: Stealth Rock
+|
+|-weather|none
+|turn|9
+|
+|cant|p2a: Magearna|par
+|move|p1a: baked|Lava Plume|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|86/100 par
+|-enditem|p2a: Magearna|Weakness Policy
+|-boost|p2a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Magearna|spa|2|[from] item: Weakness Policy
+|
+|-sideend|p2: Hafs|move: Light Screen
+|turn|10
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: baked|Lava Plume|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|60/100 par
+|
+|-sideend|p2: Hafs|Reflect
+|turn|11
+|
+|move|p2a: Magearna|Stored Power|p1a: baked
+|-damage|p1a: baked|0 fnt
+|faint|p1a: baked
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: bong water|Walking Wake|100/100
+|turn|12
+|
+|-terastallize|p1a: bong water|Steel
+|move|p2a: Magearna|Draining Kiss|p1a: bong water
+|-resisted|p1a: bong water
+|-damage|p1a: bong water|61/100
+|-heal|p2a: Magearna|88/100 par|[from] drain|[of] p1a: bong water
+|move|p1a: bong water|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|38/100 par
+|
+|turn|13
+|
+|move|p2a: Magearna|Stored Power|p1a: bong water
+|-resisted|p1a: bong water
+|-damage|p1a: bong water|0 fnt
+|faint|p1a: bong water
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: bong water|Protosynthesis|[silent]
+|
+|
+|switch|p1a: cloud|Arcanine-Hisui, M|91/100
+|turn|14
+|
+|move|p2a: Magearna|Stored Power|p1a: cloud
+|-damage|p1a: cloud|0 fnt
+|faint|p1a: cloud
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: ganja|Lilligant-Hisui, F|100/100
+|turn|15
+|
+|move|p2a: Magearna|Draining Kiss|p1a: ganja
+|-supereffective|p1a: ganja
+|-damage|p1a: ganja|0 fnt
+|-heal|p2a: Magearna|96/100 par|[from] drain|[of] p1a: ganja
+|faint|p1a: ganja
+|
+|
+|switch|p1a: plug|Hatterene, F|100/100
+|-item|p1a: plug|Air Balloon
+|turn|16
+|
+|cant|p2a: Magearna|par
+|move|p1a: plug|Psychic|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|85/100 par
+|
+|turn|17
+|
+|move|p2a: Magearna|Stored Power|p1a: plug
+|-resisted|p1a: plug
+|-damage|p1a: plug|0 fnt
+|-enditem|p1a: plug|Air Balloon
+|faint|p1a: plug
+|
+|
+|switch|p1a: narc|Great Tusk|100/100
+|turn|18
+|
+|-terastallize|p2a: Magearna|Ground
+|move|p2a: Magearna|Draining Kiss|p1a: narc
+|-supereffective|p1a: narc
+|-damage|p1a: narc|0 fnt
+|-heal|p2a: Magearna|100/100 par|[from] drain|[of] p1a: narc
+|faint|p1a: narc
+|-end|p1a: narc|Protosynthesis|[silent]
+|
+|win|Hafs

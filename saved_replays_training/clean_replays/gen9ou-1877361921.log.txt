@@ -1,0 +1,235 @@
+|poke|p1|Kleavor, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Iron Treads|
+|poke|p1|Rabsca, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Tauros-Paldea-Aqua, M|
+|poke|p2|Heatran, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Volcanion|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Smoker|Volcanion|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Smoker|Steam Eruption|p1a: Pelipper|[miss]
+|-miss|p2a: Smoker|p1a: Pelipper
+|move|p1a: Pelipper|Hurricane|p2a: Smoker
+|-damage|p2a: Smoker|65/100
+|-start|p2a: Smoker|confusion
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|-activate|p2a: Smoker|confusion
+|-damage|p2a: Smoker|58/100|[from] confusion
+|move|p1a: Pelipper|Hurricane|p2a: Smoker
+|-damage|p2a: Smoker|18/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|-activate|p2a: Smoker|confusion
+|-damage|p2a: Smoker|12/100|[from] confusion
+|move|p1a: Pelipper|Hurricane|p2a: Smoker
+|-damage|p2a: Smoker|0 fnt
+|faint|p2a: Smoker
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chien Peasy|Chien-Pao|100/100
+|-ability|p2a: Chien Peasy|Sword of Ruin
+|turn|4
+|
+|move|p2a: Chien Peasy|Crunch|p1a: Pelipper
+|-damage|p1a: Pelipper|36/100
+|-unboost|p1a: Pelipper|def|1
+|move|p1a: Pelipper|U-turn|p2a: Chien Peasy
+|-supereffective|p2a: Chien Peasy
+|-damage|p2a: Chien Peasy|78/100
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: Meat pt. 2|Tauros-Paldea-Aqua, M|100/100
+|-ability|p2a: Meat pt. 2|Intimidate|boost
+|-unboost|p1a: Basculegion|atk|1
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Meat pt. 2
+|-resisted|p2a: Meat pt. 2
+|-damage|p2a: Meat pt. 2|60/100
+|-damage|p1a: Basculegion|84/100|[from] item: Rocky Helmet|[of] p2a: Meat pt. 2
+|-damage|p1a: Basculegion|72/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Meat pt. 2
+|-resisted|p2a: Meat pt. 2
+|-damage|p2a: Meat pt. 2|16/100
+|-damage|p1a: Basculegion|55/100|[from] item: Rocky Helmet|[of] p2a: Meat pt. 2
+|-damage|p1a: Basculegion|41/100|[from] Recoil
+|move|p2a: Meat pt. 2|Body Press|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|7
+|
+|switch|p2a: Landy Manny|Landorus-Therian, M|100/100
+|-ability|p2a: Landy Manny|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Hurricane|p2a: Landy Manny
+|-damage|p2a: Landy Manny|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landy Manny|63/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Buckwild|Heatran, F, shiny|100/100
+|move|p1a: Dragonite|Hydro Pump|p2a: Buckwild
+|-supereffective|p2a: Buckwild
+|-damage|p2a: Buckwild|32/100
+|
+|-weather|none
+|-heal|p2a: Buckwild|38/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Dragonite|Hydro Pump|p2a: Buckwild
+|-supereffective|p2a: Buckwild
+|-damage|p2a: Buckwild|0 fnt
+|faint|p2a: Buckwild
+|
+|
+|switch|p2a: Chien Peasy|Chien-Pao|78/100
+|-ability|p2a: Chien Peasy|Sword of Ruin
+|turn|10
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-terastallize|p2a: Chien Peasy|Ice
+|move|p2a: Chien Peasy|Ice Spinner|p1a: Iron Treads
+|-damage|p1a: Iron Treads|1/100
+|
+|turn|11
+|
+|move|p2a: Chien Peasy|Ice Spinner|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Rabsca|Rabsca, F|100/100
+|turn|12
+|
+|move|p2a: Chien Peasy|Ice Spinner|p1a: Rabsca
+|-enditem|p1a: Rabsca|Focus Sash
+|-damage|p1a: Rabsca|1/100
+|move|p1a: Rabsca|Trick Room|p1a: Rabsca
+|-fieldstart|move: Trick Room|[of] p1a: Rabsca
+|
+|turn|13
+|
+|move|p1a: Rabsca|Revival Blessing|p1a: Rabsca
+|
+|-heal|p1: Basculegion|50/100|[from] move: Revival Blessing
+|move|p2a: Chien Peasy|Ice Spinner|p1a: Rabsca
+|-damage|p1a: Rabsca|0 fnt
+|faint|p1a: Rabsca
+|
+|
+|switch|p1a: Pelipper|Pelipper, F|36/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|14
+|
+|switch|p2a: ocky|Iron Treads|100/100
+|-enditem|p2a: ocky|Booster Energy
+|-activate|p2a: ocky|ability: Quark Drive|[fromitem]
+|-start|p2a: ocky|quarkdrivespe
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|87/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|-end|p2a: ocky|Quark Drive|[silent]
+|switch|p2a: Meat pt. 2|Tauros-Paldea-Aqua, M|16/100
+|-ability|p2a: Meat pt. 2|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|move|p1a: Pelipper|Hydro Pump|p2a: Meat pt. 2
+|-resisted|p2a: Meat pt. 2
+|-damage|p2a: Meat pt. 2|0 fnt
+|faint|p2a: Meat pt. 2
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Landy Manny|Landorus-Therian, M|63/100
+|-ability|p2a: Landy Manny|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|turn|16
+|
+|move|p1a: Pelipper|Hydro Pump|p2a: Landy Manny
+|-supereffective|p2a: Landy Manny
+|-crit|p2a: Landy Manny
+|-damage|p2a: Landy Manny|0 fnt
+|faint|p2a: Landy Manny
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Chien Peasy|Chien-Pao, tera:Ice|78/100
+|-ability|p2a: Chien Peasy|Sword of Ruin
+|turn|17
+|
+|move|p2a: Chien Peasy|Ice Spinner|p1a: Pelipper
+|-damage|p1a: Pelipper|12/100
+|move|p1a: Pelipper|Hurricane|p2a: Chien Peasy
+|-damage|p2a: Chien Peasy|17/100
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|move|p2a: Chien Peasy|Ice Spinner|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M|50/100
+|turn|19
+|
+|switch|p2a: ocky|Iron Treads|100/100
+|move|p1a: Basculegion|Aqua Jet|p2a: ocky
+|-supereffective|p2a: ocky
+|-damage|p2a: ocky|12/100
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|move|p1a: Basculegion|Aqua Jet|p2a: ocky
+|-supereffective|p2a: ocky
+|-damage|p2a: ocky|0 fnt
+|faint|p2a: ocky
+|-end|p2a: ocky|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chien Peasy|Chien-Pao, tera:Ice|17/100
+|-ability|p2a: Chien Peasy|Sword of Ruin
+|turn|21
+|
+|move|p1a: Basculegion|Aqua Jet|p2a: Chien Peasy
+|-damage|p2a: Chien Peasy|0 fnt
+|faint|p2a: Chien Peasy
+|
+|win|LowELOtest

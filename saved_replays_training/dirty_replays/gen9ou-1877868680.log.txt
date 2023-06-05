@@ -1,1 +1,356 @@
-Could not connect
+|j|☆Abclutch
+|j|☆Pricejvl
+|t:|1685917403
+|gametype|singles
+|player|p1|Abclutch|265|1295
+|player|p2|Pricejvl|169|1331
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Heatran, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Treads|
+|poke|p2|Ursaluna, F|
+|poke|p2|Magearna|
+|poke|p2|Cresselia, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Slowking, M|
+|poke|p2|Hoopa-Unbound|
+|teampreview
+|
+|t:|1685917410
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Ziz|Hatterene, F|100/100
+|turn|1
+|
+|t:|1685917416
+|move|p1a: Samurott|Ceaseless Edge|p2a: Ziz
+|-damage|p2a: Ziz|50/100
+|-sidestart|p2: Pricejvl|Spikes
+|move|p2a: Ziz|Trick Room|p2a: Ziz
+|-fieldstart|move: Trick Room|[of] p2a: Ziz
+|
+|upkeep
+|turn|2
+|
+|t:|1685917422
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Ziz|Dazzling Gleam|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|89/100
+|
+|upkeep
+|turn|3
+|l|☆Abclutch
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pricejvl)
+|inactive|Abclutch has 30 seconds to reconnect!
+|j|☆Abclutch
+|inactive|Abclutch reconnected and has 115 seconds left.
+|player|p1|Abclutch|265
+|
+|t:|1685917514
+|move|p2a: Ziz|Healing Wish|p2a: Ziz
+|faint|p2a: Ziz
+|move|p1a: Heatran|Magma Storm|p2: Ziz|[notarget]
+|-fail|p1a: Heatran
+|
+|upkeep
+|
+|t:|1685917521
+|switch|p2a: Zing|Ursaluna, F|100/100
+|-damage|p2a: Zing|88/100|[from] Spikes
+|turn|4
+|
+|t:|1685917530
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zing|atk|1
+|move|p2a: Zing|Swords Dance|p2a: Zing
+|-boost|p2a: Zing|atk|2
+|
+|-status|p2a: Zing|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1685917540
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Zing|Facade|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-damage|p2a: Zing|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1685917550
+|switch|p2a: Zuzu|Slowking, M|100/100
+|-damage|p2a: Zuzu|88/100|[from] Spikes
+|move|p1a: Dragapult|U-turn|p2a: Zuzu
+|-supereffective|p2a: Zuzu
+|-damage|p2a: Zuzu|56/100
+|
+|t:|1685917556
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1685917562
+|switch|p2a: Zaza|Magearna|100/100
+|-damage|p2a: Zaza|88/100|[from] Spikes
+|move|p1a: Samurott|Taunt|p2a: Zaza
+|-start|p2a: Zaza|move: Taunt
+|
+|upkeep
+|turn|8
+|
+|t:|1685917570
+|switch|p1a: Heatran|Heatran, F|89/100
+|move|p2a: Zaza|Aura Sphere|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|29/100
+|
+|upkeep
+|turn|9
+|
+|t:|1685917580
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zaza|atk|1
+|move|p2a: Zaza|Aura Sphere|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|83/100
+|
+|-end|p2a: Zaza|move: Taunt
+|upkeep
+|turn|10
+|
+|t:|1685917586
+|move|p1a: Landorus|Earthquake|p2a: Zaza
+|-supereffective|p2a: Zaza
+|-enditem|p2a: Zaza|Shuca Berry|[eat]
+|-enditem|p2a: Zaza|Shuca Berry|[weaken]
+|-damage|p2a: Zaza|49/100
+|move|p2a: Zaza|Trick Room|p2a: Zaza
+|-fieldstart|move: Trick Room|[of] p2a: Zaza
+|
+|upkeep
+|turn|11
+|
+|t:|1685917607
+|switch|p1a: Heatran|Heatran, F|29/100
+|move|p2a: Zaza|Fleur Cannon|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|11/100
+|-unboost|p2a: Zaza|spa|2
+|
+|upkeep
+|turn|12
+|
+|t:|1685917612
+|move|p2a: Zaza|Fleur Cannon|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|1/100
+|-unboost|p2a: Zaza|spa|2
+|move|p1a: Heatran|Magma Storm|p2a: Zaza|[miss]
+|-miss|p1a: Heatran|p2a: Zaza
+|
+|upkeep
+|turn|13
+|l|☆Abclutch
+|inactive|Abclutch disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Abclutch
+|inactive|Abclutch reconnected and has 120 seconds left.
+|player|p1|Abclutch|265
+|
+|t:|1685917657
+|move|p2a: Zaza|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Zaza|Soul-Heart|boost
+|-boost|p2a: Zaza|spa|1
+|
+|t:|1685917666
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100|[from] Volt Switch
+|-damage|p2a: Hoopa|88/100|[from] Spikes
+|
+|upkeep
+|
+|t:|1685917670
+|switch|p1a: Landorus|Landorus-Therian, M|83/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hoopa|atk|1
+|turn|14
+|
+|t:|1685917677
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Hoopa|Psychic|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|53/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|inactive|Abclutch has 120 seconds left.
+|
+|t:|1685917693
+|move|p1a: Iron Treads|Earthquake|p2a: Hoopa
+|-damage|p2a: Hoopa|19/100
+|move|p2a: Hoopa|Trick Room|p2a: Hoopa
+|-fieldstart|move: Trick Room|[of] p2a: Hoopa
+|
+|upkeep
+|turn|16
+|
+|t:|1685917702
+|move|p2a: Hoopa|Dark Pulse|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685917710
+|switch|p1a: Landorus|Landorus-Therian, M|83/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hoopa|atk|1
+|turn|17
+|
+|t:|1685917725
+|move|p2a: Hoopa|Dark Pulse|p1a: Landorus
+|-damage|p1a: Landorus|21/100
+|cant|p1a: Landorus|flinch
+|
+|upkeep
+|turn|18
+|c|☆Abclutch|Bruh
+|inactive|Abclutch has 120 seconds left.
+|c|☆Abclutch|losing yo broken troom only because of rng
+|c|☆Abclutch|we hate to see it
+|
+|t:|1685917765
+|move|p2a: Hoopa|Dark Pulse|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1685917773
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|19
+|
+|t:|1685917778
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Hoopa|Dark Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685917788
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|20
+|
+|t:|1685917791
+|move|p1a: Samurott|Ceaseless Edge|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|-sidestart|p2: Pricejvl|Spikes
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1685917794
+|switch|p2a: Zaza|Magearna|49/100
+|-heal|p2a: Zaza|100/100|[from] move: Healing Wish
+|-damage|p2a: Zaza|84/100|[from] Spikes
+|turn|21
+|inactive|Abclutch has 120 seconds left.
+|inactive|Abclutch has 90 seconds left.
+|c|☆Abclutch|Ok
+|c|☆Abclutch|ik confused what just happend
+|c|☆Pricejvl|Lol
+|c|☆Pricejvl|Healing wish...
+|inactive|Abclutch has 60 seconds left.
+|c|☆Abclutch|Who though
+|inactive|Abclutch has 30 seconds left.
+|c|☆Abclutch|Hoe
+|c|☆Abclutch|how*
+|inactive|Abclutch has 20 seconds left.
+|inactive|Abclutch has 15 seconds left.
+|inactive|Abclutch has 10 seconds left.
+|
+|t:|1685917913
+|-terastallize|p1a: Samurott|Ghost
+|move|p1a: Samurott|Razor Shell|p2a: Zaza
+|-damage|p2a: Zaza|38/100
+|move|p2a: Zaza|Trick Room|p2a: Zaza
+|-fieldstart|move: Trick Room|[of] p2a: Zaza
+|
+|upkeep
+|turn|22
+|inactive|Abclutch has 20 seconds left this turn.
+|c|☆Pricejvl|Because it's the skill
+|inactive|Abclutch has 15 seconds left.
+|c|☆Pricejvl|It works like that
+|inactive|Abclutch has 10 seconds left.
+|
+|t:|1685917926
+|move|p2a: Zaza|Fleur Cannon|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-unboost|p2a: Zaza|spa|2
+|faint|p1a: Samurott
+|-ability|p2a: Zaza|Soul-Heart|boost
+|-boost|p2a: Zaza|spa|1
+|
+|upkeep
+|inactive|Abclutch has 15 seconds left this turn.
+|
+|t:|1685917929
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|23
+|inactive|Abclutch has 25 seconds left this turn.
+|inactive|Abclutch has 20 seconds left.
+|inactive|Abclutch has 15 seconds left.
+|c|☆Abclutch|What skill?
+|inactive|Abclutch has 10 seconds left.
+|c|☆Pricejvl|Healing wish
+|inactive|Abclutch has 5 seconds left.
+|
+|t:|1685917952
+|move|p1a: Meowscarada|Sucker Punch|p2a: Zaza
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-resisted|p2a: Zaza
+|-damage|p2a: Zaza|24/100
+|move|p2a: Zaza|Fleur Cannon|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-crit|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Zaza|spa|2
+|faint|p1a: Meowscarada
+|
+|win|Pricejvl
+|inactive|Abclutch has 10 seconds left this turn.
+|raw|Abclutch's rating: 1295 → 1273(-22 for losing)
+|raw|Pricejvl's rating: 1331 → 1349(+18 for winning)
+|l|☆Pricejvl

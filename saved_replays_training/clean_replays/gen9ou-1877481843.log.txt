@@ -1,0 +1,33 @@
+|poke|p1|Iron Valiant|
+|poke|p1|Sneasler, F|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Roaring Moon|
+|poke|p1|Ursaluna, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Delphox, F|
+|poke|p2|Gholdengo|
+|poke|p2|Sneasler, M|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|1
+|
+|switch|p2a: Delphox|Delphox, F|100/100
+|move|p1a: Sneasler|Fake Out|p2a: Delphox
+|-enditem|p1a: Sneasler|Normal Gem|[from] gem
+|-damage|p2a: Delphox|64/100
+|
+|turn|2
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|-message|lizardx3 forfeited.
+|
+|win|Welcometoearth420

@@ -1,0 +1,297 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, F|
+|poke|p1|Zapdos|
+|poke|p1|Sneasler, F|
+|poke|p2|Sandy Shocks|
+|poke|p2|Slither Wing|
+|poke|p2|Toxapex, F|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|-terastallize|p2a: Sandy Shocks|Fairy
+|move|p2a: Sandy Shocks|Tera Blast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|2
+|
+|move|p1a: Sneasler|Fake Out|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|86/100
+|cant|p2a: Sandy Shocks|flinch
+|
+|turn|3
+|
+|-terastallize|p1a: Sneasler|Dark
+|move|p2a: Sandy Shocks|Volt Switch|p1a: Sneasler
+|-damage|p1a: Sneasler|57/100
+|
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from] Volt Switch
+|move|p1a: Sneasler|Dire Claw|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|
+|turn|4
+|
+|move|p1a: Sneasler|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|73/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p2a: Toxapex|Infestation|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|98/100
+|-activate|p1a: Great Tusk|move: Infestation|[of] p2a: Toxapex
+|-damage|p2a: Toxapex|57/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-damage|p1a: Great Tusk|85/100|[from] move: Infestation|[partiallytrapped]
+|turn|5
+|
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Slither Wing
+|-resisted|p2a: Slither Wing
+|-damage|p2a: Slither Wing|85/100
+|-enditem|p2a: Slither Wing|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-end|p1a: Great Tusk|Infestation|[partiallytrapped]|[silent]
+|turn|6
+|
+|move|p2a: Slither Wing|Will-O-Wisp|p1a: Great Tusk|[miss]
+|-miss|p2a: Slither Wing|p1a: Great Tusk
+|move|p1a: Great Tusk|Stealth Rock|p2a: Slither Wing
+|-sidestart|p2: SKaxe×|move: Stealth Rock
+|
+|turn|7
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Slither Wing|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Slither Wing|def|1
+|-unboost|p2a: Slither Wing|spd|1
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|8
+|
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Sandy Shocks|Sandy Shocks, tera:Fairy|86/100
+|-damage|p2a: Sandy Shocks|73/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|28/100
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100|[from] Volt Switch
+|
+|turn|9
+|
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, F|90/100
+|-damage|p2a: Toxapex|78/100|[from] Stealth Rock
+|move|p1a: Samurott|Sucker Punch||[still]
+|-fail|p1a: Samurott
+|
+|turn|10
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Toxapex|Sludge Bomb|p1a: Zapdos
+|-damage|p1a: Zapdos|71/100
+|-status|p1a: Zapdos|psn
+|
+|-damage|p1a: Zapdos|58/100 psn|[from] psn
+|turn|11
+|
+|switch|p2a: Sandy Shocks|Sandy Shocks, tera:Fairy|28/100
+|-damage|p2a: Sandy Shocks|15/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|switch|p1a: Sneasler|Sneasler, F, tera:Dark|57/100|[from] Volt Switch
+|
+|
+|switch|p2a: Slither Wing|Slither Wing|85/100
+|-damage|p2a: Slither Wing|73/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Zapdos|Zapdos|58/100 psn
+|move|p2a: Slither Wing|Morning Sun|p2a: Slither Wing
+|-heal|p2a: Slither Wing|100/100
+|
+|-damage|p1a: Zapdos|46/100 psn|[from] psn
+|turn|13
+|
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|96/100 psn
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-damage|p1a: Zapdos|84/100 psn|[from] psn
+|turn|14
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|72/100 psn|[from] psn
+|turn|15
+|player|p1|
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Zapdos|Hurricane|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|59/100
+|
+|-damage|p1a: Zapdos|60/100 psn|[from] psn
+|turn|16
+|player|p1|phantomslayer17|burglar
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100 psn
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-damage|p1a: Zapdos|88/100 psn|[from] psn
+|turn|17
+|
+|move|p1a: Zapdos|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|54/100
+|move|p2a: Toxapex|Sludge Bomb|p1a: Zapdos
+|-damage|p1a: Zapdos|61/100 psn
+|
+|-damage|p1a: Zapdos|49/100 psn|[from] psn
+|turn|18
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|36/100 psn|[from] psn
+|turn|19
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, F|87/100
+|-damage|p2a: Toxapex|75/100|[from] Stealth Rock
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|86/100 psn
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-damage|p1a: Zapdos|74/100 psn|[from] psn
+|turn|20
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|
+|switch|p1a: Sneasler|Sneasler, F, tera:Dark|57/100|[from] Volt Switch
+|move|p2a: Toxapex|Infestation|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|44/100
+|-activate|p1a: Sneasler|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Sneasler|32/100|[from] move: Infestation|[partiallytrapped]
+|turn|21
+|
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-damage|p2a: Slither Wing|88/100|[from] Stealth Rock
+|move|p1a: Sneasler|Fake Out|p2a: Slither Wing
+|-damage|p2a: Slither Wing|73/100
+|-status|p2a: Slither Wing|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|
+|-damage|p2a: Slither Wing|61/100 psn|[from] psn
+|-end|p1a: Sneasler|Infestation|[partiallytrapped]|[silent]
+|turn|22
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Slither Wing
+|-damage|p2a: Slither Wing|19/100 psn
+|move|p2a: Slither Wing|U-turn|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|59/100|[from] U-turn
+|-damage|p2a: Corviknight|47/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|23
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight|[miss]
+|-miss|p1a: Samurott|p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|97/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|24
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight|[miss]
+|-miss|p1a: Samurott|p2a: Corviknight
+|move|p2a: Corviknight|Defog|p1a: Samurott
+|-unboost|p1a: Samurott|evasion|1
+|-sideend|p2: SKaxe×|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|turn|25
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight|[miss]
+|-miss|p1a: Samurott|p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|64/100
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|
+|turn|26
+|
+|switch|p1a: Zapdos|Zapdos|74/100 psn
+|move|p2a: Iron Valiant|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|31/100 psn
+|
+|-damage|p1a: Zapdos|19/100 psn|[from] psn
+|turn|27
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|85/100
+|turn|28
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-message|phantomslayer17 forfeited.
+|
+|win|SKaxe×

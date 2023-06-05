@@ -1,0 +1,299 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Magearna|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|-terastallize|p1a: Great Tusk|Fire
+|move|p2a: Meowscarada|Leaf Storm|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|67/100
+|-unboost|p2a: Meowscarada|spa|2
+|move|p1a: Great Tusk|Knock Off|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|80/100
+|-enditem|p2a: Meowscarada|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|73/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Meowscarada|Knock Off|p1a: Great Tusk
+|-damage|p1a: Great Tusk|54/100
+|-enditem|p1a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Great Tusk|Stealth Rock|p2a: Meowscarada
+|-sidestart|p2: Yojohanpop|move: Stealth Rock
+|
+|turn|3
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Meowscarada|Spikes|p1a: Pelipper
+|-sidestart|p1: Icecreamboy340|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Pelipper|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|80/100
+|
+|switch|p1a: Zapdos|Zapdos, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|86/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Zapdos|Thunder|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|93/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Zapdos|Thunder|p2a: Rotom
+|-damage|p2a: Rotom|31/100
+|move|p2a: Rotom|Volt Switch|p1a: Zapdos
+|-damage|p1a: Zapdos|72/100
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|-damage|p1a: Basculegion|88/100|[from] Spikes
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|31/100
+|-damage|p2a: Rotom|19/100|[from] Stealth Rock
+|move|p1a: Basculegion|Wave Crash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-damage|p1a: Basculegion|84/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-damage|p1a: Basculegion|64/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Meowscarada|Meowscarada, F|80/100
+|-damage|p2a: Meowscarada|67/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|-damage|p1a: Basculegion|48/100|[from] Recoil
+|
+|-weather|none
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|move|p1a: Pelipper|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|93/100
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny, tera:Fire|54/100|[from] U-turn
+|-damage|p1a: Great Tusk|42/100|[from] Spikes
+|move|p2a: Magearna|Volt Switch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|16/100
+|
+|switch|p2a: Yogi.|Ursaluna, F|100/100|[from] Volt Switch
+|-damage|p2a: Yogi.|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Yogi.|brn|[from] item: Flame Orb
+|turn|13
+|
+|move|p2a: Yogi.|Facade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Yogi.|88/100 brn|[from] brn
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|48/100
+|-damage|p1a: Basculegion|36/100|[from] Spikes
+|turn|14
+|
+|move|p2a: Yogi.|Headlong Rush|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-unboost|p2a: Yogi.|def|1
+|-unboost|p2a: Yogi.|spd|1
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Yogi.|82/100 brn|[from] brn
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Spikes
+|turn|15
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|88/100|[from] Spikes
+|-terastallize|p2a: Yogi.|Normal
+|move|p2a: Yogi.|Facade|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|32/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Yogi.|76/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|16
+|
+|switch|p2a: Magearna|Magearna|93/100
+|-damage|p2a: Magearna|86/100|[from] Stealth Rock
+|move|p1a: Magearna|Draining Kiss|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|80/100
+|-heal|p1a: Magearna|36/100|[from] drain|[of] p2a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p1a: Magearna|Volt Switch|p2a: Magearna
+|-damage|p2a: Magearna|68/100
+|
+|switch|p1a: Walking Wake|Walking Wake|88/100|[from] Volt Switch
+|-damage|p1a: Walking Wake|76/100|[from] Spikes
+|move|p2a: Magearna|Flash Cannon|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|58/100
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|switch|p2a: Chien-Pao|Chien-Pao|76/100
+|-damage|p2a: Chien-Pao|51/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Walking Wake|Hydro Steam|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-weather|none
+|
+|switch|p2a: Magearna|Magearna|68/100
+|-damage|p2a: Magearna|62/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Magearna
+|-damage|p2a: Magearna|26/100
+|-enditem|p2a: Magearna|Sitrus Berry|[eat]
+|-heal|p2a: Magearna|51/100|[from] item: Sitrus Berry
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|20
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Magearna|Magearna|36/100
+|-damage|p1a: Magearna|24/100|[from] Spikes
+|move|p2a: Magearna|Fleur Cannon|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|8/100
+|-unboost|p2a: Magearna|spa|2
+|
+|turn|21
+|
+|move|p2a: Magearna|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|3/100
+|
+|switch|p2a: Yogi.|Ursaluna, F, tera:Normal|76/100 brn|[from] Volt Switch
+|-damage|p2a: Yogi.|64/100 brn|[from] Stealth Rock
+|move|p1a: Magearna|Draining Kiss|p2a: Yogi.
+|-damage|p2a: Yogi.|44/100 brn
+|-heal|p1a: Magearna|22/100|[from] drain|[of] p2a: Yogi.
+|
+|-damage|p2a: Yogi.|38/100 brn|[from] brn
+|turn|22
+|
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Yogi.|Facade|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Yogi.|32/100 brn|[from] brn
+|
+|switch|p1a: Magearna|Magearna|22/100
+|-damage|p1a: Magearna|10/100|[from] Spikes
+|turn|23
+|
+|move|p2a: Yogi.|Facade|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Yogi.|26/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Walking Wake|Walking Wake|58/100
+|-damage|p1a: Walking Wake|45/100|[from] Spikes
+|turn|24
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Yogi.
+|-crit|p2a: Yogi.
+|-damage|p2a: Yogi.|0 fnt
+|faint|p2a: Yogi.
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Magearna|Magearna|51/100
+|-damage|p2a: Magearna|45/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|win|Icecreamboy340

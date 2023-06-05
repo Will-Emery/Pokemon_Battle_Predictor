@@ -1,0 +1,51 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Rillaboom, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Iron Treads|
+|poke|p2|Delphox, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, M|
+|poke|p2|Arcanine-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Deli|Delphox, F|100/100
+|turn|1
+|
+|move|p2a: Deli|Flamethrower|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|2
+|
+|move|p2a: Deli|Psychic|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|3
+|
+|-terastallize|p2a: Deli|Fire
+|move|p2a: Deli|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|18/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|24/100|[from] item: Leftovers
+|turn|4
+|-message|here 4 chill forfeited.
+|
+|win|Gigachadium Z

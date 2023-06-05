@@ -1,0 +1,235 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Rillaboom, M|
+|poke|p1|Gholdengo|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Magearna|
+|poke|p2|Skeledirge, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Great Tusk|
+|poke|p2|Sableye, M|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|move|p2a: Sableye|Thunder Wave|p1a: Rillaboom
+|-status|p1a: Rillaboom|par
+|cant|p1a: Rillaboom|par
+|
+|turn|2
+|
+|move|p2a: Sableye|Taunt|p1a: Rillaboom
+|-start|p1a: Rillaboom|move: Taunt
+|move|p1a: Rillaboom|Wood Hammer|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|-damage|p1a: Rillaboom|71/100 par|[from] Recoil
+|
+|-heal|p1a: Rillaboom|77/100 par|[from] Grassy Terrain
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|3
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Clodsire
+|-damage|p1a: Clodsire|82/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Clodsire|88/100|[from] Grassy Terrain
+|-heal|p1a: Clodsire|95/100|[from] item: Black Sludge
+|turn|4
+|
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Clodsire
+|-status|p1a: Clodsire|brn
+|move|p1a: Clodsire|Toxic|p2a: Skeledirge
+|-status|p2a: Skeledirge|tox
+|
+|-heal|p1a: Clodsire|100/100 brn|[from] Grassy Terrain
+|-damage|p2a: Skeledirge|94/100 tox|[from] psn
+|-damage|p1a: Clodsire|94/100 brn|[from] brn
+|turn|5
+|
+|move|p2a: Skeledirge|Hex|p1a: Clodsire
+|-damage|p1a: Clodsire|55/100 brn
+|move|p1a: Clodsire|Earthquake|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|85/100 tox
+|
+|-heal|p2a: Skeledirge|91/100 tox|[from] Grassy Terrain
+|-heal|p1a: Clodsire|62/100 brn|[from] Grassy Terrain
+|-heal|p1a: Clodsire|68/100 brn|[from] item: Black Sludge
+|-damage|p2a: Skeledirge|79/100 tox|[from] psn
+|-damage|p1a: Clodsire|62/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100 brn
+|
+|-damage|p1a: Clodsire|94/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: Toxapex|Infestation|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|93/100 brn
+|-activate|p1a: Clodsire|move: Infestation|[of] p2a: Toxapex
+|move|p1a: Clodsire|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: meowth_el|move: Stealth Rock
+|
+|-heal|p1a: Clodsire|99/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|93/100 brn|[from] brn
+|-damage|p1a: Clodsire|81/100 brn|[from] move: Infestation|[partiallytrapped]
+|turn|8
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Clodsire|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|
+|-heal|p1a: Clodsire|87/100 brn|[from] item: Black Sludge
+|-damage|p1a: Clodsire|81/100 brn|[from] brn
+|-end|p1a: Clodsire|Infestation|[partiallytrapped]|[silent]
+|turn|9
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Great Tusk|Headlong Rush|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|turn|10
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|22/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|27/100
+|
+|turn|11
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Rillaboom|Rillaboom, M|77/100 par
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|12
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Skeledirge|Skeledirge, M|79/100 tox
+|-damage|p2a: Skeledirge|54/100 tox|[from] Stealth Rock
+|move|p1a: Rillaboom|U-turn|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|48/100 tox
+|-damage|p1a: Rillaboom|61/100 par|[from] item: Rocky Helmet|[of] p2a: Skeledirge
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100|[from] U-turn
+|
+|-heal|p2a: Skeledirge|54/100 tox|[from] Grassy Terrain
+|-damage|p2a: Skeledirge|48/100 tox|[from] psn
+|turn|13
+|
+|move|p1a: Hoopa|Dark Pulse|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-damage|p1a: Hoopa|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Hoopa|97/100|[from] Grassy Terrain
+|
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-damage|p2a: Meowscarada|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Meowscarada|U-turn|p1a: Hoopa
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|switch|p2a: Great Tusk|Great Tusk|27/100|[from] U-turn
+|
+|-heal|p2a: Great Tusk|33/100|[from] Grassy Terrain
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|15
+|
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Great Tusk|Rapid Spin|p1a: Sneasler
+|-damage|p1a: Sneasler|79/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: meowth_el|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|39/100|[from] Grassy Terrain
+|turn|16
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Sneasler|Acrobatics|p2a: Toxapex
+|-damage|p2a: Toxapex|5/100
+|
+|-heal|p2a: Toxapex|12/100|[from] Grassy Terrain
+|-heal|p2a: Toxapex|18/100|[from] item: Black Sludge
+|-fieldend|move: Grassy Terrain
+|turn|17
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Sneasler|Acrobatics|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Sneasler|psn
+|
+|-heal|p2a: Toxapex|24/100|[from] item: Black Sludge
+|-damage|p1a: Sneasler|67/100 psn|[from] psn
+|turn|18
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Sneasler|55/100 psn|[from] psn
+|
+|switch|p2a: Meowscarada|Meowscarada, F|88/100
+|turn|19
+|
+|-terastallize|p2a: Meowscarada|Grass
+|move|p1a: Sneasler|Acrobatics|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|-damage|p1a: Sneasler|42/100 psn|[from] psn
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|20
+|
+|move|p1a: Sneasler|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Magearna
+|
+|-damage|p1a: Sneasler|30/100 psn|[from] psn
+|
+|switch|p2a: Great Tusk|Great Tusk|39/100
+|turn|21
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|win|PedroDu94

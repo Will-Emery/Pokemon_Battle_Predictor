@@ -1,0 +1,203 @@
+|poke|p1|Kingambit, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Torkoal, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Glastrier|
+|poke|p2|Hatterene, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Cresselia, F|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Zé colmeia|Ursaluna, M|100/100
+|turn|1
+|
+|-terastallize|p2a: Zé colmeia|Normal
+|move|p1a: Electrode|Chloroblast|p2a: Zé colmeia
+|-damage|p2a: Zé colmeia|20/100
+|-damage|p1a: Electrode|50/100|[from] chloroblast
+|move|p2a: Zé colmeia|Swords Dance|p2a: Zé colmeia
+|-boost|p2a: Zé colmeia|atk|2
+|
+|-status|p2a: Zé colmeia|brn|[from] item: Flame Orb
+|turn|2
+|
+|move|p1a: Electrode|Chloroblast|p2a: Zé colmeia
+|-damage|p2a: Zé colmeia|0 fnt
+|-damage|p1a: Electrode|0 fnt|[from] chloroblast
+|faint|p1a: Electrode
+|faint|p2a: Zé colmeia
+|
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Animan studios|Cresselia, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|3
+|
+|move|p1a: Torkoal|Yawn|p2a: Animan studios
+|-start|p2a: Animan studios|move: Yawn|[of] p1a: Torkoal
+|move|p2a: Animan studios|Trick Room|p2a: Animan studios
+|-fieldstart|move: Trick Room|[of] p2a: Animan studios
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|switch|p2a: Glastrier|Glastrier|100/100
+|move|p1a: Torkoal|Eruption|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Meia nove|Magearna|100/100
+|turn|5
+|
+|move|p1a: Torkoal|Eruption|p2a: Meia nove
+|-supereffective|p2a: Meia nove
+|-damage|p2a: Meia nove|0 fnt
+|faint|p2a: Meia nove
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Miraculus|Hatterene, F|100/100
+|turn|6
+|
+|move|p1a: Torkoal|Eruption|p2a: Miraculus
+|-enditem|p2a: Miraculus|Focus Sash
+|-damage|p2a: Miraculus|1/100
+|move|p2a: Miraculus|Psychic|p1a: Torkoal
+|-damage|p1a: Torkoal|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p1a: Torkoal|Rapid Spin|p2a: Miraculus
+|-damage|p2a: Miraculus|0 fnt
+|-boost|p1a: Torkoal|spe|1
+|faint|p2a: Miraculus
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Animan studios|Cresselia, F, shiny|100/100
+|turn|8
+|
+|move|p1a: Torkoal|Eruption|p2a: Animan studios
+|-crit|p2a: Animan studios
+|-damage|p2a: Animan studios|69/100
+|move|p2a: Animan studios|Trick Room|p2a: Animan studios
+|-fieldstart|move: Trick Room|[of] p2a: Animan studios
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|move|p1a: Torkoal|Yawn|p2a: Animan studios
+|-start|p2a: Animan studios|move: Yawn|[of] p1a: Torkoal
+|move|p2a: Animan studios|Tera Blast|p1a: Torkoal
+|-damage|p1a: Torkoal|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Animan studios|Tera Blast|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|
+|-weather|none
+|-end|p2a: Animan studios|move: Yawn|[silent]
+|-status|p2a: Animan studios|slp
+|turn|11
+|
+|switch|p2a: Samurai Jack|Kingambit, M|100/100
+|-activate|p2a: Samurai Jack|ability: Supreme Overlord
+|-start|p2a: Samurai Jack|fallen4|[silent]
+|move|p1a: Rotom|Hydro Pump|p2a: Samurai Jack
+|-damage|p2a: Samurai Jack|57/100
+|
+|-heal|p2a: Samurai Jack|63/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Samurai Jack|atk|1
+|move|p2a: Samurai Jack|Kowtow Cleave|p1a: Landorus
+|-damage|p1a: Landorus|45/100
+|
+|-heal|p2a: Samurai Jack|69/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|13
+|
+|-end|p2a: Samurai Jack|fallen4|[silent]
+|switch|p2a: Animan studios|Cresselia, F, shiny|69/100 slp
+|move|p1a: Landorus|Taunt|p2a: Animan studios
+|-start|p2a: Animan studios|move: Taunt
+|
+|turn|14
+|
+|move|p1a: Landorus|Earthquake|p2a: Animan studios
+|-immune|p2a: Animan studios|[from] ability: Levitate
+|cant|p2a: Animan studios|slp
+|
+|turn|15
+|
+|move|p1a: Landorus|Rock Slide|p2a: Animan studios
+|-damage|p2a: Animan studios|41/100 slp
+|-damage|p1a: Landorus|35/100|[from] item: Life Orb
+|-curestatus|p2a: Animan studios|slp|[msg]
+|cant|p2a: Animan studios|flinch
+|
+|-end|p2a: Animan studios|move: Taunt
+|turn|16
+|
+|move|p1a: Landorus|Taunt|p2a: Animan studios
+|-start|p2a: Animan studios|move: Taunt
+|move|p2a: Animan studios|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|17
+|
+|switch|p1a: Torkoal|Torkoal, M|6/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Animan studios|Ice Beam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|18
+|
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|-anim|p1a: Lilligant|Solar Blade|p2a: Animan studios
+|-damage|p2a: Animan studios|0 fnt
+|faint|p2a: Animan studios
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Samurai Jack|Kingambit, M|69/100
+|-activate|p2a: Samurai Jack|ability: Supreme Overlord
+|-start|p2a: Samurai Jack|fallen5|[silent]
+|turn|19
+|
+|move|p2a: Samurai Jack|Sucker Punch|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|56/100
+|move|p1a: Lilligant|Axe Kick|p2a: Samurai Jack
+|-supereffective|p2a: Samurai Jack
+|-damage|p2a: Samurai Jack|0 fnt
+|faint|p2a: Samurai Jack
+|-end|p2a: Samurai Jack|fallen5|[silent]
+|
+|win|JulZChota

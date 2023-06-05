@@ -1,0 +1,238 @@
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Torkoal, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Roaring Moon|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Glastrier|
+|poke|p2|Ursaluna, F|
+|poke|p2|Magearna|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Manny (Manfred)|Great Tusk|100/100
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|turn|1
+|
+|-terastallize|p2a: Slowking|Water
+|move|p1a: Manny (Manfred)|Earthquake|p2a: Slowking
+|-damage|p2a: Slowking|69/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|2
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Glastrier|Glastrier|100/100|[from] Chilly Reception
+|move|p1a: Manny (Manfred)|Knock Off|p2a: Glastrier
+|-damage|p2a: Glastrier|86/100
+|-enditem|p2a: Glastrier|Life Orb|[from] move: Knock Off|[of] p1a: Manny (Manfred)
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|move|p2a: Glastrier|Swords Dance|p2a: Glastrier
+|-boost|p2a: Glastrier|atk|2
+|move|p1a: Manny (Manfred)|Body Press|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|37/100
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p2a: Glastrier|Icicle Crash|p1a: Manny (Manfred)
+|-supereffective|p1a: Manny (Manfred)
+|-damage|p1a: Manny (Manfred)|5/100
+|cant|p1a: Manny (Manfred)|flinch
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Manny (Manfred)|11/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Manny (Manfred)
+|-damage|p1a: Manny (Manfred)|0 fnt
+|faint|p1a: Manny (Manfred)
+|-end|p1a: Manny (Manfred)|Protosynthesis|[silent]
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Ɠσ∂Ƶιℓℓα|Walking Wake|100/100
+|turn|6
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ɠσ∂Ƶιℓℓα|Flamethrower|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|-status|p2a: Hatterene|brn
+|-enditem|p2a: Hatterene|Eject Button
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-item|p2a: Magearna|Air Balloon
+|
+|-weather|none
+|turn|7
+|
+|move|p1a: Ɠσ∂Ƶιℓℓα|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|24/100
+|-enditem|p2a: Magearna|Air Balloon
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|8
+|
+|-end|p1a: Ɠσ∂Ƶιℓℓα|Protosynthesis|[silent]
+|switch|p1a: Not quagsire!|Clodsire, M|100/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Not quagsire!
+|-resisted|p1a: Not quagsire!
+|-damage|p1a: Not quagsire!|79/100
+|-unboost|p2a: Magearna|spa|2
+|
+|-heal|p1a: Not quagsire!|85/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Hatterene|Hatterene, F|69/100 brn
+|move|p1a: Not quagsire!|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|37/100 brn
+|
+|-heal|p1a: Not quagsire!|91/100|[from] item: Leftovers
+|-damage|p2a: Hatterene|31/100 brn|[from] brn
+|turn|10
+|
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|move|p1a: Not quagsire!|Poison Jab|p2: Hatterene|[notarget]
+|-fail|p1a: Not quagsire!
+|
+|-heal|p1a: Not quagsire!|97/100|[from] item: Leftovers
+|
+|switch|p2a: Glastrier|Glastrier|37/100
+|-heal|p2a: Glastrier|100/100|[from] move: Healing Wish
+|turn|11
+|
+|switch|p1a: Pop Smoke|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Pop Smoke
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Pop Smoke
+|-supereffective|p1a: Pop Smoke
+|-damage|p1a: Pop Smoke|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|turn|12
+|
+|switch|p2a: Slowking|Slowking-Galar, F, shiny, tera:Water|100/100
+|move|p1a: Pop Smoke|Lava Plume|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|85/100
+|-status|p2a: Slowking|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Slowking|79/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Pop Smoke|Solar Beam||[still]
+|-prepare|p1a: Pop Smoke|Solar Beam
+|-anim|p1a: Pop Smoke|Solar Beam|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|38/100 brn
+|move|p2a: Slowking|Hydro Pump|p1a: Pop Smoke
+|-supereffective|p1a: Pop Smoke
+|-damage|p1a: Pop Smoke|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Slowking|31/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Pop Smoke|Solar Beam||[still]
+|-prepare|p1a: Pop Smoke|Solar Beam
+|-anim|p1a: Pop Smoke|Solar Beam|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|15
+|
+|move|p2a: Hoopa|Brick Break|p1a: Pop Smoke
+|-damage|p1a: Pop Smoke|0 fnt
+|faint|p1a: Pop Smoke
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Pure princess|Hatterene, F, shiny|100/100
+|turn|16
+|
+|move|p2a: Hoopa|Energy Ball|p1a: Pure princess
+|-damage|p1a: Pure princess|56/100
+|move|p1a: Pure princess|Nuzzle|p2a: Hoopa
+|-damage|p2a: Hoopa|93/100
+|-status|p2a: Hoopa|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Pure princess|62/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Pure princess|Dazzling Gleam|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|23/100 par
+|move|p2a: Hoopa|Energy Ball|p1a: Pure princess
+|-damage|p1a: Pure princess|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Pure princess|23/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Magearna|Magearna|24/100
+|move|p1a: Pure princess|Dazzling Gleam|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|10/100
+|
+|-weather|none
+|-heal|p1a: Pure princess|29/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Pure princess|Psyshock|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-heal|p1a: Pure princess|35/100|[from] item: Leftovers
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|20
+|
+|move|p2a: Ursaluna|Fire Punch|p1a: Pure princess
+|-damage|p1a: Pure princess|10/100
+|move|p1a: Pure princess|Psyshock|p2a: Ursaluna
+|-damage|p2a: Ursaluna|77/100
+|
+|-heal|p1a: Pure princess|16/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|21
+|
+|move|p2a: Ursaluna|Facade|p1a: Pure princess
+|-damage|p1a: Pure princess|0 fnt
+|faint|p1a: Pure princess
+|
+|-damage|p2a: Ursaluna|71/100 brn|[from] brn
+|
+|switch|p1a: Ɠσ∂Ƶιℓℓα|Walking Wake|100/100
+|turn|22
+|
+|move|p1a: Ɠσ∂Ƶιℓℓα|Hydro Steam|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-message|Hawbuck forfeited.
+|
+|win|ManuelPepsi

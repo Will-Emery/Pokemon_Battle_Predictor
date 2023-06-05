@@ -1,1 +1,250 @@
-Could not connect
+|j|☆test gc1
+|j|☆DragonKnight1011
+|t:|1685857443
+|gametype|singles
+|player|p1|test gc1|veteran|1154
+|player|p2|DragonKnight1011|170|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sneasler, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Skeledirge, M|
+|poke|p1|Garganacl, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Regidrago|
+|poke|p2|Scizor, M|
+|teampreview
+|
+|t:|1685857465
+|start
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|1
+|
+|t:|1685857472
+|move|p2a: Regidrago|Dragon Energy|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|upkeep
+|
+|t:|1685857489
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|2
+|
+|t:|1685857497
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Iron Valiant|Trick|p2a: Scizor
+|-activate|p1a: Iron Valiant|move: Trick|[of] p2a: Scizor
+|-item|p2a: Scizor|Choice Scarf|[from] move: Trick
+|-item|p1a: Iron Valiant|Choice Band|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|t:|1685857506
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|64/100
+|
+|upkeep
+|turn|4
+|
+|t:|1685857514
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Enamorus
+|-damage|p2a: Enamorus|46/100
+|
+|-heal|p2a: Enamorus|52/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685857523
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Great Tusk|[miss]
+|-miss|p1a: Cinderace|p2a: Great Tusk
+|
+|upkeep
+|turn|6
+|
+|t:|1685857530
+|move|p1a: Cinderace|U-turn|p2a: Great Tusk
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|88/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DragonKnight1011)
+|
+|t:|1685857586
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] U-turn
+|move|p2a: Great Tusk|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|86/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|75/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Great Tusk|59/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|upkeep
+|turn|7
+|
+|t:|1685857598
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Garchomp|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: DragonKnight1011|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1685857602
+|move|p2a: Great Tusk|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|65/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|47/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Great Tusk|30/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|-sideend|p2: DragonKnight1011|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Garchomp|Dragon Tail|p2a: Great Tusk
+|-damage|p2a: Great Tusk|16/100
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|drag|p2a: Regidrago|Regidrago|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1685857614
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Regidrago|Dragon Energy|p1a: Garganacl
+|-damage|p1a: Garganacl|15/100
+|
+|-heal|p1a: Garganacl|21/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685857623
+|switch|p2a: Scizor|Scizor, M|100/100
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1685857649
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|89/100
+|
+|upkeep
+|turn|12
+|
+|t:|1685857655
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Skeledirge|Substitute|p1a: Skeledirge
+|-start|p1a: Skeledirge|Substitute
+|-damage|p1a: Skeledirge|64/100
+|
+|upkeep
+|turn|13
+|
+|t:|1685857662
+|move|p2a: Samurott|Night Slash|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-end|p1a: Skeledirge|Substitute
+|move|p1a: Skeledirge|Torch Song|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|78/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|14
+|
+|t:|1685857672
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: Samurott|Aqua Cutter|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|37/100
+|
+|upkeep
+|turn|15
+|
+|t:|1685857694
+|-terastallize|p2a: Samurott|Dark
+|move|p2a: Samurott|Sucker Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|15/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1685857701
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|16
+|
+|t:|1685857706
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Garchomp|Garchomp, M|65/100
+|move|p2a: Scizor|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|29/100
+|-damage|p2a: Scizor|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Scizor|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|t:|1685857708
+|switch|p2a: Regidrago|Regidrago|100/100|[from] U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1685857714
+|move|p2a: Regidrago|Earth Power|p1a: Garchomp
+|-damage|p1a: Garchomp|3/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Regidrago
+|-sidestart|p2: DragonKnight1011|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1685857720
+|move|p2a: Regidrago|Earth Power|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|inactive|test gc1 has 120 seconds left.
+|l|☆test gc1
+|inactive|test gc1 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|test gc1 has 30 seconds to reconnect!
+|inactive|test gc1 has 20 seconds to reconnect!
+|inactive|test gc1 has 15 seconds to reconnect!
+|inactive|test gc1 has 10 seconds to reconnect!
+|n|!DragonKnight1011|dragonknight1011
+|inactive|test gc1 has 5 seconds to reconnect!
+|-message|test gc1 lost due to inactivity.
+|
+|win|DragonKnight1011
+|raw|test gc1's rating: 1154 → 1126(-28 for losing)
+|raw|DragonKnight1011's rating: 1109 → 1137(+28 for winning)

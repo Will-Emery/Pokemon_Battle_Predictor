@@ -1,0 +1,54 @@
+|poke|p1|Skeledirge, M|
+|poke|p1|Armarouge, M|
+|poke|p1|Cyclizar, M|
+|poke|p1|Garganacl, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Slither Wing|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Bisharp, M|
+|poke|p2|Magearna|
+|poke|p2|Gholdengo|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Meowscarada|Meowscarada, F, shiny|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|switch|p1a: Skeledirge|Skeledirge, M, shiny|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|2
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Skeledirge|Torch Song|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|turn|3
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Heatran|Earth Power|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|27/100
+|
+|turn|4
+|
+|move|p2a: Heatran|Earth Power|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-enditem|p1a: Slither Wing|Booster Energy
+|-activate|p1a: Slither Wing|ability: Protosynthesis|[fromitem]
+|-start|p1a: Slither Wing|protosynthesisatk
+|turn|5
+|-message|Felipequiron forfeited.
+|
+|win|TheGamingWatch

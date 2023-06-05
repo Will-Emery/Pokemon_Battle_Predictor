@@ -1,0 +1,187 @@
+|poke|p1|Azelf|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Zamazenta-*|
+|poke|p1|Great Tusk|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Moth|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|move|p1a: Azelf|Taunt|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|move|p2a: Gholdengo|Shadow Ball|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-enditem|p1a: Azelf|Focus Sash
+|-damage|p1a: Azelf|1/100
+|-unboost|p1a: Azelf|spd|1
+|
+|turn|2
+|
+|move|p1a: Azelf|Stealth Rock|p2a: Gholdengo
+|-sidestart|p2: PokeRachell|move: Stealth Rock
+|move|p2a: Gholdengo|Shadow Ball|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|turn|3
+|
+|move|p1a: Chien-Pao|Hyper Voice|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|move|p2a: Gholdengo|Shadow Ball|p1a: Chien-Pao
+|-immune|p1a: Chien-Pao
+|
+|turn|4
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|move|p1a: Chien-Pao|Hyper Voice|p2a: Hoopa
+|-damage|p2a: Hoopa|38/100
+|
+|turn|5
+|
+|move|p1a: Chien-Pao|Hyper Voice|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Gholdengo|Steel Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-damage|p2a: Gholdengo|44/100|[from] steelbeam
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|turn|7
+|
+|move|p1a: Chien-Pao|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-terastallize|p2a: Chien-Pao|Dark
+|move|p2a: Chien-Pao|Crunch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|64/100
+|-unboost|p1a: Great Tusk|def|1
+|
+|turn|9
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Close Combat|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|53/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|turn|10
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|move|p2a: Enamorus|Draining Kiss|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|25/100
+|-heal|p2a: Enamorus|100/100|[from] drain|[of] p1a: Chien-Pao
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|
+|turn|11
+|
+|-terastallize|p1a: Zoroark|Electric
+|move|p1a: Zoroark|Tera Blast|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Dark|76/100
+|-damage|p2a: Chien-Pao|63/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|12
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|64/100
+|turn|13
+|
+|switch|p2a: Baxcalibur|Baxcalibur, F|100/100
+|-damage|p2a: Baxcalibur|76/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Close Combat|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Baxcalibur
+|
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|turn|14
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|turn|15
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Dark|63/100
+|-damage|p2a: Chien-Pao|51/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|16
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Magearna
+|-damage|p1a: Magearna|62/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|68/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-heal|p1a: Magearna|99/100|[from] drain|[of] p2a: Chien-Pao
+|faint|p2a: Chien-Pao
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|-message|PokeRachell forfeited.
+|
+|win|PhotoThought

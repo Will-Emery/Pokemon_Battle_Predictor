@@ -1,0 +1,83 @@
+|poke|p1|Scizor, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Avalugg-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Berga|Avalugg-Hisui, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-terastallize|p2a: Berga|Flying
+|move|p2a: Berga|Stealth Rock|p1a: Scizor
+|-sidestart|p1: flechazo218|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: Scizor|U-turn|p2a: Berga
+|-resisted|p2a: Berga
+|-damage|p2a: Berga|89/100
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Berga
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|move|p2a: Berga|Ice Fang|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|3
+|
+|move|p1a: Basculegion|Crunch|p2a: Berga
+|-damage|p2a: Berga|74/100
+|-damage|p1a: Basculegion|72/100|[from] item: Rocky Helmet|[of] p2a: Berga
+|-damage|p1a: Basculegion|62/100|[from] item: Life Orb
+|move|p2a: Berga|Recover|p2a: Berga
+|-heal|p2a: Berga|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|move|p2a: Berga|Ice Fang|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Berga|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Scizor|Scizor, M|84/100
+|-damage|p1a: Scizor|72/100|[from] Stealth Rock
+|turn|5
+|
+|-terastallize|p1a: Scizor|Steel
+|move|p1a: Scizor|Bullet Punch|p2a: Berga
+|-damage|p2a: Berga|62/100
+|-damage|p1a: Scizor|55/100|[from] item: Rocky Helmet|[of] p2a: Berga
+|move|p2a: Berga|Ice Fang|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|33/100
+|-status|p1a: Scizor|frz
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|-message|flechazo218 forfeited.
+|
+|win|Adastran

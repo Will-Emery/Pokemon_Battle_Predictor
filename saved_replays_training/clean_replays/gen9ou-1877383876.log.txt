@@ -1,0 +1,120 @@
+|poke|p1|Amoonguss, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Heatran, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Magearna|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ursaluna, F|
+|poke|p2|Magearna|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Glastrier|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|2
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Thunderbolt|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|59/100
+|
+|turn|3
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Thunderbolt|p1a: Magearna
+|-damage|p1a: Magearna|44/100
+|-enditem|p1a: Magearna|Sitrus Berry|[eat]
+|-heal|p1a: Magearna|69/100|[from] item: Sitrus Berry
+|
+|turn|4
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|5
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Magearna|Stored Power|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Glastrier|Glastrier|100/100
+|turn|6
+|
+|-terastallize|p2a: Glastrier|Fire
+|move|p2a: Glastrier|Tera Blast|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|-damage|p2a: Glastrier|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|7
+|
+|move|p2a: Glastrier|Tera Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|-damage|p2a: Glastrier|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|turn|8
+|
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|-damage|p2a: Glastrier|71/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|player|p2|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|9
+|player|p2|wjtmyyds|cynthia-masters
+|
+|-terastallize|p1a: Enamorus|Fighting
+|move|p1a: Enamorus|Superpower|p2a: Glastrier
+|-damage|p2a: Glastrier|33/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|move|p2a: Glastrier|Icicle Crash|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|-damage|p2a: Glastrier|23/100|[from] item: Life Orb
+|
+|-message|trunksassj forfeited.
+|
+|win|wjtmyyds

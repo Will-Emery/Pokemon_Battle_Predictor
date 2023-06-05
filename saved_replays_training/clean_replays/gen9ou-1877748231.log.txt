@@ -1,0 +1,235 @@
+|poke|p1|Thundurus, M|
+|poke|p1|Diancie|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Tauros, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Enamorus, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Corviknight, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|
+|start
+|switch|p1a: 55th Street|Thundurus, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|1
+|
+|move|p1a: 55th Street|Thunder Wave|p2a: Iron Valiant|[miss]
+|-miss|p1a: 55th Street|p2a: Iron Valiant
+|move|p2a: Iron Valiant|Knock Off|p1a: 55th Street
+|-damage|p1a: 55th Street|61/100
+|-enditem|p1a: 55th Street|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|turn|2
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: 55th Street|Psychic|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|44/100
+|
+|-heal|p2a: Great Tusk|51/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: 55th Street|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|move|p2a: Great Tusk|Stealth Rock|p1a: 55th Street
+|-sidestart|p1: BenGayOintment|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|57/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: 55th Street|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|move|p2a: Great Tusk|Knock Off|p1a: 55th Street
+|-damage|p1a: 55th Street|25/100
+|
+|-heal|p2a: Great Tusk|63/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: 55th Street|Grass Knot|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|switch|p1a: CMAC|Diancie|100/100
+|-damage|p1a: CMAC|88/100|[from] Stealth Rock
+|move|p2a: Chien-Pao|Crunch|p1a: CMAC
+|-resisted|p1a: CMAC
+|-damage|p1a: CMAC|68/100
+|
+|-heal|p1a: CMAC|75/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: CMAC|Diamond Storm|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|
+|-heal|p2a: Corviknight|81/100|[from] item: Leftovers
+|-heal|p1a: CMAC|81/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Corviknight|U-turn|p1a: CMAC
+|-resisted|p1a: CMAC
+|-damage|p1a: CMAC|75/100
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|move|p1a: CMAC|Stealth Rock|p2a: Iron Valiant
+|-sidestart|p2: AlexisPC|move: Stealth Rock
+|
+|-heal|p1a: CMAC|82/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: CMAC
+|-damage|p1a: CMAC|54/100
+|move|p1a: CMAC|Moonblast|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: CMAC|60/100|[from] item: Leftovers
+|
+|switch|p2a: Corviknight|Corviknight, F|81/100
+|-damage|p2a: Corviknight|69/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|10
+|
+|move|p2a: Corviknight|Defog|p1a: CMAC
+|-fail|p1a: CMAC|unboost|[from] ability: Clear Body|[of] p1a: CMAC
+|-sideend|p1: BenGayOintment|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: AlexisPC|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: CMAC|Diamond Storm|p2a: Corviknight
+|-damage|p2a: Corviknight|41/100
+|-boost|p1a: CMAC|def|2
+|
+|-heal|p2a: Corviknight|47/100|[from] item: Leftovers
+|-heal|p1a: CMAC|66/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Corviknight|U-turn|p1a: CMAC
+|-resisted|p1a: CMAC
+|-damage|p1a: CMAC|64/100
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p1a: CMAC|Stealth Rock|p2a: Slowking
+|-sidestart|p2: AlexisPC|move: Stealth Rock
+|
+|-heal|p1a: CMAC|70/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Slowking|Surf|p1a: Slowking
+|-damage|p1a: Slowking|81/100
+|
+|-heal|p1a: Slowking|88/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, F|47/100
+|-damage|p2a: Corviknight|35/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Tauros|Tauros, M, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Corviknight|41/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Tauros|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|15
+|
+|-terastallize|p1a: Tauros|Ghost
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Tauros
+|-immune|p1a: Tauros
+|move|p1a: Tauros|Fire Blast|p2a: Chien-Pao|[miss]
+|-miss|p1a: Tauros|p2a: Chien-Pao
+|
+|-weather|Snow|[upkeep]
+|turn|16
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|switch|p1a: 55th Street|Thundurus, M|25/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Slowking|94/100|[from] item: Black Sludge
+|turn|17
+|
+|move|p1a: 55th Street|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|65/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] Volt Switch
+|move|p2a: Slowking|Ice Beam|p1a: Slowking
+|-damage|p1a: Slowking|84/100
+|
+|-weather|none
+|-heal|p2a: Slowking|71/100|[from] item: Black Sludge
+|-heal|p1a: Slowking|90/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Slowking|Eerie Spell|p1a: Slowking
+|-damage|p1a: Slowking|66/100
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Baby Snaps|Typhlosion-Hisui, M, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Slowking|77/100|[from] item: Black Sludge
+|turn|19
+|
+|move|p1a: Baby Snaps|Eruption|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|76/100
+|-damage|p2a: Chien-Pao|51/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|20
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Baby Snaps
+|-supereffective|p1a: Baby Snaps
+|-damage|p1a: Baby Snaps|0 fnt
+|faint|p1a: Baby Snaps
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: CMAC|Diancie|70/100
+|turn|21
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|-damage|p2a: Ceruledge|76/100|[from] Stealth Rock
+|move|p1a: CMAC|Diamond Storm|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|-boost|p1a: CMAC|def|2
+|faint|p2a: Ceruledge
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: CMAC|76/100|[from] item: Leftovers
+|-message|AlexisPC forfeited.
+|
+|win|BenGayOintment

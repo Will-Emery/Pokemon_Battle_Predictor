@@ -1,0 +1,241 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Floatzel, F|
+|poke|p1|Golduck, M|
+|poke|p1|Pawmot, F|
+|poke|p1|Toedscruel, F|
+|poke|p1|Azumarill, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, F|
+|poke|p2|Zapdos|
+|poke|p2|Garganacl, F|
+|teampreview
+|
+|start
+|switch|p1a: Ghoti carrier|Pelipper, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|1
+|
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Shadow Ball|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|29/100
+|-unboost|p1a: Ghoti carrier|spd|1
+|move|p1a: Ghoti carrier|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|94/100
+|
+|switch|p1a: The Goat|Azumarill, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: The Goat
+|-damage|p1a: The Goat|26/100
+|-enditem|p1a: The Goat|Sitrus Berry|[eat]
+|-heal|p1a: The Goat|51/100|[from] item: Sitrus Berry
+|move|p1a: The Goat|Belly Drum|p1a: The Goat
+|-damage|p1a: The Goat|1/100
+|-setboost|p1a: The Goat|atk|6|[from] move: Belly Drum
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: The Goat|Aqua Jet|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|4
+|
+|switch|p1a: Spaghetti Memory|Toedscruel, F|100/100
+|move|p2a: Urshifu|Aqua Jet|p1a: Spaghetti Memory
+|-damage|p1a: Spaghetti Memory|37/100
+|-damage|p2a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1a: Spaghetti Memory
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Spaghetti Memory
+|-damage|p1a: Spaghetti Memory|0 fnt
+|-damage|p2a: Urshifu|68/100|[from] item: Rocky Helmet|[of] p1a: Spaghetti Memory
+|faint|p1a: Spaghetti Memory
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: BandedSkeda|Floatzel, F|100/100
+|turn|6
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: BandedSkeda|Liquidation|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|7
+|
+|switch|p1a: Really want eject|Pawmot, F|100/100
+|move|p2a: Zapdos|Volt Switch|p1a: Really want eject
+|-immune|p1a: Really want eject|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Really want eject|Revival Blessing|p1a: Really want eject
+|-enditem|p1a: Really want eject|Leppa Berry|[eat]
+|-activate|p1a: Really want eject|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p1: Spaghetti Memory|50/100|[from] move: Revival Blessing
+|
+|-weather|none
+|turn|9
+|
+|move|p1a: Really want eject|Nuzzle|p2a: Slowking
+|-damage|p2a: Slowking|93/100
+|-status|p2a: Slowking|par
+|move|p2a: Slowking|Future Sight|p1a: Really want eject
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|99/100 par|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Really want eject|Encore|p2a: Slowking
+|-start|p2a: Slowking|Encore
+|move|p2a: Slowking|Future Sight||[still]
+|-fail|p2a: Slowking
+|
+|-heal|p2a: Slowking|100/100 par|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: The Goat|Azumarill, F|1/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|
+|-end|p1a: The Goat|move: Future Sight
+|-damage|p1a: The Goat|0 fnt
+|faint|p1a: The Goat
+|
+|switch|p1a: Ghoti carrier|Pelipper, F|29/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|12
+|
+|switch|p1a: Really want eject|Pawmot, F|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Really want eject
+|-damage|p1a: Really want eject|33/100
+|-start|p1a: Really want eject|confusion
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|-activate|p1a: Really want eject|confusion
+|move|p1a: Really want eject|Revival Blessing|p1a: Really want eject
+|
+|-heal|p1: The Goat|50/100|[from] move: Revival Blessing
+|move|p2a: Zapdos|Hurricane|p1a: Really want eject
+|-damage|p1a: Really want eject|0 fnt
+|faint|p1a: Really want eject
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Seaking Duck|Golduck, M|100/100
+|turn|14
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 par
+|-terastallize|p1a: Seaking Duck|Ghost
+|move|p1a: Seaking Duck|Nasty Plot|p1a: Seaking Duck
+|-boost|p1a: Seaking Duck|spa|2
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|move|p1a: Seaking Duck|Surf|p2a: Slowking
+|-damage|p2a: Slowking|6/100 par
+|-damage|p1a: Seaking Duck|91/100|[from] item: Life Orb
+|move|p2a: Slowking|Future Sight|p1a: Seaking Duck
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowking|12/100 par|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Seaking Duck|Surf|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-damage|p1a: Seaking Duck|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|68/100
+|turn|17
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Seaking Duck
+|-damage|p1a: Seaking Duck|18/100
+|move|p1a: Seaking Duck|Grass Knot|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-damage|p1a: Seaking Duck|8/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Seaking Duck|move: Future Sight
+|-damage|p1a: Seaking Duck|0 fnt
+|faint|p1a: Seaking Duck
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: BandedSkeda|Floatzel, F|100/100
+|turn|18
+|
+|move|p1a: BandedSkeda|Wave Crash|p2a: Zapdos
+|-damage|p2a: Zapdos|9/100
+|-damage|p1a: BandedSkeda|66/100|[from] Recoil
+|move|p2a: Zapdos|Volt Switch|p1a: BandedSkeda
+|-supereffective|p1a: BandedSkeda
+|-damage|p1a: BandedSkeda|0 fnt
+|faint|p1a: BandedSkeda
+|
+|switch|p2a: Dragapult|Dragapult, F, tera:Ghost|94/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: The Goat|Azumarill, F|50/100
+|turn|19
+|
+|move|p1a: The Goat|Aqua Jet|p2a: Dragapult
+|-damage|p2a: Dragapult|37/100
+|move|p2a: Dragapult|Shadow Ball|p1a: The Goat
+|-damage|p1a: The Goat|0 fnt
+|faint|p1a: The Goat
+|
+|-weather|none
+|
+|switch|p1a: Spaghetti Memory|Toedscruel, F|50/100
+|turn|20
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Spaghetti Memory
+|-damage|p1a: Spaghetti Memory|8/100
+|-unboost|p1a: Spaghetti Memory|spd|1
+|move|p1a: Spaghetti Memory|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Spaghetti Memory
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Zapdos|Zapdos|9/100
+|turn|21
+|
+|move|p1a: Spaghetti Memory|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-enditem|p2a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Spaghetti Memory
+|faint|p2a: Zapdos
+|
+|win|WeirdHamster

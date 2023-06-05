@@ -1,1 +1,91 @@
-Could not connect
+|j|☆Macci709
+|j|☆dj4258
+|t:|1685900798
+|gametype|singles
+|player|p1|Macci709|hilbert-wonderlauncher|1110
+|player|p2|dj4258|170|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Wo-Chien|
+|poke|p1|Skeledirge, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Zapdos|
+|poke|p1|Toxapex, M|
+|poke|p1|Garchomp, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Pincurchin, F|
+|poke|p2|Iron Hands|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Thorns|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dj4258)
+|
+|t:|1685900806
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-item|p2a: Iron Treads|Air Balloon
+|turn|1
+|
+|t:|1685900818
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|61/100
+|-enditem|p1a: Skeledirge|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|2
+|
+|t:|1685900836
+|move|p2a: Iron Treads|Electric Terrain|p2a: Iron Treads
+|-fieldstart|move: Electric Terrain
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivedef
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|
+|-damage|p2a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1685900850
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-activate|p2a: Iron Thorns|ability: Quark Drive
+|-start|p2a: Iron Thorns|quarkdrivedef
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Thorns
+|-resisted|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|90/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1685900866
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Iron Thorns|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|-message|Macci709 forfeited.
+|
+|win|dj4258
+|raw|Macci709's rating: 1110 → 1077(-33 for losing)
+|raw|dj4258's rating: 1000 → 1052(+52 for winning)
+|l|☆Macci709

@@ -1,0 +1,164 @@
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p1|Garchomp, F|
+|poke|p1|Zapdos|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Rotom-Wash|
+|poke|p2|Amoonguss, M|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|start
+|switch|p1a: Cachorrao louco|Arcanine-Hisui, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p1a: Cachorrao louco|Head Smash|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|2
+|
+|switch|p1a: A ex de alguem|Zapdos|100/100
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Haxcalibur|Baxcalibur, M|100/100
+|
+|turn|3
+|
+|move|p2a: Haxcalibur|Icicle Crash|p1a: A ex de alguem
+|-supereffective|p1a: A ex de alguem
+|-damage|p1a: A ex de alguem|0 fnt
+|faint|p1a: A ex de alguem
+|
+|
+|switch|p1a: Cachorrao louco|Arcanine-Hisui, F|100/100
+|turn|4
+|
+|move|p1a: Cachorrao louco|Flare Blitz|p2a: Haxcalibur
+|-damage|p2a: Haxcalibur|17/100
+|-ability|p2a: Haxcalibur|Thermal Exchange|boost
+|-boost|p2a: Haxcalibur|atk|1
+|move|p2a: Haxcalibur|Icicle Crash|p1a: Cachorrao louco
+|-resisted|p1a: Cachorrao louco
+|-damage|p1a: Cachorrao louco|35/100
+|
+|turn|5
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Cachorrao louco|Flare Blitz|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|78/100
+|
+|-heal|p2a: Garganacl|84/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Dorival JR|Great Tusk, shiny|100/100
+|move|p2a: Garganacl|Stealth Rock|p1a: Dorival JR
+|-sidestart|p1: Batataplays|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|91/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Dorival JR|Stealth Rock|p2a: Amoonguss
+|-sidestart|p2: Mr Coffy|move: Stealth Rock
+|
+|turn|8
+|
+|move|p1a: Dorival JR|Rapid Spin|p2a: Amoonguss
+|-damage|p2a: Amoonguss|89/100
+|-boost|p1a: Dorival JR|spe|1
+|-damage|p1a: Dorival JR|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-sideend|p1: Batataplays|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dorival JR
+|move|p2a: Amoonguss|Giga Drain|p1a: Dorival JR
+|-supereffective|p1a: Dorival JR
+|-damage|p1a: Dorival JR|23/100
+|-heal|p2a: Amoonguss|100/100|[from] drain|[of] p1a: Dorival JR
+|
+|-heal|p1a: Dorival JR|29/100|[from] item: Leftovers
+|turn|9
+|
+|-end|p1a: Dorival JR|Protosynthesis|[silent]
+|switch|p1a: O veio espanca|Kingambit, M|100/100
+|-activate|p1a: O veio espanca|ability: Supreme Overlord
+|-start|p1a: O veio espanca|fallen1|[silent]
+|move|p2a: Amoonguss|Spore|p1a: O veio espanca
+|-status|p1a: O veio espanca|slp|[from] move: Spore
+|
+|turn|10
+|
+|-end|p1a: O veio espanca|fallen1|[silent]
+|switch|p1a: VAPO VAPO VAPO|Garchomp, F|100/100
+|switch|p2a: Garganacl|Garganacl, M|91/100
+|-damage|p2a: Garganacl|78/100|[from] Stealth Rock
+|
+|-heal|p2a: Garganacl|84/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: VAPO VAPO VAPO|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|23/100
+|-damage|p1a: VAPO VAPO VAPO|91/100|[from] item: Life Orb
+|move|p2a: Garganacl|Stealth Rock|p1a: VAPO VAPO VAPO
+|-sidestart|p1: Batataplays|move: Stealth Rock
+|
+|-heal|p2a: Garganacl|29/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|move|p1a: VAPO VAPO VAPO|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|63/100
+|-damage|p1a: VAPO VAPO VAPO|81/100|[from] item: Life Orb
+|
+|turn|13
+|
+|move|p1a: VAPO VAPO VAPO|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|29/100
+|-unboost|p1a: VAPO VAPO VAPO|spa|2
+|-damage|p1a: VAPO VAPO VAPO|71/100|[from] item: Life Orb
+|move|p2a: Great Tusk|Rapid Spin|p1a: VAPO VAPO VAPO
+|-damage|p1a: VAPO VAPO VAPO|57/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|16/100|[from] ability: Rough Skin|[of] p1a: VAPO VAPO VAPO
+|-sideend|p2: Mr Coffy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|turn|14
+|
+|move|p1a: VAPO VAPO VAPO|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: VAPO VAPO VAPO|47/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|15
+|
+|move|p1a: VAPO VAPO VAPO|Spikes|p2a: Amoonguss
+|-sidestart|p2: Mr Coffy|Spikes
+|move|p2a: Amoonguss|Giga Drain|p1a: VAPO VAPO VAPO
+|-damage|p1a: VAPO VAPO VAPO|21/100
+|
+|turn|16
+|
+|move|p1a: VAPO VAPO VAPO|Spikes|p2a: Amoonguss
+|-sidestart|p2: Mr Coffy|Spikes
+|move|p2a: Amoonguss|Giga Drain|p1a: VAPO VAPO VAPO
+|-damage|p1a: VAPO VAPO VAPO|0 fnt
+|faint|p1a: VAPO VAPO VAPO
+|
+|
+|switch|p1a: Cachorrao louco|Arcanine-Hisui, F|35/100
+|-damage|p1a: Cachorrao louco|10/100|[from] Stealth Rock
+|turn|17
+|-message|Mr Coffy forfeited.
+|
+|win|Batataplays

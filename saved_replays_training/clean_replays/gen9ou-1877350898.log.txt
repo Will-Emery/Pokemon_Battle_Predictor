@@ -1,0 +1,263 @@
+|poke|p1|Ceruledge, M|
+|poke|p1|Inteleon, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Amoonguss, F|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Klefki, M|
+|poke|p2|Amoonguss, F|
+|poke|p2|Great Tusk|
+|poke|p2|Clodsire, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Magearna|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Klefki|Klefki, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Klefki|Thunder Wave|p2a: Magearna
+|-status|p2a: Magearna|par
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|2
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: HeroDesu|move: Light Screen
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|3
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|cant|p2a: Magearna|par
+|
+|turn|4
+|
+|move|p2a: Magearna|Stored Power|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|73/100
+|move|p1a: Clodsire|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|52/100 par
+|
+|-heal|p2a: Magearna|58/100 par|[from] item: Leftovers
+|-heal|p1a: Clodsire|79/100|[from] item: Leftovers
+|turn|5
+|
+|cant|p2a: Magearna|par
+|move|p1a: Clodsire|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|15/100 par
+|
+|-heal|p2a: Magearna|21/100 par|[from] item: Leftovers
+|-heal|p1a: Clodsire|85/100|[from] item: Leftovers
+|turn|6
+|
+|cant|p2a: Magearna|par
+|move|p1a: Clodsire|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-heal|p1a: Clodsire|92/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|7
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Amoonguss
+|-damage|p1a: Amoonguss|82/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-heal|p1a: Amoonguss|89/100|[from] item: Leftovers
+|turn|8
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Amoonguss|Toxic|p2a: Amoonguss
+|-immune|p2a: Amoonguss
+|
+|-heal|p1a: Amoonguss|95/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Electrode|Electrode-Hisui, shiny|100/100
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|
+|-sideend|p1: HeroDesu|move: Light Screen
+|turn|10
+|
+|-terastallize|p1a: Electrode|Ice
+|move|p1a: Electrode|Tera Blast|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|39/100
+|move|p2a: Clodsire|Poison Jab|p1a: Electrode
+|-damage|p1a: Electrode|65/100
+|
+|-heal|p2a: Clodsire|46/100|[from] item: Black Sludge
+|turn|11
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Electrode|Tera Blast|p2a: Chien-Pao
+|-resisted|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|66/100
+|
+|turn|12
+|
+|switch|p1a: Clodsire|Clodsire, M|92/100
+|move|p2a: Chien-Pao|Crunch|p1a: Clodsire
+|-damage|p1a: Clodsire|15/100
+|-damage|p2a: Chien-Pao|56/100|[from] item: Life Orb
+|
+|-heal|p1a: Clodsire|21/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-damage|p2a: Chien-Pao|46/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|turn|14
+|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: HeroDesu|Reflect
+|move|p2a: Chien-Pao|Crunch|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|86/100
+|-unboost|p1a: Klefki|def|1
+|-damage|p2a: Chien-Pao|36/100|[from] item: Life Orb
+|
+|turn|15
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Klefki|Thunder Wave|p2a: Ceruledge
+|-status|p2a: Ceruledge|par
+|
+|turn|16
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: HeroDesu|move: Light Screen
+|move|p2a: Ceruledge|Brick Break|p1a: Klefki
+|-sideend|p1: HeroDesu|Reflect
+|-sideend|p1: HeroDesu|move: Light Screen
+|-damage|p1a: Klefki|57/100
+|
+|turn|17
+|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: HeroDesu|Reflect
+|move|p2a: Ceruledge|Bitter Blade|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|4/100
+|
+|turn|18
+|
+|switch|p1a: Inteleon|Inteleon, F|100/100
+|move|p2a: Ceruledge|Brick Break|p1a: Inteleon
+|-sideend|p1: HeroDesu|Reflect
+|-damage|p1a: Inteleon|54/100
+|
+|turn|19
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Inteleon|Snipe Shot|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|77/100
+|-damage|p1a: Inteleon|44/100|[from] item: Life Orb
+|
+|-heal|p2a: Amoonguss|83/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Inteleon|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|5/100
+|-damage|p1a: Inteleon|34/100|[from] item: Life Orb
+|move|p2a: Amoonguss|Spore|p1a: Inteleon
+|-status|p1a: Inteleon|slp|[from] move: Spore
+|
+|-heal|p2a: Amoonguss|12/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|
+|turn|22
+|
+|switch|p1a: Clodsire|Clodsire, M|21/100
+|move|p2a: Great Tusk|Earthquake|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Electrode|Electrode-Hisui, shiny, tera:Ice|65/100
+|turn|23
+|
+|move|p1a: Electrode|Chloroblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Electrode|15/100|[from] chloroblast
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|36/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|24
+|
+|switch|p1a: Inteleon|Inteleon, F|34/100 slp
+|move|p2a: Chien-Pao|Ice Shard|p1a: Inteleon
+|-resisted|p1a: Inteleon
+|-damage|p1a: Inteleon|6/100 slp
+|-damage|p2a: Chien-Pao|26/100|[from] item: Life Orb
+|
+|turn|25
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|-damage|p2a: Chien-Pao|16/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Klefki|Klefki, M|4/100
+|turn|26
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|-damage|p2a: Chien-Pao|6/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|turn|27
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|-damage|p2a: Chien-Pao|0 fnt|[from] item: Life Orb
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100 par
+|switch|p1a: Electrode|Electrode-Hisui, shiny, tera:Ice|15/100
+|turn|28
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|win|Mouiz

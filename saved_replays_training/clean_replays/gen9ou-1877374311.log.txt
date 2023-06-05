@@ -1,0 +1,260 @@
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Magearna|
+|poke|p1|Moltres-Galar|
+|poke|p1|Dragapult, F|
+|poke|p1|Volcarona, F|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: ERIYI|Reflect
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|61/100
+|
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Magearna
+|-damage|p1a: Magearna|83/100
+|
+|-heal|p1a: Magearna|89/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|95/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Enamorus|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|63/100
+|-unboost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Draining Kiss|p2a: Enamorus
+|-crit|p2a: Enamorus
+|-damage|p2a: Enamorus|56/100
+|-heal|p1a: Magearna|90/100|[from] drain|[of] p2a: Enamorus
+|
+|-heal|p1a: Magearna|96/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Enamorus|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|65/100
+|-unboost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|71/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Enamorus|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|41/100
+|-unboost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|47/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Enamorus|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|8
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Urshifu|Bulk Up|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|1
+|-boost|p1a: Urshifu|def|1
+|
+|-sideend|p1: ERIYI|Reflect
+|turn|9
+|
+|move|p2a: Zamazenta|Body Press|p1a: Urshifu
+|-damage|p1a: Urshifu|53/100
+|move|p1a: Urshifu|Bulk Up|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|1
+|-boost|p1a: Urshifu|def|1
+|
+|turn|10
+|
+|move|p2a: Zamazenta|Body Press|p1a: Urshifu
+|-damage|p1a: Urshifu|22/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|74/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|47/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|23/100
+|-hitcount|p2a: Zamazenta|3
+|
+|turn|11
+|
+|move|p2a: Zamazenta|Body Press|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|61/100
+|turn|12
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: ERIYI|Reflect
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|move|p2a: Zamazenta|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|75/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|turn|14
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|14/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|3/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|turn|15
+|
+|-terastallize|p2a: Zamazenta|Fairy
+|move|p1a: Dragapult|Dragon Darts|p2a: Zamazenta
+|-immune|p2a: Zamazenta
+|move|p2a: Zamazenta|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|46/100
+|
+|turn|16
+|
+|move|p1a: Dragapult|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|17
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Great Tusk
+|-damage|p2a: Great Tusk|78/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Great Tusk
+|-damage|p2a: Great Tusk|57/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|15/100
+|
+|-heal|p2a: Great Tusk|64/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Great Tusk
+|-damage|p2a: Great Tusk|43/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Great Tusk
+|-damage|p2a: Great Tusk|23/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Great Tusk|29/100|[from] item: Leftovers
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|19
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-sideend|p1: ERIYI|Reflect
+|turn|20
+|
+|-terastallize|p1a: Volcarona|Grass
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Volcanion|Steam Eruption|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|87/100
+|
+|turn|21
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Volcanion|Flamethrower|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|47/100
+|
+|turn|22
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Volcanion
+|-damage|p2a: Volcanion|14/100
+|-heal|p1a: Volcarona|91/100|[from] drain|[of] p2a: Volcanion
+|move|p2a: Volcanion|Flamethrower|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|51/100
+|
+|turn|23
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|-heal|p1a: Volcarona|58/100|[from] drain|[of] p2a: Volcanion
+|faint|p2a: Volcanion
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|24
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|25
+|-message|ERIYI forfeited.
+|
+|win|No1MariaGoreySimp

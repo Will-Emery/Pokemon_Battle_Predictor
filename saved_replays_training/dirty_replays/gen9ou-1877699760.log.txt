@@ -1,1 +1,369 @@
-Could not connect
+|j|☆batmongoose
+|j|☆Michunium
+|t:|1685899101
+|gametype|singles
+|player|p1|batmongoose|dragontamer|1008
+|player|p2|Michunium|265|1007
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Armarouge, F|
+|poke|p1|Dachsbun, F|
+|poke|p1|Arboliva, M|
+|poke|p1|Iron Treads|
+|poke|p1|Haxorus, M|
+|poke|p1|Spidops, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Magearna|
+|poke|p2|Espeon, F|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|t:|1685899112
+|start
+|switch|p1a: Brioche|Dachsbun, F|100/100
+|switch|p2a: Bianeon|Espeon, F|100/100
+|turn|1
+|
+|t:|1685899120
+|move|p1a: Brioche|Protect|p1a: Brioche
+|-singleturn|p1a: Brioche|Protect
+|move|p2a: Bianeon|Reflect|p2a: Bianeon
+|-sidestart|p2: Michunium|Reflect
+|
+|upkeep
+|turn|2
+|
+|t:|1685899137
+|switch|p1a: Artillery|Armarouge, F|100/100
+|move|p2a: Bianeon|Light Screen|p2a: Bianeon
+|-sidestart|p2: Michunium|move: Light Screen
+|
+|upkeep
+|turn|3
+|
+|t:|1685899151
+|move|p2a: Bianeon|Shadow Ball|p1a: Artillery
+|-supereffective|p1a: Artillery
+|-damage|p1a: Artillery|62/100
+|move|p1a: Artillery|Dark Pulse|p2a: Bianeon
+|-supereffective|p2a: Bianeon
+|-damage|p2a: Bianeon|62/100
+|
+|upkeep
+|turn|4
+|
+|t:|1685899164
+|switch|p1a: Amity|Arboliva, M|100/100
+|move|p2a: Bianeon|Shadow Ball|p1a: Amity
+|-immune|p1a: Amity
+|
+|upkeep
+|turn|5
+|
+|t:|1685899185
+|switch|p2a: El Diego|Cinderace, M|100/100
+|move|p1a: Amity|Earth Power|p2a: El Diego
+|-supereffective|p2a: El Diego
+|-damage|p2a: El Diego|65/100
+|
+|-heal|p2a: El Diego|71/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685899195
+|move|p2a: El Diego|High Jump Kick|p1a: Amity
+|-start|p2a: El Diego|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Amity
+|-damage|p1a: Amity|0 fnt
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p1a: Amity
+|faint|p1a: Amity
+|
+|-heal|p2a: El Diego|77/100|[from] Grassy Terrain
+|-heal|p2a: El Diego|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685899208
+|switch|p1a: Brioche|Dachsbun, F|100/100
+|turn|7
+|
+|t:|1685899217
+|move|p2a: El Diego|Protect|p2a: El Diego
+|-singleturn|p2a: El Diego|Protect
+|move|p1a: Brioche|Yawn|p2a: El Diego
+|-activate|p2a: El Diego|move: Protect
+|
+|-heal|p2a: El Diego|89/100|[from] Grassy Terrain
+|-heal|p2a: El Diego|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685899227
+|move|p2a: El Diego|Gunk Shot|p1a: Brioche
+|-supereffective|p1a: Brioche
+|-damage|p1a: Brioche|24/100
+|-status|p1a: Brioche|psn
+|move|p1a: Brioche|Yawn|p2a: El Diego
+|-start|p2a: El Diego|move: Yawn|[of] p1a: Brioche
+|
+|-heal|p2a: El Diego|100/100|[from] Grassy Terrain
+|-heal|p1a: Brioche|30/100 psn|[from] Grassy Terrain
+|-damage|p1a: Brioche|17/100 psn|[from] psn
+|-sideend|p2: Michunium|Reflect
+|upkeep
+|turn|9
+|
+|t:|1685899244
+|move|p2a: El Diego|Protect|p2a: El Diego
+|-singleturn|p2a: El Diego|Protect
+|move|p1a: Brioche|Wish|p1a: Brioche
+|
+|-heal|p1a: Brioche|23/100 psn|[from] Grassy Terrain
+|-damage|p1a: Brioche|11/100 psn|[from] psn
+|-end|p2a: El Diego|move: Yawn|[silent]
+|-status|p2a: El Diego|slp
+|-sideend|p2: Michunium|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1685899257
+|switch|p1a: Artillery|Armarouge, F|62/100
+|cant|p2a: El Diego|slp
+|
+|-heal|p1a: Artillery|100/100|[from] move: Wish|[wisher] Brioche
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1685899273
+|-terastallize|p1a: Artillery|Fire
+|cant|p2a: El Diego|slp
+|move|p1a: Artillery|Armor Cannon|p2a: El Diego
+|-damage|p2a: El Diego|0 fnt
+|-unboost|p1a: Artillery|def|1
+|-unboost|p1a: Artillery|spd|1
+|faint|p2a: El Diego
+|
+|upkeep
+|
+|t:|1685899284
+|switch|p2a: Bianeon|Espeon, F|62/100
+|turn|12
+|
+|t:|1685899290
+|move|p2a: Bianeon|Reflect|p2a: Bianeon
+|-sidestart|p2: Michunium|Reflect
+|move|p1a: Artillery|Dark Pulse|p2a: Bianeon
+|-supereffective|p2a: Bianeon
+|-damage|p2a: Bianeon|0 fnt
+|faint|p2a: Bianeon
+|
+|upkeep
+|
+|t:|1685899313
+|switch|p2a: OSTIA TIO|Dragonite, F|100/100
+|turn|13
+|
+|t:|1685899327
+|switch|p1a: Brioche|Dachsbun, F|11/100 psn
+|move|p2a: OSTIA TIO|Aqua Tail|p1a: Brioche
+|-damage|p1a: Brioche|0 fnt
+|-damage|p2a: OSTIA TIO|84/100|[from] item: Rocky Helmet|[of] p1a: Brioche
+|faint|p1a: Brioche
+|
+|upkeep
+|
+|t:|1685899336
+|switch|p1a: Orb Weaver|Spidops, M|100/100
+|turn|14
+|
+|t:|1685899347
+|switch|p2a: Luna Luna Luna|Ursaluna, F|100/100
+|move|p1a: Orb Weaver|Lunge|p2a: Luna Luna Luna
+|-crit|p2a: Luna Luna Luna
+|-damage|p2a: Luna Luna Luna|44/100
+|-unboost|p2a: Luna Luna Luna|atk|1
+|
+|-status|p2a: Luna Luna Luna|brn|[from] item: Flame Orb
+|upkeep
+|turn|15
+|
+|t:|1685899359
+|move|p2a: Luna Luna Luna|Facade|p1a: Orb Weaver
+|-damage|p1a: Orb Weaver|21/100
+|move|p1a: Orb Weaver|Sticky Web|p2a: Luna Luna Luna
+|-sidestart|p2: Michunium|move: Sticky Web
+|
+|-damage|p2a: Luna Luna Luna|38/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1685899367
+|move|p2a: Luna Luna Luna|Facade|p1a: Orb Weaver
+|-damage|p1a: Orb Weaver|0 fnt
+|faint|p1a: Orb Weaver
+|
+|-damage|p2a: Luna Luna Luna|32/100 brn|[from] brn
+|upkeep
+|
+|t:|1685899376
+|switch|p1a: Autobot|Iron Treads|100/100
+|-enditem|p1a: Autobot|Booster Energy
+|-activate|p1a: Autobot|ability: Quark Drive|[fromitem]
+|-start|p1a: Autobot|quarkdrivespe
+|turn|17
+|
+|t:|1685899388
+|move|p1a: Autobot|Earthquake|p2a: Luna Luna Luna
+|-damage|p2a: Luna Luna Luna|13/100 brn
+|move|p2a: Luna Luna Luna|Avalanche|p1a: Autobot
+|-damage|p1a: Autobot|56/100
+|
+|-damage|p2a: Luna Luna Luna|7/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1685899398
+|move|p1a: Autobot|Rapid Spin|p2a: Luna Luna Luna
+|-damage|p2a: Luna Luna Luna|1/100 brn
+|-boost|p1a: Autobot|spe|1
+|move|p2a: Luna Luna Luna|Body Slam|p1a: Autobot
+|-resisted|p1a: Autobot
+|-damage|p1a: Autobot|33/100
+|
+|-damage|p2a: Luna Luna Luna|0 fnt|[from] brn
+|faint|p2a: Luna Luna Luna
+|upkeep
+|
+|t:|1685899411
+|switch|p2a: Katy|Meowscarada, F|100/100
+|-activate|p2a: Katy|move: Sticky Web
+|-unboost|p2a: Katy|spe|1
+|turn|19
+|
+|t:|1685899418
+|move|p1a: Autobot|Iron Head|p2a: Katy
+|-damage|p2a: Katy|70/100
+|cant|p2a: Katy|flinch
+|
+|-sideend|p2: Michunium|Reflect
+|upkeep
+|turn|20
+|c|☆Michunium|Ya perdi
+|
+|t:|1685899446
+|-end|p1a: Autobot|Quark Drive|[silent]
+|switch|p1a: Lumberjack|Haxorus, M|100/100
+|-ability|p1a: Lumberjack|Mold Breaker
+|move|p2a: Katy|Petal Blizzard|p1a: Lumberjack
+|-start|p2a: Katy|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Lumberjack
+|-damage|p1a: Lumberjack|57/100
+|
+|upkeep
+|turn|21
+|
+|t:|1685899466
+|switch|p2a: Piespi|Magearna|100/100
+|-activate|p2a: Piespi|move: Sticky Web
+|-unboost|p2a: Piespi|spe|1
+|move|p1a: Lumberjack|Dragon Claw|p2a: Piespi
+|-immune|p2a: Piespi
+|
+|upkeep
+|turn|22
+|
+|t:|1685899475
+|move|p1a: Lumberjack|Earthquake|p2a: Piespi
+|-supereffective|p2a: Piespi
+|-damage|p2a: Piespi|9/100
+|-damage|p1a: Lumberjack|47/100|[from] item: Life Orb
+|move|p2a: Piespi|Dazzling Gleam|p1a: Lumberjack
+|-supereffective|p1a: Lumberjack
+|-crit|p1a: Lumberjack
+|-damage|p1a: Lumberjack|0 fnt
+|faint|p1a: Lumberjack
+|-ability|p2a: Piespi|Soul-Heart|boost
+|-boost|p2a: Piespi|spa|1
+|
+|upkeep
+|
+|t:|1685899484
+|switch|p1a: Autobot|Iron Treads|33/100
+|turn|23
+|
+|t:|1685899490
+|move|p1a: Autobot|Iron Head|p2a: Piespi
+|-damage|p2a: Piespi|0 fnt
+|faint|p2a: Piespi
+|
+|upkeep
+|
+|t:|1685899496
+|switch|p2a: Katy|Meowscarada, F|70/100
+|-activate|p2a: Katy|move: Sticky Web
+|-unboost|p2a: Katy|spe|1
+|turn|24
+|
+|t:|1685899508
+|move|p1a: Autobot|Iron Head|p2a: Katy
+|-damage|p2a: Katy|9/100
+|move|p2a: Katy|Petal Blizzard|p1a: Autobot
+|-start|p2a: Katy|typechange|Grass|[from] ability: Protean
+|-damage|p1a: Autobot|0 fnt
+|faint|p1a: Autobot
+|-end|p1a: Autobot|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685899517
+|switch|p1a: Artillery|Armarouge, F, tera:Fire|100/100
+|turn|25
+|
+|t:|1685899525
+|move|p2a: Katy|Petal Blizzard|p1a: Artillery
+|-resisted|p1a: Artillery
+|-damage|p1a: Artillery|69/100
+|move|p1a: Artillery|Psychic|p2a: Katy
+|-damage|p2a: Katy|0 fnt
+|faint|p2a: Katy
+|
+|upkeep
+|
+|t:|1685899534
+|switch|p2a: OSTIA TIO|Dragonite, F|84/100
+|turn|26
+|
+|t:|1685899539
+|-terastallize|p2a: OSTIA TIO|Normal
+|move|p2a: OSTIA TIO|Extreme Speed|p1a: Artillery
+|-damage|p1a: Artillery|9/100
+|move|p1a: Artillery|Psychic|p2a: OSTIA TIO
+|-damage|p2a: OSTIA TIO|27/100
+|
+|upkeep
+|turn|27
+|
+|t:|1685899548
+|move|p2a: OSTIA TIO|Extreme Speed|p1a: Artillery
+|-damage|p1a: Artillery|0 fnt
+|faint|p1a: Artillery
+|
+|win|Michunium
+|raw|batmongoose's rating: 1008 → 1000(-8 for losing)
+|raw|Michunium's rating: 1007 → 1046(+39 for winning)
+|c|☆Michunium|Gg
+|c|☆batmongoose|gg\
+|l|☆batmongoose

@@ -1,0 +1,264 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Floatzel, F|
+|poke|p1|Golduck, F|
+|poke|p1|Pawmot, F|
+|poke|p1|Toedscruel, F|
+|poke|p1|Azumarill, F|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Ghoti carrier|Pelipper, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|1
+|
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Shadow Ball|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|26/100
+|move|p1a: Ghoti carrier|Hurricane|p2a: Dragapult
+|-damage|p2a: Dragapult|44/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Spaghetti Memory|Toedscruel, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Spaghetti Memory
+|-damage|p1a: Spaghetti Memory|61/100
+|-unboost|p1a: Spaghetti Memory|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Spaghetti Memory
+|-damage|p1a: Spaghetti Memory|0 fnt
+|faint|p1a: Spaghetti Memory
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: BandedSkeda|Floatzel, F|100/100
+|turn|4
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: BandedSkeda|Liquidation|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|5
+|
+|move|p1a: BandedSkeda|Liquidation|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|51/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: BandedSkeda
+|-damage|p1a: BandedSkeda|21/100
+|-sidestart|p1: WeirdHamster|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Samurott|Sucker Punch|p1a: BandedSkeda
+|-damage|p1a: BandedSkeda|0 fnt
+|faint|p1a: BandedSkeda
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: The Goat|Azumarill, F|100/100
+|-damage|p1a: The Goat|88/100|[from] Spikes
+|turn|7
+|
+|move|p2a: Samurott|Razor Shell|p1a: The Goat
+|-resisted|p1a: The Goat
+|-damage|p1a: The Goat|48/100
+|-enditem|p1a: The Goat|Sitrus Berry|[eat]
+|-heal|p1a: The Goat|73/100|[from] item: Sitrus Berry
+|move|p1a: The Goat|Belly Drum|p1a: The Goat
+|-damage|p1a: The Goat|23/100
+|-setboost|p1a: The Goat|atk|6|[from] move: Belly Drum
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p2a: Samurott|Sucker Punch|p1a: The Goat
+|-resisted|p1a: The Goat
+|-damage|p1a: The Goat|5/100
+|move|p1a: The Goat|Aqua Jet|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|none
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|9
+|
+|move|p1a: The Goat|Aqua Jet|p2a: Zamazenta
+|-damage|p2a: Zamazenta|32/100
+|move|p2a: Zamazenta|Crunch|p1a: The Goat
+|-resisted|p1a: The Goat
+|-damage|p1a: The Goat|0 fnt
+|faint|p1a: The Goat
+|
+|
+|switch|p1a: Ghoti carrier|Pelipper, F|26/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|10
+|
+|move|p2a: Zamazenta|Crunch|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|0 fnt
+|faint|p1a: Ghoti carrier
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Seaking Duck|Golduck, F|100/100
+|-damage|p1a: Seaking Duck|88/100|[from] Spikes
+|turn|11
+|
+|-terastallize|p1a: Seaking Duck|Ghost
+|move|p1a: Seaking Duck|Nasty Plot|p1a: Seaking Duck
+|-boost|p1a: Seaking Duck|spa|2
+|move|p2a: Zamazenta|Crunch|p1a: Seaking Duck
+|-supereffective|p1a: Seaking Duck
+|-crit|p1a: Seaking Duck
+|-damage|p1a: Seaking Duck|0 fnt
+|faint|p1a: Seaking Duck
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Really want eject|Pawmot, F|100/100
+|-damage|p1a: Really want eject|88/100|[from] Spikes
+|turn|12
+|
+|switch|p2a: Dragapult|Dragapult, F, tera:Ghost|44/100
+|move|p1a: Really want eject|Revival Blessing|p1a: Really want eject
+|-enditem|p1a: Really want eject|Leppa Berry|[eat]
+|-activate|p1a: Really want eject|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p1: BandedSkeda|50/100|[from] move: Revival Blessing
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p2a: Dragapult|U-turn|p1a: Really want eject
+|-resisted|p1a: Really want eject
+|-damage|p1a: Really want eject|76/100
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|move|p1a: Really want eject|Revival Blessing|p1a: Really want eject
+|
+|-heal|p1: Ghoti carrier|50/100|[from] move: Revival Blessing
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p1a: Really want eject|Nuzzle|p2a: Magearna
+|-damage|p2a: Magearna|94/100
+|-status|p2a: Magearna|par
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|99/100 par|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Really want eject|Encore|p2a: Magearna
+|-start|p2a: Magearna|Encore
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|100/100 par|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Dragapult|Dragapult, F, tera:Ghost|44/100
+|move|p1a: Really want eject|Close Combat|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Really want eject|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|80/100
+|-unboost|p1a: Really want eject|def|1
+|-unboost|p1a: Really want eject|spd|1
+|
+|-weather|none
+|-heal|p2a: Great Tusk|87/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Ghoti carrier|Pelipper, F|50/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|move|p2a: Great Tusk|Stealth Rock|p1a: Ghoti carrier
+|-sidestart|p1: WeirdHamster|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Great Tusk|93/100|[from] item: Leftovers
+|turn|19
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|100/100 par
+|move|p1a: Ghoti carrier|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|99/100 par
+|
+|switch|p1a: BandedSkeda|Floatzel, F|50/100|[from] U-turn
+|-damage|p1a: BandedSkeda|38/100|[from] Spikes
+|-damage|p1a: BandedSkeda|26/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|100/100 par|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: BandedSkeda|Liquidation|p2a: Magearna
+|-damage|p2a: Magearna|17/100 par
+|move|p2a: Magearna|Draining Kiss|p1a: BandedSkeda
+|-damage|p1a: BandedSkeda|0 fnt
+|-heal|p2a: Magearna|35/100 par|[from] drain|[of] p1a: BandedSkeda
+|faint|p1a: BandedSkeda
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|41/100 par|[from] item: Leftovers
+|
+|switch|p1a: Ghoti carrier|Pelipper, F|50/100
+|-damage|p1a: Ghoti carrier|26/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Ghoti carrier|Surf|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, F, tera:Ghost|44/100
+|turn|22
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|0 fnt
+|faint|p1a: Ghoti carrier
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Really want eject|Pawmot, F|76/100
+|-damage|p1a: Really want eject|64/100|[from] Spikes
+|-damage|p1a: Really want eject|57/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Really want eject
+|-damage|p1a: Really want eject|0 fnt
+|faint|p1a: Really want eject
+|
+|win|ayyk_47

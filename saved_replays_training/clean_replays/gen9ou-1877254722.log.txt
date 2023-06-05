@@ -1,0 +1,401 @@
+|poke|p1|Quaquaval, M|
+|poke|p1|Garganacl, M|
+|poke|p1|Gholdengo|
+|poke|p1|Tinkaton, F|
+|poke|p1|Toedscruel, M|
+|poke|p1|Baxcalibur, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Magearna|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|start
+|switch|p1a: Super-Dragon|Baxcalibur, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Super-Dragon
+|-damage|p1a: Super-Dragon|64/100
+|-sidestart|p1: Grain2Sel|Spikes
+|move|p1a: Super-Dragon|Glaive Rush|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|-singlemove|p1a: Super-Dragon|Glaive Rush|[silent]
+|-damage|p1a: Super-Dragon|54/100|[from] item: Life Orb
+|
+|turn|2
+|
+|move|p1a: Super-Dragon|Ice Shard|p2a: Samurott
+|-resisted|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-damage|p1a: Super-Dragon|44/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|3
+|
+|move|p1a: Super-Dragon|Ice Shard|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|62/100
+|-damage|p1a: Super-Dragon|34/100|[from] item: Life Orb
+|move|p2a: Iron Valiant|Close Combat|p1a: Super-Dragon
+|-supereffective|p1a: Super-Dragon
+|-damage|p1a: Super-Dragon|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Super-Dragon
+|
+|
+|switch|p1a: RIP Sia|Gholdengo|100/100
+|-damage|p1a: RIP Sia|88/100|[from] Spikes
+|turn|4
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: RIP Sia|Shadow Ball|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|77/100
+|
+|-heal|p2a: Kingambit|84/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Coin??Coin!?|Quaquaval, M|100/100
+|-damage|p1a: Coin??Coin!?|88/100|[from] Spikes
+|move|p2a: Kingambit|Iron Head|p1a: Coin??Coin!?
+|-resisted|p1a: Coin??Coin!?
+|-damage|p1a: Coin??Coin!?|56/100
+|
+|-heal|p2a: Kingambit|90/100|[from] item: Leftovers
+|turn|6
+|
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Coin??Coin!?|Aqua Step|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|58/100
+|-boost|p1a: Coin??Coin!?|spe|1
+|
+|-heal|p2a: Dragapult|64/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Salt Bro <3|Garganacl, M|100/100
+|-damage|p1a: Salt Bro <3|88/100|[from] Spikes
+|move|p2a: Dragapult|Thunder Wave|p1a: Salt Bro <3
+|-immune|p1a: Salt Bro <3|[from] ability: Purifying Salt
+|
+|-heal|p2a: Dragapult|70/100|[from] item: Leftovers
+|-heal|p1a: Salt Bro <3|94/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|80/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|65/100
+|move|p1a: Salt Bro <3|Salt Cure|p2a: Dragapult
+|-damage|p2a: Dragapult|49/100
+|-start|p2a: Dragapult|Salt Cure
+|
+|-heal|p2a: Dragapult|55/100|[from] item: Leftovers
+|-heal|p1a: Salt Bro <3|72/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|43/100|[from] Salt Cure
+|turn|9
+|
+|switch|p2a: Iron Valiant|Iron Valiant|62/100
+|move|p1a: Salt Bro <3|Salt Cure|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|52/100
+|-start|p2a: Iron Valiant|Salt Cure
+|
+|-heal|p1a: Salt Bro <3|78/100|[from] item: Leftovers
+|-damage|p2a: Iron Valiant|40/100|[from] Salt Cure
+|turn|10
+|
+|switch|p1a: RIP Sia|Gholdengo|88/100
+|-damage|p1a: RIP Sia|76/100|[from] Spikes
+|move|p2a: Iron Valiant|Close Combat|p1a: RIP Sia
+|-immune|p1a: RIP Sia
+|
+|-damage|p2a: Iron Valiant|27/100|[from] Salt Cure
+|turn|11
+|
+|move|p1a: RIP Sia|Focus Blast|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|12
+|
+|move|p1a: RIP Sia|Focus Blast|p2a: Walking Wake|[miss]
+|-miss|p1a: RIP Sia|p2a: Walking Wake
+|move|p2a: Walking Wake|Substitute|p2a: Walking Wake
+|-start|p2a: Walking Wake|Substitute
+|-damage|p2a: Walking Wake|76/100
+|
+|turn|13
+|
+|move|p1a: RIP Sia|Focus Blast|p2a: Walking Wake|[miss]
+|-miss|p1a: RIP Sia|p2a: Walking Wake
+|move|p2a: Walking Wake|Agility|p2a: Walking Wake
+|-boost|p2a: Walking Wake|spe|2
+|
+|turn|14
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: RIP Sia
+|-crit|p1a: RIP Sia
+|-damage|p1a: RIP Sia|0 fnt
+|faint|p1a: RIP Sia
+|
+|
+|switch|p1a: Salt Bro <3|Garganacl, M|78/100
+|-damage|p1a: Salt Bro <3|65/100|[from] Spikes
+|turn|15
+|
+|-terastallize|p1a: Salt Bro <3|Grass
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|26/100
+|move|p1a: Salt Bro <3|Recover|p1a: Salt Bro <3
+|-heal|p1a: Salt Bro <3|76/100
+|
+|-heal|p1a: Salt Bro <3|83/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|43/100
+|move|p1a: Salt Bro <3|Body Press|p2a: Walking Wake
+|-activate|p2a: Walking Wake|move: Substitute|[damage]
+|
+|-heal|p1a: Salt Bro <3|49/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|7/100
+|move|p1a: Salt Bro <3|Recover|p1a: Salt Bro <3
+|-heal|p1a: Salt Bro <3|57/100
+|
+|-heal|p1a: Salt Bro <3|64/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|21/100
+|move|p1a: Salt Bro <3|Recover|p1a: Salt Bro <3
+|-heal|p1a: Salt Bro <3|71/100
+|
+|-heal|p1a: Salt Bro <3|77/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|38/100
+|move|p1a: Salt Bro <3|Recover|p1a: Salt Bro <3
+|-heal|p1a: Salt Bro <3|88/100
+|
+|-heal|p1a: Salt Bro <3|94/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|52/100
+|move|p1a: Salt Bro <3|Body Press|p2a: Walking Wake
+|-end|p2a: Walking Wake|Substitute
+|
+|-heal|p1a: Salt Bro <3|58/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Walking Wake|Substitute|p2a: Walking Wake
+|-start|p2a: Walking Wake|Substitute
+|-damage|p2a: Walking Wake|51/100
+|move|p1a: Salt Bro <3|Recover|p1a: Salt Bro <3
+|-heal|p1a: Salt Bro <3|100/100
+|
+|turn|22
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|60/100
+|move|p1a: Salt Bro <3|Iron Defense|p1a: Salt Bro <3
+|-boost|p1a: Salt Bro <3|def|2
+|
+|-heal|p1a: Salt Bro <3|66/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|25/100
+|move|p1a: Salt Bro <3|Recover|p1a: Salt Bro <3
+|-heal|p1a: Salt Bro <3|75/100
+|
+|-heal|p1a: Salt Bro <3|82/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|44/100
+|move|p1a: Salt Bro <3|Recover|p1a: Salt Bro <3
+|-heal|p1a: Salt Bro <3|94/100
+|
+|-heal|p1a: Salt Bro <3|99/100|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|62/100
+|move|p1a: Salt Bro <3|Body Press|p2a: Walking Wake
+|-end|p2a: Walking Wake|Substitute
+|
+|-heal|p1a: Salt Bro <3|68/100|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|31/100
+|move|p1a: Salt Bro <3|Recover|p1a: Salt Bro <3
+|-heal|p1a: Salt Bro <3|81/100
+|
+|-heal|p1a: Salt Bro <3|87/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|48/100
+|move|p1a: Salt Bro <3|Body Press|p2a: Walking Wake
+|-damage|p2a: Walking Wake|2/100
+|
+|-heal|p1a: Salt Bro <3|54/100|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|14/100
+|move|p1a: Salt Bro <3|Salt Cure|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-heal|p1a: Salt Bro <3|21/100|[from] item: Leftovers
+|
+|switch|p2a: Kingambit|Kingambit, M|90/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|29
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Salt Bro <3
+|-damage|p1a: Salt Bro <3|0 fnt
+|faint|p1a: Salt Bro <3
+|
+|-heal|p2a: Kingambit|96/100|[from] item: Leftovers
+|
+|switch|p1a: Coin??Coin!?|Quaquaval, M|56/100
+|-damage|p1a: Coin??Coin!?|44/100|[from] Spikes
+|turn|30
+|
+|-terastallize|p2a: Kingambit|Fairy
+|move|p1a: Coin??Coin!?|Aqua Step|p2a: Kingambit
+|-damage|p2a: Kingambit|56/100
+|-boost|p1a: Coin??Coin!?|spe|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|62/100|[from] item: Leftovers
+|turn|31
+|
+|switch|p1a: DRAGONSLAYER|Tinkaton, F|100/100
+|-ability|p1a: DRAGONSLAYER|Mold Breaker
+|-item|p1a: DRAGONSLAYER|Air Balloon
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|68/100|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: DRAGONSLAYER
+|-resisted|p1a: DRAGONSLAYER
+|-damage|p1a: DRAGONSLAYER|27/100
+|-enditem|p1a: DRAGONSLAYER|Air Balloon
+|move|p1a: DRAGONSLAYER|Gigaton Hammer|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|43/100
+|turn|33
+|
+|move|p2a: Dragapult|Hex|p1a: DRAGONSLAYER
+|-damage|p1a: DRAGONSLAYER|0 fnt
+|faint|p1a: DRAGONSLAYER
+|
+|-heal|p2a: Dragapult|49/100|[from] item: Leftovers
+|
+|switch|p1a: S.Cowell|Toedscruel, M|100/100
+|-damage|p1a: S.Cowell|88/100|[from] Spikes
+|turn|34
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: S.Cowell
+|-damage|p1a: S.Cowell|55/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: S.Cowell
+|-damage|p1a: S.Cowell|23/100
+|move|p1a: S.Cowell|Spore|p2a: Dragapult
+|-status|p2a: Dragapult|slp|[from] move: Spore
+|
+|-heal|p2a: Dragapult|55/100 slp|[from] item: Leftovers
+|-heal|p1a: S.Cowell|29/100|[from] item: Leftovers
+|turn|35
+|
+|cant|p2a: Dragapult|slp
+|move|p1a: S.Cowell|Earth Power|p2a: Dragapult
+|-damage|p2a: Dragapult|1/100 slp
+|
+|-heal|p2a: Dragapult|7/100 slp|[from] item: Leftovers
+|-heal|p1a: S.Cowell|35/100|[from] item: Leftovers
+|turn|36
+|
+|cant|p2a: Dragapult|slp
+|move|p1a: S.Cowell|Earth Power|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: S.Cowell|41/100|[from] item: Leftovers
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|37
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: S.Cowell|Spore|p2a: Magearna
+|-status|p2a: Magearna|slp|[from] move: Spore
+|
+|-heal|p1a: S.Cowell|47/100|[from] item: Leftovers
+|turn|38
+|
+|move|p1a: S.Cowell|Earth Power|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|57/100 slp
+|cant|p2a: Magearna|slp
+|
+|-heal|p1a: S.Cowell|52/100|[from] item: Leftovers
+|-heal|p2a: Magearna|63/100 slp|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: S.Cowell|Earth Power|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|19/100 slp
+|cant|p2a: Magearna|slp
+|
+|-heal|p1a: S.Cowell|58/100|[from] item: Leftovers
+|-heal|p2a: Magearna|25/100 slp|[from] item: Leftovers
+|turn|40
+|
+|move|p1a: S.Cowell|Earth Power|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|win|Grain2Sel

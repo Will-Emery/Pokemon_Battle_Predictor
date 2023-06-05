@@ -1,0 +1,182 @@
+|poke|p1|Magearna|
+|poke|p1|Drifblim, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Skeledirge, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Blissey, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: DaBaby|Toxapex, M, shiny|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|move|p2a: Gholdengo|Trick|p1a: DaBaby
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: DaBaby
+|-item|p1a: DaBaby|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: DaBaby|Toxic Spikes|p2a: Gholdengo
+|-sidestart|p2: danprice|move: Toxic Spikes
+|
+|turn|2
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: DaBaby
+|-damage|p1a: DaBaby|62/100
+|move|p1a: DaBaby|Toxic Spikes|p2a: Gholdengo
+|-sidestart|p2: danprice|move: Toxic Spikes
+|
+|turn|3
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|switch|p1a: Karen|Blissey, F|100/100
+|
+|turn|4
+|
+|switch|p1a: Gustavo Fring|Skeledirge, M|100/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|turn|5
+|
+|move|p2a: Cinderace|U-turn|p1a: Gustavo Fring
+|-resisted|p1a: Gustavo Fring
+|-damage|p1a: Gustavo Fring|97/100
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|move|p1a: Gustavo Fring|Torch Song|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|30/100
+|-boost|p1a: Gustavo Fring|spa|1
+|
+|turn|6
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|switch|p1a: DaBaby|Toxapex, M, shiny|95/100
+|-sideend|p1: Granny Pie|move: Toxic Spikes|[of] p1a: DaBaby
+|
+|turn|7
+|
+|switch|p2a: Gholdengo|Gholdengo|30/100
+|move|p1a: DaBaby|Toxic Spikes|p2a: Gholdengo
+|-sidestart|p2: danprice|move: Toxic Spikes
+|
+|turn|8
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|80/100
+|move|p1a: DaBaby|Toxic Spikes|p2a: Gholdengo
+|-sidestart|p2: danprice|move: Toxic Spikes
+|
+|turn|9
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|switch|p1a: Karen|Blissey, F|100/100
+|
+|turn|10
+|
+|switch|p1a: Gustavo Fring|Skeledirge, M|97/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|turn|11
+|
+|move|p2a: Cinderace|U-turn|p1a: Gustavo Fring
+|-resisted|p1a: Gustavo Fring
+|-damage|p1a: Gustavo Fring|94/100
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from] U-turn
+|move|p1a: Gustavo Fring|Torch Song|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|78/100
+|-boost|p1a: Gustavo Fring|spa|1
+|
+|turn|12
+|
+|switch|p1a: DaBaby|Toxapex, M, shiny|100/100
+|-sideend|p1: Granny Pie|move: Toxic Spikes|[of] p1a: DaBaby
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|
+|turn|13
+|
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|move|p1a: DaBaby|Toxic|p2a: Urshifu
+|-status|p2a: Urshifu|tox
+|
+|-damage|p2a: Urshifu|71/100 tox|[from] psn
+|turn|14
+|
+|switch|p1a: Poppy|Drifblim, F|100/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Poppy
+|-crit|p1a: Poppy
+|-damage|p1a: Poppy|48/100
+|-crit|p1a: Poppy
+|-damage|p1a: Poppy|0 fnt
+|faint|p1a: Poppy
+|-hitcount|p1: Poppy|2
+|
+|-damage|p2a: Urshifu|59/100 tox|[from] psn
+|
+|switch|p1a: Gustavo Fring|Skeledirge, M|94/100
+|turn|15
+|
+|-terastallize|p1a: Gustavo Fring|Ghost
+|move|p2a: Urshifu|Close Combat|p1a: Gustavo Fring
+|-immune|p1a: Gustavo Fring
+|move|p1a: Gustavo Fring|Hex|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|16
+|
+|switch|p1a: DaBaby|Toxapex, M, shiny|100/100
+|move|p2a: Gholdengo|Trick|p1a: DaBaby
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: DaBaby
+|-item|p1a: DaBaby|Choice Specs|[from] move: Trick
+|-item|p2a: Gholdengo|Choice Scarf|[from] move: Trick
+|
+|turn|17
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: DaBaby
+|-damage|p1a: DaBaby|63/100
+|move|p1a: DaBaby|Toxic Spikes|p2a: Gholdengo
+|-sidestart|p2: danprice|move: Toxic Spikes
+|
+|turn|18
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: DaBaby|Toxic Spikes|p2a: Cinderace
+|-sidestart|p2: danprice|move: Toxic Spikes
+|
+|turn|19
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: DaBaby|Toxic Spikes|p2a: Cinderace
+|-sidestart|p2: danprice|move: Toxic Spikes
+|
+|turn|20
+|
+|switch|p2a: Gholdengo|Gholdengo|80/100
+|move|p1a: DaBaby|Toxic Spikes|p2a: Gholdengo
+|-sidestart|p2: danprice|move: Toxic Spikes
+|
+|turn|21
+|-message|danprice forfeited.
+|
+|win|Granny Pie

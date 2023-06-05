@@ -1,0 +1,288 @@
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p1|Hydreigon, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Amoonguss, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Glimmora, F|
+|poke|p2|Azumarill, M|
+|poke|p2|Baxcalibur, M|
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|move|p1a: Hydreigon|Stealth Rock|p2a: Glimmora
+|-sidestart|p2: Vavilov Tcherenkov|move: Stealth Rock
+|move|p2a: Glimmora|Dazzling Gleam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|turn|2
+|
+|move|p2a: Glimmora|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: TDNT|move: Stealth Rock
+|move|p1a: Amoonguss|Giga Drain|p2a: Glimmora
+|-damage|p2a: Glimmora|70/100
+|
+|turn|3
+|
+|move|p2a: Glimmora|Stealth Rock||[still]
+|-fail|p2a: Glimmora
+|move|p1a: Amoonguss|Spore|p2a: Glimmora
+|-status|p2a: Glimmora|slp|[from] move: Spore
+|
+|turn|4
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Giga Drain|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|70/100
+|
+|turn|5
+|
+|move|p2a: Iron Moth|Fiery Dance|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|29/100
+|-boost|p2a: Iron Moth|spa|1
+|-enditem|p1a: Amoonguss|Red Card|[of] p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|drag|p2a: Glimmora|Glimmora, F|70/100 slp
+|-damage|p2a: Glimmora|58/100 slp|[from] Stealth Rock
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-crit|p2a: Glimmora
+|-damage|p2a: Glimmora|44/100 slp
+|
+|turn|6
+|
+|switch|p2a: Iron Moth|Iron Moth|70/100
+|-damage|p2a: Iron Moth|45/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Giga Drain|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|39/100
+|-heal|p1a: Amoonguss|31/100|[from] drain|[of] p2a: Iron Moth
+|
+|turn|7
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|93/100
+|
+|turn|8
+|
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|53/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|turn|9
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|-singleturn|p1a: Dragonite|move: Roost
+|
+|turn|10
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|67/100
+|move|p2a: Azumarill|Play Rough|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|43/100
+|-unboost|p1a: Dragonite|atk|1
+|
+|turn|11
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|53/100
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|3/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|28/100|[from] item: Sitrus Berry
+|
+|turn|12
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|97/100|[from] Stealth Rock
+|turn|13
+|
+|-terastallize|p1a: Great Tusk|Water
+|move|p2a: Azumarill|Aqua Jet|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|68/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Azumarill
+|-damage|p2a: Azumarill|10/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: TDNT|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|14
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Azumarill
+|
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|-damage|p2a: Baxcalibur|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Great Tusk|Close Combat|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-enditem|p1a: Great Tusk|Eject Pack
+|faint|p2a: Baxcalibur
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|65/100
+|
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|16
+|
+|switch|p1a: Great Tusk|Great Tusk, tera:Water|68/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|turn|17
+|
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Great Tusk|Close Combat|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|71/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|turn|18
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|19
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Kingambit
+|-damage|p2a: Kingambit|27/100
+|move|p2a: Kingambit|Low Kick|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|20
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|47/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|21
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Iron Moth|Iron Moth|39/100
+|-damage|p2a: Iron Moth|14/100|[from] Stealth Rock
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|98/100
+|
+|turn|22
+|
+|move|p2a: Iron Moth|Fiery Dance|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|34/100
+|move|p1a: Amoonguss|Foul Play|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|94/100
+|-damage|p2a: Iron Valiant|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Iron Valiant|Spirit Break|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|18/100
+|-unboost|p1a: Amoonguss|spa|1
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|23/100
+|
+|turn|24
+|
+|switch|p1a: Iron Valiant|Iron Valiant|47/100
+|move|p2a: Iron Valiant|Close Combat|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p1a: Amoonguss|Amoonguss, F|51/100
+|turn|25
+|
+|move|p2a: Iron Valiant|Destiny Bond|p2a: Iron Valiant
+|-singlemove|p2a: Iron Valiant|Destiny Bond
+|move|p1a: Amoonguss|Giga Drain|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-heal|p1a: Amoonguss|59/100|[from] drain|[of] p2a: Iron Valiant
+|faint|p2a: Iron Valiant
+|-activate|p2a: Iron Valiant|move: Destiny Bond
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|faint|p1a: Amoonguss
+|
+|win|Vavilov Tcherenkov
+|player|p1|TDNT|#splxivsharks

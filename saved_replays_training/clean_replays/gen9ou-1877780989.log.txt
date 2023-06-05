@@ -1,0 +1,197 @@
+|poke|p1|Meloetta|
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, M|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Azelf|
+|poke|p2|Moltres-Galar|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Magearna|
+|poke|p2|Roaring Moon|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|start
+|switch|p1a: Meloetta|Meloetta|100/100
+|switch|p2a: Azelf|Azelf, shiny|100/100
+|turn|1
+|
+|move|p2a: Azelf|Taunt|p1a: Meloetta
+|-start|p1a: Meloetta|move: Taunt
+|move|p1a: Meloetta|Relic Song|p2a: Azelf
+|-damage|p2a: Azelf|56/100
+|-formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+|
+|turn|2
+|
+|move|p1a: Meloetta|Tera Blast|p2a: Azelf
+|-damage|p2a: Azelf|29/100
+|move|p2a: Azelf|Stealth Rock|p1a: Meloetta
+|-sidestart|p1: Nnie|move: Stealth Rock
+|
+|turn|3
+|
+|move|p1a: Meloetta|Tera Blast|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|-end|p1a: Meloetta|move: Taunt
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|4
+|
+|-terastallize|p1a: Meloetta|Ground
+|move|p1a: Meloetta|Tera Blast|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|44/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|50/100|[from] item: Leftovers
+|turn|5
+|
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Meloetta|Tera Blast|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|10/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|16/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Meloetta|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Meloetta|def|1
+|-unboost|p1a: Meloetta|spd|1
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|7
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|
+|turn|8
+|
+|move|p2a: Urshifu|Trailblaze|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100
+|-boost|p2a: Urshifu|spe|1
+|-damage|p2a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Urshifu|90/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Moltres|Moltres-Galar, shiny|100/100
+|move|p1a: Toxapex|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|
+|-damage|p2a: Moltres|94/100 tox|[from] psn
+|turn|10
+|
+|switch|p1a: Meloetta|Meloetta, tera:Ground|100/100
+|-damage|p1a: Meloetta|94/100|[from] Stealth Rock
+|move|p2a: Moltres|Nasty Plot|p2a: Moltres
+|-boost|p2a: Moltres|spa|2
+|
+|-damage|p2a: Moltres|82/100 tox|[from] psn
+|turn|11
+|
+|move|p1a: Meloetta|Relic Song|p2a: Moltres
+|-damage|p2a: Moltres|54/100 tox
+|-formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|
+|-damage|p2a: Moltres|35/100 tox|[from] psn
+|turn|12
+|
+|move|p2a: Moltres|Fiery Wrath|p1a: Meloetta
+|-damage|p1a: Meloetta|26/100
+|move|p1a: Meloetta|Relic Song|p2a: Moltres
+|-damage|p2a: Moltres|18/100 tox
+|-formechange|p1a: Meloetta|Meloetta|[msg]
+|
+|-damage|p2a: Moltres|0 fnt|[from] psn
+|faint|p2a: Moltres
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|13
+|
+|move|p2a: Roaring Moon|Dragon Dance|p2a: Roaring Moon
+|-boost|p2a: Roaring Moon|atk|1
+|-boost|p2a: Roaring Moon|spe|1
+|move|p1a: Meloetta|Close Combat|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|27/100
+|-unboost|p1a: Meloetta|def|1
+|-unboost|p1a: Meloetta|spd|1
+|
+|turn|14
+|
+|move|p2a: Roaring Moon|Earthquake|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Roaring Moon|Acrobatics|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Roaring Moon|Jaw Lock|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Roaring Moon|Acrobatics|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|-damage|p2a: Roaring Moon|10/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|turn|18
+|
+|move|p2a: Roaring Moon|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|94/100
+|-damage|p1a: Urshifu|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Roaring Moon|Acrobatics|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-message|Nnie forfeited.
+|
+|win|The crimson wooper

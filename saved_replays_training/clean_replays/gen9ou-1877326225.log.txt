@@ -1,0 +1,152 @@
+|poke|p1|Enamorus, F|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Spidops, F|
+|poke|p1|Houndstone, F|
+|poke|p1|Great Tusk|
+|poke|p2|Great Tusk|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Spidops|Spidops, F|100/100
+|switch|p2a: CRAZY WORK|Arcanine-Hisui, M, shiny|100/100
+|turn|1
+|
+|move|p2a: CRAZY WORK|Flare Blitz|p1a: Spidops
+|-supereffective|p1a: Spidops
+|-enditem|p1a: Spidops|Focus Sash
+|-damage|p1a: Spidops|1/100
+|move|p1a: Spidops|Sticky Web|p2a: CRAZY WORK
+|-sidestart|p2: babywaffles|move: Sticky Web
+|
+|turn|2
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: CRAZY WORK|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|71/100
+|
+|-heal|p1a: Great Tusk|77/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: G.O.A.T|Great Tusk|100/100
+|-activate|p2a: G.O.A.T|move: Sticky Web
+|-unboost|p2a: G.O.A.T|spe|1
+|move|p1a: Great Tusk|Knock Off|p2a: G.O.A.T
+|-resisted|p2a: G.O.A.T
+|-damage|p2a: G.O.A.T|91/100
+|-enditem|p2a: G.O.A.T|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|83/100|[from] item: Leftovers
+|turn|4
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Houndstone|Houndstone, F|100/100
+|move|p2a: G.O.A.T|Knock Off|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|78/100
+|-enditem|p1a: Houndstone|Leftovers|[from] move: Knock Off|[of] p2a: G.O.A.T
+|
+|turn|5
+|
+|-end|p2a: G.O.A.T|Protosynthesis|[silent]
+|switch|p2a: ZORO!|Samurott-Hisui, M|100/100
+|-activate|p2a: ZORO!|move: Sticky Web
+|-unboost|p2a: ZORO!|spe|1
+|move|p1a: Houndstone|Will-O-Wisp|p2a: ZORO!
+|-status|p2a: ZORO!|brn
+|
+|-damage|p2a: ZORO!|94/100 brn|[from] brn
+|turn|6
+|
+|move|p2a: ZORO!|Ceaseless Edge|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|57/100
+|-sidestart|p1: BobJonesy|Spikes
+|-damage|p2a: ZORO!|84/100 brn|[from] item: Life Orb
+|move|p1a: Houndstone|Body Press|p2a: ZORO!
+|-supereffective|p2a: ZORO!
+|-crit|p2a: ZORO!
+|-damage|p2a: ZORO!|0 fnt
+|faint|p2a: ZORO!
+|
+|
+|switch|p2a: #RealDragonWarrior|Chien-Pao|100/100
+|-activate|p2a: #RealDragonWarrior|move: Sticky Web
+|-unboost|p2a: #RealDragonWarrior|spe|1
+|-ability|p2a: #RealDragonWarrior|Sword of Ruin
+|turn|7
+|
+|move|p2a: #RealDragonWarrior|Crunch|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|0 fnt
+|faint|p1a: Houndstone
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|8
+|
+|switch|p2a: MVP Nikola Jokic|Slowking-Galar, M|100/100
+|-activate|p2a: MVP Nikola Jokic|move: Sticky Web
+|-unboost|p2a: MVP Nikola Jokic|spe|1
+|move|p1a: Enamorus|Superpower|p2a: MVP Nikola Jokic
+|-resisted|p2a: MVP Nikola Jokic
+|-damage|p2a: MVP Nikola Jokic|91/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|
+|-heal|p2a: MVP Nikola Jokic|97/100|[from] item: Leftovers
+|turn|9
+|
+|-terastallize|p1a: Enamorus|Steel
+|move|p1a: Enamorus|Iron Head|p2a: MVP Nikola Jokic
+|-damage|p2a: MVP Nikola Jokic|41/100
+|move|p2a: MVP Nikola Jokic|Sludge Bomb|p1a: Enamorus
+|-immune|p1a: Enamorus
+|
+|-heal|p2a: MVP Nikola Jokic|47/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Enamorus|Superpower|p2a: MVP Nikola Jokic
+|-resisted|p2a: MVP Nikola Jokic
+|-damage|p2a: MVP Nikola Jokic|31/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|move|p2a: MVP Nikola Jokic|Chilly Reception|p2a: MVP Nikola Jokic
+|-weather|Snow
+|
+|switch|p2a: G.O.A.T|Great Tusk|91/100|[from] Chilly Reception
+|-activate|p2a: G.O.A.T|move: Sticky Web
+|-unboost|p2a: G.O.A.T|spe|1
+|
+|-weather|Snow|[upkeep]
+|turn|11
+|
+|move|p1a: Enamorus|Play Rough|p2a: G.O.A.T
+|-supereffective|p2a: G.O.A.T
+|-damage|p2a: G.O.A.T|0 fnt
+|faint|p2a: G.O.A.T
+|-end|p2a: G.O.A.T|Protosynthesis|[silent]
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: CRAZY WORK|Arcanine-Hisui, M, shiny|100/100
+|-activate|p2a: CRAZY WORK|move: Sticky Web
+|-unboost|p2a: CRAZY WORK|spe|1
+|turn|12
+|
+|move|p1a: Enamorus|Superpower|p2a: CRAZY WORK
+|-supereffective|p2a: CRAZY WORK
+|-damage|p2a: CRAZY WORK|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: CRAZY WORK
+|
+|-weather|Snow|[upkeep]
+|-message|babywaffles forfeited.
+|
+|win|BobJonesy

@@ -1,0 +1,334 @@
+|poke|p1|Magearna|
+|poke|p1|Amoonguss, F|
+|poke|p1|Great Tusk|
+|poke|p1|Chien-Pao|
+|poke|p1|Garganacl, M|
+|poke|p1|Gholdengo|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Sneasler, F|
+|poke|p2|Magearna|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Kleavor, F|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|94/100
+|-sidestart|p1: Murray69|move: Stealth Rock
+|-damage|p2a: Kleavor|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Knock Off|p2a: Kleavor
+|-damage|p2a: Kleavor|51/100
+|-enditem|p2a: Kleavor|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|81/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Murray69|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Rotom|87/100|[from] item: Leftovers
+|turn|3
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Amoonguss
+|-status|p1a: Amoonguss|brn
+|
+|-heal|p2a: Rotom|93/100|[from] item: Leftovers
+|-damage|p1a: Amoonguss|94/100 brn|[from] brn
+|turn|4
+|
+|move|p2a: Rotom|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|80/100 brn
+|-enditem|p1a: Amoonguss|Red Card|[of] p2a: Rotom
+|drag|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Amoonguss|Spore|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Spore
+|
+|-damage|p1a: Amoonguss|74/100 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Great Tusk|Great Tusk|94/100
+|cant|p2a: Sneasler|slp
+|
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Wash|93/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|75/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-heal|p2a: Rotom|81/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 brn
+|move|p2a: Rotom|Will-O-Wisp|p1a: Amoonguss|[miss]
+|-miss|p2a: Rotom|p1a: Amoonguss
+|
+|-heal|p2a: Rotom|87/100|[from] item: Leftovers
+|-damage|p1a: Amoonguss|94/100 brn|[from] brn
+|turn|8
+|
+|move|p2a: Rotom|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|82/100 brn
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100 slp|[from] Volt Switch
+|move|p1a: Amoonguss|Giga Drain|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|85/100 slp
+|-heal|p1a: Amoonguss|88/100 brn|[from] drain|[of] p2a: Sneasler
+|
+|-damage|p1a: Amoonguss|81/100 brn|[from] brn
+|turn|9
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|-curestatus|p2a: Sneasler|slp|[msg]
+|move|p2a: Sneasler|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|82/100
+|
+|switch|p2a: Rotom|Rotom-Wash|87/100|[from] U-turn
+|
+|-heal|p2a: Rotom|93/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|88/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 brn
+|move|p2a: Rotom|Will-O-Wisp|p1a: Amoonguss|[miss]
+|-miss|p2a: Rotom|p1a: Amoonguss
+|
+|-heal|p2a: Rotom|99/100|[from] item: Leftovers
+|-damage|p1a: Amoonguss|94/100 brn|[from] brn
+|turn|11
+|
+|move|p2a: Rotom|Hex|p1a: Amoonguss
+|-damage|p1a: Amoonguss|60/100 brn
+|move|p1a: Amoonguss|Spore|p2a: Rotom
+|-status|p2a: Rotom|slp|[from] move: Spore
+|
+|-heal|p2a: Rotom|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Amoonguss|54/100 brn|[from] brn
+|turn|12
+|
+|switch|p1a: Garganacl|Garganacl, M|88/100
+|cant|p2a: Rotom|slp
+|
+|-heal|p1a: Garganacl|95/100|[from] item: Leftovers
+|turn|13
+|
+|-curestatus|p2a: Rotom|slp|[msg]
+|move|p2a: Rotom|Will-O-Wisp|p1a: Garganacl
+|-immune|p1a: Garganacl|[from] ability: Purifying Salt
+|move|p1a: Garganacl|Salt Cure|p2a: Rotom
+|-damage|p2a: Rotom|81/100
+|-start|p2a: Rotom|Salt Cure
+|
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Rotom|63/100|[from] Salt Cure
+|turn|14
+|
+|switch|p1a: Amoonguss|Amoonguss, F|88/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|74/100 brn
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100|[from] Volt Switch
+|
+|-damage|p1a: Amoonguss|68/100 brn|[from] brn
+|turn|15
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|87/100
+|
+|-heal|p1a: Garganacl|93/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Wash|63/100
+|move|p1a: Garganacl|Salt Cure|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|-start|p2a: Rotom|Salt Cure
+|
+|-heal|p2a: Rotom|52/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|99/100|[from] item: Leftovers
+|-damage|p2a: Rotom|27/100|[from] Salt Cure
+|turn|17
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|86/100 brn
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100|[from] Volt Switch
+|
+|-damage|p1a: Amoonguss|80/100 brn|[from] brn
+|turn|18
+|
+|switch|p2a: Magearna|Magearna|100/100
+|switch|p1a: Garganacl|Garganacl, M|99/100
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Magearna|Trick|p1a: Garganacl
+|-activate|p2a: Magearna|move: Trick|[of] p1a: Garganacl
+|-item|p1a: Garganacl|Choice Scarf|[from] move: Trick
+|-item|p2a: Magearna|Leftovers|[from] move: Trick
+|move|p1a: Garganacl|Salt Cure|p2a: Magearna
+|-damage|p2a: Magearna|70/100
+|-start|p2a: Magearna|Salt Cure
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|-heal|p2a: Zoroark|75/100|[from] item: Leftovers
+|-damage|p2a: Zoroark|63/100|[from] Salt Cure
+|turn|20
+|
+|switch|p2a: Kleavor|Kleavor, F|51/100
+|switch|p1a: Amoonguss|Amoonguss, F|100/100 brn
+|
+|-damage|p1a: Amoonguss|94/100 brn|[from] brn
+|turn|21
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|35/100 brn
+|-sidestart|p1: Murray69|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Kleavor
+|-status|p2a: Kleavor|slp|[from] move: Spore
+|
+|-damage|p1a: Amoonguss|29/100 brn|[from] brn
+|turn|22
+|
+|switch|p1a: Great Tusk|Great Tusk|94/100
+|-damage|p1a: Great Tusk|91/100|[from] Stealth Rock
+|cant|p2a: Kleavor|slp
+|
+|turn|23
+|
+|switch|p2a: Magearna|Magearna|63/100
+|move|p1a: Great Tusk|Knock Off|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|-enditem|p2a: Zoroark|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Zoroark
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|27/100
+|turn|24
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F|62/100 brn
+|-damage|p1a: Amoonguss|50/100 brn|[from] Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|29/100 brn
+|
+|-heal|p2a: Rotom|33/100|[from] item: Leftovers
+|-damage|p1a: Amoonguss|23/100 brn|[from] brn
+|turn|25
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Hex|p1a: Garganacl
+|-damage|p1a: Garganacl|80/100
+|
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Rotom|Volt Switch|p1a: Garganacl
+|-damage|p1a: Garganacl|50/100
+|
+|switch|p2a: Kleavor|Kleavor, F|51/100 slp|[from] Volt Switch
+|move|p1a: Garganacl|Salt Cure|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|16/100 slp
+|-start|p2a: Kleavor|Salt Cure
+|
+|-damage|p2a: Kleavor|3/100 slp|[from] Salt Cure
+|turn|27
+|
+|switch|p1a: Amoonguss|Amoonguss, F|56/100 brn
+|-damage|p1a: Amoonguss|43/100 brn|[from] Stealth Rock
+|cant|p2a: Kleavor|slp
+|
+|-damage|p1a: Amoonguss|37/100 brn|[from] brn
+|-damage|p2a: Kleavor|0 fnt|[from] Salt Cure
+|faint|p2a: Kleavor
+|
+|switch|p2a: Sneasler|Sneasler, F|85/100
+|turn|28
+|
+|switch|p1a: Great Tusk|Great Tusk|91/100
+|-damage|p1a: Great Tusk|88/100|[from] Stealth Rock
+|move|p2a: Sneasler|Dire Claw|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|75/100
+|-damage|p2a: Sneasler|68/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|turn|29
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|94/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Murray69|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|30
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|18/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Great Tusk
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|31
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Arcanine
+|-damage|p2a: Arcanine|45/100
+|-unboost|p2a: Arcanine|spd|1
+|
+|turn|32
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|68/100
+|turn|33
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Sneasler
+|-damage|p2a: Sneasler|11/100
+|-unboost|p2a: Sneasler|spd|1
+|move|p2a: Sneasler|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|89/100
+|-message|yolo gang forfeited.
+|
+|win|Murray69

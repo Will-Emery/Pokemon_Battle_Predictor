@@ -1,0 +1,282 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Heatran, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Magearna|
+|poke|p1|Dragapult, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Magearna|
+|poke|p2|Dragapult, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Volcarona, M|
+|poke|p2|Ursaluna, M|
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, F, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: Zsynaps|move: Light Screen
+|move|p1a: Heatran|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: Zsynaps|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: Zsynaps|Reflect
+|move|p1a: Heatran|Magma Storm|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|87/100
+|-activate|p2a: Dragapult|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Dragapult|74/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|3
+|
+|move|p2a: Dragapult|Curse|p1a: Heatran
+|-start|p1a: Heatran|Curse|[of] p2a: Dragapult
+|-damage|p2a: Dragapult|24/100
+|move|p1a: Heatran|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|
+|-damage|p1a: Heatran|76/100|[from] Curse
+|-damage|p2a: Dragapult|12/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|4
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-activate|p2a: Dragapult|move: Struggle
+|move|p2a: Dragapult|Struggle|p1a: Ursaluna
+|-damage|p1a: Ursaluna|93/100
+|-damage|p2a: Dragapult|0 fnt|[from] recoil
+|faint|p2a: Dragapult
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|5
+|
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Zamazenta
+|-damage|p2a: Zamazenta|62/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Zamazenta|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|43/100
+|
+|-heal|p2a: Zamazenta|68/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Zamazenta|[miss]
+|-miss|p1a: Dragapult|p2a: Zamazenta
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|43/100
+|
+|-heal|p2a: Zamazenta|49/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|55/100|[from] item: Leftovers
+|-sideend|p2: Zsynaps|move: Light Screen
+|turn|9
+|
+|switch|p1a: Ursaluna|Ursaluna, M|93/100 brn
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-fail|p2a: Zamazenta|move: Substitute
+|
+|-heal|p2a: Zamazenta|61/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|87/100 brn|[from] brn
+|-sideend|p2: Zsynaps|Reflect
+|turn|10
+|
+|move|p2a: Zamazenta|Body Press|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Zamazenta|68/100|[from] item: Leftovers
+|
+|switch|p1a: Dragapult|Dragapult, F, shiny|43/100
+|turn|11
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|move|p2a: Zamazenta|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Zamazenta|74/100|[from] item: Leftovers
+|
+|switch|p1a: Enamorus|Enamorus, F, shiny|100/100
+|turn|12
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Enamorus|Play Rough|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|65/100
+|
+|turn|13
+|
+|move|p1a: Enamorus|Taunt|p2a: Volcarona
+|-start|p2a: Volcarona|move: Taunt
+|cant|p2a: Volcarona|move: Taunt|Quiver Dance
+|
+|turn|14
+|
+|switch|p1a: Heatran|Heatran, F, shiny|76/100
+|move|p2a: Volcarona|Flamethrower|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|move|p1a: Heatran|Stealth Rock||[still]
+|-fail|p1a: Heatran
+|
+|-heal|p1a: Heatran|88/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|16
+|
+|move|p1a: Heatran|Magma Storm|p2a: Ursaluna
+|-damage|p2a: Ursaluna|20/100 brn
+|-activate|p2a: Ursaluna|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|14/100 brn|[from] brn
+|-damage|p2a: Ursaluna|1/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|17
+|
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Enamorus|Enamorus, F, shiny|100/100
+|move|p2a: Ursaluna|Earthquake|p1a: Enamorus
+|-immune|p1a: Enamorus
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|-item|p2a: Sneasler|Air Balloon
+|turn|18
+|
+|move|p1a: Enamorus|Zen Headbutt|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-enditem|p2a: Sneasler|Air Balloon
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Volcarona|Volcarona, M|65/100
+|turn|19
+|
+|move|p1a: Enamorus|Superpower|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|37/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|-status|p1a: Enamorus|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|move|p2a: Volcarona|Flamethrower|p1a: Enamorus
+|-damage|p1a: Enamorus|22/100 brn
+|
+|-damage|p1a: Enamorus|15/100 brn|[from] brn
+|turn|20
+|
+|move|p1a: Enamorus|Zen Headbutt|p2a: Volcarona|[miss]
+|-miss|p1a: Enamorus|p2a: Volcarona
+|move|p2a: Volcarona|Flamethrower|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|21
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|22
+|
+|-terastallize|p1a: Magearna|Electric
+|move|p2a: Volcarona|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|32/100
+|move|p1a: Magearna|Aura Sphere|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|27/100
+|
+|turn|23
+|
+|-terastallize|p2a: Volcarona|Water
+|move|p2a: Volcarona|Tera Blast|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|24
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Chien-Pao|Crunch|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-status|p1a: Chien-Pao|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|faint|p2a: Volcarona
+|
+|-damage|p1a: Chien-Pao|95/100 brn|[from] brn
+|
+|switch|p2a: Zamazenta|Zamazenta|74/100
+|-damage|p2a: Zamazenta|68/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|
+|-heal|p2a: Zamazenta|74/100|[from] item: Leftovers
+|-damage|p1a: Chien-Pao|89/100 brn|[from] brn
+|turn|26
+|
+|move|p2a: Zamazenta|Body Press|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|-heal|p2a: Zamazenta|80/100|[from] item: Leftovers
+|
+|switch|p1a: Heatran|Heatran, F, shiny|94/100
+|turn|27
+|
+|move|p2a: Zamazenta|Body Press|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|Zsynaps

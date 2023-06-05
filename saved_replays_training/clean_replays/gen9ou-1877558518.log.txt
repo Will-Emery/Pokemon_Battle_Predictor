@@ -1,0 +1,353 @@
+|poke|p1|Garchomp, M|
+|poke|p1|Zapdos|
+|poke|p1|Heatran, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Great Tusk|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Garganacl, M|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|54/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|turn|2
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|
+|turn|3
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Great Tusk
+|-damage|p2a: Great Tusk|73/100
+|
+|-heal|p2a: Great Tusk|79/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Great Tusk|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|73/100
+|
+|-heal|p2a: Great Tusk|85/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Garchomp|Spikes|p2a: Zapdos
+|-sidestart|p2: FFK Foufakirby|Spikes
+|
+|turn|6
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|78/100
+|
+|-heal|p1a: Heatran|84/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Zapdos|Volt Switch|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p1a: Heatran|90/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|72/100
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] Volt Switch
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|move|p1a: Heatran|Magma Storm|p2a: Slowking
+|-damage|p2a: Slowking|63/100
+|-activate|p2a: Slowking|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|78/100|[from] item: Leftovers
+|-heal|p2a: Slowking|69/100|[from] item: Leftovers
+|-damage|p2a: Slowking|56/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|9
+|
+|move|p1a: Heatran|Taunt|p2a: Slowking
+|-start|p2a: Slowking|move: Taunt
+|cant|p2a: Slowking|move: Taunt|Chilly Reception
+|
+|-heal|p1a: Heatran|85/100|[from] item: Leftovers
+|-heal|p2a: Slowking|62/100|[from] item: Leftovers
+|-damage|p2a: Slowking|50/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|10
+|
+|move|p1a: Heatran|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|19/100
+|move|p2a: Slowking|Future Sight|p1a: Heatran
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Heatran|91/100|[from] item: Leftovers
+|-heal|p2a: Slowking|25/100|[from] item: Leftovers
+|-damage|p2a: Slowking|13/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|11
+|
+|move|p1a: Heatran|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-heal|p1a: Heatran|97/100|[from] item: Leftovers
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|12
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|78/100
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100|[from] Volt Switch
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|move|p1a: Heatran|Magma Storm|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|75/100
+|-activate|p2a: Garganacl|move: Magma Storm|[of] p1a: Heatran
+|
+|-end|p1a: Heatran|move: Future Sight
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|63/100
+|-heal|p1a: Heatran|69/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|81/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|68/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|13
+|
+|move|p1a: Heatran|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|36/100
+|move|p2a: Garganacl|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Garganacl|42/100|[from] item: Leftovers
+|-end|p2a: Garganacl|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Garchomp|Garchomp, M|73/100
+|turn|14
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Spikes
+|move|p1a: Garchomp|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|26/100
+|
+|turn|15
+|
+|switch|p1a: Toxapex|Toxapex, F|87/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|turn|16
+|
+|switch|p2a: Garganacl|Garganacl, M|42/100
+|-damage|p2a: Garganacl|30/100|[from] Spikes
+|move|p1a: Toxapex|Ice Beam|p2a: Garganacl
+|-damage|p2a: Garganacl|18/100
+|
+|-heal|p2a: Garganacl|25/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|75/100
+|move|p1a: Toxapex|Surf|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|34/100
+|
+|-heal|p2a: Garganacl|40/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Garchomp|Garchomp, M|73/100
+|-terastallize|p2a: Garganacl|Water
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|90/100
+|
+|-heal|p2a: Garganacl|97/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Garchomp|Spikes|p2a: Garganacl
+|-sidestart|p2: FFK Foufakirby|Spikes
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Garganacl|Salt Cure|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|67/100
+|-start|p1a: Garchomp|Salt Cure
+|move|p1a: Garchomp|Dragon Tail|p2a: Garganacl|[miss]
+|-miss|p1a: Garchomp|p2a: Garganacl
+|
+|-damage|p1a: Garchomp|55/100|[from] Salt Cure
+|turn|21
+|
+|move|p2a: Garganacl|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|34/100
+|move|p1a: Garchomp|Dragon Tail|p2a: Garganacl
+|-damage|p2a: Garganacl|89/100
+|drag|p2a: Great Tusk|Great Tusk|85/100
+|-damage|p2a: Great Tusk|69/100|[from] Spikes
+|
+|-heal|p2a: Great Tusk|75/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|22/100|[from] Salt Cure
+|turn|22
+|
+|move|p1a: Garchomp|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|53/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|13/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|41/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Great Tusk|24/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|-sideend|p2: FFK Foufakirby|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|31/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|0 fnt|[from] Salt Cure
+|faint|p1a: Garchomp
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|23
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Zapdos|[miss]
+|-miss|p1a: Zapdos|p2a: Zapdos
+|
+|turn|24
+|
+|move|p1a: Zapdos|Hurricane|p2a: Zapdos|[miss]
+|-miss|p1a: Zapdos|p2a: Zapdos
+|move|p2a: Zapdos|Volt Switch|p1a: Zapdos
+|-damage|p1a: Zapdos|70/100
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from] Volt Switch
+|
+|turn|25
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100
+|
+|turn|26
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Zapdos
+|-damage|p1a: Zapdos|42/100
+|
+|switch|p2a: Great Tusk|Great Tusk|31/100|[from] Volt Switch
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|92/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-heal|p2a: Great Tusk|37/100|[from] item: Leftovers
+|turn|27
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|78/100
+|move|p1a: Zapdos|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|55/100
+|
+|turn|28
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|26/100
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100|[from] Volt Switch
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|76/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|29
+|
+|switch|p2a: Dragapult|Dragapult, M|26/100
+|move|p1a: Arcanine|Head Smash|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|30
+|
+|switch|p1a: Toxapex|Toxapex, F|74/100
+|move|p2a: Urshifu|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|
+|switch|p2a: Zapdos|Zapdos|76/100|[from] U-turn
+|
+|turn|31
+|
+|switch|p1a: Zapdos|Zapdos|92/100
+|move|p2a: Zapdos|Volt Switch|p1a: Zapdos
+|-damage|p1a: Zapdos|62/100
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from] Volt Switch
+|
+|turn|32
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|40/100
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|19/100
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|3
+|
+|
+|switch|p1a: Toxapex|Toxapex, F|92/100
+|turn|33
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Water|89/100
+|move|p1a: Toxapex|Ice Beam|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|83/100
+|
+|-heal|p2a: Garganacl|89/100|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|move|p1a: Toxapex|Sludge Bomb|p2a: Garganacl
+|-damage|p2a: Garganacl|69/100
+|
+|-heal|p2a: Garganacl|75/100|[from] item: Leftovers
+|turn|35
+|
+|move|p1a: Toxapex|Sludge Bomb|p2a: Garganacl
+|-damage|p2a: Garganacl|58/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|64/100|[from] item: Leftovers
+|turn|36
+|-message|AlearFireEmblem forfeited.
+|
+|win|FFK Foufakirby

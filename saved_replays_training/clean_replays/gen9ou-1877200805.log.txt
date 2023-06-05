@@ -1,0 +1,299 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Sandy Shocks|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Maushold|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Heatran, M|
+|poke|p2|Great Tusk|
+|poke|p2|Chien-Pao|
+|poke|p2|Kingambit, M|
+|poke|p2|Zapdos|
+|poke|p2|Magearna|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Heatran|[miss]
+|-miss|p2a: Chien-Pao|p1a: Heatran
+|
+|turn|2
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Heatran|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|30/100
+|-unboost|p2a: Heatran|spd|1
+|
+|-heal|p2a: Heatran|36/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Haves2l|move: Stealth Rock
+|
+|-heal|p2a: Heatran|42/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Landorus|Stone Edge|p2a: Great Tusk|[miss]
+|-miss|p1a: Landorus|p2a: Great Tusk
+|
+|turn|5
+|
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|-damage|p1a: Sandy Shocks|94/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Sandy Shocks|Gravity|p1a: Sandy Shocks
+|-fieldstart|move: Gravity
+|
+|turn|7
+|
+|move|p1a: Sandy Shocks|Earth Power|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|17/100
+|move|p2a: Zapdos|Hurricane|p1a: Sandy Shocks
+|-resisted|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|66/100
+|-start|p1a: Sandy Shocks|confusion
+|
+|turn|8
+|
+|-activate|p1a: Sandy Shocks|confusion
+|move|p1a: Sandy Shocks|Earth Power|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-terastallize|p2a: Chien-Pao|Dark
+|move|p2a: Chien-Pao|Crunch|p1a: Heatran
+|-damage|p1a: Heatran|49/100
+|
+|-heal|p1a: Heatran|55/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, F|42/100
+|move|p1a: Heatran|Will-O-Wisp|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-heal|p1a: Heatran|61/100|[from] item: Leftovers
+|-heal|p2a: Heatran|49/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|77/100
+|
+|-heal|p2a: Heatran|55/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|94/100
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100|[from] U-turn
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Great Tusk|99/100|[from] item: Leftovers
+|turn|13
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, F|55/100
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|14
+|
+|move|p1a: Basculegion|Surf|p2a: Kingambit
+|-damage|p2a: Kingambit|1/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|7/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Landorus|Landorus-Therian, M|77/100
+|-damage|p1a: Landorus|64/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|13/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: Heatran|Heatran, M|61/100
+|-damage|p1a: Heatran|49/100|[from] Stealth Rock
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Kingambit|19/100|[from] item: Leftovers
+|
+|switch|p1a: Landorus|Landorus-Therian, M|64/100
+|-damage|p1a: Landorus|52/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|turn|17
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Great Tusk|Great Tusk|99/100
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|72/100
+|
+|-heal|p2a: Great Tusk|78/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|-damage|p1a: Lilligant|94/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Knock Off|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|73/100
+|-enditem|p1a: Lilligant|Lum Berry|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|84/100|[from] item: Leftovers
+|turn|19
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|turn|20
+|
+|move|p1a: Lilligant|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Dark|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|21
+|
+|switch|p1a: Landorus|Landorus-Therian, M|52/100
+|-damage|p1a: Landorus|40/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Chien-Pao|atk|1
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Basculegion|Basculegion-F, F, tera:Water|88/100
+|-damage|p1a: Basculegion|76/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Great Tusk|Great Tusk|84/100
+|move|p1a: Basculegion|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|19/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|23
+|
+|switch|p1a: Sandy Shocks|Sandy Shocks|66/100
+|-damage|p1a: Sandy Shocks|60/100|[from] Stealth Rock
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|25/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Sandy Shocks|Gravity|p1a: Sandy Shocks
+|-fieldstart|move: Gravity
+|
+|-heal|p2a: Kingambit|31/100|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Sandy Shocks|Spikes|p2a: Kingambit
+|-sidestart|p2: margoullia|Spikes
+|
+|-heal|p2a: Kingambit|37/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Sandy Shocks|Earth Power|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao, tera:Dark|100/100
+|-damage|p2a: Chien-Pao|88/100|[from] Spikes
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|27
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|73/100
+|-damage|p1a: Lilligant|67/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|9/100
+|move|p1a: Lilligant|Close Combat|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Chien-Pao
+|
+|win|Haves2l

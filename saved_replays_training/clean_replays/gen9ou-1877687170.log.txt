@@ -1,0 +1,111 @@
+|poke|p1|Enamorus, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Azumarill, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Great Tusk|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Zoroark-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Night Slash|p1a: Glimmora
+|-damage|p1a: Glimmora|53/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Gamewolf378|move: Toxic Spikes
+|move|p1a: Glimmora|Stealth Rock|p2a: Kleavor
+|-sidestart|p2: Gamewolf378|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Kleavor|Night Slash|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Gamewolf378|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|3
+|
+|move|p2a: Kleavor|Night Slash|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-sideend|p2: Gamewolf378|move: Toxic Spikes|[of] p2a: Slowking
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|-terastallize|p1a: Zamazenta|Fighting
+|move|p1a: Zamazenta|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|67/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|
+|turn|5
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|move|p2a: Slowking|Future Sight|p1a: Azumarill
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|6
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Enamorus
+|-damage|p1a: Enamorus|70/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Gamewolf378|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-end|p1a: Enamorus|move: Future Sight
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|turn|8
+|
+|move|p2a: Great Tusk|Headlong Rush|p1a: Azumarill
+|-damage|p1a: Azumarill|42/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p1a: Azumarill|Sitrus Berry|[eat]
+|-heal|p1a: Azumarill|67/100|[from] item: Sitrus Berry
+|move|p1a: Azumarill|Belly Drum|p1a: Azumarill
+|-damage|p1a: Azumarill|17/100
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|
+|turn|9
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|faint|p1a: Azumarill
+|
+|-message|Dedaxtark forfeited.
+|
+|win|Gamewolf378

@@ -1,0 +1,311 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Great Tusk|
+|poke|p1|Rotom-Wash|
+|poke|p1|Amoonguss, M|
+|poke|p1|Magearna|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Zapdos-Galar|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Akuma|Samurott-Hisui, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Akuma|Sacred Sword|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|83/100
+|-damage|p2a: Akuma|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|turn|2
+|
+|switch|p2a: Chicken|Zapdos-Galar|100/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Chicken
+|-damage|p2a: Chicken|67/100
+|-status|p2a: Chicken|psn
+|
+|-damage|p2a: Chicken|55/100 psn|[from] psn
+|turn|3
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Chicken|Drill Peck|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|77/100
+|
+|-heal|p1a: Rotom|84/100|[from] item: Leftovers
+|-damage|p2a: Chicken|43/100 psn|[from] psn
+|turn|4
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Chicken|U-turn|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-heal|p1a: Rotom|90/100|[from] item: Leftovers
+|-damage|p2a: Chicken|30/100 psn|[from] psn
+|turn|5
+|
+|move|p2a: Chicken|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|64/100
+|
+|switch|p2a: Akuma|Samurott-Hisui, M, shiny|84/100|[from] U-turn
+|move|p1a: Rotom|Thunder Wave|p2a: Akuma
+|-status|p2a: Akuma|par
+|
+|-heal|p1a: Rotom|70/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Akuma|Ceaseless Edge|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-heal|p1a: Rotom|76/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Rotom|Volt Switch|p2a: Akuma
+|-supereffective|p2a: Akuma
+|-damage|p2a: Akuma|9/100 par
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100|[from] Volt Switch
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Akuma|Ceaseless Edge|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|75/100
+|-sidestart|p1: SKaxe×|Spikes
+|-damage|p2a: Akuma|0 fnt|[from] item: Rocky Helmet|[of] p1a: Hawlucha
+|faint|p2a: Akuma
+|
+|
+|switch|p2a: Combatant|Iron Valiant|100/100
+|-enditem|p2a: Combatant|Booster Energy
+|-activate|p2a: Combatant|ability: Quark Drive|[fromitem]
+|-start|p2a: Combatant|quarkdrivespe
+|turn|8
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|88/100|[from] Spikes
+|move|p2a: Combatant|Moonblast|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|69/100
+|
+|-heal|p1a: Magearna|75/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Combatant|Thunderbolt|p1a: Magearna
+|-damage|p1a: Magearna|51/100
+|move|p1a: Magearna|Draining Kiss|p2a: Combatant
+|-supereffective|p2a: Combatant
+|-crit|p2a: Combatant
+|-damage|p2a: Combatant|0 fnt
+|-heal|p1a: Magearna|100/100|[from] drain|[of] p2a: Combatant
+|faint|p2a: Combatant
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Combatant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Messi|Cinderace, M, shiny|100/100
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Wash|76/100
+|move|p2a: Messi|Pyro Ball|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|
+|-heal|p1a: Rotom|50/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Messi|U-turn|p1a: Rotom
+|-start|p2a: Messi|typechange|Bug|[from] ability: Libero
+|-activate|p1a: Rotom|move: Protect
+|
+|-heal|p1a: Rotom|56/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Messi|High Jump Kick|p1a: Rotom
+|-damage|p1a: Rotom|9/100
+|move|p1a: Rotom|Volt Switch|p2a: Messi
+|-damage|p2a: Messi|66/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Volt Switch
+|-damage|p1a: Magearna|88/100|[from] Spikes
+|
+|-heal|p1a: Magearna|94/100|[from] item: Leftovers
+|turn|13
+|
+|-terastallize|p1a: Magearna|Fairy
+|move|p2a: Messi|Pyro Ball|p1a: Magearna
+|-damage|p1a: Magearna|63/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|69/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Messi|Pyro Ball|p1a: Magearna
+|-damage|p1a: Magearna|40/100
+|
+|-heal|p1a: Magearna|46/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Messi
+|-damage|p2a: Messi|0 fnt
+|-heal|p1a: Magearna|86/100|[from] drain|[of] p2a: Messi
+|faint|p2a: Messi
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|92/100|[from] item: Leftovers
+|
+|switch|p2a: Chicken|Zapdos-Galar|30/100 psn
+|turn|16
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Chicken
+|-supereffective|p2a: Chicken
+|-damage|p2a: Chicken|0 fnt
+|-heal|p1a: Magearna|100/100|[from] drain|[of] p2a: Chicken
+|faint|p2a: Chicken
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Kenshin|Kingambit, M, shiny|100/100
+|-activate|p2a: Kenshin|ability: Supreme Overlord
+|-start|p2a: Kenshin|fallen4|[silent]
+|turn|17
+|
+|move|p2a: Kenshin|Sucker Punch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|79/100
+|move|p1a: Magearna|Draining Kiss|p2a: Kenshin
+|-damage|p2a: Kenshin|10/100
+|-heal|p1a: Magearna|100/100|[from] drain|[of] p2a: Kenshin
+|
+|-heal|p2a: Kenshin|16/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Kenshin|Sucker Punch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|79/100
+|move|p1a: Magearna|Draining Kiss|p2a: Kenshin
+|-damage|p2a: Kenshin|0 fnt
+|-heal|p1a: Magearna|92/100|[from] drain|[of] p2a: Kenshin
+|faint|p2a: Kenshin
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Kenshin|fallen4|[silent]
+|
+|-heal|p1a: Magearna|98/100|[from] item: Leftovers
+|
+|switch|p2a: Dumpy|Dragapult, M, shiny|100/100
+|turn|19
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|82/100
+|
+|-heal|p1a: Magearna|88/100|[from] item: Leftovers
+|turn|20
+|
+|-terastallize|p2a: Dumpy|Fairy
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|70/100
+|
+|-heal|p1a: Magearna|76/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|61/100
+|
+|-heal|p1a: Magearna|67/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|53/100
+|
+|-heal|p1a: Magearna|59/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|0
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|49/100
+|
+|-heal|p1a: Magearna|55/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|0
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|45/100
+|
+|-heal|p1a: Magearna|51/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|0
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|42/100
+|
+|-heal|p1a: Magearna|48/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|0
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|39/100
+|
+|-heal|p1a: Magearna|45/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|0
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|37/100
+|
+|-heal|p1a: Magearna|43/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|0
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Dumpy|Flamethrower|p1a: Magearna
+|-damage|p1a: Magearna|35/100
+|
+|-heal|p1a: Magearna|41/100|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Magearna|Stored Power|p2a: Dumpy
+|-damage|p2a: Dumpy|0 fnt
+|faint|p2a: Dumpy
+|
+|win|SKaxe×

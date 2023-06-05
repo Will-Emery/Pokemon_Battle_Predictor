@@ -1,0 +1,311 @@
+|poke|p1|Basculegion-F, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Scream Tail|
+|poke|p1|Garganacl, F|
+|poke|p1|Zapdos|
+|poke|p1|Maushold|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, F|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Maushold|Maushold|100/100
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|1
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Basculegion
+|-damage|p1a: Basculegion|5/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|2
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Basculegion|Surf|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|
+|switch|p2a: Baxcalibur|Baxcalibur, F|100/100
+|turn|3
+|
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Baxcalibur|Dragon Dance|p2a: Baxcalibur
+|-boost|p2a: Baxcalibur|atk|1
+|-boost|p2a: Baxcalibur|spe|1
+|
+|turn|4
+|
+|move|p2a: Baxcalibur|Icicle Spear|p1a: Scream Tail
+|-damage|p1a: Scream Tail|83/100
+|-damage|p1a: Scream Tail|64/100
+|-damage|p1a: Scream Tail|45/100
+|-damage|p1a: Scream Tail|25/100
+|-damage|p1a: Scream Tail|7/100
+|-hitcount|p1a: Scream Tail|5
+|move|p1a: Scream Tail|Encore|p2a: Baxcalibur
+|-start|p2a: Baxcalibur|Encore
+|
+|-heal|p1a: Scream Tail|13/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Baxcalibur|Icicle Spear|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|90/100
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|85/100
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|80/100
+|-resisted|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|69/100
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|64/100
+|-hitcount|p1a: Zamazenta|5
+|
+|turn|6
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|82/100
+|
+|turn|7
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Ursaluna|Ursaluna, F|100/100 brn
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|turn|8
+|
+|switch|p1a: Basculegion|Basculegion-F, F|5/100
+|move|p2a: Ursaluna|Ice Punch|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|64/100
+|turn|9
+|
+|switch|p2a: Skeledirge|Skeledirge, M|82/100
+|move|p1a: Zamazenta|Body Press|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|
+|turn|10
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|
+|turn|11
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|95/100
+|-start|p2a: Magearna|Salt Cure
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|-damage|p2a: Magearna|70/100|[from] Salt Cure
+|turn|12
+|
+|move|p1a: Garganacl|Stealth Rock|p2a: Magearna
+|-sidestart|p2: Noah Aloha|move: Stealth Rock
+|move|p2a: Magearna|Fleur Cannon|p1a: Garganacl
+|-damage|p1a: Garganacl|48/100
+|-unboost|p2a: Magearna|spa|2
+|-enditem|p2a: Magearna|Eject Pack
+|
+|switch|p2a: Ursaluna|Ursaluna, F|88/100 brn
+|-damage|p2a: Ursaluna|82/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Garganacl|54/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|76/100 brn|[from] brn
+|turn|13
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|64/100
+|-terastallize|p2a: Ursaluna|Normal
+|move|p2a: Ursaluna|Facade|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|9/100
+|
+|-damage|p2a: Ursaluna|70/100 brn|[from] brn
+|turn|14
+|
+|switch|p1a: Garganacl|Garganacl, F|54/100
+|move|p2a: Ursaluna|Facade|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|5/100
+|
+|-heal|p1a: Garganacl|11/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|64/100 brn|[from] brn
+|turn|15
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Ursaluna
+|-damage|p2a: Ursaluna|54/100 brn
+|-start|p2a: Ursaluna|Salt Cure
+|move|p2a: Ursaluna|Facade|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Ursaluna|48/100 brn|[from] brn
+|-damage|p2a: Ursaluna|36/100 brn|[from] Salt Cure
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|16
+|
+|switch|p2a: Magearna|Magearna|70/100
+|-damage|p2a: Magearna|64/100|[from] Stealth Rock
+|move|p1a: Zapdos|Hurricane|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|42/100
+|-start|p2a: Magearna|confusion
+|
+|turn|17
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Magearna
+|-damage|p2a: Magearna|7/100
+|-activate|p2a: Magearna|confusion
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|18
+|
+|-activate|p2a: Magearna|confusion
+|-damage|p2a: Magearna|0 fnt|[from] confusion
+|faint|p2a: Magearna
+|move|p1a: Zapdos|Roost||[still]
+|-fail|p1a: Zapdos|heal
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, F, tera:Normal|36/100 brn
+|-damage|p2a: Ursaluna|24/100 brn|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|9/100
+|move|p2a: Ursaluna|Facade|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-damage|p2a: Ursaluna|18/100 brn|[from] brn
+|
+|switch|p1a: Scream Tail|Scream Tail|13/100
+|turn|20
+|
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Ursaluna|Facade|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|
+|-heal|p1a: Scream Tail|19/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|12/100 brn|[from] brn
+|turn|21
+|
+|move|p2a: Ursaluna|Facade|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|
+|-damage|p2a: Ursaluna|5/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|22
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Baxcalibur|Baxcalibur, F|100/100
+|-damage|p2a: Baxcalibur|76/100|[from] Stealth Rock
+|turn|23
+|
+|-terastallize|p1a: Zapdos|Water
+|move|p1a: Zapdos|Hurricane|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|21/100
+|move|p2a: Baxcalibur|Dragon Dance|p2a: Baxcalibur
+|-boost|p2a: Baxcalibur|atk|1
+|-boost|p2a: Baxcalibur|spe|1
+|
+|turn|24
+|
+|move|p2a: Baxcalibur|Glaive Rush|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+|-status|p2a: Baxcalibur|par|[from] ability: Static|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Maushold|Maushold|100/100
+|turn|25
+|
+|move|p1a: Maushold|Population Bomb|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|-hitcount|p2: Baxcalibur|1
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, M|82/100
+|turn|26
+|
+|move|p1a: Maushold|Bite|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|49/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Maushold|[miss]
+|-miss|p2a: Skeledirge|p1a: Maushold
+|
+|turn|27
+|
+|move|p1a: Maushold|Bite|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|12/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|63/100
+|
+|turn|28
+|
+|move|p1a: Maushold|Bite|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|28/100
+|cant|p2a: Skeledirge|flinch
+|
+|turn|29
+|
+|move|p1a: Maushold|Bite|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|-damage|p2a: Lilligant|94/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Maushold|Population Bomb|p2a: Lilligant
+|-damage|p2a: Lilligant|77/100
+|-damage|p2a: Lilligant|60/100
+|-damage|p2a: Lilligant|41/100
+|-damage|p2a: Lilligant|24/100
+|-damage|p2a: Lilligant|8/100
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|-hitcount|p2: Lilligant|6
+|
+|win|mathismathin

@@ -1,0 +1,41 @@
+|poke|p1|Magearna|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Great Tusk|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Treads|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Amoonguss, F|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Pelipper|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|99/100
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-damage|p2a: Basculegion|70/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-message|whale0208 forfeited.
+|
+|win|gooberthread

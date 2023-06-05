@@ -1,0 +1,438 @@
+|poke|p1|Kingambit, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Gholdengo|
+|poke|p1|Meowscarada, F|
+|poke|p1|Iron Moth|
+|poke|p1|Corviknight, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Volcarona, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: masquerade|Meowscarada, F|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|1
+|
+|move|p1a: masquerade|Spikes|p2a: Enamorus
+|-sidestart|p2: Kalibwoy|Spikes
+|move|p2a: Enamorus|Superpower|p1a: masquerade
+|-supereffective|p1a: masquerade
+|-enditem|p1a: masquerade|Focus Sash
+|-damage|p1a: masquerade|1/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|
+|turn|2
+|
+|switch|p1a: CheeseGuy|Gholdengo|100/100
+|move|p2a: Enamorus|Superpower|p1a: CheeseGuy
+|-immune|p1a: CheeseGuy
+|
+|turn|3
+|
+|move|p2a: Enamorus|Substitute|p2a: Enamorus
+|-start|p2a: Enamorus|Substitute
+|-damage|p2a: Enamorus|76/100
+|move|p1a: CheeseGuy|Make It Rain|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-end|p2a: Enamorus|Substitute
+|-unboost|p1a: CheeseGuy|spa|1
+|
+|-heal|p2a: Enamorus|82/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Enamorus|Substitute|p2a: Enamorus
+|-start|p2a: Enamorus|Substitute
+|-damage|p2a: Enamorus|57/100
+|move|p1a: CheeseGuy|Make It Rain|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-end|p2a: Enamorus|Substitute
+|-unboost|p1a: CheeseGuy|spa|1
+|
+|-heal|p2a: Enamorus|63/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: masquerade|Meowscarada, F|1/100
+|move|p2a: Enamorus|Substitute|p2a: Enamorus
+|-start|p2a: Enamorus|Substitute
+|-damage|p2a: Enamorus|38/100
+|
+|-heal|p2a: Enamorus|44/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: masquerade|Taunt|p2a: Enamorus
+|-start|p2a: Enamorus|move: Taunt
+|move|p2a: Enamorus|Superpower|p1a: masquerade
+|-supereffective|p1a: masquerade
+|-damage|p1a: masquerade|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: masquerade
+|
+|-heal|p2a: Enamorus|51/100|[from] item: Leftovers
+|
+|switch|p1a: CheeseGuy|Gholdengo|100/100
+|turn|7
+|
+|move|p2a: Enamorus|Zen Headbutt|p1a: CheeseGuy
+|-resisted|p1a: CheeseGuy
+|-damage|p1a: CheeseGuy|78/100
+|move|p1a: CheeseGuy|Make It Rain|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-end|p2a: Enamorus|Substitute
+|-unboost|p1a: CheeseGuy|spa|1
+|
+|-heal|p2a: Enamorus|57/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Enamorus|Zen Headbutt|p1a: CheeseGuy
+|-resisted|p1a: CheeseGuy
+|-damage|p1a: CheeseGuy|55/100
+|move|p1a: CheeseGuy|Make It Rain|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-unboost|p1a: CheeseGuy|spa|1
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|9
+|
+|switch|p1a: SandDragon|Garchomp, F, shiny|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|10
+|
+|move|p2a: Volcarona|Giga Drain|p1a: SandDragon
+|-damage|p1a: SandDragon|63/100
+|move|p1a: SandDragon|Surf|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|79/100
+|
+|turn|11
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: SandDragon|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|11/100
+|
+|turn|12
+|
+|switch|p1a: Napoleon|Kingambit, M|100/100
+|-activate|p1a: Napoleon|ability: Supreme Overlord
+|-start|p1a: Napoleon|fallen1|[silent]
+|move|p2a: Volcarona|Giga Drain|p1a: Napoleon
+|-resisted|p1a: Napoleon
+|-damage|p1a: Napoleon|70/100
+|-heal|p2a: Volcarona|29/100|[from] drain|[of] p1a: Napoleon
+|
+|turn|13
+|
+|move|p1a: Napoleon|Sucker Punch||[still]
+|-fail|p1a: Napoleon
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|14
+|
+|move|p1a: Napoleon|Sucker Punch|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|turn|15
+|
+|-end|p1a: Napoleon|fallen1|[silent]
+|switch|p1a: Boird|Corviknight, M|100/100
+|-ability|p1a: Boird|Pressure
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-heal|p2a: Great Tusk|94/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: SandDragon|Garchomp, F, shiny|63/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: SandDragon
+|-supereffective|p1a: SandDragon
+|-damage|p1a: SandDragon|0 fnt
+|-damage|p2a: Great Tusk|82/100|[from] ability: Rough Skin|[of] p1a: SandDragon
+|-damage|p2a: Great Tusk|65/100|[from] item: Rocky Helmet|[of] p1a: SandDragon
+|faint|p1a: SandDragon
+|
+|-heal|p2a: Great Tusk|71/100|[from] item: Leftovers
+|
+|switch|p1a: CheeseGuy|Gholdengo|55/100
+|turn|17
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: CheeseGuy|Focus Blast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|
+|turn|18
+|
+|move|p1a: CheeseGuy|Recover|p1a: CheeseGuy
+|-heal|p1a: CheeseGuy|100/100
+|move|p2a: Toxapex|Infestation|p1a: CheeseGuy
+|-resisted|p1a: CheeseGuy
+|-damage|p1a: CheeseGuy|99/100
+|-activate|p1a: CheeseGuy|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: CheeseGuy|88/100|[from] move: Infestation|[partiallytrapped]
+|turn|19
+|
+|move|p1a: CheeseGuy|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|28/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|78/100
+|
+|-damage|p1a: CheeseGuy|75/100|[from] move: Infestation|[partiallytrapped]
+|turn|20
+|
+|move|p1a: CheeseGuy|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|36/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|86/100
+|
+|-damage|p1a: CheeseGuy|63/100|[from] move: Infestation|[partiallytrapped]
+|turn|21
+|
+|move|p1a: CheeseGuy|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|45/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|95/100
+|
+|-damage|p1a: CheeseGuy|50/100|[from] move: Infestation|[partiallytrapped]
+|turn|22
+|
+|move|p1a: CheeseGuy|Recover|p1a: CheeseGuy
+|-heal|p1a: CheeseGuy|99/100
+|move|p2a: Toxapex|Infestation|p1a: CheeseGuy
+|-resisted|p1a: CheeseGuy
+|-damage|p1a: CheeseGuy|99/100
+|
+|-damage|p1a: CheeseGuy|87/100|[from] move: Infestation|[partiallytrapped]
+|turn|23
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|88/100|[from] Spikes
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: CheeseGuy|Shadow Ball|p2a: Chien-Pao
+|-resisted|p2a: Chien-Pao
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|31/100
+|-unboost|p2a: Chien-Pao|spd|1
+|
+|-end|p1a: CheeseGuy|Infestation|[partiallytrapped]
+|turn|24
+|
+|switch|p1a: Napoleon|Kingambit, M|70/100
+|-activate|p1a: Napoleon|ability: Supreme Overlord
+|-start|p1a: Napoleon|fallen2|[silent]
+|move|p2a: Chien-Pao|Psychic Fangs|p1a: Napoleon
+|-immune|p1a: Napoleon
+|
+|turn|25
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Spikes
+|move|p1a: Napoleon|Sucker Punch||[still]
+|-fail|p1a: Napoleon
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|turn|26
+|
+|-terastallize|p1a: Napoleon|Flying
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|69/100
+|move|p1a: Napoleon|Kowtow Cleave|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p2a: Great Tusk|Great Tusk|71/100
+|-damage|p2a: Great Tusk|59/100|[from] Spikes
+|move|p1a: Napoleon|Sucker Punch||[still]
+|-fail|p1a: Napoleon
+|
+|-heal|p2a: Great Tusk|65/100|[from] item: Leftovers
+|turn|28
+|
+|-end|p1a: Napoleon|fallen2|[silent]
+|switch|p1a: NotVolcarona|Iron Moth|100/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: NotVolcarona
+|-resisted|p1a: NotVolcarona
+|-damage|p1a: NotVolcarona|73/100
+|
+|-heal|p2a: Great Tusk|71/100|[from] item: Leftovers
+|turn|29
+|
+|-end|p1a: NotVolcarona|Quark Drive|[silent]
+|switch|p1a: Boird|Corviknight, M|100/100
+|-ability|p1a: Boird|Pressure
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|
+|turn|30
+|
+|switch|p1a: CheeseGuy|Gholdengo|87/100
+|move|p2a: Toxapex|Infestation|p1a: CheeseGuy
+|-resisted|p1a: CheeseGuy
+|-damage|p1a: CheeseGuy|86/100
+|-activate|p1a: CheeseGuy|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: CheeseGuy|74/100|[from] move: Infestation|[partiallytrapped]
+|turn|31
+|
+|switch|p2a: Dragapult|Dragapult, F|75/100
+|-damage|p2a: Dragapult|63/100|[from] Spikes
+|move|p1a: CheeseGuy|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-end|p1a: CheeseGuy|Infestation|[partiallytrapped]|[silent]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|31/100
+|-damage|p2a: Chien-Pao|18/100|[from] Spikes
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|32
+|
+|switch|p1a: Boird|Corviknight, M|100/100
+|-ability|p1a: Boird|Pressure
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Boird
+|-damage|p1a: Boird|78/100
+|
+|-heal|p1a: Boird|84/100|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Boird
+|-damage|p1a: Boird|62/100
+|move|p1a: Boird|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-heal|p1a: Boird|68/100|[from] item: Leftovers
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|34
+|
+|switch|p1a: CheeseGuy|Gholdengo|74/100
+|move|p2a: Toxapex|Infestation|p1a: CheeseGuy
+|-resisted|p1a: CheeseGuy
+|-damage|p1a: CheeseGuy|74/100
+|-activate|p1a: CheeseGuy|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: CheeseGuy|61/100|[from] move: Infestation|[partiallytrapped]
+|turn|35
+|
+|switch|p2a: Great Tusk|Great Tusk|71/100
+|-damage|p2a: Great Tusk|59/100|[from] Spikes
+|move|p1a: CheeseGuy|Recover|p1a: CheeseGuy
+|-heal|p1a: CheeseGuy|100/100
+|
+|-heal|p2a: Great Tusk|65/100|[from] item: Leftovers
+|-end|p1a: CheeseGuy|Infestation|[partiallytrapped]|[silent]
+|turn|36
+|
+|switch|p1a: Boird|Corviknight, M|68/100
+|-ability|p1a: Boird|Pressure
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-heal|p2a: Great Tusk|71/100|[from] item: Leftovers
+|-heal|p1a: Boird|74/100|[from] item: Leftovers
+|turn|37
+|
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Boird|Body Press|p2a: Great Tusk
+|-damage|p2a: Great Tusk|64/100
+|
+|-heal|p2a: Great Tusk|70/100|[from] item: Leftovers
+|-heal|p1a: Boird|81/100|[from] item: Leftovers
+|turn|38
+|
+|switch|p1a: NotVolcarona|Iron Moth|73/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: NotVolcarona
+|-resisted|p1a: NotVolcarona
+|-damage|p1a: NotVolcarona|22/100
+|
+|-heal|p2a: Great Tusk|76/100|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: NotVolcarona|Energy Ball|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|40
+|
+|-end|p1a: NotVolcarona|Quark Drive|[silent]
+|switch|p1a: CheeseGuy|Gholdengo|100/100
+|move|p2a: Toxapex|Infestation|p1a: CheeseGuy
+|-resisted|p1a: CheeseGuy
+|-damage|p1a: CheeseGuy|99/100
+|-activate|p1a: CheeseGuy|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: CheeseGuy|87/100|[from] move: Infestation|[partiallytrapped]
+|turn|41
+|
+|move|p1a: CheeseGuy|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: CheeseGuy|75/100|[from] move: Infestation|[partiallytrapped]
+|turn|42
+|
+|move|p1a: CheeseGuy|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100
+|move|p2a: Toxapex|Infestation|p1a: CheeseGuy
+|-resisted|p1a: CheeseGuy
+|-damage|p1a: CheeseGuy|74/100
+|
+|-damage|p1a: CheeseGuy|62/100|[from] move: Infestation|[partiallytrapped]
+|turn|43
+|
+|move|p1a: CheeseGuy|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|25/100
+|move|p2a: Toxapex|Infestation|p1a: CheeseGuy
+|-resisted|p1a: CheeseGuy
+|-damage|p1a: CheeseGuy|61/100
+|
+|-damage|p1a: CheeseGuy|49/100|[from] move: Infestation|[partiallytrapped]
+|turn|44
+|
+|move|p1a: CheeseGuy|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|win|conuer
+|n|☆Kalibwoy|kalibwoy

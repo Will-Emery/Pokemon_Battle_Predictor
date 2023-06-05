@@ -1,0 +1,198 @@
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Scizor, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Roaring Moon|
+|poke|p1|Walking Wake|
+|poke|p2|Enamorus, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Braviary-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|switch|p2a: Viamor|Enamorus, F|100/100
+|turn|1
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Viamor|Springtide Storm|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|57/100
+|-unboost|p1a: Scizor|atk|1
+|-damage|p2a: Viamor|91/100|[from] item: Life Orb
+|
+|turn|2
+|
+|move|p2a: Viamor|Mystical Fire|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-damage|p2a: Viamor|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|turn|3
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: Lurlsxd|move: Light Screen
+|move|p2a: Viamor|Springtide Storm|p1a: Dragapult|[miss]
+|-miss|p2a: Viamor|p1a: Dragapult
+|
+|turn|4
+|
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: Lurlsxd|Reflect
+|move|p2a: Viamor|Springtide Storm|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100
+|-start|p2a: Viamor|Disable|Springtide Storm|[from] ability: Cursed Body|[of] p1a: Dragapult
+|-damage|p2a: Viamor|71/100|[from] item: Life Orb
+|
+|turn|5
+|
+|move|p1a: Dragapult|Curse|p2a: Viamor
+|-start|p2a: Viamor|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p2a: Viamor|Mystical Fire|p1: Dragapult|[notarget]
+|-fail|p2a: Viamor
+|
+|-damage|p2a: Viamor|47/100|[from] Curse
+|
+|switch|p1a: him|Dragonite, M, shiny|100/100
+|turn|6
+|
+|move|p2a: Viamor|Sludge Bomb|p1a: him
+|-damage|p1a: him|90/100
+|-damage|p2a: Viamor|37/100|[from] item: Life Orb
+|move|p1a: him|Dragon Dance|p1a: him
+|-boost|p1a: him|atk|1
+|-boost|p1a: him|spe|1
+|
+|-damage|p2a: Viamor|12/100|[from] Curse
+|turn|7
+|
+|move|p2a: Viamor|Focus Blast|p1a: him
+|-resisted|p1a: him
+|-damage|p1a: him|77/100
+|-damage|p2a: Viamor|2/100|[from] item: Life Orb
+|move|p1a: him|Dragon Dance|p1a: him
+|-boost|p1a: him|atk|1
+|-boost|p1a: him|spe|1
+|
+|-damage|p2a: Viamor|0 fnt|[from] Curse
+|faint|p2a: Viamor
+|
+|switch|p2a: IShowSpeed|Dragapult, F|100/100
+|turn|8
+|
+|-terastallize|p1a: him|Normal
+|move|p2a: IShowSpeed|Dragon Claw|p1a: him
+|-damage|p1a: him|41/100
+|move|p1a: him|Earthquake|p2a: IShowSpeed
+|-damage|p2a: IShowSpeed|0 fnt
+|faint|p2a: IShowSpeed
+|
+|
+|switch|p2a: birb|Braviary-Hisui, M|100/100
+|turn|9
+|
+|move|p1a: him|Roost|p1a: him
+|-heal|p1a: him|91/100
+|move|p2a: birb|Whirlwind|p1a: him
+|drag|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|
+|turn|10
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: birb
+|-damage|p2a: birb|0 fnt
+|faint|p2a: birb
+|
+|-sideend|p1: Lurlsxd|move: Light Screen
+|
+|switch|p2a: Lando Malando|Landorus-Therian, M|100/100
+|-ability|p2a: Lando Malando|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|turn|11
+|
+|switch|p1a: him|Dragonite, M, shiny, tera:Normal|91/100
+|move|p2a: Lando Malando|Earthquake|p1a: him
+|-damage|p1a: him|61/100
+|
+|-sideend|p1: Lurlsxd|Reflect
+|turn|12
+|
+|move|p2a: Lando Malando|Earthquake|p1a: him
+|-damage|p1a: him|3/100
+|move|p1a: him|Dragon Dance|p1a: him
+|-boost|p1a: him|atk|1
+|-boost|p1a: him|spe|1
+|
+|turn|13
+|
+|move|p1a: him|Extreme Speed|p2a: Lando Malando
+|-crit|p2a: Lando Malando
+|-damage|p2a: Lando Malando|0 fnt
+|faint|p2a: Lando Malando
+|
+|
+|switch|p2a: Woof Ruff|Zamazenta-Crowned, shiny|100/100
+|-ability|p2a: Woof Ruff|Dauntless Shield|boost
+|-boost|p2a: Woof Ruff|def|1
+|turn|14
+|
+|-terastallize|p2a: Woof Ruff|Fighting
+|move|p1a: him|Earthquake|p2a: Woof Ruff
+|-damage|p2a: Woof Ruff|75/100
+|move|p2a: Woof Ruff|Behemoth Bash|p1a: him
+|-damage|p1a: him|0 fnt
+|faint|p1a: him
+|
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|15
+|
+|move|p1a: Walking Wake|Hydro Pump|p2a: Woof Ruff|[miss]
+|-miss|p1a: Walking Wake|p2a: Woof Ruff
+|move|p2a: Woof Ruff|Behemoth Bash|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|70/100
+|
+|turn|16
+|
+|switch|p2a: Ohio Gatekeeper|Toxapex, F|100/100
+|move|p1a: Walking Wake|Hydro Pump|p2a: Ohio Gatekeeper
+|-resisted|p2a: Ohio Gatekeeper
+|-damage|p2a: Ohio Gatekeeper|69/100
+|
+|-heal|p2a: Ohio Gatekeeper|75/100|[from] item: Black Sludge
+|turn|17
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Ohio Gatekeeper
+|-crit|p2a: Ohio Gatekeeper
+|-damage|p2a: Ohio Gatekeeper|0 fnt
+|faint|p2a: Ohio Gatekeeper
+|
+|
+|switch|p2a: Woof Ruff|Zamazenta-Crowned, shiny, tera:Fighting|75/100
+|turn|18
+|
+|move|p1a: Walking Wake|Hydro Pump|p2a: Woof Ruff
+|-damage|p2a: Woof Ruff|26/100
+|move|p2a: Woof Ruff|Behemoth Bash|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|44/100
+|
+|turn|19
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Woof Ruff
+|-damage|p2a: Woof Ruff|0 fnt
+|faint|p2a: Woof Ruff
+|
+|win|Lurlsxd

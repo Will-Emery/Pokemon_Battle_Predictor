@@ -1,0 +1,191 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Amoonguss, F|
+|poke|p1|Volcarona, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|1
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Surf|p1a: Braviary
+|-damage|p1a: Braviary|21/100
+|move|p1a: Braviary|Hurricane|p2a: Basculegion
+|-damage|p2a: Basculegion|9/100
+|
+|turn|2
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Basculegion|Surf|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|71/100
+|
+|-heal|p1a: Amoonguss|77/100|[from] item: Black Sludge
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Amoonguss|Giga Drain|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|-heal|p1a: Amoonguss|80/100|[from] drain|[of] p2a: Corviknight
+|
+|-heal|p1a: Amoonguss|86/100|[from] item: Black Sludge
+|turn|4
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|37/100
+|-damage|p2a: Corviknight|78/100|[from] Recoil
+|move|p1a: Amoonguss|Spore|p2a: Corviknight
+|-status|p2a: Corviknight|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|44/100|[from] item: Black Sludge
+|turn|5
+|player|p2|
+|player|p2|Xenizen|bruno
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|
+|turn|6
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|41/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Slowking|Yawn|p2a: Arcanine
+|-start|p2a: Arcanine|move: Yawn|[of] p1a: Slowking
+|move|p2a: Arcanine|Flare Blitz|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|8
+|
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: Arcanine|Flare Blitz|p1a: Ursaluna
+|-damage|p1a: Ursaluna|58/100
+|
+|-end|p2a: Arcanine|move: Yawn|[silent]
+|-message|Sleep Clause Mod activated.
+|-hint|Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|9
+|
+|switch|p2a: Basculegion|Basculegion-F, F, tera:Water|9/100
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1a: Ursaluna|Facade|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-damage|p1a: Ursaluna|52/100 brn|[from] brn
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, M|78/100 slp
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ursaluna|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Ursaluna|35/100 brn|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Ursaluna|29/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|turn|11
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Arcanine|Head Smash|p1a: Zamazenta|[miss]
+|-miss|p2a: Arcanine|p1a: Zamazenta
+|
+|turn|12
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|59/100
+|
+|turn|13
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|21/100
+|move|p2a: Zapdos|Hurricane|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|14
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Volcarona
+|-damage|p1a: Volcarona|63/100
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F, shiny|100/100|[from] Volt Switch
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|15
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Arcanine
+|-damage|p2a: Arcanine|47/100
+|-heal|p1a: Volcarona|91/100|[from] drain|[of] p2a: Arcanine
+|move|p2a: Arcanine|Flare Blitz|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|turn|16
+|
+|switch|p2a: Zapdos|Zapdos|59/100
+|move|p1a: Zamazenta|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|42/100
+|
+|turn|17
+|
+|move|p1a: Zamazenta|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|23/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|73/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|18
+|
+|switch|p1a: Amoonguss|Amoonguss, F|77/100
+|move|p2a: Zapdos|Hurricane|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M, tera:Normal|29/100 brn
+|turn|19
+|-message|Gabey Wabey forfeited.
+|
+|win|Xenizen

@@ -1,0 +1,182 @@
+|poke|p1|Great Tusk|
+|poke|p1|Zapdos|
+|poke|p1|Ditto|
+|poke|p1|Quaquaval, M|
+|poke|p1|Moltres|
+|poke|p1|Mew|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Magearna|
+|poke|p2|Volcarona, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|66/100
+|-sidestart|p1: TheCuriousShuckle|Spikes
+|move|p1a: Zapdos|Discharge|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|
+|turn|2
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|31/100
+|-sidestart|p1: TheCuriousShuckle|Spikes
+|-status|p2a: Samurott|par|[from] ability: Static|[of] p1a: Zapdos
+|move|p1a: Zapdos|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|switch|p1a: Moltres|Moltres, shiny|100/100|[from] U-turn
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: keirimm|move: Light Screen
+|move|p1a: Moltres|Roost||[still]
+|-fail|p1a: Moltres|heal
+|
+|turn|4
+|
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: keirimm|Reflect
+|move|p1a: Moltres|Hurricane|p2a: Dragapult
+|-damage|p2a: Dragapult|73/100
+|
+|turn|5
+|
+|move|p2a: Dragapult|U-turn|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|96/100
+|-status|p2a: Dragapult|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|move|p1a: Moltres|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|99/100
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100|[from] U-turn
+|-damage|p1a: Great Tusk|84/100|[from] Spikes
+|
+|-heal|p1a: Great Tusk|90/100|[from] item: Leftovers
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Great Tusk|Body Press|p2a: Magearna
+|-damage|p2a: Magearna|86/100
+|move|p2a: Magearna|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|38/100
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|44/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|98/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: TheCuriousShuckle|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Magearna|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Quaquaval|Quaquaval, M, shiny|100/100
+|turn|8
+|
+|-terastallize|p1a: Quaquaval|Fairy
+|move|p2a: Magearna|Draining Kiss|p1a: Quaquaval
+|-damage|p1a: Quaquaval|73/100
+|move|p1a: Quaquaval|Bulk Up|p1a: Quaquaval
+|-boost|p1a: Quaquaval|atk|1
+|-boost|p1a: Quaquaval|def|1
+|
+|-heal|p1a: Quaquaval|79/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Quaquaval|Aqua Step|p2a: Zamazenta
+|-damage|p2a: Zamazenta|89/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|-heal|p1a: Quaquaval|85/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|24/100
+|move|p1a: Quaquaval|Bulk Up|p1a: Quaquaval
+|-boost|p1a: Quaquaval|atk|1
+|-boost|p1a: Quaquaval|def|1
+|
+|-heal|p1a: Quaquaval|30/100|[from] item: Leftovers
+|-sideend|p2: keirimm|move: Light Screen
+|turn|11
+|
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|-sideend|p2: keirimm|Reflect
+|
+|switch|p1a: Mew|Mew, shiny|100/100
+|turn|12
+|
+|move|p2a: Zamazenta|Crunch|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|56/100
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|turn|13
+|
+|switch|p2a: Dragapult|Dragapult, F|73/100 brn
+|move|p1a: Mew|Psychic Fangs|p2a: Dragapult
+|-damage|p2a: Dragapult|2/100 brn
+|
+|-damage|p2a: Dragapult|0 fnt|[from] brn
+|faint|p2a: Dragapult
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-item|p2a: Sneasler|Air Balloon
+|turn|14
+|
+|-terastallize|p2a: Sneasler|Flying
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|turn|15
+|
+|move|p1a: Mew|Psychic Fangs|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-enditem|p2a: Sneasler|Air Balloon
+|faint|p2a: Sneasler
+|
+|player|p2|
+|-message|keirimm lost due to inactivity.
+|
+|win|TheCuriousShuckle

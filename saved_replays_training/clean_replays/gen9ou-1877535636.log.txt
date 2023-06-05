@@ -1,0 +1,54 @@
+|poke|p1|Tornadus, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Great Tusk|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Zapdos|
+|poke|p2|Magearna|
+|poke|p2|Regidrago|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|1
+|
+|move|p2a: Regidrago|Dragon Energy|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|2
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Regidrago
+|-resisted|p2a: Regidrago
+|-damage|p2a: Regidrago|89/100
+|move|p2a: Regidrago|Dragon Energy|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|move|p2a: Regidrago|Dragon Energy|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|4
+|
+|move|p2a: Regidrago|Dragon Energy|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-message|tsyusu forfeited.
+|
+|win|Agent Marnie

@@ -1,0 +1,191 @@
+|poke|p1|Meowscarada, F|
+|poke|p1|Salamence, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Diancie|
+|poke|p1|Tinkaton, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Breloom, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|start
+|switch|p1a: TinKaZonb|Tinkaton, F|100/100
+|switch|p2a: Zigzig billyplouf|Glimmora, F|100/100
+|turn|1
+|
+|move|p1a: TinKaZonb|Stealth Rock|p2a: Zigzig billyplouf
+|-sidestart|p2: Iscalune|move: Stealth Rock
+|move|p2a: Zigzig billyplouf|Stealth Rock|p1a: TinKaZonb
+|-sidestart|p1: plowered|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: TinKaZonb|Encore|p2a: Zigzig billyplouf
+|-start|p2a: Zigzig billyplouf|Encore
+|move|p2a: Zigzig billyplouf|Stealth Rock||[still]
+|-fail|p2a: Zigzig billyplouf
+|
+|turn|3
+|
+|switch|p2a: Pas de ralentir|Arcanine-Hisui, M|100/100
+|-damage|p2a: Pas de ralentir|76/100|[from] Stealth Rock
+|move|p1a: TinKaZonb|Thunder Wave|p2a: Pas de ralentir
+|-status|p2a: Pas de ralentir|par
+|
+|turn|4
+|
+|move|p1a: TinKaZonb|Gigaton Hammer|p2a: Pas de ralentir
+|-damage|p2a: Pas de ralentir|23/100 par
+|move|p2a: Pas de ralentir|Flare Blitz|p1a: TinKaZonb
+|-supereffective|p1a: TinKaZonb
+|-damage|p1a: TinKaZonb|0 fnt
+|faint|p1a: TinKaZonb
+|
+|
+|switch|p1a: Proutox|Salamence, F|100/100
+|-damage|p1a: Proutox|76/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p2a: Zigzig billyplouf|Glimmora, F|100/100
+|-damage|p2a: Zigzig billyplouf|88/100|[from] Stealth Rock
+|move|p1a: Proutox|Dragon Dance|p1a: Proutox
+|-boost|p1a: Proutox|atk|1
+|-boost|p1a: Proutox|spe|1
+|
+|-heal|p1a: Proutox|82/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Proutox|Dragon Claw|p2a: Zigzig billyplouf
+|-damage|p2a: Zigzig billyplouf|13/100
+|-activate|p2a: Zigzig billyplouf|ability: Toxic Debris
+|-sidestart|p1: plowered|move: Toxic Spikes
+|move|p2a: Zigzig billyplouf|Toxic|p1a: Proutox
+|-status|p1a: Proutox|tox
+|
+|-heal|p1a: Proutox|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Proutox|82/100 tox|[from] psn
+|turn|7
+|
+|move|p1a: Proutox|Dragon Claw|p2a: Zigzig billyplouf
+|-damage|p2a: Zigzig billyplouf|0 fnt
+|-activate|p2a: Zigzig billyplouf|ability: Toxic Debris
+|-sidestart|p1: plowered|move: Toxic Spikes
+|faint|p2a: Zigzig billyplouf
+|-ability|p1a: Proutox|Moxie|boost
+|-boost|p1a: Proutox|atk|1
+|
+|-heal|p1a: Proutox|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Proutox|76/100 tox|[from] psn
+|
+|switch|p2a: Sardoche|Garganacl, F|100/100
+|-damage|p2a: Sardoche|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Proutox|Dragon Claw|p2a: Sardoche
+|-damage|p2a: Sardoche|36/100
+|-damage|p1a: Proutox|59/100 tox|[from] item: Rocky Helmet|[of] p2a: Sardoche
+|move|p2a: Sardoche|Heavy Slam|p1a: Proutox
+|-damage|p1a: Proutox|44/100 tox
+|
+|-heal|p1a: Proutox|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Proutox|32/100 tox|[from] psn
+|turn|9
+|
+|switch|p2a: La coum jar|Goodra-Hisui, M|100/100
+|-damage|p2a: La coum jar|94/100|[from] Stealth Rock
+|move|p1a: Proutox|Dragon Claw|p2a: La coum jar
+|-damage|p2a: La coum jar|10/100
+|
+|-heal|p1a: Proutox|38/100 tox|[from] item: Leftovers
+|-heal|p2a: La coum jar|16/100|[from] item: Leftovers
+|-damage|p1a: Proutox|13/100 tox|[from] psn
+|turn|10
+|
+|move|p1a: Proutox|Roost|p1a: Proutox
+|-heal|p1a: Proutox|64/100 tox
+|-singleturn|p1a: Proutox|move: Roost
+|move|p2a: La coum jar|Draco Meteor|p1a: Proutox
+|-supereffective|p1a: Proutox
+|-damage|p1a: Proutox|0 fnt
+|-unboost|p2a: La coum jar|spa|2
+|faint|p1a: Proutox
+|
+|-heal|p2a: La coum jar|22/100|[from] item: Leftovers
+|
+|switch|p1a: FartoZabongo|Toxapex, F|100/100
+|-damage|p1a: FartoZabongo|88/100|[from] Stealth Rock
+|-sideend|p1: plowered|move: Toxic Spikes|[of] p1a: FartoZabongo
+|turn|11
+|
+|move|p2a: La coum jar|Rest|p2a: La coum jar
+|-status|p2a: La coum jar|slp|[from] move: Rest
+|-heal|p2a: La coum jar|100/100 slp|[silent]
+|move|p1a: FartoZabongo|Surf|p2a: La coum jar
+|-resisted|p2a: La coum jar
+|-damage|p2a: La coum jar|94/100 slp
+|
+|-heal|p2a: La coum jar|100/100 slp|[from] item: Leftovers
+|-heal|p1a: FartoZabongo|94/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: BonzangWifi|Volcarona, M|100/100
+|cant|p2a: La coum jar|slp
+|
+|turn|13
+|
+|switch|p2a: Pas de ralentir|Arcanine-Hisui, M|23/100 par
+|-damage|p2a: Pas de ralentir|0 fnt|[from] Stealth Rock
+|faint|p2a: Pas de ralentir
+|move|p1a: BonzangWifi|Calm Mind|p1a: BonzangWifi
+|-boost|p1a: BonzangWifi|spa|1
+|-boost|p1a: BonzangWifi|spd|1
+|
+|
+|switch|p2a: Caca dans l'eau|Samurott-Hisui, M|100/100
+|-damage|p2a: Caca dans l'eau|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: BonzangWifi|Bug Buzz|p2a: Caca dans l'eau
+|-supereffective|p2a: Caca dans l'eau
+|-damage|p2a: Caca dans l'eau|0 fnt
+|faint|p2a: Caca dans l'eau
+|
+|
+|switch|p2a: Sardoche|Garganacl, F|36/100
+|-damage|p2a: Sardoche|24/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: BonzangWifi|Giga Drain|p2a: Sardoche
+|-supereffective|p2a: Sardoche
+|-damage|p2a: Sardoche|0 fnt
+|faint|p2a: Sardoche
+|
+|
+|switch|p2a: La coum jar|Goodra-Hisui, M|100/100 slp
+|-damage|p2a: La coum jar|94/100 slp|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: BonzangWifi|Fiery Dance|p2a: La coum jar
+|-damage|p2a: La coum jar|51/100 slp
+|cant|p2a: La coum jar|slp
+|
+|-heal|p2a: La coum jar|57/100 slp|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: BonzangWifi|Fiery Dance|p2a: La coum jar
+|-damage|p2a: La coum jar|14/100 slp
+|-boost|p1a: BonzangWifi|spa|1
+|-curestatus|p2a: La coum jar|slp|[msg]
+|move|p2a: La coum jar|Heavy Slam|p1a: BonzangWifi
+|-resisted|p1a: BonzangWifi
+|-damage|p1a: BonzangWifi|68/100
+|
+|-heal|p2a: La coum jar|20/100|[from] item: Leftovers
+|turn|18
+|-message|Iscalune forfeited.
+|
+|win|plowered

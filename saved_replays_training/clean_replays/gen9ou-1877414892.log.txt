@@ -1,0 +1,177 @@
+|poke|p1|Sinistea-Antique|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Breloom, M|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Zorua, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Basculegion, M|
+|teampreview
+|
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|switch|p2a: Overwatch 2|Sneasler, M|100/100
+|turn|1
+|
+|move|p2a: Overwatch 2|Switcheroo|p1a: Arcanine
+|-activate|p2a: Overwatch 2|move: Trick|[of] p1a: Arcanine
+|-item|p1a: Arcanine|Choice Specs|[from] move: Switcheroo
+|-item|p2a: Overwatch 2|Leftovers|[from] move: Switcheroo
+|move|p1a: Arcanine|Head Smash|p2a: Overwatch 2|[miss]
+|-miss|p1a: Arcanine|p2a: Overwatch 2
+|
+|turn|2
+|
+|move|p2a: Overwatch 2|Close Combat|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Overwatch 2|def|1
+|-unboost|p2a: Overwatch 2|spd|1
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|3
+|
+|move|p2a: Overwatch 2|Poison Jab|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|20/100
+|-enditem|p1a: Azumarill|Sitrus Berry|[eat]
+|-heal|p1a: Azumarill|45/100|[from] item: Sitrus Berry
+|move|p1a: Azumarill|Belly Drum||[still]
+|-fail|p1a: Azumarill
+|
+|turn|4
+|
+|move|p2a: Overwatch 2|Poison Jab|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|
+|switch|p1a: Sinistea|Sinistea-Antique|100/100
+|turn|5
+|
+|move|p2a: Overwatch 2|Switcheroo|p1a: Sinistea
+|-activate|p2a: Overwatch 2|move: Trick|[of] p1a: Sinistea
+|-item|p1a: Sinistea|Leftovers|[from] move: Switcheroo
+|-item|p2a: Overwatch 2|Focus Sash|[from] move: Switcheroo
+|move|p1a: Sinistea|Shell Smash|p1a: Sinistea
+|-unboost|p1a: Sinistea|def|1
+|-unboost|p1a: Sinistea|spd|1
+|-boost|p1a: Sinistea|atk|2
+|-boost|p1a: Sinistea|spa|2
+|-boost|p1a: Sinistea|spe|2
+|
+|turn|6
+|
+|move|p2a: Overwatch 2|Poison Jab|p1a: Sinistea
+|-resisted|p1a: Sinistea
+|-damage|p1a: Sinistea|9/100
+|-status|p1a: Sinistea|psn|[from] ability: Poison Touch|[of] p2a: Overwatch 2
+|-start|p2a: Overwatch 2|Disable|Poison Jab|[from] ability: Cursed Body|[of] p1a: Sinistea
+|move|p1a: Sinistea|Stored Power|p2a: Overwatch 2
+|-supereffective|p2a: Overwatch 2
+|-enditem|p2a: Overwatch 2|Focus Sash
+|-damage|p2a: Overwatch 2|1/100
+|
+|-heal|p1a: Sinistea|15/100 psn|[from] item: Leftovers
+|-damage|p1a: Sinistea|3/100 psn|[from] psn
+|turn|7
+|
+|move|p1a: Sinistea|Sucker Punch||[still]
+|-fail|p1a: Sinistea
+|move|p2a: Overwatch 2|Switcheroo|p1a: Sinistea
+|-activate|p2a: Overwatch 2|move: Trick|[of] p1a: Sinistea
+|-enditem|p1a: Sinistea|Leftovers|[silent]|[from] move: Switcheroo
+|-item|p2a: Overwatch 2|Leftovers|[from] move: Switcheroo
+|
+|-heal|p2a: Overwatch 2|7/100|[from] item: Leftovers
+|-damage|p1a: Sinistea|0 fnt|[from] psn
+|faint|p1a: Sinistea
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|8
+|
+|move|p1a: Iron Valiant|Dazzling Gleam|p2a: Overwatch 2
+|-damage|p2a: Overwatch 2|0 fnt
+|faint|p2a: Overwatch 2
+|
+|
+|switch|p2a: League of Legends|Kingambit, F|100/100
+|-activate|p2a: League of Legends|ability: Supreme Overlord
+|-start|p2a: League of Legends|fallen1|[silent]
+|turn|9
+|
+|move|p1a: Iron Valiant|Dazzling Gleam|p2a: League of Legends
+|-damage|p2a: League of Legends|68/100
+|move|p2a: League of Legends|Iron Head|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|10
+|
+|move|p2a: League of Legends|Sucker Punch||[still]
+|-fail|p2a: League of Legends
+|move|p1a: Breloom|Spore|p2a: League of Legends
+|-status|p2a: League of Legends|slp|[from] move: Spore
+|
+|turn|11
+|
+|-end|p2a: League of Legends|fallen1|[silent]
+|switch|p2a: Roblox|Basculegion, M|100/100
+|move|p1a: Breloom|Drain Punch|p2a: Roblox
+|-supereffective|p2a: Roblox
+|-enditem|p2a: Roblox|Focus Sash
+|-damage|p2a: Roblox|1/100
+|replace|p2a: Super meat boy|Zorua, M
+|-end|p2a: Super meat boy|Illusion
+|
+|turn|12
+|
+|move|p1a: Breloom|Giga Drain|p2a: Super meat boy
+|-damage|p2a: Super meat boy|0 fnt
+|faint|p2a: Super meat boy
+|
+|
+|switch|p2a: Minecraft|Kleavor, M|100/100
+|turn|13
+|
+|-terastallize|p2a: Minecraft|Bug
+|move|p2a: Minecraft|Fury Cutter|p1a: Breloom
+|-damage|p1a: Breloom|44/100
+|move|p1a: Breloom|Spore|p2a: Minecraft
+|-message|Sleep Clause Mod activated.
+|-hint|Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time
+|
+|-heal|p1a: Breloom|50/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Minecraft|Fury Cutter|p1a: Breloom
+|-crit|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|turn|15
+|
+|move|p1a: Enamorus|Mystical Fire|p2a: Minecraft
+|-supereffective|p2a: Minecraft
+|-damage|p2a: Minecraft|30/100
+|-unboost|p2a: Minecraft|spa|1
+|move|p2a: Minecraft|Stone Axe|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|-sidestart|p1: AtulZard|move: Stealth Rock
+|faint|p1a: Enamorus
+|
+|win|Vualpix

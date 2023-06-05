@@ -1,0 +1,426 @@
+|poke|p1|Lokix, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Wo-Chien|
+|poke|p2|Qwilfish-Hisui, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Iron Treads|
+|poke|p2|Walking Wake|
+|poke|p2|Floatzel, M|
+|teampreview
+|
+|start
+|switch|p1a: Lokix|Lokix, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|-terastallize|p1a: Lokix|Bug
+|move|p1a: Lokix|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|24/100
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] U-turn
+|move|p2a: Pelipper|Hurricane|p1a: Garchomp
+|-damage|p1a: Garchomp|66/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Walking Wake
+|-sidestart|p2: IConsumeChairs|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p1a: Wo-Chien|Wo-Chien|100/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Walking Wake|Hydro Pump|p1a: Wo-Chien
+|-resisted|p1a: Wo-Chien
+|-crit|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wo-Chien|59/100|[from] item: Leftovers
+|turn|4
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|move|p1a: Wo-Chien|Leech Seed|p2a: Iron Treads
+|-start|p2a: Iron Treads|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wo-Chien|65/100|[from] item: Leftovers
+|-damage|p2a: Iron Treads|85/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|78/100|[silent]
+|turn|5
+|
+|switch|p1a: Garchomp|Garchomp, M|66/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Garchomp
+|-damage|p1a: Garchomp|56/100
+|-boost|p2a: Iron Treads|spe|1
+|-damage|p2a: Iron Treads|72/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Iron Treads|56/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|-end|p2a: Iron Treads|Leech Seed|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-sideend|p2: IConsumeChairs|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Iron Treads|Ice Spinner|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Iron Treads|43/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Iron Treads|27/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Lokix|Lokix, F, tera:Bug|100/100
+|turn|7
+|
+|move|p1a: Lokix|First Impression|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Qwilfish|Qwilfish-Hisui, F|100/100
+|turn|8
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Qwilfish|Taunt|p1a: Skeledirge
+|-start|p1a: Skeledirge|move: Taunt
+|
+|-weather|none
+|turn|9
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Qwilfish|Crunch|p1a: Hatterene
+|-damage|p1a: Hatterene|76/100
+|
+|-heal|p1a: Hatterene|82/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|
+|turn|11
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Walking Wake|Hydro Pump|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|
+|-heal|p1a: Toxapex|75/100|[from] item: Leftovers
+|turn|12
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, F|24/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|switch|p1a: Lokix|Lokix, F, tera:Bug|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p2a: Qwilfish|Qwilfish-Hisui, F|100/100
+|move|p1a: Lokix|U-turn|p2a: Qwilfish
+|-damage|p2a: Qwilfish|41/100
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Qwilfish|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p1a: Hatterene|Hatterene, F|82/100
+|move|p2a: Qwilfish|Crunch|p1a: Hatterene
+|-damage|p1a: Hatterene|54/100
+|-unboost|p1a: Hatterene|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hatterene|60/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Qwilfish|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|86/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Pelipper|Pelipper, F|24/100
+|move|p1a: Toxapex|Chilling Water|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|13/100
+|-unboost|p2a: Pelipper|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|92/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Lokix|Lokix, F, tera:Bug|100/100
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|63/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|19
+|
+|switch|p2a: Qwilfish|Qwilfish-Hisui, F|41/100
+|move|p1a: Lokix|U-turn|p2a: Qwilfish
+|-damage|p2a: Qwilfish|0 fnt
+|faint|p2a: Qwilfish
+|
+|switch|p1a: Hatterene|Hatterene, F|60/100|[from] U-turn
+|
+|-weather|none
+|-heal|p1a: Hatterene|66/100|[from] item: Leftovers
+|
+|switch|p2a: Pelipper|Pelipper, F|63/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|20
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|100/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Hatterene|Draining Kiss|p2a: Pelipper
+|-damage|p2a: Pelipper|67/100
+|-heal|p1a: Hatterene|92/100|[from] drain|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hatterene|98/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Pelipper|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|89/100
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100|[from] U-turn
+|move|p1a: Hatterene|Draining Kiss|p2a: Floatzel
+|-damage|p2a: Floatzel|56/100
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Floatzel
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Floatzel|Wave Crash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|-damage|p2a: Floatzel|42/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|64/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Floatzel|Wave Crash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|22/100
+|-damage|p2a: Floatzel|28/100|[from] Recoil
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|78/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|25
+|
+|move|p2a: Walking Wake|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|54/100
+|move|p1a: Toxapex|Toxic|p2a: Walking Wake
+|-status|p2a: Walking Wake|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|60/100|[from] item: Leftovers
+|-damage|p2a: Walking Wake|94/100 tox|[from] psn
+|turn|26
+|
+|move|p2a: Walking Wake|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|20/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|76/100|[from] item: Leftovers
+|-damage|p2a: Walking Wake|82/100 tox|[from] psn
+|turn|27
+|
+|move|p2a: Walking Wake|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|30/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|80/100
+|
+|-weather|none
+|-heal|p1a: Toxapex|86/100|[from] item: Leftovers
+|-damage|p2a: Walking Wake|63/100 tox|[from] psn
+|turn|28
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, F|67/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Toxapex|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|92/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|61/100 tox|[from] psn
+|turn|29
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|100/100 tox
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Toxapex|Chilling Water|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|90/100 tox
+|-unboost|p2a: Pelipper|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|99/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|78/100 tox|[from] psn
+|turn|30
+|
+|move|p2a: Pelipper|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|97/100
+|
+|switch|p2a: Walking Wake|Walking Wake|63/100 tox|[from] U-turn
+|move|p1a: Toxapex|Toxic|p2a: Walking Wake
+|-fail|p2a: Walking Wake|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|100/100|[from] item: Leftovers
+|-damage|p2a: Walking Wake|57/100 tox|[from] psn
+|turn|31
+|
+|move|p2a: Walking Wake|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|23/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|79/100|[from] item: Leftovers
+|-damage|p2a: Walking Wake|45/100 tox|[from] psn
+|turn|32
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, F|78/100 tox
+|switch|p1a: Wo-Chien|Wo-Chien|78/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wo-Chien|84/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|72/100 tox|[from] psn
+|turn|33
+|
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Pelipper|U-turn|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wo-Chien|90/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|59/100 tox|[from] psn
+|turn|34
+|
+|move|p1a: Wo-Chien|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|38/100 tox
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Wo-Chien
+|move|p2a: Pelipper|U-turn|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|64/100
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wo-Chien|70/100|[from] item: Leftovers
+|turn|35
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Wave Crash|p1a: Wo-Chien
+|-resisted|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|7/100
+|-damage|p2a: Basculegion|80/100|[from] Recoil
+|move|p1a: Wo-Chien|Knock Off|p2a: Basculegion
+|-damage|p2a: Basculegion|43/100
+|-enditem|p2a: Basculegion|Choice Band|[from] move: Knock Off|[of] p1a: Wo-Chien
+|
+|-weather|none
+|-heal|p1a: Wo-Chien|13/100|[from] item: Leftovers
+|turn|36
+|
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Basculegion|Wave Crash|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-heal|p1a: Wo-Chien|19/100|[from] item: Leftovers
+|turn|37
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Basculegion|Wave Crash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|73/100
+|-damage|p2a: Basculegion|36/100|[from] Recoil
+|
+|-heal|p1a: Toxapex|79/100|[from] item: Leftovers
+|turn|38
+|
+|switch|p2a: Pelipper|Pelipper, F|38/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Toxapex|Chilling Water|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|27/100 tox
+|-unboost|p2a: Pelipper|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|86/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|21/100 tox|[from] psn
+|turn|39
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|71/100 tox
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|59/100 tox|[from] psn
+|turn|40
+|
+|move|p2a: Pelipper|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|95/100
+|
+|switch|p2a: Floatzel|Floatzel, M|28/100|[from] U-turn
+|move|p1a: Hatterene|Draining Kiss|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Floatzel
+|faint|p2a: Floatzel
+|
+|-weather|RainDance|[upkeep]
+|-message|IConsumeChairs forfeited.
+|
+|win|digimon best55

@@ -1,0 +1,429 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Treads|
+|poke|p1|Meowscarada, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Thundurus, M|
+|poke|p2|Heatran, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Avalugg, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Ursaluna, M|
+|poke|p2|Toxapex, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Avalugg
+|-damage|p2a: Avalugg|83/100
+|-sidestart|p2: Plummer r|Spikes
+|
+|turn|2
+|
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|turn|3
+|
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|
+|-damage|p2a: Dragonite|94/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Dragonite|Thunder Wave||[still]
+|-fail|p2a: Dragonite
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|88/100 brn|[from] brn
+|turn|5
+|
+|move|p1a: Dragapult|Hex|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|40/100 brn
+|move|p2a: Dragonite|Hurricane|p1a: Dragapult|[miss]
+|-miss|p2a: Dragonite|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|34/100 brn|[from] brn
+|turn|6
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|7
+|
+|move|p1a: Dragapult|Hex|p2a: Heatran
+|-damage|p2a: Heatran|78/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Flash Cannon|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Heatran|Flash Cannon|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|79/100
+|
+|turn|9
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Spikes
+|move|p1a: Samurott|Sacred Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|77/100
+|
+|-heal|p2a: Toxapex|84/100|[from] item: Black Sludge
+|turn|10
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|-sidestart|p2: Plummer r|Spikes
+|move|p2a: Toxapex|Toxic|p1a: Samurott
+|-status|p1a: Samurott|tox
+|
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|-damage|p1a: Samurott|73/100 tox|[from] psn
+|turn|11
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Avalugg|Avalugg, M|83/100
+|
+|turn|12
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|-damage|p2a: Iron Valiant|84/100|[from] Spikes
+|move|p1a: Meowscarada|Low Kick|p2a: Iron Valiant
+|-start|p1a: Meowscarada|typechange|Fighting|[from] ability: Protean
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|58/100
+|
+|turn|13
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|14
+|
+|-terastallize|p1a: Iron Treads|Water
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Iron Treads
+|-damage|p1a: Iron Treads|56/100
+|move|p1a: Iron Treads|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|9/100
+|
+|-heal|p1a: Iron Treads|62/100|[from] item: Leftovers
+|turn|15
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Samurott|Samurott-Hisui, F|73/100 tox
+|move|p2a: Iron Valiant|Energy Ball|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|21/100 tox
+|-unboost|p1a: Samurott|spd|1
+|
+|-damage|p1a: Samurott|15/100 tox|[from] psn
+|turn|16
+|
+|move|p1a: Samurott|Sucker Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-damage|p1a: Samurott|2/100 tox|[from] psn
+|
+|switch|p2a: Avalugg|Avalugg, M|83/100
+|turn|17
+|
+|switch|p1a: Dragapult|Dragapult, F, shiny|99/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Heatran|Heatran, M|78/100
+|-damage|p2a: Heatran|61/100|[from] Spikes
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Dragapult|Hex|p2a: Heatran
+|-damage|p2a: Heatran|40/100
+|move|p2a: Heatran|Flash Cannon|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|2/100 tox
+|move|p2a: Heatran|Lava Plume|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Iron Treads|Iron Treads, tera:Water|62/100
+|turn|21
+|
+|switch|p2a: Avalugg|Avalugg, M|83/100
+|move|p1a: Iron Treads|Earthquake|p2a: Avalugg
+|-damage|p2a: Avalugg|67/100
+|
+|-heal|p1a: Iron Treads|68/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Heatran|Heatran, M|40/100
+|-damage|p2a: Heatran|24/100|[from] Spikes
+|move|p1a: Iron Treads|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|13/100
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Thundurus|Thundurus, M, shiny|100/100|[from] Volt Switch
+|
+|turn|23
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|-damage|p2a: Ursaluna|84/100|[from] Spikes
+|turn|24
+|
+|switch|p1a: Dragapult|Dragapult, F, shiny|88/100
+|move|p2a: Ursaluna|Bulk Up|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|1
+|-boost|p2a: Ursaluna|def|1
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|25
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|69/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|78/100 brn|[from] brn
+|turn|26
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|50/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-heal|p1a: Dragapult|56/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|72/100 brn|[from] brn
+|turn|27
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|31/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-heal|p1a: Dragapult|37/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|66/100 brn|[from] brn
+|turn|28
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|12/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-heal|p1a: Dragapult|18/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|60/100 brn|[from] brn
+|turn|29
+|
+|switch|p2a: Toxapex|Toxapex, F|98/100
+|-damage|p2a: Toxapex|81/100|[from] Spikes
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|
+|-heal|p1a: Dragapult|24/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|61/100|[from] item: Black Sludge
+|turn|30
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|move|p2a: Toxapex|Toxic|p1a: Arcanine
+|-status|p1a: Arcanine|tox
+|
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|-damage|p1a: Arcanine|94/100 tox|[from] psn
+|turn|31
+|
+|move|p1a: Arcanine|Head Smash|p2a: Toxapex|[miss]
+|-miss|p1a: Arcanine|p2a: Toxapex
+|move|p2a: Toxapex|Liquidation|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Black Sludge
+|
+|switch|p1a: Iron Treads|Iron Treads, tera:Water|68/100
+|turn|32
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Iron Treads|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Iron Treads|74/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|turn|33
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|13/100
+|move|p2a: Toxapex|Toxic|p1a: Iron Treads
+|-status|p1a: Iron Treads|tox
+|
+|-heal|p1a: Iron Treads|81/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|19/100|[from] item: Black Sludge
+|-damage|p1a: Iron Treads|74/100 tox|[from] psn
+|turn|34
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Dragapult|Dragapult, F, shiny|24/100
+|move|p2a: Toxapex|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-heal|p1a: Dragapult|30/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|25/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|24/100 tox|[from] psn
+|turn|35
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Dragapult|30/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|31/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|18/100 tox|[from] psn
+|turn|36
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|19/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|5/100
+|move|p2a: Toxapex|Liquidation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|2/100 tox
+|-unboost|p1a: Dragapult|def|1
+|
+|-heal|p1a: Dragapult|8/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|12/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|0 fnt|[from] psn
+|faint|p1a: Dragapult
+|
+|switch|p1a: Thundurus|Thundurus, M, shiny|100/100
+|turn|37
+|
+|switch|p2a: Ursaluna|Ursaluna, M|60/100 brn
+|-damage|p2a: Ursaluna|43/100 brn|[from] Spikes
+|move|p1a: Thundurus|Taunt|p2a: Ursaluna
+|-start|p2a: Ursaluna|move: Taunt
+|
+|-damage|p2a: Ursaluna|37/100 brn|[from] brn
+|turn|38
+|
+|switch|p1a: Iron Treads|Iron Treads, tera:Water|74/100 tox
+|move|p2a: Ursaluna|Facade|p1a: Iron Treads
+|-damage|p1a: Iron Treads|2/100 tox
+|
+|-heal|p1a: Iron Treads|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Iron Treads|2/100 tox|[from] psn
+|-damage|p2a: Ursaluna|31/100 brn|[from] brn
+|turn|39
+|
+|switch|p2a: Avalugg|Avalugg, M|67/100
+|move|p1a: Iron Treads|Earthquake|p2a: Avalugg
+|-damage|p2a: Avalugg|51/100
+|
+|-heal|p1a: Iron Treads|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Iron Treads|0 fnt|[from] psn
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|switch|p1a: Thundurus|Thundurus, M, shiny|100/100
+|turn|40
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, M|31/100 brn
+|-damage|p2a: Ursaluna|14/100 brn|[from] Spikes
+|turn|41
+|
+|move|p1a: Thundurus|Tera Blast|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Toxapex|Toxapex, F|45/100
+|-damage|p2a: Toxapex|28/100|[from] Spikes
+|turn|42
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Thundurus|Taunt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|35/100|[from] item: Black Sludge
+|turn|43
+|
+|-terastallize|p2a: Toxapex|Poison
+|move|p1a: Thundurus|Thunderbolt|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|win|Kenetto108

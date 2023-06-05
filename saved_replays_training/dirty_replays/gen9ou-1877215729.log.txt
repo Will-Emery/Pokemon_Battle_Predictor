@@ -1,1 +1,245 @@
-Could not connect
+|j|☆Haves2l
+|j|☆RindBerry
+|t:|1685828352
+|gametype|singles
+|player|p1|Haves2l|101|1252
+|player|p2|RindBerry|psychicf|1351
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Sandy Shocks|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Maushold|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Heatran, F|
+|poke|p2|Orthworm, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dragapult, F|
+|poke|p2|Quaquaval, M|
+|poke|p2|Baxcalibur, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RindBerry)
+|
+|t:|1685828359
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Sash|Quaquaval, M|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1685828368
+|move|p1a: Sandy Shocks|Gravity|p1a: Sandy Shocks
+|-fieldstart|move: Gravity
+|move|p2a: Sash|Aqua Step|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|7/100
+|-boost|p2a: Sash|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1685828374
+|move|p1a: Sandy Shocks|Thunder|p2a: Sash
+|-supereffective|p2a: Sash
+|-crit|p2a: Sash
+|-damage|p2a: Sash|0 fnt
+|faint|p2a: Sash
+|
+|upkeep
+|
+|t:|1685828380
+|switch|p2a: Band|Baxcalibur, F|100/100
+|turn|3
+|
+|t:|1685828388
+|move|p2a: Band|Ice Shard|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685828401
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|turn|4
+|
+|t:|1685828406
+|switch|p2a: Scarf|Dragapult, F|100/100
+|move|p1a: Basculegion|Shadow Ball|p2a: Scarf
+|-supereffective|p2a: Scarf
+|-damage|p2a: Scarf|0 fnt
+|faint|p2a: Scarf
+|
+|upkeep
+|
+|t:|1685828413
+|switch|p2a: Helmet|Volcarona, M|100/100
+|turn|5
+|
+|t:|1685828429
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Helmet|atk|1
+|move|p2a: Helmet|Quiver Dance|p2a: Helmet
+|-boost|p2a: Helmet|spa|1
+|-boost|p2a: Helmet|spd|1
+|-boost|p2a: Helmet|spe|1
+|
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|
+|t:|1685828440
+|switch|p2a: Berry|Orthworm, M|100/100
+|move|p1a: Landorus|Stone Edge|p2a: Berry|[miss]
+|-miss|p1a: Landorus|p2a: Berry
+|
+|upkeep
+|turn|7
+|
+|t:|1685828446
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Berry|Substitute|p2a: Berry
+|-start|p2a: Berry|Substitute
+|-damage|p2a: Berry|76/100
+|
+|-heal|p2a: Berry|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685828453
+|move|p1a: Heatran|Body Press|p2a: Berry
+|-supereffective|p2a: Berry
+|-end|p2a: Berry|Substitute
+|move|p2a: Berry|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|55/100
+|
+|-heal|p1a: Heatran|61/100|[from] item: Leftovers
+|-heal|p2a: Berry|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685828463
+|switch|p2a: Band|Baxcalibur, F|100/100
+|-terastallize|p1a: Heatran|Fairy
+|move|p1a: Heatran|Magma Storm|p2a: Band|[miss]
+|-miss|p1a: Heatran|p2a: Band
+|
+|-heal|p1a: Heatran|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685828477
+|-terastallize|p2a: Band|Electric
+|move|p2a: Band|Icicle Spear|p1a: Heatran
+|-damage|p1a: Heatran|58/100
+|-damage|p1a: Heatran|49/100
+|-damage|p1a: Heatran|41/100
+|-damage|p1a: Heatran|32/100
+|-hitcount|p1a: Heatran|4
+|move|p1a: Heatran|Body Press|p2a: Band
+|-damage|p2a: Band|76/100
+|
+|-heal|p1a: Heatran|38/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685828492
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Band|Swords Dance|p2a: Band
+|-boost|p2a: Band|atk|2
+|
+|-heal|p1a: Heatran|45/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1685828504
+|move|p2a: Band|Tera Blast|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1685828520
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Band|atk|1
+|turn|13
+|
+|t:|1685828531
+|switch|p1a: Maushold|Maushold|100/100
+|move|p2a: Band|Ice Shard|p1a: Maushold
+|-damage|p1a: Maushold|44/100
+|
+|upkeep
+|turn|14
+|
+|t:|1685828540
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|move|p2a: Band|Ice Shard|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|77/100
+|
+|upkeep
+|turn|15
+|
+|t:|1685828545
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Band|atk|1
+|move|p2a: Band|Tera Blast|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|16
+|
+|t:|1685828552
+|move|p2a: Band|Ice Shard|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|1/100
+|move|p1a: Landorus|Earthquake|p2a: Band
+|-supereffective|p2a: Band
+|-damage|p2a: Band|0 fnt
+|faint|p2a: Band
+|
+|upkeep
+|
+|t:|1685828563
+|switch|p2a: Helmet|Volcarona, M|100/100
+|turn|17
+|
+|t:|1685828571
+|move|p1a: Landorus|Earthquake|p2a: Helmet
+|-damage|p2a: Helmet|25/100
+|move|p2a: Helmet|Giga Drain|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-heal|p2a: Helmet|25/100|[from] drain|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|-message|RindBerry forfeited.
+|
+|win|Haves2l
+|raw|Haves2l's rating: 1252 → 1284(+32 for winning)
+|raw|RindBerry's rating: 1351 → 1325(-26 for losing)
+|l|☆RindBerry
+|l|☆Haves2l
+|j|☆Haves2l
+|player|p1|Haves2l|101

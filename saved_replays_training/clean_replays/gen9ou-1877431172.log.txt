@@ -1,0 +1,111 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Sandy Shocks|
+|poke|p1|Noivern, F|
+|poke|p1|Avalugg, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Mew|
+|poke|p2|Sneasler, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Polteageist|
+|poke|p2|Hawlucha, M|
+|teampreview
+|
+|start
+|switch|p1a: Climbing Woman|Sneasler, M|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|-terastallize|p2a: Indeedee|Fairy
+|move|p1a: Climbing Woman|Night Slash|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|64/100
+|move|p2a: Indeedee|Psychic|p1a: Climbing Woman
+|-supereffective|p1a: Climbing Woman
+|-damage|p1a: Climbing Woman|0 fnt
+|faint|p1a: Climbing Woman
+|
+|
+|switch|p1a: Mew|Mew|100/100
+|turn|2
+|
+|move|p1a: Mew|Stealth Rock|p2a: Indeedee
+|-sidestart|p2: AshMegaLuxio|move: Stealth Rock
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Mew
+|-damage|p1a: Mew|79/100
+|-enditem|p1a: Mew|Eject Button
+|
+|switch|p1a: Pls no water|Arcanine-Hisui, M, shiny|100/100
+|
+|turn|3
+|
+|move|p1a: Pls no water|Flare Blitz|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Pls no water|Flare Blitz|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|switch|p1a: Me when Boomburst:|Noivern, F|100/100
+|-item|p2a: Cinderace|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Me when Boomburst:|[identify]
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|turn|6
+|
+|move|p1a: Me when Boomburst:|U-turn|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|79/100
+|
+|switch|p1a: Turntable|Avalugg, M|100/100|[from] U-turn
+|move|p2a: Cinderace|U-turn|p1a: Turntable
+|-damage|p1a: Turntable|88/100
+|
+|switch|p2a: Polteageist|Polteageist|100/100|[from] U-turn
+|
+|turn|7
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Turntable|Crunch|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-crit|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|
+|turn|8
+|
+|move|p2a: Polteageist|Stored Power|p1a: Turntable
+|-damage|p1a: Turntable|0 fnt
+|faint|p1a: Turntable
+|
+|-fieldend|move: Psychic Terrain
+|-message|Platwurst forfeited.
+|
+|win|AshMegaLuxio

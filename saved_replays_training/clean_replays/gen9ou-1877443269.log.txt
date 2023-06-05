@@ -1,0 +1,236 @@
+|poke|p1|Diancie|
+|poke|p1|Regidrago|
+|poke|p1|Zarude|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Mimikyu, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Iron Treads|
+|poke|p2|Rabsca, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: Regidrago|Regidrago|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p1a: Regidrago|Dragon Energy|p2a: Kleavor
+|-enditem|p2a: Kleavor|Focus Sash
+|-damage|p2a: Kleavor|1/100
+|move|p2a: Kleavor|Stone Axe|p1a: Regidrago
+|-damage|p1a: Regidrago|47/100
+|-sidestart|p1: normal3lite|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|78/100
+|
+|turn|3
+|
+|switch|p1a: Zarude|Zarude|100/100
+|-damage|p1a: Zarude|88/100|[from] Stealth Rock
+|move|p2a: Iron Treads|Ice Spinner|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|36/100
+|
+|turn|4
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Zarude|Stomping Tantrum|p2a: Pelipper
+|-immune|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p1a: Zarude|Power Whip|p2a: Pelipper
+|-damage|p2a: Pelipper|54/100
+|move|p2a: Pelipper|Hurricane|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|faint|p1a: Zarude
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Pelipper|Hurricane|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|8
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|20/100
+|move|p2a: Dragonite|Hurricane|p1a: Mimikyu
+|-damage|p1a: Mimikyu|2/100
+|-enditem|p1a: Mimikyu|Salac Berry|[eat]
+|-boost|p1a: Mimikyu|spe|1|[from] item: Salac Berry
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|10
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Aqua Jet|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Regidrago|Regidrago|47/100
+|-damage|p1a: Regidrago|34/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Kleavor|Kleavor, F|1/100
+|move|p1a: Regidrago|Draco Meteor|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-unboost|p1a: Regidrago|spa|2
+|faint|p2a: Kleavor
+|
+|-weather|none
+|
+|switch|p2a: Rabsca|Rabsca, F|100/100
+|turn|12
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|move|p2a: Rabsca|Trick Room|p2a: Rabsca
+|-fieldstart|move: Trick Room|[of] p2a: Rabsca
+|
+|turn|13
+|
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|
+|-heal|p2: Pelipper|50/100|[from] move: Revival Blessing
+|move|p1a: Braviary|Air Slash|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-enditem|p2a: Rabsca|Focus Sash
+|-damage|p2a: Rabsca|1/100
+|
+|turn|14
+|
+|move|p2a: Rabsca|Memento|p1a: Braviary
+|-unboost|p1a: Braviary|atk|2
+|-unboost|p1a: Braviary|spa|2
+|faint|p2a: Rabsca
+|move|p1a: Braviary|Esper Wing|p2: Rabsca|[notarget]
+|-fail|p1a: Braviary
+|
+|
+|switch|p2a: Pelipper|Pelipper, F|50/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|15
+|
+|switch|p1a: Diancie|Diancie|100/100
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|move|p2a: Pelipper|Hydro Pump|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Diancie|23/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Diancie|Diamond Storm|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Diancie|29/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Basculegion|Basculegion, M, tera:Water|100/100
+|turn|17
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|-damage|p1a: Zapdos|88/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Iron Treads|Iron Treads|78/100
+|move|p1a: Zapdos|Close Combat|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M, tera:Water|100/100
+|turn|19
+|
+|switch|p1a: Regidrago|Regidrago|34/100
+|-damage|p1a: Regidrago|22/100|[from] Stealth Rock
+|move|p2a: Basculegion|Wave Crash|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|faint|p1a: Regidrago
+|-damage|p2a: Basculegion|91/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|76/100
+|-damage|p1a: Braviary|51/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|-damage|p2a: Basculegion|75/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Zapdos|Zapdos-Galar|88/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Basculegion|54/100|[from] Recoil
+|
+|win|LowELOtest

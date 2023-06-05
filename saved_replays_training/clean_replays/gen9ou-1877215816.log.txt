@@ -1,0 +1,173 @@
+|poke|p1|Urshifu-*, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Baxcalibur, F|
+|poke|p1|Ceruledge, F|
+|poke|p1|Scizor, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Garganacl, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: MooeyM2|Reflect
+|
+|turn|2
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: MooeyM2|move: Light Screen
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|turn|3
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-damage|p1a: Scizor|94/100 brn|[from] brn
+|turn|4
+|
+|move|p2a: Dragapult|Hex|p1a: Scizor
+|-damage|p1a: Scizor|38/100 brn
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-damage|p1a: Scizor|32/100 brn|[from] brn
+|turn|5
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Dragapult
+|-damage|p2a: Dragapult|64/100
+|move|p2a: Dragapult|Hex|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|turn|6
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Volcarona
+|-damage|p2a: Volcarona|50/100
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|
+|turn|7
+|
+|-terastallize|p1a: Baxcalibur|Ground
+|move|p1a: Baxcalibur|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|3/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|8
+|
+|-terastallize|p2a: Volcarona|Water
+|move|p2a: Volcarona|Tera Blast|p1a: Baxcalibur
+|-supereffective|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|-sideend|p2: MooeyM2|Reflect
+|
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|turn|9
+|
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-sideend|p2: MooeyM2|move: Light Screen
+|
+|switch|p2a: Dragapult|Dragapult, M|64/100
+|turn|10
+|
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|21/100
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: MooeyM2|Reflect
+|
+|turn|11
+|
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ceruledge|atk|1
+|turn|12
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Urshifu
+|-damage|p1a: Urshifu|43/100
+|
+|turn|13
+|
+|move|p2a: Landorus|Earthquake|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|14
+|
+|move|p2a: Landorus|Earthquake|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|turn|15
+|
+|move|p2a: Landorus|Earthquake|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|turn|16
+|
+|move|p1a: Ceruledge|Bitter Blade|p2a: Landorus
+|-damage|p2a: Landorus|44/100
+|-heal|p1a: Ceruledge|31/100|[from] drain|[of] p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|17
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Landorus
+|-damage|p2a: Landorus|6/100
+|move|p2a: Landorus|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|MooeyM2

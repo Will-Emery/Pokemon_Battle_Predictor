@@ -1,0 +1,33 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Mew|
+|poke|p1|Magearna|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Chien-Pao|
+|poke|p2|Garganacl, M|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Quabbin|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|94/100
+|-message|Quabbin forfeited.
+|
+|win|Sir Kumquat

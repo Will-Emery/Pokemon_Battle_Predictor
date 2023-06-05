@@ -1,0 +1,251 @@
+|poke|p1|Glimmora, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Floatzel, F|
+|poke|p2|Tornadus, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|move|p2a: Iron Treads|Rapid Spin|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|92/100
+|-boost|p2a: Iron Treads|spe|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Emosmatla|move: Toxic Spikes
+|-sideend|p2: Emosmatla|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Glimmora|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|52/100
+|
+|turn|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|82/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|turn|3
+|
+|move|p2a: Iron Treads|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|22/100
+|move|p1a: Landorus|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Floatzel|Floatzel, F|100/100
+|turn|4
+|
+|switch|p1a: Glimmora|Glimmora, M|92/100
+|move|p2a: Floatzel|Wave Crash|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Emosmatla|move: Toxic Spikes
+|faint|p1a: Glimmora
+|-damage|p2a: Floatzel|71/100|[from] Recoil
+|
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|5
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Meowscarada|Knock Off|p2a: Pelipper
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Pelipper|63/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|95/100
+|
+|switch|p2a: Overqwil|Overqwil, F|100/100|[from] U-turn
+|-sideend|p2: Emosmatla|move: Toxic Spikes|[of] p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Overqwil|Crunch|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|80/100
+|-damage|p2a: Overqwil|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p2a: Overqwil|Taunt|p1a: Kingambit
+|-start|p1a: Kingambit|move: Taunt
+|cant|p1a: Kingambit|move: Taunt|Swords Dance
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p2a: Overqwil|Crunch|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|60/100
+|-damage|p2a: Overqwil|81/100|[from] item: Life Orb
+|move|p1a: Kingambit|Iron Head|p2a: Overqwil
+|-damage|p2a: Overqwil|19/100
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Overqwil|Destiny Bond|p2a: Overqwil
+|-singlemove|p2a: Overqwil|Destiny Bond
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Kingambit|move: Taunt
+|turn|11
+|
+|move|p2a: Overqwil|Taunt|p1a: Kingambit
+|-start|p1a: Kingambit|move: Taunt
+|move|p1a: Kingambit|Iron Head|p2a: Overqwil
+|-crit|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Pelipper|Pelipper, F|63/100
+|turn|12
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|17/100
+|move|p2a: Pelipper|Surf|p1a: Kingambit
+|-damage|p1a: Kingambit|18/100
+|
+|-weather|none
+|turn|13
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-end|p1a: Kingambit|move: Taunt
+|
+|switch|p2a: Floatzel|Floatzel, F|71/100
+|turn|14
+|
+|move|p2a: Floatzel|Aqua Jet|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|15
+|
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Tornadus
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|64/100
+|
+|turn|16
+|
+|switch|p1a: Landorus|Landorus-Therian, M|22/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tornadus|atk|1
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|move|p2a: Tornadus|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Dragapult|Dragapult, M|95/100
+|turn|18
+|
+|move|p2a: Tornadus|Tailwind|p2a: Tornadus
+|-sidestart|p2: Emosmatla|move: Tailwind
+|move|p1a: Dragapult|Shadow Ball|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|19
+|
+|-terastallize|p2a: Basculegion|Ghost
+|move|p2a: Basculegion|Tera Blast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|20
+|
+|-terastallize|p1a: Volcarona|Grass
+|move|p2a: Basculegion|Tera Blast|p1a: Volcarona
+|-damage|p1a: Volcarona|27/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p2a: Basculegion|Tera Blast|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Emosmatla|move: Tailwind
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|22
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Basculegion
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-enditem|p2a: Basculegion|Choice Band|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Floatzel|Floatzel, F|71/100
+|turn|23
+|
+|move|p2a: Floatzel|Wave Crash|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-damage|p2a: Floatzel|39/100|[from] Recoil
+|
+|win|Emosmatla

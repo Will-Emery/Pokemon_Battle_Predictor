@@ -1,0 +1,194 @@
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p1|Quaquaval, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Ceruledge, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Gholdengo|
+|poke|p2|Kleavor, F|
+|poke|p2|Roaring Moon|
+|poke|p2|Iron Valiant|
+|poke|p2|Zoroark-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: NUH-UH|Gholdengo|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|move|p1a: NUH-UH|Make It Rain|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-unboost|p1a: NUH-UH|spa|1
+|move|p2a: Glimmora|Stealth Rock|p1a: NUH-UH
+|-sidestart|p1: The Googer|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: NUH-UH|Make It Rain|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-unboost|p1a: NUH-UH|spa|1
+|faint|p2a: Glimmora
+|
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|3
+|
+|switch|p1a: Maustake|Maushold-Four|100/100
+|-damage|p1a: Maustake|88/100|[from] Stealth Rock
+|move|p2a: Kleavor|Swords Dance|p2a: Kleavor
+|-boost|p2a: Kleavor|atk|2
+|
+|turn|4
+|
+|move|p1a: Maustake|Tidy Up|p1a: Maustake
+|-sideend|p1: The Googer|Stealth Rock
+|-activate|p1a: Maustake|move: Tidy Up
+|-boost|p1a: Maustake|atk|1
+|-boost|p1a: Maustake|spe|1
+|move|p2a: Kleavor|Fury Cutter|p1a: Maustake
+|-damage|p1a: Maustake|0 fnt
+|faint|p1a: Maustake
+|
+|
+|switch|p1a: Thunk|Tinkaton, F|100/100
+|-ability|p1a: Thunk|Mold Breaker
+|turn|5
+|
+|-terastallize|p2a: Kleavor|Bug
+|move|p1a: Thunk|Fake Out|p2a: Kleavor
+|-damage|p2a: Kleavor|88/100
+|cant|p2a: Kleavor|flinch
+|
+|turn|6
+|
+|move|p1a: Thunk|Stealth Rock|p2a: Kleavor
+|-sidestart|p2: Coolbroes|move: Stealth Rock
+|move|p2a: Kleavor|Fury Cutter|p1a: Thunk
+|-resisted|p1a: Thunk
+|-damage|p1a: Thunk|73/100
+|
+|turn|7
+|
+|move|p1a: Thunk|Gigaton Hammer|p2a: Kleavor
+|-damage|p2a: Kleavor|20/100
+|move|p2a: Kleavor|Fury Cutter|p1a: Thunk
+|-resisted|p1a: Thunk
+|-damage|p1a: Thunk|19/100
+|-enditem|p1a: Thunk|Sitrus Berry|[eat]
+|-heal|p1a: Thunk|43/100|[from] item: Sitrus Berry
+|
+|turn|8
+|
+|move|p1a: Thunk|Play Rough|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-damage|p2a: Roaring Moon|88/100|[from] Stealth Rock
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|9
+|
+|move|p2a: Roaring Moon|Earthquake|p1a: Thunk
+|-supereffective|p1a: Thunk
+|-damage|p1a: Thunk|0 fnt
+|faint|p1a: Thunk
+|
+|
+|switch|p1a: Spectacled|Iron Valiant|100/100
+|turn|10
+|
+|move|p2a: Roaring Moon|Acrobatics|p1a: Spectacled
+|-supereffective|p1a: Spectacled
+|-damage|p1a: Spectacled|0 fnt
+|faint|p1a: Spectacled
+|-end|p1a: Spectacled|Quark Drive|[silent]
+|
+|
+|switch|p1a: NUH-UH|Gholdengo|100/100
+|turn|11
+|
+|move|p1a: NUH-UH|Dazzling Gleam|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Big Steppy|Quaquaval, F|100/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|13
+|
+|move|p1a: Big Steppy|Aqua Step|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-boost|p1a: Big Steppy|spe|1
+|faint|p2a: Gholdengo
+|-ability|p1a: Big Steppy|Moxie|boost
+|-boost|p1a: Big Steppy|atk|1
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|14
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Big Steppy
+|-supereffective|p1a: Big Steppy
+|-damage|p1a: Big Steppy|0 fnt
+|faint|p1a: Big Steppy
+|
+|
+|switch|p1a: NUH-UH|Gholdengo|100/100
+|turn|15
+|
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: NUH-UH|Make It Rain|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: NUH-UH|spa|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Zoroark|Zoroark-Hisui, M|100/100
+|-damage|p2a: Zoroark|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: NUH-UH|Make It Rain|p2a: Zoroark
+|-damage|p2a: Zoroark|1/100
+|-unboost|p1a: NUH-UH|spa|1
+|move|p2a: Zoroark|Shadow Ball|p1a: NUH-UH
+|-supereffective|p1a: NUH-UH
+|-damage|p1a: NUH-UH|0 fnt
+|faint|p1a: NUH-UH
+|
+|
+|switch|p1a: Blimbo|Ceruledge, M|100/100
+|turn|17
+|
+|-terastallize|p1a: Blimbo|Fairy
+|move|p2a: Zoroark|Shadow Ball|p1a: Blimbo
+|-damage|p1a: Blimbo|28/100
+|move|p1a: Blimbo|Bitter Blade|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|-heal|p1a: Blimbo|28/100|[from] drain|[of] p2a: Zoroark
+|faint|p2a: Zoroark
+|
+|win|The Googer

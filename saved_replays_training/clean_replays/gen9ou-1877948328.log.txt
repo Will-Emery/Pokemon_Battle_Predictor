@@ -1,0 +1,179 @@
+|poke|p1|Urshifu-*, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Slowking, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Magearna|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Talonflame, F|
+|poke|p2|Blissey, F|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|start
+|switch|p1a: Lando|Landorus-Therian, M|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-ability|p1a: Lando|Intimidate|boost
+|-unboost|p2a: Alomomola|atk|1
+|turn|1
+|
+|move|p1a: Lando|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|83/100
+|-damage|p1a: Lando|91/100|[from] item: Life Orb
+|
+|switch|p1a: King of the beach|Slowking, M, shiny|100/100|[from] U-turn
+|move|p2a: Alomomola|Whirlpool|p1a: King of the beach
+|-resisted|p1a: King of the beach
+|-damage|p1a: King of the beach|99/100
+|-activate|p1a: King of the beach|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: King of the beach|86/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|2
+|
+|move|p2a: Alomomola|Chilling Water|p1a: King of the beach
+|-resisted|p1a: King of the beach
+|-crit|p1a: King of the beach
+|-damage|p1a: King of the beach|82/100
+|-unboost|p1a: King of the beach|atk|1
+|move|p1a: King of the beach|Chilly Reception|p1a: King of the beach
+|-weather|Snow
+|
+|switch|p1a: Queen of hearts|Magearna|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|move|p1a: Queen of hearts|Shift Gear|p1a: Queen of hearts
+|-boost|p1a: Queen of hearts|spe|2
+|-boost|p1a: Queen of hearts|atk|1
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p1a: Queen of hearts|Calm Mind|p1a: Queen of hearts
+|-boost|p1a: Queen of hearts|spa|1
+|-boost|p1a: Queen of hearts|spd|1
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Queen of hearts
+|-status|p1a: Queen of hearts|brn
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Queen of hearts|95/100 brn|[from] brn
+|turn|5
+|
+|move|p1a: Queen of hearts|Calm Mind|p1a: Queen of hearts
+|-boost|p1a: Queen of hearts|spa|1
+|-boost|p1a: Queen of hearts|spd|1
+|move|p2a: Talonflame|Flamethrower|p1a: Queen of hearts
+|-supereffective|p1a: Queen of hearts
+|-damage|p1a: Queen of hearts|70/100 brn
+|-enditem|p1a: Queen of hearts|Weakness Policy
+|-boost|p1a: Queen of hearts|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Queen of hearts|spa|2|[from] item: Weakness Policy
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Queen of hearts|64/100 brn|[from] brn
+|turn|6
+|
+|-terastallize|p1a: Queen of hearts|Water
+|move|p1a: Queen of hearts|Calm Mind|p1a: Queen of hearts
+|-boost|p1a: Queen of hearts|spa|1
+|-boost|p1a: Queen of hearts|spd|1
+|move|p2a: Talonflame|Flamethrower|p1a: Queen of hearts
+|-resisted|p1a: Queen of hearts
+|-damage|p1a: Queen of hearts|59/100 brn
+|
+|-weather|none
+|-damage|p1a: Queen of hearts|53/100 brn|[from] brn
+|turn|7
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Queen of hearts|Draining Kiss|p2a: Dondozo
+|-damage|p2a: Dondozo|73/100
+|-heal|p1a: Queen of hearts|87/100 brn|[from] drain|[of] p2a: Dondozo
+|
+|-heal|p2a: Dondozo|79/100|[from] item: Leftovers
+|-damage|p1a: Queen of hearts|81/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: Queen of hearts|Stored Power|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|-ability|p1a: Queen of hearts|Soul-Heart|boost
+|-boost|p1a: Queen of hearts|spa|1
+|
+|-damage|p1a: Queen of hearts|75/100 brn|[from] brn
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|9
+|
+|move|p1a: Queen of hearts|Stored Power|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-damage|p1a: Queen of hearts|69/100 brn|[from] brn
+|
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|10
+|
+|move|p1a: Queen of hearts|Stored Power|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-damage|p1a: Queen of hearts|63/100 brn|[from] brn
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|11
+|
+|move|p1a: Queen of hearts|Draining Kiss|p2a: Blissey
+|-damage|p2a: Blissey|70/100
+|-heal|p1a: Queen of hearts|100/100 brn|[from] drain|[of] p2a: Blissey
+|move|p2a: Blissey|Shadow Ball|p1a: Queen of hearts
+|-damage|p1a: Queen of hearts|95/100 brn
+|-unboost|p1a: Queen of hearts|spd|1
+|
+|-damage|p1a: Queen of hearts|89/100 brn|[from] brn
+|turn|12
+|
+|move|p1a: Queen of hearts|Stored Power|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-damage|p1a: Queen of hearts|83/100 brn|[from] brn
+|
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|turn|13
+|
+|move|p1a: Queen of hearts|Draining Kiss|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|30/100
+|-heal|p1a: Queen of hearts|100/100 brn|[from] drain|[of] p2a: Talonflame
+|move|p2a: Talonflame|Flamethrower|p1a: Queen of hearts
+|-resisted|p1a: Queen of hearts
+|-damage|p1a: Queen of hearts|95/100 brn
+|
+|-damage|p1a: Queen of hearts|89/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Queen of hearts|Draining Kiss|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|-heal|p1a: Queen of hearts|100/100 brn|[from] drain|[of] p2a: Talonflame
+|faint|p2a: Talonflame
+|
+|-damage|p1a: Queen of hearts|95/100 brn|[from] brn
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|15
+|
+|move|p1a: Queen of hearts|Stored Power|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|Lemousine

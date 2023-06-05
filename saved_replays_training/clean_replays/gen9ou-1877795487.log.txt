@@ -1,0 +1,182 @@
+|poke|p1|Azelf|
+|poke|p1|Moltres-Galar|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Magearna|
+|poke|p1|Roaring Moon|
+|poke|p1|Kingambit, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|start
+|switch|p1a: Azelf|Azelf, shiny|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|move|p1a: Azelf|Reflect|p1a: Azelf
+|-sidestart|p1: The crimson wooper|Reflect
+|move|p2a: Great Tusk|Rapid Spin|p1a: Azelf
+|-damage|p1a: Azelf|92/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|turn|2
+|
+|move|p1a: Azelf|Light Screen|p1a: Azelf
+|-sidestart|p1: The crimson wooper|move: Light Screen
+|move|p2a: Great Tusk|Knock Off|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|57/100
+|-enditem|p1a: Azelf|Light Clay|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|3
+|
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisatk
+|move|p2a: Great Tusk|Stealth Rock|p1a: Roaring Moon
+|-sidestart|p1: The crimson wooper|move: Stealth Rock
+|
+|turn|4
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Roaring Moon|Dragon Dance|p1a: Roaring Moon
+|-boost|p1a: Roaring Moon|atk|1
+|-boost|p1a: Roaring Moon|spe|1
+|
+|turn|5
+|
+|move|p1a: Roaring Moon|Dragon Dance|p1a: Roaring Moon
+|-boost|p1a: Roaring Moon|atk|1
+|-boost|p1a: Roaring Moon|spe|1
+|move|p2a: Zapdos|Volt Switch|p1a: Roaring Moon
+|-resisted|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|93/100
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] Volt Switch
+|
+|turn|6
+|
+|-terastallize|p2a: Slowking|Dark
+|move|p1a: Roaring Moon|Jaw Lock|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|-activate|p1a: Roaring Moon|trapped
+|-activate|p2a: Slowking|trapped
+|move|p2a: Slowking|Thunder Wave|p1a: Roaring Moon
+|-status|p1a: Roaring Moon|par
+|
+|turn|7
+|
+|move|p1a: Roaring Moon|Dragon Dance|p1a: Roaring Moon
+|-boost|p1a: Roaring Moon|atk|1
+|-boost|p1a: Roaring Moon|spe|1
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] Chilly Reception
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|move|p1a: Roaring Moon|Acrobatics|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|Snow|[upkeep]
+|-sideend|p1: The crimson wooper|Reflect
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|9
+|
+|move|p1a: Roaring Moon|Acrobatics|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|-weather|Snow|[upkeep]
+|-sideend|p1: The crimson wooper|move: Light Screen
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|cant|p1a: Roaring Moon|par
+|move|p2a: Great Tusk|Earthquake|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|38/100 par
+|
+|-weather|Snow|[upkeep]
+|turn|11
+|
+|-terastallize|p1a: Roaring Moon|Flying
+|cant|p1a: Roaring Moon|par
+|move|p2a: Great Tusk|Earthquake|p1a: Roaring Moon
+|-immune|p1a: Roaring Moon
+|
+|-weather|none
+|turn|12
+|
+|cant|p1a: Roaring Moon|par
+|move|p2a: Great Tusk|Rapid Spin|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|18/100 par
+|-boost|p2a: Great Tusk|spe|1
+|
+|turn|13
+|
+|move|p1a: Roaring Moon|Acrobatics|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|14
+|
+|move|p1a: Roaring Moon|Jaw Lock|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, F, tera:Dark|78/100
+|turn|15
+|
+|move|p1a: Roaring Moon|Acrobatics|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|16
+|
+|cant|p1a: Roaring Moon|par
+|move|p2a: Dragapult|Dragon Darts|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|
+|switch|p1a: UNDYNE|Kingambit, F, shiny|100/100
+|-damage|p1a: UNDYNE|94/100|[from] Stealth Rock
+|-activate|p1a: UNDYNE|ability: Supreme Overlord
+|-start|p1a: UNDYNE|fallen1|[silent]
+|turn|17
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: UNDYNE
+|-status|p1a: UNDYNE|brn
+|move|p1a: UNDYNE|Kowtow Cleave|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|9/100
+|
+|-heal|p2a: Dragapult|15/100|[from] item: Leftovers
+|-damage|p1a: UNDYNE|88/100 brn|[from] brn
+|turn|18
+|-message|gotsnsd forfeited.
+|
+|win|The crimson wooper

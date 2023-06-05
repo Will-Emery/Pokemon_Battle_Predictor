@@ -1,0 +1,105 @@
+|poke|p1|Great Tusk|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Meowscarada, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Sneasler|Sneasler, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Sneasler|Fake Out|p1a: Great Tusk
+|-enditem|p2a: Sneasler|Normal Gem|[from] gem
+|-damage|p1a: Great Tusk|92/100
+|cant|p1a: Great Tusk|flinch
+|
+|-heal|p1a: Great Tusk|98/100|[from] item: Leftovers
+|turn|2
+|
+|-terastallize|p2a: Sneasler|Flying
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Great Tusk|Earthquake|p2a: Sneasler
+|-immune|p2a: Sneasler
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|turn|3
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|turn|4
+|
+|move|p2a: Sneasler|Close Combat|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-damage|p2a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1a: Goodra
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Sneasler|spe|1
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|5
+|
+|move|p2a: Sneasler|Close Combat|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|6
+|
+|move|p2a: Sneasler|Close Combat|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Rotom
+|
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|7
+|
+|move|p2a: Sneasler|Close Combat|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Meowscarada
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|8
+|
+|move|p2a: Sneasler|Acrobatics|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|move|p2a: Sneasler|Acrobatics|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|Chris6497

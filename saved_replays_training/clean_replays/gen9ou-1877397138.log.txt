@@ -1,0 +1,269 @@
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|turn|1
+|
+|switch|p1a: Birb|Zapdos, shiny|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Birb
+|-sidestart|p1: Ban Zamacrowned|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Birb|Hurricane|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|89/100
+|
+|-heal|p2a: Goodra|95/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Birb|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|87/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] Volt Switch
+|move|p2a: Goodra|Thunder|p1a: Slowking
+|-damage|p1a: Slowking|82/100
+|
+|-heal|p2a: Goodra|93/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Goodra|Heavy Slam|p1a: Slowking
+|-damage|p1a: Slowking|52/100
+|move|p1a: Slowking|Future Sight|p2a: Goodra
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p2a: Goodra|99/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Goodra|Heavy Slam|p1a: Slowking
+|-damage|p1a: Slowking|19/100
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|69/100
+|
+|-heal|p2a: Goodra|100/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Goodra|Heavy Slam|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100|[from] Chilly Reception
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Goodra|move: Future Sight
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|89/100
+|-heal|p1a: Grimmsnarl|94/100|[from] item: Leftovers
+|-heal|p2a: Goodra|95/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-terastallize|p1a: Grimmsnarl|Dark
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Grimmsnarl|75/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Pelipper|U-turn|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-activate|p1a: Grimmsnarl|move: Substitute|[damage]
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-immune|p1a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Grimmsnarl|81/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Landorus|Sandsear Storm|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Grimmsnarl|88/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|63/100
+|move|p2a: Landorus|Sandsear Storm|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Grimmsnarl|69/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Landorus|Sandsear Storm|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|44/100
+|-status|p1a: Grimmsnarl|brn
+|move|p1a: Grimmsnarl|Play Rough|p2a: Landorus
+|-damage|p2a: Landorus|74/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Landorus|80/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|44/100 brn|[from] brn
+|turn|12
+|
+|move|p2a: Landorus|U-turn|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Ban me #2|Chien-Pao|100/100
+|-damage|p1a: Ban me #2|76/100|[from] Stealth Rock
+|-ability|p1a: Ban me #2|Sword of Ruin
+|turn|13
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|95/100
+|move|p1a: Ban me #2|Crunch|p2a: Goodra
+|-damage|p2a: Goodra|25/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Goodra|32/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Goodra|Protect|p2a: Goodra
+|-singleturn|p2a: Goodra|Protect
+|move|p1a: Ban me #2|Crunch|p2a: Goodra
+|-activate|p2a: Goodra|move: Protect
+|
+|-weather|none
+|-heal|p2a: Goodra|38/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Ban me #2|Crunch|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|40/100
+|
+|turn|16
+|
+|move|p2a: Lilligant|Close Combat|p1a: Ban me #2
+|-supereffective|p1a: Ban me #2
+|-damage|p1a: Ban me #2|0 fnt
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|faint|p1a: Ban me #2
+|
+|
+|switch|p1a: Ban me|Magearna|100/100
+|-damage|p1a: Ban me|94/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Lilligant|Close Combat|p1a: Ban me|[miss]
+|-miss|p2a: Lilligant|p1a: Ban me
+|move|p1a: Ban me|Shift Gear|p1a: Ban me
+|-boost|p1a: Ban me|spe|2
+|-boost|p1a: Ban me|atk|1
+|
+|-heal|p1a: Ban me|100/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Lilligant|Close Combat|p1a: Ban me|[miss]
+|-miss|p2a: Lilligant|p1a: Ban me
+|move|p1a: Ban me|Shift Gear|p1a: Ban me
+|-boost|p1a: Ban me|spe|2
+|-boost|p1a: Ban me|atk|1
+|
+|turn|19
+|
+|move|p1a: Ban me|Calm Mind|p1a: Ban me
+|-boost|p1a: Ban me|spa|1
+|-boost|p1a: Ban me|spd|1
+|move|p2a: Lilligant|Close Combat|p1a: Ban me
+|-damage|p1a: Ban me|44/100
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|
+|-heal|p1a: Ban me|50/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Ban me|Draining Kiss|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|-heal|p1a: Ban me|73/100|[from] drain|[of] p2a: Lilligant
+|faint|p2a: Lilligant
+|-ability|p1a: Ban me|Soul-Heart|boost
+|-boost|p1a: Ban me|spa|1
+|
+|-heal|p1a: Ban me|79/100|[from] item: Leftovers
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|21
+|
+|move|p1a: Ban me|Calm Mind|p1a: Ban me
+|-boost|p1a: Ban me|spa|1
+|-boost|p1a: Ban me|spd|1
+|move|p2a: Pelipper|U-turn|p1a: Ban me
+|-resisted|p1a: Ban me
+|-damage|p1a: Ban me|78/100
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ban me|84/100|[from] item: Leftovers
+|turn|22
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Aqua Jet|p1a: Ban me
+|-damage|p1a: Ban me|44/100
+|move|p1a: Ban me|Stored Power|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-ability|p1a: Ban me|Soul-Heart|boost
+|-boost|p1a: Ban me|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ban me|50/100|[from] item: Leftovers
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|38/100
+|turn|23
+|
+|move|p1a: Ban me|Stored Power|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|-ability|p1a: Ban me|Soul-Heart|boost
+|-boost|p1a: Ban me|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ban me|56/100|[from] item: Leftovers
+|-message|MyCroissant forfeited.
+|
+|win|Ban Zamacrowned

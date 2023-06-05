@@ -1,0 +1,102 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Hatterene, F|
+|poke|p1|Kleavor, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Quagsire, F|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|1
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Kleavor
+|-damage|p1a: Kleavor|16/100
+|-status|p1a: Kleavor|brn
+|move|p1a: Kleavor|Stone Axe|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|30/100
+|-sidestart|p2: DeusYancha|move: Stealth Rock
+|
+|-damage|p1a: Kleavor|10/100 brn|[from] brn
+|turn|2
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|3
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|move|p1a: Sneasler|Close Combat|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Arcanine
+|
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Psychic Terrain
+|move|p1a: Sneasler|Dire Claw|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|turn|6
+|
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Acrobatics|p2a: Braviary
+|-damage|p2a: Braviary|2/100
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|
+|turn|7
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Sneasler|Close Combat|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Goodra
+|
+|-message|DeusYancha forfeited.
+|
+|win|vezon46

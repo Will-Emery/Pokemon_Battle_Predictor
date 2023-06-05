@@ -1,0 +1,111 @@
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Amoonguss, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Quaquaval, F|
+|poke|p2|Azelf|
+|poke|p2|Sneasler, F|
+|poke|p2|Kleavor, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Great Tusk|
+|poke|p2|Meowscarada, M|
+|teampreview
+|
+|start
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|51/100
+|-sidestart|p1: Onvila|move: Stealth Rock
+|move|p1a: Clodsire|Toxic|p2a: Kleavor
+|-status|p2a: Kleavor|tox
+|
+|-heal|p1a: Clodsire|57/100|[from] item: Leftovers
+|-damage|p2a: Kleavor|94/100 tox|[from] psn
+|turn|2
+|
+|switch|p2a: Azelf|Azelf|100/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|turn|3
+|
+|move|p2a: Azelf|Taunt|p1a: Clodsire
+|-start|p1a: Clodsire|move: Taunt
+|cant|p1a: Clodsire|move: Taunt|Toxic
+|
+|turn|4
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|move|p2a: Azelf|Reflect|p2a: Azelf
+|-sidestart|p2: waha8|Reflect
+|
+|turn|5
+|
+|move|p2a: Azelf|Light Screen|p2a: Azelf
+|-sidestart|p2: waha8|move: Light Screen
+|move|p1a: Braviary|Hurricane|p2a: Azelf|[miss]
+|-miss|p1a: Braviary|p2a: Azelf
+|
+|turn|6
+|
+|move|p2a: Azelf|Explosion|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p2a: Azelf
+|faint|p1a: Braviary
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|59/100
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|44/100
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|27/100
+|-hitcount|p1a: Pelipper|3
+|-damage|p2a: Urshifu|91/100|[from] item: Life Orb
+|move|p1a: Pelipper|Hurricane|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|35/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|move|p2a: Urshifu|Ice Spinner|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|13/100
+|-damage|p2a: Urshifu|25/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|19/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|move|p2a: Urshifu|Trailblaze|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|50/100
+|-boost|p2a: Urshifu|spe|1
+|-damage|p2a: Urshifu|15/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|-message|Onvila forfeited.
+|
+|win|waha8

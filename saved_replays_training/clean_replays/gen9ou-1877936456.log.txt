@@ -1,0 +1,264 @@
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Corviknight, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Gholdengo|
+|poke|p2|Cinderace, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Iron Moth|
+|poke|p2|Rotom-Heat|
+|poke|p2|Skeledirge, F|
+|poke|p2|Scovillain, F|
+|teampreview
+|
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|move|p1a: Gholdengo|Trick|p2a: Rotom
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Choice Specs|[from] move: Trick
+|-item|p1a: Gholdengo|Choice Scarf|[from] move: Trick
+|
+|turn|2
+|
+|move|p1a: Gholdengo|Trick|p2a: Rotom
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Choice Specs|[from] move: Trick
+|move|p2a: Rotom|Volt Switch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|68/100
+|
+|switch|p2a: Torkoal|Torkoal, F, shiny|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Goodra
+|-sidestart|p1: bmoc19|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Goodra|Surf|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|62/100
+|move|p2a: Torkoal|Yawn|p1a: Goodra
+|-start|p1a: Goodra|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|switch|p2a: Scovillain|Scovillain, F, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p2a: Scovillain|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|-damage|p2a: Scovillain|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M, shiny|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|turn|7
+|
+|-terastallize|p1a: Arcanine|Steel
+|move|p2a: Scovillain|Solar Beam||[still]
+|-prepare|p2a: Scovillain|Solar Beam
+|-anim|p2a: Scovillain|Solar Beam|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|35/100
+|-damage|p2a: Scovillain|81/100|[from] item: Life Orb
+|move|p1a: Arcanine|Iron Head|p2a: Scovillain
+|-resisted|p2a: Scovillain
+|-damage|p2a: Scovillain|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|switch|p1a: Gholdengo|Gholdengo|68/100
+|-damage|p1a: Gholdengo|62/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|move|p1a: Gholdengo|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|
+|-weather|none
+|turn|10
+|
+|switch|p2a: Torkoal|Torkoal, F, shiny|62/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Gholdengo|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Scovillain|Scovillain, F, shiny|50/100
+|turn|11
+|
+|move|p2a: Scovillain|Growth|p2a: Scovillain
+|-boost|p2a: Scovillain|atk|2
+|-boost|p2a: Scovillain|spa|2
+|move|p1a: Gholdengo|Shadow Ball|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|12
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M, shiny, tera:Steel|35/100
+|-damage|p1a: Arcanine|29/100|[from] Stealth Rock
+|move|p2a: Iron Moth|Fiery Dance|p1a: Arcanine
+|-start|p1a: Arcanine|ability: Flash Fire
+|
+|-weather|SunnyDay|[upkeep]
+|turn|13
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Iron Moth
+|-damage|p2a: Iron Moth|57/100
+|move|p2a: Iron Moth|Discharge|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p1a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|14
+|
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Skeledirge|Skeledirge, F, shiny|100/100
+|turn|15
+|
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|80/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Zamazenta
+|-status|p1a: Zamazenta|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skeledirge|86/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|91/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Zamazenta|Play Rough|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|80/100
+|move|p2a: Skeledirge|Torch Song|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|21/100 brn
+|-boost|p2a: Skeledirge|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skeledirge|86/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|15/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Zamazenta|Psychic Fangs|p2a: Skeledirge
+|-damage|p2a: Skeledirge|75/100
+|move|p2a: Skeledirge|Torch Song|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Zamazenta
+|
+|-weather|none
+|-heal|p2a: Skeledirge|81/100|[from] item: Leftovers
+|
+|switch|p1a: Gholdengo|Gholdengo|62/100
+|-damage|p1a: Gholdengo|56/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|turn|19
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|20
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|39/100
+|turn|21
+|
+|move|p2a: Rotom|Trick|p1a: Kingambit
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Assault Vest|[from] move: Trick
+|move|p1a: Kingambit|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|22/100
+|
+|turn|22
+|
+|move|p2a: Rotom|Overheat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|-damage|p1a: Goodra|94/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Rotom|Overheat|p1a: Goodra
+|-damage|p1a: Goodra|79/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Goodra|Surf|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|bmoc19

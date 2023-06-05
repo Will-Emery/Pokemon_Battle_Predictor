@@ -1,0 +1,345 @@
+|poke|p1|Armarouge, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Bellibolt, M|
+|poke|p1|Stonjourner, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Komala, M|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Toxicroak, M|
+|poke|p2|Scyther, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Umbreon, M|
+|poke|p2|Rotom-Heat|
+|teampreview
+|
+|start
+|switch|p1a: A mimir|Komala, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-ability|p1a: A mimir|Comatose
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: A mimir
+|-damage|p1a: A mimir|69/100
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100|[from] Volt Switch
+|move|p1a: A mimir|Rock Slide|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|79/100
+|
+|turn|2
+|
+|switch|p1a: Setup?|Mimikyu, F|100/100
+|move|p2a: Toxicroak|Close Combat|p1a: Setup?
+|-immune|p1a: Setup?
+|
+|turn|3
+|
+|move|p2a: Toxicroak|Bullet Punch|p1a: Setup?
+|-activate|p1a: Setup?|ability: Disguise
+|-damage|p1a: Setup?|100/100
+|-status|p1a: Setup?|psn|[from] ability: Poison Touch|[of] p2a: Toxicroak
+|-damage|p2a: Toxicroak|62/100|[from] item: Rocky Helmet|[of] p1a: Setup?
+|detailschange|p1a: Setup?|Mimikyu-Busted, F
+|-damage|p1a: Setup?|88/100 psn|[from] pokemon: Mimikyu-Busted
+|move|p1a: Setup?|Thunder Wave|p2a: Toxicroak
+|-status|p2a: Toxicroak|par
+|
+|-damage|p1a: Setup?|76/100 psn|[from] psn
+|turn|4
+|
+|move|p2a: Toxicroak|Bullet Punch|p1a: Setup?
+|-supereffective|p1a: Setup?
+|-damage|p1a: Setup?|37/100 psn
+|-damage|p2a: Toxicroak|46/100 par|[from] item: Rocky Helmet|[of] p1a: Setup?
+|move|p1a: Setup?|Trick Room|p1a: Setup?
+|-fieldstart|move: Trick Room|[of] p1a: Setup?
+|
+|-damage|p1a: Setup?|25/100 psn|[from] psn
+|turn|5
+|
+|switch|p1a: FIRE FIRE FIRE|Armarouge, F|100/100
+|move|p2a: Toxicroak|Bullet Punch|p1a: FIRE FIRE FIRE
+|-resisted|p1a: FIRE FIRE FIRE
+|-damage|p1a: FIRE FIRE FIRE|95/100
+|-status|p1a: FIRE FIRE FIRE|psn|[from] ability: Poison Touch|[of] p2a: Toxicroak
+|-ability|p1a: FIRE FIRE FIRE|Weak Armor|boost
+|-unboost|p1a: FIRE FIRE FIRE|def|1
+|-boost|p1a: FIRE FIRE FIRE|spe|2
+|
+|-damage|p1a: FIRE FIRE FIRE|83/100 psn|[from] psn
+|turn|6
+|
+|move|p2a: Toxicroak|Earthquake|p1a: FIRE FIRE FIRE
+|-supereffective|p1a: FIRE FIRE FIRE
+|-damage|p1a: FIRE FIRE FIRE|0 fnt
+|faint|p1a: FIRE FIRE FIRE
+|
+|
+|switch|p1a: A mimir|Komala, M|69/100
+|-ability|p1a: A mimir|Comatose
+|turn|7
+|
+|move|p2a: Toxicroak|Close Combat|p1a: A mimir
+|-supereffective|p1a: A mimir
+|-damage|p1a: A mimir|0 fnt
+|-unboost|p2a: Toxicroak|def|1
+|-unboost|p2a: Toxicroak|spd|1
+|faint|p1a: A mimir
+|
+|
+|switch|p1a: PHAT PHUCK|Bellibolt, M|100/100
+|turn|8
+|
+|move|p1a: PHAT PHUCK|Volt Switch|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|switch|p1a: Setup?|Mimikyu-Busted, F|25/100 psn|[from] Volt Switch
+|
+|-damage|p1a: Setup?|13/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|9
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Setup?
+|-supereffective|p1a: Setup?
+|-damage|p1a: Setup?|0 fnt
+|faint|p1a: Setup?
+|
+|
+|switch|p1a: He didn't prep|Stonjourner, M|100/100
+|turn|10
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: He didn't prep|Rock Slide|p2a: Rotom
+|-damage|p2a: Rotom|37/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|turn|11
+|
+|move|p2a: Zoroark|Focus Blast|p1a: He didn't prep
+|-supereffective|p1a: He didn't prep
+|-damage|p1a: He didn't prep|0 fnt
+|faint|p1a: He didn't prep
+|
+|
+|switch|p1a: PHAT PHUCK|Bellibolt, M|100/100
+|turn|12
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: PHAT PHUCK|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|87/100
+|
+|switch|p1a: The Anchor|Kingambit, M|100/100|[from] Volt Switch
+|-activate|p1a: The Anchor|ability: Supreme Overlord
+|-start|p1a: The Anchor|fallen4|[silent]
+|
+|turn|13
+|
+|-terastallize|p1a: The Anchor|Dark
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|62/100
+|move|p1a: The Anchor|Kowtow Cleave|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-damage|p1a: The Anchor|91/100|[from] item: Life Orb
+|
+|turn|14
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|-end|p1a: The Anchor|fallen4|[silent]
+|switch|p1a: PHAT PHUCK|Bellibolt, M|100/100
+|
+|turn|15
+|
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|move|p1a: PHAT PHUCK|Thunder Wave|p2a: Umbreon
+|-status|p2a: Umbreon|par
+|-activate|p2a: Umbreon|ability: Synchronize
+|-immune|p1a: PHAT PHUCK
+|
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Heat|37/100
+|move|p1a: PHAT PHUCK|Tera Blast|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|-heal|p2a: Rotom|100/100|[from] move: Wish|[wisher] Umbreon
+|turn|17
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: PHAT PHUCK|Thunder Wave|p2a: Rotom
+|-status|p2a: Rotom|par
+|
+|turn|18
+|
+|cant|p2a: Rotom|par
+|move|p1a: PHAT PHUCK|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|53/100 par
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|switch|p1a: The Anchor|Kingambit, M, tera:Dark|91/100|[from] Volt Switch
+|-activate|p1a: The Anchor|ability: Supreme Overlord
+|-start|p1a: The Anchor|fallen4|[silent]
+|
+|turn|19
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100 par
+|move|p1a: The Anchor|Kowtow Cleave|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|65/100 par
+|-damage|p1a: The Anchor|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Umbreon|71/100 par|[from] item: Leftovers
+|turn|20
+|
+|-end|p1a: The Anchor|fallen4|[silent]
+|switch|p1a: PHAT PHUCK|Bellibolt, M|100/100
+|move|p2a: Umbreon|Yawn|p1a: PHAT PHUCK
+|-start|p1a: PHAT PHUCK|move: Yawn|[of] p2a: Umbreon
+|
+|-heal|p2a: Umbreon|77/100 par|[from] item: Leftovers
+|turn|21
+|
+|switch|p1a: The Anchor|Kingambit, M, tera:Dark|81/100
+|-activate|p1a: The Anchor|ability: Supreme Overlord
+|-start|p1a: The Anchor|fallen4|[silent]
+|cant|p2a: Umbreon|par
+|
+|-heal|p2a: Umbreon|83/100 par|[from] item: Leftovers
+|turn|22
+|
+|cant|p2a: Umbreon|par
+|move|p1a: The Anchor|Stealth Rock|p2a: Umbreon
+|-sidestart|p2: NoTrueSelf|move: Stealth Rock
+|
+|-heal|p2a: Umbreon|89/100 par|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: The Anchor|Stone Edge|p2a: Umbreon
+|-damage|p2a: Umbreon|40/100 par
+|-damage|p1a: The Anchor|71/100|[from] item: Life Orb
+|move|p2a: Umbreon|Foul Play|p1a: The Anchor
+|-resisted|p1a: The Anchor
+|-damage|p1a: The Anchor|52/100
+|
+|-heal|p2a: Umbreon|46/100 par|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: The Anchor|Stone Edge|p2a: Umbreon|[miss]
+|-miss|p1a: The Anchor|p2a: Umbreon
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|52/100 par|[from] item: Leftovers
+|turn|25
+|
+|cant|p2a: Umbreon|par
+|move|p1a: The Anchor|Stone Edge|p2a: Umbreon
+|-damage|p2a: Umbreon|7/100 par
+|-damage|p1a: The Anchor|42/100|[from] item: Life Orb
+|
+|-heal|p2a: Umbreon|57/100 par|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|63/100 par|[from] item: Leftovers
+|turn|26
+|
+|-end|p1a: The Anchor|fallen4|[silent]
+|switch|p1a: PHAT PHUCK|Bellibolt, M|100/100
+|cant|p2a: Umbreon|par
+|
+|-heal|p2a: Umbreon|70/100 par|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: PHAT PHUCK|Volt Switch|p2a: Umbreon
+|-damage|p2a: Umbreon|54/100 par
+|
+|switch|p1a: The Anchor|Kingambit, M, tera:Dark|42/100|[from] Volt Switch
+|-activate|p1a: The Anchor|ability: Supreme Overlord
+|-start|p1a: The Anchor|fallen4|[silent]
+|cant|p2a: Umbreon|par
+|
+|-heal|p2a: Umbreon|60/100 par|[from] item: Leftovers
+|turn|28
+|
+|-end|p1a: The Anchor|fallen4|[silent]
+|switch|p1a: PHAT PHUCK|Bellibolt, M|100/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|66/100 par|[from] item: Leftovers
+|turn|29
+|
+|switch|p2a: Hydreigon|Hydreigon, M|62/100
+|-damage|p2a: Hydreigon|50/100|[from] Stealth Rock
+|move|p1a: PHAT PHUCK|Tera Blast|p2a: Hydreigon
+|-damage|p2a: Hydreigon|27/100
+|
+|-heal|p2a: Hydreigon|88/100|[from] move: Wish|[wisher] Umbreon
+|turn|30
+|
+|move|p2a: Hydreigon|Earth Power|p1a: PHAT PHUCK
+|-supereffective|p1a: PHAT PHUCK
+|-damage|p1a: PHAT PHUCK|36/100
+|-unboost|p1a: PHAT PHUCK|spd|1
+|-damage|p2a: Hydreigon|78/100|[from] item: Life Orb
+|move|p1a: PHAT PHUCK|Tera Blast|p2a: Hydreigon
+|-damage|p2a: Hydreigon|56/100
+|
+|-heal|p1a: PHAT PHUCK|42/100|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Hydreigon|Earth Power|p1a: PHAT PHUCK
+|-supereffective|p1a: PHAT PHUCK
+|-damage|p1a: PHAT PHUCK|0 fnt
+|faint|p1a: PHAT PHUCK
+|-damage|p2a: Hydreigon|46/100|[from] item: Life Orb
+|
+|
+|switch|p1a: The Anchor|Kingambit, M, tera:Dark|42/100
+|-activate|p1a: The Anchor|ability: Supreme Overlord
+|-start|p1a: The Anchor|fallen5|[silent]
+|turn|32
+|
+|switch|p2a: Umbreon|Umbreon, M|66/100 par
+|-damage|p2a: Umbreon|54/100 par|[from] Stealth Rock
+|move|p1a: The Anchor|Stone Edge|p2a: Umbreon
+|-damage|p2a: Umbreon|2/100 par
+|-damage|p1a: The Anchor|32/100|[from] item: Life Orb
+|
+|-heal|p2a: Umbreon|8/100 par|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: The Anchor|Kowtow Cleave|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|14/100 par|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: The Anchor|Kowtow Cleave|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|-damage|p1a: The Anchor|23/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Scyther|Scyther, F|100/100
+|-damage|p2a: Scyther|50/100|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Scyther|Close Combat|p1a: The Anchor
+|-supereffective|p1a: The Anchor
+|-damage|p1a: The Anchor|0 fnt
+|-unboost|p2a: Scyther|def|1
+|-unboost|p2a: Scyther|spd|1
+|faint|p1a: The Anchor
+|-end|p1a: The Anchor|fallen5|[silent]
+|-damage|p2a: Scyther|41/100|[from] item: Life Orb
+|
+|win|NoTrueSelf

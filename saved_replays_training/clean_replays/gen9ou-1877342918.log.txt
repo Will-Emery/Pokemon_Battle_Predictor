@@ -1,0 +1,221 @@
+|poke|p1|Meowscarada, F|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Slowking, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Volcarona, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Iron Treads|
+|poke|p2|Rabsca, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p2a: Pelipper|U-turn|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|96/100
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100|[from] U-turn
+|move|p1a: Goodra|Thunderbolt|p2a: Kleavor
+|-damage|p2a: Kleavor|50/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|70/100
+|-sidestart|p1: TornadicVtFoE|move: Stealth Rock
+|move|p1a: Goodra|Draco Meteor|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-unboost|p1a: Goodra|spa|2
+|faint|p2a: Kleavor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|3
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Wave Crash|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|-damage|p2a: Basculegion|81/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|4
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|7/100
+|-damage|p2a: Basculegion|57/100|[from] Recoil
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Chilly Reception
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Chien-Pao|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|60/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|3/100
+|move|p2a: Pelipper|U-turn|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|78/100
+|
+|switch|p2a: Basculegion|Basculegion, M, tera:Water|57/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|move|p2a: Basculegion|Wave Crash|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2a: Basculegion|33/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Slowking|Slowking, M|41/100
+|-damage|p1a: Slowking|28/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-damage|p1a: Meowscarada|88/100|[from] Stealth Rock
+|move|p2a: Basculegion|Wave Crash|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-damage|p2a: Basculegion|10/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|78/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Rabsca|Rabsca, F|100/100
+|turn|10
+|
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|move|p2a: Rabsca|Bug Buzz|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-crit|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|11
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Rabsca|Trick Room|p2a: Rabsca
+|-fieldstart|move: Trick Room|[of] p2a: Rabsca
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|
+|-heal|p2: Kleavor|50/100|[from] move: Revival Blessing
+|move|p1a: Volcarona|Fiery Dance|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-damage|p2a: Rabsca|36/100
+|-boost|p1a: Volcarona|spa|1
+|
+|-weather|none
+|turn|13
+|
+|move|p2a: Rabsca|Memento|p1a: Volcarona
+|-unboost|p1a: Volcarona|atk|2
+|-unboost|p1a: Volcarona|spa|2
+|faint|p2a: Rabsca
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|
+|switch|p2a: Kleavor|Kleavor, F|50/100
+|turn|14
+|
+|switch|p1a: Slowking|Slowking, M|61/100
+|-damage|p1a: Slowking|49/100|[from] Stealth Rock
+|move|p2a: Kleavor|Stone Axe|p1a: Slowking|[miss]
+|-miss|p2a: Kleavor|p1a: Slowking
+|
+|-heal|p1a: Slowking|55/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Pelipper|Pelipper, F|3/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Slowking|Surf|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|61/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Kleavor|Kleavor, F|50/100
+|turn|16
+|
+|move|p2a: Kleavor|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|turn|17
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|94/100
+|move|p2a: Dragonite|Hurricane|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|LowELOtest

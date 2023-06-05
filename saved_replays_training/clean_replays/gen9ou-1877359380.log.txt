@@ -1,0 +1,1385 @@
+|poke|p1|Corviknight, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Blissey, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Clodsire, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, F|
+|poke|p2|Slowking, M|
+|teampreview
+|
+|start
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|switch|p2a: Bonfire|Garganacl, F|100/100
+|turn|1
+|
+|move|p2a: Bonfire|Protect|p2a: Bonfire
+|-singleturn|p2a: Bonfire|Protect
+|move|p1a: Alomomola|Chilling Water|p2a: Bonfire
+|-activate|p2a: Bonfire|move: Protect
+|
+|turn|2
+|
+|move|p1a: Alomomola|Chilling Water|p2a: Bonfire
+|-supereffective|p2a: Bonfire
+|-damage|p2a: Bonfire|85/100
+|-unboost|p2a: Bonfire|atk|1
+|move|p2a: Bonfire|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|95/100
+|-start|p1a: Alomomola|Salt Cure
+|
+|-heal|p2a: Bonfire|91/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|70/100|[from] Salt Cure
+|turn|3
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-heal|p2a: Bonfire|98/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Bonfire|Protect|p2a: Bonfire
+|-singleturn|p2a: Bonfire|Protect
+|move|p1a: Slowking|Psychic|p2a: Bonfire
+|-activate|p2a: Bonfire|move: Protect
+|
+|-heal|p2a: Bonfire|100/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Bonfire|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|88/100
+|-start|p1a: Slowking|Salt Cure
+|move|p1a: Slowking|Psychic|p2a: Bonfire
+|-damage|p2a: Bonfire|73/100
+|
+|-heal|p2a: Bonfire|79/100|[from] item: Leftovers
+|-damage|p1a: Slowking|75/100|[from] Salt Cure
+|turn|6
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-heal|p2a: Bonfire|85/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Bonfire|Protect|p2a: Bonfire
+|-singleturn|p2a: Bonfire|Protect
+|move|p1a: Alomomola|Chilling Water|p2a: Bonfire
+|-activate|p2a: Bonfire|move: Protect
+|
+|-heal|p2a: Bonfire|91/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Alomomola|Chilling Water|p2a: Bonfire
+|-supereffective|p2a: Bonfire
+|-damage|p2a: Bonfire|77/100
+|-unboost|p2a: Bonfire|atk|1
+|move|p2a: Bonfire|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|93/100
+|-start|p1a: Alomomola|Salt Cure
+|
+|-heal|p2a: Bonfire|84/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|68/100|[from] Salt Cure
+|turn|9
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Bonfire|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|87/100
+|-start|p1a: Slowking|Salt Cure
+|
+|-heal|p2a: Bonfire|90/100|[from] item: Leftovers
+|-damage|p1a: Slowking|74/100|[from] Salt Cure
+|turn|10
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Bonfire|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|94/100
+|-start|p1a: Alomomola|Salt Cure
+|
+|-heal|p2a: Bonfire|96/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|69/100|[from] Salt Cure
+|turn|11
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Me and Your Mama|Dragapult, M, shiny|100/100
+|
+|turn|12
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-start|p2a: Me and Your Mama|Substitute
+|-damage|p2a: Me and Your Mama|76/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Me and Your Mama
+|-resisted|p2a: Me and Your Mama
+|-end|p2a: Me and Your Mama|Substitute
+|
+|-heal|p2a: Me and Your Mama|82/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Bonfire|Garganacl, F|96/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Bonfire
+|-resisted|p2a: Bonfire
+|-damage|p2a: Bonfire|83/100
+|
+|-heal|p2a: Bonfire|89/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Bonfire|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|88/100
+|-start|p1a: Slowking|Salt Cure
+|move|p1a: Slowking|Psychic|p2a: Bonfire
+|-damage|p2a: Bonfire|62/100
+|
+|-heal|p2a: Bonfire|68/100|[from] item: Leftovers
+|-damage|p1a: Slowking|76/100|[from] Salt Cure
+|turn|15
+|
+|switch|p2a: Me and Your Mama|Dragapult, M, shiny|82/100
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|
+|-heal|p2a: Me and Your Mama|88/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-start|p2a: Me and Your Mama|Substitute
+|-damage|p2a: Me and Your Mama|63/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Me and Your Mama|69/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Slowking
+|-status|p1a: Slowking|brn
+|
+|-heal|p2a: Me and Your Mama|75/100|[from] item: Leftovers
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|turn|18
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|-heal|p2a: Me and Your Mama|81/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|-anim|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|59/100
+|move|p1a: Blissey|Stealth Rock|p2a: Me and Your Mama
+|-sidestart|p2: ademalawer|move: Stealth Rock
+|
+|-heal|p2a: Me and Your Mama|87/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|35/100
+|-anim|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|14/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|64/100
+|
+|-heal|p2a: Me and Your Mama|93/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|42/100
+|-anim|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|20/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|70/100
+|
+|-heal|p2a: Me and Your Mama|99/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|94/100
+|-anim|p2a: Me and Your Mama|Dragon Darts|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|88/100
+|
+|-heal|p2a: Me and Your Mama|100/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100 brn
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Slowking
+|-fail|p1a: Slowking|brn
+|
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|turn|24
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|26/100 brn
+|move|p1a: Slowking|Sludge Bomb|p2a: Me and Your Mama
+|-resisted|p2a: Me and Your Mama
+|-activate|p2a: Me and Your Mama|move: Substitute|[damage]
+|
+|-damage|p1a: Slowking|20/100 brn|[from] brn
+|turn|25
+|
+|switch|p1a: Corviknight|Corviknight, M|88/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|81/100
+|-anim|p2a: Me and Your Mama|Dragon Darts|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|
+|turn|26
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Clodsire
+|-status|p1a: Clodsire|brn
+|
+|-damage|p1a: Clodsire|94/100 brn|[from] brn
+|turn|27
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|74/100 brn
+|-anim|p2a: Me and Your Mama|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|52/100 brn
+|move|p1a: Clodsire|Earthquake|p2a: Me and Your Mama
+|-end|p2a: Me and Your Mama|Substitute
+|
+|-damage|p1a: Clodsire|46/100 brn|[from] brn
+|turn|28
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-start|p2a: Me and Your Mama|Substitute
+|-damage|p2a: Me and Your Mama|76/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|96/100 brn
+|
+|-heal|p2a: Me and Your Mama|82/100|[from] item: Leftovers
+|-damage|p1a: Clodsire|90/100 brn|[from] brn
+|turn|29
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Clodsire
+|-damage|p1a: Clodsire|60/100 brn
+|move|p1a: Clodsire|Earthquake|p2a: Me and Your Mama
+|-activate|p2a: Me and Your Mama|move: Substitute|[damage]
+|
+|-heal|p2a: Me and Your Mama|88/100|[from] item: Leftovers
+|-damage|p1a: Clodsire|54/100 brn|[from] brn
+|turn|30
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Clodsire
+|-damage|p1a: Clodsire|26/100 brn
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|76/100 brn
+|
+|-heal|p2a: Me and Your Mama|94/100|[from] item: Leftovers
+|-damage|p1a: Clodsire|69/100 brn|[from] brn
+|turn|31
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Clodsire
+|-damage|p1a: Clodsire|40/100 brn
+|move|p1a: Clodsire|Earthquake|p2a: Me and Your Mama
+|-end|p2a: Me and Your Mama|Substitute
+|
+|-heal|p2a: Me and Your Mama|99/100|[from] item: Leftovers
+|-damage|p1a: Clodsire|34/100 brn|[from] brn
+|turn|32
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|12/100 brn
+|-anim|p2a: Me and Your Mama|Dragon Darts|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-heal|p2a: Me and Your Mama|100/100|[from] item: Leftovers
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|33
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-start|p2a: Me and Your Mama|Substitute
+|-damage|p2a: Me and Your Mama|76/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Me and Your Mama|82/100|[from] item: Leftovers
+|turn|34
+|
+|switch|p1a: Blissey|Blissey, F|70/100
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|-heal|p1a: Blissey|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Me and Your Mama|88/100|[from] item: Leftovers
+|turn|35
+|
+|-terastallize|p1a: Blissey|Fairy
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-immune|p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|94/100|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey|[miss]
+|-miss|p2a: Me and Your Mama|p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|99/100|[from] item: Leftovers
+|turn|37
+|
+|switch|p1a: Slowking|Slowking-Galar, F|53/100 brn
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Slowking
+|-fail|p1a: Slowking|brn
+|
+|-heal|p2a: Me and Your Mama|100/100|[from] item: Leftovers
+|-damage|p1a: Slowking|47/100 brn|[from] brn
+|turn|38
+|
+|switch|p1a: Blissey|Blissey, F, tera:Fairy|100/100
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|turn|39
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-damage|p1a: Blissey|78/100 brn
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-damage|p1a: Blissey|72/100 brn|[from] brn
+|turn|40
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-damage|p1a: Blissey|56/100 brn
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-damage|p1a: Blissey|50/100 brn|[from] brn
+|turn|41
+|
+|switch|p2a: Redbone|Sneasler, M, shiny|100/100
+|-damage|p2a: Redbone|95/100|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|99/100 brn
+|
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|turn|42
+|
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Redbone|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|49/100
+|-unboost|p2a: Redbone|def|1
+|-unboost|p2a: Redbone|spd|1
+|-status|p1a: Alomomola|psn|[from] ability: Poison Touch|[of] p2a: Redbone
+|
+|-damage|p1a: Alomomola|36/100 psn|[from] psn
+|turn|43
+|
+|switch|p1a: Corviknight|Corviknight, M|75/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Redbone|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|18/100
+|-unboost|p2a: Redbone|def|1
+|-unboost|p2a: Redbone|spd|1
+|-damage|p2a: Redbone|78/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|turn|44
+|
+|move|p2a: Redbone|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Redbone|def|1
+|-unboost|p2a: Redbone|spd|1
+|-damage|p2a: Redbone|61/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, F|80/100 brn
+|turn|45
+|
+|switch|p2a: Bonfire|Garganacl, F|68/100
+|-damage|p2a: Bonfire|55/100|[from] Stealth Rock
+|move|p1a: Slowking|Substitute|p1a: Slowking
+|-start|p1a: Slowking|Substitute
+|-damage|p1a: Slowking|55/100 brn
+|
+|-heal|p2a: Bonfire|62/100|[from] item: Leftovers
+|-damage|p1a: Slowking|49/100 brn|[from] brn
+|turn|46
+|
+|move|p2a: Bonfire|Salt Cure|p1a: Slowking
+|-activate|p1a: Slowking|move: Substitute|[damage]
+|move|p1a: Slowking|Psychic|p2a: Bonfire
+|-damage|p2a: Bonfire|35/100
+|
+|-heal|p2a: Bonfire|42/100|[from] item: Leftovers
+|-damage|p1a: Slowking|43/100 brn|[from] brn
+|turn|47
+|
+|move|p2a: Bonfire|Recover|p2a: Bonfire
+|-heal|p2a: Bonfire|92/100
+|move|p1a: Slowking|Psychic|p2a: Bonfire
+|-damage|p2a: Bonfire|64/100
+|
+|-heal|p2a: Bonfire|70/100|[from] item: Leftovers
+|-damage|p1a: Slowking|37/100 brn|[from] brn
+|turn|48
+|
+|switch|p2a: Me and Your Mama|Dragapult, M, shiny|100/100
+|-damage|p2a: Me and Your Mama|88/100|[from] Stealth Rock
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|87/100 brn
+|
+|-heal|p2a: Me and Your Mama|94/100|[from] item: Leftovers
+|-damage|p1a: Slowking|81/100 brn|[from] brn
+|turn|49
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|9/100 brn
+|move|p1a: Slowking|Psychic|p2a: Me and Your Mama
+|-damage|p2a: Me and Your Mama|44/100
+|
+|-heal|p2a: Me and Your Mama|50/100|[from] item: Leftovers
+|-damage|p1a: Slowking|3/100 brn|[from] brn
+|turn|50
+|
+|switch|p1a: Blissey|Blissey, F, tera:Fairy|94/100
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|
+|-heal|p2a: Me and Your Mama|56/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 brn|[from] brn
+|turn|51
+|
+|switch|p2a: Redbone|Sneasler, M, shiny|61/100
+|-damage|p2a: Redbone|55/100|[from] Stealth Rock
+|move|p1a: Blissey|Seismic Toss|p2a: Redbone
+|-damage|p2a: Redbone|22/100
+|
+|-damage|p1a: Blissey|82/100 brn|[from] brn
+|turn|52
+|
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Redbone|Dire Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|73/100
+|-status|p1a: Dondozo|slp
+|
+|turn|53
+|
+|switch|p2a: Bonfire|Garganacl, F|70/100
+|-damage|p2a: Bonfire|58/100|[from] Stealth Rock
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Body Press|p2a: Bonfire|[from]move: Sleep Talk
+|-supereffective|p2a: Bonfire
+|-damage|p2a: Bonfire|27/100
+|
+|-heal|p2a: Bonfire|33/100|[from] item: Leftovers
+|turn|54
+|
+|switch|p1a: Slowking|Slowking-Galar, F|37/100 brn
+|-terastallize|p2a: Bonfire|Fairy
+|move|p2a: Bonfire|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|23/100 brn
+|-start|p1a: Slowking|Salt Cure
+|
+|-heal|p2a: Bonfire|39/100|[from] item: Leftovers
+|-damage|p1a: Slowking|17/100 brn|[from] brn
+|-damage|p1a: Slowking|5/100 brn|[from] Salt Cure
+|turn|55
+|
+|switch|p1a: Alomomola|Alomomola, F|70/100 psn
+|move|p2a: Bonfire|Protect||[still]
+|-fail|p2a: Bonfire
+|
+|-heal|p2a: Bonfire|45/100|[from] item: Leftovers
+|-damage|p1a: Alomomola|57/100 psn|[from] psn
+|turn|56
+|
+|switch|p1a: Slowking|Slowking-Galar, F|38/100 brn
+|move|p2a: Bonfire|Recover|p2a: Bonfire
+|-heal|p2a: Bonfire|95/100
+|
+|-heal|p2a: Bonfire|100/100|[from] item: Leftovers
+|-damage|p1a: Slowking|32/100 brn|[from] brn
+|turn|57
+|
+|switch|p1a: Alomomola|Alomomola, F|90/100 psn
+|move|p2a: Bonfire|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|83/100 psn
+|-start|p1a: Alomomola|Salt Cure
+|
+|-damage|p1a: Alomomola|71/100 psn|[from] psn
+|-damage|p1a: Alomomola|46/100 psn|[from] Salt Cure
+|turn|58
+|
+|switch|p1a: Slowking|Slowking-Galar, F|65/100 brn
+|switch|p2a: Redbone|Sneasler, M, shiny|22/100
+|-damage|p2a: Redbone|16/100|[from] Stealth Rock
+|
+|-damage|p1a: Slowking|59/100 brn|[from] brn
+|turn|59
+|
+|move|p2a: Redbone|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|24/100 brn
+|
+|switch|p2a: Boogieman|Slowking, M, shiny|100/100|[from] U-turn
+|move|p1a: Slowking|Psychic|p2a: Boogieman
+|-resisted|p2a: Boogieman
+|-damage|p2a: Boogieman|91/100
+|
+|-damage|p1a: Slowking|18/100 brn|[from] brn
+|turn|60
+|
+|switch|p1a: Blissey|Blissey, F, tera:Fairy|82/100
+|move|p2a: Boogieman|Future Sight|p1a: Blissey
+|-start|p2a: Boogieman|move: Future Sight
+|
+|turn|61
+|
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1: Slowking|brn|[msg]
+|-curestatus|p1: Dondozo|slp|[msg]
+|-curestatus|p1: Alomomola|psn|[msg]
+|move|p2a: Boogieman|Chilly Reception|p2a: Boogieman
+|-weather|Snow
+|
+|switch|p2a: 3005|Great Tusk|100/100|[from] Chilly Reception
+|-damage|p2a: 3005|98/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: 3005|100/100|[from] item: Leftovers
+|turn|62
+|
+|switch|p1a: Alomomola|Alomomola, F|79/100
+|move|p2a: 3005|Rapid Spin|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|66/100
+|-boost|p2a: 3005|spe|1
+|-sideend|p2: ademalawer|Stealth Rock|[from] move: Rapid Spin|[of] p2a: 3005
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Alomomola|move: Future Sight
+|-damage|p1a: Alomomola|21/100
+|turn|63
+|
+|switch|p1a: Slowking|Slowking-Galar, F|52/100
+|move|p2a: 3005|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Alomomola|Alomomola, F|54/100
+|turn|64
+|
+|move|p2a: 3005|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|30/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|Snow|[upkeep]
+|turn|65
+|
+|move|p2a: 3005|Stealth Rock|p1a: Alomomola
+|-sidestart|p1: swellow is stronk|move: Stealth Rock
+|move|p1a: Alomomola|Whirlpool|p2a: 3005
+|-supereffective|p2a: 3005
+|-damage|p2a: 3005|85/100
+|-activate|p2a: 3005|move: Whirlpool|[of] p1a: Alomomola
+|
+|-weather|none
+|-heal|p1a: Alomomola|80/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: 3005|91/100|[from] item: Leftovers
+|-damage|p2a: 3005|79/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|66
+|
+|move|p2a: 3005|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|64/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: 3005
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: 3005|85/100|[from] item: Leftovers
+|-damage|p2a: 3005|72/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|67
+|
+|move|p2a: 3005|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|42/100
+|move|p1a: Alomomola|Chilling Water|p2a: 3005
+|-supereffective|p2a: 3005
+|-damage|p2a: 3005|49/100
+|-unboost|p2a: 3005|atk|1
+|
+|-heal|p1a: Alomomola|92/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: 3005|55/100|[from] item: Leftovers
+|-damage|p2a: 3005|43/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|68
+|
+|move|p2a: 3005|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|76/100
+|move|p1a: Alomomola|Chilling Water|p2a: 3005
+|-supereffective|p2a: 3005
+|-damage|p2a: 3005|19/100
+|-unboost|p2a: 3005|atk|1
+|
+|-heal|p2a: 3005|25/100|[from] item: Leftovers
+|-damage|p2a: 3005|13/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|69
+|
+|move|p2a: 3005|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|65/100
+|move|p1a: Alomomola|Chilling Water|p2a: 3005
+|-supereffective|p2a: 3005
+|-crit|p2a: 3005
+|-damage|p2a: 3005|0 fnt
+|faint|p2a: 3005
+|-end|p2a: 3005|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Redbone|Sneasler, M, shiny|16/100
+|turn|70
+|
+|move|p2a: Redbone|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|19/100
+|-unboost|p2a: Redbone|def|1
+|-unboost|p2a: Redbone|spd|1
+|-status|p1a: Alomomola|psn|[from] ability: Poison Touch|[of] p2a: Redbone
+|move|p1a: Alomomola|Chilling Water|p2a: Redbone
+|-damage|p2a: Redbone|0 fnt
+|faint|p2a: Redbone
+|
+|-damage|p1a: Alomomola|7/100 psn|[from] psn
+|
+|switch|p2a: Bonfire|Garganacl, F, tera:Fairy|100/100
+|turn|71
+|
+|switch|p1a: Blissey|Blissey, F, tera:Fairy|82/100
+|move|p2a: Bonfire|Salt Cure|p1a: Blissey
+|-damage|p1a: Blissey|68/100
+|-start|p1a: Blissey|Salt Cure
+|
+|-damage|p1a: Blissey|55/100|[from] Salt Cure
+|turn|72
+|
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1: Alomomola|psn|[msg]
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-damage|p1a: Blissey|43/100|[from] Salt Cure
+|turn|73
+|
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|93/100
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-damage|p1a: Blissey|80/100|[from] Salt Cure
+|turn|74
+|
+|switch|p1a: Alomomola|Alomomola, F|40/100
+|-damage|p1a: Alomomola|28/100|[from] Stealth Rock
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|turn|75
+|
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Bonfire|Salt Cure|p1a: Alomomola
+|-damage|p1a: Alomomola|10/100
+|-start|p1a: Alomomola|Salt Cure
+|
+|-damage|p1a: Alomomola|0 fnt|[from] Salt Cure
+|faint|p1a: Alomomola
+|
+|switch|p1a: Dondozo|Dondozo, M|73/100
+|turn|76
+|
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire
+|-damage|p2a: Bonfire|86/100
+|move|p2a: Bonfire|Salt Cure|p1a: Dondozo
+|-damage|p1a: Dondozo|67/100
+|-start|p1a: Dondozo|Salt Cure
+|
+|-heal|p1a: Dondozo|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Bonfire|92/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|75/100|[from] Salt Cure
+|turn|77
+|
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire
+|-damage|p2a: Bonfire|75/100
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-heal|p2a: Bonfire|81/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|50/100|[from] Salt Cure
+|turn|78
+|
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-heal|p2a: Bonfire|88/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|75/100 slp|[from] Salt Cure
+|turn|79
+|
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire|[from]move: Sleep Talk
+|-damage|p2a: Bonfire|71/100
+|-unboost|p2a: Bonfire|def|1
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-heal|p2a: Bonfire|77/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|50/100 slp|[from] Salt Cure
+|turn|80
+|
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire|[from]move: Sleep Talk
+|-damage|p2a: Bonfire|62/100
+|move|p2a: Bonfire|Salt Cure|p1a: Dondozo
+|-damage|p1a: Dondozo|44/100 slp
+|
+|-heal|p2a: Bonfire|68/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|19/100 slp|[from] Salt Cure
+|turn|81
+|
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|move|p2a: Bonfire|Salt Cure|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|91/100 slp
+|
+|-heal|p2a: Bonfire|75/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|66/100 slp|[from] Salt Cure
+|turn|82
+|
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire|[from]move: Sleep Talk
+|-damage|p2a: Bonfire|59/100
+|-unboost|p2a: Bonfire|def|1
+|move|p2a: Bonfire|Salt Cure|p1a: Dondozo
+|-damage|p1a: Dondozo|60/100 slp
+|
+|-heal|p2a: Bonfire|65/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|35/100 slp|[from] Salt Cure
+|turn|83
+|
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|move|p2a: Bonfire|Salt Cure|p1a: Dondozo
+|-damage|p1a: Dondozo|29/100 slp
+|
+|-heal|p2a: Bonfire|71/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|4/100 slp|[from] Salt Cure
+|turn|84
+|
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|move|p2a: Bonfire|Salt Cure|p1a: Dondozo
+|-damage|p1a: Dondozo|95/100 slp
+|
+|-heal|p2a: Bonfire|77/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|70/100 slp|[from] Salt Cure
+|turn|85
+|
+|switch|p2a: Me and Your Mama|Dragapult, M, shiny|56/100
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Me and Your Mama|[from]move: Sleep Talk
+|-resisted|p2a: Me and Your Mama
+|-damage|p2a: Me and Your Mama|33/100
+|-unboost|p2a: Me and Your Mama|def|1
+|
+|-heal|p2a: Me and Your Mama|39/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|45/100 slp|[from] Salt Cure
+|turn|86
+|
+|switch|p1a: Blissey|Blissey, F, tera:Fairy|80/100
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-start|p2a: Me and Your Mama|Substitute
+|-damage|p2a: Me and Your Mama|14/100
+|
+|-heal|p2a: Me and Your Mama|20/100|[from] item: Leftovers
+|turn|87
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|move|p1a: Blissey|Stealth Rock|p2a: Me and Your Mama
+|-sidestart|p2: ademalawer|move: Stealth Rock
+|
+|-heal|p2a: Me and Your Mama|26/100|[from] item: Leftovers
+|-damage|p1a: Blissey|74/100 brn|[from] brn
+|turn|88
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-damage|p1a: Blissey|56/100 brn
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1a: Blissey|brn|[msg]
+|-curestatus|p1: Dondozo|slp|[msg]
+|
+|-heal|p2a: Me and Your Mama|32/100|[from] item: Leftovers
+|turn|89
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-damage|p1a: Blissey|48/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|98/100
+|
+|-heal|p2a: Me and Your Mama|38/100|[from] item: Leftovers
+|turn|90
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|44/100|[from] item: Leftovers
+|-damage|p1a: Blissey|92/100 brn|[from] brn
+|turn|91
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-damage|p1a: Blissey|74/100 brn
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|50/100|[from] item: Leftovers
+|-damage|p1a: Blissey|68/100 brn|[from] brn
+|turn|92
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey|[miss]
+|-miss|p2a: Me and Your Mama|p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|56/100|[from] item: Leftovers
+|-damage|p1a: Blissey|61/100 brn|[from] brn
+|turn|93
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-damage|p1a: Blissey|45/100 brn
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|95/100 brn
+|
+|-heal|p2a: Me and Your Mama|62/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 brn|[from] brn
+|turn|94
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-damage|p1a: Blissey|72/100 brn
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1a: Blissey|brn|[msg]
+|
+|-heal|p2a: Me and Your Mama|68/100|[from] item: Leftovers
+|turn|95
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-damage|p1a: Blissey|63/100
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|74/100|[from] item: Leftovers
+|turn|96
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey|[miss]
+|-miss|p2a: Me and Your Mama|p1a: Blissey
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|-heal|p2a: Me and Your Mama|80/100|[from] item: Leftovers
+|turn|97
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey|[miss]
+|-miss|p2a: Me and Your Mama|p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|86/100|[from] item: Leftovers
+|turn|98
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey|[miss]
+|-miss|p2a: Me and Your Mama|p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|92/100|[from] item: Leftovers
+|turn|99
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|98/100|[from] item: Leftovers
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|turn|100
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-heal|p2a: Me and Your Mama|100/100|[from] item: Leftovers
+|-damage|p1a: Blissey|88/100 brn|[from] brn
+|turn|101
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-damage|p1a: Blissey|82/100 brn|[from] brn
+|turn|102
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|move|p1a: Blissey|Seismic Toss|p2a: Me and Your Mama
+|-immune|p2a: Me and Your Mama
+|
+|-damage|p1a: Blissey|76/100 brn|[from] brn
+|turn|103
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|-damage|p1a: Blissey|70/100 brn|[from] brn
+|turn|104
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|-damage|p1a: Blissey|64/100 brn|[from] brn
+|turn|105
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|-damage|p1a: Blissey|57/100 brn|[from] brn
+|turn|106
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|-damage|p1a: Blissey|51/100 brn|[from] brn
+|turn|107
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 brn
+|
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|turn|108
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey|[miss]
+|-miss|p2a: Me and Your Mama|p1a: Blissey
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|-damage|p1a: Blissey|88/100 brn|[from] brn
+|turn|109
+|
+|move|p2a: Me and Your Mama|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|-damage|p1a: Blissey|82/100 brn|[from] brn
+|turn|110
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|-damage|p1a: Blissey|76/100 brn|[from] brn
+|turn|111
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1a: Blissey|brn|[msg]
+|
+|turn|112
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|113
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|114
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|115
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|116
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|117
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|118
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|119
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|120
+|
+|move|p2a: Me and Your Mama|Substitute|p2a: Me and Your Mama
+|-fail|p2a: Me and Your Mama|move: Substitute
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|121
+|
+|move|p2a: Me and Your Mama|Hex|p1a: Blissey
+|-damage|p1a: Blissey|68/100
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|122
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-immune|p1a: Blissey
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|123
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-immune|p1a: Blissey
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|124
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-immune|p1a: Blissey
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|125
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-immune|p1a: Blissey
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|126
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-immune|p1a: Blissey
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|127
+|
+|move|p2a: Me and Your Mama|Dragon Darts|p1a: Blissey
+|-immune|p1a: Blissey
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|turn|128
+|
+|-activate|p2a: Me and Your Mama|move: Struggle
+|move|p2a: Me and Your Mama|Struggle|p1a: Blissey
+|-damage|p1a: Blissey|53/100
+|-damage|p2a: Me and Your Mama|76/100|[from] recoil
+|move|p1a: Blissey|Stealth Rock||[still]
+|-fail|p1a: Blissey
+|
+|-heal|p2a: Me and Your Mama|82/100|[from] item: Leftovers
+|turn|129
+|
+|switch|p1a: Dondozo|Dondozo, M|45/100
+|-activate|p2a: Me and Your Mama|move: Struggle
+|move|p2a: Me and Your Mama|Struggle|p1a: Dondozo
+|-damage|p1a: Dondozo|38/100
+|-damage|p2a: Me and Your Mama|57/100|[from] recoil
+|
+|-heal|p2a: Me and Your Mama|63/100|[from] item: Leftovers
+|turn|130
+|
+|switch|p2a: Bonfire|Garganacl, F, tera:Fairy|77/100
+|-damage|p2a: Bonfire|65/100|[from] Stealth Rock
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-heal|p2a: Bonfire|71/100|[from] item: Leftovers
+|turn|131
+|
+|move|p2a: Bonfire|Salt Cure|p1a: Dondozo
+|-damage|p1a: Dondozo|95/100 slp
+|-start|p1a: Dondozo|Salt Cure
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|-heal|p2a: Bonfire|77/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|70/100 slp|[from] Salt Cure
+|turn|132
+|
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Body Press|p2a: Bonfire|[from]move: Sleep Talk
+|-resisted|p2a: Bonfire
+|-damage|p2a: Bonfire|70/100
+|
+|-heal|p2a: Bonfire|76/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|45/100 slp|[from] Salt Cure
+|turn|133
+|
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Sleep Talk||[still]
+|-fail|p1a: Dondozo
+|
+|-heal|p2a: Bonfire|82/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|20/100|[from] Salt Cure
+|turn|134
+|
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-heal|p2a: Bonfire|88/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|75/100 slp|[from] Salt Cure
+|turn|135
+|
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-heal|p2a: Bonfire|95/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|50/100 slp|[from] Salt Cure
+|turn|136
+|
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-heal|p2a: Bonfire|100/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|25/100 slp|[from] Salt Cure
+|turn|137
+|
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|move|p2a: Bonfire|Curse|p2a: Bonfire
+|-unboost|p2a: Bonfire|spe|1
+|-boost|p2a: Bonfire|atk|1
+|-boost|p2a: Bonfire|def|1
+|
+|-damage|p1a: Dondozo|75/100 slp|[from] Salt Cure
+|turn|138
+|
+|move|p2a: Bonfire|Protect|p2a: Bonfire
+|-singleturn|p2a: Bonfire|Protect
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire|[from]move: Sleep Talk
+|-activate|p2a: Bonfire|move: Protect
+|
+|-damage|p1a: Dondozo|50/100 slp|[from] Salt Cure
+|turn|139
+|
+|move|p2a: Bonfire|Protect||[still]
+|-fail|p2a: Bonfire
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire|[from]move: Sleep Talk
+|-damage|p2a: Bonfire|85/100
+|-unboost|p2a: Bonfire|def|1
+|
+|-heal|p2a: Bonfire|91/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|25/100 slp|[from] Salt Cure
+|turn|140
+|
+|move|p2a: Bonfire|Protect|p2a: Bonfire
+|-singleturn|p2a: Bonfire|Protect
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-heal|p2a: Bonfire|97/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|75/100 slp|[from] Salt Cure
+|turn|141
+|
+|move|p2a: Bonfire|Protect||[still]
+|-fail|p2a: Bonfire
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire|[from]move: Sleep Talk
+|-damage|p2a: Bonfire|81/100
+|
+|-heal|p2a: Bonfire|87/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|50/100 slp|[from] Salt Cure
+|turn|142
+|
+|move|p2a: Bonfire|Protect|p2a: Bonfire
+|-singleturn|p2a: Bonfire|Protect
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire|[from]move: Sleep Talk
+|-activate|p2a: Bonfire|move: Protect
+|
+|-heal|p2a: Bonfire|94/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|25/100 slp|[from] Salt Cure
+|turn|143
+|
+|move|p2a: Bonfire|Protect||[still]
+|-fail|p2a: Bonfire
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-heal|p2a: Bonfire|99/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|75/100 slp|[from] Salt Cure
+|turn|144
+|
+|move|p2a: Bonfire|Protect|p2a: Bonfire
+|-singleturn|p2a: Bonfire|Protect
+|cant|p1a: Dondozo|slp
+|
+|-heal|p2a: Bonfire|100/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|50/100 slp|[from] Salt Cure
+|turn|145
+|
+|move|p2a: Bonfire|Protect||[still]
+|-fail|p2a: Bonfire
+|cant|p1a: Dondozo|slp
+|
+|-damage|p1a: Dondozo|25/100 slp|[from] Salt Cure
+|turn|146
+|
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Liquidation|p2a: Bonfire
+|-damage|p2a: Bonfire|85/100
+|move|p2a: Bonfire|Salt Cure|p1a: Dondozo
+|-damage|p1a: Dondozo|20/100
+|
+|-heal|p2a: Bonfire|91/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|0 fnt|[from] Salt Cure
+|faint|p1a: Dondozo
+|
+|switch|p1a: Blissey|Blissey, F, tera:Fairy|53/100
+|turn|147
+|
+|move|p1a: Blissey|Seismic Toss|p2a: Bonfire
+|-damage|p2a: Bonfire|66/100
+|move|p2a: Bonfire|Salt Cure|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|win|ademalawer

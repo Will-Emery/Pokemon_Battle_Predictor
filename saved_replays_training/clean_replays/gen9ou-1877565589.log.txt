@@ -1,0 +1,324 @@
+|poke|p1|Dondozo, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Great Tusk|
+|poke|p1|Scream Tail|
+|poke|p2|Sneasler, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Gholdengo|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Steel Ball Run|Electrode-Hisui, shiny|100/100
+|turn|1
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Steel Ball Run|Chloroblast|p1a: Scream Tail|[miss]
+|-miss|p2a: Steel Ball Run|p1a: Scream Tail
+|-damage|p2a: Steel Ball Run|50/100|[from] chloroblast
+|
+|turn|2
+|
+|switch|p2a: Spice Girl|Toxapex, F, shiny|100/100
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|
+|turn|3
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Spice Girl|Infestation|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|99/100
+|-activate|p1a: Toxapex|move: Infestation|[of] p2a: Spice Girl
+|
+|-heal|p1a: Toxapex|100/100|[from] move: Wish|[wisher] Scream Tail
+|-damage|p1a: Toxapex|88/100|[from] move: Infestation|[partiallytrapped]
+|turn|4
+|
+|move|p1a: Toxapex|Infestation|p2a: Spice Girl
+|-resisted|p2a: Spice Girl
+|-damage|p2a: Spice Girl|99/100
+|-activate|p2a: Spice Girl|move: Infestation|[of] p1a: Toxapex
+|move|p2a: Spice Girl|Acid Spray|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|85/100
+|-unboost|p1a: Toxapex|spd|2
+|
+|-damage|p1a: Toxapex|72/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p2a: Spice Girl|87/100|[from] move: Infestation|[partiallytrapped]
+|turn|5
+|
+|move|p1a: Toxapex|Surf|p2a: Spice Girl
+|-resisted|p2a: Spice Girl
+|-damage|p2a: Spice Girl|79/100
+|move|p2a: Spice Girl|Acid Spray|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|64/100
+|-unboost|p1a: Toxapex|spd|2
+|
+|-damage|p1a: Toxapex|52/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p2a: Spice Girl|67/100|[from] move: Infestation|[partiallytrapped]
+|turn|6
+|
+|move|p1a: Toxapex|Surf|p2a: Spice Girl
+|-resisted|p2a: Spice Girl
+|-damage|p2a: Spice Girl|59/100
+|move|p2a: Spice Girl|Surf|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|28/100
+|
+|-damage|p1a: Toxapex|15/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p2a: Spice Girl|47/100|[from] move: Infestation|[partiallytrapped]
+|turn|7
+|
+|move|p1a: Toxapex|Surf|p2a: Spice Girl
+|-resisted|p2a: Spice Girl
+|-damage|p2a: Spice Girl|39/100
+|move|p2a: Spice Girl|Surf|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-end|p2a: Spice Girl|Infestation|[partiallytrapped]|[silent]
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|8
+|
+|switch|p2a: Love Bites|Ursaluna, M, shiny|100/100
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|76/100
+|
+|-heal|p1a: Hydreigon|82/100|[from] item: Leftovers
+|-status|p2a: Love Bites|brn|[from] item: Flame Orb
+|turn|9
+|
+|-terastallize|p1a: Hydreigon|Steel
+|move|p1a: Hydreigon|Dark Pulse|p2a: Love Bites
+|-damage|p2a: Love Bites|65/100 brn
+|move|p2a: Love Bites|Facade|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|88/100|[from] item: Leftovers
+|-damage|p2a: Love Bites|59/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|63/100
+|move|p2a: Love Bites|Drain Punch|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|-heal|p2a: Love Bites|68/100 brn|[from] drain|[of] p1a: Hydreigon
+|
+|-heal|p1a: Hydreigon|69/100|[from] item: Leftovers
+|-damage|p2a: Love Bites|62/100 brn|[from] brn
+|turn|11
+|
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Love Bites|Facade|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|
+|-damage|p2a: Love Bites|56/100 brn|[from] brn
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|switch|p2a: Horus|Corviknight, M|100/100
+|-ability|p2a: Horus|Pressure
+|move|p1a: Great Tusk|Stealth Rock|p2a: Horus
+|-sidestart|p2: Aeterna Act 2|move: Stealth Rock
+|
+|turn|13
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Horus
+|-damage|p2a: Horus|84/100
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Horus
+|-enditem|p2a: Horus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Horus|Defog|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|evasion|1
+|-sideend|p2: Aeterna Act 2|Stealth Rock|[from] move: Defog|[of] p2a: Horus
+|
+|-heal|p1a: Great Tusk|90/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Horus
+|-sidestart|p2: Aeterna Act 2|move: Stealth Rock
+|move|p2a: Horus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|86/100
+|
+|switch|p2a: The World|Sneasler, F, shiny|100/100|[from] U-turn
+|-damage|p2a: The World|95/100|[from] Stealth Rock
+|-item|p2a: The World|Air Balloon
+|
+|-heal|p1a: Great Tusk|93/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: The World|Swords Dance|p2a: The World
+|-boost|p2a: The World|atk|2
+|move|p1a: Great Tusk|Rapid Spin|p2a: The World
+|-damage|p2a: The World|69/100
+|-boost|p1a: Great Tusk|spe|1
+|-enditem|p2a: The World|Air Balloon
+|
+|-heal|p1a: Great Tusk|99/100|[from] item: Leftovers
+|turn|16
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: The World|Acrobatics|p1a: Dondozo
+|-damage|p1a: Dondozo|82/100
+|
+|-heal|p1a: Dondozo|88/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: The World|Dire Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|67/100
+|move|p1a: Dondozo|Wave Crash|p2a: The World
+|-damage|p2a: The World|2/100
+|-damage|p1a: Dondozo|53/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|59/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: The World|Dire Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|37/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|turn|19
+|
+|move|p2a: The World|Close Combat|p1a: Dondozo
+|-damage|p1a: Dondozo|72/100 slp
+|-unboost|p2a: The World|def|1
+|-unboost|p2a: The World|spd|1
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Wave Crash|p2a: The World|[from]move: Sleep Talk
+|-damage|p2a: The World|0 fnt
+|faint|p2a: The World
+|-damage|p1a: Dondozo|72/100 slp|[from] Recoil
+|
+|-heal|p1a: Dondozo|78/100 slp|[from] item: Leftovers
+|player|p2|
+|player|p2|Aeterna Act 2|guitarist
+|
+|switch|p2a: Steel Ball Run|Electrode-Hisui, shiny|50/100
+|-damage|p2a: Steel Ball Run|38/100|[from] Stealth Rock
+|turn|20
+|player|p2|
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Steel Ball Run|Chloroblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|47/100
+|-damage|p2a: Steel Ball Run|0 fnt|[from] chloroblast
+|faint|p2a: Steel Ball Run
+|
+|player|p2|Aeterna Act 2|guitarist
+|
+|switch|p2a: Spice Girl|Toxapex, F, shiny|73/100
+|-damage|p2a: Spice Girl|61/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Horus|Corviknight, M|84/100
+|-damage|p2a: Horus|71/100|[from] Stealth Rock
+|-ability|p2a: Horus|Pressure
+|move|p1a: Cinderace|U-turn|p2a: Horus
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Horus
+|-damage|p2a: Horus|68/100
+|
+|switch|p1a: Hydreigon|Hydreigon, F, tera:Steel|69/100|[from] U-turn
+|
+|-heal|p1a: Hydreigon|75/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|50/100
+|move|p2a: Horus|Defog|p1a: Hydreigon
+|-sideend|p2: Aeterna Act 2|Stealth Rock|[from] move: Defog|[of] p2a: Horus
+|
+|-heal|p1a: Hydreigon|57/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Horus
+|-damage|p2a: Horus|29/100
+|move|p2a: Horus|U-turn|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|switch|p2a: Love Bites|Ursaluna, M, shiny|56/100 brn|[from] U-turn
+|
+|-heal|p1a: Hydreigon|63/100|[from] item: Leftovers
+|-damage|p2a: Love Bites|50/100 brn|[from] brn
+|turn|24
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Love Bites
+|-damage|p2a: Love Bites|14/100 brn
+|cant|p2a: Love Bites|flinch
+|
+|-heal|p1a: Hydreigon|69/100|[from] item: Leftovers
+|-damage|p2a: Love Bites|8/100 brn|[from] brn
+|turn|25
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Love Bites
+|-damage|p2a: Love Bites|0 fnt
+|faint|p2a: Love Bites
+|
+|-heal|p1a: Hydreigon|75/100|[from] item: Leftovers
+|
+|switch|p2a: Spice Girl|Toxapex, F, shiny|94/100
+|turn|26
+|
+|move|p1a: Hydreigon|Earth Power|p2a: Spice Girl
+|-supereffective|p2a: Spice Girl
+|-damage|p2a: Spice Girl|60/100
+|move|p2a: Spice Girl|Infestation|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p1a: Hydreigon|81/100|[from] item: Leftovers
+|turn|27
+|
+|-terastallize|p2a: Spice Girl|Fairy
+|move|p1a: Hydreigon|Earth Power|p2a: Spice Girl
+|-damage|p2a: Spice Girl|42/100
+|move|p2a: Spice Girl|Infestation|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p1a: Hydreigon|87/100|[from] item: Leftovers
+|turn|28
+|
+|switch|p2a: Horus|Corviknight, M|29/100
+|-ability|p2a: Horus|Pressure
+|move|p1a: Hydreigon|Flash Cannon|p2a: Horus
+|-resisted|p2a: Horus
+|-damage|p2a: Horus|9/100
+|
+|-heal|p1a: Hydreigon|93/100|[from] item: Leftovers
+|turn|29
+|
+|switch|p2a: Spice Girl|Toxapex, F, shiny, tera:Fairy|75/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Spice Girl
+|-resisted|p2a: Spice Girl
+|-damage|p2a: Spice Girl|64/100
+|
+|-heal|p1a: Hydreigon|99/100|[from] item: Leftovers
+|turn|30
+|-message|Aeterna Act 2 forfeited.
+|
+|win|restneeded

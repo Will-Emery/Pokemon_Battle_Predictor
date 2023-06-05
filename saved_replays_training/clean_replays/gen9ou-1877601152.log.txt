@@ -1,0 +1,124 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Magearna|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Gingerbread|Hatterene, F, shiny|100/100
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gingerbread|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Earthquake|p1a: Gingerbread
+|-damage|p1a: Gingerbread|51/100
+|move|p1a: Gingerbread|Trick Room|p1a: Gingerbread
+|-fieldstart|move: Trick Room|[of] p1a: Gingerbread
+|
+|-heal|p1a: Gingerbread|57/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Yogi bear|Ursaluna, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|
+|-status|p1a: Yogi bear|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p1a: Yogi bear|Facade|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-damage|p1a: Yogi bear|94/100 brn|[from] brn
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|4
+|
+|move|p1a: Yogi bear|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Yogi bear|def|1
+|-unboost|p1a: Yogi bear|spd|1
+|faint|p2a: Samurott
+|
+|-damage|p1a: Yogi bear|88/100 brn|[from] brn
+|
+|switch|p2a: Sneasler|Sneasler, F, shiny|100/100
+|turn|5
+|
+|move|p1a: Yogi bear|Headlong Rush|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Yogi bear|def|1
+|-unboost|p1a: Yogi bear|spd|1
+|faint|p2a: Sneasler
+|
+|-damage|p1a: Yogi bear|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|6
+|
+|move|p2a: Magearna|Ice Beam|p1a: Yogi bear
+|-supereffective|p1a: Yogi bear
+|-damage|p1a: Yogi bear|0 fnt
+|faint|p1a: Yogi bear
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Good boi|Arcanine-Hisui, M|100/100
+|turn|7
+|
+|-terastallize|p2a: Magearna|Ground
+|move|p1a: Good boi|Flare Blitz|p2a: Magearna
+|-damage|p2a: Magearna|38/100
+|move|p2a: Magearna|Tera Blast|p1a: Good boi
+|-supereffective|p1a: Good boi
+|-damage|p1a: Good boi|0 fnt
+|faint|p1a: Good boi
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Will get banned|Magearna|100/100
+|turn|8
+|
+|-terastallize|p1a: Will get banned|Water
+|move|p2a: Magearna|Tera Blast|p1a: Will get banned
+|-damage|p1a: Will get banned|28/100
+|move|p1a: Will get banned|Calm Mind|p1a: Will get banned
+|-boost|p1a: Will get banned|spa|1
+|-boost|p1a: Will get banned|spd|1
+|
+|-heal|p1a: Will get banned|34/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Magearna|Thunderbolt|p1a: Will get banned
+|-supereffective|p1a: Will get banned
+|-damage|p1a: Will get banned|0 fnt
+|faint|p1a: Will get banned
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Gingerbread|Hatterene, F, shiny|57/100
+|turn|10
+|
+|move|p2a: Magearna|Tera Blast|p1a: Gingerbread
+|-damage|p1a: Gingerbread|0 fnt
+|faint|p1a: Gingerbread
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-message|Mrhalfsaid forfeited.
+|
+|win|Azenty06

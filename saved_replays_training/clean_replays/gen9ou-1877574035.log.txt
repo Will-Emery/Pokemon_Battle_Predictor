@@ -1,0 +1,301 @@
+|poke|p1|Amoonguss, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Toxicroak, M|
+|poke|p1|Breloom, F|
+|poke|p1|Sylveon, F|
+|poke|p2|Magearna|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: 掩护扇贝！|Cloyster, M|100/100
+|switch|p2a: Grimothée Chalamet|Grimmsnarl, M|100/100
+|turn|1
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Grimothée Chalamet|Taunt|p1a: Toxicroak
+|-start|p1a: Toxicroak|move: Taunt
+|
+|turn|2
+|
+|move|p2a: Grimothée Chalamet|Reflect|p2a: Grimothée Chalamet
+|-sidestart|p2: Ceeding|Reflect
+|move|p1a: Toxicroak|Gunk Shot|p2a: Grimothée Chalamet
+|-supereffective|p2a: Grimothée Chalamet
+|-damage|p2a: Grimothée Chalamet|32/100
+|-status|p2a: Grimothée Chalamet|psn
+|
+|-damage|p2a: Grimothée Chalamet|19/100 psn|[from] psn
+|turn|3
+|
+|move|p2a: Grimothée Chalamet|Light Screen|p2a: Grimothée Chalamet
+|-sidestart|p2: Ceeding|move: Light Screen
+|move|p1a: Toxicroak|Thunder Punch|p2a: Grimothée Chalamet
+|-damage|p2a: Grimothée Chalamet|6/100 psn
+|
+|-damage|p2a: Grimothée Chalamet|0 fnt|[from] psn
+|faint|p2a: Grimothée Chalamet
+|-end|p1a: Toxicroak|move: Taunt
+|
+|switch|p2a: Oh?|Magearna|100/100
+|turn|4
+|
+|move|p1a: Toxicroak|Thunder Punch|p2a: Oh?
+|-damage|p2a: Oh?|89/100
+|-status|p2a: Oh?|par
+|move|p2a: Oh?|Shift Gear|p2a: Oh?
+|-boost|p2a: Oh?|spe|2
+|-boost|p2a: Oh?|atk|1
+|
+|turn|5
+|
+|move|p1a: Toxicroak|Gunk Shot|p2a: Oh?
+|-immune|p2a: Oh?
+|move|p2a: Oh?|Shift Gear|p2a: Oh?
+|-boost|p2a: Oh?|spe|2
+|-boost|p2a: Oh?|atk|1
+|
+|turn|6
+|
+|cant|p2a: Oh?|par
+|move|p1a: Toxicroak|Close Combat|p2a: Oh?
+|-damage|p2a: Oh?|55/100 par
+|-unboost|p1a: Toxicroak|def|1
+|-unboost|p1a: Toxicroak|spd|1
+|
+|turn|7
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Oh?|Shift Gear|p2a: Oh?
+|-boost|p2a: Oh?|spe|2
+|-boost|p2a: Oh?|atk|1
+|
+|-status|p1a: Sylveon|brn|[from] item: Flame Orb
+|turn|8
+|
+|switch|p1a: Breloom|Breloom, F|100/100
+|move|p2a: Oh?|Iron Head|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|-ability|p2a: Oh?|Soul-Heart|boost
+|-boost|p2a: Oh?|spa|1
+|-damage|p2a: Oh?|45/100 par|[from] item: Life Orb
+|
+|
+|switch|p1a: 掩护扇贝！|Cloyster, M|100/100
+|turn|9
+|
+|-terastallize|p1a: 掩护扇贝！|Water
+|move|p2a: Oh?|Iron Head|p1a: 掩护扇贝！
+|-resisted|p1a: 掩护扇贝！
+|-damage|p1a: 掩护扇贝！|48/100
+|-damage|p2a: Oh?|35/100 par|[from] item: Life Orb
+|move|p1a: 掩护扇贝！|Shell Smash|p1a: 掩护扇贝！
+|-unboost|p1a: 掩护扇贝！|def|1
+|-unboost|p1a: 掩护扇贝！|spd|1
+|-boost|p1a: 掩护扇贝！|atk|2
+|-boost|p1a: 掩护扇贝！|spa|2
+|-boost|p1a: 掩护扇贝！|spe|2
+|
+|-sideend|p2: Ceeding|Reflect
+|turn|10
+|
+|move|p1a: 掩护扇贝！|Rock Blast|p2a: Oh?|[miss]
+|-miss|p1a: 掩护扇贝！|p2a: Oh?
+|move|p2a: Oh?|Iron Head|p1a: 掩护扇贝！
+|-resisted|p1a: 掩护扇贝！
+|-damage|p1a: 掩护扇贝！|0 fnt
+|faint|p1a: 掩护扇贝！
+|-ability|p2a: Oh?|Soul-Heart|boost
+|-boost|p2a: Oh?|spa|1
+|-damage|p2a: Oh?|25/100 par|[from] item: Life Orb
+|
+|-sideend|p2: Ceeding|move: Light Screen
+|
+|switch|p1a: 一休|Amoonguss, M|100/100
+|turn|11
+|
+|move|p2a: Oh?|Ice Spinner|p1a: 一休
+|-supereffective|p1a: 一休
+|-damage|p1a: 一休|0 fnt
+|faint|p1a: 一休
+|-ability|p2a: Oh?|Soul-Heart|boost
+|-boost|p2a: Oh?|spa|1
+|-damage|p2a: Oh?|15/100 par|[from] item: Life Orb
+|
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100 brn
+|turn|12
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Oh?|Iron Head|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|-ability|p2a: Oh?|Soul-Heart|boost
+|-boost|p2a: Oh?|spa|1
+|-damage|p2a: Oh?|5/100 par|[from] item: Life Orb
+|
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100 brn
+|turn|13
+|
+|cant|p2a: Oh?|par
+|move|p1a: Sylveon|Facade|p2a: Oh?
+|-resisted|p2a: Oh?
+|-damage|p2a: Oh?|0 fnt
+|faint|p2a: Oh?
+|
+|-damage|p1a: Sylveon|94/100 brn|[from] brn
+|
+|switch|p2a: Samurott Champloo|Samurott-Hisui, M|100/100
+|turn|14
+|
+|move|p2a: Samurott Champloo|Ceaseless Edge|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|49/100 brn
+|-sidestart|p1: DDCxbw菜.巨菜(´-_-)|Spikes
+|-damage|p2a: Samurott Champloo|91/100|[from] item: Life Orb
+|move|p1a: Sylveon|Facade|p2a: Samurott Champloo
+|-supereffective|p2a: Samurott Champloo
+|-damage|p2a: Samurott Champloo|0 fnt
+|faint|p2a: Samurott Champloo
+|
+|-damage|p1a: Sylveon|43/100 brn|[from] brn
+|
+|switch|p2a: Agile Style|Urshifu-Rapid-Strike, F|100/100
+|turn|15
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Agile Style|Swords Dance|p2a: Agile Style
+|-boost|p2a: Agile Style|atk|2
+|
+|-damage|p1a: Sylveon|37/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Agile Style|Swords Dance|p2a: Agile Style
+|-boost|p2a: Agile Style|atk|2
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-damage|p1a: Sylveon|31/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Agile Style|Surging Strikes|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|81/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Sylveon|75/100 brn|[from] brn
+|turn|18
+|
+|move|p2a: Agile Style|Swords Dance|p2a: Agile Style
+|-boost|p2a: Agile Style|atk|2
+|move|p1a: Sylveon|Facade|p2a: Agile Style
+|-supereffective|p2a: Agile Style
+|-crit|p2a: Agile Style
+|-damage|p2a: Agile Style|0 fnt
+|faint|p2a: Agile Style
+|
+|-damage|p1a: Sylveon|69/100 brn|[from] brn
+|
+|switch|p2a: Au in OU|Gholdengo|100/100
+|turn|19
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Au in OU|Make It Rain|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-damage|p1a: Sylveon|63/100 brn|[from] brn
+|turn|20
+|
+|move|p2a: Au in OU|Make It Rain|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|-unboost|p2a: Au in OU|spa|1
+|faint|p1a: Sylveon
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|88/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|21
+|
+|switch|p2a: Glimmer|Glimmora, M|100/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|22
+|
+|move|p2a: Glimmer|Energy Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|70/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|23
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Glimmer
+|-enditem|p2a: Glimmer|Focus Sash
+|-damage|p2a: Glimmer|1/100
+|-activate|p2a: Glimmer|ability: Toxic Debris
+|-sidestart|p1: DDCxbw菜.巨菜(´-_-)|move: Toxic Spikes
+|move|p2a: Glimmer|Energy Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|53/100
+|
+|turn|24
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Glimmer
+|-damage|p2a: Glimmer|0 fnt
+|-activate|p2a: Glimmer|ability: Toxic Debris
+|-sidestart|p1: DDCxbw菜.巨菜(´-_-)|move: Toxic Spikes
+|faint|p2a: Glimmer
+|
+|
+|switch|p2a: Au in OU|Gholdengo|100/100
+|turn|25
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Au in OU|Trick|p1a: Kingambit
+|-activate|p2a: Au in OU|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: Au in OU|Black Glasses|[from] move: Trick
+|
+|turn|26
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Au in OU|Trick|p1a: Kingambit
+|-activate|p2a: Au in OU|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Black Glasses|[from] move: Trick
+|-item|p2a: Au in OU|Choice Scarf|[from] move: Trick
+|
+|turn|27
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Au in OU|Trick|p1a: Kingambit
+|-activate|p2a: Au in OU|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: Au in OU|Black Glasses|[from] move: Trick
+|
+|turn|28
+|
+|move|p2a: Au in OU|Focus Blast|p1a: Kingambit|[miss]
+|-miss|p2a: Au in OU|p1a: Kingambit
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Au in OU
+|-supereffective|p2a: Au in OU
+|-damage|p2a: Au in OU|0 fnt
+|faint|p2a: Au in OU
+|
+|win|DDCxbw菜.巨菜(´-_-)
+|player|p1|DDCxbw菜.巨菜(´-_-)|gambler

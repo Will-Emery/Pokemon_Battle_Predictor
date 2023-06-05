@@ -1,0 +1,188 @@
+|poke|p1|Torkoal, M|
+|poke|p1|Walking Wake|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Urshifu-*, F|
+|teampreview
+|
+|start
+|switch|p1a: SUNOS|Torkoal, M|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: SUNOS
+|turn|1
+|
+|move|p2a: Glimmora|Power Gem|p1a: SUNOS
+|-supereffective|p1a: SUNOS
+|-damage|p1a: SUNOS|0 fnt
+|faint|p1a: SUNOS
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Incredible Bulk|Great Tusk|100/100
+|-activate|p1a: Incredible Bulk|ability: Protosynthesis
+|-start|p1a: Incredible Bulk|protosynthesisdef
+|turn|2
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Incredible Bulk|Protosynthesis
+|move|p1a: Incredible Bulk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|68/100
+|-enditem|p2a: Pelipper|Choice Specs|[from] move: Knock Off|[of] p1a: Incredible Bulk
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|-end|p1a: Incredible Bulk|Protosynthesis|[silent]
+|switch|p1a: Walkeye|Walking Wake|100/100
+|-terastallize|p2a: Pelipper|Water
+|move|p2a: Pelipper|Surf|p1a: Walkeye
+|-resisted|p1a: Walkeye
+|-damage|p1a: Walkeye|77/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p2a: Goodra|Goodra-Hisui, F, shiny|100/100
+|move|p1a: Walkeye|Dragon Breath|p2a: Goodra
+|-damage|p2a: Goodra|82/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|-end|p1a: Walkeye|Protosynthesis|[silent]
+|switch|p1a: Incredible Bulk|Great Tusk|100/100
+|move|p2a: Goodra|Dragon Tail|p1a: Incredible Bulk
+|-damage|p1a: Incredible Bulk|91/100
+|-damage|p2a: Goodra|66/100|[from] item: Rocky Helmet|[of] p1a: Incredible Bulk
+|-end|p1a: Incredible Bulk|Protosynthesis|[silent]
+|drag|p1a: Blarck Widow|Arcanine-Hisui, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Thornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|
+|-weather|none
+|turn|7
+|
+|switch|p1a: Incredible Bulk|Great Tusk|91/100
+|move|p2a: Glimmora|Power Gem|p1a: Incredible Bulk
+|-resisted|p1a: Incredible Bulk
+|-damage|p1a: Incredible Bulk|76/100
+|
+|turn|8
+|
+|switch|p2a: Pelipper|Pelipper, M, tera:Water|68/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Incredible Bulk|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: AILISTEN|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|-end|p1a: Incredible Bulk|Protosynthesis|[silent]
+|switch|p1a: Blarck Widow|Arcanine-Hisui, F|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Blarck Widow
+|-resisted|p1a: Blarck Widow
+|-damage|p1a: Blarck Widow|70/100
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|switch|p1a: Incredible Bulk|Great Tusk|76/100
+|move|p2a: Pelipper|Surf|p1a: Incredible Bulk
+|-supereffective|p1a: Incredible Bulk
+|-damage|p1a: Incredible Bulk|0 fnt
+|faint|p1a: Incredible Bulk
+|-end|p1a: Incredible Bulk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Blarck Widow|Arcanine-Hisui, F|70/100
+|turn|11
+|
+|move|p1a: Blarck Widow|Head Smash|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Thornadus|Tornadus-Therian, M|100/100
+|move|p2a: Urshifu|Close Combat|p1a: Thornadus
+|-resisted|p1a: Thornadus
+|-damage|p1a: Thornadus|61/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-weather|none
+|turn|13
+|
+|switch|p2a: Goodra|Goodra-Hisui, F, shiny|66/100
+|-damage|p2a: Goodra|59/100|[from] Stealth Rock
+|move|p1a: Thornadus|Nasty Plot|p1a: Thornadus
+|-boost|p1a: Thornadus|spa|2
+|
+|turn|14
+|
+|move|p1a: Thornadus|Focus Blast|p2a: Goodra|[miss]
+|-miss|p1a: Thornadus|p2a: Goodra
+|move|p2a: Goodra|Dragon Tail|p1a: Thornadus
+|-damage|p1a: Thornadus|33/100
+|drag|p1a: Blarck Widow|Arcanine-Hisui, F|70/100
+|
+|turn|15
+|
+|move|p1a: Blarck Widow|Flare Blitz|p2a: Goodra
+|-damage|p2a: Goodra|2/100
+|move|p2a: Goodra|Earthquake|p1a: Blarck Widow
+|-supereffective|p1a: Blarck Widow
+|-damage|p1a: Blarck Widow|0 fnt
+|faint|p1a: Blarck Widow
+|
+|
+|switch|p1a: Iron Man|Iron Moth, shiny|100/100
+|-enditem|p1a: Iron Man|Booster Energy
+|-activate|p1a: Iron Man|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Man|quarkdrivespe
+|turn|16
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|94/100
+|-damage|p2a: Urshifu|88/100|[from] Stealth Rock
+|move|p1a: Iron Man|Fiery Dance|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|59/100
+|-boost|p1a: Iron Man|spa|1
+|
+|turn|17
+|
+|move|p1a: Iron Man|Dazzling Gleam|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|turn|18
+|
+|-terastallize|p1a: Iron Man|Grass
+|move|p1a: Iron Man|Energy Ball|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-message|AILISTEN forfeited.
+|
+|win|Hellzapoppin

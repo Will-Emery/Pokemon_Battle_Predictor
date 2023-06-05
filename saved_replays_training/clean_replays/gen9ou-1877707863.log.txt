@@ -1,0 +1,30 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Tauros, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Azumarill, M|
+|poke|p2|Slither Wing|
+|poke|p2|Garganacl, F|
+|poke|p2|Cyclizar, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Skeledirge, F|
+|teampreview
+|
+|start
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|turn|1
+|
+|move|p2a: Slither Wing|Will-O-Wisp|p1a: Azumarill|[miss]
+|-miss|p2a: Slither Wing|p1a: Azumarill
+|move|p1a: Azumarill|Play Rough|p2a: Slither Wing
+|-supereffective|p2a: Slither Wing
+|-damage|p2a: Slither Wing|13/100
+|-unboost|p2a: Slither Wing|atk|1
+|
+|turn|2
+|-message|EighteenStorms forfeited.
+|
+|win|Chito24

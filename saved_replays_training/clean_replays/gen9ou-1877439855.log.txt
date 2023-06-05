@@ -1,0 +1,342 @@
+|poke|p1|Dragapult, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, F|
+|poke|p1|Magearna|
+|poke|p1|Cinderace, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Magearna|
+|poke|p2|Moltres|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Kleavor, M|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|1
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Kleavor|Stone Axe|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|92/100
+|-sidestart|p1: aquy|move: Stealth Rock
+|
+|-heal|p1a: Great Tusk|98/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Kleavor
+|-damage|p2a: Kleavor|69/100
+|-enditem|p2a: Kleavor|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Kleavor|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|87/100
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|
+|-heal|p1a: Great Tusk|93/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Samurott|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|22/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Samurott
+|-immune|p2a: Samurott
+|
+|-heal|p1a: Great Tusk|28/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Samurott|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|turn|5
+|
+|move|p2a: Samurott|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|46/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|52/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Samurott|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|20/100
+|move|p1a: Magearna|Draining Kiss|p2a: Samurott
+|-damage|p2a: Samurott|39/100
+|-heal|p1a: Magearna|52/100|[from] drain|[of] p2a: Samurott
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|-heal|p1a: Magearna|58/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Zoroark|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|28/100
+|move|p1a: Magearna|Draining Kiss|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|-heal|p1a: Magearna|48/100|[from] drain|[of] p2a: Zoroark
+|faint|p2a: Zoroark
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|54/100|[from] item: Leftovers
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|8
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|-heal|p1a: Magearna|60/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|66/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|72/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|-heal|p1a: Magearna|79/100|[from] item: Leftovers
+|turn|12
+|
+|-terastallize|p1a: Magearna|Psychic
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Magearna|Stored Power|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|51/100
+|
+|-heal|p1a: Magearna|85/100|[from] item: Leftovers
+|turn|13
+|
+|-terastallize|p2a: Magearna|Psychic
+|move|p2a: Magearna|Stored Power|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|39/100
+|move|p1a: Magearna|Stored Power|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|5/100
+|
+|-heal|p1a: Magearna|45/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Magearna|Stored Power|p1a: Magearna
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|15
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|17
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|18
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|0
+|-boost|p2a: Magearna|atk|1
+|
+|turn|19
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|0
+|-boost|p2a: Magearna|atk|1
+|
+|turn|20
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|0
+|-boost|p2a: Magearna|atk|1
+|
+|turn|21
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|0
+|-boost|p2a: Magearna|spd|1
+|
+|turn|22
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|0
+|-boost|p2a: Magearna|atk|0
+|
+|turn|23
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|15/100
+|-heal|p2a: Magearna|90/100|[from] drain|[of] p1a: Kingambit
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-heal|p1a: Kingambit|21/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|24
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Great Tusk
+|-status|p2a: Great Tusk|brn
+|move|p2a: Great Tusk|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|40/100
+|-enditem|p1a: Dragapult|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|turn|26
+|
+|move|p1a: Dragapult|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|56/100 brn
+|move|p2a: Great Tusk|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|5/100
+|
+|-damage|p2a: Great Tusk|50/100 brn|[from] brn
+|turn|27
+|
+|move|p1a: Dragapult|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|7/100 brn
+|move|p2a: Great Tusk|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Great Tusk|0 fnt|[from] brn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|28
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Samurott
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Moltres|Moltres|100/100
+|turn|29
+|
+|move|p1a: Cinderace|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|97/100
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Moltres|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|74/100
+|
+|switch|p2a: Kleavor|Kleavor, M|69/100|[from] U-turn
+|
+|turn|30
+|
+|move|p2a: Kleavor|Night Slash|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|31
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Kleavor
+|-damage|p2a: Kleavor|6/100
+|-status|p2a: Kleavor|brn
+|move|p2a: Kleavor|Stone Axe|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|16/100
+|
+|-damage|p2a: Kleavor|0 fnt|[from] brn
+|faint|p2a: Kleavor
+|
+|switch|p2a: Moltres|Moltres|97/100
+|turn|32
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|75/100
+|move|p2a: Moltres|Flamethrower|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|robstadalobsta

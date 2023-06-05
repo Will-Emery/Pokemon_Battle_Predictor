@@ -1,0 +1,355 @@
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Great Tusk|
+|poke|p1|Moltres-Galar|
+|poke|p1|Skeledirge, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Magearna|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: Lando V.3|Great Tusk|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Lando V.3|atk|1
+|turn|1
+|
+|move|p1a: Lando V.3|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|40/100
+|move|p2a: Landorus|Grass Knot|p1a: Lando V.3
+|-supereffective|p1a: Lando V.3
+|-damage|p1a: Lando V.3|19/100
+|
+|-heal|p2a: Landorus|46/100|[from] item: Leftovers
+|turn|2
+|
+|-end|p1a: Lando V.3|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-terastallize|p2a: Landorus|Water
+|move|p2a: Landorus|Grass Knot|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|95/100
+|
+|-heal|p2a: Landorus|52/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Reverse Uno|Hatterene, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Reverse Uno
+|move|p1a: Reverse Uno|Stealth Rock|p2a: Landorus|[from]ability: Magic Bounce
+|-sidestart|p2: DeathOfASusMan|move: Stealth Rock
+|
+|-heal|p2a: Landorus|58/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Landorus|U-turn|p1a: Reverse Uno
+|-damage|p1a: Reverse Uno|85/100
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|move|p1a: Reverse Uno|Giga Drain|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|84/100
+|-heal|p1a: Reverse Uno|92/100|[from] drain|[of] p2a: Kingambit
+|
+|-heal|p2a: Kingambit|90/100|[from] item: Leftovers
+|-heal|p1a: Reverse Uno|98/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Po|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Po
+|-resisted|p1a: Po
+|-damage|p1a: Po|74/100
+|
+|-heal|p2a: Kingambit|97/100|[from] item: Leftovers
+|turn|6
+|
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Water|58/100
+|-damage|p2a: Landorus|46/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Po|atk|1
+|move|p1a: Po|Close Combat|p2a: Landorus
+|-damage|p2a: Landorus|16/100
+|-unboost|p1a: Po|def|1
+|-unboost|p1a: Po|spd|1
+|
+|-heal|p2a: Landorus|22/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Reverse Uno|Hatterene, F|98/100
+|move|p2a: Landorus|Earthquake|p1a: Reverse Uno
+|-damage|p1a: Reverse Uno|65/100
+|
+|-heal|p2a: Landorus|29/100|[from] item: Leftovers
+|-heal|p1a: Reverse Uno|71/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Landorus|Earthquake|p1a: Reverse Uno
+|-damage|p1a: Reverse Uno|35/100
+|move|p1a: Reverse Uno|Draining Kiss|p2a: Landorus
+|-damage|p2a: Landorus|5/100
+|-heal|p1a: Reverse Uno|57/100|[from] drain|[of] p2a: Landorus
+|
+|-heal|p2a: Landorus|11/100|[from] item: Leftovers
+|-heal|p1a: Reverse Uno|63/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Landorus|Earthquake|p1a: Reverse Uno
+|-damage|p1a: Reverse Uno|28/100
+|move|p1a: Reverse Uno|Draining Kiss|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-heal|p1a: Reverse Uno|37/100|[from] drain|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|-heal|p1a: Reverse Uno|43/100|[from] item: Leftovers
+|
+|switch|p2a: Kingambit|Kingambit, M|97/100
+|-damage|p2a: Kingambit|90/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|10
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Reverse Uno
+|-damage|p1a: Reverse Uno|1/100
+|move|p1a: Reverse Uno|Draining Kiss|p2a: Kingambit
+|-damage|p2a: Kingambit|68/100
+|-heal|p1a: Reverse Uno|23/100|[from] drain|[of] p2a: Kingambit
+|
+|-heal|p2a: Kingambit|74/100|[from] item: Leftovers
+|-heal|p1a: Reverse Uno|28/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Reverse Uno
+|-damage|p1a: Reverse Uno|0 fnt
+|faint|p1a: Reverse Uno
+|
+|-heal|p2a: Kingambit|80/100|[from] item: Leftovers
+|
+|switch|p1a: Po|Urshifu-Rapid-Strike, M|74/100
+|turn|12
+|
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Po|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|21/100
+|-unboost|p1a: Po|def|1
+|-unboost|p1a: Po|spd|1
+|
+|-heal|p2a: Rotom|27/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|81/100
+|
+|-heal|p2a: Rotom|33/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Rotom|Thunder Wave|p1a: Slowking
+|-status|p1a: Slowking|par
+|cant|p1a: Slowking|par
+|
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Rotom|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|68/100 par
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] Volt Switch
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|cant|p1a: Slowking|par
+|
+|turn|16
+|
+|switch|p1a: Mag Is Balanced|Skeledirge, M|100/100
+|move|p2a: Magearna|Dazzling Gleam|p1a: Mag Is Balanced
+|-resisted|p1a: Mag Is Balanced
+|-damage|p1a: Mag Is Balanced|78/100
+|
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|39/100
+|-damage|p2a: Rotom|27/100|[from] Stealth Rock
+|move|p1a: Mag Is Balanced|Torch Song|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|16/100
+|-boost|p1a: Mag Is Balanced|spa|1
+|
+|-heal|p2a: Rotom|22/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100 par
+|move|p2a: Rotom|Thunder Wave|p1a: Slowking
+|-fail|p1a: Slowking|par
+|
+|-heal|p2a: Rotom|28/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Slowking
+|-damage|p1a: Slowking|79/100 par
+|cant|p1a: Slowking|par
+|
+|-heal|p2a: Rotom|35/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Slowking
+|-damage|p1a: Slowking|59/100 par
+|move|p1a: Slowking|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|23/100
+|
+|-heal|p2a: Rotom|29/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Slowking
+|-damage|p1a: Slowking|36/100 par
+|move|p1a: Slowking|Focus Blast|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|80/100
+|-damage|p2a: Kingambit|74/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|22
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: Kingambit|80/100|[from] item: Leftovers
+|
+|switch|p1a: Po|Urshifu-Rapid-Strike, M|74/100
+|turn|23
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Po
+|-resisted|p1a: Po
+|-damage|p1a: Po|50/100
+|move|p1a: Po|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Po|def|1
+|-unboost|p1a: Po|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|
+|switch|p2a: Dragonite|Dragonite, F, shiny|100/100
+|turn|24
+|
+|move|p1a: Po|Surging Strikes|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|94/100
+|-resisted|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|82/100
+|-resisted|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|69/100
+|-hitcount|p2a: Dragonite|3
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|turn|25
+|
+|move|p2a: Dragonite|Earthquake|p1a: Po
+|-damage|p1a: Po|0 fnt
+|faint|p1a: Po
+|
+|
+|switch|p1a: Mag Is Balanced|Skeledirge, M|78/100
+|turn|26
+|
+|move|p2a: Dragonite|Earthquake|p1a: Mag Is Balanced
+|-supereffective|p1a: Mag Is Balanced
+|-damage|p1a: Mag Is Balanced|15/100
+|move|p1a: Mag Is Balanced|Roar|p2a: Dragonite
+|drag|p2a: Magearna|Magearna|94/100
+|-damage|p2a: Magearna|88/100|[from] Stealth Rock
+|
+|turn|27
+|
+|move|p1a: Mag Is Balanced|Slack Off|p1a: Mag Is Balanced
+|-heal|p1a: Mag Is Balanced|65/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Mag Is Balanced
+|-resisted|p1a: Mag Is Balanced
+|-damage|p1a: Mag Is Balanced|23/100
+|-unboost|p2a: Magearna|spa|2
+|
+|turn|28
+|
+|switch|p2a: Dragonite|Dragonite, F, shiny|69/100
+|move|p1a: Mag Is Balanced|Torch Song|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|53/100
+|-boost|p1a: Mag Is Balanced|spa|1
+|
+|turn|29
+|
+|move|p2a: Dragonite|Earthquake|p1a: Mag Is Balanced
+|-supereffective|p1a: Mag Is Balanced
+|-crit|p1a: Mag Is Balanced
+|-damage|p1a: Mag Is Balanced|0 fnt
+|faint|p1a: Mag Is Balanced
+|
+|
+|switch|p1a: Lando V.3|Great Tusk|19/100
+|turn|30
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Lando V.3
+|-damage|p1a: Lando V.3|0 fnt
+|faint|p1a: Lando V.3
+|-end|p1a: Lando V.3|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Chi-Yu Lite|Moltres-Galar|100/100
+|turn|31
+|
+|move|p1a: Chi-Yu Lite|Agility|p1a: Chi-Yu Lite
+|-boost|p1a: Chi-Yu Lite|spe|2
+|move|p2a: Dragonite|Dragon Claw|p1a: Chi-Yu Lite
+|-damage|p1a: Chi-Yu Lite|44/100
+|-ability|p1a: Chi-Yu Lite|Berserk|boost
+|-boost|p1a: Chi-Yu Lite|spa|1
+|
+|turn|32
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Chi-Yu Lite
+|-damage|p1a: Chi-Yu Lite|10/100
+|move|p1a: Chi-Yu Lite|Fiery Wrath|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Magearna|Magearna|88/100
+|-damage|p2a: Magearna|82/100|[from] Stealth Rock
+|turn|33
+|
+|-terastallize|p1a: Chi-Yu Lite|Fire
+|move|p1a: Chi-Yu Lite|Tera Blast|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Chi-Yu Lite|Fiery Wrath|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|GamerLui95

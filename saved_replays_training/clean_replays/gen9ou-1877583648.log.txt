@@ -1,0 +1,284 @@
+|poke|p1|Great Tusk|
+|poke|p1|Enamorus, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Chien-Pao|
+|poke|p2|Basculegion, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Magearna|
+|poke|p2|Chien-Pao|
+|poke|p2|Cinderace, F|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|1
+|
+|move|p2a: Basculegion|Liquidation|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|70/100
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|turn|2
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|turn|3
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Clodsire|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-damage|p1a: Great Tusk|94/100 tox|[from] psn
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|80/100
+|-damage|p1a: Great Tusk|78/100 tox|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|84/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|72/100 tox|[from] psn
+|turn|5
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Enamorus
+|-damage|p1a: Enamorus|42/100
+|-damage|p2a: Corviknight|66/100|[from] Recoil
+|
+|-heal|p1a: Enamorus|48/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Enamorus|Superpower|p2a: Cinderace
+|-damage|p2a: Cinderace|41/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|
+|-heal|p1a: Enamorus|54/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Cinderace|U-turn|p1a: Enamorus
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|45/100
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|move|p1a: Enamorus|Superpower|p2a: Basculegion
+|-immune|p2a: Basculegion
+|
+|-heal|p1a: Enamorus|52/100|[from] item: Leftovers
+|turn|8
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Liquidation|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|9
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|70/100
+|-unboost|p2a: Magearna|spd|1
+|
+|turn|10
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|23/100
+|move|p2a: Magearna|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|81/100
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|turn|11
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Chien-Pao|Swords Dance|p2a: Chien-Pao
+|-boost|p2a: Chien-Pao|atk|2
+|
+|turn|12
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Corviknight
+|-damage|p1a: Corviknight|43/100
+|move|p1a: Corviknight|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-heal|p1a: Corviknight|49/100|[from] item: Leftovers
+|
+|switch|p2a: Cinderace|Cinderace, F|41/100
+|turn|13
+|
+|switch|p1a: Great Tusk|Great Tusk|72/100 tox
+|move|p2a: Cinderace|Pyro Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|32/100 tox
+|
+|-heal|p1a: Great Tusk|38/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|32/100 tox|[from] psn
+|turn|14
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|70/100
+|turn|15
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Urshifu
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Urshifu|2/100
+|move|p1a: Urshifu|Close Combat|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Basculegion|Basculegion, M, tera:Water|100/100
+|turn|16
+|
+|switch|p1a: Corviknight|Corviknight, M|49/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Basculegion|Liquidation|p1a: Corviknight
+|-damage|p1a: Corviknight|8/100
+|-unboost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|14/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Basculegion|Liquidation|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|81/100
+|turn|18
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|61/100
+|
+|-heal|p2a: Clodsire|68/100|[from] item: Black Sludge
+|turn|19
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|29/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|79/100
+|
+|-heal|p2a: Clodsire|85/100|[from] item: Black Sludge
+|turn|20
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|46/100
+|move|p2a: Clodsire|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-heal|p2a: Clodsire|52/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|75/100 tox|[from] psn
+|turn|21
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|17/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|67/100
+|
+|-heal|p2a: Clodsire|73/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|63/100 tox|[from] psn
+|turn|22
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Clodsire|Stealth Rock|p1a: Chien-Pao
+|-sidestart|p1: Marimaxx|move: Stealth Rock
+|
+|-heal|p2a: Clodsire|79/100|[from] item: Black Sludge
+|turn|23
+|
+|switch|p2a: Magearna|Magearna|23/100
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|1/100
+|
+|turn|24
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Corviknight|Corviknight, F|66/100
+|-ability|p2a: Corviknight|Pressure
+|turn|25
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Corviknight
+|-damage|p2a: Corviknight|34/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|84/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|26
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100
+|move|p2a: Corviknight|Body Press|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-enditem|p1a: Chien-Pao|Focus Sash
+|-damage|p1a: Chien-Pao|1/100
+|
+|turn|27
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Corviknight
+|-damage|p2a: Corviknight|17/100
+|move|p2a: Corviknight|Body Press|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Dragapult|Dragapult, F, tera:Ghost|63/100 tox
+|-damage|p1a: Dragapult|51/100 tox|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Dragapult|45/100 tox|[from] psn
+|
+|switch|p2a: Basculegion|Basculegion, M, tera:Water|100/100
+|turn|29
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Dragapult
+|-damage|p1a: Dragapult|1/100 tox
+|move|p1a: Dragapult|Shadow Ball|p2a: Basculegion
+|-damage|p2a: Basculegion|17/100
+|
+|-damage|p1a: Dragapult|0 fnt|[from] psn
+|faint|p1a: Dragapult
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|2/100
+|-damage|p1a: Urshifu|0 fnt|[from] Stealth Rock
+|faint|p1a: Urshifu
+|
+|win|wax rig

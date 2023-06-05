@@ -1,0 +1,240 @@
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Magearna|
+|poke|p1|Kingambit, F|
+|poke|p1|Glastrier|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Iron Treads|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Gholdengo|
+|poke|p2|Amoonguss, F|
+|teampreview
+|
+|start
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|1
+|
+|move|p2a: Gholdengo|Thunder Wave|p1a: Cresselia
+|-status|p1a: Cresselia|par
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|2
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|73/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-heal|p1a: Kingambit|79/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kingambit|85/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|20/100
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|70/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kingambit|91/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Pelipper|U-turn|p1a: Kingambit
+|-damage|p1a: Kingambit|85/100
+|
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100|[from] U-turn
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kingambit|92/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|6
+|
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Cresselia|Cresselia, F|100/100 par
+|move|p2a: Iron Treads|Iron Head|p1a: Cresselia
+|-damage|p1a: Cresselia|73/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|80/100 par|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|39/100 par
+|-enditem|p1a: Cresselia|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Iron Treads|Iron Head|p1a: Magearna
+|-damage|p1a: Magearna|69/100
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p1a: Magearna|Flash Cannon|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|70/100
+|move|p2a: Iron Treads|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|10
+|
+|-terastallize|p2a: Iron Treads|Ghost
+|move|p1a: Ursaluna|Earthquake|p2a: Iron Treads
+|-damage|p2a: Iron Treads|19/100
+|move|p2a: Iron Treads|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|80/100
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|-weather|none
+|turn|11
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|70/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ursaluna|Earthquake|p2a: Pelipper
+|-immune|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|turn|12
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Pelipper|Surf|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|81/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|73/100
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Kingambit|Kingambit, F|92/100|[from] Chilly Reception
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Kingambit|98/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Gholdengo|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|16/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Kingambit|100/100 par|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|66/100
+|cant|p1a: Kingambit|par
+|
+|-weather|Snow|[upkeep]
+|turn|16
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|Snow|[upkeep]
+|turn|17
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|89/100 par
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|none
+|-heal|p1a: Kingambit|95/100 par|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Gholdengo|Gholdengo|66/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-heal|p1a: Kingambit|100/100 par|[from] item: Leftovers
+|
+|switch|p2a: Iron Treads|Iron Treads, shiny, tera:Ghost|19/100
+|turn|19
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|20
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|
+|switch|p2a: Pelipper|Pelipper, F|70/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|21
+|
+|move|p2a: Pelipper|Surf|p1a: Kingambit
+|-damage|p1a: Kingambit|60/100 par
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kingambit|66/100 par|[from] item: Leftovers
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|22
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kingambit|72/100 par|[from] item: Leftovers
+|-message|Ryxahr forfeited.
+|
+|win|Diogo_03

@@ -1,0 +1,226 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Meowscarada, M|
+|poke|p2|Squawkabilly, F|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Overqwil, M|
+|teampreview
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Kleavor
+|-damage|p2a: Kleavor|10/100
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M, shiny|100/100|[from] Volt Switch
+|move|p2a: Kleavor|Stone Axe|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-sidestart|p1: Baxcaloblazed|move: Stealth Rock
+|faint|p1a: Arcanine
+|-damage|p2a: Kleavor|0 fnt|[from] item: Life Orb
+|faint|p2a: Kleavor
+|
+|
+|switch|p1a: Cresselia|Cresselia, F, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|turn|2
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: JudgeScrub|move: Light Screen
+|move|p1a: Cresselia|Light Screen|p1a: Cresselia
+|-sidestart|p1: Baxcaloblazed|move: Light Screen
+|
+|turn|3
+|
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: JudgeScrub|Reflect
+|move|p1a: Cresselia|Reflect|p1a: Cresselia
+|-sidestart|p1: Baxcaloblazed|Reflect
+|
+|turn|4
+|
+|switch|p1a: Meowscarada|Meowscarada, M, shiny|100/100
+|-damage|p1a: Meowscarada|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|U-turn|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|30/100
+|
+|switch|p2a: Overqwil|Overqwil, M|100/100|[from] U-turn
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Meowscarada|atk|1
+|
+|turn|5
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Overqwil
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-resisted|p2a: Overqwil
+|-damage|p2a: Overqwil|86/100
+|-damage|p1a: Meowscarada|14/100|[from] item: Rocky Helmet|[of] p2a: Overqwil
+|-enditem|p2a: Overqwil|Rocky Helmet|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Overqwil|Toxic|p1a: Meowscarada
+|-status|p1a: Meowscarada|tox
+|
+|-damage|p1a: Meowscarada|8/100 tox|[from] psn
+|turn|6
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Overqwil
+|-resisted|p2a: Overqwil
+|-damage|p2a: Overqwil|77/100
+|move|p2a: Overqwil|Barb Barrage|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F, shiny|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|7
+|
+|-terastallize|p2a: Overqwil|Dark
+|-terastallize|p1a: Ursaluna|Normal
+|move|p2a: Overqwil|Toxic|p1a: Ursaluna
+|-status|p1a: Ursaluna|tox
+|move|p1a: Ursaluna|Facade|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-damage|p1a: Ursaluna|88/100 tox|[from] psn
+|
+|switch|p2a: Squawkabilly|Squawkabilly, F|100/100
+|turn|8
+|
+|move|p2a: Squawkabilly|Protect|p2a: Squawkabilly
+|-singleturn|p2a: Squawkabilly|Protect
+|move|p1a: Ursaluna|Drain Punch|p2a: Squawkabilly
+|-activate|p2a: Squawkabilly|move: Protect
+|
+|-damage|p1a: Ursaluna|76/100 tox|[from] psn
+|-status|p2a: Squawkabilly|brn|[from] item: Flame Orb
+|turn|9
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Ursaluna|Drain Punch|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-damage|p1a: Ursaluna|58/100 tox|[from] psn
+|-sideend|p2: JudgeScrub|move: Light Screen
+|-sideend|p1: Baxcaloblazed|move: Light Screen
+|turn|10
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|move|p2a: Dragapult|Dragon Darts|p1a: Thundurus
+|-damage|p1a: Thundurus|61/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Thundurus
+|-damage|p1a: Thundurus|45/100
+|
+|-sideend|p1: Baxcaloblazed|Reflect
+|-sideend|p2: JudgeScrub|Reflect
+|turn|11
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: JudgeScrub|move: Light Screen
+|move|p1a: Thundurus|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|82/100
+|
+|switch|p1a: Ursaluna|Ursaluna, F, shiny, tera:Normal|58/100 tox|[from] Volt Switch
+|-damage|p1a: Ursaluna|46/100 tox|[from] Stealth Rock
+|
+|-damage|p1a: Ursaluna|40/100 tox|[from] psn
+|turn|12
+|
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: JudgeScrub|Reflect
+|move|p1a: Ursaluna|Headlong Rush|p2a: Dragapult
+|-damage|p2a: Dragapult|25/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-damage|p1a: Ursaluna|28/100 tox|[from] psn
+|turn|13
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Ursaluna
+|-damage|p1a: Ursaluna|6/100 tox
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|45/100
+|-damage|p1a: Thundurus|21/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
+|-damage|p1a: Braviary|75/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Dragapult|U-turn|p1a: Braviary
+|-damage|p1a: Braviary|57/100
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100|[from] U-turn
+|move|p1a: Braviary|Dazzling Gleam|p2a: Cresselia
+|-damage|p2a: Cresselia|91/100
+|
+|-heal|p2a: Cresselia|97/100|[from] item: Leftovers
+|-heal|p1a: Braviary|63/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Dragapult|Dragapult, M|25/100
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|
+|-heal|p1a: Braviary|69/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Braviary
+|-damage|p1a: Braviary|46/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Braviary
+|-damage|p1a: Braviary|26/100
+|move|p1a: Braviary|Dazzling Gleam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Braviary|32/100|[from] item: Leftovers
+|
+|switch|p2a: Squawkabilly|Squawkabilly, F|100/100 brn
+|turn|18
+|
+|move|p2a: Squawkabilly|Facade|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|-damage|p2a: Squawkabilly|94/100 brn|[from] brn
+|-sideend|p2: JudgeScrub|move: Light Screen
+|
+|switch|p1a: Cresselia|Cresselia, F, shiny|88/100
+|-damage|p1a: Cresselia|76/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Squawkabilly|Facade|p1a: Cresselia
+|-damage|p1a: Cresselia|15/100
+|move|p1a: Cresselia|Psychic|p2a: Squawkabilly
+|-damage|p2a: Squawkabilly|46/100 brn
+|
+|-damage|p2a: Squawkabilly|40/100 brn|[from] brn
+|-sideend|p2: JudgeScrub|Reflect
+|turn|20
+|-message|Baxcaloblazed forfeited.
+|
+|win|JudgeScrub

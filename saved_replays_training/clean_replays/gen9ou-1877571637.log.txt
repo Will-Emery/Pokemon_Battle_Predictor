@@ -1,0 +1,532 @@
+|poke|p1|Urshifu-*, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Rotom-Wash|
+|poke|p2|Dragonite, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, F|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Empty|Hoopa-Unbound|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Empty|Trick|p2a: Magearna
+|-activate|p1a: Empty|move: Trick|[of] p2a: Magearna
+|-item|p2a: Magearna|Choice Scarf|[from] move: Trick
+|-item|p1a: Empty|Assault Vest|[from] move: Trick
+|move|p2a: Magearna|Fleur Cannon|p1a: Empty
+|-supereffective|p1a: Empty
+|-damage|p1a: Empty|27/100
+|-unboost|p2a: Magearna|spa|2
+|
+|turn|2
+|
+|switch|p1a: Maytag|Rotom-Wash|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|
+|turn|3
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Maytag|Hydro Pump|p2a: Magearna
+|-damage|p2a: Magearna|75/100
+|
+|turn|4
+|
+|move|p1a: Maytag|Protect|p1a: Maytag
+|-singleturn|p1a: Maytag|Protect
+|move|p2a: Magearna|Volt Switch|p1a: Maytag
+|-activate|p1a: Maytag|move: Protect
+|
+|turn|5
+|
+|move|p2a: Magearna|Volt Switch|p1a: Maytag
+|-damage|p1a: Maytag|76/100
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|move|p1a: Maytag|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|85/100
+|
+|switch|p1a: CVS|Slowking-Galar, F|100/100|[from] Volt Switch
+|
+|turn|6
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: CVS
+|-supereffective|p1a: CVS
+|-damage|p1a: CVS|54/100
+|-unboost|p1a: CVS|spd|1
+|move|p1a: CVS|Future Sight|p2a: Dragapult
+|-start|p1a: CVS|move: Future Sight
+|
+|turn|7
+|
+|switch|p1a: Empty|Hoopa-Unbound|27/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Empty
+|-damage|p1a: Empty|0 fnt
+|faint|p1a: Empty
+|
+|
+|switch|p1a: Maytag|Rotom-Wash|76/100
+|turn|8
+|
+|switch|p2a: Magearna|Magearna|75/100
+|move|p1a: Maytag|Protect||[still]
+|-fail|p1a: Maytag
+|
+|-end|p2a: Magearna|move: Future Sight
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|59/100
+|-heal|p1a: Maytag|83/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Dragapult|Dragapult, F|85/100
+|move|p1a: Maytag|Protect||[still]
+|-fail|p1a: Maytag
+|
+|-heal|p1a: Maytag|89/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Maytag|Protect|p1a: Maytag
+|-singleturn|p1a: Maytag|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Maytag
+|-activate|p1a: Maytag|move: Protect
+|
+|-heal|p1a: Maytag|95/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Maytag
+|-damage|p1a: Maytag|42/100
+|-unboost|p1a: Maytag|spd|1
+|move|p1a: Maytag|Thunder Wave|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|
+|-heal|p1a: Maytag|48/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Maytag|Protect|p1a: Maytag
+|-singleturn|p1a: Maytag|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Maytag
+|-activate|p1a: Maytag|move: Protect
+|
+|-heal|p1a: Maytag|54/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: CVS|Slowking-Galar, F|88/100
+|cant|p2a: Dragapult|par
+|
+|turn|14
+|
+|cant|p2a: Dragapult|par
+|move|p1a: CVS|Future Sight|p2a: Dragapult
+|-start|p1a: CVS|move: Future Sight
+|
+|turn|15
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: CVS
+|-supereffective|p1a: CVS
+|-damage|p1a: CVS|42/100
+|move|p1a: CVS|Flamethrower|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|70/100 par
+|
+|turn|16
+|
+|switch|p1a: Douglas|Zapdos, shiny|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Douglas
+|-damage|p1a: Douglas|49/100
+|-unboost|p1a: Douglas|spd|1
+|
+|-end|p2a: Dragapult|move: Future Sight
+|-damage|p2a: Dragapult|12/100 par
+|turn|17
+|
+|move|p1a: Douglas|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|switch|p1a: Maytag|Rotom-Wash|54/100|[from] Volt Switch
+|
+|-heal|p1a: Maytag|61/100|[from] item: Leftovers
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|18
+|
+|switch|p1a: Douglas|Zapdos, shiny|49/100
+|move|p2a: Urshifu|Close Combat|p1a: Douglas
+|-resisted|p1a: Douglas
+|-damage|p1a: Douglas|16/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|-status|p2a: Urshifu|par|[from] ability: Static|[of] p1a: Douglas
+|
+|turn|19
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Douglas
+|-damage|p1a: Douglas|0 fnt
+|faint|p1a: Douglas
+|
+|
+|switch|p1a: Maytag|Rotom-Wash|61/100
+|turn|20
+|
+|switch|p2a: Magearna|Magearna|59/100
+|move|p1a: Maytag|Volt Switch|p2a: Magearna
+|-damage|p2a: Magearna|41/100
+|
+|switch|p1a: CVS|Slowking-Galar, F|75/100|[from] Volt Switch
+|
+|turn|21
+|
+|switch|p1a: Dumbo|Great Tusk, shiny|100/100
+|move|p2a: Magearna|Volt Switch|p1a: Dumbo
+|-immune|p1a: Dumbo
+|
+|turn|22
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-end|p1a: Dumbo|Protosynthesis|[silent]
+|switch|p1a: Maytag|Rotom-Wash|61/100
+|
+|-heal|p1a: Maytag|67/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Maytag|Protect|p1a: Maytag
+|-singleturn|p1a: Maytag|Protect
+|move|p2a: Zapdos|Volt Switch|p1a: Maytag
+|-activate|p1a: Maytag|move: Protect
+|
+|-heal|p1a: Maytag|73/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Maytag
+|-crit|p1a: Maytag
+|-damage|p1a: Maytag|25/100
+|
+|switch|p2a: Magearna|Magearna|41/100|[from] Volt Switch
+|move|p1a: Maytag|Volt Switch|p2a: Magearna
+|-damage|p2a: Magearna|25/100
+|
+|switch|p1a: Dumbo|Great Tusk, shiny|100/100|[from] Volt Switch
+|
+|turn|25
+|
+|-end|p1a: Dumbo|Protosynthesis|[silent]
+|switch|p1a: CVS|Slowking-Galar, F|100/100
+|move|p2a: Magearna|Fleur Cannon|p1a: CVS
+|-resisted|p1a: CVS
+|-damage|p1a: CVS|88/100
+|-unboost|p2a: Magearna|spa|2
+|
+|turn|26
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: CVS|Future Sight|p2a: Zapdos
+|-start|p1a: CVS|move: Future Sight
+|
+|turn|27
+|
+|move|p2a: Zapdos|Hurricane|p1a: CVS
+|-damage|p1a: CVS|70/100
+|move|p1a: CVS|Sludge Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|69/100
+|
+|turn|28
+|
+|switch|p2a: Magearna|Magearna|25/100
+|switch|p1a: Dumbo|Great Tusk, shiny|100/100
+|
+|-end|p2a: Magearna|move: Future Sight
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|12/100
+|turn|29
+|
+|move|p2a: Magearna|Volt Switch|p1a: Dumbo
+|-immune|p1a: Dumbo
+|move|p1a: Dumbo|Stealth Rock|p2a: Magearna
+|-sidestart|p2: PSV2|move: Stealth Rock
+|
+|turn|30
+|
+|-end|p1a: Dumbo|Protosynthesis|[silent]
+|switch|p1a: Maytag|Rotom-Wash|25/100
+|move|p2a: Magearna|Volt Switch|p1a: Maytag
+|-damage|p1a: Maytag|2/100
+|
+|switch|p2a: Zapdos|Zapdos|69/100|[from] Volt Switch
+|
+|-heal|p1a: Maytag|8/100|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Maytag|Protect|p1a: Maytag
+|-singleturn|p1a: Maytag|Protect
+|move|p2a: Zapdos|Volt Switch|p1a: Maytag
+|-activate|p1a: Maytag|move: Protect
+|
+|-heal|p1a: Maytag|15/100|[from] item: Leftovers
+|turn|32
+|
+|switch|p1a: CVS|Slowking-Galar, F|100/100
+|move|p2a: Zapdos|Volt Switch|p1a: CVS
+|-damage|p1a: CVS|87/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|turn|33
+|
+|switch|p1a: Maytag|Rotom-Wash|15/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Maytag
+|-sidestart|p1: shootingstarblu|move: Stealth Rock
+|
+|-heal|p1a: Maytag|21/100|[from] item: Leftovers
+|turn|34
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|69/100
+|move|p1a: Maytag|Hydro Pump|p2a: Zapdos
+|-damage|p2a: Zapdos|30/100
+|
+|-heal|p1a: Maytag|27/100|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|80/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Maytag|Hydro Pump|p2a: Zapdos
+|-damage|p2a: Zapdos|41/100
+|
+|-heal|p1a: Maytag|33/100|[from] item: Leftovers
+|turn|36
+|
+|move|p1a: Maytag|Protect|p1a: Maytag
+|-singleturn|p1a: Maytag|Protect
+|move|p2a: Zapdos|Volt Switch|p1a: Maytag
+|-activate|p1a: Maytag|move: Protect
+|
+|-heal|p1a: Maytag|40/100|[from] item: Leftovers
+|turn|37
+|
+|switch|p1a: Dumbo|Great Tusk, shiny|100/100
+|-damage|p1a: Dumbo|97/100|[from] Stealth Rock
+|move|p2a: Zapdos|Volt Switch|p1a: Dumbo
+|-immune|p1a: Dumbo
+|
+|-heal|p1a: Dumbo|100/100|[from] item: Leftovers
+|turn|38
+|
+|-end|p1a: Dumbo|Protosynthesis|[silent]
+|switch|p1a: CVS|Slowking-Galar, F|100/100
+|-damage|p1a: CVS|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|91/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|39
+|
+|move|p2a: Zapdos|Volt Switch|p1a: CVS
+|-damage|p1a: CVS|76/100
+|
+|switch|p2a: Magearna|Magearna|12/100|[from] Volt Switch
+|-damage|p2a: Magearna|6/100|[from] Stealth Rock
+|move|p1a: CVS|Future Sight|p2a: Magearna
+|-start|p1a: CVS|move: Future Sight
+|
+|turn|40
+|
+|move|p2a: Magearna|Volt Switch|p1a: CVS
+|-damage|p1a: CVS|67/100
+|
+|switch|p2a: Zapdos|Zapdos|91/100|[from] Volt Switch
+|move|p1a: CVS|Flamethrower|p2a: Zapdos
+|-damage|p2a: Zapdos|69/100
+|
+|turn|41
+|
+|switch|p2a: Magearna|Magearna|6/100
+|-damage|p2a: Magearna|0 fnt|[from] Stealth Rock
+|faint|p2a: Magearna
+|move|p1a: CVS|Sludge Bomb|p2: Magearna|[notarget]
+|-fail|p1a: CVS
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|
+|switch|p2a: Great Tusk|Great Tusk|98/100
+|-damage|p2a: Great Tusk|95/100|[from] Stealth Rock
+|turn|42
+|
+|switch|p1a: Dumbo|Great Tusk, shiny|100/100
+|-damage|p1a: Dumbo|97/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Rapid Spin|p1a: Dumbo
+|-damage|p1a: Dumbo|91/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: PSV2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p1a: Dumbo|97/100|[from] item: Leftovers
+|turn|43
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Dumbo
+|-resisted|p1a: Dumbo
+|-damage|p1a: Dumbo|90/100
+|-enditem|p1a: Dumbo|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Dumbo|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|88/100
+|-boost|p1a: Dumbo|spe|1
+|-damage|p1a: Dumbo|74/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-sideend|p1: shootingstarblu|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Dumbo
+|
+|turn|44
+|
+|move|p1a: Dumbo|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|-damage|p1a: Dumbo|57/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-enditem|p2a: Great Tusk|Rocky Helmet|[from] move: Knock Off|[of] p1a: Dumbo
+|move|p2a: Great Tusk|Earthquake|p1a: Dumbo
+|-damage|p1a: Dumbo|37/100
+|
+|turn|45
+|
+|move|p1a: Dumbo|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: PSV2|move: Stealth Rock
+|move|p2a: Great Tusk|Earthquake|p1a: Dumbo
+|-damage|p1a: Dumbo|17/100
+|
+|turn|46
+|
+|-end|p1a: Dumbo|Protosynthesis|[silent]
+|switch|p1a: Maytag|Rotom-Wash|40/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Maytag
+|-damage|p1a: Maytag|27/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: PSV2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p1a: Maytag|33/100|[from] item: Leftovers
+|turn|47
+|
+|-terastallize|p2a: Great Tusk|Water
+|move|p1a: Maytag|Protect|p1a: Maytag
+|-singleturn|p1a: Maytag|Protect
+|move|p2a: Great Tusk|Knock Off|p1a: Maytag
+|-activate|p1a: Maytag|move: Protect
+|
+|-heal|p1a: Maytag|40/100|[from] item: Leftovers
+|turn|48
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Maytag
+|-damage|p1a: Maytag|16/100
+|-enditem|p1a: Maytag|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Maytag|Volt Switch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|23/100
+|
+|switch|p1a: Sergio|Urshifu-Rapid-Strike, F|100/100|[from] Volt Switch
+|
+|turn|49
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Sergio
+|-sidestart|p1: shootingstarblu|move: Stealth Rock
+|move|p1a: Sergio|Surging Strikes|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|16/100
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|9/100
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|2/100
+|-hitcount|p2a: Great Tusk|3
+|
+|turn|50
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Sergio
+|-resisted|p1a: Sergio
+|-damage|p1a: Sergio|86/100
+|-enditem|p1a: Sergio|Choice Band|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Sergio|Surging Strikes|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|1
+|
+|
+|switch|p2a: Zapdos|Zapdos|69/100
+|turn|51
+|
+|-terastallize|p1a: Sergio|Water
+|move|p2a: Zapdos|Volt Switch|p1a: Sergio
+|-supereffective|p1a: Sergio
+|-damage|p1a: Sergio|0 fnt
+|faint|p1a: Sergio
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100 par|[from] Volt Switch
+|
+|
+|switch|p1a: CVS|Slowking-Galar, F|100/100
+|-damage|p1a: CVS|88/100|[from] Stealth Rock
+|turn|52
+|
+|cant|p2a: Urshifu|par
+|move|p1a: CVS|Future Sight|p2a: Urshifu
+|-start|p1a: CVS|move: Future Sight
+|
+|turn|53
+|
+|switch|p1a: Dumbo|Great Tusk, shiny|17/100
+|-damage|p1a: Dumbo|14/100|[from] Stealth Rock
+|move|p2a: Urshifu|Surging Strikes|p1a: Dumbo
+|-supereffective|p1a: Dumbo
+|-crit|p1a: Dumbo
+|-damage|p1a: Dumbo|0 fnt
+|faint|p1a: Dumbo
+|-end|p1a: Dumbo|Protosynthesis|[silent]
+|-hitcount|p1: Dumbo|1
+|
+|
+|switch|p1a: Maytag|Rotom-Wash|16/100
+|-damage|p1a: Maytag|3/100|[from] Stealth Rock
+|turn|54
+|
+|move|p1a: Maytag|Volt Switch|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|30/100 par
+|
+|switch|p1a: CVS|Slowking-Galar, F|100/100|[from] Volt Switch
+|-damage|p1a: CVS|88/100|[from] Stealth Rock
+|move|p2a: Urshifu|Close Combat|p1a: CVS
+|-resisted|p1a: CVS
+|-crit|p1a: CVS
+|-damage|p1a: CVS|65/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-end|p2a: Urshifu|move: Future Sight
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|switch|p2a: Shenlong|Dragonite, M|100/100
+|turn|55
+|
+|move|p2a: Shenlong|Earthquake|p1a: CVS
+|-supereffective|p1a: CVS
+|-damage|p1a: CVS|0 fnt
+|faint|p1a: CVS
+|
+|
+|switch|p1a: Maytag|Rotom-Wash|3/100
+|-damage|p1a: Maytag|0 fnt|[from] Stealth Rock
+|faint|p1a: Maytag
+|
+|win|PSV2

@@ -1,0 +1,188 @@
+|poke|p1|Baxcalibur, F|
+|poke|p1|Chansey, F|
+|poke|p1|Scorbunny, M|
+|poke|p1|Mudsdale, M|
+|poke|p2|Clawitzer, F|
+|poke|p2|Greavard, F|
+|poke|p2|Nacli, F|
+|poke|p2|Sinistea-Antique|
+|teampreview
+|
+|start
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|switch|p2a: Nacli|Nacli, F|100/100
+|turn|1
+|
+|move|p1a: Mudsdale|Stealth Rock|p2a: Nacli
+|-sidestart|p2: beeeebz|move: Stealth Rock
+|move|p2a: Nacli|Stealth Rock|p1a: Mudsdale
+|-sidestart|p1: DIMU179|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Mudsdale|Earthquake|p2a: Nacli
+|-supereffective|p2a: Nacli
+|-damage|p2a: Nacli|22/100
+|move|p2a: Nacli|Earthquake|p1a: Mudsdale
+|-damage|p1a: Mudsdale|87/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p1a: Mudsdale|94/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Mudsdale|Earthquake|p2a: Nacli
+|-supereffective|p2a: Nacli
+|-damage|p2a: Nacli|0 fnt
+|faint|p2a: Nacli
+|
+|-heal|p1a: Mudsdale|99/100|[from] item: Leftovers
+|
+|switch|p2a: Clawitzer|Clawitzer, F|100/100
+|-damage|p2a: Clawitzer|88/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|move|p2a: Clawitzer|Flash Cannon|p1a: Chansey
+|-damage|p1a: Chansey|76/100
+|
+|turn|5
+|
+|switch|p2a: Sinistea|Sinistea-Antique|100/100
+|-damage|p2a: Sinistea|88/100|[from] Stealth Rock
+|move|p1a: Chansey|Thunder Wave|p2a: Sinistea
+|-status|p2a: Sinistea|par
+|
+|turn|6
+|
+|switch|p1a: Mudsdale|Mudsdale, M|99/100
+|-damage|p1a: Mudsdale|94/100|[from] Stealth Rock
+|move|p2a: Sinistea|Shell Smash|p2a: Sinistea
+|-unboost|p2a: Sinistea|def|1
+|-unboost|p2a: Sinistea|spd|1
+|-boost|p2a: Sinistea|atk|2
+|-boost|p2a: Sinistea|spa|2
+|-boost|p2a: Sinistea|spe|2
+|
+|-heal|p1a: Mudsdale|99/100|[from] item: Leftovers
+|turn|7
+|
+|cant|p2a: Sinistea|par
+|move|p1a: Mudsdale|Earthquake|p2a: Sinistea
+|-damage|p2a: Sinistea|0 fnt
+|faint|p2a: Sinistea
+|
+|-heal|p1a: Mudsdale|100/100|[from] item: Leftovers
+|
+|switch|p2a: Clawitzer|Clawitzer, F|88/100
+|-damage|p2a: Clawitzer|76/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Clawitzer|Water Pulse|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|-damage|p1a: Baxcalibur|76/100|[from] Stealth Rock
+|turn|9
+|
+|-terastallize|p2a: Clawitzer|Steel
+|move|p1a: Baxcalibur|Dragon Dance|p1a: Baxcalibur
+|-boost|p1a: Baxcalibur|atk|1
+|-boost|p1a: Baxcalibur|spe|1
+|move|p2a: Clawitzer|Water Pulse|p1a: Baxcalibur
+|-resisted|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|37/100
+|-start|p1a: Baxcalibur|confusion
+|
+|turn|10
+|
+|-activate|p1a: Baxcalibur|confusion
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Clawitzer
+|-resisted|p2a: Clawitzer
+|-damage|p2a: Clawitzer|16/100
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|move|p2a: Clawitzer|Water Pulse|p1a: Baxcalibur
+|-resisted|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|
+|switch|p1a: Scorbunny|Scorbunny, M|100/100
+|-damage|p1a: Scorbunny|76/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Scorbunny|Flare Blitz|p2a: Clawitzer
+|-supereffective|p2a: Clawitzer
+|-damage|p2a: Clawitzer|0 fnt
+|faint|p2a: Clawitzer
+|-damage|p1a: Scorbunny|69/100|[from] Recoil
+|
+|
+|switch|p2a: Greavard|Greavard, F|100/100
+|-damage|p2a: Greavard|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Chansey|Chansey, F|76/100
+|-damage|p1a: Chansey|64/100|[from] Stealth Rock
+|move|p2a: Greavard|Crunch|p1a: Chansey
+|-damage|p1a: Chansey|49/100
+|
+|turn|13
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|99/100
+|move|p2a: Greavard|Fire Fang|p1a: Chansey
+|-damage|p1a: Chansey|87/100
+|
+|turn|14
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Greavard
+|-status|p2a: Greavard|par
+|move|p2a: Greavard|Fire Fang|p1a: Chansey
+|-damage|p1a: Chansey|76/100
+|
+|turn|15
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Greavard
+|-immune|p2a: Greavard
+|move|p2a: Greavard|Fire Fang|p1a: Chansey
+|-damage|p1a: Chansey|64/100
+|
+|turn|16
+|
+|switch|p1a: Scorbunny|Scorbunny, M|69/100
+|-damage|p1a: Scorbunny|44/100|[from] Stealth Rock
+|cant|p2a: Greavard|par
+|
+|turn|17
+|
+|move|p1a: Scorbunny|Sucker Punch|p2a: Greavard
+|-start|p1a: Scorbunny|typechange|Dark|[from] ability: Libero
+|-supereffective|p2a: Greavard
+|-crit|p2a: Greavard
+|-damage|p2a: Greavard|24/100 par
+|move|p2a: Greavard|Shadow Sneak|p1a: Scorbunny
+|-resisted|p1a: Scorbunny
+|-damage|p1a: Scorbunny|31/100
+|
+|turn|18
+|
+|-terastallize|p1a: Scorbunny|Fire
+|move|p1a: Scorbunny|Flare Blitz|p2a: Greavard
+|-damage|p2a: Greavard|0 fnt
+|faint|p2a: Greavard
+|-damage|p1a: Scorbunny|21/100|[from] Recoil
+|
+|win|DIMU179
+|n|☆DIMU179|dimu179
+|n|☆beeeebz|beeeebz
+|n|*Lady Monita|ladymonita
+|n| Fun bun duck|funbunduck
+|n| Hrathen123|hrathen123
+|n| Icey Warzone|iceywarzone
+|n| mota gorilla|motagorilla
+|n| Dragonair2fair|dragonair2fair

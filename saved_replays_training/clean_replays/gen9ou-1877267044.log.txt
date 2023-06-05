@@ -1,0 +1,284 @@
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Roaring Moon|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Zapdos|
+|poke|p2|Clodsire, M|
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Hatterene
+|-damage|p1a: Hatterene|62/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Torkoal|Yawn|p2a: Pelipper
+|-start|p2a: Pelipper|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|62/100
+|move|p2a: Pelipper|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|55/100
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Hatterene
+|-damage|p1a: Hatterene|13/100
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hatterene|Draining Kiss|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|90/100
+|-heal|p1a: Hatterene|23/100|[from] drain|[of] p2a: Corviknight
+|-damage|p1a: Hatterene|7/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p2a: Corviknight|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|6
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Torkoal
+|-damage|p1a: Torkoal|52/100
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Torkoal|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Ayudame1|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|move|p2a: Pelipper|U-turn|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|78/100
+|
+|switch|p2a: Corviknight|Corviknight, M|90/100|[from] U-turn
+|-damage|p2a: Corviknight|78/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Roaring Moon|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|72/100
+|-damage|p1a: Roaring Moon|62/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M|52/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Corviknight|Defog|p1a: Torkoal
+|-unboost|p1a: Torkoal|evasion|1
+|-sideend|p2: Ayudame1|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Torkoal|Lava Plume|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|92/100
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Pelipper|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|49/100
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|70/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Pelipper|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Torkoal|Torkoal, M|52/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|12
+|
+|move|p2a: Pelipper|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|50/100
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100|[from] U-turn
+|move|p1a: Torkoal|Lava Plume|p2a: Clodsire
+|-damage|p2a: Clodsire|80/100
+|-status|p2a: Clodsire|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clodsire|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|80/100 brn|[from] brn
+|turn|13
+|
+|switch|p1a: Roaring Moon|Roaring Moon|62/100
+|-activate|p1a: Roaring Moon|ability: Protosynthesis
+|-start|p1a: Roaring Moon|protosynthesisatk
+|move|p2a: Clodsire|Toxic|p1a: Roaring Moon
+|-status|p1a: Roaring Moon|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clodsire|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Roaring Moon|56/100 tox|[from] psn
+|-damage|p2a: Clodsire|80/100 brn|[from] brn
+|turn|14
+|
+|switch|p2a: Pelipper|Pelipper, F|70/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Roaring Moon|Protosynthesis
+|move|p1a: Roaring Moon|Dragon Claw|p2a: Pelipper
+|-damage|p2a: Pelipper|35/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Roaring Moon|44/100 tox|[from] psn
+|turn|15
+|
+|move|p1a: Roaring Moon|Dragon Claw|p2a: Pelipper
+|-damage|p2a: Pelipper|1/100
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|51/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Roaring Moon|26/100 tox|[from] psn
+|turn|16
+|
+|switch|p2a: Corviknight|Corviknight, M|72/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Roaring Moon|Dragon Claw|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|-damage|p1a: Roaring Moon|9/100 tox|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Roaring Moon|0 fnt|[from] psn
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|switch|p1a: Torkoal|Torkoal, M|50/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|17
+|
+|switch|p2a: Pelipper|Pelipper, F|51/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Torkoal|Lava Plume|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|42/100
+|-status|p2a: Pelipper|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|36/100 brn|[from] brn
+|turn|18
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|86/100 brn
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|80/100 brn|[from] brn
+|turn|19
+|
+|move|p2a: Pelipper|U-turn|p1a: Kingambit
+|-damage|p1a: Kingambit|97/100
+|
+|switch|p2a: Clodsire|Clodsire, M|80/100 brn|[from] U-turn
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Clodsire|80/100 brn|[from] brn
+|turn|20
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|-damage|p1a: Kingambit|87/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Corviknight|Corviknight, M|60/100
+|-ability|p2a: Corviknight|Pressure
+|turn|21
+|
+|move|p2a: Corviknight|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|11/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Kingambit|0 fnt|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-weather|none
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p2a: Thundurus|Choice Scarf|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|turn|22
+|
+|-terastallize|p1a: Typhlosion|Fire
+|move|p2a: Thundurus|Volt Switch|p1a: Typhlosion
+|-damage|p1a: Typhlosion|46/100
+|
+|switch|p2a: Pelipper|Pelipper, F|80/100 brn|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Typhlosion|Eruption|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|57/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|51/100 brn|[from] brn
+|turn|23
+|-message|Hank45 forfeited.
+|
+|win|Ayudame1

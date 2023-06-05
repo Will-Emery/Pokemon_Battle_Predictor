@@ -1,0 +1,128 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, M|
+|poke|p2|Gholdengo|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Ursaluna|Ursaluna, M, shiny|100/100
+|switch|p2a: Manny|Great Tusk|100/100
+|turn|1
+|
+|move|p2a: Manny|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: johnjohnsonthe3rd|move: Stealth Rock
+|move|p1a: Ursaluna|Drain Punch|p2a: Manny
+|-damage|p2a: Manny|87/100
+|
+|-heal|p2a: Manny|93/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|2
+|
+|move|p2a: Manny|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|68/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Manny
+|-damage|p2a: Manny|36/100
+|
+|-heal|p2a: Manny|42/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|61/100 brn|[from] brn
+|turn|3
+|
+|-end|p2a: Manny|Protosynthesis|[silent]
+|switch|p2a: Andrew Tate|Gholdengo|100/100
+|move|p1a: Ursaluna|Facade|p2a: Andrew Tate
+|-immune|p2a: Andrew Tate
+|
+|-damage|p1a: Ursaluna|55/100 brn|[from] brn
+|turn|4
+|
+|move|p2a: Andrew Tate|Focus Blast|p1a: Ursaluna|[miss]
+|-miss|p2a: Andrew Tate|p1a: Ursaluna
+|move|p1a: Ursaluna|Headlong Rush|p2a: Andrew Tate
+|-supereffective|p2a: Andrew Tate
+|-damage|p2a: Andrew Tate|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Andrew Tate
+|
+|-damage|p1a: Ursaluna|49/100 brn|[from] brn
+|
+|switch|p2a: Tai Lung|Chien-Pao|100/100
+|-ability|p2a: Tai Lung|Sword of Ruin
+|turn|5
+|
+|move|p2a: Tai Lung|Sacred Sword|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Manny|Great Tusk|42/100
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|-heal|p2a: Manny|48/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Sneasler|Close Combat|p2a: Manny
+|-damage|p2a: Manny|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|faint|p2a: Manny
+|-end|p2a: Manny|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Bruce Lee|Zapdos, shiny|100/100
+|turn|8
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Bruce Lee
+|-crit|p2a: Bruce Lee
+|-damage|p2a: Bruce Lee|0 fnt
+|faint|p2a: Bruce Lee
+|
+|
+|switch|p2a: Patrick Galar|Slowking-Galar, F|100/100
+|turn|9
+|
+|-terastallize|p1a: Sneasler|Ghost
+|move|p1a: Sneasler|Shadow Claw|p2a: Patrick Galar
+|-supereffective|p2a: Patrick Galar
+|-damage|p2a: Patrick Galar|0 fnt
+|faint|p2a: Patrick Galar
+|
+|
+|switch|p2a: Alita|Magearna|100/100
+|turn|10
+|
+|move|p1a: Sneasler|Close Combat|p2a: Alita
+|-damage|p2a: Alita|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Alita
+|
+|
+|switch|p2a: Tai Lung|Chien-Pao|100/100
+|-ability|p2a: Tai Lung|Sword of Ruin
+|turn|11
+|
+|move|p2a: Tai Lung|Sucker Punch|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-message|hitotsuba forfeited.
+|
+|win|johnjohnsonthe3rd

@@ -1,0 +1,152 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Magearna|
+|poke|p1|Glastrier|
+|poke|p1|Garganacl, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: My Glorious King|Slowking-Galar, F|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|move|p2a: Torkoal|Stealth Rock|p1a: My Glorious King
+|-sidestart|p1: destinsimons|move: Stealth Rock
+|move|p1a: My Glorious King|Trick Room|p1a: My Glorious King
+|-fieldstart|move: Trick Room|[of] p1a: My Glorious King
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: My Glorious King|Chilly Reception|p1a: My Glorious King
+|-weather|Snow
+|
+|switch|p1a: Cocaine Bear|Ursaluna, M|100/100|[from] Chilly Reception
+|-damage|p1a: Cocaine Bear|94/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-status|p1a: Cocaine Bear|brn|[from] item: Flame Orb
+|turn|3
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Cocaine Bear|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Cocaine Bear|88/100 brn|[from] brn
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|4
+|
+|move|p1a: Cocaine Bear|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Solar Blade||[still]
+|-prepare|p2a: Ceruledge|Solar Blade
+|-anim|p2a: Ceruledge|Solar Blade|p1a: Cocaine Bear
+|-supereffective|p1a: Cocaine Bear
+|-damage|p1a: Cocaine Bear|30/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Cocaine Bear|24/100 brn|[from] brn
+|turn|5
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Cocaine Bear
+|-immune|p1a: Cocaine Bear
+|move|p1a: Cocaine Bear|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Cocaine Bear|18/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|6
+|
+|switch|p1a: Ou Forever|Magearna|100/100
+|-damage|p1a: Ou Forever|94/100|[from] Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Ou Forever
+|-resisted|p1a: Ou Forever
+|-damage|p1a: Ou Forever|92/100
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Ou Forever
+|-damage|p1a: Ou Forever|0 fnt
+|faint|p1a: Ou Forever
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: My Glorious King|Slowking-Galar, F|100/100
+|-damage|p1a: My Glorious King|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: My Glorious King
+|-damage|p1a: My Glorious King|0 fnt
+|faint|p1a: My Glorious King
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Salt Jubilee|Garganacl, M|100/100
+|-damage|p1a: Salt Jubilee|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Salt Jubilee
+|-supereffective|p1a: Salt Jubilee
+|-damage|p1a: Salt Jubilee|0 fnt
+|faint|p1a: Salt Jubilee
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Bojack|Glastrier|100/100
+|-damage|p1a: Bojack|76/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Bojack
+|-damage|p1a: Bojack|0 fnt
+|faint|p1a: Bojack
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|
+|switch|p1a: Tame Impala|Cresselia, F|100/100
+|-damage|p1a: Tame Impala|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Tame Impala
+|-damage|p1a: Tame Impala|43/100
+|-enditem|p1a: Tame Impala|Eject Button
+|
+|switch|p1a: Cocaine Bear|Ursaluna, M|18/100 brn
+|-damage|p1a: Cocaine Bear|12/100 brn|[from] Stealth Rock
+|
+|-damage|p1a: Cocaine Bear|6/100 brn|[from] brn
+|turn|12
+|-message|destinsimons forfeited.
+|
+|win|Lostie_Kitkat

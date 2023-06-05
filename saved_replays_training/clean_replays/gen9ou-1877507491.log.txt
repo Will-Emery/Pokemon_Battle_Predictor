@@ -1,0 +1,168 @@
+|poke|p1|Volcanion|
+|poke|p1|Ursaluna, M|
+|poke|p1|Magearna|
+|poke|p1|Zamazenta-*|
+|poke|p1|Sneasler, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Cinderace, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Sneasler, F|
+|poke|p2|Rillaboom, M|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|1
+|
+|move|p2a: Iron Valiant|Taunt|p1a: Magearna
+|-start|p1a: Magearna|move: Taunt
+|cant|p1a: Magearna|move: Taunt|Trick Room
+|
+|turn|2
+|
+|move|p2a: Iron Valiant|Knock Off|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|86/100
+|-enditem|p1a: Magearna|Eject Pack|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Magearna|Fleur Cannon|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-enditem|p2a: Iron Valiant|Focus Sash
+|-damage|p2a: Iron Valiant|1/100
+|-unboost|p1a: Magearna|spa|2
+|
+|turn|3
+|
+|move|p2a: Iron Valiant|Reversal|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|move|p2a: Iron Valiant|Reversal|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|26/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|turn|5
+|
+|move|p2a: Iron Valiant|Reversal|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|7
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Cinderace|U-turn|p1a: Volcanion
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|86/100
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|
+|turn|8
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100|[from] Chilly Reception
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-weather|Snow|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|9
+|
+|move|p2a: Rillaboom|Drain Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|70/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Ursaluna|76/100 brn|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|70/100 brn|[from] brn
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-enditem|p2a: Sneasler|Grassy Seed
+|-boost|p2a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|10
+|
+|move|p2a: Sneasler|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Ursaluna
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-item|p1a: Sneasler|Air Balloon
+|turn|11
+|
+|move|p2a: Sneasler|Acrobatics|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-enditem|p1a: Sneasler|Air Balloon
+|faint|p1a: Sneasler
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|12
+|
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p2a: Sneasler|Close Combat|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Chien-Pao
+|
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|
+|switch|p1a: Volcanion|Volcanion|86/100
+|turn|13
+|
+|-terastallize|p2a: Sneasler|Flying
+|move|p2a: Sneasler|Acrobatics|p1a: Volcanion
+|-damage|p1a: Volcanion|32/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|14
+|
+|move|p1a: Volcanion|Taunt|p2a: Slowking
+|-start|p2a: Slowking|move: Taunt
+|move|p2a: Slowking|Sludge Bomb|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|win|PKRS Romeo

@@ -1,0 +1,420 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Azelf|
+|poke|p1|Kingambit, M|
+|poke|p1|Enamorus, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Dondozo, M|
+|poke|p2|Ditto|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Blissey, F|
+|poke|p2|Sylveon, M|
+|teampreview
+|
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Left Testicle|Electrode-Hisui|100/100
+|turn|1
+|
+|move|p2a: Left Testicle|Taunt|p1a: Azelf
+|-start|p1a: Azelf|move: Taunt
+|cant|p1a: Azelf|move: Taunt|Light Screen
+|
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Left Testicle|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|73/100
+|-damage|p2a: Left Testicle|91/100|[from] item: Life Orb
+|
+|switch|p2a: Actually OP|Lilligant-Hisui, F|100/100|[from] Volt Switch
+|
+|-heal|p1a: Magearna|79/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Azelf|Azelf|100/100
+|move|p2a: Actually OP|Close Combat|p1a: Azelf
+|-resisted|p1a: Azelf
+|-damage|p1a: Azelf|48/100
+|-unboost|p2a: Actually OP|def|1
+|-unboost|p2a: Actually OP|spd|1
+|
+|turn|4
+|
+|move|p1a: Azelf|Reflect|p1a: Azelf
+|-sidestart|p1: ike brovlovskii|Reflect
+|move|p2a: Actually OP|Leaf Blade|p1a: Azelf
+|-damage|p1a: Azelf|8/100
+|
+|turn|5
+|
+|move|p1a: Azelf|Explosion|p2a: Actually OP
+|-damage|p2a: Actually OP|0 fnt
+|faint|p1a: Azelf
+|faint|p2a: Actually OP
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|switch|p2a: 41%|Sylveon, M|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|6
+|
+|switch|p1a: Magearna|Magearna|79/100
+|move|p2a: 41%|Moonblast|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|64/100
+|
+|-heal|p1a: Magearna|70/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Dittttttto|Ditto, shiny|100/100
+|-transform|p2a: Dittttttto|p1a: Magearna|[from] ability: Imposter
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|76/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Right testicle|Blissey, F|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|82/100|[from] item: Leftovers
+|turn|9
+|
+|-terastallize|p2a: Right testicle|Steel
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Right testicle|Calm Mind|p2a: Right testicle
+|-boost|p2a: Right testicle|spa|1
+|-boost|p2a: Right testicle|spd|1
+|
+|-heal|p1a: Magearna|88/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Magearna|Stored Power|p2a: Right testicle
+|-resisted|p2a: Right testicle
+|-damage|p2a: Right testicle|88/100
+|move|p2a: Right testicle|Calm Mind|p2a: Right testicle
+|-boost|p2a: Right testicle|spa|1
+|-boost|p2a: Right testicle|spd|1
+|
+|-heal|p1a: Magearna|94/100|[from] item: Leftovers
+|-heal|p2a: Right testicle|95/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|move|p2a: Right testicle|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|76/100
+|
+|-heal|p1a: Zamazenta|83/100|[from] item: Leftovers
+|-heal|p2a: Right testicle|100/100|[from] item: Leftovers
+|-sideend|p1: ike brovlovskii|Reflect
+|turn|12
+|
+|switch|p2a: Beeg Feesh|Dondozo, M|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|89/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Beeg Feesh|Curse|p2a: Beeg Feesh
+|-unboost|p2a: Beeg Feesh|spe|1
+|-boost|p2a: Beeg Feesh|atk|1
+|-boost|p2a: Beeg Feesh|def|1
+|
+|turn|14
+|
+|move|p1a: Enamorus|Moonblast|p2a: Beeg Feesh
+|-damage|p2a: Beeg Feesh|55/100
+|move|p2a: Beeg Feesh|Liquidation|p1a: Enamorus
+|-damage|p1a: Enamorus|36/100
+|-start|p2a: Beeg Feesh|Attract|[from] ability: Cute Charm|[of] p1a: Enamorus
+|
+|-heal|p2a: Beeg Feesh|61/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Left Testicle|Electrode-Hisui|91/100
+|move|p1a: Enamorus|Moonblast|p2a: Left Testicle
+|-damage|p2a: Left Testicle|13/100
+|
+|turn|16
+|
+|switch|p1a: Magearna|Magearna|94/100
+|move|p2a: Left Testicle|Volt Switch|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|50/100
+|-damage|p2a: Left Testicle|3/100|[from] item: Life Orb
+|
+|switch|p2a: Right testicle|Blissey, F, tera:Steel|100/100|[from] Volt Switch
+|
+|-heal|p1a: Magearna|56/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Zamazenta|Zamazenta|89/100
+|move|p2a: Right testicle|Ice Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|76/100
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Left Testicle|Electrode-Hisui|3/100
+|move|p1a: Zamazenta|Body Press|p2a: Left Testicle
+|-damage|p2a: Left Testicle|0 fnt
+|-damage|p1a: Zamazenta|57/100|[from] ability: Aftermath|[of] p2a: Left Testicle
+|faint|p2a: Left Testicle
+|
+|-heal|p1a: Zamazenta|63/100|[from] item: Leftovers
+|
+|switch|p2a: Dittttttto|Ditto, shiny|100/100
+|-transform|p2a: Dittttttto|p1a: Zamazenta|[from] ability: Imposter
+|-ability|p2a: Dittttttto|Dauntless Shield|boost
+|-boost|p2a: Dittttttto|def|1
+|turn|19
+|
+|switch|p1a: Enamorus|Enamorus, F|36/100
+|move|p2a: Dittttttto|Body Press|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|17/100
+|
+|turn|20
+|
+|move|p2a: Dittttttto|Body Press|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Magearna|Magearna|56/100
+|turn|21
+|
+|move|p2a: Dittttttto|Body Press|p1a: Magearna
+|-damage|p1a: Magearna|27/100
+|move|p1a: Magearna|Draining Kiss|p2a: Dittttttto
+|-supereffective|p2a: Dittttttto
+|-damage|p2a: Dittttttto|60/100
+|-heal|p1a: Magearna|52/100|[from] drain|[of] p2a: Dittttttto
+|
+|-heal|p1a: Magearna|58/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Right testicle|Blissey, F, tera:Steel|100/100
+|move|p1a: Magearna|Draining Kiss|p2a: Right testicle
+|-resisted|p2a: Right testicle
+|-damage|p2a: Right testicle|96/100
+|-heal|p1a: Magearna|64/100|[from] drain|[of] p2a: Right testicle
+|
+|-heal|p1a: Magearna|70/100|[from] item: Leftovers
+|-heal|p2a: Right testicle|100/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p1a: Zamazenta|Zamazenta|63/100
+|move|p2a: Right testicle|Ice Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|51/100
+|
+|-heal|p1a: Zamazenta|57/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p2a: Beeg Feesh|Dondozo, M|61/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|64/100|[from] item: Leftovers
+|-heal|p2a: Beeg Feesh|67/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Zamazenta|Body Press|p2a: Beeg Feesh
+|-damage|p2a: Beeg Feesh|52/100
+|move|p2a: Beeg Feesh|Yawn|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Yawn|[of] p2a: Beeg Feesh
+|
+|-heal|p1a: Zamazenta|70/100|[from] item: Leftovers
+|-heal|p2a: Beeg Feesh|58/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p1a: Magearna|Magearna|70/100
+|move|p2a: Beeg Feesh|Curse|p2a: Beeg Feesh
+|-unboost|p2a: Beeg Feesh|spe|1
+|-boost|p2a: Beeg Feesh|atk|1
+|-boost|p2a: Beeg Feesh|def|1
+|
+|-heal|p1a: Magearna|76/100|[from] item: Leftovers
+|-heal|p2a: Beeg Feesh|64/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Beeg Feesh|Liquidation|p1a: Magearna
+|-damage|p1a: Magearna|46/100
+|-unboost|p1a: Magearna|def|1
+|
+|-heal|p1a: Magearna|52/100|[from] item: Leftovers
+|-heal|p2a: Beeg Feesh|70/100|[from] item: Leftovers
+|turn|28
+|
+|-terastallize|p1a: Magearna|Psychic
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Beeg Feesh|Body Press|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|38/100
+|
+|-heal|p1a: Magearna|44/100|[from] item: Leftovers
+|-heal|p2a: Beeg Feesh|76/100|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Magearna|Stored Power|p2a: Beeg Feesh
+|-damage|p2a: Beeg Feesh|22/100
+|move|p2a: Beeg Feesh|Liquidation|p1a: Magearna
+|-damage|p1a: Magearna|15/100
+|
+|-heal|p1a: Magearna|21/100|[from] item: Leftovers
+|-heal|p2a: Beeg Feesh|28/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Magearna|Stored Power|p2a: Beeg Feesh
+|-damage|p2a: Beeg Feesh|0 fnt
+|faint|p2a: Beeg Feesh
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|27/100|[from] item: Leftovers
+|
+|switch|p2a: Dittttttto|Ditto, shiny|60/100
+|-transform|p2a: Dittttttto|p1a: Magearna|[from] ability: Imposter
+|-start|p2a: Dittttttto|typechange|Steel/Fairy|[silent]
+|turn|31
+|
+|move|p2a: Dittttttto|Draining Kiss|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-heal|p2a: Dittttttto|83/100|[from] drain|[of] p1a: Magearna
+|faint|p1a: Magearna
+|-ability|p2a: Dittttttto|Soul-Heart|boost
+|-boost|p2a: Dittttttto|spa|1
+|
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|32
+|
+|move|p2a: Dittttttto|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|56/100
+|-heal|p2a: Dittttttto|100/100|[from] drain|[of] p1a: Kingambit
+|move|p1a: Kingambit|Iron Head|p2a: Dittttttto
+|-damage|p2a: Dittttttto|25/100
+|
+|turn|33
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Dittttttto
+|-resisted|p2a: Dittttttto
+|-damage|p2a: Dittttttto|0 fnt
+|faint|p2a: Dittttttto
+|
+|
+|switch|p2a: Right testicle|Blissey, F, tera:Steel|100/100
+|turn|34
+|
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Zamazenta|Zamazenta|70/100
+|move|p2a: Right testicle|Ice Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|58/100
+|-status|p1a: Zamazenta|frz
+|
+|-heal|p1a: Zamazenta|64/100 frz|[from] item: Leftovers
+|turn|35
+|
+|cant|p1a: Zamazenta|frz
+|move|p2a: Right testicle|Calm Mind|p2a: Right testicle
+|-boost|p2a: Right testicle|spa|1
+|-boost|p2a: Right testicle|spd|1
+|
+|-heal|p1a: Zamazenta|70/100 frz|[from] item: Leftovers
+|turn|36
+|
+|cant|p1a: Zamazenta|frz
+|move|p2a: Right testicle|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|50/100 frz
+|
+|-heal|p1a: Zamazenta|56/100 frz|[from] item: Leftovers
+|turn|37
+|
+|-curestatus|p1a: Zamazenta|frz|[msg]
+|move|p1a: Zamazenta|Body Press|p2a: Right testicle
+|-supereffective|p2a: Right testicle
+|-damage|p2a: Right testicle|42/100
+|move|p2a: Right testicle|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|37/100
+|-status|p1a: Zamazenta|par
+|
+|-heal|p1a: Zamazenta|43/100 par|[from] item: Leftovers
+|-heal|p2a: Right testicle|48/100|[from] item: Leftovers
+|turn|38
+|
+|switch|p2a: 41%|Sylveon, M|100/100
+|cant|p1a: Zamazenta|par
+|
+|-heal|p1a: Zamazenta|49/100 par|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: Zamazenta|Body Press|p2a: 41%
+|-resisted|p2a: 41%
+|-damage|p2a: 41%|88/100
+|move|p2a: 41%|Moonblast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|40
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: 41%
+|-damage|p2a: 41%|43/100
+|move|p2a: 41%|Moonblast|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Kingambit|Kingambit, M|56/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|41
+|
+|move|p2a: 41%|Moonblast|p1a: Kingambit
+|-damage|p1a: Kingambit|21/100
+|move|p1a: Kingambit|Iron Head|p2a: 41%
+|-supereffective|p2a: 41%
+|-damage|p2a: 41%|0 fnt
+|faint|p2a: 41%
+|
+|
+|switch|p2a: Right testicle|Blissey, F, tera:Steel|48/100
+|turn|42
+|
+|move|p2a: Right testicle|Soft-Boiled|p2a: Right testicle
+|-heal|p2a: Right testicle|98/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Right testicle
+|-damage|p2a: Right testicle|16/100
+|
+|-heal|p2a: Right testicle|22/100|[from] item: Leftovers
+|turn|43
+|
+|move|p2a: Right testicle|Thunderbolt|p1a: Kingambit
+|-damage|p1a: Kingambit|4/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Right testicle
+|-damage|p2a: Right testicle|0 fnt
+|faint|p2a: Right testicle
+|
+|win|ike brovlovskii

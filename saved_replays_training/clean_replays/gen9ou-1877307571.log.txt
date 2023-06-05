@@ -1,0 +1,294 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Sneasler, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, F|
+|poke|p1|Zapdos|
+|poke|p2|Scizor, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: IM BACK BOYS|Landorus-Therian, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-ability|p1a: IM BACK BOYS|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|turn|1
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: IM BACK BOYS
+|-sidestart|p1: fuub|move: Stealth Rock
+|move|p1a: IM BACK BOYS|Taunt|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Taunt
+|
+|turn|2
+|
+|move|p2a: Great Tusk|Knock Off|p1a: IM BACK BOYS
+|-damage|p1a: IM BACK BOYS|83/100
+|-damage|p2a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p1a: IM BACK BOYS
+|-enditem|p1a: IM BACK BOYS|Rocky Helmet|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: IM BACK BOYS|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: DarkCosmicLand|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: IM BACK BOYS
+|-damage|p1a: IM BACK BOYS|74/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: DarkCosmicLand|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: IM BACK BOYS|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|75/100
+|
+|switch|p1a: U cant touch me|Gholdengo|100/100|[from] U-turn
+|-damage|p1a: U cant touch me|94/100|[from] Stealth Rock
+|-item|p1a: U cant touch me|Air Balloon
+|
+|turn|4
+|
+|move|p2a: Great Tusk|Knock Off|p1a: U cant touch me
+|-supereffective|p1a: U cant touch me
+|-crit|p1a: U cant touch me
+|-damage|p1a: U cant touch me|12/100
+|-enditem|p1a: U cant touch me|Air Balloon
+|move|p1a: U cant touch me|Make It Rain|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: U cant touch me|spa|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|5
+|
+|switch|p1a: Volcano.exe|Heatran, F|100/100
+|-damage|p1a: Volcano.exe|88/100|[from] Stealth Rock
+|move|p2a: Roaring Moon|Dragon Dance|p2a: Roaring Moon
+|-boost|p2a: Roaring Moon|atk|1
+|-boost|p2a: Roaring Moon|spe|1
+|
+|-heal|p1a: Volcano.exe|94/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Roaring Moon|Crunch|p1a: Volcano.exe
+|-damage|p1a: Volcano.exe|16/100
+|move|p1a: Volcano.exe|Magma Storm|p2a: Roaring Moon|[miss]
+|-miss|p1a: Volcano.exe|p2a: Roaring Moon
+|
+|-heal|p1a: Volcano.exe|23/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Roaring Moon|Crunch|p1a: Volcano.exe
+|-damage|p1a: Volcano.exe|0 fnt
+|faint|p1a: Volcano.exe
+|
+|
+|switch|p1a: Eminem|Zapdos|100/100
+|turn|8
+|
+|move|p2a: Roaring Moon|Crunch|p1a: Eminem
+|-damage|p1a: Eminem|33/100
+|-unboost|p1a: Eminem|def|1
+|-status|p2a: Roaring Moon|par|[from] ability: Static|[of] p1a: Eminem
+|move|p1a: Eminem|Volt Switch|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|86/100 par
+|
+|switch|p1a: IM BACK BOYS|Landorus-Therian, M|74/100|[from] Volt Switch
+|-damage|p1a: IM BACK BOYS|61/100|[from] Stealth Rock
+|-ability|p1a: IM BACK BOYS|Intimidate|boost
+|-unboost|p2a: Roaring Moon|atk|1
+|
+|turn|9
+|
+|cant|p2a: Roaring Moon|par
+|move|p1a: IM BACK BOYS|U-turn|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|26/100 par
+|
+|switch|p1a: Eminem|Zapdos|33/100|[from] U-turn
+|
+|turn|10
+|
+|cant|p2a: Roaring Moon|par
+|move|p1a: Eminem|Roost|p1a: Eminem
+|-heal|p1a: Eminem|83/100
+|-singleturn|p1a: Eminem|move: Roost
+|
+|turn|11
+|
+|move|p2a: Roaring Moon|Crunch|p1a: Eminem
+|-damage|p1a: Eminem|43/100
+|-unboost|p1a: Eminem|def|1
+|move|p1a: Eminem|Volt Switch|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|13/100 par
+|
+|switch|p1a: IM BACK BOYS|Landorus-Therian, M|61/100|[from] Volt Switch
+|-damage|p1a: IM BACK BOYS|49/100|[from] Stealth Rock
+|-ability|p1a: IM BACK BOYS|Intimidate|boost
+|-unboost|p2a: Roaring Moon|atk|1
+|
+|turn|12
+|
+|cant|p2a: Roaring Moon|par
+|move|p1a: IM BACK BOYS|Stealth Rock|p2a: Roaring Moon
+|-sidestart|p2: DarkCosmicLand|move: Stealth Rock
+|
+|turn|13
+|
+|move|p2a: Roaring Moon|Acrobatics|p1a: IM BACK BOYS
+|-damage|p1a: IM BACK BOYS|19/100
+|move|p1a: IM BACK BOYS|U-turn|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|switch|p1a: Weavile.|Sneasler, F, shiny|100/100|[from] U-turn
+|-damage|p1a: Weavile.|95/100|[from] Stealth Rock
+|
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|14
+|
+|switch|p1a: IM BACK BOYS|Landorus-Therian, M|19/100
+|-damage|p1a: IM BACK BOYS|7/100|[from] Stealth Rock
+|-ability|p1a: IM BACK BOYS|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-terastallize|p2a: Kingambit|Fire
+|move|p2a: Kingambit|Iron Head|p1a: IM BACK BOYS
+|-damage|p1a: IM BACK BOYS|0 fnt
+|faint|p1a: IM BACK BOYS
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|
+|switch|p1a: NoPainNoGain|Samurott-Hisui, F, shiny|100/100
+|-damage|p1a: NoPainNoGain|88/100|[from] Stealth Rock
+|turn|15
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: NoPainNoGain|Razor Shell|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|70/100
+|-unboost|p2a: Rotom|def|1
+|
+|-heal|p1a: NoPainNoGain|94/100|[from] item: Leftovers
+|-heal|p2a: Rotom|76/100|[from] item: Leftovers
+|turn|16
+|
+|-terastallize|p1a: NoPainNoGain|Fairy
+|move|p1a: NoPainNoGain|Ceaseless Edge|p2a: Rotom
+|-damage|p2a: Rotom|31/100
+|-sidestart|p2: DarkCosmicLand|Spikes
+|move|p2a: Rotom|Volt Switch|p1a: NoPainNoGain
+|-damage|p1a: NoPainNoGain|73/100
+|
+|switch|p2a: Scizor|Scizor, M|100/100|[from] Volt Switch
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|-damage|p2a: Scizor|76/100|[from] Spikes
+|
+|-heal|p1a: NoPainNoGain|79/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: U cant touch me|Gholdengo|12/100
+|-damage|p1a: U cant touch me|6/100|[from] Stealth Rock
+|move|p2a: Scizor|Bullet Punch|p1a: U cant touch me
+|-resisted|p1a: U cant touch me
+|-damage|p1a: U cant touch me|0 fnt
+|faint|p1a: U cant touch me
+|
+|
+|switch|p1a: Eminem|Zapdos|43/100
+|turn|18
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|76/100|[from] Spikes
+|move|p1a: Eminem|Roost|p1a: Eminem
+|-heal|p1a: Eminem|93/100
+|-singleturn|p1a: Eminem|move: Roost
+|
+|turn|19
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Eminem
+|-damage|p1a: Eminem|43/100
+|-unboost|p1a: Eminem|spd|1
+|move|p1a: Eminem|Hurricane|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Kingambit|Kingambit, F, tera:Fire|100/100
+|-damage|p2a: Kingambit|76/100|[from] Stealth Rock
+|-damage|p2a: Kingambit|63/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|20
+|
+|move|p1a: Eminem|Roost|p1a: Eminem
+|-heal|p1a: Eminem|93/100
+|-singleturn|p1a: Eminem|move: Roost
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Eminem
+|-damage|p1a: Eminem|43/100
+|-status|p2a: Kingambit|par|[from] ability: Static|[of] p1a: Eminem
+|
+|-heal|p2a: Kingambit|69/100 par|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Eminem|Hurricane|p2a: Kingambit
+|-damage|p2a: Kingambit|16/100 par
+|-start|p2a: Kingambit|confusion
+|-activate|p2a: Kingambit|confusion
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Eminem
+|-damage|p1a: Eminem|0 fnt
+|faint|p1a: Eminem
+|
+|-heal|p2a: Kingambit|22/100 par|[from] item: Leftovers
+|
+|switch|p1a: Weavile.|Sneasler, F, shiny|95/100
+|-damage|p1a: Weavile.|89/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Weavile.|Close Combat|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Weavile.|def|1
+|-unboost|p1a: Weavile.|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|
+|switch|p2a: Scizor|Scizor, M|76/100
+|-damage|p2a: Scizor|64/100|[from] Stealth Rock
+|-damage|p2a: Scizor|52/100|[from] Spikes
+|turn|23
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Weavile.
+|-damage|p1a: Weavile.|0 fnt
+|faint|p1a: Weavile.
+|
+|
+|switch|p1a: NoPainNoGain|Samurott-Hisui, F, shiny, tera:Fairy|79/100
+|-damage|p1a: NoPainNoGain|67/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Scizor|Bullet Punch|p1a: NoPainNoGain
+|-supereffective|p1a: NoPainNoGain
+|-damage|p1a: NoPainNoGain|0 fnt
+|faint|p1a: NoPainNoGain
+|
+|win|DarkCosmicLand
+|n|☆fuub|fuub
+|n|☆DarkCosmicLand|darkcosmicland

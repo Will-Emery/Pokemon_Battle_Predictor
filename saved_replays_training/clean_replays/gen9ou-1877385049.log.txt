@@ -1,0 +1,210 @@
+|poke|p1|Glastrier|
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Lilligant-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: The Device|Magearna|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Swords Dance|p2a: Kleavor
+|-boost|p2a: Kleavor|atk|2
+|move|p1a: The Device|Trick Room|p1a: The Device
+|-fieldstart|move: Trick Room|[of] p1a: The Device
+|
+|turn|2
+|
+|move|p1a: The Device|Fleur Cannon|p2a: Kleavor
+|-enditem|p2a: Kleavor|Focus Sash
+|-damage|p2a: Kleavor|1/100
+|-unboost|p1a: The Device|spa|2
+|-enditem|p1a: The Device|Eject Pack
+|
+|switch|p1a: Sucker Punch|Kingambit, M|100/100
+|move|p2a: Kleavor|Stone Axe|p1a: Sucker Punch
+|-resisted|p1a: Sucker Punch
+|-damage|p1a: Sucker Punch|62/100
+|-sidestart|p1: DMPancake|move: Stealth Rock
+|
+|-heal|p1a: Sucker Punch|68/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Sucker Punch|Iron Head|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|-heal|p1a: Sucker Punch|74/100|[from] item: Leftovers
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|4
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: pikaplayer101|Reflect
+|move|p1a: Sucker Punch|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|38/100
+|
+|-heal|p1a: Sucker Punch|80/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: pikaplayer101|move: Light Screen
+|move|p1a: Sucker Punch|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Sucker Punch|87/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|6
+|
+|-end|p1a: Sucker Punch|fallenundefined|[silent]
+|switch|p1a: Bad Jokes|Slowking-Galar, M|100/100
+|-damage|p1a: Bad Jokes|88/100|[from] Stealth Rock
+|move|p2a: Decidueye|Swords Dance|p2a: Decidueye
+|-boost|p2a: Decidueye|atk|2
+|
+|turn|7
+|
+|move|p2a: Decidueye|Triple Arrows|p1a: Bad Jokes
+|-resisted|p1a: Bad Jokes
+|-damage|p1a: Bad Jokes|67/100
+|-unboost|p1a: Bad Jokes|def|1
+|-damage|p2a: Decidueye|90/100|[from] item: Life Orb
+|move|p1a: Bad Jokes|Trick Room|p1a: Bad Jokes
+|-fieldstart|move: Trick Room|[of] p1a: Bad Jokes
+|
+|turn|8
+|
+|move|p2a: Decidueye|Sucker Punch|p1a: Bad Jokes
+|-supereffective|p1a: Bad Jokes
+|-damage|p1a: Bad Jokes|0 fnt
+|faint|p1a: Bad Jokes
+|-damage|p2a: Decidueye|80/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Cracklord Bear|Ursaluna, F|100/100
+|-damage|p1a: Cracklord Bear|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Cracklord Bear|Swords Dance|p1a: Cracklord Bear
+|-boost|p1a: Cracklord Bear|atk|2
+|move|p2a: Decidueye|Triple Arrows|p1a: Cracklord Bear
+|-supereffective|p1a: Cracklord Bear
+|-damage|p1a: Cracklord Bear|0 fnt
+|faint|p1a: Cracklord Bear
+|-damage|p2a: Decidueye|70/100|[from] item: Life Orb
+|
+|
+|switch|p1a: the honse|Glastrier|100/100
+|turn|10
+|
+|move|p1a: the honse|Icicle Crash|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|17/100
+|cant|p2a: Decidueye|flinch
+|
+|turn|11
+|
+|move|p2a: Decidueye|Sucker Punch|p1a: the honse
+|-damage|p1a: the honse|54/100
+|-damage|p2a: Decidueye|7/100|[from] item: Life Orb
+|move|p1a: the honse|Icicle Crash|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|-ability|p1a: the honse|Chilling Neigh|boost
+|-boost|p1a: the honse|atk|1
+|
+|-sideend|p2: pikaplayer101|Reflect
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|12
+|
+|switch|p1a: The Device|Magearna|100/100
+|-damage|p1a: The Device|94/100|[from] Stealth Rock
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-sideend|p2: pikaplayer101|move: Light Screen
+|turn|13
+|
+|move|p2a: Sneasler|Close Combat|p1a: The Device
+|-damage|p1a: The Device|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: The Device
+|
+|
+|switch|p1a: suicide machine|Cresselia, F|100/100
+|-damage|p1a: suicide machine|88/100|[from] Stealth Rock
+|turn|14
+|
+|-terastallize|p1a: suicide machine|Fighting
+|move|p2a: Sneasler|Dire Claw|p1a: suicide machine
+|-damage|p1a: suicide machine|35/100
+|-status|p1a: suicide machine|par
+|move|p1a: suicide machine|Trick Room|p1a: suicide machine
+|-fieldstart|move: Trick Room|[of] p1a: suicide machine
+|
+|turn|15
+|
+|move|p1a: suicide machine|Lunar Dance|p1a: suicide machine
+|faint|p1a: suicide machine
+|move|p2a: Sneasler|Dire Claw|p1: suicide machine|[notarget]
+|-fail|p2a: Sneasler
+|
+|
+|switch|p1a: the honse|Glastrier|54/100
+|-heal|p1a: the honse|100/100|[from] move: Lunar Dance
+|turn|16
+|
+|move|p1a: the honse|Icicle Crash|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|move|p2a: Sneasler|Close Combat|p1a: the honse
+|-supereffective|p1a: the honse
+|-damage|p1a: the honse|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: the honse
+|
+|
+|switch|p1a: Sucker Punch|Kingambit, M|87/100
+|-damage|p1a: Sucker Punch|80/100|[from] Stealth Rock
+|-activate|p1a: Sucker Punch|ability: Supreme Overlord
+|-start|p1a: Sucker Punch|fallen5|[silent]
+|turn|17
+|
+|move|p1a: Sucker Punch|Iron Head|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-heal|p1a: Sucker Punch|87/100|[from] item: Leftovers
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|18
+|
+|move|p2a: Ursaluna|Headlong Rush|p1a: Sucker Punch
+|-supereffective|p1a: Sucker Punch
+|-damage|p1a: Sucker Punch|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Sucker Punch
+|-end|p1a: Sucker Punch|fallen5|[silent]
+|
+|win|pikaplayer101

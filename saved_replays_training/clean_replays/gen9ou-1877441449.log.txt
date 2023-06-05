@@ -1,0 +1,220 @@
+|poke|p1|Volcanion|
+|poke|p1|Greninja, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Overqwil, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Goodra-Hisui, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Amoonguss, M|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|start
+|switch|p1a: Overqwil|Overqwil, F|100/100
+|switch|p2a: Slowking|Slowking, F|100/100
+|-ability|p1a: Overqwil|Intimidate|boost
+|-fail|p2a: Slowking|unboost|Attack|[from] ability: Oblivious|[of] p2a: Slowking
+|turn|1
+|
+|move|p1a: Overqwil|Toxic Spikes|p2a: Slowking
+|-sidestart|p2: Abretado01|move: Toxic Spikes
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|2
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Overqwil|Toxic Spikes|p2a: Cinderace
+|-sidestart|p2: Abretado01|move: Toxic Spikes
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|move|p2a: Cinderace|U-turn|p1a: Overqwil
+|-damage|p1a: Overqwil|85/100
+|
+|switch|p2a: Slowking|Slowking, F|100/100|[from] U-turn
+|move|p1a: Overqwil|Barb Barrage|p2a: Slowking
+|-damage|p2a: Slowking|75/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Overqwil|91/100|[from] item: Black Sludge
+|turn|4
+|
+|move|p1a: Overqwil|Crunch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|11/100
+|move|p2a: Slowking|Surf|p1a: Overqwil
+|-damage|p1a: Overqwil|52/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Overqwil|58/100|[from] item: Black Sludge
+|turn|5
+|
+|move|p1a: Overqwil|Crunch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|none
+|-heal|p1a: Overqwil|64/100|[from] item: Black Sludge
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-status|p2a: Great Tusk|psn
+|turn|6
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Enamorus
+|-damage|p1a: Enamorus|69/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Abretado01|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|88/100 psn|[from] psn
+|turn|7
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|38/100
+|-enditem|p1a: Enamorus|Life Orb|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Enamorus|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|8
+|
+|move|p1a: Enamorus|Earth Power|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|9/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Overqwil|Overqwil, F|64/100
+|-sideend|p1: Dragonfly26|move: Toxic Spikes|[of] p1a: Overqwil
+|-ability|p1a: Overqwil|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|turn|9
+|
+|move|p2a: Cinderace|U-turn|p1a: Overqwil
+|-damage|p1a: Overqwil|55/100
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100|[from] U-turn
+|move|p1a: Overqwil|Barb Barrage|p2a: Dondozo
+|-damage|p2a: Dondozo|89/100
+|
+|-heal|p1a: Overqwil|61/100|[from] item: Black Sludge
+|-heal|p2a: Dondozo|95/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Overqwil|Barb Barrage|p2a: Dondozo
+|-damage|p2a: Dondozo|83/100
+|-status|p2a: Dondozo|psn
+|move|p2a: Dondozo|Wave Crash|p1a: Overqwil
+|-damage|p1a: Overqwil|35/100
+|-damage|p2a: Dondozo|77/100 psn|[from] Recoil
+|
+|-heal|p1a: Overqwil|41/100|[from] item: Black Sludge
+|-heal|p2a: Dondozo|83/100 psn|[from] item: Leftovers
+|-damage|p2a: Dondozo|71/100 psn|[from] psn
+|turn|11
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p2a: Dondozo|Wave Crash|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|71/100
+|-damage|p2a: Dondozo|65/100 psn|[from] Recoil
+|
+|-heal|p2a: Dondozo|71/100 psn|[from] item: Leftovers
+|-damage|p2a: Dondozo|59/100 psn|[from] psn
+|turn|12
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|turn|13
+|
+|move|p1a: Lilligant|Axe Kick|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|14
+|
+|move|p1a: Lilligant|Ice Spinner|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|11/100
+|-damage|p1a: Lilligant|54/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|turn|15
+|
+|move|p1a: Goodra|Thunderbolt|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Cinderace|Cinderace, M|9/100
+|turn|16
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Goodra
+|-damage|p1a: Goodra|77/100
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Cinderace|spe|1
+|move|p1a: Goodra|Thunderbolt|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Dondozo|Dondozo, M|59/100 psn
+|turn|17
+|
+|move|p1a: Goodra|Thunderbolt|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|3/100 psn
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|turn|18
+|
+|move|p1a: Goodra|Thunderbolt|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|41/100 slp
+|cant|p2a: Dondozo|slp
+|
+|-heal|p2a: Dondozo|47/100 slp|[from] item: Leftovers
+|turn|19
+|
+|cant|p2a: Dondozo|slp
+|move|p1a: Goodra|Thunderbolt|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|win|Dragonfly26

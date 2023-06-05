@@ -1,0 +1,287 @@
+|poke|p1|Clodsire, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Blissey, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Azumarill, M|
+|poke|p2|Breloom, F|
+|poke|p2|Iron Treads|
+|poke|p2|Dragapult, F|
+|poke|p2|Volcarona, F|
+|teampreview
+|
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|move|p2a: Iron Treads|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: GrowGuyKai|move: Stealth Rock
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: james boter|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Iron Treads|Rapid Spin|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|93/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: james boter|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Ting-Lu|Spikes|p2a: Iron Treads
+|-sidestart|p2: james boter|Spikes
+|
+|turn|3
+|
+|move|p2a: Iron Treads|Rapid Spin|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|87/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: james boter|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Ting-Lu|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|48/100
+|
+|-heal|p2a: Iron Treads|55/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|65/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|1/100
+|
+|-heal|p2a: Iron Treads|7/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Ting-Lu|Rest|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|slp|[from] move: Rest
+|-heal|p1a: Ting-Lu|100/100 slp|[silent]
+|
+|turn|6
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Breloom|Force Palm|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|66/100
+|
+|turn|7
+|
+|move|p2a: Breloom|Force Palm|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|31/100
+|-status|p1a: Clodsire|par
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|81/100 par
+|
+|turn|8
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|move|p1a: Clodsire|Poison Jab|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|55/100
+|
+|turn|9
+|
+|move|p2a: Azumarill|Liquidation|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|10
+|
+|move|p1a: Alomomola|Whirlpool|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|52/100
+|-activate|p2a: Azumarill|move: Whirlpool|[of] p1a: Alomomola
+|move|p2a: Azumarill|Play Rough|p1a: Alomomola
+|-damage|p1a: Alomomola|72/100
+|
+|-damage|p2a: Azumarill|40/100|[from] move: Whirlpool|[partiallytrapped]
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|64/100|[from] item: Sitrus Berry
+|turn|11
+|
+|move|p1a: Alomomola|Chilling Water|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|60/100
+|-unboost|p2a: Azumarill|atk|1
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|10/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|
+|-damage|p2a: Azumarill|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Azumarill
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|12
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Breloom|Bullet Seed|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|turn|13
+|
+|-terastallize|p1a: Alomomola|Flying
+|move|p2a: Breloom|Bullet Seed|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|63/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|55/100
+|-hitcount|p1a: Alomomola|2
+|move|p1a: Alomomola|Whirlpool|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|95/100
+|-activate|p2a: Breloom|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Breloom|82/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|14
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|47/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|39/100
+|-resisted|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|26/100
+|-hitcount|p1a: Alomomola|3
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Breloom|70/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|15
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Breloom|Bullet Seed|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|76/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Breloom|58/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|16
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|59/100
+|-hitcount|p1a: Alomomola|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Breloom|46/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|17
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|51/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|43/100
+|-hitcount|p1a: Alomomola|2
+|move|p1a: Alomomola|Chilling Water|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|38/100
+|-unboost|p2a: Breloom|atk|1
+|
+|-heal|p1a: Alomomola|93/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Breloom|25/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|18
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|88/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|82/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|76/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|71/100
+|-hitcount|p1a: Alomomola|4
+|move|p1a: Alomomola|Chilling Water|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|17/100
+|-unboost|p2a: Breloom|atk|1
+|
+|-end|p2a: Breloom|Whirlpool|[partiallytrapped]
+|turn|19
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|63/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|59/100
+|-hitcount|p1a: Alomomola|3
+|move|p1a: Alomomola|Whirlpool|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|12/100
+|-activate|p2a: Breloom|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Breloom|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Breloom
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|20
+|
+|move|p2a: Hoopa|Substitute|p2a: Hoopa
+|-start|p2a: Hoopa|Substitute
+|-damage|p2a: Hoopa|76/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|turn|21
+|
+|move|p2a: Hoopa|Psychic|p1a: Alomomola
+|-damage|p1a: Alomomola|1/100
+|move|p1a: Alomomola|Chilling Water|p2a: Hoopa
+|-crit|p2a: Hoopa
+|-activate|p2a: Hoopa|move: Substitute|[damage]
+|
+|-heal|p1a: Alomomola|51/100|[from] move: Wish|[wisher] Alomomola
+|turn|22
+|
+|move|p2a: Hoopa|Psychic|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|turn|23
+|
+|move|p2a: Hoopa|Drain Punch|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-heal|p2a: Hoopa|100/100|[from] drain|[of] p1a: Blissey
+|faint|p1a: Blissey
+|
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100 slp
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|24
+|
+|move|p2a: Hoopa|Drain Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|67/100 slp
+|cant|p1a: Ting-Lu|slp
+|
+|turn|25
+|
+|move|p2a: Hoopa|Drain Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|31/100 slp
+|cant|p1a: Ting-Lu|slp
+|
+|turn|26
+|
+|move|p2a: Hoopa|Drain Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-message|GrowGuyKai forfeited.
+|
+|win|james boter

@@ -1,0 +1,262 @@
+|poke|p1|Gholdengo|
+|poke|p1|Glimmora, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Toedscruel, M|
+|poke|p1|Great Tusk|
+|poke|p1|Baxcalibur, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Walking Wake|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|1
+|
+|switch|p1a: Toedscruel|Toedscruel, M|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Toedscruel
+|-damage|p1a: Toedscruel|69/100
+|
+|turn|2
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Toedscruel|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|84/100
+|-enditem|p2a: Hatterene|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Toedscruel
+|
+|turn|3
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|turn|4
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Gholdengo|Substitute|p1a: Gholdengo
+|-start|p1a: Gholdengo|Substitute
+|-damage|p1a: Gholdengo|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gholdengo|82/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Torkoal|Lava Plume|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-end|p1a: Gholdengo|Substitute
+|move|p1a: Gholdengo|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gholdengo|88/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|-terastallize|p1a: Baxcalibur|Dragon
+|-terastallize|p2a: Walking Wake|Water
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|switch|p2a: Hatterene|Hatterene, F|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Toedscruel|Toedscruel, M|69/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Toedscruel|Earth Power|p2a: Ursaluna
+|-damage|p2a: Ursaluna|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|11
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Ursaluna|Fire Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|74/100
+|-status|p1a: Great Tusk|brn
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|-heal|p1a: Great Tusk|80/100 brn|[from] item: Leftovers
+|-damage|p2a: Ursaluna|61/100 brn|[from] brn
+|-damage|p1a: Great Tusk|74/100 brn|[from] brn
+|turn|12
+|
+|move|p2a: Ursaluna|Facade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|15/100 brn
+|move|p1a: Great Tusk|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|27/100 brn
+|
+|-heal|p1a: Great Tusk|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Ursaluna|21/100 brn|[from] brn
+|-damage|p1a: Great Tusk|15/100 brn|[from] brn
+|turn|13
+|
+|move|p2a: Ursaluna|Facade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Ursaluna|15/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|turn|14
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|move|p1a: Glimmora|Power Gem|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-crit|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|15
+|
+|move|p2a: Zamazenta|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|28/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Blaziken666|move: Toxic Spikes
+|move|p1a: Glimmora|Power Gem|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|80/100
+|
+|-heal|p2a: Zamazenta|86/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Zamazenta|Crunch|p1a: Glimmora
+|-damage|p1a: Glimmora|1/100
+|-unboost|p1a: Glimmora|def|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Blaziken666|move: Toxic Spikes
+|move|p1a: Glimmora|Power Gem|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|64/100
+|
+|-heal|p2a: Zamazenta|70/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Zamazenta|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-heal|p2a: Zamazenta|76/100|[from] item: Leftovers
+|
+|switch|p1a: Baxcalibur|Baxcalibur, F, tera:Dragon|100/100
+|turn|18
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|34/100
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|
+|-heal|p2a: Zamazenta|40/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: Toedscruel|Toedscruel, M|69/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|46/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Zamazenta|Body Press|p1a: Toedscruel
+|-damage|p1a: Toedscruel|0 fnt
+|faint|p1a: Toedscruel
+|
+|-heal|p2a: Zamazenta|52/100|[from] item: Leftovers
+|
+|switch|p1a: Gholdengo|Gholdengo|88/100
+|turn|21
+|
+|move|p2a: Zamazenta|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|46/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|19/100
+|
+|-heal|p2a: Zamazenta|25/100|[from] item: Leftovers
+|-heal|p1a: Gholdengo|52/100|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Zamazenta|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|11/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Gholdengo|17/100|[from] item: Leftovers
+|
+|switch|p2a: Hatterene|Hatterene, F|84/100
+|-status|p2a: Hatterene|tox
+|turn|23
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Gholdengo|24/100|[from] item: Leftovers
+|
+|switch|p2a: Torkoal|Torkoal, M|40/100
+|-status|p2a: Torkoal|tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|24
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gholdengo|30/100|[from] item: Leftovers
+|
+|switch|p2a: Ursaluna|Ursaluna, F|15/100 brn
+|turn|25
+|
+|move|p1a: Gholdengo|Focus Blast|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|xorialle

@@ -1,0 +1,336 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Clodsire, F|
+|poke|p1|Gholdengo|
+|poke|p1|Corviknight, M|
+|poke|p1|Rillaboom, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Bellibolt, F|
+|poke|p2|Pawmot, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|55/100
+|
+|turn|2
+|
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|move|p1a: Clodsire|Spikes|p2a: Glimmora
+|-sidestart|p2: LiJing0520|Spikes
+|
+|turn|3
+|
+|move|p2a: Glimmora|Energy Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|30/100
+|move|p1a: Clodsire|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Ukelele_prowess|move: Toxic Spikes
+|
+|turn|4
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Glimmora|Energy Ball|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|83/100
+|-unboost|p1a: Gholdengo|spd|1
+|
+|turn|5
+|
+|move|p2a: Glimmora|Toxic Spikes|p1a: Gholdengo
+|-sidestart|p1: Ukelele_prowess|move: Toxic Spikes
+|move|p1a: Gholdengo|Shadow Ball|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|88/100|[from] Spikes
+|turn|6
+|
+|switch|p1a: Clodsire|Clodsire, F|30/100
+|-sideend|p1: Ukelele_prowess|move: Toxic Spikes|[of] p1a: Clodsire
+|move|p2a: Cinderace|Pyro Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Crunch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Pawmot|Pawmot, F|100/100
+|-damage|p2a: Pawmot|88/100|[from] Spikes
+|turn|8
+|
+|move|p2a: Pawmot|Fake Out|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|86/100
+|cant|p1a: Chien-Pao|flinch
+|
+|turn|9
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Pawmot|Close Combat|p1a: Rillaboom
+|-damage|p1a: Rillaboom|34/100
+|-unboost|p2a: Pawmot|def|1
+|-unboost|p2a: Pawmot|spd|1
+|
+|-heal|p2a: Pawmot|94/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|40/100|[from] Grassy Terrain
+|turn|10
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|82/100
+|-damage|p1a: Rillaboom|35/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|41/100|[from] Grassy Terrain
+|-heal|p2a: Dragonite|88/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Rillaboom|Taunt|p2a: Dragonite
+|-start|p2a: Dragonite|move: Taunt
+|move|p2a: Dragonite|Fire Punch|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Dragonite|94/100|[from] item: Leftovers
+|
+|switch|p1a: Gholdengo|Gholdengo|83/100
+|turn|12
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Dragonite
+|-damage|p2a: Dragonite|35/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Dragonite|Fire Punch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|14/100
+|
+|-heal|p1a: Gholdengo|20/100|[from] Grassy Terrain
+|-heal|p2a: Dragonite|41/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Dragonite|Fire Punch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Dragonite|47/100|[from] item: Leftovers
+|-end|p2a: Dragonite|move: Taunt
+|-fieldend|move: Grassy Terrain
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|86/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|14
+|
+|-terastallize|p2a: Dragonite|Normal
+|move|p1a: Chien-Pao|Crunch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Pawmot|Pawmot, F|94/100
+|-damage|p2a: Pawmot|82/100|[from] Spikes
+|turn|15
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
+|-enditem|p2a: Pawmot|Leppa Berry|[eat]
+|-activate|p2a: Pawmot|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p2: Cinderace|50/100|[from] move: Revival Blessing
+|
+|turn|16
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
+|
+|-heal|p2: Dragonite|50/100|[from] move: Revival Blessing
+|
+|turn|17
+|
+|switch|p2a: Bellibolt|Bellibolt, F|100/100
+|-damage|p2a: Bellibolt|88/100|[from] Spikes
+|move|p1a: Sneasler|Dire Claw|p2a: Bellibolt
+|-damage|p2a: Bellibolt|27/100
+|-start|p2a: Bellibolt|Charge|Dire Claw|[from] ability: Electromorphosis
+|
+|turn|18
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Bellibolt
+|-damage|p2a: Bellibolt|0 fnt
+|faint|p2a: Bellibolt
+|
+|
+|switch|p2a: Cinderace|Cinderace, F|50/100
+|-damage|p2a: Cinderace|38/100|[from] Spikes
+|turn|19
+|
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Sneasler|[miss]
+|-miss|p2a: Cinderace|p1a: Sneasler
+|move|p1a: Sneasler|Dire Claw|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|turn|20
+|
+|move|p1a: Sneasler|Close Combat|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Garganacl
+|
+|
+|switch|p2a: Dragonite|Dragonite, F|50/100
+|turn|21
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Dragonite|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p2a: Dragonite|57/100|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p2a: Dragonite|63/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p2a: Dragonite|69/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|55/100
+|move|p1a: Corviknight|Drill Peck|p2a: Dragonite
+|-damage|p2a: Dragonite|20/100
+|
+|-heal|p2a: Dragonite|26/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|61/100|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|15/100
+|-status|p1a: Corviknight|brn
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|65/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Dragonite|32/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|65/100 brn|[from] brn
+|turn|26
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p2a: Dragonite|38/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|65/100 brn|[from] brn
+|turn|27
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p2a: Dragonite|44/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|65/100 brn|[from] brn
+|turn|28
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|11/100 brn
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|62/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Dragonite|51/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|62/100 brn|[from] brn
+|turn|29
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p2a: Dragonite|57/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|62/100 brn|[from] brn
+|turn|30
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Dragonite|63/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|turn|31
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|35/100 brn
+|move|p1a: Corviknight|Drill Peck|p2a: Dragonite
+|-damage|p2a: Dragonite|21/100
+|
+|-heal|p2a: Dragonite|27/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|35/100 brn|[from] brn
+|turn|32
+|-message|Ukelele_prowess forfeited.
+|
+|win|LiJing0520

@@ -1,0 +1,245 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Magearna|
+|poke|p1|Sneasler, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Glastrier|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|switch|p2a: Robunny|Magearna|100/100
+|turn|1
+|
+|move|p1a: Sneasler|Fire Punch|p2a: Robunny
+|-supereffective|p2a: Robunny
+|-damage|p2a: Robunny|29/100
+|move|p2a: Robunny|Trick Room|p2a: Robunny
+|-fieldstart|move: Trick Room|[of] p2a: Robunny
+|
+|turn|2
+|
+|move|p2a: Robunny|Psychic|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-ability|p2a: Robunny|Soul-Heart|boost
+|-boost|p2a: Robunny|spa|1
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|3
+|
+|move|p2a: Robunny|Fleur Cannon|p1a: Magearna|[miss]
+|-miss|p2a: Robunny|p1a: Magearna
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|turn|4
+|
+|move|p2a: Robunny|Fleur Cannon|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|68/100
+|-unboost|p2a: Robunny|spa|2
+|-enditem|p2a: Robunny|Eject Pack
+|
+|switch|p2a: luna 2|Ursaluna, F|100/100
+|move|p1a: Magearna|Fleur Cannon|p2a: luna 2
+|-damage|p2a: luna 2|26/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p1a: Magearna|74/100|[from] item: Leftovers
+|-status|p2a: luna 2|brn|[from] item: Flame Orb
+|turn|5
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-terastallize|p2a: luna 2|Normal
+|move|p2a: luna 2|Facade|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-damage|p2a: luna 2|20/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Magearna|Magearna|74/100
+|turn|6
+|
+|switch|p2a: THUG RIGHTS|Hatterene, F|100/100
+|move|p1a: Magearna|Fleur Cannon|p2a: THUG RIGHTS
+|-damage|p2a: THUG RIGHTS|45/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p1a: Magearna|80/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: THUG RIGHTS|Trick Room|p2a: THUG RIGHTS
+|-fieldstart|move: Trick Room|[of] p2a: THUG RIGHTS
+|
+|-heal|p1a: Magearna|86/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: THUG RIGHTS|Healing Wish|p2a: THUG RIGHTS
+|faint|p2a: THUG RIGHTS
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|92/100|[from] item: Leftovers
+|
+|switch|p2a: luna 2|Ursaluna, F, tera:Normal|20/100 brn
+|-heal|p2a: luna 2|100/100|[from] move: Healing Wish
+|turn|9
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: luna 2|Substitute|p2a: luna 2
+|-start|p2a: luna 2|Substitute
+|-damage|p2a: luna 2|76/100
+|
+|-status|p2a: luna 2|brn|[from] item: Flame Orb
+|turn|10
+|
+|move|p2a: luna 2|Facade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|14/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: luna 2
+|drag|p2a: Robunny|Magearna|29/100
+|
+|-heal|p1a: Ting-Lu|20/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Robunny|Fleur Cannon|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-unboost|p2a: Robunny|spa|2
+|faint|p1a: Ting-Lu
+|-ability|p2a: Robunny|Soul-Heart|boost
+|-boost|p2a: Robunny|spa|1
+|
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|12
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Robunny
+|-supereffective|p2a: Robunny
+|-crit|p2a: Robunny
+|-damage|p2a: Robunny|0 fnt
+|faint|p2a: Robunny
+|
+|
+|switch|p2a: luna 1|Cresselia, F|100/100
+|turn|13
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: luna 1
+|-crit|p2a: luna 1
+|-damage|p2a: luna 1|59/100
+|move|p2a: luna 1|Trick Room|p2a: luna 1
+|-fieldstart|move: Trick Room|[of] p2a: luna 1
+|
+|turn|14
+|
+|move|p2a: luna 1|Lunar Dance|p2a: luna 1
+|faint|p2a: luna 1
+|move|p1a: Arcanine|Flare Blitz|p2: luna 1|[notarget]
+|-fail|p1a: Arcanine
+|
+|
+|switch|p2a: Big Hoof|Glastrier|100/100
+|turn|15
+|
+|switch|p1a: Magearna|Magearna|92/100
+|move|p2a: Big Hoof|Stomping Tantrum|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|57/100
+|
+|-heal|p1a: Magearna|63/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Big Hoof|Swords Dance|p2a: Big Hoof
+|-boost|p2a: Big Hoof|atk|2
+|move|p1a: Magearna|Fleur Cannon|p2a: Big Hoof
+|-damage|p2a: Big Hoof|60/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p2a: Big Hoof|66/100|[from] item: Leftovers
+|-heal|p1a: Magearna|69/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Big Hoof|Stomping Tantrum|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-ability|p2a: Big Hoof|Chilling Neigh|boost
+|-boost|p2a: Big Hoof|atk|1
+|
+|-heal|p2a: Big Hoof|72/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|18
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Big Hoof
+|-supereffective|p2a: Big Hoof
+|-damage|p2a: Big Hoof|0 fnt
+|faint|p2a: Big Hoof
+|
+|
+|switch|p2a: Shortking|Slowking-Galar, F|100/100
+|turn|19
+|
+|move|p1a: Arcanine|Head Smash|p2a: Shortking
+|-damage|p2a: Shortking|45/100
+|move|p2a: Shortking|Trick Room|p2a: Shortking
+|-fieldstart|move: Trick Room|[of] p2a: Shortking
+|
+|turn|20
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Shortking
+|-damage|p2a: Shortking|0 fnt
+|faint|p2a: Shortking
+|
+|
+|switch|p2a: luna 2|Ursaluna, F, tera:Normal|76/100 brn
+|-heal|p2a: luna 2|100/100|[from] move: Lunar Dance
+|turn|21
+|
+|move|p2a: luna 2|Substitute|p2a: luna 2
+|-start|p2a: luna 2|Substitute
+|-damage|p2a: luna 2|76/100
+|move|p1a: Arcanine|Flare Blitz|p2a: luna 2
+|-end|p2a: luna 2|Substitute
+|
+|-status|p2a: luna 2|brn|[from] item: Flame Orb
+|turn|22
+|
+|-terastallize|p1a: Arcanine|Flying
+|move|p2a: luna 2|Headlong Rush|p1a: Arcanine
+|-immune|p1a: Arcanine
+|move|p1a: Arcanine|Flare Blitz|p2a: luna 2
+|-damage|p2a: luna 2|36/100 brn
+|
+|-damage|p2a: luna 2|30/100 brn|[from] brn
+|turn|23
+|
+|move|p2a: luna 2|Substitute|p2a: luna 2
+|-start|p2a: luna 2|Substitute
+|-damage|p2a: luna 2|5/100 brn
+|move|p1a: Arcanine|Flare Blitz|p2a: luna 2
+|-end|p2a: luna 2|Substitute
+|
+|-damage|p2a: luna 2|0 fnt|[from] brn
+|faint|p2a: luna 2
+|
+|win|Bruc3wi11y

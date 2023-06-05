@@ -1,0 +1,162 @@
+|poke|p1|Dragapult, M|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Treads|
+|poke|p1|Dondozo, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Overqwil, M|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking, M|
+|poke|p2|Gholdengo|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Tai Lung|Chien-Pao|100/100
+|switch|p2a: Overqwil|Overqwil, M|100/100
+|-ability|p1a: Tai Lung|Sword of Ruin
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Tai Lung|atk|1
+|turn|1
+|
+|move|p1a: Tai Lung|Ice Spinner|p2a: Overqwil
+|-damage|p2a: Overqwil|64/100
+|move|p2a: Overqwil|Spikes|p1a: Tai Lung
+|-sidestart|p1: SCOOB GANG KILLAZ|Spikes
+|
+|-heal|p2a: Overqwil|70/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Spin2Win|Iron Treads|100/100
+|-enditem|p1a: Spin2Win|Booster Energy
+|-activate|p1a: Spin2Win|ability: Quark Drive|[fromitem]
+|-start|p1a: Spin2Win|quarkdrivespe
+|-damage|p1a: Spin2Win|88/100|[from] Spikes
+|move|p2a: Overqwil|Spikes|p1a: Spin2Win
+|-sidestart|p1: SCOOB GANG KILLAZ|Spikes
+|
+|-heal|p2a: Overqwil|76/100|[from] item: Leftovers
+|turn|3
+|
+|-terastallize|p2a: Overqwil|Ghost
+|move|p1a: Spin2Win|Earthquake|p2a: Overqwil
+|-damage|p2a: Overqwil|41/100
+|move|p2a: Overqwil|Spikes|p1a: Spin2Win
+|-sidestart|p1: SCOOB GANG KILLAZ|Spikes
+|
+|-heal|p2a: Overqwil|47/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Spin2Win|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|67/100
+|-status|p1a: Spin2Win|par|[from] ability: Static|[of] p2a: Zapdos
+|-enditem|p2a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Spin2Win
+|
+|turn|5
+|
+|switch|p2a: Overqwil|Overqwil, M, tera:Ghost|47/100
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Spin2Win|atk|1
+|move|p1a: Spin2Win|Rapid Spin|p2a: Overqwil
+|-immune|p2a: Overqwil
+|
+|-heal|p2a: Overqwil|53/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Zapdos|Zapdos|67/100
+|cant|p1a: Spin2Win|par
+|
+|turn|7
+|
+|-end|p1a: Spin2Win|Quark Drive|[silent]
+|switch|p1a: Tai Lung|Chien-Pao|100/100
+|-damage|p1a: Tai Lung|76/100|[from] Spikes
+|-ability|p1a: Tai Lung|Sword of Ruin
+|move|p2a: Zapdos|Heat Wave|p1a: Tai Lung
+|-supereffective|p1a: Tai Lung
+|-damage|p1a: Tai Lung|0 fnt
+|faint|p1a: Tai Lung
+|
+|
+|switch|p1a: L.E.D.|Iron Moth|100/100
+|turn|8
+|
+|move|p1a: L.E.D.|Overheat|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: L.E.D.|spa|2
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Slowking|Slowking, M|100/100
+|turn|9
+|
+|-end|p1a: L.E.D.|Quark Drive|[silent]
+|switch|p1a: DON DADA|Dondozo, F|100/100
+|-damage|p1a: DON DADA|75/100|[from] Spikes
+|move|p2a: Slowking|Future Sight|p1a: DON DADA
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: DON DADA|82/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Spin2Win|Iron Treads|88/100 par
+|-damage|p1a: Spin2Win|63/100 par|[from] Spikes
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] Chilly Reception
+|-item|p2a: Gholdengo|Air Balloon
+|
+|-weather|Snow|[upkeep]
+|turn|11
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Spin2Win
+|-damage|p1a: Spin2Win|0 fnt
+|faint|p1a: Spin2Win
+|-end|p1a: Spin2Win|Quark Drive|[silent]
+|
+|-weather|Snow|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|
+|switch|p1a: Newtralizer|Dragapult, M, shiny|100/100
+|-damage|p1a: Newtralizer|76/100|[from] Spikes
+|turn|12
+|
+|switch|p2a: Overqwil|Overqwil, M, tera:Ghost|53/100
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Newtralizer|atk|1
+|move|p1a: Newtralizer|Draco Meteor|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|-unboost|p1a: Newtralizer|spa|2
+|faint|p2a: Overqwil
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|13
+|
+|switch|p1a: DON DADA|Dondozo, F|82/100
+|-damage|p1a: DON DADA|57/100|[from] Spikes
+|move|p2a: Hydreigon|Draco Meteor|p1a: DON DADA
+|-damage|p1a: DON DADA|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: DON DADA
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Newtralizer|Dragapult, M, shiny|76/100
+|-damage|p1a: Newtralizer|51/100|[from] Spikes
+|turn|14
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Newtralizer
+|-supereffective|p1a: Newtralizer
+|-damage|p1a: Newtralizer|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Newtralizer
+|
+|-weather|none
+|-message|SCOOB GANG KILLAZ forfeited.
+|
+|win|BlobfishNugget21

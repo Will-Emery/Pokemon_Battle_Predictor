@@ -1,1 +1,409 @@
-Could not connect
+|j|☆Felix(purple)
+|j|☆MasterPangolin
+|t:|1685922512
+|gametype|singles
+|player|p1|Felix(purple)|bellelba|1054
+|player|p2|MasterPangolin|infielder|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Baxcalibur, F|
+|poke|p2|Kleavor, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MasterPangolin)
+|
+|t:|1685922519
+|start
+|switch|p1a: Torkoal|Torkoal, F, shiny|100/100
+|switch|p2a: Exacutioner|Kleavor, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1685922528
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Exacutioner|Stone Axe|p1a: Great Tusk|[miss]
+|-miss|p2a: Exacutioner|p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685922542
+|move|p2a: Exacutioner|Stone Axe|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|95/100
+|-sidestart|p1: Felix(purple)|move: Stealth Rock
+|move|p1a: Great Tusk|Knock Off|p2a: Exacutioner
+|-damage|p2a: Exacutioner|71/100
+|-enditem|p2a: Exacutioner|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|MasterPangolin has 120 seconds left.
+|
+|t:|1685922578
+|move|p2a: Exacutioner|Acrobatics|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|65/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Exacutioner
+|-resisted|p2a: Exacutioner
+|-damage|p2a: Exacutioner|62/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Felix(purple)|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|MasterPangolin has 120 seconds left.
+|
+|t:|1685922597
+|move|p1a: Great Tusk|Body Press|p2a: Exacutioner
+|-damage|p2a: Exacutioner|19/100
+|move|p2a: Exacutioner|Stone Axe|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|60/100
+|-sidestart|p1: Felix(purple)|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685922606
+|switch|p2a: BOOM|Typhlosion-Hisui, M, shiny|100/100
+|-item|p1a: Great Tusk|Assault Vest|[from] ability: Frisk|[of] p2a: BOOM|[identify]
+|move|p1a: Great Tusk|Body Press|p2a: BOOM
+|-immune|p2a: BOOM
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685922617
+|switch|p2a: YummyTail|Slowking, F|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: YummyTail
+|-crit|p2a: YummyTail
+|-damage|p2a: YummyTail|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: YummyTail|34/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685922628
+|switch|p2a: Exacutioner|Kleavor, M, shiny|19/100
+|move|p1a: Great Tusk|Earthquake|p2a: Exacutioner
+|-damage|p2a: Exacutioner|0 fnt
+|faint|p2a: Exacutioner
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685922638
+|switch|p2a: Covid|Sneasler, M, shiny|100/100
+|-item|p2a: Covid|Air Balloon
+|turn|8
+|
+|t:|1685922645
+|move|p2a: Covid|Swords Dance|p2a: Covid
+|-boost|p2a: Covid|atk|2
+|move|p1a: Great Tusk|Rapid Spin|p2a: Covid
+|-damage|p2a: Covid|73/100
+|-boost|p1a: Great Tusk|spe|1
+|-enditem|p2a: Covid|Air Balloon
+|-sideend|p1: Felix(purple)|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1685922661
+|move|p2a: Covid|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Covid|def|1
+|-unboost|p2a: Covid|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685922668
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|turn|10
+|
+|t:|1685922682
+|move|p1a: Dragonite|Extreme Speed|p2a: Covid
+|-damage|p2a: Covid|0 fnt
+|faint|p2a: Covid
+|
+|upkeep
+|
+|t:|1685922688
+|switch|p2a: LetsTogether|Enamorus, F|100/100
+|turn|11
+|
+|t:|1685922692
+|switch|p1a: Torkoal|Torkoal, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: LetsTogether|Springtide Storm|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|58/100
+|-unboost|p1a: Torkoal|atk|1
+|-damage|p2a: LetsTogether|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1685922706
+|switch|p1a: Skeledirge|Skeledirge, F, shiny|100/100
+|move|p2a: LetsTogether|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|38/100
+|-damage|p2a: LetsTogether|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1685922720
+|move|p2a: LetsTogether|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|-damage|p2a: LetsTogether|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685922729
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|14
+|
+|t:|1685922735
+|switch|p2a: YummyTail|Slowking, F|68/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: YummyTail
+|-resisted|p2a: YummyTail
+|-damage|p2a: YummyTail|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: YummyTail|48/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685922746
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|move|p2a: YummyTail|Slack Off|p2a: YummyTail
+|-heal|p2a: YummyTail|98/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: YummyTail|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685922757
+|move|p1a: Dragonite|Extreme Speed|p2a: YummyTail
+|-damage|p2a: YummyTail|53/100
+|move|p2a: YummyTail|Future Sight|p1a: Dragonite
+|-start|p2a: YummyTail|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: YummyTail|59/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685922765
+|move|p1a: Dragonite|Extreme Speed|p2a: YummyTail
+|-damage|p2a: YummyTail|8/100
+|move|p2a: YummyTail|Chilly Reception|p2a: YummyTail
+|-weather|Snow
+|
+|t:|1685922773
+|switch|p2a: TuskyTusky|Great Tusk|100/100|[from] Chilly Reception
+|-enditem|p2a: TuskyTusky|Booster Energy
+|-activate|p2a: TuskyTusky|ability: Protosynthesis|[fromitem]
+|-start|p2a: TuskyTusky|protosynthesisdef
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1685922784
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|move|p2a: TuskyTusky|Ice Spinner|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|85/100
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Baxcalibur|move: Future Sight
+|-damage|p1a: Baxcalibur|45/100
+|upkeep
+|turn|19
+|
+|t:|1685922794
+|move|p1a: Baxcalibur|Icicle Spear|p2a: TuskyTusky
+|-supereffective|p2a: TuskyTusky
+|-damage|p2a: TuskyTusky|90/100
+|-supereffective|p2a: TuskyTusky
+|-damage|p2a: TuskyTusky|80/100
+|-supereffective|p2a: TuskyTusky
+|-damage|p2a: TuskyTusky|71/100
+|-supereffective|p2a: TuskyTusky
+|-damage|p2a: TuskyTusky|61/100
+|-hitcount|p2a: TuskyTusky|4
+|move|p2a: TuskyTusky|Headlong Rush|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|9/100
+|-unboost|p2a: TuskyTusky|def|1
+|-unboost|p2a: TuskyTusky|spd|1
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1685922809
+|move|p1a: Baxcalibur|Icicle Spear|p2a: TuskyTusky
+|-supereffective|p2a: TuskyTusky
+|-damage|p2a: TuskyTusky|46/100
+|-supereffective|p2a: TuskyTusky
+|-damage|p2a: TuskyTusky|30/100
+|-supereffective|p2a: TuskyTusky
+|-damage|p2a: TuskyTusky|14/100
+|-supereffective|p2a: TuskyTusky
+|-damage|p2a: TuskyTusky|0 fnt
+|faint|p2a: TuskyTusky
+|-end|p2a: TuskyTusky|Protosynthesis|[silent]
+|-hitcount|p2: TuskyTusky|4
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685922812
+|switch|p2a: BOOM|Typhlosion-Hisui, M, shiny|100/100
+|-item|p1a: Baxcalibur|Loaded Dice|[from] ability: Frisk|[of] p2a: BOOM|[identify]
+|turn|21
+|
+|t:|1685922826
+|move|p2a: BOOM|Eruption|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|-weather|none
+|upkeep
+|
+|t:|1685922834
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|22
+|
+|t:|1685922855
+|switch|p2a: YummyTail|Slowking, F|41/100
+|move|p1a: Walking Wake|Dragon Pulse|p2a: YummyTail
+|-damage|p2a: YummyTail|3/100
+|
+|-heal|p2a: YummyTail|9/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1685922869
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|switch|p2a: LetsTogether|Enamorus, F|71/100
+|
+|upkeep
+|turn|24
+|
+|t:|1685922879
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: LetsTogether|Springtide Storm|p1a: Dragonite
+|-damage|p1a: Dragonite|68/100
+|-damage|p2a: LetsTogether|62/100|[from] item: Life Orb
+|move|p1a: Dragonite|Ice Spinner|p2a: LetsTogether
+|-supereffective|p2a: LetsTogether
+|-crit|p2a: LetsTogether
+|-damage|p2a: LetsTogether|0 fnt
+|faint|p2a: LetsTogether
+|
+|upkeep
+|
+|t:|1685922887
+|switch|p2a: BOOM|Typhlosion-Hisui, M, shiny|100/100
+|-item|p1a: Dragonite|Choice Band|[from] ability: Frisk|[of] p2a: BOOM|[identify]
+|turn|25
+|
+|t:|1685922895
+|switch|p1a: Torkoal|Torkoal, F, shiny|58/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: BOOM|Eruption|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685922905
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|26
+|
+|t:|1685922912
+|switch|p2a: YummyTail|Slowking, F|42/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: YummyTail
+|-resisted|p2a: YummyTail
+|-damage|p2a: YummyTail|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: YummyTail|21/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1685922928
+|move|p1a: Walking Wake|Hydro Steam|p2a: YummyTail
+|-resisted|p2a: YummyTail
+|-damage|p2a: YummyTail|0 fnt
+|faint|p2a: YummyTail
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685922933
+|switch|p2a: BOOM|Typhlosion-Hisui, M, shiny|100/100
+|-item|p1a: Walking Wake|Choice Specs|[from] ability: Frisk|[of] p2a: BOOM|[identify]
+|turn|28
+|c|☆MasterPangolin|gg
+|
+|t:|1685922939
+|-terastallize|p2a: BOOM|Fire
+|move|p1a: Walking Wake|Hydro Steam|p2a: BOOM
+|-supereffective|p2a: BOOM
+|-damage|p2a: BOOM|0 fnt
+|faint|p2a: BOOM
+|
+|win|Felix(purple)
+|raw|Felix(purple)'s rating: 1054 → 1093(+39 for winning)
+|raw|MasterPangolin's rating: 1136 → 1105(-31 for losing)

@@ -1,0 +1,263 @@
+|poke|p1|Muk-Alola, F|
+|poke|p1|Regidrago|
+|poke|p1|Heatran, F|
+|poke|p1|Houndstone, F|
+|poke|p1|Great Tusk|
+|poke|p1|Chien-Pao|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, M|
+|teampreview
+|
+|start
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|move|p2a: Samurott|Aqua Cutter|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|24/100
+|
+|turn|2
+|
+|switch|p1a: Regidrago|Regidrago|100/100
+|move|p2a: Samurott|Aqua Jet|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|90/100
+|
+|turn|3
+|
+|move|p1a: Regidrago|Dragon Energy|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|4
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|5
+|
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100
+|move|p1a: Heatran|Taunt|p2a: Ursaluna
+|-start|p2a: Ursaluna|move: Taunt
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|6
+|
+|switch|p1a: Houndstone|Houndstone, F|100/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Houndstone
+|-damage|p1a: Houndstone|67/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-heal|p1a: Houndstone|73/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|turn|7
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|move|p1a: Houndstone|Body Press|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p1a: Houndstone|79/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Muk|Muk-Alola, F|100/100
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: Qishan|Reflect
+|
+|turn|9
+|
+|move|p2a: Dragapult|Curse|p1a: Muk
+|-start|p1a: Muk|Curse|[of] p2a: Dragapult
+|-damage|p2a: Dragapult|51/100
+|move|p1a: Muk|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|13/100
+|-status|p2a: Dragapult|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|-enditem|p2a: Dragapult|Light Clay|[from] move: Knock Off|[of] p1a: Muk
+|
+|-damage|p2a: Dragapult|1/100 psn|[from] psn
+|-damage|p1a: Muk|76/100|[from] Curse
+|turn|10
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: Qishan|move: Light Screen
+|
+|-damage|p2a: Dragapult|0 fnt|[from] psn
+|faint|p2a: Dragapult
+|
+|switch|p2a: Sneasler|Sneasler, M, shiny|100/100
+|-item|p2a: Sneasler|Air Balloon
+|turn|11
+|
+|switch|p1a: Houndstone|Houndstone, F|79/100
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-heal|p1a: Houndstone|85/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Houndstone
+|-resisted|p1a: Houndstone
+|-damage|p1a: Houndstone|69/100
+|move|p1a: Houndstone|Will-O-Wisp|p2a: Sneasler
+|-status|p2a: Sneasler|brn
+|
+|-heal|p1a: Houndstone|75/100|[from] item: Leftovers
+|-damage|p2a: Sneasler|94/100 brn|[from] brn
+|turn|13
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Houndstone|Night Shade|p2a: Magearna
+|-damage|p2a: Magearna|69/100
+|
+|-heal|p2a: Magearna|75/100|[from] item: Leftovers
+|-heal|p1a: Houndstone|81/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|81/100|[from] item: Leftovers
+|-sideend|p2: Qishan|move: Light Screen
+|turn|15
+|
+|-terastallize|p2a: Magearna|Dragon
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Heatran|Taunt|p2a: Magearna
+|-start|p2a: Magearna|move: Taunt
+|
+|-heal|p2a: Magearna|87/100|[from] item: Leftovers
+|-sideend|p2: Qishan|Reflect
+|turn|16
+|
+|move|p2a: Magearna|Stored Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|80/100
+|move|p1a: Heatran|Magma Storm|p2a: Magearna|[miss]
+|-miss|p1a: Heatran|p2a: Magearna
+|
+|-heal|p2a: Magearna|93/100|[from] item: Leftovers
+|-heal|p1a: Heatran|86/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Magearna|Stored Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|63/100
+|move|p1a: Heatran|Magma Storm|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|80/100
+|-activate|p2a: Magearna|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Magearna|86/100|[from] item: Leftovers
+|-heal|p1a: Heatran|70/100|[from] item: Leftovers
+|-damage|p2a: Magearna|74/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|18
+|
+|move|p2a: Magearna|Stored Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|48/100
+|move|p1a: Heatran|Stealth Rock|p2a: Magearna
+|-sidestart|p2: Qishan|move: Stealth Rock
+|
+|-heal|p2a: Magearna|80/100|[from] item: Leftovers
+|-heal|p1a: Heatran|54/100|[from] item: Leftovers
+|-damage|p2a: Magearna|68/100|[from] move: Magma Storm|[partiallytrapped]
+|-end|p2a: Magearna|move: Taunt
+|turn|19
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Heatran|Taunt|p2a: Magearna
+|-start|p2a: Magearna|move: Taunt
+|
+|-heal|p2a: Magearna|74/100|[from] item: Leftovers
+|-heal|p1a: Heatran|60/100|[from] item: Leftovers
+|-damage|p2a: Magearna|61/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|20
+|
+|move|p2a: Magearna|Stored Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|18/100
+|move|p1a: Heatran|Earth Power|p2a: Magearna
+|-damage|p2a: Magearna|49/100
+|
+|-heal|p2a: Magearna|55/100|[from] item: Leftovers
+|-heal|p1a: Heatran|24/100|[from] item: Leftovers
+|-damage|p2a: Magearna|43/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|21
+|
+|move|p2a: Magearna|Stored Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|48/100|[from] item: Leftovers
+|-end|p2a: Magearna|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Chien-Pao|Chien-Pao|24/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|22
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Corviknight|Agility|p2a: Corviknight
+|-boost|p2a: Corviknight|spe|2
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|25
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Great Tusk|Close Combat|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Corviknight
+|
+|-message|Qishan forfeited.
+|
+|win|pyrromanis

@@ -1,0 +1,205 @@
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Gholdengo|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Great Tusk|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Magearna|
+|poke|p2|Rotom-Wash|
+|poke|p2|Gholdengo|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Slowking
+|-status|p1a: Slowking|brn
+|
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|81/100 brn
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] Volt Switch
+|move|p1a: Slowking|Future Sight|p2a: Magearna
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p1a: Slowking|75/100 brn|[from] brn
+|turn|3
+|
+|move|p2a: Magearna|Iron Head|p1a: Slowking
+|-damage|p1a: Slowking|46/100 brn
+|move|p1a: Slowking|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|76/100
+|
+|-damage|p1a: Slowking|40/100 brn|[from] brn
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Magearna|Volt Switch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|61/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] Volt Switch
+|
+|-end|p2a: Rotom|move: Future Sight
+|-damage|p2a: Rotom|32/100
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|67/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Slowking|Slowking-Galar, M|73/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|61/100 brn
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|-damage|p1a: Slowking|55/100 brn|[from] brn
+|turn|6
+|
+|switch|p1a: Corviknight|Corviknight, M|67/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Chien-Pao|Crunch|p1a: Corviknight
+|-damage|p1a: Corviknight|16/100
+|
+|-heal|p1a: Corviknight|22/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|39/100
+|move|p1a: Urshifu|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Rotom
+|-damage|p1a: Urshifu|91/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|9
+|
+|switch|p1a: Slowking|Slowking-Galar, M|88/100 brn
+|move|p2a: Thundurus|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|57/100 brn
+|
+|-damage|p1a: Slowking|51/100 brn|[from] brn
+|turn|10
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Slowking|Future Sight|p2a: Chien-Pao
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p1a: Slowking|45/100 brn|[from] brn
+|turn|11
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|91/100
+|move|p2a: Chien-Pao|Crunch|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|54/100
+|
+|turn|12
+|
+|-terastallize|p2a: Chien-Pao|Dark
+|move|p2a: Chien-Pao|Crunch|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|6/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Chien-Pao
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|66/100
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|29/100
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|-hitcount|p2: Chien-Pao|3
+|-damage|p1a: Urshifu|0 fnt|[from] item: Life Orb
+|faint|p1a: Urshifu
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|
+|switch|p2a: Magearna|Magearna|76/100
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|13
+|
+|move|p1a: Gholdengo|Focus Blast|p2a: Magearna|[miss]
+|-miss|p1a: Gholdengo|p2a: Magearna
+|move|p2a: Magearna|Volt Switch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|78/100
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] Volt Switch
+|
+|turn|14
+|
+|move|p1a: Gholdengo|Focus Blast|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|72/100
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|
+|-heal|p2a: Thundurus|78/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Slowking|Slowking-Galar, M|78/100 brn
+|move|p2a: Thundurus|Agility|p2a: Thundurus
+|-boost|p2a: Thundurus|spe|2
+|
+|-heal|p2a: Thundurus|84/100|[from] item: Leftovers
+|-damage|p1a: Slowking|72/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: Thundurus|90/100|[from] item: Leftovers
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|17
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Thundurus
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Thundurus|38/100
+|move|p2a: Thundurus|Thunderbolt|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Thundurus|44/100|[from] item: Leftovers
+|
+|switch|p1a: Gholdengo|Gholdengo|78/100
+|turn|18
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Thundurus|50/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|19
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|win|GOAT CB

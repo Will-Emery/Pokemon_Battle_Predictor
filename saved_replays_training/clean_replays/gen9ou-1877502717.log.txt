@@ -1,0 +1,305 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Magearna|
+|poke|p2|Heatran, M|
+|poke|p2|Regidrago|
+|teampreview
+|
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: You know who|Landorus-Therian, M|100/100
+|-ability|p2a: You know who|Intimidate|boost
+|-unboost|p1a: Slowking|atk|1
+|turn|1
+|
+|-terastallize|p1a: Slowking|Flying
+|move|p2a: You know who|Stealth Rock|p1a: Slowking
+|-sidestart|p1: TheSunnyBug|move: Stealth Rock
+|move|p1a: Slowking|Future Sight|p2a: You know who
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|2
+|
+|move|p2a: You know who|Stone Edge|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|56/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: You know who|U-turn|p1a: Ursaluna
+|-damage|p1a: Ursaluna|77/100
+|
+|switch|p2a: Weavile 2|Chien-Pao|100/100|[from] U-turn
+|-ability|p2a: Weavile 2|Sword of Ruin
+|
+|-end|p2a: Weavile 2|move: Future Sight
+|-immune|p2a: Weavile 2
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|4
+|
+|move|p2a: Weavile 2|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|40/100 brn
+|-damage|p2a: Weavile 2|91/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Drain Punch|p2a: Weavile 2
+|-supereffective|p2a: Weavile 2
+|-damage|p2a: Weavile 2|0 fnt
+|-heal|p1a: Ursaluna|69/100 brn|[from] drain|[of] p2a: Weavile 2
+|faint|p2a: Weavile 2
+|
+|-damage|p1a: Ursaluna|63/100 brn|[from] brn
+|
+|switch|p2a: That fucking bird|Decidueye-Hisui, M|100/100
+|turn|5
+|
+|move|p2a: That fucking bird|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|42/100 brn
+|-damage|p2a: That fucking bird|90/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Facade|p2a: That fucking bird
+|-damage|p2a: That fucking bird|0 fnt
+|faint|p2a: That fucking bird
+|
+|-damage|p1a: Ursaluna|35/100 brn|[from] brn
+|
+|switch|p2a: Mechanical Marvel|Magearna|100/100
+|turn|6
+|
+|-terastallize|p2a: Mechanical Marvel|Ground
+|move|p1a: Ursaluna|Drain Punch|p2a: Mechanical Marvel
+|-damage|p2a: Mechanical Marvel|66/100
+|-heal|p1a: Ursaluna|49/100 brn|[from] drain|[of] p2a: Mechanical Marvel
+|move|p2a: Mechanical Marvel|Fleur Cannon|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Mechanical Marvel|spa|2
+|faint|p1a: Ursaluna
+|-ability|p2a: Mechanical Marvel|Soul-Heart|boost
+|-boost|p2a: Mechanical Marvel|spa|1
+|
+|-heal|p2a: Mechanical Marvel|72/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: TheSunnyBug|move: Light Screen
+|move|p2a: Mechanical Marvel|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|84/100
+|
+|switch|p2a: Fuck it we ball|Regidrago|100/100|[from] Volt Switch
+|
+|turn|8
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Fuck it we ball
+|-status|p2a: Fuck it we ball|brn
+|move|p2a: Fuck it we ball|Dragon Energy|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Fuck it we ball|94/100 brn|[from] brn
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Mechanical Marvel|Magearna, tera:Ground|72/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Mechanical Marvel|79/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|94/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Mechanical Marvel|Steel Beam|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|56/100
+|-damage|p2a: Mechanical Marvel|29/100|[from] steelbeam
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Mechanical Marvel|35/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|62/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Mechanical Marvel|Volt Switch|p1a: Hatterene
+|-damage|p1a: Hatterene|57/100
+|
+|switch|p2a: No Eruption?|Heatran, M|100/100|[from] Volt Switch
+|-item|p2a: No Eruption?|Air Balloon
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|63/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Hatterene|Psyshock|p2a: No Eruption?
+|-resisted|p2a: No Eruption?
+|-damage|p2a: No Eruption?|68/100
+|-enditem|p2a: No Eruption?|Air Balloon
+|move|p2a: No Eruption?|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|46/100
+|-unboost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|52/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: No Eruption?
+|-resisted|p2a: No Eruption?
+|-damage|p2a: No Eruption?|59/100
+|-heal|p1a: Hatterene|60/100|[from] drain|[of] p2a: No Eruption?
+|move|p2a: No Eruption?|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|39/100
+|
+|-heal|p1a: Hatterene|45/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Hatterene|Psyshock|p2a: No Eruption?
+|-resisted|p2a: No Eruption?
+|-damage|p2a: No Eruption?|26/100
+|move|p2a: No Eruption?|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|22/100
+|
+|-heal|p1a: Hatterene|28/100|[from] item: Leftovers
+|-sideend|p1: TheSunnyBug|move: Light Screen
+|turn|15
+|
+|move|p1a: Hatterene|Psyshock|p2a: No Eruption?
+|-resisted|p2a: No Eruption?
+|-damage|p2a: No Eruption?|0 fnt
+|faint|p2a: No Eruption?
+|
+|-heal|p1a: Hatterene|34/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p2a: You know who|Landorus-Therian, M|100/100
+|-ability|p2a: You know who|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|turn|16
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|-damage|p1a: Dondozo|88/100|[from] Stealth Rock
+|move|p2a: You know who|U-turn|p1a: Dondozo
+|-damage|p1a: Dondozo|71/100
+|
+|switch|p2a: Mechanical Marvel|Magearna, tera:Ground|35/100|[from] U-turn
+|
+|-heal|p2a: Mechanical Marvel|41/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Mechanical Marvel|Volt Switch|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|28/100
+|
+|switch|p2a: You know who|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p2a: You know who|Intimidate|boost
+|-unboost|p1a: Dondozo|atk|1
+|move|p1a: Dondozo|Waterfall|p2a: You know who
+|-supereffective|p2a: You know who
+|-damage|p2a: You know who|50/100
+|
+|-heal|p2a: You know who|56/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: You know who|Stone Edge|p1a: Dondozo|[miss]
+|-miss|p2a: You know who|p1a: Dondozo
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-enditem|p1a: Dondozo|Lum Berry|[eat]
+|-curestatus|p1a: Dondozo|slp|[msg]
+|-heal|p1a: Dondozo|100/100|[silent]
+|
+|-heal|p2a: You know who|62/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: You know who|U-turn|p1a: Dondozo
+|-damage|p1a: Dondozo|86/100
+|
+|switch|p2a: Mechanical Marvel|Magearna, tera:Ground|41/100|[from] U-turn
+|move|p1a: Dondozo|Waterfall|p2a: Mechanical Marvel
+|-supereffective|p2a: Mechanical Marvel
+|-damage|p2a: Mechanical Marvel|1/100
+|
+|-heal|p2a: Mechanical Marvel|7/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Slowking|Slowking-Galar, M, tera:Flying|90/100
+|-damage|p1a: Slowking|65/100|[from] Stealth Rock
+|move|p2a: Mechanical Marvel|Volt Switch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|25/100
+|
+|switch|p2a: You know who|Landorus-Therian, M|62/100|[from] Volt Switch
+|-ability|p2a: You know who|Intimidate|boost
+|-unboost|p1a: Slowking|atk|1
+|
+|-heal|p2a: You know who|68/100|[from] item: Leftovers
+|-heal|p1a: Slowking|31/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: You know who|Stone Edge|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: You know who|74/100|[from] item: Leftovers
+|
+|switch|p1a: Dondozo|Dondozo, F|86/100
+|-damage|p1a: Dondozo|73/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: You know who|Stone Edge|p1a: Dondozo
+|-damage|p1a: Dondozo|50/100
+|move|p1a: Dondozo|Waterfall|p2a: You know who
+|-supereffective|p2a: You know who
+|-damage|p2a: You know who|0 fnt
+|faint|p2a: You know who
+|
+|
+|switch|p2a: Fuck it we ball|Regidrago|94/100 brn
+|turn|23
+|
+|move|p2a: Fuck it we ball|Dragon Energy|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|-damage|p2a: Fuck it we ball|88/100 brn|[from] brn
+|
+|switch|p1a: Hatterene|Hatterene, F|34/100
+|-damage|p1a: Hatterene|22/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Fuck it we ball|Earth Power|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-damage|p2a: Fuck it we ball|82/100 brn|[from] brn
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|turn|25
+|
+|move|p2a: Fuck it we ball|Dragon Energy|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|win|Amadamo✔
+|player|p2|Amadamo✔|grusha

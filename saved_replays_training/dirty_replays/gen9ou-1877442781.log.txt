@@ -1,1 +1,276 @@
-Could not connect
+|j|☆XerKalm
+|j|☆testertester123
+|t:|1685861738
+|gametype|singles
+|player|p1|XerKalm|169|1612
+|player|p2|testertester123|cynthia-gen7|1541
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Hattrem, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Dragonite, F|
+|poke|p2|Houndstone, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Slowbro-Galar, F|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testertester123)
+|
+|t:|1685861765
+|start
+|switch|p1a: Hattrem|Hattrem, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|t:|1685861777
+|move|p2a: Great Tusk|Knock Off|p1a: Hattrem
+|-supereffective|p1a: Hattrem
+|-damage|p1a: Hattrem|56/100
+|-enditem|p1a: Hattrem|Eviolite|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Hattrem|Trick Room|p1a: Hattrem
+|-fieldstart|move: Trick Room|[of] p1a: Hattrem
+|
+|upkeep
+|turn|2
+|
+|t:|1685861792
+|move|p1a: Hattrem|Healing Wish|p1a: Hattrem
+|faint|p1a: Hattrem
+|move|p2a: Great Tusk|Earthquake|p1: Hattrem|[notarget]
+|-fail|p2a: Great Tusk
+|
+|upkeep
+|
+|t:|1685861809
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|turn|3
+|
+|t:|1685861819
+|move|p1a: Torkoal|Eruption|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685861822
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|4
+|
+|t:|1685861828
+|move|p1a: Torkoal|Eruption|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|38/100
+|move|p2a: Ting-Lu|Ruination|p1a: Torkoal
+|-damage|p1a: Torkoal|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|44/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685861841
+|move|p1a: Torkoal|Eruption|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|17/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|23/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685861854
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|6
+|
+|t:|1685861862
+|move|p2a: Ting-Lu|Spikes|p1a: Ursaluna
+|-sidestart|p1: XerKalm|Spikes
+|move|p1a: Ursaluna|Headlong Rush|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1685861868
+|switch|p2a: Houndstone|Houndstone, F|100/100
+|turn|7
+|
+|t:|1685861877
+|move|p2a: Houndstone|Body Press|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|50/100 brn
+|move|p1a: Ursaluna|Headlong Rush|p2a: Houndstone
+|-damage|p2a: Houndstone|59/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-weather|none
+|-heal|p2a: Houndstone|65/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|44/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|testertester123 has 120 seconds left.
+|
+|t:|1685861907
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Spikes
+|
+|upkeep
+|turn|9
+|inactive|testertester123 has 120 seconds left.
+|
+|t:|1685861925
+|move|p2a: Dragonite|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|42/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|10
+|inactive|testertester123 has 120 seconds left.
+|
+|t:|1685861957
+|switch|p1a: Ursaluna|Ursaluna, M|44/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Healing Wish
+|-damage|p1a: Ursaluna|88/100|[from] Spikes
+|switch|p2a: Slowbro|Slowbro-Galar, F|100/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|t:|1685861966
+|-terastallize|p2a: Slowbro|Grass
+|move|p2a: Slowbro|Grass Knot|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|14/100 brn
+|move|p1a: Ursaluna|Headlong Rush|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|52/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-damage|p1a: Ursaluna|8/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1685861974
+|move|p2a: Slowbro|Shell Side Arm|p1a: Ursaluna|[anim] Shell Side Arm Special
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-hint|Special Shell Side Arm
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1685861977
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p1a: Hoopa|88/100|[from] Spikes
+|turn|13
+|
+|t:|1685861986
+|move|p2a: Slowbro|Shell Side Arm|p1a: Hoopa|[anim] Shell Side Arm Physical
+|-damage|p1a: Hoopa|47/100
+|-hint|Physical Shell Side Arm
+|move|p1a: Hoopa|Fire Punch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|-damage|p1a: Hoopa|37/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685861998
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|14
+|
+|t:|1685862006
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Hoopa|Dark Pulse|p2a: Dragonite
+|-damage|p2a: Dragonite|63/100
+|-damage|p1a: Hoopa|27/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|inactive|testertester123 has 120 seconds left.
+|
+|t:|1685862013
+|move|p2a: Dragonite|Extreme Speed|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|upkeep
+|
+|t:|1685862021
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|16
+|
+|t:|1685862026
+|move|p2a: Dragonite|Extreme Speed|p1a: Cresselia
+|-damage|p1a: Cresselia|76/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|17
+|
+|t:|1685862034
+|move|p1a: Cresselia|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1685862036
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|18
+|
+|t:|1685862045
+|switch|p1a: Hatterene|Hatterene, F|42/100
+|-damage|p1a: Hatterene|30/100|[from] Spikes
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|19
+|-message|XerKalm forfeited.
+|
+|win|testertester123
+|raw|XerKalm's rating: 1612 → 1588(-24 for losing)
+|raw|testertester123's rating: 1541 → 1565(+24 for winning)
+|l|☆XerKalm
+|c|☆testertester123|Gg

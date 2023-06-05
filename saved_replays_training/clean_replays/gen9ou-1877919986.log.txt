@@ -1,0 +1,243 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Heatran, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Great Tusk|
+|poke|p1|Enamorus-Therian, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Iron Moth|
+|poke|p2|Tyranitar, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Kleavor, F|
+|teampreview
+|
+|start
+|switch|p1a: Takizawa|Samurott-Hisui, F|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|1
+|
+|move|p1a: Takizawa|Ceaseless Edge|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|78/100
+|-sidestart|p2: apap76|Spikes
+|move|p2a: Urshifu|Trailblaze|p1a: Takizawa
+|-supereffective|p1a: Takizawa
+|-damage|p1a: Takizawa|53/100
+|-boost|p2a: Urshifu|spe|1
+|
+|-heal|p2a: Urshifu|84/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Gaia|Landorus-Therian, M|100/100
+|-ability|p1a: Gaia|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|move|p2a: Urshifu|Drain Punch|p1a: Gaia
+|-resisted|p1a: Gaia
+|-damage|p1a: Gaia|92/100
+|-heal|p2a: Urshifu|89/100|[from] drain|[of] p1a: Gaia
+|-damage|p2a: Urshifu|73/100|[from] item: Rocky Helmet|[of] p1a: Gaia
+|
+|-heal|p2a: Urshifu|79/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Urshifu|Ice Spinner|p1a: Gaia
+|-supereffective|p1a: Gaia
+|-damage|p1a: Gaia|39/100
+|-damage|p2a: Urshifu|62/100|[from] item: Rocky Helmet|[of] p1a: Gaia
+|move|p1a: Gaia|Earthquake|p2a: Urshifu
+|-damage|p2a: Urshifu|11/100
+|
+|-heal|p2a: Urshifu|18/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: LG WM3600HVA|Rotom-Wash, shiny|100/100
+|move|p2a: Urshifu|Ice Spinner|p1a: LG WM3600HVA
+|-resisted|p1a: LG WM3600HVA
+|-damage|p1a: LG WM3600HVA|88/100
+|
+|-heal|p2a: Urshifu|24/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Urshifu|Drain Punch|p1a: LG WM3600HVA
+|-damage|p1a: LG WM3600HVA|52/100
+|-heal|p2a: Urshifu|37/100|[from] drain|[of] p1a: LG WM3600HVA
+|move|p1a: LG WM3600HVA|Trick|p2a: Urshifu
+|-activate|p1a: LG WM3600HVA|move: Trick|[of] p2a: Urshifu
+|-item|p2a: Urshifu|Choice Specs|[from] move: Trick
+|-item|p1a: LG WM3600HVA|Leftovers|[from] move: Trick
+|
+|-heal|p1a: LG WM3600HVA|58/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Urshifu|Drain Punch|p1a: LG WM3600HVA
+|-damage|p1a: LG WM3600HVA|22/100
+|-heal|p2a: Urshifu|49/100|[from] drain|[of] p1a: LG WM3600HVA
+|move|p1a: LG WM3600HVA|Volt Switch|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|switch|p1a: Takizawa|Samurott-Hisui, F|53/100|[from] Volt Switch
+|
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|-damage|p2a: Kleavor|88/100|[from] Spikes
+|turn|7
+|
+|move|p1a: Takizawa|Razor Shell|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|8
+|
+|switch|p1a: Gaia|Landorus-Therian, M|39/100
+|-ability|p1a: Gaia|Intimidate|boost
+|-unboost|p2a: Thundurus|atk|1
+|move|p2a: Thundurus|Volt Switch|p1a: Gaia
+|-immune|p1a: Gaia
+|
+|turn|9
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Gaia|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: apap76|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|turn|10
+|
+|move|p1a: Gaia|Taunt|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Taunt
+|move|p2a: Tyranitar|Avalanche|p1a: Gaia
+|-supereffective|p1a: Gaia
+|-damage|p1a: Gaia|0 fnt
+|-damage|p2a: Tyranitar|72/100|[from] item: Rocky Helmet|[of] p1a: Gaia
+|faint|p1a: Gaia
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Takizawa|Samurott-Hisui, F|53/100
+|turn|11
+|
+|-terastallize|p2a: Tyranitar|Dark
+|move|p1a: Takizawa|Ceaseless Edge|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|55/100
+|-sidestart|p2: apap76|Spikes
+|move|p2a: Tyranitar|Crunch|p1a: Takizawa
+|-resisted|p1a: Takizawa
+|-damage|p1a: Takizawa|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Takizawa|5/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|49/100|[from] Sandstorm
+|turn|12
+|
+|move|p1a: Takizawa|Ceaseless Edge|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|32/100
+|-sidestart|p2: apap76|Spikes
+|move|p2a: Tyranitar|Crunch|p1a: Takizawa
+|-resisted|p1a: Takizawa
+|-crit|p1a: Takizawa
+|-damage|p1a: Takizawa|0 fnt
+|faint|p1a: Takizawa
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|26/100|[from] Sandstorm
+|-end|p2a: Tyranitar|move: Taunt
+|
+|switch|p1a: Landorus but Again|Great Tusk|100/100
+|turn|13
+|
+|move|p1a: Landorus but Again|Rapid Spin|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100
+|-boost|p1a: Landorus but Again|spe|1
+|move|p2a: Tyranitar|Avalanche|p1a: Landorus but Again
+|-supereffective|p1a: Landorus but Again
+|-damage|p1a: Landorus but Again|27/100
+|
+|-weather|none
+|turn|14
+|
+|move|p1a: Landorus but Again|Rapid Spin|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-boost|p1a: Landorus but Again|spe|1
+|faint|p2a: Tyranitar
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|76/100|[from] Spikes
+|-damage|p2a: Dragapult|63/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Landorus but Again|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Leftovers|[from] move: Knock Off|[of] p1a: Landorus but Again
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|turn|16
+|
+|-terastallize|p1a: Landorus but Again|Fighting
+|move|p1a: Landorus but Again|Close Combat|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|17/100
+|-unboost|p1a: Landorus but Again|def|1
+|-unboost|p1a: Landorus but Again|spd|1
+|move|p2a: Thundurus|Psychic|p1a: Landorus but Again
+|-supereffective|p1a: Landorus but Again
+|-damage|p1a: Landorus but Again|0 fnt
+|faint|p1a: Landorus but Again
+|-end|p1a: Landorus but Again|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Tort|Enamorus-Therian, F|100/100
+|turn|17
+|
+|move|p2a: Thundurus|Psychic|p1a: Tort
+|-damage|p1a: Tort|53/100
+|move|p1a: Tort|Psychic|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-heal|p1a: Tort|59/100|[from] item: Leftovers
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Spikes
+|-damage|p2a: Iron Moth|51/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|18
+|
+|move|p2a: Iron Moth|Sludge Wave|p1a: Tort
+|-supereffective|p1a: Tort
+|-damage|p1a: Tort|0 fnt
+|faint|p1a: Tort
+|
+|
+|switch|p1a: Martinelli's|Heatran, M|100/100
+|-item|p1a: Martinelli's|Air Balloon
+|turn|19
+|
+|move|p2a: Iron Moth|Fiery Dance|p1a: Martinelli's
+|-start|p1a: Martinelli's|ability: Flash Fire
+|move|p1a: Martinelli's|Magma Storm|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|20/100
+|-activate|p2a: Iron Moth|move: Magma Storm|[of] p1a: Martinelli's
+|
+|-damage|p2a: Iron Moth|7/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|20
+|-message|apap76 forfeited.
+|
+|win|bo552

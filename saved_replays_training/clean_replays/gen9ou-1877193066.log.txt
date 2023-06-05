@@ -1,0 +1,227 @@
+|poke|p1|Kleavor, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Delphox, F|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Hatterene, F|
+|poke|p1|Goodra-Hisui, F|
+|poke|p2|Magearna|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Gholdengo|
+|poke|p2|Sneasler, M|
+|poke|p2|Azelf|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-enditem|p2a: Azelf|Focus Sash
+|-damage|p2a: Azelf|1/100
+|-sidestart|p2: Ironbrobro|Spikes
+|move|p2a: Azelf|Stealth Rock|p1a: Samurott
+|-sidestart|p1: Execko|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|-sidestart|p2: Ironbrobro|Spikes
+|faint|p2a: Azelf
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Enamorus|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|39/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|-damage|p1a: Goodra|94/100|[from] Stealth Rock
+|
+|turn|4
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|84/100|[from] Spikes
+|move|p1a: Goodra|Flamethrower|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|62/100
+|
+|turn|5
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Ironbrobro|move: Light Screen
+|move|p1a: Goodra|Flash Cannon|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|29/100
+|
+|turn|6
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Ironbrobro|Reflect
+|move|p1a: Goodra|Flash Cannon|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|84/100|[from] Spikes
+|turn|7
+|
+|switch|p1a: Hatterene|Hatterene, F|39/100
+|-damage|p1a: Hatterene|26/100|[from] Stealth Rock
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|8
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Hatterene|Nuzzle|p2a: Magearna
+|-damage|p2a: Magearna|83/100
+|-status|p2a: Magearna|par
+|
+|turn|9
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|94/100
+|-heal|p1a: Goodra|100/100|[from] move: Healing Wish
+|-damage|p1a: Goodra|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Goodra|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|3/100 par
+|-enditem|p2a: Magearna|Weakness Policy
+|-boost|p2a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Magearna|spa|2|[from] item: Weakness Policy
+|
+|turn|11
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Goodra
+|-damage|p1a: Goodra|57/100
+|-heal|p2a: Magearna|35/100 par|[from] drain|[of] p1a: Goodra
+|move|p1a: Goodra|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|14/100 par
+|
+|turn|12
+|
+|-terastallize|p2a: Magearna|Water
+|cant|p2a: Magearna|par
+|move|p1a: Goodra|Flamethrower|p2a: Magearna
+|-resisted|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-sideend|p2: Ironbrobro|move: Light Screen
+|n|!Ironbrobro|ironbrobro
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-damage|p2a: Sneasler|84/100|[from] Spikes
+|turn|13
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|-damage|p1a: Kleavor|76/100|[from] Stealth Rock
+|move|p2a: Sneasler|Close Combat|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|faint|p1a: Kleavor
+|
+|-sideend|p2: Ironbrobro|Reflect
+|
+|switch|p1a: Delphox|Delphox, F|100/100
+|-damage|p1a: Delphox|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Delphox
+|-damage|p1a: Delphox|16/100
+|move|p1a: Delphox|Psyshock|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-crit|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|15
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|57/100
+|-damage|p1a: Goodra|51/100|[from] Stealth Rock
+|move|p2a: Gholdengo|Shadow Ball|p1a: Goodra
+|-damage|p1a: Goodra|32/100
+|
+|turn|16
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Goodra|Flamethrower|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|28/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|turn|17
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|-damage|p1a: Electrode|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Electrode|78/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|19
+|
+|move|p2a: Enamorus|Moonblast|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|
+|switch|p1a: Delphox|Delphox, F|16/100
+|-damage|p1a: Delphox|0 fnt|[from] Stealth Rock
+|faint|p1a: Delphox
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Enamorus|Moonblast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|win|Ironbrobro

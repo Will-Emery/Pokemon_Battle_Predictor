@@ -1,1 +1,195 @@
-Could not connect
+|j|☆Velho Aidetico
+|j|☆Dec17
+|t:|1685920885
+|gametype|singles
+|player|p1|Velho Aidetico|gentleman|1178
+|player|p2|Dec17|101|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Electrode-Hisui|
+|poke|p1|Regidrago|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Flamigo, F|
+|poke|p2|Komala, M|
+|poke|p2|Cetitan, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Delphox, M|
+|poke|p2|Toedscruel, M|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|t:|1685920905
+|start
+|switch|p1a: Grooda|Goodra-Hisui, M|100/100
+|switch|p2a: Cetitan|Cetitan, M|100/100
+|turn|1
+|
+|t:|1685920911
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Grooda|Draco Meteor|p2a: Sneasler
+|-damage|p2a: Sneasler|37/100
+|-unboost|p1a: Grooda|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1685920916
+|switch|p1a: Elefanto|Great Tusk|100/100
+|move|p2a: Sneasler|Close Combat|p1a: Elefanto
+|-damage|p1a: Elefanto|60/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|
+|-heal|p1a: Elefanto|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685920925
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Elefanto|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|89/100
+|-enditem|p2a: Dondozo|Leftovers|[from] move: Knock Off|[of] p1a: Elefanto
+|
+|-heal|p1a: Elefanto|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685920934
+|-end|p1a: Elefanto|Protosynthesis|[silent]
+|switch|p1a: Not Salazzle|Electrode-Hisui|100/100
+|move|p2a: Dondozo|Body Press|p1a: Not Salazzle
+|-damage|p1a: Not Salazzle|51/100
+|
+|-heal|p1a: Not Salazzle|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685920940
+|switch|p2a: Toedscruel|Toedscruel, M|100/100
+|move|p1a: Not Salazzle|Volt Switch|p2a: Toedscruel
+|-immune|p2a: Toedscruel
+|
+|-heal|p1a: Not Salazzle|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685920957
+|switch|p1a: Elefanto|Great Tusk|72/100
+|move|p2a: Toedscruel|Spore|p1a: Elefanto
+|-status|p1a: Elefanto|slp|[from] move: Spore
+|
+|-heal|p1a: Elefanto|79/100 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685920960
+|-end|p1a: Elefanto|Protosynthesis|[silent]
+|switch|p1a: Mengo|Flamigo, F|100/100
+|move|p2a: Toedscruel|Giga Drain|p1a: Mengo
+|-resisted|p1a: Mengo
+|-damage|p1a: Mengo|84/100
+|
+|upkeep
+|turn|8
+|
+|t:|1685920964
+|switch|p2a: Dondozo|Dondozo, M|89/100
+|move|p1a: Mengo|Brave Bird|p2a: Dondozo
+|-damage|p2a: Dondozo|61/100
+|-damage|p1a: Mengo|69/100|[from] Recoil
+|
+|upkeep
+|turn|9
+|
+|t:|1685920973
+|switch|p1a: Grooda|Goodra-Hisui, M|100/100
+|move|p2a: Dondozo|Body Press|p1a: Grooda
+|-supereffective|p1a: Grooda
+|-damage|p1a: Grooda|50/100
+|
+|upkeep
+|turn|10
+|
+|t:|1685920979
+|switch|p1a: Voa|Braviary-Hisui, M|100/100
+|switch|p2a: Toedscruel|Toedscruel, M|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1685920985
+|move|p2a: Toedscruel|Knock Off|p1a: Voa
+|-supereffective|p1a: Voa
+|-damage|p1a: Voa|76/100
+|-enditem|p1a: Voa|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Toedscruel
+|move|p1a: Voa|U-turn|p2a: Toedscruel
+|-supereffective|p2a: Toedscruel
+|-damage|p2a: Toedscruel|65/100
+|
+|t:|1685920998
+|switch|p1a: Mengo|Flamigo, F|69/100|[from] U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1685921006
+|switch|p2a: Cetitan|Cetitan, M|100/100
+|move|p1a: Mengo|Brave Bird|p2a: Cetitan
+|-damage|p2a: Cetitan|39/100
+|-damage|p1a: Mengo|37/100|[from] Recoil
+|
+|upkeep
+|turn|13
+|
+|t:|1685921011
+|move|p2a: Cetitan|Ice Shard|p1a: Mengo
+|-supereffective|p1a: Mengo
+|-damage|p1a: Mengo|0 fnt
+|faint|p1a: Mengo
+|-damage|p2a: Cetitan|29/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685921018
+|switch|p1a: Grooda|Goodra-Hisui, M|50/100
+|turn|14
+|
+|t:|1685921020
+|move|p2a: Cetitan|Earthquake|p1a: Grooda
+|-supereffective|p1a: Grooda
+|-damage|p1a: Grooda|0 fnt
+|faint|p1a: Grooda
+|-damage|p2a: Cetitan|19/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685921031
+|switch|p1a: Voa|Braviary-Hisui, M|76/100
+|turn|15
+|
+|t:|1685921034
+|move|p2a: Cetitan|Icicle Crash|p1a: Voa
+|-supereffective|p1a: Voa
+|-damage|p1a: Voa|0 fnt
+|faint|p1a: Voa
+|
+|upkeep
+|-message|Velho Aidetico forfeited.
+|
+|win|Dec17
+|raw|Velho Aidetico's rating: 1157 → 1130(-27 for losing)
+|raw|Dec17's rating: 1136 → 1163(+27 for winning)
+|l|☆Velho Aidetico

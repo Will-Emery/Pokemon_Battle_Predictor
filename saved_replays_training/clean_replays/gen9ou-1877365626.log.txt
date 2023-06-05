@@ -1,0 +1,225 @@
+|poke|p1|Urshifu-*, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Zapdos|
+|poke|p1|Garganacl, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Floatzel, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Iron Treads|
+|poke|p2|Pawmot, F|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|turn|1
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|72/100
+|-resisted|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|42/100
+|-resisted|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|11/100
+|-hitcount|p2a: Basculegion|3
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|35/100
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|move|p1a: Urshifu|Surging Strikes|p2: Basculegion|[notarget]
+|-fail|p1a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: BandedSkeda|Floatzel, F|100/100
+|turn|4
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: BandedSkeda|Wave Crash|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-damage|p2a: BandedSkeda|62/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|5
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|-terastallize|p1a: Garganacl|Water
+|move|p1a: Garganacl|Salt Cure|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|67/100
+|-start|p2a: Braviary|Salt Cure
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Braviary|54/100|[from] Salt Cure
+|turn|6
+|
+|move|p2a: Braviary|Hurricane|p1a: Garganacl
+|-damage|p1a: Garganacl|35/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|85/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Garganacl|92/100|[from] item: Leftovers
+|-damage|p2a: Braviary|42/100|[from] Salt Cure
+|turn|7
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-terastallize|p2a: Braviary|Flying
+|move|p2a: Braviary|Hurricane|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|37/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Braviary|29/100|[from] Salt Cure
+|turn|8
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|87/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-weather|none
+|turn|9
+|
+|move|p2a: Iron Treads|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: TestPlays1|move: Stealth Rock
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|34/100
+|
+|-heal|p2a: Iron Treads|41/100|[from] item: Leftovers
+|turn|10
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Ghoti carrier
+|-supereffective|p2a: Ghoti carrier
+|-damage|p2a: Ghoti carrier|0 fnt
+|faint|p2a: Ghoti carrier
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: BandedSkeda|Floatzel, F|62/100
+|turn|12
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: BandedSkeda|Wave Crash|p1a: Zapdos
+|-damage|p1a: Zapdos|14/100
+|-damage|p2a: BandedSkeda|30/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p2a: Really want eject|Pawmot, F|100/100
+|move|p1a: Zapdos|Volt Switch|p2a: Really want eject
+|-immune|p2a: Really want eject|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p2a: Really want eject|Revival Blessing|p2a: Really want eject
+|-enditem|p2a: Really want eject|Leppa Berry|[eat]
+|-activate|p2a: Really want eject|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p2: Ghoti carrier|50/100|[from] move: Revival Blessing
+|move|p1a: Zapdos|Hurricane|p2a: Really want eject
+|-damage|p2a: Really want eject|33/100
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|move|p2a: Really want eject|Revival Blessing|p2a: Really want eject
+|
+|-heal|p2: Basculegion|50/100|[from] move: Revival Blessing
+|move|p1a: Zapdos|Hurricane|p2a: Really want eject
+|-damage|p2a: Really want eject|0 fnt
+|faint|p2a: Really want eject
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M|50/100
+|turn|16
+|
+|move|p2a: Basculegion|Ice Fang|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-status|p2a: Basculegion|par|[from] ability: Static|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Basculegion|Ice Fang|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|49/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Basculegion
+|-sidestart|p2: Glalie22|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Great Tusk|55/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-enditem|p2a: Basculegion|Choice Band|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Basculegion
+|
+|-heal|p1a: Great Tusk|62/100|[from] item: Leftovers
+|
+|switch|p2a: BandedSkeda|Floatzel, F|30/100
+|-damage|p2a: BandedSkeda|17/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: BandedSkeda|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|3/100
+|-unboost|p1a: Great Tusk|def|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: BandedSkeda
+|-damage|p2a: BandedSkeda|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: TestPlays1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|faint|p2a: BandedSkeda
+|
+|-heal|p1a: Great Tusk|10/100|[from] item: Leftovers
+|-message|Glalie22 forfeited.
+|
+|win|TestPlays1

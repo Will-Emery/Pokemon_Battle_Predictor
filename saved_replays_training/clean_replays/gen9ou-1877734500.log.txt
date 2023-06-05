@@ -1,0 +1,125 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Magearna|
+|poke|p1|Slowking, M|
+|poke|p1|Crabominable, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Hoopa|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Treads|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Hoopa|Hoopa|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-enditem|p1a: Hoopa|Focus Sash
+|-damage|p1a: Hoopa|1/100
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|turn|2
+|
+|move|p1a: Hoopa|Destiny Bond|p1a: Hoopa
+|-singlemove|p1a: Hoopa|Destiny Bond
+|move|p2a: Iron Treads|Stealth Rock|p1a: Hoopa
+|-sidestart|p1: Aggron|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|-activate|p1a: Hoopa|move: Destiny Bond
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Crabominable|Crabominable, F|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Crabominable|88/100|[from] Stealth Rock
+|turn|4
+|player|p1|
+|player|p1|Aggron|170
+|
+|-terastallize|p2a: Enamorus|Fighting
+|move|p1a: Crabominable|Ice Hammer|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-unboost|p1a: Crabominable|spe|1
+|faint|p2a: Enamorus
+|-damage|p1a: Crabominable|78/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Crabominable|Ice Hammer|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|61/100
+|-unboost|p1a: Crabominable|spe|1
+|-damage|p1a: Crabominable|69/100|[from] item: Life Orb
+|
+|-heal|p2a: Magearna|68/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|74/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Magearna|Stored Power|p1a: Cinderace
+|-damage|p1a: Cinderace|65/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-heal|p2a: Magearna|80/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Cinderace|Pyro Ball|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|-damage|p2a: Baxcalibur|75/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|11
+|-message|MARTHY_AN forfeited.
+|
+|win|Aggron

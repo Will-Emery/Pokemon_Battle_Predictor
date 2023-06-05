@@ -1,0 +1,102 @@
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Iron Treads|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, F|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Hatterene, F|
+|poke|p2|Overqwil, F|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Magearna at home|Enamorus-Therian, F|100/100
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Magearna at home|atk|1
+|turn|1
+|
+|-terastallize|p1a: Magearna at home|Poison
+|move|p2a: Overqwil|Toxic Spikes|p1a: Magearna at home
+|-sidestart|p1: ShoddyProdigy|move: Toxic Spikes
+|move|p1a: Magearna at home|Iron Defense|p1a: Magearna at home
+|-boost|p1a: Magearna at home|def|2
+|
+|turn|2
+|
+|move|p2a: Overqwil|Toxic Spikes|p1a: Magearna at home
+|-sidestart|p1: ShoddyProdigy|move: Toxic Spikes
+|move|p1a: Magearna at home|Iron Defense|p1a: Magearna at home
+|-boost|p1a: Magearna at home|def|2
+|
+|turn|3
+|
+|move|p2a: Overqwil|Spikes|p1a: Magearna at home
+|-sidestart|p1: ShoddyProdigy|Spikes
+|move|p1a: Magearna at home|Calm Mind|p1a: Magearna at home
+|-boost|p1a: Magearna at home|spa|1
+|-boost|p1a: Magearna at home|spd|1
+|
+|turn|4
+|
+|move|p2a: Overqwil|Spikes|p1a: Magearna at home
+|-sidestart|p1: ShoddyProdigy|Spikes
+|move|p1a: Magearna at home|Calm Mind|p1a: Magearna at home
+|-boost|p1a: Magearna at home|spa|1
+|-boost|p1a: Magearna at home|spd|1
+|
+|turn|5
+|
+|move|p2a: Overqwil|Spikes|p1a: Magearna at home
+|-sidestart|p1: ShoddyProdigy|Spikes
+|move|p1a: Magearna at home|Earth Power|p2a: Overqwil
+|-supereffective|p2a: Overqwil
+|-enditem|p2a: Overqwil|Focus Sash
+|-damage|p2a: Overqwil|1/100
+|
+|turn|6
+|
+|move|p2a: Overqwil|Destiny Bond|p2a: Overqwil
+|-singlemove|p2a: Overqwil|Destiny Bond
+|move|p1a: Magearna at home|Calm Mind|p1a: Magearna at home
+|-boost|p1a: Magearna at home|spa|1
+|-boost|p1a: Magearna at home|spd|1
+|
+|turn|7
+|
+|move|p2a: Overqwil|Barb Barrage|p1a: Magearna at home
+|-resisted|p1a: Magearna at home
+|-damage|p1a: Magearna at home|98/100
+|move|p1a: Magearna at home|Draining Kiss|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|-heal|p1a: Magearna at home|98/100|[from] drain|[of] p2a: Overqwil
+|faint|p2a: Overqwil
+|
+|-heal|p1a: Magearna at home|100/100|[from] item: Leftovers
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|turn|8
+|
+|move|p1a: Magearna at home|Draining Kiss|p2a: Ursaluna
+|-damage|p2a: Ursaluna|48/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Magearna at home
+|-supereffective|p1a: Magearna at home
+|-damage|p1a: Magearna at home|62/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-heal|p1a: Magearna at home|68/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|9
+|
+|move|p1a: Magearna at home|Draining Kiss|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-heal|p1a: Magearna at home|100/100|[from] drain|[of] p2a: Ursaluna
+|faint|p2a: Ursaluna
+|
+|-message|ewgf is ewgbs forfeited.
+|
+|win|ShoddyProdigy

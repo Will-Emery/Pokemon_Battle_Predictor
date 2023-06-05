@@ -1,0 +1,171 @@
+|poke|p1|Volcarona, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Abomasnow, M|
+|poke|p1|Cetitan, F|
+|poke|p1|Whiscash, F|
+|poke|p2|Gholdengo|
+|poke|p2|Amoonguss, F|
+|poke|p2|Sandy Shocks|
+|poke|p2|Rotom-Heat|
+|poke|p2|Tatsugiri-Droopy, F|
+|poke|p2|Weavile, M|
+|teampreview
+|
+|start
+|switch|p1a: Agent Thigh-Highs|Tsareena, F|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|turn|1
+|
+|move|p1a: Agent Thigh-Highs|Power Whip|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|2
+|
+|switch|p1a: Agent Wisdom|Whiscash, F|100/100
+|move|p2a: Rotom|Overheat|p1a: Agent Wisdom
+|-resisted|p1a: Agent Wisdom
+|-damage|p1a: Agent Wisdom|74/100
+|-unboost|p2a: Rotom|spa|2
+|
+|turn|3
+|
+|switch|p1a: Agent Mothman|Volcarona, F|100/100
+|move|p2a: Rotom|Thunder|p1a: Agent Mothman
+|-damage|p1a: Agent Mothman|82/100
+|
+|turn|4
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Agent Mothman|Quiver Dance|p1a: Agent Mothman
+|-boost|p1a: Agent Mothman|spa|1
+|-boost|p1a: Agent Mothman|spd|1
+|-boost|p1a: Agent Mothman|spe|1
+|
+|turn|5
+|
+|-terastallize|p1a: Agent Mothman|Fire
+|move|p1a: Agent Mothman|Fiery Dance|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Tatsugiri|Tatsugiri-Droopy, F|100/100
+|turn|6
+|
+|switch|p1a: Agent Thigh-Highs|Tsareena, F|100/100
+|move|p2a: Tatsugiri|Hydro Pump|p1a: Agent Thigh-Highs|[miss]
+|-miss|p2a: Tatsugiri|p1a: Agent Thigh-Highs
+|
+|turn|7
+|
+|move|p1a: Agent Thigh-Highs|U-turn|p2a: Tatsugiri
+|-damage|p2a: Tatsugiri|63/100
+|
+|switch|p1a: Father Christmas|Abomasnow, M|100/100|[from] U-turn
+|-weather|Snow|[from] ability: Snow Warning|[of] p1a: Father Christmas
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Father Christmas
+|-damage|p1a: Father Christmas|67/100
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Father Christmas
+|-damage|p1a: Father Christmas|32/100
+|move|p1a: Father Christmas|Aurora Veil|p1a: Father Christmas
+|-sidestart|p1: Agency Pyramids|move: Aurora Veil
+|
+|-weather|Snow|[upkeep]
+|turn|9
+|
+|switch|p1a: Agent Wisdom|Whiscash, F|74/100
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Agent Wisdom
+|-damage|p1a: Agent Wisdom|51/100
+|
+|-weather|Snow|[upkeep]
+|turn|10
+|
+|move|p1a: Agent Wisdom|Dragon Dance|p1a: Agent Wisdom
+|-boost|p1a: Agent Wisdom|atk|1
+|-boost|p1a: Agent Wisdom|spe|1
+|move|p2a: Tatsugiri|Nasty Plot|p2a: Tatsugiri
+|-boost|p2a: Tatsugiri|spa|2
+|
+|-weather|Snow|[upkeep]
+|turn|11
+|
+|move|p1a: Agent Wisdom|Earthquake|p2a: Tatsugiri
+|-damage|p2a: Tatsugiri|0 fnt
+|faint|p2a: Tatsugiri
+|
+|-weather|none
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|12
+|
+|move|p1a: Agent Wisdom|Liquidation|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|13
+|
+|move|p1a: Agent Wisdom|Liquidation|p2a: Gholdengo
+|-damage|p2a: Gholdengo|49/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Agent Wisdom
+|-resisted|p1a: Agent Wisdom
+|-crit|p1a: Agent Wisdom
+|-damage|p1a: Agent Wisdom|5/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|turn|14
+|
+|move|p1a: Agent Wisdom|Rest|p1a: Agent Wisdom
+|-status|p1a: Agent Wisdom|slp|[from] move: Rest
+|-heal|p1a: Agent Wisdom|100/100 slp|[silent]
+|-enditem|p1a: Agent Wisdom|Chesto Berry|[eat]
+|-curestatus|p1a: Agent Wisdom|slp|[msg]
+|move|p2a: Gholdengo|Make It Rain|p1a: Agent Wisdom
+|-resisted|p1a: Agent Wisdom
+|-damage|p1a: Agent Wisdom|89/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|turn|15
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Agent Wisdom|Liquidation|p2a: Weavile
+|-damage|p2a: Weavile|26/100
+|
+|-sideend|p1: Agency Pyramids|move: Aurora Veil
+|turn|16
+|
+|move|p1a: Agent Wisdom|Liquidation|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|49/100
+|turn|17
+|
+|move|p1a: Agent Wisdom|Liquidation|p2a: Gholdengo
+|-damage|p2a: Gholdengo|2/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Agent Wisdom
+|-damage|p1a: Agent Wisdom|45/100
+|
+|turn|18
+|
+|move|p1a: Agent Wisdom|Liquidation|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|win|Agency Pyramids
+|player|p1|Agency Pyramids|alder

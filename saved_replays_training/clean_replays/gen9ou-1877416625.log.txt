@@ -1,0 +1,182 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Decidueye-Hisui, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Charizard, M|
+|poke|p2|Tsareena, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Kleavor|Swords Dance|p1a: Kleavor
+|-boost|p1a: Kleavor|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p2a: Lilligant|Axe Kick|p1a: Kleavor
+|-damage|p1a: Kleavor|28/100
+|move|p1a: Kleavor|U-turn|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|3
+|
+|switch|p1a: Kleavor|Kleavor, F|28/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|4
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Sneasler
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|move|p1a: Sneasler|Close Combat|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|6
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100 brn
+|turn|7
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|47/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|8
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, M|100/100
+|move|p2a: Tsareena|Power Whip|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|75/100
+|
+|-weather|none
+|turn|9
+|
+|move|p2a: Tsareena|U-turn|p1a: Decidueye
+|-damage|p1a: Decidueye|54/100
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|move|p1a: Decidueye|Triple Arrows|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-damage|p1a: Decidueye|44/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|11
+|
+|move|p1a: Decidueye|Sucker Punch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1a: Decidueye|34/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Tsareena|Tsareena, F|47/100
+|turn|12
+|
+|move|p1a: Decidueye|Sucker Punch||[still]
+|-fail|p1a: Decidueye
+|move|p2a: Tsareena|Synthesis|p2a: Tsareena
+|-heal|p2a: Tsareena|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|13
+|
+|move|p2a: Tsareena|U-turn|p1a: Decidueye
+|-damage|p1a: Decidueye|11/100
+|
+|switch|p2a: Charizard|Charizard, M|100/100|[from] U-turn
+|move|p1a: Decidueye|Triple Arrows|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|10/100
+|-unboost|p2a: Charizard|def|1
+|-damage|p1a: Decidueye|1/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] ability: Solar Power|[of] p2a: Charizard
+|faint|p2a: Charizard
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|14
+|
+|move|p2a: Tsareena|U-turn|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|15
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Tsareena|U-turn|p1a: Lilligant
+|-damage|p1a: Lilligant|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|16
+|-message|Somecanadian forfeited.
+|
+|win|pikaplayer101

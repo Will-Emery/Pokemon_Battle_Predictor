@@ -1,0 +1,147 @@
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Slither Wing|
+|poke|p1|Amoonguss, F|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Basculegion, M|
+|poke|p2|Azelf|
+|poke|p2|Dragapult, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Pikachu-Original, M|
+|poke|p2|Tauros, M|
+|poke|p2|Enamorus-Therian, F|
+|teampreview
+|
+|start
+|switch|p1a: MUCORMYCOSIS|Amoonguss, F|100/100
+|switch|p2a: Tauros|Tauros, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: MUCORMYCOSIS|atk|1
+|turn|1
+|
+|move|p2a: Tauros|Double-Edge|p1a: MUCORMYCOSIS
+|-damage|p1a: MUCORMYCOSIS|54/100
+|-damage|p2a: Tauros|78/100|[from] Recoil
+|move|p1a: MUCORMYCOSIS|Spore|p2a: Tauros
+|-status|p2a: Tauros|slp|[from] move: Spore
+|
+|-heal|p1a: MUCORMYCOSIS|60/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: LIYU|Dragonite, M|100/100
+|cant|p2a: Tauros|slp
+|
+|turn|3
+|
+|cant|p2a: Tauros|slp
+|move|p1a: LIYU|Dragon Dance|p1a: LIYU
+|-boost|p1a: LIYU|atk|1
+|-boost|p1a: LIYU|spe|1
+|
+|turn|4
+|
+|move|p1a: LIYU|Dragon Dance|p1a: LIYU
+|-boost|p1a: LIYU|atk|1
+|-boost|p1a: LIYU|spe|1
+|-curestatus|p2a: Tauros|slp|[msg]
+|move|p2a: Tauros|Raging Bull|p1a: LIYU
+|-damage|p1a: LIYU|74/100
+|
+|turn|5
+|
+|move|p1a: LIYU|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|turn|6
+|
+|-terastallize|p1a: LIYU|Normal
+|move|p1a: LIYU|Extreme Speed|p2a: Enamorus
+|-damage|p2a: Enamorus|23/100
+|move|p2a: Enamorus|Springtide Storm|p1a: LIYU
+|-damage|p1a: LIYU|23/100
+|
+|-heal|p2a: Enamorus|29/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: LIYU|Extreme Speed|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|8
+|
+|move|p2a: Dragapult|Sucker Punch|p1a: LIYU
+|-damage|p1a: LIYU|0 fnt
+|faint|p1a: LIYU
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: THEY CALL HIM|Avalugg-Hisui, M|100/100
+|turn|9
+|
+|move|p2a: Dragapult|Pounce|p1a: THEY CALL HIM
+|-resisted|p1a: THEY CALL HIM
+|-damage|p1a: THEY CALL HIM|81/100
+|-unboost|p1a: THEY CALL HIM|spe|1
+|replace|p1a: CURTAINS|Zoroark-Hisui, M
+|-end|p1a: CURTAINS|Illusion
+|-damage|p2a: Dragapult|81/100|[from] item: Life Orb
+|move|p1a: CURTAINS|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Pikachu|Pikachu-Original, M|100/100
+|turn|10
+|
+|move|p1a: CURTAINS|Shadow Ball|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|11
+|
+|move|p2a: Electrode|Leech Seed|p1a: CURTAINS
+|-start|p1a: CURTAINS|move: Leech Seed
+|move|p1a: CURTAINS|Shadow Ball|p2a: Electrode
+|-damage|p2a: Electrode|29/100
+|
+|-damage|p1a: CURTAINS|69/100|[from] Leech Seed|[of] p2a: Electrode
+|-heal|p2a: Electrode|41/100|[silent]
+|turn|12
+|
+|switch|p1a: THE HUG BUG|Slither Wing|100/100
+|move|p2a: Electrode|Giga Drain|p1a: THE HUG BUG
+|-resisted|p1a: THE HUG BUG
+|-damage|p1a: THE HUG BUG|88/100
+|-heal|p2a: Electrode|50/100|[from] drain|[of] p1a: THE HUG BUG
+|
+|turn|13
+|
+|-terastallize|p2a: Electrode|Electric
+|move|p2a: Electrode|Leech Seed|p1a: THE HUG BUG
+|-start|p1a: THE HUG BUG|move: Leech Seed
+|move|p1a: THE HUG BUG|U-turn|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|-damage|p1a: THE HUG BUG|63/100|[from] ability: Aftermath|[of] p2a: Electrode
+|faint|p2a: Electrode
+|
+|-end|p1a: THE HUG BUG|Protosynthesis|[silent]
+|switch|p1a: THEY CALL HIM|Avalugg-Hisui, M|69/100|[from] U-turn
+|
+|
+|switch|p2a: Azelf|Azelf|100/100
+|turn|14
+|
+|move|p1a: THEY CALL HIM|Shadow Ball|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|win|Mint Asayake

@@ -1,0 +1,182 @@
+|poke|p1|Overqwil, M|
+|poke|p1|Avalugg-Hisui, F|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Sneasler, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Great Tusk|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Garchomp, F|
+|teampreview
+|
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: ol reliable|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: ol reliable|Intimidate|boost
+|-unboost|p1a: Electrode|atk|1
+|turn|1
+|
+|move|p1a: Electrode|Chloroblast|p2a: ol reliable
+|-damage|p2a: ol reliable|0 fnt
+|-damage|p1a: Electrode|50/100|[from] chloroblast
+|faint|p2a: ol reliable
+|-damage|p1a: Electrode|40/100|[from] item: Life Orb
+|
+|
+|switch|p2a: mudfish|Clodsire, F|100/100
+|turn|2
+|
+|-terastallize|p2a: mudfish|Fairy
+|move|p1a: Electrode|Chloroblast|p2a: mudfish
+|-damage|p2a: mudfish|55/100
+|-damage|p1a: Electrode|0 fnt|[from] chloroblast
+|faint|p1a: Electrode
+|move|p2a: mudfish|Toxic|p1: Electrode|[notarget]
+|-fail|p2a: mudfish
+|
+|-heal|p2a: mudfish|61/100|[from] item: Leftovers
+|
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|turn|3
+|
+|move|p1a: Overqwil|Toxic Spikes|p2a: mudfish
+|-sidestart|p2: CapOfKohon|move: Toxic Spikes
+|move|p2a: mudfish|Earthquake|p1a: Overqwil
+|-supereffective|p1a: Overqwil
+|-crit|p1a: Overqwil
+|-damage|p1a: Overqwil|43/100
+|
+|-heal|p1a: Overqwil|49/100|[from] item: Black Sludge
+|-heal|p2a: mudfish|68/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Overqwil|Barb Barrage|p2a: mudfish
+|-supereffective|p2a: mudfish
+|-damage|p2a: mudfish|20/100
+|move|p2a: mudfish|Earthquake|p1a: Overqwil
+|-supereffective|p1a: Overqwil
+|-damage|p1a: Overqwil|13/100
+|
+|-heal|p1a: Overqwil|19/100|[from] item: Black Sludge
+|-heal|p2a: mudfish|26/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: mudfish|Protect|p2a: mudfish
+|-singleturn|p2a: mudfish|Protect
+|move|p1a: Overqwil|Toxic Spikes|p2a: mudfish
+|-sidestart|p2: CapOfKohon|move: Toxic Spikes
+|
+|-heal|p1a: Overqwil|25/100|[from] item: Black Sludge
+|-heal|p2a: mudfish|32/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Overqwil|Barb Barrage|p2a: mudfish
+|-supereffective|p2a: mudfish
+|-damage|p2a: mudfish|0 fnt
+|faint|p2a: mudfish
+|
+|-heal|p1a: Overqwil|32/100|[from] item: Black Sludge
+|
+|switch|p2a: feddy|Ursaluna, M, shiny|100/100
+|-status|p2a: feddy|tox
+|turn|7
+|
+|move|p1a: Overqwil|Barb Barrage|p2a: feddy
+|-resisted|p2a: feddy
+|-crit|p2a: feddy
+|-damage|p2a: feddy|76/100 tox
+|move|p2a: feddy|Facade|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|
+|-damage|p2a: feddy|70/100 tox|[from] psn
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, F|100/100
+|turn|8
+|
+|-terastallize|p1a: Avalugg|Ghost
+|move|p2a: feddy|Facade|p1a: Avalugg
+|-immune|p1a: Avalugg
+|move|p1a: Avalugg|Iron Defense|p1a: Avalugg
+|-boost|p1a: Avalugg|def|2
+|
+|-damage|p2a: feddy|58/100 tox|[from] psn
+|turn|9
+|
+|move|p2a: feddy|Earthquake|p1a: Avalugg
+|-damage|p1a: Avalugg|81/100
+|move|p1a: Avalugg|Body Press|p2a: feddy
+|-supereffective|p2a: feddy
+|-damage|p2a: feddy|0 fnt
+|faint|p2a: feddy
+|
+|-heal|p1a: Avalugg|87/100|[from] item: Leftovers
+|
+|switch|p2a: landotusk|Great Tusk|100/100
+|-status|p2a: landotusk|tox
+|-enditem|p2a: landotusk|Booster Energy
+|-activate|p2a: landotusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: landotusk|protosynthesisatk
+|turn|10
+|
+|move|p2a: landotusk|Knock Off|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|68/100
+|-enditem|p1a: Avalugg|Leftovers|[from] move: Knock Off|[of] p2a: landotusk
+|move|p1a: Avalugg|Ice Fang|p2a: landotusk
+|-supereffective|p2a: landotusk
+|-damage|p2a: landotusk|52/100 tox
+|
+|-damage|p2a: landotusk|46/100 tox|[from] psn
+|turn|11
+|
+|move|p2a: landotusk|Knock Off|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|55/100
+|move|p1a: Avalugg|Iron Defense|p1a: Avalugg
+|-boost|p1a: Avalugg|def|2
+|
+|-damage|p2a: landotusk|33/100 tox|[from] psn
+|turn|12
+|
+|move|p2a: landotusk|Knock Off|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|45/100
+|move|p1a: Avalugg|Ice Fang|p2a: landotusk
+|-supereffective|p2a: landotusk
+|-damage|p2a: landotusk|0 fnt
+|faint|p2a: landotusk
+|-end|p2a: landotusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: shiny|Garchomp, F, shiny|100/100
+|-status|p2a: shiny|tox
+|turn|13
+|
+|move|p2a: shiny|Poison Jab|p1a: Avalugg
+|-resisted|p1a: Avalugg
+|-damage|p1a: Avalugg|43/100
+|move|p1a: Avalugg|Ice Fang|p2a: shiny
+|-supereffective|p2a: shiny
+|-damage|p2a: shiny|0 fnt
+|-damage|p1a: Avalugg|31/100|[from] ability: Rough Skin|[of] p2a: shiny
+|-damage|p1a: Avalugg|14/100|[from] item: Rocky Helmet|[of] p2a: shiny
+|faint|p2a: shiny
+|
+|
+|switch|p2a: yuuma|Ting-Lu|100/100
+|-status|p2a: yuuma|tox
+|-ability|p2a: yuuma|Vessel of Ruin
+|turn|14
+|
+|move|p2a: yuuma|Earthquake|p1a: Avalugg
+|-damage|p1a: Avalugg|7/100
+|move|p1a: Avalugg|Body Press|p2a: yuuma
+|-supereffective|p2a: yuuma
+|-damage|p2a: yuuma|0 fnt
+|faint|p2a: yuuma
+|
+|win|Sir_Rambage

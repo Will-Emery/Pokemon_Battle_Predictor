@@ -1,0 +1,228 @@
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Masquerain, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Volcanion|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Masquerain|Masquerain, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Samurott|atk|1
+|turn|1
+|
+|move|p2a: Samurott|Taunt|p1a: Masquerain
+|-start|p1a: Masquerain|move: Taunt
+|cant|p1a: Masquerain|move: Taunt|Sticky Web
+|
+|turn|2
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|77/100
+|-sidestart|p1: BigDaddyAddy|Spikes
+|
+|turn|3
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|turn|4
+|
+|move|p1a: Enamorus|Earth Power|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|15/100
+|move|p2a: Magearna|Encore|p1a: Enamorus
+|-start|p1a: Enamorus|Encore
+|
+|-heal|p2a: Magearna|21/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Enamorus|Earth Power|p2a: Enamorus
+|-immune|p2a: Enamorus
+|
+|turn|6
+|
+|switch|p1a: Masquerain|Masquerain, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-boost|p2a: Enamorus|atk|1
+|move|p2a: Enamorus|Play Rough|p1a: Masquerain
+|-enditem|p1a: Masquerain|Focus Sash
+|-damage|p1a: Masquerain|1/100
+|-unboost|p1a: Masquerain|atk|1
+|
+|turn|7
+|
+|move|p2a: Enamorus|Superpower|p1a: Masquerain
+|-resisted|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Masquerain
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|8
+|
+|-terastallize|p2a: Enamorus|Steel
+|move|p2a: Enamorus|Play Rough|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|52/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Make It Rain|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|53/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Enamorus|59/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p1a: Samurott|88/100|[from] Spikes
+|move|p2a: Enamorus|Play Rough|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Enamorus|65/100|[from] item: Leftovers
+|
+|switch|p1a: Enamorus|Enamorus, F|77/100
+|turn|10
+|
+|move|p2a: Enamorus|Play Rough|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-heal|p2a: Enamorus|71/100|[from] item: Leftovers
+|
+|switch|p1a: Gholdengo|Gholdengo|52/100
+|-damage|p1a: Gholdengo|40/100|[from] Spikes
+|turn|11
+|
+|move|p2a: Enamorus|Play Rough|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Enamorus|78/100|[from] item: Leftovers
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|move|p2a: Enamorus|Play Rough|p1a: Great Tusk|[miss]
+|-miss|p2a: Enamorus|p1a: Great Tusk
+|move|p1a: Great Tusk|Rapid Spin|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|68/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: BigDaddyAddy|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Enamorus|74/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Great Tusk|Close Combat|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|14
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|22/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|31/100
+|
+|turn|15
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|16
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|73/100
+|move|p2a: Great Tusk|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Great Tusk|79/100|[from] item: Leftovers
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|turn|17
+|
+|-terastallize|p1a: Landorus|Flying
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|79/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|85/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Landorus|Tera Blast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|19
+|
+|move|p1a: Landorus|Tera Blast|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|move|p2a: Samurott|Razor Shell|p1a: Landorus
+|-damage|p1a: Landorus|17/100
+|-unboost|p1a: Landorus|def|1
+|
+|turn|20
+|
+|move|p1a: Landorus|Tera Blast|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|21
+|
+|move|p1a: Landorus|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|
+|switch|p2a: Magearna|Magearna|21/100
+|turn|22
+|-message|had sweep forfeited.
+|
+|win|BigDaddyAddy

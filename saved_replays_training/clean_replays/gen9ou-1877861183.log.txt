@@ -1,0 +1,113 @@
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Polteageist|
+|poke|p1|Hawlucha, M|
+|poke|p1|Sneasler, M|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, M|
+|poke|p2|Great Tusk|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Heatran|U-turn|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|78/100
+|-enditem|p1a: Hatterene|Eject Button
+|-damage|p2a: Heatran|91/100|[from] item: Life Orb
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|
+|turn|2
+|
+|-terastallize|p2a: Heatran|Ghost
+|move|p2a: Heatran|Bitter Malice|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-unboost|p1a: Polteageist|atk|1
+|-damage|p2a: Heatran|81/100|[from] item: Life Orb
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|turn|3
+|
+|move|p1a: Polteageist|Stored Power|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|replace|p2a: Agent 007|Zoroark-Hisui, M, shiny
+|-end|p2a: Agent 007|Illusion
+|faint|p2a: Agent 007
+|
+|
+|switch|p2a: Master Oogway|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Master Oogway
+|turn|4
+|
+|move|p1a: Polteageist|Stored Power|p2a: Master Oogway
+|-damage|p2a: Master Oogway|0 fnt
+|faint|p2a: Master Oogway
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Uncle Tom|Walking Wake|100/100
+|-activate|p2a: Uncle Tom|ability: Protosynthesis
+|-start|p2a: Uncle Tom|protosynthesisspe
+|turn|5
+|
+|move|p1a: Polteageist|Stored Power|p2a: Uncle Tom
+|-damage|p2a: Uncle Tom|0 fnt
+|faint|p2a: Uncle Tom
+|-end|p2a: Uncle Tom|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|6
+|
+|-terastallize|p1a: Polteageist|Fighting
+|move|p1a: Polteageist|Tera Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Air Balloon
+|faint|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Elon Tusk|Great Tusk|100/100
+|-activate|p2a: Elon Tusk|ability: Protosynthesis
+|-start|p2a: Elon Tusk|protosynthesisdef
+|turn|7
+|
+|move|p1a: Polteageist|Stored Power|p2a: Elon Tusk
+|-supereffective|p2a: Elon Tusk
+|-damage|p2a: Elon Tusk|0 fnt
+|faint|p2a: Elon Tusk
+|-end|p2a: Elon Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Rocky Boi|Arcanine-Hisui, M, shiny|100/100
+|turn|8
+|
+|move|p2a: Rocky Boi|Extreme Speed|p1a: Polteageist
+|-activate|p1a: Polteageist|move: Psychic Terrain
+|move|p1a: Polteageist|Tera Blast|p2a: Rocky Boi
+|-supereffective|p2a: Rocky Boi
+|-damage|p2a: Rocky Boi|0 fnt
+|faint|p2a: Rocky Boi
+|
+|win|Fatty No.1

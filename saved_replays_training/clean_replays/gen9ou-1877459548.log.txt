@@ -1,0 +1,197 @@
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Magearna|
+|poke|p1|Garchomp, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Floatzel, F|
+|poke|p2|Golduck, F|
+|poke|p2|Pawmot, F|
+|poke|p2|Toedscruel, F|
+|poke|p2|Azumarill, F|
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|turn|1
+|
+|move|p1a: Garchomp|Stealth Rock|p2a: Ghoti carrier
+|-sidestart|p2: WeirdHamster|move: Stealth Rock
+|move|p2a: Ghoti carrier|U-turn|p1a: Garchomp
+|-damage|p1a: Garchomp|92/100
+|-damage|p2a: Ghoti carrier|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|switch|p2a: Spaghetti Memory|Toedscruel, F|100/100|[from] U-turn
+|-damage|p2a: Spaghetti Memory|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Spaghetti Memory|Rapid Spin|p1a: Tornadus
+|-damage|p1a: Tornadus|91/100
+|-boost|p2a: Spaghetti Memory|spe|1
+|-sideend|p2: WeirdHamster|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Spaghetti Memory
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Spaghetti Memory
+|-supereffective|p2a: Spaghetti Memory
+|-damage|p2a: Spaghetti Memory|50/100
+|move|p2a: Spaghetti Memory|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|74/100
+|-enditem|p1a: Tornadus|Assault Vest|[from] move: Knock Off|[of] p2a: Spaghetti Memory
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Spaghetti Memory
+|-supereffective|p2a: Spaghetti Memory
+|-damage|p2a: Spaghetti Memory|7/100
+|move|p2a: Spaghetti Memory|Spore|p1a: Tornadus
+|-status|p1a: Tornadus|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: BandedSkeda|Floatzel, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Garchomp|Garchomp, M|92/100
+|move|p2a: BandedSkeda|Wave Crash|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: BandedSkeda|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|-damage|p2a: BandedSkeda|56/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|7
+|
+|-terastallize|p1a: Magearna|Water
+|move|p2a: BandedSkeda|Wave Crash|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|57/100
+|-damage|p2a: BandedSkeda|41/100|[from] Recoil
+|move|p1a: Magearna|Spikes|p2a: BandedSkeda
+|-sidestart|p2: WeirdHamster|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p2a: BandedSkeda|Wave Crash|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|14/100
+|-damage|p2a: BandedSkeda|26/100|[from] Recoil
+|move|p1a: Magearna|Volt Switch|p2a: BandedSkeda
+|-supereffective|p2a: BandedSkeda
+|-damage|p2a: BandedSkeda|0 fnt
+|faint|p2a: BandedSkeda
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100 slp|[from] Volt Switch
+|
+|-weather|none
+|
+|switch|p2a: Really want eject|Pawmot, F|100/100
+|-damage|p2a: Really want eject|88/100|[from] Spikes
+|turn|9
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Really want eject|Revival Blessing|p2a: Really want eject
+|-enditem|p2a: Really want eject|Leppa Berry|[eat]
+|-activate|p2a: Really want eject|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p2: BandedSkeda|50/100|[from] move: Revival Blessing
+|
+|turn|10
+|
+|switch|p2a: Ghoti carrier|Pelipper, F|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ghoti carrier
+|-damage|p2a: Ghoti carrier|72/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Magearna|Magearna, tera:Water|14/100
+|move|p2a: Ghoti carrier|U-turn|p1a: Magearna
+|-damage|p1a: Magearna|7/100
+|
+|switch|p2a: Spaghetti Memory|Toedscruel, F|7/100|[from] U-turn
+|-damage|p2a: Spaghetti Memory|0 fnt|[from] Spikes
+|faint|p2a: Spaghetti Memory
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Seaking Duck|Golduck, F|100/100
+|-damage|p2a: Seaking Duck|88/100|[from] Spikes
+|turn|12
+|
+|move|p2a: Seaking Duck|Surf|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-damage|p2a: Seaking Duck|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|move|p2a: Seaking Duck|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|3/100
+|-damage|p2a: Seaking Duck|68/100|[from] item: Life Orb
+|move|p1a: Dragapult|Dragon Darts|p2a: Seaking Duck
+|-damage|p2a: Seaking Duck|37/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Seaking Duck
+|-damage|p2a: Seaking Duck|8/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|9/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Seaking Duck|Surf|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-damage|p2a: Seaking Duck|0 fnt|[from] item: Life Orb
+|faint|p2a: Seaking Duck
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: The Goat|Azumarill, F|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|-damage|p2a: The Goat|88/100|[from] Spikes
+|turn|15
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: The Goat
+|-resisted|p2a: The Goat
+|-damage|p2a: The Goat|68/100
+|move|p2a: The Goat|Belly Drum|p2a: The Goat
+|-damage|p2a: The Goat|18/100
+|-setboost|p2a: The Goat|atk|6|[from] move: Belly Drum
+|-enditem|p2a: The Goat|Sitrus Berry|[eat]
+|-heal|p2a: The Goat|43/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|-message|PSV2 forfeited.
+|
+|win|WeirdHamster

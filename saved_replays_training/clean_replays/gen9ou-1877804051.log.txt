@@ -1,0 +1,219 @@
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Cinderace, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-enditem|p1a: Hatterene|Focus Sash
+|-damage|p1a: Hatterene|1/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|turn|2
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Zamazenta|Body Press|p1a: Torkoal
+|-damage|p1a: Torkoal|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|move|p1a: Torkoal|Flamethrower|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|move|p1a: Torkoal|Flamethrower|p2a: Braviary
+|-damage|p2a: Braviary|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|move|p1a: Torkoal|Flamethrower|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|6
+|
+|switch|p1a: Hatterene|Hatterene, F|1/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-damage|p2a: Walking Wake|91/100|[from] item: Life Orb
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|7
+|
+|move|p2a: Walking Wake|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|35/100
+|-status|p1a: Magearna|brn
+|-damage|p2a: Walking Wake|81/100|[from] item: Life Orb
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-damage|p1a: Magearna|29/100 brn|[from] brn
+|turn|8
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|41/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Magearna|Fleur Cannon|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|-enditem|p1a: Magearna|Eject Pack
+|faint|p2a: Torkoal
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|turn|9
+|
+|-terastallize|p2a: Zamazenta|Fighting
+|move|p1a: Ursaluna|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|13/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|move|p2a: Zamazenta|Body Press|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|3/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|10
+|
+|move|p1a: Kingambit|Iron Head|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|11
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|12
+|
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Magearna|Magearna|29/100 brn
+|move|p2a: Zapdos|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|25/100 brn
+|
+|switch|p2a: Walking Wake|Walking Wake|81/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Magearna|19/100 brn|[from] brn
+|turn|13
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-damage|p2a: Walking Wake|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|14
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cresselia
+|-damage|p1a: Cresselia|60/100
+|-damage|p2a: Walking Wake|61/100|[from] item: Life Orb
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|turn|15
+|
+|move|p1a: Cresselia|Moonblast|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|22/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cresselia
+|-damage|p1a: Cresselia|14/100
+|-damage|p2a: Walking Wake|12/100|[from] item: Life Orb
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|16
+|
+|move|p1a: Cresselia|Moonblast|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|17
+|
+|move|p1a: Cresselia|Moonblast|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|60/100
+|move|p2a: Zapdos|Thunderous Kick|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|
+|switch|p1a: Torkoal|Torkoal, M|63/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|18
+|
+|-terastallize|p1a: Torkoal|Fire
+|move|p1a: Torkoal|Flamethrower|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|Celeste7490

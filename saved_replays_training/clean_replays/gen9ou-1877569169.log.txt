@@ -1,0 +1,247 @@
+|poke|p1|Urshifu-*, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Rotom-Wash|
+|poke|p2|Kleavor, F|
+|poke|p2|Roaring Moon|
+|poke|p2|Chien-Pao|
+|poke|p2|Sneasler, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Empty|Hoopa-Unbound|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|move|p1a: Empty|Hyperspace Fury|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Empty|def|1
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|2
+|
+|switch|p1a: Maytag|Rotom-Wash|100/100
+|move|p2a: Roaring Moon|Dragon Dance|p2a: Roaring Moon
+|-boost|p2a: Roaring Moon|atk|1
+|-boost|p2a: Roaring Moon|spe|1
+|
+|turn|3
+|
+|move|p2a: Roaring Moon|Jaw Lock|p1a: Maytag
+|-damage|p1a: Maytag|39/100
+|-activate|p2a: Roaring Moon|trapped
+|-activate|p1a: Maytag|trapped
+|move|p1a: Maytag|Thunder Wave|p2a: Roaring Moon
+|-status|p2a: Roaring Moon|par
+|
+|-heal|p1a: Maytag|46/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Maytag|Protect|p1a: Maytag
+|-singleturn|p1a: Maytag|Protect
+|move|p2a: Roaring Moon|Jaw Lock|p1a: Maytag
+|-activate|p1a: Maytag|move: Protect
+|
+|-heal|p1a: Maytag|52/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Roaring Moon|Jaw Lock|p1a: Maytag
+|-damage|p1a: Maytag|0 fnt
+|faint|p1a: Maytag
+|
+|
+|switch|p1a: Sergio|Urshifu-Rapid-Strike, F|100/100
+|turn|6
+|
+|move|p1a: Sergio|Close Combat|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|-unboost|p1a: Sergio|def|1
+|-unboost|p1a: Sergio|spd|1
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|7
+|
+|switch|p1a: Dumbo|Great Tusk, shiny|100/100
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|turn|8
+|
+|move|p2a: Sneasler|Close Combat|p1a: Dumbo
+|-damage|p1a: Dumbo|36/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|move|p1a: Dumbo|Earthquake|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-heal|p1a: Dumbo|42/100|[from] item: Leftovers
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Dumbo
+|-supereffective|p1a: Dumbo
+|-damage|p1a: Dumbo|3/100
+|move|p1a: Dumbo|Knock Off|p2a: Chien-Pao
+|-resisted|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|82/100
+|-enditem|p2a: Chien-Pao|Choice Band|[from] move: Knock Off|[of] p1a: Dumbo
+|
+|-heal|p1a: Dumbo|9/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Dumbo
+|-supereffective|p1a: Dumbo
+|-damage|p1a: Dumbo|0 fnt
+|faint|p1a: Dumbo
+|-end|p1a: Dumbo|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Empty|Hoopa-Unbound|100/100
+|turn|11
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Empty
+|-damage|p1a: Empty|47/100
+|move|p1a: Empty|Brick Break|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|12
+|
+|switch|p1a: Douglas|Zapdos, shiny|100/100
+|move|p2a: Kleavor|Stone Axe|p1a: Douglas
+|-supereffective|p1a: Douglas
+|-damage|p1a: Douglas|14/100
+|-sidestart|p1: shootingstarblu|move: Stealth Rock
+|
+|turn|13
+|
+|move|p1a: Douglas|Hurricane|p2a: Kleavor
+|-damage|p2a: Kleavor|50/100
+|-start|p2a: Kleavor|confusion
+|-activate|p2a: Kleavor|confusion
+|move|p2a: Kleavor|Stone Axe|p1a: Douglas
+|-supereffective|p1a: Douglas
+|-damage|p1a: Douglas|0 fnt
+|-status|p2a: Kleavor|par|[from] ability: Static|[of] p1a: Douglas
+|faint|p1a: Douglas
+|
+|
+|switch|p1a: Sergio|Urshifu-Rapid-Strike, F|100/100
+|-damage|p1a: Sergio|94/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Sergio|Close Combat|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-unboost|p1a: Sergio|def|1
+|-unboost|p1a: Sergio|spd|1
+|faint|p2a: Kleavor
+|
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|15
+|
+|-terastallize|p2a: Garganacl|Water
+|move|p1a: Sergio|Close Combat|p2a: Garganacl
+|-damage|p2a: Garganacl|33/100
+|-unboost|p1a: Sergio|def|1
+|-unboost|p1a: Sergio|spd|1
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p2a: Garganacl|39/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Sergio|Close Combat|p2a: Garganacl
+|-damage|p2a: Garganacl|7/100
+|-unboost|p1a: Sergio|def|1
+|-unboost|p1a: Sergio|spd|1
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|57/100
+|
+|-heal|p2a: Garganacl|63/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Empty|Hoopa-Unbound|47/100
+|-damage|p1a: Empty|35/100|[from] Stealth Rock
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p2a: Garganacl|69/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Empty|Trick|p2a: Garganacl
+|-activate|p1a: Empty|move: Trick|[of] p2a: Garganacl
+|-item|p2a: Garganacl|Choice Scarf|[from] move: Trick
+|-item|p1a: Empty|Leftovers|[from] move: Trick
+|move|p2a: Garganacl|Salt Cure|p1a: Empty
+|-damage|p1a: Empty|7/100
+|-start|p1a: Empty|Salt Cure
+|
+|-heal|p1a: Empty|13/100|[from] item: Leftovers
+|-damage|p1a: Empty|1/100|[from] Salt Cure
+|turn|19
+|
+|move|p1a: Empty|Psychic|p2a: Garganacl
+|-damage|p2a: Garganacl|39/100
+|move|p2a: Garganacl|Salt Cure|p1a: Empty
+|-damage|p1a: Empty|0 fnt
+|faint|p1a: Empty
+|
+|
+|switch|p1a: CVS|Slowking-Galar, M|100/100
+|-damage|p1a: CVS|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Garganacl|Salt Cure|p1a: CVS
+|-damage|p1a: CVS|73/100
+|-start|p1a: CVS|Salt Cure
+|move|p1a: CVS|Future Sight|p2a: Garganacl
+|-start|p1a: CVS|move: Future Sight
+|
+|-damage|p1a: CVS|60/100|[from] Salt Cure
+|turn|21
+|
+|move|p2a: Garganacl|Salt Cure|p1a: CVS
+|-damage|p1a: CVS|46/100
+|move|p1a: CVS|Sludge Bomb|p2a: Garganacl
+|-damage|p2a: Garganacl|15/100
+|
+|-damage|p1a: CVS|33/100|[from] Salt Cure
+|turn|22
+|
+|switch|p1a: Sergio|Urshifu-Rapid-Strike, F|94/100
+|-damage|p1a: Sergio|88/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Sergio
+|-resisted|p1a: Sergio
+|-damage|p1a: Sergio|81/100
+|-start|p1a: Sergio|Salt Cure
+|
+|-end|p2a: Garganacl|move: Future Sight
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|win|shootingstarblu
+|player|p1|shootingstarblu|janitor

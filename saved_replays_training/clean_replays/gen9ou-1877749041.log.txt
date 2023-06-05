@@ -1,0 +1,242 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Magearna|
+|poke|p1|Volcarona, M|
+|poke|p1|Zamazenta-*|
+|poke|p2|Tyranitar, F|
+|poke|p2|Dugtrio-Alola, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Scream Tail|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: hate this mon|Sneasler, F, shiny|100/100
+|turn|1
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: hate this mon|Close Combat|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|turn|2
+|
+|switch|p2a: TTube|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: TTube
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: theonetheonetheone|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|94/100|[from] Sandstorm
+|turn|3
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: theonetheonetheone|move: Light Screen
+|move|p2a: TTube|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: theonetheonetheone|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|88/100|[from] Sandstorm
+|turn|4
+|
+|move|p1a: Dragapult|U-turn|p2a: TTube
+|-supereffective|p2a: TTube
+|-damage|p2a: TTube|69/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] U-turn
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|move|p2a: TTube|Crunch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Magearna|94/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: TTube|Thunder Wave|p1a: Magearna
+|-status|p1a: Magearna|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Magearna|99/100 par|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: screm tail|Scream Tail|100/100
+|cant|p1a: Magearna|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: screm tail|94/100|[from] Sandstorm
+|-heal|p2a: screm tail|100/100|[from] item: Leftovers
+|-heal|p1a: Magearna|100/100 par|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p1a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: screm tail|Encore||[still]
+|-fail|p2a: screm tail
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: screm tail|94/100|[from] Sandstorm
+|-heal|p2a: screm tail|100/100|[from] item: Leftovers
+|turn|8
+|
+|-end|p2a: screm tail|Protosynthesis|[silent]
+|switch|p2a: Shotzi|Dragapult, F, shiny|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shotzi|95/100|[from] Sandstorm
+|turn|9
+|
+|move|p2a: Shotzi|Flamethrower|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|34/100
+|move|p1a: Zamazenta|Crunch|p2a: Shotzi
+|-supereffective|p2a: Shotzi
+|-damage|p2a: Shotzi|38/100
+|
+|-weather|none
+|-sideend|p1: theonetheonetheone|Reflect
+|turn|10
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|move|p2a: Shotzi|Flamethrower|p1a: Samurott
+|-resisted|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|48/100
+|
+|-sideend|p1: theonetheonetheone|move: Light Screen
+|turn|11
+|
+|switch|p2a: hate this mon|Sneasler, F, shiny|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: hate this mon|[miss]
+|-miss|p1a: Samurott|p2a: hate this mon
+|
+|turn|12
+|
+|move|p1a: Samurott|Aqua Jet|p2a: hate this mon
+|-damage|p2a: hate this mon|69/100
+|move|p2a: hate this mon|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|switch|p2a: Shotzi|Dragapult, F, shiny|38/100|[from] U-turn
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|34/100
+|-damage|p1a: Zamazenta|31/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Shotzi|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|14
+|
+|switch|p2a: screm tail|Scream Tail|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|15
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: screm tail
+|-damage|p2a: screm tail|62/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: screm tail|Encore|p1a: Volcarona
+|-start|p1a: Volcarona|Encore
+|
+|-heal|p2a: screm tail|68/100|[from] item: Leftovers
+|turn|16
+|
+|-end|p2a: screm tail|Protosynthesis|[silent]
+|switch|p2a: TTube|Tyranitar, F|69/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: TTube
+|move|p1a: Volcarona|Fiery Dance|p2a: TTube
+|-resisted|p2a: TTube
+|-damage|p2a: TTube|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|94/100|[from] Sandstorm
+|turn|17
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|94/100|[from] Stealth Rock
+|-item|p1a: Sneasler|Air Balloon
+|move|p2a: TTube|Thunder Wave|p1a: Sneasler
+|-status|p1a: Sneasler|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|88/100 par|[from] Sandstorm
+|turn|18
+|
+|switch|p2a: hate this mon|Sneasler, F, shiny|69/100
+|move|p1a: Sneasler|Close Combat|p2a: hate this mon
+|-resisted|p2a: hate this mon
+|-damage|p2a: hate this mon|8/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: hate this mon|2/100|[from] Sandstorm
+|-damage|p1a: Sneasler|82/100 par|[from] Sandstorm
+|turn|19
+|
+|move|p2a: hate this mon|Close Combat|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|17/100 par
+|-unboost|p2a: hate this mon|def|1
+|-unboost|p2a: hate this mon|spd|1
+|-enditem|p1a: Sneasler|Air Balloon
+|move|p1a: Sneasler|Dire Claw|p2a: hate this mon
+|-resisted|p2a: hate this mon
+|-damage|p2a: hate this mon|0 fnt
+|faint|p2a: hate this mon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|11/100 par|[from] Sandstorm
+|
+|switch|p2a: Owen Wilsons|Dugtrio-Alola, M|100/100
+|turn|20
+|
+|move|p2a: Owen Wilsons|Earthquake|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|turn|21
+|
+|-terastallize|p2a: Owen Wilsons|Ground
+|move|p2a: Owen Wilsons|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Volcarona|Volcarona, M|94/100
+|turn|22
+|
+|move|p2a: Owen Wilsons|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-message|theonetheonetheone forfeited.
+|
+|win|kugfgih

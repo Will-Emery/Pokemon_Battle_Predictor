@@ -1,1 +1,250 @@
-Could not connect
+|j|☆baggyjimjam
+|j|☆MysticMalevolence
+|t:|1685847130
+|gametype|singles
+|player|p1|baggyjimjam|flint|
+|player|p2|MysticMalevolence|n|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barraskewda, M|
+|poke|p1|Salamence, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Eelektross, M|
+|poke|p1|Weavile, M|
+|poke|p1|Meowscarada, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Sandy Shocks|
+|poke|p2|Lycanroc, F|
+|poke|p2|Frosmoth, F|
+|poke|p2|Armarouge, M|
+|poke|p2|Lilligant, F|
+|teampreview
+|
+|t:|1685847158
+|start
+|switch|p1a: Fire Away!|Barraskewda, M, shiny|100/100
+|switch|p2a: The Theater|Lilligant, F, shiny|100/100
+|turn|1
+|
+|t:|1685847185
+|switch|p1a: Did you know?|Meowscarada, M, shiny|100/100
+|move|p2a: The Theater|Sunny Day|p2a: The Theater
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685847195
+|move|p1a: Did you know?|Knock Off|p2a: The Theater
+|-start|p1a: Did you know?|typechange|Dark|[from] ability: Protean
+|-enditem|p2a: The Theater|Focus Sash
+|-damage|p2a: The Theater|1/100
+|move|p2a: The Theater|Sleep Powder|p1a: Did you know?
+|-status|p1a: Did you know?|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685847207
+|cant|p1a: Did you know?|slp
+|move|p2a: The Theater|Giga Drain|p1a: Did you know?
+|-damage|p1a: Did you know?|45/100 slp
+|-heal|p2a: The Theater|30/100|[from] drain|[of] p1a: Did you know?
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1685847223
+|-curestatus|p1a: Did you know?|slp|[msg]
+|move|p1a: Did you know?|Knock Off|p2a: The Theater
+|-damage|p2a: The Theater|0 fnt
+|faint|p2a: The Theater
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685847271
+|switch|p2a: Tatl|Frosmoth, F, shiny|100/100
+|turn|5
+|
+|t:|1685847281
+|move|p1a: Did you know?|Knock Off|p2a: Tatl
+|-damage|p2a: Tatl|0 fnt
+|-enditem|p2a: Tatl|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Did you know?
+|faint|p2a: Tatl
+|
+|-weather|none
+|upkeep
+|
+|t:|1685847298
+|switch|p2a: Calamity Ganon|Roaring Moon|100/100
+|turn|6
+|
+|t:|1685847315
+|-terastallize|p2a: Calamity Ganon|Poison
+|move|p1a: Did you know?|Knock Off|p2a: Calamity Ganon
+|-damage|p2a: Calamity Ganon|31/100
+|-enditem|p2a: Calamity Ganon|Expert Belt|[from] move: Knock Off|[of] p1a: Did you know?
+|move|p2a: Calamity Ganon|Tera Blast|p1a: Did you know?
+|-damage|p1a: Did you know?|0 fnt
+|faint|p1a: Did you know?
+|
+|upkeep
+|
+|t:|1685847329
+|switch|p1a: Talkw/manager|Weavile, M, shiny|100/100
+|-ability|p1a: Talkw/manager|Pressure
+|turn|7
+|
+|t:|1685847338
+|move|p1a: Talkw/manager|Fake Out|p2a: Calamity Ganon
+|-damage|p2a: Calamity Ganon|15/100
+|cant|p2a: Calamity Ganon|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1685847350
+|move|p1a: Talkw/manager|Ice Shard|p2a: Calamity Ganon
+|-crit|p2a: Calamity Ganon
+|-damage|p2a: Calamity Ganon|0 fnt
+|faint|p2a: Calamity Ganon
+|-end|p2a: Calamity Ganon|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685847364
+|switch|p2a: Mickey|Lycanroc, F, shiny|100/100
+|turn|9
+|
+|t:|1685847384
+|switch|p1a: Its Bunker Time|Toxapex, M, shiny|100/100
+|move|p2a: Mickey|Play Rough|p1a: Its Bunker Time
+|-resisted|p1a: Its Bunker Time
+|-damage|p1a: Its Bunker Time|92/100
+|
+|-heal|p1a: Its Bunker Time|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685847399
+|move|p2a: Mickey|Close Combat|p1a: Its Bunker Time
+|-resisted|p1a: Its Bunker Time
+|-damage|p1a: Its Bunker Time|89/100
+|-unboost|p2a: Mickey|def|1
+|-unboost|p2a: Mickey|spd|1
+|move|p1a: Its Bunker Time|Toxic|p2a: Mickey
+|-status|p2a: Mickey|tox
+|
+|-heal|p1a: Its Bunker Time|95/100|[from] item: Leftovers
+|-damage|p2a: Mickey|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1685847429
+|move|p2a: Mickey|Stone Edge|p1a: Its Bunker Time
+|-damage|p1a: Its Bunker Time|67/100
+|move|p1a: Its Bunker Time|Surf|p2a: Mickey
+|-supereffective|p2a: Mickey
+|-damage|p2a: Mickey|8/100 tox
+|
+|-heal|p1a: Its Bunker Time|73/100|[from] item: Leftovers
+|-damage|p2a: Mickey|0 fnt|[from] psn
+|faint|p2a: Mickey
+|upkeep
+|
+|t:|1685847440
+|switch|p2a: Model F|Armarouge, M|100/100
+|turn|12
+|
+|t:|1685847456
+|-terastallize|p1a: Its Bunker Time|Dark
+|move|p2a: Model F|Psyshock|p1a: Its Bunker Time
+|-immune|p1a: Its Bunker Time
+|move|p1a: Its Bunker Time|Surf|p2a: Model F
+|-supereffective|p2a: Model F
+|-damage|p2a: Model F|58/100
+|
+|-heal|p1a: Its Bunker Time|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685847476
+|switch|p2a: Alphonse|Sandy Shocks|100/100
+|move|p1a: Its Bunker Time|Surf|p2a: Alphonse
+|-supereffective|p2a: Alphonse
+|-damage|p2a: Alphonse|52/100
+|
+|-heal|p1a: Its Bunker Time|86/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685847485
+|move|p2a: Alphonse|Thunder Wave|p1a: Its Bunker Time
+|-status|p1a: Its Bunker Time|par
+|move|p1a: Its Bunker Time|Surf|p2a: Alphonse
+|-supereffective|p2a: Alphonse
+|-damage|p2a: Alphonse|1/100
+|
+|-heal|p1a: Its Bunker Time|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685847497
+|-end|p2a: Alphonse|Protosynthesis|[silent]
+|switch|p2a: Model F|Armarouge, M|58/100
+|move|p1a: Its Bunker Time|Surf|p2a: Model F
+|-supereffective|p2a: Model F
+|-damage|p2a: Model F|15/100
+|
+|-heal|p1a: Its Bunker Time|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685847505
+|move|p2a: Model F|Dragon Pulse|p1a: Its Bunker Time
+|-damage|p1a: Its Bunker Time|72/100 par
+|cant|p1a: Its Bunker Time|par
+|
+|-heal|p1a: Its Bunker Time|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685847511
+|move|p2a: Model F|Dragon Pulse|p1a: Its Bunker Time
+|-damage|p1a: Its Bunker Time|54/100 par
+|move|p1a: Its Bunker Time|Surf|p2a: Model F
+|-supereffective|p2a: Model F
+|-damage|p2a: Model F|0 fnt
+|faint|p2a: Model F
+|
+|-heal|p1a: Its Bunker Time|61/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1685847518
+|switch|p2a: Alphonse|Sandy Shocks|1/100
+|turn|18
+|
+|t:|1685847525
+|move|p2a: Alphonse|Thunderbolt|p1a: Its Bunker Time
+|-damage|p1a: Its Bunker Time|20/100 par
+|move|p1a: Its Bunker Time|Surf|p2a: Alphonse
+|-supereffective|p2a: Alphonse
+|-damage|p2a: Alphonse|0 fnt
+|faint|p2a: Alphonse
+|-end|p2a: Alphonse|Protosynthesis|[silent]
+|
+|win|baggyjimjam

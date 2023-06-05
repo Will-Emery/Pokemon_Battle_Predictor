@@ -1,0 +1,88 @@
+|poke|p1|Arboliva, M|
+|poke|p1|Cyclizar, F|
+|poke|p1|Ceruledge, F|
+|poke|p1|Roaring Moon|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p2|Arcanine-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|1
+|
+|-terastallize|p2a: Arcanine|Fire
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|move|p2a: Arcanine|Flare Blitz|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p1a: Cyclizar|Cyclizar, F|100/100
+|turn|2
+|
+|move|p1a: Cyclizar|Knock Off|p2a: Arcanine
+|-damage|p2a: Arcanine|57/100
+|-enditem|p2a: Arcanine|Choice Band|[from] move: Knock Off|[of] p1a: Cyclizar
+|-damage|p1a: Cyclizar|91/100|[from] item: Life Orb
+|move|p2a: Arcanine|Flare Blitz|p1a: Cyclizar
+|-resisted|p1a: Cyclizar
+|-damage|p1a: Cyclizar|15/100
+|
+|turn|3
+|
+|move|p2a: Arcanine|Head Smash|p1a: Cyclizar
+|-damage|p1a: Cyclizar|0 fnt
+|faint|p1a: Cyclizar
+|
+|
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|turn|4
+|
+|move|p1a: Ceruledge|Close Combat|p2a: Arcanine
+|-damage|p2a: Arcanine|10/100
+|-unboost|p1a: Ceruledge|def|1
+|-unboost|p1a: Ceruledge|spd|1
+|move|p2a: Arcanine|Head Smash|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|turn|5
+|
+|move|p1a: Roaring Moon|Dragon Dance|p1a: Roaring Moon
+|-boost|p1a: Roaring Moon|atk|1
+|-boost|p1a: Roaring Moon|spe|1
+|move|p2a: Arcanine|Close Combat|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|6
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Arboliva|Arboliva, M|100/100
+|turn|7
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-damage|p1a: Arboliva|0 fnt
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p1a: Arboliva
+|faint|p1a: Arboliva
+|
+|win|Licorice Allsort

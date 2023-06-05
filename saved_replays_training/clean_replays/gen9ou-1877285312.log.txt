@@ -1,0 +1,432 @@
+|poke|p1|Clodsire, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Talonflame, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Blissey, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Azumarill, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|move|p2a: Glimmora|Stealth Rock|p1a: Blissey
+|-sidestart|p1: IsAnythingReal|move: Stealth Rock
+|move|p1a: Blissey|Stealth Rock|p2a: Glimmora
+|-sidestart|p2: Thepandaroux97|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|
+|turn|3
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|-damage|p2a: Azumarill|88/100|[from] Stealth Rock
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|4
+|
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|38/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|63/100|[from] item: Sitrus Berry
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|5
+|
+|-terastallize|p2a: Azumarill|Water
+|move|p2a: Azumarill|Liquidation|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|6
+|
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|13/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|move|p1a: Toxapex|Toxic|p2a: Azumarill
+|-status|p2a: Azumarill|tox
+|
+|-damage|p2a: Azumarill|7/100 tox|[from] psn
+|turn|7
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Azumarill|Liquidation|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|77/100
+|
+|-damage|p2a: Azumarill|0 fnt|[from] psn
+|faint|p2a: Azumarill
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|-damage|p2a: Dragapult|78/100|[from] item: Life Orb
+|
+|turn|9
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Blissey
+|-damage|p1a: Blissey|82/100
+|-damage|p2a: Dragapult|69/100|[from] item: Life Orb
+|move|p1a: Blissey|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|31/100
+|
+|turn|10
+|
+|switch|p2a: Zamazenta|Zamazenta|94/100
+|-damage|p2a: Zamazenta|88/100|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|turn|11
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|
+|turn|12
+|
+|move|p2a: Zamazenta|Crunch|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|13
+|
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|turn|14
+|
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|15
+|
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|move|p1a: Toxapex|Toxic|p2a: Glimmora
+|-immune|p2a: Glimmora
+|
+|turn|16
+|
+|move|p2a: Glimmora|Energy Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|76/100
+|move|p1a: Toxapex|Infestation|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|86/100
+|-activate|p2a: Glimmora|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Glimmora|74/100|[from] move: Infestation|[partiallytrapped]
+|turn|17
+|
+|move|p2a: Glimmora|Spikes|p1a: Toxapex
+|-sidestart|p1: IsAnythingReal|Spikes
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Glimmora|61/100|[from] move: Infestation|[partiallytrapped]
+|turn|18
+|
+|move|p2a: Glimmora|Spikes|p1a: Toxapex
+|-sidestart|p1: IsAnythingReal|Spikes
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Glimmora|49/100|[from] move: Infestation|[partiallytrapped]
+|turn|19
+|
+|move|p2a: Glimmora|Spikes|p1a: Toxapex
+|-sidestart|p1: IsAnythingReal|Spikes
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Glimmora|37/100|[from] move: Infestation|[partiallytrapped]
+|turn|20
+|
+|move|p2a: Glimmora|Energy Ball|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-end|p2a: Glimmora|Infestation|[partiallytrapped]
+|turn|21
+|
+|move|p2a: Glimmora|Energy Ball|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|2/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|52/100
+|
+|turn|22
+|
+|move|p2a: Glimmora|Energy Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|27/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|77/100
+|
+|turn|23
+|
+|switch|p2a: Dragapult|Dragapult, M|31/100
+|-damage|p2a: Dragapult|18/100|[from] Stealth Rock
+|move|p1a: Toxapex|Infestation|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|-activate|p2a: Dragapult|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Dragapult|4/100|[from] move: Infestation|[partiallytrapped]
+|turn|24
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Dragapult|Fire Blast|p1a: Blissey|[miss]
+|-miss|p2a: Dragapult|p1a: Blissey
+|
+|-end|p2a: Dragapult|Infestation|[partiallytrapped]|[silent]
+|turn|25
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|-status|p1a: Blissey|brn
+|-damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p2a: Dragapult
+|move|p1a: Blissey|Shadow Ball|p2: Dragapult|[notarget]
+|-fail|p1a: Blissey
+|
+|-damage|p1a: Blissey|77/100 brn|[from] brn
+|
+|switch|p2a: Zamazenta|Zamazenta|88/100
+|-damage|p2a: Zamazenta|82/100|[from] Stealth Rock
+|turn|26
+|
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|
+|turn|27
+|
+|move|p2a: Zamazenta|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|78/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|28
+|
+|move|p2a: Zamazenta|Stone Edge|p1a: Toxapex|[miss]
+|-miss|p2a: Zamazenta|p1a: Toxapex
+|move|p1a: Toxapex|Infestation|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|81/100
+|-activate|p2a: Zamazenta|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Zamazenta|68/100|[from] move: Infestation|[partiallytrapped]
+|turn|29
+|
+|move|p2a: Zamazenta|Stone Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|59/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Zamazenta|56/100|[from] move: Infestation|[partiallytrapped]
+|turn|30
+|
+|move|p2a: Zamazenta|Stone Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|39/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|89/100
+|
+|-damage|p2a: Zamazenta|44/100|[from] move: Infestation|[partiallytrapped]
+|turn|31
+|
+|move|p2a: Zamazenta|Stone Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|68/100
+|move|p1a: Toxapex|Infestation|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|43/100
+|
+|-damage|p2a: Zamazenta|30/100|[from] move: Infestation|[partiallytrapped]
+|turn|32
+|
+|move|p2a: Zamazenta|Stone Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100
+|move|p1a: Toxapex|Toxic|p2a: Zamazenta
+|-status|p2a: Zamazenta|tox
+|
+|-damage|p2a: Zamazenta|24/100 tox|[from] psn
+|-damage|p2a: Zamazenta|12/100 tox|[from] move: Infestation|[partiallytrapped]
+|turn|33
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Zamazenta|Stone Edge|p1a: Alomomola|[miss]
+|-miss|p2a: Zamazenta|p1a: Alomomola
+|
+|-damage|p2a: Zamazenta|0 fnt|[from] psn
+|faint|p2a: Zamazenta
+|
+|switch|p2a: Glimmora|Glimmora, F|37/100
+|-damage|p2a: Glimmora|24/100|[from] Stealth Rock
+|turn|34
+|
+|switch|p1a: Blissey|Blissey, F|77/100
+|move|p2a: Glimmora|Energy Ball|p1a: Blissey
+|-crit|p1a: Blissey
+|-damage|p1a: Blissey|63/100
+|
+|turn|35
+|
+|move|p2a: Glimmora|Earth Power|p1a: Blissey
+|-damage|p1a: Blissey|54/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|turn|36
+|
+|move|p2a: Glimmora|Energy Ball|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|move|p1a: Blissey|Seismic Toss|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: IsAnythingReal|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Enamorus|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|move|p1a: Blissey|Seismic Toss|p2a: Enamorus
+|-damage|p2a: Enamorus|41/100
+|
+|-heal|p2a: Enamorus|47/100|[from] item: Leftovers
+|turn|38
+|
+|move|p2a: Enamorus|Superpower|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Blissey
+|
+|-heal|p2a: Enamorus|53/100|[from] item: Leftovers
+|
+|switch|p1a: Toxapex|Toxapex, M|79/100
+|-sideend|p1: IsAnythingReal|move: Toxic Spikes|[of] p1a: Toxapex
+|turn|39
+|
+|move|p2a: Enamorus|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|cant|p1a: Toxapex|move: Taunt|Haze
+|
+|-heal|p2a: Enamorus|60/100|[from] item: Leftovers
+|turn|40
+|
+|move|p2a: Enamorus|Zen Headbutt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|30/100
+|move|p1a: Toxapex|Infestation|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|59/100
+|-activate|p2a: Enamorus|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p2a: Enamorus|65/100|[from] item: Leftovers
+|-damage|p2a: Enamorus|52/100|[from] move: Infestation|[partiallytrapped]
+|turn|41
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Enamorus|Zen Headbutt|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|70/100
+|
+|-heal|p2a: Enamorus|59/100|[from] item: Leftovers
+|-end|p2a: Enamorus|Infestation|[partiallytrapped]|[silent]
+|turn|42
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|turn|43
+|
+|switch|p1a: Toxapex|Toxapex, M|63/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p1a: Toxapex|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|44
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Toxapex
+|-damage|p1a: Toxapex|20/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|45
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Clodsire
+|-damage|p1a: Clodsire|28/100
+|
+|turn|46
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Dondozo|Dondozo, F|77/100
+|turn|47
+|
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|63/100
+|move|p1a: Dondozo|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|59/100
+|-damage|p2a: Enamorus|34/100|[from] Stealth Rock
+|turn|48
+|
+|move|p2a: Enamorus|Play Rough|p1a: Dondozo
+|-damage|p1a: Dondozo|44/100
+|move|p1a: Dondozo|Liquidation|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|win|IsAnythingReal

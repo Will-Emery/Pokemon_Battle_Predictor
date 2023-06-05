@@ -1,0 +1,272 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Floatzel, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Golduck, M|
+|poke|p1|Pawmot, M|
+|poke|p1|Toedscruel, F|
+|poke|p2|Magearna|
+|poke|p2|Sneasler, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Volcarona, F|
+|poke|p2|Ursaluna, F|
+|teampreview
+|
+|start
+|switch|p1a: Spaghetti Memory|Toedscruel, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Spaghetti Memory|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|74/100
+|-enditem|p2a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Spaghetti Memory
+|
+|turn|2
+|
+|switch|p1a: Ghoti carrier|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|58/100
+|-heal|p2a: Volcarona|96/100|[from] drain|[of] p1a: Ghoti carrier
+|move|p1a: Ghoti carrier|U-turn|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|89/100
+|-status|p1a: Ghoti carrier|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|switch|p1a: BandedSkewda|Floatzel, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|-terastallize|p1a: BandedSkewda|Water
+|move|p1a: BandedSkewda|Wave Crash|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-status|p1a: BandedSkewda|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|faint|p2a: Volcarona
+|-damage|p1a: BandedSkewda|74/100 brn|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: BandedSkewda|67/100 brn|[from] brn
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|move|p1a: BandedSkewda|Wave Crash|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|53/100
+|-damage|p1a: BandedSkewda|50/100 brn|[from] Recoil
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: RggV|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: BandedSkewda|44/100 brn|[from] brn
+|turn|6
+|
+|move|p1a: BandedSkewda|Wave Crash|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|2/100
+|-damage|p1a: BandedSkewda|25/100 brn|[from] Recoil
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: RggV|Reflect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: BandedSkewda|19/100 brn|[from] brn
+|turn|7
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: BandedSkewda|Wave Crash|p2a: Zamazenta
+|-damage|p2a: Zamazenta|78/100
+|-damage|p1a: BandedSkewda|12/100 brn|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|84/100|[from] item: Leftovers
+|-damage|p1a: BandedSkewda|6/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: BandedSkewda|Wave Crash|p2a: Zamazenta
+|-damage|p2a: Zamazenta|61/100
+|-damage|p1a: BandedSkewda|0 fnt|[from] Recoil
+|faint|p1a: BandedSkewda
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|67/100|[from] item: Leftovers
+|
+|switch|p1a: Seaking Duck|Golduck, M|100/100
+|turn|9
+|
+|move|p1a: Seaking Duck|Surf|p2a: Zamazenta
+|-damage|p2a: Zamazenta|29/100
+|-damage|p1a: Seaking Duck|91/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|none
+|-heal|p2a: Zamazenta|35/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Ghoti carrier|Pelipper, F|58/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|10/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|16/100|[from] item: Leftovers
+|-damage|p1a: Ghoti carrier|52/100 brn|[from] brn
+|turn|11
+|
+|move|p2a: Zamazenta|Body Press|p1a: Ghoti carrier
+|-resisted|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|0 fnt
+|faint|p1a: Ghoti carrier
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|23/100|[from] item: Leftovers
+|
+|switch|p1a: The Goat|Azumarill, F|100/100
+|turn|12
+|
+|move|p2a: Zamazenta|Body Press|p1a: The Goat
+|-resisted|p1a: The Goat
+|-damage|p1a: The Goat|30/100
+|-enditem|p1a: The Goat|Sitrus Berry|[eat]
+|-heal|p1a: The Goat|55/100|[from] item: Sitrus Berry
+|move|p1a: The Goat|Play Rough|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|29/100|[from] item: Leftovers
+|-sideend|p2: RggV|move: Light Screen
+|turn|13
+|
+|move|p1a: The Goat|Aqua Jet|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-fail|p2a: Zamazenta|move: Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|35/100|[from] item: Leftovers
+|-sideend|p2: RggV|Reflect
+|turn|14
+|
+|move|p1a: The Goat|Aqua Jet|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|10/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|16/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Spaghetti Memory|Toedscruel, F|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Spaghetti Memory
+|-crit|p1a: Spaghetti Memory
+|-damage|p1a: Spaghetti Memory|0 fnt
+|-damage|p2a: Zamazenta|0 fnt|[from] item: Rocky Helmet|[of] p1a: Spaghetti Memory
+|faint|p1a: Spaghetti Memory
+|faint|p2a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|switch|p1a: Really want eject|Pawmot, M|100/100
+|turn|16
+|
+|move|p1a: Really want eject|Revival Blessing|p1a: Really want eject
+|-enditem|p1a: Really want eject|Leppa Berry|[eat]
+|-activate|p1a: Really want eject|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p1: Ghoti carrier|50/100|[from] move: Revival Blessing
+|move|p2a: Ursaluna|Earthquake|p1a: Really want eject
+|-supereffective|p1a: Really want eject
+|-damage|p1a: Really want eject|0 fnt
+|faint|p1a: Really want eject
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p1a: The Goat|Azumarill, F|55/100
+|turn|17
+|
+|move|p1a: The Goat|Aqua Jet|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|44/100 brn
+|move|p2a: Ursaluna|Facade|p1a: The Goat
+|-damage|p1a: The Goat|0 fnt
+|faint|p1a: The Goat
+|
+|-weather|none
+|-damage|p2a: Ursaluna|38/100 brn|[from] brn
+|
+|switch|p1a: Ghoti carrier|Pelipper, F|50/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|18
+|
+|move|p2a: Ursaluna|Facade|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|0 fnt
+|faint|p1a: Ghoti carrier
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|32/100 brn|[from] brn
+|
+|switch|p1a: Seaking Duck|Golduck, M|91/100
+|turn|19
+|
+|move|p1a: Seaking Duck|Surf|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-damage|p1a: Seaking Duck|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, F|2/100
+|turn|20
+|
+|move|p1a: Seaking Duck|Surf|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-damage|p1a: Seaking Duck|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-item|p2a: Sneasler|Air Balloon
+|turn|21
+|
+|move|p1a: Seaking Duck|Surf|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-enditem|p2a: Sneasler|Air Balloon
+|faint|p2a: Sneasler
+|-damage|p1a: Seaking Duck|61/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|22
+|
+|-terastallize|p2a: Magearna|Fairy
+|move|p1a: Seaking Duck|Nasty Plot|p1a: Seaking Duck
+|-boost|p1a: Seaking Duck|spa|2
+|move|p2a: Magearna|Draining Kiss|p1a: Seaking Duck
+|-damage|p1a: Seaking Duck|0 fnt
+|faint|p1a: Seaking Duck
+|
+|win|RggV

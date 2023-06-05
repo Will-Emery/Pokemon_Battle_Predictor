@@ -1,0 +1,71 @@
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p1|Glimmora, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Haxorus, F|
+|poke|p1|Garganacl, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Scream Tail|
+|poke|p2|Garganacl, F|
+|poke|p2|Zapdos|
+|poke|p2|Maushold|
+|teampreview
+|
+|start
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|move|p2a: Zamazenta|Body Press|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|54/100
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|turn|3
+|
+|move|p2a: Zamazenta|Crunch|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|51/100
+|-unboost|p1a: Ceruledge|def|1
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|turn|4
+|
+|-terastallize|p2a: Zamazenta|Fire
+|move|p1a: Ceruledge|Bitter Blade|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|31/100
+|-heal|p1a: Ceruledge|63/100|[from] drain|[of] p2a: Zamazenta
+|move|p2a: Zamazenta|Crunch|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-message|Hartbreaker forfeited.
+|
+|win|rerherg

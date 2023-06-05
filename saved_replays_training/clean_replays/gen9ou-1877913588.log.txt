@@ -1,0 +1,68 @@
+|poke|p1|Slowbro, F|
+|poke|p1|Quagsire, F|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Altaria, F|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Dondozo, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Amoonguss, M|
+|poke|p2|Heatran, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Dondozo|Yawn|p2a: Amoonguss
+|-start|p2a: Amoonguss|move: Yawn|[of] p1a: Dondozo
+|
+|turn|2
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Amoonguss|Spore|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Spore
+|
+|-end|p2a: Amoonguss|move: Yawn|[silent]
+|-status|p2a: Amoonguss|slp
+|turn|3
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|cant|p1a: Goodra|slp
+|
+|turn|4
+|
+|switch|p1a: Altaria|Altaria, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Altaria
+|-damage|p1a: Altaria|41/100
+|-sidestart|p1: feminixta|Spikes
+|-damage|p2a: Samurott|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Altaria|47/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|-sidestart|p1: feminixta|Spikes
+|faint|p1a: Altaria
+|-damage|p2a: Samurott|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: SLOW|Slowbro, F|100/100
+|-damage|p1a: SLOW|84/100|[from] Spikes
+|turn|6
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: SLOW
+|-supereffective|p1a: SLOW
+|-damage|p1a: SLOW|0 fnt
+|-sidestart|p1: feminixta|Spikes
+|faint|p1a: SLOW
+|-damage|p2a: Samurott|71/100|[from] item: Life Orb
+|
+|-message|feminixta forfeited.
+|
+|win|BreakfastScrub

@@ -1,0 +1,324 @@
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Enamorus, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Gholdengo|
+|poke|p2|Sneasler, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Heatran, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|2
+|
+|switch|p2a: Heatran|Heatran, M, shiny|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|turn|3
+|
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Heatran|Taunt|p1a: Magearna
+|-start|p1a: Magearna|move: Taunt
+|cant|p1a: Magearna|move: Taunt|Calm Mind
+|
+|turn|4
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Enamorus|[miss]
+|-miss|p2a: Heatran|p1a: Enamorus
+|
+|turn|5
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Enamorus|Earth Power|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|turn|6
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Gholdengo|Make It Rain|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|68/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|turn|7
+|
+|switch|p2a: tusky|Great Tusk|100/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: tusky
+|-resisted|p2a: tusky
+|-damage|p2a: tusky|89/100
+|
+|-heal|p2a: tusky|95/100|[from] item: Leftovers
+|turn|8
+|
+|-end|p2a: tusky|Protosynthesis|[silent]
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Kingambit|Metal Burst||[still]
+|-fail|p1a: Kingambit
+|
+|turn|9
+|
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Sneasler|Close Combat|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|63/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, M, shiny|100/100
+|move|p1a: Enamorus|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|11
+|
+|switch|p1a: Kingambit|Kingambit, M|68/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Dragapult|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|
+|switch|p1a: Magearna|Magearna, tera:Water|100/100
+|turn|12
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|turn|13
+|
+|move|p2a: Sneasler|Switcheroo|p1a: Magearna
+|-activate|p2a: Sneasler|move: Trick|[of] p1a: Magearna
+|-item|p1a: Magearna|Choice Band|[from] move: Switcheroo
+|-item|p2a: Sneasler|Leftovers|[from] move: Switcheroo
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|turn|14
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Magearna
+|-damage|p1a: Magearna|82/100
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|turn|15
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Magearna
+|-damage|p1a: Magearna|71/100
+|-status|p1a: Magearna|par
+|cant|p1a: Magearna|par
+|
+|turn|16
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-item|p1a: Sneasler|Air Balloon
+|move|p2a: Sneasler|Dire Claw|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|63/100
+|-enditem|p1a: Sneasler|Air Balloon
+|
+|turn|17
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|63/100
+|move|p2a: Sneasler|U-turn|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|52/100
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-item|p2a: Gholdengo|Air Balloon
+|
+|turn|18
+|
+|move|p1a: Sneasler|Night Slash|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|54/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|19
+|
+|switch|p2a: Sneasler|Sneasler, F|63/100
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|20
+|
+|switch|p1a: Magearna|Magearna, tera:Water|71/100 par
+|move|p2a: Samurott|Aqua Cutter|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|46/100 par
+|-damage|p2a: Samurott|91/100|[from] item: Life Orb
+|
+|turn|21
+|
+|switch|p2a: Gholdengo|Gholdengo|54/100
+|move|p1a: Magearna|Draining Kiss|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|41/100
+|-heal|p1a: Magearna|57/100 par|[from] drain|[of] p2a: Gholdengo
+|
+|turn|22
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|91/100
+|move|p1a: Magearna|Draining Kiss|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|76/100
+|-heal|p1a: Magearna|68/100 par|[from] drain|[of] p2a: Gholdengo
+|
+|turn|23
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|100/100
+|
+|turn|24
+|
+|-terastallize|p2a: Gholdengo|Flying
+|move|p1a: Chien-Pao|Crunch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|24/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-crit|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|63/100
+|turn|25
+|
+|switch|p2a: tusky|Great Tusk|95/100
+|move|p1a: Enamorus|Moonblast|p2a: tusky
+|-supereffective|p2a: tusky
+|-damage|p2a: tusky|0 fnt
+|faint|p2a: tusky
+|-end|p2a: tusky|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|26
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Magearna|Magearna, tera:Water|68/100 par
+|turn|27
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|27/100 par
+|move|p1a: Magearna|Draining Kiss|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|29/100
+|-heal|p1a: Magearna|74/100 par|[from] drain|[of] p2a: Dragapult
+|
+|turn|28
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|31/100 par
+|move|p1a: Magearna|Draining Kiss|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-heal|p1a: Magearna|50/100 par|[from] drain|[of] p2a: Dragapult
+|faint|p2a: Dragapult
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Gholdengo|Gholdengo, tera:Flying|24/100
+|turn|29
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|74/100
+|move|p1a: Magearna|Draining Kiss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|35/100
+|-heal|p1a: Magearna|80/100 par|[from] drain|[of] p2a: Gholdengo
+|
+|turn|30
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|85/100
+|move|p1a: Magearna|Draining Kiss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|43/100
+|-heal|p1a: Magearna|100/100 par|[from] drain|[of] p2a: Gholdengo
+|
+|turn|31
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|93/100
+|move|p1a: Magearna|Draining Kiss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|50/100
+|
+|turn|32
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|99/100
+|move|p1a: Magearna|Draining Kiss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|55/100
+|
+|turn|33
+|
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|cant|p1a: Magearna|par
+|
+|turn|34
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|20/100 par
+|move|p1a: Magearna|Draining Kiss|p2a: Gholdengo
+|-damage|p2a: Gholdengo|10/100
+|-heal|p1a: Magearna|55/100 par|[from] drain|[of] p2a: Gholdengo
+|
+|turn|35
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|win|Lurlsxd

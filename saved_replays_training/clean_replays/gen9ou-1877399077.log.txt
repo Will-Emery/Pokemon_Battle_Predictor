@@ -1,0 +1,389 @@
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p1|Heatran, M|
+|poke|p1|Great Tusk|
+|poke|p1|Enamorus, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Falinks|
+|poke|p2|Kingambit, F|
+|poke|p2|Houndstone, M|
+|poke|p2|Iron Treads|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Twin|Enamorus, F, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|1
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|83/100
+|-boost|p2a: Iron Treads|spe|1
+|-damage|p2a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|turn|2
+|
+|move|p2a: Iron Treads|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|48/100
+|-damage|p2a: Iron Treads|67/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: PaRappa da Kappa|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Iron Treads|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: demont1m3|move: Stealth Rock
+|move|p1a: Great Tusk|Body Press|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|-damage|p2a: Electrode|88/100|[from] Stealth Rock
+|turn|4
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, M, shiny|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Electrode|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|-damage|p1a: Heatran|82/100|[from] Leech Seed|[of] p2a: Electrode
+|-heal|p2a: Electrode|100/100|[silent]
+|turn|5
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Goodra
+|-damage|p2a: Goodra|75/100
+|-activate|p2a: Goodra|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|88/100|[from] item: Leftovers
+|-damage|p1a: Heatran|76/100|[from] Leech Seed|[of] p2a: Goodra
+|-heal|p2a: Goodra|89/100|[silent]
+|-damage|p2a: Goodra|76/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|6
+|
+|move|p1a: Heatran|Taunt|p2a: Goodra
+|-start|p2a: Goodra|move: Taunt
+|move|p2a: Goodra|Dragon Pulse|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|62/100
+|
+|-heal|p1a: Heatran|68/100|[from] item: Leftovers
+|-damage|p1a: Heatran|56/100|[from] Leech Seed|[of] p2a: Goodra
+|-heal|p2a: Goodra|90/100|[silent]
+|-damage|p2a: Goodra|77/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|7
+|
+|switch|p1a: Twin|Enamorus, F, shiny|100/100
+|-damage|p1a: Twin|76/100|[from] Stealth Rock
+|move|p2a: Goodra|Flash Cannon|p1a: Twin
+|-supereffective|p1a: Twin
+|-damage|p1a: Twin|0 fnt
+|faint|p1a: Twin
+|
+|-end|p2a: Goodra|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Cresselia|Cresselia, F, shiny|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Cresselia|Light Screen|p1a: Cresselia
+|-sidestart|p1: demont1m3|move: Light Screen
+|move|p2a: Goodra|Acid Spray|p1a: Cresselia
+|-damage|p1a: Cresselia|84/100
+|-unboost|p1a: Cresselia|spd|2
+|
+|-end|p2a: Goodra|move: Taunt
+|turn|9
+|
+|move|p1a: Cresselia|Reflect|p1a: Cresselia
+|-sidestart|p1: demont1m3|Reflect
+|move|p2a: Goodra|Flash Cannon|p1a: Cresselia
+|-damage|p1a: Cresselia|58/100
+|
+|turn|10
+|
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Goodra|Flash Cannon|p1: Cresselia|[notarget]
+|-fail|p2a: Goodra
+|
+|
+|switch|p1a: BrokenButterfly|Magearna|100/100
+|-damage|p1a: BrokenButterfly|95/100|[from] Stealth Rock
+|-item|p1a: BrokenButterfly|Air Balloon
+|turn|11
+|
+|move|p1a: BrokenButterfly|Shift Gear|p1a: BrokenButterfly
+|-boost|p1a: BrokenButterfly|spe|2
+|-boost|p1a: BrokenButterfly|atk|1
+|move|p2a: Goodra|Flamethrower|p1a: BrokenButterfly
+|-supereffective|p1a: BrokenButterfly
+|-damage|p1a: BrokenButterfly|62/100
+|-enditem|p1a: BrokenButterfly|Air Balloon
+|
+|turn|12
+|
+|move|p1a: BrokenButterfly|Calm Mind|p1a: BrokenButterfly
+|-boost|p1a: BrokenButterfly|spa|1
+|-boost|p1a: BrokenButterfly|spd|1
+|move|p2a: Goodra|Flamethrower|p1a: BrokenButterfly
+|-supereffective|p1a: BrokenButterfly
+|-damage|p1a: BrokenButterfly|42/100
+|
+|turn|13
+|
+|-terastallize|p1a: BrokenButterfly|Fairy
+|move|p1a: BrokenButterfly|Draining Kiss|p2a: Goodra
+|-damage|p2a: Goodra|48/100
+|-heal|p1a: BrokenButterfly|69/100|[from] drain|[of] p2a: Goodra
+|move|p2a: Goodra|Flamethrower|p1a: BrokenButterfly
+|-damage|p1a: BrokenButterfly|59/100
+|
+|turn|14
+|
+|-terastallize|p2a: Goodra|Steel
+|move|p1a: BrokenButterfly|Calm Mind|p1a: BrokenButterfly
+|-boost|p1a: BrokenButterfly|spa|1
+|-boost|p1a: BrokenButterfly|spd|1
+|move|p2a: Goodra|Acid Spray|p1a: BrokenButterfly
+|-supereffective|p1a: BrokenButterfly
+|-damage|p1a: BrokenButterfly|52/100
+|-unboost|p1a: BrokenButterfly|spd|2
+|
+|turn|15
+|
+|move|p1a: BrokenButterfly|Draining Kiss|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|28/100
+|-heal|p1a: BrokenButterfly|70/100|[from] drain|[of] p2a: Goodra
+|move|p2a: Goodra|Acid Spray|p1a: BrokenButterfly
+|-supereffective|p1a: BrokenButterfly
+|-crit|p1a: BrokenButterfly
+|-damage|p1a: BrokenButterfly|26/100
+|-unboost|p1a: BrokenButterfly|spd|2
+|
+|-sideend|p1: demont1m3|move: Light Screen
+|turn|16
+|
+|move|p1a: BrokenButterfly|Stored Power|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|10/100
+|move|p2a: Goodra|Flash Cannon|p1a: BrokenButterfly
+|-supereffective|p1a: BrokenButterfly
+|-damage|p1a: BrokenButterfly|0 fnt
+|faint|p1a: BrokenButterfly
+|
+|-sideend|p1: demont1m3|Reflect
+|
+|switch|p1a: Great Tusk|Great Tusk|48/100
+|-heal|p1a: Great Tusk|100/100|[from] move: Lunar Dance
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|-damage|p2a: Electrode|88/100|[from] Stealth Rock
+|turn|18
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, M, shiny|56/100
+|-damage|p1a: Heatran|44/100|[from] Stealth Rock
+|move|p2a: Electrode|Leech Seed|p1a: Heatran
+|-start|p1a: Heatran|move: Leech Seed
+|
+|-heal|p1a: Heatran|50/100|[from] item: Leftovers
+|-damage|p1a: Heatran|37/100|[from] Leech Seed|[of] p2a: Electrode
+|-heal|p2a: Electrode|100/100|[silent]
+|turn|19
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Heatran|Magma Storm|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|14/100
+|-activate|p2a: Kingambit|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|44/100|[from] item: Leftovers
+|-damage|p1a: Heatran|31/100|[from] Leech Seed|[of] p2a: Kingambit
+|-heal|p2a: Kingambit|26/100|[silent]
+|-damage|p2a: Kingambit|14/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|20
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Heatran|Will-O-Wisp|p2a: Kingambit
+|-status|p2a: Kingambit|brn
+|
+|-heal|p1a: Heatran|37/100|[from] item: Leftovers
+|-damage|p1a: Heatran|25/100|[from] Leech Seed|[of] p2a: Kingambit
+|-heal|p2a: Kingambit|25/100 brn|[silent]
+|-damage|p2a: Kingambit|19/100 brn|[from] brn
+|-damage|p2a: Kingambit|7/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|21
+|player|p2|
+|player|p2|PaRappa da Kappa|102
+|
+|switch|p1a: Great Tusk|Great Tusk|98/100
+|-damage|p1a: Great Tusk|95/100|[from] Stealth Rock
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-damage|p2a: Kingambit|1/100 brn|[from] brn
+|-end|p2a: Kingambit|Magma Storm|[partiallytrapped]|[silent]
+|turn|22
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Houndstone|Houndstone, M|100/100
+|-damage|p2a: Houndstone|88/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Rapid Spin|p2a: Houndstone
+|-immune|p2a: Houndstone
+|
+|-heal|p2a: Houndstone|94/100|[from] item: Leftovers
+|turn|23
+|player|p2|
+|player|p2|PaRappa da Kappa|102
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, M, shiny|25/100
+|-damage|p1a: Heatran|12/100|[from] Stealth Rock
+|move|p2a: Houndstone|Night Shade|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Houndstone|99/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|24
+|
+|switch|p2a: Kingambit|Kingambit, F|1/100 brn
+|-damage|p2a: Kingambit|0 fnt|[from] Stealth Rock
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|-damage|p2a: Electrode|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|-damage|p1a: Chien-Pao|76/100|[from] ability: Aftermath|[of] p2a: Electrode
+|faint|p2a: Electrode
+|
+|
+|switch|p2a: Falinks|Falinks|100/100
+|-damage|p2a: Falinks|95/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Falinks|[miss]
+|-miss|p1a: Chien-Pao|p2a: Falinks
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|
+|-heal|p2a: Falinks|100/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p1a: Great Tusk|Great Tusk|95/100
+|-damage|p1a: Great Tusk|92/100|[from] Stealth Rock
+|move|p2a: Falinks|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|64/100
+|-damage|p2a: Falinks|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-heal|p2a: Falinks|90/100|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Falinks|Trailblaze|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|48/100
+|-boost|p2a: Falinks|spe|1
+|-damage|p2a: Falinks|73/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Rapid Spin|p2a: Falinks
+|-damage|p2a: Falinks|65/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: demont1m3|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Falinks|71/100|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Falinks|Trailblaze|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|32/100
+|-boost|p2a: Falinks|spe|1
+|-damage|p2a: Falinks|55/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Body Press|p2a: Falinks
+|-damage|p2a: Falinks|31/100
+|
+|-heal|p2a: Falinks|37/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Falinks|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|7/100
+|-damage|p2a: Falinks|20/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Body Press|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|faint|p2a: Falinks
+|
+|
+|switch|p2a: Houndstone|Houndstone, M|99/100
+|-damage|p2a: Houndstone|88/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Houndstone|Shadow Sneak|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Houndstone|71/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Houndstone|77/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|76/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|32
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|23/100
+|move|p2a: Houndstone|Play Rough|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|15/100
+|
+|-heal|p2a: Houndstone|29/100|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Houndstone|Shadow Sneak|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|6/100
+|move|p1a: Chien-Pao|Crunch|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|win|demont1m3

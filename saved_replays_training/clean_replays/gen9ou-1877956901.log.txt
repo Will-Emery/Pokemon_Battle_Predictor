@@ -1,0 +1,145 @@
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Azelf|
+|poke|p1|Dragonite, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Magearna|
+|poke|p1|Azumarill, F|
+|poke|p2|Articuno|
+|poke|p2|Slowking, M|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Heltaron|Articuno|100/100
+|-ability|p2a: Heltaron|Pressure
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heltaron|atk|1
+|turn|1
+|
+|-terastallize|p2a: Heltaron|Ground
+|move|p2a: Heltaron|Freeze-Dry|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|turn|2
+|
+|move|p2a: Heltaron|Freeze-Dry|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|54/100
+|move|p1a: Rotom|Hydro Pump|p2a: Heltaron
+|-supereffective|p2a: Heltaron
+|-damage|p2a: Heltaron|29/100
+|
+|turn|3
+|
+|switch|p2a: Sloison Duck|Slowking, M|100/100
+|move|p1a: Rotom|Night Shade|p2a: Sloison Duck
+|-damage|p2a: Sloison Duck|75/100
+|
+|turn|4
+|
+|move|p1a: Rotom|Discharge|p2a: Sloison Duck
+|-supereffective|p2a: Sloison Duck
+|-crit|p2a: Sloison Duck
+|-damage|p2a: Sloison Duck|12/100
+|move|p2a: Sloison Duck|Chilly Reception|p2a: Sloison Duck
+|-weather|Snow
+|
+|switch|p2a: Samurai Warrior|Kingambit, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p1a: Rotom|Discharge|p2a: Samurai Warrior
+|-damage|p2a: Samurai Warrior|74/100
+|move|p2a: Samurai Warrior|Swords Dance|p2a: Samurai Warrior
+|-boost|p2a: Samurai Warrior|atk|2
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Samurai Warrior|80/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Samurai Warrior|Sucker Punch|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Samurai Warrior|86/100|[from] item: Leftovers
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|7
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Samurai Warrior
+|-damage|p2a: Samurai Warrior|17/100
+|-unboost|p1a: Magearna|spa|2
+|move|p2a: Samurai Warrior|Iron Head|p1a: Magearna
+|-damage|p1a: Magearna|12/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Magearna|18/100|[from] item: Leftovers
+|-heal|p2a: Samurai Warrior|23/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Samurai Warrior|Sucker Punch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|none
+|-heal|p2a: Samurai Warrior|30/100|[from] item: Leftovers
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|9
+|
+|move|p2a: Samurai Warrior|Iron Head|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-heal|p2a: Samurai Warrior|36/100|[from] item: Leftovers
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|10
+|
+|move|p1a: Dragonite|Earthquake|p2a: Samurai Warrior
+|-supereffective|p2a: Samurai Warrior
+|-damage|p2a: Samurai Warrior|0 fnt
+|faint|p2a: Samurai Warrior
+|-end|p2a: Samurai Warrior|fallenundefined|[silent]
+|
+|
+|switch|p2a: Heltaron|Articuno, tera:Ground|29/100
+|-ability|p2a: Heltaron|Pressure
+|turn|11
+|
+|move|p2a: Heltaron|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Azelf|Azelf|100/100
+|turn|12
+|
+|move|p1a: Azelf|Psychic|p2a: Heltaron
+|-damage|p2a: Heltaron|0 fnt
+|faint|p2a: Heltaron
+|
+|
+|switch|p2a: Uncle Gant|Ceruledge, M|100/100
+|turn|13
+|
+|move|p1a: Azelf|Psychic|p2a: Uncle Gant
+|-damage|p2a: Uncle Gant|42/100
+|move|p2a: Uncle Gant|Shadow Claw|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|win|Felckon

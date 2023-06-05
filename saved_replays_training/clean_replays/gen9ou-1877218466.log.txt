@@ -1,0 +1,120 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Kleavor, M|
+|poke|p2|Walking Wake|
+|poke|p2|Rotom-Wash|
+|poke|p2|Greninja, M|
+|poke|p2|Slowking, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Cloyster, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|1
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|move|p2a: Greninja|U-turn|p1a: Sneasler
+|-start|p2a: Greninja|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|89/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|turn|2
+|
+|move|p1a: Sneasler|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|23/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|move|p2a: Rotom|Volt Switch|p1a: Sneasler
+|-damage|p1a: Sneasler|45/100
+|
+|switch|p2a: Greninja|Greninja, M|100/100|[from] Volt Switch
+|
+|turn|3
+|
+|move|p2a: Greninja|Shadow Sneak|p1a: Sneasler
+|-start|p2a: Greninja|typechange|Ghost|[from] ability: Protean
+|-damage|p1a: Sneasler|17/100
+|move|p1a: Sneasler|Close Combat|p2a: Greninja
+|-immune|p2a: Greninja
+|
+|turn|4
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Greninja|Shadow Sneak|p1a: Samurott
+|-resisted|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|83/100
+|
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Wash|23/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-sidestart|p2: WT_Neptune|Spikes
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Spikes
+|turn|6
+|
+|switch|p1a: Sneasler|Sneasler, F|17/100
+|move|p2a: Greninja|Shadow Sneak|p1a: Sneasler
+|-start|p2a: Greninja|typechange|Ghost|[from] ability: Protean
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|turn|7
+|
+|move|p2a: Greninja|Shadow Sneak|p1a: Kleavor
+|-damage|p1a: Kleavor|81/100
+|move|p1a: Kleavor|Agility|p1a: Kleavor
+|-boost|p1a: Kleavor|spe|2
+|
+|turn|8
+|
+|switch|p2a: Slowqueen|Slowking, F, shiny|100/100
+|-damage|p2a: Slowqueen|88/100|[from] Spikes
+|move|p1a: Kleavor|Swords Dance|p1a: Kleavor
+|-boost|p1a: Kleavor|atk|2
+|
+|turn|9
+|
+|move|p1a: Kleavor|Fury Cutter|p2a: Slowqueen|[miss]
+|-miss|p1a: Kleavor|p2a: Slowqueen
+|move|p2a: Slowqueen|Reflect|p2a: Slowqueen
+|-sidestart|p2: WT_Neptune|Reflect
+|
+|turn|10
+|
+|-terastallize|p1a: Kleavor|Bug
+|move|p1a: Kleavor|Fury Cutter|p2a: Slowqueen
+|-supereffective|p2a: Slowqueen
+|-crit|p2a: Slowqueen
+|-damage|p2a: Slowqueen|0 fnt
+|faint|p2a: Slowqueen
+|
+|
+|switch|p2a: Greninja|Greninja, M|88/100
+|-damage|p2a: Greninja|76/100|[from] Spikes
+|turn|11
+|
+|-terastallize|p2a: Greninja|Ice
+|move|p1a: Kleavor|Fury Cutter|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-message|WT_Neptune forfeited.
+|
+|win|Bamgan

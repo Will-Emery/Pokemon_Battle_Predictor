@@ -1,0 +1,126 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Articuno-Galar|
+|poke|p2|Cresselia, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Volcarona, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Roaring Moon|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Volcarona|Volcarona, F, shiny|100/100
+|turn|1
+|
+|switch|p2a: Cresselia|Cresselia, F, shiny|100/100
+|move|p1a: Kleavor|Stone Axe|p2a: Cresselia
+|-damage|p2a: Cresselia|62/100
+|-sidestart|p2: MiraiHoshi|move: Stealth Rock
+|
+|-heal|p2a: Cresselia|68/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Kleavor|Swords Dance|p1a: Kleavor
+|-boost|p1a: Kleavor|atk|2
+|move|p2a: Cresselia|Moonblast|p1a: Kleavor
+|-damage|p1a: Kleavor|59/100
+|
+|-heal|p2a: Cresselia|75/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Cresselia
+|-damage|p2a: Cresselia|6/100
+|move|p2a: Cresselia|Moonblast|p1a: Kleavor
+|-damage|p1a: Kleavor|15/100
+|
+|-heal|p2a: Cresselia|12/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Kleavor|Close Combat|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|faint|p2a: Cresselia
+|
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Kleavor|[miss]
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Kleavor
+|-damage|p2a: Cinderace|50/100|[from] highjumpkick
+|move|p1a: Kleavor|Close Combat|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Urshifu|Drain Punch|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-heal|p2a: Urshifu|100/100|[from] drain|[of] p1a: Kleavor
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|7
+|
+|move|p2a: Urshifu|Drain Punch|p1a: Decidueye
+|-damage|p1a: Decidueye|37/100
+|move|p1a: Decidueye|Leaf Blade|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-damage|p1a: Decidueye|27/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Volcarona|Volcarona, F, shiny|100/100
+|-damage|p2a: Volcarona|50/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Decidueye
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|9
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Volcarona|Psychic|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100
+|
+|turn|10
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Articuno|Articuno-Galar, shiny|100/100
+|-damage|p2a: Articuno|76/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|-message|MiraiHoshi forfeited.
+|
+|win|pikaplayer101

@@ -1,0 +1,179 @@
+|poke|p1|Cinderace, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, M|
+|poke|p2|Greninja, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Ting-Lu|
+|poke|p2|Sneasler, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Leviathan|Dragapult, M, shiny|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|move|p1a: Leviathan|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|81/100
+|
+|switch|p1a: Fin...|Rotom-Wash, shiny|100/100|[from] U-turn
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Fin...
+|-sidestart|p1: Leonazium|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|88/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Fin...|Will-O-Wisp|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|brn
+|move|p2a: Ting-Lu|Whirlwind|p1a: Fin...
+|drag|p1a: Liberacy|Cinderace, M, shiny|100/100
+|
+|-heal|p2a: Ting-Lu|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|88/100 brn|[from] brn
+|turn|3
+|
+|move|p1a: Liberacy|U-turn|p2a: Ting-Lu
+|-start|p1a: Liberacy|typechange|Bug|[from] ability: Libero
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|49/100 brn
+|
+|switch|p1a: Fin...|Rotom-Wash, shiny|100/100|[from] U-turn
+|-damage|p1a: Fin...|88/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Earthquake|p1a: Fin...
+|-immune|p1a: Fin...|[from] ability: Levitate
+|
+|-heal|p1a: Fin...|94/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|55/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|49/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Fin...|Hydro Pump|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|15/100 brn
+|move|p2a: Ting-Lu|Ruination|p1a: Fin...
+|-damage|p1a: Fin...|47/100
+|
+|-heal|p1a: Fin...|53/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|15/100 brn|[from] brn
+|turn|5
+|
+|move|p1a: Fin...|Hydro Pump|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-heal|p1a: Fin...|59/100|[from] item: Leftovers
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|6
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Fin...
+|-damage|p1a: Fin...|24/100
+|-status|p1a: Fin...|slp
+|cant|p1a: Fin...|slp
+|
+|-heal|p1a: Fin...|30/100 slp|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Phantom|Gholdengo|100/100
+|-damage|p1a: Phantom|94/100|[from] Stealth Rock
+|move|p2a: Sneasler|Dire Claw|p1a: Phantom
+|-immune|p1a: Phantom
+|
+|turn|8
+|
+|-terastallize|p2a: Sneasler|Dark
+|move|p1a: Phantom|Shadow Ball|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|73/100
+|move|p2a: Sneasler|Night Slash|p1a: Phantom
+|-supereffective|p1a: Phantom
+|-crit|p1a: Phantom
+|-damage|p1a: Phantom|0 fnt
+|faint|p1a: Phantom
+|
+|
+|switch|p1a: Liberacy|Cinderace, M, shiny|100/100
+|turn|9
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Liberacy|U-turn|p2a: Gholdengo
+|-start|p1a: Liberacy|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|91/100
+|
+|switch|p1a: Behemoth|Great Tusk, shiny|100/100|[from] U-turn
+|-enditem|p1a: Behemoth|Booster Energy
+|-activate|p1a: Behemoth|ability: Protosynthesis|[fromitem]
+|-start|p1a: Behemoth|protosynthesisspe
+|-damage|p1a: Behemoth|97/100|[from] Stealth Rock
+|
+|-heal|p2a: Gholdengo|97/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Behemoth|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|44/100
+|-enditem|p2a: Gholdengo|Leftovers|[from] move: Knock Off|[of] p1a: Behemoth
+|move|p2a: Gholdengo|Make It Rain|p1a: Behemoth
+|-damage|p1a: Behemoth|6/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|turn|11
+|
+|move|p1a: Behemoth|Stealth Rock|p2a: Gholdengo
+|-sidestart|p2: ResPootin|move: Stealth Rock
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|94/100
+|
+|turn|12
+|
+|move|p1a: Behemoth|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Behemoth|def|1
+|-unboost|p1a: Behemoth|spd|1
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Greninja|Greninja, M, shiny|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Behemoth|Rapid Spin|p2a: Greninja
+|-damage|p2a: Greninja|63/100
+|-boost|p1a: Behemoth|spe|1
+|-sideend|p1: Leonazium|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Behemoth
+|move|p2a: Greninja|Hydro Pump|p1a: Behemoth|[miss]
+|-start|p2a: Greninja|typechange|Water|[from] ability: Protean
+|-miss|p2a: Greninja|p1a: Behemoth
+|
+|turn|14
+|
+|move|p1a: Behemoth|Headlong Rush|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-unboost|p1a: Behemoth|def|1
+|-unboost|p1a: Behemoth|spd|1
+|faint|p2a: Greninja
+|
+|
+|switch|p2a: Sneasler|Sneasler, F, tera:Dark|73/100
+|-damage|p2a: Sneasler|61/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Behemoth|Headlong Rush|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Behemoth|def|1
+|-unboost|p1a: Behemoth|spd|1
+|faint|p2a: Sneasler
+|
+|-message|ResPootin forfeited.
+|
+|win|Leonazium

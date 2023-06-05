@@ -1,0 +1,288 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Dragonite, F|
+|poke|p1|Great Tusk|
+|poke|p1|Chien-Pao|
+|poke|p1|Heatran, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|teampreview
+|
+|start
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: Enamorus|Enamorus, F, shiny|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|84/100
+|
+|turn|2
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|67/100
+|
+|turn|3
+|
+|switch|p2a: Enamorus|Enamorus, F, shiny|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|64/100
+|-sidestart|p2: Bigweel|Spikes
+|
+|-heal|p2a: Enamorus|70/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Enamorus|Superpower|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|49/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|
+|-heal|p2a: Enamorus|77/100|[from] item: Leftovers
+|-heal|p1a: Heatran|55/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Enamorus|Earth Power|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-heal|p2a: Enamorus|83/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Volcanion|Volcanion|84/100
+|-damage|p2a: Volcanion|72/100|[from] Spikes
+|move|p1a: Gholdengo|Make It Rain|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|62/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|turn|7
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|67/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|36/100
+|
+|turn|8
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|move|p1a: Samurott|Ceaseless Edge|p2a: Great Tusk|[miss]
+|-miss|p1a: Samurott|p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|94/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|15/100
+|-enditem|p1a: Samurott|Assault Vest|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Samurott|Razor Shell|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|23/100
+|
+|-heal|p2a: Great Tusk|29/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|3/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Bigweel|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|faint|p1a: Samurott
+|
+|-heal|p2a: Great Tusk|10/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|11
+|
+|move|p2a: Great Tusk|Close Combat|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Chien-Pao
+|
+|-heal|p2a: Great Tusk|16/100|[from] item: Leftovers
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|12
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Enamorus|Enamorus, F, shiny|83/100
+|move|p1a: Dragonite|Extreme Speed|p2a: Enamorus
+|-damage|p2a: Enamorus|30/100
+|
+|-heal|p2a: Enamorus|36/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|14
+|
+|move|p2a: Dragapult|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|96/100
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100|[from] U-turn
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|turn|15
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Urshifu
+|-damage|p2a: Urshifu|52/100
+|move|p2a: Urshifu|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|16
+|
+|-terastallize|p1a: Great Tusk|Water
+|move|p2a: Urshifu|Surging Strikes|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|93/100
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|86/100
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|79/100
+|-hitcount|p1a: Great Tusk|3
+|move|p1a: Great Tusk|Rapid Spin|p2a: Urshifu
+|-damage|p2a: Urshifu|37/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|turn|17
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|18
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Great Tusk
+|-damage|p1a: Great Tusk|14/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Great Tusk|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Scarf|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|16/100
+|turn|19
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|20
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Kingambit|90/100|[from] item: Leftovers
+|
+|switch|p1a: Heatran|Heatran, F|55/100
+|turn|21
+|
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Volcanion|Volcanion|62/100
+|move|p1a: Heatran|Magma Storm|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|54/100
+|-activate|p2a: Volcanion|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|61/100|[from] item: Leftovers
+|-damage|p2a: Volcanion|41/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|22
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Volcanion|Steam Eruption|p1a: Gholdengo
+|-damage|p1a: Gholdengo|38/100
+|-status|p1a: Gholdengo|brn
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-damage|p1a: Gholdengo|32/100 brn|[from] brn
+|-end|p2a: Volcanion|Magma Storm|[partiallytrapped]|[silent]
+|turn|23
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Volcanion
+|-damage|p2a: Volcanion|15/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Heatran|Heatran, F|61/100
+|turn|24
+|
+|move|p1a: Heatran|Earth Power|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-heal|p1a: Heatran|67/100|[from] item: Leftovers
+|
+|switch|p2a: Kingambit|Kingambit, M|90/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|25
+|
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Heatran|Earth Power|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Heatran
+|-damage|p1a: Heatran|7/100
+|
+|-heal|p1a: Heatran|13/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|96/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Heatran|Magma Storm|p2a: Kingambit
+|-damage|p2a: Kingambit|57/100
+|-activate|p2a: Kingambit|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|Bigweel
+|player|p2|Bigweel|blue

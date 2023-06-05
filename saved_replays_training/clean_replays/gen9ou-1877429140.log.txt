@@ -1,0 +1,97 @@
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Sneasler, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Iron Treads|
+|poke|p2|Rabsca, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: 自爆炸弹|Sneasler, M, shiny|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p1a: 自爆炸弹|Swords Dance|p1a: 自爆炸弹
+|-boost|p1a: 自爆炸弹|atk|2
+|move|p2a: Pelipper|Hurricane|p1a: 自爆炸弹
+|-supereffective|p1a: 自爆炸弹
+|-damage|p1a: 自爆炸弹|10/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|-terastallize|p1a: 自爆炸弹|Flying
+|move|p1a: 自爆炸弹|Acrobatics|p2a: Pelipper
+|-damage|p2a: Pelipper|51/100
+|move|p2a: Pelipper|Hurricane|p1a: 自爆炸弹
+|-damage|p1a: 自爆炸弹|0 fnt
+|faint|p1a: 自爆炸弹
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: 黄金之躯|Basculegion-F, F, shiny|100/100
+|turn|3
+|
+|move|p1a: 黄金之躯|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-damage|p1a: 黄金之躯|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Rabsca|Rabsca, F|100/100
+|turn|4
+|
+|move|p1a: 黄金之躯|Shadow Ball|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-damage|p2a: Rabsca|10/100
+|-unboost|p2a: Rabsca|spd|1
+|-damage|p1a: 黄金之躯|81/100|[from] item: Life Orb
+|move|p2a: Rabsca|Trick Room|p2a: Rabsca
+|-fieldstart|move: Trick Room|[of] p2a: Rabsca
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|
+|-heal|p2: Pelipper|50/100|[from] move: Revival Blessing
+|move|p1a: 黄金之躯|Shadow Ball|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|faint|p2a: Rabsca
+|-damage|p1a: 黄金之躯|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|6
+|
+|move|p2a: Dragonite|Thunder|p1a: 黄金之躯
+|-supereffective|p1a: 黄金之躯
+|-damage|p1a: 黄金之躯|0 fnt
+|faint|p1a: 黄金之躯
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: 熊大|Ursaluna, M, shiny|100/100
+|turn|7
+|
+|move|p1a: 熊大|Swords Dance|p1a: 熊大
+|-boost|p1a: 熊大|atk|2
+|move|p2a: Dragonite|Hydro Pump|p1a: 熊大
+|-supereffective|p1a: 熊大
+|-damage|p1a: 熊大|0 fnt
+|faint|p1a: 熊大
+|
+|-weather|RainDance|[upkeep]
+|-message|123456讨厌cb牙圣 forfeited.
+|
+|win|LowELOtest

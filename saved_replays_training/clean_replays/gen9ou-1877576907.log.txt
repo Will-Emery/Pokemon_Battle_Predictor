@@ -1,0 +1,154 @@
+|poke|p1|Dragonite, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Gholdengo|
+|poke|p1|Rotom-Wash|
+|poke|p1|Ting-Lu|
+|poke|p1|Amoonguss, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Klefki, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Magnezone|
+|poke|p2|Donphan, M|
+|teampreview
+|
+|start
+|switch|p1a: Rotom-Galar|Rotom-Wash, shiny|100/100
+|switch|p2a: Klefki|Klefki, F|100/100
+|turn|1
+|
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: KarinaxCrushx11|move: Light Screen
+|move|p1a: Rotom-Galar|Will-O-Wisp|p2a: Klefki|[miss]
+|-miss|p1a: Rotom-Galar|p2a: Klefki
+|
+|turn|2
+|
+|move|p2a: Klefki|Spikes|p1a: Rotom-Galar
+|-sidestart|p1: skyloom|Spikes
+|move|p1a: Rotom-Galar|Volt Switch|p2a: Klefki
+|-damage|p2a: Klefki|85/100
+|
+|switch|p1a: Blaziken-MiniHisui|Cinderace, M|100/100|[from] Volt Switch
+|
+|turn|3
+|
+|move|p2a: Klefki|Thunder Wave|p1a: Blaziken-MiniHisui
+|-status|p1a: Blaziken-MiniHisui|par
+|move|p1a: Blaziken-MiniHisui|Pyro Ball|p2a: Klefki|[miss]
+|-miss|p1a: Blaziken-MiniHisui|p2a: Klefki
+|
+|turn|4
+|
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: KarinaxCrushx11|Reflect
+|move|p1a: Blaziken-MiniHisui|Pyro Ball|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|36/100
+|
+|turn|5
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Blaziken-MiniHisui|Pyro Ball|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|80/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|turn|6
+|
+|move|p1a: Blaziken-MiniHisui|Sucker Punch||[still]
+|-fail|p1a: Blaziken-MiniHisui
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|turn|7
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Blaziken-MiniHisui
+|-damage|p1a: Blaziken-MiniHisui|32/100 par
+|move|p1a: Blaziken-MiniHisui|Sucker Punch||[still]
+|-fail|p1a: Blaziken-MiniHisui
+|
+|turn|8
+|
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Blaziken-MiniHisui|Court Change|p1a: Blaziken-MiniHisui
+|-start|p1a: Blaziken-MiniHisui|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Blaziken-MiniHisui|move: Court Change
+|
+|-sideend|p1: skyloom|move: Light Screen
+|turn|9
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|92/100
+|
+|-heal|p1a: Ting-Lu|98/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Ting-Lu
+|faint|p1a: Ting-Lu
+|
+|
+|switch|p1a: Garchomp-F|Dragonite, F|100/100
+|turn|11
+|
+|move|p2a: Ceruledge|Bitter Blade|p1a: Garchomp-F
+|-resisted|p1a: Garchomp-F
+|-damage|p1a: Garchomp-F|79/100
+|move|p1a: Garchomp-F|Dragon Dance|p1a: Garchomp-F
+|-boost|p1a: Garchomp-F|atk|1
+|-boost|p1a: Garchomp-F|spe|1
+|
+|-sideend|p1: skyloom|Reflect
+|turn|12
+|
+|move|p2a: Ceruledge|Bitter Blade|p1a: Garchomp-F
+|-resisted|p1a: Garchomp-F
+|-damage|p1a: Garchomp-F|0 fnt
+|faint|p1a: Garchomp-F
+|
+|
+|switch|p1a: Rotom-Galar|Rotom-Wash, shiny|100/100
+|turn|13
+|
+|-terastallize|p2a: Ceruledge|Electric
+|move|p2a: Ceruledge|Tera Blast|p1a: Rotom-Galar
+|-damage|p1a: Rotom-Galar|0 fnt
+|faint|p1a: Rotom-Galar
+|
+|
+|switch|p1a: Takeitandgo|Gholdengo|100/100
+|turn|14
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Takeitandgo
+|-supereffective|p1a: Takeitandgo
+|-damage|p1a: Takeitandgo|0 fnt
+|faint|p1a: Takeitandgo
+|
+|
+|switch|p1a: Blaziken-MiniHisui|Cinderace, M|32/100 par
+|turn|15
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Blaziken-MiniHisui
+|-damage|p1a: Blaziken-MiniHisui|0 fnt
+|faint|p1a: Blaziken-MiniHisui
+|
+|
+|switch|p1a: Humongous|Amoonguss, F|100/100
+|turn|16
+|
+|move|p2a: Ceruledge|Bitter Blade|p1a: Humongous
+|-supereffective|p1a: Humongous
+|-damage|p1a: Humongous|0 fnt
+|faint|p1a: Humongous
+|
+|win|KarinaxCrushx11

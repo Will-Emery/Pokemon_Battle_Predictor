@@ -1,0 +1,191 @@
+|poke|p1|Meowscarada, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Hatterene, F|
+|poke|p1|Glimmora, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|1
+|
+|move|p1a: Meowscarada|U-turn|p2a: Enamorus
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|87/100
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p2a: Enamorus|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|63/100
+|
+|turn|2
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Hatterene|Nuzzle|p2a: Slowking
+|-damage|p2a: Slowking|96/100
+|-status|p2a: Slowking|par
+|
+|turn|3
+|
+|move|p1a: Hatterene|Psyshock|p2a: Slowking
+|-damage|p2a: Slowking|49/100 par
+|cant|p2a: Slowking|par
+|
+|turn|4
+|
+|move|p1a: Hatterene|Psyshock|p2a: Slowking
+|-damage|p2a: Slowking|2/100 par
+|move|p2a: Slowking|Sludge Bomb|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|19/100
+|-status|p1a: Hatterene|psn
+|
+|-damage|p1a: Hatterene|7/100 psn|[from] psn
+|turn|5
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Hatterene|Nuzzle|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|94/100
+|-status|p2a: Chien-Pao|par
+|
+|-damage|p1a: Hatterene|0 fnt|[from] psn
+|faint|p1a: Hatterene
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|6
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|76/100
+|cant|p2a: Chien-Pao|par
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Zamazenta|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-heal|p1a: Zamazenta|88/100|[from] item: Leftovers
+|
+|switch|p2a: Enamorus|Enamorus, F|87/100
+|turn|8
+|
+|move|p2a: Enamorus|Moonblast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|94/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-item|p1a: Glimmora|Air Balloon
+|move|p2a: Enamorus|Moonblast|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|69/100
+|-enditem|p1a: Glimmora|Air Balloon
+|
+|turn|10
+|
+|switch|p2a: Slowking|Slowking-Galar, M|35/100 par
+|move|p1a: Glimmora|Sludge Wave|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|21/100 par
+|
+|turn|11
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Glimmora|Earth Power|p2a: Samurott
+|-damage|p2a: Samurott|57/100
+|
+|turn|12
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Meowscarada|[miss]
+|-miss|p2a: Samurott|p1a: Meowscarada
+|
+|turn|13
+|
+|switch|p2a: Slowking|Slowking-Galar, M|55/100 par
+|move|p1a: Meowscarada|Knock Off|p2a: Slowking
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|14
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|
+|turn|15
+|
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Landorus|U-turn|p2a: Lilligant
+|-damage|p2a: Lilligant|80/100
+|
+|switch|p1a: Zamazenta|Zamazenta|94/100|[from] U-turn
+|
+|-heal|p1a: Zamazenta|100/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Lilligant|Leaf Blade|p1a: Zamazenta
+|-damage|p1a: Zamazenta|21/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|28/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Lilligant|Leaf Blade|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|turn|18
+|
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Landorus|Taunt|p2a: Lilligant
+|-start|p2a: Lilligant|move: Taunt
+|
+|turn|19
+|
+|move|p2a: Lilligant|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-message|Ben Kamins forfeited.
+|
+|win|ShadowTwo

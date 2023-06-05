@@ -1,0 +1,316 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Floatzel, M|
+|poke|p1|Golduck, F|
+|poke|p1|Toedscruel, F|
+|poke|p1|Pawmot, M|
+|poke|p1|Azumarill, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Slowbro-Galar, F|
+|poke|p2|Dragalge, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|start
+|switch|p1a: cat|Pelipper, F|100/100
+|switch|p2a: Dragalge|Dragalge, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: cat
+|turn|1
+|
+|move|p1a: cat|U-turn|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|96/100
+|
+|switch|p1a: Fish|Toedscruel, F|100/100|[from] U-turn
+|move|p2a: Dragalge|Toxic Spikes|p1a: Fish
+|-sidestart|p1: Ting Lu is so cute|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragalge|100/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Dragalge|Chilling Water|p1a: Fish
+|-damage|p1a: Fish|86/100
+|-unboost|p1a: Fish|atk|1
+|move|p1a: Fish|Spikes|p2a: Dragalge
+|-sidestart|p2: CruiseNight|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Fish|93/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Slowbro|Slowbro-Galar, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Spikes
+|move|p1a: Fish|Rapid Spin|p2a: Slowbro
+|-damage|p2a: Slowbro|82/100
+|-boost|p1a: Fish|spe|1
+|-sideend|p1: Ting Lu is so cute|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Fish
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Fish|99/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Slowbro|Ice Beam|p1a: Fish
+|-supereffective|p1a: Fish
+|-damage|p1a: Fish|0 fnt
+|faint|p1a: Fish
+|-damage|p2a: Slowbro|72/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Sir Quaccums|Golduck, F|100/100
+|turn|5
+|
+|move|p1a: Sir Quaccums|Surf|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|-damage|p1a: Sir Quaccums|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragalge|Dragalge, F|100/100
+|-damage|p2a: Dragalge|88/100|[from] Spikes
+|turn|6
+|
+|move|p1a: Sir Quaccums|Nasty Plot|p1a: Sir Quaccums
+|-boost|p1a: Sir Quaccums|spa|2
+|move|p2a: Dragalge|Toxic Spikes|p1a: Sir Quaccums
+|-sidestart|p1: Ting Lu is so cute|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragalge|94/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Sir Quaccums|Ice Beam|p2a: Dragalge
+|-supereffective|p2a: Dragalge
+|-damage|p2a: Dragalge|6/100
+|-damage|p1a: Sir Quaccums|81/100|[from] item: Life Orb
+|move|p2a: Dragalge|Draco Meteor|p1a: Sir Quaccums
+|-damage|p1a: Sir Quaccums|5/100
+|-unboost|p2a: Dragalge|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragalge|12/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Sir Quaccums|Surf|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-damage|p2a: Dragalge|0 fnt
+|faint|p2a: Dragalge
+|-damage|p1a: Sir Quaccums|0 fnt|[from] item: Life Orb
+|faint|p1a: Sir Quaccums
+|
+|-weather|none
+|
+|switch|p1a: cat|Pelipper, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|88/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: cat
+|turn|9
+|
+|move|p2a: Iron Moth|Hurricane|p1a: cat
+|-damage|p1a: cat|41/100
+|-start|p1a: cat|confusion
+|-activate|p1a: cat|confusion
+|move|p1a: cat|U-turn|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|85/100
+|
+|switch|p1a: dog|Azumarill, M|100/100|[from] U-turn
+|-status|p1a: dog|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: dog|88/100 psn|[from] psn
+|turn|10
+|
+|move|p2a: Iron Moth|Hurricane|p1a: dog
+|-crit|p1a: dog
+|-damage|p1a: dog|0 fnt
+|faint|p1a: dog
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: The boye|Floatzel, M|100/100
+|-status|p1a: The boye|psn
+|turn|11
+|
+|move|p1a: The boye|Wave Crash|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-damage|p1a: The boye|73/100 psn|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: The boye|61/100 psn|[from] psn
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|turn|12
+|
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1a: The boye|Wave Crash|p2a: Amoonguss
+|-activate|p2a: Amoonguss|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|94/100|[from] item: Black Sludge
+|-damage|p1a: The boye|49/100 psn|[from] psn
+|turn|13
+|
+|move|p1a: The boye|Wave Crash|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|44/100
+|-damage|p1a: The boye|26/100 psn|[from] Recoil
+|move|p2a: Amoonguss|Giga Drain|p1a: The boye
+|-supereffective|p1a: The boye
+|-damage|p1a: The boye|0 fnt
+|-heal|p2a: Amoonguss|53/100|[from] drain|[of] p1a: The boye
+|faint|p1a: The boye
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|59/100|[from] item: Black Sludge
+|
+|switch|p1a: Octopus|Pawmot, M|100/100
+|-status|p1a: Octopus|psn
+|turn|14
+|
+|move|p1a: Octopus|Revival Blessing|p1a: Octopus
+|-enditem|p1a: Octopus|Leppa Berry|[eat]
+|-activate|p1a: Octopus|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p1: Sir Quaccums|50/100|[from] move: Revival Blessing
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Octopus
+|-damage|p1a: Octopus|61/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|65/100|[from] item: Black Sludge
+|-damage|p1a: Octopus|48/100 psn|[from] psn
+|turn|15
+|
+|move|p1a: Octopus|Revival Blessing|p1a: Octopus
+|
+|-heal|p1: The boye|50/100|[from] move: Revival Blessing
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Octopus
+|-damage|p1a: Octopus|7/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|71/100|[from] item: Black Sludge
+|-damage|p1a: Octopus|0 fnt|[from] psn
+|faint|p1a: Octopus
+|
+|switch|p1a: Sir Quaccums|Golduck, F|50/100
+|-status|p1a: Sir Quaccums|psn
+|turn|16
+|
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1a: Sir Quaccums|Nasty Plot|p1a: Sir Quaccums
+|-boost|p1a: Sir Quaccums|spa|2
+|
+|-weather|none
+|-heal|p2a: Amoonguss|78/100|[from] item: Black Sludge
+|-damage|p1a: Sir Quaccums|38/100 psn|[from] psn
+|turn|17
+|
+|move|p1a: Sir Quaccums|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|-damage|p1a: Sir Quaccums|28/100 psn|[from] item: Life Orb
+|
+|-damage|p1a: Sir Quaccums|16/100 psn|[from] psn
+|
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|-damage|p2a: Overqwil|88/100|[from] Spikes
+|-ability|p2a: Overqwil|Intimidate|boost
+|-unboost|p1a: Sir Quaccums|atk|1
+|turn|18
+|
+|move|p2a: Overqwil|Fell Stinger|p1a: Sir Quaccums
+|-damage|p1a: Sir Quaccums|0 fnt
+|faint|p1a: Sir Quaccums
+|-boost|p2a: Overqwil|atk|3
+|
+|
+|switch|p1a: cat|Pelipper, F|41/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: cat
+|turn|19
+|
+|move|p2a: Overqwil|Fell Stinger|p1a: cat
+|-resisted|p1a: cat
+|-damage|p1a: cat|22/100
+|move|p1a: cat|U-turn|p2a: Overqwil
+|-damage|p2a: Overqwil|79/100
+|
+|switch|p1a: The boye|Floatzel, M|50/100|[from] U-turn
+|-status|p1a: The boye|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: The boye|38/100 psn|[from] psn
+|turn|20
+|
+|move|p1a: The boye|Liquidation|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: The boye|26/100 psn|[from] psn
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Spikes
+|turn|21
+|
+|switch|p1a: cat|Pelipper, F|22/100
+|move|p2a: Toxapex|Hex|p1a: cat
+|-damage|p1a: cat|8/100
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|
+|move|p1a: cat|Roost|p1a: cat
+|-heal|p1a: cat|58/100
+|-singleturn|p1a: cat|move: Roost
+|move|p2a: Toxapex|Hex|p1a: cat
+|-damage|p1a: cat|44/100
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|move|p1a: cat|Roost|p1a: cat
+|-heal|p1a: cat|95/100
+|-singleturn|p1a: cat|move: Roost
+|move|p2a: Toxapex|Sludge Bomb|p1a: cat
+|-damage|p1a: cat|65/100
+|-status|p1a: cat|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: cat|53/100 psn|[from] psn
+|turn|24
+|
+|move|p1a: cat|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100
+|-enditem|p2a: Toxapex|Assault Vest|[from] move: Knock Off|[of] p1a: cat
+|move|p2a: Toxapex|Sludge Bomb|p1a: cat
+|-crit|p1a: cat
+|-damage|p1a: cat|10/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: cat|0 fnt|[from] psn
+|faint|p1a: cat
+|
+|switch|p1a: The boye|Floatzel, M|26/100 psn
+|turn|25
+|
+|-terastallize|p1a: The boye|Grass
+|move|p1a: The boye|Wave Crash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|29/100
+|-damage|p1a: The boye|10/100 psn|[from] Recoil
+|move|p2a: Toxapex|Hex|p1a: The boye
+|-crit|p1a: The boye
+|-damage|p1a: The boye|0 fnt
+|faint|p1a: The boye
+|
+|win|CruiseNight

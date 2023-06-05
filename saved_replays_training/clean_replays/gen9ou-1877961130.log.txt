@@ -1,0 +1,307 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Scream Tail|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p2|Volcanion|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Avalugg-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scream Tail|atk|1
+|turn|1
+|
+|move|p2a: Landorus|U-turn|p1a: Scream Tail
+|-damage|p1a: Scream Tail|80/100
+|
+|switch|p2a: Volcanion|Volcanion|100/100|[from] U-turn
+|move|p1a: Scream Tail|Stealth Rock|p2a: Volcanion
+|-sidestart|p2: Annnatar|move: Stealth Rock
+|
+|-heal|p1a: Scream Tail|86/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Volcanion|Sludge Bomb|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|
+|-heal|p1a: Scream Tail|92/100|[from] item: Leftovers
+|turn|3
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Volcanion|Overheat|p1a: Tornadus
+|-damage|p1a: Tornadus|53/100
+|-unboost|p2a: Volcanion|spa|2
+|-enditem|p2a: Volcanion|Eject Pack
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, M|100/100
+|-damage|p2a: Avalugg|76/100|[from] Stealth Rock
+|
+|turn|4
+|
+|move|p1a: Tornadus|U-turn|p2a: Avalugg
+|-damage|p2a: Avalugg|68/100
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Avalugg|Rapid Spin|p1a: Torkoal
+|-damage|p1a: Torkoal|82/100
+|-boost|p2a: Avalugg|spe|1
+|-sideend|p2: Annnatar|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Avalugg
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Torkoal|Lava Plume|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|92/100
+|-status|p2a: Pelipper|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|85/100 brn|[from] brn
+|turn|6
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|86/100
+|move|p2a: Pelipper|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|84/100
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Basculegion|Wave Crash|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|63/100
+|-damage|p2a: Basculegion|83/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Alomomola|69/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Alomomola|75/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Tornadus
+|-damage|p1a: Tornadus|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tornadus|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|10
+|
+|move|p1a: Tornadus|Hurricane|p2a: Volcanion
+|-damage|p2a: Volcanion|58/100
+|move|p2a: Volcanion|Sludge Bomb|p1a: Tornadus
+|-damage|p1a: Tornadus|79/100
+|-status|p1a: Tornadus|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Tornadus|66/100 psn|[from] psn
+|turn|11
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, M|68/100
+|move|p1a: Tornadus|U-turn|p2a: Avalugg
+|-damage|p2a: Avalugg|60/100
+|
+|switch|p1a: Torkoal|Torkoal, F|82/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|12
+|
+|move|p2a: Avalugg|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|8/100
+|move|p1a: Torkoal|Earth Power|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|13
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Torkoal|Lava Plume|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|57/100
+|move|p1a: Torkoal|Lava Plume|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragapult|63/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|none
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|
+|switch|p1a: Scream Tail|Scream Tail|92/100
+|turn|16
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Scream Tail
+|-status|p1a: Scream Tail|brn
+|move|p1a: Scream Tail|Dazzling Gleam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|15/100
+|
+|-heal|p2a: Dragapult|21/100|[from] item: Leftovers
+|-heal|p1a: Scream Tail|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Scream Tail|92/100 brn|[from] brn
+|turn|17
+|
+|switch|p2a: Pelipper|Pelipper, M|85/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Scream Tail|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Annnatar|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scream Tail|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Scream Tail|92/100 brn|[from] brn
+|-damage|p2a: Pelipper|79/100 brn|[from] brn
+|turn|18
+|
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|move|p2a: Pelipper|Hurricane|p1a: Scream Tail
+|-damage|p1a: Scream Tail|71/100 brn
+|-start|p1a: Scream Tail|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Scream Tail|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Scream Tail|71/100 brn|[from] brn
+|-damage|p2a: Pelipper|73/100 brn|[from] brn
+|turn|19
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|99/100
+|
+|switch|p2a: Basculegion|Basculegion, M|83/100|[from] U-turn
+|-damage|p2a: Basculegion|71/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goodra|100/100|[from] move: Wish|[wisher] Scream Tail
+|turn|20
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Wave Crash|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|29/100
+|-damage|p2a: Basculegion|48/100|[from] Recoil
+|move|p1a: Goodra|Acid Armor|p1a: Goodra
+|-boost|p1a: Goodra|def|2
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Basculegion|Wave Crash|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|55/100
+|-damage|p2a: Basculegion|27/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Alomomola|61/100|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|9/100
+|-damage|p2a: Basculegion|3/100|[from] Recoil
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Alomomola|15/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Basculegion|Wave Crash|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Alomomola|65/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|71/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|25/100
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|none
+|-heal|p1a: Alomomola|31/100|[from] item: Leftovers
+|
+|switch|p2a: Volcanion|Volcanion|58/100
+|-damage|p2a: Volcanion|34/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|29/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|12/100
+|
+|-heal|p1a: Goodra|85/100|[from] move: Wish|[wisher] Alomomola
+|turn|26
+|
+|move|p2a: Volcanion|Overheat|p1a: Goodra
+|-damage|p1a: Goodra|42/100
+|-unboost|p2a: Volcanion|spa|2
+|move|p1a: Goodra|Acid Armor|p1a: Goodra
+|-boost|p1a: Goodra|def|2
+|
+|turn|27
+|
+|move|p2a: Volcanion|Earth Power|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|24/100
+|move|p1a: Goodra|Rest|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Rest
+|-heal|p1a: Goodra|100/100 slp|[silent]
+|-enditem|p1a: Goodra|Chesto Berry|[eat]
+|-curestatus|p1a: Goodra|slp|[msg]
+|
+|turn|28
+|-message|Annnatar forfeited.
+|
+|win|SpookyPatata
+|n|☆SpookyPatata|spookypatata
+|n|☆Annnatar|annnatar

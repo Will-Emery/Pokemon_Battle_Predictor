@@ -1,0 +1,398 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Great Tusk|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Magearna|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Great Tusk|
+|poke|p2|Basculegion-F, F|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|turn|1
+|
+|move|p1a: Landorus|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|57/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|turn|2
+|
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|move|p1a: Landorus|Earthquake|p2: Hatterene|[notarget]
+|-fail|p1a: Landorus
+|
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|3
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Basculegion|Surf|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|48/100
+|
+|turn|4
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Basculegion|Surf|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|33/100
+|
+|turn|5
+|
+|switch|p1a: Slowking|Slowking-Galar, F|81/100
+|move|p2a: Basculegion|Surf|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|
+|-fieldend|move: Trick Room
+|turn|6
+|
+|move|p2a: Basculegion|Surf|p1a: Slowking
+|-damage|p1a: Slowking|13/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|83/100
+|
+|turn|7
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|33/100
+|move|p2a: Basculegion|Surf|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Crunch|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|65/100
+|
+|turn|9
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Magearna|atk|1
+|-enditem|p2a: Magearna|Eject Pack
+|
+|switch|p2a: Basculegion|Basculegion-F, F|83/100
+|-heal|p2a: Basculegion|100/100|[from] move: Healing Wish
+|
+|turn|10
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Basculegion|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|11
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Chien-Pao|Crunch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|74/100
+|
+|turn|12
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|85/100
+|-damage|p2a: Great Tusk|58/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|13
+|
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|52/100
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|100/100|[from] U-turn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Great Tusk|Rapid Spin|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|87/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|turn|14
+|
+|switch|p1a: Landorus|Landorus-Therian, M|85/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|turn|15
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|79/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|46/100
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|87/100|[from] U-turn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|turn|16
+|
+|switch|p1a: Landorus|Landorus-Therian, M|79/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|turn|17
+|
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|34/100
+|
+|turn|18
+|
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|24/100
+|
+|turn|19
+|
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|17/100
+|
+|turn|20
+|
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|11/100
+|
+|turn|21
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|45/100
+|move|p1a: Landorus|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: False Swipeing点老师|move: Stealth Rock
+|
+|turn|22
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|20/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: False Swipeing点老师|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|5/100
+|
+|turn|23
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Sneasler|Sneasler, F, shiny|100/100
+|-item|p1a: Sneasler|Air Balloon
+|turn|24
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Sneasler
+|-damage|p1a: Sneasler|55/100
+|-boost|p2a: Great Tusk|spe|1
+|-enditem|p1a: Sneasler|Air Balloon
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|turn|25
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Magearna|Magearna|65/100
+|turn|26
+|
+|-terastallize|p2a: Magearna|Flying
+|move|p1a: Sneasler|Close Combat|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|19/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|27
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Sneasler|[miss]
+|-miss|p2a: Magearna|p1a: Sneasler
+|move|p1a: Sneasler|Acrobatics|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|28
+|
+|switch|p1a: Slowking|Slowking-Galar, F|47/100
+|move|p2a: Basculegion|Surf|p1a: Slowking
+|-damage|p1a: Slowking|12/100
+|
+|turn|29
+|
+|switch|p1a: Sneasler|Sneasler, F, shiny|55/100
+|move|p2a: Basculegion|Surf|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|87/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|30
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|switch|p1a: Slowking|Slowking-Galar, F|45/100
+|
+|-fieldend|move: Trick Room
+|turn|31
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Cresselia
+|-damage|p2a: Cresselia|80/100
+|-status|p2a: Cresselia|psn
+|
+|-damage|p2a: Cresselia|67/100 psn|[from] psn
+|turn|32
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|87/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-damage|p2a: Cresselia|55/100 psn|[from] psn
+|turn|33
+|
+|switch|p1a: Slowking|Slowking-Galar, F|78/100
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|34
+|
+|move|p1a: Slowking|Sludge Bomb|p2a: Hoopa
+|-damage|p2a: Hoopa|74/100
+|-status|p2a: Hoopa|psn
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Hoopa|def|1
+|faint|p1a: Slowking
+|
+|-damage|p2a: Hoopa|61/100 psn|[from] psn
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|87/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|35
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|-heal|p2a: Basculegion|100/100|[from] move: Lunar Dance
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|turn|36
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|61/100 psn
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|-damage|p2a: Hoopa|49/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|turn|37
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|turn|38
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|49/100 psn
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|-damage|p2a: Hoopa|37/100 psn|[from] psn
+|turn|39
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|turn|40
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|37/100 psn
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|-damage|p2a: Hoopa|24/100 psn|[from] psn
+|turn|41
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|turn|42
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|24/100 psn
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|-damage|p2a: Hoopa|12/100 psn|[from] psn
+|turn|43
+|
+|-activate|p1a: Chien-Pao|move: Struggle
+|move|p1a: Chien-Pao|Struggle|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|-damage|p1a: Chien-Pao|62/100|[from] recoil
+|
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|44
+|
+|-activate|p1a: Chien-Pao|move: Struggle
+|move|p1a: Chien-Pao|Struggle|p2a: Basculegion
+|-damage|p2a: Basculegion|66/100
+|-damage|p1a: Chien-Pao|37/100|[from] recoil
+|move|p2a: Basculegion|Surf|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|win|False Swipeing点老师
+|player|p2|False Swipeing点老师|blue

@@ -1,0 +1,168 @@
+|poke|p1|Roaring Moon|
+|poke|p1|Indeedee, M|
+|poke|p1|Armarouge, F|
+|poke|p1|Coalossal, F|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Arboliva, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Magearna|
+|poke|p2|Volcarona, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|switch|p2a: Edgelord|Samurott-Hisui, F, shiny|100/100
+|turn|1
+|
+|switch|p1a: Arboliva|Arboliva, F|100/100
+|move|p2a: Edgelord|Ceaseless Edge|p1a: Arboliva
+|-damage|p1a: Arboliva|51/100
+|-sidestart|p1: Alexagide|Spikes
+|
+|turn|2
+|
+|-terastallize|p1a: Arboliva|Fairy
+|move|p2a: Edgelord|Ceaseless Edge|p1a: Arboliva
+|-resisted|p1a: Arboliva
+|-damage|p1a: Arboliva|27/100
+|-sidestart|p1: Alexagide|Spikes
+|-enditem|p1a: Arboliva|Sitrus Berry|[eat]
+|-heal|p1a: Arboliva|51/100|[from] item: Sitrus Berry
+|move|p1a: Arboliva|Giga Drain|p2a: Edgelord
+|-supereffective|p2a: Edgelord
+|-enditem|p2a: Edgelord|Focus Sash
+|-damage|p2a: Edgelord|1/100
+|-heal|p1a: Arboliva|96/100|[from] drain|[of] p2a: Edgelord
+|
+|turn|3
+|
+|move|p2a: Edgelord|Razor Shell|p1a: Arboliva
+|-damage|p1a: Arboliva|41/100
+|move|p1a: Arboliva|Substitute|p1a: Arboliva
+|-start|p1a: Arboliva|Substitute
+|-damage|p1a: Arboliva|16/100
+|
+|-item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|-enditem|p1a: Arboliva|Sitrus Berry|[eat]
+|-heal|p1a: Arboliva|41/100|[from] item: Sitrus Berry
+|turn|4
+|
+|move|p2a: Edgelord|Razor Shell|p1a: Arboliva
+|-end|p1a: Arboliva|Substitute
+|move|p1a: Arboliva|Giga Drain|p2a: Edgelord
+|-supereffective|p2a: Edgelord
+|-damage|p2a: Edgelord|0 fnt
+|-heal|p1a: Arboliva|41/100|[from] drain|[of] p2a: Edgelord
+|faint|p2a: Edgelord
+|
+|-item|p1a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|-enditem|p1a: Arboliva|Sitrus Berry|[eat]
+|-heal|p1a: Arboliva|66/100|[from] item: Sitrus Berry
+|
+|switch|p2a: KingMidas|Sneasler, M, shiny|100/100
+|-item|p2a: KingMidas|Air Balloon
+|turn|5
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|move|p2a: KingMidas|Swords Dance|p2a: KingMidas
+|-boost|p2a: KingMidas|atk|2
+|
+|turn|6
+|
+|move|p2a: KingMidas|Close Combat|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|-unboost|p2a: KingMidas|def|1
+|-unboost|p2a: KingMidas|spd|1
+|faint|p1a: Coalossal
+|
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|84/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|7
+|
+|move|p1a: Indeedee|Psychic|p2a: KingMidas
+|-supereffective|p2a: KingMidas
+|-damage|p2a: KingMidas|0 fnt
+|-enditem|p2a: KingMidas|Air Balloon
+|faint|p2a: KingMidas
+|
+|
+|switch|p2a: Drop A|Dragapult, M|100/100
+|turn|8
+|
+|move|p2a: Drop A|Light Screen|p2a: Drop A
+|-sidestart|p2: Allradarmons|move: Light Screen
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Drop A
+|-supereffective|p2a: Drop A
+|-damage|p2a: Drop A|79/100
+|
+|turn|9
+|
+|move|p2a: Drop A|Reflect|p2a: Drop A
+|-sidestart|p2: Allradarmons|Reflect
+|move|p1a: Indeedee|Encore|p2a: Drop A
+|-start|p2a: Drop A|Encore
+|
+|turn|10
+|
+|switch|p2a: SquashU|Volcarona, M, shiny|100/100
+|switch|p1a: Arboliva|Arboliva, F, tera:Fairy|66/100
+|-damage|p1a: Arboliva|49/100|[from] Spikes
+|
+|turn|11
+|
+|switch|p1a: Indeedee|Indeedee, M|84/100
+|-damage|p1a: Indeedee|67/100|[from] Spikes
+|move|p2a: SquashU|Quiver Dance|p2a: SquashU
+|-boost|p2a: SquashU|spa|1
+|-boost|p2a: SquashU|spd|1
+|-boost|p2a: SquashU|spe|1
+|
+|turn|12
+|
+|move|p2a: SquashU|Fiery Dance|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|100/100
+|-damage|p1a: Tauros|84/100|[from] Spikes
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: SquashU|atk|1
+|turn|13
+|
+|move|p2a: SquashU|Giga Drain|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Armarouge|Armarouge, F|100/100
+|-damage|p1a: Armarouge|84/100|[from] Spikes
+|turn|14
+|
+|-terastallize|p2a: SquashU|Ground
+|move|p1a: Armarouge|Endure|p1a: Armarouge
+|-singleturn|p1a: Armarouge|move: Endure
+|move|p2a: SquashU|Tera Blast|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-activate|p1a: Armarouge|move: Endure
+|-damage|p1a: Armarouge|1/100
+|
+|-fieldend|move: Psychic Terrain
+|turn|15
+|
+|move|p2a: SquashU|Tera Blast|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|-sideend|p2: Allradarmons|move: Light Screen
+|-message|Alexagide forfeited.
+|
+|win|Allradarmons

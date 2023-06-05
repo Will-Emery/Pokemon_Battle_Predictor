@@ -1,0 +1,135 @@
+|poke|p1|Rillaboom, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Heatran, F|
+|poke|p1|Avalugg-Hisui, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, M, shiny|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|move|p2a: Samurott|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|34/100
+|move|p1a: Rillaboom|U-turn|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|80/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|switch|p1a: Heatran|Heatran, F, shiny|100/100|[from] U-turn
+|
+|-heal|p2a: Zoroark|86/100|[from] Grassy Terrain
+|turn|2
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: ahagdhghdgd|move: Stealth Rock
+|
+|turn|3
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Lilligant
+|-damage|p1a: Lilligant|77/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: ahagdhghdgd|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p1a: Lilligant|83/100|[from] Grassy Terrain
+|turn|4
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Lilligant
+|-sidestart|p1: pontiff lombo|move: Stealth Rock
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-heal|p1a: Lilligant|89/100|[from] Grassy Terrain
+|turn|5
+|
+|move|p1a: Lilligant|Encore|p2a: Great Tusk
+|-start|p2a: Great Tusk|Encore
+|move|p2a: Great Tusk|Stealth Rock||[still]
+|-fail|p2a: Great Tusk
+|
+|-heal|p1a: Lilligant|95/100|[from] Grassy Terrain
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|86/100
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-heal|p1a: Lilligant|100/100|[from] Grassy Terrain
+|-heal|p2a: Samurott|92/100|[from] Grassy Terrain
+|turn|7
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Lilligant|Leaf Blade|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|21/100
+|
+|-heal|p2a: Gholdengo|27/100|[from] Grassy Terrain
+|turn|8
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-fieldend|move: Grassy Terrain
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|9
+|
+|-terastallize|p1a: Lilligant|Grass
+|-terastallize|p2a: Arcanine|Normal
+|move|p2a: Arcanine|Extreme Speed|p1a: Lilligant
+|-damage|p1a: Lilligant|59/100
+|move|p1a: Lilligant|Leaf Blade|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|10
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|11
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|92/100
+|turn|12
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|-message|ahagdhghdgd forfeited.
+|
+|win|pontiff lombo

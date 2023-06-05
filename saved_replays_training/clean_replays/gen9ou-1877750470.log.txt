@@ -1,0 +1,391 @@
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Zapdos|
+|poke|p1|Meowscarada, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Meowscarada|U-turn|p2a: Corviknight
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|93/100
+|-damage|p1a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100|[from] U-turn
+|
+|turn|2
+|
+|-terastallize|p2a: Corviknight|Water
+|move|p1a: Typhlosion|Eruption|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100
+|move|p2a: Corviknight|U-turn|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|96/100
+|
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|turn|3
+|
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Kleavor
+|-damage|p1a: Kleavor|53/100
+|
+|turn|4
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|86/100
+|-sidestart|p2: PedroGreg|move: Stealth Rock
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Kleavor
+|-sidestart|p1: Nayotake|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|92/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Kleavor|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|48/100
+|
+|switch|p1a: Meowscarada|Meowscarada, M|84/100|[from] U-turn
+|-damage|p1a: Meowscarada|72/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Earthquake|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|41/100
+|
+|-heal|p2a: Ting-Lu|54/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Flower Trick|p2a: Kingambit
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|66/100
+|
+|-heal|p2a: Kingambit|72/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Zapdos
+|-damage|p1a: Zapdos|59/100
+|
+|-heal|p2a: Kingambit|78/100|[from] item: Leftovers
+|turn|8
+|
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|turn|9
+|
+|switch|p1a: Goodra|Goodra-Hisui, M, shiny|100/100
+|-damage|p1a: Goodra|94/100|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: Goodra
+|-damage|p1a: Goodra|63/100
+|
+|-heal|p1a: Goodra|69/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Ting-Lu|Ting-Lu|54/100
+|-damage|p2a: Ting-Lu|48/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-heal|p2a: Ting-Lu|54/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Zapdos|Hurricane|p2a: Ting-Lu|[miss]
+|-miss|p1a: Zapdos|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Ruination|p1a: Zapdos
+|-damage|p1a: Zapdos|50/100
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Dragapult|Dragapult, F|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|move|p1a: Zapdos|Hurricane|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|
+|turn|13
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|move|p2a: Dragapult|Draco Meteor|p1a: Clodsire
+|-damage|p1a: Clodsire|52/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: Clodsire|58/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Kingambit|Kingambit, M|78/100
+|-damage|p2a: Kingambit|72/100|[from] Stealth Rock
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|-heal|p2a: Kingambit|78/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Zapdos|Zapdos|50/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Zapdos
+|-damage|p1a: Zapdos|13/100
+|
+|-heal|p2a: Kingambit|84/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|63/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|91/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Zapdos
+|-damage|p1a: Zapdos|26/100
+|
+|-heal|p2a: Kingambit|97/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Zapdos|Discharge|p2a: Kingambit
+|-damage|p2a: Kingambit|62/100
+|-status|p2a: Kingambit|par
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-heal|p2a: Kingambit|68/100 par|[from] item: Leftovers
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Clodsire|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|28/100 par
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Clodsire
+|-damage|p1a: Clodsire|41/100
+|
+|-heal|p1a: Clodsire|47/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|34/100 par|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|97/100
+|cant|p2a: Kingambit|par
+|
+|-heal|p1a: Clodsire|100/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|40/100 par|[from] item: Leftovers
+|turn|21
+|
+|cant|p2a: Kingambit|par
+|move|p1a: Clodsire|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|22
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, M, tera:Water|55/100
+|-damage|p2a: Corviknight|43/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Clodsire|Toxic|p2a: Corviknight
+|-status|p2a: Corviknight|tox
+|
+|-damage|p2a: Corviknight|36/100 tox|[from] psn
+|turn|23
+|
+|switch|p1a: Meowscarada|Meowscarada, M|41/100
+|-damage|p1a: Meowscarada|29/100|[from] Stealth Rock
+|move|p2a: Corviknight|Defog|p1a: Meowscarada
+|-unboost|p1a: Meowscarada|evasion|1
+|-sideend|p1: Nayotake|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: PedroGreg|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|24/100 tox|[from] psn
+|turn|24
+|
+|move|p1a: Meowscarada|Flower Trick|p2a: Corviknight
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|17/100
+|turn|25
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Dragapult|U-turn|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|91/100
+|
+|switch|p2a: Ting-Lu|Ting-Lu|60/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Ting-Lu|66/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|97/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p1a: Kleavor|Kleavor, F|53/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Kleavor
+|-damage|p1a: Kleavor|4/100
+|
+|-heal|p2a: Ting-Lu|72/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Kleavor|Close Combat|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|28/100
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|move|p2a: Ting-Lu|Earthquake|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-heal|p2a: Ting-Lu|34/100|[from] item: Leftovers
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|96/100
+|turn|28
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-terastallize|p1a: Typhlosion|Fire
+|move|p1a: Typhlosion|Eruption|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|35/100
+|
+|turn|29
+|
+|switch|p1a: Goodra|Goodra-Hisui, M, shiny|69/100
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|-heal|p1a: Goodra|76/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p1a: Clodsire|Clodsire, M|97/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Clodsire
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|64/100
+|
+|-heal|p1a: Clodsire|70/100|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Cinderace|U-turn|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|58/100
+|
+|switch|p2a: Ting-Lu|Ting-Lu|34/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Clodsire|Spikes|p2a: Ting-Lu
+|-sidestart|p2: PedroGreg|Spikes
+|
+|-heal|p2a: Ting-Lu|41/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|64/100|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Ting-Lu|Earthquake|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-heal|p2a: Ting-Lu|47/100|[from] item: Leftovers
+|
+|switch|p1a: Meowscarada|Meowscarada, M|29/100
+|turn|33
+|
+|move|p1a: Meowscarada|U-turn|p2a: Ting-Lu
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, tera:Fire|96/100|[from] U-turn
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|17/100
+|-damage|p2a: Dragapult|5/100|[from] Spikes
+|turn|34
+|
+|switch|p1a: Goodra|Goodra-Hisui, M, shiny|76/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Goodra
+|-damage|p1a: Goodra|30/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: Goodra|36/100|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Goodra
+|-damage|p1a: Goodra|11/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Goodra|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Goodra|17/100|[from] item: Leftovers
+|
+|switch|p2a: Cinderace|Cinderace, M|35/100
+|turn|36
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, tera:Fire|96/100
+|turn|37
+|
+|move|p1a: Typhlosion|Fire Blast|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|94/100
+|-damage|p2a: Iron Valiant|82/100|[from] Spikes
+|turn|38
+|
+|move|p1a: Typhlosion|Fire Blast|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|Nayotake
+|n|☆Nayotake|nayotake
+|n|☆PedroGreg|pedrogreg
+|n| Always Close|alwaysclose
+|n| PokeChess|pokechess
+|n| E63593|e63593
+|n| Raita Hinomura|raitahinomura

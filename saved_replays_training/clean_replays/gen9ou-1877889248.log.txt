@@ -1,0 +1,353 @@
+|poke|p1|Heatran, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Slowbro-Galar, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Zarude-Dada|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: jablinksy games|Arcanine-Hisui, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Enamorus|Superpower|p2a: jablinksy games
+|-supereffective|p2a: jablinksy games
+|-damage|p2a: jablinksy games|4/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|move|p2a: jablinksy games|Head Smash|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|2
+|
+|switch|p2a: Him|Clodsire, F|100/100
+|move|p1a: Urshifu|U-turn|p2a: Him
+|-resisted|p2a: Him
+|-damage|p2a: Him|89/100
+|-damage|p1a: Urshifu|84/100|[from] item: Rocky Helmet|[of] p2a: Him
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|82/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|4
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: crebnar|move: Stealth Rock
+|move|p2a: Corviknight|Brave Bird|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|50/100
+|-damage|p2a: Corviknight|64/100|[from] Recoil
+|
+|turn|5
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|6
+|
+|switch|p2a: Him|Clodsire, F|89/100
+|-damage|p2a: Him|83/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Him
+|-damage|p2a: Him|57/100
+|-activate|p2a: Him|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Him|44/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|7
+|
+|move|p1a: Heatran|Earth Power|p2a: Him
+|-supereffective|p2a: Him
+|-damage|p2a: Him|18/100
+|move|p2a: Him|Recover|p2a: Him
+|-heal|p2a: Him|68/100
+|
+|-damage|p2a: Him|55/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|50/100
+|move|p2a: Him|Recover|p2a: Him
+|-heal|p2a: Him|100/100
+|
+|-end|p2a: Him|Magma Storm|[partiallytrapped]|[silent]
+|turn|9
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|turn|10
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|Defog|p1a: Dragapult
+|-unboost|p1a: Dragapult|evasion|1
+|-sideend|p2: crebnar|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|82/100 brn|[from] brn
+|turn|11
+|
+|switch|p2a: Daddy's lil gamer|Zarude-Dada|100/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Daddy's lil gamer
+|-status|p2a: Daddy's lil gamer|brn
+|move|p2a: Daddy's lil gamer|Power Whip|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p2a: Daddy's lil gamer|94/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Daddy's lil gamer
+|-damage|p2a: Daddy's lil gamer|78/100 brn
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Daddy's lil gamer
+|-damage|p2a: Daddy's lil gamer|59/100 brn
+|move|p2a: Daddy's lil gamer|Jungle Healing|p2a: Daddy's lil gamer
+|-heal|p2a: Daddy's lil gamer|84/100 brn
+|-curestatus|p2a: Daddy's lil gamer|brn|[msg]
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p2a: Daddy's lil gamer|90/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Daddy's lil gamer
+|-status|p2a: Daddy's lil gamer|brn
+|move|p2a: Daddy's lil gamer|Bulk Up|p2a: Daddy's lil gamer
+|-boost|p2a: Daddy's lil gamer|atk|1
+|-boost|p2a: Daddy's lil gamer|def|1
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p2a: Daddy's lil gamer|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Daddy's lil gamer|90/100 brn|[from] brn
+|turn|15
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Daddy's lil gamer|Jungle Healing|p2a: Daddy's lil gamer
+|-heal|p2a: Daddy's lil gamer|100/100 brn
+|-curestatus|p2a: Daddy's lil gamer|brn|[msg]
+|
+|turn|16
+|
+|switch|p2a: Corviknight|Corviknight, M|82/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Zapdos|Hurricane|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|61/100 brn
+|-start|p2a: Corviknight|confusion
+|
+|-damage|p2a: Corviknight|55/100 brn|[from] brn
+|turn|17
+|
+|switch|p2a: Him|Clodsire, F|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Him
+|-crit|p2a: Him
+|-damage|p2a: Him|80/100
+|
+|turn|18
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Him|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|16/100
+|
+|-heal|p1a: Heatran|22/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Heatran|Taunt|p2a: Him
+|-start|p2a: Him|move: Taunt
+|cant|p2a: Him|move: Taunt|Stealth Rock
+|
+|-heal|p1a: Heatran|28/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Heatran|Stealth Rock|p2a: Him
+|-sidestart|p2: crebnar|move: Stealth Rock
+|move|p2a: Him|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|50/100
+|turn|21
+|
+|switch|p2a: Corviknight|Corviknight, M|55/100 brn
+|-damage|p2a: Corviknight|42/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100 brn
+|-boost|p1a: Great Tusk|spe|1
+|
+|-damage|p2a: Corviknight|32/100 brn|[from] brn
+|turn|22
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|82/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p2a: Corviknight|76/100 brn|[from] brn
+|turn|23
+|
+|move|p1a: Zapdos|Heat Wave|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|26/100 brn
+|move|p2a: Corviknight|Defog|p1a: Zapdos
+|-unboost|p1a: Zapdos|evasion|1
+|-sideend|p2: crebnar|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|19/100 brn|[from] brn
+|turn|24
+|
+|switch|p2a: The numbers mason|Slowbro-Galar, F|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: The numbers mason
+|-damage|p2a: The numbers mason|83/100
+|-status|p2a: The numbers mason|brn
+|
+|-damage|p2a: The numbers mason|77/100 brn|[from] brn
+|turn|25
+|
+|move|p1a: Zapdos|Hurricane|p2a: The numbers mason|[miss]
+|-miss|p1a: Zapdos|p2a: The numbers mason
+|move|p2a: The numbers mason|Hydro Pump|p1a: Zapdos
+|-damage|p1a: Zapdos|71/100
+|
+|-damage|p2a: The numbers mason|71/100 brn|[from] brn
+|turn|26
+|
+|move|p1a: Zapdos|Hurricane|p2a: The numbers mason
+|-damage|p2a: The numbers mason|41/100 brn
+|move|p2a: The numbers mason|Acid Spray|p1a: Zapdos
+|-damage|p1a: Zapdos|56/100
+|-unboost|p1a: Zapdos|spd|2
+|
+|-damage|p2a: The numbers mason|35/100 brn|[from] brn
+|turn|27
+|
+|switch|p1a: Dragapult|Dragapult, F|99/100
+|switch|p2a: Corviknight|Corviknight, M|19/100 brn
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|13/100 brn|[from] brn
+|turn|28
+|
+|move|p1a: Dragapult|Hex|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Daddy's lil gamer|Zarude-Dada|100/100
+|turn|29
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Daddy's lil gamer
+|-status|p2a: Daddy's lil gamer|brn
+|move|p2a: Daddy's lil gamer|Bulk Up|p2a: Daddy's lil gamer
+|-boost|p2a: Daddy's lil gamer|atk|1
+|-boost|p2a: Daddy's lil gamer|def|1
+|
+|-damage|p2a: Daddy's lil gamer|94/100 brn|[from] brn
+|turn|30
+|
+|switch|p1a: Zapdos|Zapdos|56/100
+|move|p2a: Daddy's lil gamer|Bulk Up|p2a: Daddy's lil gamer
+|-boost|p2a: Daddy's lil gamer|atk|1
+|-boost|p2a: Daddy's lil gamer|def|1
+|
+|-heal|p2a: Daddy's lil gamer|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Daddy's lil gamer|94/100 brn|[from] brn
+|turn|31
+|
+|-terastallize|p2a: Daddy's lil gamer|Fairy
+|move|p2a: Daddy's lil gamer|Jungle Healing|p2a: Daddy's lil gamer
+|-heal|p2a: Daddy's lil gamer|100/100 brn
+|-curestatus|p2a: Daddy's lil gamer|brn|[msg]
+|move|p1a: Zapdos|Heat Wave|p2a: Daddy's lil gamer
+|-damage|p2a: Daddy's lil gamer|79/100
+|-status|p2a: Daddy's lil gamer|brn
+|
+|-heal|p2a: Daddy's lil gamer|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Daddy's lil gamer|79/100 brn|[from] brn
+|turn|32
+|
+|move|p2a: Daddy's lil gamer|Jungle Healing|p2a: Daddy's lil gamer
+|-heal|p2a: Daddy's lil gamer|100/100 brn
+|-curestatus|p2a: Daddy's lil gamer|brn|[msg]
+|move|p1a: Zapdos|Hurricane|p2a: Daddy's lil gamer
+|-damage|p2a: Daddy's lil gamer|61/100
+|
+|-heal|p2a: Daddy's lil gamer|67/100|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Daddy's lil gamer|Power Whip|p1a: Zapdos|[miss]
+|-miss|p2a: Daddy's lil gamer|p1a: Zapdos
+|move|p1a: Zapdos|Volt Switch|p2a: Daddy's lil gamer
+|-damage|p2a: Daddy's lil gamer|43/100
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|
+|-heal|p2a: Daddy's lil gamer|49/100|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Daddy's lil gamer
+|-status|p2a: Daddy's lil gamer|brn
+|move|p2a: Daddy's lil gamer|Jungle Healing|p2a: Daddy's lil gamer
+|-heal|p2a: Daddy's lil gamer|73/100 brn
+|-curestatus|p2a: Daddy's lil gamer|brn|[msg]
+|
+|-heal|p2a: Daddy's lil gamer|79/100|[from] item: Leftovers
+|turn|35
+|
+|move|p1a: Dragapult|Hex|p2a: Daddy's lil gamer
+|-damage|p2a: Daddy's lil gamer|56/100
+|move|p2a: Daddy's lil gamer|Power Whip|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Daddy's lil gamer|62/100|[from] item: Leftovers
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|84/100
+|turn|36
+|
+|switch|p2a: Him|Clodsire, F|80/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Him
+|-heal|p2a: Him|100/100|[from] ability: Water Absorb|[of] p1a: Urshifu
+|
+|turn|37
+|-message|Antid6te forfeited.
+|
+|win|crebnar

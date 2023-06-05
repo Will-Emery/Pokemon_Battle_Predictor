@@ -1,0 +1,296 @@
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Uxie|
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p2|Heatran, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|1
+|
+|switch|p1a: Uxie|Uxie|100/100
+|move|p2a: Electrode|Volt Switch|p1a: Uxie
+|-damage|p1a: Uxie|83/100
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] Volt Switch
+|
+|-heal|p1a: Uxie|89/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|76/100
+|-sidestart|p1: nykash|Spikes
+|
+|-heal|p1a: Enamorus|82/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|move|p1a: Enamorus|Moonblast|p2a: Electrode
+|-damage|p2a: Electrode|16/100
+|-unboost|p2a: Electrode|spa|1
+|
+|-heal|p1a: Enamorus|89/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Enamorus
+|-status|p1a: Enamorus|par
+|move|p1a: Enamorus|Moonblast|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|-heal|p1a: Enamorus|95/100 par|[from] item: Leftovers
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|5
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-damage|p1a: Torkoal|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|-terastallize|p2a: Zamazenta|Water
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Torkoal|Eruption|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p2a: Zamazenta|Body Press|p1a: Torkoal
+|-damage|p1a: Torkoal|40/100
+|move|p1a: Torkoal|Rapid Spin|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|-sideend|p1: nykash|Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-boost|p1a: Torkoal|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|95/100 par
+|turn|9
+|
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|20/100 par
+|move|p1a: Enamorus|Moonblast|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Enamorus|26/100 par|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|11
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|12
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Uxie|Uxie|89/100
+|move|p2a: Enamorus|Moonblast|p1a: Uxie
+|-damage|p1a: Uxie|55/100
+|-unboost|p1a: Uxie|spa|1
+|
+|-weather|none
+|-heal|p1a: Uxie|61/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Uxie|Thunder Wave|p2a: Samurott
+|-status|p2a: Samurott|par
+|
+|-heal|p1a: Uxie|67/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Uxie|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|71/100 par
+|
+|switch|p1a: Torkoal|Torkoal, F|40/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Samurott|Ceaseless Edge|p1a: Torkoal
+|-damage|p1a: Torkoal|12/100
+|-sidestart|p1: nykash|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|turn|15
+|
+|cant|p2a: Samurott|par
+|move|p1a: Torkoal|Rapid Spin|p2a: Samurott
+|-damage|p2a: Samurott|59/100 par
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: nykash|Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|16
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Samurott|Ceaseless Edge|p1a: Walking Wake
+|-damage|p1a: Walking Wake|47/100
+|-sidestart|p1: nykash|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|turn|17
+|
+|-terastallize|p1a: Walking Wake|Water
+|move|p2a: Samurott|Sucker Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|5/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|18
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Walking Wake|Hydro Steam|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|turn|19
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|20
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|21
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Walking Wake|Hydro Steam|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|turn|22
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|23
+|
+|move|p2a: Enamorus|Moonblast|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Uxie|Uxie|67/100
+|turn|24
+|
+|move|p2a: Enamorus|Moonblast|p1a: Uxie
+|-damage|p1a: Uxie|36/100
+|move|p1a: Uxie|Thunder Wave|p2a: Enamorus
+|-status|p2a: Enamorus|par
+|
+|-heal|p1a: Uxie|42/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Uxie|Mystical Power|p2a: Enamorus
+|-damage|p2a: Enamorus|74/100 par
+|-boost|p1a: Uxie|spa|1
+|move|p2a: Enamorus|Moonblast|p1a: Uxie
+|-damage|p1a: Uxie|7/100
+|
+|-heal|p1a: Uxie|13/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Uxie|Mystical Power|p2a: Enamorus
+|-damage|p2a: Enamorus|33/100 par
+|-boost|p1a: Uxie|spa|1
+|move|p2a: Enamorus|Moonblast|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|
+|switch|p1a: Torkoal|Torkoal, F|12/100
+|-damage|p1a: Torkoal|0 fnt|[from] Spikes
+|faint|p1a: Torkoal
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|88/100|[from] Spikes
+|turn|27
+|
+|move|p1a: Great Tusk|Close Combat|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|10/100 par
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Enamorus|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|BigDaddyAddy

@@ -1,0 +1,114 @@
+|poke|p1|Marill, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Arctibax, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Toedscool, F|
+|teampreview
+|
+|start
+|switch|p1a: Marill|Marill, F|100/100
+|switch|p2a: Toedscool|Toedscool, F|100/100
+|turn|1
+|
+|switch|p1a: Arctibax|Arctibax, F|100/100
+|move|p2a: Toedscool|Spore|p1a: Arctibax
+|-status|p1a: Arctibax|slp|[from] move: Spore
+|
+|turn|2
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Toedscool|Leech Seed|p1a: Ursaluna
+|-start|p1a: Ursaluna|move: Leech Seed
+|
+|-damage|p1a: Ursaluna|88/100|[from] Leech Seed|[of] p2a: Toedscool
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p2a: Toedscool|Giga Drain|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|63/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Toedscool
+|-damage|p2a: Toedscool|0 fnt
+|faint|p2a: Toedscool
+|
+|-damage|p1a: Ursaluna|57/100 brn|[from] brn
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|4
+|
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-damage|p1a: Ursaluna|45/100 brn|[from] Leech Seed|[of] p2a: Cinderace
+|-damage|p1a: Ursaluna|39/100 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Arctibax|Arctibax, F|100/100 slp
+|move|p2a: Cinderace|Pyro Ball|p1a: Arctibax|[miss]
+|-miss|p2a: Cinderace|p1a: Arctibax
+|
+|turn|6
+|
+|switch|p1a: Marill|Marill, F|100/100
+|move|p2a: Cinderace|Iron Head|p1a: Marill
+|-start|p2a: Cinderace|typechange|Steel|[from] ability: Libero
+|-damage|p1a: Marill|28/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|
+|turn|7
+|
+|move|p2a: Cinderace|Iron Head|p1a: Marill
+|-damage|p1a: Marill|0 fnt
+|faint|p1a: Marill
+|-damage|p2a: Cinderace|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F|39/100 brn
+|turn|8
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Ursaluna
+|-damage|p1a: Ursaluna|3/100 brn
+|-damage|p2a: Cinderace|71/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|switch|p1a: Arctibax|Arctibax, F|100/100 slp
+|turn|9
+|
+|-terastallize|p2a: Volcarona|Fairy
+|-terastallize|p1a: Arctibax|Fairy
+|move|p2a: Volcarona|Tera Blast|p1a: Arctibax
+|-damage|p1a: Arctibax|61/100 slp
+|cant|p1a: Arctibax|slp
+|
+|turn|10
+|
+|move|p2a: Volcarona|Heat Wave|p1a: Arctibax
+|-damage|p1a: Arctibax|16/100 slp
+|-ability|p1a: Arctibax|Thermal Exchange|boost
+|-boost|p1a: Arctibax|atk|1
+|-curestatus|p1a: Arctibax|slp|[msg]
+|move|p1a: Arctibax|Icicle Crash|p2a: Volcarona|[miss]
+|-miss|p1a: Arctibax|p2a: Volcarona
+|
+|turn|11
+|
+|move|p2a: Volcarona|Tera Blast|p1a: Arctibax
+|-damage|p1a: Arctibax|0 fnt
+|faint|p1a: Arctibax
+|
+|win|tert_14
+|n|☆Nitrobinet|nitrobinet
+|n|☆tert_14|tert14
+|n|*Lady Monita|ladymonita
+|n| zboy0|zboy0
+|n| Leo - Bloody Sweet|leobloodysweet

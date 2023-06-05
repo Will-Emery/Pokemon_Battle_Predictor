@@ -1,0 +1,461 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Heatran, M|
+|poke|p1|Magearna|
+|poke|p1|Dragapult, M|
+|poke|p1|Gholdengo|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Amoonguss, M|
+|poke|p2|Heatran, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Stealth Rock|p1a: Landorus
+|-sidestart|p1: djinho|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Amoonguss
+|-sidestart|p2: BlobfishNugget21|move: Stealth Rock
+|
+|turn|3
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|84/100
+|
+|switch|p1a: Heatran|Heatran, M|100/100|[from] U-turn
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Heatran|90/100|[from] item: Leftovers
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Earth Power|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Heatran|96/100|[from] item: Leftovers
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|turn|5
+|
+|-terastallize|p2a: Heatran|Grass
+|move|p2a: Heatran|Magma Storm|p1a: Landorus|[miss]
+|-miss|p2a: Heatran|p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|-heal|p2a: Heatran|81/100|[from] item: Leftovers
+|-heal|p1a: Landorus|99/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Heatran|Earth Power|p1a: Landorus
+|-immune|p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|41/100
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-heal|p2a: Heatran|47/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|65/100
+|
+|-heal|p2a: Rotom|72/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Rotom|Thunder Wave|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|-heal|p2a: Rotom|78/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Heatran|Heatran, M, tera:Grass|47/100
+|-damage|p2a: Heatran|35/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|12/100
+|
+|-heal|p2a: Heatran|18/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Landorus|Landorus-Therian, M|99/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|move|p2a: Heatran|Magma Storm|p1a: Landorus|[miss]
+|-miss|p2a: Heatran|p1a: Landorus
+|
+|-heal|p2a: Heatran|25/100|[from] item: Leftovers
+|-heal|p1a: Landorus|94/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|72/100
+|-damage|p1a: Landorus|77/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|turn|12
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|94/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Hatterene|Mystical Fire|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|50/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Hatterene|99/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Rotom|Rotom-Wash|78/100
+|-damage|p2a: Rotom|65/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Make It Rain|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Rotom|51/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Gholdengo
+|-damage|p1a: Gholdengo|18/100
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|68/100
+|
+|-heal|p2a: Rotom|58/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Rotom|Volt Switch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|50/100
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from] Volt Switch
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|69/100
+|-unboost|p2a: Hydreigon|spd|1
+|
+|-heal|p2a: Hydreigon|75/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|50/100
+|
+|-heal|p2a: Hydreigon|57/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Magearna|Fleur Cannon|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p2a: Hydreigon|63/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Hydreigon|Earth Power|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-heal|p2a: Hydreigon|69/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|21
+|
+|switch|p2a: Heatran|Heatran, M, tera:Grass|25/100
+|-damage|p2a: Heatran|12/100|[from] Stealth Rock
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Gholdengo|Gholdengo|50/100
+|move|p2a: Great Tusk|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|3/100
+|-enditem|p1a: Gholdengo|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|23
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Wash|58/100
+|-damage|p2a: Rotom|45/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|8/100
+|
+|-heal|p2a: Rotom|14/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Rotom|Volt Switch|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|25
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Wash|14/100
+|-damage|p2a: Rotom|1/100|[from] Stealth Rock
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|8/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|1/100 brn|[from] brn
+|turn|26
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|switch|p2a: Hatterene|Hatterene, F|99/100|[from] Volt Switch
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Hatterene|94/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Dragapult|Hex|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|42/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-heal|p2a: Hatterene|49/100|[from] drain|[of] p1a: Dragapult
+|
+|-heal|p2a: Hatterene|55/100|[from] item: Leftovers
+|turn|28
+|
+|switch|p1a: Heatran|Heatran, M|94/100
+|-damage|p1a: Heatran|82/100|[from] Stealth Rock
+|move|p2a: Hatterene|Draining Kiss|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|79/100
+|-heal|p2a: Hatterene|58/100|[from] drain|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|85/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|64/100|[from] item: Leftovers
+|turn|29
+|
+|switch|p2a: Rotom|Rotom-Wash|1/100 brn
+|-damage|p2a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p2a: Rotom
+|move|p1a: Heatran|Magma Storm|p2: Rotom|[notarget]
+|-fail|p1a: Heatran
+|
+|-heal|p1a: Heatran|91/100|[from] item: Leftovers
+|
+|switch|p2a: Hydreigon|Hydreigon, M|69/100
+|-damage|p2a: Hydreigon|57/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|32/100
+|move|p1a: Heatran|Taunt|p2a: Hydreigon
+|-start|p2a: Hydreigon|move: Taunt
+|
+|-heal|p2a: Hydreigon|38/100|[from] item: Leftovers
+|-heal|p1a: Heatran|97/100|[from] item: Leftovers
+|turn|31
+|
+|switch|p1a: Landorus|Landorus-Therian, M|77/100
+|-damage|p1a: Landorus|65/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-immune|p2a: Hydreigon
+|move|p2a: Hydreigon|Dark Pulse|p1a: Landorus
+|-damage|p1a: Landorus|31/100
+|
+|-heal|p2a: Hydreigon|44/100|[from] item: Leftovers
+|-heal|p1a: Landorus|37/100|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Landorus
+|-damage|p1a: Landorus|3/100
+|move|p1a: Landorus|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-heal|p2a: Hydreigon|50/100|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|turn|34
+|
+|switch|p1a: Dragapult|Dragapult, M|76/100
+|move|p2a: Great Tusk|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|
+|switch|p1a: Heatran|Heatran, M|97/100
+|-damage|p1a: Heatran|85/100|[from] Stealth Rock
+|turn|35
+|
+|-terastallize|p1a: Heatran|Bug
+|move|p2a: Great Tusk|Ice Spinner|p1a: Heatran
+|-damage|p1a: Heatran|66/100
+|move|p1a: Heatran|Will-O-Wisp|p2a: Great Tusk
+|-status|p2a: Great Tusk|brn
+|
+|-heal|p1a: Heatran|73/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|turn|36
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Heatran
+|-damage|p1a: Heatran|66/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: BlobfishNugget21|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Heatran|Magma Storm|p2a: Great Tusk
+|-damage|p2a: Great Tusk|38/100 brn
+|-activate|p2a: Great Tusk|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Great Tusk|45/100 brn|[from] item: Leftovers
+|-heal|p1a: Heatran|73/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|38/100 brn|[from] brn
+|-damage|p2a: Great Tusk|26/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|turn|37
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|61/100
+|-enditem|p1a: Heatran|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Heatran|Earth Power|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|64/100
+|turn|38
+|
+|move|p1a: Heatran|Magma Storm|p2a: Hatterene|[miss]
+|-miss|p1a: Heatran|p2a: Hatterene
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|70/100|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: Heatran|Magma Storm|p2a: Hatterene|[miss]
+|-miss|p1a: Heatran|p2a: Hatterene
+|move|p2a: Hatterene|Draining Kiss|p1a: Heatran
+|-damage|p1a: Heatran|41/100
+|-heal|p2a: Hatterene|88/100|[from] drain|[of] p1a: Heatran
+|
+|-heal|p2a: Hatterene|94/100|[from] item: Leftovers
+|turn|40
+|
+|move|p1a: Heatran|Magma Storm|p2a: Hatterene
+|-damage|p2a: Hatterene|63/100
+|-activate|p2a: Hatterene|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Hatterene|Draining Kiss|p1a: Heatran
+|-damage|p1a: Heatran|20/100
+|-heal|p2a: Hatterene|81/100|[from] drain|[of] p1a: Heatran
+|
+|-heal|p2a: Hatterene|87/100|[from] item: Leftovers
+|-damage|p2a: Hatterene|75/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|41
+|
+|move|p1a: Heatran|Earth Power|p2a: Hatterene
+|-damage|p2a: Hatterene|56/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-heal|p2a: Hatterene|74/100|[from] drain|[of] p1a: Heatran
+|faint|p1a: Heatran
+|
+|-heal|p2a: Hatterene|80/100|[from] item: Leftovers
+|-end|p2a: Hatterene|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|42
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Hatterene
+|-damage|p2a: Hatterene|34/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Chien-Pao
+|faint|p1a: Chien-Pao
+|
+|-message|djinho forfeited.
+|
+|win|BlobfishNugget21

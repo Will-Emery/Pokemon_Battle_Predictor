@@ -1,0 +1,231 @@
+|poke|p1|Dragapult, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Volcarona, M|
+|poke|p1|Sneasler, F|
+|poke|p2|Ceruledge, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Armarouge, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Iron Leaves|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|-terastallize|p2a: Garchomp|Dragon
+|move|p2a: Garchomp|Outrage|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-start|p2a: Garchomp|Disable|Outrage|[from] ability: Cursed Body|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|2
+|
+|cant|p2a: Garchomp|Disable|Outrage
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-start|p2a: Garchomp|confusion|[fatigue]
+|turn|3
+|
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|turn|4
+|
+|-terastallize|p1a: Magearna|Water
+|move|p1a: Magearna|Stored Power|p2a: Ceruledge
+|-damage|p2a: Ceruledge|13/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|72/100
+|-heal|p2a: Ceruledge|28/100|[from] drain|[of] p1a: Magearna
+|-damage|p2a: Ceruledge|18/100|[from] item: Life Orb
+|
+|turn|5
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Magearna
+|-damage|p1a: Magearna|44/100
+|-damage|p2a: Ceruledge|8/100|[from] item: Life Orb
+|move|p1a: Magearna|Stored Power|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Iron Leaves|Iron Leaves|100/100
+|-enditem|p2a: Iron Leaves|Booster Energy
+|-activate|p2a: Iron Leaves|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Leaves|quarkdriveatk
+|turn|6
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|48/100
+|-heal|p1a: Magearna|87/100|[from] drain|[of] p2a: Iron Leaves
+|move|p2a: Iron Leaves|Agility|p2a: Iron Leaves
+|-boost|p2a: Iron Leaves|spe|2
+|
+|turn|7
+|
+|move|p2a: Iron Leaves|Leaf Blade|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|8
+|
+|move|p2a: Iron Leaves|Psyblade|p1a: Volcarona
+|-damage|p1a: Volcarona|3/100
+|move|p1a: Volcarona|Flamethrower|p2a: Iron Leaves
+|-supereffective|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|0 fnt
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-start|p2a: Garchomp|typechange|Dragon|[silent]
+|turn|9
+|
+|move|p2a: Garchomp|Nasty Plot|p2a: Garchomp
+|-boost|p2a: Garchomp|spa|2
+|move|p1a: Volcarona|Flamethrower|p2a: Garchomp
+|-enditem|p2a: Garchomp|Focus Sash
+|-damage|p2a: Garchomp|1/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|turn|10
+|
+|move|p2a: Zoroark|Bitter Malice|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-ability|p1a: Sneasler|Pressure
+|-item|p1a: Sneasler|Air Balloon
+|turn|11
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Zoroark
+|-resisted|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|
+|switch|p2a: Armarouge|Armarouge, F|100/100
+|turn|12
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Armarouge
+|-damage|p2a: Armarouge|53/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|move|p2a: Armarouge|Armor Cannon|p1a: Sneasler
+|-damage|p1a: Sneasler|2/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|-enditem|p1a: Sneasler|Air Balloon
+|
+|turn|13
+|
+|move|p2a: Armarouge|Armor Cannon|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|14
+|
+|move|p2a: Armarouge|Energy Ball|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|27/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Armarouge
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p2a: Garchomp|Garchomp, M, tera:Dragon|100/100
+|turn|15
+|
+|move|p2a: Garchomp|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|16
+|
+|move|p2a: Garchomp|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|72/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|79/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Garchomp|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|63/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|69/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|44/100
+|
+|-heal|p1a: Zamazenta|50/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Zamazenta|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|27/100
+|-damage|p1a: Zamazenta|34/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p1a: Zamazenta|40/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Zamazenta|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Zamazenta|24/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Zamazenta|30/100|[from] item: Leftovers
+|
+|switch|p2a: Garchomp|Garchomp, M, tera:Dragon|100/100
+|turn|21
+|
+|move|p2a: Garchomp|Outrage|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|move|p1a: Zamazenta|Body Press|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Zamazenta|18/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|win|Late Infatuation

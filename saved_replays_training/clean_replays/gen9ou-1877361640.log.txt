@@ -1,0 +1,89 @@
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Zapdos|
+|poke|p1|Magearna|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Quaquaval, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Masquerain, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Slow down|Masquerain, F|100/100
+|-ability|p2a: Slow down|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|turn|1
+|
+|move|p2a: Slow down|Sticky Web|p1a: Zapdos
+|-sidestart|p1: kingduck47|move: Sticky Web
+|move|p1a: Zapdos|Thunderbolt|p2a: Slow down
+|-supereffective|p2a: Slow down
+|-enditem|p2a: Slow down|Focus Sash
+|-damage|p2a: Slow down|1/100
+|
+|turn|2
+|
+|move|p2a: Slow down|Tailwind|p2a: Slow down
+|-sidestart|p2: MomoXChibi|move: Tailwind
+|move|p1a: Zapdos|Thunderbolt|p2a: Slow down
+|-supereffective|p2a: Slow down
+|-damage|p2a: Slow down|0 fnt
+|faint|p2a: Slow down
+|
+|
+|switch|p2a: Morty|Typhlosion-Hisui, F|100/100
+|turn|3
+|
+|move|p2a: Morty|Eruption|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|-activate|p1a: Arcanine|move: Sticky Web
+|-unboost|p1a: Arcanine|spe|1
+|turn|4
+|
+|move|p2a: Morty|Eruption|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|60/100
+|move|p1a: Arcanine|Head Smash|p2a: Morty
+|-supereffective|p2a: Morty
+|-damage|p2a: Morty|0 fnt
+|faint|p2a: Morty
+|
+|
+|switch|p2a: Roninhoot|Decidueye-Hisui, M|100/100
+|turn|5
+|
+|-terastallize|p2a: Roninhoot|Water
+|-terastallize|p1a: Arcanine|Rock
+|move|p2a: Roninhoot|Trailblaze|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-boost|p2a: Roninhoot|spe|1
+|faint|p1a: Arcanine
+|
+|-sideend|p2: MomoXChibi|move: Tailwind
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-activate|p1a: Ursaluna|move: Sticky Web
+|-unboost|p1a: Ursaluna|spe|1
+|turn|6
+|
+|move|p2a: Roninhoot|Triple Arrows|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|-message|kingduck47 forfeited.
+|
+|win|MomoXChibi

@@ -1,0 +1,259 @@
+|poke|p1|Moltres|
+|poke|p1|Muk-Alola, M|
+|poke|p1|Breloom, M|
+|poke|p1|Kleavor, M|
+|poke|p1|Great Tusk|
+|poke|p1|Chien-Pao|
+|poke|p2|Basculegion, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Lokix, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Greninja, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Lokix|Lokix, M|100/100
+|turn|1
+|
+|move|p2a: Lokix|U-turn|p1a: Kleavor
+|-damage|p1a: Kleavor|36/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p1a: Kleavor|Stone Axe|p2a: Great Tusk|[miss]
+|-miss|p1a: Kleavor|p2a: Great Tusk
+|
+|turn|2
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|94/100
+|-sidestart|p2: qiaogui|move: Stealth Rock
+|move|p2a: Great Tusk|Knock Off|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-enditem|p1a: Kleavor|Focus Sash|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Kleavor
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|3
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Breloom
+|-damage|p1a: Breloom|81/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: qiaogui|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Breloom|Spore|p2a: Great Tusk
+|-status|p2a: Great Tusk|slp|[from] move: Spore
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|turn|4
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Lokix|Lokix, M|100/100
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|turn|5
+|
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Lokix|First Impression|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|76/100
+|
+|turn|6
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Moltres|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|91/100
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Chien-Pao|Throat Chop|p2a: Goodra
+|-damage|p2a: Goodra|32/100
+|-start|p2a: Goodra|Throat Chop|[silent]
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Chien-Pao|Throat Chop|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Lokix|Lokix, M|100/100
+|turn|9
+|
+|switch|p1a: Moltres|Moltres|76/100
+|move|p2a: Lokix|U-turn|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|59/100
+|-status|p2a: Lokix|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|
+|switch|p2a: Greninja|Greninja, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|switch|p1a: Muk|Muk-Alola, M|100/100
+|move|p2a: Greninja|Surf|p1a: Muk
+|-damage|p1a: Muk|73/100
+|
+|-weather|none
+|turn|11
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100 slp
+|move|p1a: Muk|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100 slp
+|-enditem|p2a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p1a: Muk
+|
+|turn|12
+|
+|switch|p1a: Breloom|Breloom, M|81/100 tox
+|cant|p2a: Great Tusk|slp
+|
+|-heal|p1a: Breloom|93/100 tox|[from] ability: Poison Heal
+|turn|13
+|
+|-curestatus|p2a: Great Tusk|slp|[msg]
+|move|p2a: Great Tusk|Ice Spinner|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-crit|p1a: Breloom
+|-damage|p1a: Breloom|4/100 tox
+|move|p1a: Breloom|Seed Bomb|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|47/100
+|
+|-heal|p1a: Breloom|17/100 tox|[from] ability: Poison Heal
+|turn|14
+|
+|switch|p1a: Moltres|Moltres|59/100
+|move|p2a: Great Tusk|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|33/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|15
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Lokix|Lokix, M|100/100 brn
+|move|p1a: Moltres|Hurricane|p2a: Lokix
+|-supereffective|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|
+|switch|p2a: Greninja|Greninja, F|100/100
+|turn|16
+|
+|switch|p2a: Great Tusk|Great Tusk|47/100
+|move|p1a: Moltres|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Greninja|Greninja, F|100/100
+|turn|17
+|
+|switch|p1a: Muk|Muk-Alola, M|73/100
+|move|p2a: Greninja|Surf|p1a: Muk
+|-damage|p1a: Muk|54/100
+|
+|turn|18
+|
+|switch|p2a: Pelipper|Pelipper, F|91/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Muk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|39/100
+|-status|p2a: Pelipper|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|-enditem|p2a: Pelipper|Choice Specs|[from] move: Knock Off|[of] p1a: Muk
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|26/100 psn|[from] psn
+|turn|19
+|
+|move|p2a: Pelipper|Hydro Pump|p1a: Muk
+|-damage|p1a: Muk|19/100
+|move|p1a: Muk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|20
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|-damage|p2a: Basculegion|94/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Moltres|Moltres|33/100
+|turn|21
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|-damage|p2a: Basculegion|83/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Breloom|Breloom, M|17/100 tox
+|turn|22
+|
+|move|p2a: Basculegion|Wave Crash|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|-damage|p2a: Basculegion|79/100|[from] Recoil
+|
+|-weather|none
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|23
+|
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Throat Chop|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Greninja|Greninja, F|100/100
+|turn|24
+|
+|move|p1a: Chien-Pao|Throat Chop|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|8/100
+|-start|p2a: Greninja|Throat Chop|[silent]
+|move|p2a: Greninja|Counter|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|25
+|
+|-terastallize|p2a: Greninja|Water
+|move|p2a: Greninja|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|qiaogui

@@ -1,0 +1,62 @@
+|poke|p1|Magearna|
+|poke|p1|Dondozo, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Magearna|
+|poke|p2|Enamorus, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Braviary-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Bh100%|move: Light Screen
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|turn|2
+|
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Grimmsnarl|[from]ability: Magic Bounce
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2a: Grimmsnarl|spa|1
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] Parting Shot
+|
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Grimmsnarl|Taunt|p1a: Hatterene
+|move|p1a: Hatterene|Taunt|p2a: Grimmsnarl|[from]ability: Magic Bounce
+|-start|p2a: Grimmsnarl|move: Taunt
+|
+|turn|4
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|turn|5
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Hatterene|Mystical Fire|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-message|Bh100% forfeited.
+|
+|win|SoGangsta

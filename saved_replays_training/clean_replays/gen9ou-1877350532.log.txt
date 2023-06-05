@@ -1,0 +1,49 @@
+|poke|p1|Floatzel, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Gastrodon, M|
+|poke|p1|Dondozo, M|
+|poke|p1|Amoonguss, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Magearna|
+|poke|p2|Toxapex, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p1a: Pelipper|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|99/100
+|
+|switch|p1a: Floatzel|Floatzel, M|100/100|[from] U-turn
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|2
+|
+|-terastallize|p1a: Floatzel|Water
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Floatzel|Wave Crash|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|17/100
+|-damage|p1a: Floatzel|72/100|[from] Recoil
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|23/100|[from] item: Leftovers
+|turn|3
+|-message|PenguGuy forfeited.
+|
+|win|Sevenstrength

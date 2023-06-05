@@ -1,1 +1,537 @@
-Could not connect
+|j|☆X-Scizor
+|j|☆MikazukiRex
+|t:|1685839834
+|gametype|singles
+|player|p1|X-Scizor|lance|
+|player|p2|MikazukiRex|benga|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Volcarona, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Cinderace, M|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Amoonguss, M|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|t:|1685839872
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|t:|1685839892
+|move|p1a: Samurott|Aqua Jet|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|44/100
+|move|p2a: Cinderace|U-turn|p1a: Samurott
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|9/100
+|j| Shazamwhich
+|
+|t:|1685839915
+|switch|p2a: Dondozo|Dondozo, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|c| Shazamwhich|Sick
+|
+|t:|1685839960
+|move|p1a: Samurott|Taunt|p2a: Dondozo
+|-start|p2a: Dondozo|move: Taunt
+|cant|p2a: Dondozo|move: Taunt|Curse
+|
+|upkeep
+|turn|3
+|
+|t:|1685839996
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Dondozo|Wave Crash|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|78/100
+|-start|p2a: Dondozo|Disable|Wave Crash|[from] ability: Cursed Body|[of] p1a: Dragapult
+|-damage|p2a: Dondozo|95/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685840046
+|switch|p2a: Cinderace|Cinderace, M|44/100
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: X-Scizor|Reflect
+|
+|upkeep
+|turn|5
+|
+|t:|1685840068
+|move|p2a: Cinderace|Sucker Punch|p1a: Dragapult
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|39/100
+|move|p1a: Dragapult|U-turn|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|t:|1685840089
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1685840108
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|t:|1685840119
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Great Tusk|Headlong Rush|p1a: Volcarona
+|-damage|p1a: Volcarona|54/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1685840141
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Volcarona|Giga Drain|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|-heal|p1a: Volcarona|83/100|[from] drain|[of] p2a: Slowking
+|
+|upkeep
+|turn|8
+|
+|t:|1685840154
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Slowking|Surf|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|52/100
+|
+|upkeep
+|turn|9
+|
+|t:|1685840162
+|move|p1a: Volcarona|Giga Drain|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-heal|p1a: Volcarona|86/100|[from] drain|[of] p2a: Slowking
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1685840176
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|10
+|
+|t:|1685840185
+|-terastallize|p2a: Dondozo|Fairy
+|move|p1a: Volcarona|Giga Drain|p2a: Dondozo
+|-damage|p2a: Dondozo|73/100
+|-heal|p1a: Volcarona|100/100|[from] drain|[of] p2a: Dondozo
+|move|p2a: Dondozo|Wave Crash|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|34/100
+|-damage|p2a: Dondozo|59/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|66/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆MikazukiRex|I swear reflect been up for years
+|c|☆X-Scizor|lmaooo ikr
+|
+|t:|1685840229
+|switch|p1a: Samurott|Samurott-Hisui, M|9/100
+|move|p2a: Dondozo|Wave Crash|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-damage|p2a: Dondozo|64/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|70/100|[from] item: Leftovers
+|-sideend|p1: X-Scizor|Reflect
+|upkeep
+|
+|t:|1685840238
+|switch|p1a: Dragapult|Dragapult, F|39/100
+|turn|12
+|c|☆MikazukiRex|ohcome on
+|
+|t:|1685840266
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: X-Scizor|Reflect
+|
+|upkeep
+|turn|13
+|
+|t:|1685840276
+|move|p1a: Dragapult|U-turn|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|52/100
+|
+|t:|1685840306
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|92/100
+|
+|upkeep
+|turn|14
+|c|☆MikazukiRex|bro this team ass
+|
+|t:|1685840342
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|74/100
+|-damage|p1a: Zamazenta|75/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|upkeep
+|turn|15
+|c| Shazamwhich|You have Great Tusk
+|
+|t:|1685840356
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Amoonguss|Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Spore
+|
+|upkeep
+|turn|16
+|c| Shazamwhich|Also unaware dondozo
+|c|☆MikazukiRex|I deadass
+|c|☆MikazukiRex|don't give a fuck
+|c|☆MikazukiRex|jk
+|c|☆MikazukiRex|yay sent me this team
+|c| Shazamwhich|Trying to help
+|c|☆MikazukiRex|first time seeing this dongo
+|
+|t:|1685840422
+|switch|p2a: Dondozo|Dondozo, M, tera:Fairy|70/100
+|cant|p1a: Zamazenta|slp
+|
+|-heal|p2a: Dondozo|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆X-Scizor|dondozo is cracked
+|
+|t:|1685840429
+|cant|p1a: Zamazenta|slp
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685840438
+|switch|p1a: Dragapult|Dragapult, F|39/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|88/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685840446
+|move|p1a: Dragapult|Curse|p2a: Dondozo
+|-start|p2a: Dondozo|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p2a: Dondozo|Wave Crash|p1: Dragapult|[notarget]
+|-fail|p2a: Dondozo
+|
+|-heal|p2a: Dondozo|95/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|70/100|[from] Curse
+|-sideend|p1: X-Scizor|Reflect
+|upkeep
+|
+|t:|1685840494
+|switch|p1a: Magearna|Magearna|100/100
+|turn|20
+|
+|t:|1685840506
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-terastallize|p1a: Magearna|Water
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|upkeep
+|turn|21
+|
+|t:|1685840522
+|move|p2a: Great Tusk|Knock Off|p1a: Magearna
+|-damage|p1a: Magearna|88/100
+|-enditem|p1a: Magearna|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|upkeep
+|turn|22
+|
+|t:|1685840529
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Magearna|Draining Kiss|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|90/100
+|-heal|p1a: Magearna|97/100|[from] drain|[of] p2a: Amoonguss
+|-damage|p1a: Magearna|80/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|upkeep
+|turn|23
+|
+|t:|1685840541
+|move|p1a: Magearna|Stored Power|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|39/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Magearna
+|-damage|p1a: Magearna|58/100
+|-status|p1a: Magearna|psn
+|
+|-damage|p1a: Magearna|46/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1685840557
+|switch|p2a: Dondozo|Dondozo, M, tera:Fairy|70/100
+|move|p1a: Magearna|Stored Power|p2a: Dondozo
+|-damage|p2a: Dondozo|40/100
+|
+|-heal|p2a: Dondozo|46/100|[from] item: Leftovers
+|-damage|p1a: Magearna|33/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1685840576
+|move|p1a: Magearna|Draining Kiss|p2a: Dondozo
+|-damage|p2a: Dondozo|25/100
+|-heal|p1a: Magearna|56/100 psn|[from] drain|[of] p2a: Dondozo
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-damage|p1a: Magearna|43/100 psn|[from] psn
+|upkeep
+|turn|26
+|l| Shazamwhich
+|j| Shazamwhich
+|
+|t:|1685840590
+|move|p1a: Magearna|Draining Kiss|p2a: Dondozo
+|-damage|p2a: Dondozo|81/100 slp
+|-heal|p1a: Magearna|64/100 psn|[from] drain|[of] p2a: Dondozo
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|-heal|p2a: Dondozo|87/100 slp|[from] item: Leftovers
+|-damage|p1a: Magearna|51/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1685840625
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-damage|p1a: Magearna|39/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1685840663
+|move|p2a: Great Tusk|Headlong Rush|p1a: Magearna
+|-damage|p1a: Magearna|23/100 psn
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Magearna|Draining Kiss|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Magearna|99/100 psn|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Magearna|87/100 psn|[from] psn
+|upkeep
+|c| Shazamwhich|Stored power gonnna go brazy
+|
+|t:|1685840681
+|switch|p2a: Amoonguss|Amoonguss, M|72/100
+|turn|29
+|
+|t:|1685840694
+|switch|p2a: Chien-Pao|Chien-Pao|52/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Magearna|Stored Power|p2a: Chien-Pao
+|-immune|p2a: Chien-Pao
+|
+|-damage|p1a: Magearna|75/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1685840705
+|move|p2a: Chien-Pao|Crunch|p1a: Magearna
+|-damage|p1a: Magearna|55/100 psn
+|-unboost|p1a: Magearna|def|1
+|move|p1a: Magearna|Draining Kiss|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-heal|p1a: Magearna|87/100 psn|[from] drain|[of] p2a: Chien-Pao
+|faint|p2a: Chien-Pao
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-damage|p1a: Magearna|74/100 psn|[from] psn
+|upkeep
+|
+|t:|1685840718
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|31
+|
+|t:|1685840730
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Amoonguss|Giga Drain|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|54/100 psn
+|
+|-damage|p1a: Magearna|42/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1685840741
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Amoonguss|Giga Drain|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|26/100 psn
+|
+|-damage|p1a: Magearna|13/100 psn|[from] psn
+|upkeep
+|turn|33
+|c|☆MikazukiRex|ggs
+|
+|t:|1685840750
+|move|p1a: Magearna|Draining Kiss|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|62/100
+|-heal|p1a: Magearna|48/100 psn|[from] drain|[of] p2a: Amoonguss
+|-damage|p1a: Magearna|31/100 psn|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|move|p2a: Amoonguss|Giga Drain|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|15/100 psn
+|-heal|p2a: Amoonguss|68/100|[from] drain|[of] p1a: Magearna
+|
+|-damage|p1a: Magearna|2/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1685840762
+|move|p1a: Magearna|Stored Power|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-damage|p1a: Magearna|0 fnt|[from] psn
+|faint|p1a: Magearna
+|upkeep
+|
+|t:|1685840775
+|switch|p1a: Volcarona|Volcarona, M|34/100
+|switch|p2a: Dondozo|Dondozo, M, tera:Fairy|87/100 slp
+|turn|35
+|
+|t:|1685840780
+|move|p1a: Volcarona|Giga Drain|p2a: Dondozo
+|-damage|p2a: Dondozo|63/100 slp
+|-heal|p1a: Volcarona|53/100|[from] drain|[of] p2a: Dondozo
+|cant|p2a: Dondozo|slp
+|
+|-heal|p2a: Dondozo|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1685840790
+|move|p1a: Volcarona|Giga Drain|p2a: Dondozo
+|-damage|p2a: Dondozo|45/100 slp
+|-heal|p1a: Volcarona|72/100|[from] drain|[of] p2a: Dondozo
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Wave Crash|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|-damage|p2a: Dondozo|31/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685840802
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-item|p1a: Sneasler|Air Balloon
+|turn|37
+|
+|t:|1685840806
+|move|p1a: Sneasler|Dire Claw|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|win|X-Scizor
+|c|☆X-Scizor|gg
+|c|☆MikazukiRex|ggs
+|l| Shazamwhich
+|c|☆MikazukiRex|I tried lmao
+|c|☆X-Scizor|ur team is good
+|c|☆X-Scizor|that team is a threat tbh
+|c|☆X-Scizor|u just needed to keep dondozo in cause i got nothing for that bitch
+|c|☆MikazukiRex|yea
+|c|☆MikazukiRex|I legit kept forgetting his ability
+|c|☆X-Scizor|lmao yeah i was so confused on why u switched out i think magearna wudve died if u kept him in
+|c|☆X-Scizor|great tusk gave magearna like 100% hp back damn near lol
+|c|☆MikazukiRex|you can tell im rusty again lmao
+|c|☆MikazukiRex|im playing like go and shit lol
+|c|☆X-Scizor|that team actually fucks me hard that mfing dondozo
+|c|☆MikazukiRex|og
+|l|☆MikazukiRex
+|c|☆X-Scizor|LOL like OG

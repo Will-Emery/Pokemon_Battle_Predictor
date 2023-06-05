@@ -1,0 +1,192 @@
+|poke|p1|Great Tusk|
+|poke|p1|Alomomola, F|
+|poke|p1|Heatran, F|
+|poke|p1|Magearna|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Chien-Pao|
+|poke|p2|Cinderace, F|
+|poke|p2|Dondozo, M|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|turn|1
+|
+|move|p2a: Cinderace|Swords Dance|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|2
+|move|p1a: Landorus|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-enditem|p2a: Cinderace|Focus Sash
+|-damage|p2a: Cinderace|1/100
+|
+|turn|2
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|3
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|65/100
+|move|p1a: Alomomola|Liquidation|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|4
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|turn|5
+|
+|move|p1a: Magearna|Volt Switch|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|72/100
+|
+|switch|p1a: Heatran|Heatran, F|100/100|[from] Volt Switch
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|78/100|[from] item: Leftovers
+|turn|6
+|
+|-terastallize|p1a: Heatran|Grass
+|move|p1a: Heatran|Magma Storm|p2a: Dondozo|[miss]
+|-miss|p1a: Heatran|p2a: Dondozo
+|move|p2a: Dondozo|Wave Crash|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|74/100
+|-damage|p2a: Dondozo|71/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|77/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Heatran|Magma Storm|p2a: Dondozo|[miss]
+|-miss|p1a: Heatran|p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|84/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Heatran|Magma Storm|p2a: Dondozo|[miss]
+|-miss|p1a: Heatran|p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|90/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Heatran|Magma Storm|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|76/100
+|-activate|p2a: Dondozo|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|83/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|70/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|10
+|
+|move|p1a: Heatran|Earth Power|p2a: Dondozo
+|-damage|p2a: Dondozo|53/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-damage|p2a: Dondozo|88/100 slp|[from] move: Magma Storm|[partiallytrapped]
+|turn|11
+|
+|move|p1a: Heatran|Earth Power|p2a: Dondozo
+|-damage|p2a: Dondozo|70/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Wave Crash|p1a: Heatran|[from]move: Sleep Talk
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|33/100
+|-damage|p2a: Dondozo|60/100 slp|[from] Recoil
+|
+|-heal|p2a: Dondozo|66/100 slp|[from] item: Leftovers
+|-damage|p2a: Dondozo|54/100 slp|[from] move: Magma Storm|[partiallytrapped]
+|turn|12
+|
+|move|p1a: Heatran|Earth Power|p2a: Dondozo
+|-damage|p2a: Dondozo|37/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo|[from]move: Sleep Talk
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|43/100 slp|[from] item: Leftovers
+|-damage|p2a: Dondozo|31/100 slp|[from] move: Magma Storm|[partiallytrapped]
+|turn|13
+|
+|move|p1a: Heatran|Earth Power|p2a: Dondozo
+|-damage|p2a: Dondozo|15/100 slp
+|-unboost|p2a: Dondozo|spd|1
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-damage|p2a: Dondozo|88/100 slp|[from] move: Magma Storm|[partiallytrapped]
+|turn|14
+|
+|move|p1a: Heatran|Earth Power|p2a: Dondozo
+|-damage|p2a: Dondozo|61/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Wave Crash|p1a: Heatran|[from]move: Sleep Talk
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-damage|p2a: Dondozo|53/100 slp|[from] Recoil
+|
+|-heal|p2a: Dondozo|59/100 slp|[from] item: Leftovers
+|-end|p2a: Dondozo|Magma Storm|[partiallytrapped]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|15
+|
+|move|p1a: Magearna|Volt Switch|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|17/100 slp
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|-heal|p2a: Dondozo|23/100 slp|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|win|BLOFF-man

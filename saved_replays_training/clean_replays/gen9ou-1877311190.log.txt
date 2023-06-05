@@ -1,0 +1,335 @@
+|poke|p1|Mew|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Grafaiai, M|
+|poke|p1|Great Tusk|
+|poke|p2|Chien-Pao|
+|poke|p2|Overqwil, F|
+|poke|p2|Regidrago|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Grafaiai|Grafaiai, M|100/100
+|switch|p2a: Stay Puff|Overqwil, F|100/100
+|-ability|p2a: Stay Puff|Intimidate|boost
+|-unboost|p1a: Grafaiai|atk|1
+|turn|1
+|
+|move|p1a: Grafaiai|Knock Off|p2a: Stay Puff
+|-resisted|p2a: Stay Puff
+|-damage|p2a: Stay Puff|94/100
+|-enditem|p2a: Stay Puff|Leftovers|[from] move: Knock Off|[of] p1a: Grafaiai
+|move|p2a: Stay Puff|Toxic Spikes|p1a: Grafaiai
+|-sidestart|p1: ryucore|move: Toxic Spikes
+|
+|turn|2
+|
+|move|p1a: Grafaiai|Rain Dance|p1a: Grafaiai
+|-weather|RainDance
+|move|p2a: Stay Puff|Barb Barrage|p1a: Grafaiai
+|-resisted|p1a: Grafaiai
+|-crit|p1a: Grafaiai
+|-damage|p1a: Grafaiai|65/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Grafaiai|Parting Shot|p2a: Stay Puff
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Stay Puff
+|move|p2a: Stay Puff|Toxic Spikes|p1a: Grafaiai
+|-sidestart|p1: ryucore|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-status|p1a: Great Tusk|tox
+|move|p2a: Stay Puff|Barb Barrage|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|80/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Great Tusk|74/100 tox|[from] psn
+|turn|5
+|
+|switch|p2a: AC/DC|Thundurus-Therian, M|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: AC/DC
+|-damage|p2a: AC/DC|80/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: ryucore|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Great Tusk|62/100 tox|[from] psn
+|turn|6
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|move|p2a: AC/DC|Grass Knot|p1a: Goodra
+|-ability|p1a: Goodra|Sap Sipper|boost
+|-boost|p1a: Goodra|atk|1
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Bigweld|Great Tusk|100/100
+|-enditem|p2a: Bigweld|Booster Energy
+|-activate|p2a: Bigweld|ability: Protosynthesis|[fromitem]
+|-start|p2a: Bigweld|protosynthesisspe
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|-terastallize|p1a: Goodra|Water
+|move|p2a: Bigweld|Knock Off|p1a: Goodra
+|-damage|p1a: Goodra|88/100
+|-enditem|p1a: Goodra|Leftovers|[from] move: Knock Off|[of] p2a: Bigweld
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p2a: Bigweld|Headlong Rush|p1a: Goodra
+|-damage|p1a: Goodra|70/100
+|-unboost|p2a: Bigweld|def|1
+|-unboost|p2a: Bigweld|spd|1
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|
+|-weather|none
+|turn|10
+|
+|-end|p2a: Bigweld|Protosynthesis|[silent]
+|switch|p2a: Iron Maiden|Magearna|100/100
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|
+|turn|11
+|
+|move|p2a: Iron Maiden|Volt Switch|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|42/100
+|
+|switch|p2a: Stay Puff|Overqwil, F|94/100|[from] Volt Switch
+|-ability|p2a: Stay Puff|Intimidate|boost
+|-unboost|p1a: Goodra|atk|1
+|move|p1a: Goodra|Iron Head|p2a: Stay Puff
+|-damage|p2a: Stay Puff|17/100
+|
+|turn|12
+|
+|switch|p1a: Great Tusk|Great Tusk|62/100 tox
+|move|p2a: Stay Puff|Barb Barrage|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|42/100 tox
+|
+|-damage|p1a: Great Tusk|36/100 tox|[from] psn
+|turn|13
+|
+|switch|p2a: AC/DC|Thundurus-Therian, M|80/100
+|move|p1a: Great Tusk|Knock Off|p2a: AC/DC
+|-damage|p2a: AC/DC|35/100
+|-enditem|p2a: AC/DC|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-damage|p1a: Great Tusk|23/100 tox|[from] psn
+|turn|14
+|
+|move|p2a: AC/DC|Tera Blast|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Grafaiai|Grafaiai, M|65/100
+|turn|15
+|
+|move|p1a: Grafaiai|Toxic|p2a: AC/DC
+|-status|p2a: AC/DC|tox
+|move|p2a: AC/DC|Thunderbolt|p1a: Grafaiai
+|-damage|p1a: Grafaiai|17/100
+|
+|-damage|p2a: AC/DC|29/100 tox|[from] psn
+|turn|16
+|
+|switch|p2a: Stay Puff|Overqwil, F|17/100
+|-ability|p2a: Stay Puff|Intimidate|boost
+|-unboost|p1a: Grafaiai|atk|1
+|move|p1a: Grafaiai|Parting Shot|p2a: Stay Puff
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Stay Puff
+|
+|turn|17
+|
+|move|p1a: Grafaiai|Rain Dance|p1a: Grafaiai
+|-weather|RainDance
+|move|p2a: Stay Puff|Barb Barrage|p1a: Grafaiai
+|-resisted|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|faint|p1a: Grafaiai
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|18
+|
+|switch|p2a: Bigweld|Great Tusk|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Bigweld
+|-supereffective|p2a: Bigweld
+|-crit|p2a: Bigweld
+|-damage|p2a: Bigweld|58/100
+|-supereffective|p2a: Bigweld
+|-crit|p2a: Bigweld
+|-damage|p2a: Bigweld|16/100
+|-supereffective|p2a: Bigweld
+|-crit|p2a: Bigweld
+|-damage|p2a: Bigweld|0 fnt
+|faint|p2a: Bigweld
+|-end|p2a: Bigweld|Protosynthesis|[silent]
+|-hitcount|p2: Bigweld|3
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Stay Puff|Overqwil, F|17/100
+|-ability|p2a: Stay Puff|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|turn|19
+|
+|switch|p2a: Iron Maiden|Magearna|100/100
+|move|p1a: Urshifu|Aqua Jet|p2a: Iron Maiden
+|-damage|p2a: Iron Maiden|86/100
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Iron Maiden
+|-crit|p2a: Iron Maiden
+|-damage|p2a: Iron Maiden|66/100
+|-crit|p2a: Iron Maiden
+|-damage|p2a: Iron Maiden|44/100
+|-crit|p2a: Iron Maiden
+|-damage|p2a: Iron Maiden|24/100
+|-hitcount|p2a: Iron Maiden|3
+|move|p2a: Iron Maiden|Volt Switch|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|44/100
+|
+|switch|p2a: Stay Puff|Overqwil, F|17/100|[from] Volt Switch
+|-ability|p2a: Stay Puff|Intimidate|boost
+|-unboost|p1a: Urshifu|atk|1
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|switch|p2a: Iron Maiden|Magearna|24/100
+|move|p1a: Urshifu|Aqua Jet|p2a: Iron Maiden
+|-damage|p2a: Iron Maiden|12/100
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Iron Maiden
+|-crit|p2a: Iron Maiden
+|-damage|p2a: Iron Maiden|0 fnt
+|faint|p2a: Iron Maiden
+|-hitcount|p2: Iron Maiden|1
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Meaw Zedong|Chien-Pao|100/100
+|-ability|p2a: Meaw Zedong|Sword of Ruin
+|turn|23
+|
+|switch|p1a: Goodra|Goodra-Hisui, M, tera:Water|42/100
+|move|p2a: Meaw Zedong|Sacred Sword|p1a: Goodra
+|-damage|p1a: Goodra|16/100
+|
+|-weather|RainDance|[upkeep]
+|turn|24
+|
+|move|p2a: Meaw Zedong|Crunch|p1a: Goodra
+|-crit|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|-weather|none
+|
+|switch|p1a: Mew|Mew|100/100
+|turn|25
+|
+|move|p2a: Meaw Zedong|Crunch|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|18/100
+|move|p1a: Mew|Transform|p2a: Meaw Zedong
+|-transform|p1a: Mew|p2a: Meaw Zedong
+|-ability|p1a: Mew|Sword of Ruin
+|
+|turn|26
+|
+|move|p1a: Mew|Sacred Sword|p2a: Meaw Zedong
+|-supereffective|p2a: Meaw Zedong
+|-damage|p2a: Meaw Zedong|0 fnt
+|faint|p2a: Meaw Zedong
+|
+|
+|switch|p2a: Stay Puff|Overqwil, F|17/100
+|-ability|p2a: Stay Puff|Intimidate|boost
+|-unboost|p1a: Mew|atk|1
+|turn|27
+|
+|move|p1a: Mew|Crunch|p2a: Stay Puff
+|-resisted|p2a: Stay Puff
+|-damage|p2a: Stay Puff|2/100
+|move|p2a: Stay Puff|Barb Barrage|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|44/100
+|turn|28
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Stay Puff
+|-crit|p2a: Stay Puff
+|-damage|p2a: Stay Puff|0 fnt
+|faint|p2a: Stay Puff
+|-hitcount|p2: Stay Puff|1
+|
+|
+|switch|p2a: AC/DC|Thundurus-Therian, M|29/100 tox
+|turn|29
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: AC/DC
+|-damage|p2a: AC/DC|0 fnt
+|faint|p2a: AC/DC
+|
+|
+|switch|p2a: Mr. Dubstep|Regidrago|100/100
+|turn|30
+|
+|-terastallize|p2a: Mr. Dubstep|Steel
+|move|p1a: Urshifu|Drain Punch|p2a: Mr. Dubstep
+|-supereffective|p2a: Mr. Dubstep
+|-damage|p2a: Mr. Dubstep|8/100
+|-heal|p1a: Urshifu|100/100|[from] drain|[of] p2a: Mr. Dubstep
+|move|p2a: Mr. Dubstep|Tera Blast|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|63/100
+|
+|turn|31
+|-message|WeaselmanWasTaken forfeited.
+|
+|win|ryucore

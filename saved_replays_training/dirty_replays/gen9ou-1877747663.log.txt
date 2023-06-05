@@ -1,1 +1,329 @@
-Could not connect
+|j|☆Planeswalk
+|j|☆chis2024
+|t:|1685904129
+|gametype|singles
+|player|p1|Planeswalk|chili|1023
+|player|p2|chis2024|1|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Chien-Pao|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Scizor, M|
+|poke|p1|Great Tusk|
+|poke|p1|Tornadus, M|
+|poke|p1|Ursaluna, M|
+|poke|p2|Iron Moth|
+|poke|p2|Dragonite, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Iron Treads|
+|poke|p2|Slowking, F|
+|poke|p2|Rotom-Mow|
+|teampreview
+|
+|t:|1685904136
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Planeswalk)
+|
+|t:|1685904143
+|move|p1a: Tornadus|Taunt|p2a: Iron Moth
+|-start|p2a: Iron Moth|move: Taunt
+|cant|p2a: Iron Moth|move: Taunt|Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1685904170
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Iron Moth|Discharge|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1685904181
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-enditem|p2a: Iron Moth|Focus Sash
+|-damage|p2a: Iron Moth|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Iron Moth|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|95/100
+|
+|t:|1685904194
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Rotom|Rotom-Mow|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1685904209
+|move|p1a: Great Tusk|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|69/100
+|-enditem|p2a: Rotom|Choice Specs|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Rotom|Volt Switch|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|upkeep
+|turn|5
+|
+|t:|1685904220
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Rotom|Leaf Storm|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1685904226
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|t:|1685904233
+|move|p1a: Chien-Pao|Ice Shard|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|8/100
+|move|p2a: Rotom|Volt Switch|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|75/100
+|
+|t:|1685904241
+|switch|p2a: Iron Moth|Iron Moth|1/100|[from] Volt Switch
+|
+|upkeep
+|turn|7
+|
+|t:|1685904249
+|move|p1a: Chien-Pao|Ice Shard|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685904256
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|8
+|
+|t:|1685904268
+|switch|p1a: Great Tusk|Great Tusk|95/100
+|move|p2a: Tinkaton|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: Planeswalk|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1685904276
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|85/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Planeswalk|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Dragonite|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685904299
+|move|p1a: Great Tusk|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|61/100
+|-enditem|p2a: Dragonite|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1685904307
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1685904315
+|move|p1a: Tornadus|Taunt|p2a: Dragonite
+|-start|p2a: Dragonite|move: Taunt
+|move|p2a: Dragonite|Dragon Claw|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-damage|p2a: Dragonite|44/100|[from] item: Rocky Helmet|[of] p1a: Tornadus
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1685904321
+|switch|p1a: Chien-Pao|Chien-Pao|75/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|13
+|
+|t:|1685904330
+|-terastallize|p2a: Dragonite|Dragon
+|move|p1a: Chien-Pao|Ice Shard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1685904343
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|14
+|
+|t:|1685904353
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Iron Treads|Body Press|p1a: Scizor
+|-damage|p1a: Scizor|65/100
+|
+|upkeep
+|turn|15
+|
+|t:|1685904362
+|move|p1a: Scizor|Brick Break|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|65/100
+|-damage|p1a: Scizor|55/100|[from] item: Life Orb
+|move|p2a: Iron Treads|Earthquake|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Iron Treads|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685904370
+|switch|p1a: Great Tusk|Great Tusk|95/100
+|turn|16
+|
+|t:|1685904381
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking, F|100/100
+|-terastallize|p1a: Great Tusk|Fighting
+|move|p1a: Great Tusk|Headlong Rush|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: Slowking|51/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685904398
+|move|p1a: Great Tusk|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1685904405
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|18
+|
+|t:|1685904416
+|move|p1a: Great Tusk|Close Combat|p2a: Tinkaton
+|-damage|p2a: Tinkaton|11/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Tinkaton|Play Rough|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|9/100
+|
+|-heal|p2a: Tinkaton|18/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685904431
+|move|p1a: Great Tusk|Close Combat|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1685904443
+|switch|p2a: Rotom|Rotom-Mow|8/100
+|turn|20
+|
+|t:|1685904452
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|move|p2a: Rotom|Shadow Ball|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|36/100
+|
+|upkeep
+|turn|21
+|
+|t:|1685904461
+|move|p1a: Typhlosion|Eruption|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1685904467
+|switch|p2a: Iron Treads|Iron Treads|71/100
+|turn|22
+|
+|t:|1685904473
+|move|p1a: Typhlosion|Eruption|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|5/100
+|move|p2a: Iron Treads|Knock Off|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|-enditem|p1a: Typhlosion|Choice Scarf|[from] move: Knock Off|[of] p2a: Iron Treads
+|faint|p1a: Typhlosion
+|
+|-heal|p2a: Iron Treads|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685904480
+|switch|p1a: Great Tusk|Great Tusk, tera:Fighting|9/100
+|turn|23
+|
+|t:|1685904490
+|move|p1a: Great Tusk|Close Combat|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|win|Planeswalk
+|raw|Planeswalk's rating: 1023 → 1057(+34 for winning)
+|raw|chis2024's rating: 1000 → 1000(+0 for losing)
+|l|☆chis2024

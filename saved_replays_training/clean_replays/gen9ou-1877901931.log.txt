@@ -1,0 +1,256 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Talonflame, F|
+|poke|p1|Blissey, F|
+|poke|p1|Dondozo, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Urshifu-*, F|
+|teampreview
+|
+|start
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Slowking|Future Sight|p1a: Blissey
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|2
+|
+|move|p1a: Blissey|Stealth Rock|p2a: Slowking
+|-sidestart|p2: i'm an architect|move: Stealth Rock
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from] Chilly Reception
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|77/100
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|54/100
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|29/100
+|-hitcount|p1a: Slowking|3
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Slowking|move: Future Sight
+|-damage|p1a: Slowking|9/100
+|turn|4
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|switch|p1a: Slowking|Slowking-Galar, M|43/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] Chilly Reception
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Slowking|100/100|[from] move: Wish|[wisher] Alomomola
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|7
+|
+|move|p1a: Slowking|Hydro Pump|p2a: Ursaluna|[miss]
+|-miss|p1a: Slowking|p2a: Ursaluna
+|move|p2a: Ursaluna|Facade|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|8
+|
+|move|p2a: Ursaluna|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|32/100
+|move|p1a: Alomomola|Whirlpool|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|77/100 brn
+|-activate|p2a: Ursaluna|move: Whirlpool|[of] p1a: Alomomola
+|
+|-damage|p2a: Ursaluna|71/100 brn|[from] brn
+|-damage|p2a: Ursaluna|58/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|9
+|
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Ursaluna|Facade|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Ursaluna|52/100 brn|[from] brn
+|-damage|p2a: Ursaluna|40/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|-fieldend|move: Trick Room
+|turn|10
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Ursaluna|Facade|p1a: Dondozo
+|-damage|p1a: Dondozo|43/100
+|
+|-heal|p1a: Dondozo|50/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|34/100 brn|[from] brn
+|-end|p2a: Ursaluna|Whirlpool|[partiallytrapped]|[silent]
+|turn|11
+|
+|-terastallize|p2a: Ursaluna|Water
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|move|p2a: Ursaluna|Facade|p1a: Dondozo
+|-damage|p1a: Dondozo|40/100 slp
+|
+|-heal|p1a: Dondozo|47/100 slp|[from] item: Leftovers
+|-damage|p2a: Ursaluna|27/100 brn|[from] brn
+|turn|12
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Ursaluna|Facade|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|71/100
+|
+|-damage|p2a: Ursaluna|21/100 brn|[from] brn
+|turn|13
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|80/100
+|
+|turn|14
+|
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Enamorus|Earth Power|p1a: Talonflame
+|-immune|p1a: Talonflame
+|
+|turn|15
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Talonflame|Flamethrower|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|72/100
+|
+|turn|16
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Dragapult|U-turn|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|
+|turn|17
+|
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|72/100
+|-enditem|p1a: Talonflame|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|18
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, M|72/100
+|-damage|p2a: Dragapult|60/100|[from] Stealth Rock
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Dragapult|[miss]
+|-miss|p1a: Talonflame|p2a: Dragapult
+|
+|turn|19
+|
+|switch|p1a: Blissey|Blissey, F|67/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Blissey
+|-damage|p1a: Blissey|44/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|turn|20
+|
+|switch|p2a: Great Tusk|Great Tusk|97/100
+|-damage|p2a: Great Tusk|94/100|[from] Stealth Rock
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|94/100
+|
+|turn|21
+|
+|switch|p1a: Talonflame|Talonflame, F|72/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Talonflame
+|-damage|p1a: Talonflame|58/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: i'm an architect|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|turn|22
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, M|60/100
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Dragapult
+|-status|p2a: Dragapult|brn
+|
+|-damage|p2a: Dragapult|54/100 brn|[from] brn
+|turn|23
+|
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Dragapult|U-turn|p1a: Blissey
+|-damage|p1a: Blissey|77/100
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|
+|turn|24
+|
+|move|p1a: Blissey|Stealth Rock|p2a: Slowking
+|-sidestart|p2: i'm an architect|move: Stealth Rock
+|move|p2a: Slowking|Future Sight|p1a: Blissey
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|25
+|
+|switch|p1a: Alomomola|Alomomola, F|65/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|94/100|[from] Chilly Reception
+|-damage|p2a: Urshifu|88/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|turn|26
+|
+|-terastallize|p1a: Alomomola|Ghost
+|move|p2a: Urshifu|Surging Strikes|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|53/100
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|41/100
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|29/100
+|-hitcount|p1a: Alomomola|3
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Alomomola|move: Future Sight
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|-message|knexhawk2 forfeited.
+|
+|win|i'm an architect

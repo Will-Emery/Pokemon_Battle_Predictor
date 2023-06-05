@@ -1,0 +1,303 @@
+|poke|p1|Kingambit, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Kleavor, M|
+|poke|p2|Quaquaval, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Gholdengo|
+|poke|p2|Tinkaton, F|
+|poke|p2|Toedscruel, M|
+|poke|p2|Baxcalibur, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Super-Dragon|Baxcalibur, F|100/100
+|turn|1
+|
+|move|p1a: Kleavor|Rock Slide|p2a: Super-Dragon
+|-supereffective|p2a: Super-Dragon
+|-damage|p2a: Super-Dragon|0 fnt
+|faint|p2a: Super-Dragon
+|
+|
+|switch|p2a: Coin??Coin!?|Quaquaval, M|100/100
+|turn|2
+|
+|-terastallize|p2a: Coin??Coin!?|Water
+|move|p2a: Coin??Coin!?|Aqua Step|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-boost|p2a: Coin??Coin!?|spe|1
+|faint|p1a: Kleavor
+|-ability|p2a: Coin??Coin!?|Moxie|boost
+|-boost|p2a: Coin??Coin!?|atk|1
+|
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|3
+|
+|move|p2a: Coin??Coin!?|Aqua Step|p1a: Corviknight
+|-damage|p1a: Corviknight|35/100
+|-boost|p2a: Coin??Coin!?|spe|1
+|-damage|p2a: Coin??Coin!?|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Brave Bird|p2a: Coin??Coin!?
+|-damage|p2a: Coin??Coin!?|33/100
+|-damage|p1a: Corviknight|22/100|[from] Recoil
+|
+|turn|4
+|
+|move|p2a: Coin??Coin!?|Aqua Step|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-boost|p2a: Coin??Coin!?|spe|1
+|-damage|p2a: Coin??Coin!?|16/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|-ability|p2a: Coin??Coin!?|Moxie|boost
+|-boost|p2a: Coin??Coin!?|atk|1
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|5
+|
+|switch|p2a: S.Cowell|Toedscruel, M|100/100
+|move|p1a: Samurott|Sucker Punch||[still]
+|-fail|p1a: Samurott
+|
+|turn|6
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: S.Cowell
+|-damage|p2a: S.Cowell|25/100
+|-sidestart|p2: Grain2Sel|Spikes
+|move|p2a: S.Cowell|Spore|p1a: Samurott
+|-status|p1a: Samurott|slp|[from] move: Spore
+|
+|-heal|p2a: S.Cowell|31/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: S.Cowell|Rapid Spin|p1a: Samurott
+|-damage|p1a: Samurott|90/100 slp
+|-boost|p2a: S.Cowell|spe|1
+|-sideend|p2: Grain2Sel|Spikes|[from] move: Rapid Spin|[of] p2a: S.Cowell
+|cant|p1a: Samurott|slp
+|
+|-heal|p2a: S.Cowell|37/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: S.Cowell|Giga Drain|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|4/100 slp
+|-heal|p2a: S.Cowell|83/100|[from] drain|[of] p1a: Samurott
+|-curestatus|p1a: Samurott|slp|[msg]
+|move|p1a: Samurott|Swords Dance|p1a: Samurott
+|-boost|p1a: Samurott|atk|2
+|
+|-heal|p2a: S.Cowell|89/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: S.Cowell
+|-damage|p2a: S.Cowell|0 fnt
+|faint|p2a: S.Cowell
+|
+|
+|switch|p2a: Coin??Coin!?|Quaquaval, M, tera:Water|16/100
+|turn|10
+|
+|move|p2a: Coin??Coin!?|Aqua Jet|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-ability|p2a: Coin??Coin!?|Moxie|boost
+|-boost|p2a: Coin??Coin!?|atk|1
+|
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|11
+|
+|move|p2a: Coin??Coin!?|Aqua Jet|p1a: Garchomp
+|-damage|p1a: Garchomp|41/100
+|-damage|p2a: Coin??Coin!?|3/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Earthquake|p2a: Coin??Coin!?
+|-damage|p2a: Coin??Coin!?|0 fnt
+|faint|p2a: Coin??Coin!?
+|
+|-heal|p1a: Garchomp|47/100|[from] item: Leftovers
+|
+|switch|p2a: DRAGONSLAYER|Tinkaton, F|100/100
+|-ability|p2a: DRAGONSLAYER|Mold Breaker
+|-item|p2a: DRAGONSLAYER|Air Balloon
+|turn|12
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: DRAGONSLAYER|Gigaton Hammer|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|6/100
+|
+|-heal|p1a: Hatterene|12/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: DRAGONSLAYER|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: DRAGONSLAYER
+|faint|p1a: Hatterene
+|
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|14
+|
+|move|p2a: DRAGONSLAYER|Brick Break|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|49/100
+|move|p1a: Kingambit|Iron Head|p2a: DRAGONSLAYER
+|-damage|p2a: DRAGONSLAYER|7/100
+|-enditem|p2a: DRAGONSLAYER|Air Balloon
+|
+|-heal|p1a: Kingambit|55/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: DRAGONSLAYER
+|-resisted|p2a: DRAGONSLAYER
+|-damage|p2a: DRAGONSLAYER|0 fnt
+|faint|p2a: DRAGONSLAYER
+|
+|-heal|p1a: Kingambit|61/100|[from] item: Leftovers
+|
+|switch|p2a: RIP Sia|Gholdengo|100/100
+|turn|16
+|
+|move|p2a: RIP Sia|Trick|p1a: Kingambit
+|-activate|p2a: RIP Sia|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: RIP Sia|Leftovers|[from] move: Trick
+|move|p1a: Kingambit|Kowtow Cleave|p2a: RIP Sia
+|-supereffective|p2a: RIP Sia
+|-damage|p2a: RIP Sia|0 fnt
+|faint|p2a: RIP Sia
+|
+|
+|switch|p2a: Salt Bro <3|Garganacl, M|100/100
+|turn|17
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|53/100
+|move|p2a: Salt Bro <3|Iron Defense|p2a: Salt Bro <3
+|-boost|p2a: Salt Bro <3|def|2
+|
+|-heal|p2a: Salt Bro <3|59/100|[from] item: Leftovers
+|turn|18
+|
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Garchomp|Garchomp, F|47/100
+|move|p2a: Salt Bro <3|Iron Defense|p2a: Salt Bro <3
+|-boost|p2a: Salt Bro <3|def|2
+|
+|-heal|p1a: Garchomp|53/100|[from] item: Leftovers
+|-heal|p2a: Salt Bro <3|65/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Garchomp|Earthquake|p2a: Salt Bro <3
+|-supereffective|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|42/100
+|move|p2a: Salt Bro <3|Recover|p2a: Salt Bro <3
+|-heal|p2a: Salt Bro <3|92/100
+|
+|-heal|p1a: Garchomp|60/100|[from] item: Leftovers
+|-heal|p2a: Salt Bro <3|99/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Garchomp|Substitute|p1a: Garchomp
+|-start|p1a: Garchomp|Substitute
+|-damage|p1a: Garchomp|35/100
+|move|p2a: Salt Bro <3|Iron Defense|p2a: Salt Bro <3
+|-boost|p2a: Salt Bro <3|def|2
+|
+|-heal|p1a: Garchomp|41/100|[from] item: Leftovers
+|-heal|p2a: Salt Bro <3|100/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Garchomp|Earthquake|p2a: Salt Bro <3
+|-supereffective|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|83/100
+|move|p2a: Salt Bro <3|Body Press|p1a: Garchomp
+|-end|p1a: Garchomp|Substitute
+|
+|-heal|p1a: Garchomp|47/100|[from] item: Leftovers
+|-heal|p2a: Salt Bro <3|89/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Garchomp|Earthquake|p2a: Salt Bro <3
+|-supereffective|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|70/100
+|move|p2a: Salt Bro <3|Body Press|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Salt Bro <3|57/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Salt Bro <3|63/100|[from] item: Leftovers
+|
+|switch|p1a: Kingambit|Kingambit, M|61/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|23
+|
+|-terastallize|p1a: Kingambit|Flying
+|move|p1a: Kingambit|Iron Head|p2a: Salt Bro <3
+|-supereffective|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|38/100
+|cant|p2a: Salt Bro <3|flinch
+|
+|-heal|p2a: Salt Bro <3|44/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Kingambit|Iron Head|p2a: Salt Bro <3
+|-supereffective|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|18/100
+|move|p2a: Salt Bro <3|Recover|p2a: Salt Bro <3
+|-heal|p2a: Salt Bro <3|68/100
+|
+|-heal|p2a: Salt Bro <3|74/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Kingambit|Iron Head|p2a: Salt Bro <3
+|-supereffective|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|51/100
+|move|p2a: Salt Bro <3|Recover|p2a: Salt Bro <3
+|-heal|p2a: Salt Bro <3|100/100
+|
+|turn|26
+|
+|move|p1a: Kingambit|Iron Head|p2a: Salt Bro <3
+|-supereffective|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|75/100
+|move|p2a: Salt Bro <3|Salt Cure|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|42/100
+|-start|p1a: Kingambit|Salt Cure
+|
+|-heal|p2a: Salt Bro <3|81/100|[from] item: Leftovers
+|-damage|p1a: Kingambit|29/100|[from] Salt Cure
+|turn|27
+|
+|move|p1a: Kingambit|Iron Head|p2a: Salt Bro <3
+|-supereffective|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|56/100
+|cant|p2a: Salt Bro <3|flinch
+|
+|-heal|p2a: Salt Bro <3|62/100|[from] item: Leftovers
+|-damage|p1a: Kingambit|17/100|[from] Salt Cure
+|turn|28
+|
+|move|p1a: Kingambit|Iron Head|p2a: Salt Bro <3
+|-supereffective|p2a: Salt Bro <3
+|-damage|p2a: Salt Bro <3|40/100
+|move|p2a: Salt Bro <3|Salt Cure|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|Grain2Sel

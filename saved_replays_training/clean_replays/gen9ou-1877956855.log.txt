@@ -1,0 +1,169 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Heatran, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F, shiny|100/100
+|switch|p2a: Zapdos|Zapdos-Galar, shiny|100/100
+|turn|1
+|
+|move|p2a: Zapdos|Close Combat|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
+|turn|2
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Braviary|Air Slash|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|37/100
+|-damage|p1a: Braviary|91/100|[from] item: Life Orb
+|
+|turn|3
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Chien-Pao|Crunch|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|63/100
+|-damage|p2a: Chien-Pao|27/100|[from] item: Life Orb
+|
+|turn|4
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|-damage|p2a: Chien-Pao|17/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|turn|5
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|switch|p1a: Dondozo|Dondozo, M, shiny|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Dondozo
+|-damage|p1a: Dondozo|48/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: Dondozo|54/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Dondozo
+|-status|p1a: Dondozo|brn
+|move|p1a: Dondozo|Yawn|p2a: Dragapult
+|-start|p2a: Dragapult|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Dondozo|54/100 brn|[from] brn
+|turn|8
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|switch|p1a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|
+|turn|9
+|
+|move|p1a: Arcanine|Wild Charge|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|31/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-heal|p2a: Volcanion|37/100|[from] item: Leftovers
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|91/100
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Braviary|Esper Wing|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|76/100
+|-boost|p1a: Braviary|spe|1
+|-damage|p1a: Braviary|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Braviary|Air Slash|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|59/100
+|-damage|p1a: Braviary|71/100|[from] item: Life Orb
+|move|p2a: Heatran|Stealth Rock|p1a: Braviary
+|-sidestart|p1: Yabyach|move: Stealth Rock
+|
+|-heal|p2a: Heatran|65/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Braviary|Esper Wing|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|42/100
+|-boost|p1a: Braviary|spe|1
+|-damage|p1a: Braviary|61/100|[from] item: Life Orb
+|move|p2a: Heatran|Magma Storm|p1a: Braviary
+|-damage|p1a: Braviary|20/100
+|-activate|p1a: Braviary|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|48/100|[from] item: Leftovers
+|-damage|p1a: Braviary|7/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|13
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|57/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|-end|p1a: Braviary|Magma Storm|[partiallytrapped]|[silent]
+|turn|14
+|
+|move|p1a: Braviary|Esper Wing|p2a: Dragapult
+|-damage|p2a: Dragapult|48/100
+|-boost|p1a: Braviary|spe|1
+|-damage|p1a: Braviary|47/100|[from] item: Life Orb
+|move|p2a: Dragapult|Draco Meteor|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned, shiny|100/100
+|-damage|p1a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|15
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Zamazenta
+|-status|p1a: Zamazenta|brn
+|move|p1a: Zamazenta|Trailblaze|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|42/100
+|-boost|p1a: Zamazenta|spe|1
+|-start|p1a: Zamazenta|Disable|Trailblaze|[from] ability: Cursed Body|[of] p2a: Dragapult
+|
+|-damage|p1a: Zamazenta|91/100 brn|[from] brn
+|turn|16
+|-message|Yabyach forfeited.
+|
+|win|TesteZapZapdos3

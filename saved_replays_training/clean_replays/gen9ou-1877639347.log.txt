@@ -1,0 +1,359 @@
+|poke|p1|Dondozo, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Great Tusk|
+|poke|p1|Scream Tail|
+|poke|p2|Magearna|
+|poke|p2|Dragapult, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|-terastallize|p2a: Magearna|Flying
+|move|p1a: Great Tusk|Stealth Rock|p2a: Magearna
+|-sidestart|p2: gallevoirzoroark|move: Stealth Rock
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|2
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Great Tusk|Knock Off|p2a: Magearna
+|-damage|p2a: Magearna|83/100
+|-enditem|p2a: Magearna|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|3
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|4
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Scream Tail|[miss]
+|-miss|p2a: Magearna|p1a: Scream Tail
+|move|p1a: Scream Tail|Encore|p2a: Magearna
+|-start|p2a: Magearna|Encore
+|
+|turn|5
+|
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Magearna|Fleur Cannon|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|
+|turn|6
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Scream Tail
+|-damage|p1a: Scream Tail|47/100
+|-unboost|p2a: Magearna|spa|2
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|
+|-heal|p1a: Scream Tail|53/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Scream Tail
+|-damage|p1a: Scream Tail|28/100
+|-unboost|p2a: Magearna|spa|2
+|move|p1a: Scream Tail|Dazzling Gleam|p2a: Magearna
+|-damage|p2a: Magearna|73/100
+|
+|-heal|p1a: Scream Tail|78/100|[from] move: Wish|[wisher] Scream Tail
+|-heal|p1a: Scream Tail|85/100|[from] item: Leftovers
+|-end|p2a: Magearna|Encore
+|turn|8
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|-damage|p2a: Ursaluna|94/100|[from] Stealth Rock
+|move|p1a: Scream Tail|Encore||[still]
+|-fail|p1a: Scream Tail
+|
+|-heal|p1a: Scream Tail|91/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|9
+|
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Ursaluna|Facade|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|
+|-heal|p1a: Scream Tail|97/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|turn|10
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Ursaluna|Facade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|38/100
+|
+|-heal|p1a: Great Tusk|44/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|82/100 brn|[from] brn
+|turn|11
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Ursaluna
+|-damage|p2a: Ursaluna|50/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Ursaluna|44/100 brn|[from] brn
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|12
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|76/100
+|move|p2a: Ursaluna|Drain Punch|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|-heal|p2a: Ursaluna|53/100 brn|[from] drain|[of] p1a: Hydreigon
+|
+|-heal|p1a: Hydreigon|82/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|46/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|57/100
+|move|p2a: Ursaluna|Drain Punch|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|-heal|p2a: Ursaluna|55/100 brn|[from] drain|[of] p1a: Hydreigon
+|
+|-heal|p1a: Hydreigon|63/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|49/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ursaluna
+|-damage|p2a: Ursaluna|15/100 brn
+|move|p2a: Ursaluna|Drain Punch|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-heal|p2a: Ursaluna|37/100 brn|[from] drain|[of] p1a: Hydreigon
+|faint|p1a: Hydreigon
+|
+|-damage|p2a: Ursaluna|31/100 brn|[from] brn
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|15
+|
+|-terastallize|p1a: Cinderace|Fire
+|move|p1a: Cinderace|Pyro Ball|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Sneasler|Close Combat|p1a: Dondozo
+|-damage|p1a: Dondozo|71/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|
+|-heal|p1a: Dondozo|77/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|59/100
+|move|p1a: Dondozo|Wave Crash|p2a: Sneasler
+|-damage|p2a: Sneasler|22/100
+|-damage|p1a: Dondozo|45/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|51/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|33/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|turn|19
+|
+|switch|p2a: Magearna|Magearna, tera:Flying|73/100
+|-damage|p2a: Magearna|48/100|[from] Stealth Rock
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|turn|20
+|
+|switch|p1a: Scream Tail|Scream Tail|97/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p1a: Scream Tail|100/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Sneasler|Sneasler, M|22/100
+|-damage|p2a: Sneasler|16/100|[from] Stealth Rock
+|move|p1a: Scream Tail|Encore||[still]
+|-fail|p1a: Scream Tail
+|
+|turn|22
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Sneasler|Dire Claw|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|84/100
+|
+|turn|23
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Toxapex|Surf|p2a: Zamazenta
+|-damage|p2a: Zamazenta|72/100
+|
+|-heal|p2a: Zamazenta|78/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Toxapex|Sludge Bomb|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|71/100
+|-status|p2a: Dragapult|psn
+|
+|-damage|p2a: Dragapult|58/100 psn|[from] psn
+|turn|25
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|8/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Toxapex|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|8/100 psn
+|
+|-damage|p2a: Dragapult|0 fnt|[from] psn
+|faint|p2a: Dragapult
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|26
+|
+|switch|p1a: Cinderace|Cinderace, F, tera:Fire|100/100
+|move|p2a: Volcarona|Bug Buzz|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|71/100
+|
+|turn|27
+|
+|switch|p2a: Sneasler|Sneasler, M|16/100
+|-damage|p2a: Sneasler|10/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|78/100
+|-damage|p2a: Zamazenta|72/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|78/100|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|53/100
+|move|p1a: Scream Tail|Dazzling Gleam|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-heal|p2a: Zamazenta|59/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Zamazenta|Heavy Slam|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|52/100
+|move|p1a: Scream Tail|Encore|p2a: Zamazenta
+|-start|p2a: Zamazenta|Encore
+|
+|-heal|p2a: Zamazenta|65/100|[from] item: Leftovers
+|-heal|p1a: Scream Tail|58/100|[from] item: Leftovers
+|turn|31
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Dondozo|Dondozo, F|100/100 slp
+|move|p2a: Zamazenta|Heavy Slam|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|98/100 slp
+|
+|-heal|p2a: Zamazenta|71/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|100/100 slp|[from] item: Leftovers
+|turn|32
+|
+|switch|p2a: Magearna|Magearna, tera:Flying|48/100
+|-damage|p2a: Magearna|23/100|[from] Stealth Rock
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Body Press|p2a: Magearna|[from]move: Sleep Talk
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|15/100
+|
+|turn|33
+|
+|switch|p1a: Toxapex|Toxapex, M|41/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|25/100
+|-unboost|p2a: Magearna|spa|2
+|
+|turn|34
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Toxapex|Surf|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|40/100
+|
+|turn|35
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Toxapex|Surf|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|1/100
+|
+|turn|36
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Toxapex
+|-damage|p1a: Toxapex|4/100
+|-heal|p2a: Volcarona|11/100|[from] drain|[of] p1a: Toxapex
+|move|p1a: Toxapex|Surf|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-message|gallevoirzoroark lost due to inactivity.
+|
+|win|restneeded

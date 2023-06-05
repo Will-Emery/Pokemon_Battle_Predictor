@@ -1,0 +1,141 @@
+|poke|p1|Ditto|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Valiant|
+|poke|p1|Magearna|
+|poke|p1|Dragapult, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|switch|p2a: Metro|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Metro
+|turn|1
+|
+|move|p1a: Lilligant|Close Combat|p2a: Metro
+|-crit|p2a: Metro
+|-damage|p2a: Metro|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Metro
+|
+|
+|switch|p2a: Big Dirge|Skeledirge, M|100/100
+|turn|2
+|
+|switch|p2a: Peruvian Coke|Ursaluna, M|100/100
+|move|p1a: Lilligant|Sleep Powder|p2a: Peruvian Coke
+|-status|p2a: Peruvian Coke|slp|[from] move: Sleep Powder
+|
+|turn|3
+|
+|switch|p2a: Big Dirge|Skeledirge, M|100/100
+|move|p1a: Lilligant|Close Combat|p2a: Big Dirge
+|-immune|p2a: Big Dirge
+|
+|turn|4
+|
+|-terastallize|p1a: Lilligant|Ghost
+|move|p1a: Lilligant|Tera Blast|p2a: Big Dirge
+|-supereffective|p2a: Big Dirge
+|-damage|p2a: Big Dirge|7/100
+|move|p2a: Big Dirge|Will-O-Wisp|p1a: Lilligant
+|-status|p1a: Lilligant|brn
+|
+|-heal|p2a: Big Dirge|13/100|[from] Grassy Terrain
+|-damage|p1a: Lilligant|94/100 brn|[from] brn
+|turn|5
+|
+|switch|p2a: Hercules No Thug|Sneasler, F|100/100
+|-enditem|p2a: Hercules No Thug|Grassy Seed
+|-boost|p2a: Hercules No Thug|def|1|[from] item: Grassy Seed
+|move|p1a: Lilligant|Tera Blast|p2a: Hercules No Thug
+|-crit|p2a: Hercules No Thug
+|-damage|p2a: Hercules No Thug|40/100
+|
+|-heal|p2a: Hercules No Thug|46/100|[from] Grassy Terrain
+|-heal|p1a: Lilligant|100/100 brn|[from] Grassy Terrain
+|-damage|p1a: Lilligant|94/100 brn|[from] brn
+|turn|6
+|
+|move|p2a: Hercules No Thug|Swords Dance|p2a: Hercules No Thug
+|-boost|p2a: Hercules No Thug|atk|2
+|move|p1a: Lilligant|Tera Blast|p2a: Hercules No Thug
+|-damage|p2a: Hercules No Thug|19/100
+|
+|-heal|p2a: Hercules No Thug|25/100|[from] Grassy Terrain
+|-heal|p1a: Lilligant|100/100 brn|[from] Grassy Terrain
+|-damage|p1a: Lilligant|94/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: Hercules No Thug|Acrobatics|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-heal|p2a: Hercules No Thug|31/100|[from] Grassy Terrain
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Hercules No Thug
+|-resisted|p2a: Hercules No Thug
+|-damage|p2a: Hercules No Thug|3/100
+|-damage|p1a: Chien-Pao|91/100|[from] item: Life Orb
+|move|p2a: Hercules No Thug|Close Combat|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-unboost|p2a: Hercules No Thug|def|1
+|-unboost|p2a: Hercules No Thug|spd|1
+|faint|p1a: Chien-Pao
+|
+|-heal|p2a: Hercules No Thug|9/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|9
+|
+|move|p2a: Hercules No Thug|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Hercules No Thug|def|1
+|-unboost|p2a: Hercules No Thug|spd|1
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|move|p2a: Hercules No Thug|Acrobatics|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-transform|p1a: Ditto|p2a: Hercules No Thug|[from] ability: Imposter
+|turn|11
+|
+|move|p2a: Hercules No Thug|Acrobatics|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|12
+|
+|move|p2a: Hercules No Thug|Dire Claw|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|kd458

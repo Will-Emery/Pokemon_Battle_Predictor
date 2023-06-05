@@ -1,0 +1,197 @@
+|poke|p1|Iron Valiant|
+|poke|p1|Sandy Shocks|
+|poke|p1|Indeedee-F, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Zamazenta-*|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|start
+|switch|p1a: goodest boy|Arcanine-Hisui, F|100/100
+|switch|p2a: turtle :)|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: turtle :)
+|turn|1
+|
+|switch|p2a: lando :)|Landorus-Therian, M|100/100
+|-ability|p2a: lando :)|Intimidate|boost
+|-unboost|p1a: goodest boy|atk|1
+|move|p1a: goodest boy|Agility|p1a: goodest boy
+|-boost|p1a: goodest boy|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p1a: goodest boy|Flare Blitz|p2a: lando :)
+|-damage|p2a: lando :)|9/100
+|-damage|p1a: goodest boy|91/100|[from] item: Life Orb
+|move|p2a: lando :)|Earthquake|p1a: goodest boy
+|-supereffective|p1a: goodest boy
+|-damage|p1a: goodest boy|0 fnt
+|faint|p1a: goodest boy
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: lando :)|15/100|[from] item: Leftovers
+|
+|switch|p1a: Magneto|Sandy Shocks|100/100
+|-activate|p1a: Magneto|ability: Protosynthesis
+|-start|p1a: Magneto|protosynthesisspa
+|turn|3
+|
+|move|p1a: Magneto|Gravity|p1a: Magneto
+|-fieldstart|move: Gravity
+|move|p2a: lando :)|Earthquake|p1a: Magneto
+|-supereffective|p1a: Magneto
+|-damage|p1a: Magneto|0 fnt
+|faint|p1a: Magneto
+|-end|p1a: Magneto|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: lando :)|21/100|[from] item: Leftovers
+|
+|switch|p1a: Focus Hit|Iron Valiant|100/100
+|-enditem|p1a: Focus Hit|Booster Energy
+|-activate|p1a: Focus Hit|ability: Quark Drive|[fromitem]
+|-start|p1a: Focus Hit|quarkdrivespe
+|turn|4
+|
+|move|p2a: lando :)|Protect|p2a: lando :)
+|-singleturn|p2a: lando :)|Protect
+|move|p1a: Focus Hit|Focus Blast|p2a: lando :)
+|-activate|p2a: lando :)|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: lando :)|27/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Focus Hit|Focus Blast|p2a: lando :)
+|-resisted|p2a: lando :)
+|-damage|p2a: lando :)|0 fnt
+|faint|p2a: lando :)
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: PLACIDUSAX :)|Walking Wake|100/100
+|-activate|p2a: PLACIDUSAX :)|ability: Protosynthesis
+|-start|p2a: PLACIDUSAX :)|protosynthesisspe
+|turn|6
+|
+|-terastallize|p1a: Focus Hit|Fighting
+|move|p1a: Focus Hit|Focus Blast|p2a: PLACIDUSAX :)
+|-damage|p2a: PLACIDUSAX :)|3/100
+|move|p2a: PLACIDUSAX :)|Hydro Steam|p1a: Focus Hit
+|-damage|p1a: Focus Hit|0 fnt
+|faint|p1a: Focus Hit
+|-end|p1a: Focus Hit|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: McSword Mon|Chien-Pao|100/100
+|-ability|p1a: McSword Mon|Sword of Ruin
+|turn|7
+|
+|-terastallize|p2a: PLACIDUSAX :)|Fire
+|move|p2a: PLACIDUSAX :)|Flamethrower|p1a: McSword Mon
+|-supereffective|p1a: McSword Mon
+|-damage|p1a: McSword Mon|0 fnt
+|faint|p1a: McSword Mon
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Gravity
+|
+|switch|p1a: gote :)|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: gote :)
+|turn|8
+|
+|move|p2a: PLACIDUSAX :)|Draco Meteor|p1a: gote :)
+|-damage|p1a: gote :)|30/100
+|-unboost|p2a: PLACIDUSAX :)|spa|2
+|-enditem|p1a: gote :)|Eject Button
+|
+|switch|p1a: hawlucha 2.0|Sneasler, M|100/100
+|-enditem|p1a: hawlucha 2.0|Psychic Seed
+|-boost|p1a: hawlucha 2.0|spd|1|[from] item: Psychic Seed
+|
+|-weather|none
+|-end|p2a: PLACIDUSAX :)|Protosynthesis
+|-enditem|p2a: PLACIDUSAX :)|Booster Energy
+|-activate|p2a: PLACIDUSAX :)|ability: Protosynthesis|[fromitem]
+|-start|p2a: PLACIDUSAX :)|protosynthesisspe
+|turn|9
+|
+|move|p1a: hawlucha 2.0|Swords Dance|p1a: hawlucha 2.0
+|-boost|p1a: hawlucha 2.0|atk|2
+|move|p2a: PLACIDUSAX :)|Hydro Steam|p1a: hawlucha 2.0
+|-damage|p1a: hawlucha 2.0|83/100
+|
+|turn|10
+|
+|move|p1a: hawlucha 2.0|Dire Claw|p2a: PLACIDUSAX :)
+|-damage|p2a: PLACIDUSAX :)|0 fnt
+|faint|p2a: PLACIDUSAX :)
+|-end|p2a: PLACIDUSAX :)|Protosynthesis|[silent]
+|
+|
+|switch|p2a: turtle :)|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: turtle :)
+|turn|11
+|
+|move|p1a: hawlucha 2.0|Close Combat|p2a: turtle :)
+|-damage|p2a: turtle :)|2/100
+|-unboost|p1a: hawlucha 2.0|def|1
+|-unboost|p1a: hawlucha 2.0|spd|1
+|move|p2a: turtle :)|Will-O-Wisp|p1a: hawlucha 2.0|[miss]
+|-miss|p2a: turtle :)|p1a: hawlucha 2.0
+|
+|-weather|SunnyDay|[upkeep]
+|turn|12
+|
+|move|p1a: hawlucha 2.0|Dire Claw|p2a: turtle :)
+|-damage|p2a: turtle :)|0 fnt
+|faint|p2a: turtle :)
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|
+|switch|p2a: lady :)|Lilligant-Hisui, F, shiny|100/100
+|turn|13
+|
+|move|p1a: hawlucha 2.0|Dire Claw|p2a: lady :)
+|-supereffective|p2a: lady :)
+|-damage|p2a: lady :)|0 fnt
+|faint|p2a: lady :)
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: ouppy :)|Arcanine-Hisui, F|100/100
+|turn|14
+|
+|move|p2a: ouppy :)|Extreme Speed|p1a: hawlucha 2.0
+|-damage|p1a: hawlucha 2.0|14/100
+|move|p1a: hawlucha 2.0|Close Combat|p2a: ouppy :)
+|-supereffective|p2a: ouppy :)
+|-damage|p2a: ouppy :)|0 fnt
+|-unboost|p1a: hawlucha 2.0|def|1
+|-unboost|p1a: hawlucha 2.0|spd|1
+|faint|p2a: ouppy :)
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: dogy :)|Zamazenta-Crowned|100/100
+|-ability|p2a: dogy :)|Dauntless Shield|boost
+|-boost|p2a: dogy :)|def|1
+|turn|15
+|
+|move|p1a: hawlucha 2.0|Close Combat|p2a: dogy :)
+|-supereffective|p2a: dogy :)
+|-damage|p2a: dogy :)|0 fnt
+|-unboost|p1a: hawlucha 2.0|def|1
+|-unboost|p1a: hawlucha 2.0|spd|1
+|faint|p2a: dogy :)
+|
+|win|Somebodyatinternet

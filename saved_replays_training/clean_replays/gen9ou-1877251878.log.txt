@@ -1,0 +1,500 @@
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Garganacl, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Rabsca, F|
+|poke|p2|Mew|
+|poke|p2|Moltres-Galar|
+|poke|p2|Ditto|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Rabsca|Rabsca, F|100/100
+|turn|1
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Rabsca|Cosmic Power|p2a: Rabsca
+|-boost|p2a: Rabsca|def|1
+|-boost|p2a: Rabsca|spd|1
+|
+|turn|2
+|
+|-terastallize|p2a: Rabsca|Poison
+|move|p2a: Rabsca|Cosmic Power|p2a: Rabsca
+|-boost|p2a: Rabsca|def|1
+|-boost|p2a: Rabsca|spd|1
+|move|p1a: Toxapex|Toxic|p2a: Rabsca
+|-immune|p2a: Rabsca
+|
+|turn|3
+|
+|move|p2a: Rabsca|Cosmic Power|p2a: Rabsca
+|-boost|p2a: Rabsca|def|1
+|-boost|p2a: Rabsca|spd|1
+|move|p1a: Toxapex|Iron Defense|p1a: Toxapex
+|-boost|p1a: Toxapex|def|2
+|
+|turn|4
+|
+|move|p2a: Rabsca|Cosmic Power|p2a: Rabsca
+|-boost|p2a: Rabsca|def|1
+|-boost|p2a: Rabsca|spd|1
+|move|p1a: Toxapex|Iron Defense|p1a: Toxapex
+|-boost|p1a: Toxapex|def|2
+|
+|turn|5
+|
+|move|p2a: Rabsca|Cosmic Power|p2a: Rabsca
+|-boost|p2a: Rabsca|def|1
+|-boost|p2a: Rabsca|spd|1
+|move|p1a: Toxapex|Iron Defense|p1a: Toxapex
+|-boost|p1a: Toxapex|def|2
+|
+|turn|6
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Rabsca|Cosmic Power|p2a: Rabsca
+|-boost|p2a: Rabsca|def|1
+|-boost|p2a: Rabsca|spd|1
+|
+|turn|7
+|
+|move|p2a: Rabsca|Stored Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|turn|8
+|
+|move|p2a: Rabsca|Stored Power|p1a: Dondozo
+|-damage|p1a: Dondozo|18/100
+|move|p1a: Dondozo|Yawn|p2a: Rabsca
+|-start|p2a: Rabsca|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|24/100|[from] item: Leftovers
+|turn|9
+|n|☆causanlggasisgay|causanlggasisgay
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Rabsca|Stored Power|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|66/100
+|
+|-heal|p1a: Hatterene|72/100|[from] item: Leftovers
+|-end|p2a: Rabsca|move: Yawn|[silent]
+|-status|p2a: Rabsca|slp
+|turn|10
+|
+|cant|p2a: Rabsca|slp
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|78/100|[from] item: Leftovers
+|turn|11
+|
+|cant|p2a: Rabsca|slp
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|84/100|[from] item: Leftovers
+|turn|12
+|
+|-curestatus|p2a: Rabsca|slp|[msg]
+|move|p2a: Rabsca|Bug Buzz|p1a: Hatterene
+|-damage|p1a: Hatterene|71/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|77/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Rabsca|Stored Power|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|61/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|67/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Rabsca|Stored Power|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|53/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Rabsca
+|-resisted|p2a: Rabsca
+|-damage|p2a: Rabsca|93/100
+|-heal|p1a: Hatterene|59/100|[from] drain|[of] p2a: Rabsca
+|
+|-heal|p2a: Rabsca|99/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|65/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Rabsca|Stored Power|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|53/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Rabsca|100/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|59/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Rabsca|Bug Buzz|p1a: Hatterene
+|-damage|p1a: Hatterene|52/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|58/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Rabsca|Bug Buzz|p1a: Hatterene
+|-damage|p1a: Hatterene|50/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Rabsca
+|-damage|p2a: Rabsca|81/100
+|-unboost|p2a: Rabsca|spa|1
+|
+|-heal|p2a: Rabsca|87/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|56/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Rabsca|Stored Power|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|50/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Rabsca
+|-damage|p2a: Rabsca|66/100
+|-unboost|p2a: Rabsca|spa|1
+|
+|-heal|p2a: Rabsca|72/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|56/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Rabsca|Stored Power|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|51/100
+|move|p1a: Hatterene|Nuzzle|p2a: Rabsca
+|-damage|p2a: Rabsca|71/100
+|-status|p2a: Rabsca|par
+|-activate|p2a: Rabsca|ability: Synchronize
+|-status|p1a: Hatterene|par
+|
+|-heal|p2a: Rabsca|77/100 par|[from] item: Leftovers
+|-heal|p1a: Hatterene|57/100 par|[from] item: Leftovers
+|turn|20
+|
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-transform|p2a: Ditto|p1a: Hatterene|[from] ability: Imposter
+|cant|p1a: Hatterene|par
+|
+|-heal|p1a: Hatterene|63/100 par|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|46/100 par
+|cant|p1a: Hatterene|par
+|
+|-heal|p1a: Hatterene|52/100 par|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|34/100 par
+|move|p1a: Hatterene|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|83/100
+|-heal|p1a: Hatterene|46/100 par|[from] drain|[of] p2a: Ditto
+|
+|-heal|p1a: Hatterene|52/100 par|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|34/100 par
+|-heal|p2a: Ditto|98/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|80/100
+|-heal|p1a: Hatterene|46/100 par|[from] drain|[of] p2a: Ditto
+|
+|-heal|p1a: Hatterene|52/100 par|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|34/100 par
+|-heal|p2a: Ditto|95/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|78/100
+|-heal|p1a: Hatterene|45/100 par|[from] drain|[of] p2a: Ditto
+|
+|-heal|p1a: Hatterene|51/100 par|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|34/100 par
+|-heal|p2a: Ditto|92/100|[from] drain|[of] p1a: Hatterene
+|cant|p1a: Hatterene|par
+|
+|-heal|p1a: Hatterene|39/100 par|[from] item: Leftovers
+|turn|26
+|
+|switch|p2a: Rabsca|Rabsca, F, tera:Poison|77/100 par
+|move|p1a: Hatterene|Draining Kiss|p2a: Rabsca
+|-resisted|p2a: Rabsca
+|-damage|p2a: Rabsca|40/100 par
+|-heal|p1a: Hatterene|70/100 par|[from] drain|[of] p2a: Rabsca
+|
+|-heal|p2a: Rabsca|46/100 par|[from] item: Leftovers
+|-heal|p1a: Hatterene|76/100 par|[from] item: Leftovers
+|turn|27
+|
+|cant|p2a: Rabsca|par
+|cant|p1a: Hatterene|par
+|
+|-heal|p2a: Rabsca|52/100 par|[from] item: Leftovers
+|-heal|p1a: Hatterene|82/100 par|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Rabsca|Stored Power|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|81/100 par
+|move|p1a: Hatterene|Mystical Fire|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|faint|p2a: Rabsca
+|
+|-heal|p1a: Hatterene|87/100 par|[from] item: Leftovers
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|29
+|
+|switch|p2a: Ditto|Ditto, shiny|92/100
+|-transform|p2a: Ditto|p1a: Hatterene|[from] ability: Imposter
+|move|p1a: Hatterene|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|73/100
+|-heal|p1a: Hatterene|100/100 par|[from] drain|[of] p2a: Ditto
+|
+|turn|30
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|84/100 par
+|-heal|p2a: Ditto|86/100|[from] drain|[of] p1a: Hatterene
+|cant|p1a: Hatterene|par
+|
+|-heal|p1a: Hatterene|90/100 par|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|73/100 par
+|-heal|p2a: Ditto|100/100|[from] drain|[of] p1a: Hatterene
+|cant|p1a: Hatterene|par
+|
+|-heal|p1a: Hatterene|78/100 par|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|61/100 par
+|move|p1a: Hatterene|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|83/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Hatterene|67/100 par|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|51/100 par
+|-heal|p2a: Ditto|95/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|77/100
+|-heal|p1a: Hatterene|64/100 par|[from] drain|[of] p2a: Ditto
+|
+|-heal|p1a: Hatterene|70/100 par|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|55/100 par
+|-heal|p2a: Ditto|90/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|73/100
+|-heal|p1a: Hatterene|67/100 par|[from] drain|[of] p2a: Ditto
+|
+|-heal|p1a: Hatterene|73/100 par|[from] item: Leftovers
+|turn|35
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Mew
+|-damage|p2a: Mew|10/100
+|-heal|p1a: Hatterene|100/100 par|[from] drain|[of] p2a: Mew
+|
+|-heal|p2a: Mew|17/100|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Mew|Transform|p1a: Hatterene
+|-transform|p2a: Mew|p1a: Hatterene
+|move|p1a: Hatterene|Mystical Fire|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|
+|switch|p2a: Ditto|Ditto, shiny|73/100
+|-transform|p2a: Ditto|p1a: Hatterene|[from] ability: Imposter
+|turn|37
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|83/100 par
+|-heal|p2a: Ditto|86/100|[from] drain|[of] p1a: Hatterene
+|cant|p1a: Hatterene|par
+|
+|-heal|p1a: Hatterene|89/100 par|[from] item: Leftovers
+|turn|38
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|73/100 par
+|-heal|p2a: Ditto|99/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|80/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Hatterene|79/100 par|[from] item: Leftovers
+|turn|39
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|63/100 par
+|-heal|p2a: Ditto|92/100|[from] drain|[of] p1a: Hatterene
+|cant|p1a: Hatterene|par
+|
+|-heal|p1a: Hatterene|69/100 par|[from] item: Leftovers
+|turn|40
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|55/100 par
+|-heal|p2a: Ditto|100/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Mystical Fire|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-heal|p1a: Hatterene|61/100 par|[from] item: Leftovers
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|41
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|38/100 par
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|13/100 par
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-hitcount|p1: Hatterene|3
+|
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|turn|42
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|83/100
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|66/100
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|51/100
+|-hitcount|p1a: Enamorus|3
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|-heal|p1a: Enamorus|57/100|[from] item: Leftovers
+|turn|43
+|
+|move|p2a: Urshifu|Ice Punch|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Dondozo|Dondozo, M|24/100
+|turn|44
+|
+|move|p2a: Urshifu|Close Combat|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Dondozo
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|45
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|turn|46
+|
+|-terastallize|p1a: Zamazenta|Fighting
+|move|p1a: Zamazenta|Body Press|p2a: Great Tusk
+|-damage|p2a: Great Tusk|42/100
+|move|p2a: Great Tusk|Body Press|p1a: Zamazenta
+|-damage|p1a: Zamazenta|88/100
+|
+|-heal|p1a: Zamazenta|94/100|[from] item: Leftovers
+|-heal|p2a: Great Tusk|49/100|[from] item: Leftovers
+|turn|47
+|
+|move|p1a: Zamazenta|Body Press|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Zamazenta|99/100|[from] item: Leftovers
+|
+|switch|p2a: Moltres|Moltres-Galar, shiny|100/100
+|turn|48
+|
+|move|p1a: Zamazenta|Light Screen|p1a: Zamazenta
+|-sidestart|p1: EHYN|move: Light Screen
+|move|p2a: Moltres|Hurricane|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|62/100
+|-start|p1a: Zamazenta|confusion
+|
+|-heal|p1a: Zamazenta|69/100|[from] item: Leftovers
+|turn|49
+|
+|-activate|p1a: Zamazenta|confusion
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Moltres|Nasty Plot|p2a: Moltres
+|-boost|p2a: Moltres|spa|2
+|
+|-heal|p1a: Zamazenta|75/100|[from] item: Leftovers
+|turn|50
+|
+|-end|p1a: Zamazenta|confusion
+|move|p1a: Zamazenta|Body Press|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-heal|p1a: Zamazenta|81/100|[from] item: Leftovers
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|51
+|
+|move|p1a: Zamazenta|Body Press|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|win|EHYN

@@ -1,0 +1,243 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Indeedee, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Hatterene, F|
+|poke|p1|Armarouge, M|
+|poke|p1|Polteageist-Antique|
+|poke|p2|Magearna|
+|poke|p2|Sneasler, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|16/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Chien-Pao|Crunch|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|-damage|p1a: Chien-Pao|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|55/100|[from] item: Black Sludge
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Crunch|p2a: Corviknight
+|-damage|p2a: Corviknight|41/100
+|-damage|p1a: Chien-Pao|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Corviknight|47/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, M|89/100
+|move|p1a: Chien-Pao|Crunch|p2a: Toxapex
+|-damage|p2a: Toxapex|19/100
+|-damage|p1a: Chien-Pao|71/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|25/100|[from] item: Black Sludge
+|turn|5
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Chien-Pao|Crunch|p2a: Zapdos
+|-damage|p2a: Zapdos|15/100
+|-damage|p1a: Chien-Pao|61/100|[from] item: Life Orb
+|
+|-heal|p2a: Zapdos|21/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-damage|p1a: Chien-Pao|51/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|7
+|
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|move|p2a: Sneasler|Fake Out|p1a: Armarouge
+|-damage|p1a: Armarouge|86/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|turn|8
+|
+|switch|p2a: Corviknight|Corviknight, F|47/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Armarouge|Expanding Force|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|29/100
+|
+|-heal|p2a: Corviknight|35/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Armarouge|Expanding Force|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|16/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|66/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Armarouge|Expanding Force|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100
+|move|p2a: Corviknight|Brave Bird|p1a: Armarouge
+|-damage|p1a: Armarouge|22/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|-damage|p2a: Corviknight|39/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|45/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Armarouge|Armor Cannon|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|12
+|
+|move|p1a: Armarouge|Endure|p1a: Armarouge
+|-singleturn|p1a: Armarouge|move: Endure
+|move|p2a: Sneasler|Fake Out|p1a: Armarouge
+|-activate|p1a: Armarouge|move: Endure
+|-damage|p1a: Armarouge|1/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|turn|13
+|
+|switch|p2a: Toxapex|Toxapex, M|58/100
+|move|p1a: Armarouge|Expanding Force|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|2/100
+|
+|-heal|p2a: Toxapex|8/100|[from] item: Black Sludge
+|turn|14
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Armarouge|Armor Cannon|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|68/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|
+|turn|15
+|
+|move|p1a: Armarouge|Endure|p1a: Armarouge
+|-singleturn|p1a: Armarouge|move: Endure
+|move|p2a: Garchomp|Earthquake|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-crit|p1a: Armarouge
+|-activate|p1a: Armarouge|move: Endure
+|-damage|p1a: Armarouge|1/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-enditem|p1a: Armarouge|Weakness Policy
+|-boost|p1a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Armarouge|spa|2|[from] item: Weakness Policy
+|
+|turn|16
+|
+|switch|p2a: Toxapex|Toxapex, M|42/100
+|move|p1a: Armarouge|Expanding Force|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|
+|switch|p2a: Garchomp|Garchomp, M|68/100
+|turn|17
+|
+|move|p1a: Armarouge|Expanding Force|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|18
+|
+|-terastallize|p2a: Magearna|Psychic
+|move|p1a: Armarouge|Armor Cannon|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|19
+|
+|move|p1a: Armarouge|Endure|p1a: Armarouge
+|-singleturn|p1a: Armarouge|move: Endure
+|move|p2a: Sneasler|Dire Claw|p1a: Armarouge
+|-activate|p1a: Armarouge|move: Endure
+|-damage|p1a: Armarouge|1/100
+|-status|p1a: Armarouge|slp
+|
+|turn|20
+|
+|cant|p1a: Armarouge|slp
+|move|p2a: Sneasler|Dire Claw|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|21
+|
+|move|p2a: Sneasler|Close Combat|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Indeedee
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|22
+|
+|move|p1a: Iron Valiant|Encore|p2a: Sneasler
+|-start|p2a: Sneasler|Encore
+|move|p2a: Sneasler|Close Combat|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|60/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|
+|turn|23
+|
+|move|p1a: Iron Valiant|Spirit Break|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|win|QAQ fish0

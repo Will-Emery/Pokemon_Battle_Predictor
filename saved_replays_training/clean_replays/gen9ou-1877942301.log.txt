@@ -1,0 +1,386 @@
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Volcanion|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Muk-Alola, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Great Tusk|
+|poke|p2|Clodsire, M|
+|poke|p2|Amoonguss, M|
+|teampreview
+|
+|start
+|switch|p1a: Simba|Landorus-Therian, M|100/100
+|switch|p2a: Sushroom|Amoonguss, M|100/100
+|-ability|p1a: Simba|Intimidate|boost
+|-unboost|p2a: Sushroom|atk|1
+|turn|1
+|
+|move|p1a: Simba|U-turn|p2a: Sushroom
+|-damage|p2a: Sushroom|83/100
+|-enditem|p2a: Sushroom|Red Card|[of] p1a: Simba
+|drag|p1a: Peach|Enamorus-Therian, F|100/100
+|move|p2a: Sushroom|Spore|p1a: Peach
+|-immune|p1a: Peach|[from] ability: Overcoat
+|
+|turn|2
+|
+|move|p1a: Peach|Mystical Fire|p2a: Sushroom
+|-supereffective|p2a: Sushroom
+|-damage|p2a: Sushroom|39/100
+|-unboost|p2a: Sushroom|spa|1
+|move|p2a: Sushroom|Sludge Bomb|p1a: Peach
+|-supereffective|p1a: Peach
+|-damage|p1a: Peach|68/100
+|-status|p1a: Peach|psn
+|
+|-heal|p1a: Peach|74/100 psn|[from] item: Leftovers
+|-damage|p1a: Peach|61/100 psn|[from] psn
+|turn|3
+|
+|switch|p2a: Slowqueen|Slowking-Galar, F|100/100
+|move|p1a: Peach|Calm Mind|p1a: Peach
+|-boost|p1a: Peach|spa|1
+|-boost|p1a: Peach|spd|1
+|
+|-heal|p1a: Peach|68/100 psn|[from] item: Leftovers
+|-damage|p1a: Peach|55/100 psn|[from] psn
+|turn|4
+|
+|move|p1a: Peach|Earth Power|p2a: Slowqueen
+|-supereffective|p2a: Slowqueen
+|-damage|p2a: Slowqueen|50/100
+|move|p2a: Slowqueen|Future Sight|p1a: Peach
+|-start|p2a: Slowqueen|move: Future Sight
+|
+|-heal|p1a: Peach|61/100 psn|[from] item: Leftovers
+|-heal|p2a: Slowqueen|56/100|[from] item: Black Sludge
+|-damage|p1a: Peach|49/100 psn|[from] psn
+|turn|5
+|
+|switch|p2a: Toastiana|Rotom-Heat|100/100
+|move|p1a: Peach|Draining Kiss|p2a: Toastiana
+|-resisted|p2a: Toastiana
+|-damage|p2a: Toastiana|80/100
+|-heal|p1a: Peach|62/100 psn|[from] drain|[of] p2a: Toastiana
+|
+|-heal|p1a: Peach|68/100 psn|[from] item: Leftovers
+|-damage|p1a: Peach|56/100 psn|[from] psn
+|turn|6
+|
+|move|p2a: Toastiana|Discharge|p1a: Peach
+|-supereffective|p1a: Peach
+|-damage|p1a: Peach|19/100 psn
+|move|p1a: Peach|Earth Power|p2a: Toastiana
+|-immune|p2a: Toastiana|[from] ability: Levitate
+|
+|-end|p1a: Peach|move: Future Sight
+|-damage|p1a: Peach|0 fnt
+|faint|p1a: Peach
+|
+|switch|p1a: Simba|Landorus-Therian, M|100/100
+|-ability|p1a: Simba|Intimidate|boost
+|-unboost|p2a: Toastiana|atk|1
+|turn|7
+|
+|switch|p2a: Kandy Muse|Great Tusk|100/100
+|move|p1a: Simba|Stealth Rock|p2a: Kandy Muse
+|-sidestart|p2: yaboiAshK.|move: Stealth Rock
+|
+|turn|8
+|
+|move|p1a: Simba|U-turn|p2a: Kandy Muse
+|-resisted|p2a: Kandy Muse
+|-damage|p2a: Kandy Muse|95/100
+|
+|switch|p1a: Mammoth|Great Tusk|100/100|[from] U-turn
+|move|p2a: Kandy Muse|Knock Off|p1a: Mammoth
+|-resisted|p1a: Mammoth
+|-damage|p1a: Mammoth|90/100
+|-enditem|p1a: Mammoth|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Kandy Muse
+|
+|-heal|p2a: Kandy Muse|100/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Mammoth|Knock Off|p2a: Kandy Muse
+|-resisted|p2a: Kandy Muse
+|-damage|p2a: Kandy Muse|92/100
+|-enditem|p2a: Kandy Muse|Leftovers|[from] move: Knock Off|[of] p1a: Mammoth
+|move|p2a: Kandy Muse|Stealth Rock|p1a: Mammoth
+|-sidestart|p1: Steez Ibanez|move: Stealth Rock
+|
+|turn|10
+|
+|move|p1a: Mammoth|Rapid Spin|p2a: Kandy Muse
+|-damage|p2a: Kandy Muse|83/100
+|-boost|p1a: Mammoth|spe|1
+|-sideend|p1: Steez Ibanez|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Mammoth
+|move|p2a: Kandy Muse|Rapid Spin|p1a: Mammoth
+|-damage|p1a: Mammoth|78/100
+|-boost|p2a: Kandy Muse|spe|1
+|-sideend|p2: yaboiAshK.|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Kandy Muse
+|
+|turn|11
+|
+|move|p1a: Mammoth|Headlong Rush|p2a: Kandy Muse
+|-damage|p2a: Kandy Muse|53/100
+|-unboost|p1a: Mammoth|def|1
+|-unboost|p1a: Mammoth|spd|1
+|move|p2a: Kandy Muse|Earthquake|p1a: Mammoth
+|-damage|p1a: Mammoth|33/100
+|
+|turn|12
+|
+|move|p1a: Mammoth|Headlong Rush|p2a: Kandy Muse
+|-crit|p2a: Kandy Muse
+|-damage|p2a: Kandy Muse|5/100
+|-unboost|p1a: Mammoth|def|1
+|-unboost|p1a: Mammoth|spd|1
+|move|p2a: Kandy Muse|Rapid Spin|p1a: Mammoth
+|-damage|p1a: Mammoth|13/100
+|-boost|p2a: Kandy Muse|spe|1
+|
+|turn|13
+|
+|-end|p1a: Mammoth|Protosynthesis|[silent]
+|switch|p1a: Simba|Landorus-Therian, M|100/100
+|-ability|p1a: Simba|Intimidate|boost
+|-unboost|p2a: Kandy Muse|atk|1
+|move|p2a: Kandy Muse|Rapid Spin|p1a: Simba
+|-damage|p1a: Simba|91/100
+|-boost|p2a: Kandy Muse|spe|1
+|-damage|p2a: Kandy Muse|0 fnt|[from] item: Rocky Helmet|[of] p1a: Simba
+|faint|p2a: Kandy Muse
+|-end|p2a: Kandy Muse|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Toothless|Dragapult, F|100/100
+|turn|14
+|
+|-terastallize|p2a: Toothless|Ghost
+|move|p2a: Toothless|Tera Blast|p1a: Simba
+|-damage|p1a: Simba|9/100
+|move|p1a: Simba|Stealth Rock|p2a: Toothless
+|-sidestart|p2: yaboiAshK.|move: Stealth Rock
+|
+|turn|15
+|
+|switch|p1a: New York Water|Muk-Alola, M|100/100
+|move|p2a: Toothless|Tera Blast|p1a: New York Water
+|-resisted|p1a: New York Water
+|-damage|p1a: New York Water|51/100
+|
+|-heal|p1a: New York Water|58/100|[from] item: Black Sludge
+|turn|16
+|
+|switch|p2a: Sushroom|Amoonguss, M|73/100
+|-damage|p2a: Sushroom|60/100|[from] Stealth Rock
+|move|p1a: New York Water|Knock Off|p2a: Sushroom
+|-crit|p2a: Sushroom
+|-damage|p2a: Sushroom|32/100
+|
+|-heal|p1a: New York Water|64/100|[from] item: Black Sludge
+|turn|17
+|
+|move|p1a: New York Water|Protect|p1a: New York Water
+|-singleturn|p1a: New York Water|Protect
+|move|p2a: Sushroom|Spore|p1a: New York Water
+|-activate|p1a: New York Water|move: Protect
+|
+|-heal|p1a: New York Water|70/100|[from] item: Black Sludge
+|turn|18
+|
+|move|p1a: New York Water|Poison Jab|p2a: Sushroom
+|-damage|p2a: Sushroom|12/100
+|move|p2a: Sushroom|Spore|p1a: New York Water
+|-status|p1a: New York Water|slp|[from] move: Spore
+|
+|-heal|p1a: New York Water|76/100 slp|[from] item: Black Sludge
+|turn|19
+|
+|switch|p2a: Toothless|Dragapult, F, tera:Ghost|100/100
+|-damage|p2a: Toothless|88/100|[from] Stealth Rock
+|cant|p1a: New York Water|slp
+|
+|-heal|p1a: New York Water|82/100 slp|[from] item: Black Sludge
+|turn|20
+|
+|-curestatus|p1a: New York Water|slp|[msg]
+|move|p1a: New York Water|Protect|p1a: New York Water
+|-singleturn|p1a: New York Water|Protect
+|move|p2a: Toothless|Dragon Darts|p1a: New York Water
+|-activate|p1a: New York Water|move: Protect
+|
+|-heal|p1a: New York Water|88/100|[from] item: Black Sludge
+|turn|21
+|
+|switch|p2a: Eclair|Clodsire, M|100/100
+|-damage|p2a: Eclair|94/100|[from] Stealth Rock
+|switch|p1a: Simba|Landorus-Therian, M|9/100
+|-ability|p1a: Simba|Intimidate|boost
+|-unboost|p2a: Eclair|atk|1
+|
+|-heal|p2a: Eclair|100/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Toastiana|Rotom-Heat|80/100
+|move|p1a: Simba|Earthquake|p2a: Toastiana
+|-immune|p2a: Toastiana|[from] ability: Levitate
+|
+|turn|23
+|
+|move|p2a: Toastiana|Overheat|p1a: Simba
+|-damage|p1a: Simba|0 fnt
+|-unboost|p2a: Toastiana|spa|2
+|faint|p1a: Simba
+|
+|
+|switch|p1a: Tanjiro|Volcanion|100/100
+|turn|24
+|
+|move|p2a: Toastiana|Volt Switch|p1a: Tanjiro
+|-supereffective|p1a: Tanjiro
+|-damage|p1a: Tanjiro|67/100
+|
+|switch|p2a: Eclair|Clodsire, M|100/100|[from] Volt Switch
+|-damage|p2a: Eclair|94/100|[from] Stealth Rock
+|move|p1a: Tanjiro|Earth Power|p2a: Eclair
+|-supereffective|p2a: Eclair
+|-damage|p2a: Eclair|61/100
+|
+|-heal|p2a: Eclair|67/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Tanjiro|Taunt|p2a: Eclair
+|-start|p2a: Eclair|move: Taunt
+|cant|p2a: Eclair|move: Taunt|Toxic
+|
+|-heal|p2a: Eclair|73/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Tanjiro|Earth Power|p2a: Eclair
+|-supereffective|p2a: Eclair
+|-damage|p2a: Eclair|39/100
+|move|p2a: Eclair|Earthquake|p1a: Tanjiro
+|-supereffective|p1a: Tanjiro
+|-damage|p1a: Tanjiro|10/100
+|
+|-heal|p2a: Eclair|45/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Tanjiro|Steam Eruption|p2a: Eclair
+|-heal|p2a: Eclair|70/100|[from] ability: Water Absorb|[of] p1a: Tanjiro
+|move|p2a: Eclair|Earthquake|p1a: Tanjiro
+|-supereffective|p1a: Tanjiro
+|-damage|p1a: Tanjiro|0 fnt
+|faint|p1a: Tanjiro
+|
+|-heal|p2a: Eclair|76/100|[from] item: Leftovers
+|-end|p2a: Eclair|move: Taunt
+|
+|switch|p1a: Mammoth|Great Tusk|13/100
+|turn|28
+|
+|move|p1a: Mammoth|Headlong Rush|p2a: Eclair
+|-supereffective|p2a: Eclair
+|-damage|p2a: Eclair|0 fnt
+|-unboost|p1a: Mammoth|def|1
+|-unboost|p1a: Mammoth|spd|1
+|faint|p2a: Eclair
+|
+|
+|switch|p2a: Toothless|Dragapult, F, tera:Ghost|88/100
+|-damage|p2a: Toothless|76/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Toothless|Dragon Darts|p1a: Mammoth
+|-damage|p1a: Mammoth|0 fnt
+|faint|p1a: Mammoth
+|-end|p1a: Mammoth|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Akamaru|Arcanine-Hisui, M|100/100
+|-ability|p1a: Akamaru|Intimidate|boost
+|-fail|p2a: Toothless|unboost|[from] ability: Clear Body|[of] p2a: Toothless
+|turn|30
+|
+|move|p2a: Toothless|Dragon Darts|p1a: Akamaru
+|-damage|p1a: Akamaru|64/100
+|-anim|p2a: Toothless|Dragon Darts|p1a: Akamaru
+|-damage|p1a: Akamaru|32/100
+|move|p1a: Akamaru|Will-O-Wisp|p2a: Toothless
+|-status|p2a: Toothless|brn
+|
+|-damage|p2a: Toothless|70/100 brn|[from] brn
+|turn|31
+|
+|move|p2a: Toothless|Dragon Darts|p1a: Akamaru
+|-damage|p1a: Akamaru|16/100
+|-anim|p2a: Toothless|Dragon Darts|p1a: Akamaru
+|-damage|p1a: Akamaru|0 fnt
+|faint|p1a: Akamaru
+|
+|-damage|p2a: Toothless|64/100 brn|[from] brn
+|
+|switch|p1a: New York Water|Muk-Alola, M|88/100
+|turn|32
+|
+|move|p1a: New York Water|Protect|p1a: New York Water
+|-singleturn|p1a: New York Water|Protect
+|move|p2a: Toothless|Dragon Darts|p1a: New York Water
+|-activate|p1a: New York Water|move: Protect
+|
+|-heal|p1a: New York Water|94/100|[from] item: Black Sludge
+|-damage|p2a: Toothless|58/100 brn|[from] brn
+|turn|33
+|
+|move|p2a: Toothless|Dragon Darts|p1a: New York Water
+|-damage|p1a: New York Water|73/100
+|-anim|p2a: Toothless|Dragon Darts|p1a: New York Water
+|-damage|p1a: New York Water|53/100
+|move|p1a: New York Water|Knock Off|p2a: Toothless
+|-supereffective|p2a: Toothless
+|-damage|p2a: Toothless|0 fnt
+|-enditem|p2a: Toothless|Choice Band|[from] move: Knock Off|[of] p1a: New York Water
+|faint|p2a: Toothless
+|
+|-heal|p1a: New York Water|59/100|[from] item: Black Sludge
+|
+|switch|p2a: Toastiana|Rotom-Heat|80/100
+|turn|34
+|
+|move|p1a: New York Water|Protect|p1a: New York Water
+|-singleturn|p1a: New York Water|Protect
+|move|p2a: Toastiana|Nasty Plot|p2a: Toastiana
+|-boost|p2a: Toastiana|spa|2
+|
+|-heal|p1a: New York Water|65/100|[from] item: Black Sludge
+|turn|35
+|
+|move|p2a: Toastiana|Discharge|p1a: New York Water
+|-damage|p1a: New York Water|31/100
+|move|p1a: New York Water|Toxic|p2a: Toastiana
+|-status|p2a: Toastiana|tox
+|
+|-heal|p1a: New York Water|37/100|[from] item: Black Sludge
+|-damage|p2a: Toastiana|74/100 tox|[from] psn
+|turn|36
+|
+|move|p1a: New York Water|Protect|p1a: New York Water
+|-singleturn|p1a: New York Water|Protect
+|move|p2a: Toastiana|Overheat|p1a: New York Water
+|-activate|p1a: New York Water|move: Protect
+|
+|-heal|p1a: New York Water|43/100|[from] item: Black Sludge
+|-damage|p2a: Toastiana|63/100 tox|[from] psn
+|turn|37
+|
+|move|p2a: Toastiana|Overheat|p1a: New York Water
+|-damage|p1a: New York Water|0 fnt
+|-unboost|p2a: Toastiana|spa|2
+|faint|p1a: New York Water
+|
+|win|yaboiAshK.

@@ -1,0 +1,76 @@
+|poke|p1|Dragonite, F|
+|poke|p1|Azumarill, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Amoonguss, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Amoonguss, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Great Tusk|
+|poke|p2|Tauros, M|
+|poke|p2|Raichu, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|1
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|37/100
+|move|p2a: Amoonguss|Poison Powder|p1a: Dragonite
+|-status|p1a: Dragonite|psn
+|
+|-damage|p1a: Dragonite|88/100 psn|[from] psn
+|turn|2
+|n|!SharkNerd1010|sharknerd1010
+|
+|move|p1a: Dragonite|Fire Punch|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-damage|p1a: Dragonite|76/100 psn|[from] psn
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|3
+|
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-damage|p1a: Dragonite|63/100 psn|[from] psn
+|turn|4
+|
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: Clodsire|Protect||[still]
+|-fail|p2a: Clodsire
+|move|p1a: Dragonite|Extreme Speed|p2a: Clodsire
+|-damage|p2a: Clodsire|27/100
+|
+|-heal|p2a: Clodsire|34/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|51/100 psn|[from] psn
+|turn|5
+|
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Clodsire|40/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|39/100 psn|[from] psn
+|turn|6
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-damage|p1a: Dragonite|26/100 psn|[from] psn
+|-message|SharkNerd1010 forfeited.
+|
+|win|uxaz

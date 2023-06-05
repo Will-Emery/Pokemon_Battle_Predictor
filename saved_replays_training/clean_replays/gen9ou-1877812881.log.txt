@@ -1,0 +1,382 @@
+|poke|p1|Maushold|
+|poke|p1|Sneasler, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|poke|p2|Hippowdon, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Zapdos|Hurricane|p2a: Hippowdon
+|-damage|p2a: Hippowdon|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|73/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Maushold|Maushold|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Maushold
+|-sidestart|p1: WoChien<3|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Maushold|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|79/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Maushold|Encore|p2a: Hippowdon
+|-start|p2a: Hippowdon|Encore
+|move|p2a: Hippowdon|Stealth Rock||[still]
+|-fail|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Maushold|88/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|85/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: WoChien<3|Stealth Rock
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Maushold|82/100|[from] Sandstorm
+|turn|5
+|
+|switch|p1a: Zapdos|Zapdos|94/100
+|move|p2a: Corviknight|Brave Bird|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|81/100
+|-damage|p2a: Corviknight|96/100|[from] Recoil
+|
+|-weather|none
+|turn|6
+|
+|switch|p2a: Hippowdon|Hippowdon, M|85/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Zapdos|Volt Switch|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|75/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|92/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Hippowdon|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: WoChien<3|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|98/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Zapdos|Hurricane|p2a: Hippowdon|[miss]
+|-miss|p1a: Zapdos|p2a: Hippowdon
+|move|p2a: Hippowdon|Whirlwind|p1a: Zapdos
+|drag|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Hippowdon
+|-damage|p2a: Hippowdon|56/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Hippowdon|Whirlwind|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|62/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Maushold|Maushold|82/100
+|-damage|p1a: Maushold|69/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|100/100
+|
+|-weather|none
+|turn|11
+|
+|move|p1a: Maushold|Encore|p2a: Hippowdon
+|-start|p2a: Hippowdon|Encore
+|move|p2a: Hippowdon|Slack Off||[still]
+|-fail|p2a: Hippowdon|heal
+|
+|turn|12
+|
+|switch|p2a: Corviknight|Corviknight, F|96/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: WoChien<3|Stealth Rock
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|turn|13
+|
+|switch|p1a: Gholdengo|Gholdengo|94/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Corviknight|Brave Bird|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|78/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|-damage|p2a: Corviknight|91/100|[from] Recoil
+|
+|turn|14
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|turn|15
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Hippowdon
+|-damage|p2a: Hippowdon|22/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Hippowdon|Stealth Rock|p1a: Gholdengo
+|-sidestart|p1: WoChien<3|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|29/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|17
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|37/100|[from] Sandstorm
+|turn|18
+|
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Corviknight|Corviknight, F|91/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Sneasler|Fake Out|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|87/100
+|
+|-weather|none
+|turn|19
+|
+|move|p1a: Sneasler|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|83/100
+|
+|switch|p1a: Zapdos|Zapdos|94/100|[from] U-turn
+|move|p2a: Corviknight|Brave Bird|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|80/100
+|-status|p2a: Corviknight|par|[from] ability: Static|[of] p1a: Zapdos
+|-damage|p2a: Corviknight|79/100 par|[from] Recoil
+|
+|turn|20
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Great Tusk
+|-damage|p2a: Great Tusk|68/100
+|
+|-heal|p2a: Great Tusk|74/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Zapdos|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|22
+|
+|switch|p1a: Gholdengo|Gholdengo|78/100
+|-damage|p1a: Gholdengo|72/100|[from] Stealth Rock
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|turn|23
+|
+|-terastallize|p2a: Hatterene|Water
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Hatterene|Mystical Fire|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|3/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|turn|24
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Hatterene|64/100|[from] item: Leftovers
+|
+|switch|p1a: Sneasler|Sneasler, M|37/100
+|-damage|p1a: Sneasler|31/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Sneasler|Fake Out|p2a: Hatterene
+|-damage|p2a: Hatterene|52/100
+|cant|p2a: Hatterene|flinch
+|
+|-heal|p2a: Hatterene|58/100|[from] item: Leftovers
+|turn|26
+|
+|-terastallize|p1a: Sneasler|Fighting
+|move|p1a: Sneasler|Close Combat|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|27
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|88/100
+|-status|p2a: Toxapex|slp
+|cant|p2a: Toxapex|slp
+|
+|-heal|p2a: Toxapex|95/100 slp|[from] item: Leftovers
+|turn|28
+|
+|switch|p1a: Zapdos|Zapdos|80/100
+|cant|p2a: Toxapex|slp
+|
+|-heal|p2a: Toxapex|100/100 slp|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100 slp
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] Volt Switch
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|cant|p2a: Toxapex|slp
+|
+|-heal|p2a: Toxapex|59/100 slp|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Garchomp|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|-damage|p1a: Garchomp|85/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Corviknight|Corviknight, F|79/100 par
+|-ability|p2a: Corviknight|Pressure
+|turn|31
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|13/100 par
+|-damage|p1a: Garchomp|75/100|[from] item: Life Orb
+|move|p2a: Corviknight|Brave Bird|p1a: Garchomp
+|-damage|p1a: Garchomp|38/100
+|-damage|p2a: Corviknight|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|32
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Kingambit|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Kingambit|94/100|[from] item: Leftovers
+|
+|switch|p1a: Maushold|Maushold|69/100
+|-damage|p1a: Maushold|57/100|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Maushold|Encore|p2a: Kingambit
+|-start|p2a: Kingambit|Encore
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: WoChien<3|Stealth Rock
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|turn|35
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|-end|p2a: Kingambit|Encore
+|turn|36
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Maushold|Encore|p2a: Kingambit
+|-start|p2a: Kingambit|Encore
+|
+|turn|37
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|turn|38
+|-message|BVRZUM forfeited.
+|
+|win|WoChien<3

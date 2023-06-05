@@ -1,0 +1,269 @@
+|poke|p1|Glastrier|
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Volcarona, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|1
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|2
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|61/100
+|-unboost|p1a: Magearna|spa|2
+|-enditem|p1a: Magearna|Eject Pack
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|-terastallize|p2a: Volcarona|Grass
+|move|p1a: Ursaluna|Facade|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|turn|4
+|
+|move|p1a: Ursaluna|Facade|p2a: Ursaluna
+|-damage|p2a: Ursaluna|15/100
+|move|p2a: Ursaluna|Facade|p1a: Ursaluna
+|-damage|p1a: Ursaluna|68/100 brn
+|
+|-damage|p1a: Ursaluna|62/100 brn|[from] brn
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|5
+|
+|move|p1a: Ursaluna|Facade|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-damage|p1a: Ursaluna|56/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|6
+|
+|move|p2a: Urshifu|Bulk Up|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|1
+|-boost|p2a: Urshifu|def|1
+|move|p1a: Ursaluna|Fling|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|94/100
+|-status|p2a: Urshifu|brn
+|-enditem|p2a: Urshifu|Lum Berry|[eat]
+|-curestatus|p2a: Urshifu|brn|[msg]
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Fling
+|
+|-damage|p1a: Ursaluna|49/100 brn|[from] brn
+|turn|7
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Urshifu|Drain Punch|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|84/100
+|-heal|p2a: Urshifu|100/100|[from] drain|[of] p1a: Cresselia
+|
+|turn|8
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Cresselia
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|67/100
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|48/100
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|33/100
+|-hitcount|p1a: Cresselia|3
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|9
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Cresselia
+|-damage|p1a: Cresselia|14/100
+|move|p1a: Cresselia|Ice Beam|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|79/100
+|-status|p2a: Urshifu|frz
+|
+|turn|10
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|cant|p2a: Urshifu|frz
+|
+|turn|11
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Slowking|Psychic|p2a: Hydreigon
+|-immune|p2a: Hydreigon
+|
+|turn|12
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Chilly Reception
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|turn|13
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|68/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Hydreigon|[miss]
+|-miss|p1a: Magearna|p2a: Hydreigon
+|
+|-weather|Snow|[upkeep]
+|turn|14
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|35/100
+|cant|p1a: Magearna|flinch
+|
+|-weather|Snow|[upkeep]
+|turn|15
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|turn|16
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Glastrier
+|-damage|p1a: Glastrier|39/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|-weather|none
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|79/100 frz
+|turn|17
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|cant|p2a: Urshifu|frz
+|
+|turn|18
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Slowking|Psychic|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|85/100
+|
+|-heal|p2a: Magearna|91/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Slowking|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|43/100
+|
+|-heal|p2a: Magearna|49/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Magearna|Aura Sphere|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|95/100
+|move|p1a: Slowking|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|4/100
+|
+|-heal|p2a: Magearna|10/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Magearna|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|69/100
+|move|p1a: Slowking|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|22
+|
+|move|p2a: Dragonite|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-enditem|p1a: Slowking|Shuca Berry|[eat]
+|-enditem|p1a: Slowking|Shuca Berry|[weaken]
+|-damage|p1a: Slowking|42/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|23
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Cresselia|Cresselia, F|14/100|[from] Chilly Reception
+|move|p2a: Dragonite|Earthquake|p1a: Cresselia
+|-immune|p1a: Cresselia|[from] ability: Levitate
+|
+|-weather|Snow|[upkeep]
+|turn|24
+|
+|move|p1a: Cresselia|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|62/100
+|move|p2a: Dragonite|Dragon Claw|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Ursaluna|Ursaluna, F|49/100 brn
+|turn|25
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|79/100 frz
+|move|p1a: Ursaluna|Facade|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Ursaluna|43/100 brn|[from] brn
+|
+|switch|p2a: Dragonite|Dragonite, F|62/100
+|turn|26
+|
+|move|p1a: Ursaluna|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|cooolguy420

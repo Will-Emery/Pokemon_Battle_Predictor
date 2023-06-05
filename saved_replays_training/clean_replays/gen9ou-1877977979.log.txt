@@ -1,0 +1,395 @@
+|poke|p1|Great Tusk|
+|poke|p1|Meowscarada, F|
+|poke|p1|Gholdengo|
+|poke|p1|Walking Wake|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Roaring Moon|
+|poke|p2|Pelipper, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Barraskewda, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Gholdengo|
+|poke|p2|Quaquaval, M|
+|teampreview
+|
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Garchomp|Dragon Tail|p1a: Meowscarada|[miss]
+|-miss|p2a: Garchomp|p1a: Meowscarada
+|
+|turn|2
+|
+|move|p1a: Meowscarada|Play Rough|p2a: Garchomp
+|-start|p1a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|43/100
+|-damage|p1a: Meowscarada|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Meowscarada|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|move|p2a: Garchomp|Stealth Rock|p1a: Meowscarada
+|-sidestart|p1: pppaapapap|move: Stealth Rock
+|
+|turn|3
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Meowscarada|Play Rough|p2a: Gholdengo|[miss]
+|-miss|p1a: Meowscarada|p2a: Gholdengo
+|
+|turn|4
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|45/100
+|-enditem|p2a: Gholdengo|Covert Cloak|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Gholdengo|Thunder Wave|p1a: Meowscarada
+|-status|p1a: Meowscarada|par
+|
+|turn|5
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|95/100
+|move|p1a: Meowscarada|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|61/100
+|
+|turn|6
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|100/100
+|move|p1a: Meowscarada|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|68/100
+|
+|turn|7
+|
+|move|p2a: Gholdengo|Hex|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|turn|9
+|
+|switch|p2a: Garchomp|Garchomp, M|43/100
+|-terastallize|p1a: Great Tusk|Fairy
+|move|p1a: Great Tusk|Rapid Spin|p2a: Garchomp
+|-damage|p2a: Garchomp|27/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|85/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Great Tusk|69/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|-sideend|p1: pppaapapap|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|10
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|11
+|
+|move|p1a: Great Tusk|Play Rough|p2a: Pelipper
+|-damage|p2a: Pelipper|42/100
+|move|p2a: Pelipper|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|65/100
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|-terastallize|p2a: Barraskewda|Water
+|move|p2a: Barraskewda|Liquidation|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|13
+|
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|move|p1a: Walking Wake|Sunny Day|p1a: Walking Wake
+|-weather|SunnyDay
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|turn|14
+|
+|move|p1a: Walking Wake|Draco Meteor|p2a: Quaquaval
+|-damage|p2a: Quaquaval|6/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Quaquaval|Close Combat|p1a: Walking Wake
+|-damage|p1a: Walking Wake|34/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Walking Wake|41/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Walking Wake|47/100|[from] item: Leftovers
+|
+|switch|p2a: Pelipper|Pelipper, M|42/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Walking Wake|Protosynthesis
+|turn|16
+|
+|move|p1a: Walking Wake|Sunny Day|p1a: Walking Wake
+|-weather|SunnyDay
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|92/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Walking Wake|53/100|[from] item: Leftovers
+|turn|17
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|-activate|p1a: Roaring Moon|ability: Protosynthesis
+|-start|p1a: Roaring Moon|protosynthesisatk
+|move|p2a: Pelipper|U-turn|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|78/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|turn|18
+|
+|move|p1a: Roaring Moon|Acrobatics|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|88/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Roaring Moon
+|-status|p1a: Roaring Moon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-damage|p1a: Roaring Moon|72/100 brn|[from] brn
+|turn|19
+|
+|switch|p2a: Pelipper|Pelipper, M|92/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Roaring Moon|Protosynthesis
+|-enditem|p1a: Roaring Moon|Booster Energy
+|-activate|p1a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Roaring Moon|protosynthesisatk
+|move|p1a: Roaring Moon|Scale Shot|p2a: Pelipper
+|-damage|p2a: Pelipper|83/100
+|-damage|p2a: Pelipper|74/100
+|-damage|p2a: Pelipper|65/100
+|-hitcount|p2a: Pelipper|3
+|-unboost|p1a: Roaring Moon|def|1
+|-boost|p1a: Roaring Moon|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Roaring Moon|66/100 brn|[from] brn
+|turn|20
+|
+|move|p1a: Roaring Moon|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|36/100
+|move|p2a: Pelipper|U-turn|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|35/100 brn
+|
+|switch|p2a: Barraskewda|Barraskewda, M, tera:Water|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Roaring Moon|29/100 brn|[from] brn
+|turn|21
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Roaring Moon
+|-resisted|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|22
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Gholdengo
+|-enditem|p1a: Gholdengo|Focus Sash
+|-damage|p1a: Gholdengo|1/100
+|-unboost|p1a: Gholdengo|def|1
+|move|p1a: Gholdengo|Thunderbolt|p2a: Barraskewda
+|-supereffective|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Rotom|Rotom-Wash|94/100
+|turn|23
+|
+|move|p1a: Gholdengo|Thunderbolt|p2a: Rotom
+|-damage|p2a: Rotom|66/100
+|move|p2a: Rotom|Volt Switch|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|switch|p2a: Gholdengo|Gholdengo|68/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake|53/100
+|turn|24
+|
+|move|p1a: Walking Wake|Sunny Day|p1a: Walking Wake
+|-weather|SunnyDay
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Gholdengo|Thunder Wave|p1a: Walking Wake
+|-status|p1a: Walking Wake|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Walking Wake|59/100 par|[from] item: Leftovers
+|turn|25
+|
+|switch|p2a: Pelipper|Pelipper, M|36/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-end|p1a: Walking Wake|Protosynthesis
+|move|p1a: Walking Wake|Flamethrower|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|28/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Walking Wake|65/100 par|[from] item: Leftovers
+|turn|26
+|
+|cant|p1a: Walking Wake|par
+|move|p2a: Pelipper|Hurricane|p1a: Walking Wake
+|-damage|p1a: Walking Wake|12/100 par
+|-start|p1a: Walking Wake|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Walking Wake|18/100 par|[from] item: Leftovers
+|turn|27
+|
+|-activate|p1a: Walking Wake|confusion
+|-damage|p1a: Walking Wake|11/100 par|[from] confusion
+|move|p2a: Pelipper|Hurricane|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|28
+|
+|move|p1a: Arcanine|Head Smash|p2a: Pelipper|[miss]
+|-miss|p1a: Arcanine|p2a: Pelipper
+|move|p2a: Pelipper|Hydro Pump|p1a: Arcanine|[miss]
+|-miss|p2a: Pelipper|p1a: Arcanine
+|
+|-weather|RainDance|[upkeep]
+|turn|29
+|
+|move|p1a: Arcanine|Head Smash|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Rotom|Rotom-Wash|66/100
+|turn|30
+|
+|move|p1a: Arcanine|Head Smash|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Gholdengo|Gholdengo|68/100
+|turn|31
+|
+|move|p1a: Arcanine|Head Smash|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|22/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Arcanine
+|-status|p1a: Arcanine|par
+|
+|-weather|RainDance|[upkeep]
+|turn|32
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|72/100
+|move|p1a: Arcanine|Head Smash|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|31/100
+|
+|-weather|none
+|turn|33
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|81/100
+|move|p1a: Arcanine|Head Smash|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|9/100
+|
+|turn|34
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|59/100
+|move|p1a: Arcanine|Head Smash|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|13/100
+|
+|turn|35
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|63/100
+|move|p1a: Arcanine|Head Smash|p2a: Gholdengo|[miss]
+|-miss|p1a: Arcanine|p2a: Gholdengo
+|
+|turn|36
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|100/100
+|cant|p1a: Arcanine|par
+|
+|turn|37
+|
+|move|p2a: Gholdengo|Hex|p1a: Arcanine
+|-damage|p1a: Arcanine|16/100 par
+|-activate|p1a: Arcanine|move: Struggle
+|move|p1a: Arcanine|Struggle|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|68/100
+|-damage|p1a: Arcanine|0 fnt|[from] recoil
+|faint|p1a: Arcanine
+|
+|win|Steezy1

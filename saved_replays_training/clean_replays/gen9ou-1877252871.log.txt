@@ -1,0 +1,697 @@
+|poke|p1|Roaring Moon|
+|poke|p1|Salamence, M|
+|poke|p1|Eelektross, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Scizor, F|
+|poke|p1|Gastrodon, M|
+|poke|p2|Dondozo, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Kilowattrel, M|
+|poke|p2|Blissey, F|
+|poke|p2|Glaceon, M|
+|poke|p2|Toedscruel, F|
+|teampreview
+|
+|start
+|switch|p1a: up high!|Scizor, F|100/100
+|switch|p2a: Glaceon|Glaceon, M|100/100
+|turn|1
+|
+|-terastallize|p2a: Glaceon|Fire
+|move|p1a: up high!|Bullet Punch|p2a: Glaceon
+|-resisted|p2a: Glaceon
+|-damage|p2a: Glaceon|73/100
+|move|p2a: Glaceon|Tera Blast|p1a: up high!
+|-supereffective|p1a: up high!
+|-damage|p1a: up high!|0 fnt
+|faint|p1a: up high!
+|
+|
+|switch|p1a: The Boi|Clodsire, F|100/100
+|turn|2
+|
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: The Boi|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|86/100
+|
+|-heal|p2a: Dondozo|92/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Live Slug Reaction|Gastrodon, M|100/100
+|move|p2a: Dondozo|Ice Fang|p1a: Live Slug Reaction
+|-damage|p1a: Live Slug Reaction|81/100
+|
+|-heal|p1a: Live Slug Reaction|87/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|98/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Toedscruel|Toedscruel, F|100/100
+|move|p1a: Live Slug Reaction|Spikes|p2a: Toedscruel
+|-sidestart|p2: BagMan187|Spikes
+|
+|-heal|p1a: Live Slug Reaction|93/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Daniel|Salamence, M|100/100
+|-ability|p1a: Daniel|Intimidate|boost
+|-unboost|p2a: Toedscruel|atk|1
+|move|p2a: Toedscruel|Rapid Spin|p1a: Daniel
+|-damage|p1a: Daniel|94/100
+|-boost|p2a: Toedscruel|spe|1
+|-sideend|p2: BagMan187|Spikes|[from] move: Rapid Spin|[of] p2a: Toedscruel
+|
+|turn|6
+|
+|move|p1a: Daniel|Air Slash|p2a: Toedscruel
+|-supereffective|p2a: Toedscruel
+|-damage|p2a: Toedscruel|43/100
+|cant|p2a: Toedscruel|flinch
+|
+|-heal|p2a: Toedscruel|49/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|move|p1a: Daniel|Air Slash|p2a: Kilowattrel
+|-resisted|p2a: Kilowattrel
+|-crit|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|59/100
+|
+|turn|8
+|
+|switch|p1a: Livewire|Eelektross, M|100/100
+|move|p2a: Kilowattrel|Roost|p2a: Kilowattrel
+|-heal|p2a: Kilowattrel|100/100
+|-singleturn|p2a: Kilowattrel|move: Roost
+|
+|turn|9
+|
+|move|p2a: Kilowattrel|U-turn|p1a: Livewire
+|-damage|p1a: Livewire|88/100
+|
+|switch|p2a: Blissey|Blissey, F|100/100|[from] U-turn
+|move|p1a: Livewire|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|
+|-heal|p2a: Blissey|98/100|[from] item: Leftovers
+|-heal|p1a: Livewire|94/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Live Slug Reaction|Gastrodon, M|93/100
+|move|p2a: Blissey|Seismic Toss|p1a: Live Slug Reaction
+|-damage|p1a: Live Slug Reaction|70/100
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|-heal|p1a: Live Slug Reaction|76/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Toedscruel|Toedscruel, F|49/100
+|move|p1a: Live Slug Reaction|Spikes|p2a: Toedscruel
+|-sidestart|p2: BagMan187|Spikes
+|
+|-heal|p2a: Toedscruel|55/100|[from] item: Leftovers
+|-heal|p1a: Live Slug Reaction|82/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: The cooler Daniel|Roaring Moon|100/100
+|move|p2a: Toedscruel|Spore|p1a: The cooler Daniel
+|-status|p1a: The cooler Daniel|slp|[from] move: Spore
+|
+|-heal|p2a: Toedscruel|62/100|[from] item: Leftovers
+|turn|13
+|
+|cant|p1a: The cooler Daniel|slp
+|move|p2a: Toedscruel|Dazzling Gleam|p1a: The cooler Daniel
+|-supereffective|p1a: The cooler Daniel
+|-damage|p1a: The cooler Daniel|38/100 slp
+|
+|-heal|p2a: Toedscruel|68/100|[from] item: Leftovers
+|turn|14
+|
+|-end|p1a: The cooler Daniel|Protosynthesis|[silent]
+|switch|p1a: Livewire|Eelektross, M|94/100
+|move|p2a: Toedscruel|Rapid Spin|p1a: Livewire
+|-damage|p1a: Livewire|86/100
+|-boost|p2a: Toedscruel|spe|1
+|-sideend|p2: BagMan187|Spikes|[from] move: Rapid Spin|[of] p2a: Toedscruel
+|
+|-heal|p2a: Toedscruel|74/100|[from] item: Leftovers
+|-heal|p1a: Livewire|92/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Livewire|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|-heal|p1a: Livewire|98/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Glaceon|Glaceon, M, tera:Fire|73/100
+|switch|p1a: The Boi|Clodsire, F|100/100
+|
+|turn|17
+|
+|move|p2a: Glaceon|Ice Beam|p1a: The Boi
+|-supereffective|p1a: The Boi
+|-damage|p1a: The Boi|54/100
+|-status|p1a: The Boi|frz
+|cant|p1a: The Boi|frz
+|
+|-heal|p1a: The Boi|60/100 frz|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Dondozo|Dondozo, F|98/100
+|cant|p1a: The Boi|frz
+|
+|-heal|p2a: Dondozo|100/100|[from] item: Leftovers
+|-heal|p1a: The Boi|66/100 frz|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: Live Slug Reaction|Gastrodon, M|82/100
+|move|p2a: Dondozo|Ice Fang|p1a: Live Slug Reaction
+|-damage|p1a: Live Slug Reaction|61/100
+|
+|-heal|p1a: Live Slug Reaction|67/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Live Slug Reaction|Earth Power|p2a: Dondozo
+|-damage|p2a: Dondozo|73/100
+|move|p2a: Dondozo|Ice Fang|p1a: Live Slug Reaction
+|-damage|p1a: Live Slug Reaction|46/100
+|
+|-heal|p1a: Live Slug Reaction|52/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|80/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Live Slug Reaction|Recover|p1a: Live Slug Reaction
+|-heal|p1a: Live Slug Reaction|100/100
+|move|p2a: Dondozo|Ice Fang|p1a: Live Slug Reaction
+|-damage|p1a: Live Slug Reaction|82/100
+|
+|-heal|p1a: Live Slug Reaction|88/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|86/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Live Slug Reaction|Earth Power|p2a: Dondozo
+|-damage|p2a: Dondozo|56/100
+|move|p2a: Dondozo|Ice Fang|p1a: Live Slug Reaction
+|-damage|p1a: Live Slug Reaction|69/100
+|
+|-heal|p1a: Live Slug Reaction|75/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|62/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p2a: Toedscruel|Toedscruel, F|74/100
+|move|p1a: Live Slug Reaction|Earth Power|p2a: Toedscruel
+|-resisted|p2a: Toedscruel
+|-damage|p2a: Toedscruel|63/100
+|
+|-heal|p2a: Toedscruel|69/100|[from] item: Leftovers
+|-heal|p1a: Live Slug Reaction|81/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p1a: Livewire|Eelektross, M|98/100
+|move|p2a: Toedscruel|Giga Drain|p1a: Livewire
+|-damage|p1a: Livewire|75/100
+|-heal|p2a: Toedscruel|83/100|[from] drain|[of] p1a: Livewire
+|
+|-heal|p2a: Toedscruel|89/100|[from] item: Leftovers
+|-heal|p1a: Livewire|81/100|[from] item: Leftovers
+|turn|25
+|
+|switch|p2a: Blissey|Blissey, F|97/100
+|move|p1a: Livewire|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|
+|-heal|p2a: Blissey|93/100|[from] item: Leftovers
+|-heal|p1a: Livewire|87/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p1a: The Boi|Clodsire, F|66/100 frz
+|move|p2a: Blissey|Seismic Toss|p1a: The Boi
+|-damage|p1a: The Boi|44/100 frz
+|
+|-heal|p2a: Blissey|99/100|[from] item: Leftovers
+|-heal|p1a: The Boi|51/100 frz|[from] item: Leftovers
+|turn|27
+|
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|cant|p1a: The Boi|frz
+|
+|-heal|p1a: The Boi|57/100 frz|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Kilowattrel|Hyper Voice|p1a: The Boi
+|-damage|p1a: The Boi|21/100 frz
+|-curestatus|p1a: The Boi|frz|[msg]
+|move|p1a: The Boi|Recover|p1a: The Boi
+|-heal|p1a: The Boi|71/100
+|
+|-heal|p1a: The Boi|77/100|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Kilowattrel|Hyper Voice|p1a: The Boi
+|-crit|p1a: The Boi
+|-damage|p1a: The Boi|18/100
+|move|p1a: The Boi|Earthquake|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|48/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|-heal|p1a: The Boi|25/100|[from] item: Leftovers
+|turn|30
+|
+|-terastallize|p1a: The Boi|Ghost
+|move|p2a: Zoroark|Hyper Voice|p1a: The Boi
+|-immune|p1a: The Boi
+|move|p1a: The Boi|Earthquake|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-heal|p1a: The Boi|31/100|[from] item: Leftovers
+|
+|switch|p2a: Glaceon|Glaceon, M, tera:Fire|73/100
+|turn|31
+|
+|switch|p2a: Toedscruel|Toedscruel, F|89/100
+|switch|p1a: Livewire|Eelektross, M|87/100
+|
+|-heal|p2a: Toedscruel|95/100|[from] item: Leftovers
+|-heal|p1a: Livewire|93/100|[from] item: Leftovers
+|turn|32
+|
+|switch|p2a: Blissey|Blissey, F|99/100
+|move|p1a: Livewire|Flamethrower|p2a: Blissey
+|-damage|p2a: Blissey|91/100
+|-status|p2a: Blissey|brn
+|
+|-heal|p2a: Blissey|97/100 brn|[from] item: Leftovers
+|-heal|p1a: Livewire|99/100|[from] item: Leftovers
+|-damage|p2a: Blissey|91/100 brn|[from] brn
+|turn|33
+|
+|switch|p1a: The Boi|Clodsire, F, tera:Ghost|31/100
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2a: Blissey|brn|[msg]
+|
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|-heal|p1a: The Boi|37/100|[from] item: Leftovers
+|turn|34
+|
+|switch|p2a: Dondozo|Dondozo, F|62/100
+|move|p1a: The Boi|Recover|p1a: The Boi
+|-heal|p1a: The Boi|87/100
+|
+|-heal|p2a: Dondozo|69/100|[from] item: Leftovers
+|-heal|p1a: The Boi|93/100|[from] item: Leftovers
+|turn|35
+|
+|switch|p1a: Live Slug Reaction|Gastrodon, M|81/100
+|move|p2a: Dondozo|Ice Fang|p1a: Live Slug Reaction
+|-damage|p1a: Live Slug Reaction|63/100
+|
+|-heal|p1a: Live Slug Reaction|69/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|75/100|[from] item: Leftovers
+|turn|36
+|
+|switch|p2a: Toedscruel|Toedscruel, F|95/100
+|move|p1a: Live Slug Reaction|Earth Power|p2a: Toedscruel
+|-resisted|p2a: Toedscruel
+|-damage|p2a: Toedscruel|83/100
+|
+|-heal|p2a: Toedscruel|89/100|[from] item: Leftovers
+|-heal|p1a: Live Slug Reaction|75/100|[from] item: Leftovers
+|turn|37
+|
+|switch|p1a: Daniel|Salamence, M|94/100
+|-ability|p1a: Daniel|Intimidate|boost
+|-unboost|p2a: Toedscruel|atk|1
+|move|p2a: Toedscruel|Giga Drain|p1a: Daniel
+|-resisted|p1a: Daniel
+|-damage|p1a: Daniel|88/100
+|-heal|p2a: Toedscruel|92/100|[from] drain|[of] p1a: Daniel
+|
+|-heal|p2a: Toedscruel|99/100|[from] item: Leftovers
+|turn|38
+|
+|switch|p2a: Blissey|Blissey, F|97/100
+|move|p1a: Daniel|Air Slash|p2a: Blissey
+|-damage|p2a: Blissey|86/100
+|
+|-heal|p2a: Blissey|92/100|[from] item: Leftovers
+|turn|39
+|
+|switch|p1a: The Boi|Clodsire, F, tera:Ghost|93/100
+|switch|p2a: Glaceon|Glaceon, M, tera:Fire|73/100
+|
+|-heal|p1a: The Boi|99/100|[from] item: Leftovers
+|turn|40
+|
+|switch|p2a: Dondozo|Dondozo, F|75/100
+|move|p1a: The Boi|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|60/100
+|
+|-heal|p2a: Dondozo|66/100|[from] item: Leftovers
+|-heal|p1a: The Boi|100/100|[from] item: Leftovers
+|turn|41
+|
+|move|p2a: Dondozo|Ice Fang|p1a: The Boi
+|-damage|p1a: The Boi|80/100
+|move|p1a: The Boi|Toxic|p2a: Dondozo
+|-status|p2a: Dondozo|tox
+|
+|-heal|p2a: Dondozo|73/100 tox|[from] item: Leftovers
+|-heal|p1a: The Boi|86/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|66/100 tox|[from] psn
+|turn|42
+|
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|move|p1a: The Boi|Spikes|p2a: Dondozo
+|-sidestart|p2: BagMan187|Spikes
+|
+|-heal|p1a: The Boi|93/100|[from] item: Leftovers
+|turn|43
+|
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Ice Fang|p1a: The Boi|[from]move: Sleep Talk
+|-damage|p1a: The Boi|70/100
+|move|p1a: The Boi|Spikes|p2a: Dondozo
+|-sidestart|p2: BagMan187|Spikes
+|
+|-heal|p1a: The Boi|76/100|[from] item: Leftovers
+|turn|44
+|
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|move|p1a: The Boi|Spikes|p2a: Dondozo
+|-sidestart|p2: BagMan187|Spikes
+|
+|-heal|p1a: The Boi|82/100|[from] item: Leftovers
+|turn|45
+|
+|switch|p1a: Daniel|Salamence, M|88/100
+|-ability|p1a: Daniel|Intimidate|boost
+|-unboost|p2a: Dondozo|atk|1
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Liquidation|p1a: Daniel
+|-resisted|p1a: Daniel
+|-damage|p1a: Daniel|73/100
+|
+|turn|46
+|
+|switch|p1a: Live Slug Reaction|Gastrodon, M|75/100
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|
+|-heal|p1a: Live Slug Reaction|81/100|[from] item: Leftovers
+|turn|47
+|
+|switch|p1a: Livewire|Eelektross, M|99/100
+|move|p2a: Kilowattrel|U-turn|p1a: Livewire
+|-damage|p1a: Livewire|87/100
+|
+|switch|p2a: Blissey|Blissey, F|92/100|[from] U-turn
+|-damage|p2a: Blissey|67/100|[from] Spikes
+|
+|-heal|p2a: Blissey|73/100|[from] item: Leftovers
+|-heal|p1a: Livewire|93/100|[from] item: Leftovers
+|turn|48
+|
+|switch|p1a: The Boi|Clodsire, F, tera:Ghost|82/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: The Boi|89/100|[from] item: Leftovers
+|turn|49
+|
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|-damage|p2a: Dondozo|76/100|[from] Spikes
+|move|p1a: The Boi|Toxic|p2a: Dondozo
+|-status|p2a: Dondozo|tox
+|
+|-heal|p2a: Dondozo|82/100 tox|[from] item: Leftovers
+|-heal|p1a: The Boi|95/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|76/100 tox|[from] psn
+|turn|50
+|
+|move|p2a: Dondozo|Liquidation|p1a: The Boi
+|-heal|p1a: The Boi|100/100|[from] ability: Water Absorb|[of] p2a: Dondozo
+|move|p1a: The Boi|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|60/100 tox
+|
+|-heal|p2a: Dondozo|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Dondozo|53/100 tox|[from] psn
+|turn|51
+|
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|move|p1a: The Boi|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|87/100 slp
+|
+|-heal|p2a: Dondozo|93/100 slp|[from] item: Leftovers
+|turn|52
+|
+|switch|p1a: Livewire|Eelektross, M|93/100
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Livewire|[from]move: Sleep Talk
+|-damage|p1a: Livewire|55/100
+|
+|-heal|p1a: Livewire|61/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|99/100 slp|[from] item: Leftovers
+|turn|53
+|
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|move|p1a: Livewire|Giga Drain|p2a: Kilowattrel
+|-resisted|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|82/100
+|-heal|p1a: Livewire|69/100|[from] drain|[of] p2a: Kilowattrel
+|
+|-heal|p1a: Livewire|75/100|[from] item: Leftovers
+|turn|54
+|
+|move|p2a: Kilowattrel|U-turn|p1a: Livewire
+|-damage|p1a: Livewire|62/100
+|
+|switch|p2a: Glaceon|Glaceon, M, tera:Fire|73/100|[from] U-turn
+|-damage|p2a: Glaceon|48/100|[from] Spikes
+|move|p1a: Livewire|Flamethrower|p2a: Glaceon
+|-resisted|p2a: Glaceon
+|-damage|p2a: Glaceon|28/100
+|
+|-heal|p1a: Livewire|68/100|[from] item: Leftovers
+|turn|55
+|
+|move|p2a: Glaceon|Ice Beam|p1a: Livewire
+|-damage|p1a: Livewire|20/100
+|move|p1a: Livewire|Thunderbolt|p2a: Glaceon
+|-damage|p2a: Glaceon|0 fnt
+|faint|p2a: Glaceon
+|
+|-heal|p1a: Livewire|26/100|[from] item: Leftovers
+|
+|switch|p2a: Toedscruel|Toedscruel, F|99/100
+|-damage|p2a: Toedscruel|74/100|[from] Spikes
+|turn|56
+|
+|switch|p1a: Daniel|Salamence, M|73/100
+|-ability|p1a: Daniel|Intimidate|boost
+|-unboost|p2a: Toedscruel|atk|1
+|move|p2a: Toedscruel|Giga Drain|p1a: Daniel
+|-resisted|p1a: Daniel
+|-damage|p1a: Daniel|66/100
+|-heal|p2a: Toedscruel|77/100|[from] drain|[of] p1a: Daniel
+|
+|-heal|p2a: Toedscruel|83/100|[from] item: Leftovers
+|turn|57
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|move|p1a: Daniel|Air Slash|p2a: Blissey
+|-damage|p2a: Blissey|63/100
+|
+|-heal|p2a: Blissey|70/100|[from] item: Leftovers
+|turn|58
+|
+|switch|p1a: The Boi|Clodsire, F, tera:Ghost|100/100
+|move|p2a: Blissey|Seismic Toss|p1a: The Boi
+|-immune|p1a: The Boi
+|
+|-heal|p2a: Blissey|76/100|[from] item: Leftovers
+|turn|59
+|
+|switch|p2a: Dondozo|Dondozo, F|99/100 slp
+|-damage|p2a: Dondozo|74/100 slp|[from] Spikes
+|move|p1a: The Boi|Toxic||[still]
+|-fail|p1a: The Boi
+|
+|-heal|p2a: Dondozo|80/100 slp|[from] item: Leftovers
+|turn|60
+|
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Ice Fang|p1a: The Boi|[from]move: Sleep Talk
+|-damage|p1a: The Boi|77/100
+|cant|p1a: The Boi|flinch
+|
+|-heal|p2a: Dondozo|87/100 slp|[from] item: Leftovers
+|-heal|p1a: The Boi|84/100|[from] item: Leftovers
+|turn|61
+|
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Ice Fang|p1a: The Boi
+|-damage|p1a: The Boi|61/100
+|cant|p1a: The Boi|flinch
+|
+|-heal|p2a: Dondozo|93/100|[from] item: Leftovers
+|-heal|p1a: The Boi|68/100|[from] item: Leftovers
+|turn|62
+|
+|move|p2a: Dondozo|Ice Fang|p1a: The Boi
+|-damage|p1a: The Boi|47/100
+|move|p1a: The Boi|Toxic|p2a: Dondozo
+|-status|p2a: Dondozo|tox
+|
+|-heal|p2a: Dondozo|99/100 tox|[from] item: Leftovers
+|-heal|p1a: The Boi|53/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|93/100 tox|[from] psn
+|turn|63
+|
+|move|p2a: Dondozo|Ice Fang|p1a: The Boi
+|-damage|p1a: The Boi|30/100
+|move|p1a: The Boi|Recover|p1a: The Boi
+|-heal|p1a: The Boi|80/100
+|
+|-heal|p2a: Dondozo|99/100 tox|[from] item: Leftovers
+|-heal|p1a: The Boi|87/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|87/100 tox|[from] psn
+|turn|64
+|
+|move|p2a: Dondozo|Ice Fang|p1a: The Boi
+|-damage|p1a: The Boi|64/100
+|move|p1a: The Boi|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|71/100 tox
+|
+|-heal|p2a: Dondozo|77/100 tox|[from] item: Leftovers
+|-heal|p1a: The Boi|70/100|[from] item: Leftovers
+|-damage|p2a: Dondozo|58/100 tox|[from] psn
+|turn|65
+|
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|move|p1a: The Boi|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|86/100 slp
+|
+|-heal|p2a: Dondozo|92/100 slp|[from] item: Leftovers
+|-heal|p1a: The Boi|76/100|[from] item: Leftovers
+|turn|66
+|
+|switch|p2a: Kilowattrel|Kilowattrel, M|82/100
+|switch|p1a: Livewire|Eelektross, M|26/100
+|
+|-heal|p1a: Livewire|33/100|[from] item: Leftovers
+|turn|67
+|
+|move|p2a: Kilowattrel|Discharge|p1a: Livewire
+|-resisted|p1a: Livewire
+|-damage|p1a: Livewire|18/100
+|move|p1a: Livewire|Flamethrower|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|37/100
+|
+|-heal|p1a: Livewire|24/100|[from] item: Leftovers
+|turn|68
+|
+|move|p2a: Kilowattrel|U-turn|p1a: Livewire
+|-damage|p1a: Livewire|12/100
+|
+|switch|p2a: Dondozo|Dondozo, F|92/100 slp|[from] U-turn
+|-damage|p2a: Dondozo|67/100 slp|[from] Spikes
+|move|p1a: Livewire|Giga Drain|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|-heal|p1a: Livewire|56/100|[from] drain|[of] p2a: Dondozo
+|faint|p2a: Dondozo
+|
+|-heal|p1a: Livewire|62/100|[from] item: Leftovers
+|
+|switch|p2a: Blissey|Blissey, F|76/100
+|-damage|p2a: Blissey|51/100|[from] Spikes
+|turn|69
+|
+|switch|p1a: The Boi|Clodsire, F, tera:Ghost|76/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-heal|p1a: The Boi|83/100|[from] item: Leftovers
+|turn|70
+|
+|switch|p2a: Kilowattrel|Kilowattrel, M|37/100
+|move|p1a: The Boi|Toxic|p2a: Kilowattrel
+|-status|p2a: Kilowattrel|tox
+|
+|-heal|p1a: The Boi|89/100|[from] item: Leftovers
+|-damage|p2a: Kilowattrel|31/100 tox|[from] psn
+|turn|71
+|
+|switch|p1a: Live Slug Reaction|Gastrodon, M|81/100
+|move|p2a: Kilowattrel|Thunder Wave|p1a: Live Slug Reaction
+|-immune|p1a: Live Slug Reaction
+|
+|-heal|p1a: Live Slug Reaction|87/100|[from] item: Leftovers
+|-damage|p2a: Kilowattrel|19/100 tox|[from] psn
+|turn|72
+|
+|move|p1a: Live Slug Reaction|Protect|p1a: Live Slug Reaction
+|-singleturn|p1a: Live Slug Reaction|Protect
+|move|p2a: Kilowattrel|U-turn|p1a: Live Slug Reaction
+|-activate|p1a: Live Slug Reaction|move: Protect
+|
+|-heal|p1a: Live Slug Reaction|93/100|[from] item: Leftovers
+|-damage|p2a: Kilowattrel|0 fnt|[from] psn
+|faint|p2a: Kilowattrel
+|
+|switch|p2a: Toedscruel|Toedscruel, F|83/100
+|-damage|p2a: Toedscruel|58/100|[from] Spikes
+|turn|73
+|
+|switch|p1a: Daniel|Salamence, M|66/100
+|-ability|p1a: Daniel|Intimidate|boost
+|-unboost|p2a: Toedscruel|atk|1
+|move|p2a: Toedscruel|Giga Drain|p1a: Daniel
+|-resisted|p1a: Daniel
+|-damage|p1a: Daniel|60/100
+|-heal|p2a: Toedscruel|62/100|[from] drain|[of] p1a: Daniel
+|
+|-heal|p2a: Toedscruel|68/100|[from] item: Leftovers
+|turn|74
+|
+|move|p1a: Daniel|Air Slash|p2a: Toedscruel
+|-supereffective|p2a: Toedscruel
+|-damage|p2a: Toedscruel|12/100
+|move|p2a: Toedscruel|Dazzling Gleam|p1a: Daniel
+|-supereffective|p1a: Daniel
+|-damage|p1a: Daniel|21/100
+|
+|-heal|p2a: Toedscruel|18/100|[from] item: Leftovers
+|turn|75
+|
+|move|p1a: Daniel|Air Slash|p2a: Toedscruel
+|-supereffective|p2a: Toedscruel
+|-damage|p2a: Toedscruel|0 fnt
+|faint|p2a: Toedscruel
+|
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|76/100|[from] Spikes
+|turn|76
+|-message|BagMan187 forfeited.
+|
+|win|Random_Bozo

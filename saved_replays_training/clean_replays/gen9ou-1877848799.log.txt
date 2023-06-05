@@ -1,0 +1,245 @@
+|poke|p1|Meowscarada, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Ditto|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: Kalski|Kingambit, M, shiny|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|1
+|
+|move|p2a: Enamorus|Superpower|p1a: Kalski
+|-supereffective|p1a: Kalski
+|-damage|p1a: Kalski|12/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|move|p1a: Kalski|Swords Dance|p1a: Kalski
+|-boost|p1a: Kalski|atk|2
+|
+|-heal|p1a: Kalski|19/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Kalski|Sucker Punch|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-crit|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-heal|p1a: Kalski|25/100|[from] item: Leftovers
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Kalski|[from] ability: Imposter
+|-activate|p2a: Ditto|ability: Supreme Overlord
+|-start|p2a: Ditto|fallen1|[silent]
+|turn|3
+|
+|move|p2a: Ditto|Iron Head|p1a: Kalski
+|-resisted|p1a: Kalski
+|-damage|p1a: Kalski|0 fnt
+|faint|p1a: Kalski
+|-end|p1a: Kalski|fallenundefined|[silent]
+|
+|
+|switch|p1a: Schmidt|Toxapex, F|100/100
+|turn|4
+|
+|-end|p2a: Ditto|fallen1|[silent]
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Schmidt|Infestation|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|94/100
+|-activate|p2a: Hydreigon|move: Infestation|[of] p1a: Schmidt
+|
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|88/100|[from] move: Infestation|[partiallytrapped]
+|turn|5
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-end|p2a: Hydreigon|Infestation|[partiallytrapped]|[silent]
+|-damage|p2a: Hydreigon|63/100
+|move|p1a: Schmidt|Recover||[still]
+|-fail|p1a: Schmidt|heal
+|
+|-heal|p2a: Hydreigon|69/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Ico|Dragapult, M, shiny|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|76/100|[from] item: Leftovers
+|turn|7
+|
+|-terastallize|p2a: Hydreigon|Poison
+|move|p1a: Ico|Draco Meteor|p2a: Hydreigon
+|-damage|p2a: Hydreigon|6/100
+|-unboost|p1a: Ico|spa|2
+|-enditem|p1a: Ico|Eject Pack
+|
+|switch|p1a: Schmidt|Toxapex, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Schmidt
+|-damage|p1a: Schmidt|25/100
+|-enditem|p1a: Schmidt|Aguav Berry|[eat]
+|-heal|p1a: Schmidt|58/100|[from] item: Aguav Berry
+|-start|p1a: Schmidt|confusion
+|
+|-heal|p2a: Hydreigon|12/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Schmidt
+|-damage|p1a: Schmidt|0 fnt
+|faint|p1a: Schmidt
+|
+|-heal|p2a: Hydreigon|19/100|[from] item: Leftovers
+|
+|switch|p1a: Ico|Dragapult, M, shiny|100/100
+|turn|9
+|
+|move|p1a: Ico|Thunderbolt|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ico|[from] ability: Imposter
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Ico|Draco Meteor|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|76/100
+|-unboost|p1a: Ico|spa|2
+|
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Ymir|Hatterene, F|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Ymir
+|-damage|p1a: Ymir|62/100
+|-activate|p1a: Ymir|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|88/100|[from] item: Leftovers
+|-damage|p1a: Ymir|50/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|12
+|
+|-terastallize|p1a: Ymir|Water
+|move|p2a: Heatran|Flash Cannon|p1a: Ymir
+|-resisted|p1a: Ymir
+|-damage|p1a: Ymir|33/100
+|move|p1a: Ymir|Tera Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Ymir|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ymir|[from] ability: Imposter
+|-start|p2a: Ditto|typechange|Psychic/Fairy|[silent]
+|turn|13
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Ymir
+|-damage|p1a: Ymir|13/100
+|move|p1a: Ymir|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|73/100
+|-heal|p1a: Ymir|38/100|[from] drain|[of] p2a: Ditto
+|
+|turn|14
+|
+|move|p2a: Ditto|Draining Kiss|p1a: Ymir
+|-damage|p1a: Ymir|17/100
+|-heal|p2a: Ditto|86/100|[from] drain|[of] p1a: Ymir
+|move|p1a: Ymir|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|59/100
+|-heal|p1a: Ymir|42/100|[from] drain|[of] p2a: Ditto
+|
+|turn|15
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Ymir|Nuzzle|p2a: Slowking
+|-damage|p2a: Slowking|96/100
+|-status|p2a: Slowking|par
+|
+|turn|16
+|
+|move|p1a: Ymir|Psychic|p2a: Slowking
+|-damage|p2a: Slowking|66/100 par
+|move|p2a: Slowking|Sludge Bomb|p1a: Ymir
+|-damage|p1a: Ymir|9/100
+|-status|p1a: Ymir|psn
+|
+|-damage|p1a: Ymir|0 fnt|[from] psn
+|faint|p1a: Ymir
+|
+|switch|p1a: Ico|Dragapult, M, shiny|100/100
+|turn|17
+|
+|move|p1a: Ico|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|18
+|
+|move|p1a: Ico|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|15/100
+|move|p2a: Great Tusk|Knock Off|p1a: Ico
+|-supereffective|p1a: Ico
+|-damage|p1a: Ico|0 fnt
+|replace|p1a: Crow|Zoroark-Hisui, M, shiny
+|-end|p1a: Crow|Illusion
+|-enditem|p1a: Crow|Choice Specs|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Crow
+|
+|-heal|p2a: Great Tusk|21/100|[from] item: Leftovers
+|
+|switch|p1a: Quri|Meowscarada, F, shiny|100/100
+|turn|19
+|
+|move|p1a: Quri|Play Rough|p2a: Great Tusk
+|-start|p1a: Quri|typechange|Fairy|[from] ability: Protean
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Ditto|Ditto|59/100
+|-transform|p2a: Ditto|p1a: Quri|[from] ability: Imposter
+|turn|20
+|
+|move|p2a: Ditto|Play Rough|p1a: Quri
+|-damage|p1a: Quri|28/100
+|move|p1a: Quri|Flower Trick|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|4/100
+|
+|turn|21
+|
+|move|p2a: Ditto|Play Rough|p1a: Quri
+|-damage|p1a: Quri|0 fnt
+|faint|p1a: Quri
+|
+|
+|switch|p1a: Ico|Dragapult, M, shiny|100/100
+|turn|22
+|
+|move|p2a: Ditto|Play Rough|p1a: Ico
+|-supereffective|p1a: Ico
+|-damage|p1a: Ico|0 fnt
+|faint|p1a: Ico
+|
+|win|Gustav0Z

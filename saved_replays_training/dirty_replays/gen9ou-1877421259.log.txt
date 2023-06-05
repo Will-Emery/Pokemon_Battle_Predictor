@@ -1,1 +1,248 @@
-Could not connect
+|j|☆NaN9
+|j|☆Raph_Z1
+|t:|1685857604
+|gametype|singles
+|player|p1|NaN9|mars|1363
+|player|p2|Raph_Z1|clerk-boss|1269
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Meowscarada, F|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NaN9)
+|
+|t:|1685857613
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Meowscarada|atk|1
+|turn|1
+|
+|t:|1685857633
+|move|p1a: Meowscarada|Spikes|p2a: Landorus
+|-start|p1a: Meowscarada|typechange|Ground|[from] ability: Protean
+|-sidestart|p2: Raph_Z1|Spikes
+|move|p2a: Landorus|U-turn|p1a: Meowscarada
+|-damage|p1a: Meowscarada|65/100
+|
+|t:|1685857641
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-damage|p2a: Zamazenta|88/100|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685857656
+|move|p1a: Meowscarada|Spikes|p2a: Zamazenta
+|-sidestart|p2: Raph_Z1|Spikes
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685857663
+|move|p1a: Meowscarada|Spikes|p2a: Zamazenta
+|-sidestart|p2: Raph_Z1|Spikes
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|4
+|
+|t:|1685857672
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|1
+|
+|upkeep
+|turn|5
+|
+|t:|1685857679
+|move|p2a: Zamazenta|Play Rough|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|53/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|80/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|60/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|40/100
+|-hitcount|p2a: Zamazenta|3
+|-damage|p1a: Urshifu|43/100|[from] item: Life Orb
+|
+|-heal|p2a: Zamazenta|46/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685857693
+|move|p2a: Zamazenta|Body Press|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-heal|p2a: Zamazenta|52/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685857717
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|7
+|
+|t:|1685857726
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|27/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p2a: Zamazenta|33/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685857735
+|move|p1a: Hatterene|Psyshock|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|move|p2a: Zamazenta|Body Press|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|68/100
+|
+|-heal|p1a: Hatterene|74/100|[from] item: Leftovers
+|-heal|p2a: Zamazenta|40/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685857746
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|-damage|p2a: Meowscarada|76/100|[from] Spikes
+|move|p1a: Hatterene|Draining Kiss|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Meowscarada
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1685857755
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|-damage|p2a: Goodra|75/100|[from] Spikes
+|turn|10
+|
+|t:|1685857768
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Goodra|Flash Cannon|p1a: Ursaluna
+|-damage|p1a: Ursaluna|69/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|t:|1685857777
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-damage|p2a: Typhlosion|76/100|[from] Spikes
+|move|p1a: Ursaluna|Facade|p2a: Typhlosion
+|-immune|p2a: Typhlosion
+|
+|-damage|p1a: Ursaluna|62/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1685857786
+|move|p2a: Typhlosion|Grass Knot|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1685857796
+|switch|p1a: Meowscarada|Meowscarada, F|65/100
+|turn|13
+|
+|t:|1685857802
+|switch|p2a: Zamazenta|Zamazenta|40/100
+|-damage|p2a: Zamazenta|15/100|[from] Spikes
+|move|p1a: Meowscarada|Knock Off|p2a: Zamazenta
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-enditem|p2a: Zamazenta|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1685857820
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|76/100
+|-damage|p2a: Typhlosion|51/100|[from] Spikes
+|turn|14
+|
+|t:|1685857824
+|move|p1a: Meowscarada|Knock Off|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M, shiny
+|-end|p2a: Zoroark|Illusion
+|-enditem|p2a: Zoroark|Choice Specs|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Zoroark
+|
+|upkeep
+|
+|t:|1685857830
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Meowscarada|atk|1
+|turn|15
+|
+|t:|1685857846
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Landorus|[from]ability: Magic Bounce
+|-sidestart|p2: Raph_Z1|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1685857856
+|move|p2a: Landorus|Taunt|p1a: Hatterene
+|move|p1a: Hatterene|Taunt|p2a: Landorus|[from]ability: Magic Bounce
+|-start|p2a: Landorus|move: Taunt
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|17
+|-message|Raph_Z1 forfeited.
+|
+|win|NaN9
+|raw|NaN9's rating: 1363 → 1378(+15 for winning)
+|raw|Raph_Z1's rating: 1269 → 1251(-18 for losing)
+|l|☆Raph_Z1

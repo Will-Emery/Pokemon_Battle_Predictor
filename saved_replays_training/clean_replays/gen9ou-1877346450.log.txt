@@ -1,0 +1,272 @@
+|poke|p1|Garchomp, F|
+|poke|p1|Gardevoir, F|
+|poke|p1|Lucario, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Mudsdale, M|
+|poke|p1|Bellibolt, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Great Tusk|
+|poke|p2|Arcanine, F|
+|poke|p2|Rotom-Fan|
+|poke|p2|Brute Bonnet|
+|poke|p2|Slither Wing|
+|teampreview
+|
+|start
+|switch|p1a: Hecarim ;)|Mudsdale, M|100/100
+|switch|p2a: Big Karp|Gyarados, F|100/100
+|-ability|p2a: Big Karp|Intimidate|boost
+|-unboost|p1a: Hecarim ;)|atk|1
+|turn|1
+|
+|move|p2a: Big Karp|Dragon Dance|p2a: Big Karp
+|-boost|p2a: Big Karp|atk|1
+|-boost|p2a: Big Karp|spe|1
+|move|p1a: Hecarim ;)|Roar|p2a: Big Karp
+|drag|p2a: Lando at home|Great Tusk|100/100
+|
+|turn|2
+|
+|move|p2a: Lando at home|Knock Off|p1a: Hecarim ;)
+|-damage|p1a: Hecarim ;)|79/100
+|-ability|p1a: Hecarim ;)|Stamina|boost
+|-boost|p1a: Hecarim ;)|def|1
+|-enditem|p1a: Hecarim ;)|Leftovers|[from] move: Knock Off|[of] p2a: Lando at home
+|move|p1a: Hecarim ;)|Stealth Rock|p2a: Lando at home
+|-sidestart|p2: hockomock|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Lando at home|Rapid Spin|p1a: Hecarim ;)
+|-damage|p1a: Hecarim ;)|73/100
+|-boost|p2a: Lando at home|spe|1
+|-ability|p1a: Hecarim ;)|Stamina|boost
+|-boost|p1a: Hecarim ;)|def|1
+|-sideend|p2: hockomock|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Lando at home
+|move|p1a: Hecarim ;)|Body Press|p2a: Lando at home
+|-damage|p2a: Lando at home|62/100
+|
+|turn|4
+|
+|-end|p2a: Lando at home|Protosynthesis|[silent]
+|switch|p2a: Landon|Brute Bonnet|100/100
+|move|p1a: Hecarim ;)|Body Press|p2a: Landon
+|-supereffective|p2a: Landon
+|-damage|p2a: Landon|5/100
+|
+|turn|5
+|
+|-terastallize|p1a: Hecarim ;)|Grass
+|move|p2a: Landon|Sucker Punch|p1a: Hecarim ;)
+|-crit|p1a: Hecarim ;)
+|-damage|p1a: Hecarim ;)|38/100
+|-ability|p1a: Hecarim ;)|Stamina|boost
+|-boost|p1a: Hecarim ;)|def|1
+|move|p1a: Hecarim ;)|Body Press|p2a: Landon
+|-supereffective|p2a: Landon
+|-damage|p2a: Landon|0 fnt
+|faint|p2a: Landon
+|-end|p2a: Landon|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Dyson|Rotom-Fan|100/100
+|turn|6
+|
+|move|p2a: Dyson|Air Slash|p1a: Hecarim ;)
+|-supereffective|p1a: Hecarim ;)
+|-damage|p1a: Hecarim ;)|0 fnt
+|faint|p1a: Hecarim ;)
+|
+|
+|switch|p1a: Land Shark|Garchomp, F|100/100
+|turn|7
+|
+|move|p1a: Land Shark|Draco Meteor|p2a: Dyson
+|-damage|p2a: Dyson|5/100
+|-unboost|p1a: Land Shark|spa|2
+|-damage|p1a: Land Shark|91/100|[from] item: Life Orb
+|move|p2a: Dyson|Air Slash|p1a: Land Shark
+|-damage|p1a: Land Shark|47/100
+|
+|turn|8
+|
+|switch|p2a: Big Karp|Gyarados, F|100/100
+|-ability|p2a: Big Karp|Intimidate|boost
+|-unboost|p1a: Land Shark|atk|1
+|move|p1a: Land Shark|Flamethrower|p2a: Big Karp
+|-resisted|p2a: Big Karp
+|-damage|p2a: Big Karp|91/100
+|-damage|p1a: Land Shark|37/100|[from] item: Life Orb
+|
+|-heal|p2a: Big Karp|97/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Buddha|Bellibolt, F|100/100
+|move|p2a: Big Karp|Dragon Dance|p2a: Big Karp
+|-boost|p2a: Big Karp|atk|1
+|-boost|p2a: Big Karp|spe|1
+|
+|-heal|p2a: Big Karp|100/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Big Karp|Waterfall|p1a: Buddha
+|-damage|p1a: Buddha|63/100
+|-start|p1a: Buddha|Charge|Waterfall|[from] ability: Electromorphosis
+|cant|p1a: Buddha|flinch
+|-end|p1a: Buddha|Charge|[silent]
+|
+|turn|11
+|
+|-terastallize|p2a: Big Karp|Flying
+|move|p2a: Big Karp|Waterfall|p1a: Buddha
+|-damage|p1a: Buddha|20/100
+|-start|p1a: Buddha|Charge|Waterfall|[from] ability: Electromorphosis
+|move|p1a: Buddha|Parabolic Charge|p2a: Big Karp
+|-supereffective|p2a: Big Karp
+|-damage|p2a: Big Karp|6/100
+|-heal|p1a: Buddha|57/100|[from] drain|[of] p2a: Big Karp
+|-end|p1a: Buddha|Charge|[silent]
+|
+|-heal|p2a: Big Karp|12/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Lando at home|Great Tusk|62/100
+|move|p1a: Buddha|Parabolic Charge|p2a: Lando at home
+|-immune|p2a: Lando at home
+|
+|turn|13
+|
+|switch|p1a: Land Shark|Garchomp, F|37/100
+|move|p2a: Lando at home|Headlong Rush|p1a: Land Shark
+|-damage|p1a: Land Shark|0 fnt
+|-unboost|p2a: Lando at home|def|1
+|-unboost|p2a: Lando at home|spd|1
+|-damage|p2a: Lando at home|50/100|[from] ability: Rough Skin|[of] p1a: Land Shark
+|faint|p1a: Land Shark
+|
+|
+|switch|p1a: Furry Bait|Lucario, F|100/100
+|turn|14
+|
+|-end|p2a: Lando at home|Protosynthesis|[silent]
+|switch|p2a: BORK BORK|Arcanine, F|100/100
+|-ability|p2a: BORK BORK|Intimidate|boost
+|-fail|p1a: Furry Bait|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Furry Bait
+|move|p1a: Furry Bait|Extreme Speed|p2a: BORK BORK
+|-damage|p2a: BORK BORK|77/100
+|-damage|p1a: Furry Bait|91/100|[from] item: Life Orb
+|
+|turn|15
+|
+|switch|p1a: Mommy|Gardevoir, F|100/100
+|-ability|p1a: Mommy|Intimidate|boost
+|-unboost|p2a: BORK BORK|atk|1
+|-ability|p1a: Mommy|Intimidate|[from] ability: Trace|[of] p2a: BORK BORK
+|move|p2a: BORK BORK|Will-O-Wisp|p1a: Mommy
+|-status|p1a: Mommy|brn
+|
+|-damage|p1a: Mommy|94/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Mommy|Moonblast|p2a: BORK BORK
+|-resisted|p2a: BORK BORK
+|-damage|p2a: BORK BORK|39/100
+|move|p2a: BORK BORK|Sunny Day|p2a: BORK BORK
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Mommy|88/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Mommy|Moonblast|p2a: BORK BORK
+|-resisted|p2a: BORK BORK
+|-damage|p2a: BORK BORK|0 fnt
+|faint|p2a: BORK BORK
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Mommy|82/100 brn|[from] brn
+|
+|switch|p2a: Cruchwrap Supreme|Slither Wing|100/100
+|-activate|p2a: Cruchwrap Supreme|ability: Protosynthesis
+|-start|p2a: Cruchwrap Supreme|protosynthesisatk
+|turn|18
+|
+|move|p2a: Cruchwrap Supreme|First Impression|p1a: Mommy
+|-damage|p1a: Mommy|0 fnt
+|faint|p1a: Mommy
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sport Ball|Cinderace, F|100/100
+|turn|19
+|
+|-end|p2a: Cruchwrap Supreme|Protosynthesis|[silent]
+|switch|p2a: Big Karp|Gyarados, F, tera:Flying|12/100
+|-ability|p2a: Big Karp|Intimidate|boost
+|-unboost|p1a: Sport Ball|atk|1
+|move|p1a: Sport Ball|Pyro Ball|p2a: Big Karp
+|-damage|p2a: Big Karp|0 fnt
+|faint|p2a: Big Karp
+|-damage|p1a: Sport Ball|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Lando at home|Great Tusk|50/100
+|-activate|p2a: Lando at home|ability: Protosynthesis
+|-start|p2a: Lando at home|protosynthesisatk
+|turn|20
+|
+|move|p1a: Sport Ball|U-turn|p2a: Lando at home
+|-start|p1a: Sport Ball|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Lando at home
+|-damage|p2a: Lando at home|40/100
+|-damage|p1a: Sport Ball|81/100|[from] item: Life Orb
+|
+|switch|p1a: Buddha|Bellibolt, F|57/100|[from] U-turn
+|move|p2a: Lando at home|Headlong Rush|p1a: Buddha
+|-supereffective|p1a: Buddha
+|-damage|p1a: Buddha|0 fnt
+|-unboost|p2a: Lando at home|def|1
+|-unboost|p2a: Lando at home|spd|1
+|faint|p1a: Buddha
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sport Ball|Cinderace, F|81/100
+|turn|21
+|
+|-end|p2a: Lando at home|Protosynthesis|[silent]
+|switch|p2a: Dyson|Rotom-Fan|5/100
+|move|p1a: Sport Ball|Pyro Ball|p2a: Dyson
+|-damage|p2a: Dyson|0 fnt
+|faint|p2a: Dyson
+|-damage|p1a: Sport Ball|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Lando at home|Great Tusk|40/100
+|-activate|p2a: Lando at home|ability: Protosynthesis
+|-start|p2a: Lando at home|protosynthesisatk
+|turn|22
+|
+|move|p1a: Sport Ball|Pyro Ball|p2a: Lando at home
+|-damage|p2a: Lando at home|0 fnt
+|faint|p2a: Lando at home
+|-end|p2a: Lando at home|Protosynthesis|[silent]
+|-damage|p1a: Sport Ball|61/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Cruchwrap Supreme|Slither Wing|100/100
+|-activate|p2a: Cruchwrap Supreme|ability: Protosynthesis
+|-start|p2a: Cruchwrap Supreme|protosynthesisatk
+|turn|23
+|
+|move|p1a: Sport Ball|Pyro Ball|p2a: Cruchwrap Supreme
+|-supereffective|p2a: Cruchwrap Supreme
+|-damage|p2a: Cruchwrap Supreme|0 fnt
+|faint|p2a: Cruchwrap Supreme
+|-end|p2a: Cruchwrap Supreme|Protosynthesis|[silent]
+|-damage|p1a: Sport Ball|51/100|[from] item: Life Orb
+|
+|win|Graveride

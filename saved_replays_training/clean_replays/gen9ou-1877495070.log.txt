@@ -1,0 +1,250 @@
+|poke|p1|Iron Valiant|
+|poke|p1|Sneasler, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Dragapult, M|
+|poke|p1|Ursaluna, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|switch|p2a: draj mahal|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: draj mahal|Will-O-Wisp|p1a: Sneasler
+|-status|p1a: Sneasler|brn
+|move|p1a: Sneasler|Dire Claw|p2a: draj mahal
+|-resisted|p2a: draj mahal
+|-damage|p2a: draj mahal|88/100
+|-status|p2a: draj mahal|psn
+|
+|-heal|p2a: draj mahal|94/100 psn|[from] item: Leftovers
+|-damage|p2a: draj mahal|82/100 psn|[from] psn
+|-damage|p1a: Sneasler|95/100 brn|[from] brn
+|turn|2
+|
+|switch|p1a: Weavile plus|Chien-Pao|100/100
+|-ability|p1a: Weavile plus|Sword of Ruin
+|move|p2a: draj mahal|Hex|p1a: Weavile plus
+|-resisted|p1a: Weavile plus
+|-damage|p1a: Weavile plus|82/100
+|
+|-heal|p2a: draj mahal|88/100 psn|[from] item: Leftovers
+|-damage|p2a: draj mahal|75/100 psn|[from] psn
+|turn|3
+|
+|switch|p2a: po|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Weavile plus|Crunch|p2a: po
+|-resisted|p2a: po
+|-damage|p2a: po|64/100
+|-damage|p1a: Weavile plus|72/100|[from] item: Life Orb
+|
+|turn|4
+|
+|move|p1a: Weavile plus|Sacred Sword|p2a: po
+|-damage|p2a: po|15/100
+|-damage|p1a: Weavile plus|62/100|[from] item: Life Orb
+|move|p2a: po|U-turn|p1a: Weavile plus
+|-supereffective|p1a: Weavile plus
+|-damage|p1a: Weavile plus|0 fnt
+|faint|p1a: Weavile plus
+|
+|switch|p2a: micheal jackson|Typhlosion-Hisui, M, shiny|100/100|[from] U-turn
+|
+|
+|switch|p1a: Twitch moderation|Magearna|100/100
+|turn|5
+|
+|move|p2a: micheal jackson|Eruption|p1a: Twitch moderation
+|-supereffective|p1a: Twitch moderation
+|-damage|p1a: Twitch moderation|0 fnt
+|faint|p1a: Twitch moderation
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|switch|p2a: biggest bird|Zapdos|100/100
+|-ability|p2a: biggest bird|Pressure
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|turn|7
+|
+|move|p1a: Dragapult|Phantom Force|p2a: biggest bird|[from]lockedmove
+|-damage|p2a: biggest bird|52/100
+|move|p2a: biggest bird|Roost|p2a: biggest bird
+|-heal|p2a: biggest bird|100/100
+|-singleturn|p2a: biggest bird|move: Roost
+|
+|turn|8
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: biggest bird|Hurricane|p1a: Dragapult
+|-damage|p1a: Dragapult|23/100
+|-start|p1a: Dragapult|confusion
+|
+|-heal|p1a: Dragapult|29/100|[from] item: Leftovers
+|turn|9
+|
+|-activate|p1a: Dragapult|confusion
+|move|p1a: Dragapult|Dragon Darts|p2a: biggest bird
+|-crit|p2a: biggest bird
+|-damage|p2a: biggest bird|33/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: biggest bird
+|-damage|p2a: biggest bird|0 fnt
+|faint|p2a: biggest bird
+|
+|-heal|p1a: Dragapult|35/100|[from] item: Leftovers
+|
+|switch|p2a: dumbo|Great Tusk|100/100
+|-enditem|p2a: dumbo|Booster Energy
+|-activate|p2a: dumbo|ability: Protosynthesis|[fromitem]
+|-start|p2a: dumbo|protosynthesisatk
+|turn|10
+|
+|-activate|p1a: Dragapult|confusion
+|move|p1a: Dragapult|Dragon Darts|p2a: dumbo
+|-damage|p2a: dumbo|72/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: dumbo
+|-damage|p2a: dumbo|40/100
+|move|p2a: dumbo|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Leftovers|[from] move: Knock Off|[of] p2a: dumbo
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|11
+|
+|-end|p2a: dumbo|Protosynthesis|[silent]
+|switch|p2a: smash|Magearna|100/100
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|
+|turn|12
+|
+|-terastallize|p1a: Iron Valiant|Fairy
+|move|p1a: Iron Valiant|Thunderbolt|p2a: smash
+|-damage|p2a: smash|65/100
+|move|p2a: smash|Fleur Cannon|p1a: Iron Valiant|[miss]
+|-miss|p2a: smash|p1a: Iron Valiant
+|
+|turn|13
+|
+|switch|p2a: dumbo|Great Tusk|40/100
+|move|p1a: Iron Valiant|Moonblast|p2a: dumbo
+|-supereffective|p2a: dumbo
+|-damage|p2a: dumbo|0 fnt
+|faint|p2a: dumbo
+|-end|p2a: dumbo|Protosynthesis|[silent]
+|
+|
+|switch|p2a: smash|Magearna|65/100
+|turn|14
+|
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: smash|Fleur Cannon|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|32/100
+|-unboost|p2a: smash|spa|2
+|
+|turn|15
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: smash
+|-resisted|p2a: smash
+|-damage|p2a: smash|13/100
+|move|p2a: smash|Volt Switch|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|19/100
+|
+|switch|p2a: draj mahal|Dragapult, F|75/100 psn|[from] Volt Switch
+|
+|-heal|p2a: draj mahal|81/100 psn|[from] item: Leftovers
+|-damage|p2a: draj mahal|69/100 psn|[from] psn
+|turn|16
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: draj mahal
+|-supereffective|p2a: draj mahal
+|-damage|p2a: draj mahal|0 fnt
+|faint|p2a: draj mahal
+|
+|
+|switch|p2a: micheal jackson|Typhlosion-Hisui, M, shiny|100/100
+|turn|17
+|
+|move|p1a: Iron Valiant|Psyshock|p2a: micheal jackson
+|-damage|p2a: micheal jackson|21/100
+|move|p2a: micheal jackson|Eruption|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|18
+|
+|switch|p2a: smash|Magearna|13/100
+|move|p1a: Ursaluna|Earthquake|p2a: smash
+|-supereffective|p2a: smash
+|-damage|p2a: smash|0 fnt
+|faint|p2a: smash
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p2a: po|Urshifu-Rapid-Strike, F|15/100
+|turn|19
+|
+|move|p2a: po|Surging Strikes|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|56/100 brn
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|14/100 brn
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-hitcount|p1: Ursaluna|3
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|95/100 brn
+|turn|20
+|
+|move|p1a: Sneasler|Fake Out|p2a: po
+|-enditem|p1a: Sneasler|Normal Gem|[from] gem
+|-damage|p2a: po|7/100
+|cant|p2a: po|flinch
+|
+|-damage|p1a: Sneasler|89/100 brn|[from] brn
+|turn|21
+|
+|move|p1a: Sneasler|Acrobatics|p2a: po
+|-supereffective|p2a: po
+|-damage|p2a: po|0 fnt
+|faint|p2a: po
+|
+|-damage|p1a: Sneasler|83/100 brn|[from] brn
+|
+|switch|p2a: micheal jackson|Typhlosion-Hisui, M, shiny|21/100
+|turn|22
+|
+|move|p1a: Sneasler|Acrobatics|p2a: micheal jackson
+|-damage|p2a: micheal jackson|0 fnt
+|faint|p2a: micheal jackson
+|
+|win|Welcometoearth420

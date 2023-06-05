@@ -1,0 +1,307 @@
+|poke|p1|Volcarona, M|
+|poke|p1|Great Tusk|
+|poke|p1|Scizor, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Breloom, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Gholdengo|
+|poke|p2|Espeon, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Magearna|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Espeon|Espeon, F|100/100
+|turn|1
+|
+|move|p2a: Espeon|Reflect|p2a: Espeon
+|-sidestart|p2: clail|Reflect
+|move|p1a: Scizor|U-turn|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|46/100
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100|[from] U-turn
+|
+|turn|2
+|
+|move|p1a: Rotom|Trick|p2a: Espeon
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Espeon
+|-item|p2a: Espeon|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Light Clay|[from] move: Trick
+|move|p2a: Espeon|Light Screen|p2a: Espeon
+|-sidestart|p2: clail|move: Light Screen
+|
+|turn|3
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|turn|4
+|
+|move|p2a: Iron Treads|Stealth Rock|p1a: Rotom
+|-sidestart|p1: BoronB|move: Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|57/100
+|
+|-heal|p2a: Iron Treads|64/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|73/100
+|-enditem|p1a: Rotom|Light Clay|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Rotom|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|
+|-heal|p2a: Iron Treads|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Iron Treads|64/100 brn|[from] brn
+|turn|6
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Rotom|Trick|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|-sideend|p2: clail|move: Light Screen
+|turn|7
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|26/100
+|move|p1a: Rotom|Volt Switch|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|57/100
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from] Volt Switch
+|
+|turn|8
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|90/100
+|
+|-sideend|p2: clail|Reflect
+|turn|9
+|
+|switch|p2a: Espeon|Espeon, F|46/100
+|switch|p1a: Rotom|Rotom-Wash, shiny|26/100
+|-damage|p1a: Rotom|14/100|[from] Stealth Rock
+|
+|turn|10
+|
+|move|p2a: Espeon|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|turn|11
+|
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|12
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100
+|-sidestart|p1: BoronB|Spikes
+|
+|turn|13
+|
+|switch|p2a: Iron Treads|Iron Treads|64/100 brn
+|move|p1a: Great Tusk|Close Combat|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|14
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|-damage|p1a: Scizor|75/100|[from] Spikes
+|move|p2a: Samurott|Aqua Cutter|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|
+|switch|p1a: Breloom|Breloom, M, shiny|100/100
+|-damage|p1a: Breloom|94/100|[from] Stealth Rock
+|-damage|p1a: Breloom|82/100|[from] Spikes
+|turn|15
+|
+|switch|p2a: Gholdengo|Gholdengo|57/100
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|
+|turn|16
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|90/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|78/100
+|-boost|p1a: Volcarona|spa|1
+|
+|turn|17
+|
+|switch|p1a: Great Tusk|Great Tusk|85/100
+|move|p2a: Arcanine|Extreme Speed|p1a: Great Tusk
+|-damage|p1a: Great Tusk|56/100
+|
+|turn|18
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|19
+|
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Great Tusk|Headlong Rush|p2a: Magearna
+|-damage|p2a: Magearna|52/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Magearna|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Magearna|94/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|
+|switch|p1a: Breloom|Breloom, M, shiny|82/100
+|-damage|p1a: Breloom|76/100|[from] Stealth Rock
+|-damage|p1a: Breloom|64/100|[from] Spikes
+|turn|20
+|
+|switch|p2a: Gholdengo|Gholdengo|57/100
+|move|p1a: Breloom|Bullet Seed|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|46/100
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|34/100
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|20/100
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|8/100
+|-hitcount|p2a: Gholdengo|4
+|
+|turn|21
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Volcarona
+|-damage|p1a: Volcarona|63/100
+|
+|turn|22
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|78/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|67/100
+|-boost|p1a: Volcarona|spa|1
+|
+|turn|23
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Volcarona
+|-damage|p1a: Volcarona|24/100
+|move|p1a: Volcarona|Morning Sun|p1a: Volcarona
+|-heal|p1a: Volcarona|74/100
+|
+|turn|24
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Volcarona
+|-damage|p1a: Volcarona|33/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|25
+|
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|move|p2a: Arcanine|Extreme Speed|p1a: Ceruledge
+|-immune|p1a: Ceruledge
+|
+|turn|26
+|
+|switch|p2a: Magearna|Magearna, tera:Water|100/100
+|move|p1a: Ceruledge|Bulk Up|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|1
+|-boost|p1a: Ceruledge|def|1
+|
+|turn|27
+|
+|move|p1a: Ceruledge|Taunt|p2a: Magearna
+|-start|p2a: Magearna|move: Taunt
+|cant|p2a: Magearna|move: Taunt|Iron Defense
+|
+|turn|28
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|67/100
+|move|p1a: Ceruledge|Bulk Up|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|1
+|-boost|p1a: Ceruledge|def|1
+|
+|turn|29
+|
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Arcanine
+|-damage|p2a: Arcanine|21/100
+|move|p2a: Arcanine|Head Smash|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|
+|switch|p1a: Breloom|Breloom, M, shiny|64/100
+|-damage|p1a: Breloom|58/100|[from] Stealth Rock
+|-damage|p1a: Breloom|45/100|[from] Spikes
+|turn|30
+|
+|switch|p2a: Gholdengo|Gholdengo|8/100
+|move|p1a: Breloom|Bullet Seed|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-hitcount|p2: Gholdengo|1
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|21/100
+|turn|31
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|33/100
+|turn|32
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|clail

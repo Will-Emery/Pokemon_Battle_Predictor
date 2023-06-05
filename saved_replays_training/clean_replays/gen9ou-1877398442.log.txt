@@ -1,0 +1,179 @@
+|poke|p1|Amoonguss, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Magearna|
+|poke|p1|Breloom, M|
+|poke|p1|Garchomp, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Zapdos|
+|poke|p2|Scizor, M|
+|poke|p2|Dondozo, F|
+|poke|p2|Wo-Chien|
+|poke|p2|Basculegion, M|
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Scizor
+|-sidestart|p2: KeeperTGA|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Scizor|Defog|p1a: Garchomp
+|-unboost|p1a: Garchomp|evasion|1
+|-sideend|p2: KeeperTGA|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|move|p1a: Garchomp|Dragon Tail|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|86/100
+|drag|p2a: Zapdos|Zapdos|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|-terastallize|p2a: Zapdos|Ice
+|move|p1a: Garchomp|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: KeeperTGA|move: Stealth Rock
+|move|p2a: Zapdos|Tera Blast|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|4
+|
+|switch|p2a: Wo-Chien|Wo-Chien|100/100
+|-damage|p2a: Wo-Chien|88/100|[from] Stealth Rock
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Wo-Chien|94/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Wo-Chien|Leech Seed|p1a: Magearna
+|-start|p1a: Magearna|move: Leech Seed
+|move|p1a: Magearna|Ice Beam|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|41/100
+|
+|-weather|none
+|-heal|p2a: Wo-Chien|48/100|[from] item: Leftovers
+|-damage|p1a: Magearna|88/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|60/100|[silent]
+|turn|6
+|
+|move|p2a: Wo-Chien|Protect|p2a: Wo-Chien
+|-singleturn|p2a: Wo-Chien|Protect
+|move|p1a: Magearna|Ice Beam|p2a: Wo-Chien
+|-activate|p2a: Wo-Chien|move: Protect
+|
+|-heal|p2a: Wo-Chien|66/100|[from] item: Leftovers
+|-heal|p1a: Magearna|94/100|[from] item: Leftovers
+|-damage|p1a: Magearna|82/100|[from] Leech Seed|[of] p2a: Wo-Chien
+|-heal|p2a: Wo-Chien|78/100|[silent]
+|turn|7
+|
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|-damage|p2a: Dondozo|88/100|[from] Stealth Rock
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|88/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|94/100|[from] item: Leftovers
+|-damage|p1a: Magearna|75/100|[from] Leech Seed|[of] p2a: Dondozo
+|-heal|p2a: Dondozo|100/100|[silent]
+|turn|8
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Dondozo
+|-damage|p2a: Dondozo|75/100
+|-heal|p1a: Magearna|100/100|[from] drain|[of] p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|81/100|[from] item: Leftovers
+|-damage|p1a: Magearna|88/100|[from] Leech Seed|[of] p2a: Dondozo
+|-heal|p2a: Dondozo|90/100|[silent]
+|turn|9
+|
+|move|p1a: Magearna|Ice Beam|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|65/100
+|-status|p2a: Dondozo|frz
+|cant|p2a: Dondozo|frz
+|
+|-heal|p1a: Magearna|94/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|71/100 frz|[from] item: Leftovers
+|-damage|p1a: Magearna|82/100|[from] Leech Seed|[of] p2a: Dondozo
+|-heal|p2a: Dondozo|80/100 frz|[silent]
+|turn|10
+|
+|move|p1a: Magearna|Flash Cannon|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|57/100 frz
+|-unboost|p2a: Dondozo|spd|1
+|cant|p2a: Dondozo|frz
+|
+|-heal|p1a: Magearna|88/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|64/100 frz|[from] item: Leftovers
+|-damage|p1a: Magearna|75/100|[from] Leech Seed|[of] p2a: Dondozo
+|-heal|p2a: Dondozo|73/100 frz|[silent]
+|turn|11
+|
+|move|p1a: Magearna|Flash Cannon|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|41/100 frz
+|cant|p2a: Dondozo|frz
+|
+|-heal|p1a: Magearna|82/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|47/100 frz|[from] item: Leftovers
+|-damage|p1a: Magearna|69/100|[from] Leech Seed|[of] p2a: Dondozo
+|-heal|p2a: Dondozo|56/100 frz|[silent]
+|turn|12
+|
+|move|p1a: Magearna|Flash Cannon|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|25/100 frz
+|cant|p2a: Dondozo|frz
+|
+|-heal|p1a: Magearna|75/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|31/100 frz|[from] item: Leftovers
+|-damage|p1a: Magearna|63/100|[from] Leech Seed|[of] p2a: Dondozo
+|-heal|p2a: Dondozo|40/100 frz|[silent]
+|turn|13
+|
+|move|p1a: Magearna|Flash Cannon|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|10/100 frz
+|cant|p2a: Dondozo|frz
+|
+|-heal|p1a: Magearna|69/100|[from] item: Leftovers
+|-heal|p2a: Dondozo|16/100 frz|[from] item: Leftovers
+|-damage|p1a: Magearna|57/100|[from] Leech Seed|[of] p2a: Dondozo
+|-heal|p2a: Dondozo|25/100 frz|[silent]
+|turn|14
+|
+|move|p1a: Magearna|Flash Cannon|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|63/100|[from] item: Leftovers
+|-message|KeeperTGA forfeited.
+|
+|win|Irismeilani

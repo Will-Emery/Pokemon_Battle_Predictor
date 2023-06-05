@@ -1,0 +1,126 @@
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos|
+|poke|p1|Ursaluna, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|79/100
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|turn|2
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Dragapult|Fire Blast|p2a: Goodra|[miss]
+|-miss|p1a: Dragapult|p2a: Goodra
+|
+|turn|3
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Goodra|Ice Beam|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|88/100
+|
+|turn|4
+|
+|move|p1a: Gholdengo|Trick|p2a: Goodra
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Goodra
+|-item|p2a: Goodra|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Assault Vest|[from] move: Trick
+|move|p2a: Goodra|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|50/100
+|-status|p1a: Gholdengo|brn
+|
+|-damage|p1a: Gholdengo|44/100 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Goodra|Flamethrower|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|83/100
+|
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|move|p1a: Cinderace|High Jump Kick|p2a: Landorus
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|
+|-heal|p2a: Landorus|92/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Cinderace|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100|[from] U-turn
+|move|p2a: Landorus|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: DGP PLAYER|move: Stealth Rock
+|
+|-heal|p2a: Landorus|92/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|8
+|
+|move|p2a: Landorus|Taunt|p1a: Ursaluna
+|-start|p1a: Ursaluna|move: Taunt
+|move|p1a: Ursaluna|Facade|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|9
+|
+|-terastallize|p1a: Ursaluna|Fairy
+|move|p2a: Urshifu|Surging Strikes|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|80/100 brn
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|66/100 brn
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|51/100 brn
+|-hitcount|p1a: Ursaluna|3
+|move|p1a: Ursaluna|Facade|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-damage|p1a: Ursaluna|45/100 brn|[from] brn
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|10
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Ursaluna|[miss]
+|-miss|p2a: Rotom|p1a: Ursaluna
+|move|p1a: Ursaluna|Facade|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Ursaluna|39/100 brn|[from] brn
+|-end|p1a: Ursaluna|move: Taunt
+|-message|Whoossa forfeited.
+|
+|win|DGP PLAYER

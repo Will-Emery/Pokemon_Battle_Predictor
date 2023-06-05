@@ -1,0 +1,235 @@
+|poke|p1|Garganacl, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Drednaw, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Kleavor, M|
+|poke|p2|Magnezone|
+|poke|p2|Amoonguss, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|turn|1
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Amoonguss
+|-damage|p2a: Amoonguss|85/100
+|-start|p2a: Amoonguss|Salt Cure
+|move|p2a: Amoonguss|Leaf Storm|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|49/100
+|-unboost|p2a: Amoonguss|spa|2
+|-enditem|p2a: Amoonguss|Eject Pack
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|
+|-heal|p1a: Garganacl|55/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Garganacl
+|
+|
+|switch|p1a: Drednaw|Drednaw, M|100/100
+|-item|p1a: Drednaw|Air Balloon
+|turn|3
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Drednaw|Shell Smash|p1a: Drednaw
+|-unboost|p1a: Drednaw|def|1
+|-unboost|p1a: Drednaw|spd|1
+|-boost|p1a: Drednaw|atk|2
+|-boost|p1a: Drednaw|spa|2
+|-boost|p1a: Drednaw|spe|2
+|
+|turn|4
+|
+|move|p1a: Drednaw|Ice Spinner|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|turn|5
+|
+|move|p1a: Drednaw|Ice Spinner|p2a: Goodra
+|-damage|p2a: Goodra|48/100
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|
+|-heal|p2a: Goodra|54/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Drednaw|Ice Spinner|p2a: Goodra
+|-damage|p2a: Goodra|26/100
+|move|p2a: Goodra|Substitute|p2a: Goodra
+|-start|p2a: Goodra|Substitute
+|-damage|p2a: Goodra|1/100
+|
+|-heal|p2a: Goodra|7/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Drednaw|Ice Spinner|p2a: Goodra
+|-end|p2a: Goodra|Substitute
+|move|p2a: Goodra|Body Press|p1a: Drednaw
+|-supereffective|p1a: Drednaw
+|-damage|p1a: Drednaw|0 fnt
+|-enditem|p1a: Drednaw|Air Balloon
+|faint|p1a: Drednaw
+|
+|-heal|p2a: Goodra|13/100|[from] item: Leftovers
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|turn|8
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Kleavor|Stone Axe|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|66/100
+|-sidestart|p2: i and father|move: Stealth Rock
+|
+|turn|9
+|
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|10
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|13/100
+|-damage|p2a: Goodra|7/100|[from] Stealth Rock
+|move|p1a: Arcanine|Flame Charge|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-boost|p1a: Arcanine|spe|1
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|-terastallize|p1a: Arcanine|Rock
+|move|p1a: Arcanine|Head Smash|p2a: Dragonite|[miss]
+|-miss|p1a: Arcanine|p2a: Dragonite
+|move|p2a: Dragonite|Dragon Tail|p1a: Arcanine
+|-damage|p1a: Arcanine|70/100
+|drag|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|turn|12
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Rock Slide|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|turn|13
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|14
+|
+|move|p2a: Iron Valiant|Focus Blast|p1a: Tyranitar|[miss]
+|-miss|p2a: Iron Valiant|p1a: Tyranitar
+|move|p1a: Tyranitar|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|44/100|[from] Sandstorm
+|turn|15
+|
+|move|p2a: Iron Valiant|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|38/100|[from] Sandstorm
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|turn|16
+|
+|move|p2a: Iron Valiant|Focus Blast|p1a: Kleavor|[miss]
+|-miss|p2a: Iron Valiant|p1a: Kleavor
+|move|p1a: Kleavor|Agility|p1a: Kleavor
+|-boost|p1a: Kleavor|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|31/100|[from] Sandstorm
+|turn|17
+|
+|move|p2a: Iron Valiant|Focus Blast|p1a: Kleavor|[miss]
+|-miss|p2a: Iron Valiant|p1a: Kleavor
+|move|p1a: Kleavor|X-Scissor|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|2/100|[from] Sandstorm
+|turn|18
+|
+|move|p2a: Iron Valiant|Focus Blast|p1a: Kleavor
+|-damage|p1a: Kleavor|53/100
+|move|p1a: Kleavor|X-Scissor|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|
+|switch|p2a: Dragonite|Dragonite, F|94/100
+|turn|19
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|66/100
+|-damage|p2a: Gholdengo|60/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|27/100
+|move|p2a: Gholdengo|Focus Blast|p1a: Kleavor
+|-damage|p1a: Kleavor|1/100
+|
+|turn|21
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|win|edgypunishment

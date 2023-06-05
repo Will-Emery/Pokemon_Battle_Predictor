@@ -1,0 +1,259 @@
+|poke|p1|Cinderace, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Mew|
+|poke|p1|Quaquaval, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Gengar, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Skeledirge, M|
+|teampreview
+|
+|start
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Fresh willie|Reflect
+|move|p1a: Quaquaval|Aqua Step|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|75/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|turn|2
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Fresh willie|move: Light Screen
+|move|p1a: Quaquaval|Aqua Step|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|49/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|turn|3
+|
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Quaquaval
+|-unboost|p1a: Quaquaval|atk|1
+|-unboost|p1a: Quaquaval|spa|1
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] Parting Shot
+|move|p1a: Quaquaval|Aqua Step|p2a: Slowking
+|-damage|p2a: Slowking|89/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|-heal|p2a: Slowking|95/100|[from] item: Black Sludge
+|turn|4
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|100/100|[from] item: Black Sludge
+|turn|5
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100|[from] Chilly Reception
+|move|p1a: Arcanine|Stealth Rock|p2a: Ursaluna
+|-sidestart|p2: Fresh willie|move: Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|6
+|
+|-terastallize|p1a: Arcanine|Flying
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|move|p1a: Arcanine|Flare Blitz|p2a: Ursaluna
+|-damage|p2a: Ursaluna|79/100 brn
+|-damage|p1a: Arcanine|91/100|[from] Recoil
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Ursaluna|73/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: Ursaluna|Facade|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Ursaluna|67/100 brn|[from] brn
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|8
+|
+|move|p2a: Ursaluna|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Ursaluna|61/100 brn|[from] brn
+|-sideend|p2: Fresh willie|Reflect
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, F, shiny|100/100
+|-damage|p2a: Decidueye|94/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|-weather|none
+|-sideend|p2: Fresh willie|move: Light Screen
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|49/100
+|-damage|p2a: Grimmsnarl|37/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Fresh willie|Reflect
+|move|p1a: Cinderace|Pyro Ball|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Slowking|Future Sight|p1a: Mew
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|94/100|[from] item: Black Sludge
+|turn|12
+|
+|move|p1a: Mew|Nasty Plot|p1a: Mew
+|-boost|p1a: Mew|spa|2
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|99/100|[from] item: Black Sludge
+|turn|13
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100|[from] Chilly Reception
+|-damage|p2a: Skeledirge|76/100|[from] Stealth Rock
+|-item|p2a: Skeledirge|Air Balloon
+|move|p1a: Mew|Psychic|p2a: Skeledirge
+|-damage|p2a: Skeledirge|32/100
+|-enditem|p2a: Skeledirge|Air Balloon
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Mew|move: Future Sight
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|79/100
+|turn|14
+|
+|move|p2a: Skeledirge|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|15
+|
+|move|p2a: Skeledirge|Yawn|p1a: Quaquaval
+|-start|p1a: Quaquaval|move: Yawn|[of] p2a: Skeledirge
+|move|p1a: Quaquaval|Aqua Step|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Skeledirge
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Slowking|Future Sight|p1a: Cinderace
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Slowking|94/100|[from] item: Black Sludge
+|-fieldend|move: Trick Room
+|turn|17
+|
+|move|p1a: Cinderace|U-turn|p2a: Slowking
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Slowking|72/100
+|
+|switch|p1a: Quaquaval|Quaquaval, F|100/100|[from] U-turn
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|none
+|-heal|p2a: Slowking|78/100|[from] item: Black Sludge
+|-sideend|p2: Fresh willie|Reflect
+|turn|18
+|
+|move|p2a: Slowking|Sludge Bomb|p1a: Quaquaval
+|-damage|p1a: Quaquaval|52/100
+|-status|p1a: Quaquaval|psn
+|move|p1a: Quaquaval|Aqua Step|p2a: Slowking
+|-damage|p2a: Slowking|41/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|-end|p1a: Quaquaval|move: Future Sight
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|-heal|p2a: Slowking|47/100|[from] item: Black Sludge
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|19
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|61/100 brn|[from] Chilly Reception
+|-damage|p2a: Ursaluna|55/100 brn|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Slowking|Slowking-Galar, F|80/100
+|-damage|p2a: Slowking|68/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Slowking|Future Sight|p1a: Cinderace
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Cinderace|Pyro Ball|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|21
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|Iromike

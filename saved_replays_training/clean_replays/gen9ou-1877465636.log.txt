@@ -1,0 +1,369 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Magearna|
+|poke|p1|Baxcalibur, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|poke|p2|Dragapult, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Open him up|Baxcalibur, F|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|switch|p1a: Gift Wrapped|Slowking-Galar, F, shiny|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Gift Wrapped
+|-damage|p1a: Gift Wrapped|65/100
+|-activate|p1a: Gift Wrapped|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Gift Wrapped|71/100|[from] item: Leftovers
+|-damage|p1a: Gift Wrapped|58/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|2
+|
+|move|p2a: Heatran|Stealth Rock|p1a: Gift Wrapped
+|-sidestart|p1: L0AG|move: Stealth Rock
+|move|p1a: Gift Wrapped|Chilly Reception|p1a: Gift Wrapped
+|-weather|Snow
+|
+|switch|p1a: Peak of my pocket|Cinderace, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|move|p1a: Peak of my pocket|Court Change|p1a: Peak of my pocket
+|-start|p1a: Peak of my pocket|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Peak of my pocket|move: Court Change
+|move|p2a: Heatran|Magma Storm|p1a: Peak of my pocket|[miss]
+|-miss|p2a: Heatran|p1a: Peak of my pocket
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p1a: Peak of my pocket|High Jump Kick|p2a: Heatran|[miss]
+|-miss|p1a: Peak of my pocket|p2a: Heatran
+|-damage|p1a: Peak of my pocket|51/100|[from] highjumpkick
+|move|p2a: Heatran|Stealth Rock|p1a: Peak of my pocket
+|-sidestart|p1: L0AG|move: Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|player|p2|
+|player|p2|Gluzzmobiletest|265
+|
+|switch|p1a: Gift Wrapped|Slowking-Galar, F, shiny|92/100
+|-damage|p1a: Gift Wrapped|79/100|[from] Stealth Rock
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Gift Wrapped|85/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: TWO PLANETS|Magearna|100/100
+|-damage|p1a: TWO PLANETS|95/100|[from] Stealth Rock
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: Gluzzmobiletest|Reflect
+|
+|-weather|none
+|turn|7
+|
+|move|p2a: Dragapult|Curse|p1a: TWO PLANETS
+|-start|p1a: TWO PLANETS|Curse|[of] p2a: Dragapult
+|-damage|p2a: Dragapult|38/100
+|move|p1a: TWO PLANETS|Fleur Cannon|p2a: Dragapult|[miss]
+|-miss|p1a: TWO PLANETS|p2a: Dragapult
+|
+|-damage|p1a: TWO PLANETS|70/100|[from] Curse
+|turn|8
+|
+|switch|p1a: Gift Wrapped|Slowking-Galar, F, shiny|100/100
+|-damage|p1a: Gift Wrapped|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|U-turn|p1a: Gift Wrapped
+|-damage|p1a: Gift Wrapped|68/100
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|-heal|p1a: Gift Wrapped|75/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|move|p1a: Gift Wrapped|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|58/100
+|
+|-heal|p2a: Magearna|64/100|[from] item: Leftovers
+|-heal|p1a: Gift Wrapped|81/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Gift Wrapped
+|-resisted|p1a: Gift Wrapped
+|-damage|p1a: Gift Wrapped|75/100
+|-heal|p2a: Magearna|69/100|[from] drain|[of] p1a: Gift Wrapped
+|move|p1a: Gift Wrapped|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|27/100
+|
+|-heal|p2a: Magearna|33/100|[from] item: Leftovers
+|-heal|p1a: Gift Wrapped|81/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Gift Wrapped|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|4/100
+|
+|-heal|p2a: Magearna|10/100|[from] item: Leftovers
+|-heal|p1a: Gift Wrapped|87/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Gift Wrapped
+|-resisted|p1a: Gift Wrapped
+|-damage|p1a: Gift Wrapped|77/100
+|-heal|p2a: Magearna|18/100|[from] drain|[of] p1a: Gift Wrapped
+|move|p1a: Gift Wrapped|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-heal|p1a: Gift Wrapped|83/100|[from] item: Leftovers
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|turn|13
+|
+|move|p2a: Heatran|Magma Storm|p1a: Gift Wrapped
+|-damage|p1a: Gift Wrapped|48/100
+|-activate|p1a: Gift Wrapped|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Gift Wrapped|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|48/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|-heal|p1a: Gift Wrapped|54/100|[from] item: Leftovers
+|-damage|p1a: Gift Wrapped|41/100|[from] move: Magma Storm|[partiallytrapped]
+|-sideend|p2: Gluzzmobiletest|Reflect
+|turn|14
+|
+|move|p2a: Heatran|Lava Plume|p1a: Gift Wrapped
+|-damage|p1a: Gift Wrapped|11/100
+|-status|p1a: Gift Wrapped|brn
+|move|p1a: Gift Wrapped|Chilly Reception|p1a: Gift Wrapped
+|-weather|Snow
+|
+|switch|p1a: 4D fit|Landorus-Therian, M|100/100|[from] Chilly Reception
+|-damage|p1a: 4D fit|88/100|[from] Stealth Rock
+|-ability|p1a: 4D fit|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|
+|-weather|Snow|[upkeep]
+|turn|15
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-damage|p2a: Sneasler|94/100|[from] Stealth Rock
+|-item|p2a: Sneasler|Air Balloon
+|move|p1a: 4D fit|Earth Power|p2a: Sneasler
+|-immune|p2a: Sneasler
+|
+|-weather|Snow|[upkeep]
+|turn|16
+|
+|switch|p1a: TWO PLANETS|Magearna|70/100
+|-damage|p1a: TWO PLANETS|64/100|[from] Stealth Rock
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-weather|Snow|[upkeep]
+|turn|17
+|
+|-terastallize|p1a: TWO PLANETS|Fairy
+|move|p1a: TWO PLANETS|Fleur Cannon|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: TWO PLANETS|spa|2
+|-enditem|p2a: Sneasler|Air Balloon
+|faint|p2a: Sneasler
+|-ability|p1a: TWO PLANETS|Soul-Heart|boost
+|-boost|p1a: TWO PLANETS|spa|1
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, M|38/100
+|-damage|p2a: Dragapult|26/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: Gluzzmobiletest|move: Light Screen
+|move|p1a: TWO PLANETS|Fleur Cannon|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: TWO PLANETS|spa|2
+|faint|p2a: Dragapult
+|-ability|p1a: TWO PLANETS|Soul-Heart|boost
+|-boost|p1a: TWO PLANETS|spa|1
+|
+|-weather|none
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p2a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|19
+|
+|switch|p1a: Gift Wrapped|Slowking-Galar, F, shiny|44/100 brn
+|-damage|p1a: Gift Wrapped|31/100 brn|[from] Stealth Rock
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p1a: Gift Wrapped|38/100 brn|[from] item: Leftovers
+|-damage|p1a: Gift Wrapped|31/100 brn|[from] brn
+|turn|20
+|
+|move|p2a: Zamazenta|Body Press|p1a: Gift Wrapped
+|-resisted|p1a: Gift Wrapped
+|-damage|p1a: Gift Wrapped|2/100 brn
+|move|p1a: Gift Wrapped|Flamethrower|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|82/100
+|
+|-heal|p1a: Gift Wrapped|8/100 brn|[from] item: Leftovers
+|-damage|p1a: Gift Wrapped|2/100 brn|[from] brn
+|turn|21
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Gift Wrapped|Flamethrower|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|66/100
+|-status|p2a: Zamazenta|brn
+|
+|-heal|p1a: Gift Wrapped|8/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|60/100 brn|[from] brn
+|-damage|p1a: Gift Wrapped|2/100 brn|[from] brn
+|turn|22
+|
+|switch|p1a: 4D fit|Landorus-Therian, M|88/100
+|-damage|p1a: 4D fit|76/100|[from] Stealth Rock
+|-ability|p1a: 4D fit|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|move|p2a: Zamazenta|Body Press|p1a: 4D fit
+|-resisted|p1a: 4D fit
+|-damage|p1a: 4D fit|28/100
+|
+|-damage|p2a: Zamazenta|53/100 brn|[from] brn
+|turn|23
+|
+|-terastallize|p2a: Zamazenta|Fairy
+|move|p1a: 4D fit|Earth Power|p2a: Zamazenta
+|-damage|p2a: Zamazenta|35/100 brn
+|move|p2a: Zamazenta|Body Press|p1a: 4D fit
+|-resisted|p1a: 4D fit
+|-damage|p1a: 4D fit|0 fnt
+|faint|p1a: 4D fit
+|
+|-damage|p2a: Zamazenta|29/100 brn|[from] brn
+|
+|switch|p1a: Gift Wrapped|Slowking-Galar, F, shiny|35/100 brn
+|-damage|p1a: Gift Wrapped|22/100 brn|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: TWO PLANETS|Magearna, tera:Fairy|64/100
+|-damage|p1a: TWO PLANETS|51/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Body Press|p1a: TWO PLANETS
+|-resisted|p1a: TWO PLANETS
+|-damage|p1a: TWO PLANETS|9/100
+|
+|-damage|p2a: Zamazenta|22/100 brn|[from] brn
+|turn|25
+|
+|move|p1a: TWO PLANETS|Fleur Cannon|p2a: Zamazenta|[miss]
+|-miss|p1a: TWO PLANETS|p2a: Zamazenta
+|move|p2a: Zamazenta|Body Press|p1a: TWO PLANETS
+|-resisted|p1a: TWO PLANETS
+|-damage|p1a: TWO PLANETS|0 fnt
+|faint|p1a: TWO PLANETS
+|
+|-damage|p2a: Zamazenta|16/100 brn|[from] brn
+|-sideend|p2: Gluzzmobiletest|move: Light Screen
+|
+|switch|p1a: Gift Wrapped|Slowking-Galar, F, shiny|56/100 brn
+|-damage|p1a: Gift Wrapped|43/100 brn|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Open him up|Baxcalibur, F|100/100
+|-damage|p1a: Open him up|76/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Body Press|p1a: Open him up
+|-supereffective|p1a: Open him up
+|-damage|p1a: Open him up|0 fnt
+|faint|p1a: Open him up
+|
+|-damage|p2a: Zamazenta|10/100 brn|[from] brn
+|
+|switch|p1a: Plenty of consent|Lilligant-Hisui, F, shiny|100/100
+|-damage|p1a: Plenty of consent|94/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Plenty of consent|Leaf Blade|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Blue Eyes|Chien-Pao|100/100
+|-damage|p2a: Blue Eyes|76/100|[from] Stealth Rock
+|-ability|p2a: Blue Eyes|Sword of Ruin
+|turn|28
+|
+|switch|p1a: Gift Wrapped|Slowking-Galar, F, shiny|76/100 brn
+|-damage|p1a: Gift Wrapped|64/100 brn|[from] Stealth Rock
+|move|p2a: Blue Eyes|Icicle Crash|p1a: Gift Wrapped
+|-damage|p1a: Gift Wrapped|0 fnt
+|faint|p1a: Gift Wrapped
+|
+|
+|switch|p1a: Peak of my pocket|Cinderace, F|51/100
+|turn|29
+|
+|switch|p2a: Heatran|Heatran, F|48/100
+|-damage|p2a: Heatran|36/100|[from] Stealth Rock
+|move|p1a: Peak of my pocket|High Jump Kick|p2a: Heatran
+|-start|p1a: Peak of my pocket|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Blue Eyes|Chien-Pao|76/100
+|-damage|p2a: Blue Eyes|51/100|[from] Stealth Rock
+|-ability|p2a: Blue Eyes|Sword of Ruin
+|turn|30
+|
+|switch|p1a: Plenty of consent|Lilligant-Hisui, F, shiny|94/100
+|-damage|p1a: Plenty of consent|88/100|[from] Stealth Rock
+|move|p2a: Blue Eyes|Icicle Crash|p1a: Plenty of consent
+|-supereffective|p1a: Plenty of consent
+|-damage|p1a: Plenty of consent|0 fnt
+|faint|p1a: Plenty of consent
+|
+|
+|switch|p1a: Peak of my pocket|Cinderace, F|51/100
+|turn|31
+|
+|move|p2a: Blue Eyes|Icicle Crash|p1a: Peak of my pocket
+|-resisted|p1a: Peak of my pocket
+|-damage|p1a: Peak of my pocket|0 fnt
+|faint|p1a: Peak of my pocket
+|
+|win|Gluzzmobiletest

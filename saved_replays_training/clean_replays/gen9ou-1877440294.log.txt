@@ -1,0 +1,168 @@
+|poke|p1|Kleavor, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Iron Treads|
+|poke|p1|Rabsca, F|
+|poke|p1|Dragonite, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Breloom, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|1
+|
+|move|p2a: Breloom|Spore|p1a: Dragonite
+|-status|p1a: Dragonite|slp|[from] move: Spore
+|cant|p1a: Dragonite|slp
+|
+|turn|2
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|cant|p1a: Dragonite|slp
+|
+|turn|3
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dragonite|[miss]
+|-miss|p2a: Samurott|p1a: Dragonite
+|cant|p1a: Dragonite|slp
+|
+|turn|4
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dragonite
+|-damage|p1a: Dragonite|75/100 slp
+|-sidestart|p1: LowELOtest|Spikes
+|-curestatus|p1a: Dragonite|slp|[msg]
+|move|p1a: Dragonite|Thunder|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|5
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|88/100|[from] Spikes
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|6
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Breloom
+|-damage|p2a: Breloom|74/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: LowELOtest|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|turn|7
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Dragonite|Dragonite, M|75/100
+|move|p2a: Breloom|Bullet Seed|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|67/100
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|60/100
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|52/100
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|45/100
+|-hitcount|p1a: Dragonite|4
+|-damage|p2a: Breloom|64/100|[from] item: Life Orb
+|
+|turn|8
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Dragonite|Hurricane|p2a: Slowking|[miss]
+|-miss|p1a: Dragonite|p2a: Slowking
+|
+|turn|9
+|
+|switch|p1a: Iron Treads|Iron Treads|88/100
+|move|p2a: Slowking|Psychic|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|70/100
+|
+|-fieldend|move: Trick Room
+|turn|10
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|11
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|43/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Hatterene|33/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|turn|12
+|
+|-terastallize|p2a: Hatterene|Steel
+|move|p1a: Kleavor|U-turn|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|12/100
+|
+|switch|p1a: Dragonite|Dragonite, M|45/100|[from] U-turn
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|turn|13
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|14
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Ursaluna
+|-damage|p2a: Ursaluna|80/100
+|move|p2a: Ursaluna|Facade|p1a: Dragonite
+|-damage|p1a: Dragonite|1/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|15
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Ursaluna
+|-damage|p2a: Ursaluna|61/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-damage|p2a: Ursaluna|55/100 brn|[from] brn
+|
+|switch|p1a: Rabsca|Rabsca, F|100/100
+|turn|16
+|
+|move|p1a: Rabsca|Revival Blessing|p1a: Rabsca
+|
+|-heal|p1: Dragonite|50/100|[from] move: Revival Blessing
+|move|p2a: Ursaluna|Facade|p1a: Rabsca
+|-enditem|p1a: Rabsca|Focus Sash
+|-damage|p1a: Rabsca|1/100
+|
+|-damage|p2a: Ursaluna|49/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|17
+|-message|deathprofessor21 forfeited.
+|
+|win|LowELOtest

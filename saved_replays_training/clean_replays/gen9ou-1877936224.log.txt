@@ -1,0 +1,303 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Rotom-Wash|
+|poke|p1|Mew|
+|poke|p1|Lokix, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Lilleplutt|Mew, shiny|100/100
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|turn|1
+|
+|move|p1a: Lilleplutt|Stealth Rock|p2a: Skeledirge
+|-sidestart|p2: Bruc3wi11y|move: Stealth Rock
+|move|p2a: Skeledirge|Substitute|p2a: Skeledirge
+|-start|p2a: Skeledirge|Substitute
+|-damage|p2a: Skeledirge|75/100
+|
+|turn|2
+|
+|move|p1a: Lilleplutt|Taunt|p2a: Skeledirge
+|-start|p2a: Skeledirge|move: Taunt
+|move|p2a: Skeledirge|Torch Song|p1a: Lilleplutt
+|-damage|p1a: Lilleplutt|82/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|turn|3
+|
+|switch|p1a: Tvättad|Rotom-Wash|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Tvättad
+|-resisted|p1a: Tvättad
+|-damage|p1a: Tvättad|69/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|turn|4
+|
+|move|p1a: Tvättad|Volt Switch|p2a: Skeledirge
+|-activate|p2a: Skeledirge|move: Substitute|[damage]
+|
+|switch|p1a: Lilleplutt|Mew, shiny|82/100|[from] Volt Switch
+|move|p2a: Skeledirge|Shadow Ball|p1a: Lilleplutt
+|-supereffective|p1a: Lilleplutt
+|-damage|p1a: Lilleplutt|5/100
+|
+|-end|p2a: Skeledirge|move: Taunt
+|turn|5
+|
+|move|p1a: Lilleplutt|Taunt|p2a: Skeledirge
+|-start|p2a: Skeledirge|move: Taunt
+|cant|p2a: Skeledirge|move: Taunt|Substitute
+|
+|turn|6
+|
+|move|p1a: Lilleplutt|Ice Beam|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-end|p2a: Skeledirge|Substitute
+|move|p2a: Skeledirge|Shadow Ball|p1a: Lilleplutt
+|-supereffective|p1a: Lilleplutt
+|-damage|p1a: Lilleplutt|0 fnt
+|faint|p1a: Lilleplutt
+|
+|
+|switch|p1a: Djungelskog|Ursaluna, F, shiny|100/100
+|turn|7
+|
+|-terastallize|p1a: Djungelskog|Ghost
+|move|p2a: Skeledirge|Torch Song|p1a: Djungelskog
+|-damage|p1a: Djungelskog|63/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Djungelskog|Shadow Claw|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|8
+|
+|switch|p1a: Vättlösa|Corviknight, F, shiny|100/100
+|-ability|p1a: Vättlösa|Pressure
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Vättlösa
+|-sidestart|p1: Reece637|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|100/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Vättlösa|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|85/100
+|
+|switch|p1a: Livlig|Zamazenta, shiny|100/100|[from] U-turn
+|-damage|p1a: Livlig|94/100|[from] Stealth Rock
+|-ability|p1a: Livlig|Dauntless Shield|boost
+|-boost|p1a: Livlig|def|1
+|move|p2a: Ting-Lu|Whirlwind|p1a: Livlig
+|drag|p1a: Tvättad|Rotom-Wash|69/100
+|-damage|p1a: Tvättad|57/100|[from] Stealth Rock
+|
+|-heal|p2a: Ting-Lu|92/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Tvättad|Trick|p2a: Ting-Lu
+|-activate|p1a: Tvättad|move: Trick|[of] p2a: Ting-Lu
+|-item|p2a: Ting-Lu|Choice Scarf|[from] move: Trick
+|-item|p1a: Tvättad|Leftovers|[from] move: Trick
+|move|p2a: Ting-Lu|Spikes|p1a: Tvättad
+|-sidestart|p1: Reece637|Spikes
+|
+|-heal|p1a: Tvättad|63/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Vättlösa|Corviknight, F, shiny|100/100
+|-damage|p1a: Vättlösa|88/100|[from] Stealth Rock
+|-ability|p1a: Vättlösa|Pressure
+|move|p2a: Ting-Lu|Spikes|p1a: Vättlösa
+|-sidestart|p1: Reece637|Spikes
+|
+|-heal|p1a: Vättlösa|94/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|-damage|p2a: Baxcalibur|76/100|[from] Stealth Rock
+|move|p1a: Vättlösa|U-turn|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|61/100
+|
+|switch|p1a: Bugga|Lokix, F|100/100|[from] U-turn
+|-damage|p1a: Bugga|76/100|[from] Stealth Rock
+|-damage|p1a: Bugga|59/100|[from] Spikes
+|
+|turn|13
+|
+|move|p1a: Bugga|First Impression|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|3/100
+|-damage|p1a: Bugga|49/100|[from] item: Life Orb
+|move|p2a: Baxcalibur|Glaive Rush|p1a: Bugga
+|-damage|p1a: Bugga|0 fnt
+|-singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+|faint|p1a: Bugga
+|
+|
+|switch|p1a: Vättlösa|Corviknight, F, shiny|94/100
+|-damage|p1a: Vättlösa|82/100|[from] Stealth Rock
+|-ability|p1a: Vättlösa|Pressure
+|turn|14
+|
+|move|p2a: Baxcalibur|Icicle Spear|p1a: Vättlösa
+|-damage|p1a: Vättlösa|72/100
+|-damage|p1a: Vättlösa|62/100
+|-crit|p1a: Vättlösa
+|-damage|p1a: Vättlösa|48/100
+|-damage|p1a: Vättlösa|39/100
+|-hitcount|p1a: Vättlösa|4
+|move|p1a: Vättlösa|Defog|p2a: Baxcalibur
+|-unboost|p2a: Baxcalibur|evasion|1
+|-sideend|p2: Bruc3wi11y|Stealth Rock|[from] move: Defog|[of] p1a: Vättlösa
+|-sideend|p1: Reece637|Spikes|[from] move: Defog|[of] p1a: Vättlösa
+|-sideend|p1: Reece637|Stealth Rock|[from] move: Defog|[of] p1a: Vättlösa
+|
+|-heal|p1a: Vättlösa|45/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Baxcalibur|Icicle Spear|p1a: Vättlösa
+|-damage|p1a: Vättlösa|36/100
+|-damage|p1a: Vättlösa|27/100
+|-damage|p1a: Vättlösa|18/100
+|-damage|p1a: Vättlösa|8/100
+|-hitcount|p1a: Vättlösa|4
+|move|p1a: Vättlösa|Roost|p1a: Vättlösa
+|-heal|p1a: Vättlösa|58/100
+|-singleturn|p1a: Vättlösa|move: Roost
+|
+|-heal|p1a: Vättlösa|64/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Baxcalibur|Icicle Spear|p1a: Vättlösa
+|-damage|p1a: Vättlösa|54/100
+|-damage|p1a: Vättlösa|45/100
+|-damage|p1a: Vättlösa|35/100
+|-damage|p1a: Vättlösa|25/100
+|-hitcount|p1a: Vättlösa|4
+|move|p1a: Vättlösa|U-turn|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|switch|p1a: Djungelskog|Ursaluna, F, shiny, tera:Ghost|63/100|[from] U-turn
+|
+|
+|switch|p2a: Ting-Lu|Ting-Lu|92/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|17
+|
+|switch|p1a: Livlig|Zamazenta, shiny|94/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Livlig
+|drag|p1a: Vättlösa|Corviknight, F, shiny|25/100
+|-ability|p1a: Vättlösa|Pressure
+|
+|-heal|p1a: Vättlösa|31/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Vättlösa|Roost|p1a: Vättlösa
+|-heal|p1a: Vättlösa|81/100
+|-singleturn|p1a: Vättlösa|move: Roost
+|
+|-heal|p1a: Vättlösa|87/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: Djungelskog|Ursaluna, F, shiny, tera:Ghost|63/100
+|move|p2a: Thundurus|Thunderbolt|p1a: Djungelskog
+|-damage|p1a: Djungelskog|35/100
+|
+|turn|20
+|
+|switch|p2a: Ting-Lu|Ting-Lu|92/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Djungelskog|Shadow Claw|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|80/100
+|
+|turn|21
+|
+|switch|p1a: Tvättad|Rotom-Wash|63/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Tvättad
+|drag|p1a: Vättlösa|Corviknight, F, shiny|87/100
+|-ability|p1a: Vättlösa|Pressure
+|
+|-heal|p1a: Vättlösa|94/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Vättlösa|U-turn|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|90/100
+|
+|switch|p1a: Livlig|Zamazenta, shiny|94/100|[from] U-turn
+|
+|turn|23
+|
+|move|p1a: Livlig|Ice Fang|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|24
+|
+|switch|p1a: Djungelskog|Ursaluna, F, shiny, tera:Ghost|35/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Djungelskog
+|-damage|p1a: Djungelskog|10/100
+|
+|turn|25
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Djungelskog
+|-damage|p1a: Djungelskog|0 fnt
+|faint|p1a: Djungelskog
+|
+|
+|switch|p1a: Vättlösa|Corviknight, F, shiny|94/100
+|-ability|p1a: Vättlösa|Pressure
+|turn|26
+|
+|-terastallize|p2a: Iron Valiant|Fairy
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Vättlösa|Brave Bird|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|54/100
+|-damage|p1a: Vättlösa|83/100|[from] Recoil
+|
+|-heal|p1a: Vättlösa|89/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Vättlösa
+|-supereffective|p1a: Vättlösa
+|-crit|p1a: Vättlösa
+|-damage|p1a: Vättlösa|0 fnt
+|faint|p1a: Vättlösa
+|
+|
+|switch|p1a: Tvättad|Rotom-Wash|63/100
+|turn|28
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Tvättad
+|-damage|p1a: Tvättad|0 fnt
+|faint|p1a: Tvättad
+|
+|-message|Reece637 forfeited.
+|
+|win|Bruc3wi11y

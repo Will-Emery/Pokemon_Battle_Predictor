@@ -1,0 +1,221 @@
+|poke|p1|Basculegion-F, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Talonflame, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Pelipper|[miss]
+|-miss|p2a: Dragapult|p1a: Pelipper
+|move|p1a: Pelipper|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|95/100
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Basculegion|Shadow Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|31/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Basculegion|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Great Tusk|32/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|5
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Hoopa|Zen Headbutt|p1a: Samurott
+|-immune|p1a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p2a: Zapdos|Zapdos|31/100
+|move|p1a: Samurott|Aqua Cutter|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|7
+|
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Talonflame|Hurricane|p2a: Slowking
+|-damage|p2a: Slowking|82/100
+|-start|p2a: Slowking|confusion
+|
+|-weather|none
+|turn|9
+|
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|-activate|p2a: Slowking|confusion
+|move|p2a: Slowking|Future Sight|p1a: Talonflame
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p2a: Slowking|76/100 brn|[from] brn
+|turn|10
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-activate|p2a: Slowking|confusion
+|move|p2a: Slowking|Thunder Wave|p1a: Samurott
+|-status|p1a: Samurott|par
+|
+|-damage|p2a: Slowking|70/100 brn|[from] brn
+|turn|11
+|
+|switch|p2a: Zamazenta|Zamazenta|82/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|65/100
+|-sidestart|p2: gotsnsd|Spikes
+|
+|-end|p1a: Samurott|move: Future Sight
+|-immune|p1a: Samurott
+|-heal|p2a: Zamazenta|71/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|
+|-damage|p2a: Slowking|94/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Chilly Reception
+|-damage|p2a: Dragapult|88/100|[from] Spikes
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Thundurus
+|-damage|p1a: Thundurus|71/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Thundurus
+|-damage|p1a: Thundurus|43/100
+|move|p1a: Thundurus|Discharge|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|22/100
+|-status|p2a: Dragapult|par
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Dragapult|28/100 par|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Thundurus|Discharge|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|turn|16
+|
+|move|p1a: Thundurus|Discharge|p2a: Slowking
+|-damage|p2a: Slowking|46/100 brn
+|move|p2a: Slowking|Sludge Bomb|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Slowking|40/100 brn|[from] brn
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|17
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|19/100 brn
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-hitcount|p2: Slowking|2
+|
+|-weather|none
+|
+|switch|p2a: Zamazenta|Zamazenta|71/100
+|-damage|p2a: Zamazenta|58/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|34/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|-crit|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|17/100
+|-hitcount|p2a: Zamazenta|3
+|
+|-heal|p2a: Zamazenta|23/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Zamazenta|Body Press|p1a: Urshifu
+|-damage|p1a: Urshifu|61/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|5/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-hitcount|p2: Zamazenta|2
+|
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|88/100|[from] Spikes
+|turn|20
+|-message|gotsnsd forfeited.
+|
+|win|CapnTophat

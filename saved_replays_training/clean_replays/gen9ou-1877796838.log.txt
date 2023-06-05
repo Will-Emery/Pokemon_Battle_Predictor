@@ -1,0 +1,274 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Gholdengo|
+|poke|p1|Magearna|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|49/100
+|-sidestart|p2: StGermain49|Spikes
+|move|p2a: Pelipper|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|76/100
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|-damage|p2a: Samurott|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Samurott|X-Scissor|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Samurott|atk|1
+|turn|3
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|move|p1a: Landorus|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|71/100
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|88/100
+|-damage|p2a: Samurott|76/100|[from] Spikes
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|79/100
+|-sidestart|p1: PLAYB0I R0BBIE B|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magearna|85/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Basculegion|Basculegion-F, F, shiny|100/100
+|-damage|p2a: Basculegion|88/100|[from] Spikes
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magearna|91/100|[from] item: Leftovers
+|turn|7
+|
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Basculegion|Hydro Pump|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|34/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magearna|40/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Basculegion
+|-damage|p2a: Basculegion|54/100
+|-heal|p1a: Magearna|72/100|[from] drain|[of] p2a: Basculegion
+|move|p2a: Basculegion|Hydro Pump|p1a: Magearna|[miss]
+|-miss|p2a: Basculegion|p1a: Magearna
+|
+|-weather|none
+|-heal|p1a: Magearna|78/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Magearna|Stored Power|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|84/100|[from] item: Leftovers
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|turn|10
+|
+|-terastallize|p2a: Amoonguss|Steel
+|move|p1a: Magearna|Stored Power|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|50/100
+|move|p2a: Amoonguss|Clear Smog|p1a: Magearna
+|-damage|p1a: Magearna|69/100
+|-clearboost|p1a: Magearna
+|
+|-heal|p1a: Magearna|75/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|move|p2a: Amoonguss|Giga Drain|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|77/100
+|-heal|p2a: Amoonguss|55/100|[from] drain|[of] p1a: Gholdengo
+|
+|turn|12
+|
+|switch|p2a: Pelipper|Pelipper, F|49/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Gholdengo|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Spikes
+|turn|13
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|move|p1a: Gholdengo|Shadow Ball|p2a: Dragapult|[miss]
+|-miss|p1a: Gholdengo|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Gholdengo|[from]lockedmove
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|turn|15
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|76/100
+|-damage|p2a: Samurott|63/100|[from] Spikes
+|move|p1a: Landorus|Stealth Rock|p2a: Samurott
+|-sidestart|p2: StGermain49|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p2a: Samurott|Aqua Cutter|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-damage|p1a: Sneasler|88/100|[from] Spikes
+|turn|17
+|
+|move|p1a: Sneasler|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|1/100
+|
+|switch|p1a: Magearna|Magearna, tera:Water|75/100|[from] U-turn
+|-damage|p1a: Magearna|63/100|[from] Spikes
+|move|p2a: Samurott|Aqua Cutter|p1a: Magearna
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|8/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magearna|14/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Samurott|Aqua Cutter|p1a: Magearna
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, F|88/100
+|-damage|p1a: Sneasler|76/100|[from] Spikes
+|turn|19
+|
+|move|p1a: Sneasler|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|
+|-weather|none
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny, tera:Steel|88/100
+|-damage|p2a: Amoonguss|75/100|[from] Spikes
+|-damage|p2a: Amoonguss|69/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Amoonguss
+|-status|p2a: Amoonguss|brn
+|move|p2a: Amoonguss|Spore|p1a: Dragapult
+|-status|p1a: Dragapult|slp|[from] move: Spore
+|
+|-damage|p2a: Amoonguss|63/100 brn|[from] brn
+|turn|21
+|
+|switch|p2a: Dragapult|Dragapult, F|88/100
+|-damage|p2a: Dragapult|76/100|[from] Spikes
+|-damage|p2a: Dragapult|64/100|[from] Stealth Rock
+|cant|p1a: Dragapult|slp
+|
+|turn|22
+|
+|-curestatus|p1a: Dragapult|slp|[msg]
+|move|p1a: Dragapult|Hex|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny, tera:Steel|96/100 brn
+|-damage|p2a: Amoonguss|84/100 brn|[from] Spikes
+|-damage|p2a: Amoonguss|78/100 brn|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Dragapult|Hex|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Thundurus
+|
+|win|PLAYB0I R0BBIE B

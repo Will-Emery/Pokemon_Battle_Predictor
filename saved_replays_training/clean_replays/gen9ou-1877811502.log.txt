@@ -1,0 +1,111 @@
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Glastrier|
+|poke|p1|Regidrago|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|
+|start
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|3
+|
+|move|p1a: Hoopa|Zen Headbutt|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|move|p2a: Sneasler|Close Combat|p1a: Hoopa
+|-crit|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Hoopa
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|4
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|move|p1a: Ursaluna|Facade|p2a: Torkoal
+|-damage|p2a: Torkoal|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|5
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|-end|p2a: Walking Wake|Protosynthesis
+|
+|switch|p1a: Regidrago|Regidrago|100/100|[from] Chilly Reception
+|move|p2a: Walking Wake|Hydro Steam|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|70/100
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Regidrago|Hyper Beam|p2a: Grimmsnarl|[miss]
+|-miss|p1a: Regidrago|p2a: Grimmsnarl
+|
+|-weather|Snow|[upkeep]
+|turn|9
+|
+|move|p1a: Regidrago|Hyper Beam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|23/100
+|-mustrecharge|p1a: Regidrago
+|move|p2a: Grimmsnarl|Draining Kiss|p1a: Regidrago
+|-supereffective|p1a: Regidrago
+|-damage|p1a: Regidrago|26/100
+|-heal|p2a: Grimmsnarl|72/100|[from] drain|[of] p1a: Regidrago
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Grimmsnarl|78/100|[from] item: Leftovers
+|turn|10
+|-message|HazeCloud forfeited.
+|
+|win|EtherSword

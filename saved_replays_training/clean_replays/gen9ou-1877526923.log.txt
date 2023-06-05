@@ -1,0 +1,427 @@
+|poke|p1|Masquerain, F|
+|poke|p1|Forretress, F|
+|poke|p1|Scizor, F|
+|poke|p1|Iron Thorns|
+|poke|p1|Kleavor, F|
+|poke|p1|Volcarona, F|
+|poke|p2|Magearna|
+|poke|p2|Skeledirge, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Great Tusk|
+|poke|p2|Sableye, F|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|start
+|switch|p1a: Masquerain|Masquerain, F, shiny|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Magearna|atk|1
+|turn|1
+|
+|move|p1a: Masquerain|Sticky Web|p2a: Magearna
+|-sidestart|p2: meowth_el|move: Sticky Web
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|2
+|
+|move|p2a: Magearna|Flash Cannon|p1a: Masquerain
+|-damage|p1a: Masquerain|45/100
+|move|p1a: Masquerain|Haze|p1a: Masquerain
+|-clearallboost
+|
+|turn|3
+|
+|move|p1a: Masquerain|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|98/100
+|
+|switch|p1a: Volcarona|Volcarona, F, shiny|100/100|[from] U-turn
+|move|p2a: Magearna|Flash Cannon|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|79/100
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|5
+|
+|switch|p1a: Forretress|Forretress, F, shiny|100/100
+|-terastallize|p2a: Toxapex|Poison
+|move|p2a: Toxapex|Infestation|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|98/100
+|-activate|p1a: Forretress|move: Infestation|[of] p2a: Toxapex
+|-damage|p2a: Toxapex|84/100|[from] item: Rocky Helmet|[of] p1a: Forretress
+|
+|-heal|p2a: Toxapex|90/100|[from] item: Black Sludge
+|-damage|p1a: Forretress|86/100|[from] move: Infestation|[partiallytrapped]
+|turn|6
+|
+|move|p1a: Forretress|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100
+|move|p2a: Toxapex|Infestation|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|84/100
+|-damage|p2a: Toxapex|21/100|[from] item: Rocky Helmet|[of] p1a: Forretress
+|
+|-heal|p2a: Toxapex|27/100|[from] item: Black Sludge
+|-damage|p1a: Forretress|71/100|[from] move: Infestation|[partiallytrapped]
+|turn|7
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Forretress|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|85/100
+|
+|-end|p1a: Forretress|Infestation|[partiallytrapped]|[silent]
+|turn|8
+|
+|switch|p1a: Masquerain|Masquerain, F, shiny|45/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: Masquerain
+|-damage|p1a: Masquerain|29/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: meowth_el|Sticky Web|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|turn|9
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Masquerain
+|-sidestart|p1: zhongqiu2|move: Stealth Rock
+|move|p1a: Masquerain|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|10
+|
+|move|p1a: Masquerain|Sticky Web|p2a: Skeledirge
+|-sidestart|p2: meowth_el|move: Sticky Web
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Masquerain
+|-status|p1a: Masquerain|brn
+|
+|-damage|p1a: Masquerain|23/100 brn|[from] brn
+|turn|11
+|
+|move|p1a: Masquerain|Hurricane|p2a: Skeledirge|[miss]
+|-miss|p1a: Masquerain|p2a: Skeledirge
+|move|p2a: Skeledirge|Torch Song|p1a: Masquerain
+|-supereffective|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Masquerain
+|
+|
+|switch|p1a: Iron Thorns|Iron Thorns, shiny|100/100
+|-damage|p1a: Iron Thorns|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, F, tera:Poison|60/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|move|p1a: Iron Thorns|Rock Blast|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|-damage|p2a: Toxapex|39/100
+|-damage|p2a: Toxapex|29/100
+|-damage|p2a: Toxapex|19/100
+|-damage|p2a: Toxapex|10/100
+|-hitcount|p2a: Toxapex|5
+|
+|-heal|p2a: Toxapex|16/100|[from] item: Black Sludge
+|turn|13
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|-activate|p2a: Sableye|move: Sticky Web
+|-unboost|p2a: Sableye|spe|1
+|move|p1a: Iron Thorns|Rock Blast|p2a: Sableye
+|-damage|p2a: Sableye|87/100
+|-damage|p2a: Sableye|73/100
+|-damage|p2a: Sableye|60/100
+|-damage|p2a: Sableye|48/100
+|-hitcount|p2a: Sableye|4
+|
+|-heal|p2a: Sableye|54/100|[from] item: Leftovers
+|turn|14
+|
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|switch|p1a: Forretress|Forretress, F, shiny|71/100
+|-damage|p1a: Forretress|59/100|[from] Stealth Rock
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|
+|turn|15
+|
+|move|p2a: Sableye|Thunder Wave|p1a: Forretress
+|-status|p1a: Forretress|par
+|move|p1a: Forretress|Stealth Rock|p2a: Sableye
+|-sidestart|p2: meowth_el|move: Stealth Rock
+|
+|turn|16
+|
+|move|p2a: Sableye|Taunt|p1a: Forretress
+|-start|p1a: Forretress|move: Taunt
+|cant|p1a: Forretress|par
+|
+|turn|17
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|-activate|p2a: Skeledirge|move: Sticky Web
+|-unboost|p2a: Skeledirge|spe|1
+|-damage|p2a: Skeledirge|75/100|[from] Stealth Rock
+|cant|p1a: Forretress|par
+|
+|turn|18
+|
+|-terastallize|p1a: Forretress|Fire
+|move|p2a: Skeledirge|Torch Song|p1a: Forretress
+|-resisted|p1a: Forretress
+|-crit|p1a: Forretress
+|-damage|p1a: Forretress|22/100 par
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Forretress|Volt Switch|p2a: Skeledirge
+|-damage|p2a: Skeledirge|64/100
+|
+|switch|p1a: Iron Thorns|Iron Thorns, shiny|88/100|[from] Volt Switch
+|-damage|p1a: Iron Thorns|75/100|[from] Stealth Rock
+|
+|turn|19
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|-activate|p2a: Sableye|move: Sticky Web
+|-unboost|p2a: Sableye|spe|1
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|move|p1a: Iron Thorns|Rock Blast|p2a: Sableye
+|-damage|p2a: Sableye|76/100
+|-damage|p2a: Sableye|65/100
+|-damage|p2a: Sableye|52/100
+|-damage|p2a: Sableye|39/100
+|-damage|p2a: Sableye|27/100
+|-hitcount|p2a: Sableye|5
+|
+|-heal|p2a: Sableye|33/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|83/100
+|move|p1a: Iron Thorns|Rock Blast|p2a: Sableye
+|-damage|p2a: Sableye|71/100
+|-damage|p2a: Sableye|59/100
+|-damage|p2a: Sableye|46/100
+|-damage|p2a: Sableye|33/100
+|-hitcount|p2a: Sableye|4
+|
+|-heal|p2a: Sableye|39/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|89/100
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|
+|-heal|p2a: Sableye|95/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Iron Thorns|Rock Blast|p2a: Sableye
+|-damage|p2a: Sableye|76/100
+|-damage|p2a: Sableye|58/100
+|-damage|p2a: Sableye|39/100
+|-damage|p2a: Sableye|21/100
+|-hitcount|p2a: Sableye|4
+|move|p2a: Sableye|Foul Play|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|17/100
+|
+|-heal|p2a: Sableye|27/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Sableye|Taunt|p1a: Iron Thorns
+|-start|p1a: Iron Thorns|move: Taunt
+|move|p1a: Iron Thorns|Rock Blast|p2a: Sableye|[miss]
+|-miss|p1a: Iron Thorns|p2a: Sableye
+|
+|-heal|p2a: Sableye|33/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|83/100
+|move|p1a: Iron Thorns|Rock Blast|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|54/100
+|-damage|p2a: Sableye|34/100
+|-damage|p2a: Sableye|14/100
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|-hitcount|p2: Sableye|4
+|
+|
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-activate|p2a: Meowscarada|move: Sticky Web
+|-unboost|p2a: Meowscarada|spe|1
+|-damage|p2a: Meowscarada|88/100|[from] Stealth Rock
+|turn|25
+|
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|switch|p1a: Scizor|Scizor, F, shiny|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Meowscarada|Flower Trick|p1a: Scizor
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|75/100
+|
+|turn|26
+|
+|switch|p2a: Toxapex|Toxapex, F, tera:Poison|50/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|-damage|p2a: Toxapex|37/100|[from] Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|18/100
+|-damage|p1a: Scizor|66/100|[from] item: Life Orb
+|
+|switch|p1a: Kleavor|Kleavor, F, shiny|100/100|[from] U-turn
+|-damage|p1a: Kleavor|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Toxapex|24/100|[from] item: Black Sludge
+|turn|27
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Kleavor|Stone Axe|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Kleavor|psn
+|
+|-heal|p2a: Toxapex|30/100|[from] item: Black Sludge
+|-damage|p1a: Kleavor|63/100 psn|[from] psn
+|turn|28
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Kleavor|51/100 psn|[from] psn
+|
+|switch|p2a: Meowscarada|Meowscarada, F|88/100
+|-activate|p2a: Meowscarada|move: Sticky Web
+|-unboost|p2a: Meowscarada|spe|1
+|-damage|p2a: Meowscarada|76/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|-damage|p1a: Kleavor|38/100 psn|[from] psn
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-activate|p2a: Magearna|move: Sticky Web
+|-unboost|p2a: Magearna|spe|1
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p1a: Forretress|Forretress, F, shiny, tera:Fire|22/100 par
+|-damage|p1a: Forretress|0 fnt|[from] Stealth Rock
+|faint|p1a: Forretress
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|move|p2a: Magearna|Aura Sphere|p1: Forretress|[notarget]
+|-fail|p2a: Magearna
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|
+|switch|p1a: Scizor|Scizor, F, shiny|66/100
+|-damage|p1a: Scizor|53/100|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Magearna
+|-damage|p2a: Magearna|60/100
+|-damage|p1a: Scizor|44/100|[from] item: Life Orb
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|66/100|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Magearna
+|-damage|p2a: Magearna|32/100
+|-damage|p1a: Scizor|34/100|[from] item: Life Orb
+|move|p2a: Magearna|Aura Sphere|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|38/100|[from] item: Leftovers
+|
+|switch|p1a: Kleavor|Kleavor, F, shiny|38/100 psn
+|-damage|p1a: Kleavor|14/100 psn|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Kleavor|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|faint|p2a: Magearna
+|
+|-damage|p1a: Kleavor|1/100 psn|[from] psn
+|
+|switch|p2a: Skeledirge|Skeledirge, M|64/100
+|-activate|p2a: Skeledirge|move: Sticky Web
+|-unboost|p2a: Skeledirge|spe|1
+|-damage|p2a: Skeledirge|39/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Kleavor|Close Combat|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|89/100
+|
+|-damage|p1a: Kleavor|0 fnt|[from] psn
+|faint|p1a: Kleavor
+|
+|switch|p1a: Iron Thorns|Iron Thorns, shiny|17/100
+|-damage|p1a: Iron Thorns|4/100|[from] Stealth Rock
+|turn|35
+|
+|move|p1a: Iron Thorns|Rock Blast|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|72/100
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|53/100
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|36/100
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|17/100
+|-hitcount|p2a: Skeledirge|4
+|move|p2a: Skeledirge|Hex|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|0 fnt
+|faint|p1a: Iron Thorns
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|
+|
+|switch|p1a: Volcarona|Volcarona, F, shiny|79/100
+|turn|36
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|win|zhongqiu2

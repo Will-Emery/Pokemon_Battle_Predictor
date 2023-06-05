@@ -1,0 +1,109 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Treads|
+|poke|p1|Volcarona, M|
+|poke|p2|Weavile, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Hydreigon, M|
+|teampreview
+|
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: 印第安冲锋手|Weavile, M|100/100
+|-ability|p2a: 印第安冲锋手|Pressure
+|turn|1
+|
+|move|p2a: 印第安冲锋手|Low Kick|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|32/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: 印第安冲锋手
+|-damage|p2a: 印第安冲锋手|75/100
+|-boost|p1a: Iron Treads|spe|1
+|
+|turn|2
+|
+|move|p1a: Iron Treads|Iron Head|p2a: 印第安冲锋手
+|-supereffective|p2a: 印第安冲锋手
+|-damage|p2a: 印第安冲锋手|0 fnt
+|faint|p2a: 印第安冲锋手
+|
+|
+|switch|p2a: 钢兵|Iron Valiant|100/100
+|-enditem|p2a: 钢兵|Booster Energy
+|-activate|p2a: 钢兵|ability: Quark Drive|[fromitem]
+|-start|p2a: 钢兵|quarkdrivespe
+|turn|3
+|
+|move|p2a: 钢兵|Focus Blast|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|4
+|
+|-end|p2a: 钢兵|Quark Drive|[silent]
+|switch|p2a: 王者基多拉|Hydreigon, M|100/100
+|move|p1a: Indeedee|Dazzling Gleam|p2a: 王者基多拉
+|-supereffective|p2a: 王者基多拉
+|-damage|p2a: 王者基多拉|0 fnt
+|faint|p2a: 王者基多拉
+|
+|
+|switch|p2a: 大酱|Kingambit, M|100/100
+|-activate|p2a: 大酱|ability: Supreme Overlord
+|-start|p2a: 大酱|fallen2|[silent]
+|turn|5
+|
+|move|p1a: Indeedee|Dazzling Gleam|p2a: 大酱
+|-damage|p2a: 大酱|75/100
+|move|p2a: 大酱|Swords Dance|p2a: 大酱
+|-boost|p2a: 大酱|atk|2
+|
+|-heal|p2a: 大酱|81/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Indeedee|Encore|p2a: 大酱
+|-start|p2a: 大酱|Encore
+|move|p2a: 大酱|Swords Dance|p2a: 大酱
+|-boost|p2a: 大酱|atk|2
+|
+|-heal|p2a: 大酱|87/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p2a: 大酱|Swords Dance|p2a: 大酱
+|-boost|p2a: 大酱|atk|2
+|
+|-heal|p2a: 大酱|94/100|[from] item: Leftovers
+|turn|8
+|
+|-terastallize|p2a: 大酱|Fairy
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: 大酱|Swords Dance|p2a: 大酱
+|-boost|p2a: 大酱|atk|0
+|
+|-heal|p2a: 大酱|99/100|[from] item: Leftovers
+|-end|p2a: 大酱|Encore
+|turn|9
+|
+|move|p1a: Sneasler|Dire Claw|p2a: 大酱
+|-supereffective|p2a: 大酱
+|-damage|p2a: 大酱|0 fnt
+|faint|p2a: 大酱
+|-end|p2a: 大酱|fallen2|[silent]
+|
+|-message|Woodowl forfeited.
+|
+|win|Lulu93290

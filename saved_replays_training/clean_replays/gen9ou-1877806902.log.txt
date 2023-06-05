@@ -1,0 +1,293 @@
+|poke|p1|Kleavor, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Muk, M|
+|poke|p2|Articuno-Galar|
+|poke|p2|Amoonguss, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zapdos|
+|poke|p2|Walking Wake|
+|poke|p2|Diancie|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Diancie|Diancie|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Diancie|Reflect|p2a: Diancie
+|-sidestart|p2: TurnThatLightOff|Reflect
+|move|p1a: Pelipper|U-turn|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|99/100
+|
+|switch|p1a: Basculegion|Basculegion-F, F, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Diancie|100/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Basculegion|Surf|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|3
+|
+|switch|p1a: Muk|Muk, M, shiny|100/100
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Muk
+|-damage|p1a: Muk|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Muk|79/100|[from] item: Black Sludge
+|turn|4
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Muk
+|-damage|p1a: Muk|50/100
+|move|p1a: Muk|Stockpile|p1a: Muk
+|-start|p1a: Muk|stockpile1
+|-boost|p1a: Muk|def|1
+|-boost|p1a: Muk|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Muk|56/100|[from] item: Black Sludge
+|turn|5
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Muk|atk|1
+|move|p1a: Muk|Gunk Shot|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Muk|62/100|[from] item: Black Sludge
+|-sideend|p2: TurnThatLightOff|Reflect
+|turn|6
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Muk
+|-sidestart|p1: adxyzehv257|move: Stealth Rock
+|move|p1a: Muk|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|39/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Muk|68/100|[from] item: Black Sludge
+|turn|7
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Pelipper
+|-immune|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p2a: Landorus|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|65/100
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Pelipper|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|81/100
+|
+|-weather|none
+|turn|9
+|
+|switch|p1a: Muk|Muk, M, shiny|68/100
+|-damage|p1a: Muk|56/100|[from] Stealth Rock
+|move|p2a: Zapdos|Discharge|p1a: Muk
+|-damage|p1a: Muk|25/100
+|-damage|p2a: Zapdos|71/100|[from] item: Life Orb
+|
+|-heal|p1a: Muk|31/100|[from] item: Black Sludge
+|turn|10
+|
+|move|p2a: Zapdos|Discharge|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|-damage|p2a: Zapdos|61/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|11
+|
+|-terastallize|p2a: Zapdos|Ice
+|move|p2a: Zapdos|Tera Blast|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-damage|p2a: Zapdos|51/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Basculegion|Basculegion-F, F, shiny|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|12
+|
+|-terastallize|p1a: Basculegion|Electric
+|move|p1a: Basculegion|Shadow Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|9/100
+|move|p2a: Zapdos|Discharge|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|57/100
+|-damage|p2a: Zapdos|0 fnt|[from] item: Life Orb
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|39/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Basculegion|atk|1
+|turn|13
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Basculegion|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|66/100
+|
+|turn|14
+|
+|switch|p1a: Pelipper|Pelipper, F|65/100
+|-damage|p1a: Pelipper|40/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Amoonguss|Spore|p1a: Pelipper
+|-status|p1a: Pelipper|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
+|move|p2a: Amoonguss|Sunny Day|p2a: Amoonguss
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|turn|16
+|
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|move|p2a: Amoonguss|Spore|p1a: Braviary
+|-message|Sleep Clause Mod activated.
+|-hint|Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time
+|
+|-weather|SunnyDay|[upkeep]
+|turn|17
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|18
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Braviary
+|-damage|p1a: Braviary|77/100
+|move|p1a: Braviary|Esper Wing|p2a: Walking Wake
+|-damage|p2a: Walking Wake|24/100
+|-boost|p1a: Braviary|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|19
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Braviary
+|-damage|p1a: Braviary|51/100
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|100/100
+|-singleturn|p1a: Braviary|move: Roost
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|20
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Braviary
+|-damage|p1a: Braviary|81/100
+|move|p1a: Braviary|Esper Wing|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-boost|p1a: Braviary|spe|1
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Articuno|Articuno-Galar|100/100
+|turn|21
+|
+|move|p1a: Braviary|Hurricane|p2a: Articuno|[miss]
+|-miss|p1a: Braviary|p2a: Articuno
+|move|p2a: Articuno|Freezing Glare|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|72/100
+|
+|turn|22
+|
+|move|p1a: Braviary|Hurricane|p2a: Articuno|[miss]
+|-miss|p1a: Braviary|p2a: Articuno
+|move|p2a: Articuno|Freezing Glare|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|62/100
+|
+|turn|23
+|
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|100/100
+|-singleturn|p1a: Braviary|move: Roost
+|move|p2a: Articuno|Freezing Glare|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|90/100
+|
+|turn|24
+|
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|move|p2a: Articuno|Freezing Glare|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|81/100
+|
+|turn|25
+|
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|move|p2a: Articuno|Freezing Glare|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|75/100
+|
+|turn|26
+|
+|move|p1a: Braviary|Hurricane|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, F|99/100
+|turn|27
+|
+|move|p1a: Braviary|Esper Wing|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-boost|p1a: Braviary|spe|1
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|39/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Braviary|atk|1
+|turn|28
+|
+|move|p1a: Braviary|Esper Wing|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-boost|p1a: Braviary|spe|1
+|faint|p2a: Landorus
+|
+|win|adxyzehv257

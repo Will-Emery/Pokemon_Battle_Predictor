@@ -1,1 +1,229 @@
-Could not connect
+|j|☆AlolanSandslashOU
+|j|☆cartifart
+|t:|1685900238
+|gametype|singles
+|player|p1|AlolanSandslashOU|265|1092
+|player|p2|cartifart|camper|1183
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Roaring Moon|
+|poke|p1|Gyarados, M|
+|poke|p1|Sableye, F|
+|poke|p1|Floatzel, M|
+|poke|p1|Pawmot, M|
+|poke|p1|Hydreigon, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Typhlosion, F|
+|poke|p2|Walking Wake|
+|poke|p2|Hatterene, F|
+|poke|p2|Roaring Moon|
+|poke|p2|Lilligant, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cartifart)
+|
+|t:|1685900250
+|start
+|switch|p1a: Sableye|Sableye, F, shiny|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1685900267
+|switch|p2a: Lilligant|Lilligant, F, shiny|100/100
+|move|p1a: Sableye|Fake Out|p2a: Lilligant
+|-damage|p2a: Lilligant|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685900278
+|move|p1a: Sableye|Thunder Wave|p2a: Lilligant
+|-status|p2a: Lilligant|par
+|move|p2a: Lilligant|Solar Beam||[still]
+|-prepare|p2a: Lilligant|Solar Beam
+|-anim|p2a: Lilligant|Solar Beam|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685900287
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|turn|3
+|
+|t:|1685900290
+|-terastallize|p1a: Gyarados|Flying
+|move|p2a: Lilligant|Solar Beam||[still]
+|-prepare|p2a: Lilligant|Solar Beam
+|-anim|p2a: Lilligant|Solar Beam|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|49/100
+|move|p1a: Gyarados|Tera Blast|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685900302
+|switch|p2a: Typhlosion|Typhlosion, F|100/100
+|turn|4
+|
+|t:|1685900321
+|switch|p1a: Roaring Moon|Roaring Moon, shiny|100/100
+|-activate|p1a: Roaring Moon|ability: Protosynthesis
+|-start|p1a: Roaring Moon|protosynthesisatk
+|-terastallize|p2a: Typhlosion|Fire
+|move|p2a: Typhlosion|Eruption|p1a: Roaring Moon
+|-resisted|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685900332
+|move|p2a: Typhlosion|Eruption|p1a: Roaring Moon
+|-resisted|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|faint|p1a: Roaring Moon
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685900337
+|switch|p1a: Pawmot|Pawmot, M, shiny|100/100
+|turn|6
+|
+|t:|1685900340
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Pawmot|Mach Punch|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|95/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1685900349
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685900357
+|move|p2a: Walking Wake|Hydro Steam|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|-damage|p2a: Walking Wake|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685900363
+|switch|p1a: Hydreigon|Hydreigon, F, shiny|100/100
+|turn|8
+|
+|t:|1685900367
+|move|p2a: Walking Wake|Draco Meteor|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Hydreigon
+|-damage|p2a: Walking Wake|81/100|[from] item: Life Orb
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1685900372
+|switch|p1a: Gyarados|Gyarados, M, shiny, tera:Flying|49/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Walking Wake|atk|1
+|turn|9
+|
+|t:|1685900381
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1685900387
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Torkoal|Yawn|p1a: Gyarados
+|-start|p1a: Gyarados|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1685900393
+|move|p1a: Gyarados|Tera Blast|p2a: Torkoal
+|-damage|p2a: Torkoal|33/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: AlolanSandslashOU|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Gyarados|move: Yawn|[silent]
+|-status|p1a: Gyarados|slp
+|upkeep
+|turn|12
+|
+|t:|1685900401
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisspe
+|cant|p1a: Gyarados|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1685900408
+|move|p2a: Roaring Moon|Crunch|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|AlolanSandslashOU has 120 seconds left.
+|
+|t:|1685900447
+|switch|p1a: Floatzel|Floatzel, M, shiny|100/100
+|-damage|p1a: Floatzel|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1685900475
+|move|p2a: Roaring Moon|Crunch|p1a: Floatzel
+|-damage|p1a: Floatzel|0 fnt
+|faint|p1a: Floatzel
+|
+|win|cartifart
+|raw|AlolanSandslashOU's rating: 1092 → 1074(-18 for losing)
+|raw|cartifart's rating: 1183 → 1202(+19 for winning)

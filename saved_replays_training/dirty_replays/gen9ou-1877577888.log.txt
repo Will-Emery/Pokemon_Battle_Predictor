@@ -1,1 +1,327 @@
-Could not connect
+|j|☆Dindosh
+|j|☆DoloMsolo
+|t:|1685885072
+|gametype|singles
+|player|p1|Dindosh|101|1131
+|player|p2|DoloMsolo|265|1022
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Regidrago|
+|poke|p1|Great Tusk|
+|poke|p1|Sneasler, M|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DoloMsolo)
+|
+|t:|1685885090
+|start
+|switch|p1a: Regidrago|Regidrago|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|c|☆DoloMsolo|Gl
+|
+|t:|1685885117
+|move|p2a: Great Tusk|Knock Off|p1a: Regidrago
+|-damage|p1a: Regidrago|67/100
+|-enditem|p1a: Regidrago|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Regidrago|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Regidrago|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|inactive|DoloMsolo has 120 seconds left.
+|
+|t:|1685885131
+|switch|p2a: Magearna|Magearna|100/100
+|turn|2
+|
+|t:|1685885142
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p2a: Magearna|Spikes|p1a: Arcanine
+|-sidestart|p1: Dindosh|Spikes
+|
+|upkeep
+|turn|3
+|inactive|DoloMsolo has 120 seconds left.
+|
+|t:|1685885174
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|34/100
+|
+|-heal|p2a: Dragapult|40/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685885183
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-item|p1a: Hatterene|Air Balloon
+|move|p2a: Dragapult|Dragon Darts|p1a: Hatterene
+|-immune|p1a: Hatterene
+|
+|-heal|p2a: Dragapult|46/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|DoloMsolo has 120 seconds left.
+|inactive|DoloMsolo has 90 seconds left.
+|
+|t:|1685885221
+|switch|p2a: Magearna|Magearna|100/100
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|88/100|[from] Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1685885230
+|move|p1a: Sneasler|Fire Punch|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|44/100
+|move|p2a: Magearna|Spikes|p1a: Sneasler
+|-sidestart|p1: Dindosh|Spikes
+|
+|upkeep
+|turn|7
+|inactive|DoloMsolo has 90 seconds left.
+|
+|t:|1685885251
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|84/100|[from] Spikes
+|move|p2a: Magearna|Volt Switch|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|upkeep
+|turn|8
+|
+|t:|1685885261
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|9
+|inactive|DoloMsolo has 90 seconds left.
+|
+|t:|1685885287
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|-damage|p1a: Kleavor|84/100|[from] Spikes
+|move|p2a: Zapdos|Hurricane|p1a: Kleavor
+|-damage|p1a: Kleavor|49/100
+|-start|p1a: Kleavor|confusion
+|
+|upkeep
+|turn|10
+|
+|t:|1685885302
+|move|p2a: Zapdos|Heat Wave|p1a: Kleavor
+|-damage|p1a: Kleavor|30/100
+|-activate|p1a: Kleavor|confusion
+|move|p1a: Kleavor|Stone Axe|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|32/100
+|-sidestart|p2: DoloMsolo|move: Stealth Rock
+|-status|p1a: Kleavor|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|upkeep
+|turn|11
+|
+|t:|1685885312
+|move|p2a: Zapdos|Hurricane|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|upkeep
+|
+|t:|1685885320
+|switch|p1a: Regidrago|Regidrago|67/100
+|-damage|p1a: Regidrago|51/100|[from] Spikes
+|turn|12
+|inactive|DoloMsolo has 90 seconds left.
+|inactive|DoloMsolo has 60 seconds left.
+|
+|t:|1685885376
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+|-boost|p1a: Regidrago|atk|1
+|-boost|p1a: Regidrago|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1685885387
+|move|p2a: Urshifu|Ice Spinner|p1a: Regidrago
+|-supereffective|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|faint|p1a: Regidrago
+|
+|upkeep
+|
+|t:|1685885394
+|switch|p1a: Great Tusk|Great Tusk|84/100
+|-damage|p1a: Great Tusk|68/100|[from] Spikes
+|turn|14
+|inactive|DoloMsolo has 60 seconds left.
+|inactive|DoloMsolo has 30 seconds left.
+|
+|t:|1685885435
+|switch|p2a: Zapdos|Zapdos|32/100
+|move|p1a: Great Tusk|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|8/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1685885444
+|move|p1a: Great Tusk|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-status|p1a: Great Tusk|par|[from] ability: Static|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|upkeep
+|inactive|DoloMsolo has 30 seconds left.
+|
+|t:|1685885455
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-damage|p2a: Typhlosion|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1685885463
+|move|p2a: Typhlosion|Curse|p1a: Great Tusk
+|-start|p1a: Great Tusk|Curse|[of] p2a: Typhlosion
+|-damage|p2a: Typhlosion|26/100
+|move|p1a: Great Tusk|Close Combat|p2a: Typhlosion
+|-immune|p2a: Typhlosion
+|
+|-damage|p1a: Great Tusk|43/100 par|[from] Curse
+|upkeep
+|turn|17
+|inactive|DoloMsolo has 30 seconds left.
+|
+|t:|1685885488
+|switch|p2a: Dragapult|Dragapult, M|46/100
+|-damage|p2a: Dragapult|34/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Close Combat|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|40/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|18/100 par|[from] Curse
+|upkeep
+|turn|18
+|inactive|DoloMsolo has 30 seconds left.
+|
+|t:|1685885498
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-item|p1a: Hatterene|Air Balloon
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|15/100
+|
+|-heal|p2a: Dragapult|21/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685885507
+|move|p2a: Dragapult|Hex|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|40/100
+|-enditem|p1a: Hatterene|Air Balloon
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Dragapult|27/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685885512
+|move|p2a: Dragapult|Hex|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|6/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-heal|p1a: Hatterene|24/100|[from] drain|[of] p2a: Dragapult
+|
+|-heal|p2a: Dragapult|33/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1685885519
+|move|p2a: Dragapult|Hex|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Dragapult|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685885525
+|switch|p1a: Sneasler|Sneasler, M|88/100
+|-damage|p1a: Sneasler|72/100|[from] Spikes
+|turn|22
+|inactive|DoloMsolo has 60 seconds left.
+|
+|t:|1685885534
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Sneasler
+|-status|p1a: Sneasler|brn
+|move|p1a: Sneasler|Dire Claw|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|
+|-heal|p2a: Dragapult|23/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|66/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1685885542
+|move|p2a: Dragapult|Hex|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-heal|p2a: Dragapult|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685885545
+|switch|p1a: Great Tusk|Great Tusk|18/100 par
+|-damage|p1a: Great Tusk|2/100 par|[from] Spikes
+|turn|24
+|-message|Dindosh forfeited.
+|
+|win|DoloMsolo
+|raw|Dindosh's rating: 1131 → 1098(-33 for losing)
+|raw|DoloMsolo's rating: 1022 → 1070(+48 for winning)
+|l|☆Dindosh

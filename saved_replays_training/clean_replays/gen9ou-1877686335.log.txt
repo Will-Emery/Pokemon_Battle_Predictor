@@ -1,0 +1,58 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Kleavor, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Gholdengo|
+|poke|p1|Garchomp, F|
+|poke|p1|Magearna|
+|poke|p2|Chien-Pao|
+|poke|p2|Pelipper, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Amoonguss, M|
+|poke|p2|Ditto|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Kleaver|Kleavor, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Kleaver|[from] ability: Imposter
+|turn|1
+|
+|move|p2a: Ditto|Stone Axe|p1a: Kleaver
+|-supereffective|p1a: Kleaver
+|-enditem|p1a: Kleaver|Focus Sash
+|-damage|p1a: Kleaver|1/100
+|-sidestart|p1: Tommy Bahamas|move: Stealth Rock
+|move|p1a: Kleaver|Stone Axe|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-sidestart|p2: kitsu-aria|move: Stealth Rock
+|faint|p2a: Ditto
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|turn|2
+|
+|switch|p1a: 9/11|Gholdengo|100/100
+|-damage|p1a: 9/11|94/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|3
+|
+|-terastallize|p1a: 9/11|Flying
+|move|p1a: 9/11|Trick|p2a: Great Tusk
+|-activate|p1a: 9/11|move: Trick|[of] p2a: Great Tusk
+|-item|p2a: Great Tusk|Choice Scarf|[from] move: Trick
+|-item|p1a: 9/11|Leftovers|[from] move: Trick
+|move|p2a: Great Tusk|Earthquake|p1a: 9/11
+|-immune|p1a: 9/11
+|
+|-heal|p1a: 9/11|100/100|[from] item: Leftovers
+|turn|4
+|-message|kitsu-aria forfeited.
+|
+|win|Tommy Bahamas

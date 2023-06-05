@@ -1,0 +1,245 @@
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Magearna|
+|poke|p1|Dragonite, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Charizard, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, F|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|start
+|switch|p1a: Diego delink|Landorus-Therian, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-ability|p1a: Diego delink|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Diego delink|Substitute|p1a: Diego delink
+|-start|p1a: Diego delink|Substitute
+|-damage|p1a: Diego delink|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Diego delink|82/100|[from] item: Leftovers
+|turn|2
+|
+|-terastallize|p1a: Diego delink|Flying
+|move|p2a: Lilligant|Ice Spinner|p1a: Diego delink
+|-supereffective|p1a: Diego delink
+|-end|p1a: Diego delink|Substitute
+|-damage|p2a: Lilligant|91/100|[from] item: Life Orb
+|move|p1a: Diego delink|Tera Blast|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Diego delink|88/100|[from] item: Leftovers
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|3
+|
+|switch|p1a: Dragapulto|Dragapult, M|100/100
+|move|p2a: Charizard|Flamethrower|p1a: Dragapulto
+|-resisted|p1a: Dragapulto
+|-damage|p1a: Dragapulto|0 fnt
+|faint|p1a: Dragapulto
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|
+|switch|p1a: Barney verde|Dragonite, M, shiny|100/100
+|turn|4
+|
+|move|p1a: Barney verde|Extreme Speed|p2a: Charizard
+|-damage|p2a: Charizard|19/100
+|move|p2a: Charizard|Flamethrower|p1a: Barney verde
+|-resisted|p1a: Barney verde
+|-damage|p1a: Barney verde|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|6/100|[from] ability: Solar Power|[of] p2a: Charizard
+|turn|5
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Barney verde|Extreme Speed|p2a: Hatterene
+|-damage|p2a: Hatterene|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Hatterene|68/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: You irl|Grimmsnarl, M|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: You irl
+|-supereffective|p1a: You irl
+|-crit|p1a: You irl
+|-damage|p1a: You irl|35/100
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: You irl
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p1a: You irl|Light Screen|p1a: You irl
+|-sidestart|p1: Ursaluna is brokem|move: Light Screen
+|move|p2a: Hatterene|Draining Kiss|p1a: You irl
+|-supereffective|p1a: You irl
+|-damage|p1a: You irl|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|switch|p1a: Fear and hunger|Magearna|100/100
+|move|p2a: Hatterene|Psyshock|p1a: Fear and hunger
+|-resisted|p1a: Fear and hunger
+|-damage|p1a: Fear and hunger|93/100
+|
+|-weather|none
+|turn|9
+|
+|move|p1a: Fear and hunger|Fleur Cannon|p2a: Hatterene|[miss]
+|-miss|p1a: Fear and hunger|p2a: Hatterene
+|move|p2a: Hatterene|Mystical Fire|p1a: Fear and hunger
+|-supereffective|p1a: Fear and hunger
+|-damage|p1a: Fear and hunger|73/100
+|-unboost|p1a: Fear and hunger|spa|1
+|-enditem|p1a: Fear and hunger|Eject Pack
+|
+|switch|p1a: From berserk|Ursaluna, M|100/100
+|
+|-status|p1a: From berserk|brn|[from] item: Flame Orb
+|turn|10
+|
+|move|p1a: From berserk|Facade|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-damage|p1a: From berserk|94/100 brn|[from] brn
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|11
+|
+|move|p1a: From berserk|Substitute|p1a: From berserk
+|-start|p1a: From berserk|Substitute
+|-damage|p1a: From berserk|70/100 brn
+|move|p2a: Torkoal|Stealth Rock|p1a: From berserk
+|-sidestart|p1: Ursaluna is brokem|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: From berserk|64/100 brn|[from] brn
+|turn|12
+|
+|move|p1a: From berserk|Headlong Rush|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: From berserk|def|1
+|-unboost|p1a: From berserk|spd|1
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: From berserk|58/100 brn|[from] brn
+|
+|switch|p2a: Charizard|Charizard, M|6/100
+|turn|13
+|
+|move|p2a: Charizard|Flamethrower|p1a: From berserk
+|-end|p1a: From berserk|Substitute
+|move|p1a: From berserk|Substitute|p1a: From berserk
+|-start|p1a: From berserk|Substitute
+|-damage|p1a: From berserk|33/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] ability: Solar Power|[of] p2a: Charizard
+|faint|p2a: Charizard
+|-damage|p1a: From berserk|27/100 brn|[from] brn
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|14
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: From berserk
+|-end|p1a: From berserk|Substitute
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: From berserk|Facade|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: From berserk|21/100 brn|[from] brn
+|-sideend|p1: Ursaluna is brokem|move: Light Screen
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|15
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: From berserk
+|-damage|p1a: From berserk|0 fnt
+|faint|p1a: From berserk
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Diego delink|Landorus-Therian, M, tera:Flying|88/100
+|-damage|p1a: Diego delink|63/100|[from] Stealth Rock
+|-ability|p1a: Diego delink|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|turn|16
+|
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Diego delink|Earthquake|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Diego delink|69/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Diego delink|Substitute|p1a: Diego delink
+|-start|p1a: Diego delink|Substitute
+|-damage|p1a: Diego delink|44/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Diego delink|50/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Diego delink
+|-crit|p1a: Diego delink
+|-end|p1a: Diego delink|Substitute
+|move|p1a: Diego delink|Tera Blast|p2a: Kingambit
+|-damage|p2a: Kingambit|52/100
+|
+|-weather|none
+|-heal|p1a: Diego delink|56/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|58/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Diego delink|Tera Blast|p2a: Kingambit
+|-damage|p2a: Kingambit|12/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Diego delink
+|-damage|p1a: Diego delink|0 fnt
+|faint|p1a: Diego delink
+|
+|-heal|p2a: Kingambit|18/100|[from] item: Leftovers
+|
+|switch|p1a: Barney verde|Dragonite, M, shiny|67/100
+|-damage|p1a: Barney verde|42/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Barney verde|Extreme Speed|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|Ursaluna is brokem

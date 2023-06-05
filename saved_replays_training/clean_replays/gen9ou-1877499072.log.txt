@@ -1,0 +1,214 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Magearna|
+|poke|p1|Volcarona, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Pelipper
+|-damage|p2a: Pelipper|66/100
+|-sidestart|p2: Zsynaps|Spikes
+|move|p2a: Pelipper|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|75/100
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from] U-turn
+|-damage|p2a: Urshifu|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|-terastallize|p2a: Urshifu|Water
+|move|p2a: Urshifu|Surging Strikes|p1a: Samurott
+|-resisted|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|47/100
+|-resisted|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|20/100
+|-resisted|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-hitcount|p1: Samurott|3
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|79/100
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|58/100
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|35/100
+|-start|p2a: Urshifu|Disable|Surging Strikes|[from] ability: Cursed Body|[of] p1a: Dragapult
+|-hitcount|p1a: Dragapult|3
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: Wo-Chienjoyer|Reflect
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Spikes
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: Wo-Chienjoyer|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p1a: Dragapult|Curse|p2a: Amoonguss
+|-start|p2a: Amoonguss|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p2a: Amoonguss|Spore|p1: Dragapult|[notarget]
+|-fail|p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Amoonguss|63/100|[from] Curse
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-item|p1a: Sneasler|Air Balloon
+|turn|6
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Amoonguss|Spore|p1a: Sneasler
+|-status|p1a: Sneasler|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Amoonguss|38/100|[from] Curse
+|turn|7
+|
+|cant|p1a: Sneasler|slp
+|move|p2a: Amoonguss|Clear Smog|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|97/100 slp
+|-clearboost|p1a: Sneasler
+|-enditem|p1a: Sneasler|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Amoonguss|13/100|[from] Curse
+|turn|8
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F, tera:Water|88/100
+|-damage|p2a: Urshifu|76/100|[from] Spikes
+|cant|p1a: Sneasler|slp
+|
+|-weather|none
+|turn|9
+|
+|-curestatus|p1a: Sneasler|slp|[msg]
+|move|p1a: Sneasler|Acrobatics|p2a: Urshifu
+|-damage|p2a: Urshifu|33/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|59/100
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|18/100
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-hitcount|p1: Sneasler|3
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|10
+|
+|switch|p2a: Pelipper|Pelipper, F|66/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Zamazenta|Body Press|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|43/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Wo-Chienjoyer|Reflect
+|turn|11
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|93/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Wo-Chienjoyer|move: Light Screen
+|turn|12
+|
+|move|p1a: Zamazenta|Body Press|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|49/100
+|move|p2a: Pelipper|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|62/100
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p1a: Zamazenta|Body Press|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|8/100
+|move|p2a: Pelipper|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|24/100
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p1a: Zamazenta|Body Press|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|-damage|p2a: Basculegion|88/100|[from] Spikes
+|turn|15
+|
+|move|p2a: Basculegion|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|16
+|
+|move|p2a: Basculegion|Surf|p1a: Magearna
+|-damage|p1a: Magearna|33/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Magearna|39/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Basculegion|Surf|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-weather|none
+|-message|Wo-Chienjoyer forfeited.
+|
+|win|Zsynaps

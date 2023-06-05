@@ -1,0 +1,65 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Slowking, M|
+|poke|p1|Diancie|
+|poke|p1|Hatterene, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Iron Treads|
+|poke|p2|Rabsca, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|start
+|switch|p1a: SHES GOT A NEW HAT|Hatterene, F|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: SHES GOT A NEW HAT
+|-damage|p1a: SHES GOT A NEW HAT|62/100
+|-sidestart|p1: MelancholyShades|move: Stealth Rock
+|move|p1a: SHES GOT A NEW HAT|Trick Room|p1a: SHES GOT A NEW HAT
+|-fieldstart|move: Trick Room|[of] p1a: SHES GOT A NEW HAT
+|
+|turn|2
+|
+|move|p1a: SHES GOT A NEW HAT|Healing Wish|p1a: SHES GOT A NEW HAT
+|faint|p1a: SHES GOT A NEW HAT
+|move|p2a: Kleavor|Night Slash|p1: SHES GOT A NEW HAT|[notarget]
+|-fail|p2a: Kleavor
+|
+|
+|switch|p1a: Sunny D|Torkoal, M, shiny|100/100
+|-damage|p1a: Sunny D|75/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Sunny D
+|turn|3
+|
+|-terastallize|p1a: Sunny D|Fire
+|move|p1a: Sunny D|Eruption|p2a: Kleavor
+|-enditem|p2a: Kleavor|Focus Sash
+|-damage|p2a: Kleavor|1/100
+|move|p2a: Kleavor|Stone Axe|p1a: Sunny D|[miss]
+|-miss|p2a: Kleavor|p1a: Sunny D
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Sunny D|Eruption|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|69/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: NotQuitePerished|Slowking, M|100/100
+|-damage|p1a: NotQuitePerished|88/100|[from] Stealth Rock
+|move|p2a: Pelipper|U-turn|p1a: NotQuitePerished
+|-supereffective|p1a: NotQuitePerished
+|-damage|p1a: NotQuitePerished|70/100
+|-message|MelancholyShades forfeited.
+|
+|win|L34D3R M1STY

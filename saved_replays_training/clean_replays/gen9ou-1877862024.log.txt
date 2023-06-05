@@ -1,0 +1,118 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Magearna|
+|poke|p1|Iron Hands|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Glimmora, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Wyrdeer, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|switch|p2a: Chess OC|Kingambit, F|100/100
+|turn|1
+|
+|-end|p2a: Chess OC|fallenundefined|[silent]
+|switch|p2a: Tusky boi|Great Tusk|100/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Tusky boi
+|-damage|p2a: Tusky boi|79/100
+|
+|-heal|p2a: Tusky boi|85/100|[from] item: Leftovers
+|turn|2
+|
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Tusky boi|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Tusky boi|[from]ability: Magic Bounce
+|-sidestart|p2: MarkWithAK|move: Stealth Rock
+|
+|-heal|p2a: Tusky boi|91/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Tusky boi|Rapid Spin|p1a: Hatterene
+|-damage|p1a: Hatterene|87/100
+|-boost|p2a: Tusky boi|spe|1
+|-sideend|p2: MarkWithAK|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tusky boi
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Tusky boi
+|-supereffective|p2a: Tusky boi
+|-damage|p2a: Tusky boi|0 fnt
+|faint|p2a: Tusky boi
+|-end|p2a: Tusky boi|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Bun|Magearna|100/100
+|turn|4
+|
+|move|p2a: Bun|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|10/100
+|move|p1a: Hatterene|Nuzzle|p2a: Bun
+|-damage|p2a: Bun|98/100
+|-status|p2a: Bun|par
+|
+|-heal|p2a: Bun|100/100 par|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|-ability|p2a: Bun|Soul-Heart|boost
+|-boost|p2a: Bun|spa|1
+|move|p2a: Bun|Flash Cannon|p1: Hatterene|[notarget]
+|-fail|p2a: Bun
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|6
+|
+|move|p1a: Ursaluna|Earthquake|p2a: Bun
+|-supereffective|p2a: Bun
+|-damage|p2a: Bun|25/100 par
+|move|p2a: Bun|Fleur Cannon|p1a: Ursaluna|[miss]
+|-miss|p2a: Bun|p1a: Ursaluna
+|
+|-heal|p2a: Bun|31/100 par|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|7
+|
+|move|p1a: Ursaluna|Facade|p2a: Bun
+|-resisted|p2a: Bun
+|-damage|p2a: Bun|0 fnt
+|faint|p2a: Bun
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p2a: Chess OC|Kingambit, F|100/100
+|-activate|p2a: Chess OC|ability: Supreme Overlord
+|-start|p2a: Chess OC|fallen2|[silent]
+|turn|8
+|
+|move|p1a: Ursaluna|Drain Punch|p2a: Chess OC
+|-supereffective|p2a: Chess OC
+|-damage|p2a: Chess OC|0 fnt
+|-heal|p1a: Ursaluna|100/100 brn|[from] drain|[of] p2a: Chess OC
+|faint|p2a: Chess OC
+|-end|p2a: Chess OC|fallen2|[silent]
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p2a: Care Bear|Ursaluna, F|100/100
+|turn|9
+|
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p1a: Ursaluna|Facade|p2a: Care Bear
+|-damage|p2a: Care Bear|14/100
+|move|p2a: Care Bear|Drain Punch|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|-status|p2a: Care Bear|brn|[from] item: Flame Orb
+|turn|10
+|-message|MarkWithAK forfeited.
+|
+|win|O Capo'
+|player|p1|O Capo'|ruinmaniac

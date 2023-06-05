@@ -1,0 +1,125 @@
+|poke|p1|Glimmora, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Magearna|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Uxie|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Ceruledge, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Corviknight, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|switch|p2a: 👻💧|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: 👻💧|Trick|p1a: Lilligant
+|-activate|p2a: 👻💧|move: Trick|[of] p1a: Lilligant
+|-item|p1a: Lilligant|Choice Scarf|[from] move: Trick
+|-item|p2a: 👻💧|Wide Lens|[from] move: Trick
+|move|p1a: Lilligant|Sleep Powder|p2a: 👻💧
+|-status|p2a: 👻💧|slp|[from] move: Sleep Powder
+|
+|turn|2
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: 🥶|Baxcalibur, F|100/100
+|
+|turn|3
+|
+|move|p2a: 🥶|Glaive Rush|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-singlemove|p2a: 🥶|Glaive Rush|[silent]
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|turn|4
+|
+|switch|p2a: 🐔|Corviknight, M|100/100
+|-ability|p2a: 🐔|Pressure
+|move|p1a: Glimmora|Stealth Rock|p2a: 🐔
+|-sidestart|p2: JestNot|move: Stealth Rock
+|
+|turn|5
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: 🐔|Defog|p1a: Dragapult
+|-unboost|p1a: Dragapult|evasion|1
+|-sideend|p2: JestNot|Stealth Rock|[from] move: Defog|[of] p2a: 🐔
+|
+|turn|6
+|
+|move|p1a: Dragapult|Fire Blast|p2a: 🐔
+|-supereffective|p2a: 🐔
+|-damage|p2a: 🐔|15/100
+|move|p2a: 🐔|Roost|p2a: 🐔
+|-heal|p2a: 🐔|65/100
+|-singleturn|p2a: 🐔|move: Roost
+|
+|-heal|p2a: 🐔|71/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: 👺|Ceruledge, F|100/100
+|
+|turn|8
+|
+|switch|p2a: 🐔|Corviknight, M|71/100
+|-ability|p2a: 🐔|Pressure
+|move|p1a: Glimmora|Stealth Rock|p2a: 🐔
+|-sidestart|p2: JestNot|move: Stealth Rock
+|
+|-heal|p2a: 🐔|77/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: 🐔|Defog|p1a: Magearna
+|-unboost|p1a: Magearna|evasion|1
+|-sideend|p2: JestNot|Stealth Rock|[from] move: Defog|[of] p2a: 🐔
+|
+|-heal|p2a: 🐔|83/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: 👺|Ceruledge, F|100/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|turn|11
+|
+|move|p2a: 👺|Bitter Blade|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|42/100
+|-enditem|p1a: Magearna|Weakness Policy
+|-boost|p1a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Magearna|spa|2|[from] item: Weakness Policy
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|turn|12
+|
+|switch|p2a: 🗣️🧱🗿|Ting-Lu|100/100
+|-ability|p2a: 🗣️🧱🗿|Vessel of Ruin
+|move|p1a: Magearna|Stored Power|p2a: 🗣️🧱🗿
+|-immune|p2a: 🗣️🧱🗿
+|
+|turn|13
+|
+|-terastallize|p2a: 🗣️🧱🗿|Poison
+|move|p1a: Magearna|Draining Kiss|p2a: 🗣️🧱🗿
+|-resisted|p2a: 🗣️🧱🗿
+|-damage|p2a: 🗣️🧱🗿|90/100
+|-heal|p1a: Magearna|53/100|[from] drain|[of] p2a: 🗣️🧱🗿
+|move|p2a: 🗣️🧱🗿|Whirlwind|p1a: Magearna
+|drag|p1a: Uxie|Uxie|100/100
+|
+|-heal|p2a: 🗣️🧱🗿|96/100|[from] item: Leftovers
+|turn|14
+|-message|titouanaladal forfeited.
+|
+|win|JestNot

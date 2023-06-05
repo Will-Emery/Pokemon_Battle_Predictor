@@ -1,0 +1,202 @@
+|poke|p1|Tyranitar, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Lucario, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Froslass, F|
+|poke|p2|Stantler, F|
+|poke|p2|Wyrdeer, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Amoonguss, F|
+|teampreview
+|
+|start
+|switch|p1a: Terror xd|Garchomp, M|100/100
+|switch|p2a: Stantler|Stantler, F|100/100
+|turn|1
+|
+|move|p1a: Terror xd|Swords Dance|p1a: Terror xd
+|-boost|p1a: Terror xd|atk|2
+|move|p2a: Stantler|Psyshield Bash|p1a: Terror xd
+|-damage|p1a: Terror xd|82/100
+|-boost|p2a: Stantler|def|1
+|-damage|p2a: Stantler|88/100|[from] ability: Rough Skin|[of] p1a: Terror xd
+|
+|turn|2
+|
+|move|p1a: Terror xd|Swords Dance|p1a: Terror xd
+|-boost|p1a: Terror xd|atk|2
+|move|p2a: Stantler|Body Slam|p1a: Terror xd
+|-damage|p1a: Terror xd|49/100
+|-damage|p2a: Stantler|76/100|[from] ability: Rough Skin|[of] p1a: Terror xd
+|
+|turn|3
+|
+|move|p1a: Terror xd|Earthquake|p2a: Stantler
+|-damage|p2a: Stantler|0 fnt
+|faint|p2a: Stantler
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|4
+|
+|move|p1a: Terror xd|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|19/100
+|move|p2a: Great Tusk|Earthquake|p1a: Terror xd
+|-damage|p1a: Terror xd|8/100
+|
+|-heal|p2a: Great Tusk|25/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Terror xd|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|turn|6
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Terror xd
+|-damage|p1a: Terror xd|0 fnt
+|-damage|p2a: Dragonite|88/100|[from] ability: Rough Skin|[of] p1a: Terror xd
+|faint|p1a: Terror xd
+|
+|-heal|p2a: Dragonite|94/100|[from] item: Leftovers
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-ability|p1a: Tyranitar|Unnerve
+|turn|7
+|
+|switch|p2a: Great Tusk|Great Tusk|25/100
+|move|p1a: Tyranitar|Avalanche|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|1/100
+|
+|-heal|p2a: Great Tusk|7/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|30/100
+|move|p1a: Tyranitar|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Dragonite|Dragonite, M|94/100
+|turn|9
+|
+|move|p2a: Dragonite|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-heal|p2a: Dragonite|100/100|[from] item: Leftovers
+|
+|switch|p1a: Fantasmita|Froslass, F|100/100
+|turn|10
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Fantasmita|Ice Beam|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|77/100
+|
+|turn|11
+|
+|switch|p1a: Pescao|Gyarados, F|100/100
+|-ability|p1a: Pescao|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|12
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Pescao|Waterfall|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|81/100
+|-damage|p1a: Pescao|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|turn|13
+|
+|move|p1a: Pescao|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|59/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Pescao
+|-damage|p1a: Pescao|56/100
+|
+|turn|14
+|
+|move|p1a: Pescao|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|34/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Pescao
+|-damage|p1a: Pescao|31/100
+|-status|p1a: Pescao|psn
+|
+|-damage|p1a: Pescao|18/100 psn|[from] psn
+|turn|15
+|
+|move|p1a: Pescao|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|11/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Pescao
+|-damage|p1a: Pescao|0 fnt
+|faint|p1a: Pescao
+|
+|
+|switch|p1a: Fantasmita|Froslass, F|100/100
+|turn|16
+|
+|switch|p2a: Volcarona|Volcarona, M|77/100
+|move|p1a: Fantasmita|Ice Beam|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|56/100
+|
+|turn|17
+|
+|switch|p1a: Shida :3|Gardevoir, F|100/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|18
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Shida :3
+|-damage|p1a: Shida :3|42/100
+|move|p1a: Shida :3|Thunderbolt|p2a: Volcarona
+|-damage|p2a: Volcarona|33/100
+|
+|turn|19
+|
+|switch|p1a: El puñetas|Lucario, M|100/100
+|move|p2a: Volcarona|Fiery Dance|p1a: El puñetas
+|-supereffective|p1a: El puñetas
+|-crit|p1a: El puñetas
+|-damage|p1a: El puñetas|0 fnt
+|faint|p1a: El puñetas
+|
+|
+|switch|p1a: Fantasmita|Froslass, F|100/100
+|turn|20
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Fantasmita
+|-supereffective|p1a: Fantasmita
+|-damage|p1a: Fantasmita|0 fnt
+|faint|p1a: Fantasmita
+|
+|
+|switch|p1a: Shida :3|Gardevoir, F|42/100
+|turn|21
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: Shida :3
+|-damage|p1a: Shida :3|0 fnt
+|faint|p1a: Shida :3
+|
+|win|vbvbv544545
+|player|p2|vbvbv544545|pokemonrangerf-gen4

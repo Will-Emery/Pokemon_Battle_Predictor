@@ -1,0 +1,297 @@
+|poke|p1|Volcanion|
+|poke|p1|Magearna|
+|poke|p1|Ursaluna, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Heatran, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Goodra|atk|1
+|turn|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Kingkaz101|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Landorus|Taunt|p2a: Landorus
+|-start|p2a: Landorus|move: Taunt
+|cant|p2a: Landorus|move: Taunt|Stealth Rock
+|
+|turn|3
+|
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|94/100
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100|[from] U-turn
+|move|p2a: Landorus|U-turn|p1a: Ursaluna
+|-damage|p1a: Ursaluna|85/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|4
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ursaluna
+|-damage|p1a: Ursaluna|75/100 brn
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Kingkaz101|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Ursaluna|Facade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|36/100
+|-damage|p1a: Ursaluna|59/100 brn|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|-damage|p1a: Ursaluna|53/100 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|79/100
+|-damage|p2a: Great Tusk|19/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|84/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] U-turn
+|
+|-heal|p2a: Hatterene|90/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Hatterene
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|79/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Goodra|atk|1
+|move|p2a: Goodra|Flash Cannon|p1a: Landorus
+|-damage|p1a: Landorus|41/100
+|
+|turn|9
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Goodra
+|-sidestart|p2: Kingkaz101|move: Stealth Rock
+|move|p2a: Goodra|Flash Cannon|p1a: Landorus
+|-damage|p1a: Landorus|2/100
+|
+|turn|10
+|
+|switch|p2a: Landorus|Landorus-Therian, M|94/100
+|-damage|p2a: Landorus|82/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p2a: Landorus|88/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Landorus|Taunt|p2a: Landorus
+|-start|p2a: Landorus|move: Taunt
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Landorus|71/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|12
+|
+|-terastallize|p2a: Dragapult|Ghost
+|move|p1a: Enamorus|Moonblast|p2a: Dragapult
+|-damage|p2a: Dragapult|7/100
+|-unboost|p2a: Dragapult|spa|1
+|move|p2a: Dragapult|Shadow Ball|p1a: Enamorus
+|-damage|p1a: Enamorus|32/100
+|-unboost|p1a: Enamorus|spd|1
+|
+|turn|13
+|
+|move|p1a: Enamorus|Moonblast|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Goodra|Flash Cannon|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|89/100
+|
+|turn|15
+|
+|move|p1a: Volcanion|Flamethrower|p2a: Goodra
+|-damage|p2a: Goodra|61/100
+|move|p2a: Goodra|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|51/100
+|
+|turn|16
+|
+|move|p1a: Volcanion|Flamethrower|p2a: Goodra
+|-damage|p2a: Goodra|25/100
+|move|p2a: Goodra|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|9/100
+|
+|turn|17
+|
+|move|p1a: Volcanion|Flamethrower|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|18
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Volcanion
+|-crit|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|-damage|p2a: Chien-Pao|66/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|19
+|
+|switch|p2a: Great Tusk|Great Tusk|19/100
+|-damage|p2a: Great Tusk|16/100|[from] Stealth Rock
+|move|p1a: Magearna|Fleur Cannon|p2a: Great Tusk|[miss]
+|-miss|p1a: Magearna|p2a: Great Tusk
+|
+|turn|20
+|
+|switch|p1a: Ursaluna|Ursaluna, M|53/100 brn
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ursaluna
+|-damage|p1a: Ursaluna|42/100 brn
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Kingkaz101|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-damage|p1a: Ursaluna|36/100 brn|[from] brn
+|turn|21
+|
+|move|p2a: Great Tusk|Body Press|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|32/100
+|turn|22
+|
+|move|p1a: Enamorus|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|66/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|23
+|
+|-terastallize|p1a: Enamorus|Steel
+|move|p2a: Chien-Pao|Ice Shard|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|5/100
+|-damage|p2a: Chien-Pao|56/100|[from] item: Life Orb
+|move|p1a: Enamorus|Moonblast|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|71/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Enamorus|atk|1
+|turn|24
+|
+|move|p1a: Enamorus|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|26/100
+|move|p2a: Landorus|Earthquake|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-heal|p2a: Landorus|32/100|[from] item: Leftovers
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|25
+|
+|move|p2a: Landorus|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|23/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Landorus|[miss]
+|-miss|p1a: Magearna|p2a: Landorus
+|
+|-heal|p2a: Landorus|38/100|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Landorus|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-heal|p2a: Landorus|44/100|[from] item: Leftovers
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|27
+|
+|move|p1a: Heatran|Overheat|p2a: Landorus|[miss]
+|-miss|p1a: Heatran|p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-heal|p2a: Landorus|50/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Heatran|Overheat|p2a: Landorus|[miss]
+|-miss|p1a: Heatran|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|win|Kingkaz101

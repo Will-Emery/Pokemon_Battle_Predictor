@@ -1,0 +1,401 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Kalski|Kingambit, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Kalski|Swords Dance|p2a: Kalski
+|-boost|p2a: Kalski|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: Pelipper|Chilling Water|p2a: Kalski
+|-damage|p2a: Kalski|77/100
+|-unboost|p2a: Kalski|atk|1
+|move|p2a: Kalski|Iron Head|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kalski|83/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Pelipper|Chilling Water|p2a: Kalski
+|-damage|p2a: Kalski|58/100
+|-unboost|p2a: Kalski|atk|1
+|move|p2a: Kalski|Swords Dance|p2a: Kalski
+|-boost|p2a: Kalski|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kalski|64/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Pelipper|Chilling Water|p2a: Kalski
+|-damage|p2a: Kalski|38/100
+|-unboost|p2a: Kalski|atk|1
+|move|p2a: Kalski|Swords Dance|p2a: Kalski
+|-boost|p2a: Kalski|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kalski|44/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Kalski|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kalski|50/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Kalski
+|-supereffective|p2a: Kalski
+|-damage|p2a: Kalski|0 fnt
+|faint|p2a: Kalski
+|-end|p2a: Kalski|fallenundefined|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Quri|Meowscarada, F, shiny|100/100
+|turn|7
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Quri|Play Rough|p1a: Corviknight
+|-start|p2a: Quri|typechange|Fairy|[from] ability: Protean
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|86/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: Schmidt|Toxapex, F|100/100
+|move|p1a: Corviknight|U-turn|p2a: Schmidt
+|-resisted|p2a: Schmidt
+|-damage|p2a: Schmidt|95/100
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|
+|-weather|none
+|turn|9
+|
+|-terastallize|p2a: Schmidt|Ground
+|move|p1a: Thundurus|Volt Switch|p2a: Schmidt
+|-immune|p2a: Schmidt
+|move|p2a: Schmidt|Infestation|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|98/100
+|-activate|p1a: Thundurus|move: Infestation|[of] p2a: Schmidt
+|
+|-damage|p1a: Thundurus|86/100|[from] move: Infestation|[partiallytrapped]
+|turn|10
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Schmidt
+|-immune|p2a: Schmidt
+|move|p2a: Schmidt|Recover|p2a: Schmidt
+|-heal|p2a: Schmidt|100/100
+|
+|-damage|p1a: Thundurus|74/100|[from] move: Infestation|[partiallytrapped]
+|turn|11
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Schmidt
+|-immune|p2a: Schmidt
+|move|p2a: Schmidt|Toxic Spikes|p1a: Thundurus
+|-sidestart|p1: Tomziac|move: Toxic Spikes
+|
+|-damage|p1a: Thundurus|61/100|[from] move: Infestation|[partiallytrapped]
+|turn|12
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Schmidt
+|-immune|p2a: Schmidt
+|move|p2a: Schmidt|Toxic Spikes|p1a: Thundurus
+|-sidestart|p1: Tomziac|move: Toxic Spikes
+|
+|-damage|p1a: Thundurus|49/100|[from] move: Infestation|[partiallytrapped]
+|turn|13
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Schmidt
+|-immune|p2a: Schmidt
+|move|p2a: Schmidt|Infestation|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|47/100
+|
+|-damage|p1a: Thundurus|35/100|[from] move: Infestation|[partiallytrapped]
+|turn|14
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Schmidt
+|-immune|p2a: Schmidt
+|move|p2a: Schmidt|Infestation|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|33/100
+|
+|-end|p1a: Thundurus|Infestation|[partiallytrapped]
+|turn|15
+|
+|switch|p1a: Corviknight|Corviknight, M|86/100
+|move|p2a: Schmidt|Infestation|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|86/100
+|-activate|p1a: Corviknight|move: Infestation|[of] p2a: Schmidt
+|
+|-damage|p1a: Corviknight|73/100|[from] move: Infestation|[partiallytrapped]
+|turn|16
+|
+|switch|p2a: Ico|Dragapult, M, shiny|100/100
+|move|p1a: Corviknight|Defog|p2a: Ico
+|-unboost|p2a: Ico|evasion|1
+|-enditem|p2a: Ico|Eject Pack
+|-sideend|p1: Tomziac|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
+|
+|switch|p2a: Quri|Meowscarada, F, shiny|100/100
+|
+|-end|p1a: Corviknight|Infestation|[partiallytrapped]|[silent]
+|turn|17
+|
+|move|p2a: Quri|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|8/100
+|move|p1a: Corviknight|Brave Bird|p2a: Quri
+|-damage|p2a: Quri|20/100
+|replace|p2a: Crow|Zoroark-Hisui, M, shiny
+|-end|p2a: Crow|Illusion
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|18
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Crow
+|-supereffective|p2a: Crow
+|-damage|p2a: Crow|0 fnt
+|faint|p2a: Crow
+|
+|
+|switch|p2a: Quri|Meowscarada, F, shiny|100/100
+|turn|19
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|33/100
+|move|p2a: Quri|Play Rough|p1a: Thundurus
+|-start|p2a: Quri|typechange|Fairy|[from] ability: Protean
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|20
+|
+|switch|p2a: Ico|Dragapult, M, shiny|100/100
+|move|p1a: Slowking|Rain Dance|p1a: Slowking
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p2a: Ico|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|83/100
+|move|p1a: Slowking|Psychic|p2a: Ico
+|-damage|p2a: Ico|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|89/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Ymir|Hatterene, F|100/100
+|move|p1a: Slowking|Psychic|p2a: Ymir
+|-resisted|p2a: Ymir
+|-damage|p2a: Ymir|89/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|95/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: Ymir|Nuzzle|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|91/100
+|-status|p1a: Basculegion|par
+|
+|-weather|RainDance|[upkeep]
+|turn|24
+|
+|move|p1a: Basculegion|Psychic Fangs|p2a: Ymir
+|-resisted|p2a: Ymir
+|-damage|p2a: Ymir|63/100
+|move|p2a: Ymir|Draining Kiss|p1a: Basculegion
+|-damage|p1a: Basculegion|56/100 par
+|-heal|p2a: Ymir|100/100|[from] drain|[of] p1a: Basculegion
+|
+|-weather|none
+|turn|25
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Ymir|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|92/100
+|
+|-heal|p1a: Slowking|98/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Slowking|Sludge Bomb|p2a: Ymir
+|-supereffective|p2a: Ymir
+|-damage|p2a: Ymir|55/100
+|move|p2a: Ymir|Nuzzle|p1a: Slowking
+|-damage|p1a: Slowking|94/100
+|-status|p1a: Slowking|par
+|
+|-heal|p1a: Slowking|99/100 par|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Ymir|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|66/100 par
+|move|p1a: Slowking|Sludge Bomb|p2a: Ymir
+|-supereffective|p2a: Ymir
+|-damage|p2a: Ymir|6/100
+|
+|-heal|p1a: Slowking|72/100 par|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Ymir|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|43/100 par
+|cant|p1a: Slowking|par
+|
+|-heal|p1a: Slowking|49/100 par|[from] item: Leftovers
+|turn|29
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Ymir|Psychic|p1a: Chien-Pao
+|-immune|p1a: Chien-Pao
+|
+|turn|30
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Ymir
+|-damage|p2a: Ymir|0 fnt
+|faint|p2a: Ymir
+|
+|
+|switch|p2a: Quri|Meowscarada, F, shiny|100/100
+|turn|31
+|
+|switch|p1a: Basculegion|Basculegion, M|56/100 par
+|move|p2a: Quri|Play Rough|p1a: Basculegion
+|-start|p2a: Quri|typechange|Fairy|[from] ability: Protean
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, M|82/100 par
+|turn|32
+|
+|switch|p2a: Ico|Dragapult, M, shiny|58/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Ico
+|-resisted|p2a: Ico
+|-damage|p2a: Ico|36/100
+|
+|-heal|p1a: Slowking|89/100 par|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Ico|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|72/100 par
+|cant|p1a: Slowking|par
+|
+|-heal|p1a: Slowking|78/100 par|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Ico|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|61/100 par
+|cant|p1a: Slowking|par
+|
+|-heal|p1a: Slowking|68/100 par|[from] item: Leftovers
+|turn|35
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Ico|Thunderbolt|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|57/100
+|
+|turn|36
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Ico
+|-supereffective|p2a: Ico
+|-damage|p2a: Ico|0 fnt
+|faint|p2a: Ico
+|
+|
+|switch|p2a: Quri|Meowscarada, F, shiny|100/100
+|turn|37
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Quri
+|-supereffective|p2a: Quri
+|-enditem|p2a: Quri|Focus Sash
+|-damage|p2a: Quri|1/100
+|move|p2a: Quri|Play Rough|p1a: Chien-Pao
+|-start|p2a: Quri|typechange|Fairy|[from] ability: Protean
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100 par
+|turn|38
+|
+|move|p2a: Quri|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|33/100 par
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Quri
+|move|p1a: Slowking|Psychic|p2a: Quri
+|-damage|p2a: Quri|0 fnt
+|faint|p2a: Quri
+|
+|
+|switch|p2a: Schmidt|Toxapex, F, tera:Ground|100/100
+|turn|39
+|
+|move|p2a: Schmidt|Infestation|p1a: Slowking
+|-damage|p1a: Slowking|31/100 par
+|-activate|p1a: Slowking|move: Infestation|[of] p2a: Schmidt
+|cant|p1a: Slowking|par
+|
+|-damage|p1a: Slowking|19/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|40
+|
+|move|p2a: Schmidt|Recover||[still]
+|-fail|p2a: Schmidt|heal
+|move|p1a: Slowking|Psychic|p2a: Schmidt
+|-damage|p2a: Schmidt|69/100
+|
+|-damage|p1a: Slowking|6/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|41
+|
+|-terastallize|p1a: Slowking|Poison
+|move|p2a: Schmidt|Recover|p2a: Schmidt
+|-heal|p2a: Schmidt|100/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Schmidt
+|-resisted|p2a: Schmidt
+|-damage|p2a: Schmidt|78/100
+|-status|p2a: Schmidt|psn
+|
+|-damage|p2a: Schmidt|65/100 psn|[from] psn
+|-damage|p1a: Slowking|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1a: Slowking
+|
+|win|beantheduck13

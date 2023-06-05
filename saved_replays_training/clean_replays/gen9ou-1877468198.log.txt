@@ -1,0 +1,329 @@
+|poke|p1|Sawsbuck-Winter, M|
+|poke|p1|Tauros, M|
+|poke|p1|Staraptor, M|
+|poke|p1|Pyroar, M|
+|poke|p1|Farigiraf, M|
+|poke|p1|Wigglytuff, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Slowking, F|
+|poke|p2|Dudunsparce-*, M|
+|poke|p2|Orthworm, F|
+|poke|p2|Clodsire, F|
+|teampreview
+|
+|start
+|switch|p1a: MachoG4|Sawsbuck-Winter, M|100/100
+|switch|p2a: Slowking|Slowking, F|100/100
+|turn|1
+|
+|move|p1a: MachoG4|Horn Leech|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|33/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|2
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100|[from] Chilly Reception
+|move|p1a: MachoG4|Horn Leech|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|93/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: MachoG4|spe|1
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|switch|p1a: DestinoG4|Wigglytuff, M|100/100
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|switch|p1a: VelaG4|Pyroar, M|100/100
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p2a: Goodra|Dragon Claw|p1a: VelaG4
+|-damage|p1a: VelaG4|26/100
+|move|p1a: VelaG4|Yawn|p2a: Goodra
+|-start|p2a: Goodra|move: Yawn|[of] p1a: VelaG4
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|turn|6
+|
+|move|p1a: VelaG4|Protect|p1a: VelaG4
+|-singleturn|p1a: VelaG4|Protect
+|move|p2a: Goodra|Dragon Claw|p1a: VelaG4
+|-activate|p1a: VelaG4|move: Protect
+|
+|-weather|none
+|-end|p2a: Goodra|move: Yawn|[silent]
+|-status|p2a: Goodra|slp
+|turn|7
+|
+|move|p1a: VelaG4|Endeavor|p2a: Goodra
+|-damage|p2a: Goodra|27/100 slp
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: VelaG4|spe|1
+|cant|p2a: Goodra|slp
+|move|p2a: Goodra|Sleep Talk|p2a: Goodra
+|move|p2a: Goodra|Curse|p2a: Goodra|[from]move: Sleep Talk
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|turn|8
+|
+|-terastallize|p1a: VelaG4|Fire
+|move|p1a: VelaG4|Flamethrower|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Slowking|Slowking, F|67/100
+|turn|9
+|
+|move|p1a: VelaG4|Yawn|p2a: Slowking
+|-start|p2a: Slowking|move: Yawn|[of] p1a: VelaG4
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|10
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100|[from] Chilly Reception
+|-item|p2a: Clodsire|Air Balloon
+|move|p1a: VelaG4|Endeavor|p2a: Clodsire
+|-damage|p2a: Clodsire|20/100
+|-enditem|p2a: Clodsire|Air Balloon
+|
+|-weather|Snow|[upkeep]
+|turn|11
+|
+|move|p1a: VelaG4|Protect|p1a: VelaG4
+|-singleturn|p1a: VelaG4|Protect
+|move|p2a: Clodsire|Earth Power|p1a: VelaG4
+|-activate|p1a: VelaG4|move: Protect
+|
+|-weather|Snow|[upkeep]
+|turn|12
+|
+|switch|p1a: GalinhaG4|Staraptor, M|100/100
+|-ability|p1a: GalinhaG4|Intimidate|boost
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Toxic Spikes|p1a: GalinhaG4
+|-sidestart|p1: HisokaG4|move: Toxic Spikes
+|
+|-weather|Snow|[upkeep]
+|turn|13
+|
+|move|p2a: Clodsire|Sludge Bomb|p1a: GalinhaG4
+|-damage|p1a: GalinhaG4|71/100
+|-status|p1a: GalinhaG4|psn
+|move|p1a: GalinhaG4|Brave Bird|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|-damage|p1a: GalinhaG4|62/100 psn|[from] Recoil
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: GalinhaG4|50/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Slowking|Slowking, F|99/100
+|turn|14
+|
+|move|p1a: GalinhaG4|Brave Bird|p2a: Slowking
+|-damage|p2a: Slowking|46/100
+|-damage|p1a: GalinhaG4|31/100 psn|[from] Recoil
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|none
+|-damage|p1a: GalinhaG4|18/100 psn|[from] psn
+|turn|15
+|
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|96/100
+|move|p1a: GalinhaG4|Brave Bird|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|-damage|p1a: GalinhaG4|0 fnt|[from] Recoil
+|faint|p1a: GalinhaG4
+|
+|
+|switch|p1a: DestinoG4|Wigglytuff, M|100/100
+|-status|p1a: DestinoG4|psn
+|turn|16
+|
+|move|p2a: Slowking|Future Sight|p1a: DestinoG4
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: DestinoG4|Thunderbolt|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|18/100
+|
+|-damage|p1a: DestinoG4|88/100 psn|[from] psn
+|turn|17
+|
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|68/100
+|move|p1a: DestinoG4|Thunderbolt|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|38/100
+|
+|-damage|p1a: DestinoG4|76/100 psn|[from] psn
+|turn|18
+|
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|88/100
+|move|p1a: DestinoG4|Flamethrower|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|81/100
+|
+|-end|p1a: DestinoG4|move: Future Sight
+|-damage|p1a: DestinoG4|43/100 psn
+|-damage|p1a: DestinoG4|31/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|turn|19
+|
+|move|p1a: DestinoG4|Thunderbolt|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-damage|p1a: DestinoG4|18/100 psn|[from] psn
+|turn|20
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Dudunsparce|Dudunsparce, M|100/100|[from] Chilly Reception
+|move|p1a: DestinoG4|Thunderbolt|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|84/100
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: DestinoG4|6/100 psn|[from] psn
+|turn|21
+|
+|move|p1a: DestinoG4|Thunderbolt|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|65/100
+|move|p2a: Dudunsparce|Boomburst|p1a: DestinoG4
+|-damage|p1a: DestinoG4|0 fnt
+|faint|p1a: DestinoG4
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: BananaG4|Farigiraf, M|100/100
+|-status|p1a: BananaG4|psn
+|turn|22
+|
+|move|p2a: Dudunsparce|Boomburst|p1a: BananaG4
+|-damage|p1a: BananaG4|0 fnt
+|faint|p1a: BananaG4
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: VelaG4|Pyroar, M, tera:Fire|26/100
+|-status|p1a: VelaG4|psn
+|turn|23
+|
+|move|p1a: VelaG4|Protect|p1a: VelaG4
+|-singleturn|p1a: VelaG4|Protect
+|move|p2a: Dudunsparce|Boomburst|p1a: VelaG4
+|-activate|p1a: VelaG4|move: Protect
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: VelaG4|14/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|turn|24
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: VelaG4|Flamethrower|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|79/100
+|
+|-weather|none
+|-damage|p1a: VelaG4|1/100 psn|[from] psn
+|turn|25
+|
+|move|p1a: VelaG4|Endeavor|p2a: Dondozo
+|-damage|p2a: Dondozo|1/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-damage|p1a: VelaG4|0 fnt|[from] psn
+|faint|p1a: VelaG4
+|
+|switch|p1a: MachoG4|Sawsbuck-Winter, M|100/100
+|-status|p1a: MachoG4|psn
+|turn|26
+|
+|move|p1a: MachoG4|Horn Leech|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|-damage|p1a: MachoG4|88/100 psn|[from] psn
+|
+|switch|p2a: Slowking|Slowking, F|84/100
+|turn|27
+|
+|move|p1a: MachoG4|Horn Leech|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|20/100
+|-heal|p1a: MachoG4|100/100 psn|[from] drain|[of] p2a: Slowking
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-damage|p1a: MachoG4|88/100 psn|[from] psn
+|turn|28
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Dudunsparce|Dudunsparce, M|65/100|[from] Chilly Reception
+|move|p1a: MachoG4|Horn Leech|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|33/100
+|-heal|p1a: MachoG4|100/100 psn|[from] drain|[of] p2a: Dudunsparce
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: MachoG4|88/100 psn|[from] psn
+|turn|29
+|
+|switch|p1a: BostonaroG4|Tauros, M|100/100
+|-status|p1a: BostonaroG4|psn
+|-ability|p1a: BostonaroG4|Intimidate|boost
+|-unboost|p2a: Dudunsparce|atk|1
+|-ability|p2a: Dudunsparce|Rattled|boost
+|-boost|p2a: Dudunsparce|spe|1
+|move|p2a: Dudunsparce|Boomburst|p1a: BostonaroG4
+|-damage|p1a: BostonaroG4|0 fnt
+|faint|p1a: BostonaroG4
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: MachoG4|Sawsbuck-Winter, M|88/100 psn
+|turn|30
+|
+|move|p2a: Dudunsparce|Boomburst|p1a: MachoG4
+|-damage|p1a: MachoG4|0 fnt
+|faint|p1a: MachoG4
+|
+|win|Kalen80

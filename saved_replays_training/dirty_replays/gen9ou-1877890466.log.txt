@@ -1,1 +1,224 @@
-Could not connect
+|j|☆bo552
+|j|☆pvda27
+|t:|1685920054
+|gametype|singles
+|player|p1|bo552|2|1317
+|player|p2|pvda27|101|1272
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Mow|
+|poke|p1|Basculegion, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Iron Treads|
+|poke|p2|Ursaluna, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Magearna|
+|poke|p2|Kleavor, M|
+|teampreview
+|
+|t:|1685920074
+|start
+|switch|p1a: Rotom|Rotom-Mow, shiny|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|1
+|
+|t:|1685920079
+|-terastallize|p2a: Thundurus|Ice
+|move|p2a: Thundurus|Tera Blast|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pvda27)
+|
+|t:|1685920084
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|2
+|
+|t:|1685920089
+|-terastallize|p1a: Enamorus|Ice
+|move|p2a: Thundurus|Tera Blast|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|65/100
+|move|p1a: Enamorus|Superpower|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Thundurus
+|-damage|p1a: Enamorus|56/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685920101
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|3
+|
+|t:|1685920115
+|move|p1a: Enamorus|Play Rough|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|-damage|p1a: Enamorus|46/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1685920126
+|switch|p2a: Magearna|Magearna|100/100
+|turn|4
+|
+|t:|1685920129
+|move|p1a: Enamorus|Superpower|p2a: Magearna
+|-damage|p2a: Magearna|38/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|-damage|p1a: Enamorus|36/100|[from] item: Life Orb
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|-heal|p2a: Magearna|44/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685920141
+|move|p2a: Magearna|Flash Cannon|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685920143
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|6
+|
+|t:|1685920168
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Magearna|Fleur Cannon|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|21/100
+|-unboost|p2a: Magearna|spa|2
+|
+|-heal|p2a: Magearna|56/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685920181
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Magearna|Flash Cannon|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685920193
+|move|p1a: Pelipper|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|60/100
+|
+|t:|1685920200
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100|[from] U-turn
+|move|p2a: Magearna|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|50/100
+|
+|t:|1685920212
+|switch|p2a: Garchomp|Garchomp, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1685920224
+|move|p1a: Samurott|Aqua Cutter|p2a: Garchomp
+|-damage|p2a: Garchomp|37/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Samurott
+|-sidestart|p1: bo552|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|inactive|pvda27 has 120 seconds left.
+|
+|t:|1685920258
+|move|p1a: Samurott|Ceaseless Edge|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-sidestart|p2: pvda27|Spikes
+|-damage|p1a: Samurott|38/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Samurott|21/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|pvda27 has 120 seconds left.
+|
+|t:|1685920268
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|11
+|
+|t:|1685920277
+|move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|-sidestart|p2: pvda27|Spikes
+|-damage|p1a: Samurott|5/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|inactive|pvda27 has 120 seconds left.
+|inactive|pvda27 has 90 seconds left.
+|
+|t:|1685920342
+|switch|p2a: Magearna|Magearna|60/100|[from] U-turn
+|-damage|p2a: Magearna|43/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Magearna|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685920348
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1685920357
+|move|p1a: Basculegion|Wave Crash|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-damage|p1a: Basculegion|73/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|pvda27 forfeited.
+|
+|win|bo552
+|raw|bo552's rating: 1317 → 1334(+17 for winning)
+|raw|pvda27's rating: 1272 → 1250(-22 for losing)
+|l|☆pvda27

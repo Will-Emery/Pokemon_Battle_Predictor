@@ -1,0 +1,355 @@
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Magearna|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Great Tusk|
+|poke|p1|Ditto|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Charizard, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Great Tusk|
+|poke|p2|Roaring Moon|
+|teampreview
+|
+|start
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|switch|p2a: PACKWATCH|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: PACKWATCH
+|turn|1
+|
+|switch|p2a: Rarren Moon|Roaring Moon|100/100
+|-activate|p2a: Rarren Moon|ability: Protosynthesis
+|-start|p2a: Rarren Moon|protosynthesisspe
+|move|p1a: Basculegion|Shadow Ball|p2a: Rarren Moon
+|-resisted|p2a: Rarren Moon
+|-damage|p2a: Rarren Moon|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Rarren Moon|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|94/100
+|
+|-end|p2a: Rarren Moon|Protosynthesis|[silent]
+|switch|p2a: Chris Bosh|Charizard, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chris Bosh|88/100|[from] ability: Solar Power|[of] p2a: Chris Bosh
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Chris Bosh|[from] ability: Imposter
+|move|p2a: Chris Bosh|Overheat|p1a: Ditto
+|-resisted|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-unboost|p2a: Chris Bosh|spa|2
+|faint|p1a: Ditto
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Chris Bosh|76/100|[from] ability: Solar Power|[of] p2a: Chris Bosh
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|4
+|
+|switch|p2a: Rarren Moon|Roaring Moon|68/100
+|-activate|p2a: Rarren Moon|ability: Protosynthesis
+|-start|p2a: Rarren Moon|protosynthesisspe
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|-end|p2a: Rarren Moon|Protosynthesis
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Chilly Reception
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|-end|p2a: Rarren Moon|Protosynthesis|[silent]
+|switch|p2a: PACKWATCH|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: PACKWATCH
+|move|p1a: Chien-Pao|Icicle Crash|p2a: PACKWATCH
+|-resisted|p2a: PACKWATCH
+|-damage|p2a: PACKWATCH|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|switch|p2a: Mammoth Graveyard|Great Tusk|100/100
+|-activate|p2a: Mammoth Graveyard|ability: Protosynthesis
+|-start|p2a: Mammoth Graveyard|protosynthesisdef
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Mammoth Graveyard
+|-supereffective|p2a: Mammoth Graveyard
+|-damage|p2a: Mammoth Graveyard|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mammoth Graveyard|45/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Mammoth Graveyard|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mammoth Graveyard|52/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Mammoth Graveyard|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|90/100|[from] item: Leftovers
+|-heal|p2a: Mammoth Graveyard|58/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Mammoth Graveyard
+|-sidestart|p2: LaxativeCement|move: Stealth Rock
+|move|p2a: Mammoth Graveyard|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: notafatcat|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|96/100|[from] item: Leftovers
+|-heal|p2a: Mammoth Graveyard|64/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Mammoth Graveyard
+|-damage|p2a: Mammoth Graveyard|49/100
+|move|p2a: Mammoth Graveyard|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|86/100|[from] item: Leftovers
+|-heal|p2a: Mammoth Graveyard|55/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Mammoth Graveyard
+|-resisted|p2a: Mammoth Graveyard
+|-damage|p2a: Mammoth Graveyard|50/100
+|-enditem|p2a: Mammoth Graveyard|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Mammoth Graveyard|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|81/100
+|-boost|p2a: Mammoth Graveyard|spe|1
+|-sideend|p2: LaxativeCement|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mammoth Graveyard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|88/100|[from] item: Leftovers
+|turn|12
+|
+|-end|p2a: Mammoth Graveyard|Protosynthesis|[silent]
+|switch|p2a: Chris Bosh|Charizard, F|76/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Chris Bosh
+|-sidestart|p2: LaxativeCement|move: Stealth Rock
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|-heal|p1a: Great Tusk|94/100|[from] item: Leftovers
+|turn|13
+|
+|-terastallize|p1a: Great Tusk|Water
+|move|p2a: Chris Bosh|Flamethrower|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|48/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Chris Bosh
+|-damage|p2a: Chris Bosh|56/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: notafatcat|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|54/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Chris Bosh
+|-damage|p2a: Chris Bosh|16/100
+|-enditem|p2a: Chris Bosh|Choice Specs|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Chris Bosh|Flamethrower|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|24/100
+|
+|-heal|p1a: Great Tusk|30/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Chris Bosh
+|-damage|p2a: Chris Bosh|0 fnt
+|faint|p2a: Chris Bosh
+|
+|-heal|p1a: Great Tusk|37/100|[from] item: Leftovers
+|
+|switch|p2a: Rarren Moon|Roaring Moon|68/100
+|-damage|p2a: Rarren Moon|56/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Rarren Moon|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|12/100
+|move|p1a: Great Tusk|Earthquake|p2a: Rarren Moon
+|-damage|p2a: Rarren Moon|4/100
+|
+|-heal|p1a: Great Tusk|18/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Rarren Moon|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|18
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Rarren Moon
+|-resisted|p2a: Rarren Moon
+|-damage|p2a: Rarren Moon|0 fnt
+|faint|p2a: Rarren Moon
+|-end|p2a: Rarren Moon|Protosynthesis|[silent]
+|
+|
+|switch|p2a: PACKWATCH|Torkoal, M|75/100
+|-damage|p2a: PACKWATCH|51/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: PACKWATCH
+|turn|19
+|
+|switch|p1a: Slowking|Slowking-Galar, M|40/100
+|switch|p2a: Mammoth Graveyard|Great Tusk|50/100
+|-damage|p2a: Mammoth Graveyard|47/100|[from] Stealth Rock
+|-activate|p2a: Mammoth Graveyard|ability: Protosynthesis
+|-start|p2a: Mammoth Graveyard|protosynthesisdef
+|
+|-weather|SunnyDay|[upkeep]
+|turn|20
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|move|p2a: Mammoth Graveyard|Earthquake|p1a: Basculegion
+|-damage|p1a: Basculegion|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|21
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Mammoth Graveyard
+|-damage|p2a: Mammoth Graveyard|0 fnt
+|faint|p2a: Mammoth Graveyard
+|-end|p2a: Mammoth Graveyard|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: WALKIN TO UR WAKE|Walking Wake|100/100
+|-damage|p2a: WALKIN TO UR WAKE|88/100|[from] Stealth Rock
+|-activate|p2a: WALKIN TO UR WAKE|ability: Protosynthesis
+|-start|p2a: WALKIN TO UR WAKE|protosynthesisspe
+|turn|22
+|
+|-terastallize|p2a: WALKIN TO UR WAKE|Water
+|move|p2a: WALKIN TO UR WAKE|Hydro Steam|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Slowking|Slowking-Galar, M|74/100
+|turn|23
+|
+|move|p2a: WALKIN TO UR WAKE|Hydro Steam|p1a: Slowking
+|-damage|p1a: Slowking|1/100
+|move|p1a: Slowking|Thunder Wave|p2a: WALKIN TO UR WAKE
+|-status|p2a: WALKIN TO UR WAKE|par
+|
+|-weather|SunnyDay|[upkeep]
+|turn|24
+|
+|cant|p2a: WALKIN TO UR WAKE|par
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|-end|p2a: WALKIN TO UR WAKE|Protosynthesis
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Chilly Reception
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|turn|25
+|
+|move|p1a: Chien-Pao|Crunch|p2a: WALKIN TO UR WAKE
+|-damage|p2a: WALKIN TO UR WAKE|3/100 par
+|move|p2a: WALKIN TO UR WAKE|Hydro Steam|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|26
+|
+|cant|p2a: WALKIN TO UR WAKE|par
+|move|p1a: Magearna|Volt Switch|p2a: WALKIN TO UR WAKE
+|-supereffective|p2a: WALKIN TO UR WAKE
+|-damage|p2a: WALKIN TO UR WAKE|0 fnt
+|faint|p2a: WALKIN TO UR WAKE
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: WALKIN TO UR WAKE|Protosynthesis|[silent]
+|
+|switch|p1a: Slowking|Slowking-Galar, M|34/100|[from] Volt Switch
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: PACKWATCH|Torkoal, M|51/100
+|-damage|p2a: PACKWATCH|26/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: PACKWATCH
+|turn|27
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Chilly Reception
+|move|p2a: PACKWATCH|Rapid Spin|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|98/100
+|-boost|p2a: PACKWATCH|spe|1
+|-sideend|p2: LaxativeCement|Stealth Rock|[from] move: Rapid Spin|[of] p2a: PACKWATCH
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Magearna|Volt Switch|p2a: PACKWATCH
+|-damage|p2a: PACKWATCH|0 fnt
+|faint|p2a: PACKWATCH
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|switch|p1a: Slowking|Slowking-Galar, M|68/100|[from] Volt Switch
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Accordion|Ceruledge, M|100/100
+|turn|29
+|
+|move|p2a: Accordion|Swords Dance|p2a: Accordion
+|-boost|p2a: Accordion|atk|2
+|move|p1a: Slowking|Thunder Wave|p2a: Accordion
+|-status|p2a: Accordion|par
+|
+|-weather|Snow|[upkeep]
+|turn|30
+|
+|move|p2a: Accordion|Bitter Blade|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|31
+|
+|move|p2a: Accordion|Bitter Blade|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|win|LaxativeCement

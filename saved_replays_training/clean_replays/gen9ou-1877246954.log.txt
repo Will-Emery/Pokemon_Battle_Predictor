@@ -1,0 +1,127 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Magearna|
+|poke|p1|Dragapult, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Volcarona, F|
+|poke|p1|Ursaluna, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Kingambit, M|
+|poke|p2|Volcarona, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Amoonguss, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: bobby sherda|Roaring Moon|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: nasdaslachiennete|Reflect
+|move|p2a: bobby sherda|Scale Shot|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|84/100
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|68/100
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|51/100
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|36/100
+|-start|p2a: bobby sherda|Disable|Scale Shot|[from] ability: Cursed Body|[of] p1a: Dragapult
+|-hitcount|p1a: Dragapult|4
+|-unboost|p2a: bobby sherda|def|1
+|-boost|p2a: bobby sherda|spe|1
+|
+|turn|2
+|
+|move|p2a: bobby sherda|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|15/100
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: nasdaslachiennete|move: Light Screen
+|
+|turn|3
+|
+|move|p2a: bobby sherda|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|4
+|
+|-end|p2a: bobby sherda|Protosynthesis|[silent]
+|switch|p2a: Dragonitte|Amoonguss, M|100/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|5
+|
+|move|p1a: Magearna|Stored Power|p2a: Dragonitte
+|-supereffective|p2a: Dragonitte
+|-damage|p2a: Dragonitte|44/100
+|move|p2a: Dragonitte|Spore|p1a: Magearna
+|-status|p1a: Magearna|slp|[from] move: Spore
+|
+|turn|6
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-item|p1a: Sneasler|Air Balloon
+|switch|p2a: bobby sherda|Roaring Moon|100/100
+|
+|turn|7
+|
+|-terastallize|p2a: bobby sherda|Ghost
+|move|p2a: bobby sherda|Focus Energy|p2a: bobby sherda
+|-start|p2a: bobby sherda|move: Focus Energy
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|turn|8
+|
+|move|p2a: bobby sherda|Iron Head|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|26/100
+|-enditem|p1a: Sneasler|Air Balloon
+|move|p1a: Sneasler|Dire Claw|p2a: bobby sherda
+|-resisted|p2a: bobby sherda
+|-damage|p2a: bobby sherda|31/100
+|
+|-sideend|p1: nasdaslachiennete|Reflect
+|turn|9
+|
+|move|p1a: Sneasler|Dire Claw|p2a: bobby sherda
+|-resisted|p2a: bobby sherda
+|-damage|p2a: bobby sherda|0 fnt
+|faint|p2a: bobby sherda
+|-end|p2a: bobby sherda|Protosynthesis|[silent]
+|
+|-sideend|p1: nasdaslachiennete|move: Light Screen
+|
+|switch|p2a: Dragonitte|Amoonguss, M|77/100
+|turn|10
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Dragonitte
+|-supereffective|p2a: Dragonitte
+|-damage|p2a: Dragonitte|0 fnt
+|-damage|p1a: Sneasler|10/100|[from] item: Rocky Helmet|[of] p2a: Dragonitte
+|faint|p2a: Dragonitte
+|
+|
+|switch|p2a: poopy butt|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: poopy butt
+|turn|11
+|
+|switch|p2a: fish n chips|Basculegion, M, shiny|100/100
+|move|p1a: Sneasler|Acrobatics|p2a: fish n chips
+|-damage|p2a: fish n chips|0 fnt
+|faint|p2a: fish n chips
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: moth|Volcarona, F|100/100
+|turn|12
+|-message|Ashereye forfeited.
+|
+|win|nasdaslachiennete

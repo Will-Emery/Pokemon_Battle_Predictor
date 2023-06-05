@@ -1,0 +1,546 @@
+|poke|p1|Garganacl, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Bellibolt, F|
+|poke|p1|Pawmot, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Dragonite, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Skeledirge, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Scream Tail|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Samurott|[miss]
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-miss|p1a: Cinderace|p2a: Samurott
+|-damage|p1a: Cinderace|51/100|[from] highjumpkick
+|move|p2a: Samurott|Aqua Cutter|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Bellibolt|Bellibolt, F|100/100
+|turn|2
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|turn|3
+|
+|-terastallize|p1a: Bellibolt|Grass
+|move|p2a: Great Tusk|Headlong Rush|p1a: Bellibolt
+|-resisted|p1a: Bellibolt
+|-damage|p1a: Bellibolt|77/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-start|p1a: Bellibolt|Charge|Headlong Rush|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Tera Blast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|turn|4
+|
+|switch|p1a: Pawmot|Pawmot, M|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Pawmot
+|-damage|p1a: Pawmot|33/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|turn|5
+|
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|-enditem|p1a: Pawmot|Leppa Berry|[eat]
+|-activate|p1a: Pawmot|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p1: Cinderace|50/100|[from] move: Revival Blessing
+|move|p2a: Skeledirge|Flame Charge|p1a: Pawmot
+|-damage|p1a: Pawmot|14/100
+|-boost|p2a: Skeledirge|spe|1
+|
+|turn|6
+|
+|move|p1a: Pawmot|Double Shock|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|27/100
+|-start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|move|p2a: Skeledirge|Flame Charge|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|-boost|p2a: Skeledirge|spe|1
+|faint|p1a: Pawmot
+|
+|-heal|p2a: Skeledirge|33/100|[from] item: Leftovers
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|7
+|
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|83/100
+|move|p1a: Dragonite|Earthquake|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|20/100
+|
+|-heal|p2a: Skeledirge|26/100|[from] item: Leftovers
+|turn|8
+|
+|-terastallize|p2a: Skeledirge|Fairy
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|76/100
+|move|p1a: Dragonite|Earthquake|p2a: Skeledirge
+|-damage|p2a: Skeledirge|44/100
+|
+|-heal|p2a: Skeledirge|50/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Skeledirge
+|-damage|p2a: Skeledirge|23/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|73/100
+|
+|-heal|p2a: Skeledirge|79/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|83/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p2a: Skeledirge|85/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|89/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Samurott
+|-damage|p2a: Samurott|86/100
+|-start|p2a: Samurott|Salt Cure
+|
+|-heal|p1a: Garganacl|96/100|[from] item: Leftovers
+|-damage|p2a: Samurott|61/100|[from] Salt Cure
+|turn|12
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Samurott|Copycat||[still]
+|-fail|p2a: Samurott
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Samurott|36/100|[from] Salt Cure
+|turn|13
+|
+|switch|p2a: Scream Tail|Scream Tail|100/100
+|switch|p1a: Bellibolt|Bellibolt, F, tera:Grass|77/100
+|
+|turn|14
+|
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Scream Tail
+|-damage|p2a: Scream Tail|83/100
+|-heal|p1a: Bellibolt|86/100|[from] drain|[of] p2a: Scream Tail
+|
+|-heal|p2a: Scream Tail|89/100|[from] item: Leftovers
+|turn|15
+|
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Skeledirge|Skeledirge, F, tera:Fairy|85/100
+|move|p1a: Bellibolt|Soak|p2a: Skeledirge
+|-fail|p2a: Skeledirge
+|
+|-heal|p2a: Skeledirge|100/100|[from] move: Wish|[wisher] Scream Tail
+|turn|16
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|90/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Garganacl|96/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|36/100
+|move|p1a: Garganacl|Salt Cure|p2a: Samurott
+|-damage|p2a: Samurott|20/100
+|-start|p2a: Samurott|Salt Cure
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Samurott|0 fnt|[from] Salt Cure
+|faint|p2a: Samurott
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|turn|18
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Sneasler|Fake Out|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|turn|19
+|
+|switch|p2a: Scream Tail|Scream Tail|89/100
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|
+|-heal|p2a: Scream Tail|95/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|move|p2a: Scream Tail|Dazzling Gleam|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|87/100
+|
+|-heal|p2a: Scream Tail|100/100|[from] item: Leftovers
+|turn|21
+|
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Glimmora|Sludge Bomb|p2a: Goodra
+|-immune|p2a: Goodra
+|
+|turn|22
+|
+|move|p1a: Glimmora|Toxic Spikes|p2a: Goodra
+|-sidestart|p2: svdpunx-|move: Toxic Spikes
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|turn|23
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|turn|24
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|98/100
+|-start|p2a: Goodra|Salt Cure
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-damage|p2a: Goodra|73/100|[from] Salt Cure
+|turn|25
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-damage|p2a: Goodra|48/100|[from] Salt Cure
+|turn|26
+|
+|switch|p1a: Glimmora|Glimmora, F|87/100
+|move|p2a: Goodra|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: svdpunx-|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Goodra|23/100|[from] Salt Cure
+|
+|switch|p1a: Cinderace|Cinderace, M|50/100
+|turn|27
+|
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Goodra
+|-status|p2a: Goodra|brn
+|move|p2a: Goodra|Life Dew|p2a: Goodra
+|-heal|p2a: Goodra|48/100 brn
+|
+|-damage|p2a: Goodra|42/100 brn|[from] brn
+|-damage|p2a: Goodra|17/100 brn|[from] Salt Cure
+|turn|28
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Goodra|Heavy Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|81/100
+|
+|-heal|p1a: Dragonite|87/100|[from] item: Leftovers
+|-damage|p2a: Goodra|11/100 brn|[from] brn
+|-damage|p2a: Goodra|0 fnt|[from] Salt Cure
+|faint|p2a: Goodra
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-sideend|p2: svdpunx-|move: Toxic Spikes|[of] p2a: Sneasler
+|turn|29
+|
+|move|p2a: Sneasler|Fake Out|p1a: Dragonite
+|-enditem|p2a: Sneasler|Normal Gem|[from] gem
+|-damage|p1a: Dragonite|66/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p1a: Dragonite|73/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Sneasler|Acrobatics|p1a: Dragonite
+|-damage|p1a: Dragonite|28/100
+|move|p1a: Dragonite|Earthquake|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-heal|p1a: Dragonite|34/100|[from] item: Leftovers
+|
+|switch|p2a: Skeledirge|Skeledirge, F, tera:Fairy|100/100
+|turn|31
+|
+|move|p1a: Dragonite|Earthquake|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|53/100
+|move|p2a: Skeledirge|Torch Song|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|19/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Dragonite|26/100|[from] item: Leftovers
+|-heal|p2a: Skeledirge|59/100|[from] item: Leftovers
+|turn|32
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100
+|
+|turn|33
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|83/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Garganacl|Salt Cure|p2a: Skeledirge
+|-damage|p2a: Skeledirge|91/100
+|-start|p2a: Skeledirge|Salt Cure
+|
+|-heal|p2a: Skeledirge|97/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|89/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|84/100|[from] Salt Cure
+|turn|34
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p2a: Skeledirge|91/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|95/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|78/100|[from] Salt Cure
+|turn|35
+|
+|switch|p1a: Bellibolt|Bellibolt, F, tera:Grass|86/100
+|move|p2a: Skeledirge|Torch Song|p1a: Bellibolt
+|-supereffective|p1a: Bellibolt
+|-damage|p1a: Bellibolt|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Bellibolt
+|
+|-heal|p2a: Skeledirge|84/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|72/100|[from] Salt Cure
+|
+|switch|p1a: Cinderace|Cinderace, M|50/100
+|turn|36
+|
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Skeledirge
+|-status|p2a: Skeledirge|brn
+|move|p2a: Skeledirge|Torch Song|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Skeledirge|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Skeledirge|72/100 brn|[from] brn
+|-damage|p2a: Skeledirge|59/100 brn|[from] Salt Cure
+|
+|switch|p1a: Garganacl|Garganacl, F|95/100
+|turn|37
+|
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100 brn
+|move|p1a: Garganacl|Salt Cure|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|85/100 brn
+|
+|-heal|p2a: Skeledirge|91/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|85/100 brn|[from] brn
+|-damage|p2a: Skeledirge|73/100 brn|[from] Salt Cure
+|turn|38
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Skeledirge|Flame Charge|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p2a: Skeledirge|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Skeledirge|73/100 brn|[from] brn
+|-damage|p2a: Skeledirge|60/100 brn|[from] Salt Cure
+|turn|39
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|64/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Garganacl|Salt Cure|p2a: Skeledirge
+|-damage|p2a: Skeledirge|50/100 brn
+|
+|-heal|p2a: Skeledirge|56/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|71/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|50/100 brn|[from] brn
+|-damage|p2a: Skeledirge|38/100 brn|[from] Salt Cure
+|turn|40
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|88/100 brn
+|
+|-heal|p2a: Skeledirge|94/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|77/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|88/100 brn|[from] brn
+|-damage|p2a: Skeledirge|75/100 brn|[from] Salt Cure
+|turn|41
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|40/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|90/100
+|
+|-heal|p2a: Skeledirge|81/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|97/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|75/100 brn|[from] brn
+|-damage|p2a: Skeledirge|63/100 brn|[from] Salt Cure
+|turn|42
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Skeledirge|Shadow Ball|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p2a: Skeledirge|69/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|63/100 brn|[from] brn
+|-damage|p2a: Skeledirge|50/100 brn|[from] Salt Cure
+|turn|43
+|
+|move|p2a: Skeledirge|Shadow Ball|p1a: Garganacl
+|-damage|p1a: Garganacl|54/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-heal|p2a: Skeledirge|57/100 brn|[from] item: Leftovers
+|-damage|p2a: Skeledirge|50/100 brn|[from] brn
+|-damage|p2a: Skeledirge|38/100 brn|[from] Salt Cure
+|turn|44
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|88/100 brn
+|
+|-heal|p2a: Skeledirge|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Skeledirge|88/100 brn|[from] brn
+|-damage|p2a: Skeledirge|76/100 brn|[from] Salt Cure
+|turn|45
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|52/100
+|move|p1a: Garganacl|Salt Cure|p2a: Skeledirge
+|-damage|p2a: Skeledirge|66/100 brn
+|
+|-heal|p2a: Skeledirge|72/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|58/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|66/100 brn|[from] brn
+|-damage|p2a: Skeledirge|54/100 brn|[from] Salt Cure
+|turn|46
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100 brn
+|
+|-heal|p1a: Garganacl|64/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|94/100 brn|[from] brn
+|-damage|p2a: Skeledirge|82/100 brn|[from] Salt Cure
+|turn|47
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|17/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|67/100
+|
+|-heal|p2a: Skeledirge|88/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|74/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|82/100 brn|[from] brn
+|-damage|p2a: Skeledirge|70/100 brn|[from] Salt Cure
+|turn|48
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Skeledirge|Flame Charge|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p2a: Skeledirge|76/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|70/100 brn|[from] brn
+|-damage|p2a: Skeledirge|57/100 brn|[from] Salt Cure
+|turn|49
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|33/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|83/100
+|
+|-heal|p2a: Skeledirge|63/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|89/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|57/100 brn|[from] brn
+|-damage|p2a: Skeledirge|45/100 brn|[from] Salt Cure
+|turn|50
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Skeledirge|Shadow Ball|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p2a: Skeledirge|51/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|96/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|45/100 brn|[from] brn
+|-damage|p2a: Skeledirge|33/100 brn|[from] Salt Cure
+|turn|51
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|52/100
+|move|p1a: Garganacl|Salt Cure|p2a: Skeledirge
+|-damage|p2a: Skeledirge|21/100 brn
+|
+|-heal|p2a: Skeledirge|27/100 brn|[from] item: Leftovers
+|-heal|p1a: Garganacl|59/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|21/100 brn|[from] brn
+|-damage|p2a: Skeledirge|9/100 brn|[from] Salt Cure
+|turn|52
+|-message|svdpunx- forfeited.
+|
+|win|LiJing0520

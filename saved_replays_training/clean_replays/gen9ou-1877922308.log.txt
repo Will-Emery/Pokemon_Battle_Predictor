@@ -1,0 +1,245 @@
+|poke|p1|Glastrier|
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Breloom, F|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Masquerain, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|1
+|
+|move|p2a: Breloom|Spore|p1a: Magearna
+|-status|p1a: Magearna|slp|[from] move: Spore
+|cant|p1a: Magearna|slp
+|
+|turn|2
+|
+|-terastallize|p2a: Breloom|Grass
+|move|p2a: Breloom|Bullet Seed|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|88/100 slp
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|76/100 slp
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|64/100 slp
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|53/100 slp
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|40/100 slp
+|-hitcount|p1a: Magearna|5
+|-curestatus|p1a: Magearna|slp|[msg]
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|3
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|56/100
+|-unboost|p1a: Magearna|spa|2
+|-enditem|p1a: Magearna|Eject Pack
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|4
+|
+|move|p1a: Ursaluna|Fire Punch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p2a: Masquerain|Masquerain, M|100/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|turn|5
+|
+|move|p1a: Ursaluna|Fire Punch|p2a: Masquerain
+|-supereffective|p2a: Masquerain
+|-enditem|p2a: Masquerain|Focus Sash
+|-damage|p2a: Masquerain|1/100
+|-status|p2a: Masquerain|brn
+|move|p2a: Masquerain|Hydro Pump|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|31/100 brn
+|
+|-damage|p1a: Ursaluna|25/100 brn|[from] brn
+|-damage|p2a: Masquerain|0 fnt|[from] brn
+|faint|p2a: Masquerain
+|
+|switch|p2a: Breloom|Breloom, F, tera:Grass|100/100
+|turn|6
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Breloom|Mach Punch|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|94/100
+|
+|-fieldend|move: Trick Room
+|turn|7
+|
+|move|p2a: Breloom|Spore|p1a: Slowking
+|-status|p1a: Slowking|slp|[from] move: Spore
+|cant|p1a: Slowking|slp
+|
+|turn|8
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|85/100 slp
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|74/100 slp
+|-resisted|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|58/100 slp
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|47/100 slp
+|-hitcount|p1a: Slowking|4
+|cant|p1a: Slowking|slp
+|
+|turn|9
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|37/100 slp
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|26/100 slp
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|16/100 slp
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|6/100 slp
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-hitcount|p1: Slowking|5
+|
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|10
+|
+|move|p2a: Breloom|Spore|p1a: Cresselia
+|-status|p1a: Cresselia|slp|[from] move: Spore
+|cant|p1a: Cresselia|slp
+|
+|turn|11
+|
+|move|p2a: Breloom|Bullet Seed|p1a: Cresselia
+|-damage|p1a: Cresselia|84/100 slp
+|-damage|p1a: Cresselia|69/100 slp
+|-damage|p1a: Cresselia|52/100 slp
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|29/100 slp
+|-hitcount|p1a: Cresselia|4
+|cant|p1a: Cresselia|slp
+|
+|turn|12
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Breloom|Bullet Seed|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|90/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|79/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|69/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|59/100
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|48/100
+|-hitcount|p1a: Kingambit|5
+|
+|-heal|p1a: Kingambit|55/100|[from] item: Leftovers
+|turn|13
+|
+|-terastallize|p1a: Kingambit|Fire
+|move|p2a: Breloom|Mach Punch|p1a: Kingambit
+|-damage|p1a: Kingambit|30/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Breloom
+|-damage|p2a: Breloom|20/100
+|
+|-heal|p1a: Kingambit|36/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|3/100
+|
+|-heal|p1a: Kingambit|42/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|-heal|p1a: Kingambit|48/100|[from] item: Leftovers
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|16
+|
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Cresselia|Cresselia, F|29/100 slp
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|turn|17
+|
+|-curestatus|p1a: Cresselia|slp|[msg]
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Kingambit|Kowtow Cleave|p1: Cresselia|[notarget]
+|-fail|p2a: Kingambit
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F|25/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Lunar Dance
+|turn|18
+|
+|switch|p1a: Kingambit|Kingambit, M, tera:Fire|48/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|
+|switch|p1a: Magearna|Magearna|40/100
+|turn|19
+|
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|20
+|
+|move|p1a: Magearna|Focus Blast|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|-message|EEEEEvolto forfeited.
+|
+|win|PedroGB512
+|player|p2|EEEEEvolto|102
+|player|p2|

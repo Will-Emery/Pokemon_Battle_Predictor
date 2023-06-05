@@ -1,0 +1,262 @@
+|poke|p1|Hatterene, F|
+|poke|p1|Zapdos|
+|poke|p1|Ting-Lu|
+|poke|p1|Heatran, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Toxapex, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Dragapult, M|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p1a: Iron Valiant|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|39/100
+|-enditem|p2a: Dragapult|Light Clay|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Dragapult|U-turn|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|95/100
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|
+|turn|2
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|3
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Heatran|Lava Plume|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|59/100
+|-enditem|p2a: Magearna|Weakness Policy
+|-boost|p2a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Magearna|spa|2|[from] item: Weakness Policy
+|
+|turn|4
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|turn|5
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|28/100
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Whirlwind|p2a: Magearna
+|drag|p2a: Dragapult|Dragapult, M|39/100
+|
+|-heal|p1a: Ting-Lu|34/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: I like bug alots|Reflect
+|
+|turn|7
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: I like bug alots|move: Light Screen
+|move|p1a: Toxapex|Sludge Bomb|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|34/100
+|-status|p2a: Dragapult|psn
+|
+|-damage|p2a: Dragapult|22/100 psn|[from] psn
+|turn|8
+|
+|move|p2a: Dragapult|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] U-turn
+|move|p1a: Toxapex|Liquidation|p2a: Magearna
+|-damage|p2a: Magearna|92/100
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|10
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-sideend|p2: I like bug alots|Reflect
+|turn|11
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Heatran|Lava Plume|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|68/100
+|
+|-sideend|p2: I like bug alots|move: Light Screen
+|turn|12
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Heatran|Lava Plume|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|35/100
+|
+|turn|13
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|95/100
+|-heal|p2a: Magearna|39/100|[from] drain|[of] p1a: Heatran
+|move|p1a: Heatran|Lava Plume|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|4/100
+|-status|p2a: Magearna|brn
+|
+|-damage|p2a: Magearna|0 fnt|[from] brn
+|faint|p2a: Magearna
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|14
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Sneasler|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|78/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|
+|-heal|p1a: Toxapex|84/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|70/100
+|-status|p1a: Toxapex|par
+|move|p1a: Toxapex|Liquidation|p2a: Sneasler
+|-damage|p2a: Sneasler|70/100
+|
+|-heal|p1a: Toxapex|76/100 par|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Toxapex|Liquidation|p2a: Sneasler
+|-damage|p2a: Sneasler|38/100
+|
+|-heal|p1a: Toxapex|83/100 par|[from] item: Leftovers
+|turn|17
+|
+|-terastallize|p2a: Sneasler|Fighting
+|move|p2a: Sneasler|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100 par
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|cant|p1a: Toxapex|par
+|
+|-heal|p1a: Toxapex|36/100 par|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Sneasler|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Ting-Lu|Ting-Lu|34/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|19
+|
+|-terastallize|p1a: Ting-Lu|Ghost
+|move|p2a: Sneasler|Close Combat|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|move|p1a: Ting-Lu|Earthquake|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-heal|p1a: Ting-Lu|40/100|[from] item: Leftovers
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|20
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|31/100
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|22/100
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|12/100
+|-hitcount|p1a: Ting-Lu|3
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Urshifu
+|-sidestart|p2: I like bug alots|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|18/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|9/100
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-hitcount|p1: Ting-Lu|2
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|95/100
+|turn|22
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|69/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|22/100 psn
+|-damage|p2a: Dragapult|10/100 psn|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|24
+|-message|I like bug alots forfeited.
+|
+|win|2mill

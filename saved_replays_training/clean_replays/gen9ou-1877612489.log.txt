@@ -1,0 +1,226 @@
+|poke|p1|Skeledirge, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Magearna|
+|poke|p1|Corviknight, M|
+|poke|p1|Great Tusk|
+|poke|p1|Chien-Pao|
+|poke|p2|Ursaluna, F|
+|poke|p2|Magearna|
+|poke|p2|Cresselia, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Drifblim, F|
+|poke|p2|Volcanion|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|-terastallize|p1a: Magearna|Ground
+|move|p1a: Magearna|Tera Blast|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|move|p2a: Drifblim|Trick Room|p2a: Drifblim
+|-fieldstart|move: Trick Room|[of] p2a: Drifblim
+|
+|turn|3
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|34/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|4
+|
+|switch|p1a: Skeledirge|Skeledirge, F, shiny|100/100
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-damage|p2a: Ursaluna|28/100 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p1a: Corviknight|Pressure
+|-terastallize|p2a: Ursaluna|Normal
+|move|p2a: Ursaluna|Facade|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Ursaluna|12/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|-damage|p2a: Ursaluna|6/100 brn|[from] brn
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|turn|6
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Rotom|Protect||[still]
+|-fail|p1a: Rotom
+|
+|-fieldend|move: Trick Room
+|turn|7
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Cresselia
+|-status|p2a: Cresselia|par
+|
+|turn|8
+|
+|move|p1a: Rotom|Volt Switch|p2a: Cresselia
+|-damage|p2a: Cresselia|88/100 par
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|turn|9
+|
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Chien-Pao|Crunch|p2: Cresselia|[notarget]
+|-fail|p1a: Chien-Pao
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, F, tera:Normal|6/100 brn
+|-heal|p2a: Ursaluna|100/100|[from] move: Lunar Dance
+|turn|10
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|11
+|
+|move|p2a: Ursaluna|Headlong Rush|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|turn|12
+|
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|move|p1a: Rotom|Protect||[still]
+|-fail|p1a: Rotom
+|
+|-fieldend|move: Trick Room
+|turn|13
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Drifblim
+|-status|p2a: Drifblim|par
+|move|p2a: Drifblim|Trick Room|p2a: Drifblim
+|-fieldstart|move: Trick Room|[of] p2a: Drifblim
+|
+|turn|14
+|
+|switch|p2a: Ursaluna|Ursaluna, F, tera:Normal|94/100 brn
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna
+|-damage|p2a: Ursaluna|61/100 brn
+|
+|-damage|p2a: Ursaluna|54/100 brn|[from] brn
+|turn|15
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Ursaluna|Facade|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-damage|p2a: Ursaluna|48/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-damage|p2a: Ursaluna|42/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Ursaluna|Facade|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-damage|p2a: Ursaluna|36/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|18
+|
+|move|p1a: Rotom|Volt Switch|p2a: Ursaluna
+|-damage|p2a: Ursaluna|16/100 brn
+|
+|switch|p1a: Skeledirge|Skeledirge, F, shiny|100/100|[from] Volt Switch
+|move|p2a: Ursaluna|Facade|p1a: Skeledirge
+|-immune|p1a: Skeledirge
+|
+|-damage|p2a: Ursaluna|10/100 brn|[from] brn
+|turn|19
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Skeledirge|Torch Song|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|93/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Rotom|[miss]
+|-miss|p2a: Volcanion|p1a: Rotom
+|
+|turn|21
+|
+|move|p1a: Rotom|Volt Switch|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|39/100
+|
+|switch|p1a: Skeledirge|Skeledirge, F, shiny|100/100|[from] Volt Switch
+|move|p2a: Volcanion|Sludge Bomb|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|88/100
+|
+|turn|22
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|move|p2a: Volcanion|Sludge Bomb|p1a: Rotom
+|-damage|p1a: Rotom|71/100
+|
+|-heal|p1a: Rotom|77/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Rotom|Volt Switch|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|turn|24
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-message|ch1ck3n nu99ets forfeited.
+|
+|win|v1nc77

@@ -1,0 +1,473 @@
+|poke|p1|Dragapult, M|
+|poke|p1|Magearna|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Houndstone, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Walking Wake|
+|poke|p2|Toxapex, F|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|1
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxapex|Acid Spray|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|turn|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Corviknight|atk|1
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|turn|3
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Landorus|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|
+|turn|4
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Landorus
+|-damage|p1a: Landorus|64/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-damage|p2a: Corviknight|72/100|[from] Recoil
+|move|p1a: Landorus|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: DeltaDracorex|move: Stealth Rock
+|
+|-heal|p2a: Corviknight|79/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from] U-turn
+|
+|-heal|p2a: Toxapex|87/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Rotom|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|5/100
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] Volt Switch
+|move|p2a: Toxapex|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-heal|p2a: Toxapex|12/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|94/100 tox|[from] psn
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: BetaPrimePsi|move: Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|88/100 tox|[from] Sandstorm
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|76/100 tox|[from] psn
+|turn|8
+|
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: BetaPrimePsi|Reflect
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|70/100 tox|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|52/100 tox|[from] psn
+|turn|9
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Tyranitar|[miss]
+|-miss|p1a: Dragapult|p2a: Tyranitar
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|46/100 tox|[from] Sandstorm
+|-damage|p1a: Dragapult|22/100 tox|[from] psn
+|turn|10
+|
+|move|p2a: Tyranitar|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|11
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|30/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-weather|none
+|-heal|p1a: Magearna|36/100|[from] item: Leftovers
+|turn|12
+|
+|-terastallize|p2a: Tyranitar|Flying
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Tyranitar|Earthquake|p1a: Magearna
+|-damage|p1a: Magearna|5/100
+|move|p1a: Magearna|Draining Kiss|p2a: Tyranitar
+|-damage|p2a: Tyranitar|74/100
+|-heal|p1a: Magearna|24/100|[from] drain|[of] p2a: Tyranitar
+|
+|-heal|p2a: Tyranitar|80/100|[from] item: Leftovers
+|-heal|p1a: Magearna|30/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-heal|p2a: Tyranitar|86/100|[from] item: Leftovers
+|
+|switch|p1a: Landorus|Landorus-Therian, M|64/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|turn|14
+|
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Landorus|U-turn|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|75/100
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100|[from] U-turn
+|
+|-heal|p2a: Tyranitar|81/100|[from] item: Leftovers
+|-sideend|p1: BetaPrimePsi|move: Light Screen
+|turn|15
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|70/100
+|move|p1a: Decidueye|Knock Off|p2a: Tyranitar
+|-damage|p2a: Tyranitar|39/100
+|-enditem|p2a: Tyranitar|Leftovers|[from] move: Knock Off|[of] p1a: Decidueye
+|-damage|p1a: Decidueye|60/100|[from] item: Life Orb
+|
+|-sideend|p1: BetaPrimePsi|Reflect
+|turn|16
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Decidueye|[miss]
+|-miss|p2a: Tyranitar|p1a: Decidueye
+|move|p1a: Decidueye|Triple Arrows|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100
+|-unboost|p2a: Tyranitar|def|1
+|-damage|p1a: Decidueye|50/100|[from] item: Life Orb
+|
+|turn|17
+|
+|move|p1a: Decidueye|Sucker Punch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-damage|p1a: Decidueye|40/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Walking Wake|Flamethrower|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|93/100
+|
+|turn|19
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, M|79/100
+|-damage|p2a: Corviknight|66/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxapex|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|57/100
+|
+|-heal|p2a: Corviknight|63/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Corviknight|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: DeltaDracorex|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|70/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Houndstone|Houndstone, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Houndstone
+|-damage|p2a: Houndstone|43/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|64/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Houndstone|atk|1
+|
+|turn|22
+|
+|switch|p2a: Corviknight|Corviknight, M|70/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: DeltaDracorex|move: Stealth Rock
+|
+|-heal|p2a: Corviknight|76/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p2a: Toxapex|Toxapex, F|45/100
+|-damage|p2a: Toxapex|32/100|[from] Stealth Rock
+|move|p1a: Landorus|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|
+|-heal|p2a: Toxapex|39/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p2a: Corviknight|Corviknight, M|76/100
+|-damage|p2a: Corviknight|63/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|59/100
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from] U-turn
+|
+|-heal|p2a: Corviknight|65/100|[from] item: Leftovers
+|turn|25
+|
+|switch|p2a: Walking Wake|Walking Wake|88/100
+|-damage|p2a: Walking Wake|76/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|40/100
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100|[from] Volt Switch
+|
+|turn|26
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Houndstone|Houndstone, F|43/100
+|-damage|p2a: Houndstone|31/100|[from] Stealth Rock
+|move|p1a: Toxapex|Ice Beam|p2a: Houndstone
+|-damage|p2a: Houndstone|15/100
+|
+|turn|27
+|
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|move|p1a: Toxapex|Surf|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|
+|switch|p2a: Corviknight|Corviknight, M|65/100
+|-damage|p2a: Corviknight|53/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|28
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|29
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|39/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|64/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Corviknight|atk|1
+|move|p2a: Corviknight|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|-sideend|p2: DeltaDracorex|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|45/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Arcanine
+|-sidestart|p2: DeltaDracorex|move: Stealth Rock
+|
+|turn|31
+|
+|switch|p2a: Corviknight|Corviknight, M|45/100
+|-damage|p2a: Corviknight|33/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Toxapex|Toxapex, M|100/100 brn
+|
+|-heal|p2a: Corviknight|39/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|turn|32
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Corviknight|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: DeltaDracorex|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|45/100|[from] item: Leftovers
+|turn|33
+|
+|switch|p2a: Toxapex|Toxapex, F|72/100
+|move|p1a: Rotom|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|switch|p1a: Landorus|Landorus-Therian, M|64/100|[from] Volt Switch
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|34
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100 brn
+|move|p2a: Arcanine|Flare Blitz|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100 brn
+|
+|-damage|p1a: Toxapex|66/100 brn|[from] brn
+|turn|35
+|
+|switch|p2a: Walking Wake|Walking Wake|40/100
+|move|p1a: Toxapex|Surf|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|36/100
+|
+|-damage|p1a: Toxapex|59/100 brn|[from] brn
+|turn|36
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, F|40/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Decidueye|[miss]
+|-miss|p2a: Walking Wake|p1a: Decidueye
+|
+|turn|37
+|
+|switch|p1a: Toxapex|Toxapex, M|93/100 brn
+|move|p2a: Walking Wake|Flamethrower|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|85/100 brn
+|
+|-damage|p1a: Toxapex|79/100 brn|[from] brn
+|turn|38
+|
+|move|p2a: Walking Wake|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|44/100 brn
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Toxapex|Ice Beam|p2a: Walking Wake
+|-damage|p2a: Walking Wake|27/100
+|
+|-damage|p1a: Toxapex|38/100 brn|[from] brn
+|turn|39
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, M|45/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxapex|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|32/100
+|
+|-heal|p2a: Corviknight|39/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|32/100 brn|[from] brn
+|turn|40
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, F|40/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|89/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|95/100|[from] item: Leftovers
+|turn|41
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|-damage|p2a: Corviknight|82/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|89/100|[from] item: Leftovers
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|42
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|5/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|55/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|61/100|[from] item: Leftovers
+|turn|43
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|44
+|
+|switch|p1a: Toxapex|Toxapex, M|65/100 brn
+|move|p2a: Arcanine|Head Smash|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|64/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|turn|45
+|
+|switch|p2a: Walking Wake|Walking Wake|27/100
+|move|p1a: Landorus|Earthquake|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|46
+|
+|move|p2a: Arcanine|Head Smash|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Arcanine|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|47
+|
+|move|p2a: Arcanine|Head Smash|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|DeltaDracorex

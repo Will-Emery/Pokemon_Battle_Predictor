@@ -1,0 +1,115 @@
+|poke|p1|Great Tusk|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Skeledirge, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Frostfang Barioth|Chien-Pao|100/100
+|switch|p2a: Metro|Rillaboom, F|100/100
+|-ability|p1a: Frostfang Barioth|Sword of Ruin
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Metro
+|turn|1
+|
+|switch|p1a: Iron Maiden|Magearna|100/100
+|switch|p2a: Big Dirge|Skeledirge, F|100/100
+|
+|turn|2
+|
+|move|p2a: Big Dirge|Will-O-Wisp|p1a: Iron Maiden
+|-status|p1a: Iron Maiden|brn
+|move|p1a: Iron Maiden|Volt Switch|p2a: Big Dirge
+|-crit|p2a: Big Dirge
+|-damage|p2a: Big Dirge|78/100
+|
+|switch|p1a: Frostfang Barioth|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p1a: Frostfang Barioth|Sword of Ruin
+|
+|-heal|p2a: Big Dirge|84/100|[from] Grassy Terrain
+|turn|3
+|
+|switch|p2a: Hercules No Thug|Sneasler, M|100/100
+|-enditem|p2a: Hercules No Thug|Grassy Seed
+|-boost|p2a: Hercules No Thug|def|1|[from] item: Grassy Seed
+|-terastallize|p1a: Frostfang Barioth|Dark
+|move|p1a: Frostfang Barioth|Crunch|p2a: Hercules No Thug
+|-resisted|p2a: Hercules No Thug
+|-damage|p2a: Hercules No Thug|47/100
+|-unboost|p2a: Hercules No Thug|def|1
+|
+|-heal|p2a: Hercules No Thug|53/100|[from] Grassy Terrain
+|turn|4
+|
+|switch|p1a: OU Mascot|Landorus-Therian, M|100/100
+|-ability|p1a: OU Mascot|Intimidate|boost
+|-unboost|p2a: Hercules No Thug|atk|1
+|move|p2a: Hercules No Thug|Swords Dance|p2a: Hercules No Thug
+|-boost|p2a: Hercules No Thug|atk|2
+|
+|-heal|p2a: Hercules No Thug|60/100|[from] Grassy Terrain
+|turn|5
+|
+|move|p2a: Hercules No Thug|Swords Dance|p2a: Hercules No Thug
+|-boost|p2a: Hercules No Thug|atk|2
+|move|p1a: OU Mascot|Smack Down|p2a: Hercules No Thug
+|-resisted|p2a: Hercules No Thug
+|-damage|p2a: Hercules No Thug|47/100
+|
+|-heal|p2a: Hercules No Thug|53/100|[from] Grassy Terrain
+|turn|6
+|
+|move|p2a: Hercules No Thug|Acrobatics|p1a: OU Mascot
+|-damage|p1a: OU Mascot|0 fnt
+|faint|p1a: OU Mascot
+|
+|-heal|p2a: Hercules No Thug|59/100|[from] Grassy Terrain
+|
+|switch|p1a: Frostfang Barioth|Chien-Pao, tera:Dark|100/100
+|-ability|p1a: Frostfang Barioth|Sword of Ruin
+|turn|7
+|
+|move|p2a: Hercules No Thug|Dire Claw|p1a: Frostfang Barioth
+|-damage|p1a: Frostfang Barioth|0 fnt
+|faint|p1a: Frostfang Barioth
+|
+|-heal|p2a: Hercules No Thug|65/100|[from] Grassy Terrain
+|
+|switch|p1a: Iron Maiden|Magearna|100/100 brn
+|turn|8
+|
+|move|p2a: Hercules No Thug|Close Combat|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|0 fnt
+|-unboost|p2a: Hercules No Thug|def|1
+|-unboost|p2a: Hercules No Thug|spd|1
+|faint|p1a: Iron Maiden
+|
+|-heal|p2a: Hercules No Thug|72/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|
+|switch|p1a: London System|Kingambit, M, shiny|100/100
+|-activate|p1a: London System|ability: Supreme Overlord
+|-start|p1a: London System|fallen3|[silent]
+|turn|9
+|
+|move|p1a: London System|Sucker Punch|p2a: Hercules No Thug
+|-resisted|p2a: Hercules No Thug
+|-damage|p2a: Hercules No Thug|11/100
+|move|p2a: Hercules No Thug|Close Combat|p1a: London System
+|-supereffective|p1a: London System
+|-damage|p1a: London System|0 fnt
+|-unboost|p2a: Hercules No Thug|def|1
+|-unboost|p2a: Hercules No Thug|spd|1
+|faint|p1a: London System
+|-end|p1a: London System|fallen3|[silent]
+|
+|-message|TomoTaco69 forfeited.
+|
+|win|kd458

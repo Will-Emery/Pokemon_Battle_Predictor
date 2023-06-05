@@ -1,1 +1,255 @@
-Could not connect
+|j|☆MAF1001
+|j|☆Droide_Pogo
+|t:|1685852975
+|gametype|singles
+|player|p1|MAF1001|unknown|1000
+|player|p2|Droide_Pogo|169|1061
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Scovillain, M|
+|poke|p1|Iron Leaves|
+|poke|p1|Toedscruel, M|
+|poke|p1|Brute Bonnet|
+|poke|p1|Rotom-Mow|
+|poke|p1|Gogoat, F|
+|poke|p2|Cetitan, M|
+|poke|p2|Avalugg-Hisui, F|
+|poke|p2|Slowking, F|
+|poke|p2|Cryogonal|
+|poke|p2|Garchomp, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1685852988
+|start
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|switch|p2a: Slowking|Slowking, F|100/100
+|-enditem|p1a: Brute Bonnet|Booster Energy
+|-activate|p1a: Brute Bonnet|ability: Protosynthesis|[fromitem]
+|-start|p1a: Brute Bonnet|protosynthesisatk
+|turn|1
+|
+|t:|1685853000
+|move|p1a: Brute Bonnet|Payback|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|20/100
+|move|p2a: Slowking|Thunder Wave|p1a: Brute Bonnet
+|-status|p1a: Brute Bonnet|par
+|
+|upkeep
+|turn|2
+|
+|t:|1685853010
+|move|p1a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1a: Brute Bonnet
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|t:|1685853026
+|switch|p2a: Avalugg|Avalugg-Hisui, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685853039
+|-terastallize|p1a: Brute Bonnet|Fairy
+|move|p2a: Avalugg|Aurora Veil|p2a: Avalugg
+|-sidestart|p2: Droide_Pogo|move: Aurora Veil
+|cant|p1a: Brute Bonnet|par
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MAF1001)
+|
+|t:|1685853078
+|move|p2a: Avalugg|Body Press|p1a: Brute Bonnet
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|84/100 par
+|move|p1a: Brute Bonnet|Spore|p2a: Avalugg
+|-status|p2a: Avalugg|slp|[from] move: Spore
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|5
+|inactive|MAF1001 has 120 seconds left.
+|inactive|MAF1001 has 90 seconds left.
+|
+|t:|1685853156
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1685853172
+|move|p2a: Gholdengo|Make It Rain|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|48/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Rotom|Sunny Day|p1a: Rotom
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|Droide_Pogo has 120 seconds left.
+|
+|t:|1685853205
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|switch|p1a: Scovillain|Scovillain, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Droide_Pogo|move: Aurora Veil
+|upkeep
+|turn|8
+|inactive|Droide_Pogo has 120 seconds left.
+|
+|t:|1685853235
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Garchomp
+|-damage|p2a: Garchomp|49/100
+|move|p2a: Garchomp|Earthquake|p1a: Scovillain
+|-damage|p1a: Scovillain|27/100
+|-enditem|p1a: Scovillain|Sitrus Berry|[eat]
+|-heal|p1a: Scovillain|52/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|inactive|MAF1001 has 90 seconds left.
+|inactive|Droide_Pogo has 90 seconds left.
+|
+|t:|1685853251
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Droide_Pogo has 90 seconds left.
+|
+|t:|1685853270
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|10
+|
+|t:|1685853278
+|move|p1a: Scovillain|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|60/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|
+|-weather|none
+|upkeep
+|
+|t:|1685853288
+|switch|p1a: Brute Bonnet|Brute Bonnet, tera:Fairy|84/100 par
+|turn|11
+|inactive|Droide_Pogo has 90 seconds left.
+|
+|t:|1685853303
+|switch|p2a: Slowking|Slowking, F|53/100
+|move|p1a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1a: Brute Bonnet
+|
+|upkeep
+|turn|12
+|
+|t:|1685853313
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|t:|1685853320
+|switch|p2a: Cetitan|Cetitan, M|100/100|[from] Chilly Reception
+|cant|p1a: Brute Bonnet|par
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|13
+|inactive|MAF1001 has 120 seconds left.
+|
+|t:|1685853332
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Cetitan
+|-damage|p2a: Cetitan|74/100
+|move|p2a: Cetitan|Ice Spinner|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|33/100 par
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|14
+|inactive|MAF1001 has 120 seconds left.
+|
+|t:|1685853341
+|move|p2a: Cetitan|Ice Spinner|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685853345
+|switch|p1a: Rotom|Rotom-Mow|48/100
+|turn|15
+|
+|t:|1685853350
+|move|p2a: Cetitan|Ice Spinner|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685853364
+|switch|p1a: Iron Leaves|Iron Leaves|100/100
+|turn|16
+|
+|t:|1685853368
+|move|p2a: Cetitan|Ice Spinner|p1a: Iron Leaves
+|-supereffective|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|0 fnt
+|faint|p1a: Iron Leaves
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685853375
+|switch|p1a: Toedscruel|Toedscruel, M|100/100
+|turn|17
+|
+|t:|1685853379
+|move|p2a: Cetitan|Ice Spinner|p1a: Toedscruel
+|-supereffective|p1a: Toedscruel
+|-crit|p1a: Toedscruel
+|-damage|p1a: Toedscruel|0 fnt
+|faint|p1a: Toedscruel
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|-message|MAF1001 forfeited.
+|
+|win|Droide_Pogo
+|raw|MAF1001's rating: 1000 → 1000(+0 for losing)
+|raw|Droide_Pogo's rating: 1061 → 1086(+25 for winning)
+|l|☆MAF1001

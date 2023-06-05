@@ -1,0 +1,128 @@
+|poke|p1|Tyranitar, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Lycanroc, M|
+|poke|p1|Cacturne, F|
+|poke|p1|Palossand, F|
+|poke|p1|Garchomp, M|
+|poke|p2|Primeape, F|
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: "Annihilape"|Primeape, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p2a: "Annihilape"|Bulk Up|p2a: "Annihilape"
+|-boost|p2a: "Annihilape"|atk|1
+|-boost|p2a: "Annihilape"|def|1
+|move|p1a: Hippowdon|Crunch|p2a: "Annihilape"
+|-resisted|p2a: "Annihilape"
+|-damage|p2a: "Annihilape"|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: "Annihilape"|86/100|[from] Sandstorm
+|turn|2
+|
+|move|p2a: "Annihilape"|Bulk Up|p2a: "Annihilape"
+|-boost|p2a: "Annihilape"|atk|1
+|-boost|p2a: "Annihilape"|def|1
+|move|p1a: Hippowdon|Fire Fang|p2a: "Annihilape"
+|-damage|p2a: "Annihilape"|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: "Annihilape"|71/100|[from] Sandstorm
+|turn|3
+|
+|move|p2a: "Annihilape"|Bulk Up|p2a: "Annihilape"
+|-boost|p2a: "Annihilape"|atk|1
+|-boost|p2a: "Annihilape"|def|1
+|move|p1a: Hippowdon|Ice Fang|p2a: "Annihilape"
+|-damage|p2a: "Annihilape"|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: "Annihilape"|56/100|[from] Sandstorm
+|turn|4
+|
+|move|p2a: "Annihilape"|Drain Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|45/100
+|-heal|p2a: "Annihilape"|99/100|[from] drain|[of] p1a: Hippowdon
+|move|p1a: Hippowdon|Stone Edge|p2a: "Annihilape"
+|-resisted|p2a: "Annihilape"
+|-damage|p2a: "Annihilape"|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: "Annihilape"|87/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|51/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: "Annihilape"|Bulk Up|p2a: "Annihilape"
+|-boost|p2a: "Annihilape"|atk|1
+|-boost|p2a: "Annihilape"|def|1
+|move|p1a: Hippowdon|Crunch|p2a: "Annihilape"
+|-resisted|p2a: "Annihilape"
+|-damage|p2a: "Annihilape"|83/100
+|
+|-weather|none
+|-heal|p1a: Hippowdon|57/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: "Annihilape"|Rage Fist|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|7
+|
+|move|p2a: "Annihilape"|Rage Fist|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|12/100
+|move|p1a: Tyranitar|Foul Play|p2a: "Annihilape"
+|-resisted|p2a: "Annihilape"
+|-damage|p2a: "Annihilape"|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: "Annihilape"|52/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|19/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: "Annihilape"|Drain Punch|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: "Annihilape"|66/100|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: "Annihilape"|59/100|[from] Sandstorm
+|
+|switch|p1a: Cacturne|Cacturne, F|100/100
+|turn|9
+|
+|move|p2a: "Annihilape"|Drain Punch|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|-heal|p2a: "Annihilape"|100/100|[from] drain|[of] p1a: Cacturne
+|faint|p1a: Cacturne
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: "Annihilape"|94/100|[from] Sandstorm
+|
+|switch|p1a: Lycanroc|Lycanroc, M|100/100
+|turn|10
+|
+|move|p1a: Lycanroc|Psychic Fangs|p2a: "Annihilape"
+|-supereffective|p2a: "Annihilape"
+|-damage|p2a: "Annihilape"|64/100
+|move|p2a: "Annihilape"|Drain Punch|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|-heal|p2a: "Annihilape"|100/100|[from] drain|[of] p1a: Lycanroc
+|faint|p1a: Lycanroc
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: "Annihilape"|94/100|[from] Sandstorm
+|-message|WhatisaSandslash forfeited.
+|
+|win|ianiguess

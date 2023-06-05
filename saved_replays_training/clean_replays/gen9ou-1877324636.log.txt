@@ -1,0 +1,185 @@
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Amoonguss, M|
+|poke|p1|Magearna|
+|poke|p1|Electrode-Hisui|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Pelipper, M|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Floatzel, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Avalugg|Avalugg-Hisui, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Pelipper|Hydro Pump|p1a: Amoonguss|[miss]
+|-miss|p2a: Pelipper|p1a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|85/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Electrode
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Floatzel|Floatzel, F|100/100
+|turn|4
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Floatzel|Wave Crash|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|34/100
+|-damage|p2a: Floatzel|70/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|40/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Floatzel|Wave Crash|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-damage|p2a: Floatzel|52/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|turn|6
+|
+|move|p2a: Floatzel|Wave Crash|p1a: Electrode
+|-resisted|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|-damage|p2a: Floatzel|24/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|7
+|
+|move|p1a: Decidueye|Shadow Sneak|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|8
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, M|100/100
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|
+|-weather|none
+|turn|9
+|
+|move|p2a: Zamazenta|Close Combat|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Avalugg
+|-damage|p2a: Zamazenta|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Magearna|Magearna|85/100
+|turn|10
+|
+|move|p2a: Zamazenta|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Magearna
+|-damage|p2a: Zamazenta|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|11
+|
+|move|p2a: Zamazenta|Play Rough|p1a: Moltres|[miss]
+|-miss|p2a: Zamazenta|p1a: Moltres
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|turn|12
+|
+|move|p1a: Moltres|Hurricane|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Moltres|atk|1
+|turn|13
+|
+|-terastallize|p1a: Moltres|Dark
+|move|p1a: Moltres|Fiery Wrath|p2a: Landorus
+|-damage|p2a: Landorus|28/100
+|move|p2a: Landorus|Stone Edge|p1a: Moltres
+|-damage|p1a: Moltres|53/100
+|
+|turn|14
+|
+|move|p1a: Moltres|Fiery Wrath|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|15
+|
+|move|p1a: Moltres|Fiery Wrath|p2a: Pelipper
+|-damage|p2a: Pelipper|22/100
+|move|p2a: Pelipper|Hurricane|p1a: Moltres
+|-damage|p1a: Moltres|22/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p1a: Moltres|Fiery Wrath|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|17
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p1a: Moltres|Fiery Wrath|p2a: Basculegion
+|-damage|p2a: Basculegion|1/100
+|cant|p2a: Basculegion|flinch
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|-message|Beignet2 forfeited.
+|
+|win|somepokemonboi

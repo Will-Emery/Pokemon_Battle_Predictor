@@ -1,0 +1,243 @@
+|poke|p1|Rillaboom, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Heatran, F|
+|poke|p1|Avalugg-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Chien-Pao|
+|poke|p2|Azumarill, F|
+|poke|p2|Bombirdier, F|
+|poke|p2|Heatran, F|
+|poke|p2|Breloom, F|
+|teampreview
+|
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|switch|p2a: Bombirdier|Bombirdier, F|100/100
+|turn|1
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, F|100/100
+|move|p2a: Bombirdier|Parting Shot|p1a: Avalugg
+|-unboost|p1a: Avalugg|atk|1
+|-unboost|p1a: Avalugg|spa|1
+|
+|switch|p2a: Breloom|Breloom, F|100/100|[from] Parting Shot
+|
+|turn|2
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|move|p2a: Breloom|Mach Punch|p1a: Lilligant
+|-damage|p1a: Lilligant|45/100
+|
+|turn|3
+|
+|switch|p1a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Breloom|Mach Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|73/100
+|
+|-heal|p1a: Rillaboom|79/100|[from] Grassy Terrain
+|turn|4
+|
+|-terastallize|p2a: Breloom|Fire
+|move|p2a: Breloom|Tera Blast|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|5/100
+|move|p1a: Rillaboom|Knock Off|p2a: Breloom
+|-damage|p2a: Breloom|52/100
+|-enditem|p2a: Breloom|Focus Sash|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p2a: Breloom|58/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|11/100|[from] Grassy Terrain
+|turn|5
+|
+|move|p2a: Breloom|Mach Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Breloom|64/100|[from] Grassy Terrain
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, F|100/100
+|turn|6
+|
+|move|p2a: Breloom|Spore|p1a: Avalugg
+|-status|p1a: Avalugg|slp|[from] move: Spore
+|cant|p1a: Avalugg|slp
+|
+|-heal|p2a: Breloom|70/100|[from] Grassy Terrain
+|turn|7
+|
+|move|p2a: Breloom|Mach Punch|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-enditem|p1a: Avalugg|Chople Berry|[eat]
+|-enditem|p1a: Avalugg|Chople Berry|[weaken]
+|-damage|p1a: Avalugg|75/100 slp
+|-curestatus|p1a: Avalugg|slp|[msg]
+|move|p1a: Avalugg|Avalanche|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|30/100
+|
+|-heal|p2a: Breloom|36/100|[from] Grassy Terrain
+|-heal|p1a: Avalugg|81/100|[from] Grassy Terrain
+|turn|8
+|
+|move|p2a: Breloom|Spore|p1a: Avalugg
+|-status|p1a: Avalugg|slp|[from] move: Spore
+|cant|p1a: Avalugg|slp
+|
+|-heal|p2a: Breloom|42/100|[from] Grassy Terrain
+|-heal|p1a: Avalugg|87/100 slp|[from] Grassy Terrain
+|turn|9
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|move|p2a: Breloom|Bullet Seed|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|84/100
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|67/100
+|-hitcount|p1a: Sneasler|2
+|
+|-heal|p1a: Sneasler|73/100|[from] Grassy Terrain
+|-heal|p2a: Breloom|48/100|[from] Grassy Terrain
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Sneasler|Dire Claw|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-heal|p1a: Sneasler|79/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|turn|11
+|
+|move|p1a: Sneasler|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|12
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Sneasler
+|-damage|p1a: Sneasler|32/100
+|move|p1a: Sneasler|Dire Claw|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|11/100
+|-status|p2a: Azumarill|psn
+|
+|-damage|p2a: Azumarill|0 fnt|[from] psn
+|faint|p2a: Azumarill
+|
+|switch|p2a: Breloom|Breloom, F, tera:Fire|48/100
+|turn|13
+|
+|move|p2a: Breloom|Mach Punch|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|4/100
+|move|p1a: Sneasler|Dire Claw|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|14
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|15
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Great Tusk
+|-damage|p2a: Great Tusk|66/100
+|
+|turn|16
+|
+|-terastallize|p1a: Zamazenta|Fairy
+|move|p1a: Zamazenta|Howl|p1a: Zamazenta
+|-boost|p1a: Zamazenta|atk|1
+|move|p2a: Great Tusk|Headlong Rush|p1a: Zamazenta
+|-damage|p1a: Zamazenta|59/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|turn|17
+|
+|move|p1a: Zamazenta|Play Rough|p2a: Great Tusk|[miss]
+|-miss|p1a: Zamazenta|p2a: Great Tusk
+|move|p2a: Great Tusk|Knock Off|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|52/100
+|
+|turn|18
+|
+|move|p1a: Zamazenta|Play Rough|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Bombirdier|Bombirdier, F|100/100
+|turn|19
+|
+|move|p2a: Bombirdier|Brave Bird|p1a: Zamazenta
+|-damage|p1a: Zamazenta|23/100
+|-damage|p2a: Bombirdier|89/100|[from] Recoil
+|move|p1a: Zamazenta|Play Rough|p2a: Bombirdier|[miss]
+|-miss|p1a: Zamazenta|p2a: Bombirdier
+|
+|turn|20
+|
+|move|p2a: Bombirdier|Brave Bird|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2a: Bombirdier|81/100|[from] Recoil
+|
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, F|87/100 slp
+|turn|21
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|cant|p1a: Avalugg|slp
+|
+|turn|22
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|turn|23
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|45/100
+|turn|24
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|win|Kaz2109

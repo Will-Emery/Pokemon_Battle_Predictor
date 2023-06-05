@@ -1,0 +1,291 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Magearna|
+|poke|p1|Dragapult, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Glimmora, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Ursaluna, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Dragapult, M|
+|poke|p2|Cresselia, F|
+|poke|p2|Volcanion|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Steamin Willy Beez|Volcanion|100/100
+|turn|1
+|
+|move|p1a: Glimmora|Spikes|p2a: Steamin Willy Beez
+|-sidestart|p2: denbofan|Spikes
+|move|p2a: Steamin Willy Beez|Steam Eruption|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|
+|turn|2
+|
+|move|p1a: Glimmora|Spikes|p2a: Steamin Willy Beez
+|-sidestart|p2: denbofan|Spikes
+|move|p2a: Steamin Willy Beez|Steam Eruption|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: Crackerkid|move: Light Screen
+|move|p2a: Steamin Willy Beez|Steam Eruption|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|73/100
+|-status|p1a: Dragapult|brn
+|-start|p2a: Steamin Willy Beez|Disable|Steam Eruption|[from] ability: Cursed Body|[of] p1a: Dragapult
+|
+|-damage|p1a: Dragapult|67/100 brn|[from] brn
+|turn|4
+|
+|switch|p2a: 2Birds1Stone|Cresselia, F|100/100
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: Crackerkid|Reflect
+|
+|-damage|p1a: Dragapult|60/100 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: 2Birds1Stone|Trick Room|p2a: 2Birds1Stone
+|-fieldstart|move: Trick Room|[of] p2a: 2Birds1Stone
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|6
+|
+|switch|p2a: TURTLEHANDS|Dragapult, M|100/100
+|-damage|p2a: TURTLEHANDS|84/100|[from] Spikes
+|move|p1a: Ursaluna|Facade|p2a: TURTLEHANDS
+|-immune|p2a: TURTLEHANDS
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|7
+|
+|switch|p2a: 2Birds1Stone|Cresselia, F|100/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: 2Birds1Stone
+|-immune|p2a: 2Birds1Stone|[from] ability: Levitate
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: 2Birds1Stone|Psychic|p1a: Ursaluna
+|-damage|p1a: Ursaluna|77/100 brn
+|
+|-damage|p1a: Ursaluna|71/100 brn|[from] brn
+|turn|9
+|
+|move|p1a: Ursaluna|Headlong Rush|p2a: 2Birds1Stone
+|-immune|p2a: 2Birds1Stone|[from] ability: Levitate
+|move|p2a: 2Birds1Stone|Psychic|p1a: Ursaluna
+|-damage|p1a: Ursaluna|61/100 brn
+|
+|-damage|p1a: Ursaluna|55/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|10
+|
+|switch|p2a: TURTLEHANDS|Dragapult, M|84/100
+|-damage|p2a: TURTLEHANDS|68/100|[from] Spikes
+|move|p1a: Ursaluna|Facade|p2a: TURTLEHANDS
+|-immune|p2a: TURTLEHANDS
+|
+|-damage|p1a: Ursaluna|49/100 brn|[from] brn
+|-sideend|p1: Crackerkid|move: Light Screen
+|turn|11
+|
+|move|p2a: TURTLEHANDS|U-turn|p1a: Ursaluna
+|-damage|p1a: Ursaluna|36/100 brn
+|
+|switch|p2a: 2Birds1Stone|Cresselia, F|100/100|[from] U-turn
+|move|p1a: Ursaluna|Headlong Rush|p2a: 2Birds1Stone
+|-immune|p2a: 2Birds1Stone|[from] ability: Levitate
+|
+|-damage|p1a: Ursaluna|30/100 brn|[from] brn
+|-sideend|p1: Crackerkid|Reflect
+|turn|12
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: 2Birds1Stone|Psychic|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|91/100
+|
+|-heal|p1a: Magearna|97/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Ursaluna|Ursaluna, F|30/100 brn
+|switch|p2a: FAKEAID|Ursaluna, F|100/100
+|-damage|p2a: FAKEAID|84/100|[from] Spikes
+|
+|-damage|p1a: Ursaluna|24/100 brn|[from] brn
+|-status|p2a: FAKEAID|brn|[from] item: Flame Orb
+|turn|14
+|
+|switch|p2a: TURTLEHANDS|Dragapult, M|68/100
+|-damage|p2a: TURTLEHANDS|51/100|[from] Spikes
+|move|p1a: Ursaluna|Facade|p2a: TURTLEHANDS
+|-immune|p2a: TURTLEHANDS
+|
+|-damage|p1a: Ursaluna|18/100 brn|[from] brn
+|turn|15
+|
+|move|p2a: TURTLEHANDS|U-turn|p1a: Ursaluna
+|-damage|p1a: Ursaluna|6/100 brn
+|
+|switch|p2a: 2Birds1Stone|Cresselia, F|100/100|[from] U-turn
+|move|p1a: Ursaluna|Headlong Rush|p2a: 2Birds1Stone
+|-immune|p2a: 2Birds1Stone|[from] ability: Levitate
+|
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|
+|switch|p1a: Dragapult|Dragapult, F|60/100 brn
+|turn|16
+|
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: Crackerkid|Reflect
+|move|p2a: 2Birds1Stone|Psychic|p1a: Dragapult
+|-damage|p1a: Dragapult|33/100 brn
+|-unboost|p1a: Dragapult|spd|1
+|-start|p2a: 2Birds1Stone|Disable|Psychic|[from] ability: Cursed Body|[of] p1a: Dragapult
+|-enditem|p2a: 2Birds1Stone|Mental Herb
+|-end|p2a: 2Birds1Stone|Disable
+|
+|-damage|p1a: Dragapult|27/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Dragapult|Curse|p2a: 2Birds1Stone
+|-start|p2a: 2Birds1Stone|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p2a: 2Birds1Stone|Psychic|p1: Dragapult|[notarget]
+|-fail|p2a: 2Birds1Stone
+|
+|-damage|p2a: 2Birds1Stone|76/100|[from] Curse
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|18
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: 2Birds1Stone|Trick Room|p2a: 2Birds1Stone
+|-fieldstart|move: Trick Room|[of] p2a: 2Birds1Stone
+|
+|-damage|p2a: 2Birds1Stone|51/100|[from] Curse
+|turn|19
+|
+|move|p2a: 2Birds1Stone|Lunar Dance|p2a: 2Birds1Stone
+|faint|p2a: 2Birds1Stone
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|
+|switch|p2a: TURTLEHANDS|Dragapult, M|51/100
+|-heal|p2a: TURTLEHANDS|100/100|[from] move: Lunar Dance
+|-damage|p2a: TURTLEHANDS|84/100|[from] Spikes
+|turn|20
+|
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: TURTLEHANDS|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|move|p1a: Dragonite|Earthquake|p2a: TURTLEHANDS
+|-damage|p2a: TURTLEHANDS|34/100
+|
+|-damage|p1a: Dragonite|94/100 brn|[from] brn
+|turn|21
+|
+|move|p2a: TURTLEHANDS|Will-O-Wisp|p1a: Dragonite
+|-fail|p1a: Dragonite|brn
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-damage|p1a: Dragonite|88/100 brn|[from] brn
+|turn|22
+|
+|switch|p2a: FAKEAID|Ursaluna, F|84/100 brn
+|-damage|p2a: FAKEAID|67/100 brn|[from] Spikes
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-damage|p2a: FAKEAID|61/100 brn|[from] brn
+|-damage|p1a: Dragonite|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|23
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: FAKEAID
+|-damage|p2a: FAKEAID|13/100 brn
+|move|p2a: FAKEAID|Facade|p1a: Dragonite
+|-damage|p1a: Dragonite|18/100 brn
+|
+|-damage|p1a: Dragonite|12/100 brn|[from] brn
+|-damage|p2a: FAKEAID|7/100 brn|[from] brn
+|-sideend|p1: Crackerkid|Reflect
+|turn|24
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|62/100 brn
+|move|p2a: FAKEAID|Headlong Rush|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: FAKEAID|def|1
+|-unboost|p2a: FAKEAID|spd|1
+|faint|p1a: Dragonite
+|
+|-damage|p2a: FAKEAID|1/100 brn|[from] brn
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|25
+|
+|switch|p2a: TURTLEHANDS|Dragapult, M|34/100
+|-damage|p2a: TURTLEHANDS|18/100|[from] Spikes
+|move|p1a: Sneasler|Close Combat|p2a: TURTLEHANDS
+|-immune|p2a: TURTLEHANDS
+|
+|turn|26
+|
+|switch|p1a: Magearna|Magearna|97/100
+|move|p2a: TURTLEHANDS|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|51/100
+|
+|-heal|p1a: Magearna|57/100|[from] item: Leftovers
+|turn|27
+|
+|-terastallize|p2a: TURTLEHANDS|Ghost
+|move|p2a: TURTLEHANDS|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|28
+|
+|move|p2a: TURTLEHANDS|Shadow Ball|p1a: Sneasler
+|-damage|p1a: Sneasler|4/100
+|move|p1a: Sneasler|Night Slash|p2a: TURTLEHANDS
+|-supereffective|p2a: TURTLEHANDS
+|-damage|p2a: TURTLEHANDS|0 fnt
+|faint|p2a: TURTLEHANDS
+|
+|
+|switch|p2a: Jen Bao|Chien-Pao|100/100
+|-damage|p2a: Jen Bao|84/100|[from] Spikes
+|-ability|p2a: Jen Bao|Sword of Ruin
+|turn|29
+|
+|move|p2a: Jen Bao|Ice Shard|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|win|denbofan

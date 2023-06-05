@@ -1,0 +1,199 @@
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Magearna|
+|poke|p1|Rotom-Wash|
+|poke|p1|Volcarona, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Murkrow, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|start
+|switch|p1a: Terminator|Magearna|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|move|p1a: Terminator|Taunt|p2a: Glimmora
+|-start|p2a: Glimmora|move: Taunt
+|cant|p2a: Glimmora|move: Taunt|Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Terminator|Will-O-Wisp|p2a: Glimmora
+|-status|p2a: Glimmora|brn
+|move|p2a: Glimmora|Power Gem|p1a: Terminator
+|-damage|p1a: Terminator|45/100
+|replace|p1a: It was me Barry|Zoroark-Hisui, F
+|-end|p1a: It was me Barry|Illusion
+|
+|-damage|p2a: Glimmora|94/100 brn|[from] brn
+|turn|3
+|
+|move|p1a: It was me Barry|Hex|p2a: Glimmora
+|-damage|p2a: Glimmora|24/100 brn
+|move|p2a: Glimmora|Power Gem|p1a: It was me Barry
+|-damage|p1a: It was me Barry|0 fnt
+|faint|p1a: It was me Barry
+|
+|-damage|p2a: Glimmora|18/100 brn|[from] brn
+|-end|p2a: Glimmora|move: Taunt
+|
+|switch|p1a: Mothra|Volcarona, F|100/100
+|turn|4
+|
+|-terastallize|p1a: Mothra|Grass
+|move|p1a: Mothra|Quiver Dance|p1a: Mothra
+|-boost|p1a: Mothra|spa|1
+|-boost|p1a: Mothra|spd|1
+|-boost|p1a: Mothra|spe|1
+|move|p2a: Glimmora|Power Gem|p1a: Mothra
+|-damage|p1a: Mothra|76/100
+|
+|-damage|p2a: Glimmora|12/100 brn|[from] brn
+|turn|5
+|
+|move|p1a: Mothra|Quiver Dance|p1a: Mothra
+|-boost|p1a: Mothra|spa|1
+|-boost|p1a: Mothra|spd|1
+|-boost|p1a: Mothra|spe|1
+|move|p2a: Glimmora|Mortal Spin|p1a: Mothra
+|-supereffective|p1a: Mothra
+|-damage|p1a: Mothra|65/100
+|-status|p1a: Mothra|psn
+|
+|-damage|p1a: Mothra|53/100 psn|[from] psn
+|-damage|p2a: Glimmora|6/100 brn|[from] brn
+|turn|6
+|
+|move|p1a: Mothra|Giga Drain|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-heal|p1a: Mothra|56/100 psn|[from] drain|[of] p2a: Glimmora
+|faint|p2a: Glimmora
+|
+|-damage|p1a: Mothra|44/100 psn|[from] psn
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|7
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Pedro 144|move: Light Screen
+|move|p1a: Mothra|Giga Drain|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|59/100
+|-heal|p1a: Mothra|70/100 psn|[from] drain|[of] p2a: Grimmsnarl
+|
+|-damage|p1a: Mothra|58/100 psn|[from] psn
+|turn|8
+|
+|move|p1a: Mothra|Fiery Dance|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|12/100
+|-boost|p1a: Mothra|spa|1
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Mothra
+|-damage|p1a: Mothra|12/100 psn
+|-unboost|p1a: Mothra|spa|1
+|
+|-damage|p1a: Mothra|0 fnt|[from] psn
+|faint|p1a: Mothra
+|
+|switch|p1a: Terminator|Magearna|100/100
+|turn|9
+|
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Terminator
+|-unboost|p1a: Terminator|atk|1
+|-unboost|p1a: Terminator|spa|1
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100|[from] Parting Shot
+|move|p1a: Terminator|Agility|p1a: Terminator
+|-boost|p1a: Terminator|spe|2
+|
+|turn|10
+|
+|switch|p1a: Bugger|Murkrow, M|100/100
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|
+|turn|11
+|
+|move|p1a: Bugger|Thunder Wave|p2a: Goodra
+|-status|p2a: Goodra|par
+|move|p2a: Goodra|Life Dew||[still]
+|-fail|p2a: Goodra|heal
+|
+|turn|12
+|player|p2|
+|player|p2|Pedro 144|brycen
+|
+|move|p1a: Bugger|Taunt|p2a: Goodra
+|-start|p2a: Goodra|move: Taunt
+|cant|p2a: Goodra|par
+|
+|turn|13
+|
+|move|p1a: Bugger|Haze|p1a: Bugger
+|-clearallboost
+|move|p2a: Goodra|Body Press|p1a: Bugger
+|-damage|p1a: Bugger|50/100
+|
+|turn|14
+|
+|move|p1a: Bugger|U-turn|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|95/100 par
+|
+|switch|p1a: Terminator|Magearna|100/100|[from] U-turn
+|move|p2a: Goodra|Body Press|p1a: Terminator
+|-damage|p1a: Terminator|75/100
+|
+|-heal|p2a: Goodra|100/100 par|[from] item: Leftovers
+|-end|p2a: Goodra|move: Taunt
+|-sideend|p2: Pedro 144|move: Light Screen
+|turn|15
+|
+|move|p1a: Terminator|Agility|p1a: Terminator
+|-boost|p1a: Terminator|spe|2
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|
+|turn|16
+|
+|move|p1a: Terminator|Aura Sphere|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|64/100 par
+|move|p2a: Goodra|Body Press|p1a: Terminator
+|-damage|p1a: Terminator|30/100
+|
+|-heal|p2a: Goodra|70/100 par|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Terminator|Aura Sphere|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|35/100 par
+|cant|p2a: Goodra|par
+|
+|-heal|p2a: Goodra|41/100 par|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Terminator|Aura Sphere|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|-ability|p1a: Terminator|Soul-Heart|boost
+|-boost|p1a: Terminator|spa|1
+|
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|turn|19
+|
+|move|p1a: Terminator|Flash Cannon|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-ability|p1a: Terminator|Soul-Heart|boost
+|-boost|p1a: Terminator|spa|1
+|
+|-message|Pedro 144 forfeited.
+|
+|win|ShortsRComfy15

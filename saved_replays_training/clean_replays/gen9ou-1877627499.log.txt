@@ -1,0 +1,943 @@
+|poke|p1|Talonflame, F|
+|poke|p1|Iron Moth|
+|poke|p1|Scream Tail|
+|poke|p1|Ceruledge, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Brute Bonnet|
+|poke|p2|Kleavor, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Iron Hands|
+|poke|p2|Enamorus, F|
+|poke|p2|Persian-Alola, M|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|20/100
+|-sidestart|p1: Thefatguinea|move: Stealth Rock
+|move|p1a: Torkoal|Stealth Rock|p2a: Kleavor
+|-sidestart|p2: altharu|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|switch|p1a: yo-yo|Scream Tail|100/100
+|-damage|p1a: yo-yo|88/100|[from] Stealth Rock
+|-activate|p1a: yo-yo|ability: Protosynthesis
+|-start|p1a: yo-yo|protosynthesisdef
+|move|p2a: Kleavor|Stone Axe|p1a: yo-yo
+|-damage|p1a: yo-yo|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: yo-yo|70/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Kleavor|Stone Axe|p1a: yo-yo
+|-damage|p1a: yo-yo|46/100
+|move|p1a: yo-yo|Thunder Wave|p2a: Kleavor
+|-status|p2a: Kleavor|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: yo-yo|53/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Kleavor|Stone Axe|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: yo-yo|59/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|cant|p2a: Kleavor|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: yo-yo|65/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Kleavor
+|-damage|p2a: Kleavor|71/100 par
+|cant|p2a: Kleavor|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: yo-yo|100/100|[from] move: Wish|[wisher] yo-yo
+|turn|7
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|91/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: Heatran
+|-status|p2a: Heatran|par
+|move|p2a: Heatran|Fire Spin|p1a: yo-yo
+|-damage|p1a: yo-yo|85/100
+|-activate|p1a: yo-yo|move: Fire Spin|[of] p2a: Heatran
+|
+|-weather|none
+|-end|p1a: yo-yo|Protosynthesis
+|-heal|p1a: yo-yo|91/100|[from] item: Leftovers
+|-heal|p2a: Heatran|98/100 par|[from] item: Leftovers
+|-damage|p1a: yo-yo|78/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|9
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Heatran|Flamethrower|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|85/100|[from] item: Leftovers
+|-heal|p2a: Heatran|100/100 par|[from] item: Leftovers
+|-damage|p1a: yo-yo|72/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|10
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: Heatran|Ancient Power|p1a: yo-yo
+|-damage|p1a: yo-yo|60/100
+|
+|-heal|p1a: yo-yo|66/100|[from] item: Leftovers
+|-damage|p1a: yo-yo|54/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|11
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|98/100 par
+|cant|p2a: Heatran|par
+|
+|-heal|p1a: yo-yo|100/100|[from] move: Wish|[wisher] yo-yo
+|-heal|p2a: Heatran|100/100 par|[from] item: Leftovers
+|-damage|p1a: yo-yo|88/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|12
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Heatran|Fire Spin|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|94/100|[from] item: Leftovers
+|-damage|p1a: yo-yo|82/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|13
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: Heatran|Fire Spin|p1a: yo-yo
+|-damage|p1a: yo-yo|71/100
+|
+|-heal|p1a: yo-yo|77/100|[from] item: Leftovers
+|-end|p1a: yo-yo|Fire Spin|[partiallytrapped]
+|turn|14
+|
+|-end|p1a: yo-yo|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|20/100
+|-damage|p1a: Torkoal|0 fnt|[from] Stealth Rock
+|faint|p1a: Torkoal
+|cant|p2a: Heatran|par
+|
+|
+|switch|p1a: mothron|Iron Moth|100/100
+|-damage|p1a: mothron|76/100|[from] Stealth Rock
+|-enditem|p1a: mothron|Booster Energy
+|-activate|p1a: mothron|ability: Quark Drive|[fromitem]
+|-start|p1a: mothron|quarkdrivespa
+|turn|15
+|
+|move|p1a: mothron|Fire Blast|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|move|p2a: Heatran|Ancient Power|p1a: mothron
+|-supereffective|p1a: mothron
+|-damage|p1a: mothron|40/100
+|
+|turn|16
+|
+|move|p1a: mothron|Bug Buzz|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|93/100 par
+|move|p2a: Heatran|Ancient Power|p1a: mothron
+|-supereffective|p1a: mothron
+|-damage|p1a: mothron|0 fnt
+|faint|p1a: mothron
+|-end|p1a: mothron|Quark Drive|[silent]
+|
+|-heal|p2a: Heatran|99/100 par|[from] item: Leftovers
+|
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|-damage|p1a: Brute Bonnet|88/100|[from] Stealth Rock
+|turn|17
+|
+|-terastallize|p1a: Brute Bonnet|Fire
+|cant|p2a: Heatran|par
+|move|p1a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1a: Brute Bonnet
+|
+|-heal|p2a: Heatran|100/100 par|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Heatran
+|-damage|p2a: Heatran|65/100 par
+|move|p2a: Heatran|Ancient Power|p1a: Brute Bonnet
+|-supereffective|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|53/100
+|
+|-heal|p2a: Heatran|71/100 par|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1a: Brute Bonnet
+|
+|-heal|p2a: Heatran|77/100 par|[from] item: Leftovers
+|turn|20
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Persian|Persian-Alola, M|100/100
+|-damage|p2a: Persian|88/100|[from] Stealth Rock
+|move|p1a: Brute Bonnet|Bullet Seed|p2a: Persian
+|-damage|p2a: Persian|81/100
+|-damage|p2a: Persian|74/100
+|-damage|p2a: Persian|66/100
+|-damage|p2a: Persian|59/100
+|-hitcount|p2a: Persian|4
+|
+|-heal|p2a: Persian|65/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Persian|Foul Play|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|0 fnt
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|
+|-heal|p2a: Persian|71/100|[from] item: Leftovers
+|
+|switch|p1a: yo-yo|Scream Tail|77/100
+|-damage|p1a: yo-yo|65/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Persian|Hypnosis|p1a: yo-yo
+|-status|p1a: yo-yo|slp|[from] move: Hypnosis
+|cant|p1a: yo-yo|slp
+|
+|-heal|p2a: Persian|77/100|[from] item: Leftovers
+|-heal|p1a: yo-yo|71/100 slp|[from] item: Leftovers
+|turn|23
+|
+|switch|p2a: Heatran|Heatran, F|77/100 par
+|-damage|p2a: Heatran|65/100 par|[from] Stealth Rock
+|cant|p1a: yo-yo|slp
+|
+|-heal|p1a: yo-yo|77/100 slp|[from] item: Leftovers
+|-heal|p2a: Heatran|71/100 par|[from] item: Leftovers
+|turn|24
+|
+|-end|p1a: yo-yo|Protosynthesis|[silent]
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|-damage|p1a: Talonflame|50/100|[from] Stealth Rock
+|move|p2a: Heatran|Fire Spin|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|38/100
+|-activate|p1a: Talonflame|move: Fire Spin|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|77/100 par|[from] item: Leftovers
+|-damage|p1a: Talonflame|26/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|25
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Talonflame|Brave Bird|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|83/100 par|[from] item: Leftovers
+|-damage|p1a: Talonflame|14/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|26
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|64/100 par
+|-damage|p1a: Talonflame|5/100|[from] Recoil
+|move|p2a: Heatran|Ancient Power|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-heal|p2a: Heatran|70/100 par|[from] item: Leftovers
+|
+|switch|p1a: heatblast|Ceruledge, F|100/100
+|-damage|p1a: heatblast|75/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: heatblast|Shadow Sneak|p2a: Heatran
+|-damage|p2a: Heatran|44/100 par
+|cant|p2a: Heatran|par
+|
+|-heal|p2a: Heatran|50/100 par|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: heatblast|Shadow Sneak|p2a: Heatran
+|-damage|p2a: Heatran|24/100 par
+|move|p2a: Heatran|Ancient Power|p1a: heatblast
+|-supereffective|p1a: heatblast
+|-damage|p1a: heatblast|35/100
+|
+|-heal|p2a: Heatran|31/100 par|[from] item: Leftovers
+|turn|29
+|
+|switch|p2a: Persian|Persian-Alola, M|77/100
+|-damage|p2a: Persian|64/100|[from] Stealth Rock
+|move|p1a: heatblast|Shadow Sneak|p2a: Persian
+|-resisted|p2a: Persian
+|-damage|p2a: Persian|57/100
+|
+|-heal|p2a: Persian|63/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p1a: yo-yo|Scream Tail|77/100 slp
+|-damage|p1a: yo-yo|65/100 slp|[from] Stealth Rock
+|move|p2a: Persian|Foul Play|p1a: yo-yo
+|-damage|p1a: yo-yo|54/100 slp
+|
+|-heal|p2a: Persian|69/100|[from] item: Leftovers
+|-heal|p1a: yo-yo|60/100 slp|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Persian|Foul Play|p1a: yo-yo
+|-damage|p1a: yo-yo|51/100 slp
+|cant|p1a: yo-yo|slp
+|
+|-heal|p2a: Persian|75/100|[from] item: Leftovers
+|-heal|p1a: yo-yo|57/100 slp|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Persian|Hypnosis|p1a: yo-yo|[miss]
+|-miss|p2a: Persian|p1a: yo-yo
+|-curestatus|p1a: yo-yo|slp|[msg]
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Persian
+|-supereffective|p2a: Persian
+|-damage|p2a: Persian|19/100
+|
+|-heal|p2a: Persian|25/100|[from] item: Leftovers
+|-heal|p1a: yo-yo|63/100|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Persian|U-turn|p1a: yo-yo
+|-damage|p1a: yo-yo|57/100
+|
+|switch|p2a: Kleavor|Kleavor, M|71/100 par|[from] U-turn
+|-damage|p2a: Kleavor|46/100 par|[from] Stealth Rock
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Kleavor
+|-damage|p2a: Kleavor|15/100 par
+|
+|-heal|p1a: yo-yo|63/100|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|-heal|p1a: yo-yo|69/100|[from] item: Leftovers
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|turn|35
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|75/100|[from] item: Leftovers
+|turn|36
+|
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|55/100
+|-heal|p2a: Enamorus|98/100|[from] drain|[of] p1a: yo-yo
+|move|p1a: yo-yo|Thunder Wave|p2a: Enamorus
+|-status|p2a: Enamorus|par
+|
+|-heal|p1a: yo-yo|62/100|[from] item: Leftovers
+|turn|37
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|43/100
+|-heal|p2a: Enamorus|100/100 par|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|49/100|[from] item: Leftovers
+|turn|38
+|
+|-end|p1a: yo-yo|Protosynthesis|[silent]
+|switch|p1a: heatblast|Ceruledge, F|35/100
+|-damage|p1a: heatblast|10/100|[from] Stealth Rock
+|move|p2a: Enamorus|Draining Kiss|p1a: heatblast
+|-resisted|p1a: heatblast
+|-damage|p1a: heatblast|0 fnt
+|faint|p1a: heatblast
+|
+|
+|switch|p1a: yo-yo|Scream Tail|49/100
+|-damage|p1a: yo-yo|37/100|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|43/100|[from] item: Leftovers
+|turn|40
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Enamorus
+|-damage|p2a: Enamorus|70/100 par
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|25/100
+|-heal|p2a: Enamorus|91/100 par|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|31/100|[from] item: Leftovers
+|turn|41
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|12/100
+|-heal|p2a: Enamorus|100/100 par|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|18/100|[from] item: Leftovers
+|turn|42
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|68/100|[from] move: Wish|[wisher] yo-yo
+|-heal|p1a: yo-yo|75/100|[from] item: Leftovers
+|turn|43
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Enamorus
+|-damage|p2a: Enamorus|71/100 par
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|55/100
+|-heal|p2a: Enamorus|93/100 par|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|61/100|[from] item: Leftovers
+|turn|44
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Enamorus
+|-damage|p2a: Enamorus|67/100 par
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|41/100
+|-heal|p2a: Enamorus|90/100 par|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|47/100|[from] item: Leftovers
+|turn|45
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|53/100|[from] item: Leftovers
+|turn|46
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|35/100
+|-heal|p2a: Enamorus|100/100 par|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|41/100|[from] item: Leftovers
+|turn|47
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Enamorus
+|-damage|p2a: Enamorus|72/100 par
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|21/100
+|-heal|p2a: Enamorus|94/100 par|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|71/100|[from] move: Wish|[wisher] yo-yo
+|-heal|p1a: yo-yo|77/100|[from] item: Leftovers
+|turn|48
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Enamorus
+|-damage|p2a: Enamorus|67/100 par
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|57/100
+|-heal|p2a: Enamorus|90/100 par|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|64/100|[from] item: Leftovers
+|turn|49
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Enamorus
+|-damage|p2a: Enamorus|61/100 par
+|cant|p2a: Enamorus|par
+|
+|-heal|p1a: yo-yo|70/100|[from] item: Leftovers
+|turn|50
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: Enamorus|Draining Kiss|p1a: yo-yo
+|-damage|p1a: yo-yo|51/100
+|-heal|p2a: Enamorus|82/100 par|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|57/100|[from] item: Leftovers
+|turn|51
+|
+|switch|p2a: Heatran|Heatran, F|31/100 par
+|-damage|p2a: Heatran|18/100 par|[from] Stealth Rock
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|15/100 par
+|
+|-heal|p1a: yo-yo|100/100|[from] move: Wish|[wisher] yo-yo
+|-heal|p2a: Heatran|21/100 par|[from] item: Leftovers
+|turn|52
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|19/100 par
+|move|p2a: Heatran|Fire Spin|p1a: yo-yo
+|-damage|p1a: yo-yo|89/100
+|-activate|p1a: yo-yo|move: Fire Spin|[of] p2a: Heatran
+|
+|-heal|p1a: yo-yo|95/100|[from] item: Leftovers
+|-heal|p2a: Heatran|25/100 par|[from] item: Leftovers
+|-damage|p1a: yo-yo|83/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|53
+|
+|move|p1a: yo-yo|Dazzling Gleam|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|23/100 par
+|move|p2a: Heatran|Flamethrower|p1a: yo-yo
+|-damage|p1a: yo-yo|54/100
+|
+|-heal|p1a: yo-yo|60/100|[from] item: Leftovers
+|-heal|p2a: Heatran|29/100 par|[from] item: Leftovers
+|-damage|p1a: yo-yo|48/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|54
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: Heatran|Flamethrower|p1a: yo-yo
+|-damage|p1a: yo-yo|22/100
+|
+|-heal|p1a: yo-yo|28/100|[from] item: Leftovers
+|-heal|p2a: Heatran|35/100 par|[from] item: Leftovers
+|-damage|p1a: yo-yo|16/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|55
+|
+|switch|p2a: Persian|Persian-Alola, M|25/100
+|-damage|p2a: Persian|12/100|[from] Stealth Rock
+|move|p1a: yo-yo|Protect||[still]
+|-fail|p1a: yo-yo
+|
+|-heal|p1a: yo-yo|66/100|[from] move: Wish|[wisher] yo-yo
+|-heal|p2a: Persian|18/100|[from] item: Leftovers
+|-heal|p1a: yo-yo|72/100|[from] item: Leftovers
+|-end|p1a: yo-yo|Fire Spin|[partiallytrapped]|[silent]
+|turn|56
+|
+|move|p2a: Persian|Hypnosis|p1a: yo-yo
+|-status|p1a: yo-yo|slp|[from] move: Hypnosis
+|cant|p1a: yo-yo|slp
+|
+|-heal|p2a: Persian|24/100|[from] item: Leftovers
+|-heal|p1a: yo-yo|78/100 slp|[from] item: Leftovers
+|turn|57
+|
+|move|p2a: Persian|U-turn|p1a: yo-yo
+|-crit|p1a: yo-yo
+|-damage|p1a: yo-yo|69/100 slp
+|
+|switch|p2a: FUCK IT WE BALL|Iron Hands|100/100|[from] U-turn
+|-damage|p2a: FUCK IT WE BALL|94/100|[from] Stealth Rock
+|cant|p1a: yo-yo|slp
+|
+|-heal|p1a: yo-yo|76/100 slp|[from] item: Leftovers
+|turn|58
+|
+|-curestatus|p1a: yo-yo|slp|[msg]
+|move|p1a: yo-yo|Dazzling Gleam|p2a: FUCK IT WE BALL
+|-supereffective|p2a: FUCK IT WE BALL
+|-damage|p2a: FUCK IT WE BALL|69/100
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|52/100
+|
+|-heal|p1a: yo-yo|58/100|[from] item: Leftovers
+|turn|59
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|36/100
+|
+|-heal|p1a: yo-yo|42/100|[from] item: Leftovers
+|turn|60
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: FUCK IT WE BALL|Volt Switch|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|92/100|[from] move: Wish|[wisher] yo-yo
+|-heal|p1a: yo-yo|98/100|[from] item: Leftovers
+|turn|61
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|76/100
+|
+|-heal|p1a: yo-yo|83/100|[from] item: Leftovers
+|turn|62
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|100/100|[from] move: Wish|[wisher] yo-yo
+|turn|63
+|
+|-end|p2a: FUCK IT WE BALL|Quark Drive|[silent]
+|switch|p2a: Persian|Persian-Alola, M|24/100
+|-damage|p2a: Persian|12/100|[from] Stealth Rock
+|move|p1a: yo-yo|Protect||[still]
+|-fail|p1a: yo-yo
+|
+|-heal|p2a: Persian|18/100|[from] item: Leftovers
+|turn|64
+|
+|move|p2a: Persian|Hypnosis|p1a: yo-yo|[miss]
+|-miss|p2a: Persian|p1a: yo-yo
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|
+|-heal|p2a: Persian|24/100|[from] item: Leftovers
+|turn|65
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Persian|Hypnosis|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p2a: Persian|30/100|[from] item: Leftovers
+|turn|66
+|
+|move|p2a: Persian|Hypnosis|p1a: yo-yo|[miss]
+|-miss|p2a: Persian|p1a: yo-yo
+|move|p1a: yo-yo|Thunder Wave|p2a: Persian
+|-status|p2a: Persian|par
+|
+|-heal|p2a: Persian|36/100 par|[from] item: Leftovers
+|turn|67
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Persian|Hypnosis|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p2a: Persian|42/100 par|[from] item: Leftovers
+|turn|68
+|
+|move|p1a: yo-yo|Protect||[still]
+|-fail|p1a: yo-yo
+|move|p2a: Persian|Hypnosis|p1a: yo-yo
+|-status|p1a: yo-yo|slp|[from] move: Hypnosis
+|
+|-heal|p2a: Persian|48/100 par|[from] item: Leftovers
+|turn|69
+|
+|cant|p1a: yo-yo|slp
+|move|p2a: Persian|Foul Play|p1a: yo-yo
+|-damage|p1a: yo-yo|92/100 slp
+|
+|-heal|p1a: yo-yo|98/100 slp|[from] item: Leftovers
+|-heal|p2a: Persian|54/100 par|[from] item: Leftovers
+|turn|70
+|
+|cant|p1a: yo-yo|slp
+|move|p2a: Persian|Foul Play|p1a: yo-yo
+|-damage|p1a: yo-yo|89/100 slp
+|
+|-heal|p1a: yo-yo|95/100 slp|[from] item: Leftovers
+|-heal|p2a: Persian|60/100 par|[from] item: Leftovers
+|turn|71
+|
+|cant|p1a: yo-yo|slp
+|cant|p2a: Persian|par
+|
+|-heal|p1a: yo-yo|100/100 slp|[from] item: Leftovers
+|-heal|p2a: Persian|66/100 par|[from] item: Leftovers
+|turn|72
+|
+|-curestatus|p1a: yo-yo|slp|[msg]
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: Persian|Foul Play|p1a: yo-yo
+|-damage|p1a: yo-yo|91/100
+|
+|-heal|p1a: yo-yo|98/100|[from] item: Leftovers
+|-heal|p2a: Persian|72/100 par|[from] item: Leftovers
+|turn|73
+|
+|move|p1a: yo-yo|Wish||[still]
+|-fail|p1a: yo-yo
+|move|p2a: Persian|Hypnosis|p1a: yo-yo
+|-status|p1a: yo-yo|slp|[from] move: Hypnosis
+|
+|-heal|p1a: yo-yo|100/100 slp|[from] move: Wish|[wisher] yo-yo
+|-heal|p2a: Persian|78/100 par|[from] item: Leftovers
+|turn|74
+|
+|cant|p1a: yo-yo|slp
+|move|p2a: Persian|Foul Play|p1a: yo-yo
+|-damage|p1a: yo-yo|91/100 slp
+|
+|-heal|p1a: yo-yo|98/100 slp|[from] item: Leftovers
+|-heal|p2a: Persian|84/100 par|[from] item: Leftovers
+|turn|75
+|
+|cant|p1a: yo-yo|slp
+|move|p2a: Persian|Foul Play|p1a: yo-yo
+|-damage|p1a: yo-yo|87/100 slp
+|
+|-heal|p1a: yo-yo|93/100 slp|[from] item: Leftovers
+|-heal|p2a: Persian|90/100 par|[from] item: Leftovers
+|turn|76
+|
+|-curestatus|p1a: yo-yo|slp|[msg]
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: Persian|Foul Play|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|99/100|[from] item: Leftovers
+|-heal|p2a: Persian|96/100 par|[from] item: Leftovers
+|turn|77
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: Persian
+|-fail|p2a: Persian|par
+|move|p2a: Persian|Foul Play|p1a: yo-yo
+|-damage|p1a: yo-yo|89/100
+|
+|-heal|p1a: yo-yo|96/100|[from] item: Leftovers
+|-heal|p2a: Persian|100/100 par|[from] item: Leftovers
+|turn|78
+|
+|switch|p2a: FUCK IT WE BALL|Iron Hands|69/100
+|-damage|p2a: FUCK IT WE BALL|63/100|[from] Stealth Rock
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|
+|-heal|p1a: yo-yo|100/100|[from] item: Leftovers
+|turn|79
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-damage|p1a: yo-yo|94/100
+|-heal|p2a: FUCK IT WE BALL|66/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|99/100|[from] item: Leftovers
+|turn|80
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|79/100
+|
+|-heal|p1a: yo-yo|86/100|[from] item: Leftovers
+|turn|81
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|64/100
+|
+|-heal|p1a: yo-yo|70/100|[from] item: Leftovers
+|turn|82
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|47/100
+|
+|-heal|p1a: yo-yo|53/100|[from] item: Leftovers
+|turn|83
+|
+|move|p1a: yo-yo|Protect|p1a: yo-yo
+|-singleturn|p1a: yo-yo|Protect
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-activate|p1a: yo-yo|move: Protect
+|
+|-heal|p1a: yo-yo|100/100|[from] move: Wish|[wisher] yo-yo
+|turn|84
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL|[miss]
+|-miss|p1a: yo-yo|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|78/100
+|
+|-heal|p1a: yo-yo|85/100|[from] item: Leftovers
+|turn|85
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|63/100
+|
+|-heal|p1a: yo-yo|69/100|[from] item: Leftovers
+|turn|86
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|45/100
+|
+|-heal|p1a: yo-yo|95/100|[from] move: Wish|[wisher] yo-yo
+|-heal|p1a: yo-yo|100/100|[from] item: Leftovers
+|turn|87
+|
+|move|p1a: yo-yo|Wish|p1a: yo-yo
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-crit|p1a: yo-yo
+|-damage|p1a: yo-yo|92/100
+|-heal|p2a: FUCK IT WE BALL|70/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|98/100|[from] item: Leftovers
+|turn|88
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-crit|p1a: yo-yo
+|-damage|p1a: yo-yo|88/100
+|-heal|p2a: FUCK IT WE BALL|75/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|100/100|[from] move: Wish|[wisher] yo-yo
+|turn|89
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-damage|p1a: yo-yo|94/100
+|-heal|p2a: FUCK IT WE BALL|78/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|99/100|[from] item: Leftovers
+|turn|90
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-damage|p1a: yo-yo|78/100
+|
+|-heal|p1a: yo-yo|84/100|[from] item: Leftovers
+|turn|91
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-damage|p1a: yo-yo|78/100
+|-heal|p2a: FUCK IT WE BALL|81/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|84/100|[from] item: Leftovers
+|turn|92
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-crit|p1a: yo-yo
+|-damage|p1a: yo-yo|75/100
+|-heal|p2a: FUCK IT WE BALL|85/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|81/100|[from] item: Leftovers
+|turn|93
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-damage|p1a: yo-yo|75/100
+|-heal|p2a: FUCK IT WE BALL|88/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|82/100|[from] item: Leftovers
+|turn|94
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-damage|p1a: yo-yo|75/100
+|-heal|p2a: FUCK IT WE BALL|91/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|81/100|[from] item: Leftovers
+|turn|95
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL|[miss]
+|-miss|p1a: yo-yo|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-damage|p1a: yo-yo|76/100
+|-heal|p2a: FUCK IT WE BALL|93/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|82/100|[from] item: Leftovers
+|turn|96
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-damage|p1a: yo-yo|76/100
+|-heal|p2a: FUCK IT WE BALL|96/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|82/100|[from] item: Leftovers
+|turn|97
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-damage|p1a: yo-yo|75/100
+|-heal|p2a: FUCK IT WE BALL|99/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|81/100|[from] item: Leftovers
+|turn|98
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: yo-yo
+|-resisted|p1a: yo-yo
+|-damage|p1a: yo-yo|76/100
+|-heal|p2a: FUCK IT WE BALL|100/100|[from] drain|[of] p1a: yo-yo
+|
+|-heal|p1a: yo-yo|82/100|[from] item: Leftovers
+|turn|99
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Earthquake|p1a: yo-yo
+|-crit|p1a: yo-yo
+|-damage|p1a: yo-yo|49/100
+|
+|-heal|p1a: yo-yo|55/100|[from] item: Leftovers
+|turn|100
+|
+|move|p1a: yo-yo|Thunder Wave|p2a: FUCK IT WE BALL
+|-immune|p2a: FUCK IT WE BALL
+|move|p2a: FUCK IT WE BALL|Play Rough|p1a: yo-yo
+|-damage|p1a: yo-yo|34/100
+|
+|-heal|p1a: yo-yo|40/100|[from] item: Leftovers
+|turn|101
+|-message|Thefatguinea lost due to inactivity.
+|
+|win|altharu

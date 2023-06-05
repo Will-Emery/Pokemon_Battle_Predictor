@@ -1,0 +1,70 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zapdos|
+|poke|p1|Corviknight, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Tauros-Paldea-Aqua, M|
+|poke|p2|Blissey, F|
+|poke|p2|Regidrago|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Regidrago|Regidrago|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|1
+|
+|move|p2a: Regidrago|Dragon Energy|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Regidrago|atk|1
+|turn|2
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: Enamorus
+|-immune|p2a: Enamorus
+|
+|turn|3
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Enamorus|Superpower|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|31/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|-ability|p1a: Goodra|Gooey
+|-boost|p2a: Enamorus|spe|1
+|
+|turn|4
+|
+|move|p2a: Enamorus|Superpower|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|-ability|p1a: Goodra|Gooey
+|-boost|p2a: Enamorus|spe|1
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|5
+|
+|move|p2a: Enamorus|Superpower|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Arcanine
+|
+|-message|MiMyself&I forfeited.
+|
+|win|DonnyDowns

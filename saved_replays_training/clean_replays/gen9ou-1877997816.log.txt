@@ -1,0 +1,137 @@
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Torkoal, F|
+|poke|p2|Dugtrio-Alola, M|
+|poke|p2|Delphox, F|
+|poke|p2|Great Tusk|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Amoonguss, F|
+|teampreview
+|
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|turn|1
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Arcanine|Agility|p1a: Arcanine
+|-boost|p1a: Arcanine|spe|2
+|
+|turn|2
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-status|p1a: Arcanine|slp|[from] ability: Effect Spore|[of] p2a: Amoonguss
+|faint|p2a: Amoonguss
+|-damage|p1a: Arcanine|91/100 slp|[from] item: Life Orb
+|
+|
+|switch|p2a: Dugtrio|Dugtrio-Alola, M|100/100
+|turn|3
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Dugtrio|Swords Dance|p2a: Dugtrio
+|-boost|p2a: Dugtrio|atk|2
+|
+|turn|4
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|5
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Torkoal|Torkoal, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|6
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|7
+|
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|-anim|p1a: Lilligant|Solar Blade|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|-ability|p2a: Dugtrio|Tangling Hair
+|-unboost|p1a: Lilligant|spe|1
+|move|p2a: Dugtrio|Iron Head|p1a: Lilligant
+|-damage|p1a: Lilligant|2/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|-anim|p1a: Lilligant|Solar Blade|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-ability|p2a: Dugtrio|Tangling Hair
+|-unboost|p1a: Lilligant|spe|1
+|faint|p2a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|turn|9
+|
+|move|p1a: Lilligant|Ice Spinner|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|34/100
+|move|p2a: Braviary|Esper Wing|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|10
+|
+|-terastallize|p1a: Sneasler|Poison
+|move|p2a: Braviary|Esper Wing|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|91/100 slp
+|turn|11
+|
+|move|p2a: Braviary|Esper Wing|p1a: Arcanine
+|-damage|p1a: Arcanine|43/100 slp
+|-boost|p2a: Braviary|spe|1
+|cant|p1a: Arcanine|slp
+|
+|-weather|SunnyDay|[upkeep]
+|turn|12
+|
+|-terastallize|p2a: Braviary|Psychic
+|move|p2a: Braviary|Esper Wing|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Arcanine
+|
+|win|Shelmett

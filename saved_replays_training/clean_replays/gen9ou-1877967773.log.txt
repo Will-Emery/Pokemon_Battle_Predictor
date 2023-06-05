@@ -1,0 +1,239 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Valiant|
+|poke|p1|Magearna|
+|poke|p1|Rotom-Wash|
+|poke|p2|Hatterene, F|
+|poke|p2|Slowbro, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Iron Hands|
+|poke|p2|Baxcalibur, M|
+|teampreview
+|
+|start
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|move|p1a: Chien-Pao|Crunch|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|77/100
+|-damage|p1a: Chien-Pao|84/100|[from] item: Rocky Helmet|[of] p2a: Iron Hands
+|
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Iron Hands|Fake Out|p1a: Rotom
+|-damage|p1a: Rotom|85/100
+|
+|-heal|p1a: Rotom|91/100|[from] item: Leftovers
+|turn|3
+|
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|-heal|p1a: Rotom|97/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Clodsire
+|-status|p2a: Clodsire|brn
+|move|p2a: Clodsire|Stealth Rock|p1a: Rotom
+|-sidestart|p1: perseusrad|move: Stealth Rock
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|move|p2a: Clodsire|Toxic|p1a: Samurott
+|-status|p1a: Samurott|tox
+|
+|-heal|p2a: Clodsire|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Samurott|82/100 tox|[from] psn
+|-damage|p2a: Clodsire|94/100 brn|[from] brn
+|turn|6
+|
+|switch|p2a: Iron Hands|Iron Hands|77/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-damage|p2a: Iron Hands|58/100
+|-sidestart|p2: snitker|Spikes
+|-damage|p1a: Samurott|65/100 tox|[from] item: Rocky Helmet|[of] p2a: Iron Hands
+|-damage|p1a: Samurott|56/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Samurott|43/100 tox|[from] psn
+|turn|7
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: Iron Hands
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|-damage|p1a: Samurott|34/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Samurott|15/100 tox|[from] psn
+|
+|switch|p2a: Clodsire|Clodsire, F|94/100 brn
+|-damage|p2a: Clodsire|82/100 brn|[from] Spikes
+|turn|8
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Clodsire
+|-damage|p2a: Clodsire|10/100 brn
+|-sidestart|p2: snitker|Spikes
+|-damage|p1a: Samurott|5/100 tox|[from] item: Life Orb
+|move|p2a: Clodsire|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Clodsire|16/100 brn|[from] item: Black Sludge
+|-damage|p2a: Clodsire|10/100 brn|[from] brn
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Ursaluna|Substitute|p1a: Ursaluna
+|-start|p1a: Ursaluna|Substitute
+|-damage|p1a: Ursaluna|70/100
+|move|p2a: Clodsire|Toxic||[still]
+|-fail|p2a: Clodsire
+|
+|-heal|p2a: Clodsire|16/100 brn|[from] item: Black Sludge
+|-damage|p2a: Clodsire|10/100 brn|[from] brn
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|10
+|
+|move|p1a: Ursaluna|Facade|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-damage|p1a: Ursaluna|64/100 brn|[from] brn
+|
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|84/100|[from] Spikes
+|turn|11
+|
+|move|p1a: Ursaluna|Facade|p2a: Slowbro
+|-damage|p2a: Slowbro|7/100
+|-enditem|p2a: Slowbro|Eject Button
+|
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|-damage|p2a: Meowscarada|84/100|[from] Spikes
+|
+|-damage|p1a: Ursaluna|58/100 brn|[from] brn
+|turn|12
+|
+|move|p2a: Meowscarada|U-turn|p1a: Ursaluna
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-end|p1a: Ursaluna|Substitute
+|
+|switch|p2a: Slowbro|Slowbro, F|41/100|[from] U-turn
+|-damage|p2a: Slowbro|24/100|[from] Spikes
+|move|p1a: Ursaluna|Drain Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|9/100
+|-heal|p1a: Ursaluna|64/100 brn|[from] drain|[of] p2a: Slowbro
+|
+|-damage|p1a: Ursaluna|58/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Ursaluna|Drain Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-heal|p1a: Ursaluna|62/100 brn|[from] drain|[of] p2a: Slowbro
+|faint|p2a: Slowbro
+|
+|-damage|p1a: Ursaluna|56/100 brn|[from] brn
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|-damage|p2a: Baxcalibur|84/100|[from] Spikes
+|turn|14
+|
+|-terastallize|p1a: Ursaluna|Water
+|move|p2a: Baxcalibur|Icicle Crash|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|39/100 brn
+|move|p1a: Ursaluna|Drain Punch|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|-heal|p1a: Ursaluna|72/100 brn|[from] drain|[of] p2a: Baxcalibur
+|faint|p2a: Baxcalibur
+|
+|-damage|p1a: Ursaluna|66/100 brn|[from] brn
+|
+|switch|p2a: Meowscarada|Meowscarada, M|84/100
+|-damage|p2a: Meowscarada|68/100|[from] Spikes
+|turn|15
+|
+|move|p2a: Meowscarada|Flower Trick|p1a: Ursaluna
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|84/100
+|-damage|p1a: Chien-Pao|59/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|16
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|84/100|[from] Spikes
+|turn|17
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|47/100
+|-unboost|p1a: Magearna|spa|1
+|-enditem|p1a: Magearna|Weakness Policy
+|-boost|p1a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Magearna|spa|2|[from] item: Weakness Policy
+|
+|turn|18
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|12/100
+|-unboost|p1a: Magearna|spa|1
+|
+|turn|19
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|52/100
+|-heal|p1a: Magearna|33/100|[from] drain|[of] p2a: Hatterene
+|move|p2a: Hatterene|Mystical Fire|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|59/100
+|-damage|p1a: Chien-Pao|34/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|20
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|win|perseusrad

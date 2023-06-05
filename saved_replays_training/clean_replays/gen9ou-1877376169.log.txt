@@ -1,0 +1,259 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Tornadus, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|switch|p2a: cloud|Arcanine-Hisui, M|100/100
+|turn|1
+|
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|move|p2a: cloud|Head Smash|p1a: Overqwil
+|-damage|p1a: Overqwil|19/100
+|-damage|p2a: cloud|91/100|[from] item: Life Orb
+|
+|turn|2
+|
+|move|p2a: cloud|Head Smash|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|-damage|p2a: cloud|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|3
+|
+|switch|p2a: baked|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: baked
+|move|p1a: Urshifu|Surging Strikes|p2a: baked
+|-supereffective|p2a: baked
+|-crit|p2a: baked
+|-damage|p2a: baked|82/100
+|-supereffective|p2a: baked
+|-crit|p2a: baked
+|-damage|p2a: baked|68/100
+|-supereffective|p2a: baked
+|-crit|p2a: baked
+|-damage|p2a: baked|52/100
+|-hitcount|p2a: baked|3
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Urshifu|U-turn|p2a: baked
+|-resisted|p2a: baked
+|-crit|p2a: baked
+|-damage|p2a: baked|38/100
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: baked|Yawn|p1a: Pelipper
+|-start|p1a: Pelipper|move: Yawn|[of] p2a: baked
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: bong water|Walking Wake|100/100
+|move|p1a: Pelipper|U-turn|p2a: bong water
+|-damage|p2a: bong water|91/100
+|
+|switch|p1a: Tornadus|Tornadus, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Tornadus|Bleakwind Storm|p2a: bong water
+|-damage|p2a: bong water|27/100
+|move|p2a: bong water|Draco Meteor|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-unboost|p2a: bong water|spa|2
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|7
+|
+|-end|p2a: bong water|Protosynthesis|[silent]
+|switch|p2a: ganja|Lilligant-Hisui, F|100/100
+|move|p1a: Thundurus|Thunder|p2a: ganja
+|-resisted|p2a: ganja
+|-damage|p2a: ganja|36/100
+|-status|p2a: ganja|par
+|-damage|p1a: Thundurus|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Thundurus|Sludge Bomb|p2a: ganja
+|-supereffective|p2a: ganja
+|-damage|p2a: ganja|0 fnt
+|faint|p2a: ganja
+|-damage|p1a: Thundurus|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: cloud|Arcanine-Hisui, M|81/100
+|turn|9
+|
+|move|p1a: Thundurus|Thunder|p2a: cloud
+|-damage|p2a: cloud|0 fnt
+|faint|p2a: cloud
+|-damage|p1a: Thundurus|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: baked|Torkoal, F|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: baked
+|turn|10
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: baked|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: NotSwitch417|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|switch|p2a: plug|Hatterene, F|100/100
+|-item|p2a: plug|Air Balloon
+|move|p1a: Pelipper|Hydro Pump|p2a: plug
+|-damage|p2a: plug|17/100
+|-enditem|p2a: plug|Air Balloon
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|move|p1a: Pelipper|Hurricane|p2a: plug
+|-damage|p2a: plug|0 fnt
+|faint|p2a: plug
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: baked|Torkoal, F|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: baked
+|turn|13
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|switch|p2a: bong water|Walking Wake|27/100
+|-activate|p2a: bong water|ability: Protosynthesis
+|-start|p2a: bong water|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|turn|14
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: bong water|Protosynthesis
+|move|p2a: bong water|Draco Meteor|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-unboost|p2a: bong water|spa|2
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|15
+|
+|-end|p2a: bong water|Protosynthesis|[silent]
+|switch|p2a: narc|Great Tusk|100/100
+|move|p1a: Basculegion|Wave Crash|p2a: narc
+|-supereffective|p2a: narc
+|-damage|p2a: narc|0 fnt
+|faint|p2a: narc
+|-end|p2a: narc|Protosynthesis|[silent]
+|-damage|p1a: Basculegion|56/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: baked|Torkoal, F|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: baked
+|turn|16
+|
+|move|p1a: Basculegion|Wave Crash|p2a: baked
+|-supereffective|p2a: baked
+|-damage|p2a: baked|0 fnt
+|faint|p2a: baked
+|-damage|p1a: Basculegion|45/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: bong water|Walking Wake|27/100
+|-activate|p2a: bong water|ability: Protosynthesis
+|-start|p2a: bong water|protosynthesisspe
+|turn|17
+|
+|move|p1a: Basculegion|Aqua Jet|p2a: bong water
+|-resisted|p2a: bong water
+|-damage|p2a: bong water|24/100
+|move|p2a: bong water|Hydro Steam|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|13/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|18
+|
+|move|p2a: bong water|Hydro Steam|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|94/100
+|-damage|p1a: Urshifu|88/100|[from] Stealth Rock
+|turn|19
+|
+|-terastallize|p1a: Urshifu|Water
+|move|p2a: bong water|Hydro Steam|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|18/100
+|move|p1a: Urshifu|Surging Strikes|p2a: bong water
+|-resisted|p2a: bong water
+|-crit|p2a: bong water
+|-damage|p2a: bong water|20/100
+|-resisted|p2a: bong water
+|-crit|p2a: bong water
+|-damage|p2a: bong water|16/100
+|-resisted|p2a: bong water
+|-crit|p2a: bong water
+|-damage|p2a: bong water|12/100
+|-hitcount|p2a: bong water|3
+|
+|-weather|SunnyDay|[upkeep]
+|turn|20
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: bong water
+|-resisted|p2a: bong water
+|-damage|p2a: bong water|9/100
+|move|p2a: bong water|Hydro Steam|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|71/100
+|-damage|p1a: Thundurus|47/100|[from] Stealth Rock
+|turn|21
+|
+|-terastallize|p2a: bong water|Steel
+|move|p2a: bong water|Hydro Steam|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|win|pop cat pop cat

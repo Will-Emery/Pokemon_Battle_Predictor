@@ -1,0 +1,273 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Klefki, M|
+|poke|p1|Decidueye-Hisui, M|
+|poke|p1|Blissey, F|
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Pincurchin, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Goodra-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: tricken chicken|Decidueye-Hisui, M, shiny|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|-terastallize|p1a: tricken chicken|Steel
+|move|p2a: Pelipper|U-turn|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-damage|p1a: tricken chicken|96/100
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100|[from] U-turn
+|move|p1a: tricken chicken|Bulk Up|p1a: tricken chicken
+|-boost|p1a: tricken chicken|atk|1
+|-boost|p1a: tricken chicken|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: tricken chicken|100/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: tricken chicken|Substitute|p1a: tricken chicken
+|-start|p1a: tricken chicken|Substitute
+|-damage|p1a: tricken chicken|75/100
+|move|p2a: Goodra|Dragon Tail|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-activate|p1a: tricken chicken|move: Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: tricken chicken|82/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: tricken chicken|Bulk Up|p1a: tricken chicken
+|-boost|p1a: tricken chicken|atk|1
+|-boost|p1a: tricken chicken|def|1
+|move|p2a: Goodra|Ice Beam|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-activate|p1a: tricken chicken|move: Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: tricken chicken|88/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: tricken chicken|Triple Arrows|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-crit|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: tricken chicken|94/100|[from] item: Leftovers
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|5
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Surf|p1a: tricken chicken
+|-end|p1a: tricken chicken|Substitute
+|-damage|p2a: Basculegion|91/100|[from] item: Life Orb
+|move|p1a: tricken chicken|Triple Arrows|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|none
+|-heal|p1a: tricken chicken|100/100|[from] item: Leftovers
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|6
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-crit|p1a: tricken chicken
+|-damage|p1a: tricken chicken|81/100
+|move|p1a: tricken chicken|Triple Arrows|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|84/100
+|
+|-heal|p1a: tricken chicken|87/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-damage|p1a: tricken chicken|76/100
+|move|p1a: tricken chicken|Triple Arrows|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|49/100
+|
+|-heal|p1a: tricken chicken|83/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: tricken chicken|Triple Arrows|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-heal|p1a: tricken chicken|89/100|[from] item: Leftovers
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|9
+|
+|move|p2a: Ursaluna|Facade|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-damage|p1a: tricken chicken|78/100
+|move|p1a: tricken chicken|Triple Arrows|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|2/100
+|
+|-heal|p1a: tricken chicken|85/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|10
+|
+|move|p2a: Ursaluna|Facade|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-damage|p1a: tricken chicken|54/100
+|move|p1a: tricken chicken|Bulk Up|p1a: tricken chicken
+|-boost|p1a: tricken chicken|atk|1
+|-boost|p1a: tricken chicken|def|1
+|
+|-heal|p1a: tricken chicken|60/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|11
+|
+|move|p2a: Pelipper|Hurricane|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-damage|p1a: tricken chicken|35/100
+|-start|p1a: tricken chicken|confusion
+|-activate|p1a: tricken chicken|confusion
+|-damage|p1a: tricken chicken|23/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: tricken chicken|30/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Pelipper|Hurricane|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-damage|p1a: tricken chicken|5/100
+|-activate|p1a: tricken chicken|confusion
+|move|p1a: tricken chicken|Triple Arrows|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|58/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: tricken chicken|12/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Pelipper|Hurricane|p1a: tricken chicken
+|-resisted|p1a: tricken chicken
+|-damage|p1a: tricken chicken|0 fnt
+|faint|p1a: tricken chicken
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: jumping cushion|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: jumping cushion
+|turn|14
+|
+|move|p2a: Pelipper|Hurricane|p1a: jumping cushion
+|-resisted|p1a: jumping cushion
+|-damage|p1a: jumping cushion|49/100
+|-enditem|p1a: jumping cushion|Sitrus Berry|[eat]
+|-heal|p1a: jumping cushion|74/100|[from] item: Sitrus Berry
+|move|p1a: jumping cushion|Zing Zap|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|15
+|
+|move|p2a: Glimmora|Earth Power|p1a: jumping cushion
+|-supereffective|p1a: jumping cushion
+|-damage|p1a: jumping cushion|0 fnt
+|faint|p1a: jumping cushion
+|
+|-weather|none
+|
+|switch|p1a: BIissey|Blissey, F|100/100
+|turn|16
+|
+|move|p2a: Glimmora|Earth Power|p1a: BIissey
+|-damage|p1a: BIissey|89/100
+|move|p1a: BIissey|Trick|p2a: Glimmora
+|-activate|p1a: BIissey|move: Trick|[of] p2a: Glimmora
+|-item|p2a: Glimmora|Choice Band|[from] move: Trick
+|-item|p1a: BIissey|Choice Scarf|[from] move: Trick
+|
+|turn|17
+|
+|move|p2a: Glimmora|Earth Power|p1a: BIissey
+|-damage|p1a: BIissey|78/100
+|move|p1a: BIissey|Thunder Wave|p2a: Glimmora
+|-status|p2a: Glimmora|par
+|
+|turn|18
+|
+|move|p1a: BIissey|Thunder Wave|p2a: Glimmora
+|-fail|p2a: Glimmora|par
+|cant|p2a: Glimmora|par
+|
+|-fieldend|move: Electric Terrain
+|turn|19
+|
+|move|p1a: BIissey|Thunder Wave|p2a: Glimmora
+|-fail|p2a: Glimmora|par
+|move|p2a: Glimmora|Earth Power|p1a: BIissey
+|-damage|p1a: BIissey|67/100
+|
+|turn|20
+|
+|move|p1a: BIissey|Thunder Wave|p2a: Glimmora
+|-fail|p2a: Glimmora|par
+|cant|p2a: Glimmora|par
+|
+|turn|21
+|
+|move|p1a: BIissey|Thunder Wave|p2a: Glimmora
+|-fail|p2a: Glimmora|par
+|move|p2a: Glimmora|Earth Power|p1a: BIissey
+|-damage|p1a: BIissey|56/100
+|
+|turn|22
+|
+|switch|p1a: mangina|Klefki, M|100/100
+|move|p2a: Glimmora|Earth Power|p1a: mangina
+|-supereffective|p1a: mangina
+|-damage|p1a: mangina|32/100
+|
+|-heal|p1a: mangina|38/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: mangina|Flash Cannon|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|35/100 par
+|move|p2a: Glimmora|Earth Power|p1a: mangina
+|-supereffective|p1a: mangina
+|-damage|p1a: mangina|0 fnt
+|faint|p1a: mangina
+|
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, M|100/100
+|turn|24
+|
+|move|p2a: Glimmora|Earth Power|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|17/100
+|move|p1a: Avalugg|Mirror Coat|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|win|Rap's my Fave Meme

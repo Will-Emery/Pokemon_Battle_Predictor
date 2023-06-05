@@ -1,0 +1,259 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Dragapult, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Great Tusk|
+|poke|p2|Heatran, F|
+|poke|p2|Gallade, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Zarude|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|1
+|
+|move|p2a: Gallade|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|25/100
+|-start|p2a: Gallade|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Dragapult
+|-enditem|p1a: Dragapult|Light Clay|[from] move: Knock Off|[of] p2a: Gallade
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: Knowledgini|Reflect
+|
+|turn|2
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: Knowledgini|move: Light Screen
+|
+|turn|3
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Dragapult|Curse|p2a: Heatran
+|-start|p2a: Heatran|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Heatran|76/100|[from] Curse
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|4
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Heatran|Taunt|p1a: Magearna
+|-start|p1a: Magearna|move: Taunt
+|
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|-damage|p2a: Heatran|57/100|[from] Curse
+|turn|5
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Magearna|Stored Power|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|88/100
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|-sideend|p1: Knowledgini|Reflect
+|turn|6
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|83/100
+|move|p2a: Corviknight|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|97/100
+|
+|switch|p2a: Heatran|Heatran, F|57/100|[from] U-turn
+|
+|-heal|p2a: Heatran|63/100|[from] item: Leftovers
+|-sideend|p1: Knowledgini|move: Light Screen
+|turn|7
+|
+|move|p1a: Magearna|Stored Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|54/100
+|move|p2a: Heatran|Magma Storm|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|16/100
+|-activate|p1a: Magearna|move: Magma Storm|[of] p2a: Heatran
+|-enditem|p1a: Magearna|Weakness Policy
+|-boost|p1a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Magearna|spa|2|[from] item: Weakness Policy
+|
+|-heal|p2a: Heatran|61/100|[from] item: Leftovers
+|-damage|p1a: Magearna|3/100|[from] move: Magma Storm|[partiallytrapped]
+|-end|p1a: Magearna|move: Taunt
+|turn|8
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Magearna|Draining Kiss|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|67/100|[from] item: Leftovers
+|-damage|p1a: Magearna|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p1a: Magearna
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|87/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|10
+|
+|move|p2a: Landorus|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|cant|p1a: Great Tusk|move: Taunt|Stealth Rock
+|
+|turn|11
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Landorus|U-turn|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|36/100
+|
+|switch|p2a: Corviknight|Corviknight, F|83/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|89/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100
+|move|p2a: Corviknight|U-turn|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|14
+|
+|switch|p2a: Landorus|Landorus-Therian, M|87/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|turn|15
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Landorus|Taunt|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Taunt
+|
+|turn|16
+|
+|-terastallize|p1a: Zamazenta|Fairy
+|move|p1a: Zamazenta|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|38/100
+|move|p2a: Landorus|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|99/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|
+|turn|17
+|
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|39/100
+|-unboost|p1a: Zamazenta|spd|1
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|63/100
+|
+|turn|18
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|19
+|
+|switch|p2a: Corviknight|Corviknight, F|19/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ursaluna|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p2a: Landorus|Landorus-Therian, M|38/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|turn|20
+|
+|switch|p2a: Heatran|Heatran, F|67/100
+|move|p1a: Ursaluna|Facade|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|33/100
+|
+|-heal|p2a: Heatran|39/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|turn|21
+|
+|move|p2a: Heatran|Magma Storm|p1a: Ursaluna|[miss]
+|-miss|p2a: Heatran|p1a: Ursaluna
+|move|p1a: Ursaluna|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-damage|p1a: Ursaluna|82/100 brn|[from] brn
+|
+|switch|p2a: Zarude|Zarude|100/100
+|turn|22
+|
+|move|p2a: Zarude|Power Whip|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned, tera:Fairy|39/100
+|turn|23
+|
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Zarude
+|-damage|p2a: Zarude|61/100
+|move|p2a: Zarude|Power Whip|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|win|The Gallade Man

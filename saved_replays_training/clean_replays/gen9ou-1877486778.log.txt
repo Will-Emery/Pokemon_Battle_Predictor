@@ -1,0 +1,278 @@
+|poke|p1|Torkoal, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Wo-Chien|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Sneasler, F|
+|teampreview
+|
+|start
+|switch|p1a: Sunturtle|Torkoal, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Sunturtle
+|turn|1
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: Beatboxing_Phantom|move: Light Screen
+|move|p1a: Sunturtle|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: Beatboxing_Phantom|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|switch|p1a: Sunsweeper|Lilligant-Hisui, F|100/100
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: Beatboxing_Phantom|Reflect
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|move|p1a: Sunsweeper|Swords Dance|p1a: Sunsweeper
+|-boost|p1a: Sunsweeper|atk|2
+|move|p2a: Dragapult|Draco Meteor|p1a: Sunsweeper
+|-damage|p1a: Sunsweeper|33/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Sunsweeper|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|43/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Sunsweeper
+|-damage|p1a: Sunsweeper|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Sunsweeper
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sunwake|Walking Wake|100/100
+|-activate|p1a: Sunwake|ability: Protosynthesis
+|-start|p1a: Sunwake|protosynthesisspe
+|turn|5
+|
+|move|p1a: Sunwake|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-damage|p2a: Sneasler|94/100|[from] Stealth Rock
+|-item|p2a: Sneasler|Air Balloon
+|turn|6
+|
+|-end|p1a: Sunwake|Protosynthesis|[silent]
+|switch|p1a: Wo-Chien|Wo-Chien|100/100
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|-terastallize|p1a: Wo-Chien|Fire
+|move|p2a: Sneasler|Dire Claw|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|38/100
+|-status|p1a: Wo-Chien|par
+|move|p1a: Wo-Chien|Stun Spore|p2a: Sneasler
+|-status|p2a: Sneasler|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Wo-Chien|44/100 par|[from] item: Leftovers
+|turn|8
+|
+|cant|p2a: Sneasler|par
+|cant|p1a: Wo-Chien|par
+|
+|-weather|none
+|-heal|p1a: Wo-Chien|50/100 par|[from] item: Leftovers
+|-sideend|p2: Beatboxing_Phantom|move: Light Screen
+|turn|9
+|
+|cant|p2a: Sneasler|par
+|move|p1a: Wo-Chien|Leech Seed|p2a: Sneasler
+|-start|p2a: Sneasler|move: Leech Seed
+|
+|-heal|p1a: Wo-Chien|56/100 par|[from] item: Leftovers
+|-damage|p2a: Sneasler|82/100 par|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|68/100 par|[silent]
+|-sideend|p2: Beatboxing_Phantom|Reflect
+|turn|10
+|
+|switch|p1a: NOTspinner|Great Tusk|100/100
+|move|p2a: Sneasler|Close Combat|p1a: NOTspinner
+|-damage|p1a: NOTspinner|36/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|
+|-heal|p1a: NOTspinner|42/100|[from] item: Leftovers
+|-damage|p2a: Sneasler|69/100 par|[from] Leech Seed|[of] p1a: NOTspinner
+|-heal|p1a: NOTspinner|53/100|[silent]
+|turn|11
+|
+|move|p1a: NOTspinner|Body Press|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|24/100 par
+|-enditem|p2a: Sneasler|Air Balloon
+|cant|p2a: Sneasler|par
+|
+|-heal|p1a: NOTspinner|59/100|[from] item: Leftovers
+|-damage|p2a: Sneasler|11/100 par|[from] Leech Seed|[of] p1a: NOTspinner
+|-heal|p1a: NOTspinner|69/100|[silent]
+|turn|12
+|
+|move|p2a: Sneasler|Dire Claw|p1a: NOTspinner
+|-resisted|p1a: NOTspinner
+|-damage|p1a: NOTspinner|47/100
+|move|p1a: NOTspinner|Rapid Spin|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-boost|p1a: NOTspinner|spe|1
+|faint|p2a: Sneasler
+|
+|-heal|p1a: NOTspinner|53/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|turn|13
+|
+|-end|p1a: NOTspinner|Protosynthesis|[silent]
+|switch|p1a: Wo-Chien|Wo-Chien, tera:Fire|68/100 par
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Great Tusk|Rapid Spin|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|55/100 par
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Beatboxing_Phantom|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-heal|p1a: Wo-Chien|61/100 par|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|0 fnt
+|faint|p1a: Wo-Chien
+|
+|
+|switch|p1a: Sunwake|Walking Wake|100/100
+|turn|15
+|
+|move|p1a: Sunwake|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Sunwake|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|16
+|
+|-end|p1a: Sunwake|Protosynthesis|[silent]
+|switch|p1a: Sunturtle|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Sunturtle
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|17
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Sunturtle|Yawn|p2a: Volcarona
+|-start|p2a: Volcarona|move: Yawn|[of] p1a: Sunturtle
+|
+|-weather|SunnyDay|[upkeep]
+|turn|18
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Sunturtle|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: Beatboxing_Phantom|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Volcarona|move: Yawn|[silent]
+|-status|p2a: Volcarona|slp
+|turn|19
+|
+|switch|p1a: NOTspinner|Great Tusk|53/100
+|-activate|p1a: NOTspinner|ability: Protosynthesis
+|-start|p1a: NOTspinner|protosynthesisdef
+|cant|p2a: Volcarona|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: NOTspinner|59/100|[from] item: Leftovers
+|turn|20
+|
+|-curestatus|p2a: Volcarona|slp|[msg]
+|move|p2a: Volcarona|Giga Drain|p1a: NOTspinner
+|-supereffective|p1a: NOTspinner
+|-damage|p1a: NOTspinner|0 fnt
+|faint|p1a: NOTspinner
+|-end|p1a: NOTspinner|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sunturtle|Torkoal, F|100/100
+|turn|21
+|
+|-terastallize|p2a: Volcarona|Water
+|move|p2a: Volcarona|Tera Blast|p1a: Sunturtle
+|-supereffective|p1a: Sunturtle
+|-damage|p1a: Sunturtle|0 fnt
+|faint|p1a: Sunturtle
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Eruptor|Typhlosion-Hisui, M|100/100
+|-item|p2a: Volcarona|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Eruptor|[identify]
+|turn|22
+|
+|move|p2a: Volcarona|Tera Blast|p1a: Eruptor
+|-supereffective|p1a: Eruptor
+|-damage|p1a: Eruptor|0 fnt
+|faint|p1a: Eruptor
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Sunwake|Walking Wake|100/100
+|-activate|p1a: Sunwake|ability: Protosynthesis
+|-start|p1a: Sunwake|protosynthesisspe
+|turn|23
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Sunwake
+|-damage|p1a: Sunwake|26/100
+|move|p1a: Sunwake|Draco Meteor|p2a: Volcarona
+|-damage|p2a: Volcarona|62/100
+|-unboost|p1a: Sunwake|spa|2
+|
+|-weather|none
+|-end|p1a: Sunwake|Protosynthesis
+|turn|24
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Sunwake
+|-damage|p1a: Sunwake|0 fnt
+|-heal|p2a: Volcarona|76/100|[from] drain|[of] p1a: Sunwake
+|faint|p1a: Sunwake
+|-end|p1a: Sunwake|Protosynthesis|[silent]
+|
+|win|Beatboxing_Phantom
+|n|☆jerojenol|jerojenol
+|n|☆Beatboxing_Phantom|beatboxingphantom
+|n| babywaffles|babywaffles
+|n| Kenneli|kenneli
+|n| Domin0999|domin0999
+|n| joelabite|joelabite
+|n| Fragile OU Podcast|fragileoupodcast

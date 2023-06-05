@@ -1,1 +1,530 @@
-Could not connect
+|j|☆YoungEsq
+|j|☆Holdmadik
+|t:|1685904037
+|gametype|singles
+|player|p1|YoungEsq|102|
+|player|p2|Holdmadik|blue|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Iron Moth|
+|poke|p1|Rotom-Heat|
+|poke|p1|Skeledirge, M|
+|poke|p1|Scovillain, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Zamazenta-*|
+|poke|p2|Garganacl, F|
+|teampreview
+|
+|t:|1685904054
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1685904063
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|75/100
+|move|p1a: Torkoal|Yawn||[still]
+|-fail|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685904073
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Torkoal|Lava Plume|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685904081
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|63/100
+|move|p1a: Torkoal|Lava Plume|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zamazenta|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685904091
+|move|p2a: Zamazenta|Body Press|p1a: Torkoal
+|-damage|p1a: Torkoal|59/100
+|move|p1a: Torkoal|Lava Plume|p2a: Zamazenta
+|-damage|p2a: Zamazenta|41/100
+|-status|p2a: Zamazenta|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zamazenta|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|41/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1685904100
+|move|p2a: Zamazenta|Body Press|p1a: Torkoal
+|-damage|p1a: Torkoal|37/100
+|move|p1a: Torkoal|Lava Plume|p2a: Zamazenta
+|-damage|p2a: Zamazenta|11/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zamazenta|17/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|11/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1685904114
+|switch|p1a: Skeledirge|Skeledirge, M, shiny|100/100
+|move|p2a: Zamazenta|Crunch|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Zamazenta|17/100 brn|[from] item: Leftovers
+|-heal|p1a: Skeledirge|90/100|[from] item: Leftovers
+|-damage|p2a: Zamazenta|11/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685904127
+|move|p2a: Zamazenta|Crunch|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|72/100
+|move|p1a: Skeledirge|Torch Song|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Skeledirge|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685904136
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|8
+|
+|t:|1685904143
+|move|p1a: Skeledirge|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|52/100
+|move|p2a: Slowking|Thunder Wave|p1a: Skeledirge
+|-status|p1a: Skeledirge|par
+|
+|-weather|none
+|-heal|p1a: Skeledirge|84/100 par|[from] item: Leftovers
+|-heal|p2a: Slowking|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685904156
+|move|p1a: Skeledirge|Torch Song|p2a: Slowking
+|-damage|p2a: Slowking|29/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Slowking|Surf|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|54/100 par
+|
+|-heal|p1a: Skeledirge|60/100 par|[from] item: Leftovers
+|-heal|p2a: Slowking|36/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685904170
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Skeledirge|Shadow Ball|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|68/100
+|
+|-heal|p1a: Skeledirge|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1685904181
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100
+|move|p2a: Samurott|Razor Shell|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1685904199
+|switch|p1a: Cinderace|Cinderace, M, shiny|100/100
+|turn|12
+|
+|t:|1685904204
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Garganacl
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|41/100
+|
+|-heal|p2a: Garganacl|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685904220
+|switch|p2a: Slowking|Slowking-Galar, F|69/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|
+|-heal|p2a: Slowking|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685904233
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|t:|1685904246
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] Chilly Reception
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1685904252
+|switch|p1a: Torkoal|Torkoal, F|37/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|switch|p2a: Slowking|Slowking-Galar, F|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685904261
+|move|p1a: Torkoal|Stealth Rock|p2a: Slowking
+|-sidestart|p2: Holdmadik|move: Stealth Rock
+|move|p2a: Slowking|Thunder Wave|p1a: Torkoal
+|-status|p1a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685904267
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|t:|1685904271
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Torkoal|Yawn|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1685904287
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garganacl|Garganacl, F|47/100
+|-damage|p2a: Garganacl|35/100|[from] Stealth Rock
+|switch|p1a: Skeledirge|Skeledirge, M, shiny|66/100 par
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Garganacl|41/100|[from] item: Leftovers
+|-heal|p1a: Skeledirge|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685904298
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|91/100
+|move|p1a: Skeledirge|Torch Song|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|78/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Garganacl|84/100|[from] item: Leftovers
+|-heal|p1a: Skeledirge|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685904308
+|move|p2a: Garganacl|Salt Cure|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|54/100 par
+|-start|p1a: Skeledirge|Salt Cure
+|move|p1a: Skeledirge|Torch Song|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|65/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Garganacl|71/100|[from] item: Leftovers
+|-heal|p1a: Skeledirge|60/100 par|[from] item: Leftovers
+|-damage|p1a: Skeledirge|47/100 par|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1685904322
+|move|p2a: Garganacl|Stealth Rock|p1a: Skeledirge
+|-sidestart|p1: YoungEsq|move: Stealth Rock
+|cant|p1a: Skeledirge|par
+|
+|-weather|none
+|-heal|p2a: Garganacl|77/100|[from] item: Leftovers
+|-heal|p1a: Skeledirge|53/100 par|[from] item: Leftovers
+|-damage|p1a: Skeledirge|41/100 par|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1685904341
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|cant|p1a: Skeledirge|par
+|
+|-heal|p2a: Garganacl|83/100|[from] item: Leftovers
+|-heal|p1a: Skeledirge|47/100 par|[from] item: Leftovers
+|-damage|p1a: Skeledirge|35/100 par|[from] Salt Cure
+|upkeep
+|turn|23
+|
+|t:|1685904357
+|switch|p1a: Torkoal|Torkoal, F|37/100 par
+|-damage|p1a: Torkoal|12/100 par|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Garganacl|Salt Cure|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garganacl|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685904368
+|switch|p1a: Scovillain|Scovillain, M|100/100
+|-damage|p1a: Scovillain|76/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1685904409
+|move|p1a: Scovillain|Growth|p1a: Scovillain
+|-boost|p1a: Scovillain|atk|2
+|-boost|p1a: Scovillain|spa|2
+|move|p2a: Garganacl|Salt Cure|p1a: Scovillain
+|-supereffective|p1a: Scovillain
+|-damage|p1a: Scovillain|28/100
+|-start|p1a: Scovillain|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garganacl|96/100|[from] item: Leftovers
+|-damage|p1a: Scovillain|16/100|[from] Salt Cure
+|upkeep
+|turn|25
+|
+|t:|1685904426
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Scovillain|3/100|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1685904441
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|-damage|p1a: Scovillain|0 fnt|[from] item: Life Orb
+|faint|p1a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685904460
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|switch|p1a: Skeledirge|Skeledirge, M, shiny|35/100 par
+|-damage|p1a: Skeledirge|10/100 par|[from] Stealth Rock
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1685904471
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|60/100 par
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|t:|1685904486
+|switch|p2a: Samurott|Samurott-Hisui, M|68/100|[from] Chilly Reception
+|-damage|p2a: Samurott|55/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Skeledirge|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1685904495
+|move|p2a: Samurott|Razor Shell|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685904505
+|switch|p1a: Cinderace|Cinderace, M, shiny|100/100
+|turn|29
+|
+|t:|1685904525
+|move|p1a: Cinderace|High Jump Kick|p2a: Samurott
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1685904533
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1685904544
+|move|p1a: Cinderace|Pyro Ball|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|72/100
+|move|p2a: Garganacl|Salt Cure|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|91/100
+|-start|p1a: Cinderace|Salt Cure
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Garganacl|78/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|79/100|[from] Salt Cure
+|upkeep
+|turn|31
+|
+|t:|1685904568
+|move|p1a: Cinderace|U-turn|p2a: Garganacl
+|-damage|p2a: Garganacl|67/100
+|
+|t:|1685904571
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|26/100
+|-start|p1a: Iron Moth|Salt Cure
+|
+|-weather|none
+|-heal|p2a: Garganacl|73/100|[from] item: Leftovers
+|-damage|p1a: Iron Moth|13/100|[from] Salt Cure
+|upkeep
+|turn|32
+|
+|t:|1685904588
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Iron Moth|Sludge Wave|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|79/100|[from] item: Leftovers
+|-damage|p1a: Iron Moth|1/100|[from] Salt Cure
+|upkeep
+|turn|33
+|
+|t:|1685904600
+|move|p1a: Iron Moth|Fiery Dance|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|53/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-damage|p1a: Iron Moth|0 fnt|[from] Salt Cure
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|upkeep
+|
+|t:|1685904610
+|switch|p1a: Cinderace|Cinderace, M, shiny|79/100
+|turn|34
+|
+|t:|1685904618
+|move|p1a: Cinderace|Pyro Ball|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|86/100
+|move|p2a: Garganacl|Salt Cure|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|39/100
+|-start|p1a: Cinderace|Salt Cure
+|
+|-heal|p2a: Garganacl|93/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|26/100|[from] Salt Cure
+|upkeep
+|turn|35
+|
+|t:|1685904629
+|move|p1a: Cinderace|High Jump Kick|p2a: Garganacl
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|27/100
+|move|p2a: Garganacl|Salt Cure|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|16/100
+|
+|-heal|p2a: Garganacl|33/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|4/100|[from] Salt Cure
+|upkeep
+|turn|36
+|
+|t:|1685904641
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Cinderace|High Jump Kick|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|-damage|p1a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p1a: Cinderace
+|
+|win|Holdmadik

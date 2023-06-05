@@ -1,0 +1,58 @@
+|poke|p1|Magearna|
+|poke|p1|Toxapex, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Scizor, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Kleavor, M|
+|poke|p2|Great Tusk|
+|poke|p2|Pawmot, M|
+|poke|p2|Basculegion-F, F|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|79/100
+|-sidestart|p1: PenguGuy|move: Stealth Rock
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|-enditem|p2a: Kleavor|Mirror Herb
+|-boost|p2a: Kleavor|spe|2|[from] item: Mirror Herb
+|-boost|p2a: Kleavor|atk|1|[from] item: Mirror Herb
+|
+|-heal|p1a: Magearna|85/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Kleavor|Brick Break|p1a: Magearna
+|-damage|p1a: Magearna|50/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|56/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Kleavor|Brick Break|p1a: Magearna
+|-damage|p1a: Magearna|21/100
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|27/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Kleavor|Brick Break|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-message|PenguGuy forfeited.
+|
+|win|LettuceTurtle

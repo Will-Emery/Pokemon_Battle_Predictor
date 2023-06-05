@@ -1,0 +1,247 @@
+|poke|p1|Basculegion, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Golduck, F|
+|poke|p1|Volcarona, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Slither Wing|
+|poke|p2|Clodsire, M|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Electrode|Volt Switch|p1a: Volcarona
+|-damage|p1a: Volcarona|77/100
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|83/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Sneasler|Acrobatics|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|36/100
+|-status|p2a: Sneasler|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|move|p1a: Volcarona|Bug Buzz|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|83/100 brn
+|-unboost|p2a: Sneasler|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|42/100|[from] item: Leftovers
+|-damage|p2a: Sneasler|77/100 brn|[from] brn
+|turn|3
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-terastallize|p2a: Sneasler|Flying
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Sneasler|71/100 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Basculegion|Wave Crash|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Volcarona|Volcarona, F|42/100
+|move|p2a: Clodsire|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|
+|-weather|none
+|-heal|p1a: Volcarona|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Volcarona|42/100 tox|[from] psn
+|turn|6
+|
+|switch|p2a: Sneasler|Sneasler, F, tera:Flying|71/100 brn
+|move|p1a: Volcarona|Fiery Dance|p2a: Sneasler
+|-damage|p2a: Sneasler|18/100 brn
+|-boost|p1a: Volcarona|spa|1
+|
+|-heal|p1a: Volcarona|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Volcarona|36/100 tox|[from] psn
+|-damage|p2a: Sneasler|12/100 brn|[from] brn
+|turn|7
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|move|p2a: Sneasler|Acrobatics|p1a: Barraskewda
+|-crit|p1a: Barraskewda
+|-damage|p1a: Barraskewda|56/100
+|-status|p1a: Barraskewda|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|
+|-damage|p1a: Barraskewda|44/100 psn|[from] psn
+|-damage|p2a: Sneasler|6/100 brn|[from] brn
+|turn|8
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Sneasler|Acrobatics|p1a: Pelipper
+|-damage|p1a: Pelipper|87/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Sneasler|0 fnt|[from] brn
+|faint|p2a: Sneasler
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|9
+|
+|move|p2a: Electrode|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|turn|10
+|
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|33/100
+|-damage|p1a: Basculegion|84/100|[from] Recoil
+|move|p2a: Pelipper|U-turn|p1a: Basculegion
+|-damage|p1a: Basculegion|74/100
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|switch|p1a: Volcarona|Volcarona, F|36/100 tox
+|move|p2a: Clodsire|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|2/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|9/100 tox|[from] item: Leftovers
+|-damage|p1a: Volcarona|2/100 tox|[from] psn
+|turn|12
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Clodsire
+|-damage|p2a: Clodsire|89/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: Clodsire|Stealth Rock|p1a: Volcarona
+|-sidestart|p1: CameleonulYT3|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Volcarona|9/100 tox|[from] item: Leftovers
+|-heal|p2a: Clodsire|95/100|[from] item: Leftovers
+|-damage|p1a: Volcarona|0 fnt|[from] psn
+|faint|p1a: Volcarona
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|-item|p1a: Rotom|Air Balloon
+|turn|13
+|
+|switch|p1a: Golduck|Golduck, F|100/100
+|-damage|p1a: Golduck|88/100|[from] Stealth Rock
+|move|p2a: Clodsire|Toxic|p1a: Golduck
+|-status|p1a: Golduck|tox
+|
+|-heal|p1a: Golduck|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|-damage|p1a: Golduck|88/100 tox|[from] psn
+|turn|14
+|
+|switch|p2a: Pelipper|Pelipper, F|33/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Golduck|Ice Beam|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Golduck|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Golduck|82/100 tox|[from] psn
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|15
+|
+|move|p1a: Golduck|Ice Beam|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|18/100
+|move|p2a: Electrode|Discharge|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|8/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Golduck|14/100 tox|[from] item: Leftovers
+|-heal|p2a: Electrode|24/100|[from] item: Leftovers
+|-damage|p1a: Golduck|0 fnt|[from] psn
+|faint|p1a: Golduck
+|
+|switch|p1a: Basculegion|Basculegion, M, tera:Water|74/100
+|-damage|p1a: Basculegion|62/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Basculegion|Wave Crash|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|turn|17
+|
+|switch|p1a: Rotom|Rotom-Wash|88/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|-item|p1a: Rotom|Air Balloon
+|move|p2a: Clodsire|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Rotom|69/100 tox|[from] psn
+|turn|18
+|
+|switch|p1a: Basculegion|Basculegion, M, tera:Water|62/100
+|-damage|p1a: Basculegion|49/100|[from] Stealth Rock
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|19
+|
+|move|p2a: Slither Wing|First Impression|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Barraskewda|Barraskewda, F|44/100 psn
+|-damage|p1a: Barraskewda|32/100 psn|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Barraskewda|20/100 psn|[from] psn
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|21
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|-damage|p2a: Basculegion|91/100|[from] item: Life Orb
+|
+|-weather|none
+|-message|CameleonulYT3 forfeited.
+|
+|win|Red-ghost1

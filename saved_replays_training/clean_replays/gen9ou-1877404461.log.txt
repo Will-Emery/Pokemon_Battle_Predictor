@@ -1,0 +1,269 @@
+|poke|p1|Heatran, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Tyranitar, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Floatzel, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Ditto|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: fjordlord|Samurott-Hisui, F, shiny|100/100
+|turn|1
+|
+|switch|p2a: kill bill|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: kill bill
+|move|p1a: Magearna|Fleur Cannon|p2a: kill bill
+|-damage|p2a: kill bill|5/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p2a: mark 5:9|Basculegion, M, shiny|100/100
+|move|p1a: Magearna|Volt Switch|p2a: mark 5:9
+|-supereffective|p2a: mark 5:9
+|-damage|p2a: mark 5:9|70/100
+|
+|switch|p1a: Tyranitar|Tyranitar, F, shiny|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: mark 5:9|64/100|[from] Sandstorm
+|turn|3
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: mark 5:9|Wave Crash|p1a: Magearna
+|-damage|p1a: Magearna|25/100
+|-damage|p2a: mark 5:9|40/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: mark 5:9|34/100|[from] Sandstorm
+|-heal|p1a: Magearna|31/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: mark 5:9|Wave Crash|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-damage|p2a: mark 5:9|25/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: mark 5:9|19/100|[from] Sandstorm
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|5
+|
+|switch|p2a: kill bill|Pelipper, F, shiny|5/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: kill bill
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p2a: poseidon blade|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Zamazenta|Body Press|p2a: poseidon blade
+|-damage|p2a: poseidon blade|7/100
+|move|p2a: poseidon blade|Surging Strikes|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|48/100
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|17/100
+|-hitcount|p1a: Zamazenta|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|23/100|[from] item: Leftovers
+|turn|8
+|
+|-terastallize|p2a: poseidon blade|Ghost
+|move|p1a: Zamazenta|Body Press|p2a: poseidon blade
+|-immune|p2a: poseidon blade
+|move|p2a: poseidon blade|Surging Strikes|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-hitcount|p1: Zamazenta|1
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: poseidon blade|atk|1
+|turn|9
+|
+|move|p1a: Landorus|U-turn|p2a: poseidon blade
+|-resisted|p2a: poseidon blade
+|-damage|p2a: poseidon blade|0 fnt
+|faint|p2a: poseidon blade
+|
+|switch|p1a: Tyranitar|Tyranitar, F, shiny|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: kill bill|Pelipper, F, shiny|5/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: kill bill
+|turn|10
+|
+|move|p2a: kill bill|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|86/100
+|
+|switch|p2a: mark 5:9|Basculegion, M, shiny|19/100|[from] U-turn
+|move|p1a: Tyranitar|Crunch|p2a: mark 5:9
+|-supereffective|p2a: mark 5:9
+|-damage|p2a: mark 5:9|0 fnt
+|faint|p2a: mark 5:9
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: crasher wake|Floatzel, F, shiny|100/100
+|turn|11
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: crasher wake|Wave Crash|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-damage|p2a: crasher wake|60/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: crasher wake|atk|1
+|turn|12
+|
+|-terastallize|p1a: Landorus|Water
+|move|p2a: crasher wake|Wave Crash|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|49/100
+|-damage|p2a: crasher wake|42/100|[from] Recoil
+|move|p1a: Landorus|Earthquake|p2a: crasher wake
+|-damage|p2a: crasher wake|0 fnt
+|faint|p2a: crasher wake
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: 6th water type|Ditto, shiny|100/100
+|-transform|p2a: 6th water type|p1a: Landorus|[from] ability: Imposter
+|-ability|p2a: 6th water type|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|-start|p2a: 6th water type|typechange|Ground/Flying|[silent]
+|turn|13
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: 6th water type|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|59/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|14
+|
+|move|p2a: 6th water type|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|20/100 brn
+|move|p1a: Ursaluna|Facade|p2a: 6th water type
+|-enditem|p2a: 6th water type|Focus Sash
+|-damage|p2a: 6th water type|1/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|14/100 brn|[from] brn
+|turn|15
+|
+|switch|p1a: Landorus|Landorus-Therian, M, tera:Water|49/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: 6th water type|atk|1
+|move|p2a: 6th water type|Earthquake|p1a: Landorus
+|-damage|p1a: Landorus|3/100
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|move|p1a: Landorus|U-turn|p2a: 6th water type
+|-resisted|p2a: 6th water type
+|-damage|p2a: 6th water type|0 fnt
+|faint|p2a: 6th water type
+|
+|switch|p1a: Ursaluna|Ursaluna, M|14/100 brn|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|8/100 brn|[from] brn
+|
+|switch|p2a: fjordlord|Samurott-Hisui, F, shiny|100/100
+|turn|17
+|
+|move|p2a: fjordlord|Aqua Cutter|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|none
+|
+|switch|p1a: Landorus|Landorus-Therian, M, tera:Water|3/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: fjordlord|atk|1
+|turn|18
+|
+|move|p1a: Landorus|U-turn|p2a: fjordlord
+|-supereffective|p2a: fjordlord
+|-damage|p2a: fjordlord|28/100
+|
+|switch|p1a: Tyranitar|Tyranitar, F, shiny|86/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: fjordlord|Aqua Cutter|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: fjordlord|22/100|[from] Sandstorm
+|turn|19
+|
+|move|p2a: fjordlord|Aqua Cutter|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: fjordlord|16/100|[from] Sandstorm
+|
+|switch|p1a: Landorus|Landorus-Therian, M, tera:Water|3/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: fjordlord|atk|1
+|turn|20
+|
+|switch|p2a: kill bill|Pelipper, F, shiny|5/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: kill bill
+|move|p1a: Landorus|Tera Blast|p2a: kill bill
+|-resisted|p2a: kill bill
+|-damage|p2a: kill bill|0 fnt
+|faint|p2a: kill bill
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: fjordlord|Samurott-Hisui, F, shiny|16/100
+|turn|21
+|
+|move|p2a: fjordlord|Aqua Jet|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|Dr. Drake6782

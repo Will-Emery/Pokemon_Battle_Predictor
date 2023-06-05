@@ -1,1 +1,188 @@
-Could not connect
+|j|☆Kalen80
+|j|☆The Only Spiderman
+|t:|1685860672
+|gametype|singles
+|player|p1|Kalen80|swimmer-gen4dp|1074
+|player|p2|The Only Spiderman|alder|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dondozo, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Slowking, M|
+|poke|p1|Dudunsparce-*, F|
+|poke|p1|Orthworm, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Glastrier|
+|poke|p2|Magearna|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|t:|1685860684
+|start
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1685860691
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1685860697
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1685860705
+|move|p1a: Goodra|Dragon Claw|p2a: Ursaluna
+|-damage|p2a: Ursaluna|62/100 brn
+|move|p2a: Ursaluna|Earthquake|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|28/100
+|-enditem|p1a: Goodra|Weakness Policy
+|-boost|p1a: Goodra|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Goodra|spa|2|[from] item: Weakness Policy
+|
+|-damage|p2a: Ursaluna|56/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685860711
+|move|p1a: Goodra|Dragon Claw|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1685860719
+|switch|p2a: Glastrier|Glastrier|100/100
+|turn|5
+|
+|t:|1685860723
+|-terastallize|p2a: Glastrier|Fighting
+|move|p1a: Goodra|Dragon Claw|p2a: Glastrier
+|-damage|p2a: Glastrier|45/100
+|move|p2a: Glastrier|Close Combat|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-unboost|p2a: Glastrier|def|1
+|-unboost|p2a: Glastrier|spd|1
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Glastrier|spe|1
+|faint|p1a: Goodra
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|-damage|p2a: Glastrier|35/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685860738
+|switch|p1a: Slowking|Slowking, M|100/100
+|turn|6
+|
+|t:|1685860750
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Slowking|Future Sight|p2a: Hatterene
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|7
+|
+|t:|1685860755
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|t:|1685860762
+|switch|p1a: Dudunsparce|Dudunsparce, F|100/100|[from] Chilly Reception
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1685860772
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Dudunsparce|Boomburst|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|60/100
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Magearna|move: Future Sight
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|43/100
+|-heal|p2a: Magearna|49/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685860780
+|move|p1a: Dudunsparce|Boomburst|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|10/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|16/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685860785
+|move|p1a: Dudunsparce|Boomburst|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kalen80)
+|
+|t:|1685860838
+|switch|p2a: Glastrier|Glastrier, tera:Fighting|35/100
+|turn|11
+|
+|t:|1685860843
+|-terastallize|p1a: Dudunsparce|Ghost
+|move|p2a: Glastrier|Close Combat|p1a: Dudunsparce
+|-immune|p1a: Dudunsparce
+|move|p1a: Dudunsparce|Boomburst|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|-message|The Only Spiderman forfeited.
+|
+|win|Kalen80
+|raw|Kalen80's rating: 1074 → 1111(+37 for winning)
+|raw|The Only Spiderman's rating: 1168 → 1136(-32 for losing)
+|l|☆The Only Spiderman

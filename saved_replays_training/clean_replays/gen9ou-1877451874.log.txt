@@ -1,0 +1,213 @@
+|poke|p1|Breloom, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Ceruledge, M|
+|poke|p1|Baxcalibur, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Dugtrio-Alola, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Ditto|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Iron Thorns|
+|poke|p2|Kleavor, M|
+|poke|p2|Hippowdon, F|
+|teampreview
+|
+|start
+|switch|p1a: hairy mole boi|Dugtrio-Alola, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|switch|p1a: shroom boi|Breloom, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: shroom boi
+|-resisted|p1a: shroom boi
+|-damage|p1a: shroom boi|65/100
+|-sidestart|p1: Shm1ggy|Spikes
+|
+|turn|2
+|
+|move|p2a: Samurott|Taunt|p1a: shroom boi
+|-start|p1a: shroom boi|move: Taunt
+|cant|p1a: shroom boi|move: Taunt|Spore
+|
+|turn|3
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: shroom boi
+|-resisted|p1a: shroom boi
+|-damage|p1a: shroom boi|32/100
+|-sidestart|p1: Shm1ggy|Spikes
+|move|p1a: shroom boi|Bullet Seed|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|49/100
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-hitcount|p2: Samurott|2
+|
+|
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|4
+|
+|move|p1a: shroom boi|Mach Punch|p2a: Kleavor
+|-damage|p2a: Kleavor|62/100
+|move|p2a: Kleavor|U-turn|p1a: shroom boi
+|-damage|p1a: shroom boi|0 fnt
+|faint|p1a: shroom boi
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100|[from] U-turn
+|
+|
+|switch|p1a: spiny backed boi|Baxcalibur, F|100/100
+|-damage|p1a: spiny backed boi|84/100|[from] Spikes
+|turn|5
+|
+|-terastallize|p2a: Hippowdon|Ghost
+|move|p1a: spiny backed boi|Glaive Rush|p2a: Hippowdon
+|-damage|p2a: Hippowdon|58/100
+|-singlemove|p1a: spiny backed boi|Glaive Rush|[silent]
+|move|p2a: Hippowdon|Whirlwind|p1a: spiny backed boi
+|drag|p1a: hairy mole boi|Dugtrio-Alola, F|100/100
+|-damage|p1a: hairy mole boi|84/100|[from] Spikes
+|
+|-heal|p2a: Hippowdon|64/100|[from] item: Leftovers
+|turn|6
+|
+|-terastallize|p1a: hairy mole boi|Ground
+|move|p1a: hairy mole boi|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|10/100
+|-damage|p1a: hairy mole boi|74/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Stealth Rock|p1a: hairy mole boi
+|-sidestart|p1: Shm1ggy|move: Stealth Rock
+|
+|-heal|p2a: Hippowdon|16/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: hairy mole boi|Iron Head|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|-damage|p1a: hairy mole boi|64/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: hairy mole boi|[from] ability: Imposter
+|-start|p2a: Ditto|typechange|Ground/Steel|[silent]
+|turn|8
+|
+|move|p2a: Ditto|Earthquake|p1a: hairy mole boi
+|-damage|p1a: hairy mole boi|0 fnt
+|faint|p1a: hairy mole boi
+|
+|
+|switch|p1a: flamer head boi|Ceruledge, M|100/100
+|-damage|p1a: flamer head boi|84/100|[from] Spikes
+|-damage|p1a: flamer head boi|59/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Kleavor|Kleavor, M|62/100
+|switch|p1a: pass|Enamorus-Therian, F|100/100
+|-damage|p1a: pass|76/100|[from] Stealth Rock
+|
+|turn|10
+|
+|move|p2a: Kleavor|U-turn|p1a: pass
+|-resisted|p1a: pass
+|-damage|p1a: pass|67/100
+|
+|switch|p2a: Iron Thorns|Iron Thorns|100/100|[from] U-turn
+|move|p1a: pass|Earth Power|p2a: Iron Thorns
+|-supereffective|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|-damage|p1a: pass|57/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Kleavor|Kleavor, M|62/100
+|turn|11
+|
+|move|p2a: Kleavor|Stone Axe|p1a: pass
+|-supereffective|p1a: pass
+|-damage|p1a: pass|0 fnt
+|faint|p1a: pass
+|
+|
+|switch|p1a: spiny backed boi|Baxcalibur, F|84/100
+|-damage|p1a: spiny backed boi|68/100|[from] Spikes
+|-damage|p1a: spiny backed boi|43/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Kleavor|Stone Axe|p1a: spiny backed boi
+|-supereffective|p1a: spiny backed boi
+|-damage|p1a: spiny backed boi|0 fnt
+|faint|p1a: spiny backed boi
+|
+|
+|switch|p1a: dead boi|Dragapult, F|100/100
+|-damage|p1a: dead boi|84/100|[from] Spikes
+|-damage|p1a: dead boi|72/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p1a: dead boi|Choice Specs|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|move|p1a: dead boi|Shadow Ball|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|
+|switch|p2a: Kleavor|Kleavor, M|62/100
+|turn|14
+|
+|move|p2a: Kleavor|Night Slash|p1a: dead boi
+|-supereffective|p1a: dead boi
+|-damage|p1a: dead boi|0 fnt
+|faint|p1a: dead boi
+|
+|
+|switch|p1a: flamer head boi|Ceruledge, M|59/100
+|-damage|p1a: flamer head boi|43/100|[from] Spikes
+|-damage|p1a: flamer head boi|18/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: flamer head boi|Endure|p1a: flamer head boi
+|-singleturn|p1a: flamer head boi|move: Endure
+|move|p2a: Kleavor|Night Slash|p1a: flamer head boi
+|-supereffective|p1a: flamer head boi
+|-activate|p1a: flamer head boi|move: Endure
+|-damage|p1a: flamer head boi|1/100
+|-ability|p1a: flamer head boi|Weak Armor|boost
+|-unboost|p1a: flamer head boi|def|1
+|-boost|p1a: flamer head boi|spe|2
+|-enditem|p1a: flamer head boi|Weakness Policy
+|-boost|p1a: flamer head boi|atk|2|[from] item: Weakness Policy
+|-boost|p1a: flamer head boi|spa|2|[from] item: Weakness Policy
+|
+|turn|16
+|
+|move|p1a: flamer head boi|Bitter Blade|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-heal|p1a: flamer head boi|31/100|[from] drain|[of] p2a: Kleavor
+|faint|p2a: Kleavor
+|
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: flamer head boi|[from] ability: Imposter
+|turn|17
+|
+|move|p1a: flamer head boi|Endure|p1a: flamer head boi
+|-singleturn|p1a: flamer head boi|move: Endure
+|move|p2a: Ditto|Shadow Sneak|p1a: flamer head boi
+|-supereffective|p1a: flamer head boi
+|-activate|p1a: flamer head boi|move: Endure
+|-damage|p1a: flamer head boi|1/100
+|-ability|p1a: flamer head boi|Weak Armor|boost
+|-unboost|p1a: flamer head boi|def|1
+|-boost|p1a: flamer head boi|spe|2
+|
+|turn|18
+|
+|move|p1a: flamer head boi|Shadow Sneak|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|win|Shm1ggy

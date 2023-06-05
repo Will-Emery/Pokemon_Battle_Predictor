@@ -1,0 +1,324 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Magearna|
+|poke|p1|Dondozo, F|
+|poke|p1|Great Tusk|
+|poke|p1|Zamazenta-*|
+|poke|p1|Garganacl, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Iron Treads|
+|poke|p2|Uxie|
+|poke|p2|Chien-Pao|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|move|p2a: Iron Treads|Stealth Rock|p1a: Garganacl
+|-sidestart|p1: xcvdrfghdtrh|move: Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|98/100
+|-start|p2a: Iron Treads|Salt Cure
+|
+|-damage|p2a: Iron Treads|73/100|[from] Salt Cure
+|turn|2
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Iron Treads|Steel Beam|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|-damage|p2a: Iron Treads|23/100|[from] steelbeam
+|
+|-damage|p2a: Iron Treads|0 fnt|[from] Salt Cure
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|switch|p2a: Uxie|Uxie|100/100
+|turn|3
+|
+|move|p2a: Uxie|Reflect|p2a: Uxie
+|-sidestart|p2: Omega Lonk|Reflect
+|move|p1a: Garganacl|Salt Cure|p2a: Uxie
+|-damage|p2a: Uxie|97/100
+|-start|p2a: Uxie|Salt Cure
+|
+|-damage|p2a: Uxie|84/100|[from] Salt Cure
+|turn|4
+|
+|move|p2a: Uxie|Light Screen|p2a: Uxie
+|-sidestart|p2: Omega Lonk|move: Light Screen
+|move|p1a: Garganacl|Stealth Rock|p2a: Uxie
+|-sidestart|p2: Omega Lonk|move: Stealth Rock
+|
+|-damage|p2a: Uxie|72/100|[from] Salt Cure
+|turn|5
+|
+|switch|p2a: Coca|Ursaluna, M|100/100
+|-damage|p2a: Coca|94/100|[from] Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Coca
+|-resisted|p2a: Coca
+|-damage|p2a: Coca|92/100
+|-start|p2a: Coca|Salt Cure
+|
+|-damage|p2a: Coca|80/100|[from] Salt Cure
+|-status|p2a: Coca|brn|[from] item: Flame Orb
+|turn|6
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Coca|Facade|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-damage|p2a: Coca|73/100 brn|[from] brn
+|-damage|p2a: Coca|61/100 brn|[from] Salt Cure
+|turn|7
+|
+|move|p2a: Coca|Close Combat|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|29/100
+|-unboost|p2a: Coca|def|1
+|-unboost|p2a: Coca|spd|1
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|79/100
+|
+|-heal|p1a: Garganacl|85/100|[from] item: Leftovers
+|-damage|p2a: Coca|55/100 brn|[from] brn
+|-damage|p2a: Coca|42/100 brn|[from] Salt Cure
+|turn|8
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Coca|Facade|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|91/100|[from] item: Leftovers
+|-damage|p2a: Coca|36/100 brn|[from] brn
+|-damage|p2a: Coca|23/100 brn|[from] Salt Cure
+|turn|9
+|
+|move|p2a: Coca|Facade|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|58/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-damage|p2a: Coca|17/100 brn|[from] brn
+|-damage|p2a: Coca|5/100 brn|[from] Salt Cure
+|turn|10
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Coca|Facade|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-damage|p2a: Coca|0 fnt|[from] brn
+|faint|p2a: Coca
+|-sideend|p2: Omega Lonk|Reflect
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|11
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|53/100
+|move|p1a: Garganacl|Salt Cure|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|40/100
+|-start|p2a: Chien-Pao|Salt Cure
+|
+|-heal|p1a: Garganacl|60/100|[from] item: Leftovers
+|-damage|p2a: Chien-Pao|27/100|[from] Salt Cure
+|-sideend|p2: Omega Lonk|move: Light Screen
+|turn|12
+|
+|move|p2a: Chien-Pao|Swords Dance|p2a: Chien-Pao
+|-boost|p2a: Chien-Pao|atk|2
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-damage|p2a: Chien-Pao|15/100|[from] Salt Cure
+|turn|13
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-damage|p2a: Chien-Pao|3/100|[from] Salt Cure
+|turn|14
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-damage|p2a: Chien-Pao|0 fnt|[from] Salt Cure
+|faint|p2a: Chien-Pao
+|
+|switch|p2a: Uxie|Uxie|72/100
+|-damage|p2a: Uxie|59/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Uxie|Reflect|p2a: Uxie
+|-sidestart|p2: Omega Lonk|Reflect
+|move|p1a: Garganacl|Salt Cure|p2a: Uxie
+|-damage|p2a: Uxie|55/100
+|-start|p2a: Uxie|Salt Cure
+|
+|-damage|p2a: Uxie|42/100|[from] Salt Cure
+|turn|16
+|
+|move|p2a: Uxie|Light Screen|p2a: Uxie
+|-sidestart|p2: Omega Lonk|move: Light Screen
+|move|p1a: Garganacl|Salt Cure|p2a: Uxie
+|-damage|p2a: Uxie|38/100
+|
+|-damage|p2a: Uxie|26/100|[from] Salt Cure
+|turn|17
+|
+|move|p2a: Uxie|Memento|p1a: Garganacl
+|-unboost|p1a: Garganacl|atk|2
+|-unboost|p1a: Garganacl|spa|2
+|faint|p2a: Uxie
+|move|p1a: Garganacl|Salt Cure|p2: Uxie|[notarget]
+|-fail|p1a: Garganacl
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|18
+|
+|-terastallize|p2a: Magearna|Flying
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Garganacl|Salt Cure|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|89/100
+|-start|p2a: Magearna|Salt Cure
+|
+|-heal|p2a: Magearna|95/100|[from] item: Leftovers
+|-damage|p2a: Magearna|83/100|[from] Salt Cure
+|turn|19
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Garganacl|Salt Cure|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|78/100
+|
+|-heal|p2a: Magearna|84/100|[from] item: Leftovers
+|-damage|p2a: Magearna|71/100|[from] Salt Cure
+|turn|20
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Garganacl|Salt Cure|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|66/100
+|
+|-heal|p2a: Magearna|72/100|[from] item: Leftovers
+|-damage|p2a: Magearna|59/100|[from] Salt Cure
+|turn|21
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|
+|-heal|p2a: Magearna|65/100|[from] item: Leftovers
+|-damage|p2a: Magearna|53/100|[from] Salt Cure
+|turn|22
+|
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|move|p1a: Garganacl|Salt Cure|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|51/100
+|
+|-heal|p2a: Magearna|57/100|[from] item: Leftovers
+|-damage|p2a: Magearna|45/100|[from] Salt Cure
+|-sideend|p2: Omega Lonk|Reflect
+|turn|23
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Magearna|Draining Kiss|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p2a: Magearna|51/100|[from] item: Leftovers
+|-damage|p2a: Magearna|38/100|[from] Salt Cure
+|-sideend|p2: Omega Lonk|move: Light Screen
+|turn|24
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Garganacl
+|-damage|p1a: Garganacl|59/100
+|-heal|p2a: Magearna|73/100|[from] drain|[of] p1a: Garganacl
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-heal|p2a: Magearna|79/100|[from] item: Leftovers
+|-damage|p2a: Magearna|66/100|[from] Salt Cure
+|turn|25
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|-damage|p1a: Dondozo|88/100|[from] Stealth Rock
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|
+|-heal|p2a: Magearna|72/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|94/100|[from] item: Leftovers
+|-damage|p2a: Magearna|60/100|[from] Salt Cure
+|turn|26
+|
+|move|p2a: Magearna|Stored Power|p1a: Dondozo
+|-damage|p1a: Dondozo|17/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p2a: Magearna|66/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|23/100|[from] item: Leftovers
+|-damage|p2a: Magearna|54/100|[from] Salt Cure
+|turn|27
+|
+|move|p2a: Magearna|Stored Power|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|60/100|[from] item: Leftovers
+|-damage|p2a: Magearna|47/100|[from] Salt Cure
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|28
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|22/100
+|move|p2a: Magearna|Draining Kiss|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-heal|p2a: Magearna|69/100|[from] drain|[of] p1a: Chien-Pao
+|faint|p1a: Chien-Pao
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|75/100|[from] item: Leftovers
+|-damage|p2a: Magearna|63/100|[from] Salt Cure
+|-message|xcvdrfghdtrh forfeited.
+|
+|win|Omega Lonk

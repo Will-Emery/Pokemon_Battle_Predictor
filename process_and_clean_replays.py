@@ -13,23 +13,36 @@ def process_replays(dirty_replays_location, clean_replays_location):
     
     Returns:
         None"""
-    
+        
     replays = [file for file in os.listdir(dirty_replays_location) if file.endswith(".txt")]
     print(f"Found {len(replays)} replays")
+
+    total_bad_replays = 0
+    total_cleaned_replays = 0
 
     for replay in replays:
         #check to see if the replay is already saved
         if replay in os.listdir(clean_replays_location):
             print("Replay already processed")
             continue
+        if get_file_contents(dirty_replays_location + "/" + replay) == "Could not connect":
+            print("Replay not scraped")
+            print("Skipping replay. Please run scrape_replays.py to scrape the replay")
+            total_bad_replays += 1
+            continue
         else:
             #get the replay text
+            print("Processing replay " + replay)
             replay_text = get_file_contents(dirty_replays_location + "/" + replay)
 
             processed_replay = clean_replay(replay_text)
             #check to see if the replay is already saved
             write_to_file(processed_replay, clean_replays_location + "/" + replay)
             print("Cleaned replay " + replay)
+            total_cleaned_replays += 1
+    
+    print(f"Total bad replays: {total_bad_replays}")
+    print(f"Total cleaned replays: {total_cleaned_replays}")
 
 
 def clean_replay(replay_file_contents):

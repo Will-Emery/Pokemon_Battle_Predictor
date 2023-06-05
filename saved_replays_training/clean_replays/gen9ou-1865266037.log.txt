@@ -1,0 +1,393 @@
+|poke|p1|Dragapult, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragonite, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Floatzel, M|
+|poke|p2|Azumarill, F|
+|poke|p2|Golduck, F|
+|poke|p2|Pawmot, M|
+|poke|p2|Toedscruel, F|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|turn|1
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Ghoti carrier|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|switch|p2a: Seaking Duck|Golduck, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Seaking Duck|Surf|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-damage|p2a: Seaking Duck|91/100|[from] item: Life Orb
+|move|p1a: Dragapult|Thunder Wave|p2a: Seaking Duck
+|-status|p2a: Seaking Duck|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|move|p2a: Seaking Duck|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-damage|p2a: Seaking Duck|81/100 par|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|44/100
+|cant|p2a: Seaking Duck|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|50/100|[from] item: Leftovers
+|turn|5
+|
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Hex|p2a: Seaking Duck
+|-damage|p2a: Seaking Duck|0 fnt
+|faint|p2a: Seaking Duck
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|56/100|[from] item: Leftovers
+|
+|switch|p2a: Really want eject|Pawmot, M|100/100
+|turn|6
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Really want eject
+|-damage|p2a: Really want eject|69/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Really want eject
+|-damage|p2a: Really want eject|34/100
+|move|p2a: Really want eject|Encore|p1a: Dragapult
+|-start|p1a: Dragapult|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|62/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: The Goat|Azumarill, F|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: The Goat
+|-immune|p2a: The Goat
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|68/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: The Goat|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|22/100
+|-unboost|p1a: Great Tusk|def|1
+|-damage|p2a: The Goat|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-weather|none
+|turn|9
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: The Goat|Aqua Jet|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|69/100
+|
+|turn|10
+|
+|switch|p2a: Spaghetti Memory|Toedscruel, F|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Spaghetti Memory
+|-damage|p2a: Spaghetti Memory|58/100
+|
+|turn|11
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Spaghetti Memory
+|-damage|p2a: Spaghetti Memory|15/100
+|move|p2a: Spaghetti Memory|Spore|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|slp|[from] move: Spore
+|
+|turn|12
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Ghoti carrier
+|-status|p2a: Ghoti carrier|brn
+|move|p2a: Ghoti carrier|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|97/100
+|
+|switch|p2a: BandedSkeda|Floatzel, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p1a: Iron Valiant|Iron Valiant|69/100 slp
+|move|p2a: BandedSkeda|Liquidation|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|15
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: BandedSkeda
+|-damage|p2a: BandedSkeda|31/100
+|move|p2a: BandedSkeda|Liquidation|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|76/100
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|switch|p2a: Spaghetti Memory|Toedscruel, F|15/100
+|move|p1a: Dragonite|Extreme Speed|p2a: Spaghetti Memory
+|-damage|p2a: Spaghetti Memory|0 fnt
+|-damage|p1a: Dragonite|60/100|[from] item: Rocky Helmet|[of] p2a: Spaghetti Memory
+|faint|p2a: Spaghetti Memory
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: The Goat|Azumarill, F|84/100
+|turn|17
+|
+|switch|p1a: Cinderace|Cinderace, F|97/100
+|move|p2a: The Goat|Play Rough|p1a: Cinderace|[miss]
+|-miss|p2a: The Goat|p1a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|move|p1a: Cinderace|Will-O-Wisp|p2a: The Goat
+|-status|p2a: The Goat|brn
+|move|p2a: The Goat|Liquidation|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: The Goat|78/100 brn|[from] brn
+|
+|switch|p1a: Dragapult|Dragapult, F, tera:Ghost|68/100
+|turn|19
+|
+|move|p1a: Dragapult|Hex|p2a: The Goat
+|-damage|p2a: The Goat|6/100 brn
+|-enditem|p2a: The Goat|Sitrus Berry|[eat]
+|-heal|p2a: The Goat|31/100 brn|[from] item: Sitrus Berry
+|move|p2a: The Goat|Liquidation|p1a: Dragapult
+|-damage|p1a: Dragapult|11/100
+|
+|-weather|none
+|-heal|p1a: Dragapult|17/100|[from] item: Leftovers
+|-damage|p2a: The Goat|25/100 brn|[from] brn
+|turn|20
+|
+|switch|p1a: Dragonite|Dragonite, M|60/100
+|move|p2a: The Goat|Aqua Jet|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|54/100
+|
+|-damage|p2a: The Goat|19/100 brn|[from] brn
+|turn|21
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: The Goat
+|-damage|p2a: The Goat|0 fnt
+|faint|p2a: The Goat
+|
+|
+|switch|p2a: Ghoti carrier|Pelipper, F|100/100 brn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|turn|22
+|
+|switch|p1a: Great Tusk|Great Tusk|22/100
+|move|p2a: Ghoti carrier|Hurricane|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ghoti carrier|94/100 brn|[from] brn
+|
+|switch|p1a: Dragapult|Dragapult, F, tera:Ghost|17/100
+|turn|23
+|
+|move|p1a: Dragapult|Hex|p2a: Ghoti carrier
+|-damage|p2a: Ghoti carrier|29/100 brn
+|move|p2a: Ghoti carrier|Surf|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ghoti carrier|23/100 brn|[from] brn
+|
+|switch|p1a: Dragonite|Dragonite, M|54/100
+|turn|24
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Ghoti carrier
+|-damage|p2a: Ghoti carrier|0 fnt
+|faint|p2a: Ghoti carrier
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Really want eject|Pawmot, M|34/100
+|turn|25
+|
+|-terastallize|p2a: Really want eject|Ghost
+|move|p1a: Dragonite|Extreme Speed|p2a: Really want eject
+|-immune|p2a: Really want eject
+|move|p2a: Really want eject|Revival Blessing|p2a: Really want eject
+|-enditem|p2a: Really want eject|Leppa Berry|[eat]
+|-activate|p2a: Really want eject|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p2: Ghoti carrier|50/100|[from] move: Revival Blessing
+|
+|-weather|RainDance|[upkeep]
+|turn|26
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Really want eject
+|-immune|p2a: Really want eject
+|move|p2a: Really want eject|Close Combat|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|32/100
+|-unboost|p2a: Really want eject|def|1
+|-unboost|p2a: Really want eject|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Really want eject
+|-immune|p2a: Really want eject
+|move|p2a: Really want eject|Close Combat|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|10/100
+|-unboost|p2a: Really want eject|def|1
+|-unboost|p2a: Really want eject|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|28
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Really want eject
+|-immune|p2a: Really want eject
+|move|p2a: Really want eject|Close Combat|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Really want eject|def|1
+|-unboost|p2a: Really want eject|spd|1
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|29
+|
+|switch|p2a: BandedSkeda|Floatzel, M|31/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|none
+|turn|30
+|
+|switch|p2a: Ghoti carrier|Pelipper, F|50/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Ghoti carrier
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|RainDance|[upkeep]
+|turn|31
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Ghoti carrier
+|-damage|p2a: Ghoti carrier|0 fnt
+|faint|p2a: Ghoti carrier
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: BandedSkeda|Floatzel, M|31/100
+|turn|32
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: BandedSkeda
+|-damage|p2a: BandedSkeda|0 fnt
+|faint|p2a: BandedSkeda
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Really want eject|Pawmot, M, tera:Ghost|34/100
+|turn|33
+|
+|move|p2a: Really want eject|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|RainDance|[upkeep]
+|turn|34
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Really want eject|Revival Blessing|p2a: Really want eject
+|
+|-heal|p2: Seaking Duck|50/100|[from] move: Revival Blessing
+|
+|-weather|RainDance|[upkeep]
+|turn|35
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Really want eject|Encore||[still]
+|-fail|p2a: Really want eject
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Kingambit|Encore
+|turn|36
+|
+|move|p2a: Really want eject|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|RainDance|[upkeep]
+|turn|37
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Really want eject|Encore||[still]
+|-fail|p2a: Really want eject
+|
+|-weather|none
+|-end|p1a: Kingambit|Encore
+|turn|38
+|
+|move|p2a: Really want eject|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Really want eject|def|1
+|-unboost|p2a: Really want eject|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|OUDJ UU to suspect

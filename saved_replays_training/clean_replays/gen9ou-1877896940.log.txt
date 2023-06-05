@@ -1,0 +1,206 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Muk-Alola, M|
+|poke|p1|Zapdos|
+|poke|p1|Ditto|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Ursaring, M|
+|poke|p2|Espeon, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Great Tusk|
+|poke|p2|Rotom-Wash|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|start
+|switch|p1a: Muk|Muk-Alola, M|100/100
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Muk
+|-damage|p1a: Muk|75/100
+|
+|switch|p2a: Ursaring|Ursaring, M, shiny|100/100|[from] Volt Switch
+|move|p1a: Muk|Poison Jab|p2a: Ursaring
+|-damage|p2a: Ursaring|75/100
+|
+|turn|2
+|
+|move|p2a: Ursaring|Bulk Up|p2a: Ursaring
+|-boost|p2a: Ursaring|atk|1
+|-boost|p2a: Ursaring|def|1
+|move|p1a: Muk|Knock Off|p2a: Ursaring
+|-damage|p2a: Ursaring|54/100
+|-status|p2a: Ursaring|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|-enditem|p2a: Ursaring|Eviolite|[from] move: Knock Off|[of] p1a: Muk
+|
+|-damage|p2a: Ursaring|41/100 psn|[from] psn
+|turn|3
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Ursaring|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-damage|p2a: Ursaring|29/100 psn|[from] psn
+|turn|4
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Ursaring
+|-damage|p2a: Ursaring|3/100 psn
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] Volt Switch
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Ursaring|Body Slam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|54/100
+|
+|-heal|p1a: Zamazenta|60/100|[from] item: Leftovers
+|-damage|p2a: Ursaring|0 fnt|[from] psn
+|faint|p2a: Ursaring
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|5
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Great Tusk|Stealth Rock|p1a: Zamazenta
+|-sidestart|p1: supa fye kye|move: Stealth Rock
+|
+|-heal|p1a: Zamazenta|66/100|[from] item: Leftovers
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|41/100
+|
+|-heal|p1a: Zamazenta|48/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Zamazenta|Body Press|p2a: Rotom
+|-damage|p2a: Rotom|3/100
+|move|p2a: Rotom|Volt Switch|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|switch|p2a: Espeon|Espeon, M, shiny|100/100|[from] Volt Switch
+|
+|-heal|p1a: Zamazenta|54/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Zamazenta|Crunch|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|20/100
+|move|p2a: Espeon|Psychic|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Muk|Muk-Alola, M|75/100
+|-damage|p1a: Muk|63/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|3/100
+|move|p1a: Muk|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-enditem|p2a: Rotom|Choice Specs|[from] move: Knock Off|[of] p1a: Muk
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Great Tusk|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|turn|11
+|
+|move|p1a: Zapdos|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Hydreigon|Hydreigon, M, shiny|100/100
+|turn|12
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Zapdos
+|-damage|p1a: Zapdos|42/100
+|-unboost|p2a: Hydreigon|spa|2
+|-enditem|p2a: Hydreigon|Eject Pack
+|
+|switch|p2a: Espeon|Espeon, M, shiny|20/100
+|move|p1a: Zapdos|Volt Switch|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100|[from] Volt Switch
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|13
+|
+|switch|p1a: Zapdos|Zapdos|42/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|turn|14
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|92/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|turn|15
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|turn|16
+|
+|-terastallize|p2a: Kingambit|Fire
+|move|p1a: Urshifu|Close Combat|p2a: Kingambit
+|-damage|p2a: Kingambit|55/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Kingambit|[from] ability: Imposter
+|-activate|p1a: Ditto|ability: Supreme Overlord
+|-start|p1a: Ditto|fallen3|[silent]
+|-start|p1a: Ditto|typechange|Dark/Steel|[silent]
+|turn|17
+|
+|move|p1a: Ditto|Sucker Punch|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|
+|switch|p2a: Hydreigon|Hydreigon, M, shiny|100/100
+|turn|18
+|
+|move|p2a: Hydreigon|Flamethrower|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|20/100
+|move|p1a: Ditto|Iron Head|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|supa fye kye

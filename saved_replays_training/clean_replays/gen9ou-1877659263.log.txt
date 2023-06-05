@@ -1,0 +1,249 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Azelf|
+|poke|p1|Avalugg-Hisui, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Amoonguss, M|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|turn|1
+|
+|move|p2a: Basculegion|Surf|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|10/100
+|move|p1a: Landorus|Stealth Rock|p2a: Basculegion
+|-sidestart|p2: BirdKeeprrTipp|move: Stealth Rock
+|
+|-heal|p1a: Landorus|16/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Basculegion|Surf|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|79/100
+|
+|turn|3
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|move|p1a: Samurott|Knock Off|p2a: Amoonguss
+|-damage|p2a: Amoonguss|48/100
+|-status|p1a: Samurott|slp|[from] ability: Effect Spore|[of] p2a: Amoonguss
+|-enditem|p2a: Amoonguss|Black Sludge|[from] move: Knock Off|[of] p1a: Samurott
+|
+|turn|4
+|
+|cant|p1a: Samurott|slp
+|move|p2a: Amoonguss|Giga Drain|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|42/100 slp
+|-heal|p2a: Amoonguss|62/100|[from] drain|[of] p1a: Samurott
+|
+|turn|5
+|
+|-curestatus|p1a: Samurott|slp|[msg]
+|move|p1a: Samurott|Ceaseless Edge|p2a: Amoonguss|[miss]
+|-miss|p1a: Samurott|p2a: Amoonguss
+|move|p2a: Amoonguss|Giga Drain|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|4/100
+|-heal|p2a: Amoonguss|76/100|[from] drain|[of] p1a: Samurott
+|
+|turn|6
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|move|p1a: Samurott|Ceaseless Edge|p2a: Garganacl
+|-damage|p2a: Garganacl|69/100
+|-sidestart|p2: BirdKeeprrTipp|Spikes
+|-damage|p1a: Samurott|0 fnt|[from] item: Rocky Helmet|[of] p2a: Garganacl
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Azelf|Azelf|100/100
+|turn|7
+|
+|move|p1a: Azelf|Energy Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|16/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ceruledge|atk|1
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-heal|p1a: Landorus|22/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|10
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|76/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|turn|11
+|
+|move|p1a: Zamazenta|Crunch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|38/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-heal|p2a: Ceruledge|52/100|[from] drain|[of] p1a: Zamazenta
+|
+|turn|12
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Zamazenta
+|-damage|p1a: Zamazenta|51/100
+|move|p1a: Zamazenta|Crunch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Azelf|Azelf|100/100
+|-terastallize|p2a: Enamorus|Fairy
+|move|p2a: Enamorus|Play Rough|p1a: Azelf|[miss]
+|-miss|p2a: Enamorus|p1a: Azelf
+|
+|turn|14
+|
+|move|p1a: Azelf|Fire Blast|p2a: Enamorus|[miss]
+|-miss|p1a: Azelf|p2a: Enamorus
+|move|p2a: Enamorus|Superpower|p1a: Azelf
+|-resisted|p1a: Azelf
+|-damage|p1a: Azelf|60/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|-damage|p2a: Enamorus|66/100|[from] item: Life Orb
+|
+|turn|15
+|
+|move|p1a: Azelf|Fire Blast|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|-damage|p2a: Basculegion|76/100|[from] Spikes
+|turn|16
+|
+|switch|p1a: Zamazenta|Zamazenta|51/100
+|move|p2a: Basculegion|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|6/100
+|-enditem|p1a: Zamazenta|Iapapa Berry|[eat]
+|-heal|p1a: Zamazenta|39/100|[from] item: Iapapa Berry
+|
+|turn|17
+|
+|move|p2a: Basculegion|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Azelf|Azelf|60/100
+|turn|18
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|-damage|p2a: Goodra|82/100|[from] Spikes
+|move|p1a: Azelf|Thunderbolt|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|67/100
+|
+|-heal|p2a: Goodra|73/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, F|100/100
+|move|p2a: Goodra|Body Press|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|69/100
+|
+|-heal|p2a: Goodra|79/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Goodra|Flash Cannon|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|-heal|p2a: Goodra|85/100|[from] item: Leftovers
+|
+|switch|p1a: Azelf|Azelf|60/100
+|turn|21
+|
+|move|p1a: Azelf|Fire Blast|p2a: Goodra
+|-damage|p2a: Goodra|50/100
+|move|p2a: Goodra|Flash Cannon|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|-heal|p2a: Goodra|57/100|[from] item: Leftovers
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|22
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Arcanine|spe|1
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Basculegion|Basculegion-F, F|76/100
+|-damage|p2a: Basculegion|63/100|[from] Stealth Rock
+|-damage|p2a: Basculegion|51/100|[from] Spikes
+|turn|23
+|
+|-terastallize|p1a: Arcanine|Flying
+|move|p2a: Basculegion|Surf|p1a: Arcanine
+|-damage|p1a: Arcanine|35/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, M|76/100
+|-damage|p2a: Amoonguss|63/100|[from] Stealth Rock
+|-damage|p2a: Amoonguss|51/100|[from] Spikes
+|turn|24
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|win|Donsyn

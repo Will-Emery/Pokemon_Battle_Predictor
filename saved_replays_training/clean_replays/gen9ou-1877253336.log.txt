@@ -1,0 +1,201 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p1|Skeledirge, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Goodra-Hisui, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Rotom-Wash|
+|poke|p2|Garchomp, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Chien-Pao|
+|teampreview|6
+|
+|start
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|switch|p2a: I inked myself|Glimmora, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Sneasler|Close Combat|p2a: I inked myself
+|-damage|p2a: I inked myself|43/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-activate|p2a: I inked myself|ability: Toxic Debris
+|-sidestart|p1: Lectrys|move: Toxic Spikes
+|move|p2a: I inked myself|Earth Power|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|2
+|
+|move|p1a: Iron Treads|Earthquake|p2a: I inked myself
+|-supereffective|p2a: I inked myself
+|-damage|p2a: I inked myself|0 fnt
+|-activate|p2a: I inked myself|ability: Toxic Debris
+|-sidestart|p1: Lectrys|move: Toxic Spikes
+|faint|p2a: I inked myself
+|
+|
+|switch|p2a: Phantom|Rotom-Wash, shiny|100/100
+|turn|3
+|
+|move|p2a: Phantom|Trick|p1a: Iron Treads
+|-activate|p2a: Phantom|move: Trick|[of] p1a: Iron Treads
+|-item|p1a: Iron Treads|Choice Scarf|[from] move: Trick
+|-item|p2a: Phantom|Assault Vest|[from] move: Trick
+|move|p1a: Iron Treads|Rapid Spin|p2a: Phantom
+|-damage|p2a: Phantom|79/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: Lectrys|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|turn|4
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Phantom|Hydro Pump|p1a: Goodra|[miss]
+|-miss|p2a: Phantom|p1a: Goodra
+|
+|turn|5
+|
+|move|p2a: Phantom|Volt Switch|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|93/100
+|
+|switch|p2a: Spirit Rush|Gholdengo|100/100|[from] Volt Switch
+|move|p1a: Goodra|Draco Meteor|p2a: Spirit Rush
+|-resisted|p2a: Spirit Rush
+|-damage|p2a: Spirit Rush|69/100
+|-unboost|p1a: Goodra|spa|2
+|
+|turn|6
+|
+|move|p2a: Spirit Rush|Focus Blast|p1a: Goodra|[miss]
+|-miss|p2a: Spirit Rush|p1a: Goodra
+|move|p1a: Goodra|Earthquake|p2a: Spirit Rush
+|-supereffective|p2a: Spirit Rush
+|-damage|p2a: Spirit Rush|16/100
+|
+|turn|7
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Spirit Rush|Focus Blast|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|80/100
+|
+|turn|8
+|
+|move|p1a: Enamorus|Moonblast|p2a: Spirit Rush
+|-resisted|p2a: Spirit Rush
+|-damage|p2a: Spirit Rush|0 fnt
+|faint|p2a: Spirit Rush
+|
+|
+|switch|p2a: Phantom|Rotom-Wash, shiny|79/100
+|turn|9
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|93/100
+|move|p2a: Phantom|Hydro Pump|p1a: Goodra|[miss]
+|-miss|p2a: Phantom|p1a: Goodra
+|
+|turn|10
+|
+|move|p2a: Phantom|Volt Switch|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|86/100
+|
+|switch|p2a: Calamity|Iron Valiant, shiny|100/100|[from] Volt Switch
+|-enditem|p2a: Calamity|Booster Energy
+|-activate|p2a: Calamity|ability: Quark Drive|[fromitem]
+|-start|p2a: Calamity|quarkdrivespe
+|move|p1a: Goodra|Draco Meteor|p2a: Calamity
+|-immune|p2a: Calamity
+|
+|turn|11
+|
+|move|p2a: Calamity|Swords Dance|p2a: Calamity
+|-boost|p2a: Calamity|atk|2
+|move|p1a: Goodra|Heavy Slam|p2a: Calamity
+|-supereffective|p2a: Calamity
+|-damage|p2a: Calamity|0 fnt
+|faint|p2a: Calamity
+|-end|p2a: Calamity|Quark Drive|[silent]
+|
+|
+|switch|p2a: Leviathan|Dragapult, M, shiny|100/100
+|turn|12
+|
+|-terastallize|p2a: Leviathan|Ghost
+|move|p2a: Leviathan|Dragon Darts|p1a: Goodra
+|-damage|p1a: Goodra|56/100
+|-anim|p2a: Leviathan|Dragon Darts|p1a: Goodra
+|-damage|p1a: Goodra|25/100
+|move|p1a: Goodra|Draco Meteor|p2a: Leviathan
+|-damage|p2a: Leviathan|30/100
+|-unboost|p1a: Goodra|spa|2
+|
+|turn|13
+|
+|switch|p1a: Enamorus|Enamorus, F|80/100
+|move|p2a: Leviathan|Dragon Darts|p1a: Enamorus
+|-immune|p1a: Enamorus
+|
+|turn|14
+|
+|switch|p2a: Phantom|Rotom-Wash, shiny|79/100
+|move|p1a: Enamorus|Moonblast|p2a: Phantom
+|-damage|p2a: Phantom|5/100
+|
+|turn|15
+|
+|move|p1a: Enamorus|Moonblast|p2a: Phantom
+|-damage|p2a: Phantom|0 fnt
+|faint|p2a: Phantom
+|
+|
+|switch|p2a: Leviathan|Dragapult, M, shiny, tera:Ghost|30/100
+|turn|16
+|
+|move|p2a: Leviathan|Tera Blast|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|17
+|
+|move|p1a: Zamazenta|Crunch|p2a: Leviathan
+|-supereffective|p2a: Leviathan
+|-damage|p2a: Leviathan|0 fnt
+|faint|p2a: Leviathan
+|
+|
+|switch|p2a: Overgod|Kingambit, M, shiny|100/100
+|-activate|p2a: Overgod|ability: Supreme Overlord
+|-start|p2a: Overgod|fallen5|[silent]
+|turn|18
+|
+|move|p1a: Zamazenta|Close Combat|p2a: Overgod
+|-supereffective|p2a: Overgod
+|-damage|p2a: Overgod|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Overgod
+|-end|p2a: Overgod|fallen5|[silent]
+|
+|win|Lectrys
+|n|☆Lectrys|lectrys
+|n|☆Btucks6203|btucks6203
+|n|*Lady Monita|ladymonita
+|n| 508KD|508kd
+|n| Crown Oji|crownoji
+|n| theironpikachu|theironpikachu

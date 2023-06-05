@@ -1,0 +1,483 @@
+|poke|p1|Kingambit, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p1|Volcarona, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Dondozo, M|
+|poke|p2|Magearna|
+|poke|p2|Volcarona, M|
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Rotom|Trick|p2a: Magearna
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Magearna
+|-item|p2a: Magearna|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Choice Specs|[from] move: Trick
+|move|p2a: Magearna|Fleur Cannon|p1a: Rotom
+|-damage|p1a: Rotom|25/100
+|-unboost|p2a: Magearna|spa|2
+|
+|turn|2
+|
+|switch|p1a: volc|Volcarona, F, shiny|100/100
+|move|p2a: Magearna|Fleur Cannon|p1a: volc
+|-resisted|p1a: volc
+|-damage|p1a: volc|85/100
+|-unboost|p2a: Magearna|spa|2
+|
+|turn|3
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|switch|p1a: spin on em|Great Tusk|100/100
+|
+|turn|4
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: spin on em|atk|1
+|move|p1a: spin on em|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|79/100
+|-enditem|p2a: Landorus|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: spin on em
+|
+|turn|5
+|
+|move|p2a: Landorus|Stealth Rock|p1a: spin on em
+|-sidestart|p1: blackgokuking|move: Stealth Rock
+|move|p1a: spin on em|Stealth Rock|p2a: Landorus
+|-sidestart|p2: REAL CUNNT|move: Stealth Rock
+|
+|turn|6
+|
+|move|p2a: Landorus|U-turn|p1a: spin on em
+|-resisted|p1a: spin on em
+|-damage|p1a: spin on em|95/100
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100|[from] U-turn
+|-damage|p2a: Dondozo|88/100|[from] Stealth Rock
+|move|p1a: spin on em|Rapid Spin|p2a: Dondozo
+|-damage|p2a: Dondozo|82/100
+|-boost|p1a: spin on em|spe|1
+|-damage|p1a: spin on em|78/100|[from] item: Rocky Helmet|[of] p2a: Dondozo
+|-sideend|p1: blackgokuking|Stealth Rock|[from] move: Rapid Spin|[of] p1a: spin on em
+|
+|-heal|p1a: spin on em|84/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p1a: spin on em|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Wash|25/100
+|move|p2a: Dondozo|Liquidation|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|9/100
+|-unboost|p1a: Rotom|def|1
+|
+|turn|8
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|95/100|[from] Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Magearna|[miss]
+|-miss|p1a: Rotom|p2a: Magearna
+|
+|turn|9
+|
+|move|p2a: Magearna|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M|79/100|[from] Volt Switch
+|-damage|p2a: Landorus|66/100|[from] Stealth Rock
+|
+|
+|switch|p1a: Iron GOAT|Iron Valiant|100/100
+|turn|10
+|
+|move|p1a: Iron GOAT|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|turn|11
+|
+|-end|p1a: Iron GOAT|Quark Drive|[silent]
+|switch|p1a: Tera Bug|Dragapult, M|100/100
+|move|p2a: Slowking|Future Sight|p1a: Tera Bug
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|94/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Tera Bug|Substitute|p1a: Tera Bug
+|-start|p1a: Tera Bug|Substitute
+|-damage|p1a: Tera Bug|76/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Magearna|Magearna|95/100|[from] Chilly Reception
+|-damage|p2a: Magearna|89/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Tera Bug|82/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Tera Bug|Phantom Force||[still]
+|-prepare|p1a: Tera Bug|Phantom Force
+|move|p2a: Magearna|Flash Cannon|p1a: Tera Bug|[miss]|[miss]
+|-miss|p2a: Magearna|p1a: Tera Bug
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Tera Bug|move: Future Sight
+|-miss|p2: Slowking|p1a: Tera Bug
+|-heal|p1a: Tera Bug|88/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Dondozo|Dondozo, M|82/100
+|-damage|p2a: Dondozo|69/100|[from] Stealth Rock
+|move|p1a: Tera Bug|Phantom Force|p2a: Dondozo|[from]lockedmove
+|-damage|p2a: Dondozo|48/100
+|-damage|p1a: Tera Bug|71/100|[from] item: Rocky Helmet|[of] p2a: Dondozo
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Tera Bug|77/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|36/100
+|-anim|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|24/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Tera Bug|83/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|17/100
+|-anim|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|9/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-weather|none
+|-heal|p1a: Tera Bug|89/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: Iron GOAT|Iron Valiant|100/100
+|cant|p2a: Dondozo|slp
+|
+|turn|18
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Iron GOAT|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|
+|-heal|p2a: Slowking|68/100|[from] item: Leftovers
+|turn|19
+|
+|-end|p1a: Iron GOAT|Quark Drive|[silent]
+|switch|p1a: spin on em|Great Tusk|84/100
+|move|p2a: Slowking|Future Sight|p1a: spin on em
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: spin on em|90/100|[from] item: Leftovers
+|-heal|p2a: Slowking|74/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100 slp
+|-damage|p2a: Dondozo|88/100 slp|[from] Stealth Rock
+|move|p1a: spin on em|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|76/100 slp
+|-damage|p1a: spin on em|74/100|[from] item: Rocky Helmet|[of] p2a: Dondozo
+|-enditem|p2a: Dondozo|Rocky Helmet|[from] move: Knock Off|[of] p1a: spin on em
+|
+|-heal|p1a: spin on em|80/100|[from] item: Leftovers
+|turn|21
+|
+|-end|p1a: spin on em|Protosynthesis|[silent]
+|switch|p1a: volc|Volcarona, F, shiny|85/100
+|cant|p2a: Dondozo|slp
+|
+|-end|p1a: volc|move: Future Sight
+|-damage|p1a: volc|43/100
+|turn|22
+|
+|move|p1a: volc|Morning Sun|p1a: volc
+|-heal|p1a: volc|93/100
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Liquidation|p1a: volc
+|-supereffective|p1a: volc
+|-damage|p1a: volc|29/100
+|
+|turn|23
+|
+|switch|p1a: Tera Bug|Dragapult, M|89/100
+|move|p2a: Dondozo|Liquidation|p1a: Tera Bug
+|-resisted|p1a: Tera Bug
+|-damage|p1a: Tera Bug|70/100
+|
+|-heal|p1a: Tera Bug|76/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|63/100
+|-anim|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|51/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p1a: Tera Bug|82/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|43/100
+|-anim|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|35/100
+|move|p2a: Dondozo|Liquidation|p1a: Tera Bug
+|-resisted|p1a: Tera Bug
+|-damage|p1a: Tera Bug|51/100
+|
+|-heal|p1a: Tera Bug|57/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|27/100
+|-anim|p1a: Tera Bug|Dragon Darts|p2a: Dondozo
+|-damage|p2a: Dondozo|19/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|-heal|p1a: Tera Bug|63/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p1a: Iron GOAT|Iron Valiant|100/100
+|cant|p2a: Dondozo|slp
+|
+|turn|28
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Iron GOAT|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|39/100
+|
+|-heal|p2a: Slowking|45/100|[from] item: Leftovers
+|turn|29
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Iron GOAT|Shadow Ball|p2a: Volcarona
+|-damage|p2a: Volcarona|59/100
+|
+|turn|30
+|
+|move|p1a: Iron GOAT|Shadow Ball|p2a: Volcarona
+|-damage|p2a: Volcarona|14/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|31
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Iron GOAT
+|-damage|p1a: Iron GOAT|28/100
+|-heal|p2a: Volcarona|48/100|[from] drain|[of] p1a: Iron GOAT
+|move|p1a: Iron GOAT|Shadow Ball|p2a: Volcarona
+|-damage|p2a: Volcarona|22/100
+|
+|turn|32
+|
+|-end|p1a: Iron GOAT|Quark Drive|[silent]
+|switch|p1a: Tera Bug|Dragapult, M|63/100
+|move|p2a: Volcarona|Giga Drain|p1a: Tera Bug
+|-resisted|p1a: Tera Bug
+|-damage|p1a: Tera Bug|32/100
+|-heal|p2a: Volcarona|38/100|[from] drain|[of] p1a: Tera Bug
+|
+|-heal|p1a: Tera Bug|38/100|[from] item: Leftovers
+|turn|33
+|
+|move|p2a: Volcarona|Bug Buzz|p1a: Tera Bug
+|-resisted|p1a: Tera Bug
+|-damage|p1a: Tera Bug|0 fnt
+|faint|p1a: Tera Bug
+|
+|
+|switch|p1a: volc|Volcarona, F, shiny|29/100
+|turn|34
+|
+|move|p2a: Volcarona|Fiery Dance|p1a: volc
+|-damage|p1a: volc|0 fnt
+|faint|p1a: volc
+|
+|
+|switch|p1a: 最后绝望:午夜篇|Kingambit, M|100/100
+|-activate|p1a: 最后绝望:午夜篇|ability: Supreme Overlord
+|-start|p1a: 最后绝望:午夜篇|fallen3|[silent]
+|turn|35
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: 最后绝望:午夜篇|Kowtow Cleave|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|turn|36
+|
+|-terastallize|p1a: 最后绝望:午夜篇|Flying
+|move|p2a: Sneasler|Switcheroo|p1a: 最后绝望:午夜篇
+|-activate|p2a: Sneasler|move: Trick|[of] p1a: 最后绝望:午夜篇
+|-item|p1a: 最后绝望:午夜篇|Choice Band|[from] move: Switcheroo
+|-item|p2a: Sneasler|Leftovers|[from] move: Switcheroo
+|move|p1a: 最后绝望:午夜篇|Iron Head|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100 slp
+|-damage|p2a: Dondozo|88/100 slp|[from] Stealth Rock
+|turn|37
+|
+|-end|p1a: 最后绝望:午夜篇|fallen3|[silent]
+|switch|p1a: Iron GOAT|Iron Valiant|28/100
+|cant|p2a: Dondozo|slp
+|
+|turn|38
+|
+|switch|p2a: Slowking|Slowking-Galar, M|78/100
+|-damage|p2a: Slowking|66/100|[from] Stealth Rock
+|move|p1a: Iron GOAT|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|38/100
+|
+|-heal|p2a: Slowking|44/100|[from] item: Leftovers
+|turn|39
+|
+|move|p1a: Iron GOAT|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|20/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Iron GOAT
+|-supereffective|p1a: Iron GOAT
+|-damage|p1a: Iron GOAT|0 fnt
+|faint|p1a: Iron GOAT
+|-end|p1a: Iron GOAT|Quark Drive|[silent]
+|
+|-heal|p2a: Slowking|26/100|[from] item: Leftovers
+|
+|switch|p1a: 最后绝望:午夜篇|Kingambit, M, tera:Flying|100/100
+|-activate|p1a: 最后绝望:午夜篇|ability: Supreme Overlord
+|-start|p1a: 最后绝望:午夜篇|fallen4|[silent]
+|turn|40
+|
+|move|p1a: 最后绝望:午夜篇|Kowtow Cleave|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Magearna|Magearna|89/100
+|-damage|p2a: Magearna|83/100|[from] Stealth Rock
+|turn|41
+|
+|-end|p1a: 最后绝望:午夜篇|fallen4|[silent]
+|switch|p1a: spin on em|Great Tusk|80/100
+|move|p2a: Magearna|Fleur Cannon|p1a: spin on em
+|-supereffective|p1a: spin on em
+|-damage|p1a: spin on em|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: spin on em
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: spin on em|Protosynthesis|[silent]
+|
+|
+|switch|p1a: 最后绝望:午夜篇|Kingambit, M, tera:Flying|100/100
+|-activate|p1a: 最后绝望:午夜篇|ability: Supreme Overlord
+|-start|p1a: 最后绝望:午夜篇|fallen5|[silent]
+|turn|42
+|
+|switch|p2a: Dondozo|Dondozo, M|88/100 slp
+|-damage|p2a: Dondozo|76/100 slp|[from] Stealth Rock
+|move|p1a: 最后绝望:午夜篇|Iron Head|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|53/100 slp
+|
+|turn|43
+|
+|move|p1a: 最后绝望:午夜篇|Iron Head|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|30/100 slp
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|turn|44
+|
+|move|p1a: 最后绝望:午夜篇|Iron Head|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|79/100 slp
+|cant|p2a: Dondozo|slp
+|
+|turn|45
+|
+|move|p1a: 最后绝望:午夜篇|Iron Head|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|55/100 slp
+|cant|p2a: Dondozo|slp
+|
+|turn|46
+|
+|move|p1a: 最后绝望:午夜篇|Iron Head|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|31/100 slp
+|-curestatus|p2a: Dondozo|slp|[msg]
+|cant|p2a: Dondozo|flinch
+|
+|turn|47
+|
+|move|p1a: 最后绝望:午夜篇|Iron Head|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|7/100
+|cant|p2a: Dondozo|flinch
+|
+|turn|48
+|
+|move|p1a: 最后绝望:午夜篇|Iron Head|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|
+|switch|p2a: Magearna|Magearna|83/100
+|-damage|p2a: Magearna|77/100|[from] Stealth Rock
+|turn|49
+|
+|move|p2a: Magearna|Volt Switch|p1a: 最后绝望:午夜篇
+|-supereffective|p1a: 最后绝望:午夜篇
+|-damage|p1a: 最后绝望:午夜篇|51/100
+|move|p1a: 最后绝望:午夜篇|Iron Head|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|win|blackgokuking

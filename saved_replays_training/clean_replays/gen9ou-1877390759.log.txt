@@ -1,0 +1,157 @@
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Ursaluna, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Clodsire, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Slowbro, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Klefki, M|
+|teampreview
+|
+|start
+|switch|p1a: braindead shit (6)|Magearna|100/100
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|turn|1
+|
+|switch|p1a: not laem!!!|Tornadus-Therian, M|100/100
+|switch|p2a: Decidueye|Decidueye-Hisui, M|100/100
+|
+|turn|2
+|
+|switch|p2a: Klefki|Klefki, M|100/100
+|move|p1a: not laem!!!|Bleakwind Storm|p2a: Klefki|[miss]
+|-miss|p1a: not laem!!!|p2a: Klefki
+|
+|turn|3
+|
+|move|p2a: Klefki|Thunder Wave|p1a: not laem!!!|[miss]
+|-miss|p2a: Klefki|p1a: not laem!!!
+|move|p1a: not laem!!!|Nasty Plot|p1a: not laem!!!
+|-boost|p1a: not laem!!!|spa|2
+|
+|turn|4
+|
+|move|p2a: Klefki|Thunder Wave|p1a: not laem!!!|[miss]
+|-miss|p2a: Klefki|p1a: not laem!!!
+|move|p1a: not laem!!!|Heat Wave|p2a: Klefki|[miss]
+|-miss|p1a: not laem!!!|p2a: Klefki
+|
+|turn|5
+|
+|move|p2a: Klefki|Thunder Wave|p1a: not laem!!!
+|-status|p1a: not laem!!!|par
+|move|p1a: not laem!!!|Heat Wave|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|-damage|p1a: not laem!!!|91/100 par|[from] item: Life Orb
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|6
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Arcanine|Flare Blitz|p1a: Zamazenta
+|-damage|p1a: Zamazenta|73/100
+|
+|turn|7
+|
+|switch|p2a: Slowbro|Slowbro, M|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|turn|8
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Slowbro|Trick Room|p2a: Slowbro
+|-fieldstart|move: Trick Room|[of] p2a: Slowbro
+|
+|turn|9
+|
+|move|p2a: Slowbro|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|42/100
+|move|p1a: Zamazenta|Body Press|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|58/100
+|-damage|p1a: Zamazenta|25/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|turn|10
+|
+|move|p2a: Slowbro|Psyshock|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|14/100
+|move|p1a: Zamazenta|Rest|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Rest
+|-heal|p1a: Zamazenta|100/100 slp|[silent]
+|-enditem|p1a: Zamazenta|Chesto Berry|[eat]
+|-curestatus|p1a: Zamazenta|slp|[msg]
+|
+|turn|11
+|
+|-terastallize|p1a: Zamazenta|Fighting
+|move|p2a: Slowbro|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|70/100
+|move|p1a: Zamazenta|Body Press|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|4/100
+|-damage|p1a: Zamazenta|53/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|
+|turn|12
+|
+|move|p2a: Slowbro|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|24/100
+|move|p1a: Zamazenta|Body Press|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-damage|p1a: Zamazenta|7/100|[from] item: Rocky Helmet|[of] p2a: Slowbro
+|faint|p2a: Slowbro
+|
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|13
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Zamazenta
+|-damage|p1a: Zamazenta|1/100
+|move|p1a: Zamazenta|Rest|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Rest
+|-heal|p1a: Zamazenta|100/100 slp|[silent]
+|
+|turn|14
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|cant|p1a: Zamazenta|slp
+|
+|turn|15
+|
+|cant|p1a: Zamazenta|slp
+|move|p2a: Roaring Moon|Dragon Dance|p2a: Roaring Moon
+|-boost|p2a: Roaring Moon|atk|1
+|-boost|p2a: Roaring Moon|spe|1
+|
+|turn|16
+|
+|-terastallize|p2a: Roaring Moon|Flying
+|move|p2a: Roaring Moon|Acrobatics|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|58/100 slp
+|-curestatus|p1a: Zamazenta|slp|[msg]
+|move|p1a: Zamazenta|Body Press|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|-message|King.owenjr forfeited.
+|
+|win|Chemistryfan000

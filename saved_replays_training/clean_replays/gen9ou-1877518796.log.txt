@@ -1,0 +1,373 @@
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Roaring Moon|
+|poke|p1|Skeledirge, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Sandy Shocks|
+|poke|p2|Sneasler, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Zapdos|
+|poke|p2|Garganacl, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Electro|Sandy Shocks|100/100
+|switch|p2a: dance up|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: dance up|Shadow Ball|p1a: Electro
+|-damage|p1a: Electro|31/100
+|move|p1a: Electro|Stealth Rock|p2a: dance up
+|-sidestart|p2: jimy92|move: Stealth Rock
+|
+|turn|2
+|
+|-end|p1a: Electro|Protosynthesis|[silent]
+|switch|p1a: Storm|Tornadus-Therian, M|100/100
+|move|p2a: dance up|Shadow Ball|p1a: Storm
+|-damage|p1a: Storm|41/100
+|-unboost|p1a: Storm|spd|1
+|
+|turn|3
+|
+|switch|p1a: Fin Fang Foom|Roaring Moon|100/100
+|move|p2a: dance up|Shadow Ball|p1a: Fin Fang Foom
+|-resisted|p1a: Fin Fang Foom
+|-damage|p1a: Fin Fang Foom|74/100
+|
+|turn|4
+|
+|switch|p2a: nacci|Garganacl, M|100/100
+|-damage|p2a: nacci|88/100|[from] Stealth Rock
+|move|p1a: Fin Fang Foom|Crunch|p2a: nacci
+|-damage|p2a: nacci|53/100
+|-unboost|p2a: nacci|def|1
+|
+|-heal|p2a: nacci|59/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: nacci|Protect|p2a: nacci
+|-singleturn|p2a: nacci|Protect
+|move|p1a: Fin Fang Foom|Crunch|p2a: nacci
+|-activate|p2a: nacci|move: Protect
+|
+|-heal|p2a: nacci|66/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: just stop|Zapdos|100/100
+|move|p1a: Fin Fang Foom|Crunch|p2a: just stop
+|-damage|p2a: just stop|50/100
+|-status|p1a: Fin Fang Foom|par|[from] ability: Static|[of] p2a: just stop
+|
+|turn|7
+|
+|switch|p2a: achoo|Sneasler, M|100/100
+|-damage|p2a: achoo|95/100|[from] Stealth Rock
+|move|p1a: Fin Fang Foom|Crunch|p2a: achoo
+|-resisted|p2a: achoo
+|-damage|p2a: achoo|43/100
+|
+|turn|8
+|
+|-end|p1a: Fin Fang Foom|Protosynthesis|[silent]
+|switch|p1a: Vulture|Corviknight, F|100/100
+|-ability|p1a: Vulture|Pressure
+|move|p2a: achoo|Fake Out|p1a: Vulture
+|-resisted|p1a: Vulture
+|-damage|p1a: Vulture|96/100
+|
+|turn|9
+|
+|move|p2a: achoo|U-turn|p1a: Vulture
+|-resisted|p1a: Vulture
+|-damage|p1a: Vulture|93/100
+|
+|switch|p2a: just stop|Zapdos|50/100|[from] U-turn
+|move|p1a: Vulture|Brave Bird|p2a: just stop
+|-resisted|p2a: just stop
+|-damage|p2a: just stop|37/100
+|-damage|p1a: Vulture|88/100|[from] Recoil
+|
+|turn|10
+|
+|move|p2a: just stop|Roost|p2a: just stop
+|-heal|p2a: just stop|87/100
+|-singleturn|p2a: just stop|move: Roost
+|move|p1a: Vulture|U-turn|p2a: just stop
+|-damage|p2a: just stop|77/100
+|
+|switch|p1a: Fin Fang Foom|Roaring Moon|74/100 par|[from] U-turn
+|
+|turn|11
+|
+|move|p2a: just stop|Roost|p2a: just stop
+|-heal|p2a: just stop|100/100
+|-singleturn|p2a: just stop|move: Roost
+|move|p1a: Fin Fang Foom|Outrage|p2a: just stop
+|-damage|p2a: just stop|24/100
+|
+|turn|12
+|
+|switch|p2a: 11 fingers|Iron Treads|100/100
+|-damage|p2a: 11 fingers|97/100|[from] Stealth Rock
+|move|p1a: Fin Fang Foom|Outrage|p2a: 11 fingers|[from]lockedmove
+|-resisted|p2a: 11 fingers
+|-damage|p2a: 11 fingers|61/100
+|-start|p1a: Fin Fang Foom|confusion|[fatigue]
+|
+|turn|13
+|
+|-end|p1a: Fin Fang Foom|Protosynthesis|[silent]
+|switch|p1a: Vulture|Corviknight, F|88/100
+|-ability|p1a: Vulture|Pressure
+|move|p2a: 11 fingers|Knock Off|p1a: Vulture
+|-damage|p1a: Vulture|74/100
+|-damage|p2a: 11 fingers|45/100|[from] item: Rocky Helmet|[of] p1a: Vulture
+|-enditem|p1a: Vulture|Rocky Helmet|[from] move: Knock Off|[of] p2a: 11 fingers
+|
+|turn|14
+|
+|move|p2a: 11 fingers|Volt Switch|p1a: Vulture
+|-supereffective|p1a: Vulture
+|-damage|p1a: Vulture|53/100
+|
+|-end|p2a: 11 fingers|Quark Drive|[silent]
+|switch|p2a: nacci|Garganacl, M|66/100|[from] Volt Switch
+|-damage|p2a: nacci|53/100|[from] Stealth Rock
+|move|p1a: Vulture|U-turn|p2a: nacci
+|-damage|p2a: nacci|45/100
+|
+|switch|p1a: Iron Fist|Urshifu-Rapid-Strike, M|100/100|[from] U-turn
+|
+|-heal|p2a: nacci|51/100|[from] item: Leftovers
+|turn|15
+|
+|-terastallize|p2a: nacci|Water
+|move|p1a: Iron Fist|Swords Dance|p1a: Iron Fist
+|-boost|p1a: Iron Fist|atk|2
+|move|p2a: nacci|Recover|p2a: nacci
+|-heal|p2a: nacci|100/100
+|
+|turn|16
+|
+|move|p1a: Iron Fist|Close Combat|p2a: nacci
+|-damage|p2a: nacci|29/100
+|-unboost|p1a: Iron Fist|def|1
+|-unboost|p1a: Iron Fist|spd|1
+|move|p2a: nacci|Salt Cure|p1a: Iron Fist
+|-resisted|p1a: Iron Fist
+|-damage|p1a: Iron Fist|90/100
+|-start|p1a: Iron Fist|Salt Cure
+|
+|-heal|p2a: nacci|35/100|[from] item: Leftovers
+|-damage|p1a: Iron Fist|65/100|[from] Salt Cure
+|turn|17
+|
+|move|p2a: nacci|Protect|p2a: nacci
+|-singleturn|p2a: nacci|Protect
+|move|p1a: Iron Fist|Swords Dance|p1a: Iron Fist
+|-boost|p1a: Iron Fist|atk|2
+|
+|-heal|p2a: nacci|42/100|[from] item: Leftovers
+|-damage|p1a: Iron Fist|40/100|[from] Salt Cure
+|turn|18
+|
+|switch|p2a: dance up|Dragapult, F|100/100
+|-damage|p2a: dance up|88/100|[from] Stealth Rock
+|move|p1a: Iron Fist|Surging Strikes|p2a: dance up
+|-resisted|p2a: dance up
+|-crit|p2a: dance up
+|-damage|p2a: dance up|47/100
+|-resisted|p2a: dance up
+|-crit|p2a: dance up
+|-damage|p2a: dance up|1/100
+|-resisted|p2a: dance up
+|-crit|p2a: dance up
+|-damage|p2a: dance up|0 fnt
+|faint|p2a: dance up
+|-hitcount|p2: dance up|3
+|
+|-damage|p1a: Iron Fist|15/100|[from] Salt Cure
+|
+|switch|p2a: 11 fingers|Iron Treads|45/100
+|-damage|p2a: 11 fingers|42/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Iron Fist|Aqua Jet|p2a: 11 fingers
+|-supereffective|p2a: 11 fingers
+|-damage|p2a: 11 fingers|0 fnt
+|faint|p2a: 11 fingers
+|-end|p2a: 11 fingers|Quark Drive|[silent]
+|
+|-damage|p1a: Iron Fist|0 fnt|[from] Salt Cure
+|faint|p1a: Iron Fist
+|
+|switch|p1a: Electro|Sandy Shocks|31/100
+|switch|p2a: just stop|Zapdos|24/100
+|turn|20
+|
+|move|p1a: Electro|Earth Power|p2a: just stop
+|-immune|p2a: just stop
+|move|p2a: just stop|Roost|p2a: just stop
+|-heal|p2a: just stop|74/100
+|-singleturn|p2a: just stop|move: Roost
+|
+|turn|21
+|
+|move|p1a: Electro|Volt Switch|p2a: just stop
+|-damage|p2a: just stop|35/100
+|
+|-end|p1a: Electro|Protosynthesis|[silent]
+|switch|p1a: Fin Fang Foom|Roaring Moon|74/100 par|[from] Volt Switch
+|move|p2a: just stop|Heat Wave|p1a: Fin Fang Foom
+|-resisted|p1a: Fin Fang Foom
+|-damage|p1a: Fin Fang Foom|62/100 par
+|
+|turn|22
+|
+|move|p2a: just stop|Roost|p2a: just stop
+|-heal|p2a: just stop|85/100
+|-singleturn|p2a: just stop|move: Roost
+|move|p1a: Fin Fang Foom|Outrage|p2a: just stop
+|-crit|p2a: just stop
+|-damage|p2a: just stop|0 fnt
+|faint|p2a: just stop
+|
+|
+|switch|p2a: achoo|Sneasler, M|43/100
+|-damage|p2a: achoo|37/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: achoo|U-turn|p1a: Fin Fang Foom
+|-supereffective|p1a: Fin Fang Foom
+|-damage|p1a: Fin Fang Foom|0 fnt
+|faint|p1a: Fin Fang Foom
+|-end|p1a: Fin Fang Foom|Protosynthesis|[silent]
+|
+|switch|p2a: skel issue|Skeledirge, F|100/100|[from] U-turn
+|
+|
+|switch|p1a: Ghost Rider|Skeledirge, F|100/100
+|turn|24
+|
+|switch|p2a: nacci|Garganacl, M, tera:Water|42/100
+|-damage|p2a: nacci|29/100|[from] Stealth Rock
+|move|p1a: Ghost Rider|Shadow Ball|p2a: nacci
+|-damage|p2a: nacci|17/100
+|
+|-heal|p2a: nacci|23/100|[from] item: Leftovers
+|turn|25
+|
+|switch|p1a: Electro|Sandy Shocks|31/100
+|move|p2a: nacci|Recover|p2a: nacci
+|-heal|p2a: nacci|73/100
+|
+|-heal|p2a: nacci|79/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Electro|Volt Switch|p2a: nacci
+|-supereffective|p2a: nacci
+|-damage|p2a: nacci|20/100
+|
+|-end|p1a: Electro|Protosynthesis|[silent]
+|switch|p1a: Ghost Rider|Skeledirge, F|100/100|[from] Volt Switch
+|move|p2a: nacci|Salt Cure|p1a: Ghost Rider
+|-supereffective|p1a: Ghost Rider
+|-damage|p1a: Ghost Rider|77/100
+|-start|p1a: Ghost Rider|Salt Cure
+|
+|-heal|p2a: nacci|26/100|[from] item: Leftovers
+|-damage|p1a: Ghost Rider|64/100|[from] Salt Cure
+|turn|27
+|
+|switch|p1a: Electro|Sandy Shocks|31/100
+|move|p2a: nacci|Recover|p2a: nacci
+|-heal|p2a: nacci|76/100
+|
+|-heal|p2a: nacci|82/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Electro|Volt Switch|p2a: nacci
+|-supereffective|p2a: nacci
+|-damage|p2a: nacci|23/100
+|
+|-end|p1a: Electro|Protosynthesis|[silent]
+|switch|p1a: Storm|Tornadus-Therian, M|74/100|[from] Volt Switch
+|move|p2a: nacci|Salt Cure|p1a: Storm
+|-supereffective|p1a: Storm
+|-damage|p1a: Storm|39/100
+|-start|p1a: Storm|Salt Cure
+|
+|-heal|p2a: nacci|29/100|[from] item: Leftovers
+|-damage|p1a: Storm|27/100|[from] Salt Cure
+|turn|29
+|
+|move|p1a: Storm|Bleakwind Storm|p2a: nacci
+|-damage|p2a: nacci|0 fnt
+|faint|p2a: nacci
+|
+|-damage|p1a: Storm|15/100|[from] Salt Cure
+|
+|switch|p2a: achoo|Sneasler, M|37/100
+|-damage|p2a: achoo|31/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p1a: Vulture|Corviknight, F|53/100
+|-ability|p1a: Vulture|Pressure
+|move|p2a: achoo|U-turn|p1a: Vulture
+|-resisted|p1a: Vulture
+|-damage|p1a: Vulture|49/100
+|
+|switch|p2a: skel issue|Skeledirge, F|100/100|[from] U-turn
+|
+|turn|31
+|
+|switch|p1a: Electro|Sandy Shocks|31/100
+|move|p2a: skel issue|Torch Song|p1a: Electro
+|-damage|p1a: Electro|0 fnt
+|-boost|p2a: skel issue|spa|1
+|faint|p1a: Electro
+|-end|p1a: Electro|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Ghost Rider|Skeledirge, F|64/100
+|turn|32
+|
+|-terastallize|p1a: Ghost Rider|Dark
+|move|p2a: skel issue|Hex|p1a: Ghost Rider
+|-resisted|p1a: Ghost Rider
+|-damage|p1a: Ghost Rider|56/100
+|move|p1a: Ghost Rider|Slack Off|p1a: Ghost Rider
+|-heal|p1a: Ghost Rider|100/100
+|
+|turn|33
+|
+|move|p1a: Ghost Rider|Shadow Ball|p2a: skel issue
+|-supereffective|p2a: skel issue
+|-damage|p2a: skel issue|55/100
+|move|p2a: skel issue|Torch Song|p1a: Ghost Rider
+|-damage|p1a: Ghost Rider|77/100
+|-boost|p2a: skel issue|spa|1
+|
+|turn|34
+|
+|move|p1a: Ghost Rider|Shadow Ball|p2a: skel issue
+|-supereffective|p2a: skel issue
+|-damage|p2a: skel issue|15/100
+|move|p2a: skel issue|Torch Song|p1a: Ghost Rider
+|-damage|p1a: Ghost Rider|57/100
+|-boost|p2a: skel issue|spa|1
+|
+|turn|35
+|
+|switch|p2a: achoo|Sneasler, M|31/100
+|-damage|p2a: achoo|25/100|[from] Stealth Rock
+|move|p1a: Ghost Rider|Shadow Ball|p2a: achoo
+|-damage|p2a: achoo|0 fnt
+|faint|p2a: achoo
+|
+|-message|jimy92 forfeited.
+|
+|win|One True Lycan

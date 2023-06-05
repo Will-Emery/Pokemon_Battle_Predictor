@@ -1,1 +1,217 @@
-Could not connect
+|j|☆Jimmi3jack
+|j|☆cylls
+|t:|1685907667
+|gametype|singles
+|player|p1|Jimmi3jack|170|1220
+|player|p2|cylls|worker|1231
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Gholdengo|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Diancie|
+|poke|p2|Ursaluna, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Bronzong|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cylls)
+|
+|t:|1685907678
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|
+|t:|1685907683
+|move|p1a: Gholdengo|Trick|p2a: Bronzong
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Bronzong
+|-item|p2a: Bronzong|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Focus Sash|[from] move: Trick
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|upkeep
+|turn|2
+|
+|t:|1685907709
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Gholdengo|Focus Blast|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|27/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|inactive|cylls has 120 seconds left.
+|
+|t:|1685907726
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|move|p2a: Ursaluna|Crunch|p1a: Landorus
+|-damage|p1a: Landorus|63/100
+|
+|-heal|p1a: Landorus|69/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|21/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1685907736
+|move|p2a: Ursaluna|Facade|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-damage|p2a: Ursaluna|14/100 brn|[from] brn
+|upkeep
+|
+|t:|1685907739
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|5
+|
+|t:|1685907745
+|-terastallize|p1a: Gholdengo|Fighting
+|move|p2a: Ursaluna|Earthquake|p1a: Gholdengo
+|-damage|p1a: Gholdengo|31/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Ursaluna
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685907757
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|6
+|
+|t:|1685907763
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-item|p1a: Glimmora|Air Balloon
+|move|p2a: Zapdos|Close Combat|p1a: Glimmora
+|-damage|p1a: Glimmora|30/100
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: cylls|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1685907773
+|move|p2a: Zapdos|Close Combat|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-unboost|p2a: Zapdos|def|1
+|-unboost|p2a: Zapdos|spd|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: cylls|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1685907779
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p2a: Zapdos|Choice Scarf|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|turn|8
+|
+|t:|1685907791
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Typhlosion|Eruption|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|t:|1685907801
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-sideend|p2: cylls|move: Toxic Spikes|[of] p2a: Slowking
+|turn|9
+|
+|t:|1685907807
+|move|p1a: Typhlosion|Eruption|p2a: Slowking
+|-damage|p2a: Slowking|13/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|19/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1685907819
+|move|p2a: Slowking|Sludge Bomb|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-crit|p1a: Typhlosion
+|-damage|p1a: Typhlosion|50/100
+|move|p1a: Typhlosion|Eruption|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1685907826
+|switch|p2a: Decidueye|Decidueye-Hisui, M|100/100
+|turn|11
+|
+|t:|1685907829
+|switch|p1a: Gholdengo|Gholdengo, tera:Fighting|31/100
+|move|p2a: Decidueye|Triple Arrows|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1685907833
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|12
+|
+|t:|1685907845
+|-terastallize|p2a: Decidueye|Fighting
+|move|p2a: Decidueye|Triple Arrows|p1a: Lilligant
+|-crit|p1a: Lilligant
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|move|p1a: Lilligant|Ice Spinner|p2a: Decidueye|[miss]
+|-miss|p1a: Lilligant|p2a: Decidueye
+|
+|upkeep
+|turn|13
+|
+|t:|1685907856
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|50/100
+|-item|p2a: Decidueye|Scope Lens|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|move|p2a: Decidueye|Triple Arrows|p1a: Typhlosion
+|-crit|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685907863
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|14
+|-message|Jimmi3jack forfeited.
+|
+|win|cylls
+|raw|Jimmi3jack's rating: 1220 → 1196(-24 for losing)
+|raw|cylls's rating: 1231 → 1255(+24 for winning)
+|l|☆Jimmi3jack

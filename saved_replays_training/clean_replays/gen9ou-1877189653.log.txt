@@ -1,0 +1,226 @@
+|poke|p1|Rotom-Wash|
+|poke|p1|Chien-Pao|
+|poke|p1|Heatran, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Scizor, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Pawmot, F|
+|poke|p2|Abomasnow, F|
+|poke|p2|Avalugg-Hisui, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Rotom
+|-sidestart|p1: lime4de|move: Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Dream Lord|Pawmot, F|100/100
+|turn|2
+|
+|move|p2a: Dream Lord|Revival Blessing|p2a: Dream Lord
+|
+|-heal|p2: Landorus|50/100|[from] move: Revival Blessing
+|move|p1a: Rotom|Will-O-Wisp|p2a: Dream Lord
+|-status|p2a: Dream Lord|brn
+|
+|-damage|p2a: Dream Lord|94/100 brn|[from] brn
+|turn|3
+|
+|move|p2a: Dream Lord|Rest|p2a: Dream Lord
+|-status|p2a: Dream Lord|slp|[from] move: Rest
+|-heal|p2a: Dream Lord|100/100 slp|[silent]
+|move|p1a: Rotom|Hydro Pump|p2a: Dream Lord
+|-damage|p2a: Dream Lord|45/100 slp
+|
+|turn|4
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Slowking|[miss]
+|-miss|p1a: Rotom|p2a: Slowking
+|
+|turn|5
+|
+|move|p1a: Rotom|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|
+|switch|p1a: Scizor|Scizor, F|100/100|[from] Volt Switch
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p1a: Scizor|94/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Landorus|Landorus-Therian, M|50/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|
+|turn|7
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, F, shiny|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Avalugg
+|-crit|p2a: Avalugg
+|-damage|p2a: Avalugg|16/100
+|-activate|p2a: Avalugg|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Avalugg|3/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|8
+|
+|switch|p1a: Scizor|Scizor, F|94/100
+|-damage|p1a: Scizor|82/100|[from] Stealth Rock
+|-terastallize|p2a: Avalugg|Fighting
+|move|p2a: Avalugg|Body Press|p1a: Scizor
+|-damage|p1a: Scizor|38/100
+|
+|-heal|p1a: Scizor|44/100|[from] item: Leftovers
+|-end|p2a: Avalugg|Magma Storm|[partiallytrapped]|[silent]
+|turn|9
+|
+|move|p2a: Avalugg|Body Press|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Rotom|Volt Switch|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Volt Switch
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|50/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|turn|11
+|
+|switch|p1a: Heatran|Heatran, F|88/100
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-immune|p1a: Heatran
+|
+|turn|12
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Slowking|[miss]
+|-miss|p1a: Heatran|p2a: Slowking
+|
+|turn|13
+|
+|move|p1a: Heatran|Magma Storm|p2a: Slowking|[miss]
+|-miss|p1a: Heatran|p2a: Slowking
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|14
+|
+|move|p2a: Slowking|Future Sight|p1a: Heatran
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Heatran|Magma Storm|p2a: Slowking|[miss]
+|-miss|p1a: Heatran|p2a: Slowking
+|
+|turn|15
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Magearna|[miss]
+|-miss|p1a: Heatran|p2a: Magearna
+|
+|turn|16
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|-activate|p2a: Slowking|move: Magma Storm|[of] p1a: Heatran
+|
+|-end|p1a: Heatran|move: Future Sight
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|55/100
+|-enditem|p1a: Heatran|Air Balloon
+|-damage|p2a: Slowking|41/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|17
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] Chilly Reception
+|move|p1a: Heatran|Taunt|p2a: Magearna
+|-start|p2a: Magearna|move: Taunt
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|turn|18
+|
+|switch|p2a: Slowking|Slowking-Galar, M|75/100
+|move|p1a: Heatran|Magma Storm|p2a: Slowking
+|-damage|p2a: Slowking|30/100
+|-activate|p2a: Slowking|move: Magma Storm|[of] p1a: Heatran
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Slowking|18/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|19
+|
+|move|p1a: Heatran|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Landorus|Landorus-Therian, M|50/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|20
+|
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|21
+|
+|move|p2a: Landorus|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|none
+|
+|switch|p1a: Rotom|Rotom-Wash|88/100
+|-damage|p1a: Rotom|75/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Abomasnow|Abomasnow, F, shiny|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Rotom|Hydro Pump|p2a: Abomasnow|[miss]
+|-miss|p1a: Rotom|p2a: Abomasnow
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|turn|23
+|-message|lime4de forfeited.
+|
+|win|Green Costume

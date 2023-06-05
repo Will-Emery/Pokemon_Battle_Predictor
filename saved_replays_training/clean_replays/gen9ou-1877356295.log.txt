@@ -1,0 +1,183 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Baxcalibur, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Moth|
+|poke|p1|Kleavor, F|
+|poke|p2|Heracross, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Treads|
+|poke|p2|Corviknight, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Azumarill, M|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|1
+|
+|-terastallize|p1a: Kleavor|Bug
+|move|p2a: Meowscarada|Flower Trick|p1a: Kleavor
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Kleavor
+|-crit|p1a: Kleavor
+|-damage|p1a: Kleavor|60/100
+|move|p1a: Kleavor|Stone Axe|p2a: Meowscarada
+|-damage|p2a: Meowscarada|17/100
+|-sidestart|p2: Tanganyiko|move: Stealth Rock
+|
+|turn|2
+|
+|-terastallize|p2a: Meowscarada|Grass
+|move|p2a: Meowscarada|Flower Trick|p1a: Kleavor
+|-resisted|p1a: Kleavor
+|-crit|p1a: Kleavor
+|-damage|p1a: Kleavor|12/100
+|move|p1a: Kleavor|Stone Axe|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|turn|3
+|
+|move|p2a: Iron Treads|Rapid Spin|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Tanganyiko|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|turn|4
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Iron Treads
+|-damage|p2a: Iron Treads|65/100
+|move|p2a: Iron Treads|Earthquake|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|57/100
+|
+|turn|5
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Iron Treads
+|-damage|p2a: Iron Treads|32/100
+|move|p2a: Iron Treads|Volt Switch|p1a: Baxcalibur
+|-resisted|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|53/100
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|
+|turn|6
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Corviknight
+|-damage|p2a: Corviknight|81/100
+|move|p2a: Corviknight|Brave Bird|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|23/100
+|-damage|p2a: Corviknight|71/100|[from] Recoil
+|
+|turn|7
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Corviknight
+|-damage|p2a: Corviknight|52/100
+|move|p2a: Corviknight|Brave Bird|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|-damage|p2a: Corviknight|44/100|[from] Recoil
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|8
+|
+|switch|p2a: Iron Treads|Iron Treads|32/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|9
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Azumarill
+|-damage|p2a: Azumarill|34/100
+|move|p2a: Azumarill|Liquidation|p1a: Gholdengo
+|-damage|p1a: Gholdengo|53/100
+|
+|turn|10
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|12
+|
+|switch|p2a: Corviknight|Corviknight, M|44/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|turn|13
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|94/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|14
+|
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Corviknight
+|-damage|p2a: Corviknight|30/100
+|-unboost|p1a: Hoopa|def|1
+|move|p2a: Corviknight|U-turn|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|switch|p2a: Heracross|Heracross, F|100/100|[from] U-turn
+|
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|15
+|
+|move|p2a: Heracross|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|-ability|p2a: Heracross|Moxie|boost
+|-boost|p2a: Heracross|atk|1
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|16
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|17
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Chien-Pao
+|
+|win|Tanganyiko

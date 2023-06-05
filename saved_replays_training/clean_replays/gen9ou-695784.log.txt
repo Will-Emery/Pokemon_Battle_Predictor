@@ -1,0 +1,325 @@
+|poke|p1|Iron Hands|
+|poke|p1|Walking Wake|
+|poke|p1|Skeledirge, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Garganacl, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|poke|p2|Cinderace, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Slowking, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|move|p2a: Cinderace|U-turn|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|97/100
+|
+|switch|p2a: Meowscarada|Meowscarada, M|100/100|[from] U-turn
+|
+|turn|2
+|
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Meowscarada|U-turn|p1a: Iron Hands
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Iron Hands
+|-damage|p1a: Iron Hands|88/100
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|
+|turn|3
+|
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Skeledirge|Skeledirge, F|97/100
+|move|p2a: Cinderace|U-turn|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|93/100
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100|[from] U-turn
+|
+|turn|4
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|88/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Garganacl|Salt Cure|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|71/100
+|-start|p1a: Skeledirge|Salt Cure
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p1a: Skeledirge|58/100|[from] Salt Cure
+|turn|5
+|
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|77/100
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Skeledirge|65/100|[from] Salt Cure
+|turn|6
+|
+|move|p1a: Skeledirge|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|47/100
+|move|p2a: Garganacl|Salt Cure|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|45/100
+|
+|-heal|p2a: Garganacl|53/100|[from] item: Leftovers
+|-damage|p1a: Skeledirge|33/100|[from] Salt Cure
+|turn|7
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|83/100
+|
+|-damage|p1a: Skeledirge|71/100|[from] Salt Cure
+|turn|8
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Meowscarada
+|-sidestart|p1: xavgb|move: Stealth Rock
+|
+|turn|9
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Meowscarada|Spikes|p2a: Cinderace
+|-sidestart|p2: SOULWIND|Spikes
+|
+|turn|10
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|60/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Cinderace|U-turn|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-enditem|p1a: Meowscarada|Focus Sash
+|-damage|p1a: Meowscarada|1/100
+|
+|switch|p2a: Meowscarada|Meowscarada, M|100/100|[from] U-turn
+|-damage|p2a: Meowscarada|88/100|[from] Spikes
+|
+|turn|11
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|move|p2a: Meowscarada|U-turn|p1a: Walking Wake
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Walking Wake|51/100
+|
+|switch|p2a: Slowking|Slowking, M|100/100|[from] U-turn
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|
+|turn|12
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|move|p2a: Slowking|Future Sight|p1a: Walking Wake
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|13
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Slowking
+|-damage|p2a: Slowking|19/100
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|69/100
+|
+|turn|14
+|
+|move|p1a: Walking Wake|Substitute|p1a: Walking Wake
+|-start|p1a: Walking Wake|Substitute
+|-damage|p1a: Walking Wake|26/100
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|100/100
+|
+|-end|p1a: Walking Wake|move: Future Sight
+|-end|p1a: Walking Wake|Substitute
+|turn|15
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Slowking
+|-damage|p2a: Slowking|65/100
+|move|p2a: Slowking|Future Sight|p1a: Walking Wake
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|16
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Slowking
+|-damage|p2a: Slowking|28/100
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|79/100
+|
+|turn|17
+|
+|move|p1a: Walking Wake|Substitute|p1a: Walking Wake
+|-start|p1a: Walking Wake|Substitute
+|-damage|p1a: Walking Wake|1/100
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|100/100
+|
+|-end|p1a: Walking Wake|move: Future Sight
+|-end|p1a: Walking Wake|Substitute
+|turn|18
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Iron Hands|Iron Hands|88/100
+|-damage|p1a: Iron Hands|82/100|[from] Stealth Rock
+|move|p2a: Slowking|Future Sight|p1a: Iron Hands
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|19
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|move|p1a: Iron Hands|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|61/100
+|
+|-heal|p2a: Great Tusk|67/100|[from] item: Leftovers
+|turn|20
+|
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Walking Wake|Walking Wake|1/100
+|-damage|p1a: Walking Wake|0 fnt|[from] Stealth Rock
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|move|p2a: Great Tusk|Rapid Spin|p1: Walking Wake|[notarget]
+|-fail|p2a: Great Tusk
+|
+|-hint|Future Sight did not hit because the target is fainted.
+|-heal|p2a: Great Tusk|73/100|[from] item: Leftovers
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|21
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|turn|22
+|
+|move|p1a: Iron Valiant|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Covert Cloak|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Meowscarada|Meowscarada, M|88/100
+|-damage|p2a: Meowscarada|76/100|[from] Spikes
+|turn|23
+|
+|-terastallize|p1a: Iron Valiant|Steel
+|move|p2a: Meowscarada|U-turn|p1a: Iron Valiant
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|74/100
+|
+|switch|p2a: Cinderace|Cinderace, F|60/100|[from] U-turn
+|-damage|p2a: Cinderace|47/100|[from] Spikes
+|move|p1a: Iron Valiant|Spirit Break|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|1/100
+|-unboost|p2a: Cinderace|spa|1
+|
+|turn|24
+|
+|move|p1a: Iron Valiant|Spirit Break|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Meowscarada|Meowscarada, M|76/100
+|-damage|p2a: Meowscarada|64/100|[from] Spikes
+|turn|25
+|
+|move|p2a: Meowscarada|Flower Trick|p1a: Iron Valiant
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|41/100
+|move|p1a: Iron Valiant|Spirit Break|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|26
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|turn|27
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Valiant|Encore|p2a: Kingambit
+|-start|p2a: Kingambit|Encore
+|
+|turn|28
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|turn|29
+|
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Garganacl|Garganacl, M|53/100
+|-damage|p2a: Garganacl|40/100|[from] Spikes
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|0
+|
+|-heal|p2a: Garganacl|47/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Iron Valiant|Spirit Break|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|31
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|0
+|
+|turn|32
+|-message|SOULWIND forfeited.
+|
+|win|xavgb

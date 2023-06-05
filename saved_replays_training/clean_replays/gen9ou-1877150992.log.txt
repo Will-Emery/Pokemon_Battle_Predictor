@@ -1,0 +1,344 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Magearna|
+|poke|p1|Ursaluna, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Slowking, F|
+|poke|p2|Magearna|
+|poke|p2|Arboliva, F|
+|poke|p2|Muk-Alola, F|
+|poke|p2|Tauros-Paldea-Aqua, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Uber 3|Ursaluna, M|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Kleavor|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|67/100
+|-unboost|p2a: Kleavor|def|1
+|-unboost|p2a: Kleavor|spd|1
+|
+|turn|2
+|
+|switch|p2a: Muk|Muk-Alola, F|100/100
+|move|p1a: Magearna|Flash Cannon|p2a: Muk
+|-damage|p2a: Muk|79/100
+|
+|turn|3
+|
+|switch|p1a: OU Forever|Landorus-Therian, M|100/100
+|-ability|p1a: OU Forever|Intimidate|boost
+|-unboost|p2a: Muk|atk|1
+|move|p2a: Muk|Knock Off|p1a: OU Forever
+|-damage|p1a: OU Forever|66/100
+|-enditem|p1a: OU Forever|Leftovers|[from] move: Knock Off|[of] p2a: Muk
+|
+|turn|4
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: OU Forever|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: 5sk|move: Stealth Rock
+|
+|turn|5
+|
+|move|p1a: OU Forever|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|93/100
+|
+|switch|p1a: Thumb War|Grimmsnarl, M|100/100|[from] U-turn
+|move|p2a: Great Tusk|Rapid Spin|p1a: Thumb War
+|-crit|p1a: Thumb War
+|-damage|p1a: Thumb War|69/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: 5sk|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|99/100|[from] item: Leftovers
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Arboliva|Arboliva, F|100/100
+|move|p1a: Thumb War|Reflect|p1a: Thumb War
+|-sidestart|p1: DS/GBA-Man|Reflect
+|
+|turn|7
+|
+|move|p1a: Thumb War|Light Screen|p1a: Thumb War
+|-sidestart|p1: DS/GBA-Man|move: Light Screen
+|move|p2a: Arboliva|Tera Blast|p1a: Thumb War
+|-damage|p1a: Thumb War|55/100
+|
+|turn|8
+|
+|move|p1a: Thumb War|Parting Shot|p2a: Arboliva
+|-unboost|p2a: Arboliva|atk|1
+|-unboost|p2a: Arboliva|spa|1
+|
+|switch|p1a: Uber 1|Chien-Pao|100/100|[from] Parting Shot
+|-ability|p1a: Uber 1|Sword of Ruin
+|move|p2a: Arboliva|Substitute|p2a: Arboliva
+|-start|p2a: Arboliva|Substitute
+|-damage|p2a: Arboliva|76/100
+|
+|-heal|p2a: Arboliva|82/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Uber 1|Ice Spinner|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-crit|p2a: Arboliva
+|-end|p2a: Arboliva|Substitute
+|-damage|p1a: Uber 1|91/100|[from] item: Life Orb
+|move|p2a: Arboliva|Tera Blast|p1a: Uber 1
+|-damage|p1a: Uber 1|72/100
+|
+|-heal|p2a: Arboliva|88/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M, shiny|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Uber 1|atk|1
+|move|p1a: Uber 1|Ice Spinner|p2a: Tauros
+|-resisted|p2a: Tauros
+|-damage|p2a: Tauros|83/100
+|-damage|p1a: Uber 1|62/100|[from] item: Life Orb
+|
+|turn|11
+|
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Tauros|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|92/100
+|
+|turn|12
+|
+|switch|p2a: Muk|Muk-Alola, F|79/100
+|move|p1a: Slowking|Future Sight|p2a: Muk
+|-start|p1a: Slowking|move: Future Sight
+|
+|turn|13
+|
+|move|p2a: Muk|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|-status|p1a: Slowking|psn|[from] ability: Poison Touch|[of] p2a: Muk
+|-enditem|p1a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Muk
+|move|p1a: Slowking|Surf|p2a: Muk
+|-damage|p2a: Muk|65/100
+|
+|-damage|p1a: Slowking|35/100 psn|[from] psn
+|-sideend|p1: DS/GBA-Man|Reflect
+|turn|14
+|
+|switch|p1a: OU Forever|Landorus-Therian, M|66/100
+|-ability|p1a: OU Forever|Intimidate|boost
+|-unboost|p2a: Muk|atk|1
+|move|p2a: Muk|Knock Off|p1a: OU Forever
+|-damage|p1a: OU Forever|44/100
+|
+|-end|p2a: Muk|move: Future Sight
+|-immune|p2a: Muk
+|-sideend|p1: DS/GBA-Man|move: Light Screen
+|turn|15
+|
+|switch|p2a: Arboliva|Arboliva, F|88/100
+|move|p1a: OU Forever|Earthquake|p2a: Arboliva
+|-resisted|p2a: Arboliva
+|-damage|p2a: Arboliva|66/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+|
+|-heal|p2a: Arboliva|72/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|78/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M, shiny|83/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: OU Forever|atk|1
+|move|p1a: OU Forever|U-turn|p2a: Tauros
+|-resisted|p2a: Tauros
+|-damage|p2a: Tauros|76/100
+|
+|switch|p1a: Magearna|Magearna|67/100|[from] U-turn
+|
+|-heal|p2a: Tauros|82/100|[from] Grassy Terrain
+|-heal|p1a: Magearna|73/100|[from] Grassy Terrain
+|turn|17
+|
+|switch|p2a: Muk|Muk-Alola, F|65/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Muk|[miss]
+|-miss|p1a: Magearna|p2a: Muk
+|
+|-heal|p1a: Magearna|79/100|[from] Grassy Terrain
+|-heal|p2a: Muk|71/100|[from] Grassy Terrain
+|turn|18
+|
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Muk|Knock Off|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|63/100
+|-enditem|p1a: Magearna|White Herb|[from] move: Knock Off|[of] p2a: Muk
+|
+|-heal|p1a: Magearna|69/100|[from] Grassy Terrain
+|-heal|p2a: Muk|77/100|[from] Grassy Terrain
+|turn|19
+|
+|-terastallize|p2a: Muk|Fire
+|move|p1a: Magearna|Fleur Cannon|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|60/100
+|-unboost|p1a: Magearna|spa|2
+|move|p2a: Muk|Fire Punch|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|14/100
+|
+|-heal|p1a: Magearna|20/100|[from] Grassy Terrain
+|-heal|p2a: Muk|66/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|turn|20
+|
+|move|p1a: Magearna|Flash Cannon|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|61/100
+|move|p2a: Muk|Fire Punch|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Uber 1|Chien-Pao|62/100
+|-ability|p1a: Uber 1|Sword of Ruin
+|turn|21
+|
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M, shiny|82/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Uber 1|atk|1
+|move|p1a: Uber 1|Sucker Punch||[still]
+|-fail|p1a: Uber 1
+|
+|turn|22
+|
+|switch|p1a: OU Forever|Landorus-Therian, M|44/100
+|-ability|p1a: OU Forever|Intimidate|boost
+|-unboost|p2a: Tauros|atk|1
+|move|p2a: Tauros|Body Press|p1a: OU Forever
+|-resisted|p1a: OU Forever
+|-damage|p1a: OU Forever|21/100
+|
+|turn|23
+|
+|switch|p2a: Great Tusk|Great Tusk|99/100
+|move|p1a: OU Forever|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|92/100
+|
+|switch|p1a: Slowking|Slowking, F|68/100 psn|[from] U-turn
+|
+|-heal|p2a: Great Tusk|98/100|[from] item: Leftovers
+|-damage|p1a: Slowking|56/100 psn|[from] psn
+|turn|24
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Arboliva|Arboliva, F|78/100
+|move|p1a: Slowking|Future Sight|p2a: Arboliva
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p2a: Arboliva|84/100|[from] item: Leftovers
+|-damage|p1a: Slowking|43/100 psn|[from] psn
+|turn|25
+|
+|switch|p1a: Uber 1|Chien-Pao|62/100
+|-ability|p1a: Uber 1|Sword of Ruin
+|move|p2a: Arboliva|Substitute|p2a: Arboliva
+|-start|p2a: Arboliva|Substitute
+|-damage|p2a: Arboliva|59/100
+|
+|-heal|p2a: Arboliva|66/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Uber 1|Ice Spinner|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-end|p2a: Arboliva|Substitute
+|-damage|p1a: Uber 1|52/100|[from] item: Life Orb
+|move|p2a: Arboliva|Tera Blast|p1a: Uber 1
+|-damage|p1a: Uber 1|0 fnt
+|faint|p1a: Uber 1
+|
+|-end|p2a: Arboliva|move: Future Sight
+|-damage|p2a: Arboliva|26/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2a: Arboliva
+|-heal|p2a: Arboliva|32/100|[from] item: Leftovers
+|
+|switch|p1a: Thumb War|Grimmsnarl, M|55/100
+|turn|27
+|
+|move|p1a: Thumb War|Light Screen|p1a: Thumb War
+|-sidestart|p1: DS/GBA-Man|move: Light Screen
+|move|p2a: Arboliva|Giga Drain|p1a: Thumb War
+|-damage|p1a: Thumb War|40/100
+|-heal|p2a: Arboliva|41/100|[from] drain|[of] p1a: Thumb War
+|
+|-heal|p1a: Thumb War|46/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|47/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|54/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Thumb War|Parting Shot|p2a: Arboliva
+|-unboost|p2a: Arboliva|atk|1
+|-unboost|p2a: Arboliva|spa|1
+|
+|switch|p1a: Uber 3|Ursaluna, M|100/100|[from] Parting Shot
+|move|p2a: Arboliva|Giga Drain|p1a: Uber 3
+|-supereffective|p1a: Uber 3
+|-damage|p1a: Uber 3|75/100
+|-heal|p2a: Arboliva|71/100|[from] drain|[of] p1a: Uber 3
+|
+|-heal|p2a: Arboliva|77/100|[from] Grassy Terrain
+|-heal|p2a: Arboliva|83/100|[from] item: Leftovers
+|-heal|p1a: Uber 3|81/100|[from] Grassy Terrain
+|-status|p1a: Uber 3|brn|[from] item: Flame Orb
+|turn|29
+|
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M, shiny|82/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Uber 3|atk|1
+|-terastallize|p1a: Uber 3|Normal
+|move|p1a: Uber 3|Swords Dance|p1a: Uber 3
+|-boost|p1a: Uber 3|atk|2
+|
+|-heal|p2a: Tauros|88/100|[from] Grassy Terrain
+|-heal|p1a: Uber 3|87/100 brn|[from] Grassy Terrain
+|-damage|p1a: Uber 3|81/100 brn|[from] brn
+|turn|30
+|
+|move|p2a: Tauros|Body Press|p1a: Uber 3
+|-supereffective|p1a: Uber 3
+|-damage|p1a: Uber 3|34/100 brn
+|move|p1a: Uber 3|Facade|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|-heal|p1a: Uber 3|40/100 brn|[from] Grassy Terrain
+|-damage|p1a: Uber 3|34/100 brn|[from] brn
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|31
+|
+|move|p2a: Kleavor|Close Combat|p1a: Uber 3
+|-supereffective|p1a: Uber 3
+|-damage|p1a: Uber 3|0 fnt
+|-unboost|p2a: Kleavor|def|1
+|-unboost|p2a: Kleavor|spd|1
+|faint|p1a: Uber 3
+|
+|-fieldend|move: Grassy Terrain
+|
+|switch|p1a: Slowking|Slowking, F|77/100 psn
+|turn|32
+|-message|DS/GBA-Man forfeited.
+|
+|win|5sk

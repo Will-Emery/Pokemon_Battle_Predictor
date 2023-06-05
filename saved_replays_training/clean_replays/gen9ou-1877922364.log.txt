@@ -1,0 +1,196 @@
+|poke|p1|Typhlosion, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Scovillain, M|
+|poke|p1|Chesnaught, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: FIRE|Typhlosion, M|100/100
+|switch|p2a: Bearwear is Aware|Urshifu-Rapid-Strike, M|100/100
+|turn|1
+|
+|switch|p1a: The Sun|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: The Sun
+|move|p2a: Bearwear is Aware|Swords Dance|p2a: Bearwear is Aware
+|-boost|p2a: Bearwear is Aware|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|-terastallize|p2a: Bearwear is Aware|Water
+|move|p2a: Bearwear is Aware|Surging Strikes|p1a: The Sun
+|-supereffective|p1a: The Sun
+|-crit|p1a: The Sun
+|-damage|p1a: The Sun|68/100
+|-supereffective|p1a: The Sun
+|-crit|p1a: The Sun
+|-damage|p1a: The Sun|32/100
+|-supereffective|p1a: The Sun
+|-crit|p1a: The Sun
+|-damage|p1a: The Sun|0 fnt
+|faint|p1a: The Sun
+|-hitcount|p1: The Sun|3
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: FIRE|Typhlosion, M|100/100
+|turn|3
+|
+|move|p1a: FIRE|Solar Beam||[still]
+|-prepare|p1a: FIRE|Solar Beam
+|-anim|p1a: FIRE|Solar Beam|p2a: Bearwear is Aware
+|-supereffective|p2a: Bearwear is Aware
+|-damage|p2a: Bearwear is Aware|0 fnt
+|faint|p2a: Bearwear is Aware
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Gen 4 OU died|Meowscarada, M|100/100
+|turn|4
+|
+|switch|p1a: Pepperman|Scovillain, M|100/100
+|move|p2a: Gen 4 OU died|Spikes|p1a: Pepperman
+|-start|p2a: Gen 4 OU died|typechange|Ground|[from] ability: Protean
+|-sidestart|p1: Freddy Fragbear|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|move|p1a: Pepperman|Growth|p1a: Pepperman
+|-boost|p1a: Pepperman|atk|2
+|-boost|p1a: Pepperman|spa|2
+|move|p2a: Gen 4 OU died|Spikes|p1a: Pepperman
+|-sidestart|p1: Freddy Fragbear|Spikes
+|
+|-weather|none
+|turn|6
+|
+|switch|p2a: GMoney|Gholdengo|100/100
+|-item|p2a: GMoney|Air Balloon
+|move|p1a: Pepperman|Flamethrower|p2a: GMoney
+|-supereffective|p2a: GMoney
+|-damage|p2a: GMoney|0 fnt
+|-enditem|p2a: GMoney|Air Balloon
+|faint|p2a: GMoney
+|-damage|p1a: Pepperman|91/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Gen 4 OU died|Meowscarada, M|100/100
+|turn|7
+|
+|move|p2a: Gen 4 OU died|Knock Off|p1a: Pepperman
+|-start|p2a: Gen 4 OU died|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Pepperman|31/100
+|-enditem|p1a: Pepperman|Life Orb|[from] move: Knock Off|[of] p2a: Gen 4 OU died
+|move|p1a: Pepperman|Flamethrower|p2a: Gen 4 OU died
+|-enditem|p2a: Gen 4 OU died|Focus Sash
+|-damage|p2a: Gen 4 OU died|1/100
+|
+|turn|8
+|
+|move|p2a: Gen 4 OU died|Spikes|p1a: Pepperman
+|-sidestart|p1: Freddy Fragbear|Spikes
+|move|p1a: Pepperman|Giga Drain|p2a: Gen 4 OU died
+|-damage|p2a: Gen 4 OU died|0 fnt
+|-heal|p1a: Pepperman|32/100|[from] drain|[of] p2a: Gen 4 OU died
+|faint|p2a: Gen 4 OU died
+|
+|
+|switch|p2a: Elon Tusk|Great Tusk|100/100
+|turn|9
+|
+|move|p2a: Elon Tusk|Close Combat|p1a: Pepperman
+|-damage|p1a: Pepperman|0 fnt
+|-unboost|p2a: Elon Tusk|def|1
+|-unboost|p2a: Elon Tusk|spd|1
+|-enditem|p2a: Elon Tusk|Eject Pack
+|faint|p1a: Pepperman
+|
+|-end|p2a: Elon Tusk|Protosynthesis|[silent]
+|switch|p2a: Liesbian Mk4|Iron Valiant|100/100
+|-enditem|p2a: Liesbian Mk4|Booster Energy
+|-activate|p2a: Liesbian Mk4|ability: Quark Drive|[fromitem]
+|-start|p2a: Liesbian Mk4|quarkdrivespe
+|
+|
+|switch|p1a: Of In|Rotom-Heat|100/100
+|turn|10
+|
+|move|p2a: Liesbian Mk4|Focus Blast|p1a: Of In|[miss]
+|-miss|p2a: Liesbian Mk4|p1a: Of In
+|move|p1a: Of In|Overheat|p2a: Liesbian Mk4
+|-damage|p2a: Liesbian Mk4|22/100
+|-unboost|p1a: Of In|spa|2
+|
+|turn|11
+|
+|move|p2a: Liesbian Mk4|Focus Blast|p1a: Of In
+|-damage|p1a: Of In|58/100
+|move|p1a: Of In|Overheat|p2a: Liesbian Mk4
+|-damage|p2a: Liesbian Mk4|0 fnt
+|-unboost|p1a: Of In|spa|2
+|faint|p2a: Liesbian Mk4
+|-end|p2a: Liesbian Mk4|Quark Drive|[silent]
+|
+|
+|switch|p2a: Elon Tusk|Great Tusk|100/100
+|turn|12
+|
+|move|p2a: Elon Tusk|Close Combat|p1a: Of In
+|-damage|p1a: Of In|0 fnt
+|-unboost|p2a: Elon Tusk|def|1
+|-unboost|p2a: Elon Tusk|spd|1
+|faint|p1a: Of In
+|
+|
+|switch|p1a: Palapin|Chesnaught, M, shiny|100/100
+|-damage|p1a: Palapin|76/100|[from] Spikes
+|turn|13
+|
+|move|p2a: Elon Tusk|Close Combat|p1a: Palapin
+|-damage|p1a: Palapin|33/100
+|-unboost|p2a: Elon Tusk|def|1
+|-unboost|p2a: Elon Tusk|spd|1
+|move|p1a: Palapin|Wood Hammer|p2a: Elon Tusk
+|-supereffective|p2a: Elon Tusk
+|-damage|p2a: Elon Tusk|0 fnt
+|faint|p2a: Elon Tusk
+|-end|p2a: Elon Tusk|Protosynthesis|[silent]
+|-damage|p1a: Palapin|0 fnt|[from] Recoil
+|faint|p1a: Palapin
+|
+|
+|switch|p2a: Oo oo A aa aa|Kingambit, F|100/100
+|switch|p1a: FIRE|Typhlosion, M|100/100
+|-damage|p1a: FIRE|76/100|[from] Spikes
+|-activate|p2a: Oo oo A aa aa|ability: Supreme Overlord
+|-start|p2a: Oo oo A aa aa|fallen5|[silent]
+|turn|14
+|
+|-terastallize|p1a: FIRE|Fire
+|move|p2a: Oo oo A aa aa|Sucker Punch|p1a: FIRE
+|-damage|p1a: FIRE|0 fnt
+|faint|p1a: FIRE
+|
+|
+|switch|p1a: Waffles|Arcanine-Hisui, F, shiny|100/100
+|-damage|p1a: Waffles|76/100|[from] Spikes
+|turn|15
+|
+|move|p1a: Waffles|Close Combat|p2a: Oo oo A aa aa
+|-supereffective|p2a: Oo oo A aa aa
+|-damage|p2a: Oo oo A aa aa|0 fnt
+|-unboost|p1a: Waffles|def|1
+|-unboost|p1a: Waffles|spd|1
+|faint|p2a: Oo oo A aa aa
+|-end|p2a: Oo oo A aa aa|fallen5|[silent]
+|
+|win|Freddy Fragbear

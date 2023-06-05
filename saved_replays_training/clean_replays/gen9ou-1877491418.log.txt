@@ -1,0 +1,211 @@
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Slowking, F|
+|poke|p2|Dudunsparce-*, F|
+|poke|p2|Orthworm, F|
+|poke|p2|Clodsire, M|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Slowking|Slowking, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|turn|1
+|
+|move|p1a: Landorus|U-turn|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|59/100
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100|[from] U-turn
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|2
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100|[from] Chilly Reception
+|move|p1a: Goodra|Dragon Tail|p2a: Dondozo
+|-damage|p2a: Dondozo|88/100
+|drag|p2a: Slowking|Slowking, F|92/100
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|move|p2a: Slowking|Future Sight|p1a: Goodra
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Goodra|Dragon Tail|p2a: Slowking
+|-damage|p2a: Slowking|73/100
+|drag|p2a: Dondozo|Dondozo, M|88/100
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p2a: Dondozo|Liquidation|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|88/100
+|move|p1a: Goodra|Dragon Tail|p2a: Dondozo
+|-damage|p2a: Dondozo|75/100
+|drag|p2a: Orthworm|Orthworm, F|100/100
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Orthworm|atk|1
+|move|p2a: Orthworm|Iron Tail|p1a: Landorus
+|-damage|p1a: Landorus|81/100
+|-damage|p2a: Orthworm|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Landorus|move: Future Sight
+|-damage|p1a: Landorus|38/100
+|-fieldend|move: Trick Room
+|turn|6
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Orthworm
+|-sidestart|p2: Kalen80|move: Stealth Rock
+|move|p2a: Orthworm|Coil|p2a: Orthworm
+|-boost|p2a: Orthworm|atk|1
+|-boost|p2a: Orthworm|def|1
+|-boost|p2a: Orthworm|accuracy|1
+|
+|-weather|none
+|turn|7
+|
+|move|p1a: Landorus|U-turn|p2a: Orthworm
+|-resisted|p2a: Orthworm
+|-damage|p2a: Orthworm|78/100
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100|[from] U-turn
+|move|p2a: Orthworm|Coil|p2a: Orthworm
+|-boost|p2a: Orthworm|atk|1
+|-boost|p2a: Orthworm|def|1
+|-boost|p2a: Orthworm|accuracy|1
+|
+|turn|8
+|
+|move|p1a: Goodra|Flamethrower|p2a: Orthworm
+|-supereffective|p2a: Orthworm
+|-damage|p2a: Orthworm|0 fnt
+|faint|p2a: Orthworm
+|
+|
+|switch|p2a: Slowking|Slowking, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|88/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|10
+|
+|move|p2a: Slowking|Future Sight|p1a: Goodra
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Goodra|Dragon Tail|p2a: Slowking
+|-damage|p2a: Slowking|72/100
+|drag|p2a: Clodsire|Clodsire, M|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|-item|p2a: Clodsire|Air Balloon
+|
+|turn|11
+|
+|move|p2a: Clodsire|Toxic Spikes|p1a: Goodra
+|-sidestart|p1: julitodo|move: Toxic Spikes
+|move|p1a: Goodra|Dragon Tail|p2a: Clodsire|[miss]
+|-miss|p1a: Goodra|p2a: Clodsire
+|
+|turn|12
+|
+|move|p2a: Clodsire|Toxic Spikes|p1a: Goodra
+|-sidestart|p1: julitodo|move: Toxic Spikes
+|move|p1a: Goodra|Dragon Tail|p2a: Clodsire
+|-damage|p2a: Clodsire|75/100
+|-enditem|p2a: Clodsire|Air Balloon
+|drag|p2a: Dondozo|Dondozo, M|75/100
+|-damage|p2a: Dondozo|63/100|[from] Stealth Rock
+|
+|-end|p1a: Goodra|move: Future Sight
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|80/100
+|turn|13
+|
+|move|p2a: Dondozo|Liquidation|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|68/100
+|move|p1a: Goodra|Counter|p2a: Dondozo
+|-damage|p2a: Dondozo|44/100
+|
+|-fieldend|move: Trick Room
+|turn|14
+|
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|-enditem|p2a: Dondozo|Chesto Berry|[eat]
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p1a: Goodra|Dragon Tail|p2a: Dondozo
+|-damage|p2a: Dondozo|88/100
+|drag|p2a: Slowking|Slowking, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|
+|turn|15
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Slowking|Future Sight|p1a: Corviknight
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|16
+|
+|move|p1a: Corviknight|Defog|p2a: Slowking
+|-unboost|p2a: Slowking|evasion|1
+|-sideend|p2: Kalen80|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: julitodo|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|turn|17
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Dudunsparce|Dudunsparce, F|100/100|[from] Chilly Reception
+|move|p1a: Corviknight|U-turn|p2a: Dudunsparce
+|-crit|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|82/100
+|-ability|p2a: Dudunsparce|Rattled|boost
+|-boost|p2a: Dudunsparce|spe|1
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Great Tusk|move: Future Sight
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|turn|18
+|
+|move|p2a: Dudunsparce|Boomburst|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|-weather|Snow|[upkeep]
+|-message|julitodo forfeited.
+|
+|win|Kalen80

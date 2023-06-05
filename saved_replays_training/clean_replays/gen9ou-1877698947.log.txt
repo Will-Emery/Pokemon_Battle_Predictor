@@ -1,0 +1,516 @@
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Toxapex, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Dugtrio-Alola, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Scream Tail|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Shotzi|Dragapult, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Shotzi
+|-damage|p2a: Shotzi|31/100
+|-sidestart|p2: kugfgih|move: Stealth Rock
+|move|p2a: Shotzi|Draco Meteor|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-unboost|p2a: Shotzi|spa|2
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|2
+|
+|switch|p2a: Corvette|Corviknight, F, shiny|100/100
+|-damage|p2a: Corvette|88/100|[from] Stealth Rock
+|-ability|p2a: Corvette|Pressure
+|move|p1a: Gholdengo|Make It Rain|p2a: Corvette
+|-resisted|p2a: Corvette
+|-damage|p2a: Corvette|56/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Corvette|62/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Corvette|Roost|p2a: Corvette
+|-heal|p2a: Corvette|100/100
+|-singleturn|p2a: Corvette|move: Roost
+|
+|turn|4
+|
+|move|p2a: Corvette|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p2: kugfgih|Stealth Rock|[from] move: Defog|[of] p2a: Corvette
+|move|p1a: Toxapex|Liquidation|p2a: Corvette
+|-damage|p2a: Corvette|85/100
+|
+|-heal|p2a: Corvette|91/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p2a: Corvette|U-turn|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|91/100
+|
+|switch|p2a: Owen Wilsons|Dugtrio-Alola, M|100/100|[from] U-turn
+|
+|turn|6
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Owen Wilsons|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|73/100
+|
+|turn|7
+|
+|switch|p2a: Corvette|Corviknight, F, shiny|91/100
+|-ability|p2a: Corvette|Pressure
+|move|p1a: Great Tusk|Knock Off|p2a: Corvette
+|-damage|p2a: Corvette|68/100
+|-enditem|p2a: Corvette|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|8
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Arcanine|Arcanine-Hisui, M|91/100
+|move|p2a: Corvette|Roost|p2a: Corvette
+|-heal|p2a: Corvette|100/100
+|-singleturn|p2a: Corvette|move: Roost
+|
+|turn|9
+|
+|-terastallize|p2a: Corvette|Water
+|move|p1a: Arcanine|Flare Blitz|p2a: Corvette
+|-resisted|p2a: Corvette
+|-damage|p2a: Corvette|84/100
+|move|p2a: Corvette|Body Press|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|21/100
+|
+|turn|10
+|
+|move|p1a: Arcanine|Head Smash|p2a: Corvette
+|-damage|p2a: Corvette|43/100
+|move|p2a: Corvette|U-turn|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|13/100
+|
+|switch|p2a: hate this mon|Sneasler, F, shiny|100/100|[from] U-turn
+|
+|turn|11
+|
+|move|p2a: hate this mon|Dire Claw|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|12
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: hate this mon
+|-damage|p2a: hate this mon|46/100
+|move|p2a: hate this mon|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|94/100
+|
+|switch|p2a: TTube|Tyranitar, M|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: TTube
+|
+|-weather|Sandstorm|[upkeep]
+|turn|13
+|
+|switch|p1a: Great Tusk|Great Tusk|73/100
+|switch|p2a: screm tail|Scream Tail|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: screm tail|94/100|[from] Sandstorm
+|-heal|p2a: screm tail|100/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: screm tail|Wish|p2a: screm tail
+|move|p1a: Great Tusk|Knock Off|p2a: screm tail
+|-damage|p2a: screm tail|70/100
+|-enditem|p2a: screm tail|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: screm tail|64/100|[from] Sandstorm
+|turn|15
+|
+|-end|p2a: screm tail|Protosynthesis|[silent]
+|switch|p2a: Corvette|Corviknight, F, shiny, tera:Water|43/100
+|-ability|p2a: Corvette|Pressure
+|move|p1a: Great Tusk|Ice Spinner|p2a: Corvette
+|-resisted|p2a: Corvette
+|-damage|p2a: Corvette|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corvette|28/100|[from] Sandstorm
+|-heal|p2a: Corvette|78/100|[from] move: Wish|[wisher] screm tail
+|turn|16
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Corvette
+|-damage|p2a: Corvette|66/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Corvette|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|69/100
+|
+|switch|p2a: screm tail|Scream Tail|64/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: screm tail|58/100|[from] Sandstorm
+|turn|17
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|94/100
+|move|p2a: screm tail|Wish|p2a: screm tail
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: screm tail|52/100|[from] Sandstorm
+|turn|18
+|
+|move|p2a: screm tail|Protect|p2a: screm tail
+|-singleturn|p2a: screm tail|Protect
+|move|p1a: Gholdengo|Shadow Ball|p2a: screm tail
+|-activate|p2a: screm tail|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: screm tail|45/100|[from] Sandstorm
+|-heal|p2a: screm tail|95/100|[from] move: Wish|[wisher] screm tail
+|turn|19
+|
+|-end|p2a: screm tail|Protosynthesis|[silent]
+|switch|p2a: TTube|Tyranitar, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: TTube
+|-resisted|p2a: TTube
+|-damage|p2a: TTube|92/100
+|
+|-weather|none
+|turn|20
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: TTube|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: Da brat|move: Stealth Rock
+|
+|turn|21
+|
+|switch|p2a: screm tail|Scream Tail|95/100
+|move|p1a: Toxapex|Liquidation|p2a: screm tail
+|-damage|p2a: screm tail|73/100
+|
+|turn|22
+|
+|move|p2a: screm tail|Wish|p2a: screm tail
+|move|p1a: Toxapex|Sludge Bomb|p2a: screm tail
+|-supereffective|p2a: screm tail
+|-damage|p2a: screm tail|46/100
+|
+|turn|23
+|
+|move|p2a: screm tail|Protect|p2a: screm tail
+|-singleturn|p2a: screm tail|Protect
+|move|p1a: Toxapex|Liquidation|p2a: screm tail
+|-activate|p2a: screm tail|move: Protect
+|
+|-heal|p2a: screm tail|96/100|[from] move: Wish|[wisher] screm tail
+|turn|24
+|
+|move|p2a: screm tail|Wish|p2a: screm tail
+|move|p1a: Toxapex|Sludge Bomb|p2a: screm tail
+|-supereffective|p2a: screm tail
+|-damage|p2a: screm tail|69/100
+|-status|p2a: screm tail|psn
+|
+|-damage|p2a: screm tail|56/100 psn|[from] psn
+|turn|25
+|
+|-end|p2a: screm tail|Protosynthesis|[silent]
+|switch|p2a: Shotzi|Dragapult, F, shiny|31/100
+|move|p1a: Toxapex|Sludge Bomb|p2a: Shotzi
+|-resisted|p2a: Shotzi
+|-damage|p2a: Shotzi|17/100
+|-status|p2a: Shotzi|psn
+|
+|-heal|p2a: Shotzi|80/100 psn|[from] move: Wish|[wisher] screm tail
+|-damage|p2a: Shotzi|67/100 psn|[from] psn
+|turn|26
+|
+|move|p2a: Shotzi|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|
+|switch|p2a: Corvette|Corviknight, F, shiny, tera:Water|66/100|[from] U-turn
+|-ability|p2a: Corvette|Pressure
+|move|p1a: Toxapex|Ice Beam|p2a: Corvette
+|-resisted|p2a: Corvette
+|-damage|p2a: Corvette|59/100
+|
+|turn|27
+|
+|move|p2a: Corvette|Roost|p2a: Corvette
+|-heal|p2a: Corvette|100/100
+|move|p1a: Toxapex|Sludge Bomb|p2a: Corvette
+|-damage|p2a: Corvette|80/100
+|-status|p2a: Corvette|psn
+|
+|-damage|p2a: Corvette|68/100 psn|[from] psn
+|turn|28
+|
+|move|p2a: Corvette|Roost|p2a: Corvette
+|-heal|p2a: Corvette|100/100 psn
+|move|p1a: Toxapex|Sludge Bomb|p2a: Corvette
+|-damage|p2a: Corvette|80/100 psn
+|
+|-damage|p2a: Corvette|68/100 psn|[from] psn
+|turn|29
+|
+|move|p2a: Corvette|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|89/100
+|
+|switch|p2a: screm tail|Scream Tail|56/100 psn|[from] U-turn
+|move|p1a: Toxapex|Sludge Bomb|p2a: screm tail
+|-supereffective|p2a: screm tail
+|-damage|p2a: screm tail|32/100 psn
+|
+|-damage|p2a: screm tail|19/100 psn|[from] psn
+|turn|30
+|
+|move|p2a: screm tail|Encore|p1a: Toxapex
+|-start|p1a: Toxapex|Encore
+|move|p1a: Toxapex|Sludge Bomb|p2a: screm tail
+|-supereffective|p2a: screm tail
+|-damage|p2a: screm tail|0 fnt
+|faint|p2a: screm tail
+|-end|p2a: screm tail|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Owen Wilsons|Dugtrio-Alola, M|100/100
+|turn|31
+|
+|switch|p2a: Shotzi|Dragapult, F, shiny|67/100 psn
+|switch|p1a: Great Tusk|Great Tusk|69/100
+|-damage|p1a: Great Tusk|66/100|[from] Stealth Rock
+|
+|-damage|p2a: Shotzi|55/100 psn|[from] psn
+|turn|32
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Shotzi|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|
+|-damage|p2a: Shotzi|43/100 psn|[from] psn
+|turn|33
+|
+|switch|p2a: TTube|Tyranitar, M|92/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: TTube
+|move|p1a: Toxapex|Ice Beam|p2a: TTube
+|-crit|p2a: TTube
+|-damage|p2a: TTube|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|55/100|[from] Sandstorm
+|turn|34
+|
+|move|p2a: TTube|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|28/100
+|move|p1a: Toxapex|Liquidation|p2a: TTube
+|-supereffective|p2a: TTube
+|-damage|p2a: TTube|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|22/100|[from] Sandstorm
+|turn|35
+|
+|switch|p2a: Shotzi|Dragapult, F, shiny|43/100 psn
+|switch|p1a: Great Tusk|Great Tusk|66/100
+|-damage|p1a: Great Tusk|63/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shotzi|37/100 psn|[from] Sandstorm
+|-damage|p2a: Shotzi|24/100 psn|[from] psn
+|turn|36
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, F|56/100
+|-damage|p1a: Toxapex|43/100|[from] Stealth Rock
+|move|p2a: Shotzi|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Shotzi|18/100 psn|[from] Sandstorm
+|-damage|p1a: Toxapex|8/100|[from] Sandstorm
+|-damage|p2a: Shotzi|6/100 psn|[from] psn
+|turn|37
+|
+|switch|p2a: Corvette|Corviknight, F, shiny, tera:Water|68/100 psn
+|-ability|p2a: Corvette|Pressure
+|switch|p1a: Gholdengo|Gholdengo|94/100
+|-damage|p1a: Gholdengo|87/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corvette|62/100 psn|[from] Sandstorm
+|-damage|p2a: Corvette|49/100 psn|[from] psn
+|turn|38
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Corvette
+|-resisted|p2a: Corvette
+|-damage|p2a: Corvette|21/100 psn
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Corvette|Roost|p2a: Corvette
+|-heal|p2a: Corvette|71/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corvette|65/100 psn|[from] Sandstorm
+|-damage|p2a: Corvette|53/100 psn|[from] psn
+|turn|39
+|
+|switch|p1a: Toxapex|Toxapex, F|41/100
+|-damage|p1a: Toxapex|29/100|[from] Stealth Rock
+|move|p2a: Corvette|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|23/100
+|
+|switch|p2a: Owen Wilsons|Dugtrio-Alola, M|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|17/100|[from] Sandstorm
+|turn|40
+|
+|switch|p1a: Great Tusk|Great Tusk|63/100
+|-damage|p1a: Great Tusk|60/100|[from] Stealth Rock
+|move|p2a: Owen Wilsons|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|24/100
+|
+|-weather|none
+|turn|41
+|
+|move|p2a: Owen Wilsons|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|42
+|
+|switch|p2a: Shotzi|Dragapult, F, shiny|6/100 psn
+|-terastallize|p1a: Kingambit|Flying
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|-damage|p2a: Shotzi|0 fnt|[from] psn
+|faint|p2a: Shotzi
+|
+|switch|p2a: hate this mon|Sneasler, F, shiny|46/100
+|turn|43
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: hate this mon
+|-resisted|p2a: hate this mon
+|-damage|p2a: hate this mon|0 fnt
+|faint|p2a: hate this mon
+|
+|
+|switch|p2a: TTube|Tyranitar, M|37/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: TTube
+|turn|44
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: TTube|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingambit|94/100 par|[from] Sandstorm
+|-heal|p1a: Kingambit|100/100 par|[from] item: Leftovers
+|turn|45
+|
+|move|p2a: TTube|Rock Blast|p1a: Kingambit|[miss]
+|-miss|p2a: TTube|p1a: Kingambit
+|cant|p1a: Kingambit|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingambit|94/100 par|[from] Sandstorm
+|-heal|p1a: Kingambit|100/100 par|[from] item: Leftovers
+|turn|46
+|
+|cant|p1a: Kingambit|par
+|move|p2a: TTube|Rock Blast|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|85/100 par
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|69/100 par
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|52/100 par
+|-hitcount|p1a: Kingambit|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingambit|46/100 par|[from] Sandstorm
+|-heal|p1a: Kingambit|52/100 par|[from] item: Leftovers
+|turn|47
+|
+|cant|p1a: Kingambit|par
+|move|p2a: TTube|Rock Blast|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|36/100 par
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|19/100 par
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|4/100 par
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|-hitcount|p1: Kingambit|4
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Toxapex|Toxapex, F|50/100
+|-damage|p1a: Toxapex|38/100|[from] Stealth Rock
+|turn|48
+|
+|move|p2a: TTube|Thunder Wave|p1a: Toxapex|[miss]
+|-miss|p2a: TTube|p1a: Toxapex
+|move|p1a: Toxapex|Liquidation|p2a: TTube
+|-supereffective|p2a: TTube
+|-damage|p2a: TTube|0 fnt
+|faint|p2a: TTube
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|32/100|[from] Sandstorm
+|
+|switch|p2a: Owen Wilsons|Dugtrio-Alola, M|100/100
+|turn|49
+|
+|move|p2a: Owen Wilsons|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: Gholdengo|Gholdengo|87/100
+|-damage|p1a: Gholdengo|81/100|[from] Stealth Rock
+|turn|50
+|
+|move|p2a: Owen Wilsons|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|kugfgih

@@ -1,0 +1,214 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Gholdengo|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Amoonguss, M|
+|poke|p1|Great Tusk|
+|poke|p2|Magearna|
+|poke|p2|Corviknight, M|
+|poke|p2|Heatran, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Great Tusk|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Pelipe|Pelipper, M, shiny|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipe
+|turn|1
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Pelipe
+|-damage|p1a: Pelipe|29/100
+|move|p1a: Pelipe|U-turn|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|77/100
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Basculegion|Surf|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|80/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Basculegion|Surf|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|34/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|84/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: Basculegion|Surf|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|42/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|92/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Surf|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|38/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|89/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|switch|p1a: Basculegion|Basculegion-F, F, tera:Water|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Basculegion|Hydro Pump|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|63/100
+|
+|-weather|none
+|turn|9
+|
+|switch|p1a: Pelipe|Pelipper, M, shiny|29/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipe
+|switch|p2a: Chien-Pao|Chien-Pao|77/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|switch|p1a: Overqwil|Overqwil, M, shiny|100/100
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion-F, F, tera:Water|100/100
+|turn|11
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Basculegion|Hydro Pump|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragonite|Dragonite, M|63/100
+|turn|12
+|
+|move|p1a: Basculegion|Hydro Pump|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|13
+|
+|move|p1a: Basculegion|Hydro Pump|p2a: Magearna|[miss]
+|-miss|p1a: Basculegion|p2a: Magearna
+|move|p2a: Magearna|Fleur Cannon|p1a: Basculegion
+|-damage|p1a: Basculegion|18/100
+|-unboost|p2a: Magearna|spa|2
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p1a: Basculegion|Hydro Pump|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|77/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|15
+|
+|switch|p1a: LINK|Amoonguss, M, shiny|100/100
+|move|p2a: Chien-Pao|Ice Spinner|p1a: LINK
+|-supereffective|p1a: LINK
+|-damage|p1a: LINK|0 fnt
+|faint|p1a: LINK
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion-F, F, tera:Water|18/100
+|turn|16
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Basculegion|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|none
+|
+|switch|p2a: Chien-Pao|Chien-Pao|77/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|17
+|
+|switch|p1a: Pelipe|Pelipper, M, shiny|29/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipe
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Pelipe
+|-damage|p1a: Pelipe|0 fnt
+|faint|p1a: Pelipe
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion-F, F, tera:Water|18/100
+|turn|18
+|
+|move|p1a: Basculegion|Surf|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|19
+|
+|-terastallize|p2a: Heatran|Flying
+|move|p1a: Basculegion|Surf|p2a: Heatran
+|-damage|p2a: Heatran|9/100
+|move|p2a: Heatran|Earth Power|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Heatran|15/100|[from] item: Leftovers
+|
+|switch|p1a: RAM & SLAM|Great Tusk, shiny|100/100
+|turn|20
+|
+|move|p1a: RAM & SLAM|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: RAM & SLAM
+|faint|p2a: Heatran
+|
+|win|lucenthine

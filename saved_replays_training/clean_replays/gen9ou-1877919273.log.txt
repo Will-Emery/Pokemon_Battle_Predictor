@@ -1,0 +1,126 @@
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Iron Treads|
+|poke|p1|Carbink|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Dugtrio-Alola, M|
+|poke|p2|Diancie|
+|poke|p2|Cresselia, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Carbink|Carbink|100/100
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|1
+|
+|move|p2a: Cresselia|Light Screen|p2a: Cresselia
+|-sidestart|p2: PapaPeppinoVGC|move: Light Screen
+|move|p1a: Carbink|Reflect|p1a: Carbink
+|-sidestart|p1: LacTose90|Reflect
+|
+|turn|2
+|
+|move|p2a: Cresselia|Reflect|p2a: Cresselia
+|-sidestart|p2: PapaPeppinoVGC|Reflect
+|move|p1a: Carbink|Light Screen|p1a: Carbink
+|-sidestart|p1: LacTose90|move: Light Screen
+|
+|turn|3
+|
+|switch|p2a: Thicc rock|Diancie|100/100
+|move|p1a: Carbink|Iron Defense|p1a: Carbink
+|-boost|p1a: Carbink|def|2
+|
+|turn|4
+|
+|move|p1a: Carbink|Iron Defense|p1a: Carbink
+|-boost|p1a: Carbink|def|2
+|move|p2a: Thicc rock|Body Press|p1a: Carbink
+|-damage|p1a: Carbink|97/100
+|
+|-heal|p1a: Carbink|100/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Carbink|Body Press|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|89/100
+|
+|-heal|p2a: Cresselia|95/100|[from] item: Leftovers
+|-sideend|p1: LacTose90|Reflect
+|-sideend|p2: PapaPeppinoVGC|move: Light Screen
+|turn|6
+|
+|move|p2a: Cresselia|Psychic|p1a: Carbink
+|-damage|p1a: Carbink|93/100
+|move|p1a: Carbink|Iron Defense|p1a: Carbink
+|-boost|p1a: Carbink|def|2
+|
+|-heal|p2a: Cresselia|100/100|[from] item: Leftovers
+|-heal|p1a: Carbink|99/100|[from] item: Leftovers
+|-sideend|p2: PapaPeppinoVGC|Reflect
+|-sideend|p1: LacTose90|move: Light Screen
+|turn|7
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Cresselia|Reflect|p2a: Cresselia
+|-sidestart|p2: PapaPeppinoVGC|Reflect
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: RAAAAAAAGH|Urshifu-Rapid-Strike, F|100/100
+|switch|p1a: Basculegion|Basculegion-F, F, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|-terastallize|p2a: RAAAAAAAGH|Water
+|move|p1a: Basculegion|Chilling Water|p2a: RAAAAAAAGH
+|-resisted|p2a: RAAAAAAAGH
+|-damage|p2a: RAAAAAAAGH|57/100
+|-unboost|p2a: RAAAAAAAGH|atk|1
+|move|p2a: RAAAAAAAGH|Surging Strikes|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|65/100
+|-resisted|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|28/100
+|-resisted|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|-hitcount|p1: Basculegion|3
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|turn|10
+|
+|move|p2a: RAAAAAAAGH|Surging Strikes|p1a: Goodra
+|-resisted|p1a: Goodra
+|-crit|p1a: Goodra
+|-damage|p1a: Goodra|75/100
+|-resisted|p1a: Goodra
+|-crit|p1a: Goodra
+|-damage|p1a: Goodra|47/100
+|-resisted|p1a: Goodra
+|-crit|p1a: Goodra
+|-damage|p1a: Goodra|21/100
+|-hitcount|p1a: Goodra|3
+|move|p1a: Goodra|Acid Armor|p1a: Goodra
+|-boost|p1a: Goodra|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Goodra|27/100|[from] item: Leftovers
+|turn|11
+|player|p1|
+|-message|LacTose90 lost due to inactivity.
+|
+|win|PapaPeppinoVGC

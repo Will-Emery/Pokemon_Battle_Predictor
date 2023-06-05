@@ -1,1 +1,315 @@
-Could not connect
+|j|☆Hallpass
+|j|☆6df
+|t:|1685907264
+|gametype|singles
+|player|p1|Hallpass|flannery|1084
+|player|p2|6df|265|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Chien-Pao|
+|poke|p1|Masquerain, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Electrode-Hisui|
+|poke|p2|Hatterene, F|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, M|
+|poke|p2|Iron Hands|
+|poke|p2|Rabsca, F|
+|poke|p2|Kleavor, M|
+|teampreview
+|
+|t:|1685907288
+|start
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|-ability|p1a: Basculegion|Mold Breaker
+|turn|1
+|
+|t:|1685907296
+|move|p1a: Basculegion|Liquidation|p2a: Magearna
+|-damage|p2a: Magearna|73/100
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|upkeep
+|turn|2
+|
+|t:|1685907301
+|move|p2a: Magearna|Fleur Cannon|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|44/100
+|-unboost|p2a: Magearna|spa|2
+|-enditem|p2a: Magearna|Eject Pack
+|
+|t:|1685907306
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|move|p1a: Basculegion|Liquidation|p2a: Iron Hands
+|-damage|p2a: Iron Hands|75/100
+|-unboost|p2a: Iron Hands|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1685907330
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|upkeep
+|
+|t:|1685907342
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|4
+|
+|t:|1685907347
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Ursaluna
+|-damage|p2a: Ursaluna|63/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1685907356
+|move|p2a: Ursaluna|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-enditem|p1a: Arcanine|Focus Sash
+|-damage|p1a: Arcanine|1/100
+|move|p1a: Arcanine|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|13/100 brn
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|
+|-damage|p2a: Ursaluna|7/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1685907370
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Arcanine|Close Combat|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|93/100
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|
+|-heal|p2a: Hatterene|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685907377
+|move|p1a: Arcanine|Flare Blitz|p2a: Hatterene
+|-damage|p2a: Hatterene|51/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685907382
+|move|p1a: Arcanine|Extreme Speed|p2a: Hatterene
+|-damage|p2a: Hatterene|36/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-heal|p2a: Hatterene|37/100|[from] drain|[of] p1a: Arcanine
+|faint|p1a: Arcanine
+|
+|-heal|p2a: Hatterene|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685907396
+|switch|p1a: Basculegion|Basculegion, M|44/100
+|-ability|p1a: Basculegion|Mold Breaker
+|turn|9
+|
+|t:|1685907401
+|-terastallize|p1a: Basculegion|Ghost
+|move|p2a: Hatterene|Draining Kiss|p1a: Basculegion
+|-damage|p1a: Basculegion|29/100
+|-heal|p2a: Hatterene|59/100|[from] drain|[of] p1a: Basculegion
+|move|p1a: Basculegion|Tera Blast|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1685907408
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|10
+|
+|t:|1685907411
+|move|p1a: Basculegion|Aqua Jet|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|60/100
+|move|p2a: Kleavor|Stone Axe|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-sidestart|p1: Hallpass|move: Stealth Rock
+|faint|p1a: Basculegion
+|
+|upkeep
+|
+|t:|1685907420
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|11
+|
+|t:|1685907424
+|move|p2a: Kleavor|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|63/100
+|-unboost|p2a: Kleavor|def|1
+|-unboost|p2a: Kleavor|spd|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Kleavor
+|-resisted|p2a: Kleavor
+|-crit|p2a: Kleavor
+|-damage|p2a: Kleavor|39/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Hallpass|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1685907436
+|move|p1a: Great Tusk|Knock Off|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-enditem|p2a: Kleavor|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Kleavor
+|
+|upkeep
+|
+|t:|1685907446
+|switch|p2a: Rabsca|Rabsca, F, shiny|100/100
+|turn|13
+|
+|t:|1685907448
+|move|p1a: Great Tusk|Knock Off|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-damage|p2a: Rabsca|23/100
+|-enditem|p2a: Rabsca|Leppa Berry|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Rabsca|Trick Room|p2a: Rabsca
+|-fieldstart|move: Trick Room|[of] p2a: Rabsca
+|
+|upkeep
+|turn|14
+|
+|t:|1685907456
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|
+|t:|1685907458
+|-heal|p2: Hatterene|50/100|[from] move: Revival Blessing
+|move|p1a: Great Tusk|Knock Off|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|faint|p2a: Rabsca
+|
+|upkeep
+|
+|t:|1685907462
+|switch|p2a: Hatterene|Hatterene, F|50/100
+|turn|15
+|
+|t:|1685907469
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Masquerain|Masquerain, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Masquerain
+|-damage|p1a: Masquerain|69/100
+|-heal|p2a: Hatterene|71/100|[from] drain|[of] p1a: Masquerain
+|
+|-heal|p2a: Hatterene|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685907476
+|move|p2a: Hatterene|Mystical Fire|p1a: Masquerain
+|-supereffective|p1a: Masquerain
+|-damage|p1a: Masquerain|2/100
+|-unboost|p1a: Masquerain|spa|1
+|move|p1a: Masquerain|Hurricane|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|2/100
+|-start|p2a: Hatterene|confusion
+|
+|-heal|p2a: Hatterene|8/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685907479
+|-activate|p2a: Hatterene|confusion
+|move|p2a: Hatterene|Draining Kiss|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|-heal|p2a: Hatterene|9/100|[from] drain|[of] p1a: Masquerain
+|faint|p1a: Masquerain
+|
+|-heal|p2a: Hatterene|15/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685907490
+|switch|p1a: Great Tusk|Great Tusk|63/100
+|turn|18
+|
+|t:|1685907496
+|move|p1a: Great Tusk|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1685907498
+|switch|p2a: Magearna|Magearna|73/100
+|turn|19
+|
+|t:|1685907499
+|move|p1a: Great Tusk|Headlong Rush|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Magearna
+|
+|upkeep
+|
+|t:|1685907503
+|switch|p2a: Iron Hands|Iron Hands|75/100
+|turn|20
+|
+|t:|1685907508
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|-message|6df forfeited.
+|
+|win|Hallpass
+|raw|Hallpass's rating: 1084 → 1113(+29 for winning)
+|raw|6df's rating: 1109 → 1082(-27 for losing)
+|l|☆6df

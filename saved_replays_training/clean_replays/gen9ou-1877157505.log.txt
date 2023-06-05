@@ -1,0 +1,127 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Hippowdon, F|
+|poke|p1|Heatran, M|
+|poke|p1|Great Tusk|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Enamorus, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Magearna|
+|poke|p2|Chien-Pao|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|1
+|
+|-terastallize|p2a: Urshifu|Water
+|move|p1a: Enamorus|Moonblast|p2a: Urshifu
+|-damage|p2a: Urshifu|19/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|47/100
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-hitcount|p1: Enamorus|2
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|2
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|84/100
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|68/100
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|51/100
+|-hitcount|p1a: Zamazenta|3
+|move|p1a: Zamazenta|Body Press|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|3
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Magearna|Volt Switch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|25/100
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|turn|4
+|
+|-terastallize|p1a: Zamazenta|Ghost
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Zamazenta
+|-immune|p1a: Zamazenta
+|move|p1a: Zamazenta|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|5
+|
+|move|p1a: Zamazenta|Body Press|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|6
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Taunt
+|move|p1a: Zamazenta|Body Press|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|7
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|58/100
+|
+|-heal|p2a: Zamazenta|64/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Zamazenta|Stone Edge|p1a: Zamazenta|[miss]
+|-miss|p2a: Zamazenta|p1a: Zamazenta
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|21/100
+|
+|-heal|p2a: Zamazenta|28/100|[from] item: Leftovers
+|-end|p1a: Zamazenta|move: Taunt
+|turn|9
+|
+|move|p2a: Zamazenta|Stone Edge|p1a: Zamazenta
+|-damage|p1a: Zamazenta|19/100
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|10
+|
+|move|p1a: Zamazenta|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|Real Pikachu

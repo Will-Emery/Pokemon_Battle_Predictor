@@ -1,0 +1,127 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Mew|
+|poke|p1|Great Tusk|
+|poke|p1|Baxcalibur, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Enamorus, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|move|p1a: Mew|Taunt|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Taunt
+|cant|p2a: Ting-Lu|move: Taunt|Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|move|p1a: Mew|Stealth Rock|p2a: Sneasler
+|-sidestart|p2: ok132|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Mew
+|-damage|p1a: Mew|59/100
+|-status|p1a: Mew|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|-activate|p1a: Mew|ability: Synchronize
+|-immune|p2a: Sneasler
+|move|p1a: Mew|Taunt|p2a: Sneasler
+|-start|p2a: Sneasler|move: Taunt
+|
+|-damage|p1a: Mew|47/100 psn|[from] psn
+|turn|4
+|
+|move|p2a: Sneasler|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Ting-Lu|100/100|[from] item: Leftovers
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Urshifu|Close Combat|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|7
+|
+|-terastallize|p1a: Urshifu|Water
+|move|p2a: Enamorus|Moonblast|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|turn|8
+|
+|move|p1a: Baxcalibur|Ice Shard|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|32/100
+|move|p2a: Enamorus|Moonblast|p1a: Baxcalibur
+|-supereffective|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|9
+|
+|move|p2a: Enamorus|Moonblast|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|10
+|
+|move|p2a: Enamorus|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|11
+|
+|move|p1a: Dragapult|Tera Blast|p2a: Enamorus
+|-damage|p2a: Enamorus|8/100
+|move|p2a: Enamorus|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|ok132

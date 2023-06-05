@@ -1,0 +1,61 @@
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Heatran, F|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Walking Wake|
+|poke|p2|Kingambit, F|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Thundurus, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Alomomola|Liquidation|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|95/100
+|
+|turn|2
+|
+|move|p2a: Walking Wake|Agility|p2a: Walking Wake
+|-boost|p2a: Walking Wake|spe|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|turn|3
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|move|p2a: Walking Wake|Surf|p1a: Enamorus
+|-damage|p1a: Enamorus|53/100
+|
+|-heal|p1a: Enamorus|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|4
+|
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Surf|p1a: Enamorus
+|-damage|p1a: Enamorus|36/100
+|move|p1a: Enamorus|Draining Kiss|p2a: Walking Wake
+|-damage|p2a: Walking Wake|69/100
+|-heal|p1a: Enamorus|55/100|[from] drain|[of] p2a: Walking Wake
+|
+|turn|5
+|
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Walking Wake|Surf|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|50/100
+|
+|turn|6
+|-message|Poekeymans forfeited.
+|
+|win|aviex

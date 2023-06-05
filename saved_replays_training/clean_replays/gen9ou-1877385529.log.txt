@@ -1,0 +1,132 @@
+|poke|p1|Zoroark, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Ceruledge, M|
+|poke|p2|Silicobra, M|
+|poke|p2|Gengar, M|
+|poke|p2|Naclstack, F|
+|teampreview
+|
+|start
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|switch|p2a: Naclstack|Naclstack, F|100/100
+|turn|1
+|
+|-terastallize|p1a: Barraskewda|Water
+|-terastallize|p2a: Naclstack|Water
+|move|p1a: Barraskewda|Liquidation|p2a: Naclstack
+|-resisted|p2a: Naclstack
+|-damage|p2a: Naclstack|70/100
+|move|p2a: Naclstack|Iron Defense|p2a: Naclstack
+|-boost|p2a: Naclstack|def|2
+|
+|turn|2
+|
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|move|p2a: Naclstack|Salt Cure|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|73/100
+|-start|p1a: Ceruledge|Salt Cure
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|-heal|p1a: Ceruledge|79/100|[from] item: Leftovers
+|-damage|p1a: Ceruledge|67/100|[from] Salt Cure
+|turn|3
+|
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Naclstack|Iron Defense|p2a: Naclstack
+|-boost|p2a: Naclstack|def|2
+|
+|-heal|p1a: Ceruledge|73/100|[from] item: Leftovers
+|-damage|p1a: Ceruledge|61/100|[from] Salt Cure
+|turn|4
+|
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Naclstack|Iron Defense|p2a: Naclstack
+|-boost|p2a: Naclstack|def|2
+|
+|-heal|p1a: Ceruledge|67/100|[from] item: Leftovers
+|-damage|p1a: Ceruledge|54/100|[from] Salt Cure
+|turn|5
+|
+|move|p1a: Ceruledge|Bitter Blade|p2a: Naclstack
+|-resisted|p2a: Naclstack
+|-damage|p2a: Naclstack|58/100
+|-heal|p1a: Ceruledge|61/100|[from] drain|[of] p2a: Naclstack
+|move|p2a: Naclstack|Recover|p2a: Naclstack
+|-heal|p2a: Naclstack|100/100
+|
+|-heal|p1a: Ceruledge|68/100|[from] item: Leftovers
+|-damage|p1a: Ceruledge|55/100|[from] Salt Cure
+|turn|6
+|
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Naclstack|Salt Cure|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|13/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|-heal|p1a: Ceruledge|19/100|[from] item: Leftovers
+|-damage|p1a: Ceruledge|7/100|[from] Salt Cure
+|turn|7
+|
+|move|p1a: Ceruledge|Close Combat|p2a: Naclstack
+|-damage|p2a: Naclstack|72/100
+|-unboost|p1a: Ceruledge|def|1
+|-unboost|p1a: Ceruledge|spd|1
+|move|p2a: Naclstack|Salt Cure|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|8
+|
+|move|p1a: Barraskewda|Nasty Plot|p1a: Barraskewda
+|-boost|p1a: Barraskewda|spa|2
+|move|p2a: Naclstack|Body Press|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-enditem|p1a: Barraskewda|Focus Sash
+|-damage|p1a: Barraskewda|1/100
+|replace|p1a: Zoroark|Zoroark, F
+|-end|p1a: Zoroark|Illusion
+|
+|turn|9
+|
+|move|p1a: Zoroark|Dark Pulse|p2a: Naclstack
+|-damage|p2a: Naclstack|16/100
+|move|p2a: Naclstack|Salt Cure|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|
+|switch|p1a: Barraskewda|Barraskewda, F, tera:Water|100/100
+|turn|10
+|
+|move|p1a: Barraskewda|Drill Run|p2a: Naclstack|[miss]
+|-miss|p1a: Barraskewda|p2a: Naclstack
+|move|p2a: Naclstack|Recover|p2a: Naclstack
+|-heal|p2a: Naclstack|66/100
+|
+|turn|11
+|
+|move|p1a: Barraskewda|Drill Run|p2a: Naclstack
+|-damage|p2a: Naclstack|58/100
+|move|p2a: Naclstack|Recover|p2a: Naclstack
+|-heal|p2a: Naclstack|100/100
+|
+|turn|12
+|-message|La Gliscor forfeited.
+|
+|win|JustAKidWhosFour
+|n|☆La Gliscor|lagliscor
+|n|☆JustAKidWhosFour|justakidwhosfour
+|n|*Lady Monita|ladymonita
+|n| ElliottTJX|elliotttjx

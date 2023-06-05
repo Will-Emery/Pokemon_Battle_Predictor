@@ -1,0 +1,499 @@
+|poke|p1|Quagsire, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Shroomish, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Luxray, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|switch|p2a: Jenga|Garganacl, F|100/100
+|turn|1
+|
+|move|p2a: Jenga|Salt Cure|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|93/100
+|-start|p1a: Quagsire|Salt Cure
+|move|p1a: Quagsire|Toxic Spikes|p2a: Jenga
+|-sidestart|p2: TBalpha22|move: Toxic Spikes
+|
+|-damage|p1a: Quagsire|68/100|[from] Salt Cure
+|turn|2
+|
+|move|p1a: Quagsire|Yawn|p2a: Jenga
+|-immune|p2a: Jenga|[from] ability: Purifying Salt
+|move|p2a: Jenga|Stealth Rock|p1a: Quagsire
+|-sidestart|p1: kooopatrooopa|move: Stealth Rock
+|
+|-damage|p1a: Quagsire|43/100|[from] Salt Cure
+|turn|3
+|
+|move|p1a: Quagsire|Aqua Tail|p2a: Jenga
+|-supereffective|p2a: Jenga
+|-damage|p2a: Jenga|63/100
+|-damage|p1a: Quagsire|27/100|[from] item: Rocky Helmet|[of] p2a: Jenga
+|move|p2a: Jenga|Salt Cure|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|20/100
+|
+|-damage|p1a: Quagsire|0 fnt|[from] Salt Cure
+|faint|p1a: Quagsire
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|turn|4
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Jenga|Salt Cure|p1a: Cinderace
+|-damage|p1a: Cinderace|58/100
+|-start|p1a: Cinderace|Salt Cure
+|
+|-damage|p1a: Cinderace|45/100|[from] Salt Cure
+|turn|5
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Jenga
+|-supereffective|p2a: Jenga
+|-damage|p2a: Jenga|29/100
+|-damage|p1a: Cinderace|29/100|[from] item: Rocky Helmet|[of] p2a: Jenga
+|move|p2a: Jenga|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: kooopatrooopa|move: Stealth Rock
+|
+|-damage|p1a: Cinderace|16/100|[from] Salt Cure
+|turn|6
+|
+|switch|p2a: Jammin|Gholdengo|100/100
+|-damage|p2a: Jammin|94/100|[from] Stealth Rock
+|move|p1a: Cinderace|High Jump Kick|p2a: Jammin
+|-immune|p2a: Jammin
+|-damage|p1a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-status|p1a: Ursaluna|psn
+|-damage|p1a: Ursaluna|94/100 psn|[from] Stealth Rock
+|turn|7
+|
+|-terastallize|p2a: Jammin|Fairy
+|move|p1a: Ursaluna|Headlong Rush|p2a: Jammin
+|-damage|p2a: Jammin|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Jammin
+|
+|-damage|p1a: Ursaluna|82/100 psn|[from] psn
+|
+|switch|p2a: Critter|Corviknight, F|100/100
+|turn|8
+|
+|switch|p1a: Killer|Shroomish, F, shiny|100/100
+|-status|p1a: Killer|psn
+|-damage|p1a: Killer|88/100 psn|[from] Stealth Rock
+|move|p2a: Critter|Iron Defense|p2a: Critter
+|-boost|p2a: Critter|def|2
+|
+|-heal|p1a: Killer|100/100 psn|[from] ability: Poison Heal
+|turn|9
+|
+|move|p2a: Critter|Body Press|p1a: Killer
+|-damage|p1a: Killer|58/100 psn
+|move|p1a: Killer|Leech Seed|p2a: Critter
+|-start|p2a: Critter|move: Leech Seed
+|
+|-damage|p2a: Critter|88/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|75/100 psn|[silent]
+|-heal|p1a: Killer|87/100 psn|[from] ability: Poison Heal
+|turn|10
+|
+|switch|p2a: Amigo|Skeledirge, M|100/100
+|switch|p1a: Luxray|Luxray, M|100/100
+|-status|p1a: Luxray|psn
+|-damage|p1a: Luxray|88/100 psn|[from] Stealth Rock
+|
+|-damage|p1a: Luxray|76/100 psn|[from] psn
+|turn|11
+|
+|move|p1a: Luxray|Crunch|p2a: Amigo
+|-supereffective|p2a: Amigo
+|-damage|p2a: Amigo|27/100
+|move|p2a: Amigo|Torch Song|p1a: Luxray
+|-damage|p1a: Luxray|17/100 psn
+|-boost|p2a: Amigo|spa|1
+|
+|-damage|p1a: Luxray|5/100 psn|[from] psn
+|turn|12
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|75/100|[from] Stealth Rock
+|switch|p2a: Unit|Quagsire, M|100/100
+|-damage|p2a: Unit|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Enamorus|82/100|[from] item: Leftovers
+|-heal|p2a: Unit|100/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Enamorus|Superpower|p2a: Unit
+|-damage|p2a: Unit|76/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|move|p2a: Unit|Toxic|p1a: Enamorus
+|-status|p1a: Enamorus|tox
+|
+|-heal|p1a: Enamorus|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Unit|82/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|82/100 tox|[from] psn
+|turn|14
+|
+|move|p1a: Enamorus|Springtide Storm|p2a: Unit
+|-damage|p2a: Unit|30/100
+|-unboost|p2a: Unit|atk|1
+|move|p2a: Unit|Muddy Water|p1a: Enamorus
+|-damage|p1a: Enamorus|58/100 tox
+|-boost|p1a: Enamorus|accuracy|1
+|
+|-heal|p1a: Enamorus|64/100 tox|[from] item: Leftovers
+|-heal|p2a: Unit|36/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|51/100 tox|[from] psn
+|turn|15
+|
+|switch|p2a: Creature|Toxapex, M|100/100
+|-damage|p2a: Creature|88/100|[from] Stealth Rock
+|move|p1a: Enamorus|Springtide Storm|p2a: Creature
+|-resisted|p2a: Creature
+|-damage|p2a: Creature|72/100
+|-unboost|p2a: Creature|atk|1
+|
+|-heal|p1a: Enamorus|58/100 tox|[from] item: Leftovers
+|-heal|p2a: Creature|78/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|39/100 tox|[from] psn
+|turn|16
+|
+|move|p2a: Creature|Baneful Bunker|p2a: Creature
+|-singleturn|p2a: Creature|move: Protect
+|move|p1a: Enamorus|Superpower|p2a: Creature
+|-activate|p2a: Creature|move: Protect
+|
+|-heal|p1a: Enamorus|45/100 tox|[from] item: Leftovers
+|-heal|p2a: Creature|85/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|20/100 tox|[from] psn
+|turn|17
+|
+|move|p1a: Enamorus|Healing Wish|p1a: Enamorus
+|faint|p1a: Enamorus
+|move|p2a: Creature|Sludge Bomb|p1: Enamorus|[notarget]
+|-fail|p2a: Creature
+|
+|-heal|p2a: Creature|91/100|[from] item: Leftovers
+|
+|switch|p1a: Luxray|Luxray, M|5/100 psn
+|-heal|p1a: Luxray|100/100|[from] move: Healing Wish
+|-status|p1a: Luxray|psn
+|-damage|p1a: Luxray|88/100 psn|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Creature|Baneful Bunker|p2a: Creature
+|-singleturn|p2a: Creature|move: Protect
+|move|p1a: Luxray|Crunch|p2a: Creature
+|-activate|p2a: Creature|move: Protect
+|
+|-heal|p2a: Creature|97/100|[from] item: Leftovers
+|-damage|p1a: Luxray|76/100 psn|[from] psn
+|turn|19
+|
+|switch|p1a: Ursaluna|Ursaluna, M|82/100 psn
+|-damage|p1a: Ursaluna|76/100 psn|[from] Stealth Rock
+|move|p2a: Creature|Sludge Bomb|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|66/100 psn
+|
+|-heal|p2a: Creature|100/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|54/100 psn|[from] psn
+|turn|20
+|
+|switch|p1a: Killer|Shroomish, F, shiny|87/100 psn
+|-damage|p1a: Killer|75/100 psn|[from] Stealth Rock
+|move|p2a: Creature|Baneful Bunker||[still]
+|-fail|p2a: Creature
+|
+|-heal|p1a: Killer|87/100 psn|[from] ability: Poison Heal
+|turn|21
+|
+|move|p2a: Creature|Sludge Bomb|p1a: Killer
+|-supereffective|p1a: Killer
+|-damage|p1a: Killer|56/100 psn
+|move|p1a: Killer|Leech Seed|p2a: Creature
+|-start|p2a: Creature|move: Leech Seed
+|
+|-damage|p2a: Creature|88/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|69/100 psn|[silent]
+|-heal|p1a: Killer|81/100 psn|[from] ability: Poison Heal
+|turn|22
+|
+|switch|p2a: Critter|Corviknight, F|88/100
+|move|p1a: Killer|Protect||[still]
+|-fail|p1a: Killer
+|
+|-heal|p1a: Killer|94/100 psn|[from] ability: Poison Heal
+|turn|23
+|
+|move|p2a: Critter|Brave Bird|p1a: Killer
+|-supereffective|p1a: Killer
+|-damage|p1a: Killer|32/100 psn
+|-damage|p2a: Critter|73/100|[from] Recoil
+|move|p1a: Killer|Leech Seed|p2a: Critter
+|-start|p2a: Critter|move: Leech Seed
+|
+|-damage|p2a: Critter|61/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|49/100 psn|[silent]
+|-heal|p1a: Killer|61/100 psn|[from] ability: Poison Heal
+|turn|24
+|
+|move|p2a: Critter|Brave Bird|p1a: Killer
+|-supereffective|p1a: Killer
+|-damage|p1a: Killer|1/100 psn
+|-damage|p2a: Critter|46/100|[from] Recoil
+|move|p1a: Killer|Substitute|p1a: Killer
+|-fail|p1a: Killer|move: Substitute|[weak]
+|
+|-damage|p2a: Critter|34/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|18/100 psn|[silent]
+|-heal|p1a: Killer|31/100 psn|[from] ability: Poison Heal
+|turn|25
+|
+|move|p1a: Killer|Protect|p1a: Killer
+|-singleturn|p1a: Killer|Protect
+|move|p2a: Critter|Brave Bird|p1a: Killer
+|-activate|p1a: Killer|move: Protect
+|
+|-damage|p2a: Critter|21/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|48/100 psn|[silent]
+|-heal|p1a: Killer|60/100 psn|[from] ability: Poison Heal
+|turn|26
+|
+|-terastallize|p1a: Killer|Water
+|move|p2a: Critter|Brave Bird|p1a: Killer
+|-damage|p1a: Killer|28/100 psn
+|-damage|p2a: Critter|13/100|[from] Recoil
+|move|p1a: Killer|Substitute|p1a: Killer
+|-start|p1a: Killer|Substitute
+|-damage|p1a: Killer|3/100 psn
+|
+|-damage|p2a: Critter|1/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|20/100 psn|[silent]
+|-heal|p1a: Killer|32/100 psn|[from] ability: Poison Heal
+|turn|27
+|
+|switch|p2a: Creature|Toxapex, M|100/100
+|-damage|p2a: Creature|88/100|[from] Stealth Rock
+|move|p1a: Killer|Substitute|p1a: Killer
+|-fail|p1a: Killer|move: Substitute
+|
+|-heal|p2a: Creature|94/100|[from] item: Leftovers
+|-heal|p1a: Killer|45/100 psn|[from] ability: Poison Heal
+|turn|28
+|
+|move|p2a: Creature|Baneful Bunker|p2a: Creature
+|-singleturn|p2a: Creature|move: Protect
+|move|p1a: Killer|Leech Seed|p2a: Creature
+|-activate|p2a: Creature|move: Protect
+|
+|-heal|p2a: Creature|100/100|[from] item: Leftovers
+|-heal|p1a: Killer|57/100 psn|[from] ability: Poison Heal
+|turn|29
+|
+|move|p2a: Creature|Sludge Bomb|p1a: Killer
+|-activate|p1a: Killer|move: Substitute|[damage]
+|move|p1a: Killer|Leech Seed|p2a: Creature
+|-start|p2a: Creature|move: Leech Seed
+|
+|-damage|p2a: Creature|88/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|70/100 psn|[silent]
+|-heal|p1a: Killer|82/100 psn|[from] ability: Poison Heal
+|turn|30
+|
+|move|p1a: Killer|Toxic|p2a: Creature
+|-immune|p2a: Creature
+|move|p2a: Creature|Sludge Bomb|p1a: Killer
+|-end|p1a: Killer|Substitute
+|
+|-heal|p2a: Creature|94/100|[from] item: Leftovers
+|-damage|p2a: Creature|82/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|95/100 psn|[silent]
+|-heal|p1a: Killer|100/100 psn|[from] ability: Poison Heal
+|turn|31
+|
+|move|p1a: Killer|Substitute|p1a: Killer
+|-start|p1a: Killer|Substitute
+|-damage|p1a: Killer|75/100 psn
+|move|p2a: Creature|Sludge Bomb|p1a: Killer
+|-activate|p1a: Killer|move: Substitute|[damage]
+|
+|-heal|p2a: Creature|88/100|[from] item: Leftovers
+|-damage|p2a: Creature|75/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|89/100 psn|[silent]
+|-heal|p1a: Killer|100/100 psn|[from] ability: Poison Heal
+|turn|32
+|
+|switch|p2a: Unit|Quagsire, M|36/100
+|-damage|p2a: Unit|30/100|[from] Stealth Rock
+|move|p1a: Killer|Protect||[still]
+|-fail|p1a: Killer
+|
+|-heal|p2a: Unit|36/100|[from] item: Leftovers
+|turn|33
+|
+|switch|p2a: Creature|Toxapex, M|100/100
+|-damage|p2a: Creature|88/100|[from] Stealth Rock
+|move|p1a: Killer|Toxic|p2a: Creature
+|-immune|p2a: Creature
+|
+|-heal|p2a: Creature|94/100|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Creature|Sludge Bomb|p1a: Killer
+|-end|p1a: Killer|Substitute
+|move|p1a: Killer|Leech Seed|p2a: Creature
+|-start|p2a: Creature|move: Leech Seed
+|
+|-heal|p2a: Creature|100/100|[from] item: Leftovers
+|-damage|p2a: Creature|88/100|[from] Leech Seed|[of] p1a: Killer
+|turn|35
+|
+|switch|p2a: Unit|Quagsire, M|36/100
+|-damage|p2a: Unit|30/100|[from] Stealth Rock
+|move|p1a: Killer|Substitute|p1a: Killer
+|-start|p1a: Killer|Substitute
+|-damage|p1a: Killer|75/100 psn
+|
+|-heal|p2a: Unit|36/100|[from] item: Leftovers
+|-heal|p1a: Killer|88/100 psn|[from] ability: Poison Heal
+|turn|36
+|
+|switch|p2a: Creature|Toxapex, M|100/100
+|-damage|p2a: Creature|88/100|[from] Stealth Rock
+|move|p1a: Killer|Leech Seed|p2a: Creature
+|-start|p2a: Creature|move: Leech Seed
+|
+|-heal|p2a: Creature|94/100|[from] item: Leftovers
+|-damage|p2a: Creature|82/100|[from] Leech Seed|[of] p1a: Killer
+|-heal|p1a: Killer|100/100 psn|[silent]
+|turn|37
+|
+|move|p1a: Killer|Protect|p1a: Killer
+|-singleturn|p1a: Killer|Protect
+|move|p2a: Creature|Sludge Bomb|p1a: Killer
+|-activate|p1a: Killer|move: Protect
+|
+|-heal|p2a: Creature|88/100|[from] item: Leftovers
+|-damage|p2a: Creature|75/100|[from] Leech Seed|[of] p1a: Killer
+|turn|38
+|
+|move|p2a: Creature|Sludge Bomb|p1a: Killer
+|-activate|p1a: Killer|move: Substitute|[damage]
+|move|p1a: Killer|Toxic|p2a: Creature
+|-immune|p2a: Creature
+|
+|-heal|p2a: Creature|82/100|[from] item: Leftovers
+|-damage|p2a: Creature|69/100|[from] Leech Seed|[of] p1a: Killer
+|turn|39
+|
+|switch|p2a: Jenga|Garganacl, F|29/100
+|-damage|p2a: Jenga|16/100|[from] Stealth Rock
+|move|p1a: Killer|Toxic|p2a: Jenga
+|-immune|p2a: Jenga|[from] ability: Purifying Salt
+|
+|turn|40
+|
+|move|p2a: Jenga|Recover|p2a: Jenga
+|-heal|p2a: Jenga|66/100
+|move|p1a: Killer|Leech Seed|p2a: Jenga
+|-start|p2a: Jenga|move: Leech Seed
+|
+|-damage|p2a: Jenga|54/100|[from] Leech Seed|[of] p1a: Killer
+|turn|41
+|
+|switch|p1a: Ursaluna|Ursaluna, M|54/100 psn
+|-damage|p1a: Ursaluna|48/100 psn|[from] Stealth Rock
+|switch|p2a: Creature|Toxapex, M|100/100
+|-damage|p2a: Creature|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Creature|94/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|35/100 psn|[from] psn
+|turn|42
+|
+|move|p1a: Ursaluna|Facade|p2a: Creature
+|-damage|p2a: Creature|8/100
+|move|p2a: Creature|Sludge Bomb|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|27/100 psn
+|
+|-heal|p2a: Creature|15/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|14/100 psn|[from] psn
+|turn|43
+|
+|switch|p1a: Luxray|Luxray, M|76/100 psn
+|-damage|p1a: Luxray|64/100 psn|[from] Stealth Rock
+|move|p2a: Creature|Baneful Bunker||[still]
+|-fail|p2a: Creature
+|
+|-heal|p2a: Creature|21/100|[from] item: Leftovers
+|-damage|p1a: Luxray|51/100 psn|[from] psn
+|turn|44
+|
+|move|p2a: Creature|Baneful Bunker|p2a: Creature
+|-singleturn|p2a: Creature|move: Protect
+|move|p1a: Luxray|Facade|p2a: Creature
+|-activate|p2a: Creature|move: Protect
+|
+|-heal|p2a: Creature|27/100|[from] item: Leftovers
+|-damage|p1a: Luxray|39/100 psn|[from] psn
+|turn|45
+|
+|switch|p2a: Amigo|Skeledirge, M|27/100
+|move|p1a: Luxray|Facade|p2a: Amigo
+|-immune|p2a: Amigo
+|
+|-damage|p1a: Luxray|27/100 psn|[from] psn
+|turn|46
+|
+|switch|p1a: Killer|Shroomish, F, shiny, tera:Water|100/100 psn
+|-damage|p1a: Killer|88/100 psn|[from] Stealth Rock
+|switch|p2a: Critter|Corviknight, F|1/100
+|
+|-heal|p1a: Killer|100/100 psn|[from] ability: Poison Heal
+|turn|47
+|
+|move|p2a: Critter|Roost|p2a: Critter
+|-heal|p2a: Critter|51/100
+|-singleturn|p2a: Critter|move: Roost
+|move|p1a: Killer|Leech Seed|p2a: Critter
+|-start|p2a: Critter|move: Leech Seed
+|
+|-damage|p2a: Critter|38/100|[from] Leech Seed|[of] p1a: Killer
+|turn|48
+|
+|switch|p2a: Creature|Toxapex, M|60/100
+|-damage|p2a: Creature|48/100|[from] Stealth Rock
+|switch|p1a: Ursaluna|Ursaluna, M|14/100 psn
+|-damage|p1a: Ursaluna|8/100 psn|[from] Stealth Rock
+|
+|-heal|p2a: Creature|54/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|0 fnt|[from] psn
+|faint|p1a: Ursaluna
+|
+|switch|p1a: Killer|Shroomish, F, shiny, tera:Water|100/100 psn
+|-damage|p1a: Killer|88/100 psn|[from] Stealth Rock
+|turn|49
+|-message|kooopatrooopa forfeited.
+|
+|win|TBalpha22

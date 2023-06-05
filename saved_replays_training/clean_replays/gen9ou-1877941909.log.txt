@@ -1,0 +1,259 @@
+|poke|p1|Iron Hands|
+|poke|p1|Azumarill, M|
+|poke|p1|Toedscruel, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Copperajah, F|
+|poke|p1|Noivern, F|
+|poke|p2|Dudunsparce-*, F|
+|poke|p2|Sandaconda, M|
+|poke|p2|Vespiquen, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Glalie, M|
+|poke|p2|Avalugg, F|
+|teampreview
+|
+|start
+|switch|p1a: Rusty|Copperajah, F|100/100
+|switch|p2a: Glalie|Glalie, M|100/100
+|turn|1
+|
+|move|p2a: Glalie|Earthquake|p1a: Rusty
+|-supereffective|p1a: Rusty
+|-damage|p1a: Rusty|51/100
+|move|p1a: Rusty|Heavy Slam|p2a: Glalie
+|-supereffective|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|faint|p2a: Glalie
+|
+|-heal|p1a: Rusty|58/100|[from] item: Leftovers
+|
+|switch|p2a: Avalugg|Avalugg, F, shiny|100/100
+|turn|2
+|
+|move|p1a: Rusty|Stealth Rock|p2a: Avalugg
+|-sidestart|p2: Odstin|move: Stealth Rock
+|move|p2a: Avalugg|Body Press|p1a: Rusty
+|-supereffective|p1a: Rusty
+|-damage|p1a: Rusty|0 fnt
+|faint|p1a: Rusty
+|
+|
+|switch|p1a: Catch These Hands|Iron Hands|100/100
+|turn|3
+|
+|-terastallize|p2a: Avalugg|Fighting
+|move|p1a: Catch These Hands|Drain Punch|p2a: Avalugg
+|-damage|p2a: Avalugg|80/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Catch These Hands
+|-damage|p1a: Catch These Hands|93/100
+|-boost|p2a: Avalugg|spe|1
+|-sideend|p2: Odstin|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Avalugg
+|
+|turn|4
+|
+|-end|p1a: Catch These Hands|Quark Drive|[silent]
+|switch|p1a: Easter Egg|Azumarill, M|100/100
+|move|p2a: Avalugg|Body Press|p1a: Easter Egg
+|-resisted|p1a: Easter Egg
+|-damage|p1a: Easter Egg|69/100
+|
+|turn|5
+|
+|move|p1a: Easter Egg|Play Rough|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|33/100
+|move|p2a: Avalugg|Avalanche|p1a: Easter Egg
+|-resisted|p1a: Easter Egg
+|-damage|p1a: Easter Egg|44/100
+|-enditem|p1a: Easter Egg|Sitrus Berry|[eat]
+|-heal|p1a: Easter Egg|69/100|[from] item: Sitrus Berry
+|
+|turn|6
+|
+|move|p2a: Avalugg|Body Press|p1a: Easter Egg
+|-resisted|p1a: Easter Egg
+|-damage|p1a: Easter Egg|39/100
+|move|p1a: Easter Egg|Play Rough|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|move|p1a: Easter Egg|Aqua Jet|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|69/100
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Easter Egg
+|-supereffective|p1a: Easter Egg
+|-damage|p1a: Easter Egg|0 fnt
+|faint|p1a: Easter Egg
+|
+|
+|switch|p1a: Cruel Toad|Toedscruel, M|100/100
+|turn|8
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Cruel Toad
+|-damage|p1a: Cruel Toad|58/100
+|move|p1a: Cruel Toad|Spore|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|slp|[from] move: Spore
+|
+|turn|9
+|
+|switch|p1a: Dazzle|Salazzle, F|100/100
+|cant|p2a: Iron Valiant|slp
+|
+|turn|10
+|
+|cant|p2a: Iron Valiant|slp
+|move|p1a: Dazzle|Sludge Bomb|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Sandaconda|Sandaconda, M, shiny|100/100
+|turn|11
+|
+|switch|p1a: Jetpack|Noivern, F|100/100
+|move|p2a: Sandaconda|Earthquake|p1a: Jetpack
+|-immune|p1a: Jetpack
+|
+|turn|12
+|
+|move|p1a: Jetpack|Draco Meteor|p2a: Sandaconda
+|-damage|p2a: Sandaconda|23/100
+|-unboost|p1a: Jetpack|spa|2
+|move|p2a: Sandaconda|Glare|p1a: Jetpack
+|-status|p1a: Jetpack|par
+|
+|turn|13
+|
+|move|p2a: Sandaconda|Zen Headbutt|p1a: Jetpack
+|-damage|p1a: Jetpack|79/100 par
+|move|p1a: Jetpack|Draco Meteor|p2a: Sandaconda|[miss]
+|-miss|p1a: Jetpack|p2a: Sandaconda
+|
+|turn|14
+|
+|move|p2a: Sandaconda|Facade|p1a: Jetpack
+|-damage|p1a: Jetpack|62/100 par
+|cant|p1a: Jetpack|par
+|
+|turn|15
+|
+|move|p2a: Sandaconda|Zen Headbutt|p1a: Jetpack
+|-damage|p1a: Jetpack|39/100 par
+|move|p1a: Jetpack|U-turn|p2a: Sandaconda
+|-damage|p2a: Sandaconda|16/100
+|-damage|p1a: Jetpack|23/100 par|[from] item: Rocky Helmet|[of] p2a: Sandaconda
+|
+|switch|p1a: Catch These Hands|Iron Hands|93/100|[from] U-turn
+|
+|turn|16
+|
+|move|p2a: Sandaconda|Zen Headbutt|p1a: Catch These Hands
+|-supereffective|p1a: Catch These Hands
+|-damage|p1a: Catch These Hands|66/100
+|cant|p1a: Catch These Hands|flinch
+|
+|turn|17
+|
+|move|p2a: Sandaconda|Zen Headbutt|p1a: Catch These Hands
+|-supereffective|p1a: Catch These Hands
+|-damage|p1a: Catch These Hands|40/100
+|move|p1a: Catch These Hands|Ice Punch|p2a: Sandaconda
+|-supereffective|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|faint|p2a: Sandaconda
+|
+|
+|switch|p2a: Dudunsparce|Dudunsparce-Three-Segment, F, shiny|100/100
+|turn|18
+|
+|move|p2a: Dudunsparce|Boomburst|p1a: Catch These Hands
+|-damage|p1a: Catch These Hands|2/100
+|move|p1a: Catch These Hands|Drain Punch|p2a: Dudunsparce
+|-supereffective|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|34/100
+|-heal|p1a: Catch These Hands|31/100|[from] drain|[of] p2a: Dudunsparce
+|
+|-heal|p2a: Dudunsparce|41/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Dudunsparce|Boomburst|p1a: Catch These Hands
+|-damage|p1a: Catch These Hands|0 fnt
+|faint|p1a: Catch These Hands
+|-end|p1a: Catch These Hands|Quark Drive|[silent]
+|
+|-heal|p2a: Dudunsparce|47/100|[from] item: Leftovers
+|
+|switch|p1a: Cruel Toad|Toedscruel, M|58/100
+|turn|20
+|
+|move|p2a: Dudunsparce|Boomburst|p1a: Cruel Toad
+|-damage|p1a: Cruel Toad|18/100
+|move|p1a: Cruel Toad|Spore|p2a: Dudunsparce
+|-status|p2a: Dudunsparce|slp|[from] move: Spore
+|
+|-heal|p2a: Dudunsparce|53/100 slp|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Cruel Toad|Leaf Storm|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|9/100 slp
+|-unboost|p1a: Cruel Toad|spa|2
+|cant|p2a: Dudunsparce|slp
+|
+|-heal|p2a: Dudunsparce|15/100 slp|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Cruel Toad|Leaf Storm|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|0 fnt
+|-unboost|p1a: Cruel Toad|spa|2
+|faint|p2a: Dudunsparce
+|
+|
+|switch|p2a: Vespiquen|Vespiquen, F, shiny|100/100
+|-ability|p2a: Vespiquen|Pressure
+|turn|23
+|
+|move|p1a: Cruel Toad|Rapid Spin|p2a: Vespiquen
+|-damage|p2a: Vespiquen|95/100
+|-boost|p1a: Cruel Toad|spe|1
+|move|p2a: Vespiquen|Air Slash|p1a: Cruel Toad|[miss]
+|-miss|p2a: Vespiquen|p1a: Cruel Toad
+|
+|turn|24
+|
+|move|p1a: Cruel Toad|Leaf Storm|p2a: Vespiquen
+|-resisted|p2a: Vespiquen
+|-damage|p2a: Vespiquen|91/100
+|-unboost|p1a: Cruel Toad|spa|2
+|move|p2a: Vespiquen|U-turn|p1a: Cruel Toad
+|-supereffective|p1a: Cruel Toad
+|-damage|p1a: Cruel Toad|0 fnt
+|faint|p1a: Cruel Toad
+|
+|
+|switch|p1a: Dazzle|Salazzle, F|100/100
+|turn|25
+|
+|move|p1a: Dazzle|Flamethrower|p2a: Vespiquen
+|-supereffective|p2a: Vespiquen
+|-damage|p2a: Vespiquen|10/100
+|move|p2a: Vespiquen|U-turn|p1a: Dazzle
+|-resisted|p1a: Dazzle
+|-damage|p1a: Dazzle|89/100
+|
+|turn|26
+|
+|move|p1a: Dazzle|Flamethrower|p2a: Vespiquen
+|-supereffective|p2a: Vespiquen
+|-damage|p2a: Vespiquen|0 fnt
+|faint|p2a: Vespiquen
+|
+|win|squeakysylveon

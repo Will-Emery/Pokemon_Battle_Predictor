@@ -1,0 +1,799 @@
+|poke|p1|Kingambit, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Gholdengo|
+|poke|p1|Azumarill, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Great Tusk|
+|poke|p2|Clodsire, M|
+|poke|p2|Gholdengo|
+|poke|p2|Blissey, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Tauros-Paldea-Blaze, M|
+|teampreview
+|
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola
+|-damage|p2a: Alomomola|50/100
+|
+|turn|2
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Ting-Lu|Spikes|p2a: Alomomola
+|-sidestart|p2: Highv0ltag3|Spikes
+|
+|turn|3
+|
+|move|p2a: Alomomola|Whirlpool|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|95/100
+|-activate|p1a: Ting-Lu|move: Whirlpool|[of] p2a: Alomomola
+|move|p1a: Ting-Lu|Whirlwind|p2a: Alomomola
+|drag|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|-end|p1a: Ting-Lu|Whirlpool|[partiallytrapped]|[silent]
+|turn|4
+|
+|switch|p2a: Alomomola|Alomomola, M|84/100
+|move|p1a: Ting-Lu|Spikes|p2a: Alomomola
+|-sidestart|p2: Highv0ltag3|Spikes
+|
+|turn|5
+|
+|move|p2a: Alomomola|Whirlpool|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|95/100
+|-activate|p1a: Ting-Lu|move: Whirlpool|[of] p2a: Alomomola
+|move|p1a: Ting-Lu|Spikes|p2a: Alomomola
+|-sidestart|p2: Highv0ltag3|Spikes
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|88/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|6
+|
+|move|p2a: Alomomola|Whirlpool|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|83/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Alomomola
+|drag|p2a: Tauros-Paldea-Fire|Tauros-Paldea-Blaze, M|100/100
+|-ability|p2a: Tauros-Paldea-Fire|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|
+|-heal|p1a: Ting-Lu|90/100|[from] item: Leftovers
+|-end|p1a: Ting-Lu|Whirlpool|[partiallytrapped]|[silent]
+|turn|7
+|
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Tauros-Paldea-Fire|Will-O-Wisp|p1a: Glimmora|[miss]
+|-miss|p2a: Tauros-Paldea-Fire|p1a: Glimmora
+|
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|90/100|[from] item: Leftovers
+|turn|10
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Corviknight|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|97/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|
+|turn|11
+|
+|switch|p1a: Ting-Lu|Ting-Lu|90/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|82/100
+|
+|-heal|p1a: Ting-Lu|88/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|
+|turn|13
+|
+|switch|p1a: Great Tusk|Great Tusk|90/100
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-heal|p1a: Great Tusk|96/100|[from] item: Leftovers
+|turn|14
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|97/100
+|move|p2a: Alomomola|Whirlpool|p1a: Gholdengo
+|-damage|p1a: Gholdengo|90/100
+|-activate|p1a: Gholdengo|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Gholdengo|78/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|15
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|
+|-end|p1a: Gholdengo|Whirlpool|[partiallytrapped]|[silent]
+|turn|16
+|
+|switch|p1a: Great Tusk|Great Tusk|96/100
+|move|p2a: Blissey|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: AgencyIsOwn|move: Stealth Rock
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Corviknight|Corviknight, F|84/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Highv0ltag3|move: Stealth Rock
+|
+|turn|18
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|move|p2a: Corviknight|Defog|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|turn|19
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p2a: Corviknight|Corviknight, F|84/100
+|-damage|p2a: Corviknight|72/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|68/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: AgencyIsOwn|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|21
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|94/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|22
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|turn|23
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Blissey
+|-damage|p2a: Blissey|52/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|turn|24
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|turn|25
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Azumarill|Belly Drum|p1a: Azumarill
+|-damage|p1a: Azumarill|50/100
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Azumarill|Sitrus Berry|[eat]
+|-heal|p1a: Azumarill|75/100|[from] item: Sitrus Berry
+|
+|turn|26
+|
+|-terastallize|p2a: Clodsire|Water
+|move|p1a: Azumarill|Play Rough|p2a: Clodsire
+|-damage|p2a: Clodsire|61/100
+|move|p2a: Clodsire|Toxic|p1a: Azumarill
+|-status|p1a: Azumarill|tox
+|
+|-damage|p1a: Azumarill|69/100 tox|[from] psn
+|turn|27
+|
+|move|p1a: Azumarill|Facade|p2a: Clodsire
+|-damage|p2a: Clodsire|16/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|66/100
+|
+|-damage|p1a: Azumarill|57/100 tox|[from] psn
+|turn|28
+|
+|move|p1a: Azumarill|Facade|p2a: Clodsire
+|-damage|p2a: Clodsire|25/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|75/100
+|
+|-damage|p1a: Azumarill|38/100 tox|[from] psn
+|turn|29
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|turn|30
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|80/100
+|-enditem|p2a: Clodsire|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Clodsire|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-damage|p1a: Great Tusk|94/100 tox|[from] psn
+|turn|31
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|67/100
+|move|p2a: Clodsire|Spikes|p1a: Great Tusk
+|-sidestart|p1: AgencyIsOwn|Spikes
+|
+|-heal|p1a: Great Tusk|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|88/100 tox|[from] psn
+|turn|32
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Clodsire
+|-damage|p2a: Clodsire|57/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: AgencyIsOwn|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|-heal|p1a: Great Tusk|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|76/100 tox|[from] psn
+|turn|33
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Azumarill|Azumarill, M|38/100 tox
+|move|p2a: Clodsire|Spikes|p1a: Azumarill
+|-sidestart|p1: AgencyIsOwn|Spikes
+|
+|-damage|p1a: Azumarill|32/100 tox|[from] psn
+|turn|34
+|
+|move|p1a: Azumarill|Facade|p2a: Clodsire
+|-damage|p2a: Clodsire|57/100
+|move|p2a: Clodsire|Spikes|p1a: Azumarill
+|-sidestart|p1: AgencyIsOwn|Spikes
+|
+|-damage|p1a: Azumarill|20/100 tox|[from] psn
+|turn|35
+|
+|move|p1a: Azumarill|Facade|p2a: Clodsire
+|-damage|p2a: Clodsire|18/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|68/100
+|
+|-damage|p1a: Azumarill|1/100 tox|[from] psn
+|turn|36
+|
+|move|p1a: Azumarill|Facade|p2a: Clodsire
+|-damage|p2a: Clodsire|27/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|77/100
+|
+|-damage|p1a: Azumarill|0 fnt|[from] psn
+|faint|p1a: Azumarill
+|
+|switch|p1a: Great Tusk|Great Tusk|76/100 tox
+|-damage|p1a: Great Tusk|59/100 tox|[from] Spikes
+|turn|37
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Clodsire
+|-damage|p2a: Clodsire|67/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: AgencyIsOwn|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Clodsire|Spikes|p1a: Great Tusk
+|-sidestart|p1: AgencyIsOwn|Spikes
+|
+|-heal|p1a: Great Tusk|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|59/100 tox|[from] psn
+|turn|38
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Clodsire
+|-damage|p2a: Clodsire|36/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|86/100
+|
+|-heal|p1a: Great Tusk|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|53/100 tox|[from] psn
+|turn|39
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Clodsire
+|-damage|p2a: Clodsire|56/100
+|move|p2a: Clodsire|Spikes|p1a: Great Tusk
+|-sidestart|p1: AgencyIsOwn|Spikes
+|
+|-heal|p1a: Great Tusk|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|40/100 tox|[from] psn
+|turn|40
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Clodsire
+|-damage|p2a: Clodsire|46/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: AgencyIsOwn|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|96/100
+|
+|-heal|p1a: Great Tusk|47/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|22/100 tox|[from] psn
+|turn|41
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Clodsire
+|-damage|p2a: Clodsire|65/100
+|move|p2a: Clodsire|Spikes|p1a: Great Tusk
+|-sidestart|p1: AgencyIsOwn|Spikes
+|
+|-heal|p1a: Great Tusk|28/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|0 fnt|[from] psn
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|88/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|42
+|
+|-terastallize|p1a: Kingambit|Dark
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|
+|switch|p2a: Tauros-Paldea-Fire|Tauros-Paldea-Blaze, M|100/100
+|-ability|p2a: Tauros-Paldea-Fire|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|turn|43
+|
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|88/100|[from] Spikes
+|move|p2a: Tauros-Paldea-Fire|Will-O-Wisp|p1a: Glimmora
+|-status|p1a: Glimmora|brn
+|
+|-damage|p1a: Glimmora|82/100 brn|[from] brn
+|turn|44
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Glimmora|Power Gem|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100
+|
+|-damage|p1a: Glimmora|76/100 brn|[from] brn
+|turn|45
+|
+|move|p1a: Glimmora|Power Gem|p2a: Corviknight
+|-damage|p2a: Corviknight|4/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|54/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Glimmora|70/100 brn|[from] brn
+|turn|46
+|
+|move|p1a: Glimmora|Power Gem|p2a: Corviknight
+|-damage|p2a: Corviknight|11/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|61/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Glimmora|63/100 brn|[from] brn
+|turn|47
+|
+|move|p1a: Glimmora|Power Gem|p2a: Corviknight
+|-damage|p2a: Corviknight|21/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|71/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Glimmora|57/100 brn|[from] brn
+|turn|48
+|
+|move|p1a: Glimmora|Power Gem|p2a: Corviknight
+|-damage|p2a: Corviknight|28/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|78/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Glimmora|51/100 brn|[from] brn
+|turn|49
+|
+|move|p1a: Glimmora|Power Gem|p2a: Corviknight
+|-damage|p2a: Corviknight|37/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|87/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Glimmora|45/100 brn|[from] brn
+|turn|50
+|
+|switch|p1a: Gholdengo|Gholdengo|94/100
+|-damage|p1a: Gholdengo|82/100|[from] Spikes
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|51
+|
+|switch|p1a: Ting-Lu|Ting-Lu|88/100
+|-damage|p1a: Ting-Lu|76/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Ting-Lu|82/100|[from] item: Leftovers
+|turn|52
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola
+|-damage|p2a: Alomomola|50/100
+|
+|-heal|p1a: Ting-Lu|88/100|[from] item: Leftovers
+|turn|53
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola
+|-damage|p2a: Alomomola|26/100
+|
+|-heal|p1a: Ting-Lu|95/100|[from] item: Leftovers
+|turn|54
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ting-Lu|Whirlwind|p2a: Alomomola
+|drag|p2a: Blissey|Blissey, F|100/100
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|turn|55
+|
+|switch|p2a: Alomomola|Alomomola, M|59/100
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola
+|-damage|p2a: Alomomola|30/100
+|
+|turn|56
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|8/100
+|
+|turn|57
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ting-Lu|Whirlwind|p2a: Alomomola
+|drag|p2a: Gholdengo|Gholdengo|100/100
+|
+|turn|58
+|
+|switch|p2a: Alomomola|Alomomola, M|42/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|20/100
+|
+|turn|59
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|turn|60
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Gholdengo
+|-damage|p2a: Gholdengo|50/100
+|
+|turn|61
+|
+|switch|p2a: Alomomola|Alomomola, M|53/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|32/100
+|
+|turn|62
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|11/100
+|
+|turn|63
+|
+|switch|p2a: Gholdengo|Gholdengo|50/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|-heal|p2a: Gholdengo|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|64
+|
+|switch|p2a: Alomomola|Alomomola, M|44/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|26/100
+|
+|turn|65
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|5/100
+|
+|turn|66
+|
+|switch|p2a: Tauros-Paldea-Fire|Tauros-Paldea-Blaze, M|100/100
+|-ability|p2a: Tauros-Paldea-Fire|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|move|p1a: Ting-Lu|Whirlwind|p2a: Tauros-Paldea-Fire
+|drag|p2a: Alomomola|Alomomola, M|39/100
+|
+|-heal|p2a: Alomomola|89/100|[from] move: Wish|[wisher] Alomomola
+|turn|67
+|
+|switch|p1a: Gholdengo|Gholdengo|82/100
+|-damage|p1a: Gholdengo|70/100|[from] Spikes
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|turn|68
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|
+|turn|69
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|88/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Blissey|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: AgencyIsOwn|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|94/100|[from] item: Leftovers
+|turn|70
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola
+|-damage|p2a: Alomomola|50/100
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|turn|71
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola
+|-damage|p2a: Alomomola|26/100
+|
+|turn|72
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ting-Lu|Whirlwind|p2a: Alomomola
+|drag|p2a: Gholdengo|Gholdengo|100/100
+|
+|turn|73
+|
+|switch|p2a: Alomomola|Alomomola, M|59/100
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola
+|-damage|p2a: Alomomola|30/100
+|
+|turn|74
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|turn|75
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ting-Lu|Ruination|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100
+|
+|turn|76
+|
+|move|p1a: Ting-Lu|Ruination|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|72/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|77
+|
+|switch|p2a: Alomomola|Alomomola, M|63/100
+|move|p1a: Ting-Lu|Ruination|p2a: Alomomola
+|-damage|p2a: Alomomola|32/100
+|
+|turn|78
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|turn|79
+|
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Ting-Lu|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|12/100
+|
+|turn|80
+|
+|switch|p2a: Tauros-Paldea-Fire|Tauros-Paldea-Blaze, M|100/100
+|-ability|p2a: Tauros-Paldea-Fire|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|-damage|p1a: Gholdengo|82/100|[from] Stealth Rock
+|
+|turn|81
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Blissey
+|-immune|p2a: Blissey
+|
+|turn|82
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|88/100|[from] Spikes
+|-damage|p1a: Ting-Lu|82/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Blissey|Seismic Toss|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|62/100
+|
+|-heal|p1a: Ting-Lu|69/100|[from] item: Leftovers
+|turn|83
+|
+|switch|p2a: Alomomola|Alomomola, M|45/100
+|switch|p1a: Gholdengo|Gholdengo|82/100
+|-damage|p1a: Gholdengo|70/100|[from] Spikes
+|-damage|p1a: Gholdengo|64/100|[from] Stealth Rock
+|
+|turn|84
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|turn|85
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|turn|86
+|
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|turn|87
+|
+|switch|p1a: Ting-Lu|Ting-Lu|69/100
+|-damage|p1a: Ting-Lu|56/100|[from] Spikes
+|-damage|p1a: Ting-Lu|50/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Blissey|Seismic Toss|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|30/100
+|
+|-heal|p1a: Ting-Lu|37/100|[from] item: Leftovers
+|turn|88
+|
+|switch|p2a: Alomomola|Alomomola, M|79/100
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|-damage|p1a: Gholdengo|82/100|[from] Stealth Rock
+|
+|turn|89
+|
+|switch|p1a: Glimmora|Glimmora, M|45/100 brn
+|-damage|p1a: Glimmora|32/100 brn|[from] Spikes
+|-damage|p1a: Glimmora|20/100 brn|[from] Stealth Rock
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|-damage|p1a: Glimmora|14/100 brn|[from] brn
+|turn|90
+|
+|switch|p2a: Corviknight|Corviknight, F|72/100
+|-damage|p2a: Corviknight|60/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Glimmora|Power Gem|p2a: Corviknight
+|-damage|p2a: Corviknight|21/100
+|
+|-damage|p1a: Glimmora|8/100 brn|[from] brn
+|turn|91
+|
+|move|p1a: Glimmora|Power Gem|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Glimmora|1/100 brn|[from] brn
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|92
+|
+|switch|p1a: Kingambit|Kingambit, M, tera:Dark|88/100
+|-damage|p1a: Kingambit|75/100|[from] Spikes
+|-damage|p1a: Kingambit|63/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|turn|93
+|
+|switch|p2a: Tauros-Paldea-Fire|Tauros-Paldea-Blaze, M|100/100
+|-ability|p2a: Tauros-Paldea-Fire|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|94
+|
+|move|p2a: Tauros-Paldea-Fire|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|3/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Tauros-Paldea-Fire
+|-resisted|p2a: Tauros-Paldea-Fire
+|-damage|p2a: Tauros-Paldea-Fire|50/100
+|
+|turn|95
+|
+|move|p2a: Tauros-Paldea-Fire|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|82/100
+|-damage|p1a: Gholdengo|70/100|[from] Spikes
+|-damage|p1a: Gholdengo|64/100|[from] Stealth Rock
+|turn|96
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Tauros-Paldea-Fire|Raging Bull|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-message|AgencyIsOwn forfeited.
+|
+|win|Highv0ltag3
+||Ladder isn't responding, score probably updated but might not have (Request timeout).

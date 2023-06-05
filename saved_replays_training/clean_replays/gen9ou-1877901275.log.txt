@@ -1,0 +1,296 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Heatran, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Magearna|
+|poke|p1|Rotom-Wash|
+|poke|p1|Great Tusk|
+|poke|p2|Kleavor, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Magearna|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Takizawa|Samurott-Hisui, F|100/100
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|1
+|
+|switch|p1a: Martinelli's|Heatran, M|100/100
+|-item|p1a: Martinelli's|Air Balloon
+|move|p2a: Decidueye|Triple Arrows|p1a: Martinelli's
+|-supereffective|p1a: Martinelli's
+|-damage|p1a: Martinelli's|41/100
+|-enditem|p1a: Martinelli's|Air Balloon
+|
+|turn|2
+|
+|move|p1a: Martinelli's|Will-O-Wisp|p2a: Decidueye
+|-status|p2a: Decidueye|brn
+|move|p2a: Decidueye|Triple Arrows|p1a: Martinelli's
+|-supereffective|p1a: Martinelli's
+|-damage|p1a: Martinelli's|12/100
+|
+|-damage|p2a: Decidueye|94/100 brn|[from] brn
+|turn|3
+|
+|move|p1a: Martinelli's|Magma Storm|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|11/100 brn
+|-activate|p2a: Decidueye|move: Magma Storm|[of] p1a: Martinelli's
+|move|p2a: Decidueye|Triple Arrows|p1a: Martinelli's
+|-supereffective|p1a: Martinelli's
+|-damage|p1a: Martinelli's|0 fnt
+|faint|p1a: Martinelli's
+|
+|-heal|p2a: Decidueye|17/100 brn|[from] item: Leftovers
+|-damage|p2a: Decidueye|11/100 brn|[from] brn
+|-end|p2a: Decidueye|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Takizawa|Samurott-Hisui, F|100/100
+|turn|4
+|
+|move|p1a: Takizawa|Ceaseless Edge|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|-sidestart|p2: Tapu Shiesty|Spikes
+|faint|p2a: Decidueye
+|
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|-damage|p2a: Kleavor|88/100|[from] Spikes
+|turn|5
+|
+|move|p2a: Kleavor|U-turn|p1a: Takizawa
+|-supereffective|p1a: Takizawa
+|-damage|p1a: Takizawa|11/100
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|-damage|p2a: Basculegion|88/100|[from] Spikes
+|move|p1a: Takizawa|Ceaseless Edge|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-sidestart|p2: Tapu Shiesty|Spikes
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Kleavor|Kleavor, F|88/100
+|-damage|p2a: Kleavor|72/100|[from] Spikes
+|turn|6
+|
+|switch|p1a: Gaia|Landorus-Therian, M|100/100
+|-ability|p1a: Gaia|Intimidate|boost
+|-unboost|p2a: Kleavor|atk|1
+|move|p2a: Kleavor|U-turn|p1a: Gaia
+|-resisted|p1a: Gaia
+|-damage|p1a: Gaia|92/100
+|-damage|p2a: Kleavor|55/100|[from] item: Rocky Helmet|[of] p1a: Gaia
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100|[from] U-turn
+|
+|turn|7
+|
+|move|p1a: Gaia|Taunt|p2a: Enamorus
+|-start|p2a: Enamorus|move: Taunt
+|cant|p2a: Enamorus|move: Taunt|Calm Mind
+|
+|turn|8
+|
+|move|p1a: Gaia|Stealth Rock|p2a: Enamorus
+|-sidestart|p2: Tapu Shiesty|move: Stealth Rock
+|move|p2a: Enamorus|Draining Kiss|p1a: Gaia
+|-damage|p1a: Gaia|65/100
+|-damage|p2a: Enamorus|84/100|[from] item: Rocky Helmet|[of] p1a: Gaia
+|
+|-heal|p2a: Enamorus|90/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Gaia|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|86/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] U-turn
+|move|p2a: Enamorus|Moonblast|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|83/100
+|-unboost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|90/100|[from] item: Leftovers
+|-heal|p2a: Enamorus|92/100|[from] item: Leftovers
+|-end|p2a: Enamorus|move: Taunt
+|turn|10
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|84/100|[from] Spikes
+|-damage|p2a: Heatran|72/100|[from] Stealth Rock
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|96/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: LG WM3600HVA|Rotom-Wash, shiny|100/100
+|move|p2a: Heatran|Magma Storm|p1a: LG WM3600HVA
+|-resisted|p1a: LG WM3600HVA
+|-damage|p1a: LG WM3600HVA|43/100
+|-activate|p1a: LG WM3600HVA|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: LG WM3600HVA|31/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|12
+|
+|switch|p2a: Kleavor|Kleavor, F|55/100
+|-damage|p2a: Kleavor|39/100|[from] Spikes
+|-damage|p2a: Kleavor|14/100|[from] Stealth Rock
+|move|p1a: LG WM3600HVA|Hydro Pump|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|-end|p1a: LG WM3600HVA|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|92/100
+|-damage|p2a: Enamorus|67/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: LG WM3600HVA|Hydro Pump|p2a: Enamorus
+|-damage|p2a: Enamorus|17/100
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|-heal|p2a: Enamorus|23/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: LG WM3600HVA|Hydro Pump|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|84/100|[from] Spikes
+|-damage|p2a: Magearna|78/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Gaia|Landorus-Therian, M|65/100
+|-ability|p1a: Gaia|Intimidate|boost
+|-unboost|p2a: Magearna|atk|1
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|84/100|[from] item: Leftovers
+|turn|16
+|
+|-terastallize|p2a: Magearna|Flying
+|-terastallize|p1a: Gaia|Water
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Gaia|Earthquake|p2a: Magearna
+|-immune|p2a: Magearna
+|
+|-heal|p2a: Magearna|90/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Gaia
+|-damage|p1a: Gaia|30/100
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Gaia
+|-damage|p2a: Magearna|84/100|[from] item: Rocky Helmet|[of] p1a: Gaia
+|move|p1a: Gaia|Taunt|p2a: Magearna
+|-start|p2a: Magearna|move: Taunt
+|
+|-heal|p2a: Magearna|90/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Gaia
+|-damage|p1a: Gaia|0 fnt
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Gaia
+|-damage|p2a: Magearna|84/100|[from] item: Rocky Helmet|[of] p1a: Gaia
+|faint|p1a: Gaia
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|90/100|[from] item: Leftovers
+|
+|switch|p1a: Magearna|Magearna|96/100
+|turn|19
+|
+|switch|p2a: Heatran|Heatran, F|72/100
+|-damage|p2a: Heatran|55/100|[from] Spikes
+|-damage|p2a: Heatran|43/100|[from] Stealth Rock
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Takizawa|Samurott-Hisui, F|11/100
+|move|p2a: Heatran|Magma Storm|p1a: Takizawa
+|-resisted|p1a: Takizawa
+|-damage|p1a: Takizawa|0 fnt
+|faint|p1a: Takizawa
+|
+|
+|switch|p1a: LG WM3600HVA|Rotom-Wash, shiny|31/100
+|turn|21
+|
+|move|p1a: LG WM3600HVA|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|2/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Volt Switch
+|move|p2a: Heatran|Magma Storm|p1a: Magearna|[miss]
+|-miss|p2a: Heatran|p1a: Magearna
+|
+|turn|22
+|
+|switch|p1a: LG WM3600HVA|Rotom-Wash, shiny|31/100
+|move|p2a: Heatran|Magma Storm|p1a: LG WM3600HVA|[miss]
+|-miss|p2a: Heatran|p1a: LG WM3600HVA
+|
+|turn|23
+|
+|move|p1a: LG WM3600HVA|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Volt Switch
+|
+|
+|switch|p2a: Magearna|Magearna, tera:Flying|90/100
+|-damage|p2a: Magearna|65/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Magearna|Thunderbolt|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|27/100
+|
+|-heal|p2a: Magearna|33/100|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|85/100
+|-heal|p2a: Magearna|45/100|[from] drain|[of] p1a: Magearna
+|move|p1a: Magearna|Thunderbolt|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|10/100
+|
+|-heal|p2a: Magearna|16/100|[from] item: Leftovers
+|-heal|p1a: Magearna|91/100|[from] item: Leftovers
+|turn|26
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Magearna|Fleur Cannon|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Magearna
+|
+|win|bo552

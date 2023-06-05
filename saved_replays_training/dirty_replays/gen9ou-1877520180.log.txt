@@ -1,1 +1,210 @@
-Could not connect
+|j|☆tsyusu
+|j|☆lucaviho
+|t:|1685876131
+|gametype|singles
+|player|p1|tsyusu|1|1163
+|player|p2|lucaviho|steven-masters2|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tornadus, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Great Tusk|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Hands|
+|poke|p2|Torkoal, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Rabsca, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lucaviho)
+|
+|t:|1685876135
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|t:|1685876162
+|move|p1a: Kleavor|Swords Dance|p1a: Kleavor
+|-boost|p1a: Kleavor|atk|2
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1685876168
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|move|p1a: Kleavor|Stone Axe|p2: Hatterene|[notarget]
+|-fail|p1a: Kleavor
+|
+|upkeep
+|
+|t:|1685876174
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1685876177
+|-terastallize|p2a: Torkoal|Fire
+|move|p2a: Torkoal|Eruption|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685876178
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|4
+|
+|t:|1685876189
+|move|p2a: Torkoal|Eruption|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685876202
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|5
+|
+|t:|1685876205
+|move|p2a: Torkoal|Eruption|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1685876208
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|6
+|
+|t:|1685876215
+|move|p1a: Samurott|Ceaseless Edge|p2a: Torkoal
+|-damage|p2a: Torkoal|66/100
+|-sidestart|p2: lucaviho|Spikes
+|move|p2a: Torkoal|Eruption|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685876224
+|move|p1a: Samurott|Ceaseless Edge|p2a: Torkoal|[miss]
+|-miss|p1a: Samurott|p2a: Torkoal
+|move|p2a: Torkoal|Eruption|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|none
+|upkeep
+|
+|t:|1685876229
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|8
+|
+|t:|1685876235
+|move|p1a: Great Tusk|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|upkeep
+|
+|t:|1685876242
+|switch|p2a: Rabsca|Rabsca, M|100/100
+|-damage|p2a: Rabsca|88/100|[from] Spikes
+|turn|9
+|
+|t:|1685876256
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Rabsca|Trick Room|p2a: Rabsca
+|-fieldstart|move: Trick Room|[of] p2a: Rabsca
+|
+|upkeep
+|turn|10
+|
+|t:|1685876266
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|
+|t:|1685876270
+|-heal|p2: Torkoal|50/100|[from] move: Revival Blessing
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|faint|p2a: Rabsca
+|
+|upkeep
+|
+|t:|1685876278
+|switch|p2a: Torkoal|Torkoal, M|50/100
+|-heal|p2a: Torkoal|100/100|[from] move: Healing Wish
+|-damage|p2a: Torkoal|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|11
+|
+|t:|1685876287
+|move|p2a: Torkoal|Eruption|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685876290
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|12
+|l|☆lucaviho
+|inactive|lucaviho disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|lucaviho has 30 seconds to reconnect!
+|inactive|lucaviho has 20 seconds to reconnect!
+|j|☆lucaviho
+|inactive|lucaviho reconnected and has 105 seconds left.
+|player|p2|lucaviho|steven-masters2
+|l|☆lucaviho
+|inactive|lucaviho disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆lucaviho
+|inactive|lucaviho reconnected and has 85 seconds left.
+|player|p2|lucaviho|steven-masters2
+|
+|t:|1685876358
+|move|p2a: Torkoal|Eruption|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|lucaviho
+|raw|tsyusu's rating: 1163 → 1143(-20 for losing)
+|raw|lucaviho's rating: 1228 → 1248(+20 for winning)
+|l|☆lucaviho
+|j|☆lucaviho
+|player|p2|lucaviho|steven-masters2

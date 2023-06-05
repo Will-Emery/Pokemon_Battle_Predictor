@@ -1,0 +1,79 @@
+|poke|p1|Glaceon, M|
+|poke|p1|Slowking, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p1|Cinderace, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Haunter, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Muk-Alola, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Glimmora, M|
+|teampreview
+|
+|start
+|switch|p1a: 2 Kings|Slowking, M|100/100
+|switch|p2a: Lasher|Glimmora, M|100/100
+|-item|p2a: Lasher|Air Balloon
+|turn|1
+|
+|move|p2a: Lasher|Toxic|p1a: 2 Kings
+|-status|p1a: 2 Kings|tox
+|move|p1a: 2 Kings|Surf|p2a: Lasher
+|-supereffective|p2a: Lasher
+|-damage|p2a: Lasher|12/100
+|-enditem|p2a: Lasher|Air Balloon
+|
+|-damage|p1a: 2 Kings|94/100 tox|[from] psn
+|turn|2
+|
+|switch|p2a: Riot|Slowking-Galar, M|100/100
+|move|p1a: 2 Kings|Surf|p2a: Riot
+|-damage|p2a: Riot|89/100
+|
+|-damage|p1a: 2 Kings|82/100 tox|[from] psn
+|turn|3
+|
+|move|p2a: Riot|Future Sight|p1a: 2 Kings
+|-start|p2a: Riot|move: Future Sight
+|move|p1a: 2 Kings|Chilly Reception|p1a: 2 Kings
+|-weather|Snow
+|
+|switch|p1a: 1 Kings|Kingambit, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|switch|p2a: Scream|Salazzle, F, shiny|100/100
+|-item|p2a: Scream|Air Balloon
+|move|p1a: 1 Kings|Swords Dance|p1a: 1 Kings
+|-boost|p1a: 1 Kings|atk|2
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p1a: 1 Kings|Sucker Punch||[still]
+|-fail|p1a: 1 Kings
+|move|p2a: Scream|Toxic|p1a: 1 Kings
+|-status|p1a: 1 Kings|tox
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: 1 Kings|move: Future Sight
+|-immune|p1a: 1 Kings
+|-damage|p1a: 1 Kings|94/100 tox|[from] psn
+|turn|6
+|
+|move|p1a: 1 Kings|Sucker Punch||[still]
+|-fail|p1a: 1 Kings
+|move|p2a: Scream|Substitute|p2a: Scream
+|-start|p2a: Scream|Substitute
+|-damage|p2a: Scream|76/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: 1 Kings|100/100 tox|[from] item: Leftovers
+|-damage|p1a: 1 Kings|88/100 tox|[from] psn
+|turn|7
+|-message|embiggen forfeited.
+|
+|win|VenomBoner0

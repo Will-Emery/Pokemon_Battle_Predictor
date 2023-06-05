@@ -1,0 +1,215 @@
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Treads|
+|poke|p1|Slowking, M|
+|poke|p1|Magearna|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragapult, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: LowTierGod|Thundurus-Therian, M|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|1
+|
+|-terastallize|p1a: LowTierGod|Ice
+|move|p1a: LowTierGod|Tera Blast|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|2
+|
+|switch|p1a: Kung Fu Panda|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Kung Fu Panda
+|-resisted|p1a: Kung Fu Panda
+|-damage|p1a: Kung Fu Panda|79/100
+|-sidestart|p1: TomoTaco69|Spikes
+|
+|turn|3
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Kung Fu Panda|U-turn|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|91/100
+|
+|switch|p1a: Stalemate|Slowking, M|100/100|[from] U-turn
+|
+|turn|4
+|
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Stalemate|Future Sight|p2a: Iron Valiant
+|-start|p1a: Stalemate|move: Future Sight
+|
+|turn|5
+|
+|move|p2a: Iron Valiant|Spirit Break|p1a: Stalemate
+|-damage|p1a: Stalemate|40/100
+|-unboost|p1a: Stalemate|spa|1
+|move|p1a: Stalemate|Chilly Reception|p1a: Stalemate
+|-weather|Snow
+|
+|switch|p1a: Iron Maiden|Magearna|100/100|[from] Chilly Reception
+|-damage|p1a: Iron Maiden|88/100|[from] Spikes
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Iron Maiden|94/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Iron Valiant|Close Combat|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|17/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Iron Maiden|Draining Kiss|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-heal|p1a: Iron Maiden|71/100|[from] drain|[of] p2a: Iron Valiant
+|faint|p2a: Iron Valiant
+|-ability|p1a: Iron Maiden|Soul-Heart|boost
+|-boost|p1a: Iron Maiden|spa|1
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Snow|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|-heal|p1a: Iron Maiden|77/100|[from] item: Leftovers
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|7
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Iron Maiden
+|-supereffective|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|11/100
+|move|p1a: Iron Maiden|Shift Gear|p1a: Iron Maiden
+|-boost|p1a: Iron Maiden|spe|2
+|-boost|p1a: Iron Maiden|atk|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Iron Maiden|17/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Iron Maiden
+|-supereffective|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|0 fnt
+|faint|p1a: Iron Maiden
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: LowTierGod|Thundurus-Therian, M, tera:Ice|100/100
+|-damage|p1a: LowTierGod|88/100|[from] Spikes
+|turn|9
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: LowTierGod|Tera Blast|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|64/100
+|
+|-weather|none
+|turn|10
+|
+|switch|p1a: Stalemate|Slowking, M|74/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Stalemate|[miss]
+|-miss|p2a: Samurott|p1a: Stalemate
+|
+|turn|11
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Stalemate
+|-supereffective|p1a: Stalemate
+|-damage|p1a: Stalemate|8/100
+|-sidestart|p1: TomoTaco69|Spikes
+|move|p1a: Stalemate|Chilly Reception|p1a: Stalemate
+|-weather|Snow
+|
+|switch|p1a: LowTierGod|Thundurus-Therian, M, tera:Ice|88/100|[from] Chilly Reception
+|-damage|p1a: LowTierGod|71/100|[from] Spikes
+|
+|-weather|Snow|[upkeep]
+|turn|12
+|
+|switch|p2a: Mamo But Scary|Great Tusk, shiny|100/100
+|move|p1a: LowTierGod|Grass Knot|p2a: Mamo But Scary
+|-supereffective|p2a: Mamo But Scary
+|-damage|p2a: Mamo But Scary|0 fnt
+|faint|p2a: Mamo But Scary
+|-end|p2a: Mamo But Scary|Protosynthesis|[silent]
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|switch|p1a: Steel Ball Run|Iron Treads|100/100
+|-damage|p1a: Steel Ball Run|84/100|[from] Spikes
+|move|p2a: Dragapult|Shadow Ball|p1a: Steel Ball Run
+|-damage|p1a: Steel Ball Run|45/100
+|-unboost|p1a: Steel Ball Run|spd|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Steel Ball Run|51/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Steel Ball Run
+|-damage|p1a: Steel Ball Run|0 fnt
+|faint|p1a: Steel Ball Run
+|-end|p1a: Steel Ball Run|Quark Drive|[silent]
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: LowTierGod|Thundurus-Therian, M, tera:Ice|71/100
+|-damage|p1a: LowTierGod|55/100|[from] Spikes
+|turn|15
+|
+|-terastallize|p2a: Dragapult|Ghost
+|move|p1a: LowTierGod|Volt Switch|p2a: Dragapult
+|-damage|p2a: Dragapult|40/100
+|
+|switch|p1a: Stalemate|Slowking, M|41/100|[from] Volt Switch
+|move|p2a: Dragapult|Shadow Ball|p1a: Stalemate
+|-supereffective|p1a: Stalemate
+|-damage|p1a: Stalemate|0 fnt
+|faint|p1a: Stalemate
+|
+|-weather|none
+|
+|switch|p1a: LowTierGod|Thundurus-Therian, M, tera:Ice|55/100
+|-damage|p1a: LowTierGod|38/100|[from] Spikes
+|turn|16
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|64/100
+|move|p1a: LowTierGod|Thunderbolt|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|17
+|
+|switch|p1a: Kung Fu Panda|Urshifu-Rapid-Strike, M|79/100
+|-damage|p1a: Kung Fu Panda|62/100|[from] Spikes
+|move|p2a: Chien-Pao|Swords Dance|p2a: Chien-Pao
+|-boost|p2a: Chien-Pao|atk|2
+|
+|turn|18
+|
+|move|p1a: Kung Fu Panda|Close Combat|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-unboost|p1a: Kung Fu Panda|def|1
+|-unboost|p1a: Kung Fu Panda|spd|1
+|faint|p2a: Chien-Pao
+|
+|-message|Umbre test forfeited.
+|
+|win|TomoTaco69

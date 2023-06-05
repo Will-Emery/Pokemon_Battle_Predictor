@@ -1,0 +1,246 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Zapdos|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ursaluna, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: toilet|Pelipper, M|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: toilet
+|turn|1
+|
+|move|p2a: Enamorus|Moonblast|p1a: toilet
+|-damage|p1a: toilet|0 fnt
+|faint|p1a: toilet
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|2
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Samurott|Razor Shell|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|52/100
+|-unboost|p2a: Dragapult|def|1
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Samurott|Razor Shell|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|4
+|
+|move|p1a: Samurott|Razor Shell|p2a: Zamazenta
+|-damage|p2a: Zamazenta|59/100
+|-unboost|p2a: Zamazenta|def|1
+|move|p2a: Zamazenta|Body Press|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|3/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Samurott|Razor Shell|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|55/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Samurott|Sucker Punch|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: one punch man|Basculegion, M|100/100
+|turn|7
+|
+|-terastallize|p1a: one punch man|Water
+|move|p2a: Samurott|Sucker Punch|p1a: one punch man
+|-damage|p1a: one punch man|62/100
+|move|p1a: one punch man|Wave Crash|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-damage|p1a: one punch man|47/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|8
+|
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: one punch man|Wave Crash|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-weather|none
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|9
+|
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1a: one punch man|Wave Crash|p2a: Ursaluna
+|-damage|p2a: Ursaluna|14/100 brn
+|-damage|p1a: one punch man|13/100|[from] Recoil
+|move|p2a: Ursaluna|Facade|p1a: one punch man
+|-damage|p1a: one punch man|0 fnt
+|faint|p1a: one punch man
+|
+|-damage|p2a: Ursaluna|8/100 brn|[from] brn
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|10
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100|[from] Volt Switch
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|11
+|
+|move|p1a: Amoonguss|Spore|p2a: Slowking
+|-status|p2a: Slowking|slp|[from] move: Spore
+|cant|p2a: Slowking|slp
+|
+|turn|12
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|cant|p2a: Slowking|slp
+|
+|turn|13
+|
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|cant|p2a: Slowking|slp
+|
+|turn|14
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|59/100
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|turn|15
+|
+|move|p2a: Zamazenta|Wild Charge|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|38/100
+|-damage|p2a: Zamazenta|42/100|[from] Recoil
+|move|p1a: Urshifu|Surging Strikes|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-hitcount|p2: Zamazenta|1
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|16
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: Enamorus
+|-damage|p2a: Enamorus|1/100
+|move|p2a: Enamorus|Moonblast|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|turn|17
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100 slp
+|move|p1a: Zapdos|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|81/100 slp
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100|[from] Volt Switch
+|
+|turn|18
+|
+|move|p1a: Amoonguss|Giga Drain|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|75/100 slp
+|-curestatus|p2a: Slowking|slp|[msg]
+|move|p2a: Slowking|Future Sight|p1a: Amoonguss
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|19
+|
+|move|p1a: Amoonguss|Spore|p2a: Slowking
+|-status|p2a: Slowking|slp|[from] move: Spore
+|cant|p2a: Slowking|slp
+|
+|turn|20
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|switch|p2a: Enamorus|Enamorus, F|1/100
+|
+|-end|p1a: Zapdos|move: Future Sight
+|-damage|p1a: Zapdos|29/100
+|turn|21
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Enamorus|Psychic|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|32/100
+|
+|-heal|p1a: Amoonguss|39/100|[from] item: Black Sludge
+|turn|22
+|
+|move|p2a: Enamorus|Psychic|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|
+|switch|p1a: Zapdos|Zapdos|29/100
+|-ability|p1a: Zapdos|Pressure
+|turn|23
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100 slp
+|move|p1a: Zapdos|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|83/100 slp
+|
+|turn|24
+|
+|move|p1a: Zapdos|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|55/100 slp
+|cant|p2a: Slowking|slp
+|
+|turn|25
+|
+|move|p1a: Zapdos|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|27/100 slp
+|-curestatus|p2a: Slowking|slp|[msg]
+|move|p2a: Slowking|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|Seucra
+|n|☆DooomDey|dooomdey
+|n|☆Seucra|seucra

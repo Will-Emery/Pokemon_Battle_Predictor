@@ -1,1 +1,255 @@
-Could not connect
+|j|☆PuceauGang
+|j|☆AIGC101
+|t:|1685904565
+|gametype|singles
+|player|p1|PuceauGang|marlon|1121
+|player|p2|AIGC101|ghetsis|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Great Tusk|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Dragonite, F|
+|poke|p1|Volcarona, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Garganacl, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Zoroark-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PuceauGang)
+|
+|t:|1685904576
+|start
+|switch|p1a: Cloé|Magearna|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1685904594
+|move|p1a: Cloé|Trick|p2a: Ting-Lu
+|-activate|p1a: Cloé|move: Trick|[of] p2a: Ting-Lu
+|-item|p2a: Ting-Lu|Choice Specs|[from] move: Trick
+|-item|p1a: Cloé|Leftovers|[from] move: Trick
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Cloé
+|-sidestart|p1: PuceauGang|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1685904608
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Cloé|Spikes|p2a: Toxapex
+|-sidestart|p2: AIGC101|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1685904617
+|move|p1a: Cloé|Spikes|p2a: Toxapex
+|-sidestart|p2: AIGC101|Spikes
+|move|p2a: Toxapex|Chilling Water|p1a: Cloé
+|-damage|p1a: Cloé|90/100
+|-unboost|p1a: Cloé|atk|1
+|
+|-heal|p1a: Cloé|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685904626
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Cloé|Spikes|p2a: Corviknight
+|-sidestart|p2: AIGC101|Spikes
+|
+|-heal|p1a: Cloé|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685904645
+|-terastallize|p1a: Cloé|Fairy
+|move|p1a: Cloé|Fleur Cannon|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|-unboost|p1a: Cloé|spa|2
+|move|p2a: Corviknight|Defog|p1a: Cloé
+|-unboost|p1a: Cloé|evasion|1
+|-sideend|p1: PuceauGang|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: AIGC101|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685904660
+|move|p1a: Cloé|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|36/100
+|
+|t:|1685904668
+|switch|p1a: Maxime|Volcarona, F|100/100|[from] Volt Switch
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|86/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685904678
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Maxime|Quiver Dance|p1a: Maxime
+|-boost|p1a: Maxime|spa|1
+|-boost|p1a: Maxime|spd|1
+|-boost|p1a: Maxime|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1685904691
+|switch|p1a: Cloé|Magearna, tera:Fairy|100/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|9
+|
+|t:|1685904701
+|move|p1a: Cloé|Fleur Cannon|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100
+|-unboost|p1a: Cloé|spa|2
+|move|p2a: Toxapex|Toxic|p1a: Cloé
+|-status|p1a: Cloé|tox
+|
+|-damage|p1a: Cloé|95/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1685904712
+|move|p1a: Cloé|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|41/100
+|
+|t:|1685904722
+|switch|p1a: Maxime|Volcarona, F|100/100|[from] Volt Switch
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|91/100
+|
+|upkeep
+|turn|11
+|
+|t:|1685904743
+|switch|p1a: InShane|Tornadus-Therian, M|100/100
+|move|p2a: Toxapex|Toxic|p1a: InShane
+|-status|p1a: InShane|tox
+|
+|-damage|p1a: InShane|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1685904754
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: InShane|Taunt|p2a: Garganacl
+|-start|p2a: Garganacl|move: Taunt
+|
+|-damage|p1a: InShane|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1685904769
+|switch|p1a: Tom|Great Tusk|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Tom
+|-resisted|p1a: Tom
+|-damage|p1a: Tom|99/100
+|-start|p1a: Tom|Salt Cure
+|
+|-heal|p1a: Tom|100/100|[from] item: Leftovers
+|-damage|p1a: Tom|88/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1685904784
+|switch|p2a: Corviknight|Corviknight, F|92/100
+|move|p1a: Tom|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Tom
+|
+|-heal|p1a: Tom|94/100|[from] item: Leftovers
+|-damage|p1a: Tom|82/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1685904796
+|move|p1a: Tom|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: AIGC101|move: Stealth Rock
+|move|p2a: Corviknight|Body Press|p1a: Tom
+|-crit|p1a: Tom
+|-damage|p1a: Tom|63/100
+|
+|-heal|p1a: Tom|69/100|[from] item: Leftovers
+|-damage|p1a: Tom|57/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1685904805
+|-end|p1a: Tom|Protosynthesis|[silent]
+|switch|p1a: Maxime|Volcarona, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Maxime
+|-unboost|p1a: Maxime|evasion|1
+|-sideend|p2: AIGC101|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|17
+|
+|t:|1685904822
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Maxime|Quiver Dance|p1a: Maxime
+|-boost|p1a: Maxime|spa|1
+|-boost|p1a: Maxime|spd|1
+|-boost|p1a: Maxime|spe|1
+|
+|upkeep
+|turn|18
+|
+|t:|1685904832
+|move|p1a: Maxime|Quiver Dance|p1a: Maxime
+|-boost|p1a: Maxime|spa|1
+|-boost|p1a: Maxime|spd|1
+|-boost|p1a: Maxime|spe|1
+|move|p2a: Garganacl|Salt Cure|p1a: Maxime
+|-supereffective|p1a: Maxime
+|-damage|p1a: Maxime|38/100
+|-start|p1a: Maxime|Salt Cure
+|
+|-damage|p1a: Maxime|26/100|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1685904844
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Maxime|Fiery Dance|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-damage|p1a: Maxime|14/100|[from] Salt Cure
+|upkeep
+|turn|20
+|c|☆PuceauGang|va crever
+|-message|PuceauGang forfeited.
+|
+|win|AIGC101
+|raw|PuceauGang's rating: 1121 → 1093(-28 for losing)
+|raw|AIGC101's rating: 1073 → 1106(+33 for winning)

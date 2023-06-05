@@ -1,0 +1,152 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Great Tusk|
+|poke|p1|Volcarona, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Magearna|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: ROKUMON|Samurott-Hisui, M|100/100
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|turn|1
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: ROKUMON|Ceaseless Edge|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|82/100
+|-sidestart|p2: its yer boi guzma|Spikes
+|
+|-heal|p2a: Magearna|88/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Solaire|Volcarona, M|100/100
+|move|p2a: Magearna|Spikes|p1a: Solaire
+|-sidestart|p1: The Other Zee|Spikes
+|
+|-heal|p2a: Magearna|94/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Solaire|Quiver Dance|p1a: Solaire
+|-boost|p1a: Solaire|spa|1
+|-boost|p1a: Solaire|spd|1
+|-boost|p1a: Solaire|spe|1
+|move|p2a: Magearna|Volt Switch|p1a: Solaire
+|-damage|p1a: Solaire|87/100
+|
+|switch|p2a: Heatran|Heatran, F|100/100|[from] Volt Switch
+|-damage|p2a: Heatran|88/100|[from] Spikes
+|
+|-heal|p2a: Heatran|94/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Mr. Badman|Great Tusk|100/100
+|-damage|p1a: Mr. Badman|88/100|[from] Spikes
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|
+|-heal|p1a: Mr. Badman|94/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Spikes
+|move|p1a: Mr. Badman|Rapid Spin|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p1a: Mr. Badman|100/100|[from] item: Leftovers
+|turn|6
+|
+|-end|p1a: Mr. Badman|Protosynthesis|[silent]
+|switch|p1a: worst guy ever|Toxapex, M|100/100
+|-damage|p1a: worst guy ever|88/100|[from] Spikes
+|move|p2a: Dragapult|Draco Meteor|p1a: worst guy ever
+|-damage|p1a: worst guy ever|23/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: worst guy ever|29/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Mr. Badman|Great Tusk|100/100
+|-damage|p1a: Mr. Badman|88/100|[from] Spikes
+|move|p2a: Dragapult|Draco Meteor|p1a: Mr. Badman
+|-damage|p1a: Mr. Badman|29/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: Mr. Badman|35/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|move|p1a: Mr. Badman|Bulk Up|p1a: Mr. Badman
+|-boost|p1a: Mr. Badman|atk|1
+|-boost|p1a: Mr. Badman|def|1
+|
+|-heal|p1a: Mr. Badman|41/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Mr. Badman|Rapid Spin|p2a: Braviary
+|-damage|p2a: Braviary|82/100
+|-boost|p1a: Mr. Badman|spe|1
+|-sideend|p1: The Other Zee|Spikes|[from] move: Rapid Spin|[of] p1a: Mr. Badman
+|move|p2a: Braviary|Esper Wing|p1a: Mr. Badman
+|-supereffective|p1a: Mr. Badman
+|-damage|p1a: Mr. Badman|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Mr. Badman
+|-end|p1a: Mr. Badman|Protosynthesis|[silent]
+|
+|-heal|p2a: Braviary|88/100|[from] item: Leftovers
+|
+|switch|p1a: Plague Knight|Slowking-Galar, M|100/100
+|turn|10
+|
+|move|p2a: Braviary|Esper Wing|p1a: Plague Knight
+|-crit|p1a: Plague Knight
+|-damage|p1a: Plague Knight|70/100
+|-boost|p2a: Braviary|spe|1
+|move|p1a: Plague Knight|Yawn|p2a: Braviary
+|-start|p2a: Braviary|move: Yawn|[of] p1a: Plague Knight
+|
+|-heal|p2a: Braviary|94/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|move|p1a: Plague Knight|Future Sight|p2a: Braviary
+|-start|p1a: Plague Knight|move: Future Sight
+|
+|-heal|p2a: Braviary|100/100|[from] item: Leftovers
+|-end|p2a: Braviary|move: Yawn|[silent]
+|-status|p2a: Braviary|slp
+|turn|12
+|
+|cant|p2a: Braviary|slp
+|move|p1a: Plague Knight|Chilly Reception|p1a: Plague Knight
+|-weather|Snow
+|
+|switch|p1a: ROKUMON|Samurott-Hisui, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|13
+|
+|-terastallize|p2a: Braviary|Fairy
+|-curestatus|p2a: Braviary|slp|[msg]
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|move|p1a: ROKUMON|Ceaseless Edge|p2a: Braviary|[miss]
+|-miss|p1a: ROKUMON|p2a: Braviary
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Braviary|move: Future Sight
+|-damage|p2a: Braviary|74/100
+|-heal|p2a: Braviary|80/100|[from] item: Leftovers
+|turn|14
+|-message|The Other Zee forfeited.
+|
+|win|its yer boi guzma

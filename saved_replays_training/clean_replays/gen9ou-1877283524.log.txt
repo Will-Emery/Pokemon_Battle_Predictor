@@ -1,0 +1,176 @@
+|poke|p1|Breloom, M|
+|poke|p1|Goodra, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Maushold|
+|poke|p2|Kleavor, F|
+|poke|p2|Uxie|
+|poke|p2|Gholdengo|
+|poke|p2|Magearna|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Clodsire, M|
+|teampreview
+|
+|start
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|75/100
+|-sidestart|p1: JuanF2023|Spikes
+|move|p1a: Azumarill|Play Rough|p2a: Samurott|[miss]
+|-miss|p1a: Azumarill|p2a: Samurott
+|
+|turn|2
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|48/100
+|-sidestart|p1: JuanF2023|Spikes
+|move|p1a: Azumarill|Play Rough|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Uxie|Uxie|100/100
+|turn|3
+|
+|switch|p1a: Eduarde|Breloom, M|100/100
+|-damage|p1a: Eduarde|84/100|[from] Spikes
+|move|p2a: Uxie|Reflect|p2a: Uxie
+|-sidestart|p2: very tired guys|Reflect
+|
+|-status|p1a: Eduarde|tox|[from] item: Toxic Orb
+|turn|4
+|
+|move|p2a: Uxie|Light Screen|p2a: Uxie
+|-sidestart|p2: very tired guys|move: Light Screen
+|move|p1a: Eduarde|Substitute|p1a: Eduarde
+|-start|p1a: Eduarde|Substitute
+|-damage|p1a: Eduarde|59/100 tox
+|
+|-heal|p1a: Eduarde|71/100 tox|[from] ability: Poison Heal
+|turn|5
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Eduarde|Leech Seed|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|-heal|p1a: Eduarde|84/100 tox|[from] ability: Poison Heal
+|turn|6
+|
+|-singleturn|p1a: Eduarde|move: Focus Punch
+|move|p2a: Gholdengo|Shadow Ball|p1a: Eduarde
+|-end|p1a: Eduarde|Substitute
+|move|p1a: Eduarde|Focus Punch|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-heal|p1a: Eduarde|96/100 tox|[from] ability: Poison Heal
+|turn|7
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|84/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|77/100
+|
+|-heal|p1a: Ting-Lu|83/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Kleavor
+|-damage|p2a: Kleavor|75/100
+|
+|-heal|p1a: Ting-Lu|89/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Azumarill|Azumarill, F|48/100
+|-damage|p1a: Azumarill|32/100|[from] Spikes
+|move|p2a: Kleavor|Agility|p2a: Kleavor
+|-boost|p2a: Kleavor|spe|2
+|
+|turn|10
+|
+|-terastallize|p2a: Kleavor|Bug
+|move|p1a: Azumarill|Aqua Jet|p2a: Kleavor
+|-damage|p2a: Kleavor|51/100
+|move|p2a: Kleavor|Fury Cutter|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-crit|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-sideend|p2: very tired guys|Reflect
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|84/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|11
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Kleavor|Substitute|p2a: Kleavor
+|-start|p2a: Kleavor|Substitute
+|-damage|p2a: Kleavor|26/100
+|
+|-sideend|p2: very tired guys|move: Light Screen
+|turn|12
+|
+|move|p2a: Kleavor|Fury Cutter|p1a: Kingambit
+|-damage|p1a: Kingambit|44/100
+|move|p1a: Kingambit|Low Kick|p2a: Kleavor
+|-resisted|p2a: Kleavor
+|-activate|p2a: Kleavor|move: Substitute|[damage]
+|
+|turn|13
+|
+|move|p2a: Kleavor|Fury Cutter|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|
+|switch|p1a: Ting-Lu|Ting-Lu|89/100
+|-damage|p1a: Ting-Lu|72/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|14
+|
+|move|p2a: Kleavor|Fury Cutter|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|
+|switch|p1a: Eduarde|Breloom, M|96/100 tox
+|-damage|p1a: Eduarde|80/100 tox|[from] Spikes
+|turn|15
+|
+|move|p2a: Kleavor|Fury Cutter|p1a: Eduarde
+|-damage|p1a: Eduarde|0 fnt
+|faint|p1a: Eduarde
+|
+|
+|switch|p1a: Maushold|Maushold|100/100
+|-damage|p1a: Maushold|84/100|[from] Spikes
+|turn|16
+|
+|move|p2a: Kleavor|Fury Cutter|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|
+|switch|p1a: Goodra|Goodra, F|100/100
+|-damage|p1a: Goodra|84/100|[from] Spikes
+|turn|17
+|
+|move|p2a: Kleavor|Fury Cutter|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|win|very tired guys

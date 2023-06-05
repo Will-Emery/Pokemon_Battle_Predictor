@@ -1,0 +1,305 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Iron Treads|
+|poke|p1|Azumarill, M|
+|poke|p1|Floatzel, M|
+|poke|p1|Basculegion, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Glimmora|Sludge Wave|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Glimmora|Earth Power|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|54/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|93/100
+|-boost|p1a: Iron Treads|spe|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Federa|move: Toxic Spikes
+|-sideend|p1: Federa|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|60/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Iron Treads|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|66/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Iron Treads|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: McMuslim|move: Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|58/100
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|65/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Floatzel|Floatzel, M|100/100
+|move|p2a: Volcarona|Will-O-Wisp|p1a: Floatzel|[miss]
+|-miss|p2a: Volcarona|p1a: Floatzel
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Floatzel|Wave Crash|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p1a: Iron Treads|Iron Treads|65/100
+|move|p2a: Clodsire|Spikes|p1a: Iron Treads
+|-sidestart|p1: Federa|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|71/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Iron Treads|Earthquake|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|21/100
+|move|p2a: Clodsire|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|28/100
+|
+|-weather|none
+|-heal|p1a: Iron Treads|34/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Iron Treads|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|-enditem|p2a: Clodsire|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Treads
+|faint|p2a: Clodsire
+|
+|-heal|p1a: Iron Treads|41/100|[from] item: Leftovers
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|turn|10
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Sneasler|Close Combat|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|70/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-damage|p2a: Sneasler|85/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|31/100
+|-status|p1a: Pelipper|psn
+|-damage|p2a: Sneasler|75/100|[from] item: Life Orb
+|move|p1a: Pelipper|U-turn|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|70/100
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|-damage|p1a: Basculegion|88/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Basculegion|Wave Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|9/100
+|-damage|p1a: Basculegion|61/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|15/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-damage|p1a: Basculegion|56/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|14
+|
+|-terastallize|p2a: Volcarona|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|29/100
+|-damage|p1a: Basculegion|33/100|[from] Recoil
+|move|p2a: Volcarona|Will-O-Wisp|p1a: Basculegion
+|-status|p1a: Basculegion|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Basculegion|27/100 brn|[from] brn
+|turn|15
+|
+|switch|p2a: Glimmora|Glimmora, M|93/100
+|-damage|p2a: Glimmora|80/100|[from] Stealth Rock
+|move|p1a: Basculegion|Wave Crash|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Federa|move: Toxic Spikes
+|faint|p2a: Glimmora
+|-damage|p1a: Basculegion|6/100 brn|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Basculegion|0 fnt|[from] brn
+|faint|p1a: Basculegion
+|
+|switch|p2a: Sneasler|Sneasler, F|70/100
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Sneasler|64/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Sneasler|U-turn|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|77/100
+|-damage|p2a: Sneasler|54/100|[from] item: Life Orb
+|
+|switch|p2a: Volcarona|Volcarona, M, tera:Water|29/100|[from] U-turn
+|move|p1a: Thundurus|Thunder|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|84/100|[from] item: Leftovers
+|
+|switch|p2a: Sneasler|Sneasler, F|54/100
+|-damage|p2a: Sneasler|48/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Iron Treads|Iron Treads|41/100
+|-damage|p1a: Iron Treads|28/100|[from] Spikes
+|move|p2a: Sneasler|Fake Out|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|22/100
+|-damage|p2a: Sneasler|38/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Iron Treads|28/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Sneasler|Close Combat|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Sneasler|28/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Pelipper|Pelipper, F|31/100 psn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|19
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-damage|p2a: Sneasler|18/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Floatzel|Floatzel, M|100/100
+|-damage|p1a: Floatzel|88/100|[from] Spikes
+|-status|p1a: Floatzel|psn
+|turn|20
+|
+|move|p1a: Floatzel|Liquidation|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Floatzel|76/100 psn|[from] psn
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|21
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Floatzel
+|-damage|p1a: Floatzel|0 fnt
+|faint|p1a: Floatzel
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|-damage|p1a: Azumarill|88/100|[from] Spikes
+|-status|p1a: Azumarill|psn
+|turn|22
+|
+|-terastallize|p1a: Azumarill|Water
+|move|p2a: Kingambit|Iron Head|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|52/100 psn
+|move|p1a: Azumarill|Liquidation|p2a: Kingambit
+|-damage|p2a: Kingambit|10/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Azumarill|39/100 psn|[from] psn
+|-enditem|p1a: Azumarill|Sitrus Berry|[eat]
+|-heal|p1a: Azumarill|64/100 psn|[from] item: Sitrus Berry
+|turn|23
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|84/100
+|turn|24
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-start|p1a: Thundurus|Substitute
+|-damage|p1a: Thundurus|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Thundurus|65/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Thundurus|Thunder|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|Federa

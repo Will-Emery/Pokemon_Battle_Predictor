@@ -1,0 +1,208 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Dondozo, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Ditto|
+|poke|p2|Enamorus, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Azumarill, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Bob l'Eponge|Landorus-Therian, M|100/100
+|-ability|p2a: Bob l'Eponge|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Bob l'Eponge
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Bob l'Eponge
+|-damage|p2a: Bob l'Eponge|83/100
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|
+|switch|p1a: Ditto|Ditto|100/100|[from] U-turn
+|-transform|p1a: Ditto|p2a: Bob l'Eponge|[from] ability: Imposter
+|-ability|p1a: Ditto|Intimidate|boost
+|-unboost|p2a: Bob l'Eponge|atk|1
+|move|p2a: Bob l'Eponge|Stealth Rock|p1a: Ditto
+|-sidestart|p1: 96kBlue_Dreamer|move: Stealth Rock
+|
+|-heal|p2a: Bob l'Eponge|89/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Bitenbois|Azumarill, M|100/100
+|move|p1a: Ditto|Stone Edge|p2a: Bitenbois
+|-damage|p2a: Bitenbois|64/100
+|
+|turn|3
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|-damage|p1a: Dondozo|88/100|[from] Stealth Rock
+|move|p2a: Bitenbois|Aqua Jet|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|82/100
+|
+|turn|4
+|
+|switch|p2a: Isocèle|Dragapult, M|100/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|turn|5
+|
+|move|p2a: Isocèle|Thunderbolt|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|15/100
+|-damage|p2a: Isocèle|91/100|[from] item: Life Orb
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|turn|6
+|
+|move|p2a: Isocèle|Shadow Ball|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|-damage|p2a: Isocèle|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Isocèle|[from] ability: Imposter
+|turn|7
+|
+|switch|p2a: KatanaNaruto|Kingambit, M|100/100
+|move|p1a: Ditto|Shadow Ball|p2a: KatanaNaruto
+|-resisted|p2a: KatanaNaruto
+|-damage|p2a: KatanaNaruto|81/100
+|
+|turn|8
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: KatanaNaruto|Swords Dance|p2a: KatanaNaruto
+|-boost|p2a: KatanaNaruto|atk|2
+|
+|turn|9
+|
+|move|p2a: KatanaNaruto|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|66/100
+|move|p1a: Great Tusk|Close Combat|p2a: KatanaNaruto
+|-supereffective|p2a: KatanaNaruto
+|-damage|p2a: KatanaNaruto|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: KatanaNaruto
+|-end|p2a: KatanaNaruto|fallenundefined|[silent]
+|
+|
+|switch|p2a: Isocèle|Dragapult, M|81/100
+|turn|10
+|
+|move|p2a: Isocèle|Hydro Pump|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Isocèle|71/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Ditto|Ditto|88/100
+|-damage|p1a: Ditto|76/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Isocèle|[from] ability: Imposter
+|turn|11
+|
+|switch|p2a: Bitenbois|Azumarill, M|64/100
+|move|p1a: Ditto|Shadow Ball|p2a: Bitenbois
+|-damage|p2a: Bitenbois|31/100
+|-unboost|p2a: Bitenbois|spd|1
+|-enditem|p2a: Bitenbois|Sitrus Berry|[eat]
+|-heal|p2a: Bitenbois|56/100|[from] item: Sitrus Berry
+|
+|turn|12
+|
+|move|p2a: Bitenbois|Aqua Jet|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|53/100
+|move|p1a: Ditto|Shadow Ball|p2a: Bitenbois
+|-damage|p2a: Bitenbois|1/100
+|
+|turn|13
+|
+|move|p2a: Bitenbois|Aqua Jet|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|30/100
+|move|p1a: Ditto|Shadow Ball|p2a: Bitenbois
+|-damage|p2a: Bitenbois|0 fnt
+|faint|p2a: Bitenbois
+|
+|
+|switch|p2a: Chiengue|Zamazenta|100/100
+|-ability|p2a: Chiengue|Dauntless Shield|boost
+|-boost|p2a: Chiengue|def|1
+|turn|14
+|
+|move|p1a: Ditto|Shadow Ball|p2a: Chiengue
+|-crit|p2a: Chiengue
+|-damage|p2a: Chiengue|48/100
+|move|p2a: Chiengue|Crunch|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|15
+|
+|move|p2a: Chiengue|Stone Edge|p1a: Iron Moth|[miss]
+|-miss|p2a: Chiengue|p1a: Iron Moth
+|move|p1a: Iron Moth|Psychic|p2a: Chiengue
+|-supereffective|p2a: Chiengue
+|-damage|p2a: Chiengue|0 fnt
+|faint|p2a: Chiengue
+|
+|
+|switch|p2a: Isocèle|Dragapult, M|71/100
+|turn|16
+|
+|-terastallize|p1a: Iron Moth|Psychic
+|move|p2a: Isocèle|Hydro Pump|p1a: Iron Moth
+|-damage|p1a: Iron Moth|31/100
+|-damage|p2a: Isocèle|61/100|[from] item: Life Orb
+|move|p1a: Iron Moth|Psychic|p2a: Isocèle
+|-damage|p2a: Isocèle|0 fnt
+|faint|p2a: Isocèle
+|
+|
+|switch|p2a: PeteMoiL'Cul|Enamorus, F|100/100
+|turn|17
+|
+|move|p1a: Iron Moth|Sludge Wave|p2a: PeteMoiL'Cul
+|-supereffective|p2a: PeteMoiL'Cul
+|-damage|p2a: PeteMoiL'Cul|0 fnt
+|faint|p2a: PeteMoiL'Cul
+|
+|
+|switch|p2a: Bob l'Eponge|Landorus-Therian, M|89/100
+|-ability|p2a: Bob l'Eponge|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|turn|18
+|
+|move|p1a: Iron Moth|Psychic|p2a: Bob l'Eponge
+|-damage|p2a: Bob l'Eponge|0 fnt
+|faint|p2a: Bob l'Eponge
+|
+|win|96kBlue_Dreamer

@@ -1,0 +1,278 @@
+|poke|p1|Articuno|
+|poke|p1|Slowking, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Toxtricity-Low-Key, F|
+|poke|p2|Houndstone, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Volcanion|
+|teampreview
+|
+|start
+|switch|p1a: Poison Duck|Toxtricity-Low-Key, F|100/100
+|switch|p2a: Houndstone|Houndstone, F|100/100
+|turn|1
+|
+|move|p2a: Houndstone|Protect|p2a: Houndstone
+|-singleturn|p2a: Houndstone|Protect
+|move|p1a: Poison Duck|Volt Switch|p2a: Houndstone
+|-activate|p2a: Houndstone|move: Protect
+|
+|turn|2
+|
+|switch|p1a: Heltaron|Articuno|100/100
+|-ability|p1a: Heltaron|Pressure
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Heltaron
+|-status|p1a: Heltaron|brn
+|
+|-damage|p1a: Heltaron|94/100 brn|[from] brn
+|turn|3
+|
+|move|p2a: Houndstone|Protect|p2a: Houndstone
+|-singleturn|p2a: Houndstone|Protect
+|move|p1a: Heltaron|Hurricane|p2a: Houndstone
+|-activate|p2a: Houndstone|move: Protect
+|
+|-damage|p1a: Heltaron|88/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Heltaron|Hurricane|p2a: Houndstone
+|-damage|p2a: Houndstone|46/100
+|-start|p2a: Houndstone|confusion
+|-activate|p2a: Houndstone|confusion
+|move|p2a: Houndstone|Phantom Force||[still]
+|-prepare|p2a: Houndstone|Phantom Force
+|
+|-heal|p2a: Houndstone|52/100|[from] item: Leftovers
+|-damage|p1a: Heltaron|82/100 brn|[from] brn
+|turn|5
+|
+|switch|p1a: Samurai Warrior|Kingambit, M|100/100
+|-activate|p2a: Houndstone|confusion
+|move|p2a: Houndstone|Phantom Force|p1a: Samurai Warrior|[from]lockedmove
+|-resisted|p1a: Samurai Warrior
+|-damage|p1a: Samurai Warrior|89/100
+|
+|-heal|p2a: Houndstone|58/100|[from] item: Leftovers
+|-heal|p1a: Samurai Warrior|96/100|[from] item: Leftovers
+|turn|6
+|
+|-activate|p2a: Houndstone|confusion
+|-damage|p2a: Houndstone|50/100|[from] confusion
+|move|p1a: Samurai Warrior|Swords Dance|p1a: Samurai Warrior
+|-boost|p1a: Samurai Warrior|atk|2
+|
+|-heal|p2a: Houndstone|56/100|[from] item: Leftovers
+|-heal|p1a: Samurai Warrior|100/100|[from] item: Leftovers
+|turn|7
+|
+|-terastallize|p1a: Samurai Warrior|Flying
+|-activate|p2a: Houndstone|confusion
+|-damage|p2a: Houndstone|47/100|[from] confusion
+|move|p1a: Samurai Warrior|Swords Dance|p1a: Samurai Warrior
+|-boost|p1a: Samurai Warrior|atk|2
+|
+|-heal|p2a: Houndstone|53/100|[from] item: Leftovers
+|turn|8
+|
+|-end|p2a: Houndstone|confusion
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Samurai Warrior|[miss]
+|-miss|p2a: Houndstone|p1a: Samurai Warrior
+|move|p1a: Samurai Warrior|Kowtow Cleave|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|9
+|
+|move|p2a: Volcanion|Will-O-Wisp|p1a: Samurai Warrior
+|-status|p1a: Samurai Warrior|brn
+|move|p1a: Samurai Warrior|Kowtow Cleave|p2a: Volcanion
+|-damage|p2a: Volcanion|24/100
+|
+|-damage|p1a: Samurai Warrior|94/100 brn|[from] brn
+|turn|10
+|
+|move|p2a: Volcanion|Steam Eruption|p1a: Samurai Warrior
+|-damage|p1a: Samurai Warrior|33/100 brn
+|move|p1a: Samurai Warrior|Kowtow Cleave|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|-heal|p1a: Samurai Warrior|39/100 brn|[from] item: Leftovers
+|-damage|p1a: Samurai Warrior|33/100 brn|[from] brn
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|11
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Samurai Warrior
+|-supereffective|p1a: Samurai Warrior
+|-damage|p1a: Samurai Warrior|0 fnt
+|faint|p1a: Samurai Warrior
+|-end|p1a: Samurai Warrior|fallenundefined|[silent]
+|
+|
+|switch|p1a: Uncle Gant|Ceruledge, F|100/100
+|turn|12
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Uncle Gant|Flare Blitz|p2a: Great Tusk
+|-damage|p2a: Great Tusk|49/100
+|-damage|p1a: Uncle Gant|79/100|[from] Recoil
+|
+|turn|13
+|
+|move|p1a: Uncle Gant|Flare Blitz|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Uncle Gant|59/100|[from] Recoil
+|
+|
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|14
+|
+|move|p1a: Uncle Gant|Flare Blitz|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|45/100
+|-damage|p1a: Uncle Gant|40/100|[from] Recoil
+|move|p2a: Iron Moth|Sludge Wave|p1a: Uncle Gant
+|-resisted|p1a: Uncle Gant
+|-damage|p1a: Uncle Gant|11/100
+|
+|turn|15
+|
+|move|p1a: Uncle Gant|Flare Blitz|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-damage|p1a: Uncle Gant|0 fnt|[from] Recoil
+|faint|p1a: Uncle Gant
+|
+|
+|switch|p2a: Braviary|Braviary-Hisui, M, shiny|100/100
+|switch|p1a: Poison Duck|Toxtricity-Low-Key, F|100/100
+|turn|16
+|
+|-terastallize|p2a: Braviary|Fairy
+|move|p1a: Poison Duck|Volt Switch|p2a: Braviary
+|-damage|p2a: Braviary|72/100
+|
+|switch|p1a: Parkmap|Slowking, F|100/100|[from] Volt Switch
+|move|p2a: Braviary|Esper Wing|p1a: Parkmap
+|-resisted|p1a: Parkmap
+|-damage|p1a: Parkmap|77/100
+|-boost|p2a: Braviary|spe|1
+|
+|turn|17
+|
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|move|p1a: Parkmap|Surf|p2a: Braviary
+|-damage|p2a: Braviary|55/100
+|
+|turn|18
+|
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|100/100
+|move|p1a: Parkmap|Chilly Reception|p1a: Parkmap
+|-weather|Snow
+|
+|switch|p1a: Heltaron|Articuno|82/100 brn|[from] Chilly Reception
+|-ability|p1a: Heltaron|Pressure
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Heltaron|76/100 brn|[from] brn
+|turn|19
+|
+|move|p1a: Heltaron|Ice Beam|p2a: Braviary
+|-damage|p2a: Braviary|71/100
+|move|p2a: Braviary|Esper Wing|p1a: Heltaron
+|-damage|p1a: Heltaron|32/100 brn
+|-boost|p2a: Braviary|spe|1
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Heltaron|26/100 brn|[from] brn
+|turn|20
+|
+|move|p2a: Braviary|Esper Wing|p1a: Heltaron
+|-damage|p1a: Heltaron|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Heltaron
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Ground Taco|Great Tusk|100/100
+|turn|21
+|
+|move|p2a: Braviary|Esper Wing|p1a: Ground Taco
+|-supereffective|p1a: Ground Taco
+|-damage|p1a: Ground Taco|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Ground Taco
+|-end|p1a: Ground Taco|Protosynthesis|[silent]
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Poison Duck|Toxtricity-Low-Key, F|100/100
+|turn|22
+|
+|move|p2a: Braviary|Esper Wing|p1a: Poison Duck
+|-supereffective|p1a: Poison Duck
+|-damage|p1a: Poison Duck|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Poison Duck
+|
+|-weather|none
+|
+|switch|p1a: Parkmap|Slowking, F|100/100
+|turn|23
+|
+|move|p2a: Braviary|Esper Wing|p1a: Parkmap
+|-resisted|p1a: Parkmap
+|-damage|p1a: Parkmap|65/100
+|-boost|p2a: Braviary|spe|1
+|move|p1a: Parkmap|Future Sight|p2a: Braviary
+|-start|p1a: Parkmap|move: Future Sight
+|
+|turn|24
+|
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|move|p1a: Parkmap|Surf|p2a: Braviary
+|-damage|p2a: Braviary|58/100
+|
+|turn|25
+|
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|100/100
+|move|p1a: Parkmap|Surf|p2a: Braviary
+|-damage|p2a: Braviary|88/100
+|
+|-end|p2a: Braviary|move: Future Sight
+|-damage|p2a: Braviary|71/100
+|turn|26
+|
+|move|p2a: Braviary|Hurricane|p1a: Parkmap
+|-damage|p1a: Parkmap|3/100
+|move|p1a: Parkmap|Future Sight|p2a: Braviary
+|-start|p1a: Parkmap|move: Future Sight
+|
+|turn|27
+|
+|move|p2a: Braviary|Esper Wing|p1a: Parkmap
+|-resisted|p1a: Parkmap
+|-damage|p1a: Parkmap|0 fnt
+|faint|p1a: Parkmap
+|
+|win|wizardlizard2017

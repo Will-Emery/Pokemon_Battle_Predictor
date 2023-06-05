@@ -1,0 +1,93 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Cinderace, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Magearna|
+|poke|p1|Rotom-Wash|
+|poke|p1|Great Tusk|
+|poke|p2|Ursaluna, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Metro|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Metro
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Metro
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p2a: Metro
+|-damage|p2a: Metro|40/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] U-turn
+|move|p2a: Metro|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|97/100
+|-damage|p2a: Metro|24/100|[from] item: Rocky Helmet|[of] p1a: Magearna
+|
+|switch|p2a: Peruvian Coke|Ursaluna, M|100/100|[from] U-turn
+|
+|-heal|p1a: Magearna|100/100|[from] Grassy Terrain
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Peruvian Coke|Trailblaze|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|-boost|p2a: Peruvian Coke|spe|1
+|
+|-heal|p1a: Rotom|69/100|[from] item: Leftovers
+|turn|3
+|
+|-terastallize|p2a: Peruvian Coke|Water
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Peruvian Coke|Belly Drum|p2a: Peruvian Coke
+|-damage|p2a: Peruvian Coke|51/100
+|-setboost|p2a: Peruvian Coke|atk|6|[from] move: Belly Drum
+|
+|-heal|p2a: Peruvian Coke|57/100|[from] Grassy Terrain
+|-heal|p2a: Peruvian Coke|63/100|[from] item: Leftovers
+|-heal|p1a: Rotom|75/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Peruvian Coke|Trailblaze|p1a: Magearna
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|56/100
+|-boost|p2a: Peruvian Coke|spe|1
+|-damage|p2a: Peruvian Coke|47/100|[from] item: Rocky Helmet|[of] p1a: Magearna
+|
+|-heal|p2a: Peruvian Coke|53/100|[from] Grassy Terrain
+|-heal|p2a: Peruvian Coke|59/100|[from] item: Leftovers
+|-heal|p1a: Magearna|62/100|[from] Grassy Terrain
+|turn|5
+|
+|move|p2a: Peruvian Coke|Drain Punch|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-heal|p2a: Peruvian Coke|87/100|[from] drain|[of] p1a: Magearna
+|-damage|p2a: Peruvian Coke|71/100|[from] item: Rocky Helmet|[of] p1a: Magearna
+|faint|p1a: Magearna
+|
+|-heal|p2a: Peruvian Coke|77/100|[from] Grassy Terrain
+|-heal|p2a: Peruvian Coke|83/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p2a: Peruvian Coke|Drain Punch|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-heal|p2a: Peruvian Coke|100/100|[from] drain|[of] p1a: Chien-Pao
+|faint|p1a: Chien-Pao
+|
+|-message|ryangregory78 forfeited.
+|
+|win|kd458

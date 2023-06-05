@@ -1,0 +1,120 @@
+|poke|p1|Hatterene, F|
+|poke|p1|Tatsugiri, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Volcanion|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|switch|p2a: Micheael|Clodsire, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Goodra|Draco Meteor|p2a: Micheael
+|-damage|p2a: Micheael|69/100
+|-unboost|p1a: Goodra|spa|2
+|move|p2a: Micheael|Toxic Spikes|p1a: Goodra
+|-sidestart|p1: Gunko_Spunk|move: Toxic Spikes
+|
+|-heal|p2a: Micheael|75/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Micheael|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|-heal|p2a: Micheael|81/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Micheael|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: Gunko_Spunk|move: Stealth Rock
+|
+|-heal|p2a: Micheael|87/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Okay Tusk|Great Tusk|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|turn|5
+|
+|move|p1a: Dragonite|Earthquake|p2a: Okay Tusk
+|-damage|p2a: Okay Tusk|40/100
+|move|p2a: Okay Tusk|Ice Spinner|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|41/100
+|
+|turn|6
+|
+|move|p1a: Dragonite|Earthquake|p2a: Okay Tusk
+|-damage|p2a: Okay Tusk|0 fnt
+|faint|p2a: Okay Tusk
+|-end|p2a: Okay Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Ursabear|Ursaluna, M|100/100
+|turn|7
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|92/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Ursabear|Facade|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100
+|
+|-status|p2a: Ursabear|brn|[from] item: Flame Orb
+|turn|8
+|
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|-singleturn|p1a: Dragonite|move: Roost
+|move|p2a: Ursabear|Facade|p1a: Dragonite
+|-damage|p1a: Dragonite|35/100
+|
+|-damage|p2a: Ursabear|94/100 brn|[from] brn
+|turn|9
+|
+|move|p1a: Dragonite|Earthquake|p2a: Ursabear
+|-damage|p2a: Ursabear|31/100 brn
+|move|p2a: Ursabear|Swords Dance|p2a: Ursabear
+|-boost|p2a: Ursabear|atk|2
+|
+|-damage|p2a: Ursabear|25/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Dragonite|Earthquake|p2a: Ursabear
+|-damage|p2a: Ursabear|0 fnt
+|faint|p2a: Ursabear
+|
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|11
+|n|‽Gunko_Spunk|gunkospunk
+|
+|move|p1a: Dragonite|Earthquake|p2a: Hoopa
+|-crit|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|12
+|
+|move|p1a: Dragonite|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-message|Specter_Wraith forfeited.
+|
+|win|Gunko_Spunk

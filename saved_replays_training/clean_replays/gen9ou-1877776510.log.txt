@@ -1,0 +1,63 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Magearna|
+|poke|p1|Dragapult, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Volcarona, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Scizor, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Azumarill, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Ganondorf|Ting-Lu|100/100
+|-ability|p2a: Ganondorf|Vessel of Ruin
+|turn|1
+|
+|move|p1a: Kleavor|U-turn|p2a: Ganondorf
+|-supereffective|p2a: Ganondorf
+|-damage|p2a: Ganondorf|61/100
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100|[from] U-turn
+|move|p2a: Ganondorf|Stealth Rock|p1a: Ursaluna
+|-sidestart|p1: tilt moment|move: Stealth Rock
+|
+|-heal|p2a: Ganondorf|67/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|2
+|
+|switch|p2a: Tulin|Gholdengo|100/100
+|move|p1a: Ursaluna|Earthquake|p2a: Tulin
+|-supereffective|p2a: Tulin
+|-damage|p2a: Tulin|0 fnt
+|faint|p2a: Tulin
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p2a: Somehow Daruk|Azumarill, F|100/100
+|turn|3
+|
+|move|p1a: Ursaluna|Facade|p2a: Somehow Daruk
+|-damage|p2a: Somehow Daruk|0 fnt
+|faint|p2a: Somehow Daruk
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|
+|switch|p2a: Link|Scizor, M|100/100
+|turn|4
+|
+|move|p2a: Link|Swords Dance|p2a: Link
+|-boost|p2a: Link|atk|2
+|move|p1a: Ursaluna|Fire Punch|p2a: Link
+|-supereffective|p2a: Link
+|-damage|p2a: Link|0 fnt
+|faint|p2a: Link
+|
+|-damage|p1a: Ursaluna|82/100 brn|[from] brn
+|-message|chozzobooster forfeited.
+|
+|win|tilt moment

@@ -1,0 +1,235 @@
+|poke|p1|Kingambit, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Froslass, F|
+|poke|p1|Brute Bonnet|
+|poke|p1|Armarouge, M|
+|poke|p1|Gastrodon, M|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Espeon, M|
+|poke|p2|Klefki, M|
+|poke|p2|Toxicroak, F|
+|poke|p2|Quagsire, F|
+|teampreview
+|
+|start
+|switch|p1a: Francesca|Froslass, F, shiny|100/100
+|switch|p2a: Vaporeon.|Espeon, M|100/100
+|turn|1
+|
+|move|p2a: Vaporeon.|Shadow Ball|p1a: Francesca
+|-supereffective|p1a: Francesca
+|-damage|p1a: Francesca|19/100
+|move|p1a: Francesca|Taunt|p2a: Vaporeon.
+|move|p2a: Vaporeon.|Taunt|p1a: Francesca|[from]ability: Magic Bounce
+|-start|p1a: Francesca|move: Taunt
+|
+|turn|2
+|
+|move|p1a: Francesca|Shadow Ball|p2a: Vaporeon.
+|-supereffective|p2a: Vaporeon.
+|-damage|p2a: Vaporeon.|36/100
+|move|p2a: Vaporeon.|Shadow Ball|p1a: Francesca
+|-supereffective|p1a: Francesca
+|-damage|p1a: Francesca|0 fnt
+|-start|p2a: Vaporeon.|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Francesca
+|faint|p1a: Francesca
+|
+|
+|switch|p1a: Billie|Brute Bonnet|100/100
+|turn|3
+|
+|switch|p2a: Little Feat|Toxicroak, F|100/100
+|move|p1a: Billie|Sucker Punch||[still]
+|-fail|p1a: Billie
+|
+|turn|4
+|
+|move|p2a: Little Feat|Gunk Shot|p1a: Billie
+|-supereffective|p1a: Billie
+|-damage|p1a: Billie|0 fnt
+|faint|p1a: Billie
+|-end|p1a: Billie|Protosynthesis|[silent]
+|-damage|p2a: Little Feat|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Gerald|Glimmora, M|100/100
+|turn|5
+|
+|switch|p2a: Vaporeon.|Espeon, M|36/100
+|move|p1a: Gerald|Earth Power|p2a: Vaporeon.
+|-damage|p2a: Vaporeon.|0 fnt
+|faint|p2a: Vaporeon.
+|
+|
+|switch|p2a: Klinklang.|Klefki, M|100/100
+|turn|6
+|
+|-terastallize|p2a: Klinklang.|Fighting
+|move|p1a: Gerald|Earth Power|p2a: Klinklang.
+|-damage|p2a: Klinklang.|31/100
+|-unboost|p2a: Klinklang.|spd|1
+|replace|p2a: Sussy Baka|Zoroark-Hisui, F, shiny
+|-end|p2a: Sussy Baka|Illusion
+|move|p2a: Sussy Baka|Tera Blast|p1a: Gerald
+|-damage|p1a: Gerald|22/100
+|
+|turn|7
+|
+|switch|p2a: NotStallThisTime|Quagsire, F|100/100
+|move|p1a: Gerald|Earth Power|p2a: NotStallThisTime
+|-damage|p2a: NotStallThisTime|57/100
+|
+|-heal|p2a: NotStallThisTime|63/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Gary|Gastrodon, M|100/100
+|move|p2a: NotStallThisTime|Aqua Tail|p1a: Gary
+|-ability|p1a: Gary|Storm Drain|boost
+|-boost|p1a: Gary|spa|1
+|
+|-heal|p2a: NotStallThisTime|69/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Gary|Ice Beam|p2a: NotStallThisTime
+|-damage|p2a: NotStallThisTime|47/100
+|-status|p2a: NotStallThisTime|frz
+|-curestatus|p2a: NotStallThisTime|frz|[msg]
+|move|p2a: NotStallThisTime|Stealth Rock|p1a: Gary
+|-sidestart|p1: JettFrostVT|move: Stealth Rock
+|
+|-heal|p2a: NotStallThisTime|54/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Gary|Ice Beam|p2a: NotStallThisTime
+|-damage|p2a: NotStallThisTime|29/100
+|move|p2a: NotStallThisTime|Toxic Spikes|p1a: Gary
+|-sidestart|p1: JettFrostVT|move: Toxic Spikes
+|
+|-heal|p2a: NotStallThisTime|35/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Gary|Ice Beam|p2a: NotStallThisTime
+|-damage|p2a: NotStallThisTime|10/100
+|-status|p2a: NotStallThisTime|frz
+|-curestatus|p2a: NotStallThisTime|frz|[msg]
+|move|p2a: NotStallThisTime|Earthquake|p1a: Gary
+|-damage|p1a: Gary|67/100
+|
+|-heal|p1a: Gary|73/100|[from] item: Leftovers
+|-heal|p2a: NotStallThisTime|16/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Gary|Ice Beam|p2a: NotStallThisTime
+|-damage|p2a: NotStallThisTime|0 fnt
+|faint|p2a: NotStallThisTime
+|
+|-heal|p1a: Gary|79/100|[from] item: Leftovers
+|
+|switch|p2a: Klinklang.|Klefki, M, tera:Fighting|31/100
+|turn|13
+|
+|move|p2a: Klinklang.|Grass Knot|p1a: Gary
+|-supereffective|p1a: Gary
+|-damage|p1a: Gary|0 fnt
+|faint|p1a: Gary
+|
+|
+|switch|p1a: Gerald|Glimmora, M|22/100
+|-damage|p1a: Gerald|10/100|[from] Stealth Rock
+|-sideend|p1: JettFrostVT|move: Toxic Spikes|[of] p1a: Gerald
+|turn|14
+|
+|switch|p2a: Little Feat|Toxicroak, F|91/100
+|move|p1a: Gerald|Mortal Spin|p2a: Little Feat
+|-resisted|p2a: Little Feat
+|-damage|p2a: Little Feat|87/100
+|-sideend|p1: JettFrostVT|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Gerald
+|
+|turn|15
+|
+|switch|p1a: Arthur|Armarouge, M|100/100
+|move|p2a: Little Feat|Drain Punch|p1a: Arthur
+|-resisted|p1a: Arthur
+|-damage|p1a: Arthur|78/100
+|-heal|p2a: Little Feat|96/100|[from] drain|[of] p1a: Arthur
+|-ability|p1a: Arthur|Weak Armor|boost
+|-unboost|p1a: Arthur|def|1
+|-boost|p1a: Arthur|spe|2
+|-damage|p2a: Little Feat|86/100|[from] item: Life Orb
+|
+|turn|16
+|
+|switch|p2a: Klinklang.|Klefki, M|100/100
+|move|p1a: Arthur|Calm Mind|p1a: Arthur
+|-boost|p1a: Arthur|spa|1
+|-boost|p1a: Arthur|spd|1
+|
+|turn|17
+|
+|move|p2a: Klinklang.|Thunder Wave|p1a: Arthur
+|-status|p1a: Arthur|par
+|move|p1a: Arthur|Armor Cannon|p2a: Klinklang.
+|-supereffective|p2a: Klinklang.
+|-damage|p2a: Klinklang.|0 fnt
+|-unboost|p1a: Arthur|def|1
+|-unboost|p1a: Arthur|spd|1
+|faint|p2a: Klinklang.
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdriveatk
+|turn|18
+|
+|move|p2a: Iron Valiant|Knock Off|p1a: Arthur
+|-supereffective|p1a: Arthur
+|-damage|p1a: Arthur|0 fnt
+|-enditem|p1a: Arthur|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Arthur
+|
+|
+|switch|p1a: Gerald|Glimmora, M|10/100
+|turn|19
+|
+|move|p1a: Gerald|Sludge Wave|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Little Feat|Toxicroak, F|86/100
+|turn|20
+|
+|switch|p1a: Kendrick|Kingambit, M, shiny|100/100
+|-activate|p1a: Kendrick|ability: Supreme Overlord
+|-start|p1a: Kendrick|fallen4|[silent]
+|move|p2a: Little Feat|Close Combat|p1a: Kendrick
+|-supereffective|p1a: Kendrick
+|-damage|p1a: Kendrick|0 fnt
+|-unboost|p2a: Little Feat|def|1
+|-unboost|p2a: Little Feat|spd|1
+|faint|p1a: Kendrick
+|-end|p1a: Kendrick|fallen4|[silent]
+|-damage|p2a: Little Feat|77/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Gerald|Glimmora, M|10/100
+|turn|21
+|
+|move|p1a: Gerald|Earth Power|p2a: Little Feat
+|-supereffective|p2a: Little Feat
+|-damage|p2a: Little Feat|0 fnt
+|faint|p2a: Little Feat
+|
+|
+|switch|p2a: Sussy Baka|Zoroark-Hisui, F, shiny, tera:Fighting|31/100
+|turn|22
+|
+|move|p1a: Gerald|Earth Power|p2a: Sussy Baka
+|-damage|p2a: Sussy Baka|0 fnt
+|faint|p2a: Sussy Baka
+|
+|win|JettFrostVT

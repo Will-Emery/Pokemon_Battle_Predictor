@@ -1,0 +1,249 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Amoonguss, F|
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Scizor, M|
+|poke|p2|Breloom, M|
+|poke|p2|Lokix, F|
+|poke|p2|Ceruledge, M|
+|teampreview
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|1
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Thundurus|Volt Switch|p2a: Dragonite
+|-damage|p2a: Dragonite|80/100
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-heal|p2a: Dragonite|86/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|43/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|turn|3
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|80/100
+|-heal|p2a: Ceruledge|58/100|[from] drain|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|87/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Ceruledge|Psycho Cut|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|62/100
+|move|p1a: Great Tusk|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|-enditem|p2a: Ceruledge|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Ceruledge
+|
+|-heal|p1a: Great Tusk|68/100|[from] item: Leftovers
+|
+|switch|p2a: Dragonite|Dragonite, M|86/100
+|turn|5
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|92/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|move|p1a: Amoonguss|Spore|p2a: Breloom
+|-immune|p2a: Breloom
+|
+|turn|7
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|85/100
+|
+|turn|8
+|
+|move|p2a: Basculegion|Psychic Fangs|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|38/100
+|move|p1a: Amoonguss|Spore|p2a: Basculegion
+|-status|p2a: Basculegion|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|45/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|cant|p2a: Basculegion|slp
+|
+|turn|10
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Chien-Pao|Crunch|p2a: Scizor
+|-damage|p2a: Scizor|14/100
+|-unboost|p2a: Scizor|def|1
+|
+|turn|11
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|76/100
+|-damage|p2a: Scizor|4/100|[from] item: Life Orb
+|
+|turn|12
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|53/100
+|-damage|p2a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p2a: Scizor
+|move|p1a: Thundurus|Volt Switch|p2: Scizor|[notarget]
+|-fail|p1a: Thundurus
+|
+|
+|switch|p2a: Lokix|Lokix, F|100/100
+|turn|13
+|
+|switch|p1a: Great Tusk|Great Tusk|68/100
+|-terastallize|p2a: Lokix|Bug
+|move|p2a: Lokix|First Impression|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|34/100
+|-damage|p2a: Lokix|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Great Tusk|41/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Lokix|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|15/100
+|-damage|p2a: Lokix|81/100|[from] item: Life Orb
+|
+|switch|p2a: Basculegion|Basculegion, M|85/100 slp|[from] U-turn
+|move|p1a: Great Tusk|Knock Off|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|17/100 slp
+|-enditem|p2a: Basculegion|Choice Band|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|21/100|[from] item: Leftovers
+|turn|15
+|
+|-curestatus|p2a: Basculegion|slp|[msg]
+|move|p2a: Basculegion|Aqua Jet|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|16
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Lokix|Lokix, F, tera:Bug|81/100
+|turn|17
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Lokix|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|78/100
+|-damage|p2a: Lokix|71/100|[from] item: Life Orb
+|
+|switch|p2a: Breloom|Breloom, M|100/100|[from] U-turn
+|
+|-heal|p1a: Heatran|84/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Breloom|Close Combat|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-unboost|p2a: Breloom|def|1
+|-unboost|p2a: Breloom|spd|1
+|faint|p1a: Heatran
+|-damage|p2a: Breloom|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|78/100
+|turn|19
+|
+|move|p2a: Breloom|Close Combat|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|48/100
+|-unboost|p2a: Breloom|def|1
+|-unboost|p2a: Breloom|spd|1
+|-damage|p2a: Breloom|81/100|[from] item: Life Orb
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-heal|p1a: Amoonguss|54/100|[from] item: Leftovers
+|
+|switch|p2a: Lokix|Lokix, F, tera:Bug|71/100
+|turn|20
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|53/100
+|move|p2a: Lokix|U-turn|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|-damage|p2a: Lokix|61/100|[from] item: Life Orb
+|
+|switch|p2a: Dragonite|Dragonite, M|92/100|[from] U-turn
+|
+|-heal|p2a: Dragonite|99/100|[from] item: Leftovers
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|21
+|
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Crunch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Lokix|Lokix, F, tera:Bug|61/100
+|turn|22
+|
+|switch|p1a: Amoonguss|Amoonguss, F, shiny|88/100
+|move|p2a: Lokix|First Impression|p1a: Amoonguss
+|-damage|p1a: Amoonguss|41/100
+|-damage|p2a: Lokix|51/100|[from] item: Life Orb
+|
+|-heal|p1a: Amoonguss|48/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Lokix|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|12/100
+|-damage|p2a: Lokix|41/100|[from] item: Life Orb
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|win|blackthugshaker2

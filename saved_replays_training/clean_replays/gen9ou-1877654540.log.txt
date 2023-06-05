@@ -1,0 +1,439 @@
+|poke|p1|Cinderace, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Roaring Moon|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|1
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|move|p1a: Roaring Moon|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|95/100
+|
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|2
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|38/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-heal|p2a: Slowking|44/100|[from] item: Black Sludge
+|turn|3
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Torkoal
+|-damage|p1a: Torkoal|12/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Torkoal|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: adil|move: Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Great Tusk
+|-damage|p1a: Great Tusk|67/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M, shiny|12/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|77/100
+|-damage|p2a: Slowking|65/100|[from] Stealth Rock
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|71/100|[from] item: Black Sludge
+|turn|8
+|
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Slowking
+|-damage|p2a: Slowking|3/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|-end|p1a: Walking Wake|Protosynthesis
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Chilly Reception
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|turn|9
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M, shiny|12/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Dragapult|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|6/100
+|
+|switch|p2a: Slowking|Slowking-Galar, M|36/100|[from] U-turn
+|-damage|p2a: Slowking|23/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|29/100|[from] item: Black Sludge
+|turn|10
+|
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|-end|p1a: Walking Wake|Protosynthesis
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] Chilly Reception
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Walking Wake|Flamethrower|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|31/100
+|move|p2a: Magearna|Spikes|p1a: Walking Wake
+|-sidestart|p1: Sawkuro|Spikes
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|37/100|[from] item: Leftovers
+|turn|12
+|
+|-terastallize|p2a: Magearna|Water
+|move|p1a: Walking Wake|Flamethrower|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|18/100
+|move|p2a: Magearna|Pain Split|p1a: Walking Wake
+|-sethp|p1a: Walking Wake|60/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Magearna|56/100|[from] move: Pain Split
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|62/100|[from] item: Leftovers
+|turn|13
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Cinderace|Cinderace, M, shiny|100/100
+|-damage|p1a: Cinderace|88/100|[from] Spikes
+|switch|p2a: Slowking|Slowking-Galar, M|63/100
+|-damage|p2a: Slowking|50/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Slowking|56/100|[from] item: Black Sludge
+|turn|14
+|
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|54/100
+|
+|-weather|none
+|-heal|p2a: Great Tusk|61/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|15/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Cinderace
+|-damage|p1a: Cinderace|68/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: adil|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|22/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|17
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|61/100
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|
+|turn|18
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Roaring Moon|Roaring Moon|100/100
+|-damage|p1a: Roaring Moon|88/100|[from] Spikes
+|turn|19
+|
+|move|p1a: Roaring Moon|Outrage|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|88/100
+|turn|20
+|
+|move|p1a: Roaring Moon|Outrage|p2a: Dragapult|[from]lockedmove
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-start|p1a: Roaring Moon|confusion|[fatigue]
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, M|90/100
+|turn|21
+|
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|67/100
+|-damage|p1a: Great Tusk|54/100|[from] Spikes
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: fun meta!|Cinderace, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|22
+|
+|move|p2a: fun meta!|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|move|p1a: Great Tusk|Rapid Spin|p2a: fun meta!
+|-damage|p2a: fun meta!|92/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Sawkuro|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Great Tusk|48/100 brn|[from] brn
+|turn|23
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M, shiny|6/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: fun meta!|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|switch|p2a: Magearna|Magearna, tera:Water|62/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Magearna|68/100|[from] item: Leftovers
+|
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|60/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|24
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowking|51/100|[from] item: Black Sludge
+|turn|25
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Roaring Moon|Roaring Moon|88/100
+|-activate|p1a: Roaring Moon|ability: Protosynthesis
+|-start|p1a: Roaring Moon|protosynthesisatk
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|-end|p1a: Roaring Moon|Protosynthesis
+|
+|switch|p2a: Magearna|Magearna, tera:Water|68/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|74/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Roaring Moon|U-turn|p2a: Magearna
+|-damage|p2a: Magearna|58/100
+|
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|60/100|[from] U-turn
+|move|p2a: Magearna|Fleur Cannon|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Walking Wake
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|64/100|[from] item: Leftovers
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|27
+|
+|switch|p1a: Roaring Moon|Roaring Moon|88/100
+|switch|p2a: Slowking|Slowking-Galar, M|84/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Slowking|90/100|[from] item: Black Sludge
+|turn|28
+|
+|switch|p2a: fun meta!|Cinderace, M|92/100
+|move|p1a: Roaring Moon|Outrage|p2a: fun meta!
+|-damage|p2a: fun meta!|6/100
+|
+|-weather|Snow|[upkeep]
+|turn|29
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Roaring Moon|Outrage|p2a: Slowking|[from]lockedmove
+|-damage|p2a: Slowking|26/100
+|-start|p1a: Roaring Moon|confusion|[fatigue]
+|
+|-weather|none
+|-heal|p2a: Slowking|32/100|[from] item: Black Sludge
+|turn|30
+|
+|switch|p2a: fun meta!|Cinderace, M|6/100
+|-activate|p1a: Roaring Moon|confusion
+|-damage|p1a: Roaring Moon|70/100|[from] confusion
+|
+|turn|31
+|
+|-activate|p1a: Roaring Moon|confusion
+|move|p1a: Roaring Moon|Outrage|p2a: fun meta!
+|-damage|p2a: fun meta!|0 fnt
+|faint|p2a: fun meta!
+|
+|
+|switch|p2a: Magearna|Magearna, tera:Water|64/100
+|turn|32
+|
+|-end|p1a: Roaring Moon|confusion
+|move|p1a: Roaring Moon|Outrage|p2a: Magearna|[from]lockedmove
+|-damage|p2a: Magearna|25/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Roaring Moon
+|-supereffective|p1a: Roaring Moon
+|-damage|p1a: Roaring Moon|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Roaring Moon
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Roaring Moon|Protosynthesis|[silent]
+|
+|-heal|p2a: Magearna|31/100|[from] item: Leftovers
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|33
+|
+|switch|p2a: Slowking|Slowking-Galar, M|66/100
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-heal|p2a: Slowking|72/100|[from] item: Black Sludge
+|turn|34
+|
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|move|p2a: Slowking|Yawn|p1a: Lilligant
+|-start|p1a: Lilligant|move: Yawn|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|78/100|[from] item: Black Sludge
+|turn|35
+|
+|move|p1a: Lilligant|Solar Blade|p2a: Slowking|[from]lockedmove
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|19/100
+|-damage|p1a: Lilligant|91/100|[from] item: Life Orb
+|move|p2a: Slowking|Future Sight|p1a: Lilligant
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|25/100|[from] item: Black Sludge
+|-end|p1a: Lilligant|move: Yawn|[silent]
+|-status|p1a: Lilligant|slp
+|turn|36
+|
+|cant|p1a: Lilligant|slp
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Magearna|Magearna, tera:Water|31/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|37/100|[from] item: Leftovers
+|turn|37
+|
+|switch|p2a: Slowking|Slowking-Galar, M|58/100
+|cant|p1a: Lilligant|slp
+|
+|-weather|Snow|[upkeep]
+|-end|p1a: Lilligant|move: Future Sight
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|-heal|p2a: Slowking|64/100|[from] item: Black Sludge
+|
+|switch|p1a: Great Tusk|Great Tusk|48/100 brn
+|turn|38
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|19/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|switch|p2a: Magearna|Magearna, tera:Water|37/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|43/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|42/100 brn|[from] brn
+|turn|39
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Magearna
+|-damage|p2a: Magearna|28/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|adil
+|player|p1|Sawkuro|1

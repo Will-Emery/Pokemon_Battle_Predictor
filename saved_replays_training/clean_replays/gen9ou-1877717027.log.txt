@@ -1,0 +1,111 @@
+|poke|p1|Glimmora, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, F|
+|poke|p1|Volcarona, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Amoonguss, M|
+|poke|p2|Gholdengo|
+|poke|p2|Garganacl, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Wyrdeer, F|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Dragon Pulse|p1a: Glimmora
+|-damage|p1a: Glimmora|51/100
+|move|p1a: Glimmora|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: sweetac|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Dragapult|Dragon Pulse|p1a: Glimmora
+|-damage|p1a: Glimmora|2/100
+|move|p1a: Glimmora|Mortal Spin|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|97/100
+|-status|p2a: Dragapult|psn
+|
+|-damage|p2a: Dragapult|84/100 psn|[from] psn
+|turn|3
+|
+|move|p2a: Dragapult|Dragon Pulse|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Dragapult|72/100 psn|[from] psn
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|-terastallize|p2a: Dragapult|Fairy
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|42/100 psn
+|move|p2a: Dragapult|Dragon Pulse|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|40/100
+|
+|-damage|p2a: Dragapult|30/100 psn|[from] psn
+|turn|5
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Aimoonguss|Amoonguss, M, shiny|100/100
+|-damage|p2a: Aimoonguss|88/100|[from] Stealth Rock
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Aimoonguss
+|-resisted|p2a: Aimoonguss
+|-damage|p2a: Aimoonguss|72/100
+|-damage|p1a: Chien-Pao|23/100|[from] item: Rocky Helmet|[of] p2a: Aimoonguss
+|
+|turn|7
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|48/100
+|
+|turn|8
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Chien-Pao|Sucker Punch||[still]
+|-fail|p1a: Chien-Pao
+|
+|turn|9
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|39/100
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|turn|10
+|
+|switch|p2a: Garganacl|Garganacl, M|94/100
+|-damage|p2a: Garganacl|82/100|[from] Stealth Rock
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|
+|-heal|p2a: Garganacl|88/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-message|sweetac forfeited.
+|
+|win|NeppaNonatsu

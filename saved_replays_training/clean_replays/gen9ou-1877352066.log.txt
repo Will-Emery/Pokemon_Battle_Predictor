@@ -1,0 +1,185 @@
+|poke|p1|Polteageist|
+|poke|p1|Oricorio, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Dedenne, F|
+|poke|p1|Sudowoodo, F|
+|poke|p1|Bronzong|
+|poke|p2|Bruxish, F|
+|poke|p2|Murkrow, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Cryogonal|
+|poke|p2|Toxtricity-Low-Key, M|
+|poke|p2|Typhlosion-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Liberty Bell|Bronzong, shiny|100/100
+|switch|p2a: Prankster Dusclops|Murkrow, M|100/100
+|turn|1
+|
+|move|p2a: Prankster Dusclops|Taunt|p1a: Liberty Bell
+|-start|p1a: Liberty Bell|move: Taunt
+|cant|p1a: Liberty Bell|move: Taunt|Reflect
+|
+|turn|2
+|
+|move|p2a: Prankster Dusclops|Thunder Wave|p1a: Liberty Bell
+|-status|p1a: Liberty Bell|par
+|move|p1a: Liberty Bell|Gyro Ball|p2a: Prankster Dusclops
+|-damage|p2a: Prankster Dusclops|20/100
+|
+|turn|3
+|
+|switch|p2a: Hisuian Dusclops|Typhlosion-Hisui, M|100/100
+|-item|p1a: Liberty Bell|Light Clay|[from] ability: Frisk|[of] p2a: Hisuian Dusclops|[identify]
+|cant|p1a: Liberty Bell|par
+|
+|-end|p1a: Liberty Bell|move: Taunt
+|turn|4
+|
+|move|p2a: Hisuian Dusclops|Infernal Parade|p1a: Liberty Bell
+|-supereffective|p1a: Liberty Bell
+|-damage|p1a: Liberty Bell|15/100 par
+|move|p1a: Liberty Bell|Light Screen|p1a: Liberty Bell
+|-sidestart|p1: DubiousWitch|move: Light Screen
+|
+|turn|5
+|
+|move|p2a: Hisuian Dusclops|Infernal Parade|p1a: Liberty Bell
+|-supereffective|p1a: Liberty Bell
+|-damage|p1a: Liberty Bell|0 fnt
+|faint|p1a: Liberty Bell
+|
+|
+|switch|p1a: DDR|Oricorio, F, shiny|100/100
+|turn|6
+|
+|switch|p2a: Fishclops|Bruxish, F|100/100
+|move|p1a: DDR|Quiver Dance|p1a: DDR
+|-boost|p1a: DDR|spa|1
+|-boost|p1a: DDR|spd|1
+|-boost|p1a: DDR|spe|1
+|
+|turn|7
+|
+|move|p1a: DDR|Teeter Dance|p2a: Fishclops
+|-start|p2a: Fishclops|confusion
+|-activate|p2a: Fishclops|confusion
+|-damage|p2a: Fishclops|81/100|[from] confusion
+|
+|turn|8
+|
+|move|p1a: DDR|Air Slash|p2a: Fishclops
+|-damage|p2a: Fishclops|0 fnt
+|faint|p2a: Fishclops
+|
+|
+|switch|p2a: Prankster Dusclops|Murkrow, M|20/100
+|turn|9
+|
+|move|p2a: Prankster Dusclops|Thunder Wave|p1a: DDR|[miss]
+|-miss|p2a: Prankster Dusclops|p1a: DDR
+|move|p1a: DDR|Air Slash|p2a: Prankster Dusclops
+|-damage|p2a: Prankster Dusclops|0 fnt
+|faint|p2a: Prankster Dusclops
+|
+|
+|switch|p2a: Toxiclops|Toxtricity-Low-Key, M|100/100
+|turn|10
+|
+|move|p1a: DDR|Revelation Dance|p2a: Toxiclops
+|-damage|p2a: Toxiclops|12/100
+|move|p2a: Toxiclops|Thunderbolt|p1a: DDR
+|-supereffective|p1a: DDR
+|-damage|p1a: DDR|30/100
+|
+|turn|11
+|
+|move|p1a: DDR|Revelation Dance|p2a: Toxiclops
+|-damage|p2a: Toxiclops|0 fnt
+|faint|p2a: Toxiclops
+|
+|-sideend|p1: DubiousWitch|move: Light Screen
+|
+|switch|p2a: Roaring Dusclops|Roaring Moon|100/100
+|-enditem|p2a: Roaring Dusclops|Booster Energy
+|-activate|p2a: Roaring Dusclops|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Dusclops|protosynthesisspe
+|turn|12
+|
+|move|p2a: Roaring Dusclops|Acrobatics|p1a: DDR
+|-damage|p1a: DDR|0 fnt
+|faint|p1a: DDR
+|
+|
+|switch|p1a: Bonnie|Dedenne, F, shiny|100/100
+|turn|13
+|
+|move|p2a: Roaring Dusclops|Earthquake|p1a: Bonnie
+|-supereffective|p1a: Bonnie
+|-damage|p1a: Bonnie|0 fnt
+|faint|p1a: Bonnie
+|
+|
+|switch|p1a: Faux|Sudowoodo, F, shiny|100/100
+|turn|14
+|
+|-terastallize|p1a: Faux|Grass
+|move|p2a: Roaring Dusclops|Earthquake|p1a: Faux
+|-resisted|p1a: Faux
+|-damage|p1a: Faux|85/100
+|-enditem|p1a: Faux|Red Card|[of] p2a: Roaring Dusclops
+|-end|p2a: Roaring Dusclops|Protosynthesis|[silent]
+|drag|p2a: Hisuian Dusclops|Typhlosion-Hisui, M|100/100
+|move|p1a: Faux|Head Smash|p2a: Hisuian Dusclops
+|-supereffective|p2a: Hisuian Dusclops
+|-damage|p2a: Hisuian Dusclops|0 fnt
+|faint|p2a: Hisuian Dusclops
+|
+|
+|switch|p2a: Cryoclops|Cryogonal|100/100
+|turn|15
+|
+|move|p2a: Cryoclops|Freeze-Dry|p1a: Faux
+|-supereffective|p1a: Faux
+|-damage|p1a: Faux|25/100
+|move|p1a: Faux|Head Smash|p2a: Cryoclops
+|-supereffective|p2a: Cryoclops
+|-damage|p2a: Cryoclops|0 fnt
+|faint|p2a: Cryoclops
+|
+|
+|switch|p2a: Roaring Dusclops|Roaring Moon|100/100
+|turn|16
+|
+|-terastallize|p2a: Roaring Dusclops|Flying
+|move|p2a: Roaring Dusclops|Acrobatics|p1a: Faux
+|-supereffective|p1a: Faux
+|-damage|p1a: Faux|0 fnt
+|faint|p1a: Faux
+|
+|
+|switch|p1a: Cup 'o Tea|Polteageist, shiny|100/100
+|turn|17
+|
+|move|p2a: Roaring Dusclops|Acrobatics|p1a: Cup 'o Tea
+|-damage|p1a: Cup 'o Tea|0 fnt
+|faint|p1a: Cup 'o Tea
+|
+|
+|switch|p1a: Terminator|Iron Valiant|100/100
+|-enditem|p1a: Terminator|Booster Energy
+|-activate|p1a: Terminator|ability: Quark Drive|[fromitem]
+|-start|p1a: Terminator|quarkdrivespe
+|turn|18
+|
+|move|p1a: Terminator|Moonblast|p2a: Roaring Dusclops
+|-damage|p2a: Roaring Dusclops|59/100
+|-unboost|p2a: Roaring Dusclops|spa|1
+|move|p2a: Roaring Dusclops|Acrobatics|p1a: Terminator
+|-supereffective|p1a: Terminator
+|-damage|p1a: Terminator|0 fnt
+|faint|p1a: Terminator
+|-end|p1a: Terminator|Quark Drive|[silent]
+|
+|win|desal

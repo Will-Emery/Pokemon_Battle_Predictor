@@ -1,1 +1,356 @@
-Could not connect
+|j|☆bo552
+|j|☆Kusanagi M.
+|t:|1685915176
+|gametype|singles
+|player|p1|bo552|2|1330
+|player|p2|Kusanagi M.|2|1329
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Enamorus, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Thundurus, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Great Tusk|
+|poke|p2|Roaring Moon|
+|poke|p2|Walking Wake|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kusanagi M.)
+|
+|t:|1685915194
+|start
+|switch|p1a: Rotom|Rotom-Mow, shiny|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1685915201
+|move|p1a: Rotom|Trick|p2a: Torkoal
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Torkoal
+|-item|p2a: Torkoal|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Heat Rock|[from] move: Trick
+|move|p2a: Torkoal|Stealth Rock|p1a: Rotom
+|-sidestart|p1: bo552|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1685915214
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Rotom|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685915227
+|move|p1a: Rotom|Leaf Storm|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685915243
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|4
+|
+|t:|1685915257
+|move|p2a: Roaring Moon|U-turn|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|3/100
+|
+|t:|1685915261
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p1a: Rotom|Volt Switch|p2a: Hatterene
+|-damage|p2a: Hatterene|83/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1685915266
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685915274
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685915280
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|6
+|
+|t:|1685915287
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Pelipper|Hurricane|p2a: Torkoal
+|-damage|p2a: Torkoal|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685915295
+|move|p1a: Pelipper|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|67/100
+|
+|t:|1685915298
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|move|p2a: Torkoal|Yawn|p1a: Landorus
+|-start|p1a: Landorus|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1685915308
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Landorus|U-turn|p2a: Walking Wake
+|-damage|p2a: Walking Wake|72/100
+|
+|t:|1685915320
+|switch|p1a: Pelipper|Pelipper, F|76/100|[from] U-turn
+|-damage|p1a: Pelipper|51/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Walking Wake|Protosynthesis
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1685915328
+|move|p2a: Walking Wake|Hydro Steam|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685915335
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|turn|10
+|
+|t:|1685915347
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|67/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Thundurus|Thunder Wave|p2a: Torkoal
+|-status|p2a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1685915357
+|move|p1a: Thundurus|Volt Switch|p2a: Torkoal
+|-damage|p2a: Torkoal|33/100 par
+|
+|t:|1685915361
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100|[from] Volt Switch
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|cant|p2a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1685915368
+|switch|p2a: Hatterene|Hatterene, F|83/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Hatterene
+|-damage|p2a: Hatterene|43/100
+|-sidestart|p2: Kusanagi M.|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1685915378
+|move|p1a: Samurott|Ceaseless Edge|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|-sidestart|p2: Kusanagi M.|Spikes
+|move|p2a: Hatterene|Nuzzle|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|78/100
+|-status|p1a: Samurott|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1685915387
+|cant|p1a: Samurott|par
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1685915392
+|switch|p2a: Torkoal|Torkoal, M|33/100 par
+|-heal|p2a: Torkoal|100/100|[from] move: Healing Wish
+|-damage|p2a: Torkoal|84/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|15
+|
+|t:|1685915417
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-damage|p2a: Roaring Moon|84/100|[from] Spikes
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisatk
+|move|p1a: Samurott|Ceaseless Edge|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|57/100
+|-sidestart|p2: Kusanagi M.|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1685915428
+|move|p2a: Roaring Moon|Outrage|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685915432
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1685915436
+|move|p2a: Roaring Moon|Outrage|p1a: Enamorus|[from]lockedmove
+|-immune|p1a: Enamorus
+|move|p1a: Enamorus|Superpower|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|-damage|p1a: Enamorus|66/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685915450
+|switch|p2a: Walking Wake|Walking Wake|72/100
+|-damage|p2a: Walking Wake|47/100|[from] Spikes
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|18
+|
+|t:|1685915457
+|move|p2a: Walking Wake|Hydro Steam|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685915460
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Walking Wake|atk|1
+|turn|19
+|
+|t:|1685915467
+|-terastallize|p1a: Landorus|Ground
+|move|p1a: Landorus|Earthquake|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1685915475
+|switch|p2a: Torkoal|Torkoal, M|84/100
+|-damage|p2a: Torkoal|59/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|20
+|
+|t:|1685915487
+|move|p1a: Landorus|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685915492
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|-damage|p2a: Ceruledge|76/100|[from] Spikes
+|turn|21
+|
+|t:|1685915513
+|-terastallize|p2a: Ceruledge|Grass
+|move|p1a: Landorus|Earthquake|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|27/100
+|move|p2a: Ceruledge|Solar Blade||[still]
+|-prepare|p2a: Ceruledge|Solar Blade
+|-anim|p2a: Ceruledge|Solar Blade|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685915519
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|turn|22
+|
+|t:|1685915525
+|move|p1a: Thundurus|Sludge Bomb|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|win|bo552
+|raw|bo552's rating: 1330 → 1350(+20 for winning)
+|raw|Kusanagi M.'s rating: 1329 → 1309(-20 for losing)
+|l|☆Kusanagi M.

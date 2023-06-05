@@ -1,0 +1,293 @@
+|poke|p1|Cinderace, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Greninja, F|
+|poke|p1|Walking Wake|
+|poke|p1|Skeledirge, M|
+|poke|p1|Meowscarada, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Volcanion|
+|poke|p2|Breloom, F|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Greninja|Greninja, F, shiny|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Greninja|Ice Beam|p2a: Volcanion
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|93/100
+|
+|turn|2
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Volcanion|Earth Power|p1a: Walking Wake
+|-damage|p1a: Walking Wake|59/100
+|
+|turn|3
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Goodra
+|-damage|p2a: Goodra|73/100
+|
+|-heal|p2a: Goodra|79/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Walking Wake|Flamethrower|p2a: Goodra
+|-damage|p2a: Goodra|60/100
+|move|p2a: Goodra|Dragon Tail|p1a: Walking Wake|[miss]
+|-miss|p2a: Goodra|p1a: Walking Wake
+|
+|-heal|p2a: Goodra|66/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Goodra|Dragon Tail|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|62/100
+|-damage|p2a: Goodra|53/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Goodra|37/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|drag|p1a: Cinderace|Cinderace, F|100/100
+|
+|-heal|p2a: Goodra|43/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Volcanion|Volcanion|93/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|82/100
+|
+|turn|7
+|
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Cinderace|Zen Headbutt|p2a: Breloom
+|-start|p1a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-supereffective|p2a: Breloom
+|-enditem|p2a: Breloom|Focus Sash
+|-damage|p2a: Breloom|1/100
+|
+|turn|8
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|
+|turn|9
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|65/100
+|-sidestart|p1: TTV Sickscream28|Spikes
+|
+|turn|10
+|
+|switch|p2a: Volcanion|Volcanion|82/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Volcanion
+|-crit|p2a: Volcanion
+|-damage|p2a: Volcanion|40/100
+|
+|turn|11
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Meowscarada|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|83/100
+|
+|switch|p1a: Greninja|Greninja, F, shiny|100/100|[from] U-turn
+|-damage|p1a: Greninja|88/100|[from] Spikes
+|
+|turn|12
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|43/100
+|move|p1a: Greninja|Ice Beam|p2a: Goodra
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-damage|p2a: Goodra|21/100
+|
+|-heal|p2a: Goodra|27/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Goodra
+|-damage|p2a: Goodra|14/100
+|move|p2a: Goodra|Rest|p2a: Goodra
+|-status|p2a: Goodra|slp|[from] move: Rest
+|-heal|p2a: Goodra|100/100 slp|[silent]
+|
+|turn|14
+|
+|move|p1a: Greninja|Toxic Spikes|p2a: Goodra
+|-sidestart|p2: streamfragments|move: Toxic Spikes
+|cant|p2a: Goodra|slp
+|move|p2a: Goodra|Sleep Talk|p2a: Goodra
+|move|p2a: Goodra|Curse|p2a: Goodra|[from]move: Sleep Talk
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|turn|15
+|
+|move|p1a: Greninja|Toxic Spikes|p2a: Goodra
+|-sidestart|p2: streamfragments|move: Toxic Spikes
+|cant|p2a: Goodra|slp
+|move|p2a: Goodra|Sleep Talk|p2a: Goodra
+|move|p2a: Goodra|Dragon Tail|p1a: Greninja|[from]move: Sleep Talk|[miss]
+|-miss|p2a: Goodra|p1a: Greninja
+|
+|turn|16
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|-damage|p1a: Skeledirge|88/100|[from] Spikes
+|-curestatus|p2a: Goodra|slp|[msg]
+|move|p2a: Goodra|Dragon Tail|p1a: Skeledirge
+|-damage|p1a: Skeledirge|63/100
+|drag|p1a: Walking Wake|Walking Wake|59/100
+|-damage|p1a: Walking Wake|46/100|[from] Spikes
+|
+|turn|17
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Goodra
+|-damage|p2a: Goodra|77/100
+|move|p2a: Goodra|Dragon Tail|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-heal|p2a: Goodra|83/100|[from] item: Leftovers
+|
+|switch|p1a: Skeledirge|Skeledirge, M|63/100
+|-damage|p1a: Skeledirge|51/100|[from] Spikes
+|turn|18
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Goodra
+|-damage|p2a: Goodra|61/100
+|-boost|p1a: Skeledirge|spa|1
+|-enditem|p1a: Skeledirge|Throat Spray
+|-boost|p1a: Skeledirge|spa|1|[from] item: Throat Spray
+|move|p2a: Goodra|Dragon Tail|p1a: Skeledirge
+|-damage|p1a: Skeledirge|27/100
+|drag|p1a: Greninja|Greninja, F, shiny|88/100
+|-damage|p1a: Greninja|76/100|[from] Spikes
+|
+|-heal|p2a: Goodra|67/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Greninja|Water Pulse|p2a: Goodra
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|59/100
+|move|p2a: Goodra|Dragon Tail|p1a: Greninja|[miss]
+|-miss|p2a: Goodra|p1a: Greninja
+|
+|-heal|p2a: Goodra|65/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Greninja|Water Pulse|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|58/100
+|move|p2a: Goodra|Dragon Tail|p1a: Greninja
+|-damage|p1a: Greninja|28/100
+|drag|p1a: Skeledirge|Skeledirge, M|27/100
+|-damage|p1a: Skeledirge|15/100|[from] Spikes
+|
+|-heal|p2a: Goodra|64/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Skeledirge|Hyper Voice|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|56/100
+|move|p2a: Goodra|Dragon Tail|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-heal|p2a: Goodra|62/100|[from] item: Leftovers
+|
+|switch|p1a: Meowscarada|Meowscarada, F|65/100
+|-damage|p1a: Meowscarada|53/100|[from] Spikes
+|turn|22
+|
+|move|p1a: Meowscarada|Flower Trick|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|56/100
+|move|p2a: Goodra|Dragon Tail|p1a: Meowscarada
+|-damage|p1a: Meowscarada|2/100
+|drag|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|88/100|[from] Spikes
+|
+|-heal|p2a: Goodra|62/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Goodra
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|24
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Great Tusk
+|-damage|p2a: Great Tusk|52/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Cinderace
+|-damage|p1a: Cinderace|61/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: streamfragments|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|turn|25
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: TTV Sickscream28|move: Stealth Rock
+|move|p1a: Cinderace|High Jump Kick|p2a: Great Tusk
+|-damage|p2a: Great Tusk|4/100
+|
+|turn|26
+|
+|move|p2a: Great Tusk|Headlong Rush|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Greninja|Greninja, F, shiny|28/100
+|-damage|p1a: Greninja|15/100|[from] Spikes
+|-damage|p1a: Greninja|3/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Great Tusk|Heavy Slam|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|
+|switch|p1a: Garchomp|Garchomp, F|62/100
+|-damage|p1a: Garchomp|50/100|[from] Spikes
+|-damage|p1a: Garchomp|43/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Great Tusk|Headlong Rush|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Meowscarada|Meowscarada, F|2/100
+|switch|p2a: Breloom|Breloom, F|1/100
+|-damage|p1a: Meowscarada|0 fnt|[from] Spikes
+|faint|p1a: Meowscarada
+|
+|win|streamfragments

@@ -1,0 +1,270 @@
+|poke|p1|Great Tusk|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Magearna|
+|poke|p1|Sneasler, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Moltres|
+|poke|p2|Zamazenta-*|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Decidueye-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: OU Mascot|Landorus-Therian, M|100/100
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-ability|p1a: OU Mascot|Intimidate|boost
+|-unboost|p2a: Hoopa|atk|1
+|turn|1
+|
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: OU Mascot|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|97/100
+|
+|switch|p1a: Iron Maiden|Magearna|100/100|[from] U-turn
+|
+|turn|2
+|
+|-terastallize|p1a: Iron Maiden|Water
+|move|p2a: Moltres|Flamethrower|p1a: Iron Maiden
+|-resisted|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|86/100
+|move|p1a: Iron Maiden|Shift Gear|p1a: Iron Maiden
+|-boost|p1a: Iron Maiden|spe|2
+|-boost|p1a: Iron Maiden|atk|1
+|
+|-heal|p1a: Iron Maiden|92/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Iron Maiden|Calm Mind|p1a: Iron Maiden
+|-boost|p1a: Iron Maiden|spa|1
+|-boost|p1a: Iron Maiden|spd|1
+|
+|-heal|p1a: Iron Maiden|98/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Iron Maiden|Stored Power|p2a: Slowking
+|-damage|p2a: Slowking|68/100
+|move|p2a: Slowking|Thunder Wave|p1a: Iron Maiden
+|-status|p1a: Iron Maiden|par
+|
+|-heal|p1a: Iron Maiden|100/100 par|[from] item: Leftovers
+|turn|5
+|
+|cant|p1a: Iron Maiden|par
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Decidueye|Decidueye-Hisui, F, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|move|p1a: Iron Maiden|Shift Gear|p1a: Iron Maiden
+|-boost|p1a: Iron Maiden|spe|2
+|-boost|p1a: Iron Maiden|atk|1
+|move|p2a: Decidueye|Triple Arrows|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|78/100 par
+|-unboost|p1a: Iron Maiden|def|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Iron Maiden|84/100 par|[from] item: Leftovers
+|turn|7
+|
+|cant|p1a: Iron Maiden|par
+|move|p2a: Decidueye|Triple Arrows|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|51/100 par
+|-unboost|p1a: Iron Maiden|def|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Iron Maiden|58/100 par|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Iron Maiden|Draining Kiss|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|43/100
+|-heal|p1a: Iron Maiden|100/100 par|[from] drain|[of] p2a: Decidueye
+|move|p2a: Decidueye|Triple Arrows|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|59/100 par
+|-unboost|p1a: Iron Maiden|def|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Iron Maiden|65/100 par|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Iron Maiden|Draining Kiss|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|-heal|p1a: Iron Maiden|99/100 par|[from] drain|[of] p2a: Decidueye
+|faint|p2a: Decidueye
+|-ability|p1a: Iron Maiden|Soul-Heart|boost
+|-boost|p1a: Iron Maiden|spa|1
+|
+|-weather|none
+|-heal|p1a: Iron Maiden|100/100 par|[from] item: Leftovers
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|10
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Iron Maiden
+|-damage|p1a: Iron Maiden|0 fnt
+|faint|p1a: Iron Maiden
+|
+|
+|switch|p1a: Un-BEAR-able|Urshifu-Rapid-Strike, M|100/100
+|turn|11
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Un-BEAR-able|Surging Strikes|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|31/100
+|-hitcount|p2a: Slowking|3
+|
+|turn|12
+|
+|move|p1a: Un-BEAR-able|Surging Strikes|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|9/100
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-hitcount|p2: Slowking|2
+|
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|13
+|
+|move|p1a: Un-BEAR-able|Surging Strikes|p2a: Hoopa
+|-crit|p2a: Hoopa
+|-damage|p2a: Hoopa|59/100
+|-crit|p2a: Hoopa
+|-damage|p2a: Hoopa|15/100
+|-crit|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|-hitcount|p2: Hoopa|3
+|
+|
+|switch|p2a: Moltres|Moltres|97/100
+|turn|14
+|
+|move|p1a: Un-BEAR-able|Surging Strikes|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|68/100
+|-supereffective|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|35/100
+|-supereffective|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|5/100
+|-hitcount|p2a: Moltres|3
+|move|p2a: Moltres|Flamethrower|p1a: Un-BEAR-able
+|-resisted|p1a: Un-BEAR-able
+|-damage|p1a: Un-BEAR-able|71/100
+|
+|turn|15
+|
+|move|p1a: Un-BEAR-able|Surging Strikes|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|-hitcount|p2: Moltres|1
+|
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|16
+|
+|move|p1a: Un-BEAR-able|Surging Strikes|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|86/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|71/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|58/100
+|-hitcount|p2a: Zamazenta|3
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|turn|17
+|
+|move|p1a: Un-BEAR-able|Surging Strikes|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|44/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|31/100
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|16/100
+|-hitcount|p2a: Zamazenta|3
+|move|p2a: Zamazenta|Body Press|p1a: Un-BEAR-able
+|-damage|p1a: Un-BEAR-able|0 fnt
+|faint|p1a: Un-BEAR-able
+|
+|
+|switch|p1a: Golden Girl|Sneasler, F, shiny|100/100
+|turn|18
+|
+|move|p2a: Zamazenta|Body Press|p1a: Golden Girl
+|-resisted|p1a: Golden Girl
+|-damage|p1a: Golden Girl|10/100
+|move|p1a: Golden Girl|Close Combat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Golden Girl|def|1
+|-unboost|p1a: Golden Girl|spd|1
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|19
+|
+|switch|p1a: OU Mascot|Landorus-Therian, M|100/100
+|-ability|p1a: OU Mascot|Intimidate|boost
+|-unboost|p2a: Chien-Pao|atk|1
+|move|p2a: Chien-Pao|Icicle Crash|p1a: OU Mascot
+|-supereffective|p1a: OU Mascot
+|-damage|p1a: OU Mascot|0 fnt
+|faint|p1a: OU Mascot
+|
+|
+|switch|p1a: Discount Tusk|Great Tusk|100/100
+|turn|20
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Discount Tusk
+|-supereffective|p1a: Discount Tusk
+|-crit|p1a: Discount Tusk
+|-damage|p1a: Discount Tusk|0 fnt
+|faint|p1a: Discount Tusk
+|-end|p1a: Discount Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Frostfang Barioth|Chien-Pao|100/100
+|-ability|p1a: Frostfang Barioth|Sword of Ruin
+|turn|21
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Frostfang Barioth
+|-resisted|p1a: Frostfang Barioth
+|-damage|p1a: Frostfang Barioth|70/100
+|cant|p1a: Frostfang Barioth|flinch
+|
+|turn|22
+|
+|move|p1a: Frostfang Barioth|Sacred Sword|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|win|TomoTaco69

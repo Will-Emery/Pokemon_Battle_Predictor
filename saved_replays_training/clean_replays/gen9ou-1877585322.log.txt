@@ -1,0 +1,123 @@
+|poke|p1|Ursaluna, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Heatran, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Magearna|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kleavor, M|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Samurott
+|-sidestart|p1: BrickWildcat|move: Stealth Rock
+|move|p1a: Samurott|Ceaseless Edge|p2a: Garchomp
+|-damage|p2a: Garchomp|28/100
+|-sidestart|p2: BackToFortnite|Spikes
+|-damage|p1a: Samurott|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|turn|2
+|
+|move|p2a: Garchomp|Spikes|p1a: Samurott
+|-sidestart|p1: BrickWildcat|Spikes
+|move|p1a: Samurott|Ceaseless Edge|p2a: Garchomp|[miss]
+|-miss|p1a: Samurott|p2a: Garchomp
+|
+|turn|3
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-sidestart|p2: BackToFortnite|Spikes
+|-damage|p1a: Samurott|76/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|84/100|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|4
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-damage|p1a: Great Tusk|85/100|[from] Spikes
+|move|p2a: Zamazenta|Crunch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|76/100
+|-unboost|p1a: Great Tusk|def|1
+|-damage|p2a: Zamazenta|67/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|84/100|[from] Spikes
+|move|p1a: Great Tusk|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|84/100|[from] Spikes
+|turn|6
+|
+|-terastallize|p2a: Magearna|Water
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Magearna
+|-damage|p2a: Magearna|71/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: BrickWildcat|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: BrickWildcat|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Magearna|77/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Great Tusk|Knock Off|p2a: Magearna
+|-damage|p2a: Magearna|56/100
+|-enditem|p2a: Magearna|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|8
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Great Tusk|Body Press|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|2/100
+|
+|turn|9
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Magearna|Draining Kiss|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|-heal|p2a: Magearna|5/100|[from] drain|[of] p1a: Heatran
+|
+|turn|10
+|
+|move|p2a: Magearna|Stored Power|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|74/100
+|move|p1a: Heatran|Earth Power|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-message|BackToFortnite forfeited.
+|
+|win|BrickWildcat

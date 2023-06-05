@@ -1,0 +1,491 @@
+|poke|p1|Baxcalibur, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Zapdos|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stealth Rock|p1a: Landorus
+|-sidestart|p1: argreaer|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Landorus|Taunt|p1a: Landorus
+|-start|p1a: Landorus|move: Taunt
+|cant|p1a: Landorus|move: Taunt|Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|93/100
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|move|p1a: Landorus|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|93/100
+|
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100|[from] U-turn
+|-damage|p1a: Baxcalibur|76/100|[from] Stealth Rock
+|
+|turn|4
+|
+|-terastallize|p2a: Enamorus|Fighting
+|move|p1a: Baxcalibur|Ice Shard|p2a: Enamorus
+|-damage|p2a: Enamorus|42/100
+|move|p2a: Enamorus|Moonblast|p1a: Baxcalibur
+|-supereffective|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|5
+|
+|move|p2a: Enamorus|Moonblast|p1a: Zapdos
+|-damage|p1a: Zapdos|46/100
+|move|p1a: Zapdos|Hurricane|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|6
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|81/100
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100|[from] Volt Switch
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|move|p2a: Slowking|Future Sight|p1a: Arcanine
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|7
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|move|p1a: Arcanine|Head Smash|p2a: Landorus|[miss]
+|-miss|p1a: Arcanine|p2a: Landorus
+|
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|93/100
+|-damage|p1a: Landorus|81/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|73/100
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|
+|-end|p1a: Landorus|move: Future Sight
+|-damage|p1a: Landorus|35/100
+|-heal|p1a: Landorus|41/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Zapdos|Zapdos|46/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|9/100
+|-sidestart|p1: argreaer|Spikes
+|
+|turn|10
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|59/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|turn|11
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Garganacl|Salt Cure|p1a: Zapdos
+|-damage|p1a: Zapdos|89/100
+|-start|p1a: Zapdos|Salt Cure
+|
+|-damage|p1a: Zapdos|76/100|[from] Salt Cure
+|turn|12
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|83/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-damage|p1a: Great Tusk|85/100|[from] Spikes
+|move|p2a: Garganacl|Salt Cure|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|83/100
+|-start|p1a: Great Tusk|Salt Cure
+|
+|-heal|p1a: Great Tusk|89/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|89/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|77/100|[from] Salt Cure
+|turn|13
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|93/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: argreaer|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: argreaer|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|83/100|[from] item: Leftovers
+|-heal|p2a: Landorus|99/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|71/100|[from] Salt Cure
+|turn|14
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|84/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Landorus|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: argreaer|move: Stealth Rock
+|
+|-heal|p1a: Great Tusk|77/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|65/100|[from] Salt Cure
+|turn|15
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|77/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: argreaer|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Landorus|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|39/100
+|
+|-heal|p1a: Great Tusk|45/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|32/100|[from] Salt Cure
+|turn|16
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|41/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stealth Rock|p1a: Landorus
+|-sidestart|p1: argreaer|move: Stealth Rock
+|
+|-heal|p1a: Landorus|47/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Landorus|Taunt|p1a: Landorus
+|-start|p1a: Landorus|move: Taunt
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|69/100
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|76/100|[from] U-turn
+|-damage|p1a: Arcanine|51/100|[from] Stealth Rock
+|
+|turn|18
+|
+|move|p1a: Arcanine|Head Smash|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|19
+|
+|switch|p1a: Landorus|Landorus-Therian, M|47/100
+|-damage|p1a: Landorus|35/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|move|p2a: Sneasler|Fake Out|p1a: Landorus
+|-damage|p1a: Landorus|25/100
+|-status|p1a: Landorus|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|
+|-heal|p1a: Landorus|31/100 psn|[from] item: Leftovers
+|-damage|p1a: Landorus|19/100 psn|[from] psn
+|turn|20
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Sneasler|Close Combat|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|69/100
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|move|p2a: Slowking|Future Sight|p1a: Dragapult
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|-damage|p2a: Slowking|94/100 brn|[from] brn
+|turn|23
+|
+|move|p1a: Dragapult|Hex|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|47/100 brn
+|move|p2a: Slowking|Sludge Bomb|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p2a: Slowking|40/100 brn|[from] brn
+|turn|24
+|
+|switch|p2a: Garganacl|Garganacl, M|89/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|66/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|54/100
+|
+|-end|p1a: Dragapult|move: Future Sight
+|-end|p1a: Dragapult|Substitute
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|60/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|69/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|66/100|[from] item: Leftovers
+|turn|26
+|player|p2|
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|56/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|47/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|98/100
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|turn|27
+|player|p2|konooyukki|karen
+|
+|switch|p1a: Landorus|Landorus-Therian, M|19/100 psn
+|-damage|p1a: Landorus|6/100 psn|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garganacl|atk|1
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Landorus|13/100 psn|[from] item: Leftovers
+|-damage|p1a: Landorus|0 fnt|[from] psn
+|faint|p1a: Landorus
+|
+|switch|p1a: Zapdos|Zapdos|76/100
+|turn|28
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|82/100
+|
+|switch|p1a: Great Tusk|Great Tusk|32/100|[from] Volt Switch
+|-damage|p1a: Great Tusk|29/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|26/100
+|-start|p1a: Great Tusk|Salt Cure
+|
+|-heal|p1a: Great Tusk|32/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|88/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|20/100|[from] Salt Cure
+|turn|29
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|78/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: Great Tusk|26/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|14/100|[from] Salt Cure
+|turn|30
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|98/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: argreaer|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Great Tusk|20/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|8/100|[from] Salt Cure
+|turn|31
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|74/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Great Tusk|14/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|2/100|[from] Salt Cure
+|turn|32
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Arcanine|Arcanine-Hisui, F|51/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|turn|33
+|
+|move|p1a: Arcanine|Head Smash|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|34
+|
+|switch|p1a: Dragapult|Dragapult, F|81/100
+|move|p2a: Sneasler|Dire Claw|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|55/100
+|
+|-heal|p1a: Dragapult|61/100|[from] item: Leftovers
+|turn|35
+|
+|switch|p2a: Slowking|Slowking-Galar, F|74/100 brn
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Slowking
+|-fail|p2a: Slowking|brn
+|
+|-heal|p1a: Dragapult|67/100|[from] item: Leftovers
+|-damage|p2a: Slowking|68/100 brn|[from] brn
+|turn|36
+|
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|41/100 brn
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|11/100 brn
+|move|p2a: Slowking|Future Sight|p1a: Dragapult
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Dragapult|73/100|[from] item: Leftovers
+|-damage|p2a: Slowking|5/100 brn|[from] brn
+|turn|37
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Samurott
+|-damage|p2a: Samurott|70/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Samurott
+|-damage|p2a: Samurott|38/100
+|
+|-heal|p1a: Dragapult|79/100|[from] item: Leftovers
+|turn|38
+|
+|move|p2a: Samurott|Sucker Punch||[still]
+|-fail|p2a: Samurott
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|54/100
+|
+|-end|p1a: Dragapult|move: Future Sight
+|-end|p1a: Dragapult|Substitute
+|-heal|p1a: Dragapult|60/100|[from] item: Leftovers
+|turn|39
+|
+|switch|p2a: Slowking|Slowking-Galar, F|38/100 brn
+|move|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|10/100 brn
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-heal|p1a: Dragapult|66/100|[from] item: Leftovers
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|40
+|
+|move|p2a: Sneasler|Fake Out|p1a: Dragapult
+|-damage|p1a: Dragapult|47/100
+|-status|p1a: Dragapult|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|cant|p1a: Dragapult|flinch
+|
+|-heal|p1a: Dragapult|54/100 psn|[from] item: Leftovers
+|-damage|p1a: Dragapult|41/100 psn|[from] psn
+|turn|41
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Sneasler
+|-status|p2a: Sneasler|brn
+|move|p2a: Sneasler|Close Combat|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Sneasler|95/100 brn|[from] brn
+|
+|switch|p1a: Zapdos|Zapdos|76/100
+|turn|42
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|58/100
+|move|p1a: Zapdos|Volt Switch|p2a: Sneasler
+|-damage|p2a: Sneasler|40/100 brn
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|51/100|[from] Volt Switch
+|
+|-damage|p2a: Sneasler|34/100 brn|[from] brn
+|turn|43
+|
+|switch|p1a: Great Tusk|Great Tusk|2/100
+|move|p2a: Sneasler|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Sneasler|28/100 brn|[from] brn
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|51/100
+|turn|44
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Sneasler
+|-crit|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-message|konooyukki forfeited.
+|
+|win|argreaer

@@ -1,0 +1,275 @@
+|poke|p1|Zapdos|
+|poke|p1|Enamorus, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p1|Glimmora, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Gholdengo|
+|poke|p2|Mimikyu, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|start
+|switch|p1a: Roulette|Glimmora, F|100/100
+|switch|p2a: 也慈|Glimmora, F|100/100
+|turn|1
+|
+|move|p1a: Roulette|Earth Power|p2a: 也慈
+|-supereffective|p2a: 也慈
+|-crit|p2a: 也慈
+|-enditem|p2a: 也慈|Focus Sash
+|-damage|p2a: 也慈|1/100
+|move|p2a: 也慈|Earth Power|p1a: Roulette
+|-supereffective|p1a: Roulette
+|-enditem|p1a: Roulette|Focus Sash
+|-damage|p1a: Roulette|1/100
+|
+|turn|2
+|
+|move|p1a: Roulette|Earth Power|p2a: 也慈
+|-supereffective|p2a: 也慈
+|-damage|p2a: 也慈|0 fnt
+|faint|p2a: 也慈
+|
+|
+|switch|p2a: 阿Q|Mimikyu, F|100/100
+|turn|3
+|
+|move|p2a: 阿Q|Play Rough|p1a: Roulette|[miss]
+|-miss|p2a: 阿Q|p1a: Roulette
+|move|p1a: Roulette|Stealth Rock|p2a: 阿Q
+|-sidestart|p2: elikasama|move: Stealth Rock
+|
+|turn|4
+|
+|move|p2a: 阿Q|Play Rough|p1a: Roulette
+|-resisted|p1a: Roulette
+|-damage|p1a: Roulette|0 fnt
+|-activate|p1a: Roulette|ability: Toxic Debris
+|-sidestart|p2: elikasama|move: Toxic Spikes
+|faint|p1a: Roulette
+|
+|
+|switch|p1a: Bannana Man|Zapdos|100/100
+|turn|5
+|
+|move|p2a: 阿Q|Substitute|p2a: 阿Q
+|-start|p2a: 阿Q|Substitute
+|-damage|p2a: 阿Q|76/100
+|move|p1a: Bannana Man|Thunderbolt|p2a: 阿Q
+|-end|p2a: 阿Q|Substitute
+|
+|turn|6
+|
+|move|p2a: 阿Q|Curse|p1a: Bannana Man
+|-start|p1a: Bannana Man|Curse|[of] p2a: 阿Q
+|-damage|p2a: 阿Q|26/100
+|-enditem|p2a: 阿Q|Sitrus Berry|[eat]
+|-heal|p2a: 阿Q|51/100|[from] item: Sitrus Berry
+|move|p1a: Bannana Man|Thunderbolt|p2a: 阿Q
+|-activate|p2a: 阿Q|ability: Disguise
+|-damage|p2a: 阿Q|51/100
+|detailschange|p2a: 阿Q|Mimikyu-Busted, F
+|-damage|p2a: 阿Q|39/100|[from] pokemon: Mimikyu-Busted
+|
+|-damage|p1a: Bannana Man|76/100|[from] Curse
+|turn|7
+|
+|move|p2a: 阿Q|Pain Split|p1a: Bannana Man
+|-sethp|p1a: Bannana Man|52/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: 阿Q|71/100|[from] move: Pain Split
+|move|p1a: Bannana Man|Thunderbolt|p2a: 阿Q
+|-damage|p2a: 阿Q|20/100
+|
+|-damage|p1a: Bannana Man|27/100|[from] Curse
+|turn|8
+|
+|move|p2a: 阿Q|Play Rough|p1a: Bannana Man
+|-damage|p1a: Bannana Man|0 fnt
+|faint|p1a: Bannana Man
+|
+|
+|switch|p1a: Aaron|Kingambit, M|100/100
+|-activate|p1a: Aaron|ability: Supreme Overlord
+|-start|p1a: Aaron|fallen2|[silent]
+|turn|9
+|
+|move|p2a: 阿Q|Pain Split|p1a: Aaron
+|-sethp|p1a: Aaron|57/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: 阿Q|85/100|[from] move: Pain Split
+|move|p1a: Aaron|Iron Head|p2a: 阿Q
+|-supereffective|p2a: 阿Q
+|-crit|p2a: 阿Q
+|-damage|p2a: 阿Q|0 fnt
+|faint|p2a: 阿Q
+|-damage|p1a: Aaron|47/100|[from] item: Life Orb
+|
+|
+|switch|p2a: 🛡️🐶|Zamazenta|100/100
+|-damage|p2a: 🛡️🐶|94/100|[from] Stealth Rock
+|-status|p2a: 🛡️🐶|psn
+|-ability|p2a: 🛡️🐶|Dauntless Shield|boost
+|-boost|p2a: 🛡️🐶|def|1
+|turn|10
+|
+|move|p1a: Aaron|Sucker Punch|p2a: 🛡️🐶
+|-resisted|p2a: 🛡️🐶
+|-damage|p2a: 🛡️🐶|80/100 psn
+|-damage|p1a: Aaron|37/100|[from] item: Life Orb
+|move|p2a: 🛡️🐶|Ice Fang|p1a: Aaron
+|-resisted|p1a: Aaron
+|-damage|p1a: Aaron|30/100
+|
+|-heal|p2a: 🛡️🐶|86/100 psn|[from] item: Leftovers
+|-damage|p2a: 🛡️🐶|74/100 psn|[from] psn
+|turn|11
+|
+|move|p1a: Aaron|Sucker Punch|p2a: 🛡️🐶
+|-resisted|p2a: 🛡️🐶
+|-damage|p2a: 🛡️🐶|57/100 psn
+|-damage|p1a: Aaron|21/100|[from] item: Life Orb
+|move|p2a: 🛡️🐶|Body Press|p1a: Aaron
+|-supereffective|p1a: Aaron
+|-damage|p1a: Aaron|0 fnt
+|faint|p1a: Aaron
+|-end|p1a: Aaron|fallen2|[silent]
+|
+|-heal|p2a: 🛡️🐶|63/100 psn|[from] item: Leftovers
+|-damage|p2a: 🛡️🐶|50/100 psn|[from] psn
+|
+|switch|p1a: Turtley|Enamorus, F|100/100
+|turn|12
+|
+|move|p2a: 🛡️🐶|Ice Fang|p1a: Turtley
+|-supereffective|p1a: Turtley
+|-damage|p1a: Turtley|40/100
+|-status|p1a: Turtley|frz
+|-curestatus|p1a: Turtley|frz|[msg]
+|move|p1a: Turtley|Moonblast|p2a: 🛡️🐶
+|-supereffective|p2a: 🛡️🐶
+|-damage|p2a: 🛡️🐶|0 fnt
+|faint|p2a: 🛡️🐶
+|-damage|p1a: Turtley|31/100|[from] item: Life Orb
+|
+|
+|switch|p2a: 肥大|Dragonite, M|100/100
+|turn|13
+|
+|move|p2a: 肥大|Extreme Speed|p1a: Turtley
+|-damage|p1a: Turtley|0 fnt
+|faint|p1a: Turtley
+|
+|
+|switch|p1a: Good Dog :)|Zamazenta|100/100
+|-ability|p1a: Good Dog :)|Dauntless Shield|boost
+|-boost|p1a: Good Dog :)|def|1
+|turn|14
+|
+|switch|p2a: 怕突袭|Gholdengo|100/100
+|-damage|p2a: 怕突袭|94/100|[from] Stealth Rock
+|-item|p2a: 怕突袭|Air Balloon
+|move|p1a: Good Dog :)|Iron Defense|p1a: Good Dog :)
+|-boost|p1a: Good Dog :)|def|2
+|
+|turn|15
+|
+|move|p1a: Good Dog :)|Crunch|p2a: 怕突袭
+|-supereffective|p2a: 怕突袭
+|-damage|p2a: 怕突袭|41/100
+|-enditem|p2a: 怕突袭|Air Balloon
+|move|p2a: 怕突袭|Make It Rain|p1a: Good Dog :)
+|-damage|p1a: Good Dog :)|50/100
+|-unboost|p2a: 怕突袭|spa|1
+|
+|-heal|p1a: Good Dog :)|56/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Good Dog :)|Crunch|p2a: 怕突袭
+|-supereffective|p2a: 怕突袭
+|-damage|p2a: 怕突袭|0 fnt
+|faint|p2a: 怕突袭
+|
+|-heal|p1a: Good Dog :)|62/100|[from] item: Leftovers
+|
+|switch|p2a: 蛞蝓变蜗牛！|Goodra-Hisui, F|100/100
+|-damage|p2a: 蛞蝓变蜗牛！|94/100|[from] Stealth Rock
+|turn|17
+|
+|-terastallize|p2a: 蛞蝓变蜗牛！|Flying
+|move|p1a: Good Dog :)|Body Press|p2a: 蛞蝓变蜗牛！
+|-resisted|p2a: 蛞蝓变蜗牛！
+|-damage|p2a: 蛞蝓变蜗牛！|55/100
+|-ability|p2a: 蛞蝓变蜗牛！|Gooey
+|-unboost|p1a: Good Dog :)|spe|1
+|move|p2a: 蛞蝓变蜗牛！|Draco Meteor|p1a: Good Dog :)
+|-damage|p1a: Good Dog :)|23/100
+|-unboost|p2a: 蛞蝓变蜗牛！|spa|2
+|
+|-heal|p1a: Good Dog :)|29/100|[from] item: Leftovers
+|-heal|p2a: 蛞蝓变蜗牛！|61/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Good Dog :)|Body Press|p2a: 蛞蝓变蜗牛！
+|-resisted|p2a: 蛞蝓变蜗牛！
+|-damage|p2a: 蛞蝓变蜗牛！|24/100
+|-ability|p2a: 蛞蝓变蜗牛！|Gooey
+|-unboost|p1a: Good Dog :)|spe|1
+|move|p2a: 蛞蝓变蜗牛！|Draco Meteor|p1a: Good Dog :)
+|-damage|p1a: Good Dog :)|8/100
+|-unboost|p2a: 蛞蝓变蜗牛！|spa|2
+|
+|-heal|p1a: Good Dog :)|14/100|[from] item: Leftovers
+|-heal|p2a: 蛞蝓变蜗牛！|30/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Good Dog :)|Body Press|p2a: 蛞蝓变蜗牛！
+|-resisted|p2a: 蛞蝓变蜗牛！
+|-damage|p2a: 蛞蝓变蜗牛！|0 fnt
+|-ability|p2a: 蛞蝓变蜗牛！|Gooey
+|-unboost|p1a: Good Dog :)|spe|1
+|faint|p2a: 蛞蝓变蜗牛！
+|
+|-heal|p1a: Good Dog :)|20/100|[from] item: Leftovers
+|
+|switch|p2a: 肥大|Dragonite, M|100/100
+|turn|20
+|
+|move|p2a: 肥大|Dragon Dance|p2a: 肥大
+|-boost|p2a: 肥大|atk|1
+|-boost|p2a: 肥大|spe|1
+|move|p1a: Good Dog :)|Iron Defense|p1a: Good Dog :)
+|-boost|p1a: Good Dog :)|def|2
+|
+|-heal|p1a: Good Dog :)|27/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: 肥大|Dragon Dance|p2a: 肥大
+|-boost|p2a: 肥大|atk|1
+|-boost|p2a: 肥大|spe|1
+|move|p1a: Good Dog :)|Iron Defense|p1a: Good Dog :)
+|-boost|p1a: Good Dog :)|def|1
+|
+|-heal|p1a: Good Dog :)|33/100|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: 肥大|Dragon Dance|p2a: 肥大
+|-boost|p2a: 肥大|atk|1
+|-boost|p2a: 肥大|spe|1
+|move|p1a: Good Dog :)|Body Press|p2a: 肥大
+|-resisted|p2a: 肥大
+|-damage|p2a: 肥大|61/100
+|
+|-heal|p1a: Good Dog :)|39/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: 肥大|Earthquake|p1a: Good Dog :)
+|-damage|p1a: Good Dog :)|25/100
+|move|p1a: Good Dog :)|Body Press|p2a: 肥大
+|-resisted|p2a: 肥大
+|-damage|p2a: 肥大|0 fnt
+|faint|p2a: 肥大
+|
+|win|RagingFE

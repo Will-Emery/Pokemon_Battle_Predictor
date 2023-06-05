@@ -1,0 +1,86 @@
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, F|
+|poke|p2|Dondozo, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Hatterene, F|
+|poke|p2|Glastrier|
+|teampreview
+|
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Arcanine|Head Smash|p2a: Dondozo|[miss]
+|-miss|p1a: Arcanine|p2a: Dondozo
+|
+|turn|2
+|
+|move|p1a: Arcanine|Head Smash|p2a: Dondozo
+|-damage|p2a: Dondozo|51/100
+|move|p2a: Dondozo|Yawn|p1a: Arcanine
+|-start|p1a: Arcanine|move: Yawn|[of] p2a: Dondozo
+|
+|-heal|p2a: Dondozo|57/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dondozo|atk|1
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|63/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Landorus|U-turn|p2a: Dondozo
+|-damage|p2a: Dondozo|55/100
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Dondozo|Wave Crash|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|69/100
+|-damage|p2a: Dondozo|48/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dondozo|54/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam
+|-anim|p1a: Torkoal|Solar Beam|p2a: Dondozo
+|-supereffective|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|6
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-message|Hanass forfeited.
+|
+|win|sadvoid

@@ -1,0 +1,203 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Glastrier|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Greninja, M|
+|poke|p2|Iron Leaves|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: emiou-ground|Landorus-Therian, M, shiny|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|-ability|p1a: emiou-ground|Intimidate|boost
+|-unboost|p2a: Greninja|atk|1
+|turn|1
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|move|p2a: Greninja|Ice Beam|p1a: Glastrier
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-resisted|p1a: Glastrier
+|-damage|p1a: Glastrier|84/100
+|
+|turn|2
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Glastrier|Swords Dance|p1a: Glastrier
+|-boost|p1a: Glastrier|atk|2
+|
+|turn|3
+|
+|-terastallize|p1a: Glastrier|Ground
+|move|p2a: Cinderace|Pyro Ball|p1a: Glastrier
+|-damage|p1a: Glastrier|47/100
+|move|p1a: Glastrier|Stomping Tantrum|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|4
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Greninja|Ice Beam|p1a: Samurott
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|68/100
+|
+|turn|5
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-sidestart|p2: simuxienne|Spikes
+|faint|p2a: Gholdengo
+|-damage|p1a: Samurott|58/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Iron Leaves|Iron Leaves|100/100
+|-damage|p2a: Iron Leaves|88/100|[from] Spikes
+|-enditem|p2a: Iron Leaves|Booster Energy
+|-activate|p2a: Iron Leaves|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Leaves|quarkdriveatk
+|turn|6
+|
+|switch|p1a: emiou-ground|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: emiou-ground|Intimidate|boost
+|-unboost|p2a: Iron Leaves|atk|1
+|move|p2a: Iron Leaves|Trailblaze|p1a: emiou-ground
+|-damage|p1a: emiou-ground|71/100
+|-boost|p2a: Iron Leaves|spe|1
+|
+|turn|7
+|
+|-terastallize|p2a: Iron Leaves|Fighting
+|move|p2a: Iron Leaves|Leaf Blade|p1a: emiou-ground
+|-damage|p1a: emiou-ground|26/100
+|move|p1a: emiou-ground|Sludge Bomb|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|56/100
+|-damage|p1a: emiou-ground|16/100|[from] item: Life Orb
+|
+|turn|8
+|
+|move|p2a: Iron Leaves|Leaf Blade|p1a: emiou-ground
+|-damage|p1a: emiou-ground|0 fnt
+|faint|p1a: emiou-ground
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|9
+|
+|move|p2a: Iron Leaves|Psyblade|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|turn|10
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|0 fnt
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Spikes
+|turn|11
+|
+|move|p2a: Greninja|U-turn|p1a: Lilligant
+|-start|p2a: Greninja|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|
+|-heal|p2a: Slowking|94/100|[from] item: Leftovers
+|
+|switch|p1a: Glastrier|Glastrier, tera:Ground|47/100
+|turn|12
+|
+|move|p1a: Glastrier|Stomping Tantrum|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|
+|switch|p2a: Greninja|Greninja, M|88/100
+|-damage|p2a: Greninja|76/100|[from] Spikes
+|turn|13
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|58/100
+|move|p2a: Greninja|Ice Beam|p1a: Samurott
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|30/100
+|
+|turn|14
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Greninja
+|-damage|p2a: Greninja|38/100
+|-damage|p1a: Samurott|20/100|[from] item: Life Orb
+|move|p2a: Greninja|Ice Beam|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|15
+|
+|move|p2a: Greninja|Ice Beam|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|70/100
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Chien-Pao|atk|1
+|turn|16
+|
+|switch|p1a: beats skelegride|Enamorus-Therian, F, shiny|100/100
+|move|p2a: Landorus|U-turn|p1a: beats skelegride
+|-resisted|p1a: beats skelegride
+|-damage|p1a: beats skelegride|96/100
+|
+|turn|17
+|
+|move|p2a: Landorus|Taunt|p1a: beats skelegride
+|-start|p1a: beats skelegride|move: Taunt
+|cant|p1a: beats skelegride|move: Taunt|Calm Mind
+|
+|turn|18
+|
+|move|p2a: Landorus|Earthquake|p1a: beats skelegride
+|-immune|p1a: beats skelegride
+|move|p1a: beats skelegride|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|21/100
+|-damage|p1a: beats skelegride|86/100|[from] item: Life Orb
+|
+|turn|19
+|-message|simuxienne forfeited.
+|
+|win|gloriousplay

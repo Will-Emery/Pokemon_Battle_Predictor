@@ -1,0 +1,337 @@
+|poke|p1|Ursaluna, F|
+|poke|p1|Great Tusk|
+|poke|p1|Corviknight, M|
+|poke|p1|Gholdengo|
+|poke|p1|Meowscarada, F|
+|poke|p1|Sneasler, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Bellibolt, M|
+|poke|p2|Pawmot, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|move|p1a: Great Tusk|Stealth Rock|p2a: Glimmora
+|-sidestart|p2: LiJing0520|move: Stealth Rock
+|move|p2a: Glimmora|Energy Ball|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|9/100
+|-unboost|p1a: Great Tusk|spd|1
+|
+|turn|2
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Brainifyer|move: Toxic Spikes
+|move|p2a: Glimmora|Energy Ball|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-status|p1a: Ursaluna|psn
+|turn|3
+|
+|move|p2a: Glimmora|Energy Ball|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|46/100 psn
+|-unboost|p1a: Ursaluna|spd|1
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|
+|-damage|p1a: Ursaluna|34/100 psn|[from] psn
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Glimmora|Energy Ball|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|93/100
+|
+|turn|5
+|
+|move|p2a: Glimmora|Power Gem|p1a: Corviknight
+|-damage|p1a: Corviknight|54/100
+|move|p1a: Corviknight|Body Press|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Brainifyer|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|turn|6
+|
+|-terastallize|p2a: Garganacl|Ghost
+|move|p1a: Corviknight|Body Press|p2a: Garganacl
+|-immune|p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Corviknight
+|-damage|p1a: Corviknight|47/100
+|-start|p1a: Corviknight|Salt Cure
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|22/100|[from] Salt Cure
+|turn|7
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Corviknight|U-turn|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|0 fnt|[from] Salt Cure
+|faint|p1a: Corviknight
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-status|p1a: Meowscarada|tox
+|turn|8
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Knock Off|p2a: Cinderace
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Cinderace|11/100
+|-enditem|p2a: Cinderace|Choice Scarf|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-damage|p1a: Meowscarada|94/100 tox|[from] psn
+|turn|9
+|
+|move|p1a: Meowscarada|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100|[from] U-turn
+|-item|p1a: Sneasler|Air Balloon
+|
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Ghost|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|72/100
+|move|p2a: Garganacl|Salt Cure|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|91/100
+|-start|p1a: Sneasler|Salt Cure
+|-enditem|p1a: Sneasler|Air Balloon
+|
+|-heal|p2a: Garganacl|78/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|78/100|[from] Salt Cure
+|turn|11
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Garganacl
+|-damage|p2a: Garganacl|50/100
+|move|p2a: Garganacl|Bulldoze|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|38/100
+|-unboost|p1a: Sneasler|spe|1
+|
+|-heal|p2a: Garganacl|57/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|25/100|[from] Salt Cure
+|turn|12
+|
+|switch|p1a: Meowscarada|Meowscarada, F|94/100 tox
+|move|p2a: Garganacl|Protect||[still]
+|-fail|p2a: Garganacl
+|
+|-heal|p2a: Garganacl|63/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|88/100 tox|[from] psn
+|turn|13
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Meowscarada|Knock Off|p2a: Garganacl
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|69/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|76/100 tox|[from] psn
+|turn|14
+|
+|switch|p2a: Bellibolt|Bellibolt, M|100/100
+|-damage|p2a: Bellibolt|88/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Knock Off|p2a: Bellibolt
+|-damage|p2a: Bellibolt|55/100
+|-start|p2a: Bellibolt|Charge|Knock Off|[from] ability: Electromorphosis
+|-enditem|p2a: Bellibolt|Weakness Policy|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-damage|p1a: Meowscarada|57/100 tox|[from] psn
+|turn|15
+|
+|move|p1a: Meowscarada|U-turn|p2a: Bellibolt
+|-damage|p2a: Bellibolt|39/100
+|-start|p2a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+|
+|switch|p1a: Ursaluna|Ursaluna, F|34/100 psn|[from] U-turn
+|move|p2a: Bellibolt|Parabolic Charge|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|-damage|p1a: Ursaluna|21/100 psn|[from] psn
+|turn|16
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|move|p1a: Ursaluna|Drain Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|53/100
+|-heal|p1a: Ursaluna|29/100 psn|[from] drain|[of] p2a: Dragonite
+|
+|-heal|p2a: Dragonite|60/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|17/100 psn|[from] psn
+|turn|17
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Dragonite|66/100|[from] item: Leftovers
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|18
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Dragonite
+|-damage|p2a: Dragonite|23/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|29/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Dragonite|Fire Punch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|20/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Ghost|69/100
+|-damage|p2a: Garganacl|57/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|28/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|13/100
+|-start|p1a: Gholdengo|Salt Cure
+|
+|-heal|p2a: Garganacl|34/100|[from] item: Leftovers
+|-damage|p1a: Gholdengo|0 fnt|[from] Salt Cure
+|faint|p1a: Gholdengo
+|
+|switch|p1a: Meowscarada|Meowscarada, F|57/100 tox
+|turn|21
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Meowscarada|Knock Off|p2a: Garganacl
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|40/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|51/100 tox|[from] psn
+|turn|22
+|
+|switch|p2a: Bellibolt|Bellibolt, M|39/100
+|-damage|p2a: Bellibolt|26/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Knock Off|p2a: Bellibolt
+|-damage|p2a: Bellibolt|6/100
+|-start|p2a: Bellibolt|Charge|Knock Off|[from] ability: Electromorphosis
+|
+|-damage|p1a: Meowscarada|39/100 tox|[from] psn
+|turn|23
+|
+|move|p1a: Meowscarada|Flower Trick|p2a: Bellibolt
+|-crit|p2a: Bellibolt
+|-damage|p2a: Bellibolt|0 fnt
+|faint|p2a: Bellibolt
+|
+|-damage|p1a: Meowscarada|21/100 tox|[from] psn
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Ghost|40/100
+|-damage|p2a: Garganacl|28/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Sneasler|Sneasler, F|25/100
+|-sideend|p1: Brainifyer|move: Toxic Spikes|[of] p1a: Sneasler
+|move|p2a: Garganacl|Protect||[still]
+|-fail|p2a: Garganacl
+|
+|-heal|p2a: Garganacl|34/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Garganacl
+|-damage|p2a: Garganacl|4/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|54/100
+|
+|-heal|p2a: Garganacl|61/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|turn|27
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|72/100
+|move|p2a: Garganacl|Salt Cure|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|14/100
+|-start|p1a: Sneasler|Salt Cure
+|
+|-heal|p2a: Garganacl|78/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|2/100|[from] Salt Cure
+|turn|28
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Sneasler|Dire Claw|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|84/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|0 fnt|[from] Salt Cure
+|faint|p1a: Sneasler
+|
+|switch|p1a: Meowscarada|Meowscarada, F|21/100 tox
+|turn|29
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Garganacl
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|23/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Garganacl|Salt Cure|p1a: Meowscarada
+|-damage|p1a: Meowscarada|2/100 tox
+|-start|p1a: Meowscarada|Salt Cure
+|
+|-damage|p1a: Meowscarada|0 fnt|[from] psn
+|faint|p1a: Meowscarada
+|
+|win|LiJing0520

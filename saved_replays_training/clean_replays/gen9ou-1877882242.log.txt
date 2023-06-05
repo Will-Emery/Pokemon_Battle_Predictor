@@ -1,0 +1,115 @@
+|poke|p1|Kingambit, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Azelf|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Sandy Shocks|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Azelf|Azelf, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Azelf|atk|1
+|turn|1
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Landorus
+|-sidestart|p1: timeandpeace|move: Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|28/100
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|
+|switch|p2a: Sneasler|Sneasler, F, shiny|100/100
+|turn|3
+|
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Sneasler|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|55/100
+|
+|switch|p2a: Goodra|Goodra-Hisui, F, shiny|100/100|[from] U-turn
+|
+|turn|4
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Goodra|atk|1
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|
+|turn|5
+|
+|move|p1a: Landorus|U-turn|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|95/100
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from] U-turn
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|move|p2a: Goodra|Ice Beam|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|76/100
+|
+|-heal|p2a: Goodra|100/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F, shiny|100/100
+|-terastallize|p1a: Urshifu|Water
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|turn|7
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Enamorus
+|-crit|p2a: Enamorus
+|-damage|p2a: Enamorus|60/100
+|-crit|p2a: Enamorus
+|-damage|p2a: Enamorus|22/100
+|-crit|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-hitcount|p2: Enamorus|3
+|
+|
+|switch|p2a: Goodra|Goodra-Hisui, F, shiny|100/100
+|turn|8
+|
+|-terastallize|p2a: Goodra|Flying
+|move|p1a: Urshifu|Close Combat|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|37/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|
+|-heal|p2a: Goodra|43/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Goodra
+|-crit|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|-hitcount|p2: Goodra|1
+|
+|-message|Gregory Mirabella forfeited.
+|
+|win|timeandpeace

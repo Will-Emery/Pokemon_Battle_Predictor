@@ -1,0 +1,305 @@
+|poke|p1|Skeledirge, F|
+|poke|p1|Iron Moth|
+|poke|p1|Garchomp, F|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p1|Gyarados, F|
+|poke|p2|Wyrdeer, M|
+|poke|p2|Diancie|
+|poke|p2|Rufflet, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Ursaluna, F|
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Minecraft stoin|Garganacl, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Hatterene|Psychic|p2a: Minecraft stoin
+|-damage|p2a: Minecraft stoin|68/100
+|move|p2a: Minecraft stoin|Salt Cure|p1a: Hatterene
+|-damage|p1a: Hatterene|86/100
+|-start|p1a: Hatterene|Salt Cure
+|
+|-heal|p1a: Hatterene|92/100|[from] item: Leftovers
+|-heal|p2a: Minecraft stoin|75/100|[from] item: Leftovers
+|-damage|p1a: Hatterene|80/100|[from] Salt Cure
+|turn|2
+|
+|switch|p2a: Eierstock aus stal|Diancie|100/100
+|move|p1a: Hatterene|Psychic|p2a: Eierstock aus stal
+|-damage|p2a: Eierstock aus stal|70/100
+|
+|-heal|p2a: Eierstock aus stal|76/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|86/100|[from] item: Leftovers
+|-damage|p1a: Hatterene|74/100|[from] Salt Cure
+|turn|3
+|
+|move|p2a: Eierstock aus stal|Diamond Storm|p1a: Hatterene
+|-damage|p1a: Hatterene|39/100
+|move|p1a: Hatterene|Thunder Wave|p2a: Eierstock aus stal
+|-status|p2a: Eierstock aus stal|par
+|
+|-heal|p1a: Hatterene|45/100|[from] item: Leftovers
+|-heal|p2a: Eierstock aus stal|82/100 par|[from] item: Leftovers
+|-damage|p1a: Hatterene|33/100|[from] Salt Cure
+|turn|4
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Eierstock aus stal
+|-damage|p2a: Eierstock aus stal|64/100 par
+|-heal|p1a: Hatterene|47/100|[from] drain|[of] p2a: Eierstock aus stal
+|move|p2a: Eierstock aus stal|Diamond Storm|p1a: Hatterene
+|-damage|p1a: Hatterene|14/100
+|-boost|p2a: Eierstock aus stal|def|2
+|
+|-heal|p1a: Hatterene|20/100|[from] item: Leftovers
+|-heal|p2a: Eierstock aus stal|71/100 par|[from] item: Leftovers
+|-damage|p1a: Hatterene|8/100|[from] Salt Cure
+|turn|5
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Eierstock aus stal
+|-damage|p2a: Eierstock aus stal|54/100 par
+|-heal|p1a: Hatterene|21/100|[from] drain|[of] p2a: Eierstock aus stal
+|move|p2a: Eierstock aus stal|Trick Room|p2a: Eierstock aus stal
+|-fieldstart|move: Trick Room|[of] p2a: Eierstock aus stal
+|
+|-heal|p2a: Eierstock aus stal|60/100 par|[from] item: Leftovers
+|-heal|p1a: Hatterene|27/100|[from] item: Leftovers
+|-damage|p1a: Hatterene|15/100|[from] Salt Cure
+|turn|6
+|
+|cant|p2a: Eierstock aus stal|par
+|move|p1a: Hatterene|Psychic|p2a: Eierstock aus stal
+|-damage|p2a: Eierstock aus stal|30/100 par
+|
+|-heal|p2a: Eierstock aus stal|36/100 par|[from] item: Leftovers
+|-heal|p1a: Hatterene|21/100|[from] item: Leftovers
+|-damage|p1a: Hatterene|9/100|[from] Salt Cure
+|turn|7
+|
+|move|p2a: Eierstock aus stal|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Eierstock aus stal|43/100 par|[from] item: Leftovers
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|8
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Eierstock aus stal|Moonblast|p1a: Gyarados
+|-damage|p1a: Gyarados|66/100
+|-unboost|p1a: Gyarados|spa|1
+|
+|-heal|p2a: Eierstock aus stal|49/100 par|[from] item: Leftovers
+|-heal|p1a: Gyarados|72/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Eierstock aus stal|Diamond Storm|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|94/100
+|
+|-heal|p2a: Eierstock aus stal|55/100 par|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|10
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Eierstock aus stal
+|-supereffective|p2a: Eierstock aus stal
+|-damage|p2a: Eierstock aus stal|22/100 par
+|move|p2a: Eierstock aus stal|Trick Room|p2a: Eierstock aus stal
+|-fieldstart|move: Trick Room|[of] p2a: Eierstock aus stal
+|
+|-heal|p2a: Eierstock aus stal|28/100 par|[from] item: Leftovers
+|turn|11
+|
+|-terastallize|p1a: Great Tusk|Water
+|move|p2a: Eierstock aus stal|Moonblast|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|-unboost|p1a: Great Tusk|spa|1
+|move|p1a: Great Tusk|Earthquake|p2a: Eierstock aus stal
+|-supereffective|p2a: Eierstock aus stal
+|-damage|p2a: Eierstock aus stal|0 fnt
+|faint|p2a: Eierstock aus stal
+|
+|
+|switch|p2a: Supa ahhhhhh|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Supa ahhhhhh
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|12
+|
+|move|p2a: Supa ahhhhhh|Solar Beam||[still]
+|-prepare|p2a: Supa ahhhhhh|Solar Beam
+|-anim|p2a: Supa ahhhhhh|Solar Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|13
+|
+|-terastallize|p2a: Supa ahhhhhh|Grass
+|move|p2a: Supa ahhhhhh|Eruption|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|58/100
+|move|p1a: Garchomp|Earthquake|p2a: Supa ahhhhhh
+|-resisted|p2a: Supa ahhhhhh
+|-damage|p2a: Supa ahhhhhh|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|14
+|
+|move|p2a: Supa ahhhhhh|Solar Beam||[still]
+|-prepare|p2a: Supa ahhhhhh|Solar Beam
+|-anim|p2a: Supa ahhhhhh|Solar Beam|p1a: Garchomp
+|-damage|p1a: Garchomp|17/100
+|move|p1a: Garchomp|Dragon Tail|p2a: Supa ahhhhhh
+|-damage|p2a: Supa ahhhhhh|66/100
+|drag|p2a: Minecraft stoin|Garganacl, F, shiny|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Minecraft stoin|81/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|15
+|
+|move|p1a: Garchomp|Earthquake|p2a: Minecraft stoin
+|-supereffective|p2a: Minecraft stoin
+|-damage|p2a: Minecraft stoin|32/100
+|move|p2a: Minecraft stoin|Salt Cure|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|11/100
+|-start|p1a: Garchomp|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Minecraft stoin|38/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|0 fnt|[from] Salt Cure
+|faint|p1a: Garchomp
+|
+|switch|p1a: Gyarados|Gyarados, F|72/100
+|turn|16
+|
+|move|p1a: Gyarados|Earthquake|p2a: Minecraft stoin
+|-supereffective|p2a: Minecraft stoin
+|-crit|p2a: Minecraft stoin
+|-damage|p2a: Minecraft stoin|0 fnt
+|faint|p2a: Minecraft stoin
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|none
+|-heal|p1a: Gyarados|78/100|[from] item: Leftovers
+|
+|switch|p2a: Ähhhhhh|Wyrdeer, M, shiny|100/100
+|turn|17
+|
+|move|p1a: Gyarados|Waterfall|p2a: Ähhhhhh
+|-damage|p2a: Ähhhhhh|23/100
+|move|p2a: Ähhhhhh|Trick Room|p2a: Ähhhhhh
+|-fieldstart|move: Trick Room|[of] p2a: Ähhhhhh
+|
+|-heal|p2a: Ähhhhhh|30/100|[from] item: Leftovers
+|-heal|p1a: Gyarados|84/100|[from] item: Leftovers
+|turn|18
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|move|p2a: Ähhhhhh|Body Slam|p1a: Skeledirge
+|-immune|p1a: Skeledirge
+|
+|-heal|p2a: Ähhhhhh|36/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Ähhhhhh|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|46/100
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Ähhhhhh
+|-status|p2a: Ähhhhhh|brn
+|
+|-heal|p2a: Ähhhhhh|42/100 brn|[from] item: Leftovers
+|-heal|p1a: Skeledirge|52/100|[from] item: Leftovers
+|-damage|p2a: Ähhhhhh|36/100 brn|[from] brn
+|turn|20
+|
+|switch|p2a: Supa ahhhhhh|Torkoal, M, tera:Grass|66/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Supa ahhhhhh
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|21
+|
+|move|p2a: Supa ahhhhhh|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|49/100
+|move|p1a: Skeledirge|Torch Song|p2a: Supa ahhhhhh
+|-supereffective|p2a: Supa ahhhhhh
+|-damage|p2a: Supa ahhhhhh|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Supa ahhhhhh
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Skeledirge|55/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Grizzly piu|Ursaluna, F|100/100
+|turn|22
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Grizzly piu
+|-damage|p2a: Grizzly piu|34/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Grizzly piu|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Grizzly piu|brn|[from] item: Flame Orb
+|
+|switch|p1a: Gyarados|Gyarados, F|84/100
+|turn|23
+|
+|move|p1a: Gyarados|Waterfall|p2a: Grizzly piu
+|-supereffective|p2a: Grizzly piu
+|-damage|p2a: Grizzly piu|5/100 brn
+|move|p2a: Grizzly piu|Thunder Punch|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Grizzly piu|0 fnt|[from] brn
+|faint|p2a: Grizzly piu
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Ähhhhhh|Wyrdeer, M, shiny|36/100 brn
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|24
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ähhhhhh
+|-damage|p2a: Ähhhhhh|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Ähhhhhh
+|
+|-weather|none
+|
+|switch|p2a: Fuger|Rufflet, M, shiny|100/100
+|turn|25
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Fuger
+|-damage|p2a: Fuger|34/100
+|move|p2a: Fuger|Brave Bird|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|-damage|p2a: Fuger|1/100|[from] Recoil
+|
+|win|Sioaee

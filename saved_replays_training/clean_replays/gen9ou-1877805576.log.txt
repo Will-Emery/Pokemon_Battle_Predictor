@@ -1,0 +1,310 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Thundurus, M|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|turn|1
+|
+|move|p2a: Thundurus|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|cant|p1a: Great Tusk|move: Taunt|Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Thundurus|Sunny Day|p2a: Thundurus
+|-weather|SunnyDay
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p1a: Great Tusk|Knock Off|p2a: Thundurus
+|-damage|p2a: Thundurus|62/100
+|-enditem|p2a: Thundurus|Heat Rock|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|move|p2a: Thundurus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|97/100
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Great Tusk|Rapid Spin|p2a: Walking Wake
+|-damage|p2a: Walking Wake|84/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|-end|p1a: Great Tusk|move: Taunt
+|turn|4
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-end|p2a: Walking Wake|Protosynthesis
+|move|p2a: Walking Wake|Hydro Steam|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|36/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|72/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Thundurus|Thundurus, M|62/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|7
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F, shiny|36/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Pelipper|Hurricane|p2a: Torkoal
+|-damage|p2a: Torkoal|56/100
+|-start|p2a: Torkoal|confusion
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F, shiny|36/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Pelipper|Hurricane|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|84/100
+|turn|12
+|
+|move|p2a: Walking Wake|Draco Meteor|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake|72/100
+|turn|13
+|
+|move|p1a: Walking Wake|Draco Meteor|p2a: Walking Wake|[miss]
+|-miss|p1a: Walking Wake|p2a: Walking Wake
+|move|p2a: Walking Wake|Draco Meteor|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|turn|14
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|56/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Basculegion|Wave Crash|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|5/100
+|-damage|p1a: Basculegion|87/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|turn|15
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Basculegion|Wave Crash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|64/100
+|-damage|p1a: Basculegion|76/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|71/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|68/100
+|-status|p2a: Great Tusk|par|[from] ability: Static|[of] p1a: Zapdos
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|77/100 par|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Zapdos|Hurricane|p2a: Great Tusk|[miss]
+|-miss|p1a: Zapdos|p2a: Great Tusk
+|move|p2a: Great Tusk|Ice Spinner|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|9/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|83/100 par|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Zapdos|Hurricane|p2a: Great Tusk|[miss]
+|-miss|p1a: Zapdos|p2a: Great Tusk
+|move|p2a: Great Tusk|Ice Spinner|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|89/100 par|[from] item: Leftovers
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|19
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|49/100
+|-enditem|p1a: Slowking|Assault Vest|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Slowking|Psychic|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|turn|20
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Typhlosion|Eruption|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Slowking|Slowking-Galar, M|82/100
+|turn|21
+|
+|move|p2a: Typhlosion|Eruption|p1a: Slowking
+|-damage|p1a: Slowking|13/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|76/100
+|
+|-weather|none
+|turn|22
+|
+|switch|p2a: Torkoal|Torkoal, M|5/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Slowking|Future Sight|p2a: Torkoal
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|turn|23
+|
+|move|p1a: Slowking|Psychic|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|76/100
+|turn|24
+|
+|move|p2a: Typhlosion|Solar Beam||[still]
+|-prepare|p2a: Typhlosion|Solar Beam
+|-anim|p2a: Typhlosion|Solar Beam|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|1/100
+|move|p1a: Slowking|Psychic|p2a: Typhlosion
+|-damage|p2a: Typhlosion|29/100
+|-unboost|p2a: Typhlosion|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Typhlosion|move: Future Sight
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|switch|p2a: Walking Wake|Walking Wake|84/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|25
+|
+|-terastallize|p2a: Walking Wake|Fairy
+|move|p2a: Walking Wake|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|76/100
+|turn|26
+|
+|-terastallize|p1a: Basculegion|Ghost
+|move|p2a: Walking Wake|Draco Meteor|p1a: Basculegion
+|-damage|p1a: Basculegion|28/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Basculegion|Tera Blast|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|win|Icecreamboy340

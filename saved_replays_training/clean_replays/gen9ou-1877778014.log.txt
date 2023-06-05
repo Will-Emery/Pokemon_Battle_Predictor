@@ -1,0 +1,241 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Chien-Pao|
+|poke|p1|Masquerain, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Electrode-Hisui|
+|poke|p2|Hatterene, F|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, M|
+|poke|p2|Iron Hands|
+|poke|p2|Rabsca, F|
+|poke|p2|Kleavor, M|
+|teampreview
+|
+|start
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|-ability|p1a: Basculegion|Mold Breaker
+|turn|1
+|
+|move|p1a: Basculegion|Liquidation|p2a: Magearna
+|-damage|p2a: Magearna|73/100
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|2
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|44/100
+|-unboost|p2a: Magearna|spa|2
+|-enditem|p2a: Magearna|Eject Pack
+|
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|move|p1a: Basculegion|Liquidation|p2a: Iron Hands
+|-damage|p2a: Iron Hands|75/100
+|-unboost|p2a: Iron Hands|def|1
+|
+|turn|3
+|
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|4
+|
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Ursaluna
+|-damage|p2a: Ursaluna|63/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|5
+|
+|move|p2a: Ursaluna|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-enditem|p1a: Arcanine|Focus Sash
+|-damage|p1a: Arcanine|1/100
+|move|p1a: Arcanine|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|13/100 brn
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|
+|-damage|p2a: Ursaluna|7/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Arcanine|Close Combat|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|93/100
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|
+|-heal|p2a: Hatterene|99/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Hatterene
+|-damage|p2a: Hatterene|51/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|57/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Hatterene
+|-damage|p2a: Hatterene|36/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-heal|p2a: Hatterene|37/100|[from] drain|[of] p1a: Arcanine
+|faint|p1a: Arcanine
+|
+|-heal|p2a: Hatterene|43/100|[from] item: Leftovers
+|
+|switch|p1a: Basculegion|Basculegion, M|44/100
+|-ability|p1a: Basculegion|Mold Breaker
+|turn|9
+|
+|-terastallize|p1a: Basculegion|Ghost
+|move|p2a: Hatterene|Draining Kiss|p1a: Basculegion
+|-damage|p1a: Basculegion|29/100
+|-heal|p2a: Hatterene|59/100|[from] drain|[of] p1a: Basculegion
+|move|p1a: Basculegion|Tera Blast|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|10
+|
+|move|p1a: Basculegion|Aqua Jet|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|60/100
+|move|p2a: Kleavor|Stone Axe|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-sidestart|p1: Hallpass|move: Stealth Rock
+|faint|p1a: Basculegion
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|11
+|
+|move|p2a: Kleavor|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|63/100
+|-unboost|p2a: Kleavor|def|1
+|-unboost|p2a: Kleavor|spd|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Kleavor
+|-resisted|p2a: Kleavor
+|-crit|p2a: Kleavor
+|-damage|p2a: Kleavor|39/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Hallpass|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-fieldend|move: Trick Room
+|turn|12
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-enditem|p2a: Kleavor|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Kleavor
+|
+|
+|switch|p2a: Rabsca|Rabsca, F, shiny|100/100
+|turn|13
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-damage|p2a: Rabsca|23/100
+|-enditem|p2a: Rabsca|Leppa Berry|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Rabsca|Trick Room|p2a: Rabsca
+|-fieldstart|move: Trick Room|[of] p2a: Rabsca
+|
+|turn|14
+|
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|
+|-heal|p2: Hatterene|50/100|[from] move: Revival Blessing
+|move|p1a: Great Tusk|Knock Off|p2a: Rabsca
+|-supereffective|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|faint|p2a: Rabsca
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|50/100
+|turn|15
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Masquerain|Masquerain, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Masquerain
+|-damage|p1a: Masquerain|69/100
+|-heal|p2a: Hatterene|71/100|[from] drain|[of] p1a: Masquerain
+|
+|-heal|p2a: Hatterene|77/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Masquerain
+|-supereffective|p1a: Masquerain
+|-damage|p1a: Masquerain|2/100
+|-unboost|p1a: Masquerain|spa|1
+|move|p1a: Masquerain|Hurricane|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|2/100
+|-start|p2a: Hatterene|confusion
+|
+|-heal|p2a: Hatterene|8/100|[from] item: Leftovers
+|turn|17
+|
+|-activate|p2a: Hatterene|confusion
+|move|p2a: Hatterene|Draining Kiss|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|-heal|p2a: Hatterene|9/100|[from] drain|[of] p1a: Masquerain
+|faint|p1a: Masquerain
+|
+|-heal|p2a: Hatterene|15/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Great Tusk|Great Tusk|63/100
+|turn|18
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Magearna|Magearna|73/100
+|turn|19
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Iron Hands|Iron Hands|75/100
+|turn|20
+|
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-message|6df forfeited.
+|
+|win|Hallpass

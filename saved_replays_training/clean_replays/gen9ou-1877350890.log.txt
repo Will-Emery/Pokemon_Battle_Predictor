@@ -1,0 +1,287 @@
+|poke|p1|Maushold|
+|poke|p1|Sneasler, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|start
+|switch|p1a: Mr. Craw|Samurott-Hisui, M|100/100
+|switch|p2a: C Tusk C|Great Tusk|100/100
+|turn|1
+|
+|move|p2a: C Tusk C|Rapid Spin|p1a: Mr. Craw
+|-damage|p1a: Mr. Craw|84/100
+|-boost|p2a: C Tusk C|spe|1
+|move|p1a: Mr. Craw|Razor Shell|p2a: C Tusk C
+|-supereffective|p2a: C Tusk C
+|-damage|p2a: C Tusk C|55/100
+|
+|-heal|p2a: C Tusk C|61/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: C Tusk C|Stealth Rock|p1a: Mr. Craw
+|-sidestart|p1: 2013 andy|move: Stealth Rock
+|move|p1a: Mr. Craw|Razor Shell|p2a: C Tusk C
+|-supereffective|p2a: C Tusk C
+|-damage|p2a: C Tusk C|16/100
+|
+|-heal|p2a: C Tusk C|23/100|[from] item: Leftovers
+|turn|3
+|
+|-end|p2a: C Tusk C|Protosynthesis|[silent]
+|switch|p2a: Blundertle|Enamorus-Therian, F|100/100
+|move|p1a: Mr. Craw|Razor Shell|p2a: Blundertle
+|-damage|p2a: Blundertle|70/100
+|
+|-heal|p2a: Blundertle|76/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Pls Para|Zapdos|100/100
+|move|p2a: Blundertle|Calm Mind|p2a: Blundertle
+|-boost|p2a: Blundertle|spa|1
+|-boost|p2a: Blundertle|spd|1
+|
+|-heal|p2a: Blundertle|82/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Pls Para|Volt Switch|p2a: Blundertle
+|-supereffective|p2a: Blundertle
+|-damage|p2a: Blundertle|46/100
+|
+|switch|p1a: String Cheese|Gholdengo|100/100|[from] Volt Switch
+|-damage|p1a: String Cheese|94/100|[from] Stealth Rock
+|-item|p1a: String Cheese|Air Balloon
+|move|p2a: Blundertle|Draining Kiss|p1a: String Cheese
+|-resisted|p1a: String Cheese
+|-damage|p1a: String Cheese|75/100
+|-heal|p2a: Blundertle|62/100|[from] drain|[of] p1a: String Cheese
+|-enditem|p1a: String Cheese|Air Balloon
+|
+|-heal|p2a: Blundertle|68/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Chillpact|Slowking-Galar, M|100/100
+|move|p1a: String Cheese|Make It Rain|p2a: Chillpact
+|-damage|p2a: Chillpact|77/100
+|-unboost|p1a: String Cheese|spa|1
+|
+|turn|7
+|
+|switch|p1a: Mr. Craw|Samurott-Hisui, M|84/100
+|-damage|p1a: Mr. Craw|71/100|[from] Stealth Rock
+|move|p2a: Chillpact|Future Sight|p1a: Mr. Craw
+|-start|p2a: Chillpact|move: Future Sight
+|
+|turn|8
+|
+|switch|p2a: Blundertle|Enamorus-Therian, F|68/100
+|move|p1a: Mr. Craw|Ceaseless Edge|p2a: Blundertle
+|-resisted|p2a: Blundertle
+|-damage|p2a: Blundertle|54/100
+|-sidestart|p2: Notjordan123|Spikes
+|
+|-heal|p2a: Blundertle|60/100|[from] item: Leftovers
+|turn|9
+|
+|-terastallize|p1a: Mr. Craw|Fairy
+|move|p1a: Mr. Craw|Razor Shell|p2a: Blundertle
+|-damage|p2a: Blundertle|32/100
+|-unboost|p2a: Blundertle|def|1
+|move|p2a: Blundertle|Earth Power|p1a: Mr. Craw
+|-damage|p1a: Mr. Craw|55/100
+|
+|-end|p1a: Mr. Craw|move: Future Sight
+|-damage|p1a: Mr. Craw|29/100
+|-heal|p2a: Blundertle|38/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: CarryBabyBaby|Dragapult, M|100/100
+|-damage|p2a: CarryBabyBaby|88/100|[from] Spikes
+|move|p1a: Mr. Craw|Ceaseless Edge|p2a: CarryBabyBaby|[miss]
+|-miss|p1a: Mr. Craw|p2a: CarryBabyBaby
+|
+|-heal|p2a: CarryBabyBaby|94/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: CarryBabyBaby|Substitute|p2a: CarryBabyBaby
+|-start|p2a: CarryBabyBaby|Substitute
+|-damage|p2a: CarryBabyBaby|69/100
+|move|p1a: Mr. Craw|Ceaseless Edge|p2a: CarryBabyBaby
+|-supereffective|p2a: CarryBabyBaby
+|-end|p2a: CarryBabyBaby|Substitute
+|-sidestart|p2: Notjordan123|Spikes
+|
+|-heal|p2a: CarryBabyBaby|75/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: CarryBabyBaby|Will-O-Wisp|p1a: Mr. Craw
+|-status|p1a: Mr. Craw|brn
+|move|p1a: Mr. Craw|Ceaseless Edge|p2a: CarryBabyBaby
+|-supereffective|p2a: CarryBabyBaby
+|-damage|p2a: CarryBabyBaby|30/100
+|-sidestart|p2: Notjordan123|Spikes
+|
+|-heal|p2a: CarryBabyBaby|36/100|[from] item: Leftovers
+|-damage|p1a: Mr. Craw|23/100 brn|[from] brn
+|turn|13
+|
+|move|p2a: CarryBabyBaby|Hex|p1a: Mr. Craw
+|-damage|p1a: Mr. Craw|0 fnt
+|faint|p1a: Mr. Craw
+|
+|-heal|p2a: CarryBabyBaby|42/100|[from] item: Leftovers
+|
+|switch|p1a: Pls Para|Zapdos|100/100
+|turn|14
+|
+|switch|p2a: Chillpact|Slowking-Galar, M|100/100
+|-damage|p2a: Chillpact|76/100|[from] Spikes
+|move|p1a: Pls Para|Hurricane|p2a: Chillpact
+|-damage|p2a: Chillpact|55/100
+|
+|turn|15
+|
+|move|p1a: Pls Para|Volt Switch|p2a: Chillpact
+|-crit|p2a: Chillpact
+|-damage|p2a: Chillpact|36/100
+|
+|switch|p1a: Chomper|Garchomp, M|100/100|[from] Volt Switch
+|-damage|p1a: Chomper|94/100|[from] Stealth Rock
+|move|p2a: Chillpact|Future Sight|p1a: Chomper
+|-start|p2a: Chillpact|move: Future Sight
+|
+|turn|16
+|
+|switch|p2a: Blundertle|Enamorus-Therian, F|38/100
+|move|p1a: Chomper|Stealth Rock|p2a: Blundertle
+|-sidestart|p2: Notjordan123|move: Stealth Rock
+|
+|-heal|p2a: Blundertle|44/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Chomper|Fire Blast|p2a: Blundertle|[miss]
+|-miss|p1a: Chomper|p2a: Blundertle
+|move|p2a: Blundertle|Iron Defense|p2a: Blundertle
+|-boost|p2a: Blundertle|def|2
+|
+|-end|p1a: Chomper|move: Future Sight
+|-damage|p1a: Chomper|41/100
+|-heal|p2a: Blundertle|50/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Chomper|Fire Blast|p2a: Blundertle
+|-crit|p2a: Blundertle
+|-damage|p2a: Blundertle|2/100
+|-damage|p1a: Chomper|31/100|[from] item: Life Orb
+|move|p2a: Blundertle|Draining Kiss|p1a: Chomper
+|-supereffective|p1a: Chomper
+|-damage|p1a: Chomper|0 fnt
+|-heal|p2a: Blundertle|25/100|[from] drain|[of] p1a: Chomper
+|-damage|p2a: Blundertle|12/100|[from] ability: Rough Skin|[of] p1a: Chomper
+|faint|p1a: Chomper
+|
+|-heal|p2a: Blundertle|18/100|[from] item: Leftovers
+|
+|switch|p1a: Cheap|Sneasler, M|100/100
+|-damage|p1a: Cheap|95/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Cheap|Dire Claw|p2a: Blundertle
+|-supereffective|p2a: Blundertle
+|-damage|p2a: Blundertle|0 fnt
+|faint|p2a: Blundertle
+|
+|
+|switch|p2a: CarryBabyBaby|Dragapult, M|42/100
+|-damage|p2a: CarryBabyBaby|17/100|[from] Spikes
+|-damage|p2a: CarryBabyBaby|4/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Pls Para|Zapdos|100/100
+|move|p2a: CarryBabyBaby|Will-O-Wisp|p1a: Pls Para|[miss]
+|-miss|p2a: CarryBabyBaby|p1a: Pls Para
+|
+|-heal|p2a: CarryBabyBaby|10/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Chillpact|Slowking-Galar, M|70/100
+|-damage|p2a: Chillpact|45/100|[from] Spikes
+|-damage|p2a: Chillpact|32/100|[from] Stealth Rock
+|move|p1a: Pls Para|Volt Switch|p2a: Chillpact
+|-damage|p2a: Chillpact|21/100
+|
+|switch|p1a: Cheap|Sneasler, M|95/100|[from] Volt Switch
+|-damage|p1a: Cheap|89/100|[from] Stealth Rock
+|
+|turn|22
+|
+|switch|p2a: Kingamvad|Kingambit, M|100/100
+|-damage|p2a: Kingamvad|76/100|[from] Spikes
+|-damage|p2a: Kingamvad|69/100|[from] Stealth Rock
+|-activate|p2a: Kingamvad|ability: Supreme Overlord
+|-start|p2a: Kingamvad|fallen1|[silent]
+|move|p1a: Cheap|Fake Out|p2a: Kingamvad
+|-resisted|p2a: Kingamvad
+|-damage|p2a: Kingamvad|64/100
+|
+|-heal|p2a: Kingamvad|71/100|[from] item: Leftovers
+|turn|23
+|
+|-terastallize|p2a: Kingamvad|Flying
+|move|p1a: Cheap|Close Combat|p2a: Kingamvad
+|-resisted|p2a: Kingamvad
+|-damage|p2a: Kingamvad|47/100
+|-unboost|p1a: Cheap|def|1
+|-unboost|p1a: Cheap|spd|1
+|-status|p2a: Kingamvad|psn|[from] ability: Poison Touch|[of] p1a: Cheap
+|move|p2a: Kingamvad|Swords Dance|p2a: Kingamvad
+|-boost|p2a: Kingamvad|atk|2
+|
+|-heal|p2a: Kingamvad|53/100 psn|[from] item: Leftovers
+|-damage|p2a: Kingamvad|40/100 psn|[from] psn
+|turn|24
+|
+|switch|p1a: Pls Para|Zapdos|100/100
+|move|p2a: Kingamvad|Sucker Punch||[still]
+|-fail|p2a: Kingamvad
+|
+|-heal|p2a: Kingamvad|47/100 psn|[from] item: Leftovers
+|-damage|p2a: Kingamvad|34/100 psn|[from] psn
+|turn|25
+|
+|-end|p2a: Kingamvad|fallen1|[silent]
+|switch|p2a: Smokeyaim|Cinderace, M|100/100
+|move|p1a: Pls Para|Volt Switch|p2a: Smokeyaim
+|-damage|p2a: Smokeyaim|60/100
+|
+|switch|p1a: Cheap|Sneasler, M|89/100|[from] Volt Switch
+|-damage|p1a: Cheap|83/100|[from] Stealth Rock
+|
+|turn|26
+|
+|move|p1a: Cheap|Fake Out|p2a: Smokeyaim
+|-damage|p2a: Smokeyaim|39/100
+|cant|p2a: Smokeyaim|flinch
+|
+|turn|27
+|
+|move|p1a: Cheap|Dire Claw|p2a: Smokeyaim
+|-damage|p2a: Smokeyaim|0 fnt
+|faint|p2a: Smokeyaim
+|
+|
+|switch|p2a: C Tusk C|Great Tusk|23/100
+|-damage|p2a: C Tusk C|0 fnt|[from] Spikes
+|faint|p2a: C Tusk C
+|-end|p2a: C Tusk C|Protosynthesis|[silent]
+|-message|Notjordan123 forfeited.
+|
+|win|2013 andy

@@ -1,0 +1,246 @@
+|poke|p1|Dragonite, F|
+|poke|p1|Gengar, F|
+|poke|p1|Heatran, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Mesprit|
+|poke|p1|Zapdos-Galar|
+|poke|p2|Sneasler, M|
+|poke|p2|Klefki, M|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Blissey, F|
+|poke|p2|Avalugg-Hisui, M|
+|poke|p2|Pincurchin, M|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Avalugg|Avalugg-Hisui, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Avalugg|atk|1
+|turn|1
+|
+|move|p1a: Landorus|U-turn|p2a: Avalugg
+|-damage|p2a: Avalugg|81/100
+|
+|switch|p1a: Heatran|Heatran, F|100/100|[from] U-turn
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Avalugg|Avalanche|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|turn|2
+|
+|switch|p2a: jumping cushion|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: jumping cushion
+|move|p1a: Heatran|Fire Blast|p2a: jumping cushion
+|-crit|p2a: jumping cushion
+|-damage|p2a: jumping cushion|0 fnt
+|faint|p2a: jumping cushion
+|
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|3
+|
+|move|p1a: Heatran|Stealth Rock|p2a: Blissey
+|-sidestart|p2: Rap's my Fave Meme|move: Stealth Rock
+|move|p2a: Blissey|Thunder Wave|p1a: Heatran
+|-status|p1a: Heatran|par
+|
+|turn|4
+|
+|switch|p2a: Sneaslucha|Sneasler, M|100/100
+|-damage|p2a: Sneaslucha|95/100|[from] Stealth Rock
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|
+|turn|5
+|
+|move|p2a: Sneaslucha|Substitute|p2a: Sneaslucha
+|-start|p2a: Sneaslucha|Substitute
+|-damage|p2a: Sneaslucha|70/100
+|move|p1a: Zapdos|Brave Bird|p2a: Sneaslucha
+|-supereffective|p2a: Sneaslucha
+|-end|p2a: Sneaslucha|Substitute
+|-damage|p1a: Zapdos|93/100|[from] Recoil|[of] p2a: Sneaslucha
+|
+|-heal|p1a: Zapdos|99/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Avalugg|Avalugg-Hisui, M|81/100
+|-damage|p2a: Avalugg|56/100|[from] Stealth Rock
+|move|p1a: Zapdos|U-turn|p2a: Avalugg
+|-damage|p2a: Avalugg|43/100
+|
+|switch|p1a: Heatran|Heatran, F|96/100 par|[from] U-turn
+|
+|-fieldend|move: Electric Terrain
+|turn|7
+|
+|move|p2a: Avalugg|Body Press|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|42/100 par
+|-status|p2a: Avalugg|brn|[from] ability: Flame Body|[of] p1a: Heatran
+|move|p1a: Heatran|Fire Blast|p2a: Avalugg
+|-crit|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Blissey|Trick|p1a: Heatran
+|-activate|p2a: Blissey|move: Trick|[of] p1a: Heatran
+|-item|p1a: Heatran|Choice Band|[from] move: Trick
+|-enditem|p2a: Blissey|Choice Band|[silent]|[from] move: Trick
+|cant|p1a: Heatran|par
+|
+|turn|9
+|
+|move|p2a: Blissey|Seismic Toss|p1a: Heatran
+|-damage|p1a: Heatran|16/100 par
+|move|p1a: Heatran|Flash Cannon|p2a: Blissey
+|-damage|p2a: Blissey|71/100
+|
+|turn|10
+|
+|switch|p1a: Zapdos|Zapdos-Galar|99/100
+|move|p2a: Blissey|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|68/100
+|
+|-heal|p1a: Zapdos|74/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Zapdos|Close Combat|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|faint|p2a: Blissey
+|
+|-heal|p1a: Zapdos|80/100|[from] item: Leftovers
+|
+|switch|p2a: mangina|Klefki, M|100/100
+|-damage|p2a: mangina|94/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: mangina|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|move|p1a: Zapdos|Close Combat|p2a: mangina
+|-damage|p2a: mangina|36/100
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|
+|-heal|p2a: mangina|42/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|86/100 par|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Heatran|Heatran, F|16/100 par
+|move|p2a: mangina|Draining Kiss|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|12/100 par
+|-heal|p2a: mangina|47/100|[from] drain|[of] p1a: Heatran
+|
+|-heal|p2a: mangina|53/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: mangina|Calm Mind|p2a: mangina
+|-boost|p2a: mangina|spa|1
+|-boost|p2a: mangina|spd|1
+|move|p1a: Heatran|Fire Blast|p2a: mangina
+|-supereffective|p2a: mangina
+|-damage|p2a: mangina|0 fnt
+|faint|p2a: mangina
+|
+|
+|switch|p2a: Sneaslucha|Sneasler, M|70/100
+|-damage|p2a: Sneaslucha|64/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Sneaslucha|Close Combat|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|83/100
+|-unboost|p2a: Sneaslucha|def|1
+|-unboost|p2a: Sneaslucha|spd|1
+|-enditem|p2a: Sneaslucha|White Herb
+|-clearnegativeboost|p2a: Sneaslucha|[silent]
+|
+|turn|16
+|
+|-terastallize|p2a: Sneaslucha|Flying
+|move|p2a: Sneaslucha|Acrobatics|p1a: Dragonite
+|-damage|p1a: Dragonite|17/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|turn|17
+|
+|-terastallize|p1a: Dragonite|Dragon
+|move|p2a: Sneaslucha|Acrobatics|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sneaslucha|atk|1
+|turn|18
+|
+|move|p2a: Sneaslucha|Substitute|p2a: Sneaslucha
+|-start|p2a: Sneaslucha|Substitute
+|-damage|p2a: Sneaslucha|39/100
+|move|p1a: Landorus|Stone Edge|p2a: Sneaslucha
+|-supereffective|p2a: Sneaslucha
+|-end|p2a: Sneaslucha|Substitute
+|
+|turn|19
+|
+|move|p2a: Sneaslucha|Substitute|p2a: Sneaslucha
+|-start|p2a: Sneaslucha|Substitute
+|-damage|p2a: Sneaslucha|14/100
+|move|p1a: Landorus|Stone Edge|p2a: Sneaslucha
+|-supereffective|p2a: Sneaslucha
+|-end|p2a: Sneaslucha|Substitute
+|
+|turn|20
+|
+|move|p2a: Sneaslucha|Acrobatics|p1a: Landorus
+|-damage|p1a: Landorus|52/100
+|move|p1a: Landorus|Stone Edge|p2a: Sneaslucha
+|-supereffective|p2a: Sneaslucha
+|-crit|p2a: Sneaslucha
+|-damage|p2a: Sneaslucha|0 fnt
+|faint|p2a: Sneaslucha
+|
+|
+|switch|p2a: tricken chicken|Decidueye-Hisui, M, shiny|100/100
+|-damage|p2a: tricken chicken|94/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Zapdos|Zapdos-Galar|86/100 par
+|move|p2a: tricken chicken|Scary Face|p1a: Zapdos
+|-unboost|p1a: Zapdos|spe|2
+|-ability|p1a: Zapdos|Defiant|boost
+|-boost|p1a: Zapdos|atk|2
+|
+|-heal|p2a: tricken chicken|100/100|[from] item: Leftovers
+|-heal|p1a: Zapdos|93/100 par|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: tricken chicken|Triple Arrows|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|74/100 par
+|-unboost|p1a: Zapdos|def|1
+|-ability|p1a: Zapdos|Defiant|boost
+|-boost|p1a: Zapdos|atk|2
+|move|p1a: Zapdos|Brave Bird|p2a: tricken chicken
+|-supereffective|p2a: tricken chicken
+|-damage|p2a: tricken chicken|0 fnt
+|faint|p2a: tricken chicken
+|-damage|p1a: Zapdos|36/100 par|[from] Recoil
+|
+|win|amapokebay

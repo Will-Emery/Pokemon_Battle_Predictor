@@ -1,0 +1,308 @@
+|poke|p1|Meowscarada, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Hatterene, F|
+|poke|p1|Glimmora, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Cresselia, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Brambleghast, M|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|turn|1
+|
+|-terastallize|p2a: Cresselia|Fairy
+|move|p1a: Meowscarada|Knock Off|p2a: Cresselia
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|84/100
+|-enditem|p2a: Cresselia|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Cresselia|Dazzling Gleam|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-item|p1a: Glimmora|Air Balloon
+|turn|2
+|
+|move|p1a: Glimmora|Toxic|p2a: Cresselia
+|-status|p2a: Cresselia|tox
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-damage|p2a: Cresselia|78/100 tox|[from] psn
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Cresselia|Psyshock|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|82/100
+|
+|-damage|p2a: Cresselia|66/100 tox|[from] psn
+|turn|4
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|-terastallize|p1a: Hatterene|Steel
+|move|p1a: Hatterene|Mystical Fire|p2a: Ursaluna
+|-damage|p2a: Ursaluna|74/100
+|-unboost|p2a: Ursaluna|spa|1
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|5
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|switch|p2a: Cresselia|Cresselia, F, tera:Fairy|66/100 tox
+|
+|-damage|p2a: Cresselia|60/100 tox|[from] psn
+|turn|6
+|
+|switch|p1a: Hatterene|Hatterene, F, tera:Steel|82/100
+|move|p2a: Cresselia|Dazzling Gleam|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|71/100
+|
+|-damage|p2a: Cresselia|48/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|turn|7
+|
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Cresselia
+|-damage|p2a: Cresselia|14/100 tox
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-damage|p2a: Cresselia|0 fnt|[from] psn
+|faint|p2a: Cresselia
+|
+|switch|p2a: Ursaluna|Ursaluna, M|74/100 brn
+|turn|8
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|move|p2a: Ursaluna|Headlong Rush|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-damage|p2a: Ursaluna|68/100 brn|[from] brn
+|turn|9
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Zamazenta
+|-damage|p1a: Zamazenta|43/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-heal|p1a: Zamazenta|49/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|62/100 brn|[from] brn
+|turn|10
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|move|p2a: Ursaluna|Facade|p1a: Landorus
+|-damage|p1a: Landorus|29/100
+|
+|-heal|p1a: Landorus|35/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|56/100 brn|[from] brn
+|turn|11
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Ursaluna|Rock Slide|p1a: Dragapult|[miss]
+|-miss|p2a: Ursaluna|p1a: Dragapult
+|
+|-damage|p2a: Ursaluna|50/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|12
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|43/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|57/100
+|move|p2a: Ursaluna|Headlong Rush|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-heal|p1a: Dragapult|63/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|37/100 brn|[from] brn
+|turn|14
+|
+|switch|p1a: Landorus|Landorus-Therian, M|35/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|move|p2a: Ursaluna|Headlong Rush|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p1a: Landorus|41/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|31/100 brn|[from] brn
+|turn|15
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Ursaluna
+|-sidestart|p2: itaintthathard|move: Stealth Rock
+|move|p2a: Ursaluna|Headlong Rush|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p1a: Landorus|47/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|25/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Landorus|Earthquake|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-heal|p1a: Landorus|53/100|[from] item: Leftovers
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|17
+|
+|move|p1a: Landorus|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|66/100
+|
+|switch|p1a: Zamazenta|Zamazenta|49/100|[from] U-turn
+|move|p2a: Pelipper|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|45/100
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100|[from] U-turn
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|52/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Basculegion|Hydro Pump|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Hatterene|Hatterene, F, tera:Steel|71/100
+|turn|19
+|
+|move|p2a: Basculegion|Hydro Pump|p1a: Hatterene
+|-damage|p1a: Hatterene|4/100
+|move|p1a: Hatterene|Nuzzle|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|77/100
+|-status|p2a: Basculegion|par
+|
+|-weather|RainDance|[upkeep]
+|turn|20
+|
+|cant|p2a: Basculegion|par
+|move|p1a: Hatterene|Mystical Fire|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|69/100 par
+|-unboost|p2a: Basculegion|spa|1
+|
+|-weather|RainDance|[upkeep]
+|turn|21
+|
+|move|p2a: Basculegion|Chilling Water|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Dragapult|Dragapult, F|63/100
+|turn|22
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|cant|p2a: Basculegion|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Basculegion|[from]lockedmove
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|
+|switch|p2a: Pelipper|Pelipper, M|66/100
+|-damage|p2a: Pelipper|41/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Pelipper
+|-damage|p2a: Pelipper|22/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|none
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|
+|switch|p2a: Brambleghast|Brambleghast, M|100/100
+|-damage|p2a: Brambleghast|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|move|p2a: Brambleghast|Substitute|p2a: Brambleghast
+|-start|p2a: Brambleghast|Substitute
+|-damage|p2a: Brambleghast|63/100
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Brambleghast|[from]lockedmove
+|-supereffective|p2a: Brambleghast
+|-damage|p2a: Brambleghast|0 fnt
+|faint|p2a: Brambleghast
+|
+|-heal|p1a: Dragapult|93/100|[from] item: Leftovers
+|
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|-damage|p2a: Dragonite|76/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Dragonite|Draco Meteor|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-unboost|p2a: Dragonite|spa|2
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-item|p1a: Glimmora|Air Balloon
+|turn|28
+|
+|move|p1a: Glimmora|Power Gem|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|Ben Kamins
+|player|p2|itaintthathard|169

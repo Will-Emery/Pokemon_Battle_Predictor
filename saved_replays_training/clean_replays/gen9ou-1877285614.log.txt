@@ -1,0 +1,122 @@
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Azumarill, F|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Magearna|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Dragapult|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|82/100
+|
+|switch|p2a: Glimmora|Glimmora, M|100/100|[from] U-turn
+|
+|turn|2
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Glimmora
+|-start|p2a: Glimmora|move: Taunt
+|cant|p2a: Glimmora|move: Taunt|Stealth Rock
+|
+|turn|3
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Dahburger|move: Light Screen
+|move|p2a: Glimmora|Mortal Spin|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|63/100
+|-status|p1a: Grimmsnarl|psn
+|
+|-damage|p1a: Grimmsnarl|50/100 psn|[from] psn
+|turn|4
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Dahburger|Reflect
+|move|p2a: Glimmora|Mortal Spin|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|41/100 psn
+|
+|-damage|p1a: Grimmsnarl|29/100 psn|[from] psn
+|-end|p2a: Glimmora|move: Taunt
+|turn|5
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Glimmora
+|-start|p2a: Glimmora|move: Taunt
+|move|p2a: Glimmora|Mortal Spin|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|19/100 psn
+|
+|-damage|p1a: Grimmsnarl|6/100 psn|[from] psn
+|turn|6
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|
+|turn|7
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: imperatus111|Reflect
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|turn|8
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: imperatus111|move: Light Screen
+|move|p1a: Urshifu|Trailblaze|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|79/100
+|-boost|p1a: Urshifu|spe|1
+|
+|turn|9
+|
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Urshifu
+|-unboost|p1a: Urshifu|atk|1
+|-unboost|p1a: Urshifu|spa|1
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Parting Shot
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|turn|10
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|66/100
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|28/100
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|3
+|
+|-sideend|p1: Dahburger|move: Light Screen
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|11
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|45/100
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-hitcount|p2: Magearna|2
+|
+|-sideend|p1: Dahburger|Reflect
+|-message|imperatus111 forfeited.
+|
+|win|Dahburger

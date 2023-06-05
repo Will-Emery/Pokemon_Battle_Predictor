@@ -1,0 +1,79 @@
+|poke|p1|Amoonguss, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Baxcalibur, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Manny|Great Tusk|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|1
+|
+|-end|p1a: Manny|Protosynthesis|[silent]
+|switch|p1a: Champignon|Amoonguss, M|100/100
+|move|p2a: Enamorus|Moonblast|p1a: Champignon
+|-resisted|p1a: Champignon
+|-damage|p1a: Champignon|75/100
+|-unboost|p1a: Champignon|spa|1
+|
+|turn|2
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Champignon|Spore|p2a: Volcanion
+|-status|p2a: Volcanion|slp|[from] move: Spore
+|
+|turn|3
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|switch|p1a: Coldzilla|Baxcalibur, M|100/100
+|
+|turn|4
+|
+|-terastallize|p1a: Coldzilla|Fairy
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Coldzilla
+|-resisted|p1a: Coldzilla
+|-damage|p1a: Coldzilla|74/100
+|move|p1a: Coldzilla|Dragon Dance|p1a: Coldzilla
+|-boost|p1a: Coldzilla|atk|1
+|-boost|p1a: Coldzilla|spe|1
+|
+|turn|5
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Coldzilla|Dragon Dance|p1a: Coldzilla
+|-boost|p1a: Coldzilla|atk|1
+|-boost|p1a: Coldzilla|spe|1
+|
+|turn|6
+|
+|-terastallize|p2a: Zamazenta|Fairy
+|move|p1a: Coldzilla|Earthquake|p2a: Zamazenta
+|-damage|p2a: Zamazenta|67/100
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Coldzilla
+|-supereffective|p1a: Coldzilla
+|-damage|p1a: Coldzilla|0 fnt
+|faint|p1a: Coldzilla
+|
+|
+|switch|p1a: Manny|Great Tusk|100/100
+|turn|7
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Manny|Headlong Rush|p2a: Thundurus
+|-immune|p2a: Thundurus
+|
+|turn|8
+|-message|Ultravorax forfeited.
+|
+|win|No1MariaGoreySimp

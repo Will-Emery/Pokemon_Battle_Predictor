@@ -1,0 +1,181 @@
+|poke|p1|Ting-Lu|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, F|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Moth|
+|poke|p2|Hatterene, F|
+|poke|p2|Ceruledge, F|
+|poke|p2|Armarouge, M|
+|poke|p2|Amoonguss, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Great Tusk|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|72/100
+|
+|turn|2
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Amoonguss
+|-damage|p2a: Amoonguss|75/100
+|-enditem|p2a: Amoonguss|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|3
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Amoonguss|Spore|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|turn|4
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|5
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: solana maxi|move: Light Screen
+|move|p1a: Gholdengo|Make It Rain|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|41/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|turn|6
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: solana maxi|Reflect
+|move|p1a: Gholdengo|Make It Rain|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Grimmsnarl
+|
+|
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|7
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Ceruledge|Bulk Up|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|1
+|-boost|p2a: Ceruledge|def|1
+|
+|turn|8
+|
+|move|p2a: Ceruledge|Taunt|p1a: Ting-Lu
+|-start|p1a: Ting-Lu|move: Taunt
+|move|p1a: Ting-Lu|Ruination|p2a: Ceruledge
+|-damage|p2a: Ceruledge|50/100
+|
+|-heal|p2a: Ceruledge|57/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Ceruledge|Bulk Up|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|1
+|-boost|p2a: Ceruledge|def|1
+|move|p1a: Ting-Lu|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|36/100
+|
+|-heal|p2a: Ceruledge|43/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Great Tusk|Great Tusk|72/100
+|move|p2a: Ceruledge|Bulk Up|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|1
+|-boost|p2a: Ceruledge|def|1
+|
+|-heal|p2a: Ceruledge|49/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|32/100
+|-enditem|p2a: Ceruledge|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Ceruledge|Bitter Blade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|9/100
+|-heal|p2a: Ceruledge|71/100|[from] drain|[of] p1a: Great Tusk
+|
+|turn|12
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-sideend|p2: solana maxi|move: Light Screen
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|13
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Ceruledge|Bitter Blade|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|78/100
+|-heal|p2a: Ceruledge|83/100|[from] drain|[of] p1a: Dragonite
+|
+|-sideend|p2: solana maxi|Reflect
+|turn|14
+|
+|move|p1a: Dragonite|Outrage|p2a: Ceruledge
+|-damage|p2a: Ceruledge|32/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|31/100
+|-heal|p2a: Ceruledge|56/100|[from] drain|[of] p1a: Dragonite
+|
+|turn|15
+|
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|16
+|
+|-terastallize|p2a: Ceruledge|Fairy
+|move|p1a: Kingambit|Sucker Punch|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|41/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: Ceruledge|98/100|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|17
+|
+|move|p1a: Iron Moth|Sludge Wave|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|25/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|16/100
+|-heal|p2a: Ceruledge|61/100|[from] drain|[of] p1a: Iron Moth
+|
+|turn|18
+|-message|BBUTTER forfeited.
+|
+|win|solana maxi

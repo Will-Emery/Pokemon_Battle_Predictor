@@ -1,0 +1,427 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Rotom-Wash|
+|poke|p1|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|poke|p2|Abomasnow, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|poke|p2|Skeledirge, F|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|34/100
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: erduashi|move: Aurora Veil
+|
+|-weather|Snow|[upkeep]
+|turn|2
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|3
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Iron Treads|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|8/100
+|-enditem|p2a: Magearna|Weakness Policy
+|-boost|p2a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Magearna|spa|2|[from] item: Weakness Policy
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|-terastallize|p2a: Magearna|Fairy
+|move|p2a: Magearna|Draining Kiss|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|54/100
+|-heal|p2a: Magearna|45/100|[from] drain|[of] p1a: Iron Treads
+|move|p1a: Iron Treads|Earthquake|p2a: Magearna
+|-damage|p2a: Magearna|29/100
+|
+|-weather|none
+|-heal|p1a: Iron Treads|60/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Magearna|Stored Power|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|7
+|
+|move|p2a: Magearna|Stored Power|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|10/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Magearna
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|16/100|[from] item: Leftovers
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|8
+|
+|move|p2a: Iron Treads|Rapid Spin|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|10/100
+|-boost|p2a: Iron Treads|spe|1
+|move|p1a: Magearna|Pain Split|p2a: Iron Treads
+|-sethp|p2a: Iron Treads|56/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Magearna|50/100|[from] move: Pain Split
+|
+|-heal|p1a: Magearna|56/100|[from] item: Leftovers
+|-sideend|p2: erduashi|move: Aurora Veil
+|turn|9
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Iron Treads|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|72/100
+|
+|turn|10
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|63/100
+|-enditem|p1a: Zamazenta|Choice Band|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Zamazenta|Crunch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|33/100
+|
+|turn|11
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Zamazenta|Close Combat|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|
+|turn|12
+|
+|move|p1a: Zamazenta|Crunch|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|53/100
+|-unboost|p2a: Skeledirge|def|1
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Zamazenta
+|-status|p1a: Zamazenta|brn
+|
+|-damage|p1a: Zamazenta|57/100 brn|[from] brn
+|turn|13
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100
+|
+|turn|14
+|
+|switch|p2a: Iron Treads|Iron Treads|33/100
+|move|p1a: Rotom|Hydro Pump|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|15
+|
+|switch|p1a: Zamazenta|Zamazenta|57/100 brn
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|76/100
+|
+|-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|51/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Zamazenta|Close Combat|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|
+|-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|45/100 brn|[from] brn
+|turn|17
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Zamazenta|Close Combat|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|39/100 brn|[from] brn
+|turn|18
+|
+|move|p1a: Zamazenta|Close Combat|p2a: Zamazenta
+|-damage|p2a: Zamazenta|88/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|63/100
+|
+|-heal|p2a: Zamazenta|69/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|32/100 brn|[from] brn
+|turn|19
+|
+|move|p1a: Zamazenta|Close Combat|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|1
+|
+|-heal|p2a: Zamazenta|75/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|26/100 brn|[from] brn
+|turn|20
+|
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Zamazenta|Close Combat|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-heal|p2a: Zamazenta|81/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|20/100 brn|[from] brn
+|turn|21
+|
+|move|p1a: Zamazenta|Close Combat|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-fail|p2a: Zamazenta|move: Substitute
+|
+|-heal|p2a: Zamazenta|87/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|14/100 brn|[from] brn
+|turn|22
+|
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Zamazenta|Close Combat|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-heal|p2a: Zamazenta|93/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|8/100 brn|[from] brn
+|turn|23
+|
+|move|p2a: Zamazenta|Body Press|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Zamazenta|99/100|[from] item: Leftovers
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|24
+|
+|move|p1a: Rotom|Volt Switch|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|switch|p1a: Magearna|Magearna|56/100|[from] Volt Switch
+|move|p2a: Zamazenta|Body Press|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|25
+|
+|-terastallize|p1a: Iron Valiant|Fairy
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|turn|26
+|
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|79/100
+|
+|turn|27
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|turn|28
+|
+|move|p1a: Rotom|Trick|p2a: Skeledirge
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Skeledirge
+|-item|p2a: Skeledirge|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Heavy-Duty Boots|[from] move: Trick
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Rotom
+|-fail|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|88/100 brn|[from] brn
+|turn|29
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|18/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Rotom
+|-fail|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|82/100 brn|[from] brn
+|turn|30
+|
+|move|p1a: Rotom|Volt Switch|p2a: Skeledirge
+|-damage|p2a: Skeledirge|1/100
+|
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Fairy|100/100|[from] Volt Switch
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|brn
+|
+|-damage|p1a: Iron Valiant|94/100 brn|[from] brn
+|turn|31
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|-damage|p1a: Iron Valiant|88/100 brn|[from] brn
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|32
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|33
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|turn|34
+|
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|76/100
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Zamazenta|Body Press|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
+|
+|switch|p1a: Rotom|Rotom-Wash|82/100 brn
+|turn|36
+|
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|-damage|p1a: Rotom|75/100 brn|[from] brn
+|turn|37
+|
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|69/100
+|move|p1a: Rotom|Thunder Wave||[still]
+|-fail|p1a: Rotom
+|
+|-heal|p2a: Zamazenta|75/100|[from] item: Leftovers
+|-damage|p1a: Rotom|69/100 brn|[from] brn
+|turn|38
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Rotom|Hydro Pump|p2a: Zamazenta|[miss]
+|-miss|p1a: Rotom|p2a: Zamazenta
+|
+|-heal|p2a: Zamazenta|81/100|[from] item: Leftovers
+|-damage|p1a: Rotom|63/100 brn|[from] brn
+|turn|39
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Rotom|Hydro Pump|p2a: Zamazenta|[miss]
+|-miss|p1a: Rotom|p2a: Zamazenta
+|
+|-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
+|-damage|p1a: Rotom|57/100 brn|[from] brn
+|turn|40
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Rotom|Hydro Pump|p2a: Zamazenta|[miss]
+|-miss|p1a: Rotom|p2a: Zamazenta
+|
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|-damage|p1a: Rotom|50/100 brn|[from] brn
+|turn|41
+|
+|move|p2a: Zamazenta|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|erduashi

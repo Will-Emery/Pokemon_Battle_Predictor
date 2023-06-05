@@ -1,0 +1,335 @@
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Armarouge, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Azumarill, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Zapdos|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Walking Wake|
+|poke|p2|Pelipper, M|
+|poke|p2|Amoonguss, M|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|1
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, M|100/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Avalugg
+|-resisted|p1a: Avalugg
+|-damage|p1a: Avalugg|76/100
+|
+|turn|2
+|
+|move|p2a: Amoonguss|Spore|p1a: Avalugg
+|-status|p1a: Avalugg|slp|[from] move: Spore
+|cant|p1a: Avalugg|slp
+|
+|turn|3
+|
+|move|p2a: Amoonguss|Foul Play|p1a: Avalugg
+|-damage|p1a: Avalugg|57/100 slp
+|cant|p1a: Avalugg|slp
+|
+|turn|4
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-curestatus|p1a: Avalugg|slp|[msg]
+|move|p1a: Avalugg|Mountain Gale|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|72/100
+|
+|turn|5
+|
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-crit|p1a: Azumarill
+|-damage|p1a: Azumarill|84/100
+|-resisted|p1a: Azumarill
+|-crit|p1a: Azumarill
+|-damage|p1a: Azumarill|71/100
+|-resisted|p1a: Azumarill
+|-crit|p1a: Azumarill
+|-damage|p1a: Azumarill|56/100
+|-hitcount|p1a: Azumarill|3
+|
+|turn|6
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-crit|p1a: Azumarill
+|-damage|p1a: Azumarill|40/100
+|-resisted|p1a: Azumarill
+|-crit|p1a: Azumarill
+|-damage|p1a: Azumarill|26/100
+|-resisted|p1a: Azumarill
+|-crit|p1a: Azumarill
+|-damage|p1a: Azumarill|12/100
+|-enditem|p1a: Azumarill|Aguav Berry|[eat]
+|-heal|p1a: Azumarill|45/100|[from] item: Aguav Berry
+|-hitcount|p1a: Azumarill|3
+|move|p1a: Azumarill|Play Rough|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|7
+|
+|move|p2a: Pelipper|Hurricane|p1a: Azumarill
+|-damage|p1a: Azumarill|9/100
+|move|p1a: Azumarill|Play Rough|p2a: Pelipper|[miss]
+|-miss|p1a: Azumarill|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|87/100
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|93/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Cresselia|Psychic|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|59/100
+|move|p2a: Amoonguss|Spore|p1a: Cresselia
+|-status|p1a: Cresselia|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|99/100 slp|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|88/100
+|-status|p1a: Ursaluna|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|75/100 psn|[from] psn
+|turn|11
+|
+|move|p1a: Ursaluna|Facade|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p1a: Ursaluna|59/100 psn|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|faint|p2a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|46/100 psn|[from] psn
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|12
+|
+|switch|p1a: Cresselia|Cresselia, F|99/100 slp
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cresselia
+|-damage|p1a: Cresselia|62/100 slp
+|-damage|p2a: Walking Wake|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|68/100 slp|[from] item: Leftovers
+|turn|13
+|
+|cant|p1a: Cresselia|slp
+|move|p2a: Walking Wake|Roar|p1a: Cresselia
+|drag|p1a: Armarouge|Armarouge, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|-terastallize|p1a: Armarouge|Grass
+|move|p2a: Walking Wake|Roar|p1a: Armarouge
+|drag|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|
+|-weather|none
+|turn|15
+|
+|switch|p1a: Azumarill|Azumarill, M|9/100
+|move|p2a: Walking Wake|Hurricane|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|-damage|p2a: Walking Wake|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Cresselia|Cresselia, F|68/100 slp
+|turn|16
+|
+|-curestatus|p1a: Cresselia|slp|[msg]
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|100/100
+|move|p2a: Walking Wake|Roar|p1a: Cresselia
+|drag|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|
+|turn|17
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|18
+|
+|move|p2a: Pelipper|Hurricane|p1a: Cresselia
+|-damage|p1a: Cresselia|81/100
+|-start|p1a: Cresselia|confusion
+|-activate|p1a: Cresselia|confusion
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|87/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Pelipper|Surf|p1a: Cresselia
+|-damage|p1a: Cresselia|64/100
+|-activate|p1a: Cresselia|confusion
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|89/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|96/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Pelipper|Hurricane|p1a: Cresselia
+|-damage|p1a: Cresselia|76/100
+|-activate|p1a: Cresselia|confusion
+|move|p1a: Cresselia|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|82/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Pelipper|Hurricane|p1a: Cresselia
+|-damage|p1a: Cresselia|62/100
+|-end|p1a: Cresselia|confusion
+|move|p1a: Cresselia|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|69/100|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|84/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|94/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|99/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|23
+|
+|move|p2a: Pelipper|Hurricane|p1a: Cresselia
+|-damage|p1a: Cresselia|82/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cresselia|89/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Pelipper|Hurricane|p1a: Cresselia
+|-damage|p1a: Cresselia|71/100
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|
+|-weather|none
+|
+|switch|p1a: Ursaluna|Ursaluna, F|46/100 psn
+|-heal|p1a: Ursaluna|100/100|[from] move: Lunar Dance
+|turn|25
+|
+|move|p1a: Ursaluna|Facade|p2a: Pelipper
+|-damage|p2a: Pelipper|53/100
+|move|p2a: Pelipper|Surf|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|50/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|26
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Ursaluna|Facade|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|36/100
+|
+|-heal|p2a: Goodra|42/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|44/100 brn|[from] brn
+|turn|27
+|
+|switch|p2a: Pelipper|Pelipper, M|53/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ursaluna|Facade|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|38/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Walking Wake|Walking Wake|81/100
+|turn|28
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|38/100
+|-damage|p2a: Walking Wake|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|29
+|
+|move|p2a: Walking Wake|Hurricane|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|-damage|p2a: Walking Wake|62/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Armarouge|Armarouge, F, tera:Grass|100/100
+|turn|30
+|
+|move|p2a: Walking Wake|Hurricane|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|-damage|p2a: Walking Wake|52/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, M|57/100
+|turn|31
+|
+|move|p2a: Walking Wake|Draco Meteor|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Avalugg
+|-damage|p2a: Walking Wake|42/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Ursaluna|Ursaluna, F|38/100 brn
+|turn|32
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-damage|p2a: Walking Wake|32/100|[from] item: Life Orb
+|
+|win|Thraxxedout!

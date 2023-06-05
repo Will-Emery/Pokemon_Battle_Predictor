@@ -1,0 +1,412 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Sandy Shocks|
+|poke|p1|Rotom-Wash|
+|poke|p1|Scizor, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Vaporeon, M|
+|teampreview
+|
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Madison|Goodra-Hisui, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Sandy Shocks|Volt Switch|p2a: Madison
+|-resisted|p2a: Madison
+|-damage|p2a: Madison|89/100
+|
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, F|100/100|[from] Volt Switch
+|move|p2a: Madison|Flash Cannon|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|77/100
+|
+|turn|2
+|
+|switch|p2a: Mordecai|Corviknight, F|100/100
+|-ability|p2a: Mordecai|Pressure
+|move|p1a: Scizor|Close Combat|p2a: Mordecai
+|-damage|p2a: Mordecai|60/100
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|-damage|p1a: Scizor|61/100|[from] item: Rocky Helmet|[of] p2a: Mordecai
+|
+|turn|3
+|
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|move|p2a: Mordecai|Iron Defense|p2a: Mordecai
+|-boost|p2a: Mordecai|def|2
+|
+|turn|4
+|
+|switch|p2a: Lace|Garchomp, M|100/100
+|move|p1a: Sandy Shocks|Spikes|p2a: Lace
+|-sidestart|p2: IuseGimmickyShit|Spikes
+|
+|turn|5
+|
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Lace|Spikes|p1a: Rotom
+|-sidestart|p1: bigtestsofbig|Spikes
+|
+|turn|6
+|
+|switch|p2a: Madison|Goodra-Hisui, F, shiny|89/100
+|-damage|p2a: Madison|77/100|[from] Spikes
+|move|p1a: Rotom|Will-O-Wisp|p2a: Madison
+|-status|p2a: Madison|brn
+|
+|-damage|p2a: Madison|71/100 brn|[from] brn
+|turn|7
+|
+|move|p1a: Rotom|Volt Switch|p2a: Madison
+|-resisted|p2a: Madison
+|-damage|p2a: Madison|65/100 brn
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100|[from] Volt Switch
+|-damage|p1a: Goodra|88/100|[from] Spikes
+|move|p2a: Madison|Thunderbolt|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|83/100
+|
+|-damage|p2a: Madison|59/100 brn|[from] brn
+|turn|8
+|
+|switch|p2a: Broseidon|Vaporeon, M, shiny|100/100
+|-damage|p2a: Broseidon|88/100|[from] Spikes
+|move|p1a: Goodra|Thunder|p2a: Broseidon
+|-supereffective|p2a: Broseidon
+|-crit|p2a: Broseidon
+|-damage|p2a: Broseidon|23/100
+|
+|-heal|p2a: Broseidon|30/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Broseidon|Protect|p2a: Broseidon
+|-singleturn|p2a: Broseidon|Protect
+|move|p1a: Goodra|Ice Beam|p2a: Broseidon
+|-activate|p2a: Broseidon|move: Protect
+|
+|-heal|p2a: Broseidon|36/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Broseidon|Wish|p2a: Broseidon
+|move|p1a: Goodra|Thunder|p2a: Broseidon|[miss]
+|-miss|p1a: Goodra|p2a: Broseidon
+|
+|-heal|p2a: Broseidon|42/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Broseidon|Protect|p2a: Broseidon
+|-singleturn|p2a: Broseidon|Protect
+|move|p1a: Goodra|Flash Cannon|p2a: Broseidon
+|-activate|p2a: Broseidon|move: Protect
+|
+|-heal|p2a: Broseidon|92/100|[from] move: Wish|[wisher] Broseidon
+|-heal|p2a: Broseidon|98/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Broseidon|Wish|p2a: Broseidon
+|move|p1a: Goodra|Ice Beam|p2a: Broseidon
+|-resisted|p2a: Broseidon
+|-damage|p2a: Broseidon|90/100
+|
+|-heal|p2a: Broseidon|96/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Broseidon|Ice Beam|p1a: Goodra
+|-damage|p1a: Goodra|75/100
+|-status|p1a: Goodra|frz
+|cant|p1a: Goodra|frz
+|
+|-heal|p2a: Broseidon|100/100|[from] move: Wish|[wisher] Broseidon
+|turn|14
+|
+|switch|p2a: Lace|Garchomp, M|100/100
+|-damage|p2a: Lace|88/100|[from] Spikes
+|cant|p1a: Goodra|frz
+|
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Lace|Spikes|p1a: Rotom
+|-sidestart|p1: bigtestsofbig|Spikes
+|
+|turn|16
+|
+|switch|p2a: Broseidon|Vaporeon, M, shiny|100/100
+|-damage|p2a: Broseidon|88/100|[from] Spikes
+|move|p1a: Rotom|Hydro Pump|p2a: Broseidon
+|-heal|p2a: Broseidon|100/100|[from] ability: Water Absorb|[of] p1a: Rotom
+|
+|turn|17
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Broseidon
+|-status|p2a: Broseidon|par
+|move|p2a: Broseidon|Wish|p2a: Broseidon
+|
+|turn|18
+|
+|switch|p2a: Madison|Goodra-Hisui, F, shiny|59/100 brn
+|-damage|p2a: Madison|46/100 brn|[from] Spikes
+|move|p1a: Rotom|Volt Switch|p2a: Madison
+|-resisted|p2a: Madison
+|-damage|p2a: Madison|41/100 brn
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] Volt Switch
+|-damage|p1a: Garchomp|84/100|[from] Spikes
+|
+|-heal|p2a: Madison|100/100 brn|[from] move: Wish|[wisher] Broseidon
+|-heal|p1a: Garchomp|90/100|[from] item: Leftovers
+|-damage|p2a: Madison|94/100 brn|[from] brn
+|turn|19
+|
+|switch|p2a: Mordecai|Corviknight, F|60/100
+|-ability|p2a: Mordecai|Pressure
+|move|p1a: Garchomp|Earthquake|p2a: Mordecai
+|-immune|p2a: Mordecai
+|
+|-heal|p1a: Garchomp|96/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Garchomp|Flamethrower|p2a: Mordecai
+|-supereffective|p2a: Mordecai
+|-crit|p2a: Mordecai
+|-damage|p2a: Mordecai|13/100
+|move|p2a: Mordecai|Roost|p2a: Mordecai
+|-heal|p2a: Mordecai|63/100
+|-singleturn|p2a: Mordecai|move: Roost
+|
+|-heal|p1a: Garchomp|100/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Garchomp|Flamethrower|p2a: Mordecai
+|-supereffective|p2a: Mordecai
+|-damage|p2a: Mordecai|30/100
+|move|p2a: Mordecai|Roost|p2a: Mordecai
+|-heal|p2a: Mordecai|80/100
+|-singleturn|p2a: Mordecai|move: Roost
+|
+|turn|22
+|
+|switch|p2a: BigLuvdisc|Alomomola, F|100/100
+|-damage|p2a: BigLuvdisc|88/100|[from] Spikes
+|move|p1a: Garchomp|Stealth Rock|p2a: BigLuvdisc
+|-sidestart|p2: IuseGimmickyShit|move: Stealth Rock
+|
+|turn|23
+|
+|move|p2a: BigLuvdisc|Chilling Water|p1a: Garchomp
+|-damage|p1a: Garchomp|92/100
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Dragon Tail|p2a: BigLuvdisc
+|-damage|p2a: BigLuvdisc|80/100
+|-damage|p1a: Garchomp|76/100|[from] item: Rocky Helmet|[of] p2a: BigLuvdisc
+|drag|p2a: Madison|Goodra-Hisui, F, shiny|94/100 brn
+|-damage|p2a: Madison|82/100 brn|[from] Spikes
+|-damage|p2a: Madison|76/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Garchomp|82/100|[from] item: Leftovers
+|-damage|p2a: Madison|70/100 brn|[from] brn
+|turn|24
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|75/100 frz
+|-damage|p1a: Goodra|59/100 frz|[from] Spikes
+|switch|p2a: Mordecai|Corviknight, F|80/100
+|-damage|p2a: Mordecai|67/100|[from] Stealth Rock
+|-ability|p2a: Mordecai|Pressure
+|
+|turn|25
+|
+|move|p2a: Mordecai|Body Press|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|5/100 frz
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Mordecai|spe|1
+|cant|p1a: Goodra|frz
+|
+|turn|26
+|
+|cant|p1a: Goodra|frz
+|move|p2a: Mordecai|Body Press|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Mordecai|spe|1
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|-damage|p1a: Arcanine|84/100|[from] Spikes
+|turn|27
+|
+|switch|p2a: BigLuvdisc|Alomomola, F|100/100
+|-damage|p2a: BigLuvdisc|88/100|[from] Spikes
+|-damage|p2a: BigLuvdisc|76/100|[from] Stealth Rock
+|move|p1a: Arcanine|Close Combat|p2a: BigLuvdisc
+|-damage|p2a: BigLuvdisc|56/100
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|-damage|p1a: Arcanine|67/100|[from] item: Rocky Helmet|[of] p2a: BigLuvdisc
+|
+|turn|28
+|
+|switch|p1a: Garchomp|Garchomp, M|82/100
+|-damage|p1a: Garchomp|65/100|[from] Spikes
+|move|p2a: BigLuvdisc|Wish|p2a: BigLuvdisc
+|
+|-heal|p1a: Garchomp|71/100|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: BigLuvdisc|Chilling Water|p1a: Garchomp
+|-damage|p1a: Garchomp|63/100
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Dragon Tail|p2a: BigLuvdisc
+|-damage|p2a: BigLuvdisc|46/100
+|-damage|p1a: Garchomp|46/100|[from] item: Rocky Helmet|[of] p2a: BigLuvdisc
+|drag|p2a: Lace|Garchomp, M|88/100
+|-damage|p2a: Lace|76/100|[from] Spikes
+|-damage|p2a: Lace|70/100|[from] Stealth Rock
+|
+|-heal|p2a: Lace|100/100|[from] move: Wish|[wisher] BigLuvdisc
+|-heal|p1a: Garchomp|52/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Lace|Dragon Claw|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Lace|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|31
+|
+|switch|p2a: Broseidon|Vaporeon, M, shiny|100/100 par
+|-damage|p2a: Broseidon|88/100 par|[from] Spikes
+|-damage|p2a: Broseidon|75/100 par|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Broseidon
+|-supereffective|p2a: Broseidon
+|-damage|p2a: Broseidon|39/100 par
+|
+|switch|p1a: Scizor|Scizor, F|61/100|[from] Volt Switch
+|-damage|p1a: Scizor|44/100|[from] Spikes
+|
+|-heal|p2a: Broseidon|46/100 par|[from] item: Leftovers
+|turn|32
+|
+|switch|p2a: BigLuvdisc|Alomomola, F|80/100
+|-damage|p2a: BigLuvdisc|67/100|[from] Spikes
+|-damage|p2a: BigLuvdisc|55/100|[from] Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: BigLuvdisc
+|-damage|p2a: BigLuvdisc|26/100
+|-damage|p1a: Scizor|28/100|[from] item: Rocky Helmet|[of] p2a: BigLuvdisc
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|67/100|[from] U-turn
+|-damage|p1a: Arcanine|51/100|[from] Spikes
+|
+|turn|33
+|
+|switch|p2a: Lace|Garchomp, M|88/100
+|-damage|p2a: Lace|76/100|[from] Spikes
+|-damage|p2a: Lace|70/100|[from] Stealth Rock
+|move|p1a: Arcanine|Head Smash|p2a: Lace
+|-resisted|p2a: Lace
+|-damage|p2a: Lace|39/100
+|-damage|p1a: Arcanine|38/100|[from] ability: Rough Skin|[of] p2a: Lace
+|-damage|p1a: Arcanine|22/100|[from] item: Rocky Helmet|[of] p2a: Lace
+|
+|turn|34
+|
+|move|p1a: Arcanine|Head Smash|p2a: Lace
+|-resisted|p2a: Lace
+|-damage|p2a: Lace|6/100
+|-damage|p1a: Arcanine|9/100|[from] ability: Rough Skin|[of] p2a: Lace
+|-damage|p1a: Arcanine|0 fnt|[from] item: Rocky Helmet|[of] p2a: Lace
+|faint|p1a: Arcanine
+|move|p2a: Lace|Dragon Claw|p1: Arcanine|[notarget]
+|-fail|p2a: Lace
+|
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|35
+|
+|move|p2a: Lace|Dragon Claw|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|49/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Lace
+|-status|p2a: Lace|brn
+|
+|-damage|p2a: Lace|0 fnt|[from] brn
+|faint|p2a: Lace
+|
+|switch|p2a: Madison|Goodra-Hisui, F, shiny|70/100 brn
+|-damage|p2a: Madison|58/100 brn|[from] Spikes
+|-damage|p2a: Madison|52/100 brn|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Madison
+|-resisted|p2a: Madison
+|-damage|p2a: Madison|43/100 brn
+|move|p2a: Madison|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Madison|spa|2
+|faint|p1a: Rotom
+|
+|-damage|p2a: Madison|37/100 brn|[from] brn
+|
+|switch|p1a: Scizor|Scizor, F|28/100
+|-damage|p1a: Scizor|11/100|[from] Spikes
+|turn|37
+|
+|switch|p2a: BigLuvdisc|Alomomola, F|59/100
+|-damage|p2a: BigLuvdisc|47/100|[from] Spikes
+|-damage|p2a: BigLuvdisc|34/100|[from] Stealth Rock
+|move|p1a: Scizor|U-turn|p2a: BigLuvdisc
+|-damage|p2a: BigLuvdisc|4/100
+|-damage|p1a: Scizor|0 fnt|[from] item: Rocky Helmet|[of] p2a: BigLuvdisc
+|faint|p1a: Scizor
+|
+|
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|-damage|p1a: Sandy Shocks|84/100|[from] Spikes
+|turn|38
+|
+|-terastallize|p1a: Sandy Shocks|Electric
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: BigLuvdisc
+|-supereffective|p2a: BigLuvdisc
+|-damage|p2a: BigLuvdisc|0 fnt
+|faint|p2a: BigLuvdisc
+|
+|
+|switch|p2a: Madison|Goodra-Hisui, F, shiny|37/100 brn
+|-damage|p2a: Madison|25/100 brn|[from] Spikes
+|-damage|p2a: Madison|19/100 brn|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Madison
+|-resisted|p2a: Madison
+|-damage|p2a: Madison|0 fnt
+|faint|p2a: Madison
+|
+|
+|switch|p2a: Gustave|Skeledirge, M|100/100
+|-damage|p2a: Gustave|88/100|[from] Spikes
+|-damage|p2a: Gustave|63/100|[from] Stealth Rock
+|turn|40
+|
+|-terastallize|p2a: Gustave|Fairy
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Gustave
+|-damage|p2a: Gustave|0 fnt
+|faint|p2a: Gustave
+|
+|-message|IuseGimmickyShit forfeited.
+|
+|win|bigtestsofbig

@@ -1,0 +1,211 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Regidrago|
+|poke|p1|Great Tusk|
+|poke|p1|Sneasler, M|
+|poke|p1|Decidueye-Hisui, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Iron Hands|
+|poke|p2|Enamorus, F|
+|poke|p2|Persian-Alola, F|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Decidueye|Decidueye-Hisui, M|100/100
+|switch|p2a: Persian|Persian-Alola, F|100/100
+|turn|1
+|
+|move|p2a: Persian|Hypnosis|p1a: Decidueye
+|-status|p1a: Decidueye|slp|[from] move: Hypnosis
+|cant|p1a: Decidueye|slp
+|
+|turn|2
+|
+|move|p2a: Persian|U-turn|p1a: Decidueye
+|-damage|p1a: Decidueye|90/100 slp
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100|[from] U-turn
+|cant|p1a: Decidueye|slp
+|
+|turn|3
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|62/100 slp
+|-sidestart|p1: Dindosh|move: Stealth Rock
+|-curestatus|p1a: Decidueye|slp|[msg]
+|move|p1a: Decidueye|Bulk Up|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|1
+|-boost|p1a: Decidueye|def|1
+|
+|turn|4
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Decidueye|Trailblaze|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|74/100
+|-boost|p1a: Decidueye|spe|1
+|-start|p1a: Decidueye|Attract|[from] ability: Cute Charm|[of] p2a: Enamorus
+|
+|turn|5
+|
+|move|p2a: Enamorus|Dazzling Gleam|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Enamorus|Dazzling Gleam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Enamorus|Dazzling Gleam|p1a: Sneasler
+|-damage|p1a: Sneasler|38/100
+|move|p1a: Sneasler|Dire Claw|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-start|p1a: Sneasler|Attract|[from] ability: Cute Charm|[of] p2a: Enamorus
+|faint|p2a: Enamorus
+|-end|p1a: Sneasler|Attract|[silent]
+|
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|8
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|-item|p1a: Hatterene|Air Balloon
+|move|p2a: Heatran|Protect||[still]
+|-fail|p2a: Heatran
+|
+|turn|9
+|
+|move|p2a: Heatran|Fire Spin|p1a: Hatterene
+|-damage|p1a: Hatterene|73/100
+|-activate|p1a: Hatterene|move: Fire Spin|[of] p2a: Heatran
+|-enditem|p1a: Hatterene|Air Balloon
+|move|p1a: Hatterene|Mystical Fire|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-damage|p1a: Hatterene|61/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|10
+|
+|move|p2a: Heatran|Flamethrower|p1a: Hatterene
+|-damage|p1a: Hatterene|2/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-damage|p1a: Hatterene|0 fnt|[from] move: Fire Spin|[partiallytrapped]
+|faint|p1a: Hatterene
+|
+|switch|p1a: Sneasler|Sneasler, M|38/100
+|-damage|p1a: Sneasler|32/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Sneasler|Close Combat|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|turn|12
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|move|p1a: Sneasler|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|44/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|
+|turn|13
+|
+|move|p1a: Sneasler|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: FUCK IT WE BALL|Iron Hands|100/100
+|turn|14
+|
+|switch|p1a: Regidrago|Regidrago|100/100
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: Regidrago
+|-damage|p1a: Regidrago|55/100
+|
+|turn|15
+|
+|move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+|-boost|p1a: Regidrago|atk|1
+|-boost|p1a: Regidrago|spe|1
+|move|p2a: FUCK IT WE BALL|Play Rough|p1a: Regidrago|[miss]
+|-miss|p2a: FUCK IT WE BALL|p1a: Regidrago
+|
+|turn|16
+|
+|move|p1a: Regidrago|Earthquake|p2a: FUCK IT WE BALL
+|-supereffective|p2a: FUCK IT WE BALL
+|-damage|p2a: FUCK IT WE BALL|56/100
+|move|p2a: FUCK IT WE BALL|Play Rough|p1a: Regidrago
+|-supereffective|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|faint|p1a: Regidrago
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Arcanine|Head Smash|p2a: FUCK IT WE BALL
+|-resisted|p2a: FUCK IT WE BALL
+|-damage|p2a: FUCK IT WE BALL|23/100
+|move|p2a: FUCK IT WE BALL|Drain Punch|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-heal|p2a: FUCK IT WE BALL|49/100|[from] drain|[of] p1a: Arcanine
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|32/100
+|-damage|p1a: Sneasler|26/100|[from] Stealth Rock
+|turn|18
+|
+|-terastallize|p1a: Sneasler|Fighting
+|move|p1a: Sneasler|Close Combat|p2a: FUCK IT WE BALL
+|-damage|p2a: FUCK IT WE BALL|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: FUCK IT WE BALL
+|-end|p2a: FUCK IT WE BALL|Quark Drive|[silent]
+|
+|
+|switch|p2a: Persian|Persian-Alola, F|100/100
+|turn|19
+|
+|-terastallize|p2a: Persian|Fairy
+|move|p1a: Sneasler|Close Combat|p2a: Persian
+|-resisted|p2a: Persian
+|-damage|p2a: Persian|68/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Persian|Foul Play|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|win|altharu

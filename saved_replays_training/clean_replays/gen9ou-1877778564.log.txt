@@ -1,0 +1,178 @@
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Breloom, M|
+|poke|p2|Qwilfish, F|
+|poke|p2|Kilowattrel, M|
+|poke|p2|Flareon, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Slaking, F|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Flareon|Flareon, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Flareon|atk|1
+|turn|1
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Flareon
+|-sidestart|p2: EnjoiPanda|move: Stealth Rock
+|move|p2a: Flareon|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-damage|p1a: Landorus|95/100 brn|[from] brn
+|turn|2
+|
+|move|p2a: Flareon|Detect|p2a: Flareon
+|-singleturn|p2a: Flareon|Protect
+|move|p1a: Landorus|Earthquake|p2a: Flareon
+|-activate|p2a: Flareon|move: Protect
+|
+|-heal|p1a: Landorus|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Landorus|95/100 brn|[from] brn
+|turn|3
+|
+|-terastallize|p2a: Flareon|Flying
+|move|p1a: Landorus|U-turn|p2a: Flareon
+|-resisted|p2a: Flareon
+|-damage|p2a: Flareon|92/100
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100|[from] U-turn
+|move|p2a: Flareon|Fire Spin|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|98/100
+|-activate|p1a: Arcanine|move: Fire Spin|[of] p2a: Flareon
+|
+|-damage|p1a: Arcanine|82/100|[from] move: Fire Spin|[partiallytrapped]
+|turn|4
+|
+|move|p1a: Arcanine|Head Smash|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|-end|p1a: Arcanine|Fire Spin|[partiallytrapped]|[silent]
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Breloom|Bullet Seed|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|97/100
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|92/100
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|86/100
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|81/100
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|76/100
+|-hitcount|p1a: Dragonite|5
+|
+|turn|6
+|
+|move|p2a: Breloom|Rock Tomb|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|12/100
+|-unboost|p1a: Dragonite|spe|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|turn|7
+|
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|
+|switch|p2a: Qwilfish|Qwilfish, F|100/100
+|-damage|p2a: Qwilfish|88/100|[from] Stealth Rock
+|-ability|p2a: Qwilfish|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|turn|8
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Qwilfish
+|-damage|p2a: Qwilfish|14/100
+|move|p2a: Qwilfish|Fell Stinger|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-boost|p2a: Qwilfish|atk|3
+|-damage|p2a: Qwilfish|4/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|95/100 brn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Qwilfish|atk|1
+|turn|9
+|
+|move|p2a: Qwilfish|Aqua Jet|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-damage|p2a: Qwilfish|0 fnt|[from] item: Life Orb
+|faint|p2a: Qwilfish
+|
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100
+|switch|p2a: Slaking|Slaking, F|100/100
+|-damage|p2a: Slaking|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Slaking|Giga Impact|p1a: Decidueye
+|-enditem|p2a: Slaking|Normal Gem|[from] gem
+|-damage|p1a: Decidueye|0 fnt
+|-mustrecharge|p2a: Slaking
+|faint|p1a: Decidueye
+|
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|turn|11
+|
+|cant|p2a: Slaking|recharge
+|move|p1a: Clodsire|Toxic|p2a: Slaking
+|-status|p2a: Slaking|tox
+|
+|-damage|p2a: Slaking|82/100 tox|[from] psn
+|turn|12
+|
+|move|p1a: Clodsire|Protect|p1a: Clodsire
+|-singleturn|p1a: Clodsire|Protect
+|move|p2a: Slaking|Covet|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|
+|-damage|p2a: Slaking|70/100 tox|[from] psn
+|turn|13
+|
+|cant|p2a: Slaking|ability: Truant
+|move|p1a: Clodsire|Recover||[still]
+|-fail|p1a: Clodsire|heal
+|
+|-damage|p2a: Slaking|51/100 tox|[from] psn
+|turn|14
+|
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|-damage|p2a: Kilowattrel|76/100|[from] Stealth Rock
+|move|p1a: Clodsire|Protect||[still]
+|-fail|p1a: Clodsire
+|
+|-heal|p2a: Kilowattrel|82/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Clodsire|Toxic|p2a: Toxapex
+|-immune|p2a: Toxapex
+|
+|turn|16
+|-message|Bc2029 forfeited.
+|
+|win|EnjoiPanda

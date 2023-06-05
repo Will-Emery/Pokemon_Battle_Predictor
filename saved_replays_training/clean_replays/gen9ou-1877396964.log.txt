@@ -1,0 +1,218 @@
+|poke|p1|Cresselia, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Glastrier|
+|poke|p1|Kingambit, M|
+|poke|p1|Ursaluna, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Iron Treads|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Baxcalibur, M|
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Joaquin|Grimmsnarl, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Joaquin|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Joaquin|[from]ability: Magic Bounce
+|-unboost|p2a: Joaquin|atk|1
+|-unboost|p2a: Joaquin|spa|1
+|
+|switch|p1a: Cresselia|Cresselia, F, shiny|100/100|[from] Parting Shot
+|
+|turn|2
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|3
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|move|p2a: Iron Treads|Iron Head|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|52/100
+|
+|turn|4
+|
+|move|p1a: Glastrier|Close Combat|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-enditem|p2a: Iron Treads|Focus Sash
+|-damage|p2a: Iron Treads|1/100
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|move|p2a: Iron Treads|Volt Switch|p1a: Glastrier
+|-damage|p1a: Glastrier|39/100
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Joaquin|Grimmsnarl, M, shiny|100/100|[from] Volt Switch
+|
+|turn|5
+|
+|move|p2a: Joaquin|Parting Shot|p1a: Glastrier
+|-unboost|p1a: Glastrier|atk|1
+|-unboost|p1a: Glastrier|spa|1
+|
+|switch|p2a: Açogueiro|Kleavor, M|100/100|[from] Parting Shot
+|move|p1a: Glastrier|Close Combat|p2a: Açogueiro
+|-damage|p2a: Açogueiro|43/100
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|
+|turn|6
+|
+|move|p2a: Açogueiro|Quick Attack|p1a: Glastrier
+|-damage|p1a: Glastrier|21/100
+|move|p1a: Glastrier|Close Combat|p2a: Açogueiro
+|-damage|p2a: Açogueiro|0 fnt
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|faint|p2a: Açogueiro
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Wayn|Urshifu-Rapid-Strike, M|100/100
+|turn|7
+|
+|switch|p1a: Cresselia|Cresselia, F, shiny|100/100
+|move|p2a: Wayn|Swords Dance|p2a: Wayn
+|-boost|p2a: Wayn|atk|2
+|
+|turn|8
+|
+|-terastallize|p2a: Wayn|Water
+|move|p2a: Wayn|Surging Strikes|p1a: Cresselia
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|68/100
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|37/100
+|-crit|p1a: Cresselia
+|-damage|p1a: Cresselia|5/100
+|-hitcount|p1a: Cresselia|3
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-heal|p1a: Cresselia|11/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Wayn|Trailblaze|p1: Cresselia|[notarget]
+|-fail|p2a: Wayn
+|
+|
+|switch|p1a: Glastrier|Glastrier|21/100
+|-heal|p1a: Glastrier|100/100|[from] move: Lunar Dance
+|turn|10
+|
+|-terastallize|p1a: Glastrier|Dragon
+|move|p1a: Glastrier|Outrage|p2a: Wayn
+|-damage|p2a: Wayn|0 fnt
+|faint|p2a: Wayn
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|
+|switch|p2a: Joaquin|Grimmsnarl, M, shiny|100/100
+|turn|11
+|
+|move|p2a: Joaquin|Thunder Wave|p1a: Glastrier
+|-status|p1a: Glastrier|par
+|move|p1a: Glastrier|Outrage|p2a: Joaquin|[from]lockedmove
+|-immune|p2a: Joaquin
+|-start|p1a: Glastrier|confusion|[fatigue]
+|
+|turn|12
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Joaquin|Light Screen|p2a: Joaquin
+|-sidestart|p2: Jacksgr|move: Light Screen
+|
+|-fieldend|move: Trick Room
+|turn|13
+|
+|move|p2a: Joaquin|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Joaquin|[from]ability: Magic Bounce
+|-unboost|p2a: Joaquin|atk|1
+|-unboost|p2a: Joaquin|spa|1
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] Parting Shot
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|
+|turn|14
+|
+|move|p2a: Joaquin|Reflect|p2a: Joaquin
+|-sidestart|p2: Jacksgr|Reflect
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|15
+|
+|move|p2a: Joaquin|Parting Shot|p1a: Kingambit
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|16
+|
+|switch|p2a: Iron Treads|Iron Treads|1/100
+|move|p1a: Kingambit|Iron Head|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Xerno|Clodsire, F, shiny|100/100
+|turn|17
+|
+|move|p1a: Kingambit|Iron Head|p2a: Xerno
+|-damage|p2a: Xerno|9/100
+|move|p2a: Xerno|Haze|p2a: Xerno
+|-clearallboost
+|
+|turn|18
+|
+|move|p1a: Kingambit|Iron Head|p2a: Xerno
+|-damage|p2a: Xerno|0 fnt
+|faint|p2a: Xerno
+|
+|
+|switch|p2a: Joaquin|Grimmsnarl, M, shiny|100/100
+|turn|19
+|
+|switch|p2a: Heilos|Baxcalibur, M|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Heilos
+|-supereffective|p2a: Heilos
+|-damage|p2a: Heilos|50/100
+|
+|-heal|p2a: Heilos|56/100|[from] item: Leftovers
+|-sideend|p2: Jacksgr|move: Light Screen
+|turn|20
+|
+|move|p2a: Heilos|Dragon Dance|p2a: Heilos
+|-boost|p2a: Heilos|atk|1
+|-boost|p2a: Heilos|spe|1
+|move|p1a: Kingambit|Iron Head|p2a: Heilos
+|-supereffective|p2a: Heilos
+|-damage|p2a: Heilos|6/100
+|
+|-heal|p2a: Heilos|13/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Heilos
+|-damage|p2a: Heilos|0 fnt
+|faint|p2a: Heilos
+|
+|-sideend|p2: Jacksgr|Reflect
+|-message|Jacksgr forfeited.
+|
+|win|Zydv

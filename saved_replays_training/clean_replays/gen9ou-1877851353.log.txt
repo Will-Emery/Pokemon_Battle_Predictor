@@ -1,0 +1,397 @@
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Decidueye-Hisui, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|1
+|
+|move|p1a: Urshifu|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|90/100
+|
+|switch|p1a: AwA🥤|Pelipper, F, shiny|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: AwA🥤
+|move|p2a: Enamorus|Superpower|p1a: AwA🥤
+|-resisted|p1a: AwA🥤
+|-damage|p1a: AwA🥤|86/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Enamorus|Play Rough|p1a: AwA🥤|[miss]
+|-miss|p2a: Enamorus|p1a: AwA🥤
+|move|p1a: AwA🥤|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|87/100
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Braviary
+|-sidestart|p1: Benet|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Braviary|Hurricane|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|73/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Decidueye|Decidueye-Hisui, M|100/100
+|-damage|p1a: Decidueye|94/100|[from] Stealth Rock
+|move|p2a: Heatran|Flash Cannon|p1a: Decidueye
+|-damage|p1a: Decidueye|55/100
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|-terastallize|p2a: Heatran|Flying
+|move|p1a: Decidueye|Trailblaze|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|60/100
+|-boost|p1a: Decidueye|spe|1
+|move|p2a: Heatran|Tera Blast|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-crit|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Urshifu|Close Combat|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|60/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|-weather|none
+|-heal|p2a: Clodsire|67/100|[from] item: Black Sludge
+|turn|9
+|
+|switch|p1a: AwA🥤|Pelipper, F, shiny|86/100
+|-damage|p1a: AwA🥤|61/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: AwA🥤
+|move|p2a: Clodsire|Chilling Water|p1a: AwA🥤
+|-resisted|p1a: AwA🥤
+|-damage|p1a: AwA🥤|55/100
+|-unboost|p1a: AwA🥤|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|73/100|[from] item: Black Sludge
+|turn|10
+|
+|move|p1a: AwA🥤|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|63/100
+|-enditem|p2a: Clodsire|Black Sludge|[from] move: Knock Off|[of] p1a: AwA🥤
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p1a: AwA🥤|Roost|p1a: AwA🥤
+|-heal|p1a: AwA🥤|100/100
+|-singleturn|p1a: AwA🥤|move: Roost
+|move|p2a: Clodsire|Chilling Water|p1a: AwA🥤
+|-resisted|p1a: AwA🥤
+|-damage|p1a: AwA🥤|95/100
+|-unboost|p1a: AwA🥤|atk|1
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|move|p1a: AwA🥤|U-turn|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|98/100
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|100/100|[from] U-turn
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|move|p2a: Clodsire|Chilling Water|p1a: Braviary
+|-damage|p1a: Braviary|63/100
+|-unboost|p1a: Braviary|atk|1
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|move|p1a: Braviary|Psychic|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|12/100
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Baxcalibur|Ice Shard|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|82/100
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p2a: Enamorus|Enamorus, F|87/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|39/100
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|12/100
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|94/100
+|-damage|p1a: Urshifu|88/100|[from] Stealth Rock
+|
+|-weather|none
+|turn|17
+|
+|move|p2a: Baxcalibur|Ice Shard|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|71/100
+|move|p1a: Urshifu|Close Combat|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Baxcalibur
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|39/100
+|turn|18
+|
+|switch|p1a: Basculegion|Basculegion, M, tera:Water|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|move|p2a: Enamorus|Play Rough|p1a: Basculegion
+|-damage|p1a: Basculegion|35/100
+|
+|turn|19
+|
+|move|p2a: Enamorus|Superpower|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|faint|p1a: Basculegion
+|
+|
+|switch|p1a: AwA🥤|Pelipper, F, shiny|95/100
+|-damage|p1a: AwA🥤|70/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: AwA🥤
+|turn|20
+|
+|move|p2a: Enamorus|Superpower|p1a: AwA🥤
+|-resisted|p1a: AwA🥤
+|-damage|p1a: AwA🥤|47/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|move|p1a: AwA🥤|Hurricane|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ursaluna|Ursaluna, F, shiny|100/100
+|turn|21
+|
+|move|p1a: AwA🥤|Knock Off|p2a: Ursaluna
+|-damage|p2a: Ursaluna|92/100
+|-enditem|p2a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: AwA🥤
+|move|p2a: Ursaluna|Drain Punch|p1a: AwA🥤
+|-resisted|p1a: AwA🥤
+|-damage|p1a: AwA🥤|36/100
+|-heal|p2a: Ursaluna|96/100|[from] drain|[of] p1a: AwA🥤
+|
+|-weather|RainDance|[upkeep]
+|turn|22
+|
+|move|p1a: AwA🥤|Roost|p1a: AwA🥤
+|-heal|p1a: AwA🥤|86/100
+|-singleturn|p1a: AwA🥤|move: Roost
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|move|p1a: AwA🥤|Hurricane|p2a: Ursaluna
+|-damage|p2a: Ursaluna|62/100
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|24
+|
+|move|p1a: AwA🥤|Hurricane|p2a: Ursaluna
+|-damage|p2a: Ursaluna|32/100
+|move|p2a: Ursaluna|Drain Punch|p1a: AwA🥤
+|-resisted|p1a: AwA🥤
+|-damage|p1a: AwA🥤|51/100
+|-heal|p2a: Ursaluna|45/100|[from] drain|[of] p1a: AwA🥤
+|
+|-weather|RainDance|[upkeep]
+|turn|25
+|
+|move|p1a: AwA🥤|Hurricane|p2a: Ursaluna
+|-damage|p2a: Ursaluna|12/100
+|-start|p2a: Ursaluna|confusion
+|-activate|p2a: Ursaluna|confusion
+|move|p2a: Ursaluna|Drain Punch|p1a: AwA🥤
+|-resisted|p1a: AwA🥤
+|-damage|p1a: AwA🥤|13/100
+|-heal|p2a: Ursaluna|25/100|[from] drain|[of] p1a: AwA🥤
+|
+|-weather|RainDance|[upkeep]
+|turn|26
+|
+|move|p1a: AwA🥤|Hurricane|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Heatran|Heatran, F, tera:Flying|60/100
+|turn|27
+|
+|move|p2a: Heatran|Magma Storm|p1a: AwA🥤
+|-resisted|p1a: AwA🥤
+|-damage|p1a: AwA🥤|0 fnt
+|faint|p1a: AwA🥤
+|
+|-weather|none
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|71/100
+|-damage|p1a: Urshifu|65/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Clodsire|Clodsire, F|98/100
+|move|p1a: Urshifu|Thunder Punch|p2a: Clodsire
+|-immune|p2a: Clodsire
+|
+|turn|29
+|
+|switch|p1a: Kingambit|Kingambit, M|82/100
+|-damage|p1a: Kingambit|76/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|move|p2a: Clodsire|Chilling Water|p1a: Kingambit
+|-damage|p1a: Kingambit|70/100
+|-unboost|p1a: Kingambit|atk|1
+|
+|turn|30
+|
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Braviary|Braviary-Hisui, M, shiny|63/100
+|-damage|p1a: Braviary|38/100|[from] Stealth Rock
+|move|p2a: Clodsire|Chilling Water|p1a: Braviary
+|-damage|p1a: Braviary|30/100
+|-unboost|p1a: Braviary|atk|1
+|
+|turn|31
+|
+|move|p1a: Braviary|Psychic|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|15/100
+|move|p2a: Clodsire|Chilling Water|p1a: Braviary
+|-damage|p1a: Braviary|21/100
+|-unboost|p1a: Braviary|atk|1
+|
+|turn|32
+|
+|move|p1a: Braviary|Psychic|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|turn|33
+|
+|move|p1a: Braviary|Psychic|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|71/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|65/100
+|-damage|p1a: Urshifu|59/100|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Hatterene|Protect|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Protect
+|move|p1a: Urshifu|Surging Strikes|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|46/100
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|20/100
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-hitcount|p2: Hatterene|3
+|
+|
+|switch|p2a: Heatran|Heatran, F, tera:Flying|60/100
+|turn|35
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|42/100
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|24/100
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|7/100
+|-hitcount|p2a: Heatran|3
+|move|p2a: Heatran|Tera Blast|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Kingambit|Kingambit, M|70/100
+|-damage|p1a: Kingambit|63/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|36
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|win|Benet

@@ -1,1 +1,300 @@
-Could not connect
+|j|☆biguusiio
+|j|☆sanchopanzas
+|t:|1685902946
+|gametype|singles
+|player|p1|biguusiio|169|1149
+|player|p2|sanchopanzas|266|1122
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcarona, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Azumarill, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Overqwil, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Azumarill, M|
+|poke|p2|Glimmora, M|
+|teampreview
+|
+|t:|1685902955
+|start
+|switch|p1a: shape|Volcarona, M, shiny|100/100
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|1
+|
+|t:|1685902962
+|move|p1a: shape|Quiver Dance|p1a: shape
+|-boost|p1a: shape|spa|1
+|-boost|p1a: shape|spd|1
+|-boost|p1a: shape|spe|1
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|51/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|2
+|
+|t:|1685902974
+|switch|p1a: zoom|Azumarill, M, shiny|100/100
+|-terastallize|p2a: Azumarill|Water
+|move|p2a: Azumarill|Aqua Jet|p1a: zoom
+|-resisted|p1a: zoom
+|-damage|p1a: zoom|21/100
+|-enditem|p1a: zoom|Sitrus Berry|[eat]
+|-heal|p1a: zoom|46/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|3
+|
+|t:|1685902989
+|move|p2a: Azumarill|Aqua Jet|p1a: zoom
+|-resisted|p1a: zoom
+|-damage|p1a: zoom|0 fnt
+|faint|p1a: zoom
+|
+|upkeep
+|
+|t:|1685902995
+|switch|p1a: shape|Volcarona, M, shiny|100/100
+|turn|4
+|
+|t:|1685902998
+|move|p2a: Azumarill|Aqua Jet|p1a: shape
+|-supereffective|p1a: shape
+|-damage|p1a: shape|0 fnt
+|faint|p1a: shape
+|
+|upkeep
+|
+|t:|1685903004
+|switch|p1a: dude fr|Garchomp, M, shiny|100/100
+|turn|5
+|
+|t:|1685903013
+|move|p2a: Azumarill|Aqua Jet|p1a: dude fr
+|-damage|p1a: dude fr|0 fnt
+|-damage|p2a: Azumarill|38/100|[from] ability: Rough Skin|[of] p1a: dude fr
+|faint|p1a: dude fr
+|
+|upkeep
+|
+|t:|1685903021
+|switch|p1a: coal|Cinderace, M, shiny|100/100
+|turn|6
+|
+|t:|1685903026
+|move|p1a: coal|Sucker Punch|p2a: Azumarill
+|-start|p1a: coal|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1685903034
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|7
+|
+|t:|1685903041
+|move|p1a: coal|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|86/100
+|
+|t:|1685903045
+|switch|p1a: dragy|Dragapult, M, shiny|100/100|[from] U-turn
+|move|p2a: Pelipper|U-turn|p1a: dragy
+|-resisted|p1a: dragy
+|-damage|p1a: dragy|94/100
+|-start|p2a: Pelipper|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: dragy
+|
+|t:|1685903054
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: dragy|100/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1685903063
+|move|p1a: dragy|Flamethrower|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|73/100
+|move|p2a: Rillaboom|Thief|p1a: dragy
+|-supereffective|p1a: dragy
+|-damage|p1a: dragy|46/100
+|-enditem|p1a: dragy|Focus Sash|[silent]|[from] move: Thief|[of] p2a: Rillaboom
+|-item|p2a: Rillaboom|Focus Sash|[from] move: Thief|[of] p1a: dragy
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: dragy|53/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|79/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1685903083
+|switch|p2a: Overqwil|Overqwil, M|100/100
+|move|p1a: dragy|Dragon Darts|p2a: Overqwil
+|-damage|p2a: Overqwil|80/100
+|-anim|p1a: dragy|Dragon Darts|p2a: Overqwil
+|-damage|p2a: Overqwil|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Overqwil|66/100|[from] Grassy Terrain
+|-heal|p2a: Overqwil|72/100|[from] item: Black Sludge
+|-heal|p1a: dragy|59/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1685903097
+|move|p2a: Overqwil|Crunch|p1a: dragy
+|-supereffective|p1a: dragy
+|-damage|p1a: dragy|0 fnt
+|-start|p2a: Overqwil|Disable|Crunch|[from] ability: Cursed Body|[of] p1a: dragy
+|faint|p1a: dragy
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Overqwil|78/100|[from] Grassy Terrain
+|-heal|p2a: Overqwil|84/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1685903109
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|turn|11
+|
+|t:|1685903118
+|move|p2a: Overqwil|Aqua Tail|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|75/100
+|move|p1a: Dragonite|Earthquake|p2a: Overqwil
+|-supereffective|p2a: Overqwil
+|-damage|p2a: Overqwil|40/100
+|
+|-weather|none
+|-heal|p2a: Overqwil|46/100|[from] Grassy Terrain
+|-heal|p2a: Overqwil|53/100|[from] item: Black Sludge
+|-heal|p1a: Dragonite|81/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1685903134
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Dragonite
+|move|p1a: Dragonite|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-heal|p1a: Dragonite|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1685903146
+|move|p2a: Landorus|Fly||[still]
+|-prepare|p2a: Landorus|Fly
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p1a: Dragonite|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1685903154
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Landorus|Fly|p1a: Dragonite|[from]lockedmove
+|-damage|p1a: Dragonite|32/100
+|
+|-heal|p1a: Dragonite|39/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685903170
+|move|p1a: Dragonite|Dragon Claw|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Dragonite|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685903178
+|switch|p2a: Pelipper|Pelipper, F|86/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|16
+|
+|t:|1685903184
+|move|p1a: Dragonite|Thunder Punch|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685903192
+|switch|p2a: Overqwil|Overqwil, M|53/100
+|turn|17
+|
+|t:|1685903200
+|move|p2a: Overqwil|Aqua Tail|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|27/100
+|move|p1a: Dragonite|Earthquake|p2a: Overqwil
+|-supereffective|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685903212
+|switch|p2a: Rillaboom|Rillaboom, F|79/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|18
+|
+|t:|1685903219
+|move|p2a: Rillaboom|Fake Out|p1a: Dragonite
+|-damage|p1a: Dragonite|18/100
+|move|p1a: Dragonite|Dragon Claw|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685903229
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|19
+|
+|t:|1685903234
+|move|p1a: Dragonite|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: biguusiio|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|win|biguusiio
+|raw|biguusiio's rating: 1149 → 1172(+23 for winning)
+|raw|sanchopanzas's rating: 1122 → 1099(-23 for losing)
+|l|☆sanchopanzas

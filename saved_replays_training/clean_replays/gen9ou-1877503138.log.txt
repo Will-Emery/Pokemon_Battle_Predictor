@@ -1,0 +1,269 @@
+|poke|p1|Amoonguss, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Corviknight, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Ursaluna, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Mew|
+|poke|p2|Magearna|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Meowscarada|atk|1
+|turn|1
+|
+|switch|p2a: Magearna|Magearna|100/100
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|
+|turn|2
+|
+|move|p2a: Magearna|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|24/100
+|move|p1a: Corviknight|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|97/100
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100|[from] U-turn
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p2a: Magearna|Ice Beam|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|35/100 brn
+|move|p1a: Ursaluna|Earthquake|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-damage|p1a: Ursaluna|29/100 brn|[from] brn
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|24/100
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|5
+|
+|switch|p2a: Mew|Mew|100/100
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|78/100
+|
+|turn|6
+|
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Mew|Spikes|p1a: Meowscarada
+|-sidestart|p1: mc00|Spikes
+|
+|turn|7
+|
+|move|p2a: Mew|Flare Blitz|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|7/100
+|-damage|p2a: Mew|46/100|[from] Recoil
+|move|p1a: Meowscarada|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-enditem|p2a: Mew|Focus Sash|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Mew
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|8
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|-damage|p1a: Amoonguss|88/100|[from] Spikes
+|move|p2a: Urshifu|Aqua Jet|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|76/100
+|
+|-heal|p1a: Amoonguss|83/100|[from] item: Black Sludge
+|turn|9
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|70/100
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|59/100
+|-resisted|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|48/100
+|-hitcount|p1a: Amoonguss|3
+|move|p1a: Amoonguss|Spore|p2a: Urshifu
+|-status|p2a: Urshifu|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|54/100|[from] item: Black Sludge
+|turn|10
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|100/100
+|-damage|p1a: Chien-Pao|88/100|[from] Spikes
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|cant|p2a: Urshifu|slp
+|
+|turn|11
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|60/100 slp
+|cant|p2a: Urshifu|slp
+|
+|turn|12
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|18/100 slp
+|cant|p2a: Urshifu|slp
+|
+|turn|13
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|14
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|turn|15
+|
+|switch|p2a: Sneasler|Sneasler, F, shiny|100/100
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: mc00|Reflect
+|
+|turn|16
+|
+|move|p1a: Dragapult|U-turn|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|92/100
+|
+|switch|p1a: Meowscarada|Meowscarada, M|7/100|[from] U-turn
+|-damage|p1a: Meowscarada|0 fnt|[from] Spikes
+|faint|p1a: Meowscarada
+|move|p2a: Sneasler|Dire Claw|p1: Meowscarada|[notarget]
+|-fail|p2a: Sneasler
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao, tera:Dark|88/100
+|-damage|p1a: Chien-Pao|76/100|[from] Spikes
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|17
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|47/100
+|-status|p1a: Chien-Pao|par
+|cant|p1a: Chien-Pao|par
+|
+|turn|18
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|19/100 par
+|cant|p1a: Chien-Pao|par
+|
+|turn|19
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Amoonguss|Amoonguss, F|87/100
+|-damage|p1a: Amoonguss|75/100|[from] Spikes
+|turn|20
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Amoonguss
+|-damage|p1a: Amoonguss|43/100
+|move|p1a: Amoonguss|Spore|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|50/100|[from] item: Black Sludge
+|turn|21
+|
+|switch|p1a: Ursaluna|Ursaluna, F|29/100 brn
+|-damage|p1a: Ursaluna|17/100 brn|[from] Spikes
+|cant|p2a: Sneasler|slp
+|
+|-damage|p1a: Ursaluna|11/100 brn|[from] brn
+|turn|22
+|
+|cant|p2a: Sneasler|slp
+|move|p1a: Ursaluna|Facade|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-damage|p1a: Ursaluna|5/100 brn|[from] brn
+|-sideend|p1: mc00|Reflect
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|turn|23
+|
+|move|p2a: Landorus|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Amoonguss|Amoonguss, F|83/100
+|-damage|p1a: Amoonguss|70/100|[from] Spikes
+|turn|24
+|
+|move|p2a: Landorus|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|cant|p1a: Amoonguss|move: Taunt|Spore
+|
+|-heal|p1a: Amoonguss|77/100|[from] item: Black Sludge
+|turn|25
+|
+|move|p2a: Landorus|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|26/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|77/100
+|-heal|p1a: Amoonguss|37/100|[from] drain|[of] p2a: Landorus
+|
+|-heal|p1a: Amoonguss|43/100|[from] item: Black Sludge
+|turn|26
+|
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|-damage|p1a: Dragapult|76/100|[from] Spikes
+|move|p2a: Landorus|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|25/100
+|
+|turn|27
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-damage|p2a: Landorus|54/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-damage|p2a: Landorus|31/100
+|move|p2a: Landorus|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-message|mc00 forfeited.
+|
+|win|Azenty06

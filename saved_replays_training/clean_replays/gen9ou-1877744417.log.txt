@@ -1,0 +1,189 @@
+|poke|p1|Iron Treads|
+|poke|p1|Kingambit, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Blissey, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Dondozo, F|
+|poke|p2|Drifblim, M|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|turn|1
+|
+|move|p1a: Glimmora|Stealth Rock|p2a: Clodsire
+|-sidestart|p2: Ting Lu is so cute|move: Stealth Rock
+|move|p2a: Clodsire|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Ting Lu is so cute|move: Toxic Spikes
+|
+|turn|2
+|
+|move|p1a: Glimmora|Earth Power|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|64/100
+|move|p2a: Clodsire|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Ting Lu is so cute|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|3
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-sideend|p2: Ting Lu is so cute|move: Toxic Spikes|[of] p2a: Toxapex
+|move|p1a: Azumarill|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|-unboost|p2a: Toxapex|def|1
+|
+|turn|4
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Iron Treads
+|-sidestart|p1: Hideo rayzen|move: Toxic Spikes
+|
+|turn|5
+|
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|move|p1a: Iron Treads|Earthquake|p2a: Drifblim
+|-immune|p2a: Drifblim
+|
+|turn|6
+|
+|move|p1a: Iron Treads|Volt Switch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|72/100
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Chien-Pao
+|-status|p1a: Chien-Pao|brn
+|
+|-damage|p1a: Chien-Pao|95/100 brn|[from] brn
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|91/100
+|
+|-damage|p1a: Chien-Pao|89/100 brn|[from] brn
+|turn|8
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Iron Treads
+|-sidestart|p1: Hideo rayzen|move: Toxic Spikes
+|
+|turn|9
+|
+|switch|p2a: Drifblim|Drifblim, M|72/100
+|move|p1a: Iron Treads|Volt Switch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|48/100
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Azumarill|Azumarill, F|100/100|[from] Volt Switch
+|-status|p1a: Azumarill|tox
+|
+|-damage|p1a: Azumarill|94/100 tox|[from] psn
+|turn|10
+|
+|move|p2a: Drifblim|Strength Sap|p1a: Azumarill
+|-unboost|p1a: Azumarill|atk|1
+|-heal|p2a: Drifblim|93/100
+|move|p1a: Azumarill|Liquidation|p2a: Drifblim
+|-damage|p2a: Drifblim|62/100
+|
+|-damage|p1a: Azumarill|82/100 tox|[from] psn
+|turn|11
+|
+|move|p2a: Drifblim|Strength Sap|p1a: Azumarill
+|-unboost|p1a: Azumarill|atk|1
+|-heal|p2a: Drifblim|92/100
+|move|p1a: Azumarill|Belly Drum|p1a: Azumarill
+|-damage|p1a: Azumarill|32/100 tox
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Azumarill|Sitrus Berry|[eat]
+|-heal|p1a: Azumarill|57/100 tox|[from] item: Sitrus Berry
+|
+|-damage|p1a: Azumarill|38/100 tox|[from] psn
+|turn|12
+|
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|move|p1a: Azumarill|Aqua Jet|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|94/100
+|
+|-damage|p1a: Azumarill|14/100 tox|[from] psn
+|turn|13
+|
+|move|p1a: Azumarill|Play Rough|p2a: Dondozo
+|-damage|p2a: Dondozo|64/100
+|move|p2a: Dondozo|Liquidation|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|14
+|
+|switch|p2a: Drifblim|Drifblim, M|92/100
+|move|p1a: Iron Treads|Volt Switch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|67/100
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from] Volt Switch
+|
+|turn|15
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|16
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|turn|17
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|move|p2a: Toxapex|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|
+|-damage|p1a: Volcarona|94/100 tox|[from] psn
+|turn|18
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|40/100
+|-heal|p1a: Volcarona|100/100 tox|[from] drain|[of] p2a: Toxapex
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|90/100
+|
+|-damage|p1a: Volcarona|88/100 tox|[from] psn
+|turn|19
+|-message|Hideo rayzen forfeited.
+|
+|win|Ting Lu is so cute
+|player|p2|Ting Lu is so cute|parasollady

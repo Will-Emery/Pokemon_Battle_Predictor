@@ -1,0 +1,95 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Ditto|
+|poke|p1|Breloom, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p2|Sneasler, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Azelf|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Sandy Shocks|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Azelf|Azelf, shiny|100/100
+|turn|1
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: G-Recike|move: Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Azelf
+|-damage|p2a: Azelf|42/100
+|
+|switch|p1a: Ditto|Ditto|100/100|[from] Volt Switch
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Azelf|[from] ability: Imposter
+|
+|turn|2
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F, shiny|100/100
+|move|p1a: Ditto|Stealth Rock|p2a: Enamorus
+|-sidestart|p2: Gregory Mirabella|move: Stealth Rock
+|
+|turn|3
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: Pelipper|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|99/100
+|
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|-terastallize|p1a: Zapdos|Electric
+|-terastallize|p2a: Enamorus|Fairy
+|move|p1a: Zapdos|Thunder|p2a: Enamorus
+|-damage|p2a: Enamorus|57/100
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Zapdos|Thunder|p2a: Enamorus
+|-damage|p2a: Enamorus|25/100
+|move|p2a: Enamorus|Draining Kiss|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-heal|p2a: Enamorus|100/100|[from] drain|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Enamorus
+|-damage|p2a: Enamorus|40/100
+|-damage|p1a: Basculegion|70/100|[from] Recoil
+|move|p2a: Enamorus|Draining Kiss|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-heal|p2a: Enamorus|96/100|[from] drain|[of] p1a: Basculegion
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-message|G-Recike forfeited.
+|
+|win|Gregory Mirabella

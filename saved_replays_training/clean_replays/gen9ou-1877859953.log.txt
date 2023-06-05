@@ -1,0 +1,52 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Kleavor, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Magearna|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Zamazenta-*|
+|poke|p2|Enamorus, F|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F, shiny|100/100
+|switch|p2a: Way of the Wott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|move|p1a: Kleavor|U-turn|p2a: Way of the Wott
+|-supereffective|p2a: Way of the Wott
+|-damage|p2a: Way of the Wott|0 fnt
+|faint|p2a: Way of the Wott
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] U-turn
+|
+|
+|switch|p2a: Half Decent Tusk|Great Tusk|100/100
+|turn|2
+|
+|-terastallize|p1a: Magearna|Ghost
+|-terastallize|p2a: Half Decent Tusk|Ground
+|move|p1a: Magearna|Shadow Ball|p2a: Half Decent Tusk
+|-damage|p2a: Half Decent Tusk|0 fnt
+|faint|p2a: Half Decent Tusk
+|-end|p2a: Half Decent Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Golden Joe|Gholdengo|100/100
+|-item|p2a: Golden Joe|Air Balloon
+|turn|3
+|
+|move|p1a: Magearna|Shadow Ball|p2a: Golden Joe
+|-supereffective|p2a: Golden Joe
+|-crit|p2a: Golden Joe
+|-damage|p2a: Golden Joe|0 fnt
+|-enditem|p2a: Golden Joe|Air Balloon
+|faint|p2a: Golden Joe
+|
+|-message|MilkLadsForever forfeited.
+|
+|win|Ondoo89

@@ -1,0 +1,195 @@
+|poke|p1|Kleavor, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Magearna|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Roaring Moon|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Kleavor|Stone Axe|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|-sidestart|p2: georgrdro02|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Great Tusk|Rapid Spin|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|70/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: georgrdro02|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Torkoal|Lava Plume|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|67/100
+|-sidestart|p2: georgrdro02|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|move|p2a: Lilligant|Solar Blade||[still]
+|-prepare|p2a: Lilligant|Solar Blade
+|-anim|p2a: Lilligant|Solar Blade|p1a: Kleavor
+|-enditem|p1a: Kleavor|Focus Sash
+|-damage|p1a: Kleavor|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p2a: Lilligant|Solar Blade||[still]
+|-prepare|p2a: Lilligant|Solar Blade
+|-anim|p2a: Lilligant|Solar Blade|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|75/100
+|turn|8
+|
+|move|p2a: Lilligant|Solar Blade||[still]
+|-prepare|p2a: Lilligant|Solar Blade
+|-anim|p2a: Lilligant|Solar Blade|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|none
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|9
+|
+|switch|p2a: Torkoal|Torkoal, F|80/100
+|-damage|p2a: Torkoal|67/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Lilligant|Sleep Powder|p2a: Torkoal
+|-status|p2a: Torkoal|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|67/100
+|-damage|p2a: Lilligant|55/100|[from] Spikes
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|11
+|
+|move|p2a: Lilligant|Ice Spinner|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|24/100
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|12
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-damage|p2a: Typhlosion|88/100|[from] Spikes
+|turn|13
+|
+|-terastallize|p1a: Lilligant|Grass
+|move|p1a: Lilligant|Leaf Blade|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-damage|p2a: Roaring Moon|88/100|[from] Spikes
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|14
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Great Tusk|Great Tusk|91/100
+|-damage|p2a: Great Tusk|79/100|[from] Spikes
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|15
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Spikes
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|16
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|-message|georgrdro02 forfeited.
+|
+|win|c gvbnm

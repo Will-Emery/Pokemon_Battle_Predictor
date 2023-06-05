@@ -1,0 +1,435 @@
+|poke|p1|Clodsire, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Greninja, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Volcarona, M|
+|poke|p2|Houndstone, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Treads|
+|poke|p2|Rotom-Wash|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|start
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|1
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: What da dog doin|Houndstone, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|2
+|
+|move|p2a: What da dog doin|Will-O-Wisp|p1a: Corviknight|[miss]
+|-miss|p2a: What da dog doin|p1a: Corviknight
+|move|p1a: Corviknight|Brave Bird|p2a: What da dog doin
+|-damage|p2a: What da dog doin|72/100
+|-damage|p1a: Corviknight|92/100|[from] Recoil
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: What da dog doin|78/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Sars Cov 2|Volcarona, M, shiny|100/100
+|move|p2a: What da dog doin|Will-O-Wisp|p1a: Sars Cov 2
+|-immune|p1a: Sars Cov 2
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: What da dog doin|84/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Sars Cov 2|Substitute|p1a: Sars Cov 2
+|-start|p1a: Sars Cov 2|Substitute
+|-damage|p1a: Sars Cov 2|76/100
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p1a: Sars Cov 2|Quiver Dance|p1a: Sars Cov 2
+|-boost|p1a: Sars Cov 2|spa|1
+|-boost|p1a: Sars Cov 2|spd|1
+|-boost|p1a: Sars Cov 2|spe|1
+|move|p2a: Slowking|Psyshock|p1a: Sars Cov 2
+|-end|p1a: Sars Cov 2|Substitute
+|
+|-weather|none
+|turn|6
+|
+|move|p1a: Sars Cov 2|Quiver Dance|p1a: Sars Cov 2
+|-boost|p1a: Sars Cov 2|spa|1
+|-boost|p1a: Sars Cov 2|spd|1
+|-boost|p1a: Sars Cov 2|spe|1
+|move|p2a: Slowking|Psyshock|p1a: Sars Cov 2
+|-damage|p1a: Sars Cov 2|0 fnt
+|faint|p1a: Sars Cov 2
+|
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Greninja|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|60/100
+|
+|-heal|p2a: Rotom|66/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Clodsire|Clodsire, M, shiny|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|turn|9
+|
+|switch|p1a: Corviknight|Corviknight, M, shiny|92/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ting-Lu|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|turn|10
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: its not pokemon|move: Stealth Rock
+|
+|turn|11
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Ting-Lu|Whirlwind|p1a: Corviknight
+|drag|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Greninja|94/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Wash|66/100
+|move|p1a: Greninja|Ice Beam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|
+|-heal|p1a: Greninja|99/100|[from] item: Leftovers
+|-heal|p2a: Rotom|59/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Clodsire|Clodsire, M, shiny|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|51/100
+|
+|-heal|p2a: Rotom|66/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|57/100|[from] item: Black Sludge
+|turn|14
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Clodsire|Toxic|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p2a: Rotom|72/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|64/100|[from] item: Black Sludge
+|turn|15
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Clodsire|Toxic|p2a: Slowking
+|-immune|p2a: Slowking
+|
+|-heal|p1a: Clodsire|70/100|[from] item: Black Sludge
+|turn|16
+|
+|switch|p1a: Greninja|Greninja, M|99/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|move|p2a: Slowking|Psyshock|p1a: Greninja
+|-immune|p1a: Greninja
+|
+|-heal|p1a: Greninja|94/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Wash|72/100
+|move|p1a: Greninja|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|32/100
+|
+|-heal|p1a: Greninja|99/100|[from] item: Leftovers
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Greninja|Dark Pulse|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p1a: Greninja|100/100|[from] item: Leftovers
+|-heal|p2a: Rotom|45/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|cant|p2a: Rotom|flinch
+|
+|-heal|p2a: Rotom|12/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Greninja|Dark Pulse|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p2a: Rotom|18/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Greninja|Dark Pulse|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|89/100
+|
+|-heal|p2a: Ting-Lu|95/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Corviknight|Corviknight, M, shiny|92/100
+|-damage|p1a: Corviknight|80/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ting-Lu|Whirlwind|p1a: Corviknight
+|drag|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|
+|-heal|p2a: Ting-Lu|100/100|[from] item: Leftovers
+|turn|23
+|
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Corviknight|Corviknight, M, shiny|80/100
+|-damage|p1a: Corviknight|68/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ting-Lu|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|turn|24
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Ting-Lu|Whirlwind|p1a: Corviknight
+|drag|p1a: Clodsire|Clodsire, M, shiny|70/100
+|-damage|p1a: Clodsire|64/100|[from] Stealth Rock
+|
+|-heal|p1a: Clodsire|70/100|[from] item: Black Sludge
+|turn|25
+|
+|move|p2a: Ting-Lu|Earthquake|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Greninja|Ice Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|78/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Greninja
+|-damage|p1a: Greninja|27/100
+|
+|-heal|p1a: Greninja|33/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|84/100|[from] item: Leftovers
+|turn|27
+|
+|move|p1a: Greninja|Ice Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|63/100
+|-status|p2a: Ting-Lu|frz
+|cant|p2a: Ting-Lu|frz
+|
+|-heal|p1a: Greninja|39/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|69/100 frz|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Greninja|Surf|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|33/100 frz
+|cant|p2a: Ting-Lu|frz
+|
+|-heal|p1a: Greninja|45/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|40/100 frz|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Greninja|Surf|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|3/100 frz
+|cant|p2a: Ting-Lu|frz
+|
+|-heal|p1a: Greninja|51/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|9/100 frz|[from] item: Leftovers
+|turn|30
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Greninja|Water Shuriken|p2a: Slowking
+|-damage|p2a: Slowking|94/100
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|87/100
+|-damage|p2a: Slowking|81/100
+|-hitcount|p2a: Slowking|3
+|
+|-heal|p1a: Greninja|57/100|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|20/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|32
+|
+|switch|p2a: What da dog doin|Houndstone, M|84/100
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-heal|p2a: What da dog doin|90/100|[from] item: Leftovers
+|turn|33
+|
+|-terastallize|p2a: What da dog doin|Water
+|move|p1a: Mimikyu|Shadow Sneak|p2a: What da dog doin
+|-damage|p2a: What da dog doin|76/100
+|-damage|p1a: Mimikyu|78/100|[from] item: Life Orb
+|move|p2a: What da dog doin|Will-O-Wisp|p1a: Mimikyu
+|-status|p1a: Mimikyu|brn
+|
+|-heal|p2a: What da dog doin|82/100|[from] item: Leftovers
+|-damage|p1a: Mimikyu|72/100 brn|[from] brn
+|turn|34
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: What da dog doin|Night Shade|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|72/100 brn
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|60/100 brn|[from] pokemon: Mimikyu-Busted
+|
+|-heal|p2a: What da dog doin|88/100|[from] item: Leftovers
+|-damage|p1a: Mimikyu|54/100 brn|[from] brn
+|turn|35
+|
+|move|p1a: Mimikyu|Drain Punch|p2a: What da dog doin
+|-damage|p2a: What da dog doin|73/100
+|-heal|p1a: Mimikyu|64/100 brn|[from] drain|[of] p2a: What da dog doin
+|-damage|p1a: Mimikyu|54/100 brn|[from] item: Life Orb
+|move|p2a: What da dog doin|Night Shade|p1a: Mimikyu
+|-damage|p1a: Mimikyu|14/100 brn
+|
+|-heal|p2a: What da dog doin|79/100|[from] item: Leftovers
+|-damage|p1a: Mimikyu|8/100 brn|[from] brn
+|turn|36
+|
+|move|p2a: What da dog doin|Protect|p2a: What da dog doin
+|-singleturn|p2a: What da dog doin|Protect
+|move|p1a: Mimikyu|Play Rough|p2a: What da dog doin
+|-activate|p2a: What da dog doin|move: Protect
+|
+|-heal|p2a: What da dog doin|86/100|[from] item: Leftovers
+|-damage|p1a: Mimikyu|2/100 brn|[from] brn
+|turn|37
+|
+|move|p1a: Mimikyu|Play Rough|p2a: What da dog doin|[miss]
+|-miss|p1a: Mimikyu|p2a: What da dog doin
+|move|p2a: What da dog doin|Night Shade|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-heal|p2a: What da dog doin|92/100|[from] item: Leftovers
+|
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|38
+|
+|move|p2a: What da dog doin|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|move|p1a: Corviknight|Brave Bird|p2a: What da dog doin
+|-damage|p2a: What da dog doin|82/100
+|-damage|p1a: Corviknight|85/100 brn|[from] Recoil
+|
+|-heal|p2a: What da dog doin|88/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|79/100 brn|[from] brn
+|turn|39
+|
+|move|p2a: What da dog doin|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|54/100 brn
+|move|p1a: Corviknight|Brave Bird|p2a: What da dog doin
+|-damage|p2a: What da dog doin|79/100
+|-damage|p1a: Corviknight|52/100 brn|[from] Recoil
+|
+|-heal|p2a: What da dog doin|85/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|46/100 brn|[from] brn
+|turn|40
+|
+|move|p2a: What da dog doin|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|21/100 brn
+|move|p1a: Corviknight|Body Press|p2a: What da dog doin
+|-damage|p2a: What da dog doin|82/100
+|
+|-heal|p2a: What da dog doin|88/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|15/100 brn|[from] brn
+|turn|41
+|
+|move|p2a: What da dog doin|Protect|p2a: What da dog doin
+|-singleturn|p2a: What da dog doin|Protect
+|move|p1a: Corviknight|Brave Bird|p2a: What da dog doin
+|-activate|p2a: What da dog doin|move: Protect
+|
+|-heal|p2a: What da dog doin|94/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|9/100 brn|[from] brn
+|turn|42
+|
+|move|p2a: What da dog doin|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: What da dog doin|99/100|[from] item: Leftovers
+|
+|switch|p1a: Kingambit|Kingambit, M, shiny|94/100
+|-damage|p1a: Kingambit|88/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|43
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: What da dog doin
+|-damage|p2a: What da dog doin|71/100
+|move|p2a: What da dog doin|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|
+|-heal|p2a: What da dog doin|77/100|[from] item: Leftovers
+|-damage|p1a: Kingambit|82/100 brn|[from] brn
+|turn|44
+|
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: What da dog doin|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|ClashofClash

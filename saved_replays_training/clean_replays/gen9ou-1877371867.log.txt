@@ -1,0 +1,271 @@
+|poke|p1|Pelipper, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Gholdengo|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Amoonguss, M|
+|poke|p1|Great Tusk|
+|poke|p2|Cresselia, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Overqwil|Overqwil, M, shiny|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Overqwil|Taunt|p2a: Magearna
+|-start|p2a: Magearna|move: Taunt
+|cant|p2a: Magearna|move: Taunt|Calm Mind
+|
+|turn|2
+|
+|move|p1a: Overqwil|Toxic Spikes|p2a: Magearna
+|-sidestart|p2: BurgerThing|move: Toxic Spikes
+|move|p2a: Magearna|Draining Kiss|p1a: Overqwil
+|-damage|p1a: Overqwil|65/100
+|
+|turn|3
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Magearna|Draining Kiss|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|90/100
+|
+|-heal|p1a: Gholdengo|97/100|[from] item: Leftovers
+|-end|p2a: Magearna|move: Taunt
+|turn|4
+|
+|switch|p1a: RAM & SLAM|Great Tusk, shiny|100/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|turn|5
+|
+|-end|p1a: RAM & SLAM|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|97/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p1a: Gholdengo|100/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Gholdengo|Thunder Wave|p2a: Magearna
+|-status|p2a: Magearna|par
+|
+|turn|7
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|turn|8
+|
+|cant|p2a: Magearna|par
+|move|p1a: Gholdengo|Hex|p2a: Magearna
+|-damage|p2a: Magearna|60/100 par
+|
+|-heal|p2a: Magearna|66/100 par|[from] item: Leftovers
+|turn|9
+|
+|cant|p2a: Magearna|par
+|move|p1a: Gholdengo|Hex|p2a: Magearna
+|-damage|p2a: Magearna|24/100 par
+|
+|-heal|p2a: Magearna|30/100 par|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Magearna|Stored Power|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|38/100
+|move|p1a: Gholdengo|Hex|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|-heal|p1a: Gholdengo|44/100|[from] item: Leftovers
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-sideend|p2: BurgerThing|move: Toxic Spikes|[of] p2a: Clodsire
+|turn|11
+|
+|switch|p1a: LINK|Amoonguss, M, shiny|100/100
+|move|p2a: Clodsire|Stealth Rock|p1a: LINK
+|-sidestart|p1: lucenthine|move: Stealth Rock
+|
+|turn|12
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: LINK|Spore|p2a: Great Tusk
+|-status|p2a: Great Tusk|slp|[from] move: Spore
+|
+|turn|13
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: LINK|Giga Drain|p2a: Cresselia
+|-damage|p2a: Cresselia|86/100
+|
+|-heal|p2a: Cresselia|92/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Gholdengo|Gholdengo|44/100
+|-damage|p1a: Gholdengo|38/100|[from] Stealth Rock
+|move|p2a: Cresselia|Future Sight|p1a: Gholdengo
+|-start|p2a: Cresselia|move: Future Sight
+|
+|-heal|p2a: Cresselia|98/100|[from] item: Leftovers
+|-heal|p1a: Gholdengo|44/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100 slp
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|94/100
+|
+|-heal|p1a: Gholdengo|99/100|[from] item: Leftovers
+|turn|16
+|
+|cant|p2a: Great Tusk|slp
+|move|p1a: Gholdengo|Hex|p2a: Great Tusk
+|-damage|p2a: Great Tusk|20/100 slp
+|
+|-end|p1a: Gholdengo|move: Future Sight
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|75/100
+|-heal|p1a: Gholdengo|81/100|[from] item: Leftovers
+|turn|17
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Gholdengo|Hex|p2a: Clodsire
+|-damage|p2a: Clodsire|84/100
+|
+|-heal|p1a: Gholdengo|87/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|91/100|[from] item: Black Sludge
+|turn|18
+|
+|switch|p1a: Pelipe|Pelipper, M, shiny|100/100
+|-damage|p1a: Pelipe|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipe
+|move|p2a: Clodsire|Earthquake|p1a: Pelipe
+|-immune|p1a: Pelipe
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|97/100|[from] item: Black Sludge
+|turn|19
+|
+|move|p1a: Pelipe|Surf|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|49/100
+|move|p2a: Clodsire|Earthquake|p1a: Pelipe
+|-immune|p1a: Pelipe
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|55/100|[from] item: Black Sludge
+|turn|20
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p1a: Pelipe|Surf|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Urshifu|74/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Pelipe
+|-resisted|p1a: Pelipe
+|-crit|p1a: Pelipe
+|-damage|p1a: Pelipe|65/100
+|-resisted|p1a: Pelipe
+|-crit|p1a: Pelipe
+|-damage|p1a: Pelipe|54/100
+|-resisted|p1a: Pelipe
+|-crit|p1a: Pelipe
+|-damage|p1a: Pelipe|42/100
+|-hitcount|p1a: Pelipe|3
+|move|p1a: Pelipe|Hurricane|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|22
+|
+|switch|p1a: Overqwil|Overqwil, M, shiny|65/100
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Overqwil
+|-damage|p1a: Overqwil|4/100
+|
+|-weather|RainDance|[upkeep]
+|turn|23
+|
+|move|p1a: Overqwil|Toxic Spikes|p2a: Chien-Pao
+|-sidestart|p2: BurgerThing|move: Toxic Spikes
+|move|p2a: Chien-Pao|Crunch|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|24
+|
+|-terastallize|p1a: Basculegion|Water
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Basculegion
+|-damage|p1a: Basculegion|27/100
+|move|p1a: Basculegion|Surf|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Cresselia|Cresselia, F|98/100
+|turn|25
+|
+|move|p1a: Basculegion|Surf|p2a: Cresselia
+|-damage|p2a: Cresselia|19/100
+|move|p2a: Cresselia|Calm Mind|p2a: Cresselia
+|-boost|p2a: Cresselia|spa|1
+|-boost|p2a: Cresselia|spd|1
+|
+|-weather|none
+|-heal|p2a: Cresselia|25/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Basculegion|Surf|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|
+|switch|p2a: Clodsire|Clodsire, M|55/100
+|-sideend|p2: BurgerThing|move: Toxic Spikes|[of] p2a: Clodsire
+|turn|27
+|
+|switch|p1a: Pelipe|Pelipper, M, shiny|42/100
+|-damage|p1a: Pelipe|17/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipe
+|-terastallize|p2a: Clodsire|Dark
+|move|p2a: Clodsire|Earthquake|p1a: Pelipe
+|-immune|p1a: Pelipe
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Clodsire|42/100|[from] item: Black Sludge
+|turn|28
+|-message|BurgerThing forfeited.
+|
+|win|lucenthine

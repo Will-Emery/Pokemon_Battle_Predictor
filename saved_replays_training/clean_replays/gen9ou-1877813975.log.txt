@@ -1,0 +1,231 @@
+|poke|p1|Maushold-Four|
+|poke|p1|Dragapult, M|
+|poke|p1|Dondozo, M|
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Gholdengo|
+|poke|p2|Cinderace, F|
+|poke|p2|Toxtricity-Low-Key, M|
+|poke|p2|Gengar, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Spiritomb, M|
+|poke|p2|Greninja, M|
+|teampreview
+|
+|start
+|switch|p1a: String Cheese Man|Gholdengo|100/100
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|turn|1
+|
+|move|p1a: String Cheese Man|Trick|p2a: Toxtricity
+|-activate|p1a: String Cheese Man|move: Trick|[of] p2a: Toxtricity
+|-item|p2a: Toxtricity|Black Sludge|[from] move: Trick
+|-item|p1a: String Cheese Man|Choice Specs|[from] move: Trick
+|move|p2a: Toxtricity|Overdrive|p1a: String Cheese Man
+|-damage|p1a: String Cheese Man|36/100
+|
+|turn|2
+|
+|switch|p1a: Ricky|Dondozo, M|100/100
+|move|p2a: Toxtricity|Volt Switch|p1a: Ricky
+|-supereffective|p1a: Ricky
+|-damage|p1a: Ricky|26/100
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from] Volt Switch
+|
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ricky
+|-supereffective|p1a: Ricky
+|-damage|p1a: Ricky|0 fnt
+|faint|p1a: Ricky
+|
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|100/100|[from] Volt Switch
+|
+|
+|switch|p1a: Tara Bailey|Magearna|100/100
+|turn|4
+|
+|move|p2a: Toxtricity|Volt Switch|p1a: Tara Bailey
+|-damage|p1a: Tara Bailey|67/100
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from] Volt Switch
+|move|p1a: Tara Bailey|Shift Gear|p1a: Tara Bailey
+|-boost|p1a: Tara Bailey|spe|2
+|-boost|p1a: Tara Bailey|atk|1
+|
+|turn|5
+|
+|move|p1a: Tara Bailey|Shift Gear|p1a: Tara Bailey
+|-boost|p1a: Tara Bailey|spe|2
+|-boost|p1a: Tara Bailey|atk|1
+|move|p2a: Rotom|Overheat|p1a: Tara Bailey
+|-supereffective|p1a: Tara Bailey
+|-damage|p1a: Tara Bailey|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Tara Bailey
+|
+|
+|switch|p1a: Chow-Mein|Chien-Pao|100/100
+|-ability|p1a: Chow-Mein|Sword of Ruin
+|turn|6
+|
+|move|p1a: Chow-Mein|Swords Dance|p1a: Chow-Mein
+|-boost|p1a: Chow-Mein|atk|2
+|move|p2a: Rotom|Will-O-Wisp|p1a: Chow-Mein
+|-status|p1a: Chow-Mein|brn
+|
+|-damage|p1a: Chow-Mein|95/100 brn|[from] brn
+|turn|7
+|
+|move|p1a: Chow-Mein|Sacred Sword|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|-damage|p1a: Chow-Mein|78/100 brn|[from] item: Rocky Helmet|[of] p2a: Rotom
+|move|p2a: Rotom|Overheat|p1a: Chow-Mein
+|-supereffective|p1a: Chow-Mein
+|-damage|p1a: Chow-Mein|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Chow-Mein
+|
+|
+|switch|p1a: String Cheese Man|Gholdengo|36/100
+|turn|8
+|
+|move|p2a: Rotom|Overheat|p1a: String Cheese Man
+|-supereffective|p1a: String Cheese Man
+|-damage|p1a: String Cheese Man|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: String Cheese Man
+|
+|
+|switch|p1a: Germany|Maushold-Four|100/100
+|turn|9
+|
+|move|p1a: Germany|Tidy Up|p1a: Germany
+|-boost|p1a: Germany|atk|1
+|-boost|p1a: Germany|spe|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: Germany
+|-status|p1a: Germany|brn
+|
+|-damage|p1a: Germany|94/100 brn|[from] brn
+|turn|10
+|
+|move|p1a: Germany|Tidy Up|p1a: Germany
+|-boost|p1a: Germany|atk|1
+|-boost|p1a: Germany|spe|1
+|move|p2a: Rotom|Volt Switch|p1a: Germany
+|-damage|p1a: Germany|81/100 brn
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] Volt Switch
+|
+|-damage|p1a: Germany|75/100 brn|[from] brn
+|turn|11
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Germany
+|-damage|p1a: Germany|23/100 brn
+|move|p1a: Germany|Population Bomb|p2a: Cinderace
+|-damage|p2a: Cinderace|86/100
+|-damage|p2a: Cinderace|71/100
+|-damage|p2a: Cinderace|55/100
+|-damage|p2a: Cinderace|40/100
+|-damage|p2a: Cinderace|23/100
+|-damage|p2a: Cinderace|8/100
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-hitcount|p2: Cinderace|7
+|
+|-damage|p1a: Germany|16/100 brn|[from] brn
+|
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|-ability|p2a: Spiritomb|Pressure
+|turn|12
+|
+|move|p2a: Spiritomb|Protect|p2a: Spiritomb
+|-singleturn|p2a: Spiritomb|Protect
+|move|p1a: Germany|Shadow Claw|p2a: Spiritomb
+|-activate|p2a: Spiritomb|move: Protect
+|
+|-damage|p1a: Germany|10/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Germany|Shadow Claw|p2a: Spiritomb
+|-damage|p2a: Spiritomb|84/100
+|move|p2a: Spiritomb|Phantom Force||[still]
+|-prepare|p2a: Spiritomb|Phantom Force
+|
+|-heal|p2a: Spiritomb|90/100|[from] item: Leftovers
+|-damage|p1a: Germany|4/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Germany|Population Bomb|p2a: Spiritomb|[miss]
+|-miss|p1a: Germany|p2a: Spiritomb
+|move|p2a: Spiritomb|Phantom Force|p1a: Germany|[from]lockedmove
+|-immune|p1a: Germany
+|
+|-heal|p2a: Spiritomb|97/100|[from] item: Leftovers
+|-damage|p1a: Germany|0 fnt|[from] brn
+|faint|p1a: Germany
+|
+|switch|p1a: Weezer|Dragapult, M|100/100
+|turn|15
+|
+|move|p1a: Weezer|Dragon Dance|p1a: Weezer
+|-boost|p1a: Weezer|atk|1
+|-boost|p1a: Weezer|spe|1
+|move|p2a: Spiritomb|Phantom Force||[still]
+|-prepare|p2a: Spiritomb|Phantom Force
+|
+|-heal|p2a: Spiritomb|100/100|[from] item: Leftovers
+|turn|16
+|
+|-terastallize|p1a: Weezer|Dragon
+|move|p1a: Weezer|Dragon Dance|p1a: Weezer
+|-boost|p1a: Weezer|atk|1
+|-boost|p1a: Weezer|spe|1
+|move|p2a: Spiritomb|Phantom Force|p1a: Weezer|[from]lockedmove
+|-damage|p1a: Weezer|63/100
+|
+|turn|17
+|
+|move|p1a: Weezer|Dragon Darts|p2a: Spiritomb
+|-crit|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|
+|switch|p2a: Rotom|Rotom-Heat|52/100
+|turn|18
+|
+|move|p1a: Weezer|Dragon Darts|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|turn|19
+|
+|-terastallize|p2a: Gengar|Normal
+|move|p1a: Weezer|Dragon Darts|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|turn|20
+|
+|move|p1a: Weezer|Dragon Darts|p2a: Toxtricity
+|-damage|p2a: Toxtricity|11/100
+|-anim|p1a: Weezer|Dragon Darts|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|21
+|
+|move|p1a: Weezer|Dragon Darts|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|win|Proteinman11

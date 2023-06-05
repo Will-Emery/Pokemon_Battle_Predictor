@@ -1,1 +1,256 @@
-Could not connect
+|j|☆YoungEsq
+|j|☆bmoc19
+|t:|1685906424
+|gametype|singles
+|player|p1|YoungEsq|102|
+|player|p2|bmoc19|cheren-gen5bw2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Iron Moth|
+|poke|p1|Rotom-Heat|
+|poke|p1|Skeledirge, F|
+|poke|p1|Scovillain, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Ceruledge, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1685906438
+|start
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|t:|1685906449
+|move|p1a: Rotom|Overheat|p2a: Zamazenta
+|-damage|p2a: Zamazenta|70/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Zamazenta|Stone Edge|p1a: Rotom|[miss]
+|-miss|p2a: Zamazenta|p1a: Rotom
+|
+|upkeep
+|turn|2
+|
+|t:|1685906473
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Zamazenta|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|68/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1685906485
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100
+|move|p2a: Zamazenta|Stone Edge|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685906494
+|switch|p1a: Scovillain|Scovillain, M|100/100
+|turn|4
+|
+|t:|1685906500
+|move|p1a: Scovillain|Growth|p1a: Scovillain
+|-boost|p1a: Scovillain|atk|2
+|-boost|p1a: Scovillain|spa|2
+|move|p2a: Zamazenta|Play Rough|p1a: Scovillain
+|-resisted|p1a: Scovillain
+|-damage|p1a: Scovillain|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1685906510
+|move|p1a: Scovillain|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Scovillain|67/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685906522
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|6
+|
+|t:|1685906533
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|22/100
+|-damage|p1a: Scovillain|57/100|[from] item: Life Orb
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1685906544
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1a: Scovillain|47/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685906554
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|8
+|
+|t:|1685906561
+|-terastallize|p2a: Corviknight|Flying
+|move|p1a: Scovillain|Flamethrower|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-damage|p1a: Scovillain|37/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1685906571
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|9
+|
+|t:|1685906581
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1685906593
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|11
+|
+|t:|1685906602
+|move|p1a: Iron Moth|Discharge|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|move|p2a: Toxapex|Chilling Water|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|79/100
+|-unboost|p1a: Iron Moth|atk|1
+|
+|-heal|p2a: Toxapex|45/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1685906613
+|move|p1a: Iron Moth|Discharge|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1685906620
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|13
+|
+|t:|1685906625
+|move|p1a: Iron Moth|Sludge Wave|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1685906630
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|14
+|
+|t:|1685906638
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1685906647
+|switch|p1a: Torkoal|Torkoal, F|68/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|15
+|
+|t:|1685906653
+|move|p2a: Kingambit|Iron Head|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|47/100
+|move|p1a: Torkoal|Yawn|p2a: Kingambit
+|-start|p2a: Kingambit|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1685906662
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Kingambit|move: Yawn|[silent]
+|-status|p2a: Kingambit|slp
+|upkeep
+|
+|t:|1685906669
+|switch|p1a: Scovillain|Scovillain, M|37/100
+|turn|17
+|
+|t:|1685906674
+|cant|p2a: Kingambit|slp
+|move|p1a: Scovillain|Flamethrower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|-damage|p1a: Scovillain|27/100|[from] item: Life Orb
+|
+|win|YoungEsq

@@ -1,0 +1,239 @@
+|poke|p1|Sneasler, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Great Tusk|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Breloom, M|
+|poke|p2|Great Tusk|
+|poke|p2|Skeledirge, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Braviary-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|1
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Breloom|Spore|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Spore
+|
+|turn|2
+|
+|move|p2a: Breloom|Mach Punch|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|41/100 slp
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Breloom|spe|1
+|cant|p1a: Goodra|slp
+|
+|turn|3
+|
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|
+|turn|4
+|
+|-terastallize|p2a: Skeledirge|Fairy
+|move|p1a: Basculegion|Shadow Ball|p2a: Skeledirge
+|-damage|p2a: Skeledirge|48/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Basculegion
+|-status|p1a: Basculegion|brn
+|
+|-damage|p1a: Basculegion|94/100 brn|[from] brn
+|turn|5
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Basculegion|Shadow Ball|p2a: Dragonite
+|-damage|p2a: Dragonite|58/100
+|
+|-damage|p1a: Basculegion|88/100 brn|[from] brn
+|turn|6
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Basculegion|Shadow Ball|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-damage|p1a: Basculegion|82/100 brn|[from] brn
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|7
+|
+|switch|p1a: Goodra|Goodra-Hisui, F|41/100 slp
+|move|p2a: Breloom|Bullet Seed|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|35/100 slp
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|30/100 slp
+|-hitcount|p1a: Goodra|2
+|
+|turn|8
+|
+|move|p2a: Breloom|Mach Punch|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Breloom|spe|1
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Basculegion|Basculegion-F, F|82/100 brn
+|turn|9
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Basculegion|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Basculegion|76/100 brn|[from] brn
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|10
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Garchomp|Draco Meteor|p1a: Great Tusk
+|-damage|p1a: Great Tusk|4/100
+|-unboost|p2a: Garchomp|spa|2
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Great Tusk|10/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: KingdomPlebs|move: Stealth Rock
+|move|p1a: Great Tusk|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Hex333|move: Stealth Rock
+|
+|-heal|p1a: Great Tusk|16/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Garchomp|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Garchomp|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Skeledirge|Skeledirge, F, tera:Fairy|48/100
+|-terastallize|p1a: Hydreigon|Poison
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|63/100
+|
+|-heal|p1a: Hydreigon|69/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|35/100
+|move|p2a: Skeledirge|Torch Song|p1a: Hydreigon
+|-damage|p1a: Hydreigon|38/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Hydreigon|44/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|85/100
+|
+|turn|16
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Hydreigon|Hydreigon, M, tera:Poison|44/100
+|-damage|p1a: Hydreigon|32/100|[from] Stealth Rock
+|move|p2a: Braviary|Esper Wing|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|18
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-crit|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Sneasler|Sneasler, M|95/100
+|-damage|p1a: Sneasler|89/100|[from] Stealth Rock
+|move|p2a: Breloom|Bullet Seed|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|72/100
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|52/100
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|33/100
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|15/100
+|-hitcount|p1a: Sneasler|4
+|
+|turn|20
+|
+|move|p2a: Breloom|Mach Punch|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Basculegion|Basculegion-F, F|76/100 brn
+|-damage|p1a: Basculegion|64/100 brn|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-damage|p1a: Basculegion|58/100 brn|[from] brn
+|
+|switch|p2a: Garchomp|Garchomp, M|81/100
+|-damage|p2a: Garchomp|75/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Garchomp|Earthquake|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|-damage|p2a: Garchomp|65/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|76/100
+|-damage|p1a: Chien-Pao|51/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|23
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|win|KingdomPlebs

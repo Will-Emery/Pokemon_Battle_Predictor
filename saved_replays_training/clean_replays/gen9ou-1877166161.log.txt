@@ -1,0 +1,258 @@
+|poke|p1|Gyarados, F|
+|poke|p1|Carkol, F|
+|poke|p1|Gholdengo|
+|poke|p1|Dachsbun, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragapult, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Armarouge, M|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Murkrow, F|
+|poke|p2|Clawitzer, M|
+|poke|p2|Kilowattrel, M|
+|teampreview
+|
+|start
+|switch|p1a: no im scarf|Dragapult, F|100/100
+|switch|p2a: Birb|Murkrow, F|100/100
+|turn|1
+|
+|move|p1a: no im scarf|U-turn|p2a: Birb
+|-damage|p2a: Birb|66/100
+|
+|switch|p1a: Do you feel lucky?|Carkol, F|100/100|[from] U-turn
+|move|p2a: Birb|Foul Play|p1a: Do you feel lucky?
+|-damage|p1a: Do you feel lucky?|90/100
+|
+|turn|2
+|
+|move|p2a: Birb|Taunt|p1a: Do you feel lucky?
+|-start|p1a: Do you feel lucky?|move: Taunt
+|cant|p1a: Do you feel lucky?|move: Taunt|Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Birb|U-turn|p1a: Do you feel lucky?
+|-resisted|p1a: Do you feel lucky?
+|-damage|p1a: Do you feel lucky?|87/100
+|
+|switch|p2a: Army|Armarouge, M, shiny|100/100|[from] U-turn
+|move|p1a: Do you feel lucky?|Rock Blast|p2a: Army
+|-supereffective|p2a: Army
+|-crit|p2a: Army
+|-damage|p2a: Army|86/100
+|-ability|p2a: Army|Weak Armor|boost
+|-unboost|p2a: Army|def|1
+|-boost|p2a: Army|spe|2
+|-enditem|p2a: Army|Weakness Policy
+|-boost|p2a: Army|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Army|spa|2|[from] item: Weakness Policy
+|-supereffective|p2a: Army
+|-damage|p2a: Army|70/100
+|-ability|p2a: Army|Weak Armor|boost
+|-unboost|p2a: Army|def|1
+|-boost|p2a: Army|spe|2
+|-supereffective|p2a: Army
+|-damage|p2a: Army|51/100
+|-ability|p2a: Army|Weak Armor|boost
+|-unboost|p2a: Army|def|1
+|-boost|p2a: Army|spe|2
+|-supereffective|p2a: Army
+|-damage|p2a: Army|28/100
+|-ability|p2a: Army|Weak Armor|boost
+|-unboost|p2a: Army|def|1
+|-hitcount|p2a: Army|4
+|
+|turn|4
+|
+|move|p2a: Army|Stored Power|p1a: Do you feel lucky?
+|-damage|p1a: Do you feel lucky?|0 fnt
+|faint|p1a: Do you feel lucky?
+|
+|
+|switch|p1a: no im scarf|Dragapult, F|100/100
+|turn|5
+|
+|move|p1a: no im scarf|Sucker Punch|p2a: Army
+|-supereffective|p2a: Army
+|-damage|p2a: Army|0 fnt
+|faint|p2a: Army
+|
+|
+|switch|p2a: DaBug|Volcarona, F|100/100
+|turn|6
+|
+|switch|p1a: Get Out|Gyarados, F, shiny|100/100
+|-ability|p1a: Get Out|Intimidate|boost
+|-unboost|p2a: DaBug|atk|1
+|-terastallize|p2a: DaBug|Fairy
+|move|p2a: DaBug|Quiver Dance|p2a: DaBug
+|-boost|p2a: DaBug|spa|1
+|-boost|p2a: DaBug|spd|1
+|-boost|p2a: DaBug|spe|1
+|
+|turn|7
+|
+|switch|p1a: carkol biggest fan|Dachsbun, F|100/100
+|move|p2a: DaBug|Quiver Dance|p2a: DaBug
+|-boost|p2a: DaBug|spa|1
+|-boost|p2a: DaBug|spd|1
+|-boost|p2a: DaBug|spe|1
+|
+|turn|8
+|
+|move|p2a: DaBug|Tera Blast|p1a: carkol biggest fan
+|-damage|p1a: carkol biggest fan|25/100
+|move|p1a: carkol biggest fan|Roar|p2a: DaBug
+|drag|p2a: Indoodoo|Indeedee-F, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indoodoo
+|
+|-heal|p1a: carkol biggest fan|31/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Get Out|Gyarados, F, shiny|100/100
+|-ability|p1a: Get Out|Intimidate|boost
+|-unboost|p2a: Indoodoo|atk|1
+|move|p2a: Indoodoo|Psychic|p1a: Get Out
+|-damage|p1a: Get Out|79/100
+|
+|turn|10
+|
+|move|p1a: Get Out|Waterfall|p2a: Indoodoo
+|-damage|p2a: Indoodoo|46/100
+|move|p2a: Indoodoo|Trick|p1a: Get Out
+|-activate|p2a: Indoodoo|move: Trick|[of] p1a: Get Out
+|-item|p1a: Get Out|Lagging Tail|[from] move: Trick
+|-item|p2a: Indoodoo|Assault Vest|[from] move: Trick
+|
+|turn|11
+|
+|switch|p2a: Kilogram|Kilowattrel, M, shiny|100/100
+|move|p1a: Get Out|Waterfall|p2a: Kilogram
+|-damage|p2a: Kilogram|46/100
+|
+|turn|12
+|
+|switch|p1a: im scarf|Gholdengo|100/100
+|move|p2a: Kilogram|Volt Switch|p1a: im scarf
+|-damage|p1a: im scarf|62/100
+|
+|switch|p2a: M198 Bulldog|Clawitzer, M, shiny|100/100|[from] Volt Switch
+|
+|-fieldend|move: Psychic Terrain
+|turn|13
+|
+|switch|p1a: Get Out|Gyarados, F, shiny|79/100
+|-ability|p1a: Get Out|Intimidate|boost
+|-unboost|p2a: M198 Bulldog|atk|1
+|move|p2a: M198 Bulldog|Water Pulse|p1a: Get Out
+|-resisted|p1a: Get Out
+|-damage|p1a: Get Out|57/100
+|
+|turn|14
+|
+|switch|p2a: Kilogram|Kilowattrel, M, shiny|46/100
+|move|p1a: Get Out|Stone Edge|p2a: Kilogram
+|-supereffective|p2a: Kilogram
+|-damage|p2a: Kilogram|0 fnt
+|faint|p2a: Kilogram
+|
+|
+|switch|p2a: M198 Bulldog|Clawitzer, M, shiny|100/100
+|turn|15
+|
+|move|p2a: M198 Bulldog|Dark Pulse|p1a: Get Out
+|-damage|p1a: Get Out|16/100
+|move|p1a: Get Out|Dragon Tail|p2a: M198 Bulldog
+|-damage|p2a: M198 Bulldog|79/100
+|drag|p2a: Birb|Murkrow, F|66/100
+|
+|turn|16
+|
+|switch|p1a: carkol biggest fan|Dachsbun, F|31/100
+|move|p2a: Birb|U-turn|p1a: carkol biggest fan
+|-resisted|p1a: carkol biggest fan
+|-damage|p1a: carkol biggest fan|24/100
+|
+|switch|p2a: Indoodoo|Indeedee-F, F, shiny|46/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indoodoo
+|
+|-heal|p1a: carkol biggest fan|30/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Indoodoo|Psychic|p1a: carkol biggest fan
+|-damage|p1a: carkol biggest fan|0 fnt
+|faint|p1a: carkol biggest fan
+|
+|
+|switch|p1a: im scarf|Gholdengo|62/100
+|turn|18
+|
+|move|p1a: im scarf|Shadow Ball|p2a: Indoodoo
+|-immune|p2a: Indoodoo
+|move|p2a: Indoodoo|Psychic|p1a: im scarf
+|-resisted|p1a: im scarf
+|-damage|p1a: im scarf|35/100
+|
+|turn|19
+|
+|switch|p1a: Get Out|Gyarados, F, shiny|16/100
+|-ability|p1a: Get Out|Intimidate|boost
+|-unboost|p2a: Indoodoo|atk|1
+|move|p2a: Indoodoo|Psychic|p1a: Get Out
+|-damage|p1a: Get Out|0 fnt
+|faint|p1a: Get Out
+|
+|
+|switch|p1a: CandyMan|Iron Valiant|100/100
+|-enditem|p1a: CandyMan|Booster Energy
+|-activate|p1a: CandyMan|ability: Quark Drive|[fromitem]
+|-start|p1a: CandyMan|quarkdrivespe
+|turn|20
+|
+|move|p1a: CandyMan|Knock Off|p2a: Indoodoo
+|-supereffective|p2a: Indoodoo
+|-damage|p2a: Indoodoo|0 fnt
+|-enditem|p2a: Indoodoo|Assault Vest|[from] move: Knock Off|[of] p1a: CandyMan
+|faint|p2a: Indoodoo
+|
+|-fieldend|move: Psychic Terrain
+|
+|switch|p2a: M198 Bulldog|Clawitzer, M, shiny|79/100
+|turn|21
+|
+|move|p1a: CandyMan|Close Combat|p2a: M198 Bulldog
+|-crit|p2a: M198 Bulldog
+|-damage|p2a: M198 Bulldog|0 fnt
+|-unboost|p1a: CandyMan|def|1
+|-unboost|p1a: CandyMan|spd|1
+|faint|p2a: M198 Bulldog
+|
+|n| arothunder|arothunder
+|
+|switch|p2a: DaBug|Volcarona, F, tera:Fairy|100/100
+|turn|22
+|
+|-terastallize|p1a: CandyMan|Fairy
+|move|p1a: CandyMan|Spirit Break|p2a: DaBug
+|-damage|p2a: DaBug|38/100
+|-unboost|p2a: DaBug|spa|1
+|move|p2a: DaBug|Tera Blast|p1a: CandyMan
+|-damage|p1a: CandyMan|34/100
+|
+|turn|23
+|
+|move|p1a: CandyMan|Spirit Break|p2a: DaBug
+|-damage|p2a: DaBug|0 fnt
+|faint|p2a: DaBug
+|
+|
+|switch|p2a: Birb|Murkrow, F|66/100
+|turn|24
+|
+|move|p1a: CandyMan|Spirit Break|p2a: Birb
+|-supereffective|p2a: Birb
+|-damage|p2a: Birb|0 fnt
+|faint|p2a: Birb
+|
+|win|karatemanjohnson

@@ -1,0 +1,225 @@
+|poke|p1|Flamigo, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Treads|
+|poke|p1|Zapdos|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Breloom, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Typhlosion, M|
+|teampreview
+|
+|start
+|switch|p1a: Refed Eour|Iron Treads|100/100
+|switch|p2a: Typhlosion|Typhlosion, M|100/100
+|turn|1
+|
+|move|p2a: Typhlosion|Eruption|p1a: Refed Eour
+|-supereffective|p1a: Refed Eour
+|-enditem|p1a: Refed Eour|Focus Sash
+|-damage|p1a: Refed Eour|1/100
+|move|p1a: Refed Eour|Stealth Rock|p2a: Typhlosion
+|-sidestart|p2: ttars nuts|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Typhlosion|Eruption|p1a: Refed Eour
+|-supereffective|p1a: Refed Eour
+|-damage|p1a: Refed Eour|0 fnt
+|faint|p1a: Refed Eour
+|-end|p1a: Refed Eour|Quark Drive|[silent]
+|
+|
+|switch|p1a: Refed Etim|Iron Moth|100/100
+|-enditem|p1a: Refed Etim|Booster Energy
+|-activate|p1a: Refed Etim|ability: Quark Drive|[fromitem]
+|-start|p1a: Refed Etim|quarkdrivespe
+|turn|3
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|-terastallize|p1a: Refed Etim|Water
+|move|p1a: Refed Etim|Tera Blast|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|49/100
+|
+|-heal|p2a: Clodsire|55/100|[from] item: Black Sludge
+|turn|4
+|
+|move|p1a: Refed Etim|Fiery Dance|p2a: Clodsire
+|-damage|p2a: Clodsire|32/100
+|move|p2a: Clodsire|Toxic|p1a: Refed Etim
+|-status|p1a: Refed Etim|tox
+|
+|-heal|p2a: Clodsire|38/100|[from] item: Black Sludge
+|-damage|p1a: Refed Etim|95/100 tox|[from] psn
+|turn|5
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|-damage|p2a: Goodra|95/100|[from] Stealth Rock
+|move|p1a: Refed Etim|Tera Blast|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|84/100
+|
+|-damage|p1a: Refed Etim|83/100 tox|[from] psn
+|turn|6
+|
+|move|p1a: Refed Etim|Fiery Dance|p2a: Goodra
+|-damage|p2a: Goodra|62/100
+|move|p2a: Goodra|Draco Meteor|p1a: Refed Etim
+|-damage|p1a: Refed Etim|11/100 tox
+|-unboost|p2a: Goodra|spa|2
+|
+|-damage|p1a: Refed Etim|0 fnt|[from] psn
+|faint|p1a: Refed Etim
+|-end|p1a: Refed Etim|Quark Drive|[silent]
+|
+|switch|p1a: Refed Edrag|Iron Valiant|100/100
+|-enditem|p1a: Refed Edrag|Booster Energy
+|-activate|p1a: Refed Edrag|ability: Quark Drive|[fromitem]
+|-start|p1a: Refed Edrag|quarkdrivespe
+|turn|7
+|
+|switch|p2a: Clodsire|Clodsire, F|38/100
+|-damage|p2a: Clodsire|32/100|[from] Stealth Rock
+|move|p1a: Refed Edrag|Calm Mind|p1a: Refed Edrag
+|-boost|p1a: Refed Edrag|spa|1
+|-boost|p1a: Refed Edrag|spd|1
+|
+|-heal|p2a: Clodsire|38/100|[from] item: Black Sludge
+|turn|8
+|
+|move|p1a: Refed Edrag|Psyshock|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|9
+|
+|move|p1a: Refed Edrag|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|9/100
+|move|p2a: Corviknight|Brave Bird|p1a: Refed Edrag
+|-supereffective|p1a: Refed Edrag
+|-damage|p1a: Refed Edrag|0 fnt
+|faint|p1a: Refed Edrag
+|-end|p1a: Refed Edrag|Quark Drive|[silent]
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p2a: Corviknight
+|
+|
+|switch|p1a: Thorélec|Zapdos|100/100
+|switch|p2a: Typhlosion|Typhlosion, M|100/100
+|-damage|p2a: Typhlosion|76/100|[from] Stealth Rock
+|turn|10
+|
+|-terastallize|p2a: Typhlosion|Fire
+|move|p2a: Typhlosion|Eruption|p1a: Thorélec
+|-damage|p1a: Thorélec|28/100
+|move|p1a: Thorélec|Hurricane|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|62/100
+|-damage|p2a: Goodra|56/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Thorélec|Heat Wave|p2a: Goodra
+|-damage|p2a: Goodra|37/100
+|move|p2a: Goodra|Flash Cannon|p1a: Thorélec
+|-resisted|p1a: Thorélec
+|-damage|p1a: Thorélec|9/100
+|
+|turn|12
+|
+|move|p1a: Thorélec|Roost|p1a: Thorélec
+|-heal|p1a: Thorélec|59/100
+|-singleturn|p1a: Thorélec|move: Roost
+|move|p2a: Goodra|Flash Cannon|p1a: Thorélec
+|-resisted|p1a: Thorélec
+|-damage|p1a: Thorélec|39/100
+|-unboost|p1a: Thorélec|spd|1
+|
+|turn|13
+|
+|move|p1a: Thorélec|Heat Wave|p2a: Goodra
+|-damage|p2a: Goodra|19/100
+|-status|p2a: Goodra|brn
+|move|p2a: Goodra|Flash Cannon|p1a: Thorélec
+|-resisted|p1a: Thorélec
+|-damage|p1a: Thorélec|7/100
+|
+|-damage|p2a: Goodra|13/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Thorélec|Roost|p1a: Thorélec
+|-heal|p1a: Thorélec|57/100
+|-singleturn|p1a: Thorélec|move: Roost
+|move|p2a: Goodra|Draco Meteor|p1a: Thorélec
+|-crit|p1a: Thorélec
+|-damage|p1a: Thorélec|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Thorélec
+|
+|-damage|p2a: Goodra|7/100 brn|[from] brn
+|
+|switch|p1a: Roulenflam|Flamigo, F|100/100
+|turn|15
+|
+|move|p1a: Roulenflam|Brave Bird|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|-damage|p1a: Roulenflam|98/100|[from] Recoil
+|
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Roulenflam|Brave Bird|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|-damage|p1a: Roulenflam|72/100|[from] Recoil
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|17
+|
+|move|p1a: Roulenflam|Brave Bird|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|46/100
+|-damage|p1a: Roulenflam|55/100|[from] Recoil
+|move|p2a: Zamazenta|Body Press|p1a: Roulenflam
+|-resisted|p1a: Roulenflam
+|-damage|p1a: Roulenflam|0 fnt
+|faint|p1a: Roulenflam
+|-damage|p2a: Zamazenta|36/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Obanija|Chien-Pao|100/100
+|-ability|p1a: Obanija|Sword of Ruin
+|turn|18
+|
+|move|p1a: Obanija|Icicle Crash|p2a: Zamazenta
+|-damage|p2a: Zamazenta|10/100
+|move|p2a: Zamazenta|Body Press|p1a: Obanija
+|-supereffective|p1a: Obanija
+|-damage|p1a: Obanija|0 fnt
+|faint|p1a: Obanija
+|-damage|p2a: Zamazenta|0 fnt|[from] item: Life Orb
+|faint|p2a: Zamazenta
+|
+|win|ttars nuts

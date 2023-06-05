@@ -1,0 +1,101 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p2|Scream Tail|
+|poke|p2|Iron Valiant|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] Chilly Reception
+|move|p1a: Torkoal|Yawn|p2a: Kingambit
+|-start|p2a: Kingambit|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|Snow|[upkeep]
+|turn|2
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Slowking
+|-sidestart|p2: BHolePunisher420|move: Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|move|p2a: Slowking|Surf|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|38/100
+|move|p1a: Torkoal|Yawn|p2a: Slowking
+|-start|p2a: Slowking|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|move|p1a: Walking Wake|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|4/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|none
+|turn|6
+|
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|54/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|move|p2a: Iron Valiant|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|2/100
+|-enditem|p1a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Torkoal|Yawn|p2a: Iron Valiant
+|-start|p2a: Iron Valiant|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|-message|BHolePunisher420 forfeited.
+|
+|win|vezon46

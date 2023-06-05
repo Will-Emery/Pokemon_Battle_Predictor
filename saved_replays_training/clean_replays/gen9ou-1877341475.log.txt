@@ -1,0 +1,218 @@
+|poke|p1|Indeedee, M|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Volcarona, F|
+|poke|p1|Armarouge, F|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Torkoal, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Great Tusk|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Thorcubed|Torkoal, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Thorcubed
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Thorcubed|Lava Plume|p1a: Hatterene
+|-damage|p1a: Hatterene|47/100
+|-status|p1a: Hatterene|brn
+|-enditem|p1a: Hatterene|Eject Button
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Thorcubed|Yawn|p1a: Volcarona
+|-start|p1a: Volcarona|move: Yawn|[of] p2a: Thorcubed
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|47/100 brn
+|move|p2a: Thorcubed|Clear Smog|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|17/100 brn
+|-clearboost|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Hatterene|11/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Thorcubed
+|-resisted|p2a: Thorcubed
+|-damage|p2a: Thorcubed|85/100
+|-heal|p1a: Hatterene|23/100 brn|[from] drain|[of] p2a: Thorcubed
+|move|p2a: Thorcubed|Lava Plume|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Armarouge|Armarouge, F|100/100
+|turn|5
+|
+|move|p1a: Armarouge|Expanding Force|p2a: Thorcubed
+|-damage|p2a: Thorcubed|0 fnt
+|faint|p2a: Thorcubed
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Mega-salamence|Roaring Moon|100/100
+|-activate|p2a: Mega-salamence|ability: Protosynthesis
+|-start|p2a: Mega-salamence|protosynthesisatk
+|turn|6
+|
+|move|p2a: Mega-salamence|Night Slash|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-enditem|p1a: Armarouge|Focus Sash
+|-damage|p1a: Armarouge|1/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|move|p1a: Armarouge|Armor Cannon|p2a: Mega-salamence
+|-resisted|p2a: Mega-salamence
+|-damage|p2a: Mega-salamence|55/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|move|p1a: Armarouge|Destiny Bond|p1a: Armarouge
+|-singlemove|p1a: Armarouge|Destiny Bond
+|move|p2a: Mega-salamence|Night Slash|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|-activate|p1a: Armarouge|move: Destiny Bond
+|faint|p2a: Mega-salamence
+|-end|p2a: Mega-salamence|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Manny Berserk|Great Tusk|100/100
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|-activate|p2a: Manny Berserk|ability: Protosynthesis
+|-start|p2a: Manny Berserk|protosynthesisatk
+|turn|8
+|
+|move|p1a: Volcarona|Psychic|p2a: Manny Berserk
+|-supereffective|p2a: Manny Berserk
+|-damage|p2a: Manny Berserk|17/100
+|move|p2a: Manny Berserk|Rapid Spin|p1a: Volcarona
+|-damage|p1a: Volcarona|66/100
+|-boost|p2a: Manny Berserk|spe|1
+|
+|-weather|none
+|-end|p2a: Manny Berserk|Protosynthesis
+|-fieldend|move: Psychic Terrain
+|turn|9
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Manny Berserk|Headlong Rush|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-unboost|p2a: Manny Berserk|def|1
+|-unboost|p2a: Manny Berserk|spd|1
+|faint|p1a: Indeedee
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|move|p2a: Manny Berserk|Headlong Rush|p1a: Great Tusk
+|-damage|p1a: Great Tusk|54/100
+|-unboost|p2a: Manny Berserk|def|1
+|-unboost|p2a: Manny Berserk|spd|1
+|move|p1a: Great Tusk|Close Combat|p2a: Manny Berserk
+|-damage|p2a: Manny Berserk|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Manny Berserk
+|-end|p2a: Manny Berserk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Furro 9Gen|Meowscarada, F|100/100
+|turn|11
+|
+|move|p2a: Furro 9Gen|Flower Trick|p1a: Great Tusk
+|-start|p2a: Furro 9Gen|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Furro 9Gen|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Volcarona|Volcarona, F|66/100
+|turn|12
+|
+|move|p2a: Furro 9Gen|Knock Off|p1a: Volcarona
+|-damage|p1a: Volcarona|13/100
+|-enditem|p1a: Volcarona|Focus Sash|[from] move: Knock Off|[of] p2a: Furro 9Gen
+|-damage|p2a: Furro 9Gen|81/100|[from] item: Life Orb
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|turn|13
+|
+|move|p1a: Volcarona|Flamethrower|p2a: Furro 9Gen
+|-supereffective|p2a: Furro 9Gen
+|-damage|p2a: Furro 9Gen|0 fnt
+|faint|p2a: Furro 9Gen
+|
+|
+|switch|p2a: Réquiem|Skeledirge, M|100/100
+|turn|14
+|
+|move|p1a: Volcarona|Bug Buzz|p2a: Réquiem
+|-resisted|p2a: Réquiem
+|-damage|p2a: Réquiem|81/100
+|move|p2a: Réquiem|Torch Song|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-boost|p2a: Réquiem|spa|1
+|faint|p1a: Volcarona
+|
+|-heal|p2a: Réquiem|87/100|[from] item: Leftovers
+|
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|turn|15
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Réquiem|Shadow Ball|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-unboost|p1a: Polteageist|spd|1
+|
+|-heal|p2a: Réquiem|93/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Polteageist|Stored Power|p2a: Réquiem
+|-damage|p2a: Réquiem|15/100
+|move|p2a: Réquiem|Shadow Ball|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|win|GrexMaster

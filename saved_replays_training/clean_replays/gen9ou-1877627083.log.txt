@@ -1,0 +1,122 @@
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p1|Magearna|
+|poke|p1|Heatran, M|
+|poke|p1|Garchomp, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Gholdengo|
+|poke|p2|Sneasler, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Moth|
+|poke|p2|Heatran, M|
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|1
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|switch|p1a: Heatran|Heatran, M|100/100
+|
+|turn|2
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|move|p2a: Landorus|U-turn|p1a: Braviary
+|-damage|p1a: Braviary|76/100
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|
+|turn|3
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Samurott|Razor Shell|p1a: Magearna
+|-damage|p1a: Magearna|69/100
+|
+|-heal|p1a: Magearna|75/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Magearna|Draining Kiss|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|96/100
+|-heal|p1a: Magearna|78/100|[from] drain|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-heal|p1a: Magearna|84/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|76/100
+|move|p2a: Heatran|Earth Power|p1a: Braviary
+|-immune|p1a: Braviary
+|
+|turn|6
+|
+|move|p2a: Heatran|Taunt|p1a: Braviary
+|-start|p1a: Braviary|move: Taunt
+|move|p1a: Braviary|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|95/100
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100|[from] U-turn
+|
+|-damage|p1a: Garchomp|88/100|[from] item: Black Sludge
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|-terastallize|p1a: Garchomp|Poison
+|move|p1a: Garchomp|Earthquake|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-heal|p1a: Garchomp|94/100|[from] item: Black Sludge
+|turn|8
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|76/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|9
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|42/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|25/100
+|
+|turn|11
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|turn|12
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Magearna|Magearna|84/100
+|move|p2a: Landorus|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|8/100
+|
+|-heal|p1a: Magearna|14/100|[from] item: Leftovers
+|turn|13
+|-message|Sean Dyche Goat forfeited.
+|
+|win|Jorgor well

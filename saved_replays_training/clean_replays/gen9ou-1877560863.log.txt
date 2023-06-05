@@ -1,0 +1,356 @@
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Dragapult, F|
+|poke|p1|Thundurus, M|
+|poke|p1|Ceruledge, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Magearna|
+|poke|p2|Chien-Pao|
+|poke|p2|Gholdengo|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|turn|1
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Magearna
+|-immune|p2a: Magearna
+|
+|turn|2
+|
+|move|p1a: Dragapult|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|96/100
+|
+|switch|p1a: Thundurus|Thundurus, M|100/100|[from] U-turn
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|move|p1a: Thundurus|Thunder Wave|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|turn|4
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Carldouglasthe8th|move: Stealth Rock
+|
+|turn|5
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|78/100
+|
+|-heal|p2a: Magearna|84/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|44/100
+|move|p2a: Magearna|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|25/100
+|-heal|p2a: Magearna|93/100|[from] drain|[of] p1a: Dragapult
+|
+|-heal|p2a: Magearna|99/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Dragapult|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|95/100
+|
+|switch|p1a: Thundurus|Thundurus, M|100/100|[from] U-turn
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|move|p1a: Thundurus|Taunt|p2a: Landorus
+|-start|p2a: Landorus|move: Taunt
+|
+|turn|9
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|84/100
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|
+|turn|10
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|26/100
+|-enditem|p2a: Gholdengo|Choice Specs|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Gholdengo|Trick|p1a: Great Tusk
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Great Tusk
+|-enditem|p1a: Great Tusk|Assault Vest|[silent]|[from] move: Trick
+|-item|p2a: Gholdengo|Assault Vest|[from] move: Trick
+|
+|turn|11
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|64/100
+|-enditem|p2a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|12
+|
+|-terastallize|p1a: Great Tusk|Ground
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|46/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Carldouglasthe8th|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Zapdos|Hurricane|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|25/100
+|turn|13
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Magearna
+|-immune|p2a: Magearna
+|
+|turn|14
+|
+|move|p1a: Dragapult|U-turn|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|96/100
+|
+|switch|p1a: Ceruledge|Ceruledge, M|100/100|[from] U-turn
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|turn|16
+|
+|move|p2a: Magearna|Stored Power|p1a: Ceruledge
+|-damage|p1a: Ceruledge|23/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-heal|p1a: Ceruledge|80/100|[from] drain|[of] p2a: Magearna
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|17
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Chien-Pao|Sucker Punch||[still]
+|-fail|p2a: Chien-Pao
+|
+|turn|18
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p1a: Dragapult|Dragapult, F|25/100
+|
+|turn|19
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Urshifu
+|-damage|p2a: Urshifu|77/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Urshifu
+|-damage|p2a: Urshifu|52/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|6/100
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-hitcount|p1: Dragapult|2
+|
+|
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|turn|20
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|move|p1a: Thundurus|Volt Switch|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|turn|21
+|
+|move|p1a: Thundurus|Taunt|p2a: Landorus
+|-start|p2a: Landorus|move: Taunt
+|cant|p2a: Landorus|move: Taunt|Stealth Rock
+|
+|turn|22
+|
+|move|p1a: Thundurus|Tera Blast|p2a: Landorus
+|-damage|p2a: Landorus|71/100
+|move|p2a: Landorus|U-turn|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|82/100
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|turn|23
+|
+|switch|p1a: Ceruledge|Ceruledge, M|80/100
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|50/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|turn|24
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|25
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|74/100
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|52/100
+|turn|26
+|
+|switch|p1a: Thundurus|Thundurus, M|82/100
+|move|p2a: Urshifu|Close Combat|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|43/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|turn|27
+|
+|switch|p2a: Landorus|Landorus-Therian, M|71/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|move|p1a: Thundurus|Tera Blast|p2a: Landorus
+|-damage|p2a: Landorus|42/100
+|
+|-heal|p2a: Landorus|48/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Thundurus|Tera Blast|p2a: Landorus
+|-damage|p2a: Landorus|21/100
+|move|p2a: Landorus|U-turn|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|26/100
+|
+|switch|p2a: Zapdos|Zapdos|46/100|[from] U-turn
+|
+|turn|29
+|
+|move|p1a: Thundurus|Tera Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|25/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|75/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|30
+|
+|move|p1a: Thundurus|Taunt|p2a: Zapdos
+|-start|p2a: Zapdos|move: Taunt
+|move|p2a: Zapdos|Volt Switch|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|52/100|[from] Volt Switch
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|74/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|31
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|21/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Chien-Pao|atk|1
+|turn|32
+|
+|switch|p2a: Gholdengo|Gholdengo|26/100
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Zapdos|Zapdos|75/100
+|turn|33
+|
+|-terastallize|p2a: Zapdos|Electric
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Zapdos
+|-damage|p2a: Zapdos|19/100
+|move|p2a: Zapdos|Hurricane|p1a: Chien-Pao|[miss]
+|-miss|p2a: Zapdos|p1a: Chien-Pao
+|
+|turn|34
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|21/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Chien-Pao|atk|1
+|turn|35
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|Carldouglasthe8th

@@ -1,0 +1,139 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Dragonite, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Gholdengo|
+|poke|p2|Skeledirge, M|
+|poke|p2|Magearna|
+|poke|p2|Dragonite, F|
+|poke|p2|Golduck, F|
+|poke|p2|Espeon, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Kairi|Dragonite, F|100/100
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|1
+|
+|-terastallize|p1a: Kairi|Normal
+|move|p1a: Kairi|Dragon Dance|p1a: Kairi
+|-boost|p1a: Kairi|atk|1
+|-boost|p1a: Kairi|spe|1
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|turn|2
+|
+|move|p1a: Kairi|Dragon Dance|p1a: Kairi
+|-boost|p1a: Kairi|atk|1
+|-boost|p1a: Kairi|spe|1
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|turn|3
+|
+|move|p1a: Kairi|Extreme Speed|p2a: Dragonite
+|-damage|p2a: Dragonite|57/100
+|move|p2a: Dragonite|Fire Punch|p1a: Kairi
+|-damage|p1a: Kairi|70/100
+|
+|turn|4
+|
+|move|p1a: Kairi|Extreme Speed|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|5
+|
+|move|p1a: Kairi|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|6
+|
+|switch|p1a: Quelaag|Heatran, F|100/100
+|-terastallize|p2a: Skeledirge|Fairy
+|move|p2a: Skeledirge|Torch Song|p1a: Quelaag
+|-start|p1a: Quelaag|ability: Flash Fire
+|
+|turn|7
+|
+|move|p1a: Quelaag|Taunt|p2a: Skeledirge
+|-start|p2a: Skeledirge|move: Taunt
+|move|p2a: Skeledirge|Shadow Ball|p1a: Quelaag
+|-damage|p1a: Quelaag|75/100
+|
+|turn|8
+|
+|move|p1a: Quelaag|Magma Storm|p2a: Skeledirge
+|-damage|p2a: Skeledirge|32/100
+|-activate|p2a: Skeledirge|move: Magma Storm|[of] p1a: Quelaag
+|move|p2a: Skeledirge|Shadow Ball|p1a: Quelaag
+|-damage|p1a: Quelaag|50/100
+|
+|-heal|p2a: Skeledirge|38/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|25/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|9
+|
+|move|p1a: Quelaag|Earth Power|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Golduck|Golduck, F|100/100
+|turn|10
+|
+|-end|p1a: Quelaag|ability: Flash Fire|[silent]
+|switch|p1a: Kagami|Toxapex, F, shiny|100/100
+|move|p2a: Golduck|Soak|p1a: Kagami
+|-start|p1a: Kagami|typechange|Water
+|
+|turn|11
+|
+|switch|p1a: Hanekawa|Chien-Pao|100/100
+|-ability|p1a: Hanekawa|Sword of Ruin
+|move|p2a: Golduck|Nasty Plot|p2a: Golduck
+|-boost|p2a: Golduck|spa|2
+|
+|turn|12
+|
+|move|p1a: Hanekawa|Crunch|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|
+|switch|p2a: i hate this thing|Magearna|100/100
+|turn|13
+|
+|switch|p1a: Valefar|Gholdengo|100/100
+|move|p2a: i hate this thing|Shift Gear|p2a: i hate this thing
+|-boost|p2a: i hate this thing|spe|2
+|-boost|p2a: i hate this thing|atk|1
+|
+|turn|14
+|
+|move|p1a: Valefar|Trick|p2a: i hate this thing
+|-activate|p1a: Valefar|move: Trick|[of] p2a: i hate this thing
+|-item|p2a: i hate this thing|Choice Scarf|[from] move: Trick
+|-item|p1a: Valefar|Leftovers|[from] move: Trick
+|move|p2a: i hate this thing|Calm Mind|p2a: i hate this thing
+|-boost|p2a: i hate this thing|spa|1
+|-boost|p2a: i hate this thing|spd|1
+|
+|turn|15
+|-message|bugpilled forfeited.
+|
+|win|Quarters_OU

@@ -1,0 +1,37 @@
+|poke|p1|Great Tusk|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Walking Wake|
+|poke|p1|Slowbro-Galar, F|
+|poke|p1|Zapdos|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Meloetta|
+|poke|p2|Carbink|
+|poke|p2|Muk-Alola, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Cyclizar, M|
+|teampreview
+|
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Carbink|Carbink|100/100
+|turn|1
+|
+|move|p1a: Electrode|Chloroblast|p2a: Carbink|[miss]
+|-miss|p1a: Electrode|p2a: Carbink
+|-damage|p1a: Electrode|50/100|[from] chloroblast
+|move|p2a: Carbink|Light Screen|p2a: Carbink
+|-sidestart|p2: UmbrisSpectralis|move: Light Screen
+|
+|turn|2
+|
+|move|p1a: Electrode|Chloroblast|p2a: Carbink|[miss]
+|-miss|p1a: Electrode|p2a: Carbink
+|-damage|p1a: Electrode|0 fnt|[from] chloroblast
+|faint|p1a: Electrode
+|move|p2a: Carbink|Reflect|p2a: Carbink
+|-sidestart|p2: UmbrisSpectralis|Reflect
+|
+|-message|hombre hermoso forfeited.
+|
+|win|UmbrisSpectralis

@@ -1,0 +1,194 @@
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Walking Wake|
+|poke|p1|Enamorus-Therian, F|
+|poke|p2|Kleavor, M|
+|poke|p2|Heatran, F|
+|poke|p2|Amoonguss, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Roaring Moon|
+|teampreview
+|
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|1
+|
+|move|p2a: Kleavor|X-Scissor|p1a: Lilligant
+|-damage|p1a: Lilligant|9/100
+|move|p1a: Lilligant|Close Combat|p2a: Kleavor
+|-crit|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Kleavor
+|-damage|p1a: Lilligant|0 fnt|[from] item: Life Orb
+|faint|p1a: Lilligant
+|
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|2
+|
+|-terastallize|p2a: Torkoal|Water
+|move|p1a: Walking Wake|Draco Meteor|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|3
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Enamorus
+|-damage|p1a: Enamorus|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|5
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|move|p2a: Amoonguss|Spore|p1a: Torkoal
+|-status|p1a: Torkoal|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p2a: Walking Wake|Choice Specs|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100 slp
+|move|p2a: Walking Wake|Draco Meteor|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p2a: Walking Wake|Choice Specs|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|turn|9
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, F|100/100
+|-terastallize|p1a: Typhlosion|Fire
+|move|p1a: Typhlosion|Eruption|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-weather|none
+|turn|10
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Heatran|Earth Power|p1a: Walking Wake
+|-damage|p1a: Walking Wake|62/100
+|
+|turn|11
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Amoonguss|Amoonguss, F|98/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Amoonguss
+|-damage|p2a: Amoonguss|16/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|turn|12
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|-item|p1a: Arcanine|Air Balloon
+|switch|p2a: Heatran|Heatran, F|100/100
+|
+|turn|13
+|
+|move|p2a: Heatran|Power Gem|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|27/100
+|-enditem|p1a: Arcanine|Air Balloon
+|move|p1a: Arcanine|Head Smash|p2a: Heatran
+|-damage|p2a: Heatran|35/100
+|
+|turn|14
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|22/100
+|move|p2a: Heatran|Power Gem|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Walking Wake|Walking Wake|62/100
+|turn|15
+|
+|move|p2a: Heatran|Power Gem|p1a: Walking Wake
+|-damage|p1a: Walking Wake|31/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|turn|16
+|
+|move|p2a: Roaring Moon|Crunch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, tera:Fire|100/100
+|-item|p2a: Roaring Moon|Choice Scarf|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|turn|17
+|
+|move|p2a: Roaring Moon|Crunch|p1a: Typhlosion
+|-damage|p1a: Typhlosion|32/100
+|move|p1a: Typhlosion|Eruption|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|85/100
+|
+|turn|18
+|
+|move|p2a: Roaring Moon|Crunch|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|win|caju_the_kashuu

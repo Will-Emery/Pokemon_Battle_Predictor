@@ -1,0 +1,158 @@
+|poke|p1|Chien-Pao|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Glastrier|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: emiou-ground|Landorus-Therian, M, shiny|100/100
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-ability|p1a: emiou-ground|Intimidate|boost
+|-unboost|p2a: Hoopa|atk|1
+|turn|1
+|
+|move|p1a: emiou-ground|Nasty Plot|p1a: emiou-ground
+|-boost|p1a: emiou-ground|spa|2
+|move|p2a: Hoopa|Hyperspace Fury|p1a: emiou-ground
+|-damage|p1a: emiou-ground|34/100
+|-unboost|p2a: Hoopa|def|1
+|
+|turn|2
+|
+|move|p1a: emiou-ground|Sandsear Storm|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|-damage|p1a: emiou-ground|24/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|3
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: emiou-ground
+|-damage|p1a: emiou-ground|0 fnt
+|-sidestart|p1: gloriousplay|Spikes
+|faint|p1a: emiou-ground
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|-damage|p1a: Lilligant|88/100|[from] Spikes
+|turn|4
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|
+|turn|5
+|
+|-terastallize|p1a: Lilligant|Ghost
+|move|p1a: Lilligant|Tera Blast|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|6
+|
+|-terastallize|p2a: Zamazenta|Ghost
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Zamazenta|Crunch|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|52/100
+|-unboost|p1a: Lilligant|def|1
+|
+|turn|7
+|
+|move|p1a: Lilligant|Tera Blast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|5/100
+|move|p2a: Zamazenta|Crunch|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Spikes
+|turn|8
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Samurott|78/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|9
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|48/100
+|-sidestart|p1: gloriousplay|Spikes
+|move|p1a: Samurott|Razor Shell|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|57/100
+|-damage|p1a: Samurott|38/100|[from] item: Life Orb
+|
+|turn|10
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|11/100
+|-sidestart|p1: gloriousplay|Spikes
+|move|p1a: Samurott|Razor Shell|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|12/100
+|-damage|p1a: Samurott|1/100|[from] item: Life Orb
+|
+|turn|11
+|
+|move|p1a: Samurott|Aqua Jet|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-damage|p1a: Samurott|0 fnt|[from] item: Life Orb
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Glastrier|Avalanche|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|9/100
+|
+|turn|13
+|
+|move|p2a: Tornadus|Heat Wave|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-crit|p1a: Glastrier
+|-damage|p1a: Glastrier|45/100
+|move|p1a: Glastrier|Avalanche|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|-message|not.fraggin forfeited.
+|
+|win|gloriousplay

@@ -1,0 +1,104 @@
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Charizard, F|
+|poke|p1|Bronzong|
+|poke|p1|Whiscash, F|
+|poke|p2|Iron Treads|
+|poke|p2|Armarouge, M|
+|poke|p2|Iron Jugulis|
+|poke|p2|Iron Thorns|
+|poke|p2|Eelektross, M|
+|poke|p2|Florges, F|
+|teampreview
+|
+|start
+|switch|p1a: Chosh|Charizard, F|100/100
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|turn|1
+|
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|move|p1a: Chosh|Belly Drum|p1a: Chosh
+|-damage|p1a: Chosh|50/100
+|-setboost|p1a: Chosh|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Chosh|Sitrus Berry|[eat]
+|-heal|p1a: Chosh|75/100|[from] item: Sitrus Berry
+|
+|turn|2
+|
+|move|p2a: Iron Thorns|Rock Blast|p1a: Chosh|[miss]
+|-miss|p2a: Iron Thorns|p1a: Chosh
+|move|p1a: Chosh|Brick Break|p2a: Iron Thorns
+|-supereffective|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|
+|
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|turn|3
+|
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Chosh
+|-damage|p1a: Chosh|26/100
+|move|p1a: Chosh|Acrobatics|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|4
+|
+|move|p2a: Iron Treads|Rock Slide|p1a: Chosh
+|-supereffective|p1a: Chosh
+|-damage|p1a: Chosh|0 fnt
+|faint|p1a: Chosh
+|-damage|p2a: Iron Treads|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Wosh|Whiscash, F|100/100
+|turn|5
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|move|p1a: Wosh|Nasty Plot|p1a: Wosh
+|-boost|p1a: Wosh|spa|2
+|
+|turn|6
+|
+|move|p1a: Wosh|Shadow Ball|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|
+|switch|p2a: Florges|Florges, F|100/100
+|turn|7
+|
+|move|p1a: Wosh|Sludge Bomb|p2a: Florges
+|-supereffective|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|faint|p2a: Florges
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|91/100
+|turn|8
+|
+|-terastallize|p2a: Iron Treads|Dark
+|move|p1a: Wosh|Flamethrower|p2a: Iron Treads
+|-damage|p2a: Iron Treads|9/100
+|move|p2a: Iron Treads|Knock Off|p1a: Wosh
+|-supereffective|p1a: Wosh
+|-enditem|p1a: Wosh|Focus Sash
+|-damage|p1a: Wosh|1/100
+|replace|p1a: Zosh|Zoroark-Hisui, F
+|-end|p1a: Zosh|Illusion
+|-damage|p2a: Iron Treads|0 fnt|[from] item: Life Orb
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|turn|9
+|-message|xNCStarx forfeited.
+|
+|win|Poke_Steelix123

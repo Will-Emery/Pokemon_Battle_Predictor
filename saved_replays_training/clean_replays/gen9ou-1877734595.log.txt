@@ -1,0 +1,262 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Magearna|
+|poke|p1|Volcarona, M|
+|poke|p1|Zamazenta-*|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Magearna|
+|poke|p2|Chien-Pao|
+|poke|p2|Heatran, M|
+|poke|p2|Amoonguss, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F, shiny|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p1a: Samurott|Taunt|p2a: Magearna
+|-start|p2a: Magearna|move: Taunt
+|cant|p2a: Magearna|move: Taunt|Spikes
+|
+|turn|2
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|85/100
+|-sidestart|p2: MysteryBullFrog|Spikes
+|move|p2a: Magearna|Fleur Cannon|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|-unboost|p2a: Magearna|spa|2
+|
+|-heal|p2a: Magearna|91/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Magearna
+|-resisted|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|69/100
+|-sidestart|p2: MysteryBullFrog|Spikes
+|move|p2a: Magearna|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-item|p1a: Sneasler|Air Balloon
+|turn|4
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Landorus|Stealth Rock|p1a: Sneasler
+|-sidestart|p1: Dr. Drake6782|move: Stealth Rock
+|
+|turn|5
+|
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|-damage|p2a: Amoonguss|84/100|[from] Spikes
+|move|p1a: Sneasler|Dire Claw|p2a: Amoonguss
+|-damage|p2a: Amoonguss|17/100
+|-status|p2a: Amoonguss|slp
+|-damage|p1a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|turn|6
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|cant|p2a: Amoonguss|slp
+|
+|turn|7
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p1a: Sneasler|67/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|turn|8
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|46/100
+|-damage|p1a: Sneasler|51/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Sneasler
+|-immune|p1a: Sneasler
+|
+|turn|9
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Landorus
+|-damage|p2a: Landorus|8/100
+|-damage|p1a: Sneasler|34/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|23/100
+|-enditem|p1a: Sneasler|Air Balloon
+|
+|switch|p2a: Magearna|Magearna|69/100|[from] U-turn
+|-damage|p2a: Magearna|52/100|[from] Spikes
+|
+|-heal|p2a: Magearna|58/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Landorus|Landorus-Therian, M|8/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|move|p1a: Sneasler|Close Combat|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-damage|p1a: Sneasler|6/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|11
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: Dr. Drake6782|Reflect
+|
+|turn|13
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: Dr. Drake6782|move: Light Screen
+|move|p2a: Heatran|Taunt|p1a: Dragapult
+|-start|p1a: Dragapult|move: Taunt
+|
+|turn|14
+|
+|move|p1a: Dragapult|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|97/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|switch|p1a: Volcarona|Volcarona, M, shiny|100/100|[from] U-turn
+|move|p2a: Heatran|Stealth Rock||[still]
+|-fail|p2a: Heatran
+|
+|turn|15
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Heatran|Magma Storm|p1a: Volcarona
+|-damage|p1a: Volcarona|86/100
+|-activate|p1a: Volcarona|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Volcarona|73/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|16
+|
+|-terastallize|p1a: Volcarona|Ground
+|move|p1a: Volcarona|Tera Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Volcarona|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|17
+|
+|-terastallize|p2a: Chien-Pao|Dark
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Volcarona
+|-damage|p1a: Volcarona|25/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|2/100
+|
+|turn|18
+|
+|move|p1a: Volcarona|Tera Blast|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p2a: Urshifu|84/100|[from] Spikes
+|turn|19
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Urshifu|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|-damage|p2a: Urshifu|74/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Urshifu|68/100 brn|[from] brn
+|-sideend|p1: Dr. Drake6782|Reflect
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Magearna|Magearna|58/100
+|-damage|p2a: Magearna|42/100|[from] Spikes
+|switch|p1a: Zamazenta|Zamazenta-Crowned, shiny|100/100
+|-damage|p1a: Zamazenta|97/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-heal|p2a: Magearna|48/100|[from] item: Leftovers
+|-sideend|p1: Dr. Drake6782|move: Light Screen
+|turn|21
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Magearna|Pain Split|p1a: Zamazenta
+|-sethp|p1a: Zamazenta|76/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Magearna|68/100|[from] move: Pain Split
+|
+|-heal|p2a: Magearna|74/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Zamazenta|Body Press|p2a: Magearna
+|-damage|p2a: Magearna|5/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Zamazenta
+|-damage|p1a: Zamazenta|30/100
+|-unboost|p2a: Magearna|spa|2
+|
+|-heal|p2a: Magearna|11/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Zamazenta|Body Press|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|68/100 brn
+|-damage|p2a: Urshifu|52/100 brn|[from] Spikes
+|turn|24
+|
+|move|p1a: Zamazenta|Body Press|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|win|Dr. Drake6782

@@ -1,0 +1,164 @@
+|poke|p1|Greninja, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Great Tusk|
+|poke|p2|Enamorus, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Spidops, F|
+|poke|p2|Houndstone, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: SHAMONE|Greninja, M|100/100
+|switch|p2a: Spidops|Spidops, F|100/100
+|turn|1
+|
+|move|p2a: Spidops|First Impression|p1a: SHAMONE
+|-supereffective|p1a: SHAMONE
+|-damage|p1a: SHAMONE|20/100
+|move|p1a: SHAMONE|Taunt|p2a: Spidops
+|-start|p1a: SHAMONE|typechange|Dark|[from] ability: Protean
+|-start|p2a: Spidops|move: Taunt
+|
+|turn|2
+|
+|move|p1a: SHAMONE|Hydro Pump|p2a: Spidops
+|-damage|p2a: Spidops|63/100
+|move|p2a: Spidops|Circle Throw|p1a: SHAMONE
+|-supereffective|p1a: SHAMONE
+|-damage|p1a: SHAMONE|0 fnt
+|faint|p1a: SHAMONE
+|
+|
+|switch|p1a: Gabe|Arcanine-Hisui, M|100/100
+|turn|3
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Gabe|Flare Blitz|p2a: Great Tusk
+|-damage|p2a: Great Tusk|74/100
+|
+|-heal|p2a: Great Tusk|80/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Goku|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Goku
+|move|p2a: Great Tusk|Knock Off|p1a: Goku
+|-damage|p1a: Goku|70/100
+|-enditem|p1a: Goku|Life Orb|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p1a: Goku|76/100|[from] Grassy Terrain
+|-heal|p2a: Great Tusk|87/100|[from] Grassy Terrain
+|-heal|p2a: Great Tusk|93/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Houndstone|Houndstone, M|100/100
+|move|p1a: Goku|Wood Hammer|p2a: Houndstone
+|-damage|p2a: Houndstone|71/100
+|-damage|p1a: Goku|66/100|[from] Recoil
+|
+|-heal|p1a: Goku|73/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|77/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|83/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p1a: Garfielf|Chien-Pao|100/100
+|-ability|p1a: Garfielf|Sword of Ruin
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Garfielf
+|-status|p1a: Garfielf|brn
+|
+|-heal|p2a: Houndstone|89/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|95/100|[from] item: Leftovers
+|-damage|p1a: Garfielf|95/100 brn|[from] brn
+|turn|7
+|
+|-terastallize|p1a: Garfielf|Dark
+|move|p1a: Garfielf|Crunch|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|56/100
+|-unboost|p2a: Houndstone|def|1
+|move|p2a: Houndstone|Body Press|p1a: Garfielf
+|-supereffective|p1a: Garfielf
+|-damage|p1a: Garfielf|51/100 brn
+|
+|-heal|p1a: Garfielf|57/100 brn|[from] Grassy Terrain
+|-heal|p2a: Houndstone|62/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|68/100|[from] item: Leftovers
+|-damage|p1a: Garfielf|51/100 brn|[from] brn
+|turn|8
+|
+|move|p2a: Houndstone|Protect|p2a: Houndstone
+|-singleturn|p2a: Houndstone|Protect
+|move|p1a: Garfielf|Crunch|p2a: Houndstone
+|-activate|p2a: Houndstone|move: Protect
+|
+|-heal|p1a: Garfielf|57/100 brn|[from] Grassy Terrain
+|-heal|p2a: Houndstone|74/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|80/100|[from] item: Leftovers
+|-damage|p1a: Garfielf|51/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|turn|9
+|
+|switch|p2a: Great Tusk|Great Tusk|93/100
+|move|p1a: Garfielf|Crunch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|
+|-heal|p2a: Great Tusk|87/100|[from] item: Leftovers
+|-damage|p1a: Garfielf|45/100 brn|[from] brn
+|turn|10
+|
+|switch|p1a: Goku|Rillaboom, M|73/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Goku
+|move|p2a: Great Tusk|Stealth Rock|p1a: Goku
+|-sidestart|p1: V_run658|move: Stealth Rock
+|
+|-heal|p1a: Goku|79/100|[from] Grassy Terrain
+|-heal|p2a: Great Tusk|94/100|[from] Grassy Terrain
+|-heal|p2a: Great Tusk|99/100|[from] item: Leftovers
+|turn|11
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Houndstone|Houndstone, M|80/100
+|move|p1a: Goku|Wood Hammer|p2a: Houndstone
+|-damage|p2a: Houndstone|50/100
+|-damage|p1a: Goku|69/100|[from] Recoil
+|
+|-heal|p1a: Goku|75/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|57/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|63/100|[from] item: Leftovers
+|turn|12
+|
+|switch|p1a: Gabe|Arcanine-Hisui, M|100/100
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Gabe
+|-immune|p1a: Gabe
+|
+|-heal|p2a: Houndstone|69/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|75/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Houndstone|Protect|p2a: Houndstone
+|-singleturn|p2a: Houndstone|Protect
+|move|p1a: Gabe|Head Smash|p2a: Houndstone
+|-activate|p2a: Houndstone|move: Protect
+|
+|-heal|p2a: Houndstone|81/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|87/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Great Tusk|Great Tusk|99/100
+|move|p1a: Gabe|Head Smash|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|92/100
+|
+|-heal|p2a: Great Tusk|98/100|[from] Grassy Terrain
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|turn|15
+|-message|V_run658 forfeited.
+|
+|win|BobJonesy

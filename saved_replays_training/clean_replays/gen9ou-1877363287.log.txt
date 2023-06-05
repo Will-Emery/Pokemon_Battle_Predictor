@@ -1,0 +1,288 @@
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Skeledirge, M|
+|poke|p1|Great Tusk|
+|poke|p1|Sneasler, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Heatran, F|
+|poke|p2|Slowking, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|move|p1a: Samurott|Aqua Cutter|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|51/100
+|
+|turn|2
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|3
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Corviknight|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|84/100
+|
+|-heal|p1a: Rotom|90/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Slowking|Slowking, F|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Slowking|[miss]
+|-miss|p1a: Rotom|p2a: Slowking
+|
+|-heal|p1a: Rotom|97/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Rotom|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|71/100
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100|[from] Volt Switch
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Magearna|Magearna|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Magearna|Draining Kiss|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|89/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Skeledirge|95/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Skeledirge|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|16/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Heatran|23/100|[from] item: Leftovers
+|-heal|p1a: Skeledirge|100/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Slowking|Slowking, F|100/100
+|move|p1a: Skeledirge|Earth Power|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|73/100
+|
+|-weather|Snow|[upkeep]
+|turn|9
+|
+|switch|p1a: Rotom|Rotom-Wash|97/100
+|move|p2a: Slowking|Chilling Water|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|88/100
+|-unboost|p1a: Rotom|atk|1
+|
+|-weather|none
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p1a: Rotom|99/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] Chilly Reception
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna|[miss]
+|-miss|p1a: Rotom|p2a: Ursaluna
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|12
+|
+|-terastallize|p2a: Ursaluna|Normal
+|move|p2a: Ursaluna|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna
+|-damage|p2a: Ursaluna|67/100 brn
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Ursaluna|61/100 brn|[from] brn
+|turn|13
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Ursaluna|Facade|p1a: Skeledirge
+|-immune|p1a: Skeledirge
+|
+|-weather|Snow|[upkeep]
+|-damage|p2a: Ursaluna|55/100 brn|[from] brn
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Ursaluna|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|68/100
+|-heal|p2a: Ursaluna|66/100 brn|[from] drain|[of] p1a: Rotom
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Rotom|74/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|60/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|15
+|
+|move|p1a: Rotom|Volt Switch|p2a: Ursaluna
+|-damage|p2a: Ursaluna|37/100 brn
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100|[from] Volt Switch
+|move|p2a: Ursaluna|Facade|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|none
+|-damage|p2a: Ursaluna|31/100 brn|[from] brn
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|16
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|turn|17
+|
+|move|p1a: Sneasler|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|2/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|-heal|p2a: Magearna|8/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Sneasler
+|-damage|p1a: Sneasler|65/100
+|-heal|p2a: Magearna|31/100|[from] drain|[of] p1a: Sneasler
+|move|p1a: Sneasler|Close Combat|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, F, tera:Normal|31/100 brn
+|turn|19
+|
+|move|p2a: Ursaluna|Earthquake|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-damage|p2a: Ursaluna|24/100 brn|[from] brn
+|
+|switch|p1a: Rotom|Rotom-Wash|74/100
+|turn|20
+|
+|-terastallize|p1a: Rotom|Steel
+|move|p2a: Ursaluna|Facade|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|6/100
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-heal|p1a: Rotom|13/100|[from] item: Leftovers
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|21
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Corviknight|Body Press|p1a: Skeledirge
+|-immune|p1a: Skeledirge
+|
+|-fieldend|move: Trick Room
+|turn|22
+|
+|switch|p2a: Slowking|Slowking, F|95/100
+|move|p1a: Skeledirge|Torch Song|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|83/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|turn|23
+|
+|move|p1a: Skeledirge|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|14/100
+|move|p2a: Slowking|Future Sight|p1a: Skeledirge
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|24
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Skeledirge|Torch Song|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|1/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-heal|p2a: Corviknight|8/100|[from] item: Leftovers
+|turn|25
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|58/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Skeledirge|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-end|p1a: Skeledirge|move: Future Sight
+|-damage|p1a: Skeledirge|55/100
+|-heal|p1a: Skeledirge|61/100|[from] item: Leftovers
+|
+|switch|p2a: Heatran|Heatran, F|23/100
+|turn|26
+|
+|move|p2a: Heatran|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|8/100
+|move|p1a: Skeledirge|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: Skeledirge|14/100|[from] item: Leftovers
+|
+|switch|p2a: Slowking|Slowking, F|48/100
+|turn|27
+|
+|move|p1a: Skeledirge|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|A0000000

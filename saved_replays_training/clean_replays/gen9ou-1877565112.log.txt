@@ -1,0 +1,234 @@
+|poke|p1|Magearna|
+|poke|p1|Ursaluna, L99, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Slowbro, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Kingambit, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|poke|p2|Ditto|
+|poke|p2|Ursaluna, F|
+|teampreview
+|
+|start
+|switch|p1a: Magearna|Magearna|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-item|p1a: Magearna|Air Balloon
+|turn|1
+|
+|move|p2a: Pelipper|U-turn|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|99/100
+|-enditem|p1a: Magearna|Air Balloon
+|
+|switch|p2a: Cocain Bear|Ursaluna, F|100/100|[from] U-turn
+|move|p1a: Magearna|Volt Switch|p2a: Cocain Bear
+|-immune|p2a: Cocain Bear
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Cocain Bear|brn|[from] item: Flame Orb
+|turn|2
+|
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|move|p2a: Cocain Bear|Swords Dance|p2a: Cocain Bear
+|-boost|p2a: Cocain Bear|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Cocain Bear|94/100 brn|[from] brn
+|turn|3
+|
+|move|p2a: Cocain Bear|Facade|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-damage|p2a: Cocain Bear|78/100 brn|[from] item: Rocky Helmet|[of] p1a: Slowbro
+|faint|p1a: Slowbro
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Cocain Bear|72/100 brn|[from] brn
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|4
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|97/100
+No Pokémon, item, move, ability or nature named 'enamorus-t' was found. Showing the data of 'Enamorus' instead.
+
+
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Enamorus|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Enamorus|87/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Enamorus|[from] ability: Imposter
+|turn|7
+|
+|move|p1a: Enamorus|Moonblast|p2a: Ditto
+|-damage|p2a: Ditto|26/100
+|-damage|p1a: Enamorus|77/100|[from] item: Life Orb
+|move|p2a: Ditto|Moonblast|p1a: Enamorus
+|-damage|p1a: Enamorus|22/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Enamorus|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-heal|p1a: Enamorus|41/100|[from] drain|[of] p2a: Ditto
+|faint|p2a: Ditto
+|-damage|p1a: Enamorus|31/100|[from] item: Life Orb
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|9
+|
+|move|p2a: Pelipper|U-turn|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|29/100
+|
+|switch|p2a: Cocain Bear|Ursaluna, F|72/100 brn|[from] U-turn
+|move|p1a: Enamorus|Draining Kiss|p2a: Cocain Bear
+|-damage|p2a: Cocain Bear|38/100 brn
+|-heal|p1a: Enamorus|65/100|[from] drain|[of] p2a: Cocain Bear
+|-damage|p1a: Enamorus|55/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Cocain Bear|32/100 brn|[from] brn
+|turn|10
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|move|p2a: Cocain Bear|Earthquake|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Cocain Bear|26/100 brn|[from] brn
+|turn|11
+|
+|move|p2a: Cocain Bear|Earthquake|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Cocain Bear|20/100 brn|[from] brn
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|12
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Cocain Bear
+|-damage|p2a: Cocain Bear|0 fnt
+|faint|p2a: Cocain Bear
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|13
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|73/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|73/100
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|46/100
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|20/100
+|-hitcount|p1a: Kingambit|3
+|
+|-weather|RainDance|[upkeep]
+|turn|14
+|
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|31/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|-hitcount|p1: Kingambit|1
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Magearna|Magearna|99/100
+|turn|16
+|
+|-terastallize|p2a: Urshifu|Water
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Urshifu|Surging Strikes|p1a: Magearna
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|64/100
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|27/100
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-hitcount|p1: Magearna|3
+|
+|-weather|none
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|55/100
+|turn|17
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-hitcount|p1: Enamorus|1
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, L99, M|100/100
+|turn|18
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|5/100
+|-supereffective|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-hitcount|p1: Ursaluna|2
+|
+|win|Smaragdt

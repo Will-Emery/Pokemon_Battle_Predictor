@@ -1,0 +1,244 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Slowbro-Galar, M|
+|poke|p1|Electrode-Hisui|
+|poke|p2|Iron Treads|
+|poke|p2|Dragapult, F|
+|poke|p2|Gholdengo|
+|poke|p2|Gyarados, F|
+|poke|p2|Wo-Chien|
+|poke|p2|Hydreigon, F|
+|teampreview
+|
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|move|p1a: Electrode|Taunt|p2a: Iron Treads
+|-start|p2a: Iron Treads|move: Taunt
+|cant|p2a: Iron Treads|move: Taunt|Stealth Rock
+|
+|turn|2
+|
+|switch|p1a: Free Bird|Braviary-Hisui, M|100/100
+|move|p2a: Iron Treads|Volt Switch|p1a: Free Bird
+|-supereffective|p1a: Free Bird
+|-damage|p1a: Free Bird|75/100
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from] Volt Switch
+|
+|-heal|p1a: Free Bird|81/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Free Bird
+|-supereffective|p1a: Free Bird
+|-damage|p1a: Free Bird|0 fnt
+|faint|p1a: Free Bird
+|
+|
+|switch|p1a: Romantical|Enamorus, F|100/100
+|turn|4
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Romantical|Superpower|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|turn|5
+|
+|move|p1a: Romantical|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|22/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Romantical
+|-damage|p1a: Romantical|57/100
+|
+|turn|6
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Romantical|Earth Power|p2a: Hydreigon
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|
+|turn|7
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Romantical
+|-supereffective|p1a: Romantical
+|-crit|p1a: Romantical
+|-damage|p1a: Romantical|0 fnt
+|faint|p1a: Romantical
+|
+|
+|switch|p1a: Swan Lake|Lilligant-Hisui, F|100/100
+|turn|8
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Swan Lake|Victory Dance|p1a: Swan Lake
+|-boost|p1a: Swan Lake|atk|1
+|-boost|p1a: Swan Lake|def|1
+|-boost|p1a: Swan Lake|spe|1
+|
+|turn|9
+|
+|-terastallize|p1a: Swan Lake|Poison
+|move|p1a: Swan Lake|Poison Jab|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|50/100
+|move|p2a: Dragapult|U-turn|p1a: Swan Lake
+|-resisted|p1a: Swan Lake
+|-damage|p1a: Swan Lake|86/100
+|-damage|p2a: Dragapult|40/100|[from] item: Life Orb
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|
+|turn|10
+|
+|move|p1a: Swan Lake|Close Combat|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Swan Lake|def|1
+|-unboost|p1a: Swan Lake|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|11
+|
+|-terastallize|p2a: Hydreigon|Steel
+|move|p1a: Swan Lake|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Swan Lake|def|1
+|-unboost|p1a: Swan Lake|spd|1
+|faint|p2a: Hydreigon
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|40/100
+|turn|12
+|
+|move|p2a: Dragapult|Sucker Punch|p1a: Swan Lake
+|-damage|p1a: Swan Lake|18/100
+|-damage|p2a: Dragapult|30/100|[from] item: Life Orb
+|move|p1a: Swan Lake|Leaf Blade|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Wo-Chien|Wo-Chien|100/100
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|turn|13
+|
+|move|p1a: Swan Lake|Poison Jab|p2a: Wo-Chien|[miss]
+|-miss|p1a: Swan Lake|p2a: Wo-Chien
+|move|p2a: Wo-Chien|Knock Off|p1a: Swan Lake
+|-damage|p1a: Swan Lake|0 fnt
+|-enditem|p1a: Swan Lake|Wide Lens|[from] move: Knock Off|[of] p2a: Wo-Chien
+|faint|p1a: Swan Lake
+|
+|
+|switch|p1a: Anime Reference|Samurott-Hisui, M, shiny|100/100
+|turn|14
+|
+|move|p1a: Anime Reference|Ceaseless Edge|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|87/100
+|-sidestart|p2: PhenixXe|Spikes
+|move|p2a: Wo-Chien|Giga Drain|p1a: Anime Reference
+|-supereffective|p1a: Anime Reference
+|-damage|p1a: Anime Reference|32/100
+|-heal|p2a: Wo-Chien|100/100|[from] drain|[of] p1a: Anime Reference
+|
+|-heal|p1a: Anime Reference|38/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Anime Reference|Sacred Sword|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|50/100
+|move|p2a: Wo-Chien|Giga Drain|p1a: Anime Reference
+|-supereffective|p1a: Anime Reference
+|-damage|p1a: Anime Reference|0 fnt
+|-heal|p2a: Wo-Chien|68/100|[from] drain|[of] p1a: Anime Reference
+|faint|p1a: Anime Reference
+|
+|
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|turn|16
+|
+|move|p1a: Electrode|Tera Blast|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|54/100
+|move|p2a: Wo-Chien|Knock Off|p1a: Electrode
+|-damage|p1a: Electrode|53/100
+|-enditem|p1a: Electrode|Focus Sash|[from] move: Knock Off|[of] p2a: Wo-Chien
+|
+|turn|17
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|42/100
+|move|p2a: Wo-Chien|Giga Drain|p1a: Electrode
+|-resisted|p1a: Electrode
+|-damage|p1a: Electrode|35/100
+|-heal|p2a: Wo-Chien|49/100|[from] drain|[of] p1a: Electrode
+|
+|turn|18
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|37/100
+|move|p2a: Wo-Chien|Knock Off|p1a: Electrode
+|-damage|p1a: Electrode|2/100
+|
+|turn|19
+|
+|move|p1a: Electrode|Volt Switch|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|28/100
+|
+|switch|p1a: Buster Scruggs|Slowbro-Galar, M|100/100|[from] Volt Switch
+|move|p2a: Wo-Chien|Knock Off|p1a: Buster Scruggs
+|-supereffective|p1a: Buster Scruggs
+|-damage|p1a: Buster Scruggs|50/100
+|-enditem|p1a: Buster Scruggs|Quick Claw|[from] move: Knock Off|[of] p2a: Wo-Chien
+|
+|turn|20
+|-activate|p1a: Buster Scruggs|ability: Quick Draw
+|
+|move|p1a: Buster Scruggs|Flamethrower|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|0 fnt
+|faint|p2a: Wo-Chien
+|
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|turn|21
+|
+|move|p2a: Gyarados|Earthquake|p1a: Buster Scruggs
+|-supereffective|p1a: Buster Scruggs
+|-damage|p1a: Buster Scruggs|0 fnt
+|faint|p1a: Buster Scruggs
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|
+|switch|p1a: Electrode|Electrode-Hisui|2/100
+|turn|22
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|22/100
+|-damage|p2a: Gholdengo|9/100|[from] Spikes
+|turn|23
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|win|SeventhGod77
+|player|p1|SeventhGod77|bugcatcher-gen4dp

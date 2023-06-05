@@ -1,0 +1,64 @@
+|poke|p1|Rillaboom, M|
+|poke|p1|Breloom, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kleavor, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Polteageist|
+|poke|p2|Hawlucha, M|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Kleavor|Stone Axe|p2a: Hatterene
+|-damage|p2a: Hatterene|55/100
+|-sidestart|p2: Hank45|move: Stealth Rock
+|-enditem|p2a: Hatterene|Eject Button
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|
+|turn|2
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Kleavor|Stone Axe|p2a: Sneasler|[miss]
+|-miss|p1a: Kleavor|p2a: Sneasler
+|
+|turn|3
+|
+|-terastallize|p2a: Sneasler|Psychic
+|move|p2a: Sneasler|Tera Blast|p1a: Kleavor
+|-enditem|p1a: Kleavor|Focus Sash
+|-damage|p1a: Kleavor|1/100
+|move|p1a: Kleavor|Stone Axe|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|4
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Kleavor|Stone Axe|p2a: Cinderace
+|-damage|p2a: Cinderace|29/100
+|-sidestart|p2: Hank45|move: Stealth Rock
+|
+|turn|5
+|-message|Hank45 forfeited.
+|
+|win|Achoo-ler

@@ -1,0 +1,288 @@
+|poke|p1|Magikarp, M|
+|poke|p1|Dondozo, M|
+|poke|p1|Naclstack, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Falinks|
+|poke|p1|Tatsugiri, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Zoroark, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Sylveon, F|
+|poke|p2|Chewtle, F|
+|teampreview
+|
+|start
+|switch|p1a: Little army|Falinks|100/100
+|switch|p2a: The Pink|Maushold-Four|100/100
+|turn|1
+|
+|move|p1a: Little army|First Impression|p2a: The Pink
+|-damage|p2a: The Pink|54/100
+|move|p2a: The Pink|Population Bomb|p1a: Little army
+|-damage|p1a: Little army|90/100
+|-damage|p1a: Little army|78/100
+|-damage|p1a: Little army|67/100
+|-damage|p1a: Little army|56/100
+|-damage|p1a: Little army|45/100
+|-damage|p1a: Little army|34/100
+|-hitcount|p1a: Little army|6
+|
+|-heal|p1a: Little army|40/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: The Pink|Population Bomb|p1a: Little army
+|-damage|p1a: Little army|30/100
+|-damage|p1a: Little army|18/100
+|-damage|p1a: Little army|5/100
+|-damage|p1a: Little army|0 fnt
+|faint|p1a: Little army
+|-hitcount|p1: Little army|4
+|
+|
+|switch|p1a: Nutter Butter|Naclstack, M|100/100
+|turn|3
+|
+|move|p2a: The Pink|U-turn|p1a: Nutter Butter
+|-damage|p1a: Nutter Butter|82/100
+|
+|switch|p2a: Greenfield|Meowscarada, M|100/100|[from] U-turn
+|move|p1a: Nutter Butter|Iron Defense|p1a: Nutter Butter
+|-boost|p1a: Nutter Butter|def|2
+|
+|turn|4
+|
+|move|p2a: Greenfield|Leaf Storm|p1a: Nutter Butter
+|-supereffective|p1a: Nutter Butter
+|-damage|p1a: Nutter Butter|0 fnt
+|-unboost|p2a: Greenfield|spa|2
+|faint|p1a: Nutter Butter
+|
+|
+|switch|p1a: Nicole|Cinderace, M|100/100
+|turn|5
+|
+|move|p2a: Greenfield|Spikes|p1a: Nicole
+|-sidestart|p1: Ducky456|Spikes
+|move|p1a: Nicole|Blast Burn|p2a: Greenfield
+|-supereffective|p2a: Greenfield
+|-enditem|p2a: Greenfield|Focus Sash
+|-damage|p2a: Greenfield|1/100
+|-mustrecharge|p1a: Nicole
+|
+|turn|6
+|
+|move|p2a: Greenfield|Knock Off|p1a: Nicole
+|-damage|p1a: Nicole|40/100
+|-enditem|p1a: Nicole|Leftovers|[from] move: Knock Off|[of] p2a: Greenfield
+|cant|p1a: Nicole|recharge
+|
+|turn|7
+|
+|switch|p2a: Groudon.|Chewtle, F|100/100
+|move|p1a: Nicole|Fire Blast|p2a: Groudon.
+|-resisted|p2a: Groudon.
+|-damage|p2a: Groudon.|56/100
+|
+|turn|8
+|
+|move|p1a: Nicole|High Jump Kick|p2a: Groudon.
+|-damage|p2a: Groudon.|0 fnt
+|faint|p2a: Groudon.
+|
+|
+|switch|p2a: Greenfield|Meowscarada, M|100/100
+|turn|9
+|
+|move|p1a: Nicole|Blast Burn|p2a: Greenfield
+|-damage|p2a: Greenfield|35/100
+|-mustrecharge|p1a: Nicole
+|replace|p2a: Mommy|Zoroark, M
+|-end|p2a: Mommy|Illusion
+|move|p2a: Mommy|U-turn|p1a: Nicole
+|-resisted|p1a: Nicole
+|-damage|p1a: Nicole|29/100
+|
+|switch|p2a: Funfetti|Sylveon, F|100/100|[from] U-turn
+|
+|turn|10
+|
+|cant|p1a: Nicole|recharge
+|move|p2a: Funfetti|Hyper Voice|p1a: Nicole
+|-resisted|p1a: Nicole
+|-damage|p1a: Nicole|2/100
+|
+|turn|11
+|
+|move|p1a: Nicole|Blast Burn|p2a: Funfetti
+|-damage|p2a: Funfetti|60/100
+|-mustrecharge|p1a: Nicole
+|move|p2a: Funfetti|Hyper Voice|p1a: Nicole
+|-resisted|p1a: Nicole
+|-damage|p1a: Nicole|0 fnt
+|faint|p1a: Nicole
+|
+|-heal|p2a: Funfetti|66/100|[from] item: Leftovers
+|
+|switch|p1a: the main character|Magikarp, M|100/100
+|-damage|p1a: the main character|88/100|[from] Spikes
+|turn|12
+|
+|move|p1a: the main character|Tackle|p2a: Funfetti
+|-damage|p2a: Funfetti|62/100
+|move|p2a: Funfetti|Wish|p2a: Funfetti
+|
+|-heal|p1a: the main character|94/100|[from] item: Leftovers
+|-heal|p2a: Funfetti|68/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: the main character|Splash|p1a: the main character
+|-nothing
+|move|p2a: Funfetti|Calm Mind|p2a: Funfetti
+|-boost|p2a: Funfetti|spa|1
+|-boost|p2a: Funfetti|spd|1
+|
+|-heal|p2a: Funfetti|100/100|[from] move: Wish|[wisher] Funfetti
+|-heal|p1a: the main character|100/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: the main character|Flail|p2a: Funfetti
+|-damage|p2a: Funfetti|99/100
+|move|p2a: Funfetti|Calm Mind|p2a: Funfetti
+|-boost|p2a: Funfetti|spa|1
+|-boost|p2a: Funfetti|spd|1
+|
+|-heal|p2a: Funfetti|100/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: THE MAIN CHARACTER|Dondozo, M|100/100
+|move|p2a: Funfetti|Calm Mind|p2a: Funfetti
+|-boost|p2a: Funfetti|spa|1
+|-boost|p2a: Funfetti|spd|1
+|
+|turn|16
+|
+|move|p2a: Funfetti|Hyper Voice|p1a: THE MAIN CHARACTER
+|-damage|p1a: THE MAIN CHARACTER|62/100
+|move|p1a: THE MAIN CHARACTER|Earthquake|p2a: Funfetti
+|-damage|p2a: Funfetti|74/100
+|
+|-heal|p2a: Funfetti|80/100|[from] item: Leftovers
+|turn|17
+|
+|switch|p1a: The empowered one|Tatsugiri, F|100/100
+|-damage|p1a: The empowered one|88/100|[from] Spikes
+|move|p2a: Funfetti|Wish|p2a: Funfetti
+|
+|-heal|p1a: The empowered one|94/100|[from] item: Leftovers
+|-heal|p2a: Funfetti|86/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: The empowered one|Draco Meteor|p2a: Funfetti
+|-immune|p2a: Funfetti
+|move|p2a: Funfetti|Hyper Voice|p1a: The empowered one
+|-supereffective|p1a: The empowered one
+|-damage|p1a: The empowered one|0 fnt
+|faint|p1a: The empowered one
+|
+|-heal|p2a: Funfetti|100/100|[from] move: Wish|[wisher] Funfetti
+|
+|switch|p1a: THE MAIN CHARACTER|Dondozo, M|62/100
+|turn|19
+|
+|move|p2a: Funfetti|Calm Mind|p2a: Funfetti
+|-boost|p2a: Funfetti|spa|1
+|-boost|p2a: Funfetti|spd|1
+|move|p1a: THE MAIN CHARACTER|Wave Crash|p2a: Funfetti
+|-damage|p2a: Funfetti|57/100
+|-damage|p1a: THE MAIN CHARACTER|51/100|[from] Recoil
+|
+|-heal|p2a: Funfetti|63/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Funfetti|Calm Mind|p2a: Funfetti
+|-boost|p2a: Funfetti|spa|1
+|-boost|p2a: Funfetti|spd|1
+|move|p1a: THE MAIN CHARACTER|Wave Crash|p2a: Funfetti
+|-damage|p2a: Funfetti|18/100
+|-damage|p1a: THE MAIN CHARACTER|39/100|[from] Recoil
+|
+|-heal|p2a: Funfetti|24/100|[from] item: Leftovers
+|turn|21
+|
+|-terastallize|p1a: THE MAIN CHARACTER|Water
+|move|p2a: Funfetti|Calm Mind|p2a: Funfetti
+|-boost|p2a: Funfetti|spa|1
+|-boost|p2a: Funfetti|spd|1
+|move|p1a: THE MAIN CHARACTER|Wave Crash|p2a: Funfetti
+|-damage|p2a: Funfetti|0 fnt
+|faint|p2a: Funfetti
+|-damage|p1a: THE MAIN CHARACTER|33/100|[from] Recoil
+|
+|
+|switch|p2a: Greenfield|Meowscarada, M|35/100
+|turn|22
+|
+|switch|p1a: the main character|Magikarp, M|100/100
+|-damage|p1a: the main character|88/100|[from] Spikes
+|move|p2a: Greenfield|U-turn|p1a: the main character
+|-damage|p1a: the main character|39/100
+|-ability|p1a: the main character|Rattled|boost
+|-boost|p1a: the main character|spe|1
+|
+|switch|p2a: The Pink|Maushold-Four|54/100|[from] U-turn
+|
+|-heal|p1a: the main character|45/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: the main character|Tackle|p2a: The Pink
+|-damage|p2a: The Pink|46/100
+|move|p2a: The Pink|Population Bomb|p1a: the main character
+|-damage|p1a: the main character|10/100
+|-damage|p1a: the main character|0 fnt
+|faint|p1a: the main character
+|-hitcount|p1: the main character|2
+|
+|
+|switch|p1a: THE MAIN CHARACTER|Dondozo, M, tera:Water|33/100
+|turn|24
+|
+|move|p2a: The Pink|Tidy Up|p2a: The Pink
+|-sideend|p1: Ducky456|Spikes
+|-activate|p2a: The Pink|move: Tidy Up
+|-boost|p2a: The Pink|atk|1
+|-boost|p2a: The Pink|spe|1
+|move|p1a: THE MAIN CHARACTER|Wave Crash|p2a: The Pink
+|-damage|p2a: The Pink|0 fnt
+|faint|p2a: The Pink
+|-damage|p1a: THE MAIN CHARACTER|24/100|[from] Recoil
+|
+|
+|switch|p2a: Greenfield|Meowscarada, M|35/100
+|turn|25
+|
+|move|p2a: Greenfield|U-turn|p1a: THE MAIN CHARACTER
+|-damage|p1a: THE MAIN CHARACTER|15/100
+|
+|switch|p2a: Greenfield|Meowscarada, M|1/100|[from] U-turn
+|move|p1a: THE MAIN CHARACTER|Wave Crash|p2a: Greenfield
+|-resisted|p2a: Greenfield
+|-damage|p2a: Greenfield|0 fnt
+|faint|p2a: Greenfield
+|-damage|p1a: THE MAIN CHARACTER|14/100|[from] Recoil
+|
+|
+|switch|p2a: Kamina|Kingambit, M, shiny|100/100
+|-activate|p2a: Kamina|ability: Supreme Overlord
+|-start|p2a: Kamina|fallen4|[silent]
+|turn|26
+|
+|-terastallize|p2a: Kamina|Normal
+|move|p2a: Kamina|Swords Dance|p2a: Kamina
+|-boost|p2a: Kamina|atk|2
+|move|p1a: THE MAIN CHARACTER|Wave Crash|p2a: Kamina
+|-damage|p2a: Kamina|36/100
+|-damage|p1a: THE MAIN CHARACTER|0 fnt|[from] Recoil
+|faint|p1a: THE MAIN CHARACTER
+|
+|win|Particleman21

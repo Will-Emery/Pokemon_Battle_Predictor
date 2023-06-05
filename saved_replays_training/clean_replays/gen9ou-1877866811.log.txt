@@ -1,0 +1,167 @@
+|poke|p1|Magearna|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Ting-Lu|
+|poke|p2|Kingambit, M|
+|poke|p2|Greninja, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Amoonguss, M|
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|1
+|
+|move|p2a: Greninja|U-turn|p1a: Rotom
+|-start|p2a: Greninja|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Rotom|61/100
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|switch|p2a: Imposter|Amoonguss, M|100/100|[from] U-turn
+|move|p1a: Rotom|Volt Switch|p2a: Imposter
+|-resisted|p2a: Imposter
+|-damage|p2a: Imposter|85/100
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100|[from] Volt Switch
+|
+|-heal|p2a: Imposter|91/100|[from] item: Black Sludge
+|turn|2
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Imposter
+|-damage|p2a: Imposter|61/100
+|move|p2a: Imposter|Spore|p1a: Sneasler
+|-status|p1a: Sneasler|slp|[from] move: Spore
+|
+|-heal|p2a: Imposter|68/100|[from] item: Black Sludge
+|turn|3
+|
+|switch|p2a: Bowcut|Ting-Lu|100/100
+|-ability|p2a: Bowcut|Vessel of Ruin
+|cant|p1a: Sneasler|slp
+|
+|turn|4
+|
+|cant|p1a: Sneasler|slp
+|move|p2a: Bowcut|Earthquake|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100 slp
+|
+|turn|5
+|
+|cant|p1a: Sneasler|slp
+|move|p2a: Bowcut|Stealth Rock|p1a: Sneasler
+|-sidestart|p1: WATER77|move: Stealth Rock
+|
+|turn|6
+|
+|-curestatus|p1a: Sneasler|slp|[msg]
+|move|p1a: Sneasler|Close Combat|p2a: Bowcut
+|-supereffective|p2a: Bowcut
+|-crit|p2a: Bowcut
+|-damage|p2a: Bowcut|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Bowcut
+|
+|
+|switch|p2a: Imposter|Amoonguss, M|100/100
+|turn|7
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Imposter
+|-damage|p2a: Imposter|70/100
+|move|p2a: Imposter|Foul Play|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-heal|p2a: Imposter|76/100|[from] item: Black Sludge
+|
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Imposter
+|-crit|p2a: Imposter
+|-damage|p2a: Imposter|49/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Imposter
+|-damage|p2a: Imposter|30/100
+|move|p2a: Imposter|Spore|p1a: Dragapult
+|-status|p1a: Dragapult|slp|[from] move: Spore
+|
+|-heal|p2a: Imposter|36/100|[from] item: Black Sludge
+|turn|9
+|
+|cant|p1a: Dragapult|slp
+|move|p2a: Imposter|Foul Play|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|8/100 slp
+|-start|p2a: Imposter|Disable|Foul Play|[from] ability: Cursed Body|[of] p1a: Dragapult
+|
+|-heal|p2a: Imposter|43/100|[from] item: Black Sludge
+|turn|10
+|
+|cant|p1a: Dragapult|slp
+|move|p2a: Imposter|Clear Smog|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-clearboost|p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Imposter|49/100|[from] item: Black Sludge
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|95/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Magearna
+|-status|p1a: Magearna|brn
+|
+|-damage|p1a: Magearna|95/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Skeledirge|Torch Song|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|33/100 brn
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Magearna|39/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|33/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Magearna|Draining Kiss|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|90/100
+|-heal|p1a: Magearna|44/100 brn|[from] drain|[of] p2a: Skeledirge
+|move|p2a: Skeledirge|Torch Song|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Rotom|Rotom-Wash|61/100
+|-damage|p1a: Rotom|49/100|[from] Stealth Rock
+|turn|15
+|-message|WATER77 forfeited.
+|
+|win|ResPootin

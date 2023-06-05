@@ -1,1 +1,586 @@
-Could not connect
+|j|☆conuer
+|j|☆yellerbow
+|t:|1685856391
+|gametype|singles
+|player|p1|conuer|crasherwake|1201
+|player|p2|yellerbow|170|1198
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Heat|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Gholdengo|
+|poke|p1|Zarude|
+|poke|p1|Great Tusk|
+|poke|p2|Altaria, M|
+|poke|p2|Lycanroc, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|poke|p2|Gastrodon, F|
+|teampreview
+|
+|t:|1685856410
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1685856433
+|-terastallize|p2a: Tyranitar|Ghost
+|move|p1a: Samurott|Ceaseless Edge|p2a: Tyranitar|[miss]
+|-miss|p1a: Samurott|p2a: Tyranitar
+|move|p2a: Tyranitar|Low Kick|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Samurott|37/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685856447
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|84/100
+|-sidestart|p2: yellerbow|Spikes
+|-damage|p1a: Samurott|20/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-damage|p1a: Samurott|10/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Samurott|4/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1685856482
+|move|p2a: Great Tusk|Knock Off|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-enditem|p1a: Samurott|Life Orb|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Samurott
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1685856493
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|turn|4
+|
+|t:|1685856516
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|88/100|[from] Spikes
+|move|p1a: Iron Valiant|Moonblast|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Valiant|94/100|[from] Sandstorm
+|-heal|p2a: Magearna|67/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1685856526
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|54/100
+|-unboost|p2a: Magearna|spa|2
+|
+|-weather|none
+|-heal|p2a: Magearna|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1685856560
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-damage|p2a: Gastrodon|88/100|[from] Spikes
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|
+|-heal|p2a: Gastrodon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1685856578
+|switch|p1a: Zarude|Zarude|100/100
+|move|p2a: Gastrodon|Surf|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|93/100
+|
+|-heal|p2a: Gastrodon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1685856622
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Zarude|Rock Slide|p2a: Altaria|[miss]
+|-miss|p1a: Zarude|p2a: Altaria
+|
+|upkeep
+|turn|9
+|
+|t:|1685856640
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Altaria|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1685856654
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Heat|54/100
+|move|p2a: Altaria|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: yellerbow|Spikes|[from] move: Defog|[of] p2a: Altaria
+|
+|upkeep
+|turn|11
+|
+|t:|1685856664
+|switch|p2a: Gastrodon|Gastrodon, F|88/100 brn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon
+|-fail|p2a: Gastrodon|brn
+|
+|-heal|p2a: Gastrodon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1685856679
+|switch|p1a: Zarude|Zarude|93/100
+|move|p2a: Gastrodon|Yawn|p1a: Zarude
+|-start|p1a: Zarude|move: Yawn|[of] p2a: Gastrodon
+|
+|-heal|p2a: Gastrodon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1685856706
+|switch|p1a: Great Tusk|Great Tusk|94/100 brn
+|move|p2a: Gastrodon|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|2/100 brn
+|
+|-heal|p1a: Great Tusk|8/100 brn|[from] item: Leftovers
+|-heal|p2a: Gastrodon|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Great Tusk|2/100 brn|[from] brn
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1685856750
+|move|p1a: Great Tusk|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|70/100 brn
+|-enditem|p2a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Gastrodon|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Gastrodon|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1685856768
+|switch|p1a: Zarude|Zarude|93/100
+|turn|15
+|
+|t:|1685856781
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Zarude|Power Whip|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|91/100
+|
+|-heal|p2a: Altaria|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685856824
+|switch|p1a: Rotom|Rotom-Heat|54/100
+|move|p2a: Altaria|Brave Bird|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|33/100
+|-damage|p2a: Altaria|93/100|[from] Recoil
+|
+|-heal|p2a: Altaria|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1685856833
+|switch|p1a: Zarude|Zarude|93/100
+|switch|p2a: Tyranitar|Tyranitar, F, tera:Ghost|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zarude|87/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1685856847
+|switch|p2a: Altaria|Altaria, M|99/100
+|move|p1a: Zarude|Crunch|p2a: Altaria
+|-damage|p2a: Altaria|73/100
+|-unboost|p2a: Altaria|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zarude|81/100|[from] Sandstorm
+|-damage|p2a: Altaria|67/100|[from] Sandstorm
+|-heal|p2a: Altaria|73/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1685856862
+|move|p1a: Zarude|Rock Slide|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|25/100
+|move|p2a: Altaria|Brave Bird|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|42/100
+|-damage|p2a: Altaria|12/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zarude|36/100|[from] Sandstorm
+|-damage|p2a: Altaria|6/100|[from] Sandstorm
+|-heal|p2a: Altaria|12/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1685856886
+|switch|p1a: Rotom|Rotom-Heat|33/100
+|switch|p2a: Great Tusk|Great Tusk|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|27/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1685856901
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gastrodon|Gastrodon, F|64/100 brn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gastrodon
+|-fail|p2a: Gastrodon|brn
+|
+|-weather|none
+|-damage|p2a: Gastrodon|58/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1685856911
+|move|p1a: Rotom|Overheat|p2a: Gastrodon|[miss]
+|-miss|p1a: Rotom|p2a: Gastrodon
+|move|p2a: Gastrodon|Yawn|p1a: Rotom
+|-start|p1a: Rotom|move: Yawn|[of] p2a: Gastrodon
+|
+|-damage|p2a: Gastrodon|52/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1685856919
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1685856933
+|switch|p1a: Rotom|Rotom-Heat|27/100
+|move|p2a: Gastrodon|Earth Power|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1685856940
+|switch|p1a: Zarude|Zarude|36/100
+|move|p2a: Gastrodon|Surf|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|27/100
+|
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1685856951
+|move|p1a: Zarude|Drain Punch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|60/100 brn
+|-heal|p1a: Zarude|41/100|[from] drain|[of] p2a: Gastrodon
+|move|p2a: Gastrodon|Yawn|p1a: Zarude
+|-start|p1a: Zarude|move: Yawn|[of] p2a: Gastrodon
+|
+|-damage|p2a: Gastrodon|54/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1685856961
+|switch|p1a: Rotom|Rotom-Heat|27/100
+|move|p2a: Gastrodon|Surf|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Gastrodon|48/100 brn|[from] brn
+|upkeep
+|
+|t:|1685856971
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|94/100
+|turn|28
+|
+|t:|1685856993
+|move|p1a: Iron Valiant|Focus Blast|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|upkeep
+|
+|t:|1685857002
+|switch|p2a: Tyranitar|Tyranitar, F, tera:Ghost|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|29
+|
+|t:|1685857006
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Tyranitar|Thunder Wave|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1685857022
+|switch|p1a: Zarude|Zarude|41/100
+|move|p2a: Tyranitar|Crunch|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zarude|22/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1685857034
+|move|p1a: Zarude|Drain Punch|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|move|p2a: Tyranitar|Thunder Wave|p1a: Zarude
+|-status|p1a: Zarude|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|-damage|p1a: Zarude|16/100 par|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1685857048
+|move|p2a: Tyranitar|Rock Blast|p1a: Zarude
+|-damage|p1a: Zarude|8/100 par
+|-damage|p1a: Zarude|1/100 par
+|-damage|p1a: Zarude|0 fnt
+|faint|p1a: Zarude
+|-hitcount|p1: Zarude|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685857052
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|94/100
+|turn|33
+|
+|t:|1685857059
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|53/100
+|move|p2a: Tyranitar|Thunder Wave|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|par
+|
+|-weather|none
+|-heal|p2a: Tyranitar|59/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1685857077
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Altaria|Altaria, M|12/100
+|
+|-heal|p2a: Altaria|18/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1685857130
+|move|p1a: Gholdengo|Make It Rain|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Altaria
+|
+|upkeep
+|
+|t:|1685857152
+|switch|p2a: Great Tusk|Great Tusk|84/100
+|turn|36
+|
+|t:|1685857171
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|94/100 par
+|move|p2a: Great Tusk|Knock Off|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|85/100 par
+|-enditem|p1a: Iron Valiant|Choice Specs|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|37
+|
+|t:|1685857190
+|move|p2a: Great Tusk|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|31/100 par
+|move|p1a: Iron Valiant|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1685857199
+|switch|p2a: Tyranitar|Tyranitar, F, tera:Ghost|59/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|38
+|
+|t:|1685857233
+|move|p1a: Iron Valiant|Moonblast|p2a: Tyranitar
+|-damage|p2a: Tyranitar|27/100
+|move|p2a: Tyranitar|Rock Blast|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|24/100 par
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|16/100 par
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|9/100 par
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|2/100 par
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-hitcount|p1: Iron Valiant|5
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|20/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1685857245
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|39
+|
+|t:|1685857251
+|-terastallize|p1a: Gholdengo|Fighting
+|move|p1a: Gholdengo|Shadow Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gholdengo|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1685857284
+|switch|p2a: Lycanroc|Lycanroc, M|100/100
+|turn|40
+|
+|t:|1685857291
+|move|p2a: Lycanroc|Close Combat|p1a: Gholdengo
+|-damage|p1a: Gholdengo|52/100
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|move|p1a: Gholdengo|Focus Blast|p2a: Lycanroc|[miss]
+|-miss|p1a: Gholdengo|p2a: Lycanroc
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gholdengo|46/100|[from] Sandstorm
+|upkeep
+|turn|41
+|
+|t:|1685857306
+|move|p2a: Lycanroc|Close Combat|p1a: Gholdengo
+|-damage|p1a: Gholdengo|6/100
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gholdengo|50/100|[from] Sandstorm
+|upkeep
+|turn|42
+|
+|t:|1685857324
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|99/100
+|
+|-weather|none
+|upkeep
+|turn|43
+|
+|t:|1685857334
+|move|p2a: Lycanroc|Close Combat|p1a: Gholdengo
+|-damage|p1a: Gholdengo|16/100
+|-unboost|p2a: Lycanroc|def|1
+|-unboost|p2a: Lycanroc|spd|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|upkeep
+|
+|t:|1685857342
+|switch|p2a: Magearna|Magearna|73/100
+|turn|44
+|
+|t:|1685857374
+|move|p1a: Gholdengo|Focus Blast|p2a: Magearna|[miss]
+|-miss|p1a: Gholdengo|p2a: Magearna
+|move|p2a: Magearna|Fleur Cannon|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Gholdengo
+|
+|win|yellerbow
+|raw|conuer's rating: 1201 → 1176(-25 for losing)
+|raw|yellerbow's rating: 1198 → 1223(+25 for winning)
+|c|☆yellerbow|packed

@@ -1,0 +1,227 @@
+|poke|p1|Magearna|
+|poke|p1|Chien-Pao|
+|poke|p1|Sneasler, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Enamorus, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Gholdengo|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|switch|p2a: Metal Prince|Gholdengo|100/100
+|-item|p1a: Sneasler|Air Balloon
+|-item|p2a: Metal Prince|Air Balloon
+|turn|1
+|
+|switch|p2a: Anger|Landorus-Therian, M|100/100
+|-ability|p2a: Anger|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|turn|2
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Anger
+|-resisted|p2a: Anger
+|-damage|p2a: Anger|74/100
+|-damage|p1a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p2a: Anger
+|move|p2a: Anger|U-turn|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|74/100
+|-enditem|p1a: Sneasler|Air Balloon
+|
+|switch|p2a: Rage|Great Tusk|100/100|[from] U-turn
+|
+|turn|3
+|
+|-end|p2a: Rage|Protosynthesis|[silent]
+|switch|p2a: Anger|Landorus-Therian, M|74/100
+|-ability|p2a: Anger|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|move|p1a: Sneasler|Dire Claw|p2a: Anger
+|-resisted|p2a: Anger
+|-damage|p2a: Anger|56/100
+|-status|p2a: Anger|psn
+|-damage|p1a: Sneasler|57/100|[from] item: Rocky Helmet|[of] p2a: Anger
+|
+|-damage|p2a: Anger|44/100 psn|[from] psn
+|turn|4
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Anger|Earthquake|p1a: Enamorus
+|-immune|p1a: Enamorus
+|
+|-damage|p2a: Anger|31/100 psn|[from] psn
+|turn|5
+|
+|move|p1a: Enamorus|Earth Power|p2a: Anger
+|-immune|p2a: Anger
+|move|p2a: Anger|Stealth Rock|p1a: Enamorus
+|-sidestart|p1: austinerzs|move: Stealth Rock
+|
+|-damage|p2a: Anger|19/100 psn|[from] psn
+|turn|6
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Anger|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|75/100
+|-start|p2a: Anger|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Dragapult
+|
+|switch|p2a: The King|Dragapult, M, shiny|100/100|[from] U-turn
+|
+|turn|7
+|
+|move|p2a: The King|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|8
+|
+|switch|p2a: Anger|Landorus-Therian, M|19/100 psn
+|-ability|p2a: Anger|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-damage|p2a: Anger|7/100 psn|[from] psn
+|turn|9
+|
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|move|p2a: Anger|Earthquake|p1a: Enamorus
+|-immune|p1a: Enamorus
+|
+|-damage|p2a: Anger|0 fnt|[from] psn
+|faint|p2a: Anger
+|
+|switch|p2a: Metal Prince|Gholdengo|100/100
+|-item|p2a: Metal Prince|Air Balloon
+|turn|10
+|
+|switch|p1a: Kingambit|Kingambit, F|94/100
+|-damage|p1a: Kingambit|88/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Metal Prince|Make It Rain|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|52/100
+|-unboost|p2a: Metal Prince|spa|1
+|
+|turn|11
+|
+|switch|p2a: Poe|Urshifu-Rapid-Strike, M|100/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Poe
+|-resisted|p2a: Poe
+|-damage|p2a: Poe|74/100
+|
+|turn|12
+|
+|move|p2a: Poe|Surging Strikes|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|35/100
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|18/100
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|1/100
+|-hitcount|p1a: Kingambit|3
+|move|p1a: Kingambit|Metal Burst|p2a: Poe
+|-damage|p2a: Poe|44/100
+|
+|turn|13
+|
+|move|p2a: Poe|Swords Dance|p2a: Poe
+|-boost|p2a: Poe|atk|2
+|move|p1a: Kingambit|Iron Head|p2a: Poe
+|-resisted|p2a: Poe
+|-damage|p2a: Poe|20/100
+|
+|turn|14
+|
+|move|p2a: Poe|Aqua Jet|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|76/100
+|-damage|p1a: Enamorus|51/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Poe|Aqua Jet|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|turn|16
+|
+|-terastallize|p1a: Magearna|Water
+|move|p2a: Poe|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Poe|def|1
+|-unboost|p2a: Poe|spd|1
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|57/100
+|-damage|p1a: Sneasler|51/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Poe|Aqua Jet|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|18
+|
+|move|p2a: Poe|Aqua Jet|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|18/100
+|move|p1a: Chien-Pao|Crunch|p2a: Poe
+|-resisted|p2a: Poe
+|-damage|p2a: Poe|0 fnt
+|faint|p2a: Poe
+|
+|
+|switch|p2a: Rage|Great Tusk|100/100
+|turn|19
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Rage
+|-resisted|p2a: Rage
+|-damage|p2a: Rage|70/100
+|-unboost|p2a: Rage|def|1
+|-enditem|p2a: Rage|Eject Pack
+|
+|-end|p2a: Rage|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|100/100
+|
+|turn|20
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|66/100
+|move|p2a: Magearna|Draining Kiss|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-heal|p2a: Magearna|77/100|[from] drain|[of] p1a: Chien-Pao
+|faint|p1a: Chien-Pao
+|
+|win|Lurlsxd

@@ -1,0 +1,222 @@
+|poke|p1|Dragapult, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Zapdos|
+|poke|p1|Chien-Pao|
+|poke|p1|Great Tusk|
+|poke|p1|Skeledirge, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|1
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Zapdos|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|90/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|-heal|p2a: Goodra|96/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Goodra
+|-damage|p2a: Goodra|70/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Great Tusk|spe|1
+|-enditem|p2a: Goodra|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Goodra|Counter|p1a: Great Tusk
+|-damage|p1a: Great Tusk|58/100
+|
+|-heal|p1a: Great Tusk|64/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Braviary
+|-sidestart|p2: DannyMcCake|move: Stealth Rock
+|
+|-heal|p1a: Great Tusk|70/100|[from] item: Leftovers
+|turn|4
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Braviary|Hurricane|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|move|p1a: Dragapult|U-turn|p2a: Braviary
+|-damage|p2a: Braviary|83/100
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100|[from] U-turn
+|move|p2a: Braviary|Hurricane|p1a: Skeledirge
+|-damage|p1a: Skeledirge|38/100
+|
+|turn|6
+|
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|88/100
+|move|p2a: Braviary|Hurricane|p1a: Skeledirge|[miss]
+|-miss|p2a: Braviary|p1a: Skeledirge
+|
+|turn|7
+|
+|move|p1a: Skeledirge|Shadow Ball|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|14/100
+|-unboost|p2a: Braviary|spd|1
+|move|p2a: Braviary|Hurricane|p1a: Skeledirge
+|-damage|p1a: Skeledirge|29/100
+|-start|p1a: Skeledirge|confusion
+|
+|turn|8
+|
+|-activate|p1a: Skeledirge|confusion
+|move|p1a: Skeledirge|Shadow Ball|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|move|p1a: Dragapult|U-turn|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|78/100
+|
+|switch|p1a: Great Tusk|Great Tusk|70/100|[from] U-turn
+|move|p2a: Basculegion|Phantom Force||[still]
+|-prepare|p2a: Basculegion|Phantom Force
+|
+|-heal|p1a: Great Tusk|76/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Basculegion|[miss]
+|-miss|p1a: Great Tusk|p2a: Basculegion
+|move|p2a: Basculegion|Phantom Force|p1a: Great Tusk|[from]lockedmove
+|-damage|p1a: Great Tusk|36/100
+|
+|-heal|p1a: Great Tusk|42/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|6/100
+|move|p1a: Great Tusk|Knock Off|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|21/100
+|-enditem|p2a: Basculegion|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|13/100|[from] item: Leftovers
+|turn|13
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Basculegion|Aqua Jet|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|81/100
+|
+|turn|14
+|
+|move|p2a: Basculegion|Aqua Jet|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|54/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|-damage|p2a: Arcanine|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Arcanine
+|-damage|p2a: Arcanine|9/100
+|-unboost|p2a: Arcanine|spd|1
+|move|p2a: Arcanine|Head Smash|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|13/100
+|turn|16
+|
+|move|p2a: Arcanine|Head Smash|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|17
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|-damage|p1a: Arcanine|91/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|70/100
+|-damage|p2a: Goodra|64/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Arcanine|spe|1
+|faint|p2a: Goodra
+|-damage|p1a: Arcanine|81/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|turn|19
+|
+|-terastallize|p1a: Arcanine|Fire
+|move|p2a: Sneasler|Close Combat|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|faint|p1a: Arcanine
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|20
+|
+|move|p2a: Sneasler|Close Combat|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Chien-Pao
+|
+|win|DannyMcCake

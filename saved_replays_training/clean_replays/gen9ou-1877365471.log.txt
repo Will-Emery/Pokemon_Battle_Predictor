@@ -1,0 +1,352 @@
+|poke|p1|Hatterene, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Magearna|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Great Tusk|
+|poke|p1|Basculegion-F, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Great Tusk|
+|poke|p2|Chien-Pao|
+|poke|p2|Clodsire, M|
+|poke|p2|Magearna|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|1
+|
+|move|p2a: Clodsire|Poison Jab|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|64/100
+|-status|p1a: Hatterene|psn
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-damage|p1a: Hatterene|52/100 psn|[from] psn
+|turn|2
+|
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Clodsire|Toxic Spikes|p1: Hatterene
+|-sidestart|p1: False Swipeing点老师|move: Toxic Spikes
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|3
+|
+|switch|p2a: burn :3|Volcarona, M|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: burn :3
+|-damage|p2a: burn :3|84/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: False Swipeing点老师|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|
+|turn|5
+|
+|-terastallize|p1a: Basculegion|Ghost
+|move|p1a: Basculegion|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|4/100
+|move|p2a: Rotom|Volt Switch|p1a: Basculegion
+|-damage|p1a: Basculegion|75/100
+|
+|switch|p2a: Best pokemon ever|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p2a: Best pokemon ever|Sword of Ruin
+|
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Wash|4/100
+|switch|p1a: Magearna|Magearna|100/100
+|
+|-heal|p2a: Rotom|11/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Magearna|[miss]
+|-miss|p2a: Rotom|p1a: Magearna
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-heal|p2a: Rotom|17/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|85/100
+|-unboost|p1a: Magearna|spa|2
+|-enditem|p1a: Magearna|Eject Pack
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|
+|-heal|p2a: Clodsire|91/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Wash|17/100
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Hoopa|def|1
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|10
+|
+|switch|p1a: Basculegion|Basculegion-F, F, tera:Ghost|75/100
+|-heal|p1a: Basculegion|100/100|[from] move: Healing Wish
+|move|p2a: Magearna|Fleur Cannon|p1a: Basculegion
+|-damage|p1a: Basculegion|44/100
+|-unboost|p2a: Magearna|spa|2
+|
+|turn|11
+|
+|switch|p2a: Clodsire|Clodsire, M|91/100
+|move|p1a: Basculegion|Surf|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|26/100
+|
+|-heal|p2a: Clodsire|33/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|12
+|
+|move|p1a: Basculegion|Surf|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|
+|switch|p2a: Best pokemon ever|Chien-Pao|100/100
+|-ability|p2a: Best pokemon ever|Sword of Ruin
+|turn|13
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-terastallize|p2a: Best pokemon ever|Dark
+|move|p2a: Best pokemon ever|Crunch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|70/100
+|
+|turn|14
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|15
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Magearna|Volt Switch|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|turn|16
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|79/100
+|
+|-heal|p2a: Great Tusk|85/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|78/100
+|-enditem|p2a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Great Tusk|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|80/100
+|
+|turn|18
+|
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Great Tusk|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|65/100
+|
+|-fieldend|move: Trick Room
+|turn|19
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: burn :3|Volcarona, M|84/100
+|move|p1a: Great Tusk|Earthquake|p2a: burn :3
+|-damage|p2a: burn :3|13/100
+|
+|turn|20
+|
+|move|p2a: burn :3|Giga Drain|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|8/100
+|-heal|p2a: burn :3|46/100|[from] drain|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Earthquake|p2a: burn :3
+|-damage|p2a: burn :3|0 fnt
+|faint|p2a: burn :3
+|
+|
+|switch|p2a: Best pokemon ever|Chien-Pao, tera:Dark|100/100
+|-ability|p2a: Best pokemon ever|Sword of Ruin
+|turn|21
+|
+|move|p2a: Best pokemon ever|Crunch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Magearna|Magearna|70/100
+|turn|22
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|23
+|
+|move|p1a: Magearna|Pain Split|p2a: Magearna
+|-sethp|p2a: Magearna|85/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Magearna|85/100|[from] move: Pain Split
+|move|p2a: Magearna|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|68/100
+|
+|switch|p2a: Great Tusk|Great Tusk|78/100|[from] Volt Switch
+|
+|turn|24
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|85/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|63/100
+|-unboost|p1a: Magearna|spa|2
+|
+|-heal|p2a: Magearna|69/100|[from] item: Leftovers
+|turn|25
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Magearna|Spikes|p1a: Hoopa
+|-sidestart|p1: False Swipeing点老师|Spikes
+|
+|-heal|p2a: Magearna|75/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Hoopa|Fire Punch|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|15/100
+|move|p2a: Magearna|Fleur Cannon|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|23/100
+|-unboost|p2a: Magearna|spa|2
+|
+|-heal|p2a: Magearna|21/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|27
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Hoopa
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-heal|p2a: Magearna|27/100|[from] item: Leftovers
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|28
+|
+|move|p2a: Magearna|Pain Split|p1a: Cresselia
+|-sethp|p1a: Cresselia|61/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Magearna|75/100|[from] move: Pain Split
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-heal|p2a: Magearna|81/100|[from] item: Leftovers
+|turn|29
+|
+|switch|p1a: Basculegion|Basculegion-F, F, tera:Ghost|44/100
+|-damage|p1a: Basculegion|31/100|[from] Spikes
+|move|p2a: Magearna|Spikes|p1a: Basculegion
+|-sidestart|p1: False Swipeing点老师|Spikes
+|
+|-heal|p2a: Magearna|87/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Magearna
+|-damage|p2a: Magearna|13/100
+|move|p2a: Magearna|Volt Switch|p1a: Basculegion
+|-damage|p1a: Basculegion|23/100
+|
+|switch|p2a: Best pokemon ever|Chien-Pao, tera:Dark|100/100|[from] Volt Switch
+|-ability|p2a: Best pokemon ever|Sword of Ruin
+|
+|turn|31
+|
+|switch|p1a: Magearna|Magearna|68/100
+|-damage|p1a: Magearna|52/100|[from] Spikes
+|move|p2a: Best pokemon ever|Ice Shard|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|40/100
+|
+|turn|32
+|
+|switch|p2a: Magearna|Magearna|13/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Magearna
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Best pokemon ever|Chien-Pao, tera:Dark|100/100
+|-ability|p2a: Best pokemon ever|Sword of Ruin
+|turn|33
+|
+|switch|p2a: Great Tusk|Great Tusk|78/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|34
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Great Tusk
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Best pokemon ever|Chien-Pao, tera:Dark|100/100
+|-ability|p2a: Best pokemon ever|Sword of Ruin
+|turn|35
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Best pokemon ever
+|-supereffective|p2a: Best pokemon ever
+|-damage|p2a: Best pokemon ever|15/100
+|-unboost|p1a: Magearna|spa|2
+|move|p2a: Best pokemon ever|Crunch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|6/100
+|
+|turn|36
+|-message|gewwge forfeited.
+|
+|win|False Swipeing点老师
+|n|☆False Swipeing点老师|falseswipeing
+|n|☆gewwge|gewwge
+|n| randomheavyps4|randomheavyps4
+|n| huoshenenb|huoshenenb
+|n| Prospect cxy|prospectcxy
+|n| MagikarpIsAG|magikarpisag
+|n| xiaomai|xiaomai
+|n| I love Yu Hongying|iloveyuhongying
+|n| YC_zhang|yczhang
+|n| Muelsyse R.L.|muelsyserl

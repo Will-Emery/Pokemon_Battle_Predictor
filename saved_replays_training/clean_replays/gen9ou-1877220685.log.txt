@@ -1,0 +1,278 @@
+|poke|p1|Kleavor, M|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Great Tusk|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Sableye, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Abomasnow, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Magearna|
+|poke|p2|Skeledirge, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|move|p1a: Braviary|Heat Wave|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|2
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Braviary|Heat Wave|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|16/100
+|-enditem|p2a: Magearna|Weakness Policy
+|-boost|p2a: Magearna|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Magearna|spa|2|[from] item: Weakness Policy
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|-terastallize|p2a: Magearna|Fairy
+|-terastallize|p1a: Braviary|Steel
+|move|p2a: Magearna|Draining Kiss|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|53/100
+|-heal|p2a: Magearna|56/100|[from] drain|[of] p1a: Braviary
+|move|p1a: Braviary|Heat Wave|p2a: Magearna|[miss]
+|-miss|p1a: Braviary|p2a: Magearna
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Braviary|Psychic|p2a: Magearna
+|-damage|p2a: Magearna|12/100
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Magearna|Draining Kiss|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|71/100
+|-heal|p2a: Magearna|40/100|[from] drain|[of] p1a: Clodsire
+|
+|-weather|none
+|-heal|p1a: Clodsire|77/100|[from] item: Black Sludge
+|turn|6
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|move|p2a: Magearna|Stored Power|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|turn|7
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Sableye|Encore|p2a: Chien-Pao
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Chien-Pao
+|
+|turn|8
+|
+|move|p1a: Sableye|Reflect|p1a: Sableye
+|-sidestart|p1: Armeen|Reflect
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Sableye
+|-damage|p1a: Sableye|63/100
+|
+|turn|9
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Urshifu|[miss]
+|-miss|p2a: Chien-Pao|p1a: Urshifu
+|
+|turn|10
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Urshifu|[miss]
+|-miss|p2a: Chien-Pao|p1a: Urshifu
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|turn|11
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|79/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Chien-Pao
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|47/100
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|-hitcount|p2: Chien-Pao|2
+|
+|-heal|p1a: Urshifu|85/100|[from] item: Leftovers
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|12
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|67/100
+|-supereffective|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|36/100
+|-supereffective|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|5/100
+|-hitcount|p2a: Skeledirge|3
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Urshifu
+|-status|p1a: Urshifu|brn
+|
+|-heal|p1a: Urshifu|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Urshifu|85/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-hitcount|p2: Skeledirge|1
+|
+|-heal|p1a: Urshifu|91/100 brn|[from] item: Leftovers
+|-damage|p1a: Urshifu|85/100 brn|[from] brn
+|
+|switch|p2a: Magearna|Magearna, tera:Fairy|40/100
+|turn|14
+|
+|switch|p1a: Sableye|Sableye, F|63/100
+|move|p2a: Magearna|Draining Kiss|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|-heal|p2a: Magearna|79/100|[from] drain|[of] p1a: Sableye
+|faint|p1a: Sableye
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Braviary|Braviary-Hisui, M, tera:Steel|53/100
+|turn|15
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Braviary|Psychic|p2a: Magearna
+|-damage|p2a: Magearna|15/100
+|
+|-sideend|p1: Armeen|Reflect
+|turn|16
+|
+|move|p2a: Magearna|Stored Power|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|23/100
+|move|p1a: Braviary|Psychic|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|17
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Braviary
+|-crit|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|-enditem|p1a: Braviary|Life Orb|[from] move: Knock Off|[of] p2a: Iron Treads
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|18
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100
+|-enditem|p1a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|turn|19
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Great Tusk|Earthquake|p2a: Zamazenta
+|-damage|p2a: Zamazenta|58/100
+|
+|-heal|p2a: Zamazenta|64/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zamazenta
+|-damage|p2a: Zamazenta|57/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-heal|p2a: Zamazenta|63/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|69/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Zamazenta|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|43/100
+|
+|-heal|p2a: Zamazenta|75/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Zamazenta
+|-damage|p2a: Zamazenta|45/100
+|move|p2a: Zamazenta|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|5/100
+|
+|-heal|p2a: Zamazenta|51/100|[from] item: Leftovers
+|turn|24
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Zamazenta
+|-damage|p2a: Zamazenta|20/100
+|move|p2a: Zamazenta|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Zamazenta|27/100|[from] item: Leftovers
+|
+|switch|p1a: Clodsire|Clodsire, F|77/100
+|turn|25
+|
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|2/100
+|move|p1a: Clodsire|Toxic||[still]
+|-fail|p1a: Clodsire
+|
+|-heal|p2a: Zamazenta|8/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|84/100|[from] item: Black Sludge
+|turn|26
+|-message|Armeen forfeited.
+|
+|win|erduashi

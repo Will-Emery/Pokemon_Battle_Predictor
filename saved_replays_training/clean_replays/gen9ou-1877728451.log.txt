@@ -1,0 +1,308 @@
+|poke|p1|Electrode-Hisui|
+|poke|p1|Zangoose, M|
+|poke|p1|Tropius, M|
+|poke|p1|Seviper, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Heatran, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Magearna|
+|poke|p2|Hatterene, F|
+|poke|p2|Glastrier|
+|poke|p2|Cresselia, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|start
+|switch|p1a: Tropus|Tropius, M|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|move|p1a: Tropus|Air Slash|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|turn|2
+|
+|switch|p2a: Glastrier|Glastrier|100/100
+|move|p1a: Tropus|Giga Drain|p2a: Glastrier
+|-damage|p2a: Glastrier|83/100
+|
+|turn|3
+|
+|switch|p1a: rip hellfrog|Heatran, M|100/100
+|move|p2a: Glastrier|Icicle Crash|p1a: rip hellfrog
+|-resisted|p1a: rip hellfrog
+|-damage|p1a: rip hellfrog|89/100
+|
+|-heal|p1a: rip hellfrog|96/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Glastrier|Stomping Tantrum|p1a: rip hellfrog
+|-supereffective|p1a: rip hellfrog
+|-damage|p1a: rip hellfrog|0 fnt
+|faint|p1a: rip hellfrog
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|
+|switch|p1a: Tropus|Tropius, M|100/100
+|turn|5
+|
+|-terastallize|p1a: Tropus|Fire
+|move|p2a: Glastrier|Icicle Crash|p1a: Tropus
+|-resisted|p1a: Tropus
+|-damage|p1a: Tropus|74/100
+|move|p1a: Tropus|Leech Seed|p2a: Glastrier
+|-start|p2a: Glastrier|move: Leech Seed
+|
+|-damage|p2a: Glastrier|71/100|[from] Leech Seed|[of] p1a: Tropus
+|-heal|p1a: Tropus|87/100|[silent]
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p2a: Hatterene|Hatterene, F|78/100
+|move|p1a: Tropus|Substitute|p1a: Tropus
+|-start|p1a: Tropus|Substitute
+|-damage|p1a: Tropus|62/100
+|
+|turn|7
+|
+|move|p1a: Tropus|Air Slash|p2a: Hatterene
+|-damage|p2a: Hatterene|55/100
+|move|p2a: Hatterene|Psychic|p1a: Tropus
+|-end|p1a: Tropus|Substitute
+|
+|turn|8
+|
+|move|p1a: Tropus|Giga Drain|p2a: Hatterene
+|-damage|p2a: Hatterene|33/100
+|-heal|p1a: Tropus|71/100|[from] drain|[of] p2a: Hatterene
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|turn|9
+|
+|move|p2a: Hatterene|Psychic|p1a: Tropus
+|-damage|p1a: Tropus|14/100
+|-enditem|p1a: Tropus|Sitrus Berry|[eat]
+|-heal|p1a: Tropus|39/100|[from] item: Sitrus Berry
+|move|p1a: Tropus|Substitute|p1a: Tropus
+|-start|p1a: Tropus|Substitute
+|-damage|p1a: Tropus|14/100
+|
+|-item|p1a: Tropus|Sitrus Berry|[from] ability: Harvest
+|-enditem|p1a: Tropus|Sitrus Berry|[eat]
+|-heal|p1a: Tropus|39/100|[from] item: Sitrus Berry
+|turn|10
+|
+|move|p2a: Hatterene|Psychic|p1a: Tropus
+|-end|p1a: Tropus|Substitute
+|move|p1a: Tropus|Giga Drain|p2a: Hatterene
+|-damage|p2a: Hatterene|10/100
+|-heal|p1a: Tropus|49/100|[from] drain|[of] p2a: Hatterene
+|
+|-item|p1a: Tropus|Sitrus Berry|[from] ability: Harvest
+|-enditem|p1a: Tropus|Sitrus Berry|[eat]
+|-heal|p1a: Tropus|74/100|[from] item: Sitrus Berry
+|turn|11
+|
+|move|p2a: Hatterene|Psychic|p1a: Tropus
+|-damage|p1a: Tropus|17/100
+|move|p1a: Tropus|Giga Drain|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-heal|p1a: Tropus|21/100|[from] drain|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|12
+|
+|switch|p1a: enormous chef|Enamorus, F|100/100
+|move|p2a: Ursaluna|Facade|p1a: enormous chef
+|-damage|p1a: enormous chef|50/100
+|
+|-heal|p1a: enormous chef|56/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|13
+|
+|move|p1a: enormous chef|Superpower|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|60/100 brn
+|-boost|p1a: enormous chef|atk|1
+|-boost|p1a: enormous chef|def|1
+|move|p2a: Ursaluna|Facade|p1a: enormous chef
+|-damage|p1a: enormous chef|0 fnt
+|faint|p1a: enormous chef
+|
+|-damage|p2a: Ursaluna|54/100 brn|[from] brn
+|
+|switch|p1a: Tropus|Tropius, M, tera:Fire|21/100
+|turn|14
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Tropus|Giga Drain|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|92/100
+|-heal|p1a: Tropus|25/100|[from] drain|[of] p2a: Magearna
+|
+|-item|p1a: Tropus|Sitrus Berry|[from] ability: Harvest
+|-enditem|p1a: Tropus|Sitrus Berry|[eat]
+|-heal|p1a: Tropus|50/100|[from] item: Sitrus Berry
+|turn|15
+|
+|move|p1a: Tropus|Leech Seed|p2a: Magearna
+|-start|p2a: Magearna|move: Leech Seed
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|-damage|p2a: Magearna|79/100|[from] Leech Seed|[of] p1a: Tropus
+|-heal|p1a: Tropus|62/100|[silent]
+|turn|16
+|
+|switch|p2a: Glastrier|Glastrier|71/100
+|move|p1a: Tropus|Substitute|p1a: Tropus
+|-start|p1a: Tropus|Substitute
+|-damage|p1a: Tropus|37/100
+|
+|turn|17
+|
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Tropus
+|-supereffective|p1a: Tropus
+|-end|p1a: Tropus|Substitute
+|move|p1a: Tropus|Leech Seed|p2a: Glastrier
+|-start|p2a: Glastrier|move: Leech Seed
+|
+|-damage|p2a: Glastrier|58/100|[from] Leech Seed|[of] p1a: Tropus
+|-heal|p1a: Tropus|50/100|[silent]
+|turn|18
+|
+|switch|p1a: Zangose|Zangoose, M|100/100
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Zangose
+|-damage|p1a: Zangose|44/100
+|-enditem|p1a: Zangose|Sitrus Berry|[eat]
+|-heal|p1a: Zangose|69/100|[from] item: Sitrus Berry
+|
+|-damage|p2a: Glastrier|46/100|[from] Leech Seed|[of] p1a: Zangose
+|-heal|p1a: Zangose|86/100|[silent]
+|turn|19
+|
+|move|p2a: Glastrier|Close Combat|p1a: Zangose
+|-supereffective|p1a: Zangose
+|-damage|p1a: Zangose|0 fnt
+|-unboost|p2a: Glastrier|def|1
+|-unboost|p2a: Glastrier|spd|1
+|faint|p1a: Zangose
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Tropus|Tropius, M, tera:Fire|50/100
+|turn|20
+|
+|move|p1a: Tropus|Giga Drain|p2a: Glastrier
+|-damage|p2a: Glastrier|21/100
+|-heal|p1a: Tropus|63/100|[from] drain|[of] p2a: Glastrier
+|move|p2a: Glastrier|Stomping Tantrum|p1a: Tropus
+|-supereffective|p1a: Tropus
+|-damage|p1a: Tropus|0 fnt
+|faint|p1a: Tropus
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|
+|switch|p1a: the maddening ball|Electrode-Hisui|100/100
+|turn|21
+|
+|switch|p2a: Magearna|Magearna|79/100
+|move|p1a: the maddening ball|Substitute|p1a: the maddening ball
+|-start|p1a: the maddening ball|Substitute
+|-damage|p1a: the maddening ball|75/100
+|
+|turn|22
+|
+|move|p1a: the maddening ball|Discharge|p2a: Magearna
+|-damage|p2a: Magearna|59/100
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|turn|23
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: the maddening ball
+|-end|p1a: the maddening ball|Substitute
+|-unboost|p2a: Magearna|spa|2
+|move|p1a: the maddening ball|Discharge|p2a: Magearna
+|-damage|p2a: Magearna|41/100
+|
+|turn|24
+|
+|switch|p2a: Ursaluna|Ursaluna, F|54/100 brn
+|move|p1a: the maddening ball|Leech Seed|p2a: Ursaluna|[miss]
+|-miss|p1a: the maddening ball|p2a: Ursaluna
+|
+|-damage|p2a: Ursaluna|48/100 brn|[from] brn
+|turn|25
+|
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1a: the maddening ball|Protect|p1a: the maddening ball
+|-singleturn|p1a: the maddening ball|Protect
+|move|p2a: Ursaluna|Facade|p1a: the maddening ball
+|-activate|p1a: the maddening ball|move: Protect
+|
+|-damage|p2a: Ursaluna|42/100 brn|[from] brn
+|turn|26
+|
+|switch|p1a: Sevper|Seviper, M|100/100
+|move|p2a: Ursaluna|Facade|p1a: Sevper
+|-damage|p1a: Sevper|0 fnt
+|faint|p1a: Sevper
+|
+|-damage|p2a: Ursaluna|36/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p1a: the maddening ball|Electrode-Hisui|75/100
+|turn|27
+|
+|move|p1a: the maddening ball|Substitute|p1a: the maddening ball
+|-start|p1a: the maddening ball|Substitute
+|-damage|p1a: the maddening ball|50/100
+|move|p2a: Ursaluna|Facade|p1a: the maddening ball
+|-end|p1a: the maddening ball|Substitute
+|
+|-damage|p2a: Ursaluna|30/100 brn|[from] brn
+|turn|28
+|
+|move|p1a: the maddening ball|Protect|p1a: the maddening ball
+|-singleturn|p1a: the maddening ball|Protect
+|move|p2a: Ursaluna|Facade|p1a: the maddening ball
+|-activate|p1a: the maddening ball|move: Protect
+|
+|-damage|p2a: Ursaluna|24/100 brn|[from] brn
+|turn|29
+|
+|move|p1a: the maddening ball|Substitute|p1a: the maddening ball
+|-start|p1a: the maddening ball|Substitute
+|-damage|p1a: the maddening ball|25/100
+|move|p2a: Ursaluna|Facade|p1a: the maddening ball
+|-end|p1a: the maddening ball|Substitute
+|
+|-damage|p2a: Ursaluna|18/100 brn|[from] brn
+|turn|30
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: the maddening ball|Leech Seed|p2a: Kingambit|[miss]
+|-miss|p1a: the maddening ball|p2a: Kingambit
+|
+|turn|31
+|
+|move|p1a: the maddening ball|Leech Seed|p2a: Kingambit
+|-start|p2a: Kingambit|move: Leech Seed
+|move|p2a: Kingambit|Kowtow Cleave|p1a: the maddening ball
+|-damage|p1a: the maddening ball|0 fnt
+|faint|p1a: the maddening ball
+|
+|win|Raita Hinomura

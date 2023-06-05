@@ -1,0 +1,68 @@
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p1|Garchomp, F|
+|poke|p1|Zapdos|
+|poke|p2|Skeledirge, F|
+|poke|p2|Gholdengo|
+|poke|p2|Magearna|
+|poke|p2|Roaring Moon|
+|poke|p2|Kleavor, F|
+|poke|p2|Ursaluna, F|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|81/100
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|64/100
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|47/100
+|-hitcount|p2a: Magearna|3
+|
+|turn|2
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Magearna
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|28/100
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|10/100
+|-crit|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-hitcount|p2: Magearna|3
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|3
+|
+|-terastallize|p1a: Urshifu|Water
+|move|p1a: Urshifu|Surging Strikes|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|69/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|38/100
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|4/100
+|-hitcount|p2a: Gholdengo|3
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|4
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-message|carpec20 forfeited.
+|
+|win|Jorgor well

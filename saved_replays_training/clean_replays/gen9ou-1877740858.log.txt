@@ -1,0 +1,238 @@
+|poke|p1|Enamorus, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Great Tusk|
+|poke|p1|Volcanion|
+|poke|p1|Zamazenta-*|
+|poke|p2|Greninja, F|
+|poke|p2|Jolteon, M|
+|poke|p2|Iron Moth|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Greninja|Greninja, F, shiny|100/100
+|turn|1
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Greninja|Grass Knot|p1a: Volcanion
+|-start|p2a: Greninja|typechange|Grass|[from] ability: Protean
+|-crit|p1a: Volcanion
+|-damage|p1a: Volcanion|16/100
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|turn|2
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Greninja|Grass Knot|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|60/100
+|-damage|p2a: Greninja|81/100|[from] item: Life Orb
+|
+|turn|3
+|
+|move|p1a: Enamorus|Mystical Fire|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|4
+|
+|move|p1a: Enamorus|Mystical Fire|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|87/100
+|-unboost|p2a: Iron Moth|spa|1
+|move|p2a: Iron Moth|Fiery Dance|p1a: Enamorus
+|-damage|p1a: Enamorus|7/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|turn|5
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Great Tusk
+|-damage|p1a: Great Tusk|19/100
+|
+|-heal|p1a: Great Tusk|26/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Iron Moth|Fiery Dance|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|7/100
+|turn|7
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Enamorus|Earth Power|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|turn|8
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Corviknight|U-turn|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|90/100
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100|[from] U-turn
+|
+|turn|9
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Thundurus
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|18/100
+|move|p1a: Thundurus|Focus Blast|p2a: Jolteon|[miss]
+|-miss|p1a: Thundurus|p2a: Jolteon
+|
+|turn|10
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Jolteon|Shadow Ball|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|70/100
+|-unboost|p1a: Chien-Pao|spd|1
+|
+|turn|11
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Chien-Pao|Crunch|p2a: Corviknight
+|-damage|p2a: Corviknight|52/100
+|-unboost|p2a: Corviknight|def|1
+|-damage|p1a: Chien-Pao|54/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|turn|12
+|
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Chien-Pao|Crunch|p2a: Goodra
+|-damage|p2a: Goodra|21/100
+|
+|-heal|p2a: Goodra|27/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|14
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|91/100
+|
+|turn|15
+|
+|switch|p2a: Iron Moth|Iron Moth, shiny|87/100
+|move|p1a: Zamazenta|Body Press|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|26/100
+|
+|turn|16
+|
+|move|p1a: Zamazenta|Body Press|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|17
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|21/100
+|move|p1a: Zamazenta|Body Press|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|52/100
+|-ability|p2a: Corviknight|Pressure
+|turn|18
+|
+|move|p1a: Zamazenta|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|11/100
+|-damage|p1a: Zamazenta|4/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2a: Corviknight|10/100|[from] Recoil
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|7/100
+|turn|19
+|
+|move|p1a: Enamorus|Healing Wish|p1a: Enamorus
+|faint|p1a: Enamorus
+|move|p2a: Corviknight|Brave Bird|p1: Enamorus|[notarget]
+|-fail|p2a: Corviknight
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|54/100
+|-heal|p1a: Chien-Pao|100/100|[from] move: Healing Wish
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|20
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Chien-Pao|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Dragonite|Dragonite, F, tera:Normal|100/100
+|turn|21
+|player|p2|
+|player|p2|Champ.Braeden|hoopster
+|
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|31/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|turn|22
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|18/100
+|turn|23
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Volcanion|Volcanion|16/100
+|turn|24
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|win|Champ.Braeden

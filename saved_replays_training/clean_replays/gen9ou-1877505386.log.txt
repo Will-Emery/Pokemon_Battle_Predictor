@@ -1,0 +1,585 @@
+|poke|p1|Salamence, M|
+|poke|p1|Azumarill, M|
+|poke|p1|Magnezone|
+|poke|p1|Great Tusk|
+|poke|p1|Garganacl, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Dondozo, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Talonflame, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Blissey, F|
+|teampreview
+|
+|start
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|turn|1
+|
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Azumarill|[miss]
+|-miss|p2a: Talonflame|p1a: Azumarill
+|move|p1a: Azumarill|Liquidation|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|27/100
+|-status|p1a: Azumarill|brn|[from] ability: Flame Body|[of] p2a: Talonflame
+|
+|-damage|p1a: Azumarill|94/100 brn|[from] brn
+|turn|2
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|77/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Azumarill|Liquidation|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|34/100
+|
+|-damage|p1a: Azumarill|88/100 brn|[from] brn
+|turn|3
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|84/100
+|-singleturn|p2a: Talonflame|move: Roost
+|
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|-start|p2a: Toxapex|Salt Cure
+|
+|-damage|p2a: Toxapex|67/100|[from] Salt Cure
+|turn|5
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Garganacl|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: abghesw|move: Stealth Rock
+|
+|turn|6
+|
+|move|p2a: Alomomola|Whirlpool|p1a: Garganacl|[miss]
+|-miss|p2a: Alomomola|p1a: Garganacl
+|move|p1a: Garganacl|Salt Cure|p2a: Alomomola
+|-damage|p2a: Alomomola|92/100
+|-start|p2a: Alomomola|Salt Cure
+|
+|-damage|p2a: Alomomola|68/100|[from] Salt Cure
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, F|99/100
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|turn|8
+|
+|move|p2a: Toxapex|Infestation|p1a: Garganacl
+|-damage|p1a: Garganacl|99/100
+|-activate|p1a: Garganacl|move: Infestation|[of] p2a: Toxapex
+|move|p1a: Garganacl|Salt Cure|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|-start|p2a: Toxapex|Salt Cure
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|88/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p2a: Toxapex|67/100|[from] Salt Cure
+|turn|9
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Alomomola
+|-damage|p2a: Alomomola|93/100
+|-start|p2a: Alomomola|Salt Cure
+|
+|-heal|p1a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|68/100|[from] Salt Cure
+|-end|p1a: Garganacl|Infestation|[partiallytrapped]|[silent]
+|turn|10
+|
+|switch|p2a: Toxapex|Toxapex, F|99/100
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Toxapex|Toxic|p1a: Magnezone
+|-immune|p1a: Magnezone
+|
+|turn|12
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|
+|turn|13
+|
+|switch|p2a: Talonflame|Talonflame, F|84/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Talonflame
+|-damage|p2a: Talonflame|69/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|turn|14
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Garganacl
+|-immune|p1a: Garganacl|[from] ability: Purifying Salt
+|
+|turn|15
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|-start|p2a: Toxapex|Salt Cure
+|
+|-damage|p2a: Toxapex|67/100|[from] Salt Cure
+|turn|16
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|turn|17
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Alomomola|Whirlpool|p1a: Magnezone
+|-damage|p1a: Magnezone|93/100
+|-activate|p1a: Magnezone|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Magnezone|80/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|18
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Magnezone|Flash Cannon|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-damage|p1a: Magnezone|68/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|19
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Clodsire
+|-immune|p2a: Clodsire
+|
+|-end|p1a: Magnezone|Whirlpool|[partiallytrapped]|[silent]
+|turn|20
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Clodsire|Toxic|p1a: Garganacl
+|-immune|p1a: Garganacl|[from] ability: Purifying Salt
+|
+|turn|21
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|93/100
+|-start|p2a: Clodsire|Salt Cure
+|move|p2a: Clodsire|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|65/100
+|
+|-heal|p1a: Garganacl|71/100|[from] item: Leftovers
+|-damage|p2a: Clodsire|80/100|[from] Salt Cure
+|turn|22
+|
+|switch|p2a: Toxapex|Toxapex, F|99/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|turn|23
+|
+|switch|p1a: Magnezone|Magnezone|68/100
+|move|p2a: Toxapex|Infestation|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|66/100
+|-activate|p1a: Magnezone|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Magnezone|54/100|[from] move: Infestation|[partiallytrapped]
+|turn|24
+|
+|switch|p2a: Clodsire|Clodsire, F|80/100
+|move|p1a: Magnezone|Thunderbolt|p2a: Clodsire
+|-immune|p2a: Clodsire
+|
+|-end|p1a: Magnezone|Infestation|[partiallytrapped]|[silent]
+|turn|25
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Clodsire|Toxic|p1a: Garganacl
+|-immune|p1a: Garganacl|[from] ability: Purifying Salt
+|
+|turn|26
+|
+|switch|p1a: Magnezone|Magnezone|54/100
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|
+|turn|27
+|
+|switch|p2a: Clodsire|Clodsire, F|80/100
+|move|p1a: Magnezone|Tera Blast|p2a: Clodsire
+|-damage|p2a: Clodsire|67/100
+|
+|turn|28
+|
+|move|p1a: Magnezone|Flash Cannon|p2a: Clodsire
+|-damage|p2a: Clodsire|45/100
+|move|p2a: Clodsire|Earthquake|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|29
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Cinderace|Zen Headbutt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|66/100
+|
+|turn|30
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|
+|turn|31
+|
+|move|p2a: Alomomola|Chilling Water|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|87/100
+|-unboost|p1a: Garganacl|atk|1
+|move|p1a: Garganacl|Salt Cure|p2a: Alomomola
+|-damage|p2a: Alomomola|95/100
+|-start|p2a: Alomomola|Salt Cure
+|
+|-heal|p1a: Garganacl|93/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|70/100|[from] Salt Cure
+|turn|32
+|
+|switch|p2a: Toxapex|Toxapex, F|99/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|turn|33
+|
+|move|p2a: Toxapex|Infestation|p1a: Garganacl
+|-damage|p1a: Garganacl|98/100
+|-activate|p1a: Garganacl|move: Infestation|[of] p2a: Toxapex
+|move|p1a: Garganacl|Salt Cure|p2a: Toxapex
+|-damage|p2a: Toxapex|94/100
+|-start|p2a: Toxapex|Salt Cure
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|88/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p2a: Toxapex|69/100|[from] Salt Cure
+|turn|34
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Alomomola
+|-damage|p2a: Alomomola|96/100
+|-start|p2a: Alomomola|Salt Cure
+|
+|-heal|p1a: Garganacl|94/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|71/100|[from] Salt Cure
+|-end|p1a: Garganacl|Infestation|[partiallytrapped]|[silent]
+|turn|35
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|turn|36
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Toxapex|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-damage|p1a: Great Tusk|94/100 tox|[from] psn
+|turn|37
+|
+|switch|p2a: Talonflame|Talonflame, F|69/100
+|move|p1a: Great Tusk|Knock Off|p2a: Talonflame
+|-damage|p2a: Talonflame|41/100
+|-enditem|p2a: Talonflame|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|88/100 tox|[from] psn
+|turn|38
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Talonflame|Defog|p1a: Garganacl
+|-unboost|p1a: Garganacl|evasion|1
+|-sideend|p2: abghesw|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|
+|turn|39
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Garganacl|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: abghesw|move: Stealth Rock
+|
+|turn|40
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|turn|41
+|
+|move|p2a: Alomomola|Whirlpool|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|91/100
+|-activate|p1a: Garganacl|move: Whirlpool|[of] p2a: Alomomola
+|move|p1a: Garganacl|Salt Cure|p2a: Alomomola
+|-damage|p2a: Alomomola|94/100
+|-start|p2a: Alomomola|Salt Cure
+|
+|-heal|p1a: Garganacl|97/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|69/100|[from] Salt Cure
+|-damage|p1a: Garganacl|85/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|42
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-end|p1a: Garganacl|Whirlpool|[partiallytrapped]|[silent]
+|turn|43
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Toxapex|Infestation|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|turn|44
+|
+|switch|p1a: Great Tusk|Great Tusk|88/100 tox
+|move|p2a: Toxapex|Infestation|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|86/100 tox
+|-activate|p1a: Great Tusk|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p1a: Great Tusk|92/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|86/100 tox|[from] psn
+|-damage|p1a: Great Tusk|74/100 tox|[from] move: Infestation|[partiallytrapped]
+|turn|45
+|
+|switch|p2a: Talonflame|Talonflame, F|41/100
+|-damage|p2a: Talonflame|0 fnt|[from] Stealth Rock
+|faint|p2a: Talonflame
+|move|p1a: Great Tusk|Knock Off|p2: Talonflame|[notarget]
+|-fail|p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|80/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|68/100 tox|[from] psn
+|-end|p1a: Great Tusk|Infestation|[partiallytrapped]|[silent]
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|46
+|
+|move|p1a: Great Tusk|Body Press|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-heal|p1a: Great Tusk|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|55/100 tox|[from] psn
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|47
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Azumarill|Azumarill, M|88/100 brn
+|move|p2a: Alomomola|Protect||[still]
+|-fail|p2a: Alomomola
+|
+|-damage|p1a: Azumarill|82/100 brn|[from] brn
+|turn|48
+|
+|move|p1a: Azumarill|Ice Spinner|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|97/100
+|move|p2a: Alomomola|Whirlpool|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|79/100 brn
+|-activate|p1a: Azumarill|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Azumarill|73/100 brn|[from] brn
+|-damage|p1a: Azumarill|60/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|49
+|
+|move|p1a: Azumarill|Ice Spinner|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|94/100
+|move|p2a: Alomomola|Chilling Water|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|56/100 brn
+|-unboost|p1a: Azumarill|atk|1
+|
+|-damage|p1a: Azumarill|50/100 brn|[from] brn
+|-damage|p1a: Azumarill|37/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|50
+|
+|move|p1a: Azumarill|Ice Spinner|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|92/100
+|move|p2a: Alomomola|Chilling Water|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|33/100 brn
+|-unboost|p1a: Azumarill|atk|1
+|
+|-damage|p1a: Azumarill|27/100 brn|[from] brn
+|-damage|p1a: Azumarill|15/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|turn|51
+|
+|move|p1a: Azumarill|Ice Spinner|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|90/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p1a: Azumarill|9/100 brn|[from] brn
+|-damage|p1a: Azumarill|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p1a: Azumarill
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|52
+|
+|switch|p2a: Clodsire|Clodsire, F|45/100
+|move|p1a: Garganacl|Salt Cure|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|33/100
+|-start|p2a: Clodsire|Salt Cure
+|
+|-heal|p2a: Clodsire|91/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Clodsire|79/100|[from] Salt Cure
+|turn|53
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|-start|p2a: Toxapex|Salt Cure
+|
+|-damage|p2a: Toxapex|67/100|[from] Salt Cure
+|turn|54
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|switch|p1a: Great Tusk|Great Tusk|55/100 tox
+|
+|-heal|p1a: Great Tusk|61/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|55/100 tox|[from] psn
+|turn|55
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Alomomola|Whirlpool|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|92/100
+|-activate|p1a: Garganacl|move: Whirlpool|[of] p2a: Alomomola
+|
+|-heal|p1a: Garganacl|98/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|85/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|56
+|
+|move|p2a: Alomomola|Chilling Water|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|73/100
+|-unboost|p1a: Garganacl|atk|1
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-damage|p1a: Garganacl|88/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|57
+|
+|move|p2a: Alomomola|Chilling Water|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|75/100
+|-unboost|p1a: Garganacl|atk|1
+|move|p1a: Garganacl|Salt Cure|p2a: Alomomola
+|-damage|p2a: Alomomola|96/100
+|-start|p2a: Alomomola|Salt Cure
+|
+|-heal|p1a: Garganacl|81/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|71/100|[from] Salt Cure
+|-damage|p1a: Garganacl|69/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|58
+|
+|switch|p2a: Toxapex|Toxapex, F|99/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-end|p1a: Garganacl|Whirlpool|[partiallytrapped]|[silent]
+|turn|59
+|
+|move|p2a: Toxapex|Infestation|p1a: Garganacl
+|-damage|p1a: Garganacl|98/100
+|-activate|p1a: Garganacl|move: Infestation|[of] p2a: Toxapex
+|move|p1a: Garganacl|Salt Cure|p2a: Toxapex
+|-damage|p2a: Toxapex|96/100
+|-start|p2a: Toxapex|Salt Cure
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|71/100|[from] Salt Cure
+|-damage|p1a: Garganacl|88/100|[from] move: Infestation|[partiallytrapped]
+|turn|60
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-heal|p1a: Garganacl|94/100|[from] item: Leftovers
+|-end|p1a: Garganacl|Infestation|[partiallytrapped]|[silent]
+|turn|61
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Alomomola|Whirlpool|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|turn|62
+|
+|move|p2a: Alomomola|Whirlpool|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|92/100
+|-activate|p1a: Garganacl|move: Whirlpool|[of] p2a: Alomomola
+|move|p1a: Garganacl|Salt Cure|p2a: Alomomola
+|-damage|p2a: Alomomola|97/100
+|-start|p2a: Alomomola|Salt Cure
+|
+|-heal|p1a: Garganacl|98/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|72/100|[from] Salt Cure
+|-damage|p1a: Garganacl|85/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|63
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-end|p1a: Garganacl|Whirlpool|[partiallytrapped]|[silent]
+|turn|64
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Toxapex|atk|1
+|move|p2a: Toxapex|Infestation|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|99/100
+|-activate|p1a: Salamence|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Salamence|86/100|[from] move: Infestation|[partiallytrapped]
+|turn|65
+|
+|move|p1a: Salamence|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|move|p2a: Toxapex|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-damage|p1a: Salamence|80/100 tox|[from] psn
+|-damage|p1a: Salamence|68/100 tox|[from] move: Infestation|[partiallytrapped]
+|turn|66
+|-message|Skaali forfeited.
+|
+|win|abghesw

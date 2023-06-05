@@ -1,0 +1,142 @@
+|poke|p1|Scizor, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Rotom-Wash|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Avalugg-Hisui, M|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Sneasler, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Scizor|Scizor, M|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|1
+|
+|move|p2a: Electrode|Foul Play|p1a: Scizor
+|-damage|p1a: Scizor|56/100
+|-damage|p2a: Electrode|91/100|[from] item: Life Orb
+|move|p1a: Scizor|U-turn|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|-damage|p1a: Scizor|31/100|[from] ability: Aftermath|[of] p2a: Electrode
+|-enditem|p1a: Scizor|Sitrus Berry|[eat]
+|-heal|p1a: Scizor|56/100|[from] item: Sitrus Berry
+|faint|p2a: Electrode
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-item|p2a: Sneasler|Air Balloon
+|turn|2
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Landorus|U-turn|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|92/100
+|-enditem|p2a: Sneasler|Air Balloon
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100|[from] U-turn
+|
+|turn|3
+|
+|move|p2a: Sneasler|Gunk Shot|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|
+|switch|p1a: Scizor|Scizor, M|56/100
+|turn|4
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Sneasler
+|-damage|p2a: Sneasler|48/100
+|move|p2a: Sneasler|Acrobatics|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|turn|5
+|
+|-terastallize|p2a: Sneasler|Flying
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Landorus|Earthquake|p2a: Sneasler
+|-immune|p2a: Sneasler
+|
+|turn|6
+|
+|move|p2a: Sneasler|Acrobatics|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Sneasler|31/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Overqwil|Toxic Spikes|p1a: Rotom
+|-sidestart|p1: crapominable|move: Toxic Spikes
+|
+|turn|9
+|
+|move|p1a: Rotom|Volt Switch|p2a: Overqwil
+|-damage|p2a: Overqwil|67/100
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-status|p1a: Chien-Pao|psn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Overqwil|Crunch|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|80/100 psn
+|-unboost|p1a: Chien-Pao|def|1
+|
+|-heal|p2a: Overqwil|73/100|[from] item: Black Sludge
+|-damage|p1a: Chien-Pao|68/100 psn|[from] psn
+|turn|10
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Overqwil
+|-damage|p2a: Overqwil|18/100
+|move|p2a: Overqwil|Barb Barrage|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|-heal|p2a: Overqwil|24/100|[from] item: Black Sludge
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-status|p1a: Typhlosion|psn
+|-item|p2a: Overqwil|Black Sludge|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|turn|11
+|
+|move|p1a: Typhlosion|Flame Charge|p2a: Overqwil
+|-damage|p2a: Overqwil|13/100
+|-boost|p1a: Typhlosion|spe|1
+|move|p2a: Overqwil|Crunch|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|2/100 psn
+|
+|-heal|p2a: Overqwil|19/100|[from] item: Black Sludge
+|-damage|p1a: Typhlosion|0 fnt|[from] psn
+|faint|p1a: Typhlosion
+|-message|crapominable forfeited.
+|
+|win|Sir_Rambage

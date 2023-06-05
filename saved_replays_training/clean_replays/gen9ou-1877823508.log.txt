@@ -1,0 +1,154 @@
+|poke|p1|Greninja, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Floatzel, M|
+|poke|p1|Amoonguss, F|
+|poke|p1|Donphan, F|
+|poke|p1|Pawmot, F|
+|poke|p2|Talonflame, M|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Magnezone|
+|poke|p2|Alomomola, M|
+|teampreview
+|
+|start
+|switch|p1a: "OU"|Pelipper, F|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|turn|1
+|
+|switch|p1a: Ungungus|Amoonguss, F|100/100
+|move|p2a: Magnezone|Hyper Voice|p1a: Ungungus
+|-damage|p1a: Ungungus|34/100
+|-enditem|p1a: Ungungus|Eject Button
+|
+|switch|p1a: Buoy|Floatzel, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Buoy|Liquidation|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|72/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Pawper|Pawmot, F|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|78/100|[from] item: Leftovers
+|turn|4
+|
+|-terastallize|p1a: Pawper|Electric
+|move|p1a: Pawper|Double Shock|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-start|p1a: Pawper|typechange|Electric|[from] move: Double Shock
+|faint|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|turn|5
+|
+|switch|p1a: "Iron Treads"|Donphan, F|100/100
+|-terastallize|p2a: Baxcalibur|Electric
+|move|p2a: Baxcalibur|Earthquake|p1a: "Iron Treads"
+|-damage|p1a: "Iron Treads"|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: "Iron Treads"|76/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Baxcalibur|Icicle Crash|p1a: "Iron Treads"
+|-supereffective|p1a: "Iron Treads"
+|-damage|p1a: "Iron Treads"|0 fnt
+|faint|p1a: "Iron Treads"
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Buoy|Floatzel, M|100/100
+|turn|7
+|
+|move|p1a: Buoy|Wave Crash|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|-damage|p1a: Buoy|62/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|8
+|
+|move|p1a: Buoy|Wave Crash|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|-damage|p1a: Buoy|31/100|[from] Recoil
+|
+|-weather|none
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|9
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|switch|p1a: "OU"|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: "OU"
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|switch|p1a: Ungungus|Amoonguss, F|67/100
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Ungungus
+|-resisted|p1a: Ungungus
+|-damage|p1a: Ungungus|55/100
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Ungungus|Spore|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|switch|p1a: Buoy|Floatzel, M|31/100
+|cant|p2a: Iron Valiant|slp
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p1a: Buoy|Liquidation|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|14
+|
+|move|p1a: Buoy|Liquidation|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|15
+|
+|move|p1a: Buoy|Liquidation|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|Cap2n

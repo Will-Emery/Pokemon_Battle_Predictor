@@ -1,0 +1,223 @@
+|poke|p1|Pelipper, F|
+|poke|p1|Floatzel, F|
+|poke|p1|Golduck, F|
+|poke|p1|Pawmot, F|
+|poke|p1|Toedscruel, F|
+|poke|p1|Azumarill, F|
+|poke|p2|Skeledirge, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Clodsire, F|
+|teampreview
+|
+|start
+|switch|p1a: Ghoti carrier|Pelipper, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ghoti carrier
+|-supereffective|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|0 fnt
+|faint|p1a: Ghoti carrier
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: The Goat|Azumarill, F|100/100
+|turn|2
+|
+|move|p2a: Dragapult|Thunder Wave|p1a: The Goat|[miss]
+|-miss|p2a: Dragapult|p1a: The Goat
+|move|p1a: The Goat|Play Rough|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|turn|3
+|
+|move|p1a: The Goat|Belly Drum|p1a: The Goat
+|-damage|p1a: The Goat|50/100
+|-setboost|p1a: The Goat|atk|6|[from] move: Belly Drum
+|-enditem|p1a: The Goat|Sitrus Berry|[eat]
+|-heal|p1a: The Goat|75/100|[from] item: Sitrus Berry
+|move|p2a: Clodsire|Toxic|p1a: The Goat
+|-status|p1a: The Goat|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: The Goat|69/100 tox|[from] psn
+|turn|4
+|
+|move|p1a: The Goat|Play Rough|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: The Goat|57/100 tox|[from] psn
+|
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|turn|5
+|
+|-terastallize|p2a: Skeledirge|Fairy
+|move|p2a: Skeledirge|Hex|p1a: The Goat
+|-damage|p1a: The Goat|6/100 tox
+|move|p1a: The Goat|Liquidation|p2a: Skeledirge
+|-damage|p2a: Skeledirge|37/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: The Goat|0 fnt|[from] psn
+|faint|p1a: The Goat
+|
+|switch|p1a: BandedSkeda|Floatzel, F|100/100
+|turn|6
+|
+|move|p1a: BandedSkeda|Liquidation|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|7
+|
+|move|p1a: BandedSkeda|Liquidation|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|-unboost|p2a: Rotom|def|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: BandedSkeda|[miss]
+|-miss|p2a: Rotom|p1a: BandedSkeda
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p1a: BandedSkeda|Liquidation|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|57/100
+|
+|-weather|none
+|turn|9
+|
+|switch|p1a: Spaghetti Memory|Toedscruel, F|100/100
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|
+|turn|10
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Spaghetti Memory|Spore|p2a: Cinderace
+|-status|p2a: Cinderace|slp|[from] move: Spore
+|
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Wash|53/100
+|switch|p1a: Really want eject|Pawmot, F|100/100
+|
+|turn|12
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Really want eject
+|-status|p1a: Really want eject|brn
+|move|p1a: Really want eject|Revival Blessing|p1a: Really want eject
+|-enditem|p1a: Really want eject|Leppa Berry|[eat]
+|-activate|p1a: Really want eject|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|-heal|p1: Ghoti carrier|50/100|[from] move: Revival Blessing
+|
+|-damage|p1a: Really want eject|94/100 brn|[from] brn
+|turn|13
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Really want eject
+|-fail|p1a: Really want eject|brn
+|move|p1a: Really want eject|Revival Blessing|p1a: Really want eject
+|
+|-heal|p1: The Goat|50/100|[from] move: Revival Blessing
+|
+|-damage|p1a: Really want eject|88/100 brn|[from] brn
+|turn|14
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Really want eject
+|-fail|p1a: Really want eject|brn
+|move|p1a: Really want eject|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|29/100
+|-unboost|p1a: Really want eject|def|1
+|-unboost|p1a: Really want eject|spd|1
+|
+|-damage|p1a: Really want eject|82/100 brn|[from] brn
+|turn|15
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|57/100
+|move|p1a: Really want eject|Close Combat|p2a: Urshifu
+|-damage|p2a: Urshifu|34/100
+|-unboost|p1a: Really want eject|def|1
+|-unboost|p1a: Really want eject|spd|1
+|
+|-damage|p1a: Really want eject|76/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Really want eject
+|-damage|p1a: Really want eject|23/100 brn
+|move|p1a: Really want eject|Nuzzle|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|22/100
+|-status|p2a: Urshifu|par
+|
+|-damage|p1a: Really want eject|17/100 brn|[from] brn
+|turn|17
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Really want eject
+|-damage|p1a: Really want eject|0 fnt
+|faint|p1a: Really want eject
+|
+|
+|switch|p1a: Ghoti carrier|Pelipper, F|50/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Ghoti carrier
+|turn|18
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ghoti carrier
+|-resisted|p1a: Ghoti carrier
+|-crit|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|32/100
+|-resisted|p1a: Ghoti carrier
+|-crit|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|14/100
+|-resisted|p1a: Ghoti carrier
+|-crit|p1a: Ghoti carrier
+|-damage|p1a: Ghoti carrier|0 fnt
+|faint|p1a: Ghoti carrier
+|-hitcount|p1: Ghoti carrier|3
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: BandedSkeda|Floatzel, F|100/100
+|turn|19
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: BandedSkeda
+|-resisted|p1a: BandedSkeda
+|-damage|p1a: BandedSkeda|74/100
+|move|p1a: BandedSkeda|Liquidation|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Rotom|Rotom-Wash|29/100
+|turn|20
+|
+|move|p1a: BandedSkeda|Liquidation|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-message|Anonymous43567 forfeited.
+|
+|win|WeirdHamster

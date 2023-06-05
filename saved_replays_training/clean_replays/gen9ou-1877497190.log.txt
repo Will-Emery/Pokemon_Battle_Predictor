@@ -1,0 +1,238 @@
+|poke|p1|Maushold|
+|poke|p1|Sneasler, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Ditto|
+|poke|p2|Ursaluna, M|
+|poke|p2|Grafaiai, F|
+|poke|p2|Wyrdeer, M|
+|poke|p2|Zoroark-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Maushold|Maushold-Four|100/100
+|turn|1
+|
+|move|p2a: Maushold|Seed Bomb|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|52/100
+|move|p1a: Samurott|Sacred Sword|p2a: Maushold
+|-supereffective|p2a: Maushold
+|-damage|p2a: Maushold|5/100
+|
+|turn|2
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Maushold|Population Bomb|p1a: Zapdos
+|-damage|p1a: Zapdos|92/100
+|-damage|p1a: Zapdos|83/100
+|-status|p2a: Maushold|par|[from] ability: Static|[of] p1a: Zapdos
+|-damage|p1a: Zapdos|74/100
+|-damage|p1a: Zapdos|65/100
+|-damage|p1a: Zapdos|56/100
+|-damage|p1a: Zapdos|48/100
+|-damage|p1a: Zapdos|39/100
+|-damage|p1a: Zapdos|31/100
+|-damage|p1a: Zapdos|21/100
+|-hitcount|p1a: Zapdos|9
+|
+|turn|3
+|
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|71/100
+|-singleturn|p1a: Zapdos|move: Roost
+|move|p2a: Maushold|Population Bomb|p1a: Zapdos
+|-damage|p1a: Zapdos|62/100
+|-damage|p1a: Zapdos|53/100
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|38/100
+|-damage|p1a: Zapdos|28/100
+|-damage|p1a: Zapdos|19/100
+|-damage|p1a: Zapdos|10/100
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-hitcount|p1: Zapdos|7
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|4
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|
+|switch|p2a: Wyrdeer|Wyrdeer, M|100/100
+|-ability|p2a: Wyrdeer|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|turn|5
+|
+|move|p1a: Sneasler|U-turn|p2a: Wyrdeer
+|-supereffective|p2a: Wyrdeer
+|-damage|p2a: Wyrdeer|55/100
+|-status|p2a: Wyrdeer|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|52/100|[from] U-turn
+|move|p2a: Wyrdeer|Body Slam|p1a: Samurott
+|-damage|p1a: Samurott|4/100
+|-status|p1a: Samurott|par
+|
+|-damage|p2a: Wyrdeer|42/100 psn|[from] psn
+|turn|6
+|
+|move|p2a: Wyrdeer|Body Slam|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-damage|p2a: Wyrdeer|30/100 psn|[from] psn
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|7
+|
+|move|p1a: Sneasler|Fake Out|p2a: Wyrdeer
+|-damage|p2a: Wyrdeer|11/100 psn
+|cant|p2a: Wyrdeer|flinch
+|
+|-damage|p2a: Wyrdeer|0 fnt|[from] psn
+|faint|p2a: Wyrdeer
+|
+|switch|p2a: Grafaiai|Grafaiai, F|100/100
+|turn|8
+|
+|move|p1a: Sneasler|U-turn|p2a: Grafaiai
+|-resisted|p2a: Grafaiai
+|-damage|p2a: Grafaiai|76/100
+|-status|p2a: Grafaiai|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|switch|p1a: Maushold|Maushold|100/100|[from] U-turn
+|move|p2a: Zoroark|Hyper Voice|p1a: Maushold
+|-damage|p1a: Maushold|33/100
+|-enditem|p2a: Zoroark|Throat Spray
+|-boost|p2a: Zoroark|spa|1|[from] item: Throat Spray
+|
+|-damage|p2a: Zoroark|64/100 psn|[from] psn
+|turn|9
+|
+|-terastallize|p1a: Maushold|Ghost
+|move|p1a: Maushold|Encore|p2a: Zoroark
+|-start|p2a: Zoroark|Encore
+|move|p2a: Zoroark|Hyper Voice|p1a: Maushold
+|-immune|p1a: Maushold
+|
+|-damage|p2a: Zoroark|52/100 psn|[from] psn
+|turn|10
+|
+|switch|p2a: Grafaiai|Grafaiai, F|100/100
+|move|p1a: Maushold|Bite|p2a: Grafaiai
+|-damage|p2a: Grafaiai|78/100
+|
+|-heal|p2a: Grafaiai|84/100|[from] item: Black Sludge
+|turn|11
+|
+|move|p2a: Grafaiai|Toxic|p1a: Maushold
+|-status|p1a: Maushold|tox
+|move|p1a: Maushold|Population Bomb|p2a: Grafaiai
+|-damage|p2a: Grafaiai|72/100
+|-damage|p2a: Grafaiai|60/100
+|-damage|p2a: Grafaiai|48/100
+|-damage|p2a: Grafaiai|37/100
+|-damage|p2a: Grafaiai|26/100
+|-damage|p2a: Grafaiai|14/100
+|-damage|p2a: Grafaiai|2/100
+|-damage|p2a: Grafaiai|0 fnt
+|faint|p2a: Grafaiai
+|-hitcount|p2: Grafaiai|8
+|
+|-damage|p1a: Maushold|26/100 tox|[from] psn
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Maushold|[from] ability: Imposter
+|-start|p2a: Ditto|typechange|Normal|[silent]
+|turn|12
+|
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Ditto|Bite|p1a: Garchomp
+|-damage|p1a: Garchomp|79/100
+|-damage|p2a: Ditto|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|turn|13
+|
+|switch|p2a: Ditto|Ditto|52/100 psn
+|move|p1a: Garchomp|Earthquake|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|-damage|p1a: Garchomp|70/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Ditto|Ditto|88/100
+|-transform|p2a: Ditto|p1a: Garchomp|[from] ability: Imposter
+|turn|14
+|
+|switch|p1a: Maushold|Maushold, tera:Ghost|26/100 tox
+|-terastallize|p2a: Ditto|Normal
+|move|p2a: Ditto|Earthquake|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|15
+|
+|move|p1a: Sneasler|Fake Out|p2a: Ditto
+|-damage|p2a: Ditto|71/100
+|-activate|p2a: Ditto|ability: Rough Skin
+|-activate|p1a: Sneasler|item: Protective Pads
+|cant|p2a: Ditto|flinch
+|
+|turn|16
+|
+|move|p2a: Ditto|Earthquake|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|17
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|18
+|
+|move|p1a: Gholdengo|Make It Rain|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Ditto|Ditto, tera:Normal|71/100
+|-transform|p2a: Ditto|p1a: Gholdengo|[from] ability: Imposter
+|turn|19
+|
+|move|p2a: Ditto|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Air Balloon
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Garchomp|Garchomp, M|70/100
+|turn|20
+|
+|move|p2a: Ditto|Shadow Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|win|edgypunishment

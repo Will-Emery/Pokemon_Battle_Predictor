@@ -1,0 +1,399 @@
+|poke|p1|Zamazenta-*|
+|poke|p1|Ceruledge, F|
+|poke|p1|Great Tusk|
+|poke|p1|Magearna|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Dragapult, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Baxcalibur, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|1
+|
+|move|p1a: Dragapult|U-turn|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|97/100
+|-damage|p1a: Dragapult|84/100|[from] item: Rocky Helmet|[of] p2a: Tinkaton
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p2a: Tinkaton|Encore||[still]
+|-fail|p2a: Tinkaton
+|
+|turn|2
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Braviary
+|-immune|p2a: Braviary
+|
+|turn|3
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|move|p2a: Braviary|Esper Wing|p1a: Ceruledge
+|-damage|p1a: Ceruledge|58/100
+|-boost|p2a: Braviary|spe|1
+|
+|turn|4
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|77/100
+|-heal|p1a: Ceruledge|69/100|[from] drain|[of] p2a: Samurott
+|
+|turn|5
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Samurott|Aqua Cutter|p1a: Zamazenta
+|-damage|p1a: Zamazenta|77/100
+|
+|-heal|p1a: Zamazenta|83/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|89/100|[from] item: Leftovers
+|turn|7
+|
+|-terastallize|p1a: Zamazenta|Steel
+|move|p1a: Zamazenta|Trailblaze|p2a: Braviary
+|-resisted|p2a: Braviary
+|-damage|p2a: Braviary|92/100
+|-boost|p1a: Zamazenta|spe|1
+|move|p2a: Braviary|Esper Wing|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|58/100
+|-boost|p2a: Braviary|spe|1
+|
+|-heal|p1a: Zamazenta|64/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Zamazenta|Crunch|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|34/100
+|move|p2a: Braviary|Esper Wing|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|32/100
+|-boost|p2a: Braviary|spe|1
+|
+|-heal|p1a: Zamazenta|38/100|[from] item: Leftovers
+|turn|9
+|
+|-terastallize|p2a: Braviary|Fairy
+|move|p2a: Braviary|Esper Wing|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|3/100
+|-boost|p2a: Braviary|spe|1
+|move|p1a: Zamazenta|Crunch|p2a: Braviary
+|-resisted|p2a: Braviary
+|-damage|p2a: Braviary|21/100
+|
+|-heal|p1a: Zamazenta|9/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Braviary|Esper Wing|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Ceruledge|Ceruledge, F|69/100
+|turn|11
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|77/100
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|66/100
+|
+|turn|12
+|
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|move|p2a: Samurott|Aqua Cutter|p1a: Zapdos
+|-damage|p1a: Zapdos|49/100
+|
+|turn|13
+|
+|switch|p2a: Tinkaton|Tinkaton, F|97/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Zapdos|Close Combat|p2a: Tinkaton
+|-damage|p2a: Tinkaton|41/100
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|-damage|p1a: Zapdos|33/100|[from] item: Rocky Helmet|[of] p2a: Tinkaton
+|
+|turn|14
+|
+|move|p1a: Zapdos|Close Combat|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|-damage|p1a: Zapdos|16/100|[from] item: Rocky Helmet|[of] p2a: Tinkaton
+|faint|p2a: Tinkaton
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|15
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Slowking|Future Sight|p1a: Great Tusk
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|16
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|-enditem|p2a: Corviknight|Covert Cloak|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|17
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ceruledge|Ceruledge, F|69/100
+|move|p2a: Corviknight|Body Press|p1a: Ceruledge
+|-immune|p1a: Ceruledge
+|
+|-end|p1a: Ceruledge|move: Future Sight
+|-damage|p1a: Ceruledge|25/100
+|turn|18
+|
+|move|p1a: Ceruledge|Bitter Blade|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|43/100
+|-heal|p1a: Ceruledge|49/100|[from] drain|[of] p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Ceruledge
+|-damage|p1a: Ceruledge|8/100
+|-damage|p2a: Corviknight|31/100|[from] Recoil
+|
+|turn|19
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|66/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|43/100
+|-heal|p1a: Ceruledge|18/100|[from] drain|[of] p2a: Samurott
+|
+|turn|20
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|89/100
+|-sidestart|p1: chairnotahare|Spikes
+|
+|-heal|p1a: Great Tusk|96/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Corviknight|Corviknight, F|31/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|27/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: chairnotahare|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|16/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|66/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|23
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|move|p2a: Corviknight|Brave Bird|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|64/100
+|-damage|p2a: Corviknight|40/100|[from] Recoil
+|
+|-heal|p1a: Great Tusk|70/100|[from] item: Leftovers
+|turn|24
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ceruledge|Ceruledge, F|18/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|90/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|25
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|43/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|20/100
+|-heal|p1a: Ceruledge|28/100|[from] drain|[of] p2a: Samurott
+|
+|turn|26
+|
+|switch|p1a: Great Tusk|Great Tusk|70/100
+|move|p2a: Samurott|Aqua Cutter|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Magearna|Magearna|100/100
+|turn|27
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|
+|turn|28
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Slowking|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|65/100
+|
+|-heal|p1a: Magearna|71/100|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Magearna|Calm Mind|p1a: Magearna
+|-boost|p1a: Magearna|spa|1
+|-boost|p1a: Magearna|spd|1
+|move|p2a: Slowking|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|47/100
+|
+|-heal|p1a: Magearna|53/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Magearna|Stored Power|p2a: Slowking
+|-damage|p2a: Slowking|38/100
+|move|p2a: Slowking|Flamethrower|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|28/100
+|-status|p1a: Magearna|brn
+|
+|-heal|p1a: Magearna|34/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|28/100 brn|[from] brn
+|turn|31
+|
+|move|p1a: Magearna|Stored Power|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-heal|p1a: Magearna|34/100 brn|[from] item: Leftovers
+|-damage|p1a: Magearna|28/100 brn|[from] brn
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|20/100
+|turn|32
+|
+|move|p2a: Samurott|Aqua Cutter|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|84/100
+|turn|33
+|
+|switch|p2a: Braviary|Braviary-Hisui, M, tera:Fairy|21/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|20/100
+|turn|34
+|
+|switch|p1a: Ceruledge|Ceruledge, F|28/100
+|move|p2a: Samurott|Knock Off|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|-enditem|p1a: Ceruledge|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Samurott
+|faint|p1a: Ceruledge
+|
+|
+|switch|p1a: Zapdos|Zapdos-Galar|16/100
+|turn|35
+|
+|switch|p2a: Corviknight|Corviknight, F|90/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Zapdos|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|
+|turn|36
+|
+|switch|p1a: Dragapult|Dragapult, M|84/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|turn|37
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|50/100
+|
+|turn|38
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|20/100
+|turn|39
+|
+|move|p2a: Samurott|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Samurott
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Zapdos|Zapdos-Galar|16/100
+|turn|40
+|
+|move|p1a: Zapdos|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|41
+|
+|move|p1a: Zapdos|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|-unboost|p1a: Zapdos|def|1
+|-unboost|p1a: Zapdos|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Corviknight|60/100|[from] Recoil
+|
+|win|AcquireJuice

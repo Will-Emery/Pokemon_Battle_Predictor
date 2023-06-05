@@ -1,0 +1,221 @@
+|poke|p1|Glimmora, F|
+|poke|p1|Indeedee-F, F|
+|poke|p1|Lokix, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Ditto|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Zoroark-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: sneaslard|Sneasler, F|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: sneaslard
+|-resisted|p1a: sneaslard
+|-damage|p1a: sneaslard|76/100
+|-sidestart|p1: FOLFOXIRI|move: Stealth Rock
+|move|p1a: sneaslard|Dire Claw|p2a: Kleavor
+|-resisted|p2a: Kleavor
+|-damage|p2a: Kleavor|78/100
+|
+|-heal|p1a: sneaslard|82/100|[from] item: Black Sludge
+|turn|2
+|
+|move|p2a: Kleavor|Stone Axe|p1a: sneaslard
+|-resisted|p1a: sneaslard
+|-damage|p1a: sneaslard|56/100
+|move|p1a: sneaslard|Dire Claw|p2a: Kleavor
+|-resisted|p2a: Kleavor
+|-damage|p2a: Kleavor|58/100
+|-status|p2a: Kleavor|psn|[from] ability: Poison Touch|[of] p1a: sneaslard
+|
+|-heal|p1a: sneaslard|62/100|[from] item: Black Sludge
+|-damage|p2a: Kleavor|46/100 psn|[from] psn
+|turn|3
+|
+|move|p2a: Kleavor|Stone Axe|p1a: sneaslard
+|-resisted|p1a: sneaslard
+|-damage|p1a: sneaslard|38/100
+|move|p1a: sneaslard|Dire Claw|p2a: Kleavor
+|-resisted|p2a: Kleavor
+|-damage|p2a: Kleavor|22/100 psn
+|
+|-heal|p1a: sneaslard|44/100|[from] item: Black Sludge
+|-damage|p2a: Kleavor|10/100 psn|[from] psn
+|turn|4
+|
+|move|p2a: Kleavor|Stone Axe|p1a: sneaslard
+|-resisted|p1a: sneaslard
+|-damage|p1a: sneaslard|22/100
+|move|p1a: sneaslard|Rest|p1a: sneaslard
+|-status|p1a: sneaslard|slp|[from] move: Rest
+|-heal|p1a: sneaslard|100/100 slp|[silent]
+|
+|-damage|p2a: Kleavor|0 fnt|[from] psn
+|faint|p2a: Kleavor
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|5
+|
+|move|p2a: Cinderace|Psychic|p1a: sneaslard
+|-supereffective|p1a: sneaslard
+|-damage|p1a: sneaslard|0 fnt
+|faint|p1a: sneaslard
+|
+|
+|switch|p1a: ass blaster|Tyranitar, F|100/100
+|-damage|p1a: ass blaster|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: ass blaster
+|turn|6
+|
+|move|p2a: Cinderace|Grass Knot|p1a: ass blaster
+|-supereffective|p1a: ass blaster
+|-damage|p1a: ass blaster|17/100
+|move|p1a: ass blaster|Dragon Dance|p1a: ass blaster
+|-boost|p1a: ass blaster|atk|1
+|-boost|p1a: ass blaster|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|95/100|[from] Sandstorm
+|turn|7
+|
+|move|p1a: ass blaster|Rock Blast|p2a: Cinderace
+|-damage|p2a: Cinderace|55/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|-damage|p2a: Zoroark|15/100
+|-crit|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|-hitcount|p2: Zoroark|3
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Professor|Ditto, shiny|100/100
+|-transform|p2a: Professor|p1a: ass blaster|[from] ability: Imposter
+|turn|8
+|
+|switch|p1a: REMOVE GENIES|Landorus-Therian, M|100/100
+|-damage|p1a: REMOVE GENIES|88/100|[from] Stealth Rock
+|-ability|p1a: REMOVE GENIES|Intimidate|boost
+|-unboost|p2a: Professor|atk|1
+|-terastallize|p2a: Professor|Water
+|move|p2a: Professor|Tera Blast|p1a: REMOVE GENIES
+|-supereffective|p1a: REMOVE GENIES
+|-damage|p1a: REMOVE GENIES|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Professor|94/100|[from] Sandstorm
+|turn|9
+|
+|move|p2a: Professor|Tera Blast|p1a: REMOVE GENIES
+|-supereffective|p1a: REMOVE GENIES
+|-damage|p1a: REMOVE GENIES|0 fnt
+|faint|p1a: REMOVE GENIES
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Professor|88/100|[from] Sandstorm
+|
+|switch|p1a: gaymen rider|Lokix, M|100/100
+|-damage|p1a: gaymen rider|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|move|p1a: gaymen rider|First Impression|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|49/100
+|
+|-weather|none
+|turn|11
+|
+|switch|p1a: GET OUT OF MY LAB|Indeedee-F, F|100/100
+|-damage|p1a: GET OUT OF MY LAB|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: GET OUT OF MY LAB
+|move|p2a: Baxcalibur|Glaive Rush|p1a: GET OUT OF MY LAB
+|-damage|p1a: GET OUT OF MY LAB|0 fnt
+|-singlemove|p2a: Baxcalibur|Glaive Rush|[silent]
+|faint|p1a: GET OUT OF MY LAB
+|
+|
+|switch|p1a: creeping crystals|Glimmora, F|100/100
+|-damage|p1a: creeping crystals|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: creeping crystals|Sludge Wave|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|13
+|
+|switch|p1a: ass blaster|Tyranitar, F|17/100
+|-damage|p1a: ass blaster|5/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: ass blaster
+|move|p2a: Samurott|Ceaseless Edge|p1a: ass blaster
+|-resisted|p1a: ass blaster
+|-damage|p1a: ass blaster|0 fnt
+|-sidestart|p1: FOLFOXIRI|Spikes
+|faint|p1a: ass blaster
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Samurott|94/100|[from] Sandstorm
+|
+|switch|p1a: gaymen rider|Lokix, M|76/100
+|-damage|p1a: gaymen rider|51/100|[from] Stealth Rock
+|-damage|p1a: gaymen rider|39/100|[from] Spikes
+|turn|14
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: gaymen rider|First Impression|p2a: Cinderace
+|-activate|p2a: Cinderace|move: Psychic Terrain
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|95/100|[from] Sandstorm
+|-damage|p1a: gaymen rider|33/100|[from] Sandstorm
+|turn|15
+|
+|switch|p1a: creeping crystals|Glimmora, F|88/100
+|-damage|p1a: creeping crystals|76/100|[from] Stealth Rock
+|-damage|p1a: creeping crystals|63/100|[from] Spikes
+|move|p2a: Cinderace|Pyro Ball|p1a: creeping crystals
+|-resisted|p1a: creeping crystals
+|-damage|p1a: creeping crystals|30/100
+|-status|p1a: creeping crystals|brn
+|-activate|p1a: creeping crystals|ability: Toxic Debris
+|-sidestart|p2: Dfind2Wox|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|89/100|[from] Sandstorm
+|-damage|p1a: creeping crystals|24/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|turn|16
+|
+|move|p1a: creeping crystals|Earth Power|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|3/100
+|move|p2a: Cinderace|Pyro Ball|p1a: creeping crystals
+|-resisted|p1a: creeping crystals
+|-damage|p1a: creeping crystals|0 fnt
+|-activate|p1a: creeping crystals|ability: Toxic Debris
+|-sidestart|p2: Dfind2Wox|move: Toxic Spikes
+|faint|p1a: creeping crystals
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|0 fnt|[from] Sandstorm
+|faint|p2a: Cinderace
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|94/100
+|switch|p1a: gaymen rider|Lokix, M|33/100
+|-status|p2a: Samurott|tox
+|-damage|p1a: gaymen rider|8/100|[from] Stealth Rock
+|-damage|p1a: gaymen rider|0 fnt|[from] Spikes
+|faint|p1a: gaymen rider
+|
+|win|Dfind2Wox

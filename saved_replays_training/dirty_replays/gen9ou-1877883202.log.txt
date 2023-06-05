@@ -1,1 +1,372 @@
-Could not connect
+|j|☆adpg.alt
+|j|☆Deanster17
+|t:|1685919162
+|gametype|singles
+|player|p1|adpg.alt|hilbert-wonderlauncher|1223
+|player|p2|Deanster17|hugh|1210
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kleavor, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Great Tusk|
+|poke|p1|Rillaboom, F|
+|poke|p1|Sneasler, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Magearna|
+|poke|p2|Great Tusk|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Mesprit|
+|teampreview
+|
+|t:|1685919171
+|start
+|switch|p1a: Tata|Kleavor, M|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|1
+|
+|t:|1685919190
+|move|p2a: Electrode|Substitute|p2a: Electrode
+|-start|p2a: Electrode|Substitute
+|-damage|p2a: Electrode|76/100
+|move|p1a: Tata|Stone Axe|p2a: Electrode
+|-end|p2a: Electrode|Substitute
+|-sidestart|p2: Deanster17|move: Stealth Rock
+|
+|-heal|p2a: Electrode|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1685919200
+|move|p2a: Electrode|Substitute|p2a: Electrode
+|-start|p2a: Electrode|Substitute
+|-damage|p2a: Electrode|57/100
+|move|p1a: Tata|Stone Axe|p2a: Electrode|[miss]
+|-miss|p1a: Tata|p2a: Electrode
+|
+|-heal|p2a: Electrode|63/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1685919208
+|move|p2a: Electrode|Thunder Wave|p1a: Tata
+|-status|p1a: Tata|par
+|move|p1a: Tata|Night Slash|p2a: Electrode
+|-end|p2a: Electrode|Substitute
+|
+|-heal|p2a: Electrode|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1685919218
+|move|p2a: Electrode|Leech Seed|p1a: Tata
+|-start|p1a: Tata|move: Leech Seed
+|cant|p1a: Tata|par
+|
+|-heal|p2a: Electrode|75/100|[from] item: Leftovers
+|-damage|p1a: Tata|88/100 par|[from] Leech Seed|[of] p2a: Electrode
+|-heal|p2a: Electrode|89/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1685919227
+|move|p2a: Electrode|Substitute|p2a: Electrode
+|-start|p2a: Electrode|Substitute
+|-damage|p2a: Electrode|64/100
+|move|p1a: Tata|Night Slash|p2a: Electrode
+|-end|p2a: Electrode|Substitute
+|
+|-heal|p2a: Electrode|70/100|[from] item: Leftovers
+|-damage|p1a: Tata|76/100 par|[from] Leech Seed|[of] p2a: Electrode
+|-heal|p2a: Electrode|83/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1685919237
+|move|p2a: Electrode|Substitute|p2a: Electrode
+|-start|p2a: Electrode|Substitute
+|-damage|p2a: Electrode|59/100
+|move|p1a: Tata|U-turn|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-end|p2a: Electrode|Substitute
+|
+|t:|1685919257
+|switch|p1a: Pelippo|Pelipper, M|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelippo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Electrode|65/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1685919266
+|switch|p1a: No-hated Lando|Great Tusk|100/100
+|move|p2a: Electrode|Volt Switch|p1a: No-hated Lando
+|-immune|p1a: No-hated Lando
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Electrode|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1685919278
+|move|p2a: Electrode|Substitute|p2a: Electrode
+|-start|p2a: Electrode|Substitute
+|-damage|p2a: Electrode|46/100
+|move|p1a: No-hated Lando|Knock Off|p2a: Electrode
+|-end|p2a: Electrode|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Electrode|52/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1685919288
+|move|p2a: Electrode|Leech Seed|p1a: No-hated Lando
+|-start|p1a: No-hated Lando|move: Leech Seed
+|move|p1a: No-hated Lando|Knock Off|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|-enditem|p2a: Electrode|Leftovers|[from] move: Knock Off|[of] p1a: No-hated Lando
+|faint|p2a: Electrode
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685919305
+|switch|p2a: Mesprit|Mesprit|100/100
+|-damage|p2a: Mesprit|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1685919311
+|-end|p1a: No-hated Lando|Protosynthesis|[silent]
+|switch|p1a: Tata|Kleavor, M|76/100 par
+|move|p2a: Mesprit|Reflect|p2a: Mesprit
+|-sidestart|p2: Deanster17|Reflect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1685919318
+|move|p2a: Mesprit|Light Screen|p2a: Mesprit
+|-sidestart|p2: Deanster17|move: Light Screen
+|move|p1a: Tata|Night Slash|p2a: Mesprit
+|-supereffective|p2a: Mesprit
+|-damage|p2a: Mesprit|54/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1685919325
+|move|p2a: Mesprit|Future Sight|p1a: Tata
+|-start|p2a: Mesprit|move: Future Sight
+|move|p1a: Tata|Night Slash|p2a: Mesprit
+|-supereffective|p2a: Mesprit
+|-damage|p2a: Mesprit|21/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1685919332
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Tata|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|96/100
+|
+|t:|1685919339
+|switch|p1a: Basculona|Basculegion-F, F|100/100|[from] U-turn
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1685919353
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|95/100|[from] Stealth Rock
+|-terastallize|p1a: Basculona|Water
+|move|p1a: Basculona|Surf|p2a: Magearna
+|-damage|p2a: Magearna|49/100
+|
+|-end|p1a: Basculona|move: Future Sight
+|-damage|p1a: Basculona|54/100
+|-heal|p2a: Magearna|55/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1685919368
+|switch|p1a: No-hated Lando|Great Tusk|100/100
+|-terastallize|p2a: Magearna|Water
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|61/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1685919380
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: No-hated Lando|Knock Off|p2a: Magearna
+|-damage|p2a: Magearna|43/100
+|-enditem|p2a: Magearna|Leftovers|[from] move: Knock Off|[of] p1a: No-hated Lando
+|
+|upkeep
+|turn|17
+|
+|t:|1685919389
+|move|p2a: Magearna|Dazzling Gleam|p1a: No-hated Lando
+|-supereffective|p1a: No-hated Lando
+|-damage|p1a: No-hated Lando|0 fnt
+|faint|p1a: No-hated Lando
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: No-hated Lando|Protosynthesis|[silent]
+|
+|-sideend|p2: Deanster17|Reflect
+|upkeep
+|
+|t:|1685919399
+|switch|p1a: Grassy Gliden't|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Grassy Gliden't
+|turn|18
+|
+|t:|1685919404
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Grassy Gliden't|Wood Hammer|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-damage|p1a: Grassy Gliden't|88/100|[from] Recoil
+|
+|-heal|p1a: Grassy Gliden't|94/100|[from] Grassy Terrain
+|-sideend|p2: Deanster17|move: Light Screen
+|upkeep
+|
+|t:|1685919412
+|switch|p2a: Mesprit|Mesprit|21/100
+|-damage|p2a: Mesprit|8/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1685919419
+|move|p1a: Grassy Gliden't|Wood Hammer|p2a: Mesprit
+|-damage|p2a: Mesprit|0 fnt
+|faint|p2a: Mesprit
+|-damage|p1a: Grassy Gliden't|91/100|[from] Recoil
+|
+|-heal|p1a: Grassy Gliden't|98/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685919424
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1685919432
+|switch|p1a: Tata|Kleavor, M|76/100 par
+|move|p2a: Goodra|Heavy Slam|p1a: Tata
+|-supereffective|p1a: Tata
+|-damage|p1a: Tata|11/100 par
+|
+|-heal|p1a: Tata|17/100 par|[from] Grassy Terrain
+|-heal|p2a: Goodra|100/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1685919442
+|move|p1a: Tata|Close Combat|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|25/100
+|-unboost|p1a: Tata|def|1
+|-unboost|p1a: Tata|spd|1
+|move|p2a: Goodra|Heavy Slam|p1a: Tata
+|-supereffective|p1a: Tata
+|-damage|p1a: Tata|0 fnt
+|faint|p1a: Tata
+|
+|-heal|p2a: Goodra|31/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1685919459
+|switch|p1a: Past Weavile|Sneasler, M|100/100
+|-enditem|p1a: Past Weavile|Grassy Seed
+|-boost|p1a: Past Weavile|def|1|[from] item: Grassy Seed
+|turn|22
+|
+|t:|1685919463
+|move|p1a: Past Weavile|Close Combat|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Past Weavile|def|1
+|-unboost|p1a: Past Weavile|spd|1
+|faint|p2a: Goodra
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1685919468
+|switch|p2a: Great Tusk|Great Tusk|96/100
+|turn|23
+|
+|t:|1685919476
+|switch|p1a: Pelippo|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelippo
+|move|p2a: Great Tusk|Rapid Spin|p1a: Pelippo
+|-damage|p1a: Pelippo|89/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Deanster17|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1685919486
+|move|p2a: Great Tusk|Rapid Spin|p1a: Pelippo
+|-damage|p1a: Pelippo|77/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Pelippo|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1685919491
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|25
+|
+|t:|1685919500
+|move|p2a: Enamorus|Play Rough|p1a: Pelippo
+|-damage|p1a: Pelippo|31/100
+|move|p1a: Pelippo|Surf|p2a: Enamorus
+|-damage|p2a: Enamorus|39/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|-message|Deanster17 forfeited.
+|
+|win|adpg.alt
+|raw|adpg.alt's rating: 1223 → 1247(+24 for winning)
+|raw|Deanster17's rating: 1210 → 1186(-24 for losing)
+|l|☆Deanster17

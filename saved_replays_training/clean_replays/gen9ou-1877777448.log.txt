@@ -1,0 +1,274 @@
+|poke|p1|Masquerain, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Ursaring, F|
+|poke|p1|Breloom, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Sneasler, F|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Slowking, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Amoonguss, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Praxedes|Grimmsnarl, M|100/100
+|switch|p2a: SheCorvOnMyKnight|Corviknight, M|100/100
+|turn|1
+|
+|move|p1a: Praxedes|Reflect|p1a: Praxedes
+|-sidestart|p1: Robsonpurin|Reflect
+|move|p2a: SheCorvOnMyKnight|U-turn|p1a: Praxedes
+|-damage|p1a: Praxedes|92/100
+|
+|switch|p2a: Holdontoyourhelm|Amoonguss, M|100/100|[from] U-turn
+|
+|turn|2
+|
+|move|p1a: Praxedes|Light Screen|p1a: Praxedes
+|-sidestart|p1: Robsonpurin|move: Light Screen
+|move|p2a: Holdontoyourhelm|Clear Smog|p1a: Praxedes
+|-supereffective|p1a: Praxedes
+|-damage|p1a: Praxedes|81/100
+|-clearboost|p1a: Praxedes
+|
+|turn|3
+|
+|move|p1a: Praxedes|Taunt|p2a: Holdontoyourhelm
+|-start|p2a: Holdontoyourhelm|move: Taunt
+|cant|p2a: Holdontoyourhelm|move: Taunt|Spore
+|
+|turn|4
+|
+|switch|p1a: Ursaring|Ursaring, F|100/100
+|move|p2a: Holdontoyourhelm|Clear Smog|p1a: Ursaring
+|-damage|p1a: Ursaring|96/100
+|-clearboost|p1a: Ursaring
+|
+|turn|5
+|
+|switch|p2a: SlodogChillionaire|Slowking, F|100/100
+|move|p1a: Ursaring|Body Slam|p2a: SlodogChillionaire
+|-damage|p2a: SlodogChillionaire|59/100
+|
+|turn|6
+|
+|move|p1a: Ursaring|Bulk Up|p1a: Ursaring
+|-boost|p1a: Ursaring|atk|1
+|-boost|p1a: Ursaring|def|1
+|move|p2a: SlodogChillionaire|Thunder Wave|p1a: Ursaring|[miss]
+|-miss|p2a: SlodogChillionaire|p1a: Ursaring
+|
+|turn|7
+|
+|move|p1a: Ursaring|Body Slam|p2a: SlodogChillionaire
+|-damage|p2a: SlodogChillionaire|4/100
+|move|p2a: SlodogChillionaire|Chilly Reception|p2a: SlodogChillionaire
+|-weather|Snow
+|
+|switch|p2a: The Great 57%|Great Tusk|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|move|p2a: The Great 57%|Knock Off|p1a: Ursaring
+|-damage|p1a: Ursaring|84/100
+|-enditem|p1a: Ursaring|Eviolite|[from] move: Knock Off|[of] p2a: The Great 57%
+|move|p1a: Ursaring|Body Slam|p2a: The Great 57%
+|-damage|p2a: The Great 57%|58/100
+|
+|-weather|Snow|[upkeep]
+|-sideend|p1: Robsonpurin|Reflect
+|turn|9
+|
+|-end|p2a: The Great 57%|Protosynthesis|[silent]
+|switch|p2a: Copper Combat|Iron Valiant|100/100
+|move|p1a: Ursaring|Body Slam|p2a: Copper Combat
+|-damage|p2a: Copper Combat|29/100
+|
+|-weather|Snow|[upkeep]
+|-sideend|p1: Robsonpurin|move: Light Screen
+|turn|10
+|
+|move|p2a: Copper Combat|Close Combat|p1a: Ursaring
+|-supereffective|p1a: Ursaring
+|-damage|p1a: Ursaring|0 fnt
+|-unboost|p2a: Copper Combat|def|1
+|-unboost|p2a: Copper Combat|spd|1
+|faint|p1a: Ursaring
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Praxedes|Grimmsnarl, M|81/100
+|turn|11
+|
+|move|p1a: Praxedes|Reflect|p1a: Praxedes
+|-sidestart|p1: Robsonpurin|Reflect
+|move|p2a: Copper Combat|Close Combat|p1a: Praxedes
+|-damage|p1a: Praxedes|26/100
+|-unboost|p2a: Copper Combat|def|1
+|-unboost|p2a: Copper Combat|spd|1
+|
+|-weather|Snow|[upkeep]
+|turn|12
+|
+|move|p2a: Copper Combat|Close Combat|p1a: Praxedes
+|-damage|p1a: Praxedes|0 fnt
+|-unboost|p2a: Copper Combat|def|1
+|-unboost|p2a: Copper Combat|spd|1
+|faint|p1a: Praxedes
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Messi|Breloom, F|100/100
+|turn|13
+|
+|-terastallize|p2a: Copper Combat|Ghost
+|move|p1a: Messi|Mach Punch|p2a: Copper Combat
+|-immune|p2a: Copper Combat
+|move|p2a: Copper Combat|Close Combat|p1a: Messi
+|-damage|p1a: Messi|23/100
+|-unboost|p2a: Copper Combat|def|1
+|-unboost|p2a: Copper Combat|spd|1
+|
+|-weather|Snow|[upkeep]
+|turn|14
+|
+|switch|p1a: EL pichula|Masquerain, F|100/100
+|-ability|p1a: EL pichula|Intimidate|boost
+|-unboost|p2a: Copper Combat|atk|1
+|move|p2a: Copper Combat|Close Combat|p1a: EL pichula
+|-resisted|p1a: EL pichula
+|-damage|p1a: EL pichula|87/100
+|-unboost|p2a: Copper Combat|def|1
+|-unboost|p2a: Copper Combat|spd|1
+|
+|-weather|none
+|turn|15
+|
+|move|p2a: Copper Combat|Close Combat|p1a: EL pichula
+|-resisted|p1a: EL pichula
+|-damage|p1a: EL pichula|73/100
+|-unboost|p2a: Copper Combat|def|1
+|-unboost|p2a: Copper Combat|spd|1
+|move|p1a: EL pichula|Tailwind|p1a: EL pichula
+|-sidestart|p1: Robsonpurin|move: Tailwind
+|
+|turn|16
+|
+|move|p1a: EL pichula|Bug Buzz|p2a: Copper Combat
+|-resisted|p2a: Copper Combat
+|-damage|p2a: Copper Combat|0 fnt
+|faint|p2a: Copper Combat
+|-end|p2a: Copper Combat|Quark Drive|[silent]
+|
+|
+|switch|p2a: SheCorvOnMyKnight|Corviknight, M|100/100
+|turn|17
+|
+|move|p1a: EL pichula|Hurricane|p2a: SheCorvOnMyKnight
+|-resisted|p2a: SheCorvOnMyKnight
+|-damage|p2a: SheCorvOnMyKnight|83/100
+|move|p2a: SheCorvOnMyKnight|Brave Bird|p1a: EL pichula
+|-supereffective|p1a: EL pichula
+|-damage|p1a: EL pichula|13/100
+|-damage|p2a: SheCorvOnMyKnight|69/100|[from] Recoil
+|
+|-heal|p2a: SheCorvOnMyKnight|75/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: EL pichula|Sticky Web|p2a: SheCorvOnMyKnight
+|-sidestart|p2: thegreat57%|move: Sticky Web
+|move|p2a: SheCorvOnMyKnight|Roost|p2a: SheCorvOnMyKnight
+|-heal|p2a: SheCorvOnMyKnight|100/100
+|-singleturn|p2a: SheCorvOnMyKnight|move: Roost
+|
+|-sideend|p1: Robsonpurin|Reflect
+|-sideend|p1: Robsonpurin|move: Tailwind
+|turn|19
+|
+|move|p1a: EL pichula|Tailwind|p1a: EL pichula
+|-sidestart|p1: Robsonpurin|move: Tailwind
+|move|p2a: SheCorvOnMyKnight|Brave Bird|p1a: EL pichula
+|-supereffective|p1a: EL pichula
+|-damage|p1a: EL pichula|0 fnt
+|faint|p1a: EL pichula
+|-damage|p2a: SheCorvOnMyKnight|97/100|[from] Recoil
+|
+|-heal|p2a: SheCorvOnMyKnight|100/100|[from] item: Leftovers
+|
+|switch|p1a: Nekawa|Sneasler, F|100/100
+|turn|20
+|
+|move|p1a: Nekawa|Close Combat|p2a: SheCorvOnMyKnight
+|-damage|p2a: SheCorvOnMyKnight|46/100
+|-unboost|p1a: Nekawa|def|1
+|-unboost|p1a: Nekawa|spd|1
+|-enditem|p1a: Nekawa|White Herb
+|-clearnegativeboost|p1a: Nekawa|[silent]
+|move|p2a: SheCorvOnMyKnight|Brave Bird|p1a: Nekawa
+|-supereffective|p1a: Nekawa
+|-damage|p1a: Nekawa|0 fnt
+|faint|p1a: Nekawa
+|-damage|p2a: SheCorvOnMyKnight|21/100|[from] Recoil
+|
+|-heal|p2a: SheCorvOnMyKnight|28/100|[from] item: Leftovers
+|
+|switch|p1a: Kirito|Garchomp, M|100/100
+|turn|21
+|
+|move|p1a: Kirito|Substitute|p1a: Kirito
+|-start|p1a: Kirito|Substitute
+|-damage|p1a: Kirito|76/100
+|move|p2a: SheCorvOnMyKnight|Brave Bird|p1a: Kirito
+|-end|p1a: Kirito|Substitute
+|-damage|p2a: SheCorvOnMyKnight|20/100|[from] Recoil|[of] p1a: Kirito
+|
+|-heal|p2a: SheCorvOnMyKnight|27/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Kirito|Swords Dance|p1a: Kirito
+|-boost|p1a: Kirito|atk|2
+|move|p2a: SheCorvOnMyKnight|Brave Bird|p1a: Kirito
+|-crit|p1a: Kirito
+|-damage|p1a: Kirito|25/100
+|-damage|p2a: SheCorvOnMyKnight|14/100|[from] ability: Rough Skin|[of] p1a: Kirito
+|-damage|p2a: SheCorvOnMyKnight|0 fnt|[from] item: Rocky Helmet|[of] p1a: Kirito
+|faint|p2a: SheCorvOnMyKnight
+|
+|-sideend|p1: Robsonpurin|move: Tailwind
+|
+|switch|p2a: Holdontoyourhelm|Amoonguss, M|100/100
+|-activate|p2a: Holdontoyourhelm|move: Sticky Web
+|-unboost|p2a: Holdontoyourhelm|spe|1
+|turn|23
+|
+|move|p1a: Kirito|Earthquake|p2a: Holdontoyourhelm
+|-damage|p2a: Holdontoyourhelm|27/100
+|move|p2a: Holdontoyourhelm|Foul Play|p1a: Kirito
+|-damage|p1a: Kirito|0 fnt
+|-damage|p2a: Holdontoyourhelm|15/100|[from] ability: Rough Skin|[of] p1a: Kirito
+|-damage|p2a: Holdontoyourhelm|0 fnt|[from] item: Rocky Helmet|[of] p1a: Kirito
+|faint|p1a: Kirito
+|faint|p2a: Holdontoyourhelm
+|
+|
+|switch|p1a: Messi|Breloom, F|23/100
+|switch|p2a: Baxillion Pegasus|Baxcalibur, F|100/100
+|-activate|p2a: Baxillion Pegasus|move: Sticky Web
+|-unboost|p2a: Baxillion Pegasus|spe|1
+|turn|24
+|
+|-terastallize|p1a: Messi|Flying
+|move|p1a: Messi|Mach Punch|p2a: Baxillion Pegasus
+|-supereffective|p2a: Baxillion Pegasus
+|-damage|p2a: Baxillion Pegasus|19/100
+|-damage|p1a: Messi|14/100|[from] item: Life Orb
+|move|p2a: Baxillion Pegasus|Icicle Spear|p1a: Messi
+|-supereffective|p1a: Messi
+|-damage|p1a: Messi|0 fnt
+|faint|p1a: Messi
+|-hitcount|p1: Messi|1
+|
+|win|thegreat57%

@@ -1,0 +1,503 @@
+|poke|p1|Corviknight, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Garganacl, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Chien-Pao|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|move|p2a: Sneasler|Fake Out|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|93/100
+|-status|p1a: Ting-Lu|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|cant|p1a: Ting-Lu|flinch
+|
+|-heal|p1a: Ting-Lu|99/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|87/100 psn|[from] psn
+|turn|2
+|
+|move|p2a: Sneasler|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|61/100 psn
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-item|p2a: Kingambit|Air Balloon
+|move|p1a: Ting-Lu|Whirlwind|p2a: Kingambit
+|drag|p2a: Goodra|Goodra-Hisui, F|100/100
+|
+|-heal|p1a: Ting-Lu|68/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|55/100 psn|[from] psn
+|turn|3
+|
+|move|p2a: Goodra|Body Press|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|26/100 psn
+|move|p1a: Ting-Lu|Earthquake|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|51/100
+|
+|-heal|p2a: Goodra|57/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|33/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|20/100 psn|[from] psn
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Goodra|Body Press|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|93/100
+|-damage|p2a: Goodra|41/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|-heal|p2a: Goodra|47/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|
+|turn|6
+|
+|move|p2a: Sneasler|Fake Out|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|96/100
+|cant|p1a: Corviknight|flinch
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Sneasler|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|97/100
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100|[from] U-turn
+|move|p1a: Corviknight|Brave Bird|p2a: Braviary
+|-damage|p2a: Braviary|56/100
+|-damage|p1a: Corviknight|84/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|90/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Braviary|Heat Wave|p1a: Corviknight|[miss]
+|-miss|p2a: Braviary|p1a: Corviknight
+|-enditem|p2a: Braviary|Blunder Policy
+|-boost|p2a: Braviary|spe|2
+|move|p1a: Corviknight|Brave Bird|p2a: Braviary
+|-damage|p2a: Braviary|12/100
+|-damage|p1a: Corviknight|76/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|82/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Braviary|Roost|p2a: Braviary
+|-heal|p2a: Braviary|62/100
+|-singleturn|p2a: Braviary|move: Roost
+|
+|turn|10
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|90/100
+|-start|p2a: Sneasler|Salt Cure
+|
+|-damage|p2a: Sneasler|77/100|[from] Salt Cure
+|turn|11
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Sneasler|Close Combat|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-damage|p2a: Sneasler|65/100|[from] Salt Cure
+|turn|12
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Sneasler|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-damage|p2a: Sneasler|49/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|-damage|p2a: Sneasler|36/100|[from] Salt Cure
+|turn|13
+|
+|move|p2a: Sneasler|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|73/100
+|-damage|p2a: Sneasler|20/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|switch|p2a: Goodra|Goodra-Hisui, F|47/100|[from] U-turn
+|move|p1a: Toxapex|Chilling Water|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|43/100
+|-unboost|p2a: Goodra|atk|1
+|
+|-heal|p2a: Goodra|49/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Ting-Lu|Ting-Lu|20/100 psn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-heal|p1a: Ting-Lu|26/100 psn|[from] item: Leftovers
+|-heal|p2a: Goodra|55/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|14/100 psn|[from] psn
+|turn|15
+|
+|move|p2a: Goodra|Body Press|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-heal|p2a: Goodra|61/100|[from] item: Leftovers
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|16
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-heal|p2a: Goodra|67/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Goodra|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100
+|
+|-heal|p2a: Goodra|73/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|move|p1a: Toxapex|Chilling Water|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|70/100
+|-unboost|p2a: Goodra|atk|1
+|
+|-heal|p2a: Goodra|76/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|move|p2a: Goodra|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100
+|
+|-heal|p2a: Goodra|82/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Corviknight|Corviknight, F|82/100
+|move|p2a: Goodra|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p1a: Corviknight|88/100|[from] item: Leftovers
+|-heal|p2a: Goodra|88/100|[from] item: Leftovers
+|turn|21
+|
+|-terastallize|p1a: Corviknight|Fighting
+|move|p1a: Corviknight|Body Press|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|53/100
+|-ability|p2a: Goodra|Gooey
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Goodra|spe|1
+|move|p2a: Goodra|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|67/100
+|
+|-heal|p1a: Corviknight|73/100|[from] item: Leftovers
+|-heal|p2a: Goodra|59/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-terastallize|p2a: Goodra|Flying
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-heal|p2a: Goodra|65/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Goodra|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|74/100
+|
+|-heal|p2a: Goodra|71/100|[from] item: Leftovers
+|turn|24
+|
+|switch|p1a: Corviknight|Corviknight, F, tera:Fighting|73/100
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-heal|p1a: Corviknight|79/100|[from] item: Leftovers
+|-heal|p2a: Goodra|77/100|[from] item: Leftovers
+|turn|25
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Goodra|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|56/100
+|
+|-heal|p2a: Goodra|83/100|[from] item: Leftovers
+|turn|26
+|
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|move|p2a: Goodra|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|56/100
+|
+|-heal|p2a: Goodra|90/100|[from] item: Leftovers
+|turn|27
+|
+|switch|p1a: Corviknight|Corviknight, F, tera:Fighting|79/100
+|move|p2a: Goodra|Earthquake|p1a: Corviknight
+|-damage|p1a: Corviknight|59/100
+|
+|-heal|p1a: Corviknight|65/100|[from] item: Leftovers
+|-heal|p2a: Goodra|96/100|[from] item: Leftovers
+|turn|28
+|
+|move|p1a: Corviknight|Defog|p2a: Goodra
+|-unboost|p2a: Goodra|evasion|1
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-heal|p1a: Corviknight|71/100|[from] item: Leftovers
+|-heal|p2a: Goodra|100/100|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Corviknight|Defog|p2a: Goodra
+|-unboost|p2a: Goodra|evasion|1
+|move|p2a: Goodra|Earthquake|p1a: Corviknight
+|-damage|p1a: Corviknight|42/100
+|
+|-heal|p1a: Corviknight|48/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|98/100
+|move|p2a: Goodra|Earthquake|p1a: Corviknight
+|-damage|p1a: Corviknight|71/100
+|
+|-heal|p1a: Corviknight|77/100|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Corviknight|Defog|p2a: Goodra
+|-unboost|p2a: Goodra|evasion|1
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-heal|p1a: Corviknight|83/100|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Corviknight|Defog|p2a: Goodra
+|-unboost|p2a: Goodra|evasion|1
+|move|p2a: Goodra|Earthquake|p1a: Corviknight
+|-damage|p1a: Corviknight|52/100
+|
+|-heal|p1a: Corviknight|58/100|[from] item: Leftovers
+|turn|33
+|
+|move|p1a: Corviknight|Defog|p2a: Goodra
+|-unboost|p2a: Goodra|evasion|1
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-heal|p1a: Corviknight|64/100|[from] item: Leftovers
+|turn|34
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|move|p2a: Goodra|Earthquake|p1a: Corviknight
+|-damage|p1a: Corviknight|63/100
+|
+|-heal|p1a: Corviknight|69/100|[from] item: Leftovers
+|turn|35
+|
+|move|p1a: Corviknight|Defog|p2a: Goodra
+|-unboost|p2a: Goodra|evasion|1
+|move|p2a: Goodra|Earthquake|p1a: Corviknight
+|-damage|p1a: Corviknight|27/100
+|
+|-heal|p1a: Corviknight|33/100|[from] item: Leftovers
+|turn|36
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|83/100
+|move|p2a: Goodra|Earthquake|p1a: Corviknight
+|-damage|p1a: Corviknight|42/100
+|
+|-heal|p1a: Corviknight|48/100|[from] item: Leftovers
+|turn|37
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|98/100
+|move|p2a: Goodra|Heavy Slam|p1a: Corviknight
+|-damage|p1a: Corviknight|41/100
+|
+|-heal|p1a: Corviknight|47/100|[from] item: Leftovers
+|turn|38
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|97/100
+|move|p2a: Goodra|Heavy Slam|p1a: Corviknight
+|-damage|p1a: Corviknight|34/100
+|
+|-heal|p1a: Corviknight|40/100|[from] item: Leftovers
+|turn|39
+|
+|switch|p1a: Toxapex|Toxapex, F|89/100
+|move|p2a: Goodra|Heavy Slam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|49/100
+|-damage|p2a: Goodra|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|-heal|p2a: Goodra|90/100|[from] item: Leftovers
+|turn|40
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-heal|p2a: Goodra|96/100|[from] item: Leftovers
+|turn|41
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Goodra|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|22/100
+|
+|-heal|p2a: Goodra|100/100|[from] item: Leftovers
+|turn|42
+|
+|switch|p1a: Corviknight|Corviknight, F, tera:Fighting|40/100
+|move|p2a: Goodra|Earthquake|p1a: Corviknight
+|-damage|p1a: Corviknight|27/100
+|
+|-heal|p1a: Corviknight|33/100|[from] item: Leftovers
+|turn|43
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|83/100
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|-heal|p1a: Corviknight|89/100|[from] item: Leftovers
+|turn|44
+|
+|switch|p1a: Toxapex|Toxapex, F|55/100
+|move|p2a: Goodra|Curse|p2a: Goodra
+|-unboost|p2a: Goodra|spe|1
+|-boost|p2a: Goodra|atk|1
+|-boost|p2a: Goodra|def|1
+|
+|turn|45
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-item|p2a: Kingambit|Air Balloon
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|turn|46
+|
+|switch|p1a: Corviknight|Corviknight, F, tera:Fighting|89/100
+|move|p2a: Kingambit|Will-O-Wisp|p1a: Corviknight|[miss]
+|-miss|p2a: Kingambit|p1a: Corviknight
+|
+|-heal|p1a: Corviknight|95/100|[from] item: Leftovers
+|turn|47
+|
+|move|p2a: Kingambit|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|move|p1a: Corviknight|Body Press|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-heal|p1a: Corviknight|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|turn|48
+|
+|switch|p2a: Braviary|Braviary-Hisui, M|62/100
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|
+|turn|49
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|95/100
+|-start|p2a: Ursaluna|Salt Cure
+|
+|-damage|p2a: Ursaluna|83/100|[from] Salt Cure
+|turn|50
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-item|p2a: Kingambit|Air Balloon
+|switch|p1a: Corviknight|Corviknight, F, tera:Fighting|94/100 brn
+|
+|-heal|p1a: Corviknight|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|turn|51
+|
+|move|p2a: Kingambit|Knock Off|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|89/100 brn
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Kingambit
+|move|p1a: Corviknight|Brave Bird|p2a: Kingambit
+|-damage|p2a: Kingambit|60/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|-enditem|p2a: Zoroark|Air Balloon
+|-damage|p1a: Corviknight|80/100 brn|[from] Recoil
+|
+|-damage|p1a: Corviknight|74/100 brn|[from] brn
+|turn|52
+|
+|move|p2a: Zoroark|Hex|p1a: Corviknight
+|-damage|p1a: Corviknight|9/100 brn
+|move|p1a: Corviknight|Brave Bird|p2a: Zoroark
+|-damage|p2a: Zoroark|20/100
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|
+|-message|AIGC101 forfeited.
+|
+|win|loginwhyte

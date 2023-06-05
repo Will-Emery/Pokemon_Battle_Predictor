@@ -1,0 +1,239 @@
+|poke|p1|Azelf|
+|poke|p1|Torkoal, F|
+|poke|p1|Roaring Moon|
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Walking Wake|
+|poke|p2|Clodsire, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Loki|Azelf|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|1
+|
+|move|p1a: Loki|Stealth Rock|p2a: Gholdengo
+|-sidestart|p2: Arde Showdown|move: Stealth Rock
+|move|p2a: Gholdengo|Shadow Ball|p1a: Loki
+|-supereffective|p1a: Loki
+|-damage|p1a: Loki|0 fnt
+|faint|p1a: Loki
+|
+|
+|switch|p1a: Akūpāra|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Akūpāra
+|turn|2
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|move|p1a: Akūpāra|Lava Plume|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p1a: Jörmungandr|Walking Wake|100/100
+|-activate|p1a: Jörmungandr|ability: Protosynthesis
+|-start|p1a: Jörmungandr|protosynthesisspa
+|move|p2a: Torkoal|Rapid Spin|p1a: Jörmungandr
+|-damage|p1a: Jörmungandr|91/100
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: Arde Showdown|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-terastallize|p1a: Jörmungandr|Water
+|move|p1a: Jörmungandr|Agility|p1a: Jörmungandr
+|-boost|p1a: Jörmungandr|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|move|p1a: Jörmungandr|Hydro Steam|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|move|p2a: Clodsire|Toxic|p1a: Jörmungandr
+|-status|p1a: Jörmungandr|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Jörmungandr|85/100 tox|[from] psn
+|turn|6
+|
+|move|p1a: Jörmungandr|Flamethrower|p2a: Clodsire
+|-damage|p2a: Clodsire|54/100
+|-damage|p1a: Jörmungandr|75/100 tox|[from] item: Life Orb
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Jörmungandr|63/100 tox|[from] psn
+|turn|7
+|
+|-end|p1a: Jörmungandr|Protosynthesis|[silent]
+|switch|p1a: Ganesh|Great Tusk|100/100
+|-activate|p1a: Ganesh|ability: Protosynthesis
+|-start|p1a: Ganesh|protosynthesisatk
+|switch|p2a: Torkoal|Torkoal, M|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Ganesh|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|14/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|move|p1a: Ganesh|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|none
+|-end|p1a: Ganesh|Protosynthesis
+|
+|switch|p2a: Torkoal|Torkoal, M|41/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Ganesh|ability: Protosynthesis
+|-start|p1a: Ganesh|protosynthesisatk
+|turn|10
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Ganesh|Knock Off|p2a: Walking Wake
+|-damage|p2a: Walking Wake|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|11
+|
+|-end|p1a: Ganesh|Protosynthesis|[silent]
+|switch|p1a: Alduin|Roaring Moon, shiny|100/100
+|-activate|p1a: Alduin|ability: Protosynthesis
+|-start|p1a: Alduin|protosynthesisatk
+|move|p2a: Walking Wake|Hydro Steam|p1a: Alduin
+|-resisted|p1a: Alduin
+|-damage|p1a: Alduin|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|12
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Alduin
+|-supereffective|p1a: Alduin
+|-damage|p1a: Alduin|0 fnt
+|faint|p1a: Alduin
+|-end|p1a: Alduin|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Hecate|Hatterene, F|100/100
+|turn|13
+|
+|move|p2a: Walking Wake|Flamethrower|p1a: Hecate
+|-damage|p1a: Hecate|56/100
+|-enditem|p1a: Hecate|Eject Button
+|
+|switch|p1a: Jörmungandr|Walking Wake, tera:Water|63/100 tox
+|-activate|p1a: Jörmungandr|ability: Protosynthesis
+|-start|p1a: Jörmungandr|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Jörmungandr|57/100 tox|[from] psn
+|turn|14
+|
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Jörmungandr
+|-damage|p1a: Jörmungandr|10/100 tox
+|move|p1a: Jörmungandr|Dragon Pulse|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-damage|p1a: Jörmungandr|0 fnt|[from] item: Life Orb
+|faint|p1a: Jörmungandr
+|-end|p1a: Jörmungandr|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|switch|p1a: Hecate|Hatterene, F|56/100
+|turn|15
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Hecate
+|-damage|p1a: Hecate|0 fnt
+|faint|p1a: Hecate
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Ganesh|Great Tusk|100/100
+|-activate|p1a: Ganesh|ability: Protosynthesis
+|-start|p1a: Ganesh|protosynthesisatk
+|turn|16
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Ganesh
+|-damage|p1a: Ganesh|28/100
+|move|p1a: Ganesh|Headlong Rush|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-unboost|p1a: Ganesh|def|1
+|-unboost|p1a: Ganesh|spd|1
+|faint|p2a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|17
+|
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Ganesh|Close Combat|p2a: Lilligant
+|-damage|p2a: Lilligant|18/100
+|-unboost|p1a: Ganesh|def|1
+|-unboost|p1a: Ganesh|spd|1
+|
+|-weather|none
+|-end|p1a: Ganesh|Protosynthesis
+|turn|18
+|
+|move|p2a: Lilligant|Leaf Blade|p1a: Ganesh
+|-supereffective|p1a: Ganesh
+|-damage|p1a: Ganesh|0 fnt
+|faint|p1a: Ganesh
+|-end|p1a: Ganesh|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Akūpāra|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Akūpāra
+|turn|19
+|
+|move|p2a: Lilligant|Close Combat|p1a: Akūpāra
+|-damage|p1a: Akūpāra|49/100
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|move|p1a: Akūpāra|Stealth Rock|p2a: Lilligant
+|-sidestart|p2: Arde Showdown|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|20
+|
+|move|p2a: Lilligant|Close Combat|p1a: Akūpāra
+|-damage|p1a: Akūpāra|0 fnt
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|faint|p1a: Akūpāra
+|
+|win|Arde Showdown

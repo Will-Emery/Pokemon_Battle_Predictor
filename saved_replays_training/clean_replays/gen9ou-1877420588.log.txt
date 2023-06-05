@@ -1,0 +1,265 @@
+|poke|p1|Cinderace, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Maushold-Four|
+|poke|p2|Toxapex, F|
+|poke|p2|Gastrodon-East, F|
+|teampreview
+|
+|start
+|switch|p1a: Phantom|Gholdengo|100/100
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100
+|turn|1
+|
+|-terastallize|p1a: Phantom|Fighting
+|move|p1a: Phantom|Trick|p2a: Gastrodon
+|-activate|p1a: Phantom|move: Trick|[of] p2a: Gastrodon
+|-item|p2a: Gastrodon|Choice Scarf|[from] move: Trick
+|-item|p1a: Phantom|Leftovers|[from] move: Trick
+|move|p2a: Gastrodon|Stealth Rock|p1a: Phantom
+|-sidestart|p1: kscndvclod皮卡丘侠|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Phantom|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|71/100
+|
+|-heal|p2a: Toxapex|77/100|[from] item: Black Sludge
+|turn|3
+|
+|move|p1a: Phantom|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Phantom
+|-sidestart|p1: kscndvclod皮卡丘侠|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|33/100|[from] item: Black Sludge
+|turn|4
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Phantom|Thunderbolt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|39/100|[from] item: Black Sludge
+|turn|5
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Phantom|Thunderbolt|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|turn|6
+|
+|switch|p1a: Fin...|Rotom-Wash, shiny|100/100
+|-damage|p1a: Fin...|88/100|[from] Stealth Rock
+|move|p2a: Garchomp|Earthquake|p1a: Fin...
+|-immune|p1a: Fin...|[from] ability: Levitate
+|
+|-heal|p1a: Fin...|94/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100
+|move|p1a: Fin...|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|
+|-heal|p1a: Fin...|99/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|turn|8
+|
+|move|p1a: Fin...|Protect|p1a: Fin...
+|-singleturn|p1a: Fin...|Protect
+|move|p2a: Gastrodon|Ice Beam|p1a: Fin...
+|-activate|p1a: Fin...|move: Protect
+|
+|-heal|p1a: Fin...|100/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|turn|9
+|
+|switch|p1a: Behemoth|Great Tusk, shiny|100/100
+|-enditem|p1a: Behemoth|Booster Energy
+|-activate|p1a: Behemoth|ability: Protosynthesis|[fromitem]
+|-start|p1a: Behemoth|protosynthesisspe
+|-damage|p1a: Behemoth|97/100|[from] Stealth Rock
+|-status|p1a: Behemoth|psn
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|
+|-damage|p1a: Behemoth|85/100 psn|[from] psn
+|turn|10
+|
+|move|p1a: Behemoth|Rapid Spin|p2a: Cinderace
+|-damage|p2a: Cinderace|78/100
+|-boost|p1a: Behemoth|spe|1
+|-sideend|p1: kscndvclod皮卡丘侠|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Behemoth
+|-sideend|p1: kscndvclod皮卡丘侠|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Behemoth
+|move|p2a: Cinderace|U-turn|p1a: Behemoth
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Behemoth
+|-damage|p1a: Behemoth|71/100 psn
+|-damage|p2a: Cinderace|68/100|[from] item: Life Orb
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100|[from] U-turn
+|
+|-damage|p1a: Behemoth|58/100 psn|[from] psn
+|turn|11
+|
+|move|p1a: Behemoth|Headlong Rush|p2a: Volcarona
+|-damage|p2a: Volcarona|30/100
+|-unboost|p1a: Behemoth|def|1
+|-unboost|p1a: Behemoth|spd|1
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-damage|p1a: Behemoth|46/100 psn|[from] psn
+|turn|12
+|
+|move|p1a: Behemoth|Headlong Rush|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-unboost|p1a: Behemoth|def|1
+|-unboost|p1a: Behemoth|spd|1
+|faint|p2a: Volcarona
+|
+|-damage|p1a: Behemoth|34/100 psn|[from] psn
+|
+|switch|p2a: Maushold|Maushold-Four|100/100
+|turn|13
+|
+|move|p1a: Behemoth|Knock Off|p2a: Maushold
+|-damage|p2a: Maushold|59/100
+|-enditem|p2a: Maushold|Wide Lens|[from] move: Knock Off|[of] p1a: Behemoth
+|move|p2a: Maushold|Bullet Seed|p1a: Behemoth
+|-supereffective|p1a: Behemoth
+|-damage|p1a: Behemoth|10/100 psn
+|-supereffective|p1a: Behemoth
+|-damage|p1a: Behemoth|0 fnt
+|faint|p1a: Behemoth
+|-end|p1a: Behemoth|Protosynthesis|[silent]
+|-hitcount|p1: Behemoth|2
+|
+|
+|switch|p1a: Leviathan|Dragapult, M, shiny|100/100
+|turn|14
+|
+|move|p1a: Leviathan|Draco Meteor|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|-unboost|p1a: Leviathan|spa|2
+|faint|p2a: Maushold
+|
+|
+|switch|p2a: Cinderace|Cinderace, F|68/100
+|turn|15
+|
+|switch|p1a: Fin...|Rotom-Wash, shiny|100/100
+|move|p2a: Cinderace|Gunk Shot|p1a: Fin...
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-damage|p1a: Fin...|39/100
+|-damage|p2a: Cinderace|58/100|[from] item: Life Orb
+|
+|-heal|p1a: Fin...|45/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Fin...
+|-damage|p1a: Fin...|3/100
+|-damage|p2a: Cinderace|49/100|[from] item: Life Orb
+|move|p1a: Fin...|Volt Switch|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|switch|p1a: Liberacy|Cinderace, M, shiny|100/100|[from] Volt Switch
+|
+|
+|switch|p2a: Toxapex|Toxapex, F|72/100
+|turn|17
+|
+|move|p1a: Liberacy|Zen Headbutt|p2a: Toxapex
+|-start|p1a: Liberacy|typechange|Psychic|[from] ability: Libero
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|8/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Liberacy
+|-sidestart|p1: kscndvclod皮卡丘侠|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|15/100|[from] item: Black Sludge
+|turn|18
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Liberacy|Zen Headbutt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Liberacy|psn
+|
+|-heal|p2a: Toxapex|21/100|[from] item: Black Sludge
+|-damage|p1a: Liberacy|88/100 psn|[from] psn
+|turn|19
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|88/100 brn
+|move|p1a: Liberacy|Zen Headbutt|p2a: Gastrodon
+|-damage|p2a: Gastrodon|51/100 brn
+|
+|-damage|p1a: Liberacy|76/100 psn|[from] psn
+|-damage|p2a: Gastrodon|45/100 brn|[from] brn
+|turn|20
+|
+|move|p1a: Liberacy|Gunk Shot|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|27/100 brn
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|77/100 brn
+|
+|-damage|p1a: Liberacy|64/100 psn|[from] psn
+|-damage|p2a: Gastrodon|70/100 brn|[from] brn
+|turn|21
+|
+|switch|p1a: Fin...|Rotom-Wash, shiny|3/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-heal|p1a: Fin...|9/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|turn|22
+|
+|switch|p2a: Toxapex|Toxapex, F|54/100
+|move|p1a: Fin...|Protect||[still]
+|-fail|p1a: Fin...
+|
+|-heal|p1a: Fin...|15/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|60/100|[from] item: Black Sludge
+|turn|23
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Fin...|Volt Switch|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Fin...|21/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|turn|24
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|94/100 brn
+|move|p1a: Fin...|Will-O-Wisp|p2a: Gastrodon
+|-fail|p2a: Gastrodon|brn
+|
+|-heal|p1a: Fin...|27/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|turn|25
+|
+|move|p1a: Fin...|Protect|p1a: Fin...
+|-singleturn|p1a: Fin...|Protect
+|move|p2a: Gastrodon|Ice Beam|p1a: Fin...
+|-activate|p1a: Fin...|move: Protect
+|
+|-heal|p1a: Fin...|33/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|turn|26
+|-message|2005ab forfeited.
+|
+|win|kscndvclod皮卡丘侠

@@ -1,0 +1,143 @@
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Corviknight, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p2|Frosmoth, M|
+|poke|p2|Rotom-Frost|
+|poke|p2|Weavile, F|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Cloyster, M|
+|poke|p2|Ceruledge, F|
+|teampreview
+|
+|start
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|1
+|
+|move|p2a: Cloyster|Liquidation|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|75/100
+|-damage|p2a: Cloyster|91/100|[from] item: Life Orb
+|move|p1a: Goodra|Acid Armor|p1a: Goodra
+|-boost|p1a: Goodra|def|2
+|
+|-heal|p1a: Goodra|81/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Goodra
+|-damage|p1a: Goodra|73/100
+|-damage|p1a: Goodra|65/100
+|-damage|p1a: Goodra|57/100
+|-damage|p1a: Goodra|49/100
+|-damage|p1a: Goodra|41/100
+|-hitcount|p1a: Goodra|5
+|-damage|p2a: Cloyster|81/100|[from] item: Life Orb
+|move|p1a: Goodra|Flash Cannon|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-heal|p1a: Goodra|47/100|[from] item: Leftovers
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|turn|3
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Baxcalibur|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|59/100
+|
+|turn|4
+|
+|move|p1a: Zamazenta|Play Rough|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|39/100
+|move|p2a: Baxcalibur|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|17/100
+|
+|-heal|p2a: Baxcalibur|45/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Baxcalibur|Ice Shard|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|11/100
+|move|p1a: Zamazenta|Play Rough|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|
+|switch|p2a: Ceruledge|Ceruledge, F, shiny|100/100
+|turn|6
+|
+|-terastallize|p2a: Ceruledge|Ice
+|move|p1a: Zamazenta|Close Combat|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Ceruledge
+|
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|7
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Weavile|Ice Spinner|p1a: Corviknight
+|-damage|p1a: Corviknight|69/100
+|-damage|p2a: Weavile|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|turn|8
+|
+|move|p2a: Weavile|Ice Spinner|p1a: Corviknight
+|-damage|p1a: Corviknight|38/100
+|-damage|p2a: Weavile|68/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Iron Head|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|turn|9
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|turn|10
+|
+|-terastallize|p1a: Arcanine|Steel
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Arcanine|Flare Blitz|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|turn|11
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-damage|p1a: Arcanine|76/100|[from] Recoil
+|
+|
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|turn|12
+|
+|move|p1a: Arcanine|Iron Head|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|win|bmoc19

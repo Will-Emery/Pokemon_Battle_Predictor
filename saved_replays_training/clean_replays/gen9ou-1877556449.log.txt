@@ -1,0 +1,247 @@
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Kleavor, M|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p2|Baxcalibur, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p1a: Kleavor|Stone Axe|p2a: Dragapult
+|-damage|p2a: Dragapult|35/100
+|-sidestart|p2: argreaer|move: Stealth Rock
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Kleavor
+|-status|p1a: Kleavor|brn
+|
+|-heal|p2a: Dragapult|41/100|[from] item: Leftovers
+|-damage|p1a: Kleavor|94/100 brn|[from] brn
+|turn|2
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Kleavor|Stone Axe|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|94/100
+|
+|-heal|p2a: Great Tusk|99/100|[from] item: Leftovers
+|-damage|p1a: Kleavor|88/100 brn|[from] brn
+|turn|3
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p2a: Great Tusk|Leftovers|[from] ability: Frisk|[of] p1a: Typhlosion|[identify]
+|move|p2a: Great Tusk|Earthquake|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|4
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Zapdos
+|-damage|p2a: Zapdos|9/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|turn|5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Walking Wake|atk|1
+|move|p1a: Walking Wake|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|52/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-heal|p2a: Landorus|58/100|[from] item: Leftovers
+|turn|6
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Kleavor|Kleavor, M|88/100 brn
+|move|p2a: Landorus|Stealth Rock|p1a: Kleavor
+|-sidestart|p1: mysteriouszoro|move: Stealth Rock
+|
+|-heal|p2a: Landorus|65/100|[from] item: Leftovers
+|-damage|p1a: Kleavor|82/100 brn|[from] brn
+|turn|7
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Kleavor|Defog|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|evasion|1
+|-sideend|p2: argreaer|Stealth Rock|[from] move: Defog|[of] p1a: Kleavor
+|-sideend|p1: mysteriouszoro|Stealth Rock|[from] move: Defog|[of] p1a: Kleavor
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-damage|p1a: Kleavor|76/100 brn|[from] brn
+|turn|8
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p2a: Great Tusk|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|65/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Landorus|71/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|turn|11
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Great Tusk
+|-damage|p2a: Great Tusk|42/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|92/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|48/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|54/100|[from] item: Leftovers
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|13
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|9/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Baxcalibur|Baxcalibur, F|100/100
+|turn|14
+|
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Baxcalibur
+|-resisted|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|43/100
+|move|p2a: Baxcalibur|Icicle Crash|p1a: Walking Wake|[miss]
+|-miss|p2a: Baxcalibur|p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|turn|15
+|
+|switch|p2a: Great Tusk|Great Tusk|54/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Walking Wake|Hydro Steam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|16
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|39/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-terastallize|p2a: Arcanine|Grass
+|move|p2a: Arcanine|Head Smash|p1a: Torkoal|[miss]
+|-miss|p2a: Arcanine|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|17
+|
+|switch|p1a: Kleavor|Kleavor, M|76/100 brn
+|move|p2a: Arcanine|Head Smash|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|18
+|
+|switch|p2a: Baxcalibur|Baxcalibur, F|43/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|19
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M, tera:Grass|100/100
+|turn|20
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|13/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|21
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, F|41/100
+|turn|22
+|
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|mysteriouszoro

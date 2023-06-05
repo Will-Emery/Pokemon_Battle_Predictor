@@ -1,0 +1,59 @@
+|poke|p1|Wo-Chien|
+|poke|p1|Skeledirge, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Zapdos|
+|poke|p1|Toxapex, M|
+|poke|p1|Garchomp, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Pincurchin, F|
+|poke|p2|Iron Hands|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Thorns|
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-item|p2a: Iron Treads|Air Balloon
+|turn|1
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|61/100
+|-enditem|p1a: Skeledirge|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|turn|2
+|
+|move|p2a: Iron Treads|Electric Terrain|p2a: Iron Treads
+|-fieldstart|move: Electric Terrain
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivedef
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|
+|-damage|p2a: Iron Treads|94/100 brn|[from] brn
+|turn|3
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-activate|p2a: Iron Thorns|ability: Quark Drive
+|-start|p2a: Iron Thorns|quarkdrivedef
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Thorns
+|-resisted|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|90/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|turn|4
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Iron Thorns|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-message|Macci709 forfeited.
+|
+|win|dj4258

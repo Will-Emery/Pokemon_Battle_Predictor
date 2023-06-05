@@ -1,0 +1,497 @@
+|poke|p1|Basculegion-F, F|
+|poke|p1|Meowscarada, F|
+|poke|p1|Heatran, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Great Tusk|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Skeledirge, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Great Tusk|
+|poke|p2|Rotom-Wash|
+|poke|p2|Corviknight, M|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Garchomp
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Garchomp
+|-item|p1a: Garchomp|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Rocky Helmet|[from] move: Trick
+|move|p1a: Garchomp|Spikes|p2a: Rotom
+|-sidestart|p2: memeu teamu|Spikes
+|
+|turn|2
+|
+|move|p1a: Garchomp|Spikes|p2a: Rotom
+|-sidestart|p2: memeu teamu|Spikes
+|move|p2a: Rotom|Thunder Wave|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Garchomp|Spikes|p2a: Corviknight
+|-sidestart|p2: memeu teamu|Spikes
+|
+|turn|4
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Corviknight|Defog|p1a: Heatran
+|-unboost|p1a: Heatran|evasion|1
+|-sideend|p2: memeu teamu|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|turn|5
+|
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|84/100
+|-activate|p2a: Skeledirge|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Skeledirge|90/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|77/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Heatran|Earth Power|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|turn|7
+|
+|move|p2a: Rotom|Volt Switch|p1a: Heatran
+|-damage|p1a: Heatran|82/100
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] Volt Switch
+|move|p1a: Heatran|Magma Storm|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|64/100
+|-activate|p2a: Samurott|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|88/100|[from] item: Leftovers
+|-damage|p2a: Samurott|51/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|8
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Samurott|Razor Shell|p1a: Garchomp
+|-damage|p1a: Garchomp|39/100
+|-unboost|p1a: Garchomp|def|1
+|-damage|p2a: Samurott|39/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-end|p2a: Samurott|Magma Storm|[partiallytrapped]|[silent]
+|turn|9
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|turn|10
+|
+|move|p1a: Meowscarada|U-turn|p2a: Corviknight
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|
+|switch|p1a: Heatran|Heatran, M|88/100|[from] U-turn
+|move|p2a: Corviknight|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|84/100
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|39/100|[from] U-turn
+|
+|-heal|p1a: Heatran|90/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Garchomp|Garchomp, F|39/100
+|move|p2a: Samurott|Razor Shell|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Samurott|26/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|12
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Urshifu|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|81/100
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, M|95/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Corviknight|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|97/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Great Tusk|Body Press|p2a: Rotom
+|-damage|p2a: Rotom|55/100
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Rotom
+|move|p2a: Rotom|Hydro Pump|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|16
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Urshifu|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|76/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|turn|17
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|69/100
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|61/100
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|54/100
+|-hitcount|p2a: Amoonguss|3
+|move|p2a: Amoonguss|Spore|p1a: Urshifu
+|-status|p1a: Urshifu|slp|[from] move: Spore
+|
+|turn|18
+|
+|switch|p1a: Heatran|Heatran, M|90/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|86/100
+|-heal|p2a: Amoonguss|55/100|[from] drain|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|92/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Skeledirge|Skeledirge, F|77/100
+|move|p1a: Heatran|Magma Storm|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|59/100
+|-activate|p2a: Skeledirge|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|99/100|[from] item: Leftovers
+|-heal|p2a: Skeledirge|65/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|53/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|20
+|
+|switch|p2a: Rotom|Rotom-Wash|55/100
+|move|p1a: Heatran|Earth Power|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|41/100
+|move|p1a: Heatran|Magma Storm|p2a: Rotom|[miss]
+|-miss|p1a: Heatran|p2a: Rotom
+|
+|-heal|p1a: Heatran|47/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-crit|p1a: Meowscarada
+|-damage|p1a: Meowscarada|51/100
+|
+|turn|23
+|
+|switch|p2a: Amoonguss|Amoonguss, M|88/100
+|move|p1a: Meowscarada|U-turn|p2a: Amoonguss
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p2a: Amoonguss|61/100
+|-damage|p1a: Meowscarada|35/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|switch|p1a: Basculegion|Basculegion-F, F, shiny|100/100|[from] U-turn
+|
+|turn|24
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Basculegion|Agility|p1a: Basculegion
+|-boost|p1a: Basculegion|spe|2
+|
+|turn|25
+|
+|move|p1a: Basculegion|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, M|94/100
+|turn|26
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|51/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|51/100
+|-heal|p2a: Amoonguss|74/100|[from] drain|[of] p1a: Basculegion
+|
+|turn|27
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|30/100
+|-unboost|p2a: Amoonguss|spd|1
+|move|p2a: Amoonguss|Giga Drain|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|3/100
+|-heal|p2a: Amoonguss|52/100|[from] drain|[of] p1a: Basculegion
+|-enditem|p1a: Basculegion|Petaya Berry|[eat]
+|-boost|p1a: Basculegion|spa|1|[from] item: Petaya Berry
+|
+|turn|28
+|
+|switch|p2a: Corviknight|Corviknight, M|96/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Basculegion|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|
+|-heal|p2a: Corviknight|28/100|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Basculegion|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|26/100
+|turn|30
+|
+|move|p2a: Samurott|Aqua Jet|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100 slp
+|turn|31
+|
+|switch|p2a: Amoonguss|Amoonguss, M|86/100
+|cant|p1a: Urshifu|slp
+|
+|turn|32
+|
+|-curestatus|p1a: Urshifu|slp|[msg]
+|move|p1a: Urshifu|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|68/100
+|
+|switch|p1a: Heatran|Heatran, M|47/100|[from] U-turn
+|move|p2a: Amoonguss|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|43/100
+|-heal|p2a: Amoonguss|70/100|[from] drain|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|49/100|[from] item: Leftovers
+|turn|33
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|55/100
+|
+|turn|34
+|
+|move|p1a: Urshifu|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|35
+|
+|-terastallize|p2a: Amoonguss|Water
+|move|p1a: Urshifu|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|83/100
+|
+|switch|p1a: Meowscarada|Meowscarada, F|35/100|[from] U-turn
+|move|p2a: Amoonguss|Giga Drain|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-crit|p1a: Meowscarada
+|-damage|p1a: Meowscarada|10/100
+|-heal|p2a: Amoonguss|91/100|[from] drain|[of] p1a: Meowscarada
+|
+|turn|36
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|26/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Samurott
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Skeledirge|Skeledirge, F|53/100
+|turn|37
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100
+|
+|turn|38
+|
+|switch|p2a: Amoonguss|Amoonguss, M, tera:Water|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|92/100
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|85/100
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|77/100
+|-hitcount|p2a: Amoonguss|3
+|
+|turn|39
+|
+|move|p1a: Urshifu|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|59/100
+|
+|switch|p1a: Heatran|Heatran, M|49/100|[from] U-turn
+|move|p2a: Amoonguss|Giga Drain|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|45/100
+|-heal|p2a: Amoonguss|61/100|[from] drain|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|51/100|[from] item: Leftovers
+|turn|40
+|
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Skeledirge|[miss]
+|-miss|p1a: Heatran|p2a: Skeledirge
+|
+|-heal|p1a: Heatran|57/100|[from] item: Leftovers
+|turn|41
+|
+|-terastallize|p1a: Heatran|Flying
+|move|p1a: Heatran|Magma Storm|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|85/100
+|-activate|p2a: Skeledirge|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Skeledirge|Hex|p1a: Heatran
+|-damage|p1a: Heatran|40/100
+|
+|-heal|p1a: Heatran|46/100|[from] item: Leftovers
+|-heal|p2a: Skeledirge|91/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|78/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|42
+|
+|move|p1a: Heatran|Earth Power|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|39/100
+|move|p2a: Skeledirge|Hex|p1a: Heatran
+|-damage|p1a: Heatran|27/100
+|
+|-heal|p1a: Heatran|33/100|[from] item: Leftovers
+|-heal|p2a: Skeledirge|45/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|33/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|43
+|
+|switch|p2a: Amoonguss|Amoonguss, M, tera:Water|94/100
+|move|p1a: Heatran|Earth Power|p2a: Amoonguss
+|-damage|p2a: Amoonguss|70/100
+|
+|-heal|p1a: Heatran|39/100|[from] item: Leftovers
+|turn|44
+|
+|move|p1a: Heatran|Magma Storm|p2a: Amoonguss|[miss]
+|-miss|p1a: Heatran|p2a: Amoonguss
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Heatran
+|-damage|p1a: Heatran|18/100
+|
+|-heal|p1a: Heatran|24/100|[from] item: Leftovers
+|turn|45
+|
+|move|p1a: Heatran|Magma Storm|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|52/100
+|-activate|p2a: Amoonguss|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Heatran
+|-damage|p1a: Heatran|6/100
+|-status|p1a: Heatran|psn
+|
+|-heal|p1a: Heatran|13/100 psn|[from] item: Leftovers
+|-damage|p1a: Heatran|0 fnt|[from] psn
+|faint|p1a: Heatran
+|-end|p2a: Amoonguss|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Meowscarada|Meowscarada, F|10/100
+|turn|46
+|
+|switch|p2a: Skeledirge|Skeledirge, F|33/100
+|move|p1a: Meowscarada|Knock Off|p2a: Skeledirge
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|-enditem|p2a: Skeledirge|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, M, tera:Water|85/100
+|turn|47
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Amoonguss|Giga Drain|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|35/100
+|-heal|p2a: Amoonguss|100/100|[from] drain|[of] p1a: Urshifu
+|
+|turn|48
+|
+|move|p1a: Urshifu|Close Combat|p2a: Amoonguss
+|-damage|p2a: Amoonguss|48/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2a: Amoonguss|Giga Drain|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-heal|p2a: Amoonguss|62/100|[from] drain|[of] p1a: Urshifu
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Meowscarada|Meowscarada, F|10/100
+|turn|49
+|
+|move|p1a: Meowscarada|Flower Trick|p2a: Amoonguss
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|win|donkkut

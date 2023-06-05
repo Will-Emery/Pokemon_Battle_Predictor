@@ -1,0 +1,211 @@
+|poke|p1|Ditto|
+|poke|p1|Drednaw, F|
+|poke|p1|Ceruledge, M|
+|poke|p1|Regidrago|
+|poke|p1|Gholdengo|
+|poke|p1|Amoonguss, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: samuelred21|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Great Tusk
+|-status|p2a: Great Tusk|slp|[from] move: Spore
+|
+|turn|2
+|
+|cant|p2a: Great Tusk|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|16/100 slp
+|
+|-heal|p2a: Great Tusk|22/100 slp|[from] item: Leftovers
+|turn|3
+|
+|cant|p2a: Great Tusk|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|4
+|
+|move|p2a: Volcanion|Substitute|p2a: Volcanion
+|-start|p2a: Volcanion|Substitute
+|-damage|p2a: Volcanion|75/100
+|move|p1a: Amoonguss|Spore||[still]
+|-fail|p1a: Amoonguss
+|
+|turn|5
+|
+|move|p2a: Volcanion|Flamethrower|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|3/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Volcanion
+|-end|p2a: Volcanion|Substitute
+|
+|-heal|p1a: Amoonguss|10/100|[from] item: Black Sludge
+|turn|6
+|
+|move|p2a: Volcanion|Flamethrower|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|
+|switch|p1a: Drednaw|Drednaw, F|100/100
+|-damage|p1a: Drednaw|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Drednaw|Shell Smash|p1a: Drednaw
+|-unboost|p1a: Drednaw|def|1
+|-unboost|p1a: Drednaw|spd|1
+|-boost|p1a: Drednaw|atk|2
+|-boost|p1a: Drednaw|spa|2
+|-boost|p1a: Drednaw|spe|2
+|-enditem|p1a: Drednaw|White Herb
+|-clearnegativeboost|p1a: Drednaw|[silent]
+|move|p2a: Volcanion|Sludge Bomb|p1a: Drednaw
+|-resisted|p1a: Drednaw
+|-damage|p1a: Drednaw|63/100
+|
+|turn|8
+|
+|move|p1a: Drednaw|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|9
+|
+|move|p2a: Enamorus|Earth Power|p1a: Drednaw
+|-supereffective|p1a: Drednaw
+|-damage|p1a: Drednaw|0 fnt
+|faint|p1a: Drednaw
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|turn|10
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|move|p1a: Gholdengo|Make It Rain|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|11
+|
+|move|p2a: Enamorus|Mystical Fire|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|35/100
+|-unboost|p1a: Gholdengo|spa|1
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Make It Rain|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|5/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|turn|12
+|
+|move|p2a: Enamorus|Mystical Fire|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|-damage|p1a: Ceruledge|76/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|14
+|
+|move|p2a: Zamazenta|Crunch|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|8/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|turn|15
+|
+|move|p1a: Ceruledge|Bitter Blade|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|27/100
+|-heal|p1a: Ceruledge|50/100|[from] drain|[of] p2a: Zamazenta
+|move|p2a: Zamazenta|Crunch|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|
+|switch|p1a: Regidrago|Regidrago|100/100
+|-damage|p1a: Regidrago|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Zamazenta|Body Press|p1a: Regidrago
+|-damage|p1a: Regidrago|5/100
+|move|p1a: Regidrago|Dragon Dance|p1a: Regidrago
+|-boost|p1a: Regidrago|atk|1
+|-boost|p1a: Regidrago|spe|1
+|
+|turn|17
+|
+|move|p1a: Regidrago|Outrage|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Regidrago|0 fnt|[from] item: Life Orb
+|faint|p1a: Regidrago
+|
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Thundurus|[from] ability: Imposter
+|turn|18
+|
+|-terastallize|p2a: Thundurus|Water
+|move|p1a: Ditto|Nasty Plot|p1a: Ditto
+|-boost|p1a: Ditto|spa|2
+|move|p2a: Thundurus|Tera Blast|p1a: Ditto
+|-damage|p1a: Ditto|26/100
+|
+|-heal|p1a: Ditto|32/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Thundurus|Tera Blast|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|SchwuchtelSchlepp

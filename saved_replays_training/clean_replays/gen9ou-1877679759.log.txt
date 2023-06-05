@@ -1,0 +1,140 @@
+|poke|p1|Iron Moth|
+|poke|p1|Walking Wake|
+|poke|p1|Slowking, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Scizor, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Regidrago|
+|poke|p2|Kingambit, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Lilligant-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: lil guy|Clodsire, M|100/100
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|1
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: lil guy|Toxic|p2a: Samurott
+|-status|p2a: Samurott|tox
+|
+|-damage|p2a: Samurott|94/100 tox|[from] psn
+|turn|2
+|
+|move|p2a: Samurott|Encore|p1a: lil guy
+|-start|p1a: lil guy|Encore
+|move|p1a: lil guy|Toxic|p2a: Samurott
+|-fail|p2a: Samurott|tox
+|
+|-damage|p2a: Samurott|82/100 tox|[from] psn
+|turn|3
+|
+|switch|p1a: Sappho|Scizor, F|100/100
+|move|p2a: Samurott|Aqua Cutter|p1a: Sappho
+|-damage|p1a: Sappho|33/100
+|
+|-damage|p2a: Samurott|63/100 tox|[from] psn
+|turn|4
+|
+|move|p2a: Samurott|Aqua Cutter|p1a: Sappho
+|-damage|p1a: Sappho|0 fnt
+|faint|p1a: Sappho
+|
+|-damage|p2a: Samurott|38/100 tox|[from] psn
+|
+|switch|p1a: very large ryan|Iron Moth|100/100
+|-enditem|p1a: very large ryan|Booster Energy
+|-activate|p1a: very large ryan|ability: Quark Drive|[fromitem]
+|-start|p1a: very large ryan|quarkdrivespa
+|turn|5
+|
+|move|p1a: very large ryan|Energy Ball|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|6
+|
+|move|p2a: Regidrago|Earth Power|p1a: very large ryan
+|-supereffective|p1a: very large ryan
+|-damage|p1a: very large ryan|0 fnt
+|faint|p1a: very large ryan
+|-end|p1a: very large ryan|Quark Drive|[silent]
+|
+|
+|switch|p1a: king salmon|Slowking, M|100/100
+|turn|7
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: king salmon|Nasty Plot|p1a: king salmon
+|-boost|p1a: king salmon|spa|2
+|
+|turn|8
+|
+|-terastallize|p1a: king salmon|Fairy
+|move|p2a: Thundurus|Thunderbolt|p1a: king salmon
+|-damage|p1a: king salmon|50/100
+|-damage|p2a: Thundurus|91/100|[from] item: Life Orb
+|move|p1a: king salmon|Ice Beam|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-heal|p1a: king salmon|56/100|[from] item: Leftovers
+|
+|switch|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|9
+|
+|switch|p1a: juicy james|Corviknight, M, shiny|100/100
+|-ability|p1a: juicy james|Pressure
+|move|p2a: Kingambit|Iron Head|p1a: juicy james
+|-resisted|p1a: juicy james
+|-damage|p1a: juicy james|74/100
+|
+|-heal|p1a: juicy james|80/100|[from] item: Leftovers
+|turn|10
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|move|p1a: juicy james|Iron Defense|p1a: juicy james
+|-boost|p1a: juicy james|def|2
+|
+|-heal|p1a: juicy james|86/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Zapdos|U-turn|p1a: juicy james
+|-resisted|p1a: juicy james
+|-damage|p1a: juicy james|84/100
+|
+|switch|p2a: Regidrago|Regidrago|100/100|[from] U-turn
+|move|p1a: juicy james|Iron Defense|p1a: juicy james
+|-boost|p1a: juicy james|def|2
+|
+|-heal|p1a: juicy james|90/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Regidrago|Dragon Energy|p1a: juicy james
+|-resisted|p1a: juicy james
+|-damage|p1a: juicy james|47/100
+|move|p1a: juicy james|Body Press|p2a: Regidrago
+|-damage|p2a: Regidrago|23/100
+|
+|-heal|p1a: juicy james|53/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: juicy james|Body Press|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-heal|p1a: juicy james|60/100|[from] item: Leftovers
+|-message|Big man Lukas forfeited.
+|
+|win|MegChairleg

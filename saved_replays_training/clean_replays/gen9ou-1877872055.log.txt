@@ -1,0 +1,123 @@
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Walking Wake|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Cresselia, F|
+|poke|p2|Tauros-Paldea-Aqua, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Blissey, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Amoonguss, F|
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Blissey|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: EtherSword|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|move|p1a: Thundurus|Focus Blast|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|51/100
+|-unboost|p2a: Blissey|spd|1
+|move|p2a: Blissey|Seismic Toss|p1a: Thundurus
+|-damage|p1a: Thundurus|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Thundurus|Focus Blast|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|move|p2a: Clodsire|Toxic|p1a: Sneasler
+|-immune|p1a: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|switch|p2a: Clodsire|Clodsire, M|83/100
+|move|p1a: Sneasler|Acrobatics|p2a: Clodsire
+|-damage|p2a: Clodsire|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Sneasler|Acrobatics|p2a: Cresselia
+|-damage|p2a: Cresselia|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Acrobatics|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|-weather|none
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|9
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Alomomola|Whirlpool|p1a: Sneasler
+|-damage|p1a: Sneasler|86/100
+|-activate|p1a: Sneasler|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Sneasler|74/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|10
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Sneasler|Dire Claw|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-damage|p1a: Sneasler|62/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|11
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Alomomola
+|-damage|p2a: Alomomola|8/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p1a: Sneasler|49/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|12
+|
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|-heal|p2a: Alomomola|58/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Sneasler|37/100|[from] move: Whirlpool|[partiallytrapped]
+|turn|13
+|-message|carnji forfeited.
+|
+|win|EtherSword

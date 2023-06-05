@@ -1,0 +1,578 @@
+|poke|p1|Magearna|
+|poke|p1|Gholdengo|
+|poke|p1|Garganacl, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Amoonguss, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Skeledirge, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garganacl|atk|1
+|turn|1
+|
+|move|p1a: Landorus|Taunt|p2a: Garganacl
+|-start|p2a: Garganacl|move: Taunt
+|cant|p2a: Garganacl|move: Taunt|Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Landorus|U-turn|p2a: Garganacl
+|-damage|p2a: Garganacl|85/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] U-turn
+|move|p2a: Garganacl|Salt Cure|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|97/100
+|-start|p1a: Magearna|Salt Cure
+|
+|-heal|p1a: Magearna|100/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|92/100|[from] item: Leftovers
+|-damage|p1a: Magearna|75/100|[from] Salt Cure
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garganacl|atk|1
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|
+|turn|4
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Landorus|Taunt|p2a: Amoonguss
+|-start|p2a: Amoonguss|move: Taunt
+|
+|turn|5
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Amoonguss|Foul Play|p1a: Volcarona
+|-damage|p1a: Volcarona|89/100
+|-status|p2a: Amoonguss|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|
+|-damage|p2a: Amoonguss|94/100 brn|[from] brn
+|turn|6
+|
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|84/100
+|-boost|p1a: Volcarona|spa|1
+|
+|-heal|p2a: Skeledirge|90/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|89/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p2a: Skeledirge|96/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|95/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Garganacl|Garganacl, M|92/100
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|76/100
+|-start|p2a: Garganacl|Salt Cure
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|83/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|70/100|[from] Salt Cure
+|turn|9
+|
+|move|p2a: Garganacl|Stealth Rock|p1a: Garganacl
+|-sidestart|p1: ianlazerbeem|move: Stealth Rock
+|move|p1a: Garganacl|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|37/100
+|
+|-heal|p2a: Garganacl|43/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|31/100|[from] Salt Cure
+|turn|10
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100 brn
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|
+|-damage|p2a: Amoonguss|94/100 brn|[from] brn
+|turn|11
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|
+|turn|12
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|62/100
+|-damage|p2a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|90/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|54/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Landorus|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: skytomorrow|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|96/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|47/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: skytomorrow|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from] U-turn
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Great Tusk|97/100|[from] item: Leftovers
+|turn|15
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Amoonguss|Amoonguss, M|100/100 brn
+|move|p1a: Urshifu|Surging Strikes|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|89/100 brn
+|-damage|p1a: Urshifu|78/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|78/100 brn
+|-damage|p1a: Urshifu|61/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|66/100 brn
+|-damage|p1a: Urshifu|45/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-hitcount|p2a: Amoonguss|3
+|
+|-damage|p2a: Amoonguss|60/100 brn|[from] brn
+|turn|16
+|
+|switch|p1a: Gholdengo|Gholdengo|94/100
+|-damage|p1a: Gholdengo|88/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Amoonguss|Spore|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|-damage|p2a: Amoonguss|54/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Amoonguss|Foul Play|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|79/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-damage|p2a: Amoonguss|48/100 brn|[from] brn
+|turn|18
+|
+|switch|p2a: Garganacl|Garganacl, M|31/100
+|move|p1a: Gholdengo|Thunder Wave|p2a: Garganacl
+|-immune|p2a: Garganacl|[from] ability: Purifying Salt
+|
+|-heal|p2a: Garganacl|37/100|[from] item: Leftovers
+|turn|19
+|
+|-terastallize|p1a: Gholdengo|Flying
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-heal|p2a: Garganacl|43/100|[from] item: Leftovers
+|turn|20
+|
+|-terastallize|p2a: Garganacl|Water
+|move|p1a: Gholdengo|Hex|p2a: Garganacl
+|-damage|p2a: Garganacl|16/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|59/100
+|-start|p1a: Gholdengo|Salt Cure
+|
+|-heal|p2a: Garganacl|22/100|[from] item: Leftovers
+|-damage|p1a: Gholdengo|47/100|[from] Salt Cure
+|turn|21
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Gholdengo|Hex|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|29/100|[from] item: Leftovers
+|-damage|p1a: Gholdengo|35/100|[from] Salt Cure
+|turn|22
+|
+|move|p1a: Gholdengo|Hex|p2a: Garganacl
+|-damage|p2a: Garganacl|2/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|52/100
+|
+|-heal|p2a: Garganacl|59/100|[from] item: Leftovers
+|-damage|p1a: Gholdengo|22/100|[from] Salt Cure
+|turn|23
+|
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|72/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-damage|p1a: Gholdengo|60/100|[from] Salt Cure
+|turn|24
+|
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Garganacl|Salt Cure|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|39/100
+|
+|-damage|p1a: Gholdengo|27/100|[from] Salt Cure
+|turn|25
+|
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|77/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|56/100
+|
+|-damage|p1a: Gholdengo|43/100|[from] Salt Cure
+|turn|26
+|
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|93/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|76/100
+|
+|-damage|p1a: Gholdengo|63/100|[from] Salt Cure
+|turn|27
+|
+|move|p1a: Gholdengo|Hex|p2a: Garganacl
+|-damage|p2a: Garganacl|61/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|34/100
+|
+|-heal|p2a: Garganacl|67/100|[from] item: Leftovers
+|-damage|p1a: Gholdengo|22/100|[from] Salt Cure
+|turn|28
+|
+|switch|p1a: Magearna|Magearna|75/100
+|-damage|p1a: Magearna|69/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|64/100
+|-start|p1a: Magearna|Salt Cure
+|
+|-heal|p1a: Magearna|70/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|73/100|[from] item: Leftovers
+|-damage|p1a: Magearna|45/100|[from] Salt Cure
+|turn|29
+|
+|switch|p2a: Skeledirge|Skeledirge, M|96/100
+|move|p1a: Magearna|Volt Switch|p2a: Skeledirge
+|-damage|p2a: Skeledirge|71/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|47/100|[from] Volt Switch
+|-damage|p1a: Landorus|35/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skeledirge|atk|1
+|
+|-heal|p2a: Skeledirge|77/100|[from] item: Leftovers
+|turn|30
+|
+|switch|p2a: Great Tusk|Great Tusk|97/100
+|move|p1a: Landorus|Taunt|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Taunt
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|24/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|95/100
+|
+|switch|p1a: Magearna|Magearna|45/100|[from] U-turn
+|-damage|p1a: Magearna|39/100|[from] Stealth Rock
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-heal|p1a: Magearna|45/100|[from] item: Leftovers
+|turn|32
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|-end|p2a: Great Tusk|move: Taunt
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|45/100
+|-damage|p1a: Urshifu|39/100|[from] Stealth Rock
+|turn|33
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Amoonguss|Amoonguss, M|81/100 brn
+|move|p1a: Urshifu|Aqua Jet|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|70/100 brn
+|-damage|p1a: Urshifu|22/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|-damage|p2a: Amoonguss|64/100 brn|[from] brn
+|turn|34
+|
+|switch|p1a: Gholdengo|Gholdengo, tera:Flying|22/100
+|-damage|p1a: Gholdengo|0 fnt|[from] Stealth Rock
+|faint|p1a: Gholdengo
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|89/100
+|turn|35
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Skeledirge|Skeledirge, M|77/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Skeledirge|83/100|[from] item: Leftovers
+|turn|36
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|22/100
+|-damage|p1a: Urshifu|16/100|[from] Stealth Rock
+|move|p2a: Skeledirge|Torch Song|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Urshifu
+|
+|-heal|p2a: Skeledirge|89/100|[from] item: Leftovers
+|
+|switch|p1a: Landorus|Landorus-Therian, M|24/100
+|-damage|p1a: Landorus|11/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Skeledirge|atk|1
+|turn|37
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|78/100
+|
+|-heal|p2a: Great Tusk|84/100|[from] item: Leftovers
+|turn|38
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|1/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|61/100
+|
+|-heal|p2a: Great Tusk|67/100|[from] item: Leftovers
+|turn|39
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Great Tusk|73/100|[from] item: Leftovers
+|
+|switch|p1a: Volcarona|Volcarona, M|89/100
+|turn|40
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Skeledirge|Skeledirge, M|89/100
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Skeledirge|96/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|94/100|[from] item: Leftovers
+|turn|41
+|
+|switch|p2a: Garganacl|Garganacl, M, tera:Water|73/100
+|move|p1a: Garganacl|Salt Cure|p2a: Garganacl
+|-damage|p2a: Garganacl|64/100
+|-start|p2a: Garganacl|Salt Cure
+|
+|-heal|p2a: Garganacl|70/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|45/100|[from] Salt Cure
+|turn|42
+|
+|move|p2a: Garganacl|Salt Cure|p1a: Garganacl
+|-damage|p1a: Garganacl|93/100
+|-start|p1a: Garganacl|Salt Cure
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|52/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|99/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|27/100|[from] Salt Cure
+|-damage|p1a: Garganacl|87/100|[from] Salt Cure
+|turn|43
+|
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|77/100
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|83/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|93/100|[from] item: Leftovers
+|-damage|p2a: Garganacl|58/100|[from] Salt Cure
+|-damage|p1a: Garganacl|81/100|[from] Salt Cure
+|turn|44
+|
+|switch|p2a: Amoonguss|Amoonguss, M|97/100 brn
+|move|p1a: Garganacl|Salt Cure|p2a: Amoonguss
+|-damage|p2a: Amoonguss|75/100 brn
+|-start|p2a: Amoonguss|Salt Cure
+|
+|-heal|p1a: Garganacl|87/100|[from] item: Leftovers
+|-damage|p2a: Amoonguss|69/100 brn|[from] brn
+|-damage|p2a: Amoonguss|56/100 brn|[from] Salt Cure
+|-damage|p1a: Garganacl|75/100|[from] Salt Cure
+|turn|45
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|37/100
+|-heal|p2a: Amoonguss|74/100 brn|[from] drain|[of] p1a: Garganacl
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|87/100
+|
+|-heal|p1a: Garganacl|93/100|[from] item: Leftovers
+|-damage|p2a: Amoonguss|68/100 brn|[from] brn
+|-damage|p2a: Amoonguss|56/100 brn|[from] Salt Cure
+|-damage|p1a: Garganacl|81/100|[from] Salt Cure
+|turn|46
+|
+|move|p2a: Amoonguss|Giga Drain|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|41/100
+|-heal|p2a: Amoonguss|74/100 brn|[from] drain|[of] p1a: Garganacl
+|move|p1a: Garganacl|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|36/100 brn
+|
+|-heal|p1a: Garganacl|47/100|[from] item: Leftovers
+|-damage|p2a: Amoonguss|30/100 brn|[from] brn
+|-damage|p2a: Amoonguss|18/100 brn|[from] Salt Cure
+|-damage|p1a: Garganacl|34/100|[from] Salt Cure
+|turn|47
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|84/100
+|
+|-heal|p1a: Garganacl|91/100|[from] item: Leftovers
+|-damage|p1a: Garganacl|78/100|[from] Salt Cure
+|turn|48
+|
+|switch|p1a: Volcarona|Volcarona, M|89/100
+|move|p2a: Dragonite|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|51/100
+|
+|turn|49
+|
+|switch|p2a: Skeledirge|Skeledirge, M|96/100
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|
+|-heal|p2a: Skeledirge|100/100|[from] item: Leftovers
+|turn|50
+|
+|switch|p1a: Garganacl|Garganacl, F|78/100
+|-damage|p1a: Garganacl|66/100|[from] Stealth Rock
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|54/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Garganacl|60/100|[from] item: Leftovers
+|turn|51
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|34/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Garganacl|Salt Cure|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|83/100
+|-start|p2a: Skeledirge|Salt Cure
+|
+|-heal|p2a: Skeledirge|89/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|40/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|77/100|[from] Salt Cure
+|turn|52
+|
+|switch|p2a: Great Tusk|Great Tusk|73/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|90/100
+|
+|-heal|p2a: Great Tusk|79/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|96/100|[from] item: Leftovers
+|turn|53
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|43/100
+|move|p1a: Garganacl|Salt Cure|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|78/100
+|-start|p2a: Great Tusk|Salt Cure
+|
+|-heal|p2a: Great Tusk|84/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|49/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|71/100|[from] Salt Cure
+|turn|54
+|
+|switch|p1a: Volcarona|Volcarona, M|51/100
+|move|p2a: Great Tusk|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-heal|p2a: Great Tusk|77/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|65/100|[from] Salt Cure
+|
+|switch|p1a: Garganacl|Garganacl, F|49/100
+|-damage|p1a: Garganacl|36/100|[from] Stealth Rock
+|turn|55
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|win|skytomorrow

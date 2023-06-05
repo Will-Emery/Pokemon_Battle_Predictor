@@ -1,0 +1,248 @@
+|poke|p1|Dragapult, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Cinderace, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Rotom-Wash|
+|poke|p1|Gholdengo|
+|poke|p2|Sneasler, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Zapdos|
+|poke|p2|Glimmora, F|
+|poke|p2|Gholdengo|
+|poke|p2|Arcanine-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|move|p2a: Glimmora|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: IC1|move: Stealth Rock
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Glimmora
+|-sidestart|p2: Nyapoti|move: Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Glimmora|Mortal Spin|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|99/100
+|-status|p1a: Ting-Lu|psn
+|-sideend|p2: Nyapoti|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|move|p1a: Ting-Lu|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: IC1|move: Toxic Spikes
+|
+|-heal|p1a: Ting-Lu|100/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|88/100 psn|[from] psn
+|turn|3
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-heal|p1a: Ting-Lu|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|82/100 psn|[from] psn
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|4
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-heal|p1a: Ting-Lu|88/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|76/100 psn|[from] psn
+|turn|5
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|65/100 psn
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: Nyapoti|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|72/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|59/100 psn|[from] psn
+|turn|6
+|
+|move|p2a: Zapdos|Hurricane|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|40/100 psn
+|-start|p1a: Ting-Lu|confusion
+|-activate|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Ruination|p2a: Zapdos
+|-damage|p2a: Zapdos|50/100
+|
+|-heal|p1a: Ting-Lu|46/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|33/100 psn|[from] psn
+|turn|7
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|-activate|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Whirlwind|p2a: Zapdos
+|drag|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|
+|-heal|p1a: Ting-Lu|40/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|27/100 psn|[from] psn
+|turn|8
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|18/100 psn
+|-end|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Ruination|p2a: Gholdengo
+|-damage|p2a: Gholdengo|47/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-heal|p1a: Ting-Lu|24/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|12/100 psn|[from] psn
+|turn|9
+|
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|98/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|7/100
+|
+|-heal|p1a: Ting-Lu|18/100 psn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|5/100 psn|[from] psn
+|turn|10
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|11
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Gholdengo|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|46/100
+|
+|turn|12
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|-terastallize|p2a: Dragapult|Fairy
+|move|p2a: Dragapult|Draco Meteor|p1a: Cinderace|[miss]
+|-miss|p2a: Dragapult|p1a: Cinderace
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragapult
+|-damage|p2a: Dragapult|37/100
+|
+|turn|14
+|
+|move|p2a: Dragapult|Hex|p1a: Cinderace
+|-damage|p1a: Cinderace|12/100
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Dragapult|[miss]
+|-miss|p1a: Cinderace|p2a: Dragapult
+|
+|turn|15
+|
+|move|p2a: Dragapult|Hex|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Glimmora|Glimmora, F|1/100
+|-damage|p2a: Glimmora|0 fnt|[from] Stealth Rock
+|-sideend|p2: Nyapoti|move: Toxic Spikes|[of] p2a: Glimmora
+|faint|p2a: Glimmora
+|move|p1a: Rotom|Protect||[still]
+|-fail|p1a: Rotom
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|
+|switch|p2a: Dragapult|Dragapult, F, tera:Fairy|37/100
+|turn|17
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|move|p1a: Rotom|Thunder Wave|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|
+|-heal|p1a: Rotom|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|turn|18
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Dragapult|Hex|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-heal|p1a: Rotom|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|turn|19
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Rotom|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-damage|p2a: Arcanine|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Arcanine|Head Smash|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|36/100
+|-unboost|p2a: Arcanine|spa|1
+|move|p2a: Arcanine|Head Smash|p1a: Iron Valiant|[miss]
+|-miss|p2a: Arcanine|p1a: Iron Valiant
+|
+|turn|22
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|23
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Zapdos
+|-damage|p2a: Zapdos|28/100
+|move|p2a: Zapdos|Volt Switch|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|46/100
+|
+|turn|24
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|IC1

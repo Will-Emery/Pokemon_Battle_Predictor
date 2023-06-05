@@ -1,0 +1,400 @@
+|poke|p1|Meloetta|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Zamazenta-*|
+|poke|p1|Corviknight, M|
+|poke|p2|Umbreon, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Rabsca, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Cinderace, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|1
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from] Volt Switch
+|move|p1a: Samurott|Ceaseless Edge|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|78/100
+|-sidestart|p2: Chill Talis|Spikes
+|
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Urshifu|Surging Strikes|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|88/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|76/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|62/100
+|-hitcount|p1a: Corviknight|3
+|
+|turn|3
+|
+|-terastallize|p2a: Urshifu|Water
+|move|p2a: Urshifu|Surging Strikes|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|44/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|27/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|10/100
+|-hitcount|p1a: Corviknight|3
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|60/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|turn|4
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|40/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|23/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|5/100
+|-hitcount|p1a: Corviknight|3
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|55/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|turn|5
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|36/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|2/100
+|-hitcount|p1a: Corviknight|3
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|52/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|turn|6
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|turn|7
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|1/100
+|move|p2a: Thundurus|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] Volt Switch
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|8
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|turn|9
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|76/100
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Iron Valiant|Moonblast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|move|p1a: Zamazenta|Body Press|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|50/100
+|
+|-heal|p1a: Zamazenta|88/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|move|p2a: Iron Valiant|Moonblast|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|74/100
+|
+|-heal|p1a: Slowking|80/100|[from] item: Black Sludge
+|turn|12
+|
+|move|p2a: Iron Valiant|Psyshock|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Meloetta|Meloetta|100/100|[from] Chilly Reception
+|-damage|p1a: Meloetta|88/100|[from] Spikes
+|
+|-weather|Snow|[upkeep]
+|turn|13
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Meloetta|Calm Mind|p1a: Meloetta
+|-boost|p1a: Meloetta|spa|1
+|-boost|p1a: Meloetta|spd|1
+|
+|-weather|Snow|[upkeep]
+|turn|14
+|
+|switch|p2a: Rabsca|Rabsca, M|100/100
+|move|p1a: Meloetta|Relic Song|p2a: Rabsca
+|-damage|p2a: Rabsca|56/100
+|-formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+|-enditem|p1a: Meloetta|Throat Spray
+|-boost|p1a: Meloetta|spa|1|[from] item: Throat Spray
+|
+|-weather|Snow|[upkeep]
+|turn|15
+|
+|move|p1a: Meloetta|Calm Mind|p1a: Meloetta
+|-boost|p1a: Meloetta|spa|1
+|-boost|p1a: Meloetta|spd|1
+|move|p2a: Rabsca|Psych Up|p1a: Meloetta
+|-copyboost|p2a: Rabsca|p1a: Meloetta|[from] move: Psych Up
+|
+|-weather|Snow|[upkeep]
+|turn|16
+|
+|move|p1a: Meloetta|Relic Song|p2a: Rabsca
+|-damage|p2a: Rabsca|32/100
+|-formechange|p1a: Meloetta|Meloetta|[msg]
+|move|p2a: Rabsca|Stored Power|p1a: Meloetta
+|-resisted|p1a: Meloetta
+|-damage|p1a: Meloetta|66/100
+|
+|-weather|none
+|turn|17
+|
+|move|p1a: Meloetta|Psyshock|p2a: Rabsca
+|-resisted|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|faint|p2a: Rabsca
+|
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|18
+|
+|-terastallize|p1a: Meloetta|Fighting
+|move|p2a: Cinderace|Pyro Ball|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|88/100|[from] Spikes
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|19
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F, tera:Water|78/100
+|turn|20
+|
+|switch|p1a: Slowking|Slowking-Galar, M|83/100
+|-damage|p1a: Slowking|71/100|[from] Spikes
+|move|p2a: Urshifu|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|
+|-heal|p1a: Slowking|49/100|[from] item: Black Sludge
+|turn|21
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|26/100
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F, tera:Water|78/100|[from] Volt Switch
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|76/100
+|
+|-heal|p1a: Slowking|82/100|[from] item: Black Sludge
+|turn|22
+|
+|move|p2a: Urshifu|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|56/100
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Chien-Pao|Chien-Pao|88/100|[from] Chilly Reception
+|-damage|p1a: Chien-Pao|76/100|[from] Spikes
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-weather|Snow|[upkeep]
+|turn|23
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F, tera:Water|78/100
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Urshifu|[miss]
+|-miss|p1a: Chien-Pao|p2a: Urshifu
+|
+|-weather|Snow|[upkeep]
+|turn|24
+|
+|switch|p1a: Slowking|Slowking-Galar, M|89/100
+|-damage|p1a: Slowking|77/100|[from] Spikes
+|move|p2a: Urshifu|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Slowking|56/100|[from] item: Black Sludge
+|turn|25
+|
+|move|p2a: Thundurus|Thunder Wave|p1a: Slowking
+|-status|p1a: Slowking|par
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|100/100 par
+|
+|-weather|Snow|[upkeep]
+|turn|26
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|72/100 par
+|move|p1a: Slowking|Sludge Bomb|p2a: Thundurus
+|-damage|p2a: Thundurus|56/100
+|
+|-weather|none
+|-heal|p1a: Slowking|78/100 par|[from] item: Black Sludge
+|turn|27
+|
+|move|p2a: Thundurus|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|55/100 par
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100|[from] Volt Switch
+|cant|p1a: Slowking|par
+|
+|-heal|p1a: Slowking|61/100 par|[from] item: Black Sludge
+|turn|28
+|
+|move|p2a: Umbreon|Curse|p2a: Umbreon
+|-unboost|p2a: Umbreon|spe|1
+|-boost|p2a: Umbreon|atk|1
+|-boost|p2a: Umbreon|def|1
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|100/100 par
+|
+|turn|29
+|
+|move|p2a: Umbreon|Curse|p2a: Umbreon
+|-unboost|p2a: Umbreon|spe|1
+|-boost|p2a: Umbreon|atk|1
+|-boost|p2a: Umbreon|def|1
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Zamazenta|Zamazenta|88/100|[from] Chilly Reception
+|-damage|p1a: Zamazenta|76/100|[from] Spikes
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|57/100
+|move|p2a: Umbreon|Double Kick|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|-hitcount|p1a: Zamazenta|2
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Zamazenta|63/100|[from] item: Leftovers
+|turn|31
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|56/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Zamazenta|69/100|[from] item: Leftovers
+|turn|32
+|
+|move|p1a: Zamazenta|Body Press|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|8/100
+|move|p2a: Thundurus|Thunderbolt|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Zamazenta|75/100|[from] item: Leftovers
+|turn|33
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F, tera:Water|78/100
+|move|p1a: Zamazenta|Crunch|p2a: Urshifu
+|-damage|p2a: Urshifu|53/100
+|
+|-weather|none
+|-heal|p1a: Zamazenta|81/100|[from] item: Leftovers
+|turn|34
+|
+|move|p2a: Urshifu|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|49/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|55/100|[from] item: Leftovers
+|turn|35
+|
+|move|p2a: Urshifu|Close Combat|p1a: Zamazenta
+|-damage|p1a: Zamazenta|35/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|move|p1a: Zamazenta|Body Press|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-heal|p1a: Zamazenta|41/100|[from] item: Leftovers
+|
+|switch|p2a: Iron Valiant|Iron Valiant|50/100
+|turn|36
+|
+|move|p1a: Zamazenta|Body Press|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Zamazenta|47/100|[from] item: Leftovers
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|8/100
+|turn|37
+|-message|Chill Talis forfeited.
+|
+|win|dune481

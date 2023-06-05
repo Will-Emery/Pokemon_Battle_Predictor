@@ -1,0 +1,394 @@
+|poke|p1|Garganacl, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Magearna|
+|poke|p1|Skeledirge, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragonite, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Dragonite, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Kagami|Toxapex, F, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kagami|atk|1
+|turn|1
+|
+|move|p1a: Landorus|U-turn|p2a: Kagami
+|-resisted|p2a: Kagami
+|-damage|p2a: Kagami|93/100
+|-damage|p1a: Landorus|84/100|[from] item: Rocky Helmet|[of] p2a: Kagami
+|
+|switch|p1a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|move|p2a: Kagami|Toxic Spikes|p1a: Garganacl
+|-sidestart|p1: mophead4eyes|move: Toxic Spikes
+|
+|turn|2
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Kagami
+|-damage|p2a: Kagami|85/100
+|-start|p2a: Kagami|Salt Cure
+|move|p2a: Kagami|Toxic Spikes|p1a: Garganacl
+|-sidestart|p1: mophead4eyes|move: Toxic Spikes
+|
+|-damage|p2a: Kagami|60/100|[from] Salt Cure
+|turn|3
+|
+|switch|p2a: Gaston|Landorus-Therian, M|100/100
+|-ability|p2a: Gaston|Intimidate|boost
+|-unboost|p1a: Garganacl|atk|1
+|move|p1a: Garganacl|Stealth Rock|p2a: Gaston
+|-sidestart|p2: One-Winged Mewtwo|move: Stealth Rock
+|
+|turn|4
+|
+|move|p2a: Gaston|Stealth Rock|p1a: Garganacl
+|-sidestart|p1: mophead4eyes|move: Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Gaston
+|-damage|p2a: Gaston|91/100
+|-start|p2a: Gaston|Salt Cure
+|
+|-damage|p2a: Gaston|79/100|[from] Salt Cure
+|turn|5
+|
+|move|p2a: Gaston|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|50/100
+|move|p1a: Garganacl|Salt Cure|p2a: Gaston
+|-damage|p2a: Gaston|69/100
+|
+|-heal|p1a: Garganacl|56/100|[from] item: Leftovers
+|-damage|p2a: Gaston|57/100|[from] Salt Cure
+|turn|6
+|
+|move|p2a: Gaston|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|44/100
+|
+|switch|p2a: Quelaag|Heatran, F|100/100|[from] U-turn
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|94/100
+|
+|-heal|p1a: Garganacl|99/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Quelaag|Taunt|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Quelaag|Magma Storm|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|80/100
+|-activate|p1a: Garganacl|move: Magma Storm|[of] p2a: Quelaag
+|move|p1a: Garganacl|Salt Cure|p2a: Quelaag
+|-damage|p2a: Quelaag|92/100
+|-start|p2a: Quelaag|Salt Cure
+|
+|-heal|p1a: Garganacl|86/100|[from] item: Leftovers
+|-damage|p2a: Quelaag|68/100|[from] Salt Cure
+|-damage|p1a: Garganacl|74/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|9
+|
+|move|p2a: Quelaag|Taunt|p1a: Garganacl
+|-start|p1a: Garganacl|move: Taunt
+|move|p1a: Garganacl|Salt Cure|p2a: Quelaag
+|-damage|p2a: Quelaag|60/100
+|
+|-heal|p1a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p2a: Quelaag|35/100|[from] Salt Cure
+|-damage|p1a: Garganacl|68/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|10
+|
+|move|p2a: Quelaag|Earth Power|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|23/100
+|move|p1a: Garganacl|Salt Cure|p2a: Quelaag
+|-crit|p2a: Quelaag
+|-damage|p2a: Quelaag|18/100
+|
+|-heal|p1a: Garganacl|29/100|[from] item: Leftovers
+|-damage|p2a: Quelaag|0 fnt|[from] Salt Cure
+|faint|p2a: Quelaag
+|-end|p1a: Garganacl|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p2a: Gaston|Landorus-Therian, M|57/100
+|-ability|p2a: Gaston|Intimidate|boost
+|-unboost|p1a: Garganacl|atk|1
+|turn|11
+|
+|move|p2a: Gaston|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|18/100
+|
+|switch|p2a: Valefar|Gholdengo|100/100|[from] U-turn
+|-damage|p2a: Valefar|94/100|[from] Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Valefar
+|-resisted|p2a: Valefar
+|-damage|p2a: Valefar|90/100
+|-start|p2a: Valefar|Salt Cure
+|
+|-heal|p1a: Garganacl|24/100|[from] item: Leftovers
+|-damage|p2a: Valefar|66/100|[from] Salt Cure
+|-end|p1a: Garganacl|move: Taunt
+|turn|12
+|
+|move|p2a: Valefar|Shadow Ball|p1a: Garganacl
+|-damage|p1a: Garganacl|5/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|55/100
+|
+|-heal|p1a: Garganacl|61/100|[from] item: Leftovers
+|-damage|p2a: Valefar|41/100|[from] Salt Cure
+|turn|13
+|
+|switch|p2a: Gaston|Landorus-Therian, M|57/100
+|-ability|p2a: Gaston|Intimidate|boost
+|-unboost|p1a: Garganacl|atk|1
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-heal|p1a: Garganacl|67/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Gaston|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|15/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|65/100
+|
+|-heal|p1a: Garganacl|71/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Gaston|Earthquake|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|77/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p1a: Landorus|Landorus-Therian, M|84/100
+|-damage|p1a: Landorus|71/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gaston|atk|1
+|move|p2a: Gaston|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|62/100
+|
+|switch|p2a: Kairi|Dragonite, F|100/100|[from] U-turn
+|
+|turn|17
+|
+|move|p1a: Landorus|Stone Edge|p2a: Kairi|[miss]
+|-miss|p1a: Landorus|p2a: Kairi
+|move|p2a: Kairi|Dragon Dance|p2a: Kairi
+|-boost|p2a: Kairi|atk|1
+|-boost|p2a: Kairi|spe|1
+|
+|turn|18
+|
+|move|p1a: Landorus|Stone Edge|p2a: Kairi
+|-supereffective|p2a: Kairi
+|-damage|p2a: Kairi|61/100
+|move|p2a: Kairi|Dragon Dance|p2a: Kairi
+|-boost|p2a: Kairi|atk|1
+|-boost|p2a: Kairi|spe|1
+|
+|turn|19
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|move|p2a: Kairi|Roost|p2a: Kairi
+|-heal|p2a: Kairi|100/100
+|-singleturn|p2a: Kairi|move: Roost
+|
+|turn|20
+|
+|move|p2a: Kairi|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|turn|21
+|
+|switch|p2a: Kagami|Toxapex, F, shiny|93/100
+|-damage|p2a: Kagami|81/100|[from] Stealth Rock
+|move|p1a: Skeledirge|Torch Song|p2a: Kagami
+|-resisted|p2a: Kagami
+|-damage|p2a: Kagami|69/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|turn|22
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Kagami
+|-resisted|p2a: Kagami
+|-damage|p2a: Kagami|52/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Kagami|Haze|p2a: Kagami
+|-clearallboost
+|
+|turn|23
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Kagami
+|-resisted|p2a: Kagami
+|-damage|p2a: Kagami|39/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Kagami|Recover|p2a: Kagami
+|-heal|p2a: Kagami|90/100
+|
+|turn|24
+|
+|move|p1a: Skeledirge|Yawn|p2a: Kagami
+|-start|p2a: Kagami|move: Yawn|[of] p1a: Skeledirge
+|move|p2a: Kagami|Haze|p2a: Kagami
+|-clearallboost
+|
+|turn|25
+|
+|switch|p1a: Garganacl|Garganacl, F|77/100
+|-damage|p1a: Garganacl|65/100|[from] Stealth Rock
+|move|p2a: Kagami|Haze|p2a: Kagami
+|-clearallboost
+|
+|-heal|p1a: Garganacl|71/100|[from] item: Leftovers
+|-end|p2a: Kagami|move: Yawn|[silent]
+|-status|p2a: Kagami|slp
+|turn|26
+|
+|cant|p2a: Kagami|slp
+|move|p1a: Garganacl|Salt Cure|p2a: Kagami
+|-damage|p2a: Kagami|81/100 slp
+|-start|p2a: Kagami|Salt Cure
+|
+|-heal|p1a: Garganacl|77/100|[from] item: Leftovers
+|-damage|p2a: Kagami|56/100 slp|[from] Salt Cure
+|turn|27
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|94/100|[from] Stealth Rock
+|cant|p2a: Kagami|slp
+|
+|-damage|p2a: Kagami|31/100 slp|[from] Salt Cure
+|turn|28
+|
+|switch|p2a: Valefar|Gholdengo|41/100
+|-damage|p2a: Valefar|35/100|[from] Stealth Rock
+|move|p1a: Magearna|Volt Switch|p2a: Valefar
+|-damage|p2a: Valefar|2/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|62/100|[from] Volt Switch
+|-damage|p1a: Landorus|50/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Valefar|atk|1
+|
+|turn|29
+|
+|move|p1a: Landorus|U-turn|p2a: Valefar
+|-resisted|p2a: Valefar
+|-damage|p2a: Valefar|0 fnt
+|faint|p2a: Valefar
+|
+|switch|p1a: Skeledirge|Skeledirge, M|100/100|[from] U-turn
+|
+|
+|switch|p2a: Hanekawa|Chien-Pao|100/100
+|-damage|p2a: Hanekawa|76/100|[from] Stealth Rock
+|-ability|p2a: Hanekawa|Sword of Ruin
+|turn|30
+|
+|move|p2a: Hanekawa|Crunch|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|8/100
+|move|p1a: Skeledirge|Torch Song|p2a: Hanekawa
+|-supereffective|p2a: Hanekawa
+|-damage|p2a: Hanekawa|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Hanekawa
+|
+|
+|switch|p2a: Kairi|Dragonite, F|100/100
+|turn|31
+|
+|switch|p1a: Magearna|Magearna|94/100
+|-damage|p1a: Magearna|88/100|[from] Stealth Rock
+|move|p2a: Kairi|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|27/100
+|
+|turn|32
+|
+|move|p2a: Kairi|Dragon Dance|p2a: Kairi
+|-boost|p2a: Kairi|atk|1
+|-boost|p2a: Kairi|spe|1
+|move|p1a: Magearna|Ice Beam|p2a: Kairi
+|-supereffective|p2a: Kairi
+|-damage|p2a: Kairi|27/100
+|
+|turn|33
+|
+|move|p2a: Kairi|Earthquake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|
+|
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|34
+|
+|switch|p2a: Gaston|Landorus-Therian, M|57/100
+|-ability|p2a: Gaston|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|turn|35
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Gaston|Smack Down|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|83/100
+|-start|p1a: Dragonite|Smack Down
+|
+|turn|36
+|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Gaston|Earthquake|p1a: Dragonite
+|-damage|p1a: Dragonite|31/100
+|
+|turn|37
+|
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Gaston
+|-damage|p2a: Gaston|0 fnt
+|faint|p2a: Gaston
+|
+|
+|switch|p2a: Kagami|Toxapex, F, shiny|65/100 slp
+|-damage|p2a: Kagami|52/100 slp|[from] Stealth Rock
+|turn|38
+|
+|switch|p2a: Kairi|Dragonite, F|27/100
+|move|p1a: Dragonite|Earthquake|p2a: Kairi
+|-immune|p2a: Kairi
+|
+|turn|39
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Kairi
+|-damage|p2a: Kairi|0 fnt
+|faint|p2a: Kairi
+|
+|-message|One-Winged Mewtwo forfeited.
+|
+|win|mophead4eyes

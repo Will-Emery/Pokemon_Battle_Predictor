@@ -1,0 +1,219 @@
+|poke|p1|Cinderace, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Clodsire, M|
+|poke|p1|Garganacl, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Scizor, F|
+|poke|p2|Magearna|
+|poke|p2|Ursaluna, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|58/100
+|
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Scizor|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|58/100
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|-damage|p1a: Scizor|48/100|[from] item: Life Orb
+|
+|-heal|p2a: Rotom|64/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|move|p1a: Scizor|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|-damage|p1a: Scizor|38/100 brn|[from] item: Life Orb
+|
+|switch|p1a: Clodsire|Clodsire, M|100/100|[from] U-turn
+|
+|-heal|p2a: Rotom|51/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Clodsire|Sludge Bomb|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|68/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|turn|5
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Clodsire
+|-damage|p1a: Clodsire|2/100
+|move|p1a: Clodsire|Toxic|p2a: Chien-Pao
+|-status|p2a: Chien-Pao|tox
+|
+|-heal|p1a: Clodsire|8/100|[from] item: Black Sludge
+|-damage|p2a: Chien-Pao|95/100 tox|[from] psn
+|turn|6
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-damage|p2a: Chien-Pao|83/100 tox|[from] psn
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Hatterene|Hatterene, F|68/100
+|turn|8
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|move|p2a: Hatterene|Nuzzle|p1a: Cinderace
+|-damage|p1a: Cinderace|95/100
+|-status|p1a: Cinderace|par
+|
+|turn|9
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|51/100
+|turn|10
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Cinderace|[miss]
+|-miss|p2a: Rotom|p1a: Cinderace
+|move|p1a: Cinderace|U-turn|p2a: Rotom
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Rotom|27/100
+|
+|switch|p1a: Scizor|Scizor, F|38/100 brn|[from] U-turn
+|
+|-heal|p2a: Rotom|33/100|[from] item: Leftovers
+|-damage|p1a: Scizor|32/100 brn|[from] brn
+|turn|11
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Rotom|40/100|[from] item: Leftovers
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|12
+|
+|move|p1a: Meowscarada|Knock Off|p2a: Rotom
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Rotom|0 fnt
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Rotom
+|
+|
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|13
+|
+|switch|p1a: Cinderace|Cinderace, M|95/100 par
+|move|p2a: Meowscarada|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|39/100 par
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|
+|turn|14
+|
+|move|p2a: Meowscarada|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|1/100 par
+|move|p1a: Cinderace|Pyro Ball|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-enditem|p2a: Meowscarada|Focus Sash
+|-damage|p2a: Meowscarada|1/100
+|
+|turn|15
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Meowscarada
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|16
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|31/100
+|-status|p2a: Magearna|brn
+|-enditem|p2a: Magearna|Sitrus Berry|[eat]
+|-heal|p2a: Magearna|56/100 brn|[from] item: Sitrus Berry
+|move|p2a: Magearna|Trick Room|p2a: Magearna
+|-fieldstart|move: Trick Room|[of] p2a: Magearna
+|
+|-damage|p2a: Magearna|50/100 brn|[from] brn
+|turn|17
+|
+|move|p2a: Magearna|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] Volt Switch
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|18
+|
+|-terastallize|p2a: Ursaluna|Normal
+|move|p2a: Ursaluna|Facade|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|19
+|
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|move|p1a: Ting-Lu|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|53/100 brn
+|
+|-damage|p2a: Ursaluna|47/100 brn|[from] brn
+|turn|20
+|
+|-terastallize|p1a: Ting-Lu|Ghost
+|move|p2a: Ursaluna|Facade|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|move|p1a: Ting-Lu|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|7/100 brn
+|
+|-damage|p2a: Ursaluna|1/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|21
+|-message|A1M0 forfeited.
+|
+|win|petrichorfive

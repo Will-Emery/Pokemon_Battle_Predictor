@@ -1,0 +1,276 @@
+|poke|p1|Talonflame, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Zapdos|
+|poke|p1|Walking Wake|
+|poke|p1|Cinderace, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Zapdos|
+|poke|p2|Sneasler, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Peter|Pelipper, M|100/100
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-item|p2a: Sneasler|Air Balloon
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Peter
+|turn|1
+|
+|move|p2a: Sneasler|Fake Out|p1a: Peter
+|-damage|p1a: Peter|90/100
+|-status|p1a: Peter|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|cant|p1a: Peter|flinch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Peter|78/100 psn|[from] psn
+|turn|2
+|
+|move|p2a: Sneasler|U-turn|p1a: Peter
+|-resisted|p1a: Peter
+|-damage|p1a: Peter|69/100 psn
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p1a: Peter|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|82/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Peter|57/100 psn|[from] psn
+|turn|3
+|
+|switch|p1a: Gareth|Cinderace, M|100/100
+|move|p2a: Zapdos|Discharge|p1a: Gareth
+|-damage|p1a: Gareth|56/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: Gareth|Sucker Punch|p2a: Zapdos
+|-start|p1a: Gareth|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Zapdos|55/100
+|-status|p1a: Gareth|par|[from] ability: Static|[of] p2a: Zapdos
+|move|p2a: Zapdos|Discharge|p1a: Gareth
+|-damage|p1a: Gareth|6/100 par
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Gareth|High Jump Kick|p2a: Zapdos
+|-damage|p2a: Zapdos|69/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|cant|p1a: Gareth|par
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Gareth|Sucker Punch|p2a: Zapdos
+|-damage|p2a: Zapdos|76/100
+|move|p2a: Zapdos|Discharge|p1a: Gareth
+|-damage|p1a: Gareth|0 fnt
+|faint|p1a: Gareth
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Ale|Zapdos|100/100
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Ale|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|87/100
+|
+|switch|p1a: Christopher|Samurott-Hisui, F, shiny|100/100|[from] U-turn
+|
+|-weather|none
+|-heal|p2a: Rotom|93/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Peter|Pelipper, M|57/100 psn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Peter
+|move|p2a: Rotom|Will-O-Wisp||[still]
+|-fail|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|99/100|[from] item: Leftovers
+|-damage|p1a: Peter|44/100 psn|[from] psn
+|turn|10
+|
+|move|p2a: Rotom|Volt Switch|p1a: Peter
+|-supereffective|p1a: Peter
+|-damage|p1a: Peter|0 fnt
+|faint|p1a: Peter
+|
+|switch|p2a: Zapdos|Zapdos|76/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Storm|Walking Wake|100/100
+|-enditem|p1a: Storm|Booster Energy
+|-activate|p1a: Storm|ability: Protosynthesis|[fromitem]
+|-start|p1a: Storm|protosynthesisspa
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Wash|99/100
+|move|p1a: Storm|Agility|p1a: Storm
+|-boost|p1a: Storm|spe|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Storm|Dragon Pulse|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|13
+|
+|move|p1a: Storm|Dragon Pulse|p2a: Rotom
+|-damage|p2a: Rotom|51/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Storm
+|-status|p1a: Storm|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|57/100|[from] item: Leftovers
+|-damage|p1a: Storm|94/100 brn|[from] brn
+|turn|14
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Storm|Dragon Pulse|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|64/100|[from] item: Leftovers
+|-damage|p1a: Storm|88/100 brn|[from] brn
+|turn|15
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Storm|Dragon Pulse|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|70/100|[from] item: Leftovers
+|-damage|p1a: Storm|82/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Rotom|Protect||[still]
+|-fail|p2a: Rotom
+|move|p1a: Storm|Dragon Pulse|p2a: Rotom
+|-damage|p2a: Rotom|22/100
+|
+|-weather|none
+|-heal|p2a: Rotom|28/100|[from] item: Leftovers
+|-damage|p1a: Storm|76/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Storm|Agility|p1a: Storm
+|-boost|p1a: Storm|spe|2
+|move|p2a: Rotom|Volt Switch|p1a: Storm
+|-damage|p1a: Storm|48/100 brn
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|-damage|p1a: Storm|42/100 brn|[from] brn
+|turn|18
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Storm
+|-damage|p1a: Storm|2/100 brn
+|move|p1a: Storm|Hydro Steam|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|5/100
+|
+|-damage|p1a: Storm|0 fnt|[from] brn
+|faint|p1a: Storm
+|-end|p1a: Storm|Protosynthesis|[silent]
+|
+|switch|p1a: Christopher|Samurott-Hisui, F, shiny|100/100
+|turn|19
+|
+|switch|p2a: Zapdos|Zapdos|76/100
+|move|p1a: Christopher|Aqua Jet|p2a: Zapdos
+|-damage|p2a: Zapdos|56/100
+|
+|turn|20
+|
+|move|p2a: Zapdos|Discharge|p1a: Christopher
+|-supereffective|p1a: Christopher
+|-damage|p1a: Christopher|8/100
+|move|p1a: Christopher|Swords Dance|p1a: Christopher
+|-boost|p1a: Christopher|atk|2
+|
+|turn|21
+|
+|move|p2a: Zapdos|Discharge|p1a: Christopher
+|-supereffective|p1a: Christopher
+|-damage|p1a: Christopher|0 fnt
+|faint|p1a: Christopher
+|
+|
+|switch|p1a: Ale|Zapdos|100/100
+|turn|22
+|
+|move|p1a: Ale|Discharge|p2a: Zapdos
+|-damage|p2a: Zapdos|22/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|72/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|23
+|
+|move|p1a: Ale|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|47/100
+|move|p2a: Zapdos|Discharge|p1a: Ale
+|-damage|p1a: Ale|65/100
+|
+|turn|24
+|
+|move|p1a: Ale|Hurricane|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|21/100
+|-start|p2a: Zapdos|confusion
+|-activate|p2a: Zapdos|confusion
+|move|p2a: Zapdos|Discharge|p1a: Ale
+|-damage|p1a: Ale|30/100
+|
+|turn|25
+|
+|move|p1a: Ale|Discharge|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|5/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|26
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Ale
+|-supereffective|p1a: Ale
+|-damage|p1a: Ale|0 fnt
+|faint|p1a: Ale
+|
+|
+|switch|p1a: Elliot|Talonflame, F|100/100
+|turn|27
+|
+|-terastallize|p1a: Elliot|Flying
+|move|p2a: Chien-Pao|Ice Shard|p1a: Elliot
+|-supereffective|p1a: Elliot
+|-damage|p1a: Elliot|0 fnt
+|faint|p1a: Elliot
+|
+|win|ctrlxxx

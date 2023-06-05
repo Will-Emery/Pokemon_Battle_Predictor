@@ -1,0 +1,265 @@
+|poke|p1|Basculegion, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Great Tusk|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Overqwil, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Walking Wake|
+|poke|p2|Magearna|
+|poke|p2|Azelf|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Azelf|Light Screen|p2a: Azelf
+|-sidestart|p2: Mercureiii|move: Light Screen
+|move|p1a: Pelipper|U-turn|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|80/100
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Azelf|Reflect|p2a: Azelf
+|-sidestart|p2: Mercureiii|Reflect
+|move|p1a: Samurott|Ceaseless Edge|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|8/100
+|-sidestart|p2: Mercureiii|Spikes
+|-damage|p1a: Samurott|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Samurott|Sucker Punch|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|-damage|p1a: Samurott|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|-damage|p2a: Lilligant|88/100|[from] Spikes
+|turn|4
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|-terastallize|p1a: Thundurus|Ice
+|move|p2a: Lilligant|Ice Spinner|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|47/100
+|-damage|p2a: Lilligant|78/100|[from] item: Life Orb
+|move|p1a: Thundurus|Tera Blast|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|13/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: Lilligant|Close Combat|p1a: Basculegion
+|-immune|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|move|p1a: Basculegion|Psychic Fangs|p2a: Lilligant
+|-sideend|p2: Mercureiii|Reflect
+|-sideend|p2: Mercureiii|move: Light Screen
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Spikes
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|8
+|
+|move|p1a: Basculegion|Psychic Fangs|p2a: Walking Wake
+|-damage|p2a: Walking Wake|56/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Basculegion
+|
+|-weather|none
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|81/100
+|turn|9
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Samurott|Ceaseless Edge|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|59/100
+|-sidestart|p2: Mercureiii|Spikes
+|-damage|p1a: Samurott|71/100|[from] item: Life Orb
+|
+|-heal|p2a: Kingambit|65/100|[from] item: Leftovers
+|turn|10
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|84/100|[from] Spikes
+|move|p1a: Samurott|Razor Shell|p2a: Magearna
+|-damage|p2a: Magearna|35/100
+|-damage|p1a: Samurott|61/100|[from] item: Life Orb
+|
+|turn|11
+|
+|move|p1a: Samurott|Razor Shell|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-damage|p1a: Samurott|51/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|84/100|[from] Spikes
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|12
+|
+|move|p1a: Samurott|Sucker Punch|p2a: Chien-Pao
+|-resisted|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|54/100
+|-damage|p1a: Samurott|41/100|[from] item: Life Orb
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-damage|p2a: Chien-Pao|44/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|13
+|
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Pelipper
+|-damage|p1a: Pelipper|39/100
+|-damage|p2a: Chien-Pao|34/100|[from] item: Life Orb
+|move|p1a: Pelipper|Hurricane|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|56/100
+|-damage|p2a: Walking Wake|39/100|[from] Spikes
+|turn|14
+|
+|move|p2a: Walking Wake|Agility|p2a: Walking Wake
+|-boost|p2a: Walking Wake|spe|2
+|move|p1a: Pelipper|U-turn|p2a: Walking Wake
+|-crit|p2a: Walking Wake
+|-damage|p2a: Walking Wake|26/100
+|
+|switch|p1a: Overqwil|Overqwil, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M, tera:Ice|47/100
+|move|p2a: Walking Wake|Hydro Pump|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Overqwil|Overqwil, F|100/100
+|turn|16
+|
+|move|p2a: Walking Wake|Hydro Pump|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|17
+|
+|move|p2a: Walking Wake|Hydro Pump|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Pelipper|Pelipper, M|39/100
+|turn|18
+|
+|move|p2a: Walking Wake|Hydro Pump|p1a: Pelipper|[miss]
+|-miss|p2a: Walking Wake|p1a: Pelipper
+|move|p1a: Pelipper|Hurricane|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Kingambit|Kingambit, M|65/100
+|-damage|p2a: Kingambit|49/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|19
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|89/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|55/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|40/100
+|move|p1a: Pelipper|Surf|p2a: Kingambit
+|-damage|p2a: Kingambit|6/100
+|
+|-weather|none
+|-heal|p2a: Kingambit|12/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|90/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-heal|p2a: Kingambit|18/100|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|43/100
+|move|p1a: Pelipper|Surf|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|Pickedman

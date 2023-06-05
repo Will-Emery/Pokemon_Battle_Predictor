@@ -1,0 +1,311 @@
+|poke|p1|Magearna|
+|poke|p1|Dragonite, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Dondozo, M|
+|poke|p1|Zapdos|
+|poke|p1|Slowking, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Magearna|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Volcarona, M|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: Winterchillz|move: Light Screen
+|move|p1a: Zapdos|Light Screen|p1a: Zapdos
+|-sidestart|p1: Duryodhan|move: Light Screen
+|
+|turn|2
+|
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: Winterchillz|Reflect
+|move|p1a: Zapdos|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|89/100
+|
+|switch|p1a: Magearna|Magearna|100/100|[from] Volt Switch
+|
+|turn|3
+|
+|move|p2a: Dragapult|Curse|p1a: Magearna
+|-start|p1a: Magearna|Curse|[of] p2a: Dragapult
+|-damage|p2a: Dragapult|39/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|-damage|p1a: Magearna|75/100|[from] Curse
+|turn|4
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: Magearna|Volt Switch|p2a: Magearna
+|-damage|p2a: Magearna|87/100
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100|[from] Volt Switch
+|
+|-heal|p2a: Magearna|93/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Hoopa|Fire Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|64/100
+|
+|-heal|p2a: Kingambit|71/100|[from] item: Leftovers
+|-sideend|p1: Duryodhan|move: Light Screen
+|turn|6
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Kingambit|Iron Head|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|90/100
+|
+|-heal|p1a: Dondozo|96/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|77/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Magearna|Magearna|93/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|-heal|p2a: Magearna|99/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|8
+|
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|move|p1a: Dondozo|Wave Crash|p2a: Magearna
+|-damage|p2a: Magearna|68/100
+|-damage|p1a: Dondozo|95/100|[from] Recoil
+|
+|-heal|p2a: Magearna|74/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|-sideend|p2: Winterchillz|move: Light Screen
+|turn|9
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-terastallize|p2a: Magearna|Water
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|80/100|[from] item: Leftovers
+|-sideend|p2: Winterchillz|Reflect
+|turn|10
+|
+|move|p2a: Magearna|Stored Power|p1a: Zapdos
+|-damage|p1a: Zapdos|34/100
+|move|p1a: Zapdos|Light Screen|p1a: Zapdos
+|-sidestart|p1: Duryodhan|move: Light Screen
+|
+|-heal|p2a: Magearna|86/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Zapdos|Volt Switch|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|49/100
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100|[from] Volt Switch
+|
+|-heal|p2a: Magearna|55/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|59/100
+|-heal|p2a: Magearna|93/100|[from] drain|[of] p1a: Hoopa
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-unboost|p1a: Hoopa|def|1
+|faint|p2a: Magearna
+|
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|13
+|
+|switch|p1a: Magearna|Magearna|75/100
+|move|p2a: Lilligant|Leaf Blade|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|47/100
+|
+|turn|14
+|
+|move|p2a: Lilligant|Close Combat|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|faint|p1a: Magearna
+|
+|-sideend|p1: Duryodhan|move: Light Screen
+|
+|switch|p1a: Zapdos|Zapdos|34/100
+|turn|15
+|
+|move|p2a: Lilligant|Ice Spinner|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|16
+|
+|move|p2a: Lilligant|Ice Spinner|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|30/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|turn|17
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|18
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Dragonite|Earthquake|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|68/100
+|
+|turn|19
+|
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|61/100
+|
+|-heal|p1a: Slowking|68/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Slowking|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|46/100
+|
+|-heal|p1a: Slowking|74/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Zamazenta|Crunch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|45/100
+|-unboost|p1a: Slowking|def|1
+|move|p1a: Slowking|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|23/100
+|
+|-heal|p1a: Slowking|51/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p1a: Dragonite|Dragonite, M|30/100
+|move|p2a: Zamazenta|Body Press|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|
+|switch|p1a: Slowking|Slowking, F|85/100
+|turn|23
+|
+|move|p2a: Zamazenta|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|31/100
+|move|p1a: Slowking|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Slowking|37/100|[from] item: Leftovers
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|39/100
+|turn|24
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|59/100
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: Winterchillz|Reflect
+|
+|turn|25
+|
+|move|p2a: Dragapult|Curse|p1a: Hoopa
+|-start|p1a: Hoopa|Curse|[of] p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|move|p1a: Hoopa|Hyperspace Fury|p2: Dragapult|[notarget]
+|-fail|p1a: Hoopa
+|
+|-damage|p1a: Hoopa|34/100|[from] Curse
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|26
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Volcarona|Fiery Dance|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|81/100
+|-boost|p2a: Volcarona|spa|1
+|
+|-heal|p1a: Dondozo|88/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|31/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|37/100|[from] item: Leftovers
+|turn|28
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|34/100
+|move|p2a: Volcarona|Giga Drain|p1a: Hoopa
+|-damage|p1a: Hoopa|5/100
+|
+|turn|29
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|
+|switch|p1a: Slowking|Slowking, F|70/100
+|turn|30
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|3/100
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|53/100
+|
+|-heal|p1a: Slowking|59/100|[from] item: Leftovers
+|turn|31
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-sideend|p2: Winterchillz|Reflect
+|-message|Duryodhan forfeited.
+|
+|win|Winterchillz

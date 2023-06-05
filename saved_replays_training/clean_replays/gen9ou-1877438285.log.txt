@@ -1,0 +1,280 @@
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Magearna|
+|poke|p1|Clodsire, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Volcarona, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Monument|Corviknight, M, shiny|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-ability|p1a: Monument|Pressure
+|turn|1
+|
+|switch|p1a: Mud Puppy|Clodsire, M|100/100
+|move|p2a: Thundurus|Volt Switch|p1a: Mud Puppy
+|-immune|p1a: Mud Puppy
+|
+|turn|2
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|move|p1a: Mud Puppy|Stealth Rock|p2a: Volcarona
+|-sidestart|p2: RAYOU_pkmn|move: Stealth Rock
+|
+|turn|3
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Mud Puppy|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|54/100
+|
+|turn|4
+|
+|move|p2a: Volcarona|Giga Drain|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|84/100
+|-heal|p2a: Volcarona|66/100|[from] drain|[of] p1a: Mud Puppy
+|move|p1a: Mud Puppy|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|22/100
+|
+|-heal|p1a: Mud Puppy|91/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Volcarona|Psychic|p1a: Mud Puppy
+|-supereffective|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|51/100
+|move|p1a: Mud Puppy|Earthquake|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-heal|p1a: Mud Puppy|58/100|[from] item: Leftovers
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|-terastallize|p1a: Mud Puppy|Steel
+|move|p2a: Chien-Pao|Icicle Crash|p1a: Mud Puppy
+|-resisted|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|21/100
+|cant|p1a: Mud Puppy|flinch
+|
+|-heal|p1a: Mud Puppy|27/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Mud Puppy
+|-supereffective|p1a: Mud Puppy
+|-damage|p1a: Mud Puppy|0 fnt
+|faint|p1a: Mud Puppy
+|
+|
+|switch|p1a: Mous|Landorus-Therian, M|100/100
+|-ability|p1a: Mous|Intimidate|boost
+|-unboost|p2a: Chien-Pao|atk|1
+|turn|8
+|
+|move|p1a: Mous|Earthquake|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|9
+|
+|switch|p1a: Hoops|Hoopa-Unbound|100/100
+|move|p2a: Indeedee|Psychic|p1a: Hoops
+|-immune|p1a: Hoops
+|
+|turn|10
+|
+|move|p2a: Indeedee|Encore||[still]
+|-fail|p2a: Indeedee
+|move|p1a: Hoops|Trick|p2a: Indeedee
+|-activate|p1a: Hoops|move: Trick|[of] p2a: Indeedee
+|-item|p2a: Indeedee|Choice Specs|[from] move: Trick
+|-item|p1a: Hoops|Terrain Extender|[from] move: Trick
+|
+|turn|11
+|
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Hoops
+|-supereffective|p1a: Hoops
+|-damage|p1a: Hoops|25/100
+|move|p1a: Hoops|Dark Pulse|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|12
+|
+|move|p2a: Sneasler|Swords Dance|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|move|p1a: Hoops|Psychic|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|-damage|p2a: Magearna|94/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Mous|Landorus-Therian, M|100/100
+|-ability|p1a: Mous|Intimidate|boost
+|-unboost|p2a: Magearna|atk|1
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|100/100|[from] item: Leftovers
+|turn|14
+|
+|-terastallize|p2a: Magearna|Fighting
+|move|p1a: Mous|Earthquake|p2a: Magearna
+|-damage|p2a: Magearna|64/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p2a: Magearna|70/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p1a: Pokeball|Magearna|100/100
+|move|p2a: Magearna|Shift Gear|p2a: Magearna
+|-boost|p2a: Magearna|spe|2
+|-boost|p2a: Magearna|atk|1
+|
+|-heal|p2a: Magearna|76/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Pokeball|Calm Mind|p1a: Pokeball
+|-boost|p1a: Pokeball|spa|1
+|-boost|p1a: Pokeball|spd|1
+|
+|-heal|p2a: Magearna|82/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|turn|17
+|
+|move|p2a: Magearna|Stored Power|p1a: Pokeball
+|-resisted|p1a: Pokeball
+|-damage|p1a: Pokeball|69/100
+|move|p1a: Pokeball|Calm Mind|p1a: Pokeball
+|-boost|p1a: Pokeball|spa|1
+|-boost|p1a: Pokeball|spd|1
+|
+|-heal|p2a: Magearna|88/100|[from] item: Leftovers
+|-heal|p1a: Pokeball|75/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Pokeball|Calm Mind|p1a: Pokeball
+|-boost|p1a: Pokeball|spa|1
+|-boost|p1a: Pokeball|spd|1
+|
+|-heal|p2a: Magearna|94/100|[from] item: Leftovers
+|-heal|p1a: Pokeball|81/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Pokeball|Calm Mind|p1a: Pokeball
+|-boost|p1a: Pokeball|spa|1
+|-boost|p1a: Pokeball|spd|1
+|
+|-heal|p2a: Magearna|99/100|[from] item: Leftovers
+|-heal|p1a: Pokeball|87/100|[from] item: Leftovers
+|turn|20
+|
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|move|p1a: Pokeball|Draining Kiss|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|70/100
+|-heal|p1a: Pokeball|100/100|[from] drain|[of] p2a: Magearna
+|
+|-heal|p2a: Magearna|76/100|[from] item: Leftovers
+|turn|21
+|
+|move|p2a: Magearna|Stored Power|p1a: Pokeball
+|-resisted|p1a: Pokeball
+|-damage|p1a: Pokeball|52/100
+|move|p1a: Pokeball|Calm Mind|p1a: Pokeball
+|-boost|p1a: Pokeball|spa|1
+|-boost|p1a: Pokeball|spd|1
+|
+|-heal|p2a: Magearna|82/100|[from] item: Leftovers
+|-heal|p1a: Pokeball|58/100|[from] item: Leftovers
+|turn|22
+|
+|move|p2a: Magearna|Stored Power|p1a: Pokeball
+|-resisted|p1a: Pokeball
+|-damage|p1a: Pokeball|19/100
+|move|p1a: Pokeball|Draining Kiss|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|49/100
+|-heal|p1a: Pokeball|44/100|[from] drain|[of] p2a: Magearna
+|
+|-heal|p2a: Magearna|55/100|[from] item: Leftovers
+|-heal|p1a: Pokeball|50/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Magearna|Stored Power|p1a: Pokeball
+|-resisted|p1a: Pokeball
+|-damage|p1a: Pokeball|10/100
+|move|p1a: Pokeball|Draining Kiss|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|17/100
+|-heal|p1a: Pokeball|38/100|[from] drain|[of] p2a: Magearna
+|
+|-heal|p2a: Magearna|23/100|[from] item: Leftovers
+|-heal|p1a: Pokeball|44/100|[from] item: Leftovers
+|turn|24
+|
+|move|p2a: Magearna|Stored Power|p1a: Pokeball
+|-resisted|p1a: Pokeball
+|-damage|p1a: Pokeball|4/100
+|move|p1a: Pokeball|Draining Kiss|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|-heal|p1a: Pokeball|21/100|[from] drain|[of] p2a: Magearna
+|faint|p2a: Magearna
+|-ability|p1a: Pokeball|Soul-Heart|boost
+|-boost|p1a: Pokeball|spa|1
+|
+|-heal|p1a: Pokeball|27/100|[from] item: Leftovers
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-damage|p2a: Thundurus|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Thundurus|Dark Pulse|p1a: Pokeball
+|-resisted|p1a: Pokeball
+|-damage|p1a: Pokeball|23/100
+|move|p1a: Pokeball|Draining Kiss|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-heal|p1a: Pokeball|69/100|[from] drain|[of] p2a: Thundurus
+|faint|p2a: Thundurus
+|
+|win|Dangle Finangler

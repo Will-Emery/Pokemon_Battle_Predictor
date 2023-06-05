@@ -1,0 +1,90 @@
+|poke|p1|Heatran, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Chesnaught, F|
+|poke|p1|Great Tusk|
+|poke|p1|Volcarona, M|
+|poke|p2|Magearna|
+|poke|p2|Kleavor, M|
+|poke|p2|Volcarona, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-sidestart|p1: POCKETWHAT|move: Stealth Rock
+|faint|p1a: Thundurus
+|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|turn|2
+|
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: mosthated1|move: Stealth Rock
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|-damage|p1a: Chesnaught|95/100|[from] Stealth Rock
+|move|p2a: Alomomola|Whirlpool|p1a: Chesnaught|[miss]
+|-miss|p2a: Alomomola|p1a: Chesnaught
+|
+|-heal|p1a: Chesnaught|100/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Chesnaught|Bulk Up|p1a: Chesnaught
+|-boost|p1a: Chesnaught|atk|1
+|-boost|p1a: Chesnaught|def|1
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|turn|5
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|-damage|p2a: Volcarona|50/100|[from] Stealth Rock
+|-enditem|p2a: Volcarona|Sitrus Berry|[eat]
+|-heal|p2a: Volcarona|75/100|[from] item: Sitrus Berry
+|move|p1a: Chesnaught|Leech Seed|p2a: Volcarona|[miss]
+|-miss|p1a: Chesnaught|p2a: Volcarona
+|
+|-heal|p2a: Volcarona|100/100|[from] move: Wish|[wisher] Alomomola
+|turn|6
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|move|p2a: Volcarona|Substitute|p2a: Volcarona
+|-start|p2a: Volcarona|Substitute
+|-damage|p2a: Volcarona|76/100
+|
+|turn|7
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Volcarona
+|-end|p2a: Volcarona|Substitute
+|-damage|p1a: Chien-Pao|66/100|[from] item: Life Orb
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|turn|8
+|
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Crunch|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-damage|p1a: Chien-Pao|56/100|[from] item: Life Orb
+|
+|-message|mosthated1 forfeited.
+|
+|win|POCKETWHAT

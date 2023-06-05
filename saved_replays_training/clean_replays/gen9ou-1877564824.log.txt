@@ -1,0 +1,228 @@
+|poke|p1|Garganacl, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Drednaw, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Kleavor, M|
+|poke|p2|Iron Treads|
+|poke|p2|Kleavor, M|
+|poke|p2|Sneasler, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Goodra-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: Chop Chop|Kleavor, M|100/100
+|turn|1
+|
+|move|p2a: Chop Chop|Stone Axe|p1a: Garganacl
+|-damage|p1a: Garganacl|65/100
+|-sidestart|p1: edgypunishment|move: Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Chop Chop
+|-supereffective|p2a: Chop Chop
+|-damage|p2a: Chop Chop|63/100
+|-start|p2a: Chop Chop|Salt Cure
+|
+|-heal|p1a: Garganacl|71/100|[from] item: Leftovers
+|-damage|p2a: Chop Chop|51/100|[from] Salt Cure
+|turn|2
+|
+|move|p2a: Chop Chop|Close Combat|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|8/100
+|-unboost|p2a: Chop Chop|def|1
+|-unboost|p2a: Chop Chop|spd|1
+|move|p1a: Garganacl|Stealth Rock|p2a: Chop Chop
+|-sidestart|p2: NateOrNathan|move: Stealth Rock
+|
+|-heal|p1a: Garganacl|14/100|[from] item: Leftovers
+|-damage|p2a: Chop Chop|39/100|[from] Salt Cure
+|turn|3
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Chop Chop|Close Combat|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|20/100|[from] item: Leftovers
+|-damage|p2a: Chop Chop|26/100|[from] Salt Cure
+|turn|4
+|
+|switch|p2a: Metal Olive|Iron Treads|100/100
+|-enditem|p2a: Metal Olive|Booster Energy
+|-activate|p2a: Metal Olive|ability: Quark Drive|[fromitem]
+|-start|p2a: Metal Olive|quarkdrivespe
+|-damage|p2a: Metal Olive|97/100|[from] Stealth Rock
+|move|p1a: Garganacl|Salt Cure|p2a: Metal Olive
+|-resisted|p2a: Metal Olive
+|-damage|p2a: Metal Olive|94/100
+|-start|p2a: Metal Olive|Salt Cure
+|
+|-heal|p1a: Garganacl|26/100|[from] item: Leftovers
+|-damage|p2a: Metal Olive|69/100|[from] Salt Cure
+|turn|5
+|
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Metal Olive|Rapid Spin|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|33/100|[from] item: Leftovers
+|-damage|p2a: Metal Olive|44/100|[from] Salt Cure
+|turn|6
+|
+|move|p2a: Metal Olive|Iron Head|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Metal Olive|20/100|[from] Salt Cure
+|
+|switch|p1a: Drednaw|Drednaw, M|100/100
+|-damage|p1a: Drednaw|88/100|[from] Stealth Rock
+|-item|p1a: Drednaw|Air Balloon
+|turn|7
+|
+|move|p2a: Metal Olive|Rapid Spin|p1a: Drednaw
+|-resisted|p1a: Drednaw
+|-damage|p1a: Drednaw|79/100
+|-boost|p2a: Metal Olive|spe|1
+|-enditem|p1a: Drednaw|Air Balloon
+|-sideend|p2: NateOrNathan|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Metal Olive
+|move|p1a: Drednaw|Shell Smash|p1a: Drednaw
+|-unboost|p1a: Drednaw|def|1
+|-unboost|p1a: Drednaw|spd|1
+|-boost|p1a: Drednaw|atk|2
+|-boost|p1a: Drednaw|spa|2
+|-boost|p1a: Drednaw|spe|2
+|
+|-damage|p2a: Metal Olive|0 fnt|[from] Salt Cure
+|faint|p2a: Metal Olive
+|-end|p2a: Metal Olive|Quark Drive|[silent]
+|
+|switch|p2a: Chop Chop|Kleavor, M|26/100
+|turn|8
+|
+|move|p1a: Drednaw|Liquidation|p2a: Chop Chop
+|-supereffective|p2a: Chop Chop
+|-damage|p2a: Chop Chop|0 fnt
+|faint|p2a: Chop Chop
+|
+|
+|switch|p2a: joe destroy world|Hoopa-Unbound|100/100
+|turn|9
+|
+|move|p1a: Drednaw|Liquidation|p2a: joe destroy world
+|-damage|p2a: joe destroy world|0 fnt
+|faint|p2a: joe destroy world
+|
+|
+|switch|p2a: gary|Goodra-Hisui, F|100/100
+|turn|10
+|
+|move|p1a: Drednaw|Ice Spinner|p2a: gary
+|-damage|p2a: gary|48/100
+|-ability|p2a: gary|Gooey
+|-unboost|p1a: Drednaw|spe|1
+|move|p2a: gary|Body Press|p1a: Drednaw
+|-supereffective|p1a: Drednaw
+|-damage|p1a: Drednaw|19/100
+|
+|-heal|p2a: gary|54/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Drednaw|Ice Spinner|p2a: gary
+|-damage|p2a: gary|6/100
+|-ability|p2a: gary|Gooey
+|-unboost|p1a: Drednaw|spe|1
+|move|p2a: gary|Body Press|p1a: Drednaw
+|-supereffective|p1a: Drednaw
+|-damage|p1a: Drednaw|0 fnt
+|faint|p1a: Drednaw
+|
+|-heal|p2a: gary|12/100|[from] item: Leftovers
+|
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Glimmora|Rock Polish|p1a: Glimmora
+|-boost|p1a: Glimmora|spe|2
+|move|p2a: gary|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|68/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: NateOrNathan|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Red Card|[of] p2a: gary
+|drag|p2a: fuckin strechy|Sneasler, M|100/100
+|-sideend|p2: NateOrNathan|move: Toxic Spikes|[of] p2a: fuckin strechy
+|
+|turn|13
+|
+|move|p1a: Glimmora|Earth Power|p2a: fuckin strechy
+|-supereffective|p2a: fuckin strechy
+|-damage|p2a: fuckin strechy|4/100
+|move|p2a: fuckin strechy|Swords Dance|p2a: fuckin strechy
+|-boost|p2a: fuckin strechy|atk|2
+|
+|turn|14
+|
+|move|p1a: Glimmora|Earth Power|p2a: fuckin strechy
+|-supereffective|p2a: fuckin strechy
+|-damage|p2a: fuckin strechy|0 fnt
+|faint|p2a: fuckin strechy
+|
+|
+|switch|p2a: the funni feesh|Basculegion-F, F|100/100
+|turn|15
+|
+|-terastallize|p1a: Glimmora|Rock
+|-terastallize|p2a: the funni feesh|Water
+|move|p1a: Glimmora|Power Gem|p2a: the funni feesh
+|-damage|p2a: the funni feesh|41/100
+|move|p2a: the funni feesh|Surf|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|16
+|
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: the funni feesh|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: the funni feesh|35/100|[from] Sandstorm
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|-damage|p1a: Kleavor|75/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Kleavor|X-Scissor|p2a: the funni feesh
+|-damage|p2a: the funni feesh|0 fnt
+|faint|p2a: the funni feesh
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: gary|Goodra-Hisui, F|12/100
+|turn|18
+|
+|move|p1a: Kleavor|Close Combat|p2a: gary
+|-supereffective|p2a: gary
+|-damage|p2a: gary|0 fnt
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|-ability|p2a: gary|Gooey
+|-unboost|p1a: Kleavor|spe|1
+|faint|p2a: gary
+|
+|win|edgypunishment

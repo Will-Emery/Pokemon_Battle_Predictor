@@ -1,0 +1,118 @@
+|poke|p1|Avalugg-Hisui, M|
+|poke|p1|Breloom, M|
+|poke|p1|Drifblim, M|
+|poke|p1|Dugtrio-Alola, F|
+|poke|p1|Cacturne, M|
+|poke|p1|Venomoth, F|
+|poke|p2|Carbink|
+|teampreview
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio-Alola, F|100/100
+|switch|p2a: Silly tiny rock|Carbink|100/100
+|turn|1
+|
+|-terastallize|p2a: Silly tiny rock|Grass
+|move|p1a: Dugtrio|Earthquake|p2a: Silly tiny rock
+|-resisted|p2a: Silly tiny rock
+|-damage|p2a: Silly tiny rock|79/100
+|move|p2a: Silly tiny rock|Iron Defense|p2a: Silly tiny rock
+|-boost|p2a: Silly tiny rock|def|2
+|
+|-heal|p2a: Silly tiny rock|85/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Cacturne|Cacturne, M|100/100
+|move|p2a: Silly tiny rock|Iron Defense|p2a: Silly tiny rock
+|-boost|p2a: Silly tiny rock|def|2
+|
+|-heal|p2a: Silly tiny rock|91/100|[from] item: Leftovers
+|turn|3
+|
+|-terastallize|p1a: Cacturne|Grass
+|move|p1a: Cacturne|Leaf Storm|p2a: Silly tiny rock
+|-resisted|p2a: Silly tiny rock
+|-damage|p2a: Silly tiny rock|65/100
+|-unboost|p1a: Cacturne|spa|2
+|move|p2a: Silly tiny rock|Iron Defense|p2a: Silly tiny rock
+|-boost|p2a: Silly tiny rock|def|2
+|
+|-heal|p2a: Silly tiny rock|71/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Avalugg|Avalugg-Hisui, M|100/100
+|move|p2a: Silly tiny rock|Stone Edge|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|82/100
+|
+|-heal|p2a: Silly tiny rock|77/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Silly tiny rock|Body Press|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|-heal|p2a: Silly tiny rock|83/100|[from] item: Leftovers
+|
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|6
+|
+|move|p1a: Breloom|Spore|p2a: Silly tiny rock
+|-immune|p2a: Silly tiny rock
+|move|p2a: Silly tiny rock|Body Press|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-heal|p2a: Silly tiny rock|90/100|[from] item: Leftovers
+|
+|switch|p1a: Drifblim|Drifblim, M|100/100
+|turn|7
+|
+|move|p1a: Drifblim|Defog|p2a: Silly tiny rock
+|-unboost|p2a: Silly tiny rock|evasion|1
+|move|p2a: Silly tiny rock|Stone Edge|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|33/100
+|
+|-heal|p2a: Silly tiny rock|96/100|[from] item: Leftovers
+|-status|p1a: Drifblim|brn|[from] item: Flame Orb
+|turn|8
+|
+|move|p1a: Drifblim|Shadow Ball|p2a: Silly tiny rock
+|-damage|p2a: Silly tiny rock|63/100
+|-unboost|p2a: Silly tiny rock|spd|1
+|move|p2a: Silly tiny rock|Stone Edge|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-crit|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|-heal|p2a: Silly tiny rock|70/100|[from] item: Leftovers
+|
+|switch|p1a: Venomoth|Venomoth, F|100/100
+|turn|9
+|
+|move|p1a: Venomoth|U-turn|p2a: Silly tiny rock
+|-supereffective|p2a: Silly tiny rock
+|-damage|p2a: Silly tiny rock|64/100
+|
+|switch|p1a: Dugtrio|Dugtrio-Alola, F|100/100|[from] U-turn
+|move|p2a: Silly tiny rock|Body Press|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-ability|p1a: Dugtrio|Tangling Hair
+|-unboost|p2a: Silly tiny rock|spe|1
+|faint|p1a: Dugtrio
+|
+|-heal|p2a: Silly tiny rock|70/100|[from] item: Leftovers
+|
+|switch|p1a: Venomoth|Venomoth, F|100/100
+|turn|10
+|
+|move|p1a: Venomoth|Sludge Bomb|p2a: Silly tiny rock
+|-supereffective|p2a: Silly tiny rock
+|-damage|p2a: Silly tiny rock|0 fnt
+|faint|p2a: Silly tiny rock
+|
+|win|DawnTyrantEo

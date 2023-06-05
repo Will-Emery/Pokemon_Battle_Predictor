@@ -1,0 +1,389 @@
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Magearna|
+|poke|p1|Dragonite, M|
+|poke|p1|Great Tusk|
+|poke|p1|Volcarona, F|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Magearna|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Big horn energy|Great Tusk|100/100
+|switch|p2a: Magearna|Magearna|100/100
+|turn|1
+|
+|move|p2a: Magearna|Fleur Cannon|p1a: Big horn energy
+|-supereffective|p1a: Big horn energy
+|-damage|p1a: Big horn energy|0 fnt
+|-unboost|p2a: Magearna|spa|2
+|faint|p1a: Big horn energy
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Big horn energy|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: BoWs1rJr|move: Light Screen
+|
+|turn|3
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Landorus
+|-start|p2a: Landorus|move: Taunt
+|cant|p2a: Landorus|move: Taunt|Stealth Rock
+|
+|turn|4
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: BoWs1rJr|Reflect
+|
+|turn|5
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Arcanine
+|-status|p2a: Arcanine|par
+|move|p2a: Arcanine|Head Smash|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|68/100
+|
+|turn|6
+|
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|switch|p1a: Normal Pills|Dragonite, M|100/100
+|
+|turn|7
+|
+|move|p1a: Normal Pills|Dragon Dance|p1a: Normal Pills
+|-boost|p1a: Normal Pills|atk|1
+|-boost|p1a: Normal Pills|spe|1
+|move|p2a: Slowking|Thunder Wave|p1a: Normal Pills
+|-status|p1a: Normal Pills|par
+|
+|turn|8
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|cant|p1a: Normal Pills|par
+|
+|turn|9
+|
+|-terastallize|p2a: Toxapex|Fighting
+|cant|p1a: Normal Pills|par
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-crit|p1a: Normal Pills
+|-damage|p1a: Normal Pills|99/100 par
+|-activate|p1a: Normal Pills|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Normal Pills|87/100 par|[from] move: Infestation|[partiallytrapped]
+|-sideend|p1: BoWs1rJr|move: Light Screen
+|turn|10
+|
+|move|p1a: Normal Pills|Dragon Dance|p1a: Normal Pills
+|-boost|p1a: Normal Pills|atk|1
+|-boost|p1a: Normal Pills|spe|1
+|move|p2a: Toxapex|Iron Defense|p2a: Toxapex
+|-boost|p2a: Toxapex|def|2
+|
+|-damage|p1a: Normal Pills|75/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|11
+|
+|move|p1a: Normal Pills|Dragon Dance|p1a: Normal Pills
+|-boost|p1a: Normal Pills|atk|1
+|-boost|p1a: Normal Pills|spe|1
+|move|p2a: Toxapex|Iron Defense|p2a: Toxapex
+|-boost|p2a: Toxapex|def|2
+|
+|-damage|p1a: Normal Pills|62/100 par|[from] move: Infestation|[partiallytrapped]
+|-sideend|p1: BoWs1rJr|Reflect
+|turn|12
+|
+|move|p1a: Normal Pills|Dragon Dance|p1a: Normal Pills
+|-boost|p1a: Normal Pills|atk|1
+|-boost|p1a: Normal Pills|spe|1
+|move|p2a: Toxapex|Iron Defense|p2a: Toxapex
+|-boost|p2a: Toxapex|def|2
+|
+|-damage|p1a: Normal Pills|50/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|13
+|
+|move|p1a: Normal Pills|Dragon Dance|p1a: Normal Pills
+|-boost|p1a: Normal Pills|atk|1
+|-boost|p1a: Normal Pills|spe|1
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|49/100 par
+|
+|-end|p1a: Normal Pills|Infestation|[partiallytrapped]
+|turn|14
+|
+|move|p1a: Normal Pills|Roost|p1a: Normal Pills
+|-heal|p1a: Normal Pills|99/100 par
+|-singleturn|p1a: Normal Pills|move: Roost
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-damage|p1a: Normal Pills|96/100 par
+|-activate|p1a: Normal Pills|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Normal Pills|83/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|15
+|
+|move|p1a: Normal Pills|Dragon Dance|p1a: Normal Pills
+|-boost|p1a: Normal Pills|atk|1
+|-boost|p1a: Normal Pills|spe|1
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|82/100 par
+|
+|-damage|p1a: Normal Pills|69/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|16
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Normal Pills|Roost|p1a: Normal Pills
+|-heal|p1a: Normal Pills|100/100 par
+|-singleturn|p1a: Normal Pills|move: Roost
+|
+|-damage|p1a: Normal Pills|88/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|17
+|
+|cant|p1a: Normal Pills|par
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|87/100 par
+|
+|-damage|p1a: Normal Pills|74/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|18
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Normal Pills|62/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|19
+|
+|cant|p1a: Normal Pills|par
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|60/100 par
+|
+|-end|p1a: Normal Pills|Infestation|[partiallytrapped]
+|turn|20
+|
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|59/100 par
+|-activate|p1a: Normal Pills|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Normal Pills|46/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|21
+|
+|move|p1a: Normal Pills|Roost|p1a: Normal Pills
+|-heal|p1a: Normal Pills|96/100 par
+|-singleturn|p1a: Normal Pills|move: Roost
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-damage|p1a: Normal Pills|93/100 par
+|
+|-damage|p1a: Normal Pills|81/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|22
+|
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|79/100 par
+|
+|-damage|p1a: Normal Pills|67/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|23
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Normal Pills|55/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|24
+|
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-damage|p2a: Toxapex|28/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|78/100
+|
+|-end|p1a: Normal Pills|Infestation|[partiallytrapped]
+|turn|25
+|
+|cant|p1a: Normal Pills|par
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|53/100 par
+|-activate|p1a: Normal Pills|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Normal Pills|41/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|26
+|
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|40/100 par
+|
+|-damage|p1a: Normal Pills|27/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|27
+|
+|move|p1a: Normal Pills|Roost|p1a: Normal Pills
+|-heal|p1a: Normal Pills|77/100 par
+|-singleturn|p1a: Normal Pills|move: Roost
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Normal Pills|65/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|28
+|
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|63/100 par
+|
+|-damage|p1a: Normal Pills|51/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|29
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-end|p1a: Normal Pills|Infestation|[partiallytrapped]
+|turn|30
+|
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-crit|p1a: Normal Pills
+|-damage|p1a: Normal Pills|49/100 par
+|-activate|p1a: Normal Pills|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Normal Pills|37/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|31
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Normal Pills|Roost|p1a: Normal Pills
+|-heal|p1a: Normal Pills|87/100 par
+|-singleturn|p1a: Normal Pills|move: Roost
+|
+|-damage|p1a: Normal Pills|74/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|32
+|
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-damage|p2a: Toxapex|24/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|74/100
+|
+|-damage|p1a: Normal Pills|62/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|33
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Normal Pills|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Normal Pills|50/100 par|[from] move: Infestation|[partiallytrapped]
+|turn|34
+|
+|cant|p1a: Normal Pills|par
+|move|p2a: Toxapex|Infestation|p1a: Normal Pills
+|-resisted|p1a: Normal Pills
+|-damage|p1a: Normal Pills|48/100 par
+|
+|-end|p1a: Normal Pills|Infestation|[partiallytrapped]
+|turn|35
+|
+|switch|p1a: It's joever|Magearna|100/100
+|move|p2a: Toxapex|Infestation|p1a: It's joever
+|-resisted|p1a: It's joever
+|-damage|p1a: It's joever|99/100
+|-activate|p1a: It's joever|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: It's joever|88/100|[from] move: Infestation|[partiallytrapped]
+|turn|36
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: It's joever|atk|1
+|move|p1a: It's joever|Shift Gear|p1a: It's joever
+|-boost|p1a: It's joever|spe|2
+|-boost|p1a: It's joever|atk|1
+|
+|-end|p1a: It's joever|Infestation|[partiallytrapped]|[silent]
+|turn|37
+|
+|switch|p2a: Magearna|Magearna|100/100
+|move|p1a: It's joever|Calm Mind|p1a: It's joever
+|-boost|p1a: It's joever|spa|1
+|-boost|p1a: It's joever|spd|1
+|
+|turn|38
+|
+|move|p1a: It's joever|Shift Gear|p1a: It's joever
+|-boost|p1a: It's joever|spe|2
+|-boost|p1a: It's joever|atk|1
+|move|p2a: Magearna|Trick|p1a: It's joever
+|-activate|p2a: Magearna|move: Trick|[of] p1a: It's joever
+|-item|p1a: It's joever|Choice Specs|[from] move: Trick
+|-item|p2a: Magearna|Weakness Policy|[from] move: Trick
+|
+|turn|39
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100 par
+|move|p1a: It's joever|Stored Power|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|-ability|p1a: It's joever|Soul-Heart|boost
+|-boost|p1a: It's joever|spa|1
+|
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|40
+|
+|-terastallize|p1a: It's joever|Fairy
+|move|p1a: It's joever|Stored Power|p2a: Dragonite
+|-damage|p2a: Dragonite|4/100
+|move|p2a: Dragonite|Earthquake|p1a: It's joever
+|-damage|p1a: It's joever|46/100
+|
+|turn|41
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: It's joever
+|-damage|p1a: It's joever|15/100
+|move|p1a: It's joever|Stored Power|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-ability|p1a: It's joever|Soul-Heart|boost
+|-boost|p1a: It's joever|spa|1
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|42
+|
+|move|p1a: It's joever|Stored Power|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-ability|p1a: It's joever|Soul-Heart|boost
+|-boost|p1a: It's joever|spa|1
+|
+|-message|TakeThatChit forfeited.
+|
+|win|BoWs1rJr

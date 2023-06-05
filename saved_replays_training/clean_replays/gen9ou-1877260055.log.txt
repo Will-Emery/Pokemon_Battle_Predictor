@@ -1,0 +1,256 @@
+|poke|p1|Flamigo, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Ceruledge, M|
+|poke|p1|Iron Treads|
+|poke|p1|Zapdos|
+|poke|p1|Iron Valiant|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Gholdengo|
+|poke|p2|Amoonguss, F|
+|poke|p2|Zapdos|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Refed Eour|Iron Treads|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|move|p1a: Refed Eour|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: sleepfish|move: Stealth Rock
+|move|p2a: Great Tusk|Stealth Rock|p1a: Refed Eour
+|-sidestart|p1: Optimystik|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Refed Eour|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|94/100
+|-boost|p1a: Refed Eour|spe|1
+|-sideend|p1: Optimystik|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Refed Eour
+|move|p2a: Great Tusk|Rapid Spin|p1a: Refed Eour
+|-resisted|p1a: Refed Eour
+|-damage|p1a: Refed Eour|95/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: sleepfish|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p1a: Refed Eour|100/100|[from] item: Leftovers
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Refed Eour|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Refed Eour
+|-resisted|p1a: Refed Eour
+|-damage|p1a: Refed Eour|95/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-heal|p1a: Refed Eour|100/100|[from] item: Leftovers
+|-heal|p2a: Great Tusk|87/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Refed Eour|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|68/100
+|move|p2a: Great Tusk|Close Combat|p1a: Refed Eour
+|-supereffective|p1a: Refed Eour
+|-damage|p1a: Refed Eour|25/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p1a: Refed Eour|31/100|[from] item: Leftovers
+|-heal|p2a: Great Tusk|75/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Refed Eour|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|50/100
+|move|p2a: Great Tusk|Earthquake|p1a: Refed Eour
+|-supereffective|p1a: Refed Eour
+|-damage|p1a: Refed Eour|0 fnt
+|faint|p1a: Refed Eour
+|-end|p1a: Refed Eour|Quark Drive|[silent]
+|
+|-heal|p2a: Great Tusk|56/100|[from] item: Leftovers
+|
+|switch|p1a: Thorélec|Zapdos|100/100
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|move|p1a: Thorélec|Heat Wave|p2a: Zapdos
+|-damage|p2a: Zapdos|64/100
+|
+|turn|7
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Thorélec|Discharge|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|77/100
+|
+|turn|8
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Thorélec
+|-damage|p1a: Thorélec|72/100
+|
+|switch|p2a: Amoonguss|Amoonguss, F, shiny|100/100|[from] Volt Switch
+|move|p1a: Thorélec|Hurricane|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|9
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Thorélec
+|-supereffective|p1a: Thorélec
+|-damage|p1a: Thorélec|0 fnt
+|faint|p1a: Thorélec
+|
+|
+|switch|p1a: Refed Edrag|Iron Valiant|100/100
+|-enditem|p1a: Refed Edrag|Booster Energy
+|-activate|p1a: Refed Edrag|ability: Quark Drive|[fromitem]
+|-start|p1a: Refed Edrag|quarkdrivespe
+|turn|10
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Refed Edrag|Moonblast|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|74/100
+|
+|-heal|p2a: Gholdengo|80/100|[from] item: Leftovers
+|turn|11
+|
+|-end|p1a: Refed Edrag|Quark Drive|[silent]
+|switch|p1a: Lamevamal|Ceruledge, M|100/100
+|move|p2a: Gholdengo|Substitute|p2a: Gholdengo
+|-start|p2a: Gholdengo|Substitute
+|-damage|p2a: Gholdengo|56/100
+|
+|-heal|p2a: Gholdengo|62/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Lamevamal|Bitter Blade|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-end|p2a: Gholdengo|Substitute
+|move|p2a: Gholdengo|Shadow Ball|p1a: Lamevamal
+|-supereffective|p1a: Lamevamal
+|-enditem|p1a: Lamevamal|Focus Sash
+|-damage|p1a: Lamevamal|1/100
+|-unboost|p1a: Lamevamal|spd|1
+|
+|-heal|p2a: Gholdengo|68/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p2a: Samurott|Samurott-Hisui, F, shiny|100/100
+|move|p1a: Lamevamal|Bitter Blade|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|74/100
+|-heal|p1a: Lamevamal|16/100|[from] drain|[of] p2a: Samurott
+|
+|turn|14
+|
+|move|p2a: Samurott|Sucker Punch|p1a: Lamevamal
+|-supereffective|p1a: Lamevamal
+|-damage|p1a: Lamevamal|0 fnt
+|faint|p1a: Lamevamal
+|
+|
+|switch|p1a: Refed Edrag|Iron Valiant|100/100
+|turn|15
+|
+|switch|p2a: Great Tusk|Great Tusk|56/100
+|move|p1a: Refed Edrag|Calm Mind|p1a: Refed Edrag
+|-boost|p1a: Refed Edrag|spa|1
+|-boost|p1a: Refed Edrag|spd|1
+|
+|-heal|p2a: Great Tusk|63/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Refed Edrag|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|68/100
+|turn|17
+|
+|move|p1a: Refed Edrag|Calm Mind|p1a: Refed Edrag
+|-boost|p1a: Refed Edrag|spa|1
+|-boost|p1a: Refed Edrag|spd|1
+|move|p2a: Gholdengo|Make It Rain|p1a: Refed Edrag
+|-supereffective|p1a: Refed Edrag
+|-damage|p1a: Refed Edrag|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Refed Edrag
+|-end|p1a: Refed Edrag|Quark Drive|[silent]
+|
+|-heal|p2a: Gholdengo|74/100|[from] item: Leftovers
+|
+|switch|p1a: Obanija|Chien-Pao|100/100
+|-ability|p1a: Obanija|Sword of Ruin
+|turn|18
+|
+|switch|p2a: Zapdos|Zapdos, shiny|77/100
+|move|p1a: Obanija|Sacred Sword|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|62/100
+|
+|turn|19
+|
+|move|p1a: Obanija|Icicle Crash|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|20
+|
+|move|p1a: Obanija|Sacred Sword|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F, shiny|74/100
+|turn|21
+|
+|-terastallize|p2a: Samurott|Fighting
+|move|p1a: Obanija|Sacred Sword|p2a: Samurott
+|-damage|p2a: Samurott|20/100
+|move|p2a: Samurott|Sacred Sword|p1a: Obanija
+|-supereffective|p1a: Obanija
+|-damage|p1a: Obanija|0 fnt
+|faint|p1a: Obanija
+|
+|
+|switch|p1a: Roulenflam|Flamigo, M|100/100
+|turn|22
+|
+|move|p1a: Roulenflam|Close Combat|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Roulenflam|def|1
+|-unboost|p1a: Roulenflam|spd|1
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|74/100
+|turn|23
+|
+|move|p1a: Roulenflam|Close Combat|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Roulenflam|def|1
+|-unboost|p1a: Roulenflam|spd|1
+|faint|p2a: Gholdengo
+|
+|win|Optimystik

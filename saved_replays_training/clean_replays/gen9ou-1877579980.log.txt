@@ -1,0 +1,234 @@
+|poke|p1|Sneasler, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Iron Treads|
+|poke|p1|Gholdengo|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Moth|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Magearna|
+|poke|p2|Volcarona, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Iron Treads|Iron Treads, shiny|100/100
+|switch|p2a: Zeah|Samurott-Hisui, M, shiny|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|move|p1a: Iron Treads|Stealth Rock|p2a: Zeah
+|-sidestart|p2: 96 Cents|move: Stealth Rock
+|move|p2a: Zeah|Ceaseless Edge|p1a: Iron Treads
+|-damage|p1a: Iron Treads|59/100
+|-sidestart|p1: IHaveAVPNLockOn|Spikes
+|
+|turn|2
+|
+|switch|p2a: Battleaxe|Dragapult, M|100/100
+|-damage|p2a: Battleaxe|88/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Rapid Spin|p2a: Battleaxe
+|-immune|p2a: Battleaxe
+|
+|turn|3
+|
+|move|p1a: Iron Treads|Steel Beam|p2a: Battleaxe
+|-damage|p2a: Battleaxe|28/100
+|-damage|p1a: Iron Treads|9/100|[from] steelbeam
+|move|p2a: Battleaxe|Will-O-Wisp|p1a: Iron Treads
+|-status|p1a: Iron Treads|brn
+|
+|-damage|p1a: Iron Treads|2/100 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Zeah|Samurott-Hisui, M, shiny|100/100
+|-damage|p2a: Zeah|88/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Steel Beam|p2a: Zeah
+|-resisted|p2a: Zeah
+|-damage|p2a: Zeah|53/100
+|-damage|p1a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|5
+|
+|move|p2a: Zeah|Sucker Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|50/100
+|move|p1a: Rillaboom|U-turn|p2a: Zeah
+|-supereffective|p2a: Zeah
+|-damage|p2a: Zeah|0 fnt
+|faint|p2a: Zeah
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|
+|-heal|p1a: Gholdengo|94/100|[from] Grassy Terrain
+|
+|switch|p2a: Pharaoh|Volcarona, F|100/100
+|turn|6
+|
+|move|p1a: Gholdengo|Trick|p2a: Pharaoh
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Pharaoh
+|-item|p2a: Pharaoh|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|move|p2a: Pharaoh|Quiver Dance|p2a: Pharaoh
+|-boost|p2a: Pharaoh|spa|1
+|-boost|p2a: Pharaoh|spd|1
+|-boost|p2a: Pharaoh|spe|1
+|
+|-heal|p1a: Gholdengo|99/100|[from] Grassy Terrain
+|turn|7
+|
+|switch|p2a: World Guardian|Zamazenta-Crowned|100/100
+|-damage|p2a: World Guardian|97/100|[from] Stealth Rock
+|-ability|p2a: World Guardian|Dauntless Shield|boost
+|-boost|p2a: World Guardian|def|1
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-heal|p2a: World Guardian|100/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|100/100|[from] Grassy Terrain
+|turn|8
+|
+|move|p2a: World Guardian|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|54/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-heal|p1a: Gholdengo|60/100|[from] Grassy Terrain
+|turn|9
+|
+|move|p2a: World Guardian|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|13/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: World Guardian
+|-damage|p2a: World Guardian|0 fnt
+|faint|p2a: World Guardian
+|
+|-heal|p1a: Gholdengo|19/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|
+|switch|p2a: Pharaoh|Volcarona, F|100/100
+|-damage|p2a: Pharaoh|51/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Pharaoh|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-damage|p1a: Iron Moth|88/100|[from] Spikes
+|turn|11
+|
+|move|p2a: Pharaoh|Flamethrower|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|59/100
+|move|p1a: Iron Moth|Flamethrower|p2a: Pharaoh
+|-damage|p2a: Pharaoh|0 fnt
+|faint|p2a: Pharaoh
+|
+|
+|switch|p2a: Battleaxe|Dragapult, M|28/100
+|-damage|p2a: Battleaxe|15/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Battleaxe|Light Screen|p2a: Battleaxe
+|-sidestart|p2: 96 Cents|move: Light Screen
+|move|p1a: Iron Moth|Flamethrower|p2a: Battleaxe
+|-resisted|p2a: Battleaxe
+|-damage|p2a: Battleaxe|0 fnt
+|faint|p2a: Battleaxe
+|
+|
+|switch|p2a: Biohazard|Sneasler, F|100/100
+|-damage|p2a: Biohazard|94/100|[from] Stealth Rock
+|-item|p2a: Biohazard|Air Balloon
+|turn|13
+|
+|move|p1a: Iron Moth|Flamethrower|p2a: Biohazard
+|-damage|p2a: Biohazard|51/100
+|-enditem|p2a: Biohazard|Air Balloon
+|move|p2a: Biohazard|Swords Dance|p2a: Biohazard
+|-boost|p2a: Biohazard|atk|2
+|
+|turn|14
+|
+|-terastallize|p2a: Biohazard|Flying
+|move|p2a: Biohazard|Acrobatics|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|88/100|[from] Spikes
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|15
+|
+|move|p2a: Biohazard|Acrobatics|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Rillaboom|Rillaboom, M|50/100
+|-damage|p1a: Rillaboom|38/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|16
+|
+|move|p2a: Biohazard|Acrobatics|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|-damage|p1a: Sneasler|88/100|[from] Spikes
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|17
+|
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Acrobatics|p2a: Biohazard
+|-damage|p2a: Biohazard|0 fnt
+|faint|p2a: Biohazard
+|
+|
+|switch|p2a: Enchanted Key|Magearna|100/100
+|-damage|p2a: Enchanted Key|95/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Enchanted Key|Draining Kiss|p1a: Sneasler
+|-damage|p1a: Sneasler|48/100
+|-heal|p2a: Enchanted Key|100/100|[from] drain|[of] p1a: Sneasler
+|
+|turn|19
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Enchanted Key|Draining Kiss|p1a: Sneasler
+|-damage|p1a: Sneasler|7/100
+|
+|-sideend|p2: 96 Cents|move: Light Screen
+|turn|20
+|
+|move|p1a: Sneasler|Close Combat|p2a: Enchanted Key
+|-damage|p2a: Enchanted Key|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Enchanted Key
+|
+|win|IHaveAVPNLockOn

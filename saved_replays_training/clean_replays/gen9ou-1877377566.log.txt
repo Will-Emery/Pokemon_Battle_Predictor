@@ -1,0 +1,205 @@
+|poke|p1|Dragapult, F|
+|poke|p1|Great Tusk|
+|poke|p1|Slowking, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Sneasler, F|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|1
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Sneasler|Dire Claw|p2a: Zamazenta
+|-immune|p2a: Zamazenta
+|
+|turn|2
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Zamazenta|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|39/100
+|
+|turn|3
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|60/100
+|move|p2a: Zamazenta|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|turn|5
+|
+|-terastallize|p1a: Zamazenta|Fairy
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|turn|6
+|
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|89/100
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|83/100
+|-unboost|p1a: Zamazenta|def|1
+|move|p1a: Zamazenta|Body Press|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|8
+|
+|-terastallize|p2a: Volcanion|Fairy
+|move|p1a: Zamazenta|Body Press|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|46/100
+|move|p2a: Volcanion|Sludge Bomb|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|38/100
+|
+|turn|9
+|
+|move|p1a: Zamazenta|Body Press|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|10
+|
+|move|p2a: Enamorus|Moonblast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|2/100
+|move|p1a: Zamazenta|Behemoth Bash|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|11
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|
+|switch|p1a: Slowking|Slowking, F|100/100
+|turn|12
+|
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Slowking|Surf|p2a: Thundurus
+|-damage|p2a: Thundurus|60/100
+|
+|turn|13
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|14
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|15
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|90/100
+|-status|p2a: Great Tusk|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|move|p2a: Great Tusk|Rapid Spin|p1a: Sneasler
+|-damage|p1a: Sneasler|75/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-heal|p2a: Great Tusk|96/100 psn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|83/100 psn|[from] psn
+|turn|16
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Great Tusk|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|81/100
+|
+|-heal|p2a: Great Tusk|90/100 psn|[from] item: Leftovers
+|-heal|p1a: Great Tusk|87/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|77/100 psn|[from] psn
+|turn|17
+|
+|move|p2a: Great Tusk|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|67/100
+|move|p1a: Great Tusk|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|71/100 psn
+|-enditem|p2a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|73/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|59/100 psn|[from] psn
+|turn|18
+|
+|move|p2a: Great Tusk|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|51/100
+|move|p1a: Great Tusk|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|36/100 psn
+|
+|-heal|p1a: Great Tusk|57/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|24/100 psn|[from] psn
+|turn|19
+|
+|move|p2a: Great Tusk|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|34/100
+|move|p1a: Great Tusk|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|4/100 psn
+|
+|-heal|p1a: Great Tusk|40/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|0 fnt|[from] psn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|win|dannyprice

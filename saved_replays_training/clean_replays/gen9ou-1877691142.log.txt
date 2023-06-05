@@ -1,0 +1,53 @@
+|poke|p1|Alomomola, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Corviknight, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Iron Treads|
+|poke|p1|Dragapult, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Greninja, F|
+|poke|p2|Gholdengo|
+|poke|p2|Roaring Moon|
+|poke|p2|Quagsire, M|
+|poke|p2|Maushold|
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|switch|p1a: Lvl 100 Mafia|Hoopa-Unbound|100/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Lvl 100 Mafia|[miss]
+|-miss|p2a: Gholdengo|p1a: Lvl 100 Mafia
+|
+|turn|2
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|move|p1a: Lvl 100 Mafia|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|27/100
+|-enditem|p2a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Lvl 100 Mafia
+|
+|turn|3
+|
+|switch|p2a: Maushold|Maushold|100/100
+|move|p1a: Lvl 100 Mafia|Psychic|p2a: Maushold
+|-damage|p2a: Maushold|29/100
+|
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Maushold|Population Bomb|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|97/100
+|-damage|p2a: Maushold|12/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|93/100
+|-damage|p2a: Maushold|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p2a: Maushold
+|-hitcount|p1a: Corviknight|2
+|
+|-message|cofano forfeited.
+|
+|win|Glizzward

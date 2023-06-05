@@ -1,0 +1,133 @@
+|poke|p1|Toxapex, M|
+|poke|p1|Slowbro-Galar, M|
+|poke|p1|Dragalge, F|
+|poke|p1|Amoonguss, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Iron Moth|
+|poke|p2|Mudsdale, M|
+|poke|p2|Sandaconda, M|
+|poke|p2|Klawf, F|
+|poke|p2|Toedscruel, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Revavroom, M|
+|teampreview
+|
+|start
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|switch|p2a: Sandaconda|Sandaconda, M|100/100
+|turn|1
+|
+|switch|p2a: Revavroom|Revavroom, M|100/100
+|move|p1a: Dragalge|Chilling Water|p2a: Revavroom
+|-damage|p2a: Revavroom|83/100
+|-unboost|p2a: Revavroom|atk|1
+|
+|turn|2
+|
+|move|p2a: Revavroom|Shift Gear|p2a: Revavroom
+|-boost|p2a: Revavroom|spe|2
+|-boost|p2a: Revavroom|atk|1
+|move|p1a: Dragalge|Chilling Water|p2a: Revavroom
+|-damage|p2a: Revavroom|66/100
+|-unboost|p2a: Revavroom|atk|1
+|
+|turn|3
+|
+|move|p2a: Revavroom|Zen Headbutt|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|59/100
+|move|p1a: Dragalge|Chilling Water|p2a: Revavroom
+|-damage|p2a: Revavroom|48/100
+|-unboost|p2a: Revavroom|atk|1
+|
+|-heal|p1a: Dragalge|65/100|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Revavroom|Zen Headbutt|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-crit|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|5
+|
+|switch|p2a: Klawf|Klawf, F|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Klawf
+|-resisted|p2a: Klawf
+|-damage|p2a: Klawf|47/100
+|-boost|p1a: Iron Moth|spa|1
+|-ability|p2a: Klawf|Anger Shell|boost
+|-boost|p2a: Klawf|atk|1
+|-boost|p2a: Klawf|spa|1
+|-boost|p2a: Klawf|spe|1
+|-unboost|p2a: Klawf|def|1
+|-unboost|p2a: Klawf|spd|1
+|
+|turn|6
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Klawf
+|-resisted|p2a: Klawf
+|-damage|p2a: Klawf|0 fnt
+|faint|p2a: Klawf
+|
+|
+|switch|p2a: Sandaconda|Sandaconda, M|100/100
+|turn|7
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p2a: Sandaconda
+|faint|p2a: Sandaconda
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|95/100|[from] Sandstorm
+|
+|switch|p2a: Toedscruel|Toedscruel, F|100/100
+|turn|8
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Toedscruel
+|-supereffective|p2a: Toedscruel
+|-damage|p2a: Toedscruel|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Toedscruel
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|89/100|[from] Sandstorm
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|9
+|
+|-terastallize|p1a: Iron Moth|Fire
+|move|p2a: Salazzle|Overheat|p1a: Iron Moth|[miss]
+|-miss|p2a: Salazzle|p1a: Iron Moth
+|move|p1a: Iron Moth|Fiery Dance|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Salazzle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|83/100|[from] Sandstorm
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|turn|10
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Mudsdale
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|77/100|[from] Sandstorm
+|
+|switch|p2a: Revavroom|Revavroom, M|48/100
+|turn|11
+|
+|move|p1a: Iron Moth|Fiery Dance|p2a: Revavroom
+|-supereffective|p2a: Revavroom
+|-damage|p2a: Revavroom|0 fnt
+|faint|p2a: Revavroom
+|
+|win|Dabmast3r

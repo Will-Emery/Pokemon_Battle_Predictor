@@ -1,0 +1,376 @@
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Zapdos|
+|poke|p1|Chien-Pao|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Great Tusk|
+|poke|p2|Ursaluna, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Clodsire, M|
+|poke|p2|Azumarill, F|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Zapdos|Hurricane|p2a: Corviknight|[miss]
+|-miss|p1a: Zapdos|p2a: Corviknight
+|
+|turn|2
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|10/100
+|move|p2a: Corviknight|U-turn|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|94/100
+|
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] U-turn
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p1a: Zapdos|U-turn|p2a: Ursaluna
+|-damage|p2a: Ursaluna|91/100 brn
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p2a: Ursaluna|Facade|p1a: Great Tusk
+|-damage|p1a: Great Tusk|22/100
+|
+|-damage|p2a: Ursaluna|85/100 brn|[from] brn
+|turn|4
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Ursaluna
+|-damage|p2a: Ursaluna|60/100 brn
+|-enditem|p2a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Ursaluna|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Ursaluna|54/100 brn|[from] brn
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|5
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Zamazenta
+|-damage|p2a: Zamazenta|62/100
+|
+|turn|6
+|
+|switch|p1a: Zapdos|Zapdos|94/100
+|move|p2a: Zamazenta|Body Press|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|63/100
+|
+|turn|7
+|
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Zapdos|U-turn|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|93/100
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] U-turn
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|-heal|p2a: Clodsire|99/100|[from] item: Leftovers
+|turn|8
+|
+|-terastallize|p2a: Clodsire|Water
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|71/100
+|move|p2a: Clodsire|Toxic|p1a: Chien-Pao
+|-status|p1a: Chien-Pao|tox
+|
+|-heal|p2a: Clodsire|77/100|[from] item: Leftovers
+|-damage|p1a: Chien-Pao|95/100 tox|[from] psn
+|turn|9
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|turn|10
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Zapdos|Zapdos|63/100|[from] Chilly Reception
+|move|p2a: Clodsire|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: kasshiliwa|move: Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|turn|11
+|
+|move|p1a: Zapdos|U-turn|p2a: Clodsire
+|-damage|p2a: Clodsire|86/100
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100|[from] U-turn
+|-damage|p1a: Lilligant|94/100|[from] Stealth Rock
+|move|p2a: Clodsire|Toxic|p1a: Lilligant
+|-status|p1a: Lilligant|tox
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Clodsire|93/100|[from] item: Leftovers
+|-damage|p1a: Lilligant|88/100 tox|[from] psn
+|turn|12
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: Lilligant|Leaf Blade|p2a: Cresselia
+|-damage|p2a: Cresselia|61/100
+|-damage|p1a: Lilligant|78/100 tox|[from] item: Life Orb
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Lilligant|66/100 tox|[from] psn
+|turn|13
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|-damage|p1a: Skeledirge|75/100|[from] Stealth Rock
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|86/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Skeledirge|82/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Cresselia
+|-damage|p2a: Cresselia|70/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-weather|none
+|-heal|p1a: Skeledirge|88/100|[from] item: Leftovers
+|turn|15
+|
+|switch|p2a: Ursaluna|Ursaluna, F|54/100 brn
+|move|p1a: Skeledirge|Torch Song|p2a: Ursaluna
+|-damage|p2a: Ursaluna|15/100 brn
+|-boost|p1a: Skeledirge|spa|1
+|
+|-heal|p1a: Skeledirge|94/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|9/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Skeledirge|Protect|p1a: Skeledirge
+|-singleturn|p1a: Skeledirge|Protect
+|move|p2a: Ursaluna|Earthquake|p1a: Skeledirge
+|-activate|p1a: Skeledirge|move: Protect
+|
+|-heal|p1a: Skeledirge|99/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|3/100 brn|[from] brn
+|turn|17
+|
+|switch|p1a: Zapdos|Zapdos|63/100
+|move|p2a: Ursaluna|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|
+|switch|p2a: Cresselia|Cresselia, F|70/100
+|turn|18
+|
+|move|p2a: Cresselia|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|39/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|89/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|-fieldend|move: Trick Room
+|turn|19
+|
+|switch|p2a: Clodsire|Clodsire, M, tera:Water|93/100
+|move|p1a: Zapdos|U-turn|p2a: Clodsire
+|-damage|p2a: Clodsire|77/100
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|66/100 tox|[from] U-turn
+|-damage|p1a: Lilligant|60/100 tox|[from] Stealth Rock
+|
+|-heal|p2a: Clodsire|83/100|[from] item: Leftovers
+|-damage|p1a: Lilligant|54/100 tox|[from] psn
+|turn|20
+|
+|switch|p2a: Cresselia|Cresselia, F|70/100
+|move|p1a: Lilligant|Leaf Blade|p2a: Cresselia
+|-damage|p2a: Cresselia|32/100
+|-damage|p1a: Lilligant|44/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Lilligant|32/100 tox|[from] psn
+|turn|21
+|
+|switch|p2a: Corviknight|Corviknight, M|10/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Lilligant|Leaf Blade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|2/100
+|-damage|p1a: Lilligant|16/100 tox|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Lilligant|6/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Lilligant|0 fnt|[from] psn
+|faint|p1a: Lilligant
+|
+|switch|p1a: Chien-Pao|Chien-Pao|95/100 tox
+|-damage|p1a: Chien-Pao|70/100 tox|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|22
+|
+|move|p1a: Chien-Pao|Ice Shard|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Chien-Pao|64/100 tox|[from] psn
+|
+|switch|p2a: Zamazenta|Zamazenta|62/100
+|turn|23
+|
+|-terastallize|p1a: Chien-Pao|Ghost
+|move|p2a: Zamazenta|Crunch|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Zamazenta|Crunch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|26/100
+|move|p1a: Slowking|Chilling Water|p2a: Zamazenta
+|-damage|p2a: Zamazenta|50/100
+|-unboost|p2a: Zamazenta|atk|1
+|
+|turn|25
+|
+|switch|p1a: Zapdos|Zapdos|89/100
+|move|p2a: Zamazenta|Crunch|p1a: Zapdos
+|-damage|p1a: Zapdos|66/100
+|
+|turn|26
+|
+|switch|p2a: Cresselia|Cresselia, F|32/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Cresselia
+|-damage|p2a: Cresselia|7/100
+|
+|turn|27
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|
+|switch|p2a: Clodsire|Clodsire, M, tera:Water|83/100
+|turn|28
+|
+|switch|p1a: Slowking|Slowking-Galar, F|59/100
+|-damage|p1a: Slowking|47/100|[from] Stealth Rock
+|move|p2a: Clodsire|Toxic|p1a: Slowking
+|-immune|p1a: Slowking
+|
+|-heal|p2a: Clodsire|89/100|[from] item: Leftovers
+|turn|29
+|
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|97/100
+|move|p2a: Clodsire|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|42/100
+|
+|-heal|p2a: Clodsire|95/100|[from] item: Leftovers
+|turn|30
+|
+|move|p1a: Slowking|Chilling Water|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|92/100
+|-unboost|p2a: Clodsire|atk|1
+|move|p2a: Clodsire|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|4/100
+|-enditem|p1a: Slowking|Aguav Berry|[eat]
+|-heal|p1a: Slowking|37/100|[from] item: Aguav Berry
+|
+|-heal|p2a: Clodsire|98/100|[from] item: Leftovers
+|turn|31
+|
+|move|p1a: Slowking|Slack Off|p1a: Slowking
+|-heal|p1a: Slowking|87/100
+|move|p2a: Clodsire|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|51/100
+|
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|turn|32
+|
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|move|p1a: Slowking|Chilling Water|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|94/100
+|-unboost|p2a: Azumarill|atk|1
+|
+|turn|33
+|
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|44/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|69/100|[from] item: Sitrus Berry
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Zapdos|Zapdos|66/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|34
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-status|p2a: Azumarill|par|[from] ability: Static|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Skeledirge|Skeledirge, F|99/100
+|-damage|p1a: Skeledirge|75/100|[from] Stealth Rock
+|turn|35
+|
+|move|p1a: Skeledirge|Protect|p1a: Skeledirge
+|-singleturn|p1a: Skeledirge|Protect
+|cant|p2a: Azumarill|par
+|
+|-weather|Snow|[upkeep]
+|-heal|p1a: Skeledirge|81/100|[from] item: Leftovers
+|turn|36
+|
+|move|p1a: Skeledirge|Hex|p2a: Azumarill
+|-damage|p2a: Azumarill|15/100 par
+|move|p2a: Azumarill|Liquidation|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Slowking|Slowking-Galar, F|84/100
+|-damage|p1a: Slowking|72/100|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Azumarill|Aqua Jet|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|win|SoftBrilliant

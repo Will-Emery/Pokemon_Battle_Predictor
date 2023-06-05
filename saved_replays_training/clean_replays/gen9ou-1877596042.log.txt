@@ -1,0 +1,526 @@
+|poke|p1|Slowbro, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Salamence, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Donphan, M|
+|poke|p1|Gardevoir, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Jugulis|
+|poke|p2|Pawmot, F|
+|poke|p2|Gastrodon, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Decidueye, F|
+|teampreview
+|
+|start
+|switch|p1a: Donphan|Donphan, M|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|1
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Donphan|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|61/100
+|-enditem|p2a: Pelipper|Choice Specs|[from] move: Knock Off|[of] p1a: Donphan
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|move|p2a: Pelipper|Hydro Pump|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|52/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Salamence|Roost|p1a: Salamence
+|-heal|p1a: Salamence|100/100
+|-singleturn|p1a: Salamence|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|87/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p2a: Tinkaton|Stealth Rock|p1a: Slowbro
+|-sidestart|p1: 7MM|move: Stealth Rock
+|move|p1a: Slowbro|Surf|p2a: Tinkaton
+|-damage|p2a: Tinkaton|66/100
+|
+|-weather|none
+|-heal|p2a: Tinkaton|73/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Decidueye|Decidueye, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Decidueye|94/100|[from] Sandstorm
+|turn|7
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|24/100
+|-enditem|p2a: Gastrodon|Eject Button
+|
+|switch|p2a: Pelipper|Pelipper, M|61/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|move|p2a: Pelipper|U-turn|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|97/100
+|
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-damage|p1a: Tinkaton|94/100|[from] Stealth Rock
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Iron Jugulis|Earth Power|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|33/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tinkaton|40/100|[from] item: Leftovers
+|turn|10
+|
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Pawmot|Pawmot, F|100/100
+|switch|p1a: Donphan|Donphan, M|100/100
+|-damage|p1a: Donphan|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|switch|p2a: Decidueye|Decidueye, F|94/100
+|move|p1a: Donphan|Rapid Spin|p2a: Decidueye
+|-immune|p2a: Decidueye
+|
+|-weather|none
+|turn|12
+|
+|move|p2a: Decidueye|Leaf Storm|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|35/100
+|-unboost|p2a: Decidueye|spa|2
+|move|p1a: Donphan|Knock Off|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|28/100
+|-enditem|p2a: Decidueye|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Donphan
+|
+|turn|13
+|
+|switch|p1a: Tyranitar|Tyranitar, F|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Decidueye|Roost|p2a: Decidueye
+|-heal|p2a: Decidueye|78/100
+|-singleturn|p2a: Decidueye|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Decidueye|72/100|[from] Sandstorm
+|turn|14
+|
+|switch|p2a: Gastrodon|Gastrodon, M|24/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Pelipper|Pelipper, M|61/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|15
+|
+|switch|p1a: Salamence|Salamence, M|97/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|move|p2a: Pelipper|U-turn|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|93/100
+|
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|switch|p1a: Tyranitar|Tyranitar, F|76/100
+|-damage|p1a: Tyranitar|64/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-terastallize|p2a: Iron Jugulis|Flying
+|move|p2a: Iron Jugulis|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|26/100
+|-start|p1a: Tyranitar|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Jugulis|94/100|[from] Sandstorm
+|turn|17
+|
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Pawmot|Pawmot, F|100/100
+|-activate|p1a: Tyranitar|confusion
+|move|p1a: Tyranitar|Stone Edge|p2a: Pawmot
+|-resisted|p2a: Pawmot
+|-damage|p2a: Pawmot|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pawmot|24/100|[from] Sandstorm
+|turn|18
+|
+|switch|p1a: Salamence|Salamence, M|93/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pawmot|atk|1
+|move|p2a: Pawmot|Ice Punch|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pawmot|18/100|[from] Sandstorm
+|-damage|p1a: Salamence|0 fnt|[from] Sandstorm
+|faint|p1a: Salamence
+|
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Natural Cure|[from] ability: Trace|[of] p2a: Pawmot
+|turn|19
+|
+|switch|p2a: Tinkaton|Tinkaton, F|73/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Gardevoir|Mystical Fire|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|39/100
+|-unboost|p2a: Tinkaton|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gardevoir|82/100|[from] Sandstorm
+|-heal|p2a: Tinkaton|45/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|74/100
+|
+|-weather|none
+|-heal|p2a: Tinkaton|51/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Decidueye|Decidueye, F|72/100
+|switch|p1a: Tyranitar|Tyranitar, F|26/100
+|-damage|p1a: Tyranitar|14/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Decidueye|65/100|[from] Sandstorm
+|turn|22
+|
+|move|p1a: Tyranitar|Crunch|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p2a: Pelipper|Pelipper, M|61/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|23
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Pelipper|U-turn|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|78/100
+|-damage|p2a: Pelipper|45/100|[from] item: Rocky Helmet|[of] p1a: Slowbro
+|
+|switch|p2a: Iron Jugulis|Iron Jugulis, tera:Flying|94/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|24
+|
+|switch|p1a: Donphan|Donphan, M|35/100
+|-damage|p1a: Donphan|29/100|[from] Stealth Rock
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|faint|p1a: Donphan
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Tinkaton|Tinkaton, F|40/100
+|-damage|p1a: Tinkaton|33/100|[from] Stealth Rock
+|-ability|p1a: Tinkaton|Mold Breaker
+|turn|25
+|
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, M|45/100
+|move|p1a: Tinkaton|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Liz Angeles ✿|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tinkaton|40/100|[from] item: Leftovers
+|turn|26
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|move|p2a: Pelipper|Hydro Pump|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|52/100
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|
+|switch|p1a: Tyranitar|Tyranitar, F|14/100
+|-damage|p1a: Tyranitar|1/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|95/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|89/100|[from] Sandstorm
+|turn|28
+|
+|move|p2a: Pelipper|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|switch|p2a: Pawmot|Pawmot, F|18/100|[from] U-turn
+|-damage|p2a: Pawmot|12/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pawmot|6/100|[from] Sandstorm
+|
+|switch|p1a: Slowbro|Slowbro, F|85/100
+|-damage|p1a: Slowbro|72/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
+|
+|-heal|p2: Gastrodon|50/100|[from] move: Revival Blessing
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pawmot|0 fnt|[from] Sandstorm
+|-damage|p1a: Slowbro|94/100|[from] Sandstorm
+|faint|p2a: Pawmot
+|
+|switch|p2a: Gastrodon|Gastrodon, M|50/100
+|-damage|p2a: Gastrodon|44/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|94/100
+|move|p1a: Slowbro|Iron Defense|p1a: Slowbro
+|-boost|p1a: Slowbro|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slowbro|88/100|[from] Sandstorm
+|turn|31
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Slowbro
+|-damage|p1a: Slowbro|61/100
+|move|p1a: Slowbro|Body Press|p2a: Gastrodon
+|-damage|p2a: Gastrodon|34/100
+|
+|-weather|none
+|turn|32
+|
+|move|p2a: Gastrodon|Clear Smog|p1a: Slowbro
+|-damage|p1a: Slowbro|50/100
+|-clearboost|p1a: Slowbro
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|99/100
+|
+|turn|33
+|
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|84/100
+|move|p1a: Slowbro|Iron Defense|p1a: Slowbro
+|-boost|p1a: Slowbro|def|2
+|
+|turn|34
+|
+|move|p2a: Gastrodon|Clear Smog|p1a: Slowbro
+|-damage|p1a: Slowbro|88/100
+|-clearboost|p1a: Slowbro
+|move|p1a: Slowbro|Body Press|p2a: Gastrodon
+|-damage|p2a: Gastrodon|55/100
+|
+|turn|35
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Slowbro
+|-damage|p1a: Slowbro|60/100
+|-unboost|p1a: Slowbro|spd|1
+|move|p1a: Slowbro|Iron Defense|p1a: Slowbro
+|-boost|p1a: Slowbro|def|2
+|
+|turn|36
+|
+|move|p2a: Gastrodon|Clear Smog|p1a: Slowbro
+|-damage|p1a: Slowbro|42/100
+|-clearboost|p1a: Slowbro
+|move|p1a: Slowbro|Body Press|p2a: Gastrodon
+|-damage|p2a: Gastrodon|26/100
+|
+|turn|37
+|
+|switch|p1a: Tinkaton|Tinkaton, F|40/100
+|-damage|p1a: Tinkaton|33/100|[from] Stealth Rock
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|76/100
+|
+|-heal|p1a: Tinkaton|40/100|[from] item: Leftovers
+|turn|38
+|
+|switch|p2a: Pelipper|Pelipper, M|89/100
+|-damage|p2a: Pelipper|64/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|38/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tinkaton|46/100|[from] item: Leftovers
+|turn|39
+|
+|move|p2a: Pelipper|Hydro Pump|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Gardevoir|Gardevoir, F|82/100
+|-damage|p1a: Gardevoir|70/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Drizzle|[from] ability: Trace|[of] p2a: Pelipper
+|turn|40
+|
+|-terastallize|p1a: Gardevoir|Fairy
+|move|p1a: Gardevoir|Moonblast|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Tinkaton|Tinkaton, F|51/100
+|-damage|p2a: Tinkaton|45/100|[from] Stealth Rock
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|41
+|
+|switch|p1a: Slowbro|Slowbro, F|76/100
+|-damage|p1a: Slowbro|63/100|[from] Stealth Rock
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tinkaton|51/100|[from] item: Leftovers
+|turn|42
+|
+|switch|p2a: Gastrodon|Gastrodon, M|76/100
+|-damage|p2a: Gastrodon|70/100|[from] Stealth Rock
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|99/100
+|
+|-weather|none
+|turn|43
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Slowbro
+|-damage|p1a: Slowbro|71/100
+|-unboost|p1a: Slowbro|spd|1
+|move|p1a: Slowbro|Body Press|p2a: Gastrodon
+|-damage|p2a: Gastrodon|41/100
+|
+|turn|44
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Slowbro
+|-damage|p1a: Slowbro|26/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|76/100
+|
+|turn|45
+|
+|switch|p1a: Gardevoir|Gardevoir, F, tera:Fairy|70/100
+|-damage|p1a: Gardevoir|58/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Storm Drain|[from] ability: Trace|[of] p2a: Gastrodon
+|move|p2a: Gastrodon|Earth Power|p1a: Gardevoir
+|-damage|p1a: Gardevoir|25/100
+|
+|turn|46
+|
+|move|p1a: Gardevoir|Moonblast|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|
+|switch|p2a: Tinkaton|Tinkaton, F|51/100
+|-damage|p2a: Tinkaton|45/100|[from] Stealth Rock
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|47
+|
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|-damage|p1a: Slowbro|88/100|[from] Stealth Rock
+|switch|p2a: Iron Jugulis|Iron Jugulis, tera:Flying|94/100
+|-damage|p2a: Iron Jugulis|69/100|[from] Stealth Rock
+|
+|turn|48
+|
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|
+|switch|p1a: Gardevoir|Gardevoir, F, tera:Fairy|25/100
+|-damage|p1a: Gardevoir|12/100|[from] Stealth Rock
+|turn|49
+|
+|move|p1a: Gardevoir|Moonblast|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|
+|switch|p2a: Tinkaton|Tinkaton, F|45/100
+|-ability|p1a: Gardevoir|Mold Breaker
+|-ability|p1a: Gardevoir|Mold Breaker|[from] ability: Trace|[of] p2a: Tinkaton
+|-damage|p2a: Tinkaton|39/100|[from] Stealth Rock
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|50
+|
+|move|p1a: Gardevoir|Moonblast|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|15/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|win|Liz Angeles ✿

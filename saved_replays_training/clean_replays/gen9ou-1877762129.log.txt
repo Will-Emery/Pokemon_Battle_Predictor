@@ -1,0 +1,287 @@
+|poke|p1|Glastrier|
+|poke|p1|Magearna|
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dragonite, F|
+|poke|p2|Volcarona, M|
+|poke|p2|Magearna|
+|teampreview
+|
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|31/100
+|-sidestart|p1: jmn01|Spikes
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|2
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Glastrier|Glastrier|100/100|[from] Chilly Reception
+|move|p2a: Samurott|Ceaseless Edge|p1a: Glastrier
+|-damage|p1a: Glastrier|79/100
+|-sidestart|p1: jmn01|Spikes
+|
+|-weather|Snow|[upkeep]
+|turn|3
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-terastallize|p1a: Glastrier|Electric
+|move|p1a: Glastrier|Tera Blast|p2a: Zamazenta
+|-damage|p2a: Zamazenta|77/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Zamazenta|83/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Glastrier|Icicle Crash|p2a: Zamazenta
+|-damage|p2a: Zamazenta|56/100
+|cant|p2a: Zamazenta|flinch
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Zamazenta|62/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Glastrier|Icicle Crash|p2a: Zamazenta
+|-damage|p2a: Zamazenta|34/100
+|move|p2a: Zamazenta|Body Press|p1a: Glastrier
+|-damage|p1a: Glastrier|47/100
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Zamazenta|40/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|6
+|
+|move|p2a: Zamazenta|Body Press|p1a: Glastrier
+|-damage|p1a: Glastrier|12/100
+|move|p1a: Glastrier|Tera Blast|p2a: Zamazenta
+|-damage|p2a: Zamazenta|12/100
+|
+|-weather|none
+|-heal|p2a: Zamazenta|18/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Slowking|Slowking-Galar, F|65/100
+|-damage|p1a: Slowking|48/100|[from] Spikes
+|move|p2a: Zamazenta|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|36/100
+|
+|-heal|p2a: Zamazenta|24/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|84/100|[from] Spikes
+|
+|turn|9
+|
+|-terastallize|p2a: Samurott|Water
+|move|p2a: Samurott|Razor Shell|p1a: Magearna
+|-damage|p1a: Magearna|24/100
+|move|p1a: Magearna|Trick Room|p1a: Magearna
+|-fieldstart|move: Trick Room|[of] p1a: Magearna
+|
+|turn|10
+|
+|move|p1a: Magearna|Fleur Cannon|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|-enditem|p1a: Magearna|Eject Pack
+|faint|p2a: Samurott
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|switch|p1a: Slowking|Slowking-Galar, F|69/100
+|-damage|p1a: Slowking|53/100|[from] Spikes
+|
+|
+|switch|p2a: Magearna|Magearna|100/100
+|turn|11
+|
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Glastrier|Glastrier, tera:Electric|12/100|[from] Chilly Reception
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-weather|Snow|[upkeep]
+|turn|12
+|
+|move|p1a: Glastrier|Stomping Tantrum|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|45/100
+|move|p2a: Magearna|Draining Kiss|p1a: Glastrier
+|-crit|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|-heal|p2a: Magearna|55/100|[from] drain|[of] p1a: Glastrier
+|faint|p1a: Glastrier
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Magearna|61/100|[from] item: Leftovers
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-damage|p1a: Ursaluna|84/100|[from] Spikes
+|turn|13
+|
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Ursaluna|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-weather|Snow|[upkeep]
+|-fieldend|move: Trick Room
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|14
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Ursaluna
+|-damage|p1a: Ursaluna|53/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Ursaluna|47/100 brn|[from] brn
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|15
+|
+|switch|p1a: Slowking|Slowking-Galar, F|86/100
+|-damage|p1a: Slowking|70/100|[from] Spikes
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Slowking
+|-damage|p1a: Slowking|8/100
+|
+|-weather|none
+|turn|16
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|17
+|
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Cresselia
+|-damage|p1a: Cresselia|58/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|18
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|84/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Chien-Pao|Ice Spinner|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|54/100
+|
+|-heal|p1a: Kingambit|60/100|[from] item: Leftovers
+|turn|19
+|
+|switch|p2a: Zamazenta|Zamazenta|24/100
+|move|p1a: Kingambit|Iron Head|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Kingambit|66/100|[from] item: Leftovers
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|turn|20
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-status|p1a: Kingambit|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|faint|p2a: Volcarona
+|
+|-heal|p1a: Kingambit|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingambit|66/100 brn|[from] brn
+|
+|switch|p2a: Magearna|Magearna|61/100
+|turn|21
+|
+|move|p1a: Kingambit|Iron Head|p2a: Magearna
+|-damage|p2a: Magearna|38/100
+|move|p2a: Magearna|Calm Mind|p2a: Magearna
+|-boost|p2a: Magearna|spa|1
+|-boost|p2a: Magearna|spd|1
+|
+|-heal|p1a: Kingambit|73/100 brn|[from] item: Leftovers
+|-heal|p2a: Magearna|44/100|[from] item: Leftovers
+|-damage|p1a: Kingambit|66/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|22
+|
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Cresselia|Cresselia, F|58/100
+|move|p2a: Magearna|Draining Kiss|p1a: Cresselia
+|-damage|p1a: Cresselia|28/100
+|-heal|p2a: Magearna|71/100|[from] drain|[of] p1a: Cresselia
+|
+|-heal|p2a: Magearna|77/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|-heal|p2a: Magearna|100/100|[from] drain|[of] p1a: Cresselia
+|faint|p1a: Cresselia
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Magearna|Magearna|24/100
+|-damage|p1a: Magearna|7/100|[from] Spikes
+|turn|24
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|
+|
+|switch|p1a: Kingambit|Kingambit, M|66/100 brn
+|-damage|p1a: Kingambit|50/100 brn|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|25
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-ability|p2a: Magearna|Soul-Heart|boost
+|-boost|p2a: Magearna|spa|1
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F|47/100 brn
+|-damage|p1a: Ursaluna|30/100 brn|[from] Spikes
+|turn|26
+|
+|move|p2a: Magearna|Draining Kiss|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|Namida Doragon

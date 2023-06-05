@@ -1,0 +1,263 @@
+|poke|p1|Indeedee, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Sneasler, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Heatran, M|
+|poke|p1|Toxapex, F|
+|poke|p2|Magearna|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Corviknight|[miss]
+|-miss|p2a: Samurott|p1a: Corviknight
+|move|p1a: Corviknight|Body Press|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|33/100
+|
+|turn|2
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|63/100
+|-sidestart|p1: chromd|Spikes
+|-damage|p2a: Samurott|16/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|switch|p1a: Heatran|Heatran, M|100/100|[from] U-turn
+|-item|p1a: Heatran|Air Balloon
+|
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|3
+|
+|-terastallize|p1a: Heatran|Grass
+|move|p1a: Heatran|Magma Storm|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|86/100
+|-activate|p2a: Garganacl|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Garganacl|Salt Cure|p1a: Heatran
+|-damage|p1a: Heatran|88/100
+|-start|p1a: Heatran|Salt Cure
+|-enditem|p1a: Heatran|Air Balloon
+|
+|-heal|p2a: Garganacl|92/100|[from] item: Leftovers
+|-damage|p1a: Heatran|76/100|[from] Salt Cure
+|-damage|p2a: Garganacl|80/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|4
+|
+|move|p1a: Heatran|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|46/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|96/100
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Heatran|63/100|[from] Salt Cure
+|-damage|p2a: Garganacl|88/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|5
+|
+|move|p1a: Heatran|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|55/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|62/100|[from] item: Leftovers
+|-damage|p1a: Heatran|51/100|[from] Salt Cure
+|-damage|p2a: Garganacl|49/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|6
+|
+|move|p1a: Heatran|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|14/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|64/100
+|
+|-heal|p2a: Garganacl|70/100|[from] item: Leftovers
+|-damage|p1a: Heatran|38/100|[from] Salt Cure
+|-damage|p2a: Garganacl|57/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|7
+|
+|switch|p1a: Corviknight|Corviknight, F|63/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-end|p2a: Garganacl|Magma Storm|[partiallytrapped]|[silent]
+|turn|8
+|
+|move|p1a: Corviknight|Defog|p2a: Garganacl
+|-unboost|p2a: Garganacl|evasion|1
+|-sideend|p1: chromd|Spikes|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Garganacl|Salt Cure|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100
+|-start|p1a: Corviknight|Salt Cure
+|
+|-damage|p1a: Corviknight|25/100|[from] Salt Cure
+|turn|9
+|
+|move|p1a: Corviknight|Body Press|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|75/100
+|move|p2a: Garganacl|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p2a: Garganacl|81/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|0 fnt|[from] Salt Cure
+|faint|p1a: Corviknight
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|10
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Toxapex
+|-damage|p1a: Toxapex|87/100
+|-start|p1a: Toxapex|Salt Cure
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|-heal|p2a: Garganacl|88/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|69/100|[from] Salt Cure
+|turn|11
+|
+|move|p1a: Toxapex|Chilling Water|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|74/100
+|-unboost|p2a: Garganacl|atk|1
+|move|p2a: Garganacl|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|
+|-heal|p1a: Toxapex|48/100|[from] item: Black Sludge
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|23/100|[from] Salt Cure
+|turn|12
+|
+|move|p1a: Toxapex|Chilling Water|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|59/100
+|-unboost|p2a: Garganacl|atk|1
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Toxapex|29/100|[from] item: Black Sludge
+|-heal|p2a: Garganacl|65/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|4/100|[from] Salt Cure
+|turn|13
+|
+|move|p1a: Toxapex|Chilling Water|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|51/100
+|-unboost|p2a: Garganacl|atk|1
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: Toxapex|10/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|0 fnt|[from] Salt Cure
+|faint|p1a: Toxapex
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|turn|14
+|
+|move|p1a: Indeedee|Encore|p2a: Garganacl
+|-start|p2a: Garganacl|Encore
+|move|p2a: Garganacl|Recover||[still]
+|-fail|p2a: Garganacl|heal
+|
+|-fieldend|move: Psychic Terrain
+|turn|15
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|
+|turn|16
+|
+|move|p2a: Tornadus|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|61/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p1a: Samurott|Ceaseless Edge|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|-sidestart|p2: pinapple321|Spikes
+|-damage|p1a: Samurott|45/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|turn|17
+|
+|move|p1a: Samurott|Razor Shell|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|44/100
+|-unboost|p2a: Great Tusk|def|1
+|-damage|p1a: Samurott|28/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|move|p2a: Great Tusk|Rapid Spin|p1a: Samurott
+|-damage|p1a: Samurott|9/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: pinapple321|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|turn|18
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|19
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Indeedee|Psychic|p2a: Garganacl
+|-damage|p2a: Garganacl|69/100
+|
+|-heal|p2a: Garganacl|75/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|move|p2a: Garganacl|Salt Cure|p1: Indeedee|[notarget]
+|-fail|p2a: Garganacl
+|
+|-heal|p2a: Garganacl|81/100|[from] item: Leftovers
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|21
+|
+|-terastallize|p2a: Garganacl|Water
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Garganacl|Earthquake|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|15/100
+|
+|-heal|p2a: Garganacl|88/100|[from] item: Leftovers
+|turn|22
+|
+|switch|p2a: Great Tusk|Great Tusk|44/100
+|move|p1a: Sneasler|Dire Claw|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|11/100
+|-damage|p1a: Sneasler|0 fnt|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p1a: Sneasler
+|
+|-message|chromd forfeited.
+|
+|win|pinapple321
