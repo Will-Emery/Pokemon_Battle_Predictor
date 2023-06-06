@@ -1,0 +1,273 @@
+|j|☆spinningstarmieyt
+|j|☆Green Costume
+|t:|1686008192
+|gametype|singles
+|player|p1|spinningstarmieyt|266|1266
+|player|p2|Green Costume|pokemaniac|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p2|Pawmot, F|
+|poke|p2|Abomasnow, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Diancie|
+|teampreview
+|c|☆Green Costume|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spinningstarmieyt)
+|inactive|Green Costume has 120 seconds left.
+|
+|t:|1686008255
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|turn|1
+|
+|t:|1686008266
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|92/100
+|
+|t:|1686008271
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p1a: Great Tusk|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|70/100
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1686008281
+|move|p1a: Great Tusk|Stealth Rock|p2a: Slowking
+|-sidestart|p2: Green Costume|move: Stealth Rock
+|move|p2a: Slowking|Psychic|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1686008291
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|3
+|
+|t:|1686008294
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-damage|p2a: Slowking|64/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1686008300
+|move|p2a: Slowking|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|move|p1a: Dragapult|Hex|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1686008312
+|switch|p2a: Abomasnow|Abomasnow, M, shiny|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Snow|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|5
+|
+|t:|1686008320
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: Green Costume|move: Aurora Veil
+|move|p1a: Dragapult|Dragon Darts|p2a: Abomasnow
+|-damage|p2a: Abomasnow|60/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Abomasnow
+|-damage|p2a: Abomasnow|43/100
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1686008333
+|move|p2a: Abomasnow|Blizzard|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|
+|t:|1686008342
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|t:|1686008348
+|move|p2a: Abomasnow|Leech Seed|p1a: Cinderace
+|-start|p1a: Cinderace|move: Leech Seed
+|move|p1a: Cinderace|High Jump Kick|p2a: Abomasnow|[miss]
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-miss|p1a: Cinderace|p2a: Abomasnow
+|-damage|p1a: Cinderace|51/100|[from] highjumpkick
+|
+|-weather|Snow|[upkeep]
+|-damage|p1a: Cinderace|38/100|[from] Leech Seed|[of] p2a: Abomasnow
+|-heal|p2a: Abomasnow|53/100|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|inactive|Green Costume has 120 seconds left.
+|
+|t:|1686008379
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|9
+|inactive|Green Costume has 120 seconds left.
+|
+|t:|1686008390
+|move|p2a: Landorus|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: spinningstarmieyt|move: Stealth Rock
+|move|p1a: Tornadus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|86/100
+|
+|t:|1686008392
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100|[from] U-turn
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|10
+|inactive|Green Costume has 120 seconds left.
+|
+|t:|1686008407
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|move|p1a: Enamorus|Draining Kiss|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|86/100
+|-heal|p1a: Enamorus|85/100|[from] drain|[of] p2a: Cinderace
+|-damage|p1a: Enamorus|75/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1686008422
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Cinderace|Iron Head|p1a: Zapdos
+|-start|p2a: Cinderace|typechange|Steel|[from] ability: Libero
+|-resisted|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|81/100
+|
+|upkeep
+|turn|12
+|
+|t:|1686008437
+|move|p2a: Cinderace|Pyro Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|55/100
+|move|p1a: Zapdos|Heat Wave|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|50/100
+|
+|-sideend|p2: Green Costume|move: Aurora Veil
+|upkeep
+|turn|13
+|
+|t:|1686008453
+|switch|p2a: Landorus|Landorus-Therian, M|86/100
+|-damage|p2a: Landorus|74/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|switch|p1a: Cinderace|Cinderace, M|38/100
+|
+|upkeep
+|turn|14
+|
+|t:|1686008466
+|-terastallize|p1a: Cinderace|Fire
+|move|p2a: Landorus|Stone Edge|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1686008476
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|15
+|c|☆Green Costume|lol
+|
+|t:|1686008480
+|move|p2a: Landorus|Stone Edge|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1686008485
+|switch|p1a: Zapdos|Zapdos|55/100
+|turn|16
+|c|☆Green Costume|kinda wild
+|c|☆spinningstarmieyt|i bet you wont miss a stone edge
+|c|☆spinningstarmieyt|even though I missed an hjk
+|
+|t:|1686008510
+|move|p2a: Landorus|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|c|☆Green Costume|I'm just thinking to myself
+|
+|t:|1686008514
+|switch|p1a: Enamorus|Enamorus-Therian, F|75/100
+|-damage|p1a: Enamorus|50/100|[from] Stealth Rock
+|turn|17
+|c|☆Green Costume|how ur entire team checks rock
+|c|☆Green Costume|or the remains
+|
+|t:|1686008529
+|move|p2a: Landorus|Stone Edge|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|win|Green Costume
+|raw|spinningstarmieyt's rating: 1266 → 1244(-22 for losing)
+|raw|Green Costume's rating: 1311 → 1328(+17 for winning)
+|c|☆spinningstarmieyt|gg
+|c|☆Green Costume|GG
+|l|☆spinningstarmieyt

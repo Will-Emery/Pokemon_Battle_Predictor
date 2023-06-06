@@ -1,0 +1,182 @@
+|j|☆GreedyJ
+|j|☆LiJing0520
+|t:|1686002736
+|gametype|singles
+|player|p1|GreedyJ|169|1081
+|player|p2|LiJing0520|266|1171
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Breloom, M|
+|poke|p1|Gholdengo|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Toxapex, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Bellibolt, F|
+|poke|p2|Pawmot, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LiJing0520)
+|
+|t:|1686002755
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|turn|1
+|
+|t:|1686002766
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Landorus|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|upkeep
+|turn|2
+|
+|t:|1686002776
+|move|p1a: Landorus|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|50/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|56/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1686002784
+|-terastallize|p2a: Dragonite|Normal
+|move|p1a: Landorus|Rock Slide|p2a: Dragonite
+|-damage|p2a: Dragonite|28/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p2a: Dragonite|34/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1686002793
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Dragonite|Extreme Speed|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-heal|p2a: Dragonite|40/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1686002801
+|move|p2a: Dragonite|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Dragonite|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686002807
+|switch|p1a: Breloom|Breloom, M|100/100
+|turn|6
+|
+|t:|1686002811
+|move|p2a: Dragonite|Extreme Speed|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-heal|p2a: Dragonite|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686002817
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|7
+|
+|t:|1686002822
+|move|p2a: Dragonite|Earthquake|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|15/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p2a: Dragonite|59/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1686002831
+|move|p2a: Dragonite|Fire Punch|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Dragonite|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686002833
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|9
+|
+|t:|1686002839
+|move|p2a: Dragonite|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Dragonite|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686002844
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-fail|p2a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Dragonite
+|turn|10
+|
+|t:|1686002851
+|move|p2a: Dragonite|Extreme Speed|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Dragonite|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686002856
+|switch|p1a: Cresselia|Cresselia, F, shiny|100/100
+|turn|11
+|
+|t:|1686002863
+|move|p2a: Dragonite|Extreme Speed|p1a: Cresselia
+|-damage|p1a: Cresselia|39/100
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-heal|p2a: Dragonite|84/100|[from] item: Leftovers
+|-heal|p1a: Cresselia|45/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1686002874
+|move|p2a: Dragonite|Extreme Speed|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|win|LiJing0520
+|raw|GreedyJ's rating: 1081 → 1064(-17 for losing)
+|raw|LiJing0520's rating: 1171 → 1190(+19 for winning)
+|l|☆GreedyJ

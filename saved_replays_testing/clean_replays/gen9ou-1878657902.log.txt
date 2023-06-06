@@ -1,0 +1,203 @@
+# advantage = p2
+|poke|p1|Tauros, M|
+|poke|p1|Meloetta|
+|poke|p1|Ursaluna, M|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Braviary, M|
+|poke|p1|Arboliva, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: p2|Reflect
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|
+|turn|2
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: p2|move: Light Screen
+|move|p1a: Braviary|Body Slam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|30/100
+|
+|turn|3
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Braviary
+|-status|p1a: Braviary|par
+|move|p1a: Braviary|Bulk Up|p1a: Braviary
+|-boost|p1a: Braviary|atk|1
+|-boost|p1a: Braviary|def|1
+|
+|turn|4
+|
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Braviary
+|-unboost|p1a: Braviary|atk|1
+|-unboost|p1a: Braviary|spa|1
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100|[from] Parting Shot
+|cant|p1a: Braviary|par
+|
+|turn|5
+|
+|-terastallize|p2a: Enamorus|Fighting
+|move|p2a: Enamorus|Superpower|p1a: Braviary
+|-damage|p1a: Braviary|62/100 par
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|move|p1a: Braviary|Body Slam|p2a: Enamorus
+|-damage|p2a: Enamorus|40/100
+|
+|turn|6
+|
+|move|p2a: Enamorus|Superpower|p1a: Braviary
+|-damage|p1a: Braviary|10/100 par
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|move|p1a: Braviary|Brave Bird|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-damage|p1a: Braviary|1/100 par|[from] Recoil
+|-damage|p1a: Braviary|0 fnt|[from] item: Life Orb
+|faint|p1a: Braviary
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|switch|p1a: Tauros|Tauros, M|100/100
+|turn|7
+|
+|move|p1a: Tauros|Body Slam|p2a: Samurott
+|-damage|p2a: Samurott|60/100
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|turn|8
+|
+|move|p1a: Tauros|Body Slam|p2a: Samurott
+|-damage|p2a: Samurott|20/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|-sidestart|p1: p1|Spikes
+|faint|p1a: Tauros
+|-damage|p2a: Samurott|10/100|[from] item: Life Orb
+|
+|-sideend|p2: p2|Reflect
+|
+|switch|p1a: Arboliva|Arboliva, F|100/100
+|-damage|p1a: Arboliva|88/100|[from] Spikes
+|turn|9
+|
+|move|p1a: Arboliva|Hyper Voice|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-sideend|p2: p2|move: Light Screen
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|10
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Arboliva
+|-status|p1a: Arboliva|brn
+|move|p1a: Arboliva|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Arboliva|82/100 brn|[from] brn
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|11
+|
+|move|p1a: Arboliva|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|48/100
+|move|p2a: Great Tusk|Earthquake|p1a: Arboliva
+|-damage|p1a: Arboliva|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|
+|switch|p1a: Arboliva|Arboliva, F|100/100
+|-damage|p1a: Arboliva|88/100|[from] Spikes
+|turn|12
+|
+|-terastallize|p1a: Arboliva|Grass
+|move|p2a: Great Tusk|Close Combat|p1a: Arboliva
+|-damage|p1a: Arboliva|13/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p1a: Arboliva
+|move|p1a: Arboliva|Giga Drain|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Arboliva|42/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Arboliva|48/100|[from] Grassy Terrain
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|30/100
+|turn|13
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: p2|Reflect
+|move|p1a: Arboliva|Giga Drain|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-heal|p1a: Arboliva|64/100|[from] drain|[of] p2a: Grimmsnarl
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Arboliva|70/100|[from] Grassy Terrain
+|
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|14
+|
+|move|p2a: Kleavor|U-turn|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-damage|p1a: Arboliva|0 fnt
+|faint|p1a: Arboliva
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|88/100|[from] Spikes
+|turn|15
+|
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Kleavor|Swords Dance|p2a: Kleavor
+|-boost|p2a: Kleavor|atk|2
+|
+|-heal|p1a: Ursaluna|94/100|[from] Grassy Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|16
+|
+|move|p2a: Kleavor|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Kleavor|def|1
+|-unboost|p2a: Kleavor|spd|1
+|faint|p1a: Ursaluna
+|
+|-fieldend|move: Grassy Terrain
+|
+|switch|p1a: Meloetta|Meloetta|100/100
+|-damage|p1a: Meloetta|88/100|[from] Spikes
+|turn|17
+|
+|move|p2a: Kleavor|Close Combat|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|-unboost|p2a: Kleavor|def|1
+|-unboost|p2a: Kleavor|spd|1
+|faint|p1a: Meloetta
+|
+|win|p2

@@ -1,0 +1,281 @@
+# advantage = p2
+|poke|p1|Cinderace, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Ceruledge, F|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Garganacl, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Uxie|
+|poke|p2|Ursaluna, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Farigiraf, F|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Magician|Hatterene, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Magician
+|-damage|p2a: Magician|79/100
+|-enditem|p2a: Magician|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Magician|Trick Room|p2a: Magician
+|-fieldstart|move: Trick Room|[of] p2a: Magician
+|
+|turn|2
+|
+|move|p2a: Magician|Dazzling Gleam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|50/100
+|move|p1a: Great Tusk|Knock Off|p2a: Magician
+|-damage|p2a: Magician|65/100
+|
+|turn|3
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Magician|Dazzling Gleam|p1a: Garganacl
+|-damage|p1a: Garganacl|66/100
+|
+|turn|4
+|
+|switch|p2a: Death|Ursaluna, F, shiny|100/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-status|p2a: Death|brn|[from] item: Flame Orb
+|turn|5
+|
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|move|p2a: Death|Headlong Rush|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-unboost|p2a: Death|def|1
+|-unboost|p2a: Death|spd|1
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|-damage|p2a: Death|94/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p2a: Temperance|Farigiraf, F|100/100
+|move|p1a: Ceruledge|Destiny Bond|p1a: Ceruledge
+|-singlemove|p1a: Ceruledge|Destiny Bond
+|
+|turn|7
+|
+|switch|p1a: Great Tusk|Great Tusk|50/100
+|move|p2a: Temperance|Protect||[still]
+|-fail|p2a: Temperance
+|
+|turn|8
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Temperance
+|-supereffective|p2a: Temperance
+|-damage|p2a: Temperance|44/100
+|-enditem|p2a: Temperance|Sitrus Berry|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Temperance|Psyshock|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|12/100
+|
+|turn|9
+|
+|move|p1a: Great Tusk|Body Press|p2a: Temperance
+|-damage|p2a: Temperance|0 fnt
+|faint|p2a: Temperance
+|
+|
+|switch|p2a: Hermit|Uxie|100/100
+|turn|10
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Hermit
+|-supereffective|p2a: Hermit
+|-enditem|p2a: Hermit|Colbur Berry|[eat]
+|-enditem|p2a: Hermit|Colbur Berry|[weaken]
+|-damage|p2a: Hermit|81/100
+|move|p2a: Hermit|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|turn|11
+|
+|move|p1a: Great Tusk|Rapid Spin|p2a: Hermit
+|-damage|p2a: Hermit|69/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: p1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Hermit|Trick Room|p2a: Hermit
+|-fieldstart|move: Trick Room|[of] p2a: Hermit
+|
+|turn|12
+|
+|switch|p2a: Hanged Man|Braviary-Hisui, M, shiny|100/100
+|move|p1a: Great Tusk|Body Press|p2a: Hanged Man
+|-resisted|p2a: Hanged Man
+|-damage|p2a: Hanged Man|90/100
+|
+|turn|13
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Hanged Man|Psychic|p1a: Garganacl
+|-damage|p1a: Garganacl|26/100
+|
+|turn|14
+|
+|move|p1a: Garganacl|Salt Cure|p2a: Hanged Man
+|-supereffective|p2a: Hanged Man
+|-damage|p2a: Hanged Man|60/100
+|-start|p2a: Hanged Man|Salt Cure
+|move|p2a: Hanged Man|Psychic|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Hanged Man|48/100|[from] Salt Cure
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|15
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Hanged Man
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p2a: Hanged Man
+|-damage|p2a: Hanged Man|0 fnt
+|faint|p2a: Hanged Man
+|
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Hermit|Uxie|69/100
+|turn|16
+|
+|switch|p1a: Ceruledge|Ceruledge, F|1/100
+|move|p2a: Hermit|Trick Room|p2a: Hermit
+|-fieldstart|move: Trick Room|[of] p2a: Hermit
+|
+|turn|17
+|
+|switch|p2a: Death|Ursaluna, F, shiny|94/100 brn
+|move|p1a: Ceruledge|Destiny Bond|p1a: Ceruledge
+|-singlemove|p1a: Ceruledge|Destiny Bond
+|
+|-damage|p2a: Death|88/100 brn|[from] brn
+|turn|18
+|
+|move|p2a: Death|Swords Dance|p2a: Death
+|-boost|p2a: Death|atk|2
+|move|p1a: Ceruledge|Bitter Blade|p2a: Death
+|-damage|p2a: Death|54/100 brn
+|-heal|p1a: Ceruledge|28/100|[from] drain|[of] p2a: Death
+|
+|-damage|p2a: Death|48/100 brn|[from] brn
+|turn|19
+|
+|switch|p1a: Great Tusk|Great Tusk|12/100
+|move|p2a: Death|Crunch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Death|42/100 brn|[from] brn
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|turn|20
+|
+|move|p1a: Clodsire|Toxic Spikes|p2a: Death
+|-sidestart|p2: p2|move: Toxic Spikes
+|move|p2a: Death|Headlong Rush|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|-unboost|p2a: Death|def|1
+|-unboost|p2a: Death|spd|1
+|faint|p1a: Clodsire
+|
+|-damage|p2a: Death|36/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Ceruledge|Ceruledge, F|28/100
+|turn|21
+|
+|move|p1a: Ceruledge|Bitter Blade|p2a: Death
+|-damage|p2a: Death|0 fnt
+|-heal|p1a: Ceruledge|56/100|[from] drain|[of] p2a: Death
+|faint|p2a: Death
+|
+|
+|switch|p2a: Hermit|Uxie|69/100
+|turn|22
+|
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Hermit|Stealth Rock|p1a: Ceruledge
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|turn|23
+|
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Hermit|Encore|p1a: Ceruledge
+|-start|p1a: Ceruledge|Encore
+|
+|turn|24
+|
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Hermit|Trick Room|p2a: Hermit
+|-fieldstart|move: Trick Room|[of] p2a: Hermit
+|
+|turn|25
+|
+|switch|p2a: Sun|Torkoal, F, shiny|100/100
+|-status|p2a: Sun|psn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Sun
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|0
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sun|88/100 psn|[from] psn
+|turn|26
+|
+|-terastallize|p2a: Sun|Fire
+|-terastallize|p1a: Ceruledge|Ghost
+|move|p2a: Sun|Earth Power|p1a: Ceruledge
+|-damage|p1a: Ceruledge|14/100
+|-unboost|p1a: Ceruledge|spd|1
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|0
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Sun|75/100 psn|[from] psn
+|-end|p1a: Ceruledge|Encore
+|turn|27
+|
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Sun
+|-damage|p2a: Sun|0 fnt
+|faint|p2a: Sun
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Magician|Hatterene, F, shiny|65/100
+|-status|p2a: Magician|psn
+|turn|28
+|
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Magician
+|-supereffective|p2a: Magician
+|-damage|p2a: Magician|0 fnt
+|faint|p2a: Magician
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Hermit|Uxie|69/100
+|turn|29
+|
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Hermit
+|-supereffective|p2a: Hermit
+|-damage|p2a: Hermit|0 fnt
+|faint|p2a: Hermit
+|
+|win|p1

@@ -1,0 +1,211 @@
+|j|☆FoilFred
+|j|☆tweak olympian
+|t:|1686008311
+|gametype|singles
+|player|p1|FoilFred|265|1554
+|player|p2|tweak olympian|backers|1605
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Regidrago|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p1|Heatran, F|
+|poke|p2|Overqwil, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Volcanion|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tweak olympian)
+|j| StraightOuttaUnova
+|j| Zkeem1
+|
+|t:|1686008331
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1686008336
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Pelipper|Surf|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1686008343
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|91/100
+|
+|t:|1686008373
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1686008383
+|move|p2a: Iron Treads|Stealth Rock|p1a: Slowking
+|-sidestart|p1: FoilFred|move: Stealth Rock
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|t:|1686008389
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1686008395
+|move|p2a: Iron Treads|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|86/100
+|-enditem|p1a: Great Tusk|Eject Pack|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Great Tusk|Knock Off|p2a: Iron Treads
+|-damage|p2a: Iron Treads|68/100
+|-enditem|p2a: Iron Treads|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|Snow|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1686008421
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Great Tusk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|73/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1686008437
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Pelipper|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|79/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1686008443
+|switch|p1a: Regidrago|Regidrago|100/100
+|-damage|p1a: Regidrago|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1686008457
+|switch|p2a: Iron Treads|Iron Treads|68/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|12/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1686008461
+|move|p1a: Regidrago|Dragon Energy|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1686008485
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|9
+|inactive|tweak olympian has 120 seconds left.
+|
+|t:|1686008502
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|move|p2a: Basculegion|Substitute|p2a: Basculegion
+|-start|p2a: Basculegion|Substitute
+|-damage|p2a: Basculegion|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1686008511
+|move|p2a: Basculegion|Hydro Pump|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|14/100
+|-damage|p2a: Basculegion|66/100|[from] item: Life Orb
+|move|p1a: Samurott|Ceaseless Edge|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-end|p2a: Basculegion|Substitute
+|-sidestart|p2: tweak olympian|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1686008524
+|move|p1a: Samurott|Sucker Punch|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|tweak olympian has 120 seconds left.
+|
+|t:|1686008544
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|12
+|inactive|tweak olympian has 120 seconds left.
+|
+|t:|1686008556
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Samurott|Ceaseless Edge|p2a: Thundurus
+|-damage|p2a: Thundurus|35/100
+|-sidestart|p2: tweak olympian|Spikes
+|
+|-weather|none
+|upkeep
+|turn|13
+|inactive|tweak olympian has 120 seconds left.
+|
+|t:|1686008562
+|move|p1a: Samurott|Sucker Punch|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|-message|tweak olympian forfeited.
+|
+|win|FoilFred
+|raw|FoilFred's rating: 1554 → 1577(+23 for winning)
+|raw|tweak olympian's rating: 1605 → 1582(-23 for losing)
+|l|☆tweak olympian
+|l| Zkeem1
+|l| StraightOuttaUnova

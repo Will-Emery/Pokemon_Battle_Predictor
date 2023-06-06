@@ -1,0 +1,98 @@
+# advantage = p2
+|poke|p1|Mew|
+|poke|p1|Maushold|
+|poke|p1|Mabosstiff, F|
+|poke|p1|Moltres-Galar|
+|poke|p1|Mismagius, F|
+|poke|p1|Meowscarada, M|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Cinderace, F|
+|poke|p2|Great Tusk|
+|poke|p2|Walking Wake|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|
+|start
+|switch|p1a: Maushold|Maushold|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|1
+|
+|move|p2a: Electrode|Volt Switch|p1a: Maushold
+|-damage|p1a: Maushold|54/100
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|turn|2
+|
+|-terastallize|p1a: Maushold|Normal
+|move|p1a: Maushold|Population Bomb|p2a: Great Tusk|[miss]
+|-miss|p1a: Maushold|p2a: Great Tusk
+|move|p2a: Great Tusk|Earthquake|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|3
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|turn|4
+|
+|-terastallize|p2a: Slowking|Dark
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|move|p2a: Slowking|Surf|p1a: Moltres
+|-damage|p1a: Moltres|79/100
+|
+|turn|5
+|
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|move|p2a: Slowking|Surf|p1a: Moltres
+|-damage|p1a: Moltres|59/100
+|
+|turn|6
+|
+|move|p1a: Moltres|Hurricane|p2a: Slowking
+|-damage|p2a: Slowking|13/100
+|move|p2a: Slowking|Surf|p1a: Moltres
+|-damage|p1a: Moltres|39/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|
+|-heal|p2a: Slowking|20/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|move|p1a: Moltres|Fiery Wrath|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, F, tera:Dark|53/100
+|turn|8
+|
+|move|p1a: Moltres|Hurricane|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|9
+|
+|move|p1a: Moltres|Hurricane|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-message|p2 forfeited.
+|
+|win|p1

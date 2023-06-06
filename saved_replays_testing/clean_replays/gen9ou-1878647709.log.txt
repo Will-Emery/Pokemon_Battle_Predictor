@@ -1,0 +1,79 @@
+# advantage = p2
+|poke|p1|Heatran, M|
+|poke|p1|Great Tusk|
+|poke|p1|Zapdos|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Slowbro, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Valiant|
+|poke|p2|Chien-Pao|
+|poke|p2|Kingambit, M|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|60/100
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|16/100
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|3
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|turn|3
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|turn|4
+|
+|-terastallize|p2a: Iron Valiant|Water
+|move|p2a: Iron Valiant|Liquidation|p1a: Zapdos
+|-damage|p1a: Zapdos|9/100
+|move|p1a: Zapdos|Thunder Wave|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|par
+|
+|turn|5
+|
+|move|p2a: Iron Valiant|Liquidation|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-message|p2 forfeited.
+|
+|win|p1

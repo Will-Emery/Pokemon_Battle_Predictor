@@ -1,0 +1,359 @@
+# advantage = p1
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Overqwil, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Amoonguss, F|
+|poke|p2|Chansey, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Greedent, M|
+|poke|p2|Hawlucha, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Hawlucha|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|88/100
+|
+|switch|p2a: Greedent|Greedent, M|100/100|[from] U-turn
+|move|p1a: Pelipper|Hurricane|p2a: Greedent
+|-damage|p2a: Greedent|71/100
+|-start|p2a: Greedent|confusion
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p1a: Pelipper|U-turn|p2a: Greedent
+|-damage|p2a: Greedent|62/100
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|-activate|p2a: Greedent|confusion
+|move|p2a: Greedent|Swords Dance|p2a: Greedent
+|-boost|p2a: Greedent|atk|2
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Greedent
+|-damage|p2a: Greedent|0 fnt
+|faint|p2a: Greedent
+|-damage|p1a: Basculegion|80/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|turn|4
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|move|p2a: Clodsire|Yawn|p1a: Basculegion
+|-start|p1a: Basculegion|move: Yawn|[of] p2a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Clodsire|Curse|p2a: Clodsire
+|-unboost|p2a: Clodsire|spe|1
+|-boost|p2a: Clodsire|atk|1
+|-boost|p2a: Clodsire|def|1
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Amoonguss|Stun Spore|p2a: Clodsire
+|-status|p2a: Clodsire|par
+|move|p2a: Clodsire|Yawn|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Yawn|[of] p2a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p1a: Basculegion|Basculegion, M, tera:Water|80/100
+|move|p2a: Clodsire|Earthquake|p1a: Basculegion
+|-damage|p1a: Basculegion|25/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Basculegion|Zen Headbutt|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|54/100 par
+|cant|p2a: Clodsire|par
+|
+|-weather|none
+|-heal|p2a: Clodsire|60/100 par|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Basculegion|Zen Headbutt|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|17/100 par
+|move|p2a: Clodsire|Earthquake|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-heal|p2a: Clodsire|23/100 par|[from] item: Leftovers
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|10
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Rillaboom|Stomping Tantrum|p2a: Chansey
+|-damage|p2a: Chansey|83/100
+|
+|-heal|p2a: Chansey|90/100|[from] Grassy Terrain
+|turn|11
+|
+|move|p1a: Rillaboom|Knock Off|p2a: Chansey
+|-damage|p2a: Chansey|68/100
+|-enditem|p2a: Chansey|Eviolite|[from] move: Knock Off|[of] p1a: Rillaboom
+|move|p2a: Chansey|Thunder Wave|p1a: Rillaboom
+|-status|p1a: Rillaboom|par
+|
+|-heal|p2a: Chansey|74/100|[from] Grassy Terrain
+|turn|12
+|
+|move|p2a: Chansey|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Rillaboom|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|50/100
+|
+|switch|p1a: Overqwil|Overqwil, F|100/100|[from] U-turn
+|-damage|p1a: Overqwil|88/100|[from] Stealth Rock
+|-item|p1a: Overqwil|Air Balloon
+|
+|-heal|p2a: Chansey|57/100|[from] Grassy Terrain
+|turn|13
+|
+|move|p1a: Overqwil|Taunt|p2a: Chansey
+|-start|p2a: Chansey|move: Taunt
+|cant|p2a: Chansey|move: Taunt|Thunder Wave
+|
+|-heal|p2a: Chansey|63/100|[from] Grassy Terrain
+|turn|14
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Overqwil|Spikes|p2a: Garganacl
+|-sidestart|p2: p2|Spikes
+|
+|-fieldend|move: Grassy Terrain
+|turn|15
+|
+|move|p1a: Overqwil|Waterfall|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|75/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|81/100|[from] item: Leftovers
+|turn|16
+|
+|move|p1a: Overqwil|Taunt|p2a: Garganacl
+|-start|p2a: Garganacl|move: Taunt
+|move|p2a: Garganacl|Rock Slide|p1a: Overqwil
+|-damage|p1a: Overqwil|52/100
+|-enditem|p1a: Overqwil|Air Balloon
+|
+|-heal|p2a: Garganacl|88/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Overqwil|Spikes|p2a: Garganacl
+|-sidestart|p2: p2|Spikes
+|move|p2a: Garganacl|Rock Slide|p1a: Overqwil
+|-damage|p1a: Overqwil|13/100
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Overqwil|Destiny Bond|p1a: Overqwil
+|-singlemove|p1a: Overqwil|Destiny Bond
+|move|p2a: Garganacl|Rock Slide|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|-activate|p1a: Overqwil|move: Destiny Bond
+|faint|p2a: Garganacl
+|
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100 par
+|switch|p2a: Chansey|Chansey, F|63/100
+|-damage|p2a: Chansey|46/100|[from] Spikes
+|-damage|p1a: Rillaboom|88/100 par|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|19
+|
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-sidestart|p2: p2|move: Light Screen
+|move|p1a: Rillaboom|U-turn|p2a: Chansey
+|-damage|p2a: Chansey|22/100
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100|[from] U-turn
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|
+|-heal|p1a: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p2a: Chansey|28/100|[from] Grassy Terrain
+|turn|20
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|move|p1a: Sneasler|Close Combat|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|55/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|
+|turn|21
+|
+|move|p1a: Sneasler|Close Combat|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|7/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Hawlucha|Acrobatics|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Pelipper|Pelipper, F|88/100
+|-damage|p1a: Pelipper|63/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|22
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Pelipper
+|-damage|p1a: Pelipper|34/100
+|move|p1a: Pelipper|Hurricane|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chansey|Chansey, F|28/100
+|-damage|p2a: Chansey|11/100|[from] Spikes
+|turn|23
+|
+|switch|p2a: Clodsire|Clodsire, F|23/100 par
+|-damage|p2a: Clodsire|7/100 par|[from] Spikes
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|84/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|90/100|[from] Grassy Terrain
+|-heal|p2a: Clodsire|13/100 par|[from] Grassy Terrain
+|-heal|p2a: Clodsire|19/100 par|[from] item: Leftovers
+|-sideend|p2: p2|move: Light Screen
+|-fieldend|move: Grassy Terrain
+|turn|24
+|
+|move|p1a: Pelipper|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Chansey|Chansey, F|11/100
+|-damage|p2a: Chansey|0 fnt|[from] Spikes
+|faint|p2a: Chansey
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|84/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|25
+|
+|move|p2a: Kingambit|Zen Headbutt|p1a: Pelipper
+|-damage|p1a: Pelipper|57/100
+|move|p1a: Pelipper|U-turn|p2a: Kingambit
+|-damage|p2a: Kingambit|78/100
+|
+|switch|p1a: Rillaboom|Rillaboom, F|88/100 par|[from] U-turn
+|-damage|p1a: Rillaboom|76/100 par|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|84/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|82/100 par|[from] Grassy Terrain
+|turn|26
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|25/100 par
+|move|p1a: Rillaboom|Stomping Tantrum|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|57/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|31/100 par|[from] Grassy Terrain
+|turn|27
+|
+|move|p2a: Kingambit|Iron Head|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|63/100|[from] Grassy Terrain
+|
+|switch|p1a: Pelipper|Pelipper, F|57/100
+|-damage|p1a: Pelipper|32/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|83/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|69/100|[from] Grassy Terrain
+|-heal|p1a: Pelipper|89/100|[from] Grassy Terrain
+|turn|29
+|
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|27/100
+|move|p1a: Pelipper|Surf|p2a: Kingambit
+|-damage|p2a: Kingambit|20/100
+|
+|-weather|none
+|-heal|p2a: Kingambit|26/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|turn|30
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|78/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|turn|31
+|
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|turn|32
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|40/100
+|move|p1a: Pelipper|Surf|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|p1

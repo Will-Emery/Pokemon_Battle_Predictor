@@ -1,0 +1,285 @@
+# advantage = p1
+|poke|p1|Cinderace, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Gengar, M|
+|poke|p1|Garchomp, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Iron Hands|
+|poke|p2|Enamorus, F|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Clodsire, F|
+|teampreview
+|
+|start
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: HANDS|Iron Hands|100/100
+|turn|1
+|
+|move|p1a: Gengar|Shadow Ball|p2a: HANDS
+|-damage|p2a: HANDS|62/100
+|-unboost|p2a: HANDS|spd|1
+|move|p2a: HANDS|Thunder Punch|p1a: Gengar
+|-crit|p1a: Gengar
+|-enditem|p1a: Gengar|Focus Sash
+|-damage|p1a: Gengar|1/100
+|-start|p2a: HANDS|Disable|Thunder Punch|[from] ability: Cursed Body|[of] p1a: Gengar
+|
+|-heal|p2a: HANDS|68/100|[from] item: Leftovers
+|turn|2
+|
+|-end|p2a: HANDS|Quark Drive|[silent]
+|switch|p2a: Eclair|Clodsire, F|100/100
+|move|p1a: Gengar|Shadow Ball|p2a: Eclair
+|-damage|p2a: Eclair|78/100
+|
+|-heal|p2a: Eclair|84/100|[from] item: Black Sludge
+|turn|3
+|
+|move|p1a: Gengar|Destiny Bond|p1a: Gengar
+|-singlemove|p1a: Gengar|Destiny Bond
+|move|p2a: Eclair|Stealth Rock|p1a: Gengar
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Eclair|90/100|[from] item: Black Sludge
+|turn|4
+|
+|switch|p2a: Lets Get Looney|Cinderace, M|100/100
+|move|p1a: Gengar|Encore||[still]
+|-fail|p1a: Gengar
+|
+|turn|5
+|
+|move|p2a: Lets Get Looney|U-turn|p1a: Gengar
+|-start|p2a: Lets Get Looney|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p2a: Yogi|Urshifu-Rapid-Strike, M|100/100|[from] U-turn
+|
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Yogi|Taunt|p1a: Garchomp
+|-start|p1a: Garchomp|move: Taunt
+|move|p1a: Garchomp|Bulldoze|p2a: Yogi
+|-damage|p2a: Yogi|74/100
+|-unboost|p2a: Yogi|spe|1
+|
+|turn|7
+|
+|switch|p2a: Taweetie|Tornadus-Therian, M|100/100
+|move|p1a: Garchomp|Dragon Tail|p2a: Taweetie
+|-damage|p2a: Taweetie|65/100
+|drag|p2a: Feminine Wilds|Enamorus, F|100/100
+|
+|turn|8
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Feminine Wilds|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|60/100
+|
+|turn|9
+|
+|switch|p2a: HANDS|Iron Hands|68/100
+|move|p1a: Cinderace|Pyro Ball|p2a: HANDS
+|-damage|p2a: HANDS|28/100
+|
+|-heal|p2a: HANDS|34/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Garchomp|Garchomp, F|94/100
+|-damage|p1a: Garchomp|88/100|[from] Stealth Rock
+|move|p2a: HANDS|Drain Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|61/100
+|-heal|p2a: HANDS|46/100|[from] drain|[of] p1a: Garchomp
+|-damage|p2a: HANDS|34/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: HANDS|17/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|-heal|p2a: HANDS|24/100|[from] item: Leftovers
+|turn|11
+|
+|-end|p2a: HANDS|Quark Drive|[silent]
+|switch|p2a: Taweetie|Tornadus-Therian, M|98/100
+|move|p1a: Garchomp|Bulldoze|p2a: Taweetie
+|-immune|p2a: Taweetie
+|
+|turn|12
+|
+|move|p2a: Taweetie|Bleakwind Storm|p1a: Garchomp|[miss]
+|-miss|p2a: Taweetie|p1a: Garchomp
+|move|p1a: Garchomp|Stealth Rock|p2a: Taweetie
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|13
+|
+|move|p2a: Taweetie|Bleakwind Storm|p1a: Garchomp
+|-damage|p1a: Garchomp|15/100
+|move|p1a: Garchomp|Stone Edge|p2a: Taweetie
+|-supereffective|p2a: Taweetie
+|-damage|p2a: Taweetie|15/100
+|
+|turn|14
+|
+|move|p2a: Taweetie|Bleakwind Storm|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|
+|switch|p1a: Cinderace|Cinderace, F|60/100
+|turn|15
+|
+|switch|p2a: Lets Get Looney|Cinderace, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Lets Get Looney
+|-resisted|p2a: Lets Get Looney
+|-damage|p2a: Lets Get Looney|58/100
+|
+|turn|16
+|
+|move|p2a: Lets Get Looney|Sucker Punch|p1a: Cinderace
+|-start|p2a: Lets Get Looney|typechange|Dark|[from] ability: Libero
+|-damage|p1a: Cinderace|10/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Lets Get Looney
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Lets Get Looney
+|-damage|p2a: Lets Get Looney|0 fnt
+|faint|p2a: Lets Get Looney
+|
+|
+|switch|p2a: Feminine Wilds|Enamorus, F|100/100
+|-damage|p2a: Feminine Wilds|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Feminine Wilds|Moonblast|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100
+|turn|18
+|
+|switch|p2a: Eclair|Clodsire, F|90/100
+|-damage|p2a: Eclair|84/100|[from] Stealth Rock
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Eclair|90/100|[from] item: Black Sludge
+|turn|19
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Eclair
+|-damage|p2a: Eclair|64/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: Eclair|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|
+|-heal|p2a: Eclair|70/100|[from] item: Black Sludge
+|-damage|p1a: Volcarona|94/100 tox|[from] psn
+|turn|20
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|move|p2a: Eclair|Recover|p2a: Eclair
+|-heal|p2a: Eclair|100/100
+|
+|turn|21
+|
+|switch|p2a: Yogi|Urshifu-Rapid-Strike, M|74/100
+|-damage|p2a: Yogi|68/100|[from] Stealth Rock
+|move|p1a: Samurott|Aqua Cutter|p2a: Yogi
+|-resisted|p2a: Yogi
+|-crit|p2a: Yogi
+|-damage|p2a: Yogi|33/100
+|
+|turn|22
+|
+|switch|p1a: Volcarona|Volcarona, M|94/100 tox
+|move|p2a: Yogi|Close Combat|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|43/100 tox
+|-unboost|p2a: Yogi|def|1
+|-unboost|p2a: Yogi|spd|1
+|-status|p2a: Yogi|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|
+|-damage|p1a: Volcarona|37/100 tox|[from] psn
+|-damage|p2a: Yogi|27/100 brn|[from] brn
+|turn|23
+|
+|move|p2a: Yogi|Surging Strikes|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|3/100 tox
+|-supereffective|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|-hitcount|p1: Volcarona|2
+|
+|-damage|p2a: Yogi|21/100 brn|[from] brn
+|
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|24
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Yogi
+|-damage|p2a: Yogi|0 fnt
+|faint|p2a: Yogi
+|
+|
+|switch|p2a: Eclair|Clodsire, F|100/100
+|-damage|p2a: Eclair|94/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Dragonite|Earthquake|p2a: Eclair
+|-supereffective|p2a: Eclair
+|-damage|p2a: Eclair|6/100
+|move|p2a: Eclair|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-heal|p2a: Eclair|12/100|[from] item: Black Sludge
+|-damage|p1a: Dragonite|94/100 tox|[from] psn
+|turn|26
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|88/100
+|-damage|p1a: Samurott|76/100|[from] Stealth Rock
+|move|p2a: Eclair|Recover|p2a: Eclair
+|-heal|p2a: Eclair|62/100
+|
+|-heal|p2a: Eclair|68/100|[from] item: Black Sludge
+|turn|27
+|
+|move|p1a: Samurott|Aqua Cutter|p2a: Eclair
+|-supereffective|p2a: Eclair
+|-damage|p2a: Eclair|0 fnt
+|faint|p2a: Eclair
+|
+|
+|switch|p2a: Feminine Wilds|Enamorus, F|76/100
+|-damage|p2a: Feminine Wilds|51/100|[from] Stealth Rock
+|turn|28
+|
+|-terastallize|p1a: Samurott|Water
+|move|p2a: Feminine Wilds|Moonblast|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Dragonite|Dragonite, M|94/100 tox
+|turn|29
+|
+|-terastallize|p2a: Feminine Wilds|Fairy
+|move|p1a: Dragonite|Extreme Speed|p2a: Feminine Wilds
+|-damage|p2a: Feminine Wilds|2/100
+|move|p2a: Feminine Wilds|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|p2

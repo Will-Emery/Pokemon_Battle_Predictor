@@ -1,0 +1,122 @@
+# advantage = p2
+|poke|p1|Roaring Moon|
+|poke|p1|Kingambit, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Kleavor, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Arcanine-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|1
+|
+|move|p2a: Kleavor|Stone Axe|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-sidestart|p1: p1|move: Stealth Rock
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: poopy butt|Pelipper, M|100/100
+|-damage|p1a: poopy butt|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: poopy butt
+|turn|2
+|
+|move|p2a: Kleavor|Stone Axe|p1a: poopy butt
+|-supereffective|p1a: poopy butt
+|-crit|p1a: poopy butt
+|-damage|p1a: poopy butt|0 fnt
+|faint|p1a: poopy butt
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: fish n chips|Basculegion, M, shiny|100/100
+|-damage|p1a: fish n chips|88/100|[from] Stealth Rock
+|turn|3
+|
+|move|p1a: fish n chips|Liquidation|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-enditem|p2a: Kleavor|Focus Sash
+|-damage|p2a: Kleavor|1/100
+|move|p2a: Kleavor|X-Scissor|p1a: fish n chips
+|-resisted|p1a: fish n chips
+|-damage|p1a: fish n chips|46/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: fish n chips|Liquidation|p2a: Kleavor
+|-supereffective|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|5
+|
+|move|p1a: fish n chips|Liquidation|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|30/100
+|move|p2a: Lilligant|Leaf Blade|p1a: fish n chips
+|-supereffective|p1a: fish n chips
+|-damage|p1a: fish n chips|0 fnt
+|faint|p1a: fish n chips
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: moth|Volcarona, F|100/100
+|turn|6
+|
+|move|p1a: moth|Will-O-Wisp|p2a: Lilligant
+|-status|p2a: Lilligant|brn
+|move|p2a: Lilligant|Encore|p1a: moth
+|-start|p1a: moth|Encore
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Lilligant|24/100 brn|[from] brn
+|turn|7
+|
+|switch|p1a: bobby sherda|Roaring Moon|100/100
+|-damage|p1a: bobby sherda|88/100|[from] Stealth Rock
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|-terastallize|p1a: bobby sherda|Ghost
+|move|p1a: bobby sherda|Focus Energy|p1a: bobby sherda
+|-start|p1a: bobby sherda|move: Focus Energy
+|move|p2a: Arcanine|Stone Edge|p1a: bobby sherda
+|-damage|p1a: bobby sherda|16/100
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p1a: bobby sherda|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|none
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|10
+|
+|move|p2a: Enamorus|Springtide Storm|p1a: bobby sherda
+|-damage|p1a: bobby sherda|0 fnt
+|faint|p1a: bobby sherda
+|-end|p1a: bobby sherda|Protosynthesis|[silent]
+|
+|-message|p1 forfeited.
+|
+|win|p2

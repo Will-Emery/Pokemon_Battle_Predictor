@@ -1,0 +1,166 @@
+# advantage = p2
+|poke|p1|Overqwil, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Volcanion|
+|poke|p1|Iron Treads|
+|poke|p2|Amoonguss, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Enamorus, F|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Klefki, F|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|start
+|switch|p1a: ol’ reliable|Pelipper, F|100/100
+|switch|p2a: Klefki|Klefki, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: ol’ reliable
+|turn|1
+|
+|move|p2a: Klefki|Thunder Wave|p1a: ol’ reliable|[miss]
+|-miss|p2a: Klefki|p1a: ol’ reliable
+|move|p1a: ol’ reliable|U-turn|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|99/100
+|
+|switch|p1a: shamone central|Thundurus-Therian, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Klefki|Sunny Day|p2a: Klefki
+|-weather|SunnyDay
+|move|p1a: shamone central|Agility|p1a: shamone central
+|-boost|p1a: shamone central|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: p2|move: Light Screen
+|move|p1a: shamone central|Thunder|p2a: Klefki
+|-damage|p2a: Klefki|60/100
+|-status|p2a: Klefki|par
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: p2|Reflect
+|move|p1a: shamone central|Nasty Plot|p1a: shamone central
+|-boost|p1a: shamone central|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: shamone central|Thunder|p2a: Walking Wake
+|-damage|p2a: Walking Wake|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p1a: shamone central|Thunder|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|
+|switch|p2a: Klefki|Klefki, F|60/100 par
+|turn|7
+|
+|move|p2a: Klefki|Sunny Day|p2a: Klefki
+|-weather|SunnyDay
+|move|p1a: shamone central|Thunder|p2a: Klefki|[miss]
+|-miss|p1a: shamone central|p2a: Klefki
+|
+|-weather|SunnyDay|[upkeep]
+|turn|8
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: shamone central|Thunder|p2a: Amoonguss|[miss]
+|-miss|p1a: shamone central|p2a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|turn|9
+|
+|-terastallize|p1a: shamone central|Ice
+|move|p1a: shamone central|Tera Blast|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|45/100
+|move|p2a: Amoonguss|Spore|p1a: shamone central
+|-status|p1a: shamone central|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|turn|10
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|cant|p1a: shamone central|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: p2|move: Light Screen
+|turn|11
+|
+|cant|p1a: shamone central|slp
+|move|p2a: Urshifu|Surging Strikes|p1a: shamone central
+|-crit|p1a: shamone central
+|-damage|p1a: shamone central|79/100 slp
+|-crit|p1a: shamone central
+|-damage|p1a: shamone central|57/100 slp
+|-crit|p1a: shamone central
+|-damage|p1a: shamone central|34/100 slp
+|-hitcount|p1a: shamone central|3
+|
+|-weather|none
+|-sideend|p2: p2|Reflect
+|turn|12
+|
+|-curestatus|p1a: shamone central|slp|[msg]
+|move|p1a: shamone central|Thunder|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|13
+|
+|move|p1a: shamone central|Thunder|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Klefki|Klefki, F|60/100 par
+|turn|14
+|
+|move|p2a: Klefki|Thunder Wave|p1a: shamone central
+|-heal|p1a: shamone central|59/100|[from] ability: Volt Absorb|[of] p2a: Klefki
+|move|p1a: shamone central|Thunder|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|
+|switch|p2a: Amoonguss|Amoonguss, M|78/100
+|turn|15
+|
+|move|p1a: shamone central|Tera Blast|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|16
+|
+|move|p1a: shamone central|Tera Blast|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|win|p1

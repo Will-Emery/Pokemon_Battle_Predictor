@@ -1,0 +1,187 @@
+# advantage = p2
+|poke|p1|Hatterene, F|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Glastrier|
+|poke|p1|Ursaluna, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Raichu-Alola, M|
+|poke|p2|Pincurchin, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Sneasler, F|
+|poke|p2|Iron Leaves|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Glastrier|Glastrier|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Glastrier|Substitute|p1a: Glastrier
+|-start|p1a: Glastrier|Substitute
+|-damage|p1a: Glastrier|76/100
+|
+|turn|2
+|
+|move|p2a: Heatran|Magma Storm|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-end|p1a: Glastrier|Substitute
+|move|p1a: Glastrier|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|23/100
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|-status|p1a: Glastrier|brn|[from] ability: Flame Body|[of] p2a: Heatran
+|
+|-damage|p1a: Glastrier|69/100 brn|[from] brn
+|turn|3
+|
+|move|p2a: Heatran|Overheat|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|-unboost|p2a: Heatran|spa|2
+|-enditem|p2a: Heatran|Eject Pack
+|faint|p1a: Glastrier
+|
+|switch|p2a: Iron Leaves|Iron Leaves|100/100
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdriveatk
+|
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|4
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Iron Leaves
+|-supereffective|p2a: Iron Leaves
+|-enditem|p2a: Iron Leaves|Kasib Berry|[eat]
+|-enditem|p2a: Iron Leaves|Kasib Berry|[weaken]
+|-damage|p2a: Iron Leaves|48/100
+|move|p2a: Iron Leaves|Psyblade|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|turn|5
+|
+|move|p2a: Iron Leaves|Psyblade|p1a: Enamorus
+|-damage|p1a: Enamorus|30/100
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|turn|6
+|
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Iron Leaves|Psyblade|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|62/100
+|-enditem|p1a: Hatterene|Red Card|[of] p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|drag|p2a: Iron Valiant|Iron Valiant|100/100
+|-activate|p2a: Iron Valiant|ability: Quark Drive
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|turn|7
+|
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Heatran|Heatran, F|23/100
+|move|p1a: Hatterene|Nuzzle|p2a: Heatran
+|-damage|p2a: Heatran|18/100
+|-status|p2a: Heatran|par
+|
+|turn|8
+|
+|move|p2a: Heatran|Steel Beam|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Heatran|0 fnt|[from] steelbeam
+|faint|p2a: Heatran
+|faint|p1a: Hatterene
+|
+|-fieldend|move: Electric Terrain
+|
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|9
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|-enditem|p2a: Sneasler|Electric Seed
+|-boost|p2a: Sneasler|def|1|[from] item: Electric Seed
+|move|p1a: Dragonite|Earthquake|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|13/100
+|
+|turn|10
+|
+|-terastallize|p2a: Sneasler|Fighting
+|move|p1a: Dragonite|Extreme Speed|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-activate|p2a: Iron Valiant|ability: Quark Drive
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|11
+|
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|36/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragonite
+|-damage|p1a: Dragonite|71/100
+|-unboost|p1a: Dragonite|spa|1
+|-damage|p2a: Iron Valiant|26/100|[from] item: Life Orb
+|
+|turn|12
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Raichu|Raichu-Alola, M|100/100
+|turn|13
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|30/100
+|move|p2a: Raichu|Focus Blast|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|19/100
+|-damage|p2a: Raichu|91/100|[from] item: Life Orb
+|
+|turn|14
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-damage|p2a: Raichu|81/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Dragonite|Dragonite, M, tera:Normal|71/100
+|turn|15
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|
+|switch|p2a: Iron Leaves|Iron Leaves|48/100
+|-activate|p2a: Iron Leaves|ability: Quark Drive
+|-start|p2a: Iron Leaves|quarkdriveatk
+|turn|16
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Leaves
+|-damage|p2a: Iron Leaves|0 fnt
+|faint|p2a: Iron Leaves
+|-end|p2a: Iron Leaves|Quark Drive|[silent]
+|
+|-fieldend|move: Electric Terrain
+|-message|p2 forfeited.
+|
+|win|p1

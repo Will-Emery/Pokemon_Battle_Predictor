@@ -1,0 +1,225 @@
+# advantage = p2
+|poke|p1|Zamazenta-*|
+|poke|p1|Dragapult, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Corviknight, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Kleavor, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Diancie|
+|poke|p2|Breloom, M|
+|poke|p2|Armarouge, M|
+|poke|p2|Pawmot, F|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: p2|move: Light Screen
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|turn|2
+|
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: p2|Reflect
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|turn|3
+|
+|move|p2a: Dragapult|U-turn|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|96/100
+|
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] U-turn
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|-heal|p1a: Enamorus|100/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|4
+|
+|move|p2a: Ursaluna|Facade|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|turn|5
+|
+|move|p1a: Kleavor|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|60/100 brn
+|-unboost|p1a: Kleavor|def|1
+|-unboost|p1a: Kleavor|spd|1
+|move|p2a: Ursaluna|Earthquake|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-damage|p2a: Ursaluna|54/100 brn|[from] brn
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: p1|Reflect
+|move|p2a: Ursaluna|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|40/100
+|
+|-damage|p2a: Ursaluna|48/100 brn|[from] brn
+|turn|7
+|
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: p1|move: Light Screen
+|move|p2a: Ursaluna|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Ursaluna|42/100 brn|[from] brn
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|8
+|
+|-terastallize|p1a: Zamazenta|Fairy
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-damage|p2a: Ursaluna|36/100 brn|[from] brn
+|-sideend|p2: p2|move: Light Screen
+|turn|9
+|
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1a: Zamazenta|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-sideend|p2: p2|Reflect
+|
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|10
+|
+|move|p1a: Zamazenta|Body Press|p2a: Breloom
+|-enditem|p2a: Breloom|Focus Sash
+|-damage|p2a: Breloom|1/100
+|move|p2a: Breloom|Spore|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Spore
+|
+|turn|11
+|
+|switch|p2a: Pawmot|Pawmot, F|100/100
+|-item|p2a: Pawmot|Air Balloon
+|cant|p1a: Zamazenta|slp
+|
+|turn|12
+|
+|-curestatus|p1a: Zamazenta|slp|[msg]
+|move|p1a: Zamazenta|Trailblaze|p2a: Pawmot
+|-damage|p2a: Pawmot|82/100
+|-boost|p1a: Zamazenta|spe|1
+|-enditem|p2a: Pawmot|Air Balloon
+|move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
+|
+|-heal|p2: Ursaluna|50/100|[from] move: Revival Blessing
+|
+|turn|13
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Pawmot|Wish|p2a: Pawmot
+|
+|-sideend|p1: p1|Reflect
+|turn|14
+|
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|1
+|
+|-sideend|p1: p1|move: Light Screen
+|turn|15
+|
+|move|p1a: Zamazenta|Crunch|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|48/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|move|p2a: Armarouge|Armor Cannon|p1a: Zamazenta
+|-damage|p1a: Zamazenta|50/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|
+|turn|16
+|
+|move|p1a: Zamazenta|Body Press|p2a: Armarouge
+|-resisted|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|
+|switch|p2a: Pawmot|Pawmot, F|82/100
+|turn|17
+|
+|move|p1a: Zamazenta|Body Press|p2a: Pawmot
+|-damage|p2a: Pawmot|0 fnt
+|faint|p2a: Pawmot
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|18
+|
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|37/100
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: p2|move: Light Screen
+|
+|turn|19
+|
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Diancie|Diancie|100/100
+|turn|20
+|
+|move|p1a: Zamazenta|Body Press|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|
+|switch|p2a: Ursaluna|Ursaluna, M|50/100
+|turn|21
+|
+|move|p1a: Zamazenta|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|
+|switch|p2a: Breloom|Breloom, M|1/100
+|turn|22
+|
+|move|p2a: Breloom|Mach Punch|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|48/100
+|move|p1a: Zamazenta|Body Press|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|win|p1

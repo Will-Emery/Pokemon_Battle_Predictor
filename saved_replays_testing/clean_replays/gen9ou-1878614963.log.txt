@@ -1,0 +1,366 @@
+# advantage = p1
+|poke|p1|Zapdos|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Ursaluna, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Umbreon, F|
+|poke|p2|Maushold-Four|
+|poke|p2|Rotom-Wash|
+|poke|p2|Goodra, F|
+|poke|p2|Skeledirge, F|
+|teampreview
+|
+|start
+|switch|p1a: Chica|Zapdos|100/100
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|turn|1
+|
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|72/100
+|
+|switch|p1a: IT'S ME|Ursaluna, M|100/100|[from] Volt Switch
+|move|p2a: Garganacl|Salt Cure|p1a: IT'S ME
+|-resisted|p1a: IT'S ME
+|-crit|p1a: IT'S ME
+|-damage|p1a: IT'S ME|92/100
+|-start|p1a: IT'S ME|Salt Cure
+|
+|-heal|p2a: Garganacl|79/100|[from] item: Leftovers
+|-damage|p1a: IT'S ME|80/100|[from] Salt Cure
+|-status|p1a: IT'S ME|brn|[from] item: Flame Orb
+|turn|2
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: IT'S ME|Facade|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|85/100|[from] item: Leftovers
+|-damage|p1a: IT'S ME|74/100 brn|[from] brn
+|-damage|p1a: IT'S ME|62/100 brn|[from] Salt Cure
+|turn|3
+|
+|switch|p1a: Freddy|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|
+|turn|4
+|
+|move|p1a: Freddy|Shadow Ball|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|5
+|
+|move|p1a: Freddy|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|26/100
+|move|p2a: Rotom|Thunder Wave|p1a: Freddy
+|-status|p1a: Freddy|par
+|
+|turn|6
+|
+|switch|p2a: Maushold|Maushold-Four|100/100
+|cant|p1a: Freddy|par
+|
+|turn|7
+|
+|switch|p1a: Bonnie|Cinderace, F|100/100
+|move|p2a: Maushold|Population Bomb|p1a: Bonnie
+|-damage|p1a: Bonnie|84/100
+|-damage|p1a: Bonnie|67/100
+|-damage|p1a: Bonnie|50/100
+|-damage|p1a: Bonnie|33/100
+|-damage|p1a: Bonnie|18/100
+|-damage|p1a: Bonnie|1/100
+|-hitcount|p1a: Bonnie|6
+|
+|turn|8
+|
+|move|p1a: Bonnie|High Jump Kick|p2a: Maushold
+|-start|p1a: Bonnie|typechange|Fighting|[from] ability: Libero
+|-supereffective|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|26/100
+|turn|9
+|
+|move|p1a: Bonnie|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|switch|p1a: Freddy|Urshifu-Rapid-Strike, M|100/100 par|[from] U-turn
+|
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|turn|10
+|
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|move|p1a: Freddy|Trick|p2a: Goodra
+|-activate|p1a: Freddy|move: Trick|[of] p2a: Goodra
+|-item|p2a: Goodra|Choice Specs|[from] move: Trick
+|-item|p1a: Freddy|Leftovers|[from] move: Trick
+|
+|turn|11
+|
+|move|p2a: Goodra|Dragon Pulse|p1a: Freddy
+|-damage|p1a: Freddy|0 fnt
+|replace|p1a: Foxy|Zoroark-Hisui, M
+|-end|p1a: Foxy|Illusion
+|faint|p1a: Foxy
+|
+|
+|switch|p1a: Purple Guy|Great Tusk|100/100
+|turn|12
+|
+|move|p2a: Goodra|Dragon Pulse|p1a: Purple Guy
+|-damage|p1a: Purple Guy|17/100
+|move|p1a: Purple Guy|Rapid Spin|p2a: Goodra
+|-damage|p2a: Goodra|90/100
+|-boost|p1a: Purple Guy|spe|1
+|
+|turn|13
+|
+|move|p1a: Purple Guy|Knock Off|p2a: Goodra
+|-damage|p2a: Goodra|68/100
+|-enditem|p2a: Goodra|Choice Specs|[from] move: Knock Off|[of] p1a: Purple Guy
+|move|p2a: Goodra|Dragon Pulse|p1a: Purple Guy
+|-damage|p1a: Purple Guy|0 fnt
+|faint|p1a: Purple Guy
+|-end|p1a: Purple Guy|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Freddy|Urshifu-Rapid-Strike, M|100/100
+|turn|14
+|
+|move|p1a: Freddy|Taunt|p2a: Goodra
+|-start|p2a: Goodra|move: Taunt
+|move|p2a: Goodra|Dragon Pulse|p1a: Freddy
+|-damage|p1a: Freddy|40/100
+|
+|turn|15
+|
+|move|p1a: Freddy|Close Combat|p2a: Goodra
+|-damage|p2a: Goodra|27/100
+|-unboost|p1a: Freddy|def|1
+|-unboost|p1a: Freddy|spd|1
+|move|p2a: Goodra|Dragon Pulse|p1a: Freddy
+|-damage|p1a: Freddy|0 fnt
+|faint|p1a: Freddy
+|
+|
+|switch|p1a: Bonnie|Cinderace, F|1/100
+|turn|16
+|
+|move|p1a: Bonnie|High Jump Kick|p2a: Goodra
+|-start|p1a: Bonnie|typechange|Fighting|[from] ability: Libero
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|turn|17
+|
+|move|p1a: Bonnie|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|64/100
+|
+|switch|p1a: Chica|Zapdos|100/100|[from] U-turn
+|move|p2a: Umbreon|Facade|p1a: Chica
+|-damage|p1a: Chica|90/100
+|
+|-heal|p1a: Chica|96/100|[from] item: Leftovers
+|-status|p2a: Umbreon|brn|[from] item: Flame Orb
+|turn|18
+|
+|move|p1a: Chica|Volt Switch|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|33/100 brn
+|
+|switch|p1a: IT'S ME|Ursaluna, M|62/100 brn|[from] Volt Switch
+|move|p2a: Umbreon|Facade|p1a: IT'S ME
+|-damage|p1a: IT'S ME|46/100 brn
+|
+|-damage|p2a: Umbreon|27/100 brn|[from] brn
+|-damage|p1a: IT'S ME|40/100 brn|[from] brn
+|turn|19
+|
+|switch|p1a: Chica|Zapdos|96/100
+|move|p2a: Umbreon|Thunder Wave|p1a: Chica
+|-immune|p1a: Chica
+|
+|-heal|p1a: Chica|100/100|[from] item: Leftovers
+|-damage|p2a: Umbreon|21/100 brn|[from] brn
+|turn|20
+|
+|move|p1a: Chica|Heat Wave|p2a: Umbreon
+|-damage|p2a: Umbreon|1/100 brn
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-damage|p2a: Umbreon|0 fnt|[from] brn
+|faint|p2a: Umbreon
+|
+|switch|p2a: Garganacl|Garganacl, M|85/100
+|turn|21
+|
+|move|p1a: Chica|Heat Wave|p2a: Garganacl|[miss]
+|-miss|p1a: Chica|p2a: Garganacl
+|move|p2a: Garganacl|Substitute|p2a: Garganacl
+|-start|p2a: Garganacl|Substitute
+|-damage|p2a: Garganacl|60/100
+|
+|-heal|p2a: Garganacl|100/100|[from] move: Wish|[wisher] Umbreon
+|turn|22
+|
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-end|p2a: Garganacl|Substitute
+|
+|switch|p1a: IT'S ME|Ursaluna, M|40/100 brn|[from] Volt Switch
+|move|p2a: Garganacl|Salt Cure|p1a: IT'S ME
+|-resisted|p1a: IT'S ME
+|-damage|p1a: IT'S ME|35/100 brn
+|-start|p1a: IT'S ME|Salt Cure
+|
+|-damage|p1a: IT'S ME|28/100 brn|[from] brn
+|-damage|p1a: IT'S ME|16/100 brn|[from] Salt Cure
+|turn|23
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: IT'S ME|Earthquake|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-damage|p1a: IT'S ME|10/100 brn|[from] brn
+|-damage|p1a: IT'S ME|0 fnt|[from] Salt Cure
+|faint|p1a: IT'S ME
+|
+|switch|p1a: Bonnie|Cinderace, F|1/100
+|turn|24
+|
+|move|p1a: Bonnie|High Jump Kick|p2a: Garganacl|[miss]
+|-start|p1a: Bonnie|typechange|Fighting|[from] ability: Libero
+|-miss|p1a: Bonnie|p2a: Garganacl
+|-damage|p1a: Bonnie|0 fnt|[from] highjumpkick
+|faint|p1a: Bonnie
+|move|p2a: Garganacl|Salt Cure|p1: Bonnie|[notarget]
+|-fail|p2a: Garganacl
+|
+|
+|switch|p1a: Chica|Zapdos|100/100
+|turn|25
+|
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|74/100
+|move|p2a: Garganacl|Salt Cure|p1a: Chica
+|-supereffective|p1a: Chica
+|-damage|p1a: Chica|77/100
+|-start|p1a: Chica|Salt Cure
+|
+|-heal|p1a: Chica|83/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p1a: Chica|71/100|[from] Salt Cure
+|turn|26
+|
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|55/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: Chica|77/100|[from] item: Leftovers
+|-damage|p1a: Chica|64/100|[from] Salt Cure
+|turn|27
+|
+|move|p1a: Chica|Thunder Wave|p2a: Garganacl
+|-status|p2a: Garganacl|par
+|move|p2a: Garganacl|Substitute|p2a: Garganacl
+|-start|p2a: Garganacl|Substitute
+|-damage|p2a: Garganacl|76/100 par
+|
+|-heal|p1a: Chica|70/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|82/100 par|[from] item: Leftovers
+|-damage|p1a: Chica|58/100|[from] Salt Cure
+|turn|28
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Chica|Roost|p1a: Chica
+|-heal|p1a: Chica|100/100
+|-singleturn|p1a: Chica|move: Roost
+|
+|-heal|p2a: Garganacl|88/100 par|[from] item: Leftovers
+|-damage|p1a: Chica|88/100|[from] Salt Cure
+|turn|29
+|
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-end|p2a: Garganacl|Substitute
+|move|p2a: Garganacl|Salt Cure|p1a: Chica
+|-supereffective|p1a: Chica
+|-damage|p1a: Chica|64/100
+|
+|-heal|p1a: Chica|70/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|94/100 par|[from] item: Leftovers
+|-damage|p1a: Chica|58/100|[from] Salt Cure
+|turn|30
+|
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|68/100 par
+|move|p2a: Garganacl|Salt Cure|p1a: Chica
+|-supereffective|p1a: Chica
+|-damage|p1a: Chica|34/100
+|
+|-heal|p1a: Chica|40/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|74/100 par|[from] item: Leftovers
+|-damage|p1a: Chica|28/100|[from] Salt Cure
+|turn|31
+|
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|46/100 par
+|cant|p2a: Garganacl|par
+|
+|-heal|p1a: Chica|34/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|52/100 par|[from] item: Leftovers
+|-damage|p1a: Chica|21/100|[from] Salt Cure
+|turn|32
+|
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|7/100 par
+|cant|p2a: Garganacl|par
+|
+|-heal|p1a: Chica|27/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|13/100 par|[from] item: Leftovers
+|-damage|p1a: Chica|15/100|[from] Salt Cure
+|turn|33
+|
+|cant|p2a: Garganacl|par
+|move|p1a: Chica|Roost|p1a: Chica
+|-heal|p1a: Chica|65/100
+|-singleturn|p1a: Chica|move: Roost
+|
+|-heal|p1a: Chica|71/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|19/100 par|[from] item: Leftovers
+|-damage|p1a: Chica|59/100|[from] Salt Cure
+|turn|34
+|
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p1a: Chica|65/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|25/100 par|[from] item: Leftovers
+|-damage|p1a: Chica|53/100|[from] Salt Cure
+|turn|35
+|
+|move|p1a: Chica|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|win|p1

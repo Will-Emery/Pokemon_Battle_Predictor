@@ -1,0 +1,269 @@
+# advantage = p1
+|poke|p1|Zarude-Dada|
+|poke|p1|Rotom-Wash|
+|poke|p1|Iron Valiant|
+|poke|p1|Masquerain, M|
+|poke|p1|Iron Treads|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Heatran, M|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Volcarona, F|
+|teampreview
+|
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|1
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Iron Treads|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|94/100
+|-enditem|p2a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|turn|2
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Masquerain|Masquerain, M|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Knock Off|p1a: Masquerain
+|-damage|p1a: Masquerain|65/100
+|-enditem|p1a: Masquerain|Focus Sash|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|turn|3
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Masquerain|Hydro Pump|p2a: Thundurus
+|-damage|p2a: Thundurus|56/100
+|
+|turn|4
+|
+|switch|p2a: Great Tusk|Great Tusk|94/100
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|
+|turn|5
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Masquerain|Masquerain, M|65/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Stealth Rock|p1a: Masquerain
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|turn|6
+|
+|move|p1a: Masquerain|Ice Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|23/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Masquerain
+|-damage|p1a: Masquerain|48/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|turn|7
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Masquerain
+|-damage|p1a: Masquerain|27/100
+|move|p1a: Masquerain|Ice Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Urshifu|Surging Strikes|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|78/100
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|66/100
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|54/100
+|-hitcount|p1a: Rotom|3
+|
+|turn|9
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|56/100
+|move|p1a: Rotom|Discharge|p2a: Thundurus
+|-heal|p2a: Thundurus|81/100|[from] ability: Volt Absorb|[of] p1a: Rotom
+|
+|turn|10
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|
+|turn|11
+|
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|12
+|
+|switch|p2a: Heatran|Heatran, M, shiny|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|
+|turn|13
+|
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|26/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Magma Storm|p1a: Iron Valiant|[miss]
+|-miss|p2a: Heatran|p1a: Iron Valiant
+|
+|turn|14
+|
+|-terastallize|p2a: Heatran|Fairy
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|9/100
+|move|p2a: Heatran|Magma Storm|p1a: Iron Valiant|[miss]
+|-miss|p2a: Heatran|p1a: Iron Valiant
+|
+|turn|15
+|
+|move|p1a: Iron Valiant|Moonblast|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|turn|16
+|
+|-terastallize|p1a: Iron Valiant|Ghost
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Volcarona
+|-damage|p2a: Volcarona|52/100
+|-unboost|p2a: Volcarona|spd|1
+|move|p2a: Volcarona|Fiery Dance|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|49/100
+|-boost|p2a: Volcarona|spa|1
+|
+|turn|17
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|81/100
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|
+|switch|p2a: Volcarona|Volcarona, F|52/100
+|turn|18
+|
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|19
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Masquerain|Masquerain, M|27/100
+|-damage|p1a: Masquerain|0 fnt|[from] Stealth Rock
+|faint|p1a: Masquerain
+|move|p2a: Chien-Pao|Ice Shard|p1: Masquerain|[notarget]
+|-fail|p2a: Chien-Pao
+|
+|
+|switch|p1a: Rotom|Rotom-Wash|54/100
+|-damage|p1a: Rotom|42/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|19/100
+|move|p1a: Rotom|Discharge|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|42/100
+|-status|p2a: Chien-Pao|par
+|
+|turn|21
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|22
+|
+|move|p2a: Chien-Pao|Ice Shard|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|75/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|23
+|
+|move|p2a: Urshifu|Trailblaze|p1a: Arcanine
+|-damage|p1a: Arcanine|52/100
+|-boost|p2a: Urshifu|spe|1
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Urshifu
+|-status|p2a: Urshifu|brn
+|
+|-damage|p2a: Urshifu|94/100 brn|[from] brn
+|turn|24
+|
+|switch|p1a: Zarude|Zarude-Dada|100/100
+|-damage|p1a: Zarude|88/100|[from] Stealth Rock
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|
+|-damage|p2a: Urshifu|88/100 brn|[from] brn
+|turn|25
+|
+|move|p2a: Urshifu|Close Combat|p1a: Zarude
+|-supereffective|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Zarude
+|
+|-damage|p2a: Urshifu|82/100 brn|[from] brn
+|
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Ghost|49/100
+|-damage|p1a: Iron Valiant|36/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Iron Valiant
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|10/100
+|-crit|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-hitcount|p1: Iron Valiant|2
+|
+|-damage|p2a: Urshifu|76/100 brn|[from] brn
+|-message|p1 forfeited.
+|
+|win|p2

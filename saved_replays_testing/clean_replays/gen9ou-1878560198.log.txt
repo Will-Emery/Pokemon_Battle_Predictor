@@ -1,0 +1,162 @@
+# advantage = p2
+|poke|p1|Hydreigon, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Azumarill, F|
+|poke|p1|Iron Treads|
+|poke|p1|Sneasler, M|
+|poke|p1|Rillaboom, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Breloom, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Talonflame, M|
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Breloom|Breloom, M|100/100
+|turn|1
+|
+|move|p2a: Breloom|Mach Punch|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|33/100
+|move|p1a: Hydreigon|Stealth Rock|p2a: Breloom
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|2
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-enditem|p2a: Breloom|Focus Sash
+|-damage|p2a: Breloom|1/100
+|-damage|p1a: Hydreigon|24/100|[from] item: Life Orb
+|move|p2a: Breloom|Rock Tomb|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|move|p1a: Rillaboom|U-turn|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|4
+|
+|move|p1a: Iron Treads|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|55/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Rotom|Hydro Pump|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|5
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|-heal|p2a: Kingambit|100/100|[from] Grassy Terrain
+|turn|6
+|
+|-terastallize|p2a: Kingambit|Fire
+|move|p1a: Sneasler|Close Combat|p2a: Kingambit
+|-damage|p2a: Kingambit|10/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Kingambit|Iron Head|p1a: Sneasler
+|-damage|p1a: Sneasler|29/100
+|
+|-heal|p1a: Sneasler|35/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|16/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|22/100|[from] item: Leftovers
+|turn|7
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|28/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|34/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|turn|8
+|
+|move|p1a: Rillaboom|Stomping Tantrum|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|9
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|move|p2a: Talonflame|Defog|p1a: Azumarill
+|-unboost|p1a: Azumarill|evasion|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|
+|turn|10
+|
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Azumarill
+|-status|p1a: Azumarill|brn
+|move|p1a: Azumarill|Belly Drum|p1a: Azumarill
+|-damage|p1a: Azumarill|50/100 brn
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Azumarill|Sitrus Berry|[eat]
+|-heal|p1a: Azumarill|75/100 brn|[from] item: Sitrus Berry
+|
+|-damage|p1a: Azumarill|69/100 brn|[from] brn
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Wash|55/100
+|move|p1a: Azumarill|Liquidation|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Azumarill|63/100 brn|[from] brn
+|
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|12
+|
+|move|p2a: Garchomp|Earthquake|p1a: Azumarill
+|-damage|p1a: Azumarill|21/100 brn
+|move|p1a: Azumarill|Play Rough|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Azumarill|8/100 brn|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Azumarill|0 fnt|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Azumarill
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|13
+|
+|-terastallize|p1a: Rillaboom|Grass
+|move|p1a: Rillaboom|Wood Hammer|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|-damage|p1a: Rillaboom|69/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|75/100|[from] Grassy Terrain
+|-message|p2 forfeited.
+|
+|win|p1

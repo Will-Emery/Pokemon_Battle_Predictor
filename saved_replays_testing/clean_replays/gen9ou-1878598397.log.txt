@@ -1,0 +1,154 @@
+# advantage = p2
+|poke|p1|Heatran, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Enamorus-Therian, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Hawks|Braviary-Hisui, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|-terastallize|p2a: Hawks|Psychic
+|move|p2a: Hawks|Heat Wave|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|turn|2
+|
+|switch|p2a: Squoop|Goodra-Hisui, M, shiny|100/100
+|move|p1a: Enamorus|Tailwind|p1a: Enamorus
+|-sidestart|p1: p1|move: Tailwind
+|
+|turn|3
+|
+|move|p1a: Enamorus|Earth Power|p2a: Squoop
+|-supereffective|p2a: Squoop
+|-damage|p2a: Squoop|52/100
+|-damage|p1a: Enamorus|91/100|[from] item: Life Orb
+|move|p2a: Squoop|Ice Beam|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|24/100
+|
+|turn|4
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Squoop|Flash Cannon|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|72/100
+|
+|turn|5
+|
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|move|p2a: Squoop|Flash Cannon|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|42/100
+|
+|-sideend|p1: p1|move: Tailwind
+|turn|6
+|
+|move|p1a: Urshifu|Close Combat|p2a: Squoop
+|-supereffective|p2a: Squoop
+|-damage|p2a: Squoop|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-ability|p2a: Squoop|Gooey
+|-unboost|p1a: Urshifu|spe|1
+|faint|p2a: Squoop
+|
+|
+|switch|p2a: Hawks|Braviary-Hisui, M, shiny, tera:Psychic|100/100
+|turn|7
+|
+|move|p2a: Hawks|Esper Wing|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-boost|p2a: Hawks|spe|1
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|8
+|
+|switch|p2a: Woofers|Arcanine-Hisui, M, shiny|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Woofers
+|-damage|p2a: Woofers|9/100
+|-activate|p2a: Woofers|move: Magma Storm|[of] p1a: Heatran
+|replace|p2a: Surprise MF|Zoroark-Hisui, M, shiny
+|-end|p2a: Surprise MF|Illusion
+|
+|-damage|p2a: Surprise MF|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p2a: Surprise MF
+|
+|switch|p2a: Lilly|Lilligant-Hisui, F, shiny|100/100
+|turn|9
+|
+|-terastallize|p1a: Heatran|Grass
+|move|p2a: Lilly|Sleep Powder|p1a: Heatran
+|-immune|p1a: Heatran
+|move|p1a: Heatran|Magma Storm|p2a: Lilly|[miss]
+|-miss|p1a: Heatran|p2a: Lilly
+|
+|turn|10
+|
+|move|p2a: Lilly|Aerial Ace|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|52/100
+|move|p1a: Heatran|Earth Power|p2a: Lilly
+|-resisted|p2a: Lilly
+|-damage|p2a: Lilly|81/100
+|
+|-heal|p1a: Heatran|59/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Lilly|Aerial Ace|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|17/100
+|move|p1a: Heatran|Magma Storm|p2a: Lilly
+|-supereffective|p2a: Lilly
+|-damage|p2a: Lilly|0 fnt
+|faint|p2a: Lilly
+|
+|-heal|p1a: Heatran|23/100|[from] item: Leftovers
+|
+|switch|p2a: Hawks|Braviary-Hisui, M, shiny, tera:Psychic|100/100
+|turn|12
+|
+|move|p2a: Hawks|Esper Wing|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-boost|p2a: Hawks|spe|1
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|13
+|
+|move|p1a: Zamazenta|Crunch|p2a: Hawks
+|-supereffective|p2a: Hawks
+|-damage|p2a: Hawks|50/100
+|move|p2a: Hawks|Esper Wing|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-boost|p2a: Hawks|spe|1
+|faint|p1a: Zamazenta
+|
+|-message|p1 forfeited.
+|
+|win|p2

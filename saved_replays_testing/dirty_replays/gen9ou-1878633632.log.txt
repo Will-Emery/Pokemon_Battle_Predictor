@@ -1,0 +1,193 @@
+|j|☆pmister3
+|j|☆Baradrex
+|t:|1686009126
+|gametype|singles
+|player|p1|pmister3|bruno|
+|player|p2|Baradrex|ingo|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bronzong|
+|poke|p1|Floatzel, F|
+|poke|p1|Forretress, F|
+|poke|p1|Iron Thorns|
+|poke|p1|Kilowattrel, F|
+|poke|p1|Scovillain, F|
+|poke|p2|Lycanroc-Dusk, F|
+|poke|p2|Gengar, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Tauros-Paldea-Blaze, M|
+|poke|p2|Amoonguss, F|
+|poke|p2|Zoroark, M|
+|teampreview
+|
+|t:|1686009140
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Blue Dog|Lycanroc-Dusk, F, shiny|100/100
+|turn|1
+|
+|t:|1686009154
+|move|p2a: Blue Dog|Dark Pulse|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|9/100
+|cant|p1a: Bronzong|flinch
+|
+|-heal|p1a: Bronzong|16/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1686009163
+|switch|p1a: Forretress|Forretress, F|100/100
+|move|p2a: Blue Dog|Dark Pulse|p1a: Forretress
+|-damage|p1a: Forretress|15/100
+|-enditem|p1a: Forretress|Red Card|[of] p2a: Blue Dog
+|drag|p2a: Dead Clefable|Gengar, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1686009177
+|move|p2a: Dead Clefable|Shadow Ball|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+|
+|t:|1686009195
+|switch|p1a: Iron Thorns|Iron Thorns|100/100
+|turn|4
+|
+|t:|1686009212
+|switch|p2a: Blaze it|Tauros-Paldea-Blaze, M|100/100
+|-ability|p2a: Blaze it|Intimidate|boost
+|-unboost|p1a: Iron Thorns|atk|1
+|move|p1a: Iron Thorns|Earthquake|p2a: Blaze it
+|-supereffective|p2a: Blaze it
+|-damage|p2a: Blaze it|67/100
+|
+|-heal|p2a: Blaze it|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1686009266
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|switch|p1a: Floatzel|Floatzel, F|100/100
+|move|p2a: Blaze it|Body Press|p1a: Floatzel
+|-damage|p1a: Floatzel|37/100
+|
+|-heal|p2a: Blaze it|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1686009274
+|move|p1a: Floatzel|Ice Spinner|p2a: Blaze it
+|-resisted|p2a: Blaze it
+|-damage|p2a: Blaze it|66/100
+|move|p2a: Blaze it|Body Press|p1a: Floatzel
+|-damage|p1a: Floatzel|0 fnt
+|faint|p1a: Floatzel
+|
+|-heal|p2a: Blaze it|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686009283
+|switch|p1a: Scovillain|Scovillain, F|100/100
+|turn|7
+|
+|t:|1686009316
+|move|p1a: Scovillain|Leech Seed|p2a: Blaze it
+|-start|p2a: Blaze it|move: Leech Seed
+|move|p2a: Blaze it|Body Press|p1a: Scovillain
+|-damage|p1a: Scovillain|47/100
+|
+|-heal|p1a: Scovillain|53/100|[from] item: Leftovers
+|-heal|p2a: Blaze it|78/100|[from] item: Leftovers
+|-damage|p2a: Blaze it|66/100|[from] Leech Seed|[of] p1a: Scovillain
+|-heal|p1a: Scovillain|66/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1686009325
+|move|p1a: Scovillain|Substitute|p1a: Scovillain
+|-start|p1a: Scovillain|Substitute
+|-damage|p1a: Scovillain|41/100
+|move|p2a: Blaze it|Body Press|p1a: Scovillain
+|-end|p1a: Scovillain|Substitute
+|
+|-heal|p1a: Scovillain|47/100|[from] item: Leftovers
+|-heal|p2a: Blaze it|72/100|[from] item: Leftovers
+|-damage|p2a: Blaze it|60/100|[from] Leech Seed|[of] p1a: Scovillain
+|-heal|p1a: Scovillain|60/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1686009336
+|switch|p2a: Blue Dog|Lycanroc-Dusk, F, shiny|100/100
+|move|p1a: Scovillain|Protect||[still]
+|-fail|p1a: Scovillain
+|
+|-heal|p1a: Scovillain|66/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1686009347
+|move|p2a: Blue Dog|Accelerock|p1a: Scovillain
+|-supereffective|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|-damage|p2a: Blue Dog|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1686009363
+|switch|p1a: Bronzong|Bronzong|16/100
+|turn|11
+|
+|t:|1686009372
+|move|p2a: Blue Dog|Fire Fang|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|-damage|p2a: Blue Dog|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1686009377
+|switch|p1a: Kilowattrel|Kilowattrel, F|100/100
+|turn|12
+|
+|t:|1686009400
+|-terastallize|p1a: Kilowattrel|Flying
+|move|p2a: Blue Dog|Accelerock|p1a: Kilowattrel
+|-supereffective|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|-damage|p2a: Blue Dog|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1686009406
+|switch|p1a: Iron Thorns|Iron Thorns|100/100
+|turn|13
+|
+|t:|1686009413
+|move|p2a: Blue Dog|Close Combat|p1a: Iron Thorns
+|-supereffective|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|0 fnt
+|-unboost|p2a: Blue Dog|def|1
+|-unboost|p2a: Blue Dog|spd|1
+|faint|p1a: Iron Thorns
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|-damage|p2a: Blue Dog|61/100|[from] item: Life Orb
+|
+|win|Baradrex

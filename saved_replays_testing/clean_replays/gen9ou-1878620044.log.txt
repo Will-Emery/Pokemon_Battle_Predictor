@@ -1,0 +1,41 @@
+# advantage = p1
+|poke|p1|Cresselia, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Sneasler, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Chien-Pao|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Great Tusk|
+|poke|p2|Regidrago|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: p2|Reflect
+|move|p1a: Sneasler|Dire Claw|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|42/100
+|-status|p2a: Grimmsnarl|slp
+|
+|turn|2
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Sneasler|Dire Claw|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|95/100
+|-status|p2a: Great Tusk|psn
+|
+|-heal|p2a: Great Tusk|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Great Tusk|88/100 psn|[from] psn
+|turn|3
+|-message|p2 forfeited.
+|
+|win|p1

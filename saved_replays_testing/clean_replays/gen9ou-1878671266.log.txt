@@ -1,0 +1,324 @@
+# advantage = p2
+|poke|p1|Cresselia, F|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Heatran, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Walking Wake|
+|poke|p2|Hatterene, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Roaring Moon|
+|poke|p2|Great Tusk|
+|poke|p2|Arcanine-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Walking Wake|atk|1
+|turn|1
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cresselia
+|-damage|p1a: Cresselia|75/100
+|
+|-heal|p1a: Cresselia|81/100|[from] item: Leftovers
+|turn|2
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Landorus|Substitute|p1a: Landorus
+|-start|p1a: Landorus|Substitute
+|-damage|p1a: Landorus|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|82/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Landorus|Grass Knot|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|67/100
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-end|p1a: Landorus|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|88/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Landorus|Grass Knot|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|30/100
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|57/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisatk
+|move|p1a: Landorus|Earthquake|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|7
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Roaring Moon|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|92/100
+|
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zamazenta|98/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Cresselia|Cresselia, F|81/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cresselia
+|-damage|p1a: Cresselia|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Cresselia|34/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|64/100
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|10
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Landorus|Landorus-Therian, M|57/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|turn|11
+|
+|move|p1a: Landorus|Substitute|p1a: Landorus
+|-start|p1a: Landorus|Substitute
+|-damage|p1a: Landorus|32/100
+|move|p2a: Torkoal|Yawn||[still]
+|-fail|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|12
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|13
+|
+|move|p1a: Landorus|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|switch|p2a: Roaring Moon|Roaring Moon|29/100
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|turn|14
+|
+|move|p2a: Roaring Moon|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-activate|p1a: Landorus|move: Substitute|[damage]
+|
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|17/100|[from] U-turn
+|move|p1a: Landorus|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Roaring Moon|Roaring Moon|29/100
+|-activate|p2a: Roaring Moon|ability: Protosynthesis
+|-start|p2a: Roaring Moon|protosynthesisatk
+|turn|15
+|
+|move|p2a: Roaring Moon|Dragon Claw|p1a: Landorus
+|-end|p1a: Landorus|Substitute
+|move|p1a: Landorus|Earthquake|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|16
+|
+|switch|p1a: Cresselia|Cresselia, F|34/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Dondozo|Dondozo, F|64/100
+|turn|17
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|24/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|18
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|32/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|
+|turn|19
+|
+|switch|p1a: Zamazenta|Zamazenta|98/100
+|move|p2a: Arcanine|Extreme Speed|p1a: Zamazenta
+|-damage|p1a: Zamazenta|75/100
+|
+|-heal|p1a: Zamazenta|81/100|[from] item: Leftovers
+|turn|20
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zamazenta|62/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Torkoal|Lava Plume|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zamazenta|68/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Zamazenta|Body Press|p2a: Torkoal
+|-damage|p2a: Torkoal|63/100
+|move|p2a: Torkoal|Lava Plume|p1a: Zamazenta
+|-damage|p1a: Zamazenta|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zamazenta|42/100|[from] item: Leftovers
+|turn|23
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Torkoal|Yawn|p1a: Heatran
+|-start|p1a: Heatran|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|24
+|
+|switch|p1a: Zamazenta|Zamazenta|42/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Zamazenta|49/100|[from] item: Leftovers
+|turn|25
+|
+|switch|p1a: Landorus|Landorus-Therian, M|32/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Walking Wake|atk|1
+|move|p2a: Walking Wake|Hydro Steam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|26
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|30/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisdef
+|move|p1a: Urshifu|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|27
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|6/100
+|move|p1a: Urshifu|Close Combat|p2a: Walking Wake
+|-damage|p2a: Walking Wake|31/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|turn|28
+|
+|switch|p1a: Dondozo|Dondozo, F|100/100 slp
+|move|p2a: Walking Wake|Hydro Steam|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|80/100 slp
+|
+|turn|29
+|
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Arcanine|[from]move: Sleep Talk
+|-supereffective|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-message|p2 forfeited.
+|
+|win|p1

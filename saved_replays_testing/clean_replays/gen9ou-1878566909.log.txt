@@ -1,0 +1,195 @@
+# advantage = p2
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Amoonguss, F|
+|poke|p1|Pawmot, F|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Moltres|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Gholdengo|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|turn|2
+|
+|switch|p2a: Moltres|Moltres|100/100
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|-damage|p1a: Basculegion|67/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|turn|3
+|
+|-terastallize|p2a: Enamorus|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|24/100
+|-damage|p1a: Basculegion|44/100|[from] Recoil
+|move|p2a: Enamorus|Draining Kiss|p1a: Basculegion
+|-damage|p1a: Basculegion|9/100
+|-heal|p2a: Enamorus|53/100|[from] drain|[of] p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Enamorus|59/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Basculegion|Wave Crash|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|8/100
+|-damage|p1a: Basculegion|0 fnt|[from] Recoil
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Pawmot|Pawmot, F|100/100
+|turn|5
+|
+|move|p1a: Pawmot|Mach Punch|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Amoonguss
+|-damage|p1a: Amoonguss|21/100
+|-unboost|p2a: Dragapult|spa|2
+|-enditem|p1a: Amoonguss|Eject Button
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|21/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Zapdos|Hurricane|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|none
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|9
+|
+|switch|p1a: Amoonguss|Amoonguss, F|54/100
+|move|p2a: Great Tusk|Knock Off|p1a: Amoonguss
+|-damage|p1a: Amoonguss|41/100
+|
+|turn|10
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Great Tusk
+|-status|p2a: Great Tusk|slp|[from] move: Spore
+|
+|turn|11
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|76/100
+|-heal|p1a: Amoonguss|50/100|[from] drain|[of] p2a: Dragapult
+|
+|turn|12
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Amoonguss
+|
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100 slp
+|move|p1a: Zapdos|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|76/100
+|turn|14
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|31/100
+|
+|-heal|p1a: Great Tusk|37/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Pawmot|Pawmot, F|100/100
+|turn|16
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Pawmot
+|-damage|p1a: Pawmot|9/100
+|move|p1a: Pawmot|Double Shock|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|34/100
+|-start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|
+|turn|17
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|
+|
+|switch|p1a: Zapdos|Zapdos|76/100
+|-damage|p1a: Zapdos|51/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|p2

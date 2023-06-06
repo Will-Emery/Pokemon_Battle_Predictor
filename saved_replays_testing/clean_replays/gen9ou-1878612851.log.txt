@@ -1,0 +1,234 @@
+# advantage = p1
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p1|Garchomp, F|
+|poke|p1|Zapdos|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Jugulis|
+|poke|p2|Sneasler, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Diancie|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|switch|p2a: Iron Yugular|Iron Jugulis|100/100
+|-enditem|p2a: Iron Yugular|Booster Energy
+|-activate|p2a: Iron Yugular|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Yugular|quarkdrivespe
+|turn|1
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Iron Yugular|Hurricane|p1a: Zapdos|[miss]
+|-miss|p2a: Iron Yugular|p1a: Zapdos
+|
+|turn|2
+|
+|-end|p2a: Iron Yugular|Quark Drive|[silent]
+|switch|p2a: Diancie|Diancie|100/100
+|move|p1a: Zapdos|Heat Wave|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|86/100
+|
+|-heal|p2a: Diancie|93/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Diancie
+|-damage|p2a: Diancie|63/100
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100|[from] Volt Switch
+|move|p2a: Diancie|Rock Polish|p2a: Diancie
+|-boost|p2a: Diancie|spe|2
+|
+|-heal|p2a: Diancie|69/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|
+|turn|5
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Urshifu|Surging Strikes|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|92/100
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|84/100
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|75/100
+|-hitcount|p2a: Goodra|3
+|
+|-heal|p2a: Goodra|81/100|[from] item: Leftovers
+|turn|6
+|
+|-terastallize|p2a: Goodra|Flying
+|move|p1a: Urshifu|Close Combat|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|49/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2a: Goodra|Thunderbolt|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-heal|p2a: Goodra|55/100|[from] item: Leftovers
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|7
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Great Tusk
+|-damage|p2a: Great Tusk|40/100
+|
+|-heal|p2a: Great Tusk|46/100|[from] item: Leftovers
+|turn|8
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Diancie|Diancie|69/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|26/100
+|
+|-heal|p2a: Diancie|32/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|
+|switch|p2a: Iron Yugular|Iron Jugulis|100/100
+|turn|10
+|
+|-terastallize|p1a: Arcanine|Rock
+|move|p2a: Iron Yugular|Earth Power|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|26/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Iron Yugular
+|-damage|p2a: Iron Yugular|0 fnt
+|faint|p2a: Iron Yugular
+|-end|p2a: Iron Yugular|Quark Drive|[silent]
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|turn|11
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Sneasler|Dire Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|60/100
+|-status|p1a: Zapdos|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|-damage|p2a: Sneasler|91/100|[from] item: Life Orb
+|
+|-damage|p1a: Zapdos|47/100 psn|[from] psn
+|turn|12
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Zapdos
+|-damage|p1a: Zapdos|8/100 psn
+|-status|p2a: Sneasler|par|[from] ability: Static|[of] p1a: Zapdos
+|-damage|p2a: Sneasler|81/100 par|[from] item: Life Orb
+|move|p1a: Zapdos|Hurricane|p2a: Sneasler|[miss]
+|-miss|p1a: Zapdos|p2a: Sneasler
+|
+|-damage|p1a: Zapdos|0 fnt|[from] psn
+|faint|p1a: Zapdos
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|13
+|
+|move|p1a: Garchomp|Draco Meteor|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Garchomp|spa|2
+|faint|p2a: Sneasler
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|14
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|49/100
+|-damage|p1a: Garchomp|81/100|[from] item: Life Orb
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|
+|turn|15
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|move|p2a: Lilligant|Leaf Blade|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Lilligant|39/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|16
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|9/100
+|move|p2a: Lilligant|Axe Kick|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|-damage|p2a: Lilligant|0 fnt|[from] item: Life Orb
+|faint|p2a: Lilligant
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|46/100
+|switch|p1a: Arcanine|Arcanine-Hisui, M, tera:Rock|26/100
+|turn|17
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-heal|p2a: Great Tusk|52/100|[from] item: Leftovers
+|
+|switch|p1a: Garchomp|Garchomp, F|81/100
+|turn|18
+|
+|move|p1a: Garchomp|Fire Blast|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Garchomp|71/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Goodra|Goodra-Hisui, M, tera:Flying|55/100
+|turn|19
+|
+|move|p1a: Garchomp|Draco Meteor|p2a: Goodra
+|-damage|p2a: Goodra|13/100
+|-unboost|p1a: Garchomp|spa|2
+|-damage|p1a: Garchomp|61/100|[from] item: Life Orb
+|move|p2a: Goodra|Sludge Bomb|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|42/100
+|
+|-heal|p2a: Goodra|19/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Garchomp|Draco Meteor|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Garchomp|spa|2
+|faint|p2a: Goodra
+|-damage|p1a: Garchomp|32/100|[from] item: Life Orb
+|
+|win|p1

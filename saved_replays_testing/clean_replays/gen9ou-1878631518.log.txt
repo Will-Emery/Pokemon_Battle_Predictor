@@ -1,0 +1,75 @@
+# advantage = p1
+|poke|p1|Basculegion, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Delphox, F|
+|poke|p1|Wo-Chien|
+|poke|p1|Great Tusk|
+|poke|p1|Goodra-Hisui, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Great Tusk|
+|poke|p2|Rillaboom, F|
+|poke|p2|Sneasler, F|
+|teampreview
+|
+|start
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|switch|p2a: Tata|Kleavor, F|100/100
+|turn|1
+|
+|move|p2a: Tata|Stone Axe|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|78/100
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Goodra|Flamethrower|p2a: Tata
+|-damage|p2a: Tata|50/100
+|
+|turn|2
+|
+|move|p2a: Tata|Close Combat|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-unboost|p2a: Tata|def|1
+|-unboost|p2a: Tata|spd|1
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|turn|3
+|
+|move|p2a: Tata|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|89/100
+|-damage|p2a: Tata|33/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|switch|p2a: Pelippo|Pelipper, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelippo
+|move|p1a: Great Tusk|Stealth Rock|p2a: Pelippo
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Wo-Chien|Wo-Chien|100/100
+|-damage|p1a: Wo-Chien|88/100|[from] Stealth Rock
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Pelippo|Hurricane|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|48/100
+|-start|p1a: Wo-Chien|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wo-Chien|54/100|[from] item: Leftovers
+|turn|5
+|
+|-activate|p1a: Wo-Chien|confusion
+|-damage|p1a: Wo-Chien|48/100|[from] confusion
+|move|p2a: Pelippo|U-turn|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|24/100
+|-message|p1 forfeited.
+|
+|win|p2

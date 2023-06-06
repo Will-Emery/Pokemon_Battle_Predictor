@@ -1,0 +1,89 @@
+# advantage = p1
+|poke|p1|Chien-Pao|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Skeledirge, M|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Thundurus
+|-start|p1a: Thundurus|move: Taunt
+|move|p1a: Thundurus|Volt Switch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|57/100
+|-damage|p1a: Thundurus|91/100|[from] item: Life Orb
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100|[from] Volt Switch
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|
+|turn|2
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: p2|Reflect
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|13/100
+|
+|turn|3
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: p2|move: Light Screen
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|4
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|turn|5
+|
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|10/100
+|move|p1a: Urshifu|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|28/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-enditem|p2a: Kingambit|Weakness Policy
+|-boost|p2a: Kingambit|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Kingambit|spa|2|[from] item: Weakness Policy
+|-damage|p1a: Urshifu|0 fnt|[from] item: Life Orb
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|37/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kingambit
+|-damage|p2a: Kingambit|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p1a: Great Tusk|43/100|[from] item: Leftovers
+|turn|7
+|-message|p1 forfeited.
+|
+|win|p2

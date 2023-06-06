@@ -1,3 +1,6 @@
+"""Module: abilityscraper.py
+This file contains functions for scraping the ability data from the website. This includes scraping the ability name, description, and effect."""
+
 import time
 from bs4 import BeautifulSoup
 import requests
@@ -56,5 +59,5 @@ def add_effect(ability_name):
 if __name__ == "__main__":
     start_time = time.time()
     ability_df = scrape_ability_info()
-    ability_df.to_csv("ability.csv", index=False)
+    ability_df.to_csv("ability_data.csv", index=False)
     print(ability_df)

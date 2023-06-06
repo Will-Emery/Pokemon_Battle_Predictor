@@ -1,0 +1,261 @@
+|j|☆Splash Mystic
+|j|☆reefwon3
+|t:|1686012689
+|gametype|singles
+|player|p1|Splash Mystic|silver|1353
+|player|p2|reefwon3|266|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sneasler, F|
+|poke|p1|Heatran, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Gholdengo|
+|poke|p2|Sneasler, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Treads|
+|poke|p2|Azumarill, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by reefwon3)
+|
+|t:|1686012732
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1686012755
+|move|p2a: Iron Treads|Ice Spinner|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|89/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|12/100
+|
+|upkeep
+|turn|2
+|inactive|Splash Mystic has 120 seconds left.
+|inactive|Splash Mystic has 90 seconds left.
+|
+|t:|1686012805
+|-terastallize|p1a: Gholdengo|Flying
+|move|p2a: Iron Treads|Earthquake|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1686012810
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|3
+|
+|t:|1686012815
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|move|p2a: Arcanine|Head Smash|p1a: Landorus
+|-damage|p1a: Landorus|60/100
+|-damage|p2a: Arcanine|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|upkeep
+|turn|4
+|
+|t:|1686012822
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|55/100
+|
+|-heal|p2a: Hatterene|61/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1686012826
+|move|p1a: Landorus|U-turn|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|28/100
+|
+|t:|1686012830
+|switch|p1a: Heatran|Heatran, F|100/100|[from] U-turn
+|move|p2a: Hatterene|Draining Kiss|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|-heal|p2a: Hatterene|32/100|[from] drain|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|38/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1686012834
+|move|p1a: Heatran|Lava Plume|p2a: Hatterene
+|-damage|p2a: Hatterene|1/100
+|move|p2a: Hatterene|Nuzzle|p1a: Heatran
+|-damage|p1a: Heatran|97/100
+|-status|p1a: Heatran|par
+|
+|-heal|p1a: Heatran|100/100 par|[from] item: Leftovers
+|-heal|p2a: Hatterene|7/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1686012839
+|switch|p2a: Arcanine|Arcanine-Hisui, M|84/100
+|move|p1a: Heatran|Earth Power|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1686012843
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|8
+|
+|t:|1686012847
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: reefwon3|move: Light Screen
+|cant|p1a: Heatran|par
+|
+|upkeep
+|turn|9
+|
+|t:|1686012851
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: reefwon3|Reflect
+|move|p1a: Heatran|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|
+|upkeep
+|turn|10
+|
+|t:|1686012854
+|move|p2a: Dragapult|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100 par
+|
+|t:|1686012857
+|switch|p2a: Hatterene|Hatterene, F|7/100|[from] U-turn
+|move|p1a: Heatran|Lava Plume|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Heatran|100/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1686012859
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|11
+|
+|t:|1686012880
+|move|p2a: Azumarill|Belly Drum|p2a: Azumarill
+|-damage|p2a: Azumarill|50/100
+|-setboost|p2a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|75/100|[from] item: Sitrus Berry
+|cant|p1a: Heatran|par
+|
+|upkeep
+|turn|12
+|
+|t:|1686012888
+|move|p2a: Azumarill|Aqua Jet|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1686012898
+|switch|p1a: Landorus|Landorus-Therian, M|60/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Azumarill|atk|1
+|turn|13
+|
+|t:|1686012917
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|move|p2a: Azumarill|Aqua Jet|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|upkeep
+|
+|t:|1686012920
+|switch|p1a: Landorus|Landorus-Therian, M|60/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Azumarill|atk|1
+|turn|14
+|
+|t:|1686012938
+|switch|p1a: Gholdengo|Gholdengo, tera:Flying|89/100
+|move|p2a: Azumarill|Aqua Jet|p1a: Gholdengo
+|-damage|p1a: Gholdengo|24/100
+|
+|upkeep
+|turn|15
+|
+|t:|1686012944
+|move|p2a: Azumarill|Aqua Jet|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-sideend|p2: reefwon3|move: Light Screen
+|upkeep
+|
+|t:|1686012949
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|16
+|
+|t:|1686012953
+|-terastallize|p2a: Azumarill|Water
+|move|p2a: Azumarill|Aqua Jet|p1a: Thundurus
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-sideend|p2: reefwon3|Reflect
+|upkeep
+|c|☆Splash Mystic|fuck y u o
+|c|☆reefwon3|?
+|inactive|Splash Mystic has 120 seconds left.
+|c|☆Splash Mystic|piece of shit crit just cost me the game
+|c|☆reefwon3|what
+|j|@Waves
+|c|@Waves|/log Splash Mystic was warned by Waves. (don't be rude)
+|hidelines|unlink|splashmystic
+|c|&|/raw If you have questions about this action, please contact staff by making a help ticket
+|l|@Waves
+|c|☆reefwon3|LMFAO
+|c|☆reefwon3|its not surviving
+|c|☆reefwon3|at tera water + 4
+|inactive|Splash Mystic has 90 seconds left.
+|c|☆reefwon3|what are u on about
+|c|☆reefwon3|crit did not matter at all
+|inactive|Splash Mystic has 60 seconds left.
+|c|☆Splash Mystic|yep just calced guaranteed lived
+|-message|Splash Mystic forfeited.
+|
+|win|reefwon3
+|raw|Splash Mystic's rating: 1353 → 1333(-20 for losing)
+|raw|reefwon3's rating: 1350 → 1370(+20 for winning)

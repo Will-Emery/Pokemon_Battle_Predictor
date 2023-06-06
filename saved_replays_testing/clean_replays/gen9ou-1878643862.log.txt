@@ -1,0 +1,325 @@
+# advantage = p2
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos|
+|poke|p1|Ursaluna, M|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Avalugg, M|
+|poke|p2|Sandy Shocks|
+|poke|p2|Heatran, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Amoonguss, M|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Zapdos|Volt Switch|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|70/100
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Volt Switch
+|
+|-heal|p2a: Heatran|76/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|100/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Amoonguss
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|77/100
+|-damage|p1a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|turn|3
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Heatran|Heatran, F|76/100
+|
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Zapdos|[miss]
+|-miss|p2a: Heatran|p1a: Zapdos
+|
+|-heal|p2a: Heatran|89/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|68/100
+|
+|switch|p1a: Cinderace|Cinderace, F|84/100|[from] Volt Switch
+|move|p2a: Heatran|Magma Storm|p1a: Cinderace|[miss]
+|-miss|p2a: Heatran|p1a: Cinderace
+|
+|-heal|p2a: Heatran|74/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|11/100
+|-status|p2a: Amoonguss|brn
+|
+|-damage|p2a: Amoonguss|5/100 brn|[from] brn
+|turn|7
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|
+|turn|8
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|57/100
+|-sidestart|p1: p1|Spikes
+|
+|-heal|p1a: Zapdos|63/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|38/100 brn
+|move|p1a: Zapdos|Volt Switch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|21/100 brn
+|
+|switch|p1a: Cinderace|Cinderace, F|84/100|[from] Volt Switch
+|
+|-damage|p2a: Amoonguss|15/100 brn|[from] brn
+|turn|10
+|
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|move|p1a: Cinderace|U-turn|p2a: Sandy Shocks
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-crit|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|67/100
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|
+|-heal|p2a: Sandy Shocks|73/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|28/100
+|move|p2a: Sandy Shocks|Earth Power|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|2/100
+|
+|-heal|p2a: Sandy Shocks|35/100|[from] item: Leftovers
+|turn|12
+|
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|68/100
+|
+|turn|13
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-sidestart|p1: p1|Spikes
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Zapdos|Zapdos|63/100
+|turn|14
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|48/100 brn
+|move|p1a: Zapdos|Volt Switch|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|33/100 brn
+|
+|switch|p1a: Cinderace|Cinderace, F|84/100|[from] Volt Switch
+|
+|-damage|p2a: Amoonguss|27/100 brn|[from] brn
+|turn|15
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Amoonguss|Spore|p1a: Cinderace
+|-status|p1a: Cinderace|slp|[from] move: Spore
+|
+|-damage|p2a: Amoonguss|21/100 brn|[from] brn
+|turn|16
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|switch|p2a: Samurott|Samurott-Hisui, M|68/100
+|-damage|p2a: Samurott|51/100|[from] Spikes
+|
+|turn|17
+|
+|move|p2a: Samurott|Sacred Sword|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|18
+|
+|switch|p2a: Sandy Shocks|Sandy Shocks|35/100
+|-damage|p2a: Sandy Shocks|18/100|[from] Spikes
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Sandy Shocks
+|-status|p2a: Sandy Shocks|brn
+|
+|-heal|p2a: Sandy Shocks|24/100 brn|[from] item: Leftovers
+|-damage|p2a: Sandy Shocks|18/100 brn|[from] brn
+|turn|19
+|
+|move|p1a: Dragapult|Hex|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|51/100
+|-damage|p2a: Samurott|35/100|[from] Spikes
+|turn|20
+|
+|-terastallize|p1a: Dragapult|Fairy
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|62/100
+|-sidestart|p1: p1|Spikes
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Samurott
+|-status|p2a: Samurott|brn
+|
+|-damage|p2a: Samurott|29/100 brn|[from] brn
+|turn|21
+|
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|48/100
+|-sidestart|p1: p1|Spikes
+|move|p1a: Dragapult|Hex|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-damage|p1a: Dragapult|38/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Heatran|Heatran, F|74/100
+|-damage|p2a: Heatran|57/100|[from] Spikes
+|turn|22
+|
+|switch|p1a: Zapdos|Zapdos|63/100
+|move|p2a: Heatran|Magma Storm|p1a: Zapdos
+|-damage|p1a: Zapdos|21/100
+|-activate|p1a: Zapdos|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Zapdos|27/100|[from] item: Leftovers
+|-heal|p2a: Heatran|63/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|15/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|23
+|
+|move|p1a: Zapdos|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|42/100
+|
+|switch|p1a: Cinderace|Cinderace, F|84/100 slp|[from] Volt Switch
+|move|p2a: Heatran|Magma Storm|p1a: Cinderace|[miss]
+|-miss|p2a: Heatran|p1a: Cinderace
+|
+|-heal|p2a: Heatran|48/100|[from] item: Leftovers
+|turn|24
+|
+|cant|p1a: Cinderace|slp
+|move|p2a: Heatran|Earth Power|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Heatran|54/100|[from] item: Leftovers
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|84/100|[from] Spikes
+|turn|25
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|move|p1a: Ursaluna|Taunt|p2a: Enamorus
+|-start|p2a: Enamorus|move: Taunt
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|26
+|
+|move|p2a: Enamorus|Earth Power|p1a: Ursaluna
+|-damage|p1a: Ursaluna|58/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Enamorus
+|-damage|p2a: Enamorus|5/100
+|
+|-heal|p2a: Enamorus|11/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|52/100 brn|[from] brn
+|turn|27
+|
+|move|p2a: Enamorus|Earth Power|p1a: Ursaluna
+|-damage|p1a: Ursaluna|26/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-damage|p1a: Ursaluna|20/100 brn|[from] brn
+|player|p2|
+|player|p2|p2|riley
+|
+|switch|p2a: Amoonguss|Amoonguss, M, shiny|54/100 brn
+|-damage|p2a: Amoonguss|37/100 brn|[from] Spikes
+|turn|28
+|
+|move|p1a: Ursaluna|Earthquake|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-damage|p1a: Ursaluna|14/100 brn|[from] brn
+|
+|switch|p2a: Heatran|Heatran, F|54/100
+|-damage|p2a: Heatran|37/100|[from] Spikes
+|turn|29
+|
+|move|p2a: Heatran|Earth Power|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Heatran|44/100|[from] item: Leftovers
+|
+|switch|p1a: Zapdos|Zapdos|15/100
+|turn|30
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|13/100
+|move|p2a: Heatran|Magma Storm|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-heal|p2a: Heatran|19/100|[from] item: Leftovers
+|
+|switch|p1a: Dragapult|Dragapult, M, tera:Fairy|38/100
+|-damage|p1a: Dragapult|22/100|[from] Spikes
+|turn|31
+|
+|move|p1a: Dragapult|Hex|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|-damage|p1a: Dragapult|12/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|turn|32
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Avalugg|[miss]
+|-miss|p1a: Dragapult|p2a: Avalugg
+|move|p2a: Avalugg|Avalanche|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|p2

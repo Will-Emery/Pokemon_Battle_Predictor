@@ -1,0 +1,231 @@
+# advantage = p2
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Glastrier|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|poke|p2|Garchomp, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Earthquake|p1a: Hoopa
+|-damage|p1a: Hoopa|22/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|turn|2
+|
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Garchomp
+|-damage|p2a: Garchomp|22/100
+|-unboost|p1a: Hoopa|def|1
+|-enditem|p1a: Hoopa|Eject Pack
+|-item|p1a: Hoopa|Life Orb|[from] ability: Magician|[of] p2a: Garchomp
+|
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|72/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|3
+|
+|move|p1a: Ursaluna|Facade|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Ursaluna|60/100 brn|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-damage|p1a: Ursaluna|54/100 brn|[from] brn
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|4
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1a: Ursaluna|Facade|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-damage|p1a: Ursaluna|48/100 brn|[from] brn
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|5
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-fieldend|move: Trick Room
+|turn|6
+|
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p1a: Glastrier|Close Combat|p2a: Urshifu
+|-damage|p2a: Urshifu|47/100
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|
+|turn|7
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|22/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Hoopa
+|-crit|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|-hitcount|p1: Hoopa|1
+|
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|8
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|51/100
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|29/100
+|-hitcount|p1a: Slowking|3
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|turn|9
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Slowking
+|-damage|p1a: Slowking|9/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|10
+|
+|move|p2a: Kingambit|Iron Head|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|turn|11
+|
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|move|p1a: Glastrier|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|77/100
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|
+|-heal|p2a: Great Tusk|83/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Glastrier|Swords Dance|p1a: Glastrier
+|-boost|p1a: Glastrier|atk|2
+|move|p2a: Great Tusk|Stealth Rock|p1a: Glastrier
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|89/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|13
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Glastrier
+|-damage|p1a: Glastrier|54/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|14
+|
+|move|p2a: Kingambit|Iron Head|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|faint|p1a: Glastrier
+|
+|
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|19/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|16
+|
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, F, tera:Normal|48/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Lunar Dance
+|-damage|p1a: Ursaluna|88/100|[from] Stealth Rock
+|turn|17
+|
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Ursaluna|Headlong Rush|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|18
+|
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-damage|p2a: Kingambit|24/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|48/100
+|
+|-heal|p2a: Kingambit|30/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|4/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|20
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|p2

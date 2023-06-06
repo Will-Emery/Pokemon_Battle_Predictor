@@ -1,0 +1,211 @@
+# advantage = p2
+|poke|p1|Sneasler, M|
+|poke|p1|Scizor, M|
+|poke|p1|Kleavor, M|
+|poke|p1|Great Tusk|
+|poke|p1|Dondozo, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Great Tusk|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Glimmora|Earth Power|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|26/100
+|-unboost|p1a: Dragapult|spd|1
+|
+|turn|2
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Glimmora
+|-damage|p2a: Glimmora|29/100
+|move|p2a: Glimmora|Earth Power|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|3
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|83/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-status|p1a: Great Tusk|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|-heal|p1a: Great Tusk|90/100 par|[from] item: Leftovers
+|turn|4
+|
+|move|p2a: Zapdos|Hurricane|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|turn|5
+|
+|switch|p2a: Glimmora|Glimmora, F|29/100
+|move|p1a: Kleavor|Stone Axe|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-sidestart|p2: p2|move: Stealth Rock
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: p1|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|6
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Sneasler
+|move|p2a: Samurott|Ceaseless Edge|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|62/100
+|-sidestart|p1: p1|Spikes
+|
+|turn|7
+|
+|move|p1a: Sneasler|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Zapdos|Zapdos|83/100
+|-damage|p2a: Zapdos|58/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|23/100
+|-damage|p1a: Sneasler|46/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|73/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|9
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|30/100
+|-status|p2a: Zapdos|psn
+|-damage|p1a: Sneasler|29/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|81/100 psn
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-damage|p2a: Zapdos|68/100 psn|[from] psn
+|turn|10
+|
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100 psn
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-damage|p2a: Zapdos|88/100 psn|[from] psn
+|turn|11
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|10/100 psn
+|-damage|p1a: Sneasler|12/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-status|p1a: Sneasler|par|[from] ability: Static|[of] p2a: Zapdos
+|move|p2a: Zapdos|Volt Switch|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|-damage|p1a: Dondozo|88/100|[from] Spikes
+|turn|12
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Dondozo
+|-damage|p1a: Dondozo|75/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Dondozo|Liquidation|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|55/100
+|
+|-heal|p1a: Dondozo|82/100|[from] item: Leftovers
+|turn|13
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|10/100 psn
+|move|p1a: Dondozo|Liquidation|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-damage|p1a: Dondozo|65/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-status|p1a: Dondozo|par|[from] ability: Static|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|-heal|p1a: Dondozo|71/100 par|[from] item: Leftovers
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|14
+|
+|move|p2a: Hoopa|Nasty Plot|p2a: Hoopa
+|-boost|p2a: Hoopa|spa|2
+|move|p1a: Dondozo|Body Press|p2a: Hoopa
+|-damage|p2a: Hoopa|55/100
+|
+|-heal|p1a: Dondozo|77/100 par|[from] item: Leftovers
+|turn|15
+|
+|-terastallize|p2a: Hoopa|Psychic
+|move|p2a: Hoopa|Psychic|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|-damage|p1a: Kleavor|88/100|[from] Spikes
+|turn|16
+|
+|move|p1a: Kleavor|Night Slash|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|55/100
+|turn|17
+|
+|move|p2a: Great Tusk|Headlong Rush|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Spikes
+|turn|18
+|
+|-terastallize|p1a: Scizor|Steel
+|move|p1a: Scizor|Bullet Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|5/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Scizor
+|
+|win|p2

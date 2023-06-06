@@ -1,0 +1,254 @@
+# advantage = p2
+|poke|p1|Zamazenta-*|
+|poke|p1|Chien-Pao|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kleavor, M|
+|poke|p1|Walking Wake|
+|poke|p1|Iron Treads|
+|poke|p2|Glimmora, F|
+|poke|p2|Great Tusk|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|1
+|
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|move|p1a: Walking Wake|Flamethrower|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-crit|p2a: Glimmora
+|-damage|p2a: Glimmora|68/100
+|-status|p2a: Glimmora|brn
+|
+|-damage|p2a: Glimmora|62/100 brn|[from] brn
+|turn|2
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|3
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Samurott
+|-damage|p2a: Samurott|52/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Walking Wake
+|-crit|p1a: Walking Wake
+|-damage|p1a: Walking Wake|20/100
+|-sidestart|p1: p1|Spikes
+|
+|turn|4
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Samurott
+|-damage|p2a: Samurott|3/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-sidestart|p1: p1|Spikes
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|-damage|p1a: Kleavor|84/100|[from] Spikes
+|turn|5
+|
+|move|p1a: Kleavor|Quick Attack|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|63/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p1a: Landorus|69/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Landorus|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-heal|p1a: Landorus|75/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Landorus|Smack Down|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|63/100
+|-start|p2a: Zapdos|Smack Down
+|move|p2a: Zapdos|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|18/100
+|
+|-heal|p1a: Landorus|24/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Landorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|56/100
+|
+|-heal|p1a: Landorus|30/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Great Tusk|Close Combat|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Landorus
+|
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p1a: Zamazenta|84/100|[from] Spikes
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|11
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|63/100
+|move|p1a: Zamazenta|Trailblaze|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|56/100
+|-boost|p1a: Zamazenta|spe|1
+|-damage|p1a: Zamazenta|67/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|
+|turn|12
+|
+|-terastallize|p1a: Zamazenta|Fighting
+|move|p1a: Zamazenta|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|15/100
+|-damage|p1a: Zamazenta|51/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|65/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|13
+|
+|move|p1a: Zamazenta|Crunch|p2a: Zapdos
+|-damage|p2a: Zapdos|41/100
+|-damage|p1a: Zamazenta|34/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|91/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|14
+|
+|move|p1a: Zamazenta|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|47/100
+|-damage|p1a: Zamazenta|18/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|97/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|15
+|
+|move|p1a: Zamazenta|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|54/100
+|-damage|p1a: Zamazenta|1/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|16
+|
+|move|p1a: Zamazenta|Crunch|p2a: Zapdos
+|-damage|p2a: Zapdos|80/100
+|-damage|p1a: Zamazenta|0 fnt|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|faint|p1a: Zamazenta
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|84/100|[from] Spikes
+|turn|17
+|
+|move|p1a: Iron Treads|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|85/100
+|-boost|p1a: Iron Treads|spe|1
+|-damage|p1a: Iron Treads|67/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-status|p1a: Iron Treads|par|[from] ability: Static|[of] p2a: Zapdos
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Zapdos|Heat Wave|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Kleavor|Kleavor, M|84/100
+|turn|18
+|
+|switch|p2a: Great Tusk|Great Tusk|56/100
+|move|p1a: Kleavor|Stone Axe|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|41/100
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|19
+|
+|move|p2a: Great Tusk|Close Combat|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Kleavor
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|20
+|
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|move|p2a: Great Tusk|Close Combat|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-enditem|p1a: Chien-Pao|Focus Sash
+|-damage|p1a: Chien-Pao|1/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|turn|21
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|85/100
+|-damage|p2a: Zapdos|60/100|[from] Stealth Rock
+|move|p1a: Chien-Pao|Ice Shard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|turn|22
+|
+|-terastallize|p2a: Gholdengo|Steel
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|6/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Chien-Pao
+|-resisted|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|win|p2

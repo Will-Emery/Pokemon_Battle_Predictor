@@ -1,0 +1,336 @@
+# advantage = p2
+|poke|p1|Espeon, F|
+|poke|p1|Great Tusk|
+|poke|p1|Talonflame, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Dondozo, M|
+|poke|p1|Chien-Pao|
+|poke|p2|Mimikyu, F|
+|poke|p2|Great Tusk|
+|poke|p2|Skeledirge, F|
+|poke|p2|Amoonguss, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|start
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: Kung Fu Chaos|Chien-Pao|100/100
+|-ability|p2a: Kung Fu Chaos|Sword of Ruin
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Kung Fu Chaos|Sacred Sword|p1a: Dondozo
+|-damage|p1a: Dondozo|70/100
+|
+|-heal|p1a: Dondozo|76/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Swagwan|Rotom-Wash|100/100
+|move|p1a: Dondozo|Liquidation|p2a: Swagwan
+|-resisted|p2a: Swagwan
+|-damage|p2a: Swagwan|72/100
+|
+|-heal|p1a: Dondozo|83/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Swagwan|Hydro Pump|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|89/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: Amongus|Amoonguss, F|100/100
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|
+|turn|5
+|
+|move|p1a: Goodra|Flamethrower|p2a: Amongus
+|-supereffective|p2a: Amongus
+|-damage|p2a: Amongus|70/100
+|move|p2a: Amongus|Spore|p1a: Goodra
+|-ability|p1a: Goodra|Sap Sipper|boost
+|-boost|p1a: Goodra|atk|1
+|
+|turn|6
+|
+|switch|p2a: Derga|Skeledirge, F|100/100
+|move|p1a: Goodra|Flash Cannon|p2a: Derga
+|-resisted|p2a: Derga
+|-damage|p2a: Derga|90/100
+|
+|turn|7
+|
+|move|p2a: Derga|Torch Song|p1a: Goodra
+|-damage|p1a: Goodra|70/100
+|-boost|p2a: Derga|spa|1
+|move|p1a: Goodra|Earthquake|p2a: Derga
+|-supereffective|p2a: Derga
+|-damage|p2a: Derga|45/100
+|
+|-heal|p1a: Goodra|76/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|move|p2a: Derga|Torch Song|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|54/100
+|-boost|p2a: Derga|spa|1
+|
+|turn|9
+|
+|switch|p2a: Ka Go Me|Mimikyu, F|100/100
+|move|p1a: Talonflame|Air Slash|p2a: Ka Go Me
+|-activate|p2a: Ka Go Me|ability: Disguise
+|-damage|p2a: Ka Go Me|100/100
+|detailschange|p2a: Ka Go Me|Mimikyu-Busted, F
+|-damage|p2a: Ka Go Me|88/100|[from] pokemon: Mimikyu-Busted
+|
+|turn|10
+|
+|move|p2a: Ka Go Me|Shadow Sneak|p1a: Talonflame
+|-damage|p1a: Talonflame|26/100
+|-damage|p2a: Ka Go Me|78/100|[from] item: Life Orb
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Ka Go Me
+|-status|p2a: Ka Go Me|brn
+|
+|-damage|p2a: Ka Go Me|72/100 brn|[from] brn
+|turn|11
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|77/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Ka Go Me|Swords Dance|p2a: Ka Go Me
+|-boost|p2a: Ka Go Me|atk|2
+|
+|-damage|p2a: Ka Go Me|66/100 brn|[from] brn
+|turn|12
+|
+|switch|p1a: Dondozo|Dondozo, M|89/100
+|move|p2a: Ka Go Me|Shadow Sneak|p1a: Dondozo
+|-damage|p1a: Dondozo|83/100
+|-damage|p2a: Ka Go Me|56/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Dondozo|89/100|[from] item: Leftovers
+|-damage|p2a: Ka Go Me|50/100 brn|[from] brn
+|turn|13
+|
+|switch|p2a: Amongus|Amoonguss, F|100/100
+|move|p1a: Dondozo|Liquidation|p2a: Amongus
+|-resisted|p2a: Amongus
+|-damage|p2a: Amongus|81/100
+|
+|-heal|p1a: Dondozo|95/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p1a: Goodra|Goodra-Hisui, M|76/100
+|switch|p2a: Kung Fu Chaos|Chien-Pao|100/100
+|-ability|p2a: Kung Fu Chaos|Sword of Ruin
+|
+|-heal|p1a: Goodra|82/100|[from] item: Leftovers
+|turn|15
+|
+|-terastallize|p2a: Kung Fu Chaos|Dark
+|-terastallize|p1a: Goodra|Ghost
+|move|p2a: Kung Fu Chaos|Crunch|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|
+|switch|p1a: Dondozo|Dondozo, M|95/100
+|turn|16
+|
+|move|p2a: Kung Fu Chaos|Crunch|p1a: Dondozo
+|-damage|p1a: Dondozo|44/100
+|move|p1a: Dondozo|Liquidation|p2a: Kung Fu Chaos
+|-damage|p2a: Kung Fu Chaos|49/100
+|-unboost|p2a: Kung Fu Chaos|def|1
+|
+|-heal|p1a: Dondozo|50/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Kung Fu Chaos|Crunch|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|56/100|[from] item: Leftovers
+|turn|18
+|
+|move|p2a: Kung Fu Chaos|Crunch|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|19
+|
+|switch|p2a: Ka Go Me|Mimikyu-Busted, F|50/100 brn
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Ka Go Me
+|-damage|p2a: Ka Go Me|0 fnt
+|faint|p2a: Ka Go Me
+|
+|
+|switch|p2a: Swagwan|Rotom-Wash|72/100
+|turn|20
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Swagwan|Thunder Wave|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|turn|21
+|
+|switch|p2a: Manny|Great Tusk|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Manny
+|-resisted|p2a: Manny
+|-damage|p2a: Manny|93/100
+|-enditem|p2a: Manny|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|turn|22
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Talonflame|Talonflame, M|77/100
+|move|p2a: Manny|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|44/100
+|-enditem|p1a: Talonflame|Sharp Beak|[from] move: Knock Off|[of] p2a: Manny
+|
+|turn|23
+|
+|move|p1a: Talonflame|Air Slash|p2a: Manny
+|-supereffective|p2a: Manny
+|-damage|p2a: Manny|18/100
+|cant|p2a: Manny|flinch
+|
+|turn|24
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|94/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Manny|Stealth Rock|p1a: Talonflame
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|turn|25
+|
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Manny
+|-status|p2a: Manny|brn
+|move|p2a: Manny|Rapid Spin|p1a: Talonflame
+|-damage|p1a: Talonflame|84/100
+|-boost|p2a: Manny|spe|1
+|
+|-damage|p2a: Manny|11/100 brn|[from] brn
+|turn|26
+|
+|move|p1a: Talonflame|Air Slash|p2a: Manny
+|-supereffective|p2a: Manny
+|-damage|p2a: Manny|0 fnt
+|faint|p2a: Manny
+|-end|p2a: Manny|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Kung Fu Chaos|Chien-Pao, tera:Dark|49/100
+|-ability|p2a: Kung Fu Chaos|Sword of Ruin
+|turn|27
+|
+|move|p2a: Kung Fu Chaos|Icicle Crash|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|28
+|
+|switch|p2a: Swagwan|Rotom-Wash|72/100
+|move|p1a: Chien-Pao|Crunch|p2a: Swagwan
+|-damage|p2a: Swagwan|0 fnt
+|faint|p2a: Swagwan
+|
+|
+|switch|p2a: Amongus|Amoonguss, F|100/100
+|turn|29
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|-damage|p1a: Espeon|88/100|[from] Stealth Rock
+|-item|p1a: Espeon|Air Balloon
+|move|p2a: Amongus|Spore|p1a: Espeon
+|move|p1a: Espeon|Spore|p2a: Amongus|[from]ability: Magic Bounce
+|-immune|p2a: Amongus
+|
+|turn|30
+|
+|move|p1a: Espeon|Dazzling Gleam|p2a: Amongus
+|-resisted|p2a: Amongus
+|-damage|p2a: Amongus|91/100
+|move|p2a: Amongus|Sludge Bomb|p1a: Espeon
+|-damage|p1a: Espeon|51/100
+|-enditem|p1a: Espeon|Air Balloon
+|
+|turn|31
+|
+|move|p1a: Espeon|Psychic|p2a: Amongus
+|-supereffective|p2a: Amongus
+|-damage|p2a: Amongus|31/100
+|move|p2a: Amongus|Giga Drain|p1a: Espeon
+|-damage|p1a: Espeon|19/100
+|-heal|p2a: Amongus|41/100|[from] drain|[of] p1a: Espeon
+|
+|turn|32
+|
+|switch|p2a: Derga|Skeledirge, F|45/100
+|move|p1a: Espeon|Wish|p1a: Espeon
+|
+|turn|33
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Derga|Torch Song|p1a: Great Tusk
+|-damage|p1a: Great Tusk|68/100
+|-boost|p2a: Derga|spa|1
+|
+|-heal|p1a: Great Tusk|100/100|[from] move: Wish|[wisher] Espeon
+|turn|34
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Derga
+|-supereffective|p2a: Derga
+|-damage|p2a: Derga|0 fnt
+|-enditem|p2a: Derga|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Derga
+|
+|
+|switch|p2a: Kung Fu Chaos|Chien-Pao, tera:Dark|49/100
+|-ability|p2a: Kung Fu Chaos|Sword of Ruin
+|turn|35
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Espeon|Espeon, F|19/100
+|-damage|p1a: Espeon|7/100|[from] Stealth Rock
+|move|p2a: Kung Fu Chaos|Icicle Crash|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|76/100
+|-damage|p1a: Chien-Pao|51/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|36
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Kung Fu Chaos
+|-damage|p2a: Kung Fu Chaos|0 fnt
+|faint|p2a: Kung Fu Chaos
+|
+|
+|switch|p2a: Amongus|Amoonguss, F|75/100
+|turn|37
+|
+|move|p1a: Chien-Pao|Ice Spinner|p2a: Amongus
+|-supereffective|p2a: Amongus
+|-damage|p2a: Amongus|0 fnt
+|faint|p2a: Amongus
+|
+|win|p1

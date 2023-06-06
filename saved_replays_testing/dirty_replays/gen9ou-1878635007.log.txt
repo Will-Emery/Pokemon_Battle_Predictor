@@ -1,0 +1,258 @@
+|j|☆riolu2309
+|j|☆puchamo03
+|t:|1686009284
+|gametype|singles
+|player|p1|riolu2309|benga|1190
+|player|p2|puchamo03|hilbert|1129
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Decidueye-Hisui, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Volcanion|
+|poke|p1|Iron Valiant|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Orthworm, M|
+|poke|p2|Tauros-Paldea-Blaze, M|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Iron Jugulis|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1686009323
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Jugulis|atk|1
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|1
+|
+|t:|1686009333
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Baxcalibur
+|-sidestart|p2: puchamo03|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1686009346
+|move|p2a: Baxcalibur|Dragon Dance|p2a: Baxcalibur
+|-boost|p2a: Baxcalibur|atk|1
+|-boost|p2a: Baxcalibur|spe|1
+|move|p1a: Landorus|U-turn|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|70/100
+|
+|t:|1686009354
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|turn|3
+|
+|t:|1686009362
+|move|p1a: Iron Valiant|Moonblast|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|upkeep
+|
+|t:|1686009377
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1686009391
+|-terastallize|p1a: Iron Valiant|Electric
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Hatterene|Psyshock|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|50/100
+|
+|-heal|p2a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1686009409
+|move|p1a: Iron Valiant|Moonblast|p2a: Hatterene
+|-damage|p2a: Hatterene|21/100
+|move|p2a: Hatterene|Psyshock|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|2/100
+|
+|-heal|p2a: Hatterene|27/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1686009414
+|move|p1a: Iron Valiant|Moonblast|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1686009422
+|switch|p2a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|-damage|p2a: Tauros|88/100|[from] Stealth Rock
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|turn|7
+|
+|t:|1686009427
+|move|p1a: Iron Valiant|Psyshock|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|38/100
+|move|p2a: Tauros|Raging Bull|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Tauros|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686009435
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tauros|atk|1
+|turn|8
+|
+|t:|1686009456
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-damage|p2a: Iron Jugulis|76/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Iron Jugulis
+|-immune|p2a: Iron Jugulis
+|
+|upkeep
+|turn|9
+|
+|t:|1686009461
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Landorus
+|-damage|p1a: Landorus|46/100
+|move|p1a: Landorus|U-turn|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|38/100
+|
+|t:|1686009468
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1686009478
+|move|p2a: Iron Jugulis|Flamethrower|p1a: Goodra
+|-damage|p1a: Goodra|82/100
+|move|p1a: Goodra|Dragon Claw|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|-heal|p1a: Goodra|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686009491
+|switch|p2a: Orthworm|Orthworm, M|100/100
+|-damage|p2a: Orthworm|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1686009496
+|move|p2a: Orthworm|Body Press|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|23/100
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Orthworm|spe|1
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|
+|-heal|p1a: Goodra|29/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1686009534
+|move|p2a: Orthworm|Body Press|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Orthworm|spe|1
+|faint|p1a: Goodra
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by riolu2309)
+|
+|t:|1686009537
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|13
+|
+|t:|1686009544
+|switch|p2a: Tauros|Tauros-Paldea-Blaze, M|45/100
+|-damage|p2a: Tauros|32/100|[from] Stealth Rock
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Volcanion|atk|1
+|move|p1a: Volcanion|Steam Eruption|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+|
+|t:|1686009546
+|switch|p2a: Orthworm|Orthworm, M|94/100
+|-damage|p2a: Orthworm|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1686009555
+|move|p1a: Volcanion|Flamethrower|p2a: Orthworm
+|-supereffective|p2a: Orthworm
+|-damage|p2a: Orthworm|0 fnt
+|faint|p2a: Orthworm
+|
+|upkeep
+|
+|t:|1686009570
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|15
+|
+|t:|1686009578
+|switch|p1a: Landorus|Landorus-Therian, M|46/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Landorus
+|-damage|p1a: Landorus|2/100
+|-damage|p2a: Kingambit|78/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-heal|p2a: Kingambit|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1686009586
+|move|p1a: Landorus|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|riolu2309
+|raw|riolu2309's rating: 1190 → 1211(+21 for winning)
+|raw|puchamo03's rating: 1129 → 1108(-21 for losing)
+|l|☆puchamo03

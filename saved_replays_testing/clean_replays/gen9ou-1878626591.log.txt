@@ -1,0 +1,149 @@
+# advantage = p1
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Regidrago|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p1|Heatran, F|
+|poke|p2|Overqwil, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Volcanion|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Pelipper|Surf|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|91/100
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Iron Treads|Stealth Rock|p1a: Slowking
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-weather|Snow|[upkeep]
+|turn|4
+|
+|move|p2a: Iron Treads|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|86/100
+|-enditem|p1a: Great Tusk|Eject Pack|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Great Tusk|Knock Off|p2a: Iron Treads
+|-damage|p2a: Iron Treads|68/100
+|-enditem|p2a: Iron Treads|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Great Tusk|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|73/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Pelipper|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|79/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|switch|p1a: Regidrago|Regidrago|100/100
+|-damage|p1a: Regidrago|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Iron Treads|Iron Treads|68/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|12/100
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|move|p1a: Regidrago|Dragon Energy|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|9
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|move|p2a: Basculegion|Substitute|p2a: Basculegion
+|-start|p2a: Basculegion|Substitute
+|-damage|p2a: Basculegion|76/100
+|
+|-weather|RainDance|[upkeep]
+|turn|10
+|
+|move|p2a: Basculegion|Hydro Pump|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|14/100
+|-damage|p2a: Basculegion|66/100|[from] item: Life Orb
+|move|p1a: Samurott|Ceaseless Edge|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-end|p2a: Basculegion|Substitute
+|-sidestart|p2: p2|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p1a: Samurott|Sucker Punch|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|12
+|
+|move|p2a: Thundurus|Nasty Plot|p2a: Thundurus
+|-boost|p2a: Thundurus|spa|2
+|move|p1a: Samurott|Ceaseless Edge|p2a: Thundurus
+|-damage|p2a: Thundurus|35/100
+|-sidestart|p2: p2|Spikes
+|
+|-weather|none
+|turn|13
+|
+|move|p1a: Samurott|Sucker Punch|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-message|p2 forfeited.
+|
+|win|p1

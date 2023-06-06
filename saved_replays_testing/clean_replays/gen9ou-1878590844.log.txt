@@ -1,0 +1,62 @@
+# advantage = p2
+|poke|p1|Sneasler, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Treads|
+|poke|p1|Volcarona, F|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Tornadus, M|
+|poke|p2|Cresselia, F|
+|poke|p2|Delphox, F|
+|poke|p2|Gastrodon, F|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Delphox|Delphox, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Iron Treads|Stealth Rock|p2a: Delphox
+|-sidestart|p2: p2|move: Stealth Rock
+|move|p2a: Delphox|Flamethrower|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-enditem|p1a: Iron Treads|Focus Sash
+|-damage|p1a: Iron Treads|1/100
+|
+|turn|2
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|
+|turn|3
+|
+|move|p1a: Indeedee|Encore||[still]
+|-fail|p1a: Indeedee
+|move|p2a: Corviknight|Defog|p1a: Indeedee
+|-unboost|p1a: Indeedee|evasion|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-fieldend|move: Psychic Terrain
+|
+|turn|4
+|
+|switch|p2a: Delphox|Delphox, F, shiny|100/100
+|move|p1a: Indeedee|Encore||[still]
+|-fail|p1a: Indeedee
+|
+|turn|5
+|
+|move|p1a: Indeedee|Encore||[still]
+|-fail|p1a: Indeedee
+|move|p2a: Delphox|Flamethrower|p1a: Indeedee
+|-damage|p1a: Indeedee|37/100
+|-item|p2a: Delphox|Terrain Extender|[from] ability: Magician|[of] p1a: Indeedee
+|
+|turn|6
+|-message|p1 forfeited.
+|
+|win|p2

@@ -1,0 +1,62 @@
+# advantage = p1
+|poke|p1|Urshifu-*, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Amoonguss, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Great Tusk|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|71/100
+|-start|p1a: Thundurus|confusion
+|
+|-heal|p1a: Thundurus|77/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-activate|p1a: Thundurus|confusion
+|-damage|p1a: Thundurus|67/100|[from] confusion
+|
+|-heal|p1a: Thundurus|73/100|[from] item: Leftovers
+|turn|3
+|
+|move|p2a: Glimmora|Sludge Wave|p1a: Thundurus
+|-damage|p1a: Thundurus|1/100
+|-end|p1a: Thundurus|confusion
+|move|p1a: Thundurus|Substitute|p1a: Thundurus
+|-fail|p1a: Thundurus|move: Substitute|[weak]
+|
+|-heal|p1a: Thundurus|7/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Glimmora|Sludge Wave|p1a: Pelipper
+|-damage|p1a: Pelipper|30/100
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Glimmora|Sludge Wave|p1a: Samurott
+|-damage|p1a: Samurott|20/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|-message|p1 forfeited.
+|
+|win|p2

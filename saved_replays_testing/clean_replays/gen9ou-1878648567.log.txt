@@ -1,0 +1,210 @@
+# advantage = p2
+|poke|p1|Chien-Pao|
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Great Tusk|
+|poke|p2|Sneasler, F|
+|poke|p2|Walking Wake|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: The Engine|Torkoal, M|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: The Engine
+|turn|1
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|move|p2a: The Engine|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|turn|2
+|
+|move|p1a: Toxapex|Toxic|p2a: The Engine
+|-status|p2a: The Engine|tox
+|move|p2a: The Engine|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Leftovers
+|-damage|p2a: The Engine|94/100 tox|[from] psn
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|turn|3
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-damage|p1a: Garchomp|94/100|[from] Stealth Rock
+|switch|p2a: Pain and Suffering|Sneasler, F, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p2a: Pain and Suffering|Dire Claw|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|74/100
+|-damage|p2a: Pain and Suffering|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Pain and Suffering|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|move|p1a: Garchomp|Earthquake|p2a: Pain and Suffering
+|-supereffective|p2a: Pain and Suffering
+|-damage|p2a: Pain and Suffering|0 fnt
+|faint|p2a: Pain and Suffering
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Cereza|Lilligant-Hisui, F, shiny|100/100
+|turn|5
+|
+|move|p2a: Cereza|Victory Dance|p2a: Cereza
+|-boost|p2a: Cereza|atk|1
+|-boost|p2a: Cereza|def|1
+|-boost|p2a: Cereza|spe|1
+|move|p1a: Garchomp|Dragon Tail|p2a: Cereza
+|-damage|p2a: Cereza|75/100
+|drag|p2a: GloriousUnelegance|Walking Wake|100/100
+|-activate|p2a: GloriousUnelegance|ability: Protosynthesis
+|-start|p2a: GloriousUnelegance|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100 brn
+|-damage|p1a: Toxapex|88/100 brn|[from] Stealth Rock
+|move|p2a: GloriousUnelegance|Hydro Steam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100 brn
+|-damage|p2a: GloriousUnelegance|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|49/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxapex|42/100 brn|[from] brn
+|turn|7
+|
+|move|p2a: GloriousUnelegance|Hydro Steam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|-damage|p2a: GloriousUnelegance|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: GloriousUnelegance|Hydro Steam|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|-damage|p2a: GloriousUnelegance|71/100|[from] item: Life Orb
+|move|p1a: Slowking|Future Sight|p2a: GloriousUnelegance
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|none
+|-end|p2a: GloriousUnelegance|Protosynthesis
+|turn|9
+|
+|switch|p1a: Garchomp|Garchomp, F|74/100
+|-damage|p1a: Garchomp|68/100|[from] Stealth Rock
+|move|p2a: GloriousUnelegance|Hydro Steam|p1a: Garchomp
+|-damage|p1a: Garchomp|19/100
+|-damage|p2a: GloriousUnelegance|62/100|[from] item: Life Orb
+|
+|turn|10
+|
+|move|p1a: Garchomp|Spikes|p2a: GloriousUnelegance
+|-sidestart|p2: p2|Spikes
+|move|p2a: GloriousUnelegance|Hydro Steam|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-damage|p2a: GloriousUnelegance|52/100|[from] item: Life Orb
+|
+|-end|p2a: GloriousUnelegance|move: Future Sight
+|-damage|p2a: GloriousUnelegance|0 fnt
+|faint|p2a: GloriousUnelegance
+|-end|p2a: GloriousUnelegance|Protosynthesis|[silent]
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|switch|p2a: The Engine|Torkoal, M|94/100 tox
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|-damage|p2a: The Engine|82/100 tox|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: The Engine
+|turn|11
+|
+|-terastallize|p1a: Chien-Pao|Dark
+|move|p1a: Chien-Pao|Swords Dance|p1a: Chien-Pao
+|-boost|p1a: Chien-Pao|atk|2
+|move|p2a: The Engine|Will-O-Wisp|p1a: Chien-Pao
+|-status|p1a: Chien-Pao|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: The Engine|76/100 tox|[from] psn
+|-damage|p1a: Chien-Pao|95/100 brn|[from] brn
+|turn|12
+|
+|move|p1a: Chien-Pao|Crunch|p2a: The Engine
+|-damage|p2a: The Engine|34/100 tox
+|move|p2a: The Engine|Rapid Spin|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|80/100 brn
+|-boost|p2a: The Engine|spe|1
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: The Engine
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: The Engine|22/100 tox|[from] psn
+|-damage|p1a: Chien-Pao|74/100 brn|[from] brn
+|turn|13
+|
+|switch|p2a: Anger and Hatred|Great Tusk|100/100
+|-activate|p2a: Anger and Hatred|ability: Protosynthesis
+|-start|p2a: Anger and Hatred|protosynthesisatk
+|move|p1a: Chien-Pao|Crunch|p2a: Anger and Hatred
+|-resisted|p2a: Anger and Hatred
+|-damage|p2a: Anger and Hatred|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Chien-Pao|68/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Anger and Hatred
+|-supereffective|p2a: Anger and Hatred
+|-damage|p2a: Anger and Hatred|0 fnt
+|faint|p2a: Anger and Hatred
+|-end|p2a: Anger and Hatred|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Chien-Pao|62/100 brn|[from] brn
+|
+|switch|p2a: Cereza|Lilligant-Hisui, F, shiny|75/100
+|turn|15
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Cereza
+|-supereffective|p2a: Cereza
+|-damage|p2a: Cereza|0 fnt
+|faint|p2a: Cereza
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Chien-Pao|56/100 brn|[from] brn
+|
+|switch|p2a: Flame Core|Typhlosion-Hisui, M, shiny|100/100
+|turn|16
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Flame Core
+|-supereffective|p2a: Flame Core
+|-damage|p2a: Flame Core|0 fnt
+|faint|p2a: Flame Core
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Chien-Pao|50/100 brn|[from] brn
+|
+|switch|p2a: The Engine|Torkoal, M|22/100 tox
+|turn|17
+|
+|move|p1a: Chien-Pao|Crunch|p2a: The Engine
+|-damage|p2a: The Engine|0 fnt
+|faint|p2a: The Engine
+|
+|win|p1

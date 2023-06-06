@@ -1,0 +1,185 @@
+# advantage = p2
+|poke|p1|Chien-Pao|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Sneasler, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Enamorus, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Azumarill, F|
+|poke|p2|Walking Wake|
+|poke|p2|Zapdos|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|1
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Sneasler|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|94/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100|[from] U-turn
+|
+|turn|2
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Zapdos
+|-damage|p2a: Zapdos|50/100
+|-sidestart|p2: p2|Spikes
+|
+|turn|3
+|
+|move|p2a: Zapdos|Discharge|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p2a: Urshifu|88/100|[from] Spikes
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Urshifu
+|-damage|p2a: Urshifu|48/100
+|
+|turn|5
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|move|p2a: Urshifu|Surging Strikes|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|57/100
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|16/100
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-hitcount|p1: Landorus|3
+|-damage|p2a: Urshifu|38/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|6
+|
+|switch|p2a: Gholdengo|Gholdengo|94/100
+|-damage|p2a: Gholdengo|82/100|[from] Spikes
+|move|p1a: Enamorus|Moonblast|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|53/100
+|
+|turn|7
+|
+|move|p1a: Enamorus|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Zapdos|Zapdos|50/100
+|turn|8
+|
+|move|p1a: Enamorus|Moonblast|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Spikes
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|9
+|
+|-terastallize|p2a: Walking Wake|Poison
+|move|p2a: Walking Wake|Tera Blast|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|10
+|
+|move|p2a: Walking Wake|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|58/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Thunder Wave|p2a: Walking Wake
+|-status|p2a: Walking Wake|par
+|
+|turn|11
+|
+|move|p2a: Walking Wake|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|15/100
+|move|p1a: Gholdengo|Hex|p2a: Walking Wake
+|-damage|p2a: Walking Wake|27/100 par
+|
+|turn|12
+|
+|move|p2a: Walking Wake|Hydro Steam|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|13
+|
+|move|p1a: Sneasler|Fake Out|p2a: Walking Wake
+|-damage|p2a: Walking Wake|11/100 par
+|cant|p2a: Walking Wake|flinch
+|
+|turn|14
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|88/100|[from] Spikes
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|15
+|
+|-terastallize|p1a: Sneasler|Steel
+|move|p2a: Iron Valiant|Spirit Break|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|65/100
+|-unboost|p1a: Sneasler|spa|1
+|move|p1a: Sneasler|Dire Claw|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|-damage|p2a: Azumarill|88/100|[from] Spikes
+|turn|16
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-message|p2 forfeited.
+|
+|win|p1

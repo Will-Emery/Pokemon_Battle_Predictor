@@ -1,0 +1,168 @@
+# advantage = p2
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Cloyster, M|
+|poke|p1|Mudsdale, F|
+|poke|p1|Dragalge, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Greninja, F|
+|poke|p2|Scizor, M|
+|poke|p2|Iron Treads|
+|poke|p2|Kilowattrel, F|
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|switch|p2a: Rocket|Scizor, M|100/100
+|turn|1
+|
+|move|p2a: Rocket|Bullet Punch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|1/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M, shiny
+|-end|p1a: Zoroark|Illusion
+|-damage|p2a: Rocket|91/100|[from] item: Life Orb
+|move|p1a: Zoroark|Flamethrower|p2a: Rocket
+|-supereffective|p2a: Rocket
+|-damage|p2a: Rocket|0 fnt
+|faint|p2a: Rocket
+|
+|
+|switch|p2a: Threads|Iron Treads|100/100
+|-enditem|p2a: Threads|Booster Energy
+|-activate|p2a: Threads|ability: Quark Drive|[fromitem]
+|-start|p2a: Threads|quarkdriveatk
+|turn|2
+|
+|move|p2a: Threads|Knock Off|p1a: Zoroark
+|-supereffective|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|-enditem|p1a: Zoroark|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Threads
+|faint|p1a: Zoroark
+|
+|
+|switch|p1a: Mudsdale|Mudsdale, F|100/100
+|turn|3
+|
+|move|p2a: Threads|Ice Spinner|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|34/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Superpower|p2a: Threads
+|-supereffective|p2a: Threads
+|-damage|p2a: Threads|13/100
+|-unboost|p1a: Mudsdale|atk|1
+|-unboost|p1a: Mudsdale|def|1
+|-damage|p1a: Mudsdale|24/100|[from] item: Life Orb
+|
+|turn|4
+|
+|move|p2a: Threads|Knock Off|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|-enditem|p1a: Mudsdale|Life Orb|[from] move: Knock Off|[of] p2a: Threads
+|faint|p1a: Mudsdale
+|
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|5
+|
+|move|p2a: Threads|Knock Off|p1a: Cloyster
+|-damage|p1a: Cloyster|69/100
+|-enditem|p1a: Cloyster|Choice Band|[from] move: Knock Off|[of] p2a: Threads
+|move|p1a: Cloyster|Icicle Spear|p2a: Threads
+|-damage|p2a: Threads|4/100
+|-damage|p2a: Threads|0 fnt
+|faint|p2a: Threads
+|-end|p2a: Threads|Quark Drive|[silent]
+|-hitcount|p2: Threads|2
+|
+|
+|switch|p2a: Lil Pecker|Kilowattrel, F|100/100
+|turn|6
+|
+|move|p2a: Lil Pecker|Volt Switch|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p2a: Dragonitenite|Dragonite, F|100/100|[from] Volt Switch
+|
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|7
+|
+|-terastallize|p2a: Dragonitenite|Normal
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: p1|Reflect
+|move|p2a: Dragonitenite|Dragon Dance|p2a: Dragonitenite
+|-boost|p2a: Dragonitenite|atk|1
+|-boost|p2a: Dragonitenite|spe|1
+|
+|turn|8
+|
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|67/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Dragonitenite
+|-status|p2a: Dragonitenite|par
+|
+|turn|9
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: p1|move: Light Screen
+|move|p2a: Dragonitenite|Dragon Dance|p2a: Dragonitenite
+|-boost|p2a: Dragonitenite|atk|1
+|-boost|p2a: Dragonitenite|spe|1
+|
+|turn|10
+|
+|move|p1a: Grimmsnarl|Protect|p1a: Grimmsnarl
+|-singleturn|p1a: Grimmsnarl|Protect
+|move|p2a: Dragonitenite|Dragon Dance|p2a: Dragonitenite
+|-boost|p2a: Dragonitenite|atk|1
+|-boost|p2a: Dragonitenite|spe|1
+|
+|turn|11
+|
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Dragalge
+|-damage|p1a: Dragalge|48/100
+|
+|turn|12
+|
+|cant|p2a: Dragonitenite|par
+|move|p1a: Dragalge|Draco Meteor|p2a: Dragonitenite
+|-damage|p2a: Dragonitenite|57/100 par
+|-unboost|p1a: Dragalge|spa|2
+|
+|turn|13
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Azumarill
+|-damage|p1a: Azumarill|30/100
+|
+|turn|14
+|
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-sideend|p1: p1|Reflect
+|
+|switch|p1a: Dragalge|Dragalge, F|48/100
+|turn|15
+|
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|67/100
+|turn|16
+|
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|win|p2

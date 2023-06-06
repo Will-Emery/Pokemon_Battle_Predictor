@@ -1,0 +1,390 @@
+# advantage = p1
+|poke|p1|Delphox, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Articuno|
+|poke|p2|Slowking, F|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Heltaron|Articuno|100/100
+|-ability|p2a: Heltaron|Pressure
+|turn|1
+|
+|-terastallize|p2a: Heltaron|Ground
+|move|p1a: Cinderace|Pyro Ball|p2a: Heltaron
+|-damage|p2a: Heltaron|43/100
+|move|p2a: Heltaron|Tera Blast|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Delphox|Delphox, M|100/100
+|turn|2
+|
+|move|p1a: Delphox|Fire Blast|p2a: Heltaron
+|-damage|p2a: Heltaron|0 fnt
+|faint|p2a: Heltaron
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|3
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Arcanine|Head Smash|p1a: Corviknight|[miss]
+|-miss|p2a: Arcanine|p1a: Corviknight
+|
+|turn|4
+|
+|switch|p2a: Sloison Duck|Slowking, F|100/100
+|move|p1a: Corviknight|Roost||[still]
+|-fail|p1a: Corviknight|heal
+|
+|turn|5
+|
+|move|p1a: Corviknight|U-turn|p2a: Sloison Duck
+|-supereffective|p2a: Sloison Duck
+|-damage|p2a: Sloison Duck|77/100
+|-damage|p1a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p2a: Sloison Duck
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|move|p2a: Sloison Duck|Chilly Reception|p2a: Sloison Duck
+|-weather|Snow
+|
+|switch|p2a: Parkchomp|Garchomp, M|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|6
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Parkchomp|atk|1
+|move|p2a: Parkchomp|Outrage|p1a: Landorus
+|-damage|p1a: Landorus|44/100
+|
+|-weather|Snow|[upkeep]
+|turn|7
+|
+|switch|p1a: Corviknight|Corviknight, F|84/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Parkchomp|Outrage|p1a: Corviknight|[from]lockedmove
+|-resisted|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|53/100
+|-damage|p2a: Parkchomp|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-start|p2a: Parkchomp|confusion|[fatigue]
+|
+|-weather|Snow|[upkeep]
+|turn|8
+|
+|switch|p2a: Sloison Duck|Slowking, F|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|Snow|[upkeep]
+|turn|9
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Sloison Duck
+|-damage|p2a: Sloison Duck|71/100
+|-damage|p1a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p2a: Sloison Duck
+|-damage|p1a: Corviknight|74/100|[from] Recoil
+|move|p2a: Sloison Duck|Chilly Reception|p2a: Sloison Duck
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100|[from] Chilly Reception
+|
+|-weather|none
+|turn|10
+|
+|move|p2a: Arcanine|Head Smash|p1a: Corviknight
+|-damage|p1a: Corviknight|31/100
+|-damage|p2a: Arcanine|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|81/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|turn|11
+|
+|switch|p2a: Sloison Duck|Slowking, F|100/100
+|move|p1a: Corviknight|U-turn|p2a: Sloison Duck
+|-supereffective|p2a: Sloison Duck
+|-damage|p2a: Sloison Duck|78/100
+|-damage|p1a: Corviknight|65/100|[from] item: Rocky Helmet|[of] p2a: Sloison Duck
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|
+|turn|12
+|
+|move|p1a: Samurott|Razor Shell|p2a: Sloison Duck
+|-resisted|p2a: Sloison Duck
+|-damage|p2a: Sloison Duck|58/100
+|-damage|p1a: Samurott|84/100|[from] item: Rocky Helmet|[of] p2a: Sloison Duck
+|move|p2a: Sloison Duck|Chilly Reception|p2a: Sloison Duck
+|-weather|Snow
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|84/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|13
+|
+|move|p2a: Arcanine|Head Smash|p1a: Samurott|[miss]
+|-miss|p2a: Arcanine|p1a: Samurott
+|move|p1a: Samurott|Razor Shell|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Parkchomp|Garchomp, M|84/100
+|turn|14
+|
+|move|p2a: Parkchomp|Outrage|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Corviknight|Corviknight, F|65/100
+|-ability|p1a: Corviknight|Pressure
+|turn|15
+|
+|move|p2a: Parkchomp|Outrage|p1a: Corviknight|[from]lockedmove
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|45/100
+|-damage|p2a: Parkchomp|68/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-start|p2a: Parkchomp|confusion|[fatigue]
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|95/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|Snow|[upkeep]
+|turn|16
+|
+|switch|p2a: Samurai Warrior|Kingambit, M|100/100
+|-activate|p2a: Samurai Warrior|ability: Supreme Overlord
+|-start|p2a: Samurai Warrior|fallen2|[silent]
+|move|p1a: Corviknight|U-turn|p2a: Samurai Warrior
+|-damage|p2a: Samurai Warrior|90/100
+|
+|switch|p1a: Landorus|Landorus-Therian, M|44/100|[from] U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Samurai Warrior|atk|1
+|
+|-weather|none
+|-heal|p2a: Samurai Warrior|97/100|[from] item: Leftovers
+|turn|17
+|
+|-end|p2a: Samurai Warrior|fallen2|[silent]
+|switch|p2a: Sloison Duck|Slowking, F|91/100
+|move|p1a: Landorus|Earthquake|p2a: Sloison Duck
+|-damage|p2a: Sloison Duck|36/100
+|
+|turn|18
+|
+|move|p1a: Landorus|Earthquake|p2a: Sloison Duck
+|-damage|p2a: Sloison Duck|0 fnt
+|faint|p2a: Sloison Duck
+|
+|
+|switch|p2a: Ground Taco|Great Tusk|100/100
+|turn|19
+|
+|move|p1a: Landorus|Taunt|p2a: Ground Taco
+|-start|p2a: Ground Taco|move: Taunt
+|cant|p2a: Ground Taco|move: Taunt|Stealth Rock
+|
+|turn|20
+|
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|move|p2a: Ground Taco|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|12/100
+|-enditem|p1a: Landorus|Soft Sand|[from] move: Knock Off|[of] p2a: Ground Taco
+|
+|turn|21
+|
+|move|p1a: Landorus|Earthquake|p2a: Ground Taco
+|-damage|p2a: Ground Taco|41/100
+|move|p2a: Ground Taco|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-boost|p2a: Ground Taco|spe|1
+|faint|p1a: Landorus
+|
+|-heal|p2a: Ground Taco|47/100|[from] item: Leftovers
+|-end|p2a: Ground Taco|move: Taunt
+|
+|switch|p1a: Corviknight|Corviknight, F|95/100
+|-ability|p1a: Corviknight|Pressure
+|turn|22
+|
+|move|p2a: Ground Taco|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Corviknight|Brave Bird|p2a: Ground Taco
+|-supereffective|p2a: Ground Taco
+|-damage|p2a: Ground Taco|3/100
+|-damage|p1a: Corviknight|79/100|[from] Recoil
+|
+|-heal|p2a: Ground Taco|9/100|[from] item: Leftovers
+|turn|23
+|
+|move|p2a: Ground Taco|Knock Off|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|56/100
+|-damage|p2a: Ground Taco|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p2a: Ground Taco
+|-end|p2a: Ground Taco|Protosynthesis|[silent]
+|move|p1a: Corviknight|Brave Bird|p2: Ground Taco|[notarget]
+|-fail|p1a: Corviknight
+|
+|
+|switch|p2a: Samurai Warrior|Kingambit, M|97/100
+|-activate|p2a: Samurai Warrior|ability: Supreme Overlord
+|-start|p2a: Samurai Warrior|fallen4|[silent]
+|turn|24
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Samurai Warrior|Swords Dance|p2a: Samurai Warrior
+|-boost|p2a: Samurai Warrior|atk|2
+|
+|-heal|p2a: Samurai Warrior|100/100|[from] item: Leftovers
+|turn|25
+|
+|move|p1a: Corviknight|Defog|p2a: Samurai Warrior
+|-unboost|p2a: Samurai Warrior|evasion|1
+|-sideend|p1: p1|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Samurai Warrior|Swords Dance|p2a: Samurai Warrior
+|-boost|p2a: Samurai Warrior|atk|2
+|
+|turn|26
+|
+|move|p1a: Corviknight|U-turn|p2a: Samurai Warrior
+|-damage|p2a: Samurai Warrior|89/100
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100|[from] U-turn
+|move|p2a: Samurai Warrior|Swords Dance|p2a: Samurai Warrior
+|-boost|p2a: Samurai Warrior|atk|2
+|
+|-heal|p2a: Samurai Warrior|95/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Samurai Warrior|Kowtow Cleave|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Samurai Warrior|100/100|[from] item: Leftovers
+|
+|switch|p1a: Delphox|Delphox, M|100/100
+|turn|28
+|
+|move|p2a: Samurai Warrior|Sucker Punch||[still]
+|-fail|p2a: Samurai Warrior
+|move|p1a: Delphox|Will-O-Wisp|p2a: Samurai Warrior
+|-status|p2a: Samurai Warrior|brn
+|
+|-damage|p2a: Samurai Warrior|94/100 brn|[from] brn
+|turn|29
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Samurai Warrior|Sucker Punch||[still]
+|-fail|p2a: Samurai Warrior
+|
+|-heal|p2a: Samurai Warrior|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Samurai Warrior|94/100 brn|[from] brn
+|turn|30
+|
+|move|p1a: Corviknight|Defog|p2a: Samurai Warrior
+|-unboost|p2a: Samurai Warrior|evasion|1
+|move|p2a: Samurai Warrior|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|11/100
+|-damage|p2a: Samurai Warrior|78/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-heal|p2a: Samurai Warrior|84/100 brn|[from] item: Leftovers
+|-damage|p2a: Samurai Warrior|78/100 brn|[from] brn
+|turn|31
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|61/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Samurai Warrior|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Samurai Warrior|61/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Samurai Warrior|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Samurai Warrior|61/100 brn|[from] brn
+|
+|switch|p1a: Delphox|Delphox, M|100/100
+|turn|32
+|
+|move|p2a: Samurai Warrior|Sucker Punch||[still]
+|-fail|p2a: Samurai Warrior
+|move|p1a: Delphox|Switcheroo|p2a: Samurai Warrior
+|-activate|p1a: Delphox|move: Trick|[of] p2a: Samurai Warrior
+|-item|p2a: Samurai Warrior|Choice Scarf|[from] move: Switcheroo
+|-item|p1a: Delphox|Leftovers|[from] move: Switcheroo
+|
+|-damage|p2a: Samurai Warrior|55/100 brn|[from] brn
+|turn|33
+|
+|move|p2a: Samurai Warrior|Sucker Punch||[still]
+|-fail|p2a: Samurai Warrior
+|move|p1a: Delphox|Will-O-Wisp|p2a: Samurai Warrior
+|-fail|p2a: Samurai Warrior|brn
+|
+|-damage|p2a: Samurai Warrior|49/100 brn|[from] brn
+|turn|34
+|
+|move|p2a: Samurai Warrior|Sucker Punch||[still]
+|-fail|p2a: Samurai Warrior
+|move|p1a: Delphox|Will-O-Wisp|p2a: Samurai Warrior
+|-fail|p2a: Samurai Warrior|brn
+|
+|-damage|p2a: Samurai Warrior|43/100 brn|[from] brn
+|turn|35
+|
+|move|p2a: Samurai Warrior|Sucker Punch||[still]
+|-fail|p2a: Samurai Warrior
+|move|p1a: Delphox|Will-O-Wisp|p2a: Samurai Warrior
+|-fail|p2a: Samurai Warrior|brn
+|
+|-damage|p2a: Samurai Warrior|36/100 brn|[from] brn
+|turn|36
+|
+|move|p2a: Samurai Warrior|Sucker Punch||[still]
+|-fail|p2a: Samurai Warrior
+|move|p1a: Delphox|Will-O-Wisp|p2a: Samurai Warrior
+|-fail|p2a: Samurai Warrior|brn
+|
+|-damage|p2a: Samurai Warrior|30/100 brn|[from] brn
+|turn|37
+|
+|move|p1a: Delphox|Fire Blast|p2a: Samurai Warrior
+|-supereffective|p2a: Samurai Warrior
+|-damage|p2a: Samurai Warrior|0 fnt
+|faint|p2a: Samurai Warrior
+|-end|p2a: Samurai Warrior|fallen4|[silent]
+|
+|
+|switch|p2a: Parkchomp|Garchomp, M|68/100
+|turn|38
+|
+|-terastallize|p1a: Delphox|Water
+|move|p2a: Parkchomp|Outrage|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|win|p2

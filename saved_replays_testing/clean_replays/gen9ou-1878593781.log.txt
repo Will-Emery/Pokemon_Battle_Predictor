@@ -1,0 +1,415 @@
+# advantage = p2
+|poke|p1|Urshifu-*, M|
+|poke|p1|Scream Tail|
+|poke|p1|Zapdos|
+|poke|p1|Heatran, M|
+|poke|p1|Gholdengo|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Rotom-Heat|
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Zapdos|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|95/100
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100|[from] U-turn
+|
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|63/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|move|p1a: Gholdengo|Hex|p2a: Landorus
+|-damage|p2a: Landorus|56/100
+|
+|turn|3
+|
+|move|p2a: Landorus|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|57/100
+|
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100|[from] U-turn
+|move|p1a: Gholdengo|Trick|p2a: Slowking
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Slowking
+|-item|p2a: Slowking|Toxic Orb|[from] move: Trick
+|-item|p1a: Gholdengo|Assault Vest|[from] move: Trick
+|
+|turn|4
+|
+|move|p1a: Gholdengo|Hex|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|58/100
+|move|p2a: Slowking|Future Sight|p1a: Gholdengo
+|-start|p2a: Slowking|move: Future Sight
+|
+|turn|5
+|
+|move|p1a: Gholdengo|Hex|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|18/100
+|move|p2a: Slowking|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|26/100
+|
+|turn|6
+|
+|switch|p2a: Sylveon|Sylveon, F, shiny|100/100
+|move|p1a: Gholdengo|Hex|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|74/100
+|
+|-end|p1a: Gholdengo|move: Future Sight
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|11/100
+|-heal|p2a: Sylveon|80/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Gholdengo|Make It Rain|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|87/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Gholdengo|Hex|p2a: Sylveon
+|-damage|p2a: Sylveon|68/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|74/100|[from] item: Leftovers
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Rotom|100/100|[from] move: Wish|[wisher] Sylveon
+|turn|10
+|
+|move|p2a: Rotom|Volt Switch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|switch|p2a: Landorus|Landorus-Therian, M|56/100|[from] Volt Switch
+|
+|
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|11
+|
+|move|p2a: Landorus|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|52/100|[from] U-turn
+|move|p1a: Heatran|Stealth Rock|p2a: Slowking
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|12
+|
+|switch|p2a: Landorus|Landorus-Therian, M|56/100
+|-damage|p2a: Landorus|44/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Magma Storm|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|13
+|
+|-terastallize|p1a: Heatran|Bug
+|move|p2a: Zapdos|Thunderous Kick|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|80/100
+|-unboost|p1a: Heatran|def|1
+|move|p1a: Heatran|Magma Storm|p2a: Zapdos
+|-damage|p2a: Zapdos|53/100
+|-activate|p2a: Zapdos|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Zapdos|40/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|14
+|
+|move|p2a: Zapdos|Brave Bird|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|-damage|p2a: Zapdos|9/100|[from] Recoil
+|
+|-end|p2a: Zapdos|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|15
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Urshifu|Aqua Jet|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|-damage|p1a: Urshifu|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|85/100|[from] item: Black Sludge
+|turn|16
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Toxapex|Toxic|p1a: Samurott
+|-status|p1a: Samurott|tox
+|
+|-heal|p2a: Toxapex|92/100|[from] item: Black Sludge
+|-damage|p1a: Samurott|94/100 tox|[from] psn
+|turn|17
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|98/100|[from] item: Black Sludge
+|-damage|p1a: Samurott|82/100 tox|[from] psn
+|turn|18
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100
+|-sidestart|p2: p2|Spikes
+|move|p2a: Toxapex|Surf|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|73/100 tox
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Black Sludge
+|-damage|p1a: Samurott|54/100 tox|[from] psn
+|turn|19
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|turn|20
+|
+|switch|p2a: Sylveon|Sylveon, F, shiny|74/100
+|-damage|p2a: Sylveon|61/100|[from] Stealth Rock
+|-damage|p2a: Sylveon|49/100|[from] Spikes
+|move|p1a: Zapdos|Volt Switch|p2a: Sylveon
+|-damage|p2a: Sylveon|30/100
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|91/100|[from] Volt Switch
+|
+|-heal|p2a: Sylveon|36/100|[from] item: Leftovers
+|turn|21
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|75/100|[from] Spikes
+|move|p1a: Urshifu|Surging Strikes|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|59/100
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|-hitcount|p2a: Toxapex|3
+|-damage|p1a: Urshifu|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|57/100|[from] item: Black Sludge
+|turn|22
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Toxapex|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|turn|23
+|
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|85/100
+|-damage|p2a: Slowking|72/100|[from] Stealth Rock
+|-damage|p2a: Slowking|60/100|[from] Spikes
+|
+|turn|24
+|
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|move|p2a: Slowking|Sludge Bomb|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|52/100
+|
+|-heal|p1a: Scream Tail|58/100|[from] item: Leftovers
+|turn|25
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|81/100
+|move|p2a: Slowking|Future Sight|p1a: Urshifu
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Urshifu|100/100|[from] move: Wish|[wisher] Scream Tail
+|turn|26
+|
+|switch|p2a: Toxapex|Toxapex, M|97/100
+|-damage|p2a: Toxapex|84/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|72/100|[from] Spikes
+|move|p1a: Urshifu|Surging Strikes|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|64/100
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+|-hitcount|p2a: Toxapex|3
+|-damage|p1a: Urshifu|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|53/100|[from] item: Black Sludge
+|turn|27
+|
+|switch|p1a: Samurott|Samurott-Hisui, M|54/100 tox
+|move|p2a: Toxapex|Surf|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|46/100 tox
+|
+|-end|p1a: Samurott|move: Future Sight
+|-immune|p1a: Samurott
+|-heal|p2a: Toxapex|59/100|[from] item: Black Sludge
+|-damage|p1a: Samurott|40/100 tox|[from] psn
+|turn|28
+|
+|switch|p1a: Scream Tail|Scream Tail|58/100
+|move|p2a: Toxapex|Toxic|p1a: Scream Tail
+|-status|p1a: Scream Tail|tox
+|
+|-heal|p1a: Scream Tail|64/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|65/100|[from] item: Black Sludge
+|-damage|p1a: Scream Tail|58/100 tox|[from] psn
+|turn|29
+|
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|93/100
+|-damage|p2a: Slowking|81/100|[from] Stealth Rock
+|-damage|p2a: Slowking|68/100|[from] Spikes
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|
+|-heal|p1a: Scream Tail|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Scream Tail|52/100 tox|[from] psn
+|turn|30
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Samurott|Samurott-Hisui, M|40/100 tox
+|move|p2a: Slowking|Future Sight|p1a: Samurott
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Samurott|100/100 tox|[from] move: Wish|[wisher] Scream Tail
+|-damage|p1a: Samurott|94/100 tox|[from] psn
+|turn|31
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Samurott|Ceaseless Edge|p2a: Rotom
+|-damage|p2a: Rotom|8/100
+|-sidestart|p2: p2|Spikes
+|
+|-damage|p1a: Samurott|82/100 tox|[from] psn
+|turn|32
+|
+|move|p1a: Samurott|Sucker Punch|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-end|p1a: Samurott|move: Future Sight
+|-immune|p1a: Samurott
+|-damage|p1a: Samurott|63/100 tox|[from] psn
+|
+|switch|p2a: Zapdos|Zapdos-Galar|9/100
+|turn|33
+|
+|move|p1a: Samurott|Sucker Punch|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-damage|p1a: Samurott|38/100 tox|[from] psn
+|
+|switch|p2a: Toxapex|Toxapex, M|99/100
+|-damage|p2a: Toxapex|86/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|70/100|[from] Spikes
+|turn|34
+|
+|switch|p1a: Zapdos|Zapdos|94/100 tox
+|move|p2a: Toxapex|Toxic|p1a: Zapdos
+|-fail|p1a: Zapdos|tox
+|
+|-heal|p2a: Toxapex|76/100|[from] item: Black Sludge
+|-damage|p1a: Zapdos|88/100 tox|[from] psn
+|turn|35
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Zapdos|Volt Switch|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Zapdos|76/100 tox|[from] psn
+|turn|36
+|
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|-damage|p2a: Slowking|72/100|[from] Spikes
+|move|p1a: Zapdos|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|91/100|[from] Volt Switch
+|
+|turn|37
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|72/100|[from] Spikes
+|move|p1a: Urshifu|Surging Strikes|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|54/100
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|-hitcount|p2a: Toxapex|3
+|-damage|p1a: Urshifu|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|52/100|[from] item: Black Sludge
+|turn|38
+|
+|switch|p1a: Zapdos|Zapdos|76/100 tox
+|move|p2a: Toxapex|Toxic|p1a: Zapdos
+|-fail|p1a: Zapdos|tox
+|
+|-heal|p2a: Toxapex|59/100|[from] item: Black Sludge
+|-damage|p1a: Zapdos|69/100 tox|[from] psn
+|turn|39
+|-message|p2 forfeited.
+|
+|win|p1

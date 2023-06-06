@@ -1,0 +1,187 @@
+# advantage = p2
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Gholdengo|
+|poke|p1|Sneasler, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Dragapult, M|
+|poke|p1|Garchomp, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Regidrago|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Hatterene, F|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|start
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|1
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Enamorus|Earth Power|p2a: Samurott
+|-crit|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|-damage|p1a: Enamorus|91/100|[from] item: Life Orb
+|
+|turn|2
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Garchomp
+|-damage|p1a: Garchomp|66/100
+|-sidestart|p1: p1|Spikes
+|-damage|p2a: Samurott|0 fnt|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|3
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|switch|p1a: Enamorus|Enamorus-Therian, F|91/100
+|
+|turn|4
+|
+|-terastallize|p1a: Enamorus|Fire
+|-terastallize|p2a: Heatran|Grass
+|move|p1a: Enamorus|Tailwind|p1a: Enamorus
+|-sidestart|p1: p1|move: Tailwind
+|move|p2a: Heatran|Stealth Rock|p1a: Enamorus
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|turn|5
+|
+|move|p1a: Enamorus|Moonblast|p2a: Heatran
+|-damage|p2a: Heatran|59/100
+|-damage|p1a: Enamorus|81/100|[from] item: Life Orb
+|move|p2a: Heatran|Magma Storm|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|53/100
+|-activate|p1a: Enamorus|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|65/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|41/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|6
+|
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Enamorus|Moonblast|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-heal|p2a: Heatran|71/100|[from] item: Leftovers
+|-damage|p1a: Enamorus|29/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|7
+|
+|move|p1a: Enamorus|Moonblast|p2a: Heatran
+|-damage|p2a: Heatran|25/100
+|-damage|p1a: Enamorus|19/100|[from] item: Life Orb
+|move|p2a: Heatran|Tera Blast|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-heal|p2a: Heatran|32/100|[from] item: Leftovers
+|-sideend|p1: p1|move: Tailwind
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|-item|p1a: Sneasler|Air Balloon
+|turn|8
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|9
+|
+|move|p2a: Regidrago|Dragon Energy|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|-enditem|p1a: Sneasler|Air Balloon
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|-damage|p1a: Gholdengo|82/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Regidrago|Dragon Energy|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|20/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Regidrago
+|-damage|p2a: Regidrago|56/100
+|
+|turn|11
+|
+|move|p2a: Regidrago|Dragon Energy|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|88/100|[from] Spikes
+|-damage|p1a: Zamazenta|82/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|12
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|85/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|
+|-heal|p1a: Zamazenta|88/100|[from] item: Leftovers
+|turn|13
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|move|p2a: Slowking|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|turn|14
+|
+|move|p1a: Dragapult|Curse|p2a: Slowking
+|-start|p2a: Slowking|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|26/100 par
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snow
+|
+|switch|p2a: Hatterene|Hatterene, F|85/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|15
+|
+|move|p1a: Dragapult|Curse|p2a: Hatterene
+|-start|p2a: Hatterene|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Zamazenta|Zamazenta|88/100
+|switch|p2a: Regidrago|Regidrago|56/100
+|-heal|p2a: Regidrago|100/100|[from] move: Healing Wish
+|-damage|p1a: Zamazenta|76/100|[from] Spikes
+|-damage|p1a: Zamazenta|69/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Regidrago|Dragon Energy|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|Snow|[upkeep]
+|-message|p1 forfeited.
+|
+|win|p2

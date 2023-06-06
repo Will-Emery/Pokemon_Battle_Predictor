@@ -1,0 +1,65 @@
+# advantage = p2
+|poke|p1|Baxcalibur, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Mareanie, M|
+|poke|p2|Rabsca, M|
+|poke|p2|Gholdengo|
+|poke|p2|Quaxwell, F|
+|teampreview
+|
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|-terastallize|p2a: Gholdengo|Steel
+|move|p1a: Meowscarada|Knock Off|p2a: Gholdengo
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Gholdengo|29/100
+|-enditem|p2a: Gholdengo|Choice Specs|[from] move: Knock Off|[of] p1a: Meowscarada
+|-damage|p1a: Meowscarada|91/100|[from] item: Life Orb
+|move|p2a: Gholdengo|Make It Rain|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Meowscarada
+|
+|
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|turn|2
+|
+|switch|p2a: Quaxwell|Quaxwell, F|100/100
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Quaxwell
+|-damage|p2a: Quaxwell|42/100
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|
+|turn|3
+|
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Quaxwell
+|-damage|p2a: Quaxwell|0 fnt
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|faint|p2a: Quaxwell
+|
+|
+|switch|p2a: Gholdengo|Gholdengo, tera:Steel|29/100
+|turn|4
+|
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Rabsca|Rabsca, M|100/100
+|turn|5
+|
+|-terastallize|p1a: Baxcalibur|Dragon
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|faint|p2a: Rabsca
+|
+|win|p1
+|n|☆p1|p1
+|n|☆p2|iamssss
+|n|*Lady Monita|ladymonita

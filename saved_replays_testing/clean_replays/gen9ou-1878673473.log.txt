@@ -1,0 +1,117 @@
+# advantage = p1
+|poke|p1|Iron Valiant|
+|poke|p1|Sableye, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Articuno-Galar|
+|poke|p1|Volcarona, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Zapdos|
+|poke|p2|Chien-Pao|
+|poke|p2|Iron Treads|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Samurott
+|-damage|p1a: Samurott|55/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Samurott
+|-damage|p1a: Samurott|9/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-sidestart|p2: p2|Spikes
+|faint|p2a: Dragapult
+|
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|2
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Sableye
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|turn|3
+|
+|move|p1a: Sableye|Encore|p2a: Iron Treads
+|-start|p2a: Iron Treads|Encore
+|move|p2a: Iron Treads|Stealth Rock||[still]
+|-fail|p2a: Iron Treads
+|
+|turn|4
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|-damage|p2a: Ursaluna|88/100|[from] Spikes
+|move|p1a: Sableye|Light Screen|p1a: Sableye
+|-sidestart|p1: p1|move: Light Screen
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|turn|5
+|
+|move|p1a: Sableye|Reflect|p1a: Sableye
+|-sidestart|p1: p1|Reflect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Sableye
+|-damage|p1a: Sableye|50/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-damage|p2a: Ursaluna|82/100 brn|[from] brn
+|turn|6
+|
+|move|p1a: Sableye|Encore|p2a: Ursaluna
+|-start|p2a: Ursaluna|Encore
+|move|p2a: Ursaluna|Headlong Rush|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Sableye
+|
+|-damage|p2a: Ursaluna|76/100 brn|[from] brn
+|
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|-damage|p1a: Articuno|76/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Articuno|Agility|p1a: Articuno
+|-boost|p1a: Articuno|spe|2
+|
+|turn|8
+|
+|move|p1a: Articuno|Calm Mind|p1a: Articuno
+|-boost|p1a: Articuno|spa|1
+|-boost|p1a: Articuno|spd|1
+|move|p2a: Zapdos|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|47/100
+|-enditem|p1a: Articuno|Weakness Policy
+|-boost|p1a: Articuno|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Articuno|spa|2|[from] item: Weakness Policy
+|
+|turn|9
+|
+|move|p1a: Articuno|Stored Power|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|88/100|[from] Spikes
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|10
+|
+|-terastallize|p1a: Articuno|Fighting
+|move|p1a: Articuno|Tera Blast|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|
+|-message|p2 forfeited.
+|
+|win|p1

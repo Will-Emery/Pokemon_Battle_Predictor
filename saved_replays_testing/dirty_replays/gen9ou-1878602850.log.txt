@@ -1,0 +1,439 @@
+|j|☆Choker Layton
+|j|☆Michele Long
+|t:|1686005613
+|gametype|singles
+|player|p1|Choker Layton|falkner|
+|player|p2|Michele Long|dragontamer|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Breloom, F|
+|poke|p1|Baxcalibur, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Typhlosion, M|
+|poke|p1|Altaria, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Flapple, M|
+|poke|p2|Cyclizar, M|
+|poke|p2|Scream Tail|
+|poke|p2|Roaring Moon|
+|poke|p2|Lucario, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Choker Layton)
+|
+|t:|1686005630
+|start
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|switch|p2a: Scream Tail|Scream Tail|100/100
+|turn|1
+|
+|t:|1686005638
+|move|p2a: Scream Tail|Reflect|p2a: Scream Tail
+|-sidestart|p2: Michele Long|Reflect
+|move|p1a: Baxcalibur|Icicle Spear|p2a: Scream Tail
+|-damage|p2a: Scream Tail|92/100
+|-damage|p2a: Scream Tail|84/100
+|-damage|p2a: Scream Tail|76/100
+|-damage|p2a: Scream Tail|68/100
+|-damage|p2a: Scream Tail|59/100
+|-hitcount|p2a: Scream Tail|5
+|
+|upkeep
+|turn|2
+|
+|t:|1686005653
+|move|p2a: Scream Tail|Light Screen|p2a: Scream Tail
+|-sidestart|p2: Michele Long|move: Light Screen
+|move|p1a: Baxcalibur|Icicle Spear|p2a: Scream Tail
+|-damage|p2a: Scream Tail|51/100
+|-damage|p2a: Scream Tail|43/100
+|-damage|p2a: Scream Tail|34/100
+|-hitcount|p2a: Scream Tail|3
+|
+|upkeep
+|turn|3
+|
+|t:|1686005670
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|
+|upkeep
+|turn|4
+|
+|t:|1686005684
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|move|p1a: Tinkaton|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|73/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-enditem|p2a: Ceruledge|Focus Sash|[from] move: Knock Off|[of] p1a: Tinkaton
+|
+|-heal|p2a: Ceruledge|100/100|[from] move: Wish|[wisher] Scream Tail
+|upkeep
+|turn|5
+|
+|t:|1686005699
+|move|p2a: Ceruledge|Bitter Blade|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|5/100
+|move|p1a: Tinkaton|Thunder Wave|p2a: Ceruledge
+|-status|p2a: Ceruledge|par
+|
+|-heal|p1a: Tinkaton|11/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1686005710
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|cant|p2a: Ceruledge|par
+|
+|upkeep
+|turn|7
+|
+|t:|1686005735
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Ceruledge
+|-unboost|p2a: Ceruledge|atk|1
+|-unboost|p2a: Ceruledge|spa|1
+|
+|t:|1686005738
+|switch|p1a: Typhlosion|Typhlosion, M|100/100|[from] Parting Shot
+|cant|p2a: Ceruledge|par
+|
+|upkeep
+|turn|8
+|
+|t:|1686005753
+|switch|p2a: Cyclizar|Cyclizar, M|100/100
+|move|p1a: Typhlosion|Shadow Ball|p2a: Cyclizar
+|-immune|p2a: Cyclizar
+|
+|-sideend|p2: Michele Long|Reflect
+|upkeep
+|turn|9
+|
+|t:|1686005762
+|switch|p1a: Tinkaton|Tinkaton, F|11/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Cyclizar|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-crit|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-enditem|p1a: Tinkaton|Leftovers|[from] move: Knock Off|[of] p2a: Cyclizar
+|faint|p1a: Tinkaton
+|
+|-sideend|p2: Michele Long|move: Light Screen
+|upkeep
+|
+|t:|1686005766
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|turn|10
+|
+|t:|1686005777
+|switch|p2a: Lucario|Lucario, F|100/100
+|move|p1a: Baxcalibur|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|t:|1686005788
+|switch|p2a: Scream Tail|Scream Tail|34/100
+|turn|11
+|
+|t:|1686005798
+|move|p2a: Scream Tail|Reflect|p2a: Scream Tail
+|-sidestart|p2: Michele Long|Reflect
+|move|p1a: Baxcalibur|Earthquake|p2a: Scream Tail
+|-damage|p2a: Scream Tail|12/100
+|
+|upkeep
+|turn|12
+|j| swellow is stronk
+|
+|t:|1686005806
+|move|p2a: Scream Tail|Light Screen|p2a: Scream Tail
+|-sidestart|p2: Michele Long|move: Light Screen
+|move|p1a: Baxcalibur|Earthquake|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1686005810
+|switch|p2a: Flapple|Flapple, M|100/100
+|turn|13
+|
+|t:|1686005819
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Flapple|Dragon Dance|p2a: Flapple
+|-boost|p2a: Flapple|atk|1
+|-boost|p2a: Flapple|spe|1
+|
+|upkeep
+|turn|14
+|c| swellow is stronk|hi
+|
+|t:|1686005832
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Choker Layton|Reflect
+|move|p2a: Flapple|Dragon Dance|p2a: Flapple
+|-boost|p2a: Flapple|atk|1
+|-boost|p2a: Flapple|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1686005852
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Flapple
+|-unboost|p2a: Flapple|atk|1
+|-unboost|p2a: Flapple|spa|1
+|
+|t:|1686005855
+|switch|p1a: Altaria|Altaria, M|100/100|[from] Parting Shot
+|move|p2a: Flapple|Grav Apple|p1a: Altaria|[miss]
+|-miss|p2a: Flapple|p1a: Altaria
+|
+|upkeep
+|turn|16
+|
+|t:|1686005871
+|-terastallize|p1a: Altaria|Fire
+|move|p2a: Flapple|Outrage|p1a: Altaria
+|-damage|p1a: Altaria|30/100
+|move|p1a: Altaria|Will-O-Wisp|p2a: Flapple
+|-status|p2a: Flapple|brn
+|
+|-damage|p2a: Flapple|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|c| swellow is stronk|damn
+|
+|t:|1686005883
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Flapple|Outrage|p1a: Grimmsnarl|[from]lockedmove
+|-immune|p1a: Grimmsnarl
+|
+|-damage|p2a: Flapple|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1686005896
+|move|p2a: Flapple|Grav Apple|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|76/100
+|-unboost|p1a: Grimmsnarl|def|1
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|44/100 brn
+|-unboost|p2a: Flapple|spa|1
+|
+|-damage|p2a: Flapple|38/100 brn|[from] brn
+|-sideend|p2: Michele Long|Reflect
+|upkeep
+|turn|19
+|
+|t:|1686005916
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Flapple
+|-unboost|p2a: Flapple|atk|1
+|-unboost|p2a: Flapple|spa|1
+|
+|t:|1686005920
+|switch|p1a: Altaria|Altaria, M, tera:Fire|30/100|[from] Parting Shot
+|move|p2a: Flapple|Grav Apple|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|23/100
+|-unboost|p1a: Altaria|def|1
+|
+|-damage|p2a: Flapple|32/100 brn|[from] brn
+|-sideend|p2: Michele Long|move: Light Screen
+|upkeep
+|turn|20
+|
+|t:|1686005931
+|move|p2a: Flapple|Outrage|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|-damage|p2a: Flapple|26/100 brn|[from] brn
+|upkeep
+|
+|t:|1686005938
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|21
+|
+|t:|1686005946
+|move|p2a: Flapple|Outrage|p1a: Breloom|[from]lockedmove
+|-damage|p1a: Breloom|83/100
+|-start|p2a: Flapple|confusion|[fatigue]
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|58/100
+|
+|-damage|p2a: Flapple|20/100 brn|[from] brn
+|-sideend|p1: Choker Layton|Reflect
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|22
+|
+|t:|1686005967
+|-singleturn|p1a: Breloom|move: Focus Punch
+|-activate|p2a: Flapple|confusion
+|move|p2a: Flapple|Dragon Dance|p2a: Flapple
+|-boost|p2a: Flapple|atk|1
+|-boost|p2a: Flapple|spe|1
+|move|p1a: Breloom|Focus Punch|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|-heal|p1a: Breloom|70/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1686005972
+|switch|p2a: Ceruledge|Ceruledge, F|100/100 par
+|turn|23
+|
+|t:|1686005984
+|move|p1a: Breloom|Leech Seed|p2a: Ceruledge
+|-start|p2a: Ceruledge|move: Leech Seed
+|cant|p2a: Ceruledge|par
+|
+|-damage|p2a: Ceruledge|88/100 par|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|81/100 tox|[silent]
+|-heal|p1a: Breloom|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1686005991
+|-singleturn|p1a: Breloom|move: Focus Punch
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Breloom|Focus Punch|p2a: Ceruledge
+|-immune|p2a: Ceruledge
+|
+|-damage|p2a: Ceruledge|76/100 par|[from] Leech Seed|[of] p1a: Breloom
+|-heal|p1a: Breloom|100/100 tox|[silent]
+|upkeep
+|turn|25
+|
+|t:|1686006010
+|switch|p1a: Typhlosion|Typhlosion, M|100/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Typhlosion
+|-start|p1a: Typhlosion|ability: Flash Fire
+|
+|-damage|p2a: Ceruledge|64/100 par|[from] Leech Seed|[of] p1a: Typhlosion
+|upkeep
+|turn|26
+|
+|t:|1686006028
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Typhlosion
+|-damage|p1a: Typhlosion|47/100
+|move|p1a: Typhlosion|Eruption|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|20/100 par
+|
+|-damage|p2a: Ceruledge|8/100 par|[from] Leech Seed|[of] p1a: Typhlosion
+|-heal|p1a: Typhlosion|59/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1686006043
+|move|p1a: Typhlosion|Eruption|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1686006047
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisspe
+|turn|28
+|
+|t:|1686006072
+|move|p2a: Roaring Moon|Dragon Dance|p2a: Roaring Moon
+|-boost|p2a: Roaring Moon|atk|1
+|-boost|p2a: Roaring Moon|spe|1
+|move|p1a: Typhlosion|Eruption|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|62/100
+|
+|upkeep
+|turn|29
+|
+|t:|1686006102
+|move|p2a: Roaring Moon|Acrobatics|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|upkeep
+|
+|t:|1686006104
+|switch|p1a: Baxcalibur|Baxcalibur, F|100/100
+|turn|30
+|
+|t:|1686006112
+|-terastallize|p2a: Roaring Moon|Flying
+|move|p1a: Baxcalibur|Ice Shard|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1686006116
+|switch|p2a: Cyclizar|Cyclizar, M|100/100
+|turn|31
+|
+|t:|1686006121
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|76/100
+|move|p2a: Cyclizar|Rapid Spin|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|56/100
+|-boost|p2a: Cyclizar|spe|1
+|
+|upkeep
+|turn|32
+|
+|t:|1686006131
+|move|p2a: Cyclizar|Knock Off|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|50/100
+|-enditem|p1a: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p2a: Cyclizar
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Cyclizar
+|-supereffective|p2a: Cyclizar
+|-damage|p2a: Cyclizar|10/100
+|-unboost|p2a: Cyclizar|spa|1
+|
+|upkeep
+|turn|33
+|
+|t:|1686006134
+|move|p2a: Cyclizar|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|33/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Cyclizar
+|-supereffective|p2a: Cyclizar
+|-damage|p2a: Cyclizar|0 fnt
+|faint|p2a: Cyclizar
+|
+|win|Choker Layton
+|l| swellow is stronk
+|c|☆Michele Long|gg
+|c|☆Choker Layton|gg 1 1
+|l|☆Michele Long

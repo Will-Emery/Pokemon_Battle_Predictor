@@ -1,0 +1,273 @@
+# advantage = p2
+|poke|p1|Tinkaton, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Sneasler, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Hydreigon, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Chesnaught, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Roaring Moon|
+|teampreview
+|
+|start
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|turn|1
+|
+|move|p1a: Tinkaton|Thunder Wave|p2a: Kingambit
+|-status|p2a: Kingambit|par
+|-enditem|p2a: Kingambit|Lum Berry|[eat]
+|-curestatus|p2a: Kingambit|par|[msg]
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|67/100
+|
+|-heal|p1a: Tinkaton|73/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Tinkaton|Thunder Wave|p2a: Kingambit
+|-status|p2a: Kingambit|par
+|cant|p2a: Kingambit|par
+|
+|-heal|p1a: Tinkaton|80/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Tinkaton|Play Rough|p2a: Kingambit
+|-damage|p2a: Kingambit|76/100 par
+|move|p2a: Kingambit|Iron Head|p1a: Tinkaton
+|-damage|p1a: Tinkaton|17/100
+|
+|-heal|p1a: Tinkaton|23/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|
+|-heal|p1a: Toxapex|70/100|[from] item: Black Sludge
+|turn|5
+|
+|move|p1a: Toxapex|Toxic Spikes|p2a: Kingambit
+|-sidestart|p2: p2|move: Toxic Spikes
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Toxapex
+|-damage|p1a: Toxapex|36/100
+|
+|-heal|p1a: Toxapex|42/100|[from] item: Black Sludge
+|turn|6
+|
+|move|p1a: Toxapex|Toxic Spikes|p2a: Kingambit
+|-sidestart|p2: p2|move: Toxic Spikes
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Toxapex
+|-damage|p1a: Toxapex|9/100
+|
+|-heal|p1a: Toxapex|15/100|[from] item: Black Sludge
+|turn|7
+|
+|switch|p1a: Tinkaton|Tinkaton, F|23/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|8
+|
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: ironvaliant|Iron Valiant|100/100
+|-enditem|p2a: ironvaliant|Booster Energy
+|-activate|p2a: ironvaliant|ability: Quark Drive|[fromitem]
+|-start|p2a: ironvaliant|quarkdrivespe
+|-status|p2a: ironvaliant|tox
+|move|p1a: Garchomp|Earthquake|p2a: ironvaliant
+|-damage|p2a: ironvaliant|39/100 tox
+|
+|-damage|p2a: ironvaliant|33/100 tox|[from] psn
+|turn|9
+|
+|switch|p1a: Toxapex|Toxapex, F|48/100
+|move|p2a: ironvaliant|Moonblast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|-unboost|p1a: Toxapex|spa|1
+|
+|-heal|p1a: Toxapex|37/100|[from] item: Black Sludge
+|-damage|p2a: ironvaliant|21/100 tox|[from] psn
+|turn|10
+|
+|move|p2a: ironvaliant|Psyshock|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-damage|p2a: ironvaliant|2/100 tox|[from] psn
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|turn|11
+|
+|move|p1a: Sneasler|Fake Out|p2a: ironvaliant
+|-damage|p2a: ironvaliant|0 fnt
+|faint|p2a: ironvaliant
+|-end|p2a: ironvaliant|Quark Drive|[silent]
+|
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-status|p2a: Dragapult|tox
+|turn|12
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Sneasler
+|-damage|p1a: Sneasler|68/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Sneasler
+|-damage|p1a: Sneasler|32/100
+|move|p1a: Sneasler|Dire Claw|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|78/100 tox
+|
+|-damage|p2a: Dragapult|72/100 tox|[from] psn
+|turn|13
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-damage|p2a: Dragapult|60/100 tox|[from] psn
+|
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|14
+|
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Basculegion
+|-damage|p1a: Basculegion|76/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Basculegion
+|-damage|p1a: Basculegion|50/100
+|
+|-damage|p2a: Dragapult|41/100 tox|[from] psn
+|turn|15
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Basculegion
+|-damage|p1a: Basculegion|21/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-damage|p2a: Dragapult|17/100 tox|[from] psn
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|16
+|
+|-terastallize|p1a: Hydreigon|Steel
+|move|p2a: Dragapult|Dragon Darts|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|88/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|76/100
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|51/100
+|
+|-heal|p1a: Hydreigon|57/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|0 fnt|[from] psn
+|faint|p2a: Dragapult
+|
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|-status|p2a: Chesnaught|tox
+|turn|17
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Chesnaught|Drain Punch|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|64/100|[from] item: Leftovers
+|-damage|p2a: Chesnaught|95/100 tox|[from] psn
+|turn|18
+|
+|switch|p2a: Kingambit|Kingambit, F|76/100 par
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Hydreigon|Flash Cannon|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|32/100 par
+|
+|-heal|p1a: Hydreigon|70/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-heal|p1a: Hydreigon|76/100|[from] item: Leftovers
+|
+|switch|p2a: roaringmoon|Roaring Moon|100/100
+|-status|p2a: roaringmoon|tox
+|-enditem|p2a: roaringmoon|Booster Energy
+|-activate|p2a: roaringmoon|ability: Protosynthesis|[fromitem]
+|-start|p2a: roaringmoon|protosynthesisatk
+|turn|20
+|
+|move|p2a: roaringmoon|Crunch|p1a: Hydreigon
+|-damage|p1a: Hydreigon|7/100
+|move|p1a: Hydreigon|Flash Cannon|p2a: roaringmoon
+|-damage|p2a: roaringmoon|18/100 tox
+|
+|-heal|p1a: Hydreigon|13/100|[from] item: Leftovers
+|-damage|p2a: roaringmoon|12/100 tox|[from] psn
+|turn|21
+|
+|move|p2a: roaringmoon|Crunch|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-damage|p2a: roaringmoon|0 fnt|[from] psn
+|faint|p2a: roaringmoon
+|-end|p2a: roaringmoon|Protosynthesis|[silent]
+|
+|switch|p2a: Baxcalibur|Baxcalibur, M|100/100
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|-status|p2a: Baxcalibur|tox
+|turn|22
+|
+|move|p1a: Garchomp|Outrage|p2a: Baxcalibur
+|-supereffective|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|0 fnt
+|faint|p2a: Baxcalibur
+|
+|
+|switch|p2a: Chesnaught|Chesnaught, F|95/100 tox
+|turn|23
+|
+|-terastallize|p2a: Chesnaught|Fire
+|move|p1a: Garchomp|Outrage|p2a: Chesnaught|[from]lockedmove
+|-damage|p2a: Chesnaught|40/100 tox
+|-enditem|p2a: Chesnaught|Sitrus Berry|[eat]
+|-heal|p2a: Chesnaught|65/100 tox|[from] item: Sitrus Berry
+|move|p2a: Chesnaught|Trailblaze|p1a: Garchomp
+|-damage|p1a: Garchomp|81/100
+|-boost|p2a: Chesnaught|spe|1
+|-damage|p2a: Chesnaught|52/100 tox|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Chesnaught|36/100 tox|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|
+|-damage|p2a: Chesnaught|30/100 tox|[from] psn
+|turn|24
+|
+|move|p2a: Chesnaught|Drain Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|52/100
+|-heal|p2a: Chesnaught|46/100 tox|[from] drain|[of] p1a: Garchomp
+|-damage|p2a: Chesnaught|34/100 tox|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Chesnaught|17/100 tox|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|move|p1a: Garchomp|Outrage|p2a: Chesnaught|[from]lockedmove
+|-damage|p2a: Chesnaught|0 fnt
+|faint|p2a: Chesnaught
+|-start|p1a: Garchomp|confusion|[fatigue]
+|
+|win|p1

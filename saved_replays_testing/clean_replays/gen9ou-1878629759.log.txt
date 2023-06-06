@@ -1,0 +1,56 @@
+# advantage = p1
+|poke|p1|Garchomp, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Chansey, F|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Roaring Moon|
+|poke|p2|Amoonguss, M|
+|poke|p2|Ceruledge, M|
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|-terastallize|p1a: Toxapex|Normal
+|move|p1a: Toxapex|Toxic|p2a: Torkoal
+|-status|p2a: Torkoal|tox
+|move|p2a: Torkoal|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|94/100 tox|[from] psn
+|turn|2
+|
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|move|p1a: Glimmora|Stealth Rock|p2a: Amoonguss
+|-sidestart|p2: p2|move: Stealth Rock
+|move|p2a: Amoonguss|Giga Drain|p1a: Glimmora
+|-damage|p1a: Glimmora|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|move|p1a: Glimmora|Spikes|p2a: Amoonguss
+|-sidestart|p2: p2|Spikes
+|move|p2a: Amoonguss|Giga Drain|p1a: Glimmora
+|-damage|p1a: Glimmora|28/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|-message|p2 lost due to inactivity.
+|
+|win|p1

@@ -1,0 +1,306 @@
+|j|‽MewNL
+|j|☆pokemanpablotest
+|t:|1686001178
+|gametype|singles
+|player|p1|MewNL|unknown|1262
+|player|p2|pokemanpablotest|2|1250
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sneasler, F|
+|poke|p1|Great Tusk|
+|poke|p1|Garganacl, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, F|
+|poke|p2|Iron Treads|
+|poke|p2|Inteleon, F|
+|poke|p2|Pincurchin, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Urshifu-*, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pokemanpablotest)
+|
+|t:|1686001197
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|t:|1686001201
+|move|p1a: Cinderace|U-turn|p2a: Pincurchin
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Pincurchin|65/100
+|
+|t:|1686001207
+|switch|p1a: Clodsire|Clodsire, M|100/100|[from] U-turn
+|move|p2a: Pincurchin|Discharge|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|upkeep
+|turn|2
+|
+|t:|1686001222
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|move|p1a: Clodsire|Stealth Rock|p2a: Roaring Moon
+|-sidestart|p2: pokemanpablotest|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1686001238
+|move|p2a: Roaring Moon|Dragon Dance|p2a: Roaring Moon
+|-boost|p2a: Roaring Moon|atk|1
+|-boost|p2a: Roaring Moon|spe|1
+|move|p1a: Clodsire|Toxic|p2a: Roaring Moon
+|-status|p2a: Roaring Moon|tox
+|
+|-damage|p2a: Roaring Moon|95/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1686001266
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Roaring Moon|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-damage|p2a: Roaring Moon|83/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|pokemanpablotest has 120 seconds left.
+|
+|t:|1686001284
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Roaring Moon|Crunch|p1a: Garganacl
+|-damage|p1a: Garganacl|55/100
+|
+|-heal|p1a: Garganacl|61/100|[from] item: Leftovers
+|-damage|p2a: Roaring Moon|65/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|pokemanpablotest has 120 seconds left.
+|
+|t:|1686001301
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Roaring Moon|Acrobatics|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|
+|-damage|p2a: Roaring Moon|41/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1686001305
+|move|p2a: Roaring Moon|Crunch|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Roaring Moon|11/100 tox|[from] psn
+|upkeep
+|
+|t:|1686001313
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|8
+|
+|t:|1686001317
+|move|p1a: Cinderace|Sucker Punch|p2a: Roaring Moon
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1686001336
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p2a: Urshifu|94/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1686001343
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Clodsire
+|-immune|p1a: Clodsire|[from] ability: Water Absorb
+|
+|upkeep
+|turn|10
+|
+|t:|1686001350
+|move|p2a: Urshifu|Ice Spinner|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|28/100
+|move|p1a: Clodsire|Toxic|p2a: Urshifu
+|-status|p2a: Urshifu|tox
+|
+|-heal|p1a: Clodsire|34/100|[from] item: Leftovers
+|-damage|p2a: Urshifu|88/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1686001361
+|switch|p1a: Garganacl|Garganacl, M|61/100
+|move|p2a: Urshifu|Ice Spinner|p1a: Garganacl
+|-damage|p1a: Garganacl|45/100
+|
+|-heal|p1a: Garganacl|51/100|[from] item: Leftovers
+|-damage|p2a: Urshifu|76/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1686001368
+|move|p2a: Urshifu|Drain Punch|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|-heal|p2a: Urshifu|100/100 tox|[from] drain|[of] p1a: Garganacl
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Urshifu|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1686001373
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1686001378
+|move|p2a: Urshifu|Surging Strikes|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|77/100
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|53/100
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|27/100
+|-hitcount|p1a: Great Tusk|3
+|move|p1a: Great Tusk|Earthquake|p2a: Urshifu
+|-damage|p2a: Urshifu|40/100 tox
+|
+|-heal|p1a: Great Tusk|33/100|[from] item: Leftovers
+|-damage|p2a: Urshifu|15/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1686001388
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Clodsire|Clodsire, M|34/100
+|move|p2a: Urshifu|Drain Punch|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|9/100
+|-heal|p2a: Urshifu|33/100 tox|[from] drain|[of] p1a: Clodsire
+|
+|-heal|p1a: Clodsire|15/100|[from] item: Leftovers
+|-damage|p2a: Urshifu|2/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1686001400
+|move|p2a: Urshifu|Ice Spinner|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-damage|p2a: Urshifu|0 fnt|[from] psn
+|faint|p2a: Urshifu
+|upkeep
+|
+|t:|1686001426
+|switch|p2a: Pincurchin|Pincurchin, M|65/100
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Pincurchin|53/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|16
+|
+|t:|1686001439
+|move|p2a: Pincurchin|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|78/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|upkeep
+|inactive|pokemanpablotest has 120 seconds left.
+|
+|t:|1686001459
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|17
+|
+|t:|1686001466
+|move|p2a: Iron Treads|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1686001468
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|18
+|
+|t:|1686001472
+|-terastallize|p2a: Iron Treads|Ground
+|move|p2a: Iron Treads|Earthquake|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|
+|upkeep
+|turn|19
+|
+|t:|1686001480
+|-terastallize|p1a: Sneasler|Flying
+|move|p1a: Sneasler|Acrobatics|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1686001499
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|20
+|
+|t:|1686001510
+|move|p1a: Sneasler|Acrobatics|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1686001514
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|-damage|p2a: Inteleon|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1686001519
+|move|p1a: Sneasler|Acrobatics|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|win|MewNL
+|raw|MewNL's rating: 1262 → 1286(+24 for winning)
+|raw|pokemanpablotest's rating: 1250 → 1226(-24 for losing)
+|l|‽MewNL

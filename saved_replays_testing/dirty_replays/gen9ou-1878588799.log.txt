@@ -1,0 +1,272 @@
+|j|☆Fuggler
+|j|☆kitat
+|t:|1686004083
+|gametype|singles
+|player|p1|Fuggler|harlequin|1439
+|player|p2|kitat|worker|1473
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Komala, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Glimmora, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kitat)
+|
+|t:|1686004088
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|1
+|
+|t:|1686004092
+|move|p1a: Glimmora|Earth Power|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|move|p2a: Glimmora|Earth Power|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1686004096
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1686004101
+|move|p2a: Corviknight|U-turn|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|98/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Enamorus
+|
+|t:|1686004105
+|switch|p2a: Torkoal|Torkoal, F|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Enamorus|Calm Mind|p1a: Enamorus
+|-boost|p1a: Enamorus|spa|1
+|-boost|p1a: Enamorus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1686004111
+|move|p1a: Enamorus|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|12/100
+|move|p2a: Torkoal|Yawn|p1a: Enamorus
+|-start|p1a: Enamorus|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1686004116
+|switch|p1a: Glimmora|Glimmora, F|1/100
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1686004120
+|move|p1a: Glimmora|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: kitat|move: Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: kitat|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|t:|1686004124
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-damage|p2a: Walking Wake|88/100|[from] Stealth Rock
+|-status|p2a: Walking Wake|psn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Walking Wake|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1686004129
+|switch|p1a: Komala|Komala, F|100/100
+|turn|7
+|
+|t:|1686004134
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Komala
+|-enditem|p1a: Komala|Focus Sash
+|-damage|p1a: Komala|1/100
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Comeuppance|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|kitat has 120 seconds left.
+|
+|t:|1686004165
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|-damage|p2a: Corviknight|72/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1686004169
+|move|p1a: Zoroark|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Defog
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1686004178
+|switch|p1a: Enamorus|Enamorus-Therian, F|98/100
+|move|p2a: Corviknight|U-turn|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|95/100
+|-damage|p2a: Corviknight|55/100|[from] item: Rocky Helmet|[of] p1a: Enamorus
+|
+|t:|1686004190
+|switch|p2a: Kingambit|Kingambit, F|100/100|[from] U-turn
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1686004193
+|-terastallize|p1a: Enamorus|Steel
+|move|p2a: Kingambit|Iron Head|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|79/100
+|-damage|p2a: Kingambit|78/100|[from] item: Rocky Helmet|[of] p1a: Enamorus
+|move|p1a: Enamorus|Mystical Fire|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1686004197
+|switch|p2a: Corviknight|Corviknight, M|55/100
+|-damage|p2a: Corviknight|43/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1686004202
+|move|p2a: Corviknight|Defog|p1a: Enamorus
+|-unboost|p1a: Enamorus|evasion|1
+|-sideend|p2: kitat|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: kitat|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Enamorus|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|2/100
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Enamorus|spa|1
+|
+|upkeep
+|turn|12
+|
+|t:|1686004223
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|-enditem|p2a: Roaring Moon|Booster Energy
+|-activate|p2a: Roaring Moon|ability: Protosynthesis|[fromitem]
+|-start|p2a: Roaring Moon|protosynthesisatk
+|move|p1a: Enamorus|Mystical Fire|p2a: Roaring Moon
+|-resisted|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|94/100
+|-unboost|p2a: Roaring Moon|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1686004232
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|move|p2a: Roaring Moon|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|44/100
+|
+|upkeep
+|turn|14
+|
+|t:|1686004238
+|move|p1a: Samurott|Sacred Sword|p2a: Roaring Moon
+|-supereffective|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|0 fnt
+|faint|p2a: Roaring Moon
+|-end|p2a: Roaring Moon|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1686004241
+|switch|p2a: Glimmora|Glimmora, M|1/100
+|turn|15
+|
+|t:|1686004244
+|move|p1a: Samurott|Sacred Sword|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Fuggler|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1686004248
+|switch|p2a: Torkoal|Torkoal, F|12/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|16
+|
+|t:|1686004251
+|move|p1a: Samurott|Sacred Sword|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1686004253
+|switch|p2a: Corviknight|Corviknight, M|2/100
+|turn|17
+|
+|t:|1686004256
+|move|p1a: Samurott|Sacred Sword|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Samurott|27/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|win|Fuggler
+|raw|Fuggler's rating: 1439 → 1461(+22 for winning)
+|raw|kitat's rating: 1473 → 1451(-22 for losing)
+|l|☆kitat

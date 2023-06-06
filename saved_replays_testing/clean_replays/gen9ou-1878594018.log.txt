@@ -1,0 +1,336 @@
+# advantage = p2
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Skeledirge, F|
+|poke|p1|Articuno-Galar|
+|poke|p1|Great Tusk|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Garganacl, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|1
+|
+|move|p2a: Urshifu|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-crit|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|move|p1a: Samurott|Ceaseless Edge|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|-sidestart|p2: p2|Spikes
+|
+|turn|2
+|
+|move|p1a: Samurott|Ceaseless Edge|p2a: Zapdos
+|-damage|p2a: Zapdos|38/100
+|-sidestart|p2: p2|Spikes
+|move|p2a: Zapdos|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] Volt Switch
+|-damage|p2a: Gholdengo|84/100|[from] Spikes
+|
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|turn|3
+|
+|-terastallize|p1a: Skeledirge|Normal
+|move|p2a: Gholdengo|Trick|p1a: Skeledirge
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Skeledirge
+|-item|p1a: Skeledirge|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Skeledirge|Torch Song|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Gholdengo
+|
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|84/100|[from] Spikes
+|turn|4
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|67/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Garganacl|Salt Cure|p1a: Skeledirge
+|-damage|p1a: Skeledirge|87/100
+|-start|p1a: Skeledirge|Salt Cure
+|
+|-heal|p2a: Garganacl|74/100|[from] item: Leftovers
+|-damage|p1a: Skeledirge|75/100|[from] Salt Cure
+|turn|5
+|
+|switch|p1a: Articuno|Articuno-Galar|100/100
+|move|p2a: Garganacl|Earthquake|p1a: Articuno
+|-immune|p1a: Articuno
+|
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Garganacl|Salt Cure|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|58/100
+|-start|p1a: Articuno|Salt Cure
+|move|p1a: Articuno|Trick Room|p1a: Articuno
+|-fieldstart|move: Trick Room|[of] p1a: Articuno
+|
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|-damage|p1a: Articuno|45/100|[from] Salt Cure
+|turn|7
+|
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|move|p1a: Articuno|U-turn|p2a: Garganacl
+|-damage|p2a: Garganacl|80/100
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100|[from] U-turn
+|
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|8
+|
+|-terastallize|p2a: Garganacl|Water
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|move|p1a: Ursaluna|Earthquake|p2a: Garganacl
+|-damage|p2a: Garganacl|60/100
+|
+|-heal|p2a: Garganacl|66/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|turn|9
+|
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|63/100
+|
+|-heal|p2a: Garganacl|69/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|turn|10
+|
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|37/100
+|
+|-heal|p2a: Garganacl|44/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|11
+|
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|11/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|61/100
+|
+|-heal|p2a: Garganacl|67/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|76/100 brn|[from] brn
+|turn|12
+|
+|move|p1a: Ursaluna|Fire Punch|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|62/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-damage|p1a: Ursaluna|69/100 brn|[from] brn
+|turn|13
+|
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|68/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|74/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|63/100 brn|[from] brn
+|turn|14
+|
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|50/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|56/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|57/100 brn|[from] brn
+|turn|15
+|
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|34/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|40/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|51/100 brn|[from] brn
+|turn|16
+|
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|18/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|68/100
+|
+|-heal|p2a: Garganacl|74/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|45/100 brn|[from] brn
+|turn|17
+|
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|56/100
+|move|p2a: Garganacl|Salt Cure|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|20/100 brn
+|-start|p1a: Ursaluna|Salt Cure
+|
+|-heal|p2a: Garganacl|62/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|14/100 brn|[from] brn
+|-damage|p1a: Ursaluna|2/100 brn|[from] Salt Cure
+|turn|18
+|
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-damage|p2a: Garganacl|41/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|91/100
+|
+|-heal|p2a: Garganacl|98/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|
+|switch|p1a: Articuno|Articuno-Galar|45/100
+|turn|19
+|
+|move|p1a: Articuno|Freezing Glare|p2a: Garganacl
+|-damage|p2a: Garganacl|73/100
+|move|p2a: Garganacl|Salt Cure|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|
+|switch|p1a: Skeledirge|Skeledirge, F, tera:Normal|75/100
+|turn|20
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|69/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Garganacl|Earthquake|p1a: Skeledirge
+|-damage|p1a: Skeledirge|52/100
+|
+|-heal|p2a: Garganacl|75/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|59/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Garganacl|Earthquake|p1a: Skeledirge
+|-damage|p1a: Skeledirge|29/100
+|
+|-heal|p2a: Garganacl|65/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|43/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|94/100
+|
+|-heal|p2a: Garganacl|99/100|[from] item: Leftovers
+|turn|23
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|72/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Garganacl|Salt Cure|p1a: Skeledirge
+|-damage|p1a: Skeledirge|16/100
+|-start|p1a: Skeledirge|Salt Cure
+|
+|-heal|p2a: Garganacl|78/100|[from] item: Leftovers
+|-damage|p1a: Skeledirge|3/100|[from] Salt Cure
+|turn|24
+|
+|move|p1a: Skeledirge|Torch Song|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|42/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|92/100
+|
+|-heal|p2a: Garganacl|98/100|[from] item: Leftovers
+|-damage|p1a: Skeledirge|0 fnt|[from] Salt Cure
+|faint|p1a: Skeledirge
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|25
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|94/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Garganacl|Salt Cure|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|95/100
+|-start|p1a: Great Tusk|Salt Cure
+|
+|-damage|p1a: Great Tusk|83/100|[from] Salt Cure
+|turn|26
+|
+|move|p1a: Great Tusk|Body Press|p2a: Garganacl
+|-damage|p2a: Garganacl|85/100
+|move|p2a: Garganacl|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|
+|-damage|p1a: Great Tusk|33/100|[from] Salt Cure
+|turn|27
+|
+|move|p1a: Great Tusk|Body Press|p2a: Garganacl
+|-damage|p2a: Garganacl|78/100
+|move|p2a: Garganacl|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|28
+|
+|move|p1a: Chien-Pao|Crunch|p2a: Garganacl
+|-damage|p2a: Garganacl|69/100
+|move|p2a: Garganacl|Salt Cure|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|win|p2

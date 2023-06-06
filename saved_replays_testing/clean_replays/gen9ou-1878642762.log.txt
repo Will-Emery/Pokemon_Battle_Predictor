@@ -1,0 +1,162 @@
+# advantage = p2
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Walking Wake|
+|poke|p1|Overqwil, M|
+|poke|p1|Glimmora, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Garchomp, F|
+|teampreview
+|
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|19/100
+|move|p2a: Garchomp|Dragon Tail|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|42/100
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|drag|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Pelipper|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|13/100
+|-damage|p1a: Pelipper|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Pelipper|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|switch|p1a: Overqwil|Overqwil, M|100/100|[from] U-turn
+|-damage|p1a: Overqwil|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Overqwil|Fell Stinger|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Overqwil|76/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Overqwil|60/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-boost|p1a: Overqwil|atk|3
+|-damage|p1a: Overqwil|50/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|4
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Overqwil
+|-damage|p1a: Overqwil|5/100
+|move|p1a: Overqwil|Aqua Jet|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|-damage|p1a: Overqwil|0 fnt|[from] item: Life Orb
+|faint|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|5
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Thundurus|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: Slowking|Future Sight|p1a: Thundurus
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Thundurus|Thunder|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Slowking|Slowking-Galar, F|95/100
+|turn|8
+|
+|move|p1a: Thundurus|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|21/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Thundurus
+|-damage|p1a: Thundurus|53/100
+|
+|-weather|none
+|-end|p1a: Thundurus|move: Future Sight
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Basculegion|Liquidation|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|10
+|
+|switch|p1a: Pelipper|Pelipper, M|72/100
+|-damage|p1a: Pelipper|47/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p2a: Zamazenta|Body Press|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|11/100
+|move|p1a: Pelipper|Hurricane|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|35/100
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|move|p2a: Zamazenta|Body Press|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Walking Wake|Walking Wake|42/100
+|-damage|p1a: Walking Wake|29/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Walking Wake|Hydro Steam|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|-message|p2 forfeited.
+|
+|win|p1

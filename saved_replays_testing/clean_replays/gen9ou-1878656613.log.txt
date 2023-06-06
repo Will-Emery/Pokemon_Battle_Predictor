@@ -1,0 +1,258 @@
+# advantage = p2
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p1|Scream Tail|
+|poke|p1|Dragapult, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Iron Moth|
+|poke|p2|Skeledirge, F|
+|poke|p2|Scovillain, M|
+|poke|p2|Regidrago|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Torkoal|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|1
+|
+|move|p1a: Great Tusk|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|53/100
+|move|p2a: Torkoal|Yawn|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|2
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspd
+|move|p2a: Torkoal|Stealth Rock|p1a: Scream Tail
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|turn|3
+|
+|move|p1a: Scream Tail|Encore|p2a: Torkoal
+|-start|p2a: Torkoal|Encore
+|move|p2a: Torkoal|Stealth Rock||[still]
+|-fail|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|turn|4
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|switch|p2a: Scovillain|Scovillain, M, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|-damage|p1a: Scream Tail|88/100|[from] Stealth Rock
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspd
+|move|p2a: Scovillain|Growth|p2a: Scovillain
+|-boost|p2a: Scovillain|atk|2
+|-boost|p2a: Scovillain|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scream Tail|94/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Scovillain|Flamethrower|p1a: Scream Tail
+|-damage|p1a: Scream Tail|11/100
+|-damage|p2a: Scovillain|91/100|[from] item: Life Orb
+|move|p1a: Scream Tail|Encore|p2a: Scovillain
+|-start|p2a: Scovillain|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scream Tail|17/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Scovillain|Flamethrower|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scream Tail|24/100|[from] item: Leftovers
+|turn|8
+|
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Scovillain|Flamethrower|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Scovillain|81/100|[from] item: Life Orb
+|
+|-weather|none
+|
+|switch|p1a: Super Merk2|Iron Moth|100/100
+|-damage|p1a: Super Merk2|76/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Torkoal|Torkoal, M, shiny|53/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Super Merk2|Air Slash|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Scovillain|Scovillain, M, shiny|81/100
+|turn|10
+|
+|-end|p1a: Super Merk2|Quark Drive|[silent]
+|switch|p1a: Scream Tail|Scream Tail|24/100
+|-damage|p1a: Scream Tail|11/100|[from] Stealth Rock
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspd
+|move|p2a: Scovillain|Flamethrower|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|-damage|p2a: Scovillain|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|11
+|
+|move|p1a: Iron Valiant|Close Combat|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Skeledirge|Skeledirge, F, shiny|100/100
+|turn|12
+|
+|move|p1a: Iron Valiant|Taunt|p2a: Skeledirge
+|-start|p2a: Skeledirge|move: Taunt
+|move|p2a: Skeledirge|Torch Song|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Super Merk2|Iron Moth|76/100
+|-damage|p1a: Super Merk2|51/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Super Merk2|Sludge Wave|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|71/100
+|move|p2a: Skeledirge|Torch Song|p1a: Super Merk2
+|-resisted|p1a: Super Merk2
+|-damage|p1a: Super Merk2|13/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skeledirge|77/100|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Super Merk2|Sludge Wave|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|51/100
+|move|p2a: Skeledirge|Torch Song|p1a: Super Merk2
+|-resisted|p1a: Super Merk2
+|-damage|p1a: Super Merk2|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Super Merk2
+|-end|p1a: Super Merk2|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skeledirge|57/100|[from] item: Leftovers
+|-end|p2a: Skeledirge|move: Taunt
+|
+|switch|p1a: Edge|Kingambit, M|100/100
+|-damage|p1a: Edge|94/100|[from] Stealth Rock
+|-activate|p1a: Edge|ability: Supreme Overlord
+|-start|p1a: Edge|fallen4|[silent]
+|turn|15
+|
+|-terastallize|p1a: Edge|Flying
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Edge
+|-status|p1a: Edge|brn
+|move|p1a: Edge|Substitute|p1a: Edge
+|-start|p1a: Edge|Substitute
+|-damage|p1a: Edge|69/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skeledirge|64/100|[from] item: Leftovers
+|-heal|p1a: Edge|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Edge|69/100 brn|[from] brn
+|turn|16
+|
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|100/100
+|move|p1a: Edge|Swords Dance|p1a: Edge
+|-boost|p1a: Edge|atk|2
+|
+|-weather|none
+|-heal|p1a: Edge|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Edge|69/100 brn|[from] brn
+|turn|17
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Edge
+|-damage|p1a: Edge|3/100 brn
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Edge|Swords Dance|p1a: Edge
+|-boost|p1a: Edge|atk|2
+|
+|-heal|p1a: Edge|9/100 brn|[from] item: Leftovers
+|-damage|p1a: Edge|3/100 brn|[from] brn
+|turn|18
+|
+|move|p1a: Edge|Sucker Punch||[still]
+|-fail|p1a: Edge
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Edge|[miss]
+|-miss|p2a: Skeledirge|p1a: Edge
+|
+|-heal|p1a: Edge|9/100 brn|[from] item: Leftovers
+|-damage|p1a: Edge|3/100 brn|[from] brn
+|turn|19
+|
+|move|p2a: Skeledirge|Shadow Ball|p1a: Edge
+|-end|p1a: Edge|Substitute
+|move|p1a: Edge|Swords Dance|p1a: Edge
+|-boost|p1a: Edge|atk|2
+|
+|-heal|p1a: Edge|9/100 brn|[from] item: Leftovers
+|-damage|p1a: Edge|3/100 brn|[from] brn
+|turn|20
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Edge
+|-damage|p1a: Edge|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Edge
+|-end|p1a: Edge|fallen4|[silent]
+|
+|-message|p1 forfeited.
+|
+|win|p2

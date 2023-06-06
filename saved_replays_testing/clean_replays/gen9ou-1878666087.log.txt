@@ -1,0 +1,150 @@
+# advantage = p1
+|poke|p1|Dragapult, M|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Kricketune, M|
+|poke|p1|Sawsbuck-Summer, F|
+|poke|p1|Froslass, F|
+|poke|p1|Kilowattrel, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Roaring Moon|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|start
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Typhlosion|atk|1
+|turn|1
+|
+|-terastallize|p1a: Typhlosion|Fighting
+|move|p1a: Typhlosion|Blast Burn|p2a: Landorus
+|-damage|p2a: Landorus|26/100
+|-mustrecharge|p1a: Typhlosion
+|move|p2a: Landorus|Stealth Rock|p1a: Typhlosion
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Landorus|32/100|[from] item: Leftovers
+|turn|2
+|
+|cant|p1a: Typhlosion|recharge
+|move|p2a: Landorus|Earthquake|p1a: Typhlosion
+|-damage|p1a: Typhlosion|10/100
+|-enditem|p1a: Typhlosion|Iapapa Berry|[eat]
+|-heal|p1a: Typhlosion|43/100|[from] item: Iapapa Berry
+|
+|-heal|p2a: Landorus|38/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Typhlosion|Flamethrower|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|4
+|
+|switch|p1a: Froslass|Froslass, F|100/100
+|-damage|p1a: Froslass|76/100|[from] Stealth Rock
+|move|p2a: Garchomp|Earthquake|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-start|p2a: Garchomp|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Froslass
+|faint|p1a: Froslass
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Dragapult|Dragon Rush|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Dragapult|76/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-damage|p1a: Dragapult|66/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|move|p2a: Iron Valiant|Close Combat|p1a: Dragapult
+|-immune|p1a: Dragapult
+|move|p1a: Dragapult|Psychic Fangs|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|12/100
+|-damage|p1a: Dragapult|56/100|[from] item: Life Orb
+|
+|turn|7
+|n|!p2|aliteraljacket
+|
+|move|p2a: Iron Valiant|Spirit Break|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|
+|switch|p1a: Sawsbuck|Sawsbuck-Summer, F|100/100
+|-damage|p1a: Sawsbuck|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Iron Valiant|Ice Punch|p1a: Sawsbuck
+|-supereffective|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|12/100
+|-status|p1a: Sawsbuck|frz
+|cant|p1a: Sawsbuck|frz
+|
+|turn|9
+|
+|move|p2a: Iron Valiant|Ice Punch|p1a: Sawsbuck
+|-supereffective|p1a: Sawsbuck
+|-damage|p1a: Sawsbuck|0 fnt
+|faint|p1a: Sawsbuck
+|
+|
+|switch|p1a: Kilowattrel|Kilowattrel, F|100/100
+|-damage|p1a: Kilowattrel|76/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Iron Valiant|Spirit Break|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|
+|
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, tera:Fighting|43/100
+|-damage|p1a: Typhlosion|37/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Iron Valiant|Spirit Break|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|
+|switch|p1a: Kricketune|Kricketune, M|100/100
+|-damage|p1a: Kricketune|76/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Iron Valiant|Ice Punch|p1a: Kricketune
+|-damage|p1a: Kricketune|26/100
+|move|p1a: Kricketune|Bug Buzz|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Kricketune|16/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Roaring Moon|Roaring Moon|100/100
+|turn|13
+|
+|move|p2a: Roaring Moon|Dragon Claw|p1a: Kricketune
+|-damage|p1a: Kricketune|0 fnt
+|faint|p1a: Kricketune
+|
+|win|p2

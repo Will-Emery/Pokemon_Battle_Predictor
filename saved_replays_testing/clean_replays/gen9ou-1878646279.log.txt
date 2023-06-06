@@ -1,0 +1,123 @@
+# advantage = p1
+|poke|p1|Glimmora, M|
+|poke|p1|Gholdengo|
+|poke|p1|Muk-Alola, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingambit, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Glimmora
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Glimmora|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|2
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Garchomp|Spikes|p1a: Gholdengo
+|-sidestart|p1: p1|Spikes
+|
+|turn|3
+|
+|-terastallize|p1a: Gholdengo|Fighting
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Garchomp|Dragon Tail|p1a: Gholdengo
+|-damage|p1a: Gholdengo|67/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|drag|p1a: Ursaluna|Ursaluna, F|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|-damage|p1a: Ursaluna|82/100|[from] Spikes
+|
+|turn|4
+|
+|move|p1a: Ursaluna|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|40/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|-damage|p1a: Ursaluna|70/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Ursaluna|53/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|move|p2a: Garchomp|Dragon Tail|p1a: Ursaluna
+|-damage|p1a: Ursaluna|27/100
+|drag|p1a: Dondozo|Dondozo, M|100/100
+|-damage|p1a: Dondozo|88/100|[from] Stealth Rock
+|-damage|p1a: Dondozo|75/100|[from] Spikes
+|
+|-heal|p1a: Dondozo|82/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Garchomp|Spikes|p1a: Dondozo
+|-sidestart|p1: p1|Spikes
+|move|p1a: Dondozo|Wave Crash|p2a: Garchomp
+|-damage|p2a: Garchomp|2/100
+|-damage|p1a: Dondozo|69/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Dondozo|52/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|-damage|p1a: Dondozo|42/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|48/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Garchomp|Earthquake|p1a: Dondozo
+|-damage|p1a: Dondozo|23/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|turn|7
+|
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Curse|p1a: Dondozo|[from]move: Sleep Talk
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|move|p2a: Garchomp|Dragon Tail|p1a: Dondozo
+|-damage|p1a: Dondozo|90/100 slp
+|drag|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|-damage|p1a: Glimmora|72/100|[from] Spikes
+|
+|turn|8
+|
+|move|p2a: Garchomp|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: p2|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|
+|switch|p1a: Dondozo|Dondozo, M|90/100 slp
+|-damage|p1a: Dondozo|77/100 slp|[from] Stealth Rock
+|-damage|p1a: Dondozo|60/100 slp|[from] Spikes
+|turn|9
+|
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from]move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|move|p2a: Garchomp|Dragon Tail|p1a: Dondozo
+|-damage|p1a: Dondozo|45/100 slp
+|drag|p1a: Muk|Muk-Alola, F|100/100
+|-damage|p1a: Muk|88/100|[from] Stealth Rock
+|-damage|p1a: Muk|72/100|[from] Spikes
+|
+|-heal|p1a: Muk|78/100|[from] item: Leftovers
+|turn|10
+|-message|p1 forfeited.
+|
+|win|p2

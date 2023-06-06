@@ -1,0 +1,372 @@
+# advantage = p1
+|poke|p1|Thundurus, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Gholdengo|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Skeledirge, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Heatran, F|
+|poke|p2|Zapdos|
+|poke|p2|Zamazenta-*|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p1a: Urshifu|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|82/100
+|
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ting-Lu|[miss]
+|-miss|p2a: Dragapult|p1a: Ting-Lu
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|brn
+|move|p1a: Ting-Lu|Spikes|p2a: Dragapult
+|-sidestart|p2: p2|Spikes
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|94/100 brn|[from] brn
+|turn|3
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|82/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|71/100 brn
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|71/100 brn|[from] brn
+|turn|4
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|59/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|47/100 brn
+|move|p1a: Ting-Lu|Whirlwind|p2a: Dragapult
+|drag|p2a: Heatran|Heatran, F|100/100
+|-damage|p2a: Heatran|88/100|[from] Spikes
+|-damage|p2a: Heatran|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|47/100 brn|[from] brn
+|turn|5
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|-damage|p2a: Great Tusk|85/100|[from] Stealth Rock
+|move|p1a: Ting-Lu|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|77/100
+|
+|-heal|p2a: Great Tusk|83/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|47/100 brn|[from] brn
+|turn|6
+|
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Thundurus
+|-damage|p1a: Thundurus|57/100
+|-enditem|p1a: Thundurus|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|89/100|[from] item: Leftovers
+|turn|7
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Thundurus|Grass Knot|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|87/100
+|
+|turn|8
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|52/100
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] Volt Switch
+|move|p2a: Zapdos|Hurricane|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|77/100
+|
+|turn|9
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Gholdengo|Shadow Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|65/100
+|
+|turn|10
+|
+|move|p2a: Zapdos|Discharge|p1a: Gholdengo
+|-damage|p1a: Gholdengo|46/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|28/100
+|
+|turn|11
+|
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|78/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|96/100
+|
+|turn|12
+|
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|move|p2a: Zapdos|Discharge|p1a: Skeledirge
+|-damage|p1a: Skeledirge|65/100
+|-status|p1a: Skeledirge|par
+|
+|turn|13
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Skeledirge
+|-damage|p1a: Skeledirge|34/100 par
+|
+|switch|p2a: Heatran|Heatran, F|82/100|[from] Volt Switch
+|-damage|p2a: Heatran|69/100|[from] Spikes
+|-damage|p2a: Heatran|57/100|[from] Stealth Rock
+|cant|p1a: Skeledirge|par
+|
+|-heal|p2a: Heatran|63/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Heatran|Stealth Rock|p1a: Skeledirge
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Skeledirge|Earth Power|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|4/100
+|
+|-heal|p2a: Heatran|10/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Heatran|Earth Power|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-heal|p2a: Heatran|17/100|[from] item: Leftovers
+|
+|switch|p1a: Thundurus|Thundurus, M|57/100
+|-damage|p1a: Thundurus|32/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Thundurus|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|switch|p1a: Gholdengo|Gholdengo|96/100|[from] Volt Switch
+|
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|88/100|[from] Spikes
+|-damage|p2a: Hoopa|76/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Ting-Lu|Ting-Lu|47/100 brn
+|-damage|p1a: Ting-Lu|41/100 brn|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|14/100 brn
+|-unboost|p2a: Hoopa|def|1
+|
+|-heal|p1a: Ting-Lu|20/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|14/100 brn|[from] brn
+|turn|18
+|
+|move|p2a: Hoopa|Hyperspace Fury|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-unboost|p2a: Hoopa|def|1
+|faint|p1a: Ting-Lu
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Zapdos|Zapdos|78/100
+|move|p1a: Urshifu|Ice Spinner|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|35/100
+|-status|p1a: Urshifu|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|turn|20
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|85/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|turn|21
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Zapdos
+|-status|p2a: Zapdos|brn
+|move|p2a: Zapdos|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|71/100
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|76/100|[from] Volt Switch
+|-damage|p2a: Hoopa|64/100|[from] Spikes
+|-damage|p2a: Hoopa|51/100|[from] Stealth Rock
+|
+|-heal|p1a: Dragapult|77/100|[from] item: Leftovers
+|turn|22
+|
+|-terastallize|p1a: Dragapult|Fairy
+|move|p1a: Dragapult|Dragon Darts|p2a: Hoopa
+|-damage|p2a: Hoopa|16/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|-heal|p1a: Dragapult|83/100|[from] item: Leftovers
+|
+|switch|p2a: Zapdos|Zapdos|85/100 brn
+|turn|23
+|
+|move|p1a: Dragapult|Hex|p2a: Zapdos
+|-damage|p2a: Zapdos|34/100 brn
+|move|p2a: Zapdos|Hurricane|p1a: Dragapult
+|-damage|p1a: Dragapult|8/100
+|
+|-heal|p1a: Dragapult|14/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|28/100 brn|[from] brn
+|turn|24
+|
+|move|p1a: Dragapult|Hex|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-heal|p1a: Dragapult|20/100|[from] item: Leftovers
+|
+|switch|p2a: Great Tusk|Great Tusk|89/100
+|-damage|p2a: Great Tusk|77/100|[from] Spikes
+|-damage|p2a: Great Tusk|74/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|94/100 par
+|-damage|p1a: Urshifu|88/100 par|[from] Stealth Rock
+|move|p2a: Great Tusk|Earthquake|p1a: Urshifu
+|-damage|p1a: Urshifu|47/100 par
+|
+|-heal|p2a: Great Tusk|80/100|[from] item: Leftovers
+|turn|26
+|
+|-terastallize|p2a: Great Tusk|Water
+|cant|p1a: Urshifu|par
+|move|p2a: Great Tusk|Rapid Spin|p1a: Urshifu
+|-damage|p1a: Urshifu|32/100 par
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|86/100|[from] item: Leftovers
+|turn|27
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Urshifu
+|-damage|p1a: Urshifu|16/100 par
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Urshifu|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|57/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|-heal|p2a: Great Tusk|63/100|[from] item: Leftovers
+|turn|28
+|
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Urshifu|Close Combat|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|19/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|-heal|p2a: Great Tusk|25/100|[from] item: Leftovers
+|turn|29
+|
+|move|p2a: Great Tusk|Rapid Spin|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|faint|p1a: Urshifu
+|
+|-heal|p2a: Great Tusk|32/100|[from] item: Leftovers
+|
+|switch|p1a: Thundurus|Thundurus, M|32/100
+|-damage|p1a: Thundurus|8/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Thundurus|Thunder Wave|p2a: Great Tusk
+|-status|p2a: Great Tusk|par
+|move|p2a: Great Tusk|Knock Off|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-heal|p2a: Great Tusk|38/100 par|[from] item: Leftovers
+|
+|switch|p1a: Dragapult|Dragapult, F, tera:Fairy|20/100
+|-damage|p1a: Dragapult|8/100|[from] Stealth Rock
+|turn|31
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Dragapult|Hex|p2a: Zamazenta
+|-damage|p2a: Zamazenta|76/100
+|
+|-heal|p1a: Dragapult|14/100|[from] item: Leftovers
+|turn|32
+|
+|switch|p1a: Gholdengo|Gholdengo|96/100
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|82/100
+|
+|turn|33
+|
+|move|p2a: Zamazenta|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|51/100
+|-unboost|p1a: Gholdengo|def|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|48/100
+|
+|turn|34
+|
+|move|p2a: Zamazenta|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|
+|switch|p1a: Dragapult|Dragapult, F, tera:Fairy|14/100
+|-damage|p1a: Dragapult|2/100|[from] Stealth Rock
+|turn|35
+|
+|move|p1a: Dragapult|Hex|p2a: Zamazenta
+|-damage|p2a: Zamazenta|25/100
+|move|p2a: Zamazenta|Behemoth Bash|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|p2

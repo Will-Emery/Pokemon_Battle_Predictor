@@ -1,0 +1,339 @@
+|j|☆Camo1250
+|j|☆LadderGoober
+|t:|1686001738
+|gametype|singles
+|player|p1|Camo1250|mars|1104
+|player|p2|LadderGoober|170|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Diancie|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Delphox, M|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Quagsire, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Gholdengo|
+|poke|p2|Moltres|
+|poke|p2|Rotom-Wash|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1686001756
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|1
+|
+|t:|1686001760
+|move|p1a: Electrode|Taunt|p2a: Glimmora
+|-start|p2a: Glimmora|move: Taunt
+|cant|p2a: Glimmora|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1686001765
+|move|p1a: Electrode|Chloroblast|p2a: Glimmora
+|-damage|p2a: Glimmora|29/100
+|-damage|p1a: Electrode|50/100|[from] chloroblast
+|move|p2a: Glimmora|Mortal Spin|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|29/100
+|-status|p1a: Electrode|psn
+|-status|p2a: Glimmora|par|[from] ability: Static|[of] p1a: Electrode
+|
+|-damage|p1a: Electrode|17/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1686001778
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Electrode|Volt Switch|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|47/100
+|
+|t:|1686001785
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|4
+|
+|t:|1686001788
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|86/100
+|-sidestart|p2: LadderGoober|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1686001793
+|move|p2a: Great Tusk|Knock Off|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|68/100
+|-enditem|p1a: Samurott|Figy Berry|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Samurott|Aqua Cutter|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|21/100
+|
+|upkeep
+|turn|6
+|
+|t:|1686001807
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Samurott|Aqua Cutter|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|74/100
+|
+|-heal|p2a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1686001815
+|move|p1a: Samurott|Ceaseless Edge|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|4/100
+|-sidestart|p2: LadderGoober|Spikes
+|move|p2a: Rotom|Hydro Pump|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|41/100
+|
+|-heal|p2a: Rotom|10/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1686001819
+|move|p1a: Samurott|Sucker Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1686001826
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|84/100|[from] Spikes
+|turn|9
+|
+|t:|1686001830
+|move|p1a: Samurott|Sucker Punch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|15/100
+|move|p2a: Gholdengo|Focus Blast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1686001837
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|turn|10
+|
+|t:|1686001846
+|switch|p2a: Glimmora|Glimmora, M|29/100 par
+|-damage|p2a: Glimmora|13/100 par|[from] Spikes
+|move|p1a: Electrode|Shadow Sneak|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Camo1250|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1686001855
+|switch|p2a: Moltres|Moltres|47/100
+|turn|11
+|
+|t:|1686001861
+|move|p1a: Electrode|Tera Blast|p2a: Moltres
+|-damage|p2a: Moltres|16/100
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|66/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|upkeep
+|turn|12
+|
+|t:|1686001866
+|move|p1a: Electrode|Shadow Sneak|p2a: Moltres
+|-damage|p2a: Moltres|49/100
+|-status|p1a: Electrode|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|99/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|-damage|p1a: Electrode|95/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1686001872
+|move|p1a: Electrode|Tera Blast|p2a: Moltres
+|-damage|p2a: Moltres|70/100
+|move|p2a: Moltres|Flamethrower|p1a: Electrode
+|-damage|p1a: Electrode|24/100 brn
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|
+|-damage|p1a: Zoroark|18/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1686001875
+|move|p1a: Zoroark|Tera Blast|p2a: Moltres
+|-damage|p2a: Moltres|37/100
+|move|p2a: Moltres|Flamethrower|p1a: Zoroark
+|-crit|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1686001877
+|switch|p1a: Electrode|Electrode-Hisui|17/100 psn
+|turn|15
+|
+|t:|1686001880
+|switch|p2a: Great Tusk|Great Tusk|21/100
+|-damage|p2a: Great Tusk|5/100|[from] Spikes
+|move|p1a: Electrode|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-damage|p1a: Electrode|4/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1686001890
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|-status|p1a: Quagsire|psn
+|move|p2a: Great Tusk|Headlong Rush|p1a: Quagsire
+|-damage|p1a: Quagsire|39/100 psn
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p1a: Quagsire|45/100 psn|[from] item: Leftovers
+|-damage|p1a: Quagsire|33/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1686001896
+|move|p2a: Great Tusk|Headlong Rush|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Quagsire
+|
+|upkeep
+|
+|t:|1686001901
+|switch|p1a: Delphox|Delphox, M|100/100
+|-status|p1a: Delphox|psn
+|turn|18
+|
+|t:|1686001906
+|move|p1a: Delphox|Solar Beam||[still]
+|-prepare|p1a: Delphox|Solar Beam
+|-enditem|p1a: Delphox|Power Herb
+|-anim|p1a: Delphox|Solar Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Delphox|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1686001912
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|-damage|p2a: Basculegion|84/100|[from] Spikes
+|turn|19
+|
+|t:|1686001916
+|move|p1a: Delphox|Psyshock|p2a: Basculegion
+|-damage|p2a: Basculegion|31/100
+|-item|p1a: Delphox|Life Orb|[from] ability: Magician|[of] p2a: Basculegion
+|move|p2a: Basculegion|Agility|p2a: Basculegion
+|-boost|p2a: Basculegion|spe|2
+|
+|-damage|p1a: Delphox|76/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1686001928
+|move|p2a: Basculegion|Hex|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|upkeep
+|
+|t:|1686001931
+|switch|p1a: Electrode|Electrode-Hisui|4/100 psn
+|turn|21
+|
+|t:|1686001934
+|move|p2a: Basculegion|Hex|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|upkeep
+|
+|t:|1686001936
+|switch|p1a: Diancie|Diancie|100/100
+|-status|p1a: Diancie|psn
+|turn|22
+|
+|t:|1686001949
+|-terastallize|p1a: Diancie|Steel
+|move|p2a: Basculegion|Surf|p1a: Diancie
+|-damage|p1a: Diancie|71/100 psn
+|move|p1a: Diancie|Diamond Storm|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-boost|p1a: Diancie|def|2
+|faint|p2a: Basculegion
+|
+|-damage|p1a: Diancie|59/100 psn|[from] psn
+|upkeep
+|j| GG Showy
+|
+|t:|1686001962
+|switch|p2a: Gholdengo|Gholdengo|15/100
+|-damage|p2a: Gholdengo|0 fnt|[from] Spikes
+|faint|p2a: Gholdengo
+|
+|t:|1686001963
+|switch|p2a: Moltres|Moltres|37/100
+|turn|23
+|
+|t:|1686001971
+|-terastallize|p2a: Moltres|Water
+|move|p2a: Moltres|Flamethrower|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-crit|p1a: Diancie
+|-damage|p1a: Diancie|2/100 psn
+|move|p1a: Diancie|Diamond Storm|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|win|Camo1250
+|raw|Camo1250's rating: 1104 → 1129(+25 for winning)
+|raw|LadderGoober's rating: 1109 → 1084(-25 for losing)
+|c| GG Showy|NO WAY
+|c|☆Camo1250|gg dude
+|c|☆LadderGoober|gg
+|c|☆Camo1250|nice name
+|l|☆LadderGoober

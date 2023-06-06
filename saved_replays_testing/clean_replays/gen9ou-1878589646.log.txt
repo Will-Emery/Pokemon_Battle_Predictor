@@ -1,0 +1,252 @@
+# advantage = p1
+|poke|p1|Cinderace, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Salamence, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Sneasler, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Heatran, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: paul revere|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: paul revere|Draco Meteor|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: paul revere|spa|2
+|faint|p1a: Cinderace
+|
+|
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: paul revere|atk|1
+|turn|2
+|
+|switch|p2a: Smelville|Toxapex, F, shiny|100/100
+|-terastallize|p1a: Salamence|Steel
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|turn|3
+|
+|move|p1a: Salamence|Earthquake|p2a: Smelville
+|-supereffective|p2a: Smelville
+|-damage|p2a: Smelville|38/100
+|move|p2a: Smelville|Haze|p2a: Smelville
+|-clearallboost
+|
+|-heal|p2a: Smelville|44/100|[from] item: Black Sludge
+|turn|4
+|
+|move|p1a: Salamence|Earthquake|p2a: Smelville
+|-supereffective|p2a: Smelville
+|-crit|p2a: Smelville
+|-damage|p2a: Smelville|0 fnt
+|faint|p2a: Smelville
+|
+|
+|switch|p2a: la flame|Heatran, F|100/100
+|-item|p2a: la flame|Air Balloon
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: la flame|Flash Cannon|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|84/100
+|
+|turn|6
+|
+|move|p2a: la flame|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|25/100
+|move|p1a: Toxapex|Surf|p2a: la flame
+|-supereffective|p2a: la flame
+|-damage|p2a: la flame|63/100
+|-enditem|p2a: la flame|Air Balloon
+|
+|turn|7
+|
+|switch|p1a: Salamence|Salamence, F, tera:Steel|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: la flame|atk|1
+|move|p2a: la flame|Earth Power|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|move|p2a: la flame|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|8/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|switch|p1a: Toxapex|Toxapex, M|58/100
+|
+|turn|9
+|
+|move|p2a: la flame|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|8/100
+|move|p1a: Toxapex|Surf|p2a: la flame
+|-supereffective|p2a: la flame
+|-damage|p2a: la flame|24/100
+|
+|turn|10
+|
+|move|p2a: la flame|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|11
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: la flame
+|-status|p2a: la flame|slp|[from] move: Sleep Powder
+|cant|p2a: la flame|slp
+|
+|turn|12
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: la flame|slp
+|
+|turn|13
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|cant|p2a: la flame|slp
+|
+|turn|14
+|
+|move|p1a: Lilligant|Axe Kick|p2a: la flame
+|-supereffective|p2a: la flame
+|-damage|p2a: la flame|0 fnt
+|faint|p2a: la flame
+|
+|
+|switch|p2a: wall monkey|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: wall monkey
+|turn|15
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: wall monkey|Knock Off|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-crit|p1a: Lilligant
+|-damage|p1a: Lilligant|61/100
+|-enditem|p1a: Lilligant|Wide Lens|[from] move: Knock Off|[of] p2a: wall monkey
+|
+|-heal|p1a: Lilligant|67/100|[from] Grassy Terrain
+|turn|16
+|
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: wall monkey|Wood Hammer|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|49/100
+|-damage|p2a: wall monkey|96/100|[from] Recoil
+|
+|-heal|p1a: Lilligant|55/100|[from] Grassy Terrain
+|-heal|p2a: wall monkey|100/100|[from] Grassy Terrain
+|turn|17
+|
+|move|p1a: Lilligant|Axe Kick|p2a: wall monkey
+|-damage|p2a: wall monkey|0 fnt
+|faint|p2a: wall monkey
+|
+|-heal|p1a: Lilligant|61/100|[from] Grassy Terrain
+|
+|switch|p2a: paul revere|Dragapult, F|100/100
+|turn|18
+|
+|move|p1a: Lilligant|Leaf Blade|p2a: paul revere
+|-resisted|p2a: paul revere
+|-damage|p2a: paul revere|0 fnt
+|faint|p2a: paul revere
+|
+|-heal|p1a: Lilligant|67/100|[from] Grassy Terrain
+|
+|switch|p2a: my tip sticky|Sneasler, F|100/100
+|-enditem|p2a: my tip sticky|Grassy Seed
+|-boost|p2a: my tip sticky|def|1|[from] item: Grassy Seed
+|turn|19
+|
+|move|p1a: Lilligant|Axe Kick|p2a: my tip sticky
+|-resisted|p2a: my tip sticky
+|-damage|p2a: my tip sticky|1/100
+|move|p2a: my tip sticky|Acrobatics|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-heal|p2a: my tip sticky|7/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|20
+|
+|switch|p2a: Juandisimo|Corviknight, F, shiny|100/100
+|-ability|p2a: Juandisimo|Pressure
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|turn|21
+|
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Hatterene|Hatterene, F|8/100
+|move|p2a: Juandisimo|Bulk Up|p2a: Juandisimo
+|-boost|p2a: Juandisimo|atk|1
+|-boost|p2a: Juandisimo|def|1
+|
+|turn|22
+|
+|move|p2a: Juandisimo|Body Press|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|23
+|
+|move|p2a: Juandisimo|Bulk Up|p2a: Juandisimo
+|-boost|p2a: Juandisimo|atk|1
+|-boost|p2a: Juandisimo|def|1
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|turn|24
+|
+|move|p2a: Juandisimo|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|p2

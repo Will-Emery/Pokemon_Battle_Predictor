@@ -1,0 +1,209 @@
+|j|☆Na5ty
+|j|☆lilcritters
+|t:|1686010476
+|gametype|singles
+|player|p1|Na5ty|169|1249
+|player|p2|lilcritters|preschoolerf|1268
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Toedscruel, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Iron Treads|
+|poke|p2|Azumarill, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Sableye, F|
+|poke|p2|Zoroark-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lilcritters)
+|inactive|Na5ty also wants the timer to be on.
+|
+|t:|1686010494
+|start
+|switch|p1a: Toedscruel|Toedscruel, M|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|1
+|
+|t:|1686010503
+|move|p2a: Thundurus|Volt Switch|p1a: Toedscruel
+|-immune|p1a: Toedscruel
+|move|p1a: Toedscruel|Spore|p2a: Thundurus
+|-status|p2a: Thundurus|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1686010513
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Toedscruel|Leech Seed|p2a: Goodra
+|-start|p2a: Goodra|move: Leech Seed
+|
+|-damage|p2a: Goodra|88/100|[from] Leech Seed|[of] p1a: Toedscruel
+|upkeep
+|turn|3
+|
+|t:|1686010519
+|move|p2a: Goodra|Ice Beam|p1a: Toedscruel
+|-supereffective|p1a: Toedscruel
+|-damage|p1a: Toedscruel|26/100
+|move|p1a: Toedscruel|Spikes|p2a: Goodra
+|-sidestart|p2: lilcritters|Spikes
+|
+|-damage|p2a: Goodra|76/100|[from] Leech Seed|[of] p1a: Toedscruel
+|-heal|p1a: Toedscruel|38/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1686010529
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Goodra|Ice Beam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|88/100
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p2a: Goodra|63/100|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|100/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1686010538
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|88/100|[from] Spikes
+|move|p1a: Toxapex|Toxic Spikes|p2a: Iron Treads
+|-sidestart|p2: lilcritters|move: Toxic Spikes
+|
+|-heal|p2a: Iron Treads|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1686010544
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p2a: Iron Treads|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1686010551
+|move|p1a: Dragapult|Reflect|p1a: Dragapult
+|-sidestart|p1: Na5ty|Reflect
+|move|p2a: Iron Treads|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Na5ty|move: Stealth Rock
+|
+|-heal|p2a: Iron Treads|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1686010555
+|move|p1a: Dragapult|Light Screen|p1a: Dragapult
+|-sidestart|p1: Na5ty|move: Light Screen
+|move|p2a: Iron Treads|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|71/100
+|-enditem|p1a: Dragapult|Light Clay|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|9
+|
+|t:|1686010565
+|move|p1a: Dragapult|Curse|p2a: Iron Treads
+|-start|p2a: Iron Treads|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|21/100
+|move|p2a: Iron Treads|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100
+|
+|t:|1686010569
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Goodra|Goodra-Hisui, M|63/100|[from] Volt Switch
+|-damage|p2a: Goodra|51/100|[from] Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1686010575
+|move|p1a: Dragapult|Curse|p2a: Goodra
+|-start|p2a: Goodra|Curse|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p2a: Goodra|Heavy Slam|p1: Dragapult|[notarget]
+|-fail|p2a: Goodra
+|
+|-damage|p2a: Goodra|26/100|[from] Curse
+|upkeep
+|
+|t:|1686010586
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|-damage|p1a: Ceruledge|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1686010611
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100 slp
+|move|p1a: Ceruledge|Bulk Up|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|1
+|-boost|p1a: Ceruledge|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1686010620
+|cant|p2a: Thundurus|slp
+|move|p1a: Ceruledge|Bulk Up|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|1
+|-boost|p1a: Ceruledge|def|1
+|
+|upkeep
+|turn|13
+|
+|t:|1686010630
+|cant|p2a: Thundurus|slp
+|move|p1a: Ceruledge|Bulk Up|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|1
+|-boost|p1a: Ceruledge|def|1
+|
+|upkeep
+|turn|14
+|
+|t:|1686010646
+|cant|p2a: Thundurus|slp
+|move|p1a: Ceruledge|Bulk Up|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|1
+|-boost|p1a: Ceruledge|def|1
+|
+|-sideend|p1: Na5ty|Reflect
+|upkeep
+|turn|15
+|
+|t:|1686010651
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Thundurus
+|-damage|p2a: Thundurus|15/100 slp
+|-curestatus|p2a: Thundurus|slp|[msg]
+|move|p2a: Thundurus|Wildbolt Storm|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-sideend|p1: Na5ty|move: Light Screen
+|upkeep
+|-message|Na5ty forfeited.
+|
+|win|lilcritters
+|raw|Na5ty's rating: 1249 → 1225(-24 for losing)
+|raw|lilcritters's rating: 1268 → 1292(+24 for winning)
+|l|☆Na5ty

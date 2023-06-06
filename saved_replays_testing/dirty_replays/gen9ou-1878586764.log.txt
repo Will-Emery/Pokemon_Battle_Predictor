@@ -1,0 +1,198 @@
+|j|☆CJH459
+|j|☆5sk
+|t:|1686003861
+|gametype|singles
+|player|p1|CJH459|266|1228
+|player|p2|5sk|102|1152
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sneasler, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Gholdengo|
+|poke|p1|Chien-Pao|
+|poke|p1|Enamorus, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Gholdengo|
+|poke|p2|Arboliva, F|
+|poke|p2|Muk-Alola, F|
+|poke|p2|Tauros-Paldea-Aqua, M|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Cyclizar, F|
+|teampreview
+|
+|t:|1686003879
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M, shiny|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Dragapult|atk|1
+|turn|1
+|
+|t:|1686003884
+|switch|p2a: Muk|Muk-Alola, F|100/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Muk
+|-status|p2a: Muk|brn
+|
+|-damage|p2a: Muk|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1686003889
+|move|p1a: Dragapult|U-turn|p2a: Muk
+|-damage|p2a: Muk|79/100 brn
+|
+|t:|1686003894
+|switch|p1a: Sneasler|Sneasler, F|100/100|[from] U-turn
+|move|p2a: Muk|Knock Off|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|82/100
+|-enditem|p1a: Sneasler|Choice Band|[from] move: Knock Off|[of] p2a: Muk
+|
+|-damage|p2a: Muk|73/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1686003905
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Sneasler|Dire Claw|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|4
+|
+|t:|1686003910
+|move|p1a: Sneasler|Night Slash|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|64/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Sneasler
+|-damage|p1a: Sneasler|38/100
+|
+|upkeep
+|turn|5
+|
+|t:|1686003914
+|move|p1a: Sneasler|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|59/100
+|
+|t:|1686003921
+|switch|p1a: Ursaluna|Ursaluna, F|100/100|[from] U-turn
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|100/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1686003932
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: Enamorus
+|-immune|p2a: Enamorus
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1686003941
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Ursaluna|Facade|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1686003953
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M, shiny|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|move|p1a: Ursaluna|Crunch|p2a: Tauros
+|-resisted|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|74/100
+|-damage|p1a: Ursaluna|72/100 brn|[from] item: Rocky Helmet|[of] p2a: Tauros
+|
+|-damage|p1a: Ursaluna|66/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1686003960
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Tauros|Body Press|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|84/100
+|
+|upkeep
+|turn|10
+|
+|t:|1686003963
+|move|p1a: Enamorus|Moonblast|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|upkeep
+|
+|t:|1686003966
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|turn|11
+|
+|t:|1686003970
+|move|p1a: Enamorus|Moonblast|p2a: Enamorus
+|-damage|p2a: Enamorus|54/100
+|move|p2a: Enamorus|Iron Defense|p2a: Enamorus
+|-boost|p2a: Enamorus|def|2
+|
+|-heal|p2a: Enamorus|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1686003975
+|move|p1a: Enamorus|Moonblast|p2a: Enamorus
+|-damage|p2a: Enamorus|18/100
+|move|p2a: Enamorus|Draining Kiss|p1a: Enamorus
+|-damage|p1a: Enamorus|49/100
+|-heal|p2a: Enamorus|41/100|[from] drain|[of] p1a: Enamorus
+|
+|-heal|p2a: Enamorus|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1686003980
+|move|p1a: Enamorus|Moonblast|p2a: Enamorus
+|-damage|p2a: Enamorus|3/100
+|-unboost|p2a: Enamorus|spa|1
+|move|p2a: Enamorus|Draining Kiss|p1a: Enamorus
+|-damage|p1a: Enamorus|27/100
+|-heal|p2a: Enamorus|17/100|[from] drain|[of] p1a: Enamorus
+|
+|-heal|p2a: Enamorus|23/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1686003984
+|move|p1a: Enamorus|Moonblast|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|-message|5sk forfeited.
+|
+|win|CJH459
+|raw|CJH459's rating: 1228 → 1248(+20 for winning)
+|raw|5sk's rating: 1152 → 1132(-20 for losing)
+|l|☆5sk
+|l|☆CJH459
+|j|☆CJH459
+|player|p1|CJH459|266

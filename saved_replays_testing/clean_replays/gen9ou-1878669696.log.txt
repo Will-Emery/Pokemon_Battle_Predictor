@@ -1,0 +1,410 @@
+# advantage = p2
+|poke|p1|Toxapex, F|
+|poke|p1|Regidrago|
+|poke|p1|Enamorus, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p2|Corviknight, M|
+|poke|p2|Pawmot, F|
+|poke|p2|Floatzel, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Overqwil, F|
+|teampreview
+|
+|start
+|switch|p1a: Regidrago|Regidrago|100/100
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|-item|p2a: Overqwil|Air Balloon
+|turn|1
+|
+|-terastallize|p2a: Overqwil|Fairy
+|move|p1a: Regidrago|Draco Meteor|p2a: Overqwil
+|-immune|p2a: Overqwil
+|move|p2a: Overqwil|Spikes|p1a: Regidrago
+|-sidestart|p1: p1|Spikes
+|
+|turn|2
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Cinderace|U-turn|p2a: Pelipper
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|87/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|78/100
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|85/100|[from] item: Black Sludge
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Spikes
+|move|p2a: Floatzel|Wave Crash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100
+|-damage|p2a: Floatzel|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-damage|p2a: Floatzel|72/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p2a: Overqwil|Overqwil, F, tera:Fairy|100/100
+|-item|p2a: Overqwil|Air Balloon
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p2a: Overqwil|Spikes|p1a: Toxapex
+|-sidestart|p1: p1|Spikes
+|move|p1a: Toxapex|Toxic|p2a: Overqwil
+|-status|p2a: Overqwil|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Overqwil|94/100 tox|[from] psn
+|turn|7
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|84/100|[from] Spikes
+|move|p2a: Overqwil|Spikes|p1a: Great Tusk
+|-sidestart|p1: p1|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Great Tusk|90/100|[from] item: Leftovers
+|-damage|p2a: Overqwil|82/100 tox|[from] psn
+|turn|8
+|
+|move|p2a: Overqwil|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|31/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Overqwil
+|-damage|p2a: Overqwil|62/100 tox
+|-boost|p1a: Great Tusk|spe|1
+|-enditem|p2a: Overqwil|Air Balloon
+|-sideend|p1: p1|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Great Tusk|38/100|[from] item: Leftovers
+|-damage|p2a: Overqwil|43/100 tox|[from] psn
+|turn|9
+|
+|move|p2a: Overqwil|Spikes|p1a: Great Tusk
+|-sidestart|p1: p1|Spikes
+|move|p1a: Great Tusk|Headlong Rush|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Overqwil
+|
+|-weather|none
+|-heal|p1a: Great Tusk|44/100|[from] item: Leftovers
+|
+|switch|p2a: Floatzel|Floatzel, M|72/100
+|turn|10
+|
+|move|p2a: Floatzel|Aqua Jet|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|11
+|
+|move|p2a: Floatzel|Aqua Jet|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|22/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|turn|12
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|turn|13
+|
+|switch|p1a: Cinderace|Cinderace, F|22/100
+|move|p2a: Corviknight|Defog|p1a: Cinderace
+|-unboost|p1a: Cinderace|evasion|1
+|-sideend|p2: p2|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|turn|14
+|
+|switch|p2a: Pelipper|Pelipper, F|87/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Cinderace|Pyro Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|76/100
+|
+|-weather|RainDance|[upkeep]
+|turn|15
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|
+|-weather|RainDance|[upkeep]
+|turn|16
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|91/100
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|97/100|[from] item: Black Sludge
+|turn|17
+|
+|move|p2a: Basculegion|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|34/100
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Regidrago|Regidrago|100/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Regidrago|Dragon Energy|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|52/100
+|
+|-weather|Snow|[upkeep]
+|turn|19
+|
+|switch|p1a: Cinderace|Cinderace, F|22/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|Snow|[upkeep]
+|turn|20
+|
+|move|p1a: Cinderace|U-turn|p2a: Corviknight
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|-damage|p1a: Cinderace|5/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100|[from] U-turn
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|Snow|[upkeep]
+|turn|21
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-damage|p2a: Corviknight|76/100|[from] Recoil
+|move|p1a: Toxapex|Chilling Water|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-unboost|p2a: Corviknight|atk|1
+|
+|-weather|none
+|turn|22
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100
+|-damage|p2a: Corviknight|50/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|-damage|p2a: Corviknight|46/100|[from] Recoil
+|move|p1a: Toxapex|Chilling Water|p2a: Corviknight
+|-damage|p2a: Corviknight|37/100
+|-unboost|p2a: Corviknight|atk|1
+|
+|turn|23
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|87/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Toxapex|Chilling Water|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|-unboost|p2a: Corviknight|atk|1
+|
+|turn|24
+|
+|switch|p2a: Pawmot|Pawmot, F|100/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|turn|25
+|
+|switch|p1a: Cinderace|Cinderace, F|5/100
+|move|p2a: Pawmot|Encore||[still]
+|-fail|p2a: Pawmot
+|
+|turn|26
+|
+|switch|p2a: Pelipper|Pelipper, F|76/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Cinderace|Pyro Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|65/100
+|
+|-weather|RainDance|[upkeep]
+|turn|27
+|
+|move|p1a: Cinderace|U-turn|p2a: Pelipper
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|52/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|67/100|[from] U-turn
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|57/100
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|63/100|[from] item: Black Sludge
+|turn|28
+|
+|switch|p1a: Cinderace|Cinderace, F|5/100
+|move|p2a: Basculegion|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Regidrago|Regidrago|100/100
+|turn|29
+|
+|move|p2a: Basculegion|Shadow Ball|p1a: Regidrago
+|-damage|p1a: Regidrago|44/100
+|move|p1a: Regidrago|Draco Meteor|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-unboost|p1a: Regidrago|spa|2
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Corviknight|Corviknight, M|77/100
+|-ability|p2a: Corviknight|Pressure
+|turn|30
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Corviknight|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|96/100
+|-damage|p2a: Corviknight|61/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|switch|p2a: Pawmot|Pawmot, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|turn|31
+|
+|move|p2a: Pawmot|Revival Blessing|p2a: Pawmot
+|
+|-heal|p2: Overqwil|50/100|[from] move: Revival Blessing
+|move|p1a: Toxapex|Toxic|p2a: Pawmot
+|-status|p2a: Pawmot|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pawmot|94/100 tox|[from] psn
+|turn|32
+|
+|move|p2a: Pawmot|Double Shock|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|-start|p2a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|-damage|p2a: Pawmot|78/100 tox|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|move|p1a: Toxapex|Chilling Water|p2a: Pawmot
+|-damage|p2a: Pawmot|49/100 tox
+|-unboost|p2a: Pawmot|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pawmot|37/100 tox|[from] psn
+|turn|33
+|
+|switch|p2a: Overqwil|Overqwil, F|50/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|79/100
+|
+|-weather|none
+|turn|34
+|
+|move|p2a: Overqwil|Spikes|p1a: Toxapex
+|-sidestart|p1: p1|Spikes
+|move|p1a: Toxapex|Chilling Water|p2a: Overqwil
+|-damage|p2a: Overqwil|33/100
+|-unboost|p2a: Overqwil|atk|1
+|
+|turn|35
+|
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Overqwil|Spikes|p1a: Enamorus
+|-sidestart|p1: p1|Spikes
+|
+|turn|36
+|
+|switch|p2a: Pelipper|Pelipper, F|52/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Enamorus|Moonblast|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Overqwil|Overqwil, F|33/100
+|turn|37
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|84/100|[from] Spikes
+|move|p2a: Overqwil|Spikes|p1a: Toxapex
+|-sidestart|p1: p1|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|38
+|
+|move|p2a: Overqwil|Barb Barrage|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|70/100
+|move|p1a: Toxapex|Chilling Water|p2a: Overqwil
+|-damage|p2a: Overqwil|9/100
+|-unboost|p2a: Overqwil|atk|1
+|
+|-weather|RainDance|[upkeep]
+|turn|39
+|
+|move|p2a: Overqwil|Destiny Bond|p2a: Overqwil
+|-singlemove|p2a: Overqwil|Destiny Bond
+|move|p1a: Toxapex|Chilling Water|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|-activate|p2a: Overqwil|move: Destiny Bond
+|faint|p1a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Floatzel|Floatzel, M|72/100
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|40
+|-message|p1 forfeited.
+|
+|win|p2

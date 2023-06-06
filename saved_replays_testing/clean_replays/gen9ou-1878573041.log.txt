@@ -1,0 +1,236 @@
+# advantage = p2
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Glastrier|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Moltres-Galar|
+|poke|p2|Great Tusk|
+|poke|p2|Meowscarada, M|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|start
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|1
+|
+|move|p2a: Meowscarada|Knock Off|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|87/100
+|-enditem|p1a: Kingambit|Black Glasses|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Kingambit|Iron Head|p2a: Meowscarada
+|-damage|p2a: Meowscarada|23/100
+|
+|turn|2
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Great Tusk
+|-damage|p2a: Great Tusk|69/100
+|
+|turn|3
+|
+|move|p2a: Great Tusk|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Kingambit|Iron Head|p2a: Great Tusk
+|-damage|p2a: Great Tusk|36/100
+|
+|turn|4
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Meowscarada|Meowscarada, M|23/100
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|
+|turn|5
+|
+|move|p2a: Meowscarada|Knock Off|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|53/100
+|-enditem|p1a: Cresselia|Mental Herb|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|6
+|
+|move|p1a: Cresselia|Moonblast|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|7
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|turn|8
+|
+|-terastallize|p2a: Gholdengo|Fighting
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|64/100
+|-unboost|p1a: Hoopa|def|1
+|-enditem|p1a: Hoopa|Eject Pack
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|switch|p1a: Kingambit|Kingambit, F|87/100
+|-damage|p1a: Kingambit|81/100|[from] Stealth Rock
+|move|p2a: Gholdengo|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|40/100
+|-unboost|p1a: Kingambit|spd|1
+|
+|turn|9
+|
+|move|p1a: Kingambit|Iron Head|p2a: Gholdengo
+|-damage|p2a: Gholdengo|14/100
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|65/100
+|
+|-fieldend|move: Trick Room
+|turn|10
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|88/100
+|-damage|p1a: Hoopa|76/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Gholdengo|Shadow Ball|p1a: Hoopa
+|-damage|p1a: Hoopa|11/100
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|turn|12
+|
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|move|p1a: Hoopa|Zen Headbutt|p2a: Moltres
+|-immune|p2a: Moltres
+|
+|turn|13
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: Moltres|Fiery Wrath|p1a: Ursaluna
+|-damage|p1a: Ursaluna|55/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|14
+|
+|switch|p2a: Gholdengo|Gholdengo, tera:Fighting|65/100
+|move|p1a: Ursaluna|Facade|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-damage|p1a: Ursaluna|49/100 brn|[from] brn
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|15
+|
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1a: Ursaluna|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|12/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-damage|p1a: Ursaluna|43/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|16
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|11/100
+|-damage|p1a: Hoopa|0 fnt|[from] Stealth Rock
+|faint|p1a: Hoopa
+|move|p2a: Dragonite|Earthquake|p1: Hoopa|[notarget]
+|-fail|p2a: Dragonite
+|
+|
+|switch|p1a: Cresselia|Cresselia, F|53/100
+|-damage|p1a: Cresselia|40/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Cresselia
+|-damage|p1a: Cresselia|15/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|turn|18
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|
+|switch|p1a: Glastrier|Glastrier|100/100
+|turn|19
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Glastrier
+|-damage|p1a: Glastrier|69/100
+|move|p1a: Glastrier|Icicle Crash|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-ability|p1a: Glastrier|Chilling Neigh|boost
+|-boost|p1a: Glastrier|atk|1
+|
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|20
+|
+|move|p1a: Glastrier|Close Combat|p2a: Urshifu
+|-damage|p2a: Urshifu|21/100
+|-unboost|p1a: Glastrier|def|1
+|-unboost|p1a: Glastrier|spd|1
+|move|p2a: Urshifu|Close Combat|p1a: Glastrier
+|-supereffective|p1a: Glastrier
+|-damage|p1a: Glastrier|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Glastrier
+|
+|
+|switch|p1a: Ursaluna|Ursaluna, M, tera:Normal|43/100 brn
+|-damage|p1a: Ursaluna|31/100 brn|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|move|p1a: Ursaluna|Facade|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-damage|p1a: Ursaluna|25/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p2a: Great Tusk|Great Tusk|36/100
+|turn|22
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Headlong Rush|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p2a: Great Tusk|Eject Pack
+|faint|p1a: Slowking
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|21/100
+|
+|-message|p1 forfeited.
+|
+|win|p2

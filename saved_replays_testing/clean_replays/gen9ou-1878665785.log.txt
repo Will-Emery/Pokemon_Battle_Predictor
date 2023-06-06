@@ -1,0 +1,148 @@
+# advantage = p1
+|poke|p1|Pelipper, M|
+|poke|p1|Overqwil, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Volcanion|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Diancie|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M, shiny|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-terastallize|p1a: Basculegion|Water
+|move|p1a: Basculegion|Wave Crash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-damage|p1a: Basculegion|74/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|turn|3
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|-damage|p1a: Basculegion|49/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|4
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-damage|p1a: Basculegion|22/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Diancie|Diancie, shiny|100/100
+|turn|5
+|
+|move|p1a: Basculegion|Wave Crash|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|-damage|p1a: Basculegion|0 fnt|[from] Recoil
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Overqwil|Overqwil, M, shiny|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|6
+|
+|move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+|-boost|p1a: Overqwil|atk|2
+|move|p2a: Corviknight|Brave Bird|p1a: Overqwil
+|-damage|p1a: Overqwil|62/100
+|-damage|p2a: Corviknight|90/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|97/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+|-boost|p1a: Overqwil|atk|2
+|move|p2a: Corviknight|Brave Bird|p1a: Overqwil
+|-damage|p1a: Overqwil|16/100
+|-damage|p2a: Corviknight|85/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Overqwil|Liquidation|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-damage|p1a: Overqwil|6/100|[from] item: Life Orb
+|
+|-weather|none
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|-enditem|p1a: Overqwil|Life Orb|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Overqwil
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|10
+|
+|-terastallize|p2a: Great Tusk|Fighting
+|move|p1a: Urshifu|Surging Strikes|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|78/100
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|58/100
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|38/100
+|-hitcount|p2a: Great Tusk|3
+|move|p2a: Great Tusk|Headlong Rush|p1a: Urshifu
+|-damage|p1a: Urshifu|39/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|turn|11
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|3/100
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|2
+|
+|win|p1

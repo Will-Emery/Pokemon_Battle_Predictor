@@ -1,0 +1,47 @@
+# advantage = p2
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p1|Garchomp, M|
+|poke|p1|Zapdos|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Baxcalibur, M|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Arcanine-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: We Ball|Electrode-Hisui|100/100
+|turn|1
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: We Ball|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|
+|-damage|p1a: Zapdos|88/100|[from] Leech Seed|[of] p2a: We Ball
+|turn|2
+|
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|move|p2a: We Ball|Substitute|p2a: We Ball
+|-start|p2a: We Ball|Substitute
+|-damage|p2a: We Ball|76/100
+|
+|-heal|p2a: We Ball|82/100|[from] item: Leftovers
+|turn|3
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos|88/100
+|move|p2a: We Ball|Leech Seed|p1a: Zapdos
+|-start|p1a: Zapdos|move: Leech Seed
+|
+|-heal|p2a: We Ball|88/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|76/100|[from] Leech Seed|[of] p2a: We Ball
+|-heal|p2a: We Ball|100/100|[silent]
+|turn|4
+|-message|p1 forfeited.
+|
+|win|p2

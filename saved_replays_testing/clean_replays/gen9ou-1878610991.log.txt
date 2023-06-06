@@ -1,0 +1,165 @@
+# advantage = p2
+|poke|p1|Pawmot, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Zarude|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Glimmora, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Iron Moth|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Jugulis|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|start
+|switch|p1a: OU THE PULT|Dragapult, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|1
+|
+|move|p1a: OU THE PULT|Flamethrower|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-enditem|p2a: Meowscarada|Focus Sash
+|-damage|p2a: Meowscarada|1/100
+|move|p2a: Meowscarada|Knock Off|p1a: OU THE PULT
+|-supereffective|p1a: OU THE PULT
+|-damage|p1a: OU THE PULT|0 fnt
+|-enditem|p1a: OU THE PULT|Choice Specs|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: OU THE PULT
+|
+|
+|switch|p1a: Reimi|Pawmot, F, shiny|100/100
+|turn|2
+|
+|move|p1a: Reimi|Mach Punch|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|3
+|
+|switch|p1a: Mimi|Lilligant-Hisui, F|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Mimi
+|-resisted|p1a: Mimi
+|-damage|p1a: Mimi|56/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p2a: Great Tusk|Eject Pack
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|
+|turn|4
+|
+|switch|p1a: ZZZ|Zarude|100/100
+|move|p2a: Iron Moth|Flamethrower|p1a: ZZZ
+|-supereffective|p1a: ZZZ
+|-damage|p1a: ZZZ|0 fnt
+|faint|p1a: ZZZ
+|
+|
+|switch|p1a: Glamora|Glimmora, F|100/100
+|turn|5
+|
+|move|p2a: Iron Moth|Psychic|p1a: Glamora
+|-supereffective|p1a: Glamora
+|-enditem|p1a: Glamora|Focus Sash
+|-damage|p1a: Glamora|1/100
+|move|p1a: Glamora|Power Gem|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|2/100
+|
+|turn|6
+|
+|move|p2a: Iron Moth|Psychic|p1a: Glamora
+|-supereffective|p1a: Glamora
+|-damage|p1a: Glamora|0 fnt
+|faint|p1a: Glamora
+|
+|
+|switch|p1a: Reimi|Pawmot, F, shiny|100/100
+|turn|7
+|
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Reimi|Mach Punch|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|turn|8
+|
+|move|p1a: Reimi|Revival Blessing|p1a: Reimi
+|
+|-heal|p1: OU THE PULT|50/100|[from] move: Revival Blessing
+|move|p2a: Gholdengo|Shadow Ball|p1a: Reimi
+|-damage|p1a: Reimi|29/100
+|
+|turn|9
+|
+|move|p1a: Reimi|Thunder Punch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|46/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Reimi
+|-damage|p1a: Reimi|0 fnt
+|faint|p1a: Reimi
+|
+|
+|switch|p1a: Mimi|Lilligant-Hisui, F|56/100
+|turn|10
+|
+|switch|p1a: AWOON|Ursaluna, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|2/100
+|
+|turn|11
+|
+|move|p2a: Iron Moth|Flamethrower|p1a: AWOON
+|-damage|p1a: AWOON|60/100
+|-status|p1a: AWOON|brn
+|move|p1a: AWOON|Facade|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-damage|p1a: AWOON|54/100 brn|[from] brn
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|switch|p1a: OU THE PULT|Dragapult, M|50/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: OU THE PULT
+|-damage|p1a: OU THE PULT|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: OU THE PULT
+|
+|
+|switch|p1a: Mimi|Lilligant-Hisui, F|56/100
+|turn|13
+|
+|move|p1a: Mimi|Victory Dance|p1a: Mimi
+|-boost|p1a: Mimi|atk|1
+|-boost|p1a: Mimi|def|1
+|-boost|p1a: Mimi|spe|1
+|move|p2a: Great Tusk|Close Combat|p1a: Mimi
+|-damage|p1a: Mimi|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Mimi
+|
+|
+|switch|p1a: AWOON|Ursaluna, F|54/100 brn
+|turn|14
+|
+|-terastallize|p1a: AWOON|Normal
+|move|p2a: Great Tusk|Close Combat|p1a: AWOON
+|-supereffective|p1a: AWOON
+|-damage|p1a: AWOON|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: AWOON
+|
+|win|p2

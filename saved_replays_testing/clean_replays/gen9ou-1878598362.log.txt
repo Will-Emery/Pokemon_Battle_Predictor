@@ -1,0 +1,42 @@
+# advantage = p2
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Decidueye-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|1
+|
+|-terastallize|p1a: Lilligant|Fighting
+|-terastallize|p2a: Decidueye|Ghost
+|move|p1a: Lilligant|Victory Dance|p1a: Lilligant
+|-boost|p1a: Lilligant|atk|1
+|-boost|p1a: Lilligant|def|1
+|-boost|p1a: Lilligant|spe|1
+|move|p2a: Decidueye|Bulk Up|p2a: Decidueye
+|-boost|p2a: Decidueye|atk|1
+|-boost|p2a: Decidueye|def|1
+|
+|turn|2
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Decidueye|[miss]
+|-miss|p1a: Lilligant|p2a: Decidueye
+|move|p2a: Decidueye|Bulk Up|p2a: Decidueye
+|-boost|p2a: Decidueye|atk|1
+|-boost|p2a: Decidueye|def|1
+|
+|turn|3
+|
+|move|p1a: Lilligant|Sleep Powder|p2a: Decidueye|[miss]
+|-miss|p1a: Lilligant|p2a: Decidueye
+|move|p2a: Decidueye|Triple Arrows|p1a: Lilligant
+|-damage|p1a: Lilligant|29/100
+|
+|turn|4
+|
+|move|p2a: Decidueye|Shadow Sneak|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|win|p2

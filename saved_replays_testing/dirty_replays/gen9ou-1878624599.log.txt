@@ -1,0 +1,304 @@
+|j|☆ho3nconfirm3d
+|j|☆clail
+|t:|1686008077
+|gametype|singles
+|player|p1|ho3nconfirm3d|#ho3nconfirm3d|1850
+|player|p2|clail|cheryl|1780
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Enamorus, F|
+|poke|p1|Iron Treads|
+|poke|p1|Toxapex, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Zamazenta-*|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Gholdengo|
+|poke|p2|Espeon, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Mew|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1686008085
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Samurott|atk|1
+|turn|1
+|
+|t:|1686008088
+|move|p2a: Samurott|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|8/100
+|move|p1a: Landorus|Grass Knot|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1686008094
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|2
+|
+|t:|1686008097
+|move|p2a: Iron Treads|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Treads
+|faint|p1a: Landorus
+|
+|-heal|p2a: Iron Treads|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686008108
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|3
+|
+|t:|1686008111
+|move|p2a: Iron Treads|Stealth Rock|p1a: Enamorus
+|-sidestart|p1: ho3nconfirm3d|move: Stealth Rock
+|move|p1a: Enamorus|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1686008114
+|switch|p2a: Mew|Mew|100/100
+|turn|4
+|
+|t:|1686008120
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Mew|Calm Mind|p2a: Mew
+|-boost|p2a: Mew|spa|1
+|-boost|p2a: Mew|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1686008123
+|-terastallize|p2a: Mew|Poison
+|move|p1a: Dragapult|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Dragapult|par
+|move|p2a: Mew|Calm Mind|p2a: Mew
+|-boost|p2a: Mew|spa|1
+|-boost|p2a: Mew|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1686008128
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|-damage|p1a: Iron Treads|97/100|[from] Stealth Rock
+|move|p2a: Mew|Iron Defense|p2a: Mew
+|-boost|p2a: Mew|def|2
+|
+|upkeep
+|turn|7
+|
+|t:|1686008132
+|move|p1a: Iron Treads|Earthquake|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|62/100 par
+|move|p2a: Mew|Iron Defense|p2a: Mew
+|-boost|p2a: Mew|def|2
+|
+|-heal|p2a: Mew|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1686008136
+|move|p1a: Iron Treads|Rapid Spin|p2a: Mew
+|-damage|p2a: Mew|64/100 par
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: ho3nconfirm3d|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Mew|Draining Kiss|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|77/100
+|-heal|p2a: Mew|76/100 par|[from] drain|[of] p1a: Iron Treads
+|
+|-heal|p2a: Mew|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|j| BananeAttitude
+|
+|t:|1686008140
+|move|p1a: Iron Treads|Earthquake|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|57/100 par
+|move|p2a: Mew|Stored Power|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Mew|63/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1686008146
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|10
+|
+|t:|1686008149
+|move|p1a: Enamorus|Earth Power|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|29/100 par
+|move|p2a: Mew|Stored Power|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-heal|p2a: Mew|36/100 par|[from] item: Leftovers
+|upkeep
+|j| Magearna is BROKEN
+|l| BananeAttitude
+|
+|t:|1686008168
+|switch|p1a: Dragapult|Dragapult, M|100/100 par
+|turn|11
+|
+|t:|1686008175
+|move|p1a: Dragapult|Hex|p2a: Mew
+|-damage|p2a: Mew|16/100 par
+|move|p2a: Mew|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100 par
+|-heal|p2a: Mew|65/100 par|[from] drain|[of] p1a: Dragapult
+|
+|-heal|p2a: Mew|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|j| wqup
+|
+|t:|1686008180
+|move|p1a: Dragapult|Hex|p2a: Mew
+|-damage|p2a: Mew|51/100 par
+|move|p2a: Mew|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Mew|61/100 par|[from] drain|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Mew|67/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1686008186
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|13
+|
+|t:|1686008189
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|76/100
+|move|p2a: Mew|Stored Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|-heal|p2a: Mew|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1686008193
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|57/100
+|move|p2a: Mew|Draining Kiss|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-heal|p2a: Mew|88/100 par|[from] drain|[of] p1a: Zamazenta
+|
+|-heal|p1a: Zamazenta|63/100|[from] item: Leftovers
+|-heal|p2a: Mew|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|l| Magearna is BROKEN
+|
+|t:|1686008195
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|38/100
+|move|p2a: Mew|Draining Kiss|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-heal|p2a: Mew|100/100 par|[from] drain|[of] p1a: Zamazenta
+|
+|-heal|p1a: Zamazenta|44/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1686008197
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|19/100
+|cant|p2a: Mew|par
+|
+|-heal|p1a: Zamazenta|25/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1686008202
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|cant|p2a: Mew|par
+|
+|-heal|p1a: Zamazenta|32/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1686008206
+|move|p1a: Zamazenta|Body Press|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|86/100 par
+|move|p2a: Mew|Draining Kiss|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-heal|p2a: Mew|100/100 par|[from] drain|[of] p1a: Zamazenta
+|
+|-heal|p1a: Zamazenta|38/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1686008210
+|move|p1a: Zamazenta|Body Press|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|86/100 par
+|move|p2a: Mew|Draining Kiss|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-heal|p2a: Mew|100/100 par|[from] drain|[of] p1a: Zamazenta
+|faint|p1a: Zamazenta
+|
+|upkeep
+|-message|ho3nconfirm3d forfeited.
+|
+|win|clail
+|raw|ho3nconfirm3d's rating: 1850 → 1826(-24 for losing)
+|raw|clail's rating: 1780 → 1804(+24 for winning)
+|l|☆ho3nconfirm3d
+|l| wqup
+|l|☆clail

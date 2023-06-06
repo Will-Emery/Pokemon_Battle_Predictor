@@ -1,0 +1,123 @@
+# advantage = p2
+|poke|p1|Ursaluna, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Pelipper, F|
+|poke|p2|Iron Treads|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Mew|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Quagsire, M|
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|turn|1
+|
+|switch|p1a: H3nti|Hatterene, F|100/100
+|move|p2a: Electrode|Volt Switch|p1a: H3nti
+|-damage|p1a: H3nti|71/100
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100|[from] Volt Switch
+|
+|-heal|p1a: H3nti|77/100|[from] item: Leftovers
+|turn|2
+|
+|move|p2a: Typhlosion|Infernal Parade|p1a: H3nti
+|-supereffective|p1a: H3nti
+|-damage|p1a: H3nti|0 fnt
+|faint|p1a: H3nti
+|
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|3
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Quagsire
+|-immune|p2a: Quagsire|[from] ability: Water Absorb
+|
+|turn|4
+|
+|switch|p1a: Toilet berd|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Toilet berd
+|move|p2a: Quagsire|Toxic|p1a: Toilet berd|[miss]
+|-miss|p2a: Quagsire|p1a: Toilet berd
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|move|p1a: Toilet berd|Hurricane|p2a: Quagsire
+|-damage|p2a: Quagsire|57/100
+|move|p2a: Quagsire|Spikes|p1a: Toilet berd
+|-sidestart|p1: p1|Spikes
+|
+|-weather|RainDance|[upkeep]
+|turn|6
+|
+|move|p1a: Toilet berd|U-turn|p2a: Quagsire
+|-damage|p2a: Quagsire|50/100
+|
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100|[from] U-turn
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|99/100
+|
+|-weather|RainDance|[upkeep]
+|turn|7
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Braviary|Calm Mind|p1a: Braviary
+|-boost|p1a: Braviary|spa|1
+|-boost|p1a: Braviary|spd|1
+|
+|-weather|RainDance|[upkeep]
+|turn|8
+|
+|-terastallize|p1a: Braviary|Psychic
+|move|p2a: Iron Treads|Knock Off|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|43/100
+|-enditem|p1a: Braviary|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Braviary|Esper Wing|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|21/100
+|-boost|p1a: Braviary|spe|1
+|
+|-weather|RainDance|[upkeep]
+|turn|9
+|
+|move|p2a: Iron Treads|Earthquake|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-damage|p1a: Basculegion|88/100|[from] Spikes
+|turn|10
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Quagsire|Quagsire, M|99/100
+|move|p1a: Basculegion|Zen Headbutt|p2a: Quagsire
+|-damage|p2a: Quagsire|71/100
+|
+|-weather|RainDance|[upkeep]
+|turn|11
+|
+|move|p1a: Basculegion|Zen Headbutt|p2a: Quagsire
+|-damage|p2a: Quagsire|44/100
+|move|p2a: Quagsire|Toxic|p1a: Basculegion
+|-status|p1a: Basculegion|tox
+|
+|-weather|none
+|-damage|p1a: Basculegion|82/100 tox|[from] psn
+|turn|12
+|-message|p1 forfeited.
+|
+|win|p2

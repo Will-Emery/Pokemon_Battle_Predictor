@@ -1,0 +1,435 @@
+|j|☆JuanMar
+|j|☆Gege88
+|t:|1686003930
+|gametype|singles
+|player|p1|JuanMar|170|1230
+|player|p2|Gege88|hiker-gen4|1318
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Heatran, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Decidueye-Hisui, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Goodra-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JuanMar)
+|
+|t:|1686003948
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1686003953
+|move|p2a: Meowscarada|U-turn|p1a: Heatran
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|92/100
+|-damage|p2a: Meowscarada|91/100|[from] item: Life Orb
+|
+|t:|1686003963
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100|[from] U-turn
+|move|p1a: Heatran|Magma Storm|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|69/100
+|-activate|p2a: Urshifu|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|99/100|[from] item: Leftovers
+|-damage|p2a: Urshifu|57/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1686003973
+|switch|p1a: Decidueye|Decidueye-Hisui, M|100/100
+|move|p2a: Urshifu|Surging Strikes|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-crit|p1a: Decidueye
+|-damage|p1a: Decidueye|87/100
+|-resisted|p1a: Decidueye
+|-crit|p1a: Decidueye
+|-damage|p1a: Decidueye|73/100
+|-resisted|p1a: Decidueye
+|-crit|p1a: Decidueye
+|-damage|p1a: Decidueye|59/100
+|-hitcount|p1a: Decidueye|3
+|
+|-end|p2a: Urshifu|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|3
+|
+|t:|1686003985
+|move|p1a: Decidueye|Triple Arrows|p2a: Urshifu
+|-damage|p2a: Urshifu|14/100
+|-unboost|p2a: Urshifu|def|1
+|cant|p2a: Urshifu|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1686003993
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Decidueye|unboost|Attack|[from] ability: Scrappy|[of] p1a: Decidueye
+|move|p1a: Decidueye|Triple Arrows|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|78/100
+|
+|-heal|p2a: Landorus|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1686004014
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: JuanMar|move: Stealth Rock
+|
+|-heal|p2a: Landorus|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1686004022
+|move|p2a: Landorus|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|77/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: JuanMar|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Landorus|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1686004029
+|move|p1a: Great Tusk|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|59/100
+|-enditem|p2a: Landorus|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|94/100
+|-damage|p2a: Landorus|42/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|t:|1686004042
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|14/100|[from] U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1686004058
+|move|p2a: Urshifu|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|68/100
+|-damage|p2a: Urshifu|0 fnt|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p2a: Urshifu
+|move|p1a: Great Tusk|Body Press|p2: Urshifu|[notarget]
+|-fail|p1a: Great Tusk
+|
+|-end|p1a: Great Tusk|move: Taunt
+|upkeep
+|inactive|Gege88 has 120 seconds left.
+|
+|t:|1686004090
+|switch|p2a: Meowscarada|Meowscarada, F|91/100
+|turn|9
+|
+|t:|1686004094
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, M|99/100
+|move|p2a: Meowscarada|Flower Trick|p1a: Heatran
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|85/100
+|-damage|p2a: Meowscarada|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Heatran|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1686004101
+|switch|p2a: Landorus|Landorus-Therian, M|42/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|move|p1a: Heatran|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Gege88|move: Stealth Rock
+|
+|-heal|p1a: Heatran|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1686004110
+|switch|p1a: Great Tusk|Great Tusk|68/100
+|move|p2a: Landorus|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|
+|upkeep
+|turn|12
+|
+|t:|1686004119
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Braviary
+|-immune|p1a: Braviary
+|
+|upkeep
+|turn|13
+|
+|t:|1686004123
+|move|p2a: Landorus|U-turn|p1a: Braviary
+|-damage|p1a: Braviary|73/100
+|
+|t:|1686004126
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100|[from] U-turn
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|move|p1a: Braviary|Hurricane|p2a: Goodra|[miss]
+|-miss|p1a: Braviary|p2a: Goodra
+|
+|-heal|p2a: Goodra|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1686004138
+|switch|p1a: Decidueye|Decidueye-Hisui, M|59/100
+|switch|p2a: Landorus|Landorus-Therian, M|42/100
+|-damage|p2a: Landorus|30/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Decidueye|unboost|Attack|[from] ability: Scrappy|[of] p1a: Decidueye
+|
+|upkeep
+|turn|15
+|
+|t:|1686004144
+|move|p1a: Decidueye|Leaf Blade|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1686004148
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-damage|p2a: Arcanine|75/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1686004160
+|switch|p1a: Great Tusk|Great Tusk|45/100
+|move|p2a: Arcanine|Head Smash|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|35/100
+|-damage|p2a: Arcanine|59/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|17
+|
+|t:|1686004168
+|switch|p2a: Meowscarada|Meowscarada, F|81/100
+|-damage|p2a: Meowscarada|68/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Body Press|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1686004179
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1686004187
+|move|p1a: Great Tusk|Body Press|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|35/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Great Tusk|spe|1
+|move|p2a: Goodra|Flash Cannon|p1a: Great Tusk
+|-damage|p1a: Great Tusk|2/100
+|
+|-heal|p2a: Goodra|41/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1686004197
+|move|p2a: Goodra|Flash Cannon|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Goodra|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686004202
+|switch|p1a: Decidueye|Decidueye-Hisui, M|59/100
+|turn|20
+|
+|t:|1686004206
+|move|p1a: Decidueye|Close Combat|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Decidueye|def|1
+|-unboost|p1a: Decidueye|spd|1
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Decidueye|spe|1
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1686004212
+|switch|p2a: Arcanine|Arcanine-Hisui, F|59/100
+|-damage|p2a: Arcanine|34/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1686004220
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Arcanine|Head Smash|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|61/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|22
+|
+|t:|1686004228
+|move|p2a: Arcanine|Head Smash|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|22/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1686004231
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|23
+|
+|t:|1686004235
+|switch|p1a: Heatran|Heatran, M|97/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1686004241
+|move|p1a: Heatran|Magma Storm|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|17/100
+|-activate|p2a: Kingambit|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-heal|p2a: Kingambit|24/100|[from] item: Leftovers
+|-end|p2a: Kingambit|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1686004249
+|switch|p1a: Decidueye|Decidueye-Hisui, M|59/100
+|turn|25
+|
+|t:|1686004251
+|move|p2a: Kingambit|Sucker Punch|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|-heal|p2a: Kingambit|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686004256
+|switch|p1a: Braviary|Braviary-Hisui, M|73/100
+|turn|26
+|
+|t:|1686004259
+|-terastallize|p1a: Braviary|Fairy
+|move|p2a: Kingambit|Sucker Punch|p1a: Braviary
+|-resisted|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|-heal|p2a: Kingambit|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686004264
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|27
+|
+|t:|1686004268
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-heal|p2a: Kingambit|42/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686004272
+|switch|p1a: Gholdengo|Gholdengo|22/100
+|turn|28
+|
+|t:|1686004274
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|73/100
+|
+|-heal|p2a: Kingambit|48/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1686004281
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|
+|-heal|p2a: Kingambit|54/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1686004286
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-heal|p2a: Kingambit|61/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1686004290
+|move|p1a: Gholdengo|Make It Rain|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|JuanMar
+|raw|JuanMar's rating: 1230 → 1261(+31 for winning)
+|raw|Gege88's rating: 1318 → 1293(-25 for losing)
+|l|☆Gege88
+|c|☆JuanMar|thas was crazy

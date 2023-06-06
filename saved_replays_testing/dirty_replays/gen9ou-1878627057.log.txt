@@ -1,0 +1,587 @@
+|j|☆Baradrex
+|j|☆pmister3
+|t:|1686008366
+|gametype|singles
+|player|p1|Baradrex|ingo|
+|player|p2|pmister3|bruno|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Gengar, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Tauros-Paldea-Blaze, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Zoroark, M|
+|poke|p2|Bronzong|
+|poke|p2|Floatzel, F|
+|poke|p2|Forretress, M|
+|poke|p2|Iron Thorns|
+|poke|p2|Kilowattrel, M|
+|poke|p2|Scovillain, F|
+|teampreview
+|
+|t:|1686008432
+|start
+|switch|p1a: Amongus|Amoonguss, M, shiny|100/100
+|switch|p2a: Forretress|Forretress, M|100/100
+|turn|1
+|
+|t:|1686008450
+|move|p1a: Amongus|Spore|p2a: Forretress
+|-status|p2a: Forretress|slp|[from] move: Spore
+|cant|p2a: Forretress|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1686008467
+|switch|p1a: Wash Cycle|Rotom-Wash|100/100
+|cant|p2a: Forretress|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1686008472
+|move|p1a: Wash Cycle|Flamethrower|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-ability|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1/100 slp
+|-enditem|p2a: Forretress|Red Card|[of] p1a: Wash Cycle
+|drag|p1a: Blue Dog|Lycanroc-Dusk, F, shiny|100/100
+|cant|p2a: Forretress|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1686008481
+|move|p1a: Blue Dog|Accelerock|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|-damage|p1a: Blue Dog|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1686008512
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|turn|5
+|
+|t:|1686008519
+|move|p1a: Blue Dog|Close Combat|p2a: Iron Thorns
+|-supereffective|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|-unboost|p1a: Blue Dog|def|1
+|-unboost|p1a: Blue Dog|spd|1
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|-damage|p1a: Blue Dog|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1686008530
+|switch|p2a: Floatzel|Floatzel, F|100/100
+|turn|6
+|
+|t:|1686008537
+|switch|p1a: Amongus|Amoonguss, M, shiny|100/100
+|move|p2a: Floatzel|Liquidation|p1a: Amongus
+|-resisted|p1a: Amongus
+|-damage|p1a: Amongus|74/100
+|-damage|p2a: Floatzel|84/100|[from] item: Rocky Helmet|[of] p1a: Amongus
+|
+|upkeep
+|turn|7
+|
+|t:|1686008548
+|switch|p2a: Scovillain|Scovillain, F|100/100
+|move|p1a: Amongus|Giga Drain|p2a: Scovillain
+|-resisted|p2a: Scovillain
+|-damage|p2a: Scovillain|92/100
+|-heal|p1a: Amongus|78/100|[from] drain|[of] p2a: Scovillain
+|
+|-heal|p2a: Scovillain|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1686008564
+|switch|p1a: Dead Clefable|Gengar, M|100/100
+|move|p2a: Scovillain|Substitute|p2a: Scovillain
+|-start|p2a: Scovillain|Substitute
+|-damage|p2a: Scovillain|74/100
+|
+|-heal|p2a: Scovillain|80/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1686008591
+|move|p1a: Dead Clefable|Trick||[still]
+|-fail|p1a: Dead Clefable
+|move|p2a: Scovillain|Leech Seed|p1a: Dead Clefable
+|-start|p1a: Dead Clefable|move: Leech Seed
+|
+|-heal|p2a: Scovillain|86/100|[from] item: Leftovers
+|-damage|p1a: Dead Clefable|88/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|95/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1686008620
+|switch|p1a: Blue Dog|Lycanroc-Dusk, F, shiny|81/100
+|move|p2a: Scovillain|Flamethrower|p1a: Blue Dog
+|-resisted|p1a: Blue Dog
+|-damage|p1a: Blue Dog|52/100
+|
+|-heal|p2a: Scovillain|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1686008631
+|-terastallize|p1a: Blue Dog|Fighting
+|move|p1a: Blue Dog|Accelerock|p2a: Scovillain
+|-supereffective|p2a: Scovillain
+|-end|p2a: Scovillain|Substitute
+|-damage|p1a: Blue Dog|42/100|[from] item: Life Orb
+|move|p2a: Scovillain|Leech Seed|p1a: Blue Dog
+|-start|p1a: Blue Dog|move: Leech Seed
+|
+|-damage|p1a: Blue Dog|30/100|[from] Leech Seed|[of] p2a: Scovillain
+|upkeep
+|turn|12
+|
+|t:|1686008650
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Blue Dog|Accelerock|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|87/100
+|-damage|p1a: Blue Dog|20/100|[from] item: Life Orb
+|
+|-heal|p2a: Bronzong|94/100|[from] item: Leftovers
+|-damage|p1a: Blue Dog|7/100|[from] Leech Seed|[of] p2a: Bronzong
+|-heal|p2a: Bronzong|100/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1686008666
+|move|p1a: Blue Dog|Crunch|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|34/100
+|-unboost|p2a: Bronzong|def|1
+|-damage|p1a: Blue Dog|0 fnt|[from] item: Life Orb
+|faint|p1a: Blue Dog
+|move|p2a: Bronzong|Stealth Rock|p1: Blue Dog
+|-sidestart|p1: Baradrex|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686008675
+|switch|p1a: Wash Cycle|Rotom-Wash|100/100
+|-damage|p1a: Wash Cycle|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1686008680
+|move|p1a: Wash Cycle|Dark Pulse|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|t:|1686008687
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|turn|15
+|
+|t:|1686008692
+|move|p2a: Kilowattrel|Hurricane|p1a: Wash Cycle
+|-damage|p1a: Wash Cycle|0 fnt
+|replace|p1a: Surprise!|Zoroark, M
+|-end|p1a: Surprise!|Illusion
+|faint|p1a: Surprise!
+|
+|upkeep
+|
+|t:|1686008716
+|switch|p1a: Wash Cycle|Rotom-Wash|100/100
+|-damage|p1a: Wash Cycle|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1686008741
+|move|p1a: Wash Cycle|Protect|p1a: Wash Cycle
+|-singleturn|p1a: Wash Cycle|Protect
+|move|p2a: Kilowattrel|Thunder|p1a: Wash Cycle
+|-activate|p1a: Wash Cycle|move: Protect
+|
+|-heal|p1a: Wash Cycle|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1686008755
+|move|p2a: Kilowattrel|U-turn|p1a: Wash Cycle
+|-damage|p1a: Wash Cycle|85/100
+|
+|t:|1686008761
+|switch|p2a: Floatzel|Floatzel, F|84/100|[from] U-turn
+|move|p1a: Wash Cycle|Hydro Pump|p2a: Floatzel|[miss]
+|-miss|p1a: Wash Cycle|p2a: Floatzel
+|
+|-heal|p1a: Wash Cycle|91/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1686008772
+|move|p1a: Wash Cycle|Protect|p1a: Wash Cycle
+|-singleturn|p1a: Wash Cycle|Protect
+|move|p2a: Floatzel|Rain Dance|p2a: Floatzel
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wash Cycle|97/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1686008779
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|move|p1a: Wash Cycle|Thunderbolt|p2a: Kilowattrel
+|-immune|p2a: Kilowattrel|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wash Cycle|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1686008798
+|move|p1a: Wash Cycle|Protect|p1a: Wash Cycle
+|-singleturn|p1a: Wash Cycle|Protect
+|move|p2a: Kilowattrel|Thunder|p1a: Wash Cycle
+|-activate|p1a: Wash Cycle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1686008821
+|move|p2a: Kilowattrel|Thunder|p1a: Wash Cycle
+|-damage|p1a: Wash Cycle|46/100
+|move|p1a: Wash Cycle|Hydro Pump|p2a: Kilowattrel|[miss]
+|-miss|p1a: Wash Cycle|p2a: Kilowattrel
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Wash Cycle|52/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1686008829
+|move|p2a: Kilowattrel|Hurricane|p1a: Wash Cycle
+|-resisted|p1a: Wash Cycle
+|-damage|p1a: Wash Cycle|26/100
+|move|p1a: Wash Cycle|Hydro Pump|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|
+|-weather|none
+|-heal|p1a: Wash Cycle|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686008845
+|switch|p2a: Scovillain|Scovillain, F|100/100
+|turn|23
+|
+|t:|1686008853
+|move|p2a: Scovillain|Substitute|p2a: Scovillain
+|-start|p2a: Scovillain|Substitute
+|-damage|p2a: Scovillain|76/100
+|move|p1a: Wash Cycle|Hydro Pump|p2a: Scovillain
+|-end|p2a: Scovillain|Substitute
+|
+|-heal|p2a: Scovillain|82/100|[from] item: Leftovers
+|-heal|p1a: Wash Cycle|39/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1686008861
+|move|p2a: Scovillain|Leech Seed|p1a: Wash Cycle
+|-start|p1a: Wash Cycle|move: Leech Seed
+|move|p1a: Wash Cycle|Hydro Pump|p2a: Scovillain
+|-damage|p2a: Scovillain|20/100
+|
+|-heal|p2a: Scovillain|26/100|[from] item: Leftovers
+|-heal|p1a: Wash Cycle|45/100|[from] item: Leftovers
+|-damage|p1a: Wash Cycle|33/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|37/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1686008870
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Wash Cycle|Hydro Pump|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|
+|-heal|p2a: Scovillain|43/100|[from] item: Leftovers
+|-heal|p1a: Wash Cycle|39/100|[from] item: Leftovers
+|-damage|p1a: Wash Cycle|26/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|54/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1686008879
+|move|p2a: Scovillain|Substitute|p2a: Scovillain
+|-start|p2a: Scovillain|Substitute
+|-damage|p2a: Scovillain|30/100
+|move|p1a: Wash Cycle|Hydro Pump|p2a: Scovillain|[miss]
+|-miss|p1a: Wash Cycle|p2a: Scovillain
+|
+|-heal|p2a: Scovillain|36/100|[from] item: Leftovers
+|-heal|p1a: Wash Cycle|33/100|[from] item: Leftovers
+|-damage|p1a: Wash Cycle|20/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|47/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1686008893
+|switch|p1a: Dead Clefable|Gengar, M|88/100
+|-damage|p1a: Dead Clefable|76/100|[from] Stealth Rock
+|move|p2a: Scovillain|Flamethrower|p1a: Dead Clefable
+|-damage|p1a: Dead Clefable|25/100
+|
+|-heal|p2a: Scovillain|53/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1686008905
+|move|p1a: Dead Clefable|Sludge Bomb|p2a: Scovillain
+|-supereffective|p2a: Scovillain
+|-end|p2a: Scovillain|Substitute
+|move|p2a: Scovillain|Leech Seed|p1a: Dead Clefable
+|-start|p1a: Dead Clefable|move: Leech Seed
+|
+|-heal|p2a: Scovillain|59/100|[from] item: Leftovers
+|-damage|p1a: Dead Clefable|13/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|68/100|[silent]
+|upkeep
+|turn|29
+|
+|t:|1686008913
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Dead Clefable|Sludge Bomb|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|
+|-heal|p2a: Scovillain|74/100|[from] item: Leftovers
+|-damage|p1a: Dead Clefable|0 fnt|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|84/100|[silent]
+|faint|p1a: Dead Clefable
+|upkeep
+|
+|t:|1686008926
+|switch|p1a: Blaze it|Tauros-Paldea-Blaze, M|100/100
+|-damage|p1a: Blaze it|88/100|[from] Stealth Rock
+|-ability|p1a: Blaze it|Intimidate|boost
+|-unboost|p2a: Scovillain|atk|1
+|turn|30
+|
+|t:|1686008945
+|move|p2a: Scovillain|Substitute|p2a: Scovillain
+|-start|p2a: Scovillain|Substitute
+|-damage|p2a: Scovillain|59/100
+|move|p1a: Blaze it|Body Press|p2a: Scovillain
+|-end|p2a: Scovillain|Substitute
+|
+|-heal|p2a: Scovillain|65/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1686008954
+|move|p2a: Scovillain|Leech Seed|p1a: Blaze it
+|-start|p1a: Blaze it|move: Leech Seed
+|move|p1a: Blaze it|Raging Bull|p2a: Scovillain
+|-damage|p2a: Scovillain|14/100
+|
+|-heal|p2a: Scovillain|20/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|100/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|88/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|33/100|[silent]
+|upkeep
+|turn|32
+|
+|t:|1686008963
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Blaze it|Raging Bull|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|
+|-heal|p2a: Scovillain|39/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|94/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|82/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|52/100|[silent]
+|upkeep
+|turn|33
+|
+|t:|1686008973
+|move|p2a: Scovillain|Substitute|p2a: Scovillain
+|-start|p2a: Scovillain|Substitute
+|-damage|p2a: Scovillain|27/100
+|move|p1a: Blaze it|Raging Bull|p2a: Scovillain
+|-end|p2a: Scovillain|Substitute
+|
+|-heal|p2a: Scovillain|33/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|88/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|76/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|47/100|[silent]
+|upkeep
+|turn|34
+|
+|t:|1686008983
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Blaze it|Raging Bull|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|
+|-heal|p2a: Scovillain|53/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|82/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|69/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|66/100|[silent]
+|upkeep
+|turn|35
+|
+|t:|1686008993
+|move|p2a: Scovillain|Substitute|p2a: Scovillain
+|-start|p2a: Scovillain|Substitute
+|-damage|p2a: Scovillain|41/100
+|move|p1a: Blaze it|Raging Bull|p2a: Scovillain
+|-end|p2a: Scovillain|Substitute
+|
+|-heal|p2a: Scovillain|47/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|76/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|63/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|60/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1686009003
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Blaze it|Raging Bull|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|
+|-heal|p2a: Scovillain|66/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|69/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|57/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|79/100|[silent]
+|upkeep
+|turn|37
+|
+|t:|1686009015
+|move|p2a: Scovillain|Substitute|p2a: Scovillain
+|-start|p2a: Scovillain|Substitute
+|-damage|p2a: Scovillain|54/100
+|move|p1a: Blaze it|Raging Bull|p2a: Scovillain
+|-end|p2a: Scovillain|Substitute
+|
+|-heal|p2a: Scovillain|60/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|63/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|51/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|74/100|[silent]
+|upkeep
+|turn|38
+|
+|t:|1686009029
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Blaze it|Body Press|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|
+|-heal|p2a: Scovillain|80/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|57/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|45/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|93/100|[silent]
+|upkeep
+|turn|39
+|
+|t:|1686009039
+|-terastallize|p2a: Scovillain|Water
+|move|p2a: Scovillain|Substitute|p2a: Scovillain
+|-start|p2a: Scovillain|Substitute
+|-damage|p2a: Scovillain|68/100
+|move|p1a: Blaze it|Raging Bull|p2a: Scovillain
+|-resisted|p2a: Scovillain
+|-end|p2a: Scovillain|Substitute
+|
+|-heal|p2a: Scovillain|74/100|[from] item: Leftovers
+|-heal|p1a: Blaze it|51/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|38/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|87/100|[silent]
+|upkeep
+|turn|40
+|
+|t:|1686009052
+|move|p2a: Scovillain|Flamethrower|p1a: Blaze it
+|-resisted|p1a: Blaze it
+|-damage|p1a: Blaze it|16/100
+|move|p1a: Blaze it|Body Press|p2a: Scovillain
+|-crit|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|
+|-heal|p1a: Blaze it|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1686009062
+|switch|p2a: Floatzel|Floatzel, F|84/100
+|turn|41
+|
+|t:|1686009069
+|move|p1a: Blaze it|Protect|p1a: Blaze it
+|-singleturn|p1a: Blaze it|Protect
+|move|p2a: Floatzel|Liquidation|p1a: Blaze it
+|-activate|p1a: Blaze it|move: Protect
+|
+|-heal|p1a: Blaze it|28/100|[from] item: Leftovers
+|-damage|p1a: Blaze it|16/100|[from] Leech Seed|[of] p2a: Floatzel
+|-heal|p2a: Floatzel|98/100|[silent]
+|upkeep
+|turn|42
+|
+|t:|1686009077
+|move|p2a: Floatzel|Liquidation|p1a: Blaze it
+|-supereffective|p1a: Blaze it
+|-damage|p1a: Blaze it|0 fnt
+|faint|p1a: Blaze it
+|
+|upkeep
+|
+|t:|1686009083
+|switch|p1a: Amongus|Amoonguss, M, shiny|100/100
+|-damage|p1a: Amongus|88/100|[from] Stealth Rock
+|turn|43
+|
+|t:|1686009088
+|move|p2a: Floatzel|Liquidation|p1a: Amongus
+|-resisted|p1a: Amongus
+|-damage|p1a: Amongus|66/100
+|-damage|p2a: Floatzel|82/100|[from] item: Rocky Helmet|[of] p1a: Amongus
+|move|p1a: Amongus|Spore|p2a: Floatzel
+|-status|p2a: Floatzel|slp|[from] move: Spore
+|
+|upkeep
+|turn|44
+|
+|t:|1686009095
+|cant|p2a: Floatzel|slp
+|move|p1a: Amongus|Giga Drain|p2a: Floatzel
+|-supereffective|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|-heal|p1a: Amongus|95/100|[from] drain|[of] p2a: Floatzel
+|faint|p2a: Floatzel
+|
+|win|Baradrex

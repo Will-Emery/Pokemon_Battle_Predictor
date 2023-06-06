@@ -127,6 +127,7 @@ def clean_win_information(clean_replays_location):
         write_to_file(processed_replay, clean_replays_location + "/" + replay)
         print("Removed win info from replay " + replay)
 
+
 def remove_win_information(replay_file_contents):
     """Removes the winning information from the replay
     
@@ -157,10 +158,10 @@ if __name__ == "__main__":
     clean_replays_location = "saved_replays_testing/clean_replays"
     process_replays(dirty_replays_location, clean_replays_location)
 
-    testing = input("Was this for testing? (y/n)")
-    while testing != "y" and testing != "n":
-        testing = input("Please enter y or n")
-    if testing == "y":
-        print("cleaning winning information from replays")
-        clean_win_information(clean_replays_location)
+    # testing = input("Was this for testing? (y/n)")
+    # while testing != "y" and testing != "n":
+    #     testing = input("Please enter y or n")
+    # if testing == "y":
+    #     print("cleaning winning information from replays")
+    #     clean_win_information(clean_replays_location)
 

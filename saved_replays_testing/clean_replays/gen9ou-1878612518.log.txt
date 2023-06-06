@@ -1,0 +1,31 @@
+# advantage = p1
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Urshifu-*, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Scizor, M|
+|poke|p2|Thundurus, M|
+|poke|p2|Heatran, M|
+|poke|p2|Greninja, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|1
+|
+|move|p2a: Greninja|Hydro Pump|p1a: Glimmora|[miss]
+|-start|p2a: Greninja|typechange|Water|[from] ability: Protean
+|-miss|p2a: Greninja|p1a: Glimmora
+|move|p1a: Glimmora|Energy Ball|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-message|p2 forfeited.
+|
+|win|p1

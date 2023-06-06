@@ -1,0 +1,421 @@
+# advantage = p2
+|poke|p1|Dondozo, M|
+|poke|p1|Magnezone|
+|poke|p1|Talonflame, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Leaves|
+|poke|p2|Iron Hands|
+|poke|p2|Slowbro, F|
+|poke|p2|Toedscruel, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Gengar, M|
+|poke|p2|Cresselia, F|
+|teampreview
+|
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|1
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Gengar|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|79/100
+|
+|-heal|p1a: Clodsire|85/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Iron Hands
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p1a: Clodsire|91/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Talonflame
+|-damage|p1a: Talonflame|60/100
+|-status|p2a: Iron Hands|brn|[from] ability: Flame Body|[of] p1a: Talonflame
+|
+|-damage|p2a: Iron Hands|94/100 brn|[from] brn
+|turn|4
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|turn|5
+|
+|switch|p1a: Clodsire|Clodsire, F|91/100
+|move|p2a: Pelipper|Hurricane|p1a: Clodsire
+|-damage|p1a: Clodsire|52/100
+|-start|p1a: Clodsire|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|58/100|[from] item: Leftovers
+|turn|6
+|
+|switch|p2a: Toedscruel|Toedscruel, M|100/100
+|-damage|p2a: Toedscruel|94/100|[from] Stealth Rock
+|-activate|p1a: Clodsire|confusion
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toedscruel|100/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Toedscruel|Rapid Spin|p1a: Clodsire
+|-damage|p1a: Clodsire|90/100
+|-boost|p2a: Toedscruel|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Toedscruel
+|-activate|p1a: Clodsire|confusion
+|-damage|p1a: Clodsire|81/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|88/100|[from] item: Leftovers
+|turn|8
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|-activate|p1a: Clodsire|confusion
+|move|p1a: Clodsire|Stealth Rock|p2a: Gengar
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Clodsire|94/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|72/100
+|-activate|p1a: Clodsire|confusion
+|-damage|p1a: Clodsire|63/100|[from] confusion
+|
+|-heal|p1a: Clodsire|69/100|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|45/100
+|-end|p1a: Clodsire|confusion
+|move|p1a: Clodsire|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-enditem|p2a: Gengar|Focus Sash
+|-damage|p2a: Gengar|1/100
+|-start|p1a: Clodsire|Disable|Earthquake|[from] ability: Cursed Body|[of] p2a: Gengar
+|
+|-heal|p1a: Clodsire|51/100|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|30/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|80/100
+|
+|-heal|p1a: Clodsire|86/100|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|64/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|turn|13
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Gengar|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|36/100
+|
+|turn|14
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Great Tusk|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|turn|15
+|
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Slowbro|Trick Room|p2a: Slowbro
+|-fieldstart|move: Trick Room|[of] p2a: Slowbro
+|
+|-heal|p2a: Slowbro|94/100|[from] item: Leftovers
+|turn|16
+|
+|switch|p2a: Toedscruel|Toedscruel, M|100/100
+|-damage|p2a: Toedscruel|94/100|[from] Stealth Rock
+|move|p1a: Clodsire|Toxic|p2a: Toedscruel
+|-status|p2a: Toedscruel|tox
+|
+|-heal|p2a: Toedscruel|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Toedscruel|94/100 tox|[from] psn
+|turn|17
+|
+|switch|p1a: Talonflame|Talonflame, M|60/100
+|move|p2a: Toedscruel|Spore|p1a: Talonflame
+|-status|p1a: Talonflame|slp|[from] move: Spore
+|
+|-heal|p2a: Toedscruel|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Toedscruel|88/100 tox|[from] psn
+|turn|18
+|
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Toedscruel|Rapid Spin|p1a: Clodsire
+|-damage|p1a: Clodsire|91/100
+|-boost|p2a: Toedscruel|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Toedscruel
+|
+|-heal|p1a: Clodsire|97/100|[from] item: Leftovers
+|-heal|p2a: Toedscruel|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Toedscruel|76/100 tox|[from] psn
+|turn|19
+|
+|switch|p2a: Pelipper|Pelipper, F|76/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Clodsire|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|turn|20
+|
+|-terastallize|p2a: Pelipper|Flying
+|move|p2a: Pelipper|Hurricane|p1a: Clodsire
+|-damage|p1a: Clodsire|49/100
+|move|p1a: Clodsire|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clodsire|55/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|70/100 tox|[from] psn
+|turn|21
+|
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|78/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|57/100 tox|[from] psn
+|turn|22
+|
+|switch|p2a: Toedscruel|Toedscruel, M|76/100 tox
+|-damage|p2a: Toedscruel|70/100 tox|[from] Stealth Rock
+|move|p1a: Magnezone|Flash Cannon|p2a: Toedscruel
+|-damage|p2a: Toedscruel|47/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toedscruel|53/100 tox|[from] item: Leftovers
+|-damage|p2a: Toedscruel|47/100 tox|[from] psn
+|turn|23
+|
+|switch|p1a: Clodsire|Clodsire, F|55/100
+|move|p2a: Toedscruel|Rapid Spin|p1a: Clodsire
+|-damage|p1a: Clodsire|44/100
+|-boost|p2a: Toedscruel|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Toedscruel
+|
+|-weather|none
+|-heal|p2a: Toedscruel|53/100 tox|[from] item: Leftovers
+|-heal|p1a: Clodsire|50/100|[from] item: Leftovers
+|-damage|p2a: Toedscruel|41/100 tox|[from] psn
+|turn|24
+|
+|move|p2a: Toedscruel|Earth Power|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|22/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Toedscruel
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p2a: Toedscruel|47/100 tox|[from] item: Leftovers
+|-heal|p1a: Clodsire|28/100|[from] item: Leftovers
+|-damage|p2a: Toedscruel|29/100 tox|[from] psn
+|turn|25
+|
+|-terastallize|p1a: Clodsire|Dark
+|move|p2a: Toedscruel|Rapid Spin|p1a: Clodsire
+|-damage|p1a: Clodsire|18/100
+|-boost|p2a: Toedscruel|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Toedscruel
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|68/100
+|
+|-heal|p2a: Toedscruel|35/100 tox|[from] item: Leftovers
+|-heal|p1a: Clodsire|74/100|[from] item: Leftovers
+|-damage|p2a: Toedscruel|11/100 tox|[from] psn
+|turn|26
+|
+|move|p1a: Clodsire|Stealth Rock|p2a: Toedscruel
+|-sidestart|p2: p2|move: Stealth Rock
+|move|p2a: Toedscruel|Trick Room|p2a: Toedscruel
+|-fieldstart|move: Trick Room|[of] p2a: Toedscruel
+|
+|-heal|p1a: Clodsire|80/100|[from] item: Leftovers
+|-heal|p2a: Toedscruel|17/100 tox|[from] item: Leftovers
+|-damage|p2a: Toedscruel|0 fnt|[from] psn
+|faint|p2a: Toedscruel
+|
+|switch|p2a: Slowbro|Slowbro, F|100/100
+|-damage|p2a: Slowbro|88/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Slowbro|Body Press|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|21/100
+|move|p1a: Clodsire|Toxic|p2a: Slowbro|[miss]
+|-miss|p1a: Clodsire|p2a: Slowbro
+|
+|-heal|p2a: Slowbro|94/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|27/100|[from] item: Leftovers
+|turn|28
+|
+|switch|p1a: Iron Leaves|Iron Leaves|100/100
+|move|p2a: Slowbro|Iron Defense|p2a: Slowbro
+|-boost|p2a: Slowbro|def|2
+|
+|-heal|p2a: Slowbro|99/100|[from] item: Leftovers
+|turn|29
+|
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|switch|p1a: Talonflame|Talonflame, M|60/100 slp
+|move|p2a: Slowbro|Iron Defense|p2a: Slowbro
+|-boost|p2a: Slowbro|def|2
+|
+|-heal|p2a: Slowbro|100/100|[from] item: Leftovers
+|turn|30
+|
+|move|p2a: Slowbro|Iron Defense|p2a: Slowbro
+|-boost|p2a: Slowbro|def|2
+|cant|p1a: Talonflame|slp
+|
+|-fieldend|move: Trick Room
+|turn|31
+|
+|cant|p1a: Talonflame|slp
+|move|p2a: Slowbro|Trick Room|p2a: Slowbro
+|-fieldstart|move: Trick Room|[of] p2a: Slowbro
+|
+|turn|32
+|
+|move|p2a: Slowbro|Psychic|p1a: Talonflame
+|-damage|p1a: Talonflame|23/100 slp
+|-curestatus|p1a: Talonflame|slp|[msg]
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Slowbro
+|-status|p2a: Slowbro|brn
+|
+|-damage|p2a: Slowbro|94/100 brn|[from] brn
+|turn|33
+|
+|switch|p1a: Iron Leaves|Iron Leaves|100/100
+|move|p2a: Slowbro|Body Press|p1a: Iron Leaves
+|-resisted|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|69/100
+|
+|-heal|p2a: Slowbro|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Iron Leaves|75/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|94/100 brn|[from] brn
+|turn|34
+|
+|move|p2a: Slowbro|Body Press|p1a: Iron Leaves
+|-resisted|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|43/100
+|move|p1a: Iron Leaves|Swords Dance|p1a: Iron Leaves
+|-boost|p1a: Iron Leaves|atk|2
+|
+|-heal|p2a: Slowbro|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Iron Leaves|49/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|94/100 brn|[from] brn
+|turn|35
+|
+|move|p2a: Slowbro|Body Press|p1a: Iron Leaves
+|-resisted|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|18/100
+|move|p1a: Iron Leaves|Swords Dance|p1a: Iron Leaves
+|-boost|p1a: Iron Leaves|atk|2
+|
+|-heal|p2a: Slowbro|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Iron Leaves|24/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|94/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|36
+|
+|move|p1a: Iron Leaves|Leaf Blade|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|52/100 brn
+|move|p2a: Slowbro|Trick Room|p2a: Slowbro
+|-fieldstart|move: Trick Room|[of] p2a: Slowbro
+|
+|-heal|p2a: Slowbro|58/100 brn|[from] item: Leftovers
+|-heal|p1a: Iron Leaves|30/100|[from] item: Leftovers
+|-damage|p2a: Slowbro|52/100 brn|[from] brn
+|turn|37
+|
+|move|p2a: Slowbro|Body Press|p1a: Iron Leaves
+|-resisted|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|0 fnt
+|faint|p1a: Iron Leaves
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|
+|-heal|p2a: Slowbro|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|52/100 brn|[from] brn
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|turn|38
+|
+|move|p2a: Slowbro|Psychic|p1a: Dondozo
+|-damage|p1a: Dondozo|72/100
+|move|p1a: Dondozo|Wave Crash|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|40/100 brn
+|-damage|p1a: Dondozo|69/100|[from] Recoil
+|
+|-heal|p2a: Slowbro|46/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|40/100 brn|[from] brn
+|turn|39
+|
+|move|p2a: Slowbro|Psychic|p1a: Dondozo
+|-damage|p1a: Dondozo|38/100
+|move|p1a: Dondozo|Wave Crash|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|28/100 brn
+|-damage|p1a: Dondozo|34/100|[from] Recoil
+|
+|-heal|p2a: Slowbro|34/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|28/100 brn|[from] brn
+|turn|40
+|
+|switch|p1a: Magnezone|Magnezone|78/100
+|move|p2a: Slowbro|Body Press|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-heal|p2a: Slowbro|34/100 brn|[from] item: Leftovers
+|-damage|p2a: Slowbro|28/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Great Tusk|Great Tusk|36/100
+|turn|41
+|
+|move|p1a: Great Tusk|Knock Off|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|17/100 brn
+|-enditem|p2a: Slowbro|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Slowbro|Psychic|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Slowbro|11/100 brn|[from] brn
+|-message|p1 forfeited.
+|
+|win|p2

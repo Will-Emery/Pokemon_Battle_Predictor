@@ -1,0 +1,242 @@
+# advantage = p2
+|poke|p1|Lucario, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Chien-Pao|
+|poke|p1|Roaring Moon|
+|poke|p1|Moltres-Galar|
+|poke|p1|Zamazenta-*|
+|poke|p2|Urshifu-*, M|
+|poke|p2|Scream Tail|
+|poke|p2|Zapdos|
+|poke|p2|Heatran, F|
+|poke|p2|Gholdengo|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: fire rock dog|Arcanine-Hisui, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|move|p1a: fire rock dog|Wild Charge|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|36/100
+|move|p2a: Samurott|Aqua Cutter|p1a: fire rock dog
+|-supereffective|p1a: fire rock dog
+|-damage|p1a: fire rock dog|0 fnt
+|faint|p1a: fire rock dog
+|
+|
+|switch|p1a: fire birb|Moltres-Galar, shiny|100/100
+|turn|2
+|
+|switch|p2a: Scream Tail|Scream Tail|100/100
+|move|p1a: fire birb|Agility|p1a: fire birb
+|-boost|p1a: fire birb|spe|2
+|
+|turn|3
+|
+|move|p1a: fire birb|Shadow Ball|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|71/100
+|move|p2a: Scream Tail|Encore|p1a: fire birb
+|-start|p1a: fire birb|Encore
+|
+|-heal|p2a: Scream Tail|77/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: fire birb|Shadow Ball|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|48/100
+|-unboost|p2a: Scream Tail|spd|1
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|
+|-heal|p2a: Scream Tail|54/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: Samurott|Samurott-Hisui, M|36/100
+|move|p1a: fire birb|Shadow Ball|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|28/100
+|
+|-heal|p2a: Samurott|89/100|[from] move: Wish|[wisher] Scream Tail
+|turn|6
+|
+|switch|p1a: mege mence dino|Roaring Moon|100/100
+|-enditem|p1a: mege mence dino|Booster Energy
+|-activate|p1a: mege mence dino|ability: Protosynthesis|[fromitem]
+|-start|p1a: mege mence dino|protosynthesisspe
+|move|p2a: Samurott|Aqua Cutter|p1a: mege mence dino
+|-resisted|p1a: mege mence dino
+|-damage|p1a: mege mence dino|66/100
+|
+|turn|7
+|
+|move|p1a: mege mence dino|Acrobatics|p2a: Samurott
+|-damage|p2a: Samurott|48/100
+|move|p2a: Samurott|Sacred Sword|p1a: mege mence dino
+|-supereffective|p1a: mege mence dino
+|-damage|p1a: mege mence dino|0 fnt
+|faint|p1a: mege mence dino
+|-end|p1a: mege mence dino|Protosynthesis|[silent]
+|
+|
+|switch|p1a: bing chilling|Chien-Pao|100/100
+|-ability|p1a: bing chilling|Sword of Ruin
+|turn|8
+|
+|-terastallize|p2a: Samurott|Water
+|move|p1a: bing chilling|Sacred Sword|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|9
+|
+|switch|p1a: fire birb|Moltres-Galar, shiny|100/100
+|move|p2a: Gholdengo|Trick|p1a: fire birb
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: fire birb
+|-item|p1a: fire birb|Toxic Orb|[from] move: Trick
+|-item|p2a: Gholdengo|Weakness Policy|[from] move: Trick
+|
+|-status|p1a: fire birb|tox|[from] item: Toxic Orb
+|turn|10
+|
+|move|p1a: fire birb|Agility|p1a: fire birb
+|-boost|p1a: fire birb|spe|2
+|move|p2a: Gholdengo|Make It Rain|p1a: fire birb
+|-damage|p1a: fire birb|56/100 tox
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-damage|p1a: fire birb|50/100 tox|[from] psn
+|turn|11
+|
+|move|p1a: fire birb|Fiery Wrath|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|36/100
+|-enditem|p2a: Gholdengo|Weakness Policy
+|-boost|p2a: Gholdengo|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Gholdengo|spa|2|[from] item: Weakness Policy
+|cant|p2a: Gholdengo|flinch
+|
+|-damage|p1a: fire birb|38/100 tox|[from] psn
+|turn|12
+|
+|move|p1a: fire birb|Fiery Wrath|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-damage|p1a: fire birb|19/100 tox|[from] psn
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|13
+|
+|move|p1a: fire birb|Shadow Ball|p2a: Urshifu
+|-damage|p2a: Urshifu|71/100
+|move|p2a: Urshifu|Swords Dance|p2a: Urshifu
+|-boost|p2a: Urshifu|atk|2
+|
+|-damage|p1a: fire birb|0 fnt|[from] psn
+|faint|p1a: fire birb
+|
+|switch|p1a: bing chilling|Chien-Pao|100/100
+|-ability|p1a: bing chilling|Sword of Ruin
+|turn|14
+|
+|move|p1a: bing chilling|Sacred Sword|p2a: Urshifu
+|-damage|p2a: Urshifu|12/100
+|move|p2a: Urshifu|Surging Strikes|p1a: bing chilling
+|-crit|p1a: bing chilling
+|-damage|p1a: bing chilling|28/100
+|-crit|p1a: bing chilling
+|-damage|p1a: bing chilling|0 fnt
+|faint|p1a: bing chilling
+|-hitcount|p1: bing chilling|2
+|-damage|p2a: Urshifu|2/100|[from] item: Life Orb
+|
+|
+|switch|p1a: mage replacement|Lucario, M|100/100
+|turn|15
+|
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: mage replacement|Vacuum Wave|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|73/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|turn|16
+|
+|-terastallize|p1a: mage replacement|Fighting
+|move|p1a: mage replacement|Nasty Plot|p1a: mage replacement
+|-boost|p1a: mage replacement|spa|2
+|move|p2a: Heatran|Magma Storm|p1a: mage replacement
+|-damage|p1a: mage replacement|33/100
+|-activate|p1a: mage replacement|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: mage replacement|39/100|[from] item: Leftovers
+|-damage|p1a: mage replacement|27/100|[from] move: Magma Storm|[partiallytrapped]
+|turn|17
+|
+|move|p1a: mage replacement|Vacuum Wave|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-heal|p1a: mage replacement|33/100|[from] item: Leftovers
+|-end|p1a: mage replacement|Magma Storm|[partiallytrapped]|[silent]
+|
+|switch|p2a: Scream Tail|Scream Tail|54/100
+|turn|18
+|
+|move|p2a: Scream Tail|Dazzling Gleam|p1a: mage replacement
+|-supereffective|p1a: mage replacement
+|-damage|p1a: mage replacement|0 fnt
+|faint|p1a: mage replacement
+|
+|-heal|p2a: Scream Tail|60/100|[from] item: Leftovers
+|
+|switch|p1a: armored dog|Zamazenta-Crowned|100/100
+|-ability|p1a: armored dog|Dauntless Shield|boost
+|-boost|p1a: armored dog|def|1
+|turn|19
+|
+|move|p2a: Scream Tail|Encore||[still]
+|-fail|p2a: Scream Tail
+|move|p1a: armored dog|Behemoth Bash|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|20
+|
+|move|p1a: armored dog|Iron Defense|p1a: armored dog
+|-boost|p1a: armored dog|def|2
+|move|p2a: Zapdos|Thunderbolt|p1a: armored dog
+|-damage|p1a: armored dog|75/100
+|
+|turn|21
+|
+|move|p1a: armored dog|Iron Defense|p1a: armored dog
+|-boost|p1a: armored dog|def|2
+|move|p2a: Zapdos|Heat Wave|p1a: armored dog
+|-supereffective|p1a: armored dog
+|-damage|p1a: armored dog|35/100
+|
+|turn|22
+|
+|move|p1a: armored dog|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|32/100
+|move|p2a: Zapdos|Heat Wave|p1a: armored dog
+|-supereffective|p1a: armored dog
+|-damage|p1a: armored dog|0 fnt
+|faint|p1a: armored dog
+|
+|win|p2

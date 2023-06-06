@@ -1,0 +1,147 @@
+# advantage = p1
+|poke|p1|Iron Valiant|
+|poke|p1|Cinderace, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Slowking, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Baxcalibur, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Chien-Pao|
+|teampreview
+|
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Iron Valiant|Icy Wind|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|93/100
+|-unboost|p2a: Zamazenta|spe|1
+|-damage|p1a: Iron Valiant|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking, F|100/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Slowking|Psychic|p2a: Zamazenta
+|-damage|p2a: Zamazenta|71/100
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p2a: Zamazenta|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|37/100
+|-damage|p2a: Zamazenta|54/100|[from] item: Rocky Helmet|[of] p1a: Slowking
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Iron Valiant|Iron Valiant|91/100|[from] Chilly Reception
+|
+|-weather|Snow|[upkeep]
+|turn|5
+|
+|-terastallize|p1a: Iron Valiant|Ground
+|move|p1a: Iron Valiant|Tera Blast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Iron Valiant|81/100|[from] item: Life Orb
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|6
+|
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking, F|70/100
+|move|p2a: Chien-Pao|Sacred Sword|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|42/100
+|-damage|p2a: Chien-Pao|84/100|[from] item: Rocky Helmet|[of] p1a: Slowking
+|-damage|p2a: Chien-Pao|74/100|[from] item: Life Orb
+|
+|-weather|Snow|[upkeep]
+|turn|7
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-damage|p2a: Chien-Pao|57/100|[from] item: Rocky Helmet|[of] p1a: Slowking
+|faint|p1a: Slowking
+|-damage|p2a: Chien-Pao|47/100|[from] item: Life Orb
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Baxcalibur|Baxcalibur, M|100/100
+|turn|8
+|
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Chien-Pao
+|-crit|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|faint|p2a: Chien-Pao
+|
+|-weather|none
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|9
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|move|p1a: Baxcalibur|Glaive Rush|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|-singlemove|p1a: Baxcalibur|Glaive Rush|[silent]
+|faint|p2a: Hoopa
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|10
+|
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Wave Crash|p1a: Baxcalibur
+|-resisted|p1a: Baxcalibur
+|-damage|p1a: Baxcalibur|0 fnt
+|faint|p1a: Baxcalibur
+|-damage|p2a: Basculegion|68/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|move|p1a: Kingambit|Sucker Punch|p2a: Basculegion
+|-damage|p2a: Basculegion|5/100
+|move|p2a: Basculegion|Wave Crash|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-message|p2 forfeited.
+|
+|win|p1

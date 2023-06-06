@@ -1,0 +1,397 @@
+|j|☆bronzo1728
+|j|☆Camo1250
+|t:|1686004727
+|gametype|singles
+|player|p1|bronzo1728|265|1231
+|player|p2|Camo1250|mars|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Heatran, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Florges, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Diancie|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Delphox, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Quagsire, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bronzo1728)
+|
+|t:|1686004754
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Electrode|atk|1
+|turn|1
+|
+|t:|1686004763
+|move|p2a: Electrode|Taunt|p1a: Landorus
+|-start|p1a: Landorus|move: Taunt
+|move|p1a: Landorus|U-turn|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|11/100
+|
+|t:|1686004777
+|switch|p1a: Florges|Florges, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1686004783
+|move|p2a: Electrode|Leech Seed|p1a: Florges
+|-start|p1a: Florges|move: Leech Seed
+|move|p1a: Florges|Draining Kiss|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|upkeep
+|
+|t:|1686004789
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|3
+|
+|t:|1686004793
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Samurott|Tera Blast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|86/100
+|
+|-heal|p1a: Corviknight|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1686004800
+|move|p2a: Samurott|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|move|p1a: Corviknight|U-turn|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|93/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|t:|1686004814
+|switch|p1a: Heatran|Heatran, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1686004818
+|move|p2a: Zoroark|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|96/100
+|
+|t:|1686004821
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] U-turn
+|move|p1a: Heatran|Magma Storm|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|65/100
+|-activate|p2a: Samurott|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Samurott|53/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1686004830
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Samurott|Ceaseless Edge|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-damage|p2a: Samurott|40/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1686004838
+|move|p2a: Samurott|Ceaseless Edge|p1a: Heatran|[miss]
+|-miss|p2a: Samurott|p1a: Heatran
+|move|p1a: Heatran|Will-O-Wisp|p2a: Samurott
+|-status|p2a: Samurott|brn
+|
+|-damage|p2a: Samurott|34/100 brn|[from] brn
+|-damage|p2a: Samurott|22/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|-enditem|p2a: Samurott|Figy Berry|[eat]
+|-heal|p2a: Samurott|55/100 brn|[from] item: Figy Berry
+|turn|8
+|
+|t:|1686004849
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|-damage|p2a: Samurott|49/100 brn|[from] brn
+|-damage|p2a: Samurott|36/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1686004861
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Samurott|atk|1
+|move|p2a: Samurott|Ceaseless Edge|p1a: Landorus
+|-damage|p1a: Landorus|63/100
+|-sidestart|p1: bronzo1728|Spikes
+|
+|-heal|p1a: Landorus|69/100|[from] item: Leftovers
+|-damage|p2a: Samurott|30/100 brn|[from] brn
+|-end|p2a: Samurott|Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1686004872
+|move|p1a: Landorus|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|t:|1686004878
+|switch|p1a: Corviknight|Corviknight, M|92/100 brn|[from] U-turn
+|
+|-heal|p1a: Corviknight|98/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|92/100 brn|[from] brn
+|upkeep
+|
+|t:|1686004883
+|switch|p2a: Delphox|Delphox, F|100/100
+|turn|11
+|
+|t:|1686004889
+|switch|p1a: Florges|Florges, F|100/100
+|-damage|p1a: Florges|88/100|[from] Spikes
+|move|p2a: Delphox|Calm Mind|p2a: Delphox
+|-boost|p2a: Delphox|spa|1
+|-boost|p2a: Delphox|spd|1
+|
+|-heal|p1a: Florges|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1686004896
+|switch|p1a: Landorus|Landorus-Therian, M|69/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Delphox|atk|1
+|move|p2a: Delphox|Psyshock|p1a: Landorus
+|-damage|p1a: Landorus|5/100
+|
+|-heal|p1a: Landorus|11/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1686004905
+|move|p2a: Delphox|Psyshock|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1686004917
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|14
+|
+|t:|1686004922
+|move|p2a: Delphox|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1686004926
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|15
+|
+|t:|1686004933
+|move|p1a: Hawlucha|Acrobatics|p2a: Delphox
+|-damage|p2a: Delphox|24/100
+|move|p2a: Delphox|Psyshock|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Delphox|30/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1686004940
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Spikes
+|turn|16
+|
+|t:|1686004945
+|move|p2a: Delphox|Solar Beam||[still]
+|-prepare|p2a: Delphox|Solar Beam
+|-enditem|p2a: Delphox|Power Herb
+|-anim|p2a: Delphox|Solar Beam|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|77/100
+|-item|p2a: Delphox|Leftovers|[from] ability: Magician|[of] p1a: Heatran
+|move|p1a: Heatran|Earth Power|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-crit|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|-heal|p1a: Heatran|83/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1686004955
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|turn|17
+|
+|t:|1686004961
+|move|p1a: Heatran|Magma Storm|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|72/100
+|-activate|p2a: Quagsire|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Quagsire|Liquidation|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|37/100
+|
+|-heal|p1a: Heatran|43/100|[from] Grassy Terrain
+|-heal|p2a: Quagsire|78/100|[from] Grassy Terrain
+|-heal|p2a: Quagsire|85/100|[from] item: Leftovers
+|-damage|p2a: Quagsire|72/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|18
+|
+|t:|1686004972
+|move|p1a: Heatran|Will-O-Wisp|p2a: Quagsire
+|-status|p2a: Quagsire|brn
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100 brn
+|
+|-heal|p1a: Heatran|49/100|[from] Grassy Terrain
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|-damage|p2a: Quagsire|82/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1686004982
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Quagsire|Liquidation|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p2a: Quagsire|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|82/100 brn|[from] brn
+|-damage|p2a: Quagsire|70/100 brn|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|t:|1686004996
+|switch|p1a: Florges|Florges, F|94/100
+|-damage|p1a: Florges|82/100|[from] Spikes
+|move|p2a: Quagsire|Liquidation|p1a: Florges
+|-damage|p1a: Florges|66/100
+|
+|-heal|p1a: Florges|72/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|70/100 brn|[from] brn
+|-end|p2a: Quagsire|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|21
+|
+|t:|1686005007
+|switch|p2a: Quagsire|Quagsire, M|93/100
+|move|p1a: Florges|Giga Drain|p2a: Quagsire
+|-damage|p2a: Quagsire|56/100
+|-heal|p1a: Florges|85/100|[from] drain|[of] p2a: Quagsire
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|-heal|p1a: Florges|91/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1686005016
+|move|p2a: Zoroark|Tera Blast|p1a: Florges
+|-damage|p1a: Florges|77/100
+|move|p1a: Florges|Draining Kiss|p2a: Zoroark
+|-damage|p2a: Zoroark|17/100
+|-heal|p1a: Florges|97/100|[from] drain|[of] p2a: Zoroark
+|
+|-heal|p1a: Florges|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1686005025
+|move|p2a: Zoroark|Will-O-Wisp|p1a: Florges
+|-status|p1a: Florges|brn
+|move|p1a: Florges|Draining Kiss|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-damage|p1a: Florges|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1686005029
+|switch|p2a: Diancie|Diancie|100/100
+|turn|24
+|
+|t:|1686005034
+|move|p1a: Florges|Wish|p1a: Florges
+|move|p2a: Diancie|Diamond Storm|p1a: Florges
+|-damage|p1a: Florges|27/100 brn
+|
+|-heal|p1a: Florges|33/100 brn|[from] item: Leftovers
+|-damage|p1a: Florges|27/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1686005039
+|switch|p1a: Heatran|Heatran, M|49/100
+|-damage|p1a: Heatran|37/100|[from] Spikes
+|move|p2a: Diancie|Body Press|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1686005047
+|switch|p1a: Florges|Florges, F|27/100 brn
+|-damage|p1a: Florges|14/100 brn|[from] Spikes
+|turn|26
+|
+|t:|1686005051
+|move|p1a: Florges|Giga Drain|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|81/100
+|-heal|p1a: Florges|23/100 brn|[from] drain|[of] p2a: Diancie
+|move|p2a: Diancie|Diamond Storm|p1a: Florges
+|-damage|p1a: Florges|0 fnt
+|faint|p1a: Florges
+|
+|upkeep
+|
+|t:|1686005056
+|switch|p1a: Corviknight|Corviknight, M|92/100 brn
+|turn|27
+|-message|bronzo1728 forfeited.
+|
+|win|Camo1250
+|raw|bronzo1728's rating: 1231 → 1205(-26 for losing)
+|raw|Camo1250's rating: 1221 → 1247(+26 for winning)
+|l|☆bronzo1728

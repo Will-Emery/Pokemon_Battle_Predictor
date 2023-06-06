@@ -1,0 +1,109 @@
+# advantage = p2
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Slither Wing|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Walking Wake|
+|poke|p1|Mew|
+|poke|p2|Enamorus, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Urshifu-*, F|
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|1
+|
+|move|p2a: Kleavor|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|6/100
+|-enditem|p1a: Mew|Eject Button
+|
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|
+|turn|2
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|58/100
+|
+|turn|3
+|
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Dragapult|Draco Meteor|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|4
+|
+|move|p1a: Lilligant|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-damage|p1a: Lilligant|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|5
+|
+|move|p1a: Lilligant|Close Combat|p2a: Kleavor
+|-crit|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Kleavor
+|-damage|p1a: Lilligant|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|6
+|
+|-terastallize|p1a: Lilligant|Ice
+|move|p1a: Lilligant|Ice Spinner|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|-damage|p1a: Lilligant|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|7
+|
+|-terastallize|p2a: Samurott|Water
+|move|p1a: Lilligant|Close Combat|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Lilligant|def|1
+|-unboost|p1a: Lilligant|spd|1
+|faint|p2a: Samurott
+|-damage|p1a: Lilligant|61/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|8
+|
+|move|p1a: Lilligant|Ice Spinner|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-damage|p1a: Lilligant|51/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-message|p2 forfeited.
+|
+|win|p1
+|player|p1|p1|bellelba

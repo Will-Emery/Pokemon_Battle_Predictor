@@ -1,0 +1,147 @@
+# advantage = p2
+|poke|p1|Lokix, M|
+|poke|p1|Iron Treads|
+|poke|p1|Talonflame, M|
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Azelf|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Scizor, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Gastrodon-East, F|
+|poke|p2|Arcanine-Hisui, F|
+|teampreview
+|
+|start
+|switch|p1a: Pochita|Lokix, M|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p2a: Azelf|Dazzling Gleam|p1a: Pochita
+|-supereffective|p1a: Pochita
+|-damage|p1a: Pochita|0 fnt
+|faint|p1a: Pochita
+|-damage|p2a: Azelf|91/100|[from] item: Life Orb
+|
+|
+|switch|p1a: Speeeen|Iron Treads|100/100
+|turn|2
+|
+|move|p2a: Azelf|Mystical Power|p1a: Speeeen
+|-resisted|p1a: Speeeen
+|-damage|p1a: Speeeen|70/100
+|-boost|p2a: Azelf|spa|1
+|-damage|p2a: Azelf|81/100|[from] item: Life Orb
+|move|p1a: Speeeen|Knock Off|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|-enditem|p2a: Azelf|Life Orb|[from] move: Knock Off|[of] p1a: Speeeen
+|faint|p2a: Azelf
+|
+|-heal|p1a: Speeeen|76/100|[from] item: Leftovers
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p1a: Speeeen|Leftovers|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|turn|3
+|
+|move|p2a: Typhlosion|Eruption|p1a: Speeeen
+|-supereffective|p1a: Speeeen
+|-damage|p1a: Speeeen|0 fnt
+|faint|p1a: Speeeen
+|-end|p1a: Speeeen|Quark Drive|[silent]
+|
+|
+|switch|p1a: WalkDaDino|Walking Wake|100/100
+|turn|4
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100
+|move|p1a: WalkDaDino|Draco Meteor|p2a: Gastrodon
+|-damage|p2a: Gastrodon|40/100
+|-unboost|p1a: WalkDaDino|spa|2
+|
+|-heal|p2a: Gastrodon|47/100|[from] item: Leftovers
+|turn|5
+|
+|-end|p1a: WalkDaDino|Protosynthesis|[silent]
+|switch|p1a: Black|Zamazenta|100/100
+|-ability|p1a: Black|Dauntless Shield|boost
+|-boost|p1a: Black|def|1
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|97/100
+|
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Black|Close Combat|p2a: Gastrodon
+|-damage|p2a: Gastrodon|11/100
+|-unboost|p1a: Black|def|1
+|-unboost|p1a: Black|spd|1
+|-damage|p1a: Black|91/100|[from] item: Life Orb
+|move|p2a: Gastrodon|Stealth Rock|p1a: Black
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Gastrodon|17/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Black|Crunch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|-damage|p1a: Black|81/100|[from] item: Life Orb
+|
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p1a: Black|Life Orb|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|turn|8
+|
+|switch|p1a: WalkDaDino|Walking Wake|100/100
+|-damage|p1a: WalkDaDino|88/100|[from] Stealth Rock
+|move|p2a: Typhlosion|Eruption|p1a: WalkDaDino
+|-resisted|p1a: WalkDaDino
+|-damage|p1a: WalkDaDino|67/100
+|
+|turn|9
+|
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: WalkDaDino|Surf|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|51/100
+|
+|turn|10
+|
+|-terastallize|p1a: WalkDaDino|Water
+|move|p1a: WalkDaDino|Surf|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|11
+|
+|move|p1a: WalkDaDino|Surf|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p1a: WalkDaDino|Choice Specs|[from] ability: Frisk|[of] p2a: Typhlosion|[identify]
+|turn|12
+|
+|-terastallize|p2a: Typhlosion|Fairy
+|move|p2a: Typhlosion|Shadow Ball|p1a: WalkDaDino
+|-damage|p1a: WalkDaDino|22/100
+|move|p1a: WalkDaDino|Surf|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|13
+|
+|move|p1a: WalkDaDino|Surf|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|win|p1

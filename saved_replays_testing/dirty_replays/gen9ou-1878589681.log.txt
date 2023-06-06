@@ -1,0 +1,431 @@
+|j|☆DrewBigDoopa
+|j|☆Camo1250
+|t:|1686004175
+|gametype|singles
+|player|p1|DrewBigDoopa|cynthia-gen4|1205
+|player|p2|Camo1250|mars|1230
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Tornadus, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Uxie|
+|poke|p2|Diancie|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Delphox, M|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Quagsire, F|
+|teampreview
+|
+|t:|1686004191
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Electrode|Electrode-Hisui|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1686004198
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Electrode|Chloroblast|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|-damage|p2a: Electrode|50/100|[from] chloroblast
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Electrode|44/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1686004210
+|switch|p1a: Uxie|Uxie|100/100
+|move|p2a: Electrode|Leech Seed|p1a: Uxie
+|-start|p1a: Uxie|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Electrode|38/100|[from] Sandstorm
+|-damage|p1a: Uxie|94/100|[from] Sandstorm
+|-heal|p1a: Uxie|100/100|[from] item: Leftovers
+|-damage|p1a: Uxie|88/100|[from] Leech Seed|[of] p2a: Electrode
+|-heal|p2a: Electrode|55/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1686004215
+|move|p2a: Electrode|Taunt|p1a: Uxie
+|-start|p1a: Uxie|move: Taunt
+|cant|p1a: Uxie|move: Taunt|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Electrode|49/100|[from] Sandstorm
+|-damage|p1a: Uxie|82/100|[from] Sandstorm
+|-heal|p1a: Uxie|88/100|[from] item: Leftovers
+|-damage|p1a: Uxie|76/100|[from] Leech Seed|[of] p2a: Electrode
+|-heal|p2a: Electrode|66/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1686004222
+|move|p2a: Electrode|Volt Switch|p1a: Uxie
+|-damage|p1a: Uxie|60/100
+|
+|t:|1686004225
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100|[from] Volt Switch
+|move|p1a: Uxie|Ice Punch|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Samurott|86/100|[from] Sandstorm
+|-damage|p1a: Uxie|54/100|[from] Sandstorm
+|-heal|p1a: Uxie|60/100|[from] item: Leftovers
+|-damage|p1a: Uxie|48/100|[from] Leech Seed|[of] p2a: Samurott
+|-heal|p2a: Samurott|99/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1686004241
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1686004248
+|-terastallize|p1a: Sneasler|Fighting
+|move|p1a: Sneasler|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1686004252
+|switch|p2a: Delphox|Delphox, M|100/100
+|turn|7
+|
+|t:|1686004259
+|move|p2a: Delphox|Will-O-Wisp|p1a: Sneasler|[miss]
+|-miss|p2a: Delphox|p1a: Sneasler
+|move|p1a: Sneasler|U-turn|p2a: Delphox
+|-resisted|p2a: Delphox
+|-damage|p2a: Delphox|75/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|t:|1686004265
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1686004268
+|move|p1a: Samurott|Ceaseless Edge|p2a: Zoroark
+|-supereffective|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|-sidestart|p2: Camo1250|Spikes
+|faint|p2a: Zoroark
+|
+|upkeep
+|
+|t:|1686004273
+|switch|p2a: Electrode|Electrode-Hisui|66/100
+|-damage|p2a: Electrode|53/100|[from] Spikes
+|turn|9
+|
+|t:|1686004282
+|switch|p1a: Uxie|Uxie|48/100
+|move|p2a: Electrode|Chloroblast|p1a: Uxie
+|-damage|p1a: Uxie|13/100
+|-damage|p2a: Electrode|3/100|[from] chloroblast
+|
+|-heal|p1a: Uxie|19/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1686004295
+|move|p2a: Electrode|Leech Seed|p1a: Uxie
+|-start|p1a: Uxie|move: Leech Seed
+|move|p1a: Uxie|Ice Punch|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|-status|p1a: Uxie|par|[from] ability: Static|[of] p2a: Electrode
+|faint|p2a: Electrode
+|
+|-heal|p1a: Uxie|25/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1686004307
+|switch|p2a: Diancie|Diancie|100/100
+|-damage|p2a: Diancie|88/100|[from] Spikes
+|turn|11
+|
+|t:|1686004315
+|move|p2a: Diancie|Diamond Storm|p1a: Uxie|[miss]
+|-miss|p2a: Diancie|p1a: Uxie
+|cant|p1a: Uxie|par
+|
+|-heal|p1a: Uxie|32/100 par|[from] item: Leftovers
+|-damage|p1a: Uxie|19/100 par|[from] Leech Seed|[of] p2a: Diancie
+|-heal|p2a: Diancie|100/100|[silent]
+|upkeep
+|turn|12
+|c|☆DrewBigDoopa|f
+|
+|t:|1686004322
+|move|p2a: Diancie|Diamond Storm|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|upkeep
+|c|☆Camo1250|great turn
+|
+|t:|1686004330
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|13
+|
+|t:|1686004338
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|-damage|p2a: Quagsire|88/100|[from] Spikes
+|move|p1a: Samurott|Aqua Cutter|p2a: Quagsire
+|-damage|p2a: Quagsire|52/100
+|
+|-heal|p2a: Quagsire|58/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1686004349
+|switch|p1a: Sneasler|Sneasler, F, tera:Fighting|100/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1686004355
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Quagsire|Curse|p2a: Quagsire
+|-unboost|p2a: Quagsire|spe|1
+|-boost|p2a: Quagsire|atk|1
+|-boost|p2a: Quagsire|def|1
+|
+|upkeep
+|turn|16
+|
+|t:|1686004358
+|move|p1a: Sneasler|Dire Claw|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|90/100
+|-status|p2a: Quagsire|par
+|move|p2a: Quagsire|Counter|p1a: Sneasler
+|-damage|p1a: Sneasler|73/100
+|
+|-heal|p2a: Quagsire|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1686004378
+|move|p1a: Sneasler|U-turn|p2a: Quagsire
+|-damage|p2a: Quagsire|83/100 par
+|
+|t:|1686004381
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from] U-turn
+|cant|p2a: Quagsire|par
+|
+|-heal|p2a: Quagsire|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1686004384
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Quagsire|Liquidation|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-heal|p2a: Quagsire|95/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1686004401
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|turn|19
+|
+|t:|1686004405
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: DrewBigDoopa|move: Tailwind
+|move|p2a: Quagsire|Liquidation|p1a: Tornadus
+|-damage|p1a: Tornadus|54/100
+|
+|-heal|p2a: Quagsire|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1686004420
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Quagsire|Curse|p2a: Quagsire
+|-unboost|p2a: Quagsire|spe|1
+|-boost|p2a: Quagsire|atk|1
+|-boost|p2a: Quagsire|def|1
+|
+|upkeep
+|turn|21
+|
+|t:|1686004422
+|move|p1a: Samurott|Sacred Sword|p2a: Quagsire
+|-damage|p2a: Quagsire|70/100 par
+|move|p2a: Quagsire|Counter|p1a: Samurott
+|-damage|p1a: Samurott|26/100
+|
+|-heal|p2a: Quagsire|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆DrewBigDoopa|why quagsire gonna sweep me bruh
+|
+|t:|1686004442
+|move|p1a: Samurott|Sacred Sword|p2a: Quagsire
+|-damage|p2a: Quagsire|47/100 par
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|97/100 par
+|
+|-heal|p2a: Quagsire|100/100 par|[from] item: Leftovers
+|-sideend|p1: DrewBigDoopa|move: Tailwind
+|upkeep
+|turn|23
+|c|☆Camo1250|its quagsire
+|
+|t:|1686004459
+|move|p1a: Samurott|Sacred Sword|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|59/100 par
+|move|p2a: Quagsire|Counter|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Quagsire|65/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1686004480
+|switch|p1a: Sneasler|Sneasler, F, tera:Fighting|73/100
+|turn|24
+|
+|t:|1686004490
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100 par
+|
+|upkeep
+|turn|25
+|
+|t:|1686004492
+|move|p1a: Sneasler|Swords Dance|p1a: Sneasler
+|-boost|p1a: Sneasler|atk|2
+|move|p2a: Quagsire|Liquidation|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|upkeep
+|
+|t:|1686004497
+|switch|p1a: Tornadus|Tornadus, M|54/100
+|turn|26
+|
+|t:|1686004498
+|move|p1a: Tornadus|U-turn|p2a: Quagsire
+|-damage|p2a: Quagsire|95/100 par
+|
+|t:|1686004501
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|cant|p2a: Quagsire|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Quagsire|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1686004505
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|cant|p2a: Quagsire|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1686004510
+|move|p1a: Tyranitar|Stealth Rock|p2a: Quagsire
+|-sidestart|p2: Camo1250|move: Stealth Rock
+|move|p2a: Quagsire|Liquidation|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|22/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1686004518
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Quagsire|Liquidation|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|28/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|c|☆Camo1250|never set up on quagsire
+|
+|t:|1686004529
+|move|p1a: Tyranitar|Stone Edge|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|92/100 par
+|move|p2a: Quagsire|Liquidation|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|none
+|-heal|p2a: Quagsire|98/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1686004537
+|switch|p1a: Tornadus|Tornadus, M|54/100
+|turn|31
+|c|☆DrewBigDoopa|wooper is still better
+|
+|t:|1686004544
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Quagsire
+|-damage|p2a: Quagsire|38/100 par
+|move|p2a: Quagsire|Liquidation|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|win|Camo1250
+|raw|DrewBigDoopa's rating: 1205 → 1182(-23 for losing)
+|raw|Camo1250's rating: 1230 → 1253(+23 for winning)
+|c|☆Camo1250|little boy
+|l|☆DrewBigDoopa

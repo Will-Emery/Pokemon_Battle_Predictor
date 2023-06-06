@@ -1,0 +1,273 @@
+# advantage = p1
+|poke|p1|Drednaw, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Forretress, F|
+|poke|p1|Walking Wake|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p2|Primeape, F|
+|poke|p2|Kricketune, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Delphox, M|
+|poke|p2|Gengar, F|
+|poke|p2|Greninja, F|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Gengar|Gengar, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|2
+|
+|move|p1a: Zamazenta|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|34/100
+|move|p2a: Gengar|Dazzling Gleam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|66/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p2a: Kricketune|Kricketune, M|100/100
+|move|p1a: Zamazenta|Crunch|p2a: Kricketune
+|-damage|p2a: Kricketune|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|72/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Kricketune|Screech|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|78/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|53/100
+|move|p2a: Kricketune|Screech|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|60/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Kricketune|Screech|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|66/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Kricketune|Screech|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|72/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Kricketune|Screech|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|def|2
+|
+|-weather|none
+|-heal|p1a: Zamazenta|78/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Kricketune|Screech|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|84/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Kricketune|Screech|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|91/100|[from] item: Leftovers
+|turn|11
+|
+|move|p1a: Zamazenta|Crunch|p2a: Kricketune
+|-damage|p2a: Kricketune|34/100
+|-enditem|p2a: Kricketune|Sitrus Berry|[eat]
+|-heal|p2a: Kricketune|59/100|[from] item: Sitrus Berry
+|move|p2a: Kricketune|Screech|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|97/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Zamazenta|Crunch|p2a: Kricketune
+|-damage|p2a: Kricketune|22/100
+|move|p2a: Kricketune|Screech|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|100/100|[from] item: Leftovers
+|turn|13
+|
+|move|p1a: Zamazenta|Crunch|p2a: Kricketune
+|-damage|p2a: Kricketune|0 fnt
+|faint|p2a: Kricketune
+|
+|
+|switch|p2a: Greninja|Greninja, F|100/100
+|turn|14
+|
+|-terastallize|p2a: Greninja|Water
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Greninja|Hydro Pump|p1a: Zamazenta|[miss]
+|-miss|p2a: Greninja|p1a: Zamazenta
+|
+|turn|15
+|
+|move|p2a: Greninja|Water Shuriken|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|-hitcount|p1a: Zamazenta|2
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|turn|16
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Greninja|Hydro Pump|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|turn|17
+|
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|76/100
+|move|p2a: Greninja|Swords Dance|p2a: Greninja
+|-boost|p2a: Greninja|atk|2
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Greninja|Swords Dance|p2a: Greninja
+|-boost|p2a: Greninja|atk|2
+|
+|-heal|p1a: Zamazenta|88/100|[from] item: Leftovers
+|turn|19
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Greninja|Swords Dance|p2a: Greninja
+|-boost|p2a: Greninja|atk|2
+|
+|-heal|p1a: Zamazenta|94/100|[from] item: Leftovers
+|turn|20
+|
+|move|p1a: Zamazenta|Body Press|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-heal|p1a: Zamazenta|100/100|[from] item: Leftovers
+|
+|switch|p2a: Delphox|Delphox, M|100/100
+|turn|21
+|
+|move|p1a: Zamazenta|Crunch|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|48/100
+|move|p2a: Delphox|Reflect|p2a: Delphox
+|-sidestart|p2: p2|Reflect
+|
+|turn|22
+|
+|move|p1a: Zamazenta|Crunch|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|23/100
+|move|p2a: Delphox|Calm Mind|p2a: Delphox
+|-boost|p2a: Delphox|spa|1
+|-boost|p2a: Delphox|spd|1
+|
+|turn|23
+|
+|move|p1a: Zamazenta|Crunch|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|n|!p2|p2
+|
+|switch|p2a: Primeape|Primeape, F|100/100
+|turn|24
+|
+|move|p1a: Zamazenta|Body Press|p2a: Primeape
+|-damage|p2a: Primeape|13/100
+|move|p2a: Primeape|Stealth Rock|p1a: Zamazenta
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|turn|25
+|
+|move|p1a: Zamazenta|Body Press|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|-sideend|p2: p2|Reflect
+|
+|switch|p2a: Gengar|Gengar, F|34/100
+|turn|26
+|
+|move|p1a: Zamazenta|Crunch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Zamazenta|Disable|Crunch|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|27
+|
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Toxapex|Poison Jab|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|turn|28
+|
+|move|p1a: Zamazenta|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|move|p2a: Toxapex|Rain Dance|p2a: Toxapex
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|turn|29
+|
+|move|p1a: Zamazenta|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|win|p1

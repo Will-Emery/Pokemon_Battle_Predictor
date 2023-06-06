@@ -1,0 +1,222 @@
+# advantage = p1
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Sneasler, F|
+|poke|p1|Kleavor, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Sneasler, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Hydreigon, F|
+|teampreview
+|
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|move|p2a: Garchomp|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|35/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Garchomp
+|-damage|p2a: Garchomp|58/100
+|-sidestart|p2: p2|Spikes
+|-damage|p1a: Samurott|22/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Samurott|6/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|turn|2
+|
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|5/100
+|
+|-heal|p1a: Slowking|11/100|[from] item: Leftovers
+|turn|3
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|19/100
+|
+|turn|4
+|
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-damage|p2a: Tinkaton|88/100|[from] Spikes
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Dragapult|Dragon Darts|p2a: Tinkaton
+|-immune|p2a: Tinkaton
+|
+|-heal|p2a: Tinkaton|94/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: Dragapult|U-turn|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|87/100
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100|[from] U-turn
+|move|p2a: Tinkaton|Thunder Wave|p1a: Kleavor
+|-status|p1a: Kleavor|par
+|
+|-heal|p2a: Tinkaton|93/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Kleavor
+|-supereffective|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|
+|-heal|p2a: Tinkaton|99/100|[from] item: Leftovers
+|
+|switch|p1a: Sneasler|Sneasler, F|100/100
+|turn|7
+|
+|move|p1a: Sneasler|Close Combat|p2a: Tinkaton
+|-damage|p2a: Tinkaton|7/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|move|p2a: Tinkaton|Thunder Wave|p1a: Sneasler
+|-status|p1a: Sneasler|par
+|
+|-heal|p2a: Tinkaton|13/100|[from] item: Leftovers
+|turn|8
+|
+|cant|p1a: Sneasler|par
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Sneasler
+|-damage|p1a: Sneasler|21/100 par
+|
+|-heal|p2a: Tinkaton|19/100|[from] item: Leftovers
+|turn|9
+|
+|move|p1a: Sneasler|Acrobatics|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|
+|switch|p2a: Sneasler|Sneasler, M|100/100
+|-damage|p2a: Sneasler|88/100|[from] Spikes
+|turn|10
+|
+|switch|p1a: Dragapult|Dragapult, F|19/100
+|move|p2a: Sneasler|Fake Out|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|turn|11
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Sneasler
+|-status|p2a: Sneasler|brn
+|move|p2a: Sneasler|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|10/100
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from] U-turn
+|-damage|p2a: Toxapex|88/100|[from] Spikes
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|turn|12
+|
+|move|p1a: Dragapult|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|88/100
+|
+|switch|p1a: Slowking|Slowking-Galar, M|44/100|[from] U-turn
+|move|p2a: Toxapex|Surf|p1a: Slowking
+|-damage|p1a: Slowking|30/100
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-heal|p1a: Slowking|36/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Toxapex|Infestation|p1a: Slowking
+|-damage|p1a: Slowking|34/100
+|-activate|p1a: Slowking|move: Infestation|[of] p2a: Toxapex
+|move|p1a: Slowking|Future Sight|p2a: Toxapex
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-heal|p1a: Slowking|40/100|[from] item: Leftovers
+|-damage|p1a: Slowking|28/100|[from] move: Infestation|[partiallytrapped]
+|turn|14
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Slowking
+|-sidestart|p1: p1|move: Toxic Spikes
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snow
+|
+|switch|p1a: Sneasler|Sneasler, F|21/100 par|[from] Chilly Reception
+|-sideend|p1: p1|move: Toxic Spikes|[of] p1a: Sneasler
+|
+|-weather|Snow|[upkeep]
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|turn|15
+|
+|switch|p2a: Sneasler|Sneasler, M|88/100 brn
+|-damage|p2a: Sneasler|76/100 brn|[from] Spikes
+|move|p1a: Sneasler|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|49/100 brn
+|
+|-weather|Snow|[upkeep]
+|-end|p2a: Sneasler|move: Future Sight
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|-damage|p2a: Basculegion|88/100|[from] Spikes
+|turn|16
+|
+|switch|p1a: Dragapult|Dragapult, F|10/100
+|move|p2a: Basculegion|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|6/100
+|turn|17
+|
+|move|p2a: Basculegion|Shadow Ball|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-weather|Snow|[upkeep]
+|
+|switch|p1a: Sneasler|Sneasler, F|21/100 par
+|turn|18
+|
+|move|p1a: Sneasler|Fake Out|p2a: Basculegion
+|-immune|p2a: Basculegion
+|move|p2a: Basculegion|Shadow Ball|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-weather|none
+|
+|switch|p1a: Slowking|Slowking-Galar, M|61/100
+|turn|19
+|
+|move|p2a: Basculegion|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|20
+|
+|move|p2a: Basculegion|Shadow Ball|p1a: Arcanine
+|-damage|p1a: Arcanine|39/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|52/100
+|
+|turn|21
+|-message|p1 forfeited.
+|
+|win|p2

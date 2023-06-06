@@ -1,0 +1,290 @@
+# advantage = p1
+|poke|p1|Persian-Alola, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Tauros, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Slowking, F|
+|poke|p1|Volcarona, M|
+|poke|p2|Sneasler, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|start
+|switch|p1a: Persian|Persian-Alola, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|move|p1a: Persian|Parting Shot|p2a: Slowking
+|-unboost|p2a: Slowking|atk|1
+|-unboost|p2a: Slowking|spa|1
+|
+|switch|p1a: Slowking|Slowking, F|100/100|[from] Parting Shot
+|move|p2a: Slowking|Toxic|p1a: Slowking
+|-status|p1a: Slowking|tox
+|
+|-damage|p1a: Slowking|94/100 tox|[from] psn
+|turn|2
+|
+|switch|p2a: Bruce Lee|Zapdos, shiny|100/100
+|move|p1a: Slowking|Light Screen|p1a: Slowking
+|-sidestart|p1: p1|move: Light Screen
+|
+|-damage|p1a: Slowking|82/100 tox|[from] psn
+|turn|3
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Bruce Lee|atk|1
+|move|p2a: Bruce Lee|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|turn|4
+|
+|switch|p2a: Sneasler|Sneasler, F, shiny|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Sneasler
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|turn|5
+|
+|move|p2a: Sneasler|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|82/100
+|
+|switch|p2a: Garganacl|Garganacl, M|100/100|[from] U-turn
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|10/100
+|
+|-heal|p1a: Landorus|88/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|16/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Landorus|U-turn|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|switch|p1a: Slowking|Slowking, F|82/100 tox|[from] U-turn
+|
+|-damage|p1a: Slowking|76/100 tox|[from] psn
+|
+|switch|p2a: Sneasler|Sneasler, F, shiny|100/100
+|-damage|p2a: Sneasler|95/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Sneasler|U-turn|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Slowking|94/100|[from] item: Leftovers
+|
+|switch|p1a: Persian|Persian-Alola, F|100/100
+|turn|8
+|
+|-terastallize|p2a: Slowking|Water
+|move|p1a: Persian|Snarl|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|-unboost|p2a: Slowking|spa|1
+|move|p2a: Slowking|Toxic|p1a: Persian
+|-status|p1a: Persian|tox
+|
+|-heal|p2a: Slowking|83/100|[from] item: Leftovers
+|-damage|p1a: Persian|94/100 tox|[from] psn
+|turn|9
+|
+|move|p1a: Persian|Parting Shot|p2a: Slowking
+|-unboost|p2a: Slowking|atk|1
+|-unboost|p2a: Slowking|spa|1
+|
+|switch|p1a: Tauros|Tauros, M|100/100|[from] Parting Shot
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|move|p2a: Slowking|Future Sight|p1a: Tauros
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|90/100|[from] item: Leftovers
+|-sideend|p1: p1|move: Light Screen
+|turn|10
+|
+|move|p1a: Tauros|Raging Bull|p2a: Slowking
+|-damage|p2a: Slowking|31/100
+|move|p2a: Slowking|Yawn|p1a: Tauros
+|-start|p1a: Tauros|move: Yawn|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|37/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|move|p2a: Slowking|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-end|p1a: Landorus|move: Future Sight
+|-damage|p1a: Landorus|64/100 tox
+|-heal|p1a: Landorus|70/100 tox|[from] item: Leftovers
+|-heal|p2a: Slowking|43/100|[from] item: Leftovers
+|-damage|p1a: Landorus|64/100 tox|[from] psn
+|turn|12
+|
+|switch|p2a: Bruce Lee|Zapdos, shiny|100/100
+|move|p1a: Landorus|U-turn|p2a: Bruce Lee
+|-resisted|p2a: Bruce Lee
+|-damage|p2a: Bruce Lee|89/100
+|
+|switch|p1a: Persian|Persian-Alola, F|94/100 tox|[from] U-turn
+|
+|-damage|p1a: Persian|88/100 tox|[from] psn
+|turn|13
+|
+|move|p1a: Persian|Icy Wind|p2a: Bruce Lee
+|-supereffective|p2a: Bruce Lee
+|-damage|p2a: Bruce Lee|53/100
+|-unboost|p2a: Bruce Lee|spe|1
+|move|p2a: Bruce Lee|Volt Switch|p1a: Persian
+|-damage|p1a: Persian|38/100 tox
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-damage|p1a: Persian|25/100 tox|[from] psn
+|turn|14
+|
+|move|p1a: Persian|Chilling Water|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|50/100
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: Persian
+|-damage|p1a: Persian|6/100 tox
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|56/100|[from] item: Leftovers
+|-damage|p1a: Persian|0 fnt|[from] psn
+|faint|p1a: Persian
+|
+|switch|p1a: Landorus|Landorus-Therian, M|64/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|turn|15
+|
+|move|p2a: Great Tusk|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|50/100 tox
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|50/100
+|
+|switch|p1a: Volcarona|Volcarona, M|100/100|[from] U-turn
+|
+|-heal|p2a: Great Tusk|56/100|[from] item: Leftovers
+|turn|16
+|
+|move|p2a: Great Tusk|Earthquake|p1a: Volcarona
+|-damage|p1a: Volcarona|70/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-heal|p2a: Great Tusk|62/100|[from] item: Leftovers
+|turn|17
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Great Tusk|Knock Off|p1a: Volcarona
+|-damage|p1a: Volcarona|50/100
+|-enditem|p1a: Volcarona|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-heal|p2a: Great Tusk|68/100|[from] item: Leftovers
+|turn|18
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Volcarona|89/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Bruce Lee|Zapdos, shiny|53/100
+|turn|19
+|
+|-terastallize|p1a: Volcarona|Ground
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Bruce Lee|Thunder Wave|p1a: Volcarona
+|-immune|p1a: Volcarona
+|
+|turn|20
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Bruce Lee
+|-damage|p2a: Bruce Lee|0 fnt
+|faint|p2a: Bruce Lee
+|
+|
+|switch|p2a: Slowking|Slowking-Galar, F, tera:Water|76/100
+|turn|21
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|6/100
+|-heal|p1a: Volcarona|100/100|[from] drain|[of] p2a: Slowking
+|move|p2a: Slowking|Yawn|p1a: Volcarona
+|-start|p1a: Volcarona|move: Yawn|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|12/100|[from] item: Leftovers
+|turn|22
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Slowking|Toxic|p1a: Volcarona
+|-status|p1a: Volcarona|tox
+|
+|-heal|p2a: Slowking|18/100|[from] item: Leftovers
+|-damage|p1a: Volcarona|94/100 tox|[from] psn
+|-end|p1a: Volcarona|move: Yawn|[silent]
+|turn|23
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-heal|p1a: Volcarona|100/100 tox|[from] drain|[of] p2a: Slowking
+|faint|p2a: Slowking
+|
+|-damage|p1a: Volcarona|88/100 tox|[from] psn
+|
+|switch|p2a: Sneasler|Sneasler, F, shiny|95/100
+|turn|24
+|
+|move|p1a: Volcarona|Tera Blast|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-damage|p1a: Volcarona|70/100 tox|[from] psn
+|
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|turn|25
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|win|p1

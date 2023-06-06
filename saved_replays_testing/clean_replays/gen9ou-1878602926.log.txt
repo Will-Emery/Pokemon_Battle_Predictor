@@ -1,0 +1,195 @@
+# advantage = p1
+|poke|p1|Sneasler, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Iron Treads|
+|poke|p1|Volcarona, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Azelf|
+|poke|p2|Sneasler, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Amoonguss, M|
+|teampreview
+|
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p2a: Azelf|Taunt|p1a: Iron Treads
+|-start|p1a: Iron Treads|move: Taunt
+|cant|p1a: Iron Treads|move: Taunt|Stealth Rock
+|
+|turn|2
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: Iron Treads|Iron Head|p2a: Azelf
+|-damage|p2a: Azelf|46/100
+|
+|turn|3
+|
+|move|p2a: Azelf|Explosion|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|64/100
+|faint|p2a: Azelf
+|move|p1a: Iron Treads|Iron Head|p2: Azelf|[notarget]
+|-fail|p1a: Iron Treads
+|
+|-end|p1a: Iron Treads|move: Taunt
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|4
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|-damage|p1a: Sneasler|95/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Sneasler|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|78/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-damage|p1a: Sneasler|78/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|turn|6
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Amoonguss
+|-damage|p2a: Amoonguss|43/100
+|-damage|p1a: Sneasler|61/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|move|p2a: Amoonguss|Spore|p1a: Sneasler
+|-status|p1a: Sneasler|slp|[from] move: Spore
+|
+|turn|7
+|
+|switch|p1a: Volcarona|Volcarona, F|100/100
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Volcarona
+|-damage|p1a: Volcarona|72/100
+|
+|turn|8
+|
+|switch|p2a: Sneasler|Sneasler, F|100/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Sneasler
+|-damage|p2a: Sneasler|46/100
+|-boost|p1a: Volcarona|spa|1
+|
+|turn|9
+|
+|move|p2a: Sneasler|Dire Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|5/100
+|move|p1a: Volcarona|Psychic|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Dragapult|Flamethrower|p1a: Indeedee
+|-damage|p1a: Indeedee|36/100
+|
+|turn|11
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-damage|p1a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|12
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Hatterene
+|-damage|p1a: Hatterene|44/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|8/100
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Dragapult
+|
+|turn|14
+|
+|switch|p2a: Amoonguss|Amoonguss, M|76/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|65/100
+|-damage|p1a: Hatterene|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|-heal|p1a: Hatterene|90/100|[from] item: Leftovers
+|turn|15
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|23/100
+|-unboost|p2a: Amoonguss|spa|1
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|55/100
+|-status|p1a: Hatterene|psn
+|
+|-heal|p1a: Hatterene|61/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|49/100 psn|[from] psn
+|turn|16
+|
+|switch|p2a: Dragapult|Dragapult, M|8/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Hatterene|55/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|43/100 psn|[from] psn
+|
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|17
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-fieldend|move: Psychic Terrain
+|
+|switch|p1a: Sneasler|Sneasler, M|61/100 slp
+|-damage|p1a: Sneasler|55/100 slp|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Volcarona|Volcarona, F|5/100
+|turn|19
+|
+|move|p2a: Chien-Pao|Crunch|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|win|p2

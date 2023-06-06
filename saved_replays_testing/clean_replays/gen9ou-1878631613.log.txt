@@ -1,0 +1,128 @@
+# advantage = p1
+|poke|p1|Zamazenta-*|
+|poke|p1|Basculegion, M|
+|poke|p1|Volcanion|
+|poke|p1|Pelipper, F|
+|poke|p1|Zapdos|
+|poke|p1|Urshifu-*, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Chien-Pao|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|
+|turn|2
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|-hitcount|p2a: Corviknight|3
+|move|p2a: Corviknight|Brave Bird|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|25/100
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p2a: Corviknight
+|
+|
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|3
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|85/100
+|
+|turn|4
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-terastallize|p2a: Zamazenta|Steel
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Pelipper|Hurricane|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
+|turn|6
+|
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Pelipper|Hydro Pump|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|turn|7
+|
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|69/100
+|move|p1a: Pelipper|Hydro Pump|p2a: Zamazenta|[miss]
+|-miss|p1a: Pelipper|p2a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|76/100|[from] item: Leftovers
+|turn|8
+|
+|move|p2a: Zamazenta|Body Press|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|61/100
+|move|p1a: Pelipper|Hydro Pump|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
+|turn|9
+|
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|57/100
+|move|p1a: Pelipper|Hydro Pump|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|63/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Zamazenta|Body Press|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|69/100|[from] item: Leftovers
+|-message|p1 forfeited.
+|
+|win|p2

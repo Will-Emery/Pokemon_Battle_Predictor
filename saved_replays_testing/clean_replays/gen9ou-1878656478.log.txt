@@ -1,0 +1,252 @@
+# advantage = p2
+|poke|p1|Mew|
+|poke|p1|Kleavor, M|
+|poke|p1|Noivern, F|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Dondozo, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Clodsire, F|
+|poke|p2|Breloom, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Braviary-Hisui, M|
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Mew
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|42/100
+|
+|switch|p2a: Braviary|Braviary-Hisui, M, shiny|100/100|[from] U-turn
+|move|p1a: Mew|Taunt|p2a: Braviary
+|-start|p2a: Braviary|move: Taunt
+|
+|-heal|p1a: Mew|48/100|[from] item: Leftovers
+|turn|2
+|
+|move|p1a: Mew|Taunt||[still]
+|-fail|p1a: Mew
+|move|p2a: Braviary|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|turn|3
+|
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Kleavor|Stone Axe|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|71/100
+|-sidestart|p2: p2|move: Stealth Rock
+|
+|-heal|p2a: Clodsire|78/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Clodsire|Yawn|p1a: Dondozo
+|-start|p1a: Dondozo|move: Yawn|[of] p2a: Clodsire
+|
+|-heal|p2a: Clodsire|84/100|[from] item: Leftovers
+|turn|5
+|
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Kleavor
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Clodsire|90/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: Kleavor|Night Slash|p2a: Clodsire
+|-damage|p2a: Clodsire|46/100
+|move|p2a: Clodsire|Earthquake|p1a: Kleavor
+|-damage|p1a: Kleavor|46/100
+|
+|-heal|p2a: Clodsire|52/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: Kleavor|Night Slash|p2a: Clodsire
+|-damage|p2a: Clodsire|10/100
+|move|p2a: Clodsire|Gunk Shot|p1a: Kleavor
+|-resisted|p1a: Kleavor
+|-damage|p1a: Kleavor|17/100
+|-status|p1a: Kleavor|psn
+|
+|-heal|p2a: Clodsire|16/100|[from] item: Leftovers
+|-damage|p1a: Kleavor|4/100 psn|[from] psn
+|turn|8
+|
+|move|p1a: Kleavor|Night Slash|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-damage|p1a: Kleavor|0 fnt|[from] psn
+|faint|p1a: Kleavor
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|switch|p2a: Basculegion|Basculegion, M, shiny|100/100
+|-damage|p1a: Dondozo|88/100|[from] Stealth Rock
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Dondozo|Bitter Malice|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|
+|switch|p2a: Breloom|Breloom, M, shiny|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|-item|p2a: Breloom|Assault Vest|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|move|p2a: Breloom|Bullet Seed|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|94/100
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|88/100
+|-hitcount|p1a: Noivern|2
+|
+|turn|11
+|
+|switch|p2a: Braviary|Braviary-Hisui, M, shiny|100/100
+|move|p1a: Noivern|Draco Meteor|p2a: Braviary
+|-damage|p2a: Braviary|52/100
+|-unboost|p1a: Noivern|spa|2
+|
+|turn|12
+|
+|move|p1a: Noivern|U-turn|p2a: Braviary
+|-damage|p2a: Braviary|40/100
+|
+|switch|p1a: Dondozo|Dondozo, M|100/100|[from] U-turn
+|-damage|p1a: Dondozo|88/100|[from] Stealth Rock
+|move|p2a: Braviary|Esper Wing|p1a: Dondozo
+|-damage|p1a: Dondozo|47/100
+|-boost|p2a: Braviary|spe|1
+|
+|-heal|p1a: Dondozo|53/100|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: Braviary|Esper Wing|p1a: Dondozo
+|-damage|p1a: Dondozo|11/100
+|-boost|p2a: Braviary|spe|1
+|move|p1a: Dondozo|Yawn|p2a: Braviary
+|-start|p2a: Braviary|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|17/100|[from] item: Leftovers
+|turn|14
+|
+|switch|p2a: Breloom|Breloom, M, shiny|94/100
+|-damage|p2a: Breloom|88/100|[from] Stealth Rock
+|switch|p1a: Noivern|Noivern, F|88/100
+|-item|p2a: Breloom|Assault Vest|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|
+|turn|15
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|move|p1a: Noivern|Draco Meteor|p2a: Cinderace
+|-damage|p2a: Cinderace|11/100
+|-unboost|p1a: Noivern|spa|2
+|
+|turn|16
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|58/100
+|move|p1a: Noivern|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|3/100
+|
+|switch|p1a: Zapdos|Zapdos-Galar|100/100|[from] U-turn
+|-damage|p1a: Zapdos|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Zapdos|94/100|[from] item: Leftovers
+|turn|17
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|25/100
+|move|p1a: Zapdos|Trailblaze|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-boost|p1a: Zapdos|spe|1
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Zapdos|31/100|[from] item: Leftovers
+|
+|switch|p2a: Braviary|Braviary-Hisui, M, shiny|40/100
+|turn|18
+|
+|-terastallize|p2a: Braviary|Fairy
+|move|p1a: Zapdos|Brave Bird|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|-damage|p1a: Zapdos|14/100|[from] Recoil
+|
+|-heal|p1a: Zapdos|20/100|[from] item: Leftovers
+|
+|switch|p2a: Breloom|Breloom, M, shiny|88/100
+|-damage|p2a: Breloom|82/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Zapdos|Brave Bird|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|-damage|p1a: Zapdos|0 fnt|[from] Recoil
+|faint|p1a: Zapdos
+|
+|
+|switch|p1a: Dondozo|Dondozo, M|88/100
+|switch|p2a: Chien-Pao|Chien-Pao|100/100
+|-damage|p2a: Chien-Pao|76/100|[from] Stealth Rock
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|-damage|p1a: Dondozo|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|
+|switch|p1a: Noivern|Noivern, F|58/100
+|-item|p2a: Chien-Pao|Focus Sash|[from] ability: Frisk|[of] p1a: Noivern|[identify]
+|turn|21
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Noivern
+|-damage|p1a: Noivern|8/100
+|move|p1a: Noivern|Draco Meteor|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|1/100
+|-unboost|p1a: Noivern|spa|2
+|
+|turn|22
+|
+|move|p2a: Chien-Pao|Acrobatics|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|
+|switch|p1a: Dondozo|Dondozo, M|17/100
+|-damage|p1a: Dondozo|5/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Chien-Pao|Sucker Punch|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|win|p2

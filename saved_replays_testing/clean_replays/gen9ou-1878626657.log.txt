@@ -1,0 +1,235 @@
+# advantage = p2
+|poke|p1|Urshifu-*, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Heatran, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Snowy|Chien-Pao|100/100
+|-ability|p2a: Snowy|Sword of Ruin
+|turn|1
+|
+|move|p2a: Snowy|Sacred Sword|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|5/100
+|move|p1a: Heatran|Magma Storm|p2a: Snowy
+|-supereffective|p2a: Snowy
+|-damage|p2a: Snowy|0 fnt
+|faint|p2a: Snowy
+|
+|-heal|p1a: Heatran|11/100|[from] item: Leftovers
+|
+|switch|p2a: GoodBoi|Zamazenta-Crowned, shiny|100/100
+|-ability|p2a: GoodBoi|Dauntless Shield|boost
+|-boost|p2a: GoodBoi|def|1
+|turn|2
+|
+|move|p2a: GoodBoi|Crunch|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|3
+|
+|move|p2a: GoodBoi|Iron Defense|p2a: GoodBoi
+|-boost|p2a: GoodBoi|def|2
+|move|p1a: Corviknight|Body Press|p2a: GoodBoi
+|-supereffective|p2a: GoodBoi
+|-damage|p2a: GoodBoi|86/100
+|
+|turn|4
+|
+|move|p2a: GoodBoi|Iron Defense|p2a: GoodBoi
+|-boost|p2a: GoodBoi|def|2
+|move|p1a: Corviknight|Body Press|p2a: GoodBoi
+|-supereffective|p2a: GoodBoi
+|-damage|p2a: GoodBoi|76/100
+|
+|turn|5
+|
+|move|p2a: GoodBoi|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|15/100
+|-damage|p2a: GoodBoi|60/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Body Press|p2a: GoodBoi
+|-supereffective|p2a: GoodBoi
+|-damage|p2a: GoodBoi|50/100
+|
+|turn|6
+|
+|move|p2a: GoodBoi|Crunch|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: GoodBoi|33/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: GoodBoi
+|-damage|p2a: GoodBoi|6/100
+|move|p2a: GoodBoi|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|46/100
+|
+|turn|8
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: GoodBoi
+|-damage|p2a: GoodBoi|0 fnt
+|faint|p2a: GoodBoi
+|
+|
+|switch|p2a: Security!|Enamorus, F|100/100
+|turn|9
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Security!|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|62/100
+|
+|-heal|p1a: Slowking|68/100|[from] item: Leftovers
+|turn|10
+|
+|switch|p2a: Beyblade|Great Tusk|100/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Beyblade
+|-resisted|p2a: Beyblade
+|-damage|p2a: Beyblade|80/100
+|
+|-heal|p2a: Beyblade|86/100|[from] item: Leftovers
+|-heal|p1a: Slowking|74/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|move|p2a: Beyblade|Stealth Rock|p1a: Urshifu
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Beyblade|92/100|[from] item: Leftovers
+|turn|12
+|
+|move|p1a: Urshifu|U-turn|p2a: Beyblade
+|-resisted|p2a: Beyblade
+|-damage|p2a: Beyblade|83/100
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|move|p2a: Beyblade|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Beyblade|90/100|[from] item: Leftovers
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|-damage|p1a: Urshifu|94/100|[from] Stealth Rock
+|turn|13
+|
+|-end|p2a: Beyblade|Protosynthesis|[silent]
+|switch|p2a: Peroxide|Volcanion|100/100
+|move|p1a: Urshifu|U-turn|p2a: Peroxide
+|-resisted|p2a: Peroxide
+|-damage|p2a: Peroxide|85/100
+|
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|turn|14
+|
+|move|p2a: Peroxide|Substitute|p2a: Peroxide
+|-start|p2a: Peroxide|Substitute
+|-damage|p2a: Peroxide|60/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Peroxide
+|-end|p2a: Peroxide|Substitute
+|
+|-heal|p1a: Slowking|99/100|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: Peroxide|Steam Eruption|p1a: Slowking
+|-damage|p1a: Slowking|66/100
+|-status|p1a: Slowking|brn
+|move|p1a: Slowking|Sludge Bomb|p2a: Peroxide
+|-damage|p2a: Peroxide|23/100
+|
+|-heal|p1a: Slowking|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowking|66/100 brn|[from] brn
+|turn|16
+|
+|switch|p2a: Beyblade|Great Tusk|90/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Beyblade
+|-resisted|p2a: Beyblade
+|-damage|p2a: Beyblade|68/100
+|
+|-heal|p2a: Beyblade|74/100|[from] item: Leftovers
+|-heal|p1a: Slowking|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowking|66/100 brn|[from] brn
+|turn|17
+|
+|move|p2a: Beyblade|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: Beyblade|80/100|[from] item: Leftovers
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, F|94/100
+|-damage|p1a: Urshifu|88/100|[from] Stealth Rock
+|turn|18
+|
+|-terastallize|p2a: Beyblade|Water
+|move|p1a: Urshifu|Close Combat|p2a: Beyblade
+|-damage|p2a: Beyblade|34/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|move|p2a: Beyblade|Earthquake|p1a: Urshifu
+|-damage|p1a: Urshifu|18/100
+|
+|-heal|p2a: Beyblade|40/100|[from] item: Leftovers
+|turn|19
+|
+|-end|p2a: Beyblade|Protosynthesis|[silent]
+|switch|p2a: Powerline|Thundurus-Therian, M|100/100
+|move|p1a: Urshifu|Close Combat|p2a: Powerline
+|-resisted|p2a: Powerline
+|-damage|p2a: Powerline|32/100
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|
+|turn|20
+|
+|move|p2a: Powerline|Thunderbolt|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|
+|switch|p1a: Dragapult|Dragapult, M|46/100
+|-damage|p1a: Dragapult|33/100|[from] Stealth Rock
+|turn|21
+|
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Shadow Ball|p2a: Powerline
+|-damage|p2a: Powerline|0 fnt
+|faint|p2a: Powerline
+|
+|
+|switch|p2a: Security!|Enamorus, F|100/100
+|turn|22
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Security!
+|-damage|p2a: Security!|38/100
+|move|p2a: Security!|Moonblast|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|p2

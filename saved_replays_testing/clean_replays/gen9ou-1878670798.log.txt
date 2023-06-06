@@ -1,0 +1,62 @@
+# advantage = p2
+|poke|p1|Overqwil, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Floatzel, M|
+|poke|p1|Great Tusk|
+|poke|p2|Sneasler, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Overqwil, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Lokix, M|
+|poke|p2|Volcanion|
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|switch|p2a: Dane|Kleavor, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Dane|Stone Axe|p1a: Pelipper|[miss]
+|-miss|p2a: Dane|p1a: Pelipper
+|move|p1a: Pelipper|Surf|p2a: Dane
+|-supereffective|p2a: Dane
+|-damage|p2a: Dane|0 fnt
+|faint|p2a: Dane
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Goodra|Goodra-Hisui, M, shiny|100/100
+|turn|2
+|
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Goodra|Dragon Tail|p1a: Great Tusk
+|-damage|p1a: Great Tusk|90/100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|drag|p1a: Overqwil|Overqwil, F, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Overqwil|Liquidation|p2a: Volcanion
+|-immune|p2a: Volcanion|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|turn|4
+|
+|move|p1a: Overqwil|Barb Barrage|p2a: Volcanion
+|-damage|p2a: Volcanion|74/100
+|-status|p2a: Volcanion|psn
+|move|p2a: Volcanion|Steam Eruption|p1a: Overqwil
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Volcanion|62/100 psn|[from] psn
+|player|p1|
+|-message|p1 lost due to inactivity.
+|
+|win|p2

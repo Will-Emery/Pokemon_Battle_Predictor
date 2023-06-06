@@ -1,0 +1,235 @@
+# advantage = p2
+|poke|p1|Pawmot, F|
+|poke|p1|Great Tusk|
+|poke|p1|Lokix, M|
+|poke|p1|Gholdengo|
+|poke|p1|Basculegion, M|
+|poke|p1|Ursaluna, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Uxie|
+|poke|p2|Ursaluna, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Farigiraf, M|
+|teampreview
+|
+|start
+|switch|p1a: Eminem|Gholdengo|100/100
+|switch|p2a: Magician|Hatterene, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Eminem|Shadow Ball|p2a: Magician
+|-supereffective|p2a: Magician
+|-enditem|p2a: Magician|Focus Sash
+|-damage|p2a: Magician|1/100
+|move|p2a: Magician|Trick Room|p2a: Magician
+|-fieldstart|move: Trick Room|[of] p2a: Magician
+|
+|turn|2
+|
+|switch|p2a: Death|Ursaluna, F, shiny|100/100
+|move|p1a: Eminem|Shadow Ball|p2a: Death
+|-immune|p2a: Death
+|
+|-status|p2a: Death|brn|[from] item: Flame Orb
+|turn|3
+|
+|switch|p1a: Freedy Slowbear|Ursaluna, F|100/100
+|move|p2a: Death|Headlong Rush|p1a: Freedy Slowbear
+|-damage|p1a: Freedy Slowbear|21/100
+|-unboost|p2a: Death|def|1
+|-unboost|p2a: Death|spd|1
+|
+|-damage|p2a: Death|94/100 brn|[from] brn
+|-status|p1a: Freedy Slowbear|brn|[from] item: Flame Orb
+|turn|4
+|
+|move|p2a: Death|Facade|p1a: Freedy Slowbear
+|-damage|p1a: Freedy Slowbear|0 fnt
+|faint|p1a: Freedy Slowbear
+|
+|-damage|p2a: Death|88/100 brn|[from] brn
+|
+|switch|p1a: Balboa|Pawmot, F|100/100
+|turn|5
+|
+|move|p1a: Balboa|Mach Punch|p2a: Death
+|-supereffective|p2a: Death
+|-damage|p2a: Death|40/100 brn
+|move|p2a: Death|Headlong Rush|p1a: Balboa
+|-supereffective|p1a: Balboa
+|-enditem|p1a: Balboa|Focus Sash
+|-damage|p1a: Balboa|1/100
+|-unboost|p2a: Death|def|1
+|-unboost|p2a: Death|spd|1
+|
+|-damage|p2a: Death|33/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|turn|6
+|
+|switch|p2a: Temperance|Farigiraf, M|100/100
+|move|p1a: Balboa|Mach Punch||[still]
+|cant|p2a: Temperance|ability: Armor Tail|Mach Punch|[of] p1a: Balboa
+|
+|turn|7
+|
+|move|p1a: Balboa|Nuzzle|p2a: Temperance
+|-damage|p2a: Temperance|90/100
+|-status|p2a: Temperance|par
+|move|p2a: Temperance|Hyper Voice|p1a: Balboa
+|-damage|p1a: Balboa|0 fnt
+|faint|p1a: Balboa
+|
+|
+|switch|p1a: Motoqueiro Kamen|Lokix, M|100/100
+|turn|8
+|
+|move|p1a: Motoqueiro Kamen|Throat Chop|p2a: Temperance
+|-supereffective|p2a: Temperance
+|-damage|p2a: Temperance|14/100 par
+|-start|p2a: Temperance|Throat Chop|[silent]
+|-enditem|p2a: Temperance|Sitrus Berry|[eat]
+|-heal|p2a: Temperance|39/100 par|[from] item: Sitrus Berry
+|cant|p2a: Temperance|move: Throat Chop
+|
+|turn|9
+|
+|move|p1a: Motoqueiro Kamen|Throat Chop|p2a: Temperance
+|-supereffective|p2a: Temperance
+|-damage|p2a: Temperance|0 fnt
+|faint|p2a: Temperance
+|
+|
+|switch|p2a: Hermit|Uxie|100/100
+|turn|10
+|
+|move|p1a: Motoqueiro Kamen|Throat Chop|p2a: Hermit
+|-supereffective|p2a: Hermit
+|-enditem|p2a: Hermit|Colbur Berry|[eat]
+|-enditem|p2a: Hermit|Colbur Berry|[weaken]
+|-damage|p2a: Hermit|75/100
+|-start|p2a: Hermit|Throat Chop|[silent]
+|move|p2a: Hermit|Trick Room|p2a: Hermit
+|-fieldstart|move: Trick Room|[of] p2a: Hermit
+|
+|turn|11
+|
+|switch|p2a: Sun|Torkoal, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Sun
+|move|p1a: Motoqueiro Kamen|Swords Dance|p1a: Motoqueiro Kamen
+|-boost|p1a: Motoqueiro Kamen|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|turn|12
+|
+|switch|p1a: RIPlegion|Basculegion, M|100/100
+|-terastallize|p2a: Sun|Fire
+|move|p2a: Sun|Flamethrower|p1a: RIPlegion
+|-resisted|p1a: RIPlegion
+|-damage|p1a: RIPlegion|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|turn|13
+|
+|move|p1a: RIPlegion|Aqua Jet|p2a: Sun
+|-supereffective|p2a: Sun
+|-damage|p2a: Sun|82/100
+|move|p2a: Sun|Flamethrower|p1a: RIPlegion
+|-resisted|p1a: RIPlegion
+|-crit|p1a: RIPlegion
+|-damage|p1a: RIPlegion|0 fnt
+|faint|p1a: RIPlegion
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p1a: Motoqueiro Kamen|Lokix, M|100/100
+|turn|14
+|
+|move|p1a: Motoqueiro Kamen|First Impression|p2a: Sun
+|-resisted|p2a: Sun
+|-damage|p2a: Sun|53/100
+|move|p2a: Sun|Flamethrower|p1a: Motoqueiro Kamen
+|-supereffective|p1a: Motoqueiro Kamen
+|-damage|p1a: Motoqueiro Kamen|0 fnt
+|faint|p1a: Motoqueiro Kamen
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|
+|switch|p1a: Ganon|Great Tusk, shiny|100/100
+|-activate|p1a: Ganon|ability: Protosynthesis
+|-start|p1a: Ganon|protosynthesisatk
+|turn|15
+|
+|move|p1a: Ganon|Headlong Rush|p2a: Sun
+|-supereffective|p2a: Sun
+|-damage|p2a: Sun|0 fnt
+|-unboost|p1a: Ganon|def|1
+|-unboost|p1a: Ganon|spd|1
+|faint|p2a: Sun
+|
+|-weather|none
+|-end|p1a: Ganon|Protosynthesis
+|-enditem|p1a: Ganon|Booster Energy
+|-activate|p1a: Ganon|ability: Protosynthesis|[fromitem]
+|-start|p1a: Ganon|protosynthesisatk
+|
+|switch|p2a: Hermit|Uxie|75/100
+|turn|16
+|
+|move|p1a: Ganon|Iron Head|p2a: Hermit
+|-damage|p2a: Hermit|43/100
+|cant|p2a: Hermit|flinch
+|
+|turn|17
+|
+|move|p1a: Ganon|Iron Head|p2a: Hermit
+|-damage|p2a: Hermit|13/100
+|cant|p2a: Hermit|flinch
+|
+|turn|18
+|
+|switch|p2a: Magician|Hatterene, F, shiny|1/100
+|move|p1a: Ganon|Ice Spinner|p2a: Magician
+|-damage|p2a: Magician|0 fnt
+|faint|p2a: Magician
+|
+|
+|switch|p2a: Hermit|Uxie|13/100
+|turn|19
+|
+|move|p1a: Ganon|Ice Spinner|p2a: Hermit
+|-damage|p2a: Hermit|0 fnt
+|faint|p2a: Hermit
+|
+|
+|switch|p2a: Hanged Man|Braviary-Hisui, M, shiny|100/100
+|turn|20
+|
+|-terastallize|p1a: Ganon|Ground
+|move|p1a: Ganon|Ice Spinner|p2a: Hanged Man
+|-supereffective|p2a: Hanged Man
+|-damage|p2a: Hanged Man|9/100
+|move|p2a: Hanged Man|Psychic|p1a: Ganon
+|-damage|p1a: Ganon|0 fnt
+|faint|p1a: Ganon
+|-end|p1a: Ganon|Protosynthesis|[silent]
+|
+|
+|switch|p1a: Eminem|Gholdengo|100/100
+|turn|21
+|
+|move|p1a: Eminem|Dazzling Gleam|p2a: Hanged Man
+|-damage|p2a: Hanged Man|0 fnt
+|faint|p2a: Hanged Man
+|
+|
+|switch|p2a: Death|Ursaluna, F, shiny|33/100 brn
+|turn|22
+|
+|move|p1a: Eminem|Dazzling Gleam|p2a: Death
+|-damage|p2a: Death|0 fnt
+|faint|p2a: Death
+|
+|win|p1
+|player|p1|p1|petrel

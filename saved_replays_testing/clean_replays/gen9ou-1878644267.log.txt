@@ -1,0 +1,89 @@
+# advantage = p2
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Urshifu-*, M|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p1|Sneasler, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Armarouge, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Polteageist|
+|poke|p2|Volcarona, F|
+|poke|p2|Sneasler, F|
+|teampreview
+|
+|start
+|switch|p1a: Sneasler|Sneasler, M|100/100
+|switch|p2a: Alfred|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Alfred
+|turn|1
+|
+|switch|p2a: Juice Express|Polteageist, shiny|100/100
+|move|p1a: Sneasler|Dire Claw|p2a: Juice Express
+|-resisted|p2a: Juice Express
+|-damage|p2a: Juice Express|68/100
+|-status|p2a: Juice Express|par
+|-ability|p2a: Juice Express|Weak Armor|boost
+|-unboost|p2a: Juice Express|def|1
+|-boost|p2a: Juice Express|spe|2
+|
+|turn|2
+|
+|switch|p2a: Mortar|Armarouge, M, shiny|100/100
+|move|p1a: Sneasler|Toxic Spikes|p2a: Mortar
+|-sidestart|p2: p2|move: Toxic Spikes
+|
+|turn|3
+|
+|move|p1a: Sneasler|Dire Claw|p2a: Mortar
+|-damage|p2a: Mortar|64/100
+|-ability|p2a: Mortar|Weak Armor|boost
+|-unboost|p2a: Mortar|def|1
+|-boost|p2a: Mortar|spe|2
+|move|p2a: Mortar|Expanding Force|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, M|100/100
+|turn|4
+|
+|move|p2a: Mortar|Endure|p2a: Mortar
+|-singleturn|p2a: Mortar|move: Endure
+|move|p1a: Urshifu|Surging Strikes|p2a: Mortar
+|-supereffective|p2a: Mortar
+|-crit|p2a: Mortar
+|-damage|p2a: Mortar|1/100
+|-ability|p2a: Mortar|Weak Armor|boost
+|-unboost|p2a: Mortar|def|1
+|-boost|p2a: Mortar|spe|2
+|-enditem|p2a: Mortar|Weakness Policy
+|-boost|p2a: Mortar|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Mortar|spa|2|[from] item: Weakness Policy
+|-supereffective|p2a: Mortar
+|-crit|p2a: Mortar
+|-activate|p2a: Mortar|move: Endure
+|-damage|p2a: Mortar|1/100
+|-ability|p2a: Mortar|Weak Armor|boost
+|-unboost|p2a: Mortar|def|1
+|-boost|p2a: Mortar|spe|2
+|-supereffective|p2a: Mortar
+|-crit|p2a: Mortar
+|-activate|p2a: Mortar|move: Endure
+|-damage|p2a: Mortar|1/100
+|-ability|p2a: Mortar|Weak Armor|boost
+|-unboost|p2a: Mortar|def|1
+|-hitcount|p2a: Mortar|3
+|
+|turn|5
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Mortar|Expanding Force|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-message|p1 forfeited.
+|
+|win|p2

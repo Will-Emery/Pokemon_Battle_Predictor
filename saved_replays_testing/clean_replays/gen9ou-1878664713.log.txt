@@ -1,0 +1,169 @@
+# advantage = p1
+|poke|p1|Dragapult, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Volcarona, F|
+|poke|p1|Moltres-Galar|
+|poke|p1|Garchomp, F|
+|poke|p1|Sneasler, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Drednaw, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Kleavor, M|
+|teampreview
+|
+|start
+|switch|p1a: dragon pult!|Dragapult, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: dragon pult!|Reflect|p1a: dragon pult!
+|-sidestart|p1: p1|Reflect
+|move|p2a: Tyranitar|Crunch|p1a: dragon pult!
+|-supereffective|p1a: dragon pult!
+|-damage|p1a: dragon pult!|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: dragon pult!|42/100|[from] Sandstorm
+|turn|2
+|
+|move|p1a: dragon pult!|Light Screen|p1a: dragon pult!
+|-sidestart|p1: p1|move: Light Screen
+|move|p2a: Tyranitar|Crunch|p1a: dragon pult!
+|-supereffective|p1a: dragon pult!
+|-damage|p1a: dragon pult!|0 fnt
+|faint|p1a: dragon pult!
+|
+|-weather|Sandstorm|[upkeep]
+|
+|switch|p1a: The Shield|Zamazenta|100/100
+|-ability|p1a: The Shield|Dauntless Shield|boost
+|-boost|p1a: The Shield|def|1
+|turn|3
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: The Shield|Substitute|p1a: The Shield
+|-start|p1a: The Shield|Substitute
+|-damage|p1a: The Shield|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Shield|69/100|[from] Sandstorm
+|-heal|p1a: The Shield|76/100|[from] item: Leftovers
+|turn|4
+|
+|move|p1a: The Shield|Iron Defense|p1a: The Shield
+|-boost|p1a: The Shield|def|2
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Shield|69/100|[from] Sandstorm
+|-heal|p1a: The Shield|76/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: The Shield|Iron Defense|p1a: The Shield
+|-boost|p1a: The Shield|def|2
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-weather|none
+|-heal|p1a: The Shield|82/100|[from] item: Leftovers
+|turn|6
+|
+|move|p1a: The Shield|Iron Defense|p1a: The Shield
+|-boost|p1a: The Shield|def|1
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p1a: The Shield|88/100|[from] item: Leftovers
+|turn|7
+|
+|move|p1a: The Shield|Body Press|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|44/100
+|move|p2a: Garganacl|Body Press|p1a: The Shield
+|-activate|p1a: The Shield|move: Substitute|[damage]
+|
+|-heal|p1a: The Shield|94/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|50/100|[from] item: Leftovers
+|turn|8
+|
+|move|p1a: The Shield|Body Press|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-heal|p1a: The Shield|99/100|[from] item: Leftovers
+|-sideend|p1: p1|Reflect
+|
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|9
+|
+|move|p2a: Kleavor|Stone Axe|p1a: The Shield
+|-resisted|p1a: The Shield
+|-activate|p1a: The Shield|move: Substitute|[damage]
+|-sidestart|p1: p1|move: Stealth Rock
+|move|p1a: The Shield|Body Press|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|-heal|p1a: The Shield|100/100|[from] item: Leftovers
+|-sideend|p1: p1|move: Light Screen
+|
+|switch|p2a: Drednaw|Drednaw, M|100/100
+|turn|10
+|
+|move|p1a: The Shield|Body Press|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-enditem|p2a: Drednaw|Focus Sash
+|-damage|p2a: Drednaw|1/100
+|move|p2a: Drednaw|Liquidation|p1a: The Shield
+|-activate|p1a: The Shield|move: Substitute|[damage]
+|
+|turn|11
+|
+|move|p1a: The Shield|Body Press|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|12
+|
+|move|p1a: The Shield|Body Press|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Shield|94/100|[from] Sandstorm
+|-heal|p1a: The Shield|100/100|[from] item: Leftovers
+|
+|switch|p2a: Arcanine|Arcanine-Hisui, M, shiny|100/100
+|turn|13
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: The Shield
+|-end|p1a: The Shield|Substitute
+|move|p1a: The Shield|Body Press|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: The Shield|94/100|[from] Sandstorm
+|-heal|p1a: The Shield|100/100|[from] item: Leftovers
+|
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|14
+|
+|move|p1a: The Shield|Body Press|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: p1|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|win|p1

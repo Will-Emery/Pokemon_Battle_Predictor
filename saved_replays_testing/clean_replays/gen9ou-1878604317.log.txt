@@ -1,0 +1,225 @@
+# advantage = p2
+|poke|p1|Corviknight, M|
+|poke|p1|Lycanroc, M|
+|poke|p1|Ditto|
+|poke|p1|Hawlucha, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p2|Lokix, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Volcarona, F|
+|poke|p2|Urshifu-*, F|
+|teampreview
+|
+|start
+|switch|p1a: speedo|Lycanroc, M|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, F|100/100
+|turn|1
+|
+|move|p1a: speedo|Stealth Rock|p2a: Urshifu
+|-sidestart|p2: p2|move: Stealth Rock
+|move|p2a: Urshifu|Surging Strikes|p1a: speedo
+|-supereffective|p1a: speedo
+|-crit|p1a: speedo
+|-damage|p1a: speedo|28/100
+|-supereffective|p1a: speedo
+|-crit|p1a: speedo
+|-damage|p1a: speedo|0 fnt
+|faint|p1a: speedo
+|-hitcount|p1: speedo|2
+|
+|
+|switch|p1a: TITTO|Ditto|100/100
+|-transform|p1a: TITTO|p2a: Urshifu|[from] ability: Imposter
+|turn|2
+|
+|move|p1a: TITTO|Surging Strikes|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|87/100
+|-resisted|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|74/100
+|-resisted|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|62/100
+|-hitcount|p2a: Urshifu|3
+|-damage|p1a: TITTO|91/100|[from] item: Life Orb
+|move|p2a: Urshifu|Surging Strikes|p1a: TITTO
+|-resisted|p1a: TITTO
+|-crit|p1a: TITTO
+|-damage|p1a: TITTO|75/100
+|-resisted|p1a: TITTO
+|-crit|p1a: TITTO
+|-damage|p1a: TITTO|60/100
+|-resisted|p1a: TITTO
+|-crit|p1a: TITTO
+|-damage|p1a: TITTO|43/100
+|-hitcount|p1a: TITTO|3
+|
+|turn|3
+|
+|move|p1a: TITTO|Drain Punch|p2a: Urshifu
+|-damage|p2a: Urshifu|10/100
+|-heal|p1a: TITTO|81/100|[from] drain|[of] p2a: Urshifu
+|-damage|p1a: TITTO|71/100|[from] item: Life Orb
+|move|p2a: Urshifu|Drain Punch|p1a: TITTO
+|-damage|p1a: TITTO|8/100
+|-heal|p2a: Urshifu|32/100|[from] drain|[of] p1a: TITTO
+|
+|turn|4
+|
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|-damage|p2a: Cresselia|88/100|[from] Stealth Rock
+|move|p1a: TITTO|Drain Punch|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|72/100
+|-heal|p1a: TITTO|22/100|[from] drain|[of] p2a: Cresselia
+|-damage|p1a: TITTO|13/100|[from] item: Life Orb
+|
+|-heal|p2a: Cresselia|78/100|[from] item: Leftovers
+|turn|5
+|
+|move|p1a: TITTO|Surging Strikes|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|62/100
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|46/100
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|28/100
+|-hitcount|p2a: Cresselia|3
+|-damage|p1a: TITTO|3/100|[from] item: Life Orb
+|move|p2a: Cresselia|Psychic|p1a: TITTO
+|-supereffective|p1a: TITTO
+|-damage|p1a: TITTO|0 fnt
+|faint|p1a: TITTO
+|
+|-heal|p2a: Cresselia|34/100|[from] item: Leftovers
+|
+|switch|p1a: Pala(x3) hé(3) pa|Hawlucha, F|100/100
+|turn|6
+|
+|move|p1a: Pala(x3) hé(3) pa|Swords Dance|p1a: Pala(x3) hé(3) pa
+|-boost|p1a: Pala(x3) hé(3) pa|atk|2
+|move|p2a: Cresselia|Moonblast|p1a: Pala(x3) hé(3) pa
+|-supereffective|p1a: Pala(x3) hé(3) pa
+|-damage|p1a: Pala(x3) hé(3) pa|29/100
+|
+|-heal|p2a: Cresselia|40/100|[from] item: Leftovers
+|turn|7
+|
+|-terastallize|p1a: Pala(x3) hé(3) pa|Flying
+|move|p1a: Pala(x3) hé(3) pa|Acrobatics|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|
+|switch|p2a: Lokix|Lokix, F|100/100
+|-damage|p2a: Lokix|75/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Lokix|First Impression|p1a: Pala(x3) hé(3) pa
+|-resisted|p1a: Pala(x3) hé(3) pa
+|-damage|p1a: Pala(x3) hé(3) pa|0 fnt
+|faint|p1a: Pala(x3) hé(3) pa
+|-damage|p2a: Lokix|66/100|[from] item: Life Orb
+|
+|
+|switch|p1a: petie oiseaux oz|Corviknight, M|100/100
+|-ability|p1a: petie oiseaux oz|Unnerve
+|turn|9
+|
+|move|p2a: Lokix|U-turn|p1a: petie oiseaux oz
+|-resisted|p1a: petie oiseaux oz
+|-damage|p1a: petie oiseaux oz|82/100
+|-damage|p2a: Lokix|56/100|[from] item: Life Orb
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from] U-turn
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: petie oiseaux oz|Agility|p1a: petie oiseaux oz
+|-boost|p1a: petie oiseaux oz|spe|2
+|
+|-heal|p1a: petie oiseaux oz|88/100|[from] item: Leftovers
+|turn|10
+|
+|move|p1a: petie oiseaux oz|Bulk Up|p1a: petie oiseaux oz
+|-boost|p1a: petie oiseaux oz|atk|1
+|-boost|p1a: petie oiseaux oz|def|1
+|move|p2a: Corviknight|Defog|p1a: petie oiseaux oz
+|-unboost|p1a: petie oiseaux oz|evasion|1
+|-sideend|p2: p2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p1a: petie oiseaux oz|95/100|[from] item: Leftovers
+|turn|11
+|
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: petie oiseaux oz|Bulk Up|p1a: petie oiseaux oz
+|-boost|p1a: petie oiseaux oz|atk|1
+|-boost|p1a: petie oiseaux oz|def|1
+|
+|-heal|p1a: petie oiseaux oz|100/100|[from] item: Leftovers
+|turn|12
+|
+|-terastallize|p2a: Garganacl|Ghost
+|move|p1a: petie oiseaux oz|Agility|p1a: petie oiseaux oz
+|-boost|p1a: petie oiseaux oz|spe|2
+|move|p2a: Garganacl|Salt Cure|p1a: petie oiseaux oz
+|-damage|p1a: petie oiseaux oz|94/100
+|-start|p1a: petie oiseaux oz|Salt Cure
+|
+|-heal|p1a: petie oiseaux oz|99/100|[from] item: Leftovers
+|-damage|p1a: petie oiseaux oz|75/100|[from] Salt Cure
+|turn|13
+|
+|move|p1a: petie oiseaux oz|Bulk Up|p1a: petie oiseaux oz
+|-boost|p1a: petie oiseaux oz|atk|1
+|-boost|p1a: petie oiseaux oz|def|1
+|move|p2a: Garganacl|Curse|p1a: petie oiseaux oz
+|-start|p1a: petie oiseaux oz|Curse|[of] p2a: Garganacl
+|-damage|p2a: Garganacl|50/100
+|
+|-heal|p1a: petie oiseaux oz|82/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|57/100|[from] item: Leftovers
+|-damage|p1a: petie oiseaux oz|57/100|[from] Curse
+|-damage|p1a: petie oiseaux oz|32/100|[from] Salt Cure
+|turn|14
+|
+|move|p1a: petie oiseaux oz|Roost|p1a: petie oiseaux oz
+|-heal|p1a: petie oiseaux oz|82/100
+|-singleturn|p1a: petie oiseaux oz|move: Roost
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: petie oiseaux oz|88/100|[from] item: Leftovers
+|-damage|p1a: petie oiseaux oz|63/100|[from] Curse
+|-damage|p1a: petie oiseaux oz|38/100|[from] Salt Cure
+|turn|15
+|
+|move|p1a: petie oiseaux oz|Roost|p1a: petie oiseaux oz
+|-heal|p1a: petie oiseaux oz|88/100
+|-singleturn|p1a: petie oiseaux oz|move: Roost
+|move|p2a: Garganacl|Body Press|p1a: petie oiseaux oz
+|-supereffective|p1a: petie oiseaux oz
+|-damage|p1a: petie oiseaux oz|72/100
+|
+|-heal|p1a: petie oiseaux oz|78/100|[from] item: Leftovers
+|-damage|p1a: petie oiseaux oz|53/100|[from] Curse
+|-damage|p1a: petie oiseaux oz|28/100|[from] Salt Cure
+|turn|16
+|
+|move|p1a: petie oiseaux oz|Roost|p1a: petie oiseaux oz
+|-heal|p1a: petie oiseaux oz|78/100
+|-singleturn|p1a: petie oiseaux oz|move: Roost
+|move|p2a: Garganacl|Body Press|p1a: petie oiseaux oz
+|-supereffective|p1a: petie oiseaux oz
+|-crit|p1a: petie oiseaux oz
+|-damage|p1a: petie oiseaux oz|15/100
+|
+|-heal|p1a: petie oiseaux oz|21/100|[from] item: Leftovers
+|-damage|p1a: petie oiseaux oz|0 fnt|[from] Curse
+|faint|p1a: petie oiseaux oz
+|-message|p1 forfeited.
+|
+|win|p2

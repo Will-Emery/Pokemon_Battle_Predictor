@@ -1,0 +1,170 @@
+# advantage = p2
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Chien-Pao|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos|
+|poke|p1|Ursaluna, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Treads|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Floatzel, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|-terastallize|p1a: Zapdos|Water
+|move|p1a: Zapdos|Tera Blast|p2a: Thundurus
+|-damage|p2a: Thundurus|24/100
+|
+|-weather|RainDance|[upkeep]
+|turn|2
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Thundurus|Focus Blast|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|turn|3
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Floatzel|Floatzel, M|100/100
+|turn|4
+|
+|switch|p1a: Zapdos|Zapdos, tera:Water|100/100
+|-terastallize|p2a: Floatzel|Water
+|move|p2a: Floatzel|Liquidation|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|42/100
+|-status|p2a: Floatzel|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zapdos|48/100|[from] item: Leftovers
+|turn|5
+|
+|move|p2a: Floatzel|Liquidation|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|6
+|
+|move|p1a: Gholdengo|Shadow Ball|p2a: Floatzel
+|-damage|p2a: Floatzel|20/100 par
+|-unboost|p2a: Floatzel|spd|1
+|move|p2a: Floatzel|Liquidation|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|7
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Floatzel
+|-damage|p2a: Floatzel|0 fnt
+|faint|p2a: Floatzel
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|8
+|
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|75/100
+|
+|-weather|none
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|turn|9
+|
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ursaluna|Facade|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|69/100 brn|[from] brn
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|10
+|
+|move|p2a: Basculegion|Surf|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|11
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Dragapult|Hex|p2a: Tornadus
+|-damage|p2a: Tornadus|53/100
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|turn|12
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Tornadus
+|-status|p2a: Tornadus|brn
+|move|p2a: Tornadus|Hurricane|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100
+|-start|p1a: Dragapult|confusion
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Tornadus|47/100 brn|[from] brn
+|turn|13
+|
+|-activate|p1a: Dragapult|confusion
+|move|p1a: Dragapult|Hex|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|-damage|p1a: Dragapult|8/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|turn|14
+|
+|move|p2a: Basculegion|Surf|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|
+|switch|p1a: Chien-Pao|Chien-Pao|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|15
+|
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Chien-Pao|Sacred Sword|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|4/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|10/100|[from] item: Leftovers
+|turn|16
+|-message|p2 forfeited.
+|
+|win|p1

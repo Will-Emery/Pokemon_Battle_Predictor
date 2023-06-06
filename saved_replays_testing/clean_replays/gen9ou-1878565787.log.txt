@@ -1,0 +1,51 @@
+# advantage = p1
+|poke|p1|Basculegion-F, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Scream Tail|
+|poke|p1|Garganacl, F|
+|poke|p1|Zapdos|
+|poke|p1|Maushold|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|start
+|switch|p1a: Zamazenta|Zamazenta-Crowned|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Zamazenta|Crunch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|14/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|
+|turn|2
+|
+|move|p1a: Zamazenta|Crunch|p2a: Zoroark
+|-supereffective|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|3
+|
+|move|p1a: Zamazenta|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-message|p2 forfeited.
+|
+|win|p1

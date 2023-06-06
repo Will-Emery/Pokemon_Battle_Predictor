@@ -1,0 +1,221 @@
+# advantage = p1
+|poke|p1|Iron Treads|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Mew|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Quagsire, M|
+|poke|p2|Gholdengo|
+|poke|p2|Zapdos|
+|poke|p2|Zamazenta-*|
+|poke|p2|Great Tusk|
+|poke|p2|Volcanion|
+|poke|p2|Ting-Lu|
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|move|p1a: Mew|Will-O-Wisp|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|brn
+|move|p2a: Ting-Lu|Ruination|p1a: Mew
+|-damage|p1a: Mew|50/100
+|
+|-damage|p2a: Ting-Lu|94/100 brn|[from] brn
+|turn|2
+|
+|move|p1a: Mew|Stealth Rock|p2a: Ting-Lu
+|-sidestart|p2: p2|move: Stealth Rock
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Mew
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|94/100 brn|[from] brn
+|turn|3
+|
+|move|p1a: Mew|Toxic Spikes|p2a: Ting-Lu
+|-sidestart|p2: p2|move: Toxic Spikes
+|move|p2a: Ting-Lu|Spikes|p1a: Mew
+|-sidestart|p1: p1|Spikes
+|
+|-heal|p2a: Ting-Lu|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|94/100 brn|[from] brn
+|turn|4
+|
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-status|p2a: Great Tusk|psn
+|move|p1a: Mew|Toxic Spikes|p2a: Great Tusk
+|-sidestart|p2: p2|move: Toxic Spikes
+|
+|-damage|p2a: Great Tusk|85/100 psn|[from] psn
+|turn|5
+|
+|-terastallize|p1a: Mew|Ghost
+|move|p1a: Mew|Brick Break|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|67/100 psn
+|move|p2a: Great Tusk|Headlong Rush|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Mew
+|
+|-damage|p2a: Great Tusk|54/100 psn|[from] psn
+|
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|-damage|p1a: Electrode|88/100|[from] Stealth Rock
+|-damage|p1a: Electrode|76/100|[from] Spikes
+|turn|6
+|
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Electrode|Giga Drain|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|85/100
+|-heal|p1a: Electrode|87/100|[from] drain|[of] p2a: Zapdos
+|
+|turn|7
+|
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|-damage|p1a: Iron Treads|97/100|[from] Stealth Rock
+|-damage|p1a: Iron Treads|85/100|[from] Spikes
+|move|p2a: Zapdos|Hurricane|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|50/100
+|-start|p1a: Iron Treads|confusion
+|
+|turn|8
+|
+|switch|p2a: Great Tusk|Great Tusk|54/100 psn
+|-damage|p2a: Great Tusk|51/100 psn|[from] Stealth Rock
+|-activate|p1a: Iron Treads|confusion
+|-damage|p1a: Iron Treads|39/100|[from] confusion
+|
+|-damage|p2a: Great Tusk|39/100 psn|[from] psn
+|turn|9
+|
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-damage|p1a: Typhlosion|76/100|[from] Stealth Rock
+|-damage|p1a: Typhlosion|64/100|[from] Spikes
+|move|p2a: Great Tusk|Rapid Spin|p1a: Typhlosion
+|-immune|p1a: Typhlosion
+|
+|-damage|p2a: Great Tusk|26/100 psn|[from] psn
+|turn|10
+|
+|move|p1a: Typhlosion|Infernal Parade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|
+|switch|p2a: Ting-Lu|Ting-Lu|94/100 brn
+|-damage|p2a: Ting-Lu|88/100 brn|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|11
+|
+|switch|p1a: Iron Treads|Iron Treads|39/100
+|-damage|p1a: Iron Treads|36/100|[from] Stealth Rock
+|-damage|p1a: Iron Treads|24/100|[from] Spikes
+|move|p2a: Ting-Lu|Spikes|p1a: Iron Treads
+|-sidestart|p1: p1|Spikes
+|
+|-heal|p2a: Ting-Lu|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|88/100 brn|[from] brn
+|turn|12
+|
+|-terastallize|p2a: Ting-Lu|Ghost
+|move|p1a: Iron Treads|Knock Off|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|55/100 brn
+|-enditem|p2a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Ting-Lu|Whirlwind|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|drag|p1a: Electrode|Electrode-Hisui|87/100
+|-damage|p1a: Electrode|75/100|[from] Stealth Rock
+|-damage|p1a: Electrode|58/100|[from] Spikes
+|
+|-damage|p2a: Ting-Lu|49/100 brn|[from] brn
+|turn|13
+|
+|switch|p2a: Zapdos|Zapdos|85/100
+|move|p1a: Electrode|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|51/100
+|
+|turn|14
+|
+|move|p1a: Electrode|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|25/100
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100|[from] Volt Switch
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|76/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|turn|15
+|
+|switch|p2a: Zamazenta|Zamazenta-Crowned|100/100
+|-damage|p2a: Zamazenta|98/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Quagsire|Spikes|p2a: Zamazenta
+|-sidestart|p2: p2|Spikes
+|
+|turn|16
+|
+|switch|p1a: Iron Treads|Iron Treads|24/100
+|-damage|p1a: Iron Treads|21/100|[from] Stealth Rock
+|-damage|p1a: Iron Treads|4/100|[from] Spikes
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|turn|17
+|
+|move|p2a: Zamazenta|Crunch|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Zamazenta|Heavy Slam|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|8/100
+|move|p1a: Enamorus|Earth Power|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|55/100
+|
+|-heal|p1a: Enamorus|14/100|[from] item: Leftovers
+|turn|19
+|
+|move|p2a: Zamazenta|Heavy Slam|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|
+|switch|p1a: Electrode|Electrode-Hisui|58/100
+|-damage|p1a: Electrode|46/100|[from] Stealth Rock
+|-damage|p1a: Electrode|30/100|[from] Spikes
+|turn|20
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Zamazenta
+|-damage|p2a: Zamazenta|29/100
+|move|p2a: Zamazenta|Crunch|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|-message|p1 forfeited.
+|
+|win|p2

@@ -1,0 +1,225 @@
+|j|☆djk0190
+|j|☆drainstorM11
+|t:|1686012101
+|gametype|singles
+|player|p1|djk0190|brycenman|
+|player|p2|drainstorM11|erika|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Cloyster, M|
+|poke|p1|Mudsdale, F|
+|poke|p1|Dragalge, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Greninja, F|
+|poke|p2|Scizor, M|
+|poke|p2|Iron Treads|
+|poke|p2|Kilowattrel, F|
+|teampreview
+|
+|t:|1686012132
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|switch|p2a: Rocket|Scizor, M|100/100
+|turn|1
+|
+|t:|1686012144
+|move|p2a: Rocket|Bullet Punch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|1/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M, shiny
+|-end|p1a: Zoroark|Illusion
+|-damage|p2a: Rocket|91/100|[from] item: Life Orb
+|move|p1a: Zoroark|Flamethrower|p2a: Rocket
+|-supereffective|p2a: Rocket
+|-damage|p2a: Rocket|0 fnt
+|faint|p2a: Rocket
+|
+|upkeep
+|
+|t:|1686012169
+|switch|p2a: Threads|Iron Treads|100/100
+|-enditem|p2a: Threads|Booster Energy
+|-activate|p2a: Threads|ability: Quark Drive|[fromitem]
+|-start|p2a: Threads|quarkdriveatk
+|turn|2
+|
+|t:|1686012177
+|move|p2a: Threads|Knock Off|p1a: Zoroark
+|-supereffective|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|-enditem|p1a: Zoroark|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Threads
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1686012210
+|switch|p1a: Mudsdale|Mudsdale, F|100/100
+|turn|3
+|
+|t:|1686012218
+|move|p2a: Threads|Ice Spinner|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|34/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Superpower|p2a: Threads
+|-supereffective|p2a: Threads
+|-damage|p2a: Threads|13/100
+|-unboost|p1a: Mudsdale|atk|1
+|-unboost|p1a: Mudsdale|def|1
+|-damage|p1a: Mudsdale|24/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1686012235
+|move|p2a: Threads|Knock Off|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|-enditem|p1a: Mudsdale|Life Orb|[from] move: Knock Off|[of] p2a: Threads
+|faint|p1a: Mudsdale
+|
+|upkeep
+|
+|t:|1686012243
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|5
+|
+|t:|1686012252
+|move|p2a: Threads|Knock Off|p1a: Cloyster
+|-damage|p1a: Cloyster|69/100
+|-enditem|p1a: Cloyster|Choice Band|[from] move: Knock Off|[of] p2a: Threads
+|move|p1a: Cloyster|Icicle Spear|p2a: Threads
+|-damage|p2a: Threads|4/100
+|-damage|p2a: Threads|0 fnt
+|faint|p2a: Threads
+|-end|p2a: Threads|Quark Drive|[silent]
+|-hitcount|p2: Threads|2
+|
+|upkeep
+|
+|t:|1686012267
+|switch|p2a: Lil Pecker|Kilowattrel, F|100/100
+|turn|6
+|
+|t:|1686012274
+|move|p2a: Lil Pecker|Volt Switch|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|t:|1686012281
+|switch|p2a: Dragonitenite|Dragonite, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1686012287
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|7
+|
+|t:|1686012294
+|-terastallize|p2a: Dragonitenite|Normal
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: djk0190|Reflect
+|move|p2a: Dragonitenite|Dragon Dance|p2a: Dragonitenite
+|-boost|p2a: Dragonitenite|atk|1
+|-boost|p2a: Dragonitenite|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1686012301
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|67/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Dragonitenite
+|-status|p2a: Dragonitenite|par
+|
+|upkeep
+|turn|9
+|
+|t:|1686012307
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: djk0190|move: Light Screen
+|move|p2a: Dragonitenite|Dragon Dance|p2a: Dragonitenite
+|-boost|p2a: Dragonitenite|atk|1
+|-boost|p2a: Dragonitenite|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1686012315
+|move|p1a: Grimmsnarl|Protect|p1a: Grimmsnarl
+|-singleturn|p1a: Grimmsnarl|Protect
+|move|p2a: Dragonitenite|Dragon Dance|p2a: Dragonitenite
+|-boost|p2a: Dragonitenite|atk|1
+|-boost|p2a: Dragonitenite|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1686012323
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Dragalge
+|-damage|p1a: Dragalge|48/100
+|
+|upkeep
+|turn|12
+|
+|t:|1686012331
+|cant|p2a: Dragonitenite|par
+|move|p1a: Dragalge|Draco Meteor|p2a: Dragonitenite
+|-damage|p2a: Dragonitenite|57/100 par
+|-unboost|p1a: Dragalge|spa|2
+|
+|upkeep
+|turn|13
+|
+|t:|1686012338
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Azumarill
+|-damage|p1a: Azumarill|30/100
+|
+|upkeep
+|turn|14
+|
+|t:|1686012345
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-sideend|p1: djk0190|Reflect
+|upkeep
+|
+|t:|1686012351
+|switch|p1a: Dragalge|Dragalge, F|48/100
+|turn|15
+|
+|t:|1686012355
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+|
+|t:|1686012360
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|67/100
+|turn|16
+|
+|t:|1686012364
+|move|p2a: Dragonitenite|Extreme Speed|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|win|drainstorM11

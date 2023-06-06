@@ -1,0 +1,336 @@
+# advantage = p1
+|poke|p1|Skuntank, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Scovillain, M|
+|poke|p1|Slither Wing|
+|poke|p1|Florges, F|
+|poke|p1|Tatsugiri, F|
+|poke|p2|Gallade, M|
+|poke|p2|Drednaw, M|
+|poke|p2|Masquerain, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Raichu, M|
+|poke|p2|Farigiraf, F|
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: July|Masquerain, F|100/100
+|-ability|p2a: July|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: July|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|97/100
+|
+|switch|p2a: Pressing Fissure|Ting-Lu|100/100|[from] U-turn
+|-ability|p2a: Pressing Fissure|Vessel of Ruin
+|move|p1a: Torkoal|Lava Plume|p2a: Pressing Fissure
+|-damage|p2a: Pressing Fissure|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pressing Fissure|91/100|[from] item: Leftovers
+|turn|2
+|
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-item|p1a: Skuntank|Air Balloon
+|move|p2a: Pressing Fissure|Earthquake|p1a: Skuntank
+|-immune|p1a: Skuntank
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pressing Fissure|97/100|[from] item: Leftovers
+|turn|3
+|
+|move|p1a: Skuntank|Taunt|p2a: Pressing Fissure
+|-start|p2a: Pressing Fissure|move: Taunt
+|cant|p2a: Pressing Fissure|move: Taunt|Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pressing Fissure|100/100|[from] item: Leftovers
+|turn|4
+|
+|switch|p2a: July|Masquerain, F|100/100
+|-ability|p2a: July|Intimidate|boost
+|-unboost|p1a: Skuntank|atk|1
+|move|p1a: Skuntank|Toxic Spikes|p2a: July
+|-sidestart|p2: p2|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|turn|5
+|
+|switch|p1a: Florges|Florges, F|100/100
+|move|p2a: July|Air Slash|p1a: Florges|[miss]
+|-miss|p2a: July|p1a: Florges
+|
+|-weather|SunnyDay|[upkeep]
+|turn|6
+|
+|move|p2a: July|U-turn|p1a: Florges
+|-resisted|p1a: Florges
+|-crit|p1a: Florges
+|-damage|p1a: Florges|86/100
+|
+|switch|p2a: Zeus|Raichu, M, shiny|100/100|[from] U-turn
+|-status|p2a: Zeus|psn
+|move|p1a: Florges|Moonblast|p2a: Zeus
+|-damage|p2a: Zeus|44/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Florges|92/100|[from] item: Leftovers
+|-damage|p2a: Zeus|32/100 psn|[from] psn
+|turn|7
+|
+|move|p1a: Florges|Protect|p1a: Florges
+|-singleturn|p1a: Florges|Protect
+|move|p2a: Zeus|Nuzzle|p1a: Florges
+|-activate|p1a: Florges|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Florges|98/100|[from] item: Leftovers
+|-damage|p2a: Zeus|19/100 psn|[from] psn
+|turn|8
+|
+|move|p2a: Zeus|Nuzzle|p1a: Florges
+|-damage|p1a: Florges|87/100
+|-status|p1a: Florges|par
+|cant|p1a: Florges|par
+|
+|-weather|none
+|-heal|p1a: Florges|93/100 par|[from] item: Leftovers
+|-damage|p2a: Zeus|7/100 psn|[from] psn
+|turn|9
+|
+|switch|p2a: July|Masquerain, F|100/100
+|-ability|p2a: July|Intimidate|boost
+|-unboost|p1a: Florges|atk|1
+|cant|p1a: Florges|par
+|
+|-heal|p1a: Florges|99/100 par|[from] item: Leftovers
+|turn|10
+|
+|move|p2a: July|Air Slash|p1a: Florges
+|-damage|p1a: Florges|87/100 par
+|move|p1a: Florges|Moonblast|p2a: July
+|-damage|p2a: July|59/100
+|
+|-heal|p1a: Florges|93/100 par|[from] item: Leftovers
+|turn|11
+|
+|move|p2a: July|Air Slash|p1a: Florges
+|-damage|p1a: Florges|78/100 par
+|move|p1a: Florges|Moonblast|p2a: July
+|-damage|p2a: July|22/100
+|
+|-heal|p1a: Florges|84/100 par|[from] item: Leftovers
+|turn|12
+|
+|move|p2a: July|Air Slash|p1a: Florges
+|-damage|p1a: Florges|72/100 par
+|cant|p1a: Florges|par
+|
+|-heal|p1a: Florges|78/100 par|[from] item: Leftovers
+|turn|13
+|
+|move|p2a: July|Air Slash|p1a: Florges
+|-damage|p1a: Florges|64/100 par
+|cant|p1a: Florges|flinch
+|
+|-heal|p1a: Florges|70/100 par|[from] item: Leftovers
+|turn|14
+|
+|move|p1a: Florges|Protect|p1a: Florges
+|-singleturn|p1a: Florges|Protect
+|move|p2a: July|Air Slash|p1a: Florges
+|-activate|p1a: Florges|move: Protect
+|
+|-heal|p1a: Florges|76/100 par|[from] item: Leftovers
+|turn|15
+|
+|move|p2a: July|Air Slash|p1a: Florges
+|-damage|p1a: Florges|62/100 par
+|move|p1a: Florges|Moonblast|p2a: July
+|-damage|p2a: July|0 fnt
+|faint|p2a: July
+|
+|-heal|p1a: Florges|69/100 par|[from] item: Leftovers
+|
+|switch|p2a: Typhoon|Drednaw, M|100/100
+|-status|p2a: Typhoon|psn
+|turn|16
+|
+|switch|p1a: Torkoal|Torkoal, M|97/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Typhoon|Shell Smash|p2a: Typhoon
+|-unboost|p2a: Typhoon|def|1
+|-unboost|p2a: Typhoon|spd|1
+|-boost|p2a: Typhoon|atk|2
+|-boost|p2a: Typhoon|spa|2
+|-boost|p2a: Typhoon|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Typhoon|88/100 psn|[from] psn
+|turn|17
+|
+|-terastallize|p2a: Typhoon|Dragon
+|-terastallize|p1a: Torkoal|Ground
+|move|p2a: Typhoon|Rock Slide|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|74/100
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam
+|-anim|p1a: Torkoal|Solar Beam|p2a: Typhoon
+|-resisted|p2a: Typhoon
+|-damage|p2a: Typhoon|63/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Typhoon|51/100 psn|[from] psn
+|turn|18
+|
+|move|p2a: Typhoon|Earthquake|p1a: Torkoal
+|-damage|p1a: Torkoal|36/100
+|move|p1a: Torkoal|Lava Plume|p2a: Typhoon
+|-resisted|p2a: Typhoon
+|-damage|p2a: Typhoon|9/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Typhoon|0 fnt|[from] psn
+|faint|p2a: Typhoon
+|
+|switch|p2a: Pressing Fissure|Ting-Lu|100/100
+|-status|p2a: Pressing Fissure|psn
+|-ability|p2a: Pressing Fissure|Vessel of Ruin
+|turn|19
+|
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-item|p1a: Skuntank|Air Balloon
+|move|p2a: Pressing Fissure|Protect||[still]
+|-fail|p2a: Pressing Fissure
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Pressing Fissure|88/100 psn|[from] psn
+|turn|20
+|
+|move|p1a: Skuntank|Taunt|p2a: Pressing Fissure
+|-start|p2a: Pressing Fissure|move: Taunt
+|cant|p2a: Pressing Fissure|move: Taunt|Whirlwind
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pressing Fissure|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Pressing Fissure|82/100 psn|[from] psn
+|turn|21
+|
+|switch|p2a: Valor|Gallade, M, shiny|100/100
+|-status|p2a: Valor|psn
+|move|p1a: Skuntank|Crunch|p2a: Valor
+|-damage|p2a: Valor|39/100 psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Valor|26/100 psn|[from] psn
+|turn|22
+|
+|move|p1a: Skuntank|Sucker Punch|p2a: Valor
+|-damage|p2a: Valor|0 fnt
+|faint|p2a: Valor
+|
+|-weather|SunnyDay|[upkeep]
+|
+|switch|p2a: Zeus|Raichu, M, shiny|7/100 psn
+|turn|23
+|
+|switch|p1a: Tatsugiri|Tatsugiri, F|100/100
+|move|p2a: Zeus|Volt Switch|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|70/100
+|
+|switch|p2a: Elia|Farigiraf, F|100/100|[from] Volt Switch
+|-status|p2a: Elia|psn
+|
+|-weather|none
+|-damage|p2a: Elia|88/100 psn|[from] psn
+|turn|24
+|
+|move|p1a: Tatsugiri|Memento|p2a: Elia
+|-unboost|p2a: Elia|atk|2
+|-unboost|p2a: Elia|spa|2
+|faint|p1a: Tatsugiri
+|move|p2a: Elia|Dazzling Gleam|p1: Tatsugiri|[notarget]
+|-fail|p2a: Elia
+|
+|-damage|p2a: Elia|76/100 psn|[from] psn
+|
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|turn|25
+|
+|switch|p2a: Zeus|Raichu, M, shiny|7/100 psn
+|move|p1a: Slither Wing|Substitute|p1a: Slither Wing
+|-start|p1a: Slither Wing|Substitute
+|-damage|p1a: Slither Wing|76/100
+|
+|-heal|p1a: Slither Wing|82/100|[from] item: Leftovers
+|-damage|p2a: Zeus|0 fnt|[from] psn
+|faint|p2a: Zeus
+|
+|switch|p2a: Pressing Fissure|Ting-Lu|82/100 psn
+|-ability|p2a: Pressing Fissure|Vessel of Ruin
+|turn|26
+|
+|move|p1a: Slither Wing|Leech Life|p2a: Pressing Fissure
+|-supereffective|p2a: Pressing Fissure
+|-damage|p2a: Pressing Fissure|33/100 psn
+|-heal|p1a: Slither Wing|100/100|[from] drain|[of] p2a: Pressing Fissure
+|move|p2a: Pressing Fissure|Whirlwind|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|drag|p1a: Florges|Florges, F|69/100 par
+|
+|-heal|p2a: Pressing Fissure|40/100 psn|[from] item: Leftovers
+|-heal|p1a: Florges|75/100 par|[from] item: Leftovers
+|-damage|p2a: Pressing Fissure|27/100 psn|[from] psn
+|turn|27
+|
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|-item|p1a: Skuntank|Air Balloon
+|move|p2a: Pressing Fissure|Stealth Rock|p1a: Skuntank
+|-sidestart|p1: p1|move: Stealth Rock
+|
+|-heal|p2a: Pressing Fissure|33/100 psn|[from] item: Leftovers
+|-damage|p2a: Pressing Fissure|21/100 psn|[from] psn
+|turn|28
+|
+|move|p1a: Skuntank|Taunt|p2a: Pressing Fissure
+|-start|p2a: Pressing Fissure|move: Taunt
+|cant|p2a: Pressing Fissure|move: Taunt|Whirlwind
+|
+|-heal|p2a: Pressing Fissure|27/100 psn|[from] item: Leftovers
+|-damage|p2a: Pressing Fissure|15/100 psn|[from] psn
+|turn|29
+|
+|switch|p2a: Elia|Farigiraf, F|76/100 psn
+|move|p1a: Skuntank|Crunch|p2a: Elia
+|-supereffective|p2a: Elia
+|-damage|p2a: Elia|3/100 psn
+|
+|-damage|p2a: Elia|0 fnt|[from] psn
+|faint|p2a: Elia
+|
+|switch|p2a: Pressing Fissure|Ting-Lu|15/100 psn
+|-ability|p2a: Pressing Fissure|Vessel of Ruin
+|turn|30
+|
+|move|p1a: Skuntank|Taunt|p2a: Pressing Fissure
+|-start|p2a: Pressing Fissure|move: Taunt
+|move|p2a: Pressing Fissure|Earthquake|p1a: Skuntank
+|-immune|p1a: Skuntank
+|
+|-heal|p2a: Pressing Fissure|21/100 psn|[from] item: Leftovers
+|-damage|p2a: Pressing Fissure|8/100 psn|[from] psn
+|turn|31
+|
+|move|p1a: Skuntank|Crunch|p2a: Pressing Fissure
+|-resisted|p2a: Pressing Fissure
+|-crit|p2a: Pressing Fissure
+|-damage|p2a: Pressing Fissure|0 fnt
+|faint|p2a: Pressing Fissure
+|
+|win|p1
+|player|p1|p1|170
