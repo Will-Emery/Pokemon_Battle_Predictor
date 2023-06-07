@@ -1,5 +1,5 @@
 """Module: process_clean_replays.py
-This file contains functions for processing and cleaning replays. This includes removing the turn number, removing the player names, and removing the pokemon names."""
+This file contains functions for processing and cleaning replays. This includes removing the turn number, removing the player names, and removing the pokemon nicknames."""
 from file_io import write_to_file, get_file_contents
 import os
 import re

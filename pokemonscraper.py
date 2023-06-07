@@ -1,3 +1,6 @@
+"""Module: pokemonscraper.py
+This file contains functions for scraping data from pokemondb.net. This includes scraping the Pokemon data and the additional information for each Pokemon."""
+
 import time
 from bs4 import BeautifulSoup
 import requests
@@ -6,14 +9,25 @@ import pandas as pd
 
 
 def make_data_frame():
-    """Make a dataframe for the Pokemon"""
+    """Make a dataframe for the Pokemon
+    
+    Args: 
+        None
+    Returns:
+        A dataframe for the Pokemon"""
     #list of Pokemon formatted with name, type, damage type, Power, Accuracy, PP
     return pd.DataFrame(columns = ['Number', 'Name', 'Type1', 'Type2', 'Total', 'Attack', 'Defense',
                                    'SP Attack', 'SP Defense', 'Speed'])
 
 
 def scrape_pokemon_data():
-    """Scrape the Pokemon data from the website"""
+    """Scrape the Pokemon data from the 
+    
+    Args:
+        None
+    Returns:
+        A dataframe containing the Pokemon data"""
+    
     pokemon_df = make_data_frame()
 
     link = "https://pokemondb.net/pokedex/all"  # note, only for gen 1. can be changed
@@ -55,6 +69,13 @@ def scrape_pokemon_data():
 
 
 def add_additional_info(dataframe):
+    """This function will add additional information to the dataframe
+    
+    Args:
+        dataframe: The dataframe containing the pokemon data ie Weight, Abilities, Possible Moves
+    
+    Returns:
+        The dataframe with the additional information added"""
     #add columns to the dataframe
     dataframe["Weight"] = None
     dataframe["Ability1"] = None
@@ -63,7 +84,7 @@ def add_additional_info(dataframe):
 
     #iterate through the dataframe and add the additional info
     for index, row in dataframe.iterrows():
-        info = get_additional_info(row["Name"])
+        info = get_additional_info_pokemon(row["Name"])
         print(row["Name"])
         dataframe.loc[index, "Weight"] = info[0]
         dataframe.loc[index, "Ability1"] = info[1][0]
@@ -75,8 +96,15 @@ def add_additional_info(dataframe):
     return dataframe
 
 
-def get_additional_info(pokemon_name):
-    """This function will go to the pokemon's page in pokemon db and get needed additional information"""
+def get_additional_info_pokemon(pokemon_name):
+    """This function will go to the pokemon's page in pokemon db and get 
+    needed additional information such as weight, abilities, and possible moves
+    
+    Args:
+        pokemon_name: The name of the pokemon
+    
+    Returns:
+        A list containing the weight, abilities, and possible moves of the pokemon"""
     if " " in pokemon_name:
         pokemon_name = pokemon_name.replace(" ", "-")
 
@@ -109,7 +137,14 @@ def get_additional_info(pokemon_name):
 
 
 def get_levelup_moves(pokemon_name, soup):
-    """This function will go to a pokemon's page in pokemon db and get the levelup moves and return it as a list"""
+    """This function will go to a pokemon's page in pokemon db and get the levelup moves and return it as a list
+    
+    Args:
+        pokemon_name: The name of the pokemon
+        soup: The soup object of the pokemon's page
+    
+    Returns:
+        A list containing the levelup moves of the pokemon"""
 
     #levelup moves will be in the sixth table
     levelup_moves_table = soup.find("table", class_="data-table")
@@ -125,7 +160,14 @@ def get_levelup_moves(pokemon_name, soup):
 
 
 def get_evolution_moves(pokemon_name, soup):
-    """This function will go to the pokemon's page in pokemon db and will return the egg moves as a list"""
+    """This function will go to the pokemon's page in pokemon db and will return the egg moves as a list
+    
+    Args:
+        pokemon_name: The name of the pokemon
+        soup: The soup object of the pokemon's page
+        
+    Returns:
+        A list containing the evolution moves of the pokemon"""
 
     #egg moves will be in the 7th table
     egg_moves_table = soup.find_all("table", class_="data-table")[1]
@@ -141,7 +183,14 @@ def get_evolution_moves(pokemon_name, soup):
 
 
 def get_egg_moves(pokemon_name, soup):
-    """This function will go to the pokemon's page in pokemon db and will return the egg moves as a list"""
+    """This function will go to the pokemon's page in pokemon db and will return the egg moves as a list
+    
+    Args:
+        pokemon_name: The name of the pokemon
+        soup: The soup object of the pokemon's page
+        
+    Returns:
+        A list containing the egg moves of the pokemon"""
 
     #egg moves will be in the 8th table
     egg_moves_table = soup.find_all("table", class_="data-table")[2]
@@ -157,7 +206,14 @@ def get_egg_moves(pokemon_name, soup):
 
 
 def get_tm_moves(pokemon_name, soup):
-    """This function will go to the pokemon's page in pokemon db and will return the tm moves as a list"""
+    """This function will go to the pokemon's page in pokemon db and will return the tm moves as a list
+    
+    Args:
+        pokemon_name: The name of the pokemon
+        soup: The soup object of the pokemon's page
+        
+    Returns:
+        A list containing the tm moves of the pokemon"""
 
     if len(soup.find_all("table", class_="data-table")) < 4:
         return []
@@ -176,7 +232,15 @@ def get_tm_moves(pokemon_name, soup):
     
 
 def get_abilities(pokemon_name, soup):
-    """This function will go to the pokemon's page in pokemon db and will return the abilities as a list"""
+    """This function will go to the pokemon's page in pokemon db and will return the abilities as a list
+    
+    Args:
+        pokemon_name: The name of the pokemon
+        soup: The soup object of the pokemon's page
+        
+    Returns:
+        A list containing the abilities of the pokemon"""
+    
     #setting up local Variables
     ability1 = None
     ability2 = None

@@ -1,3 +1,6 @@
+"""Module: attackscraper.py
+This file contains functions for scraping attack data from the website. This includes scraping the attack name, type, damage type, power, accuracy, pp, description, tm, and notes."""
+
 import time
 from bs4 import BeautifulSoup
 import requests
@@ -5,14 +8,26 @@ import pandas as pd
 
 
 def make_data_frame():
-    """Make a dataframe for the scraped attacks"""
+    """Make a dataframe for the scraped attacks
+    
+    Args:
+        None
+    
+    Returns:
+        A dataframe for the attacks"""
     #list of attacks formatted with name, type, damage type, Power, Accuracy, PP
     return pd.DataFrame(columns = ['Name', 'Type', 'Damage Type', 'Power', 'Accuracy', 'PP', 
                                    'Description', 'TM', 'Notes'])
 
 
 def scrape_attack_data():
-    """Scrape the attack data from the website"""
+    """Scrape the attack data from the website
+    
+    Args:
+        None
+    
+    Returns:
+        A dataframe containing the attack data"""
     attack_df = make_data_frame()
 
     link = "https://pokemondb.net/move/all"  # note, only for gen 1. can be changed
